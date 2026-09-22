@@ -83,6 +83,9 @@ PRODUCT_PACKAGES += Traceur
 # rootdir/Android.bp and listed in tb375fc-rootdir-packages.mk.
 include $(DEVICE_PATH)/tb375fc-rootdir-packages.mk
 
+# Folio keyboard UART permissions, applied when ueventd creates /dev/ttyS3.
+include $(DEVICE_PATH)/tb375fc-ueventd-odm.mk
+
 # tb375fc-vendor-symlinks.mk is NOT included here; its rules reference
 # $(TARGET_OUT_VENDOR) which is unset during product-config. It is included
 # from Android.mk instead, which runs after envsetup.mk.

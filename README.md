@@ -64,6 +64,11 @@ The stock hall sensor driver reports the cover as two key presses that only ZUI 
 ### Lenovo keyboards and pens
 `configs/keylayout` and `configs/idc` carry stock's `Vendor_17ef_Product_*` files for Lenovo keyboard covers and pens. Stock uses ZUI-only key codes for the special keys; LineageOS's input stack rejects a whole layout file on an unknown label, so those lines are commented out, except that Lenovo mute, screen lock, search and settings keys are mapped to the AOSP `VOLUME_MUTE`, `LOCK`, `SEARCH` and `SETTINGS` keys. Touchpad mute, Fn lock, full screen, split screen, PC mode, the app keys, keyboard backlight levels and the pen button gestures have no AOSP equivalent and do nothing.
 
+The folio keyboard UART `/dev/ttyS3` uses an ODM ueventd rule to apply stock
+`0666 system:system` permissions when the node is created. This avoids relying
+on the timing of the one-shot init `chown`/`chmod`; the existing SELinux label
+and HAL access rules are unchanged. Keyboard operation still needs device validation.
+
 ### Bluetooth classic profiles
 `tb375fc-stock-vendor-props.mk` explicitly enables A2DP source, both HFP roles,
 AVRCP controller/target, HID host, OPP, PBAP server and MAP server for the AOSP

@@ -1,0 +1,7 @@
+# Folio keyboard UART (Tinno TN_KB). Node: 4,67 u:object_r:tinno_keyboard_device:s0
+# (label from stock vendor_file_contexts, unchanged).
+#
+# init.project.rc also sets these permissions after insmod. Use ueventd so
+# node permissions do not depend on when those commands run.
+# See tb375fc-ueventd-odm.mk for the build rule.
+/dev/ttyS3                0666   system     system
