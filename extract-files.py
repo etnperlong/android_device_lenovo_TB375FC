@@ -10,6 +10,7 @@
 # re-extract from source.
 
 from extract_utils.fixups_lib import (
+    lib_fixup_remove,
     lib_fixups_user_type,
 )
 from extract_utils.main import (
@@ -29,6 +30,26 @@ lib_fixups: lib_fixups_user_type = {
     # blob as libmnl_stock (stem libmnl); point dependents at it so the
     # unrelated AOSP library is never pulled onto /vendor.
     'libmnl': lib_fixup_stock_suffix,
+    # Stock libraries that LineageOS 24.0 hardware/mediatek also builds at the
+    # same install path. A second Soong module for the same file would emit
+    # duplicate install/symbols rules, so proprietary-files.txt ships these
+    # as MAKE_COPY_RULE_ONLY copies; drop the now module-less build-time edges
+    # (check_elf is off, the copied files satisfy DT_NEEDED at runtime).
+    (
+        'libaedv',
+        'libion_mtk',
+        'libladder',
+        'libmtkperf_client',
+        'libmtkperf_client_vendor',
+        'libperfctl_vendor',
+        'libpowerhalwrap',
+        'libpowerhalwrap_vendor',
+        'vendor.mediatek.hardware.bluetooth.audio@2.1',
+        'vendor.mediatek.hardware.bluetooth.audio@2.2',
+        'vendor.mediatek.hardware.bluetooth.audio-V1-ndk',
+        'vendor.mediatek.hardware.mtkpower-V1-ndk',
+        'vendor.mediatek.hardware.mtkpower-V2-ndk',
+    ): lib_fixup_remove,
 }
 
 module = ExtractUtilsModule(

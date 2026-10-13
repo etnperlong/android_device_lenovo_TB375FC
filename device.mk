@@ -13,15 +13,13 @@ DEVICE_PATH := device/lenovo/TB375FC
 # resolve mediatek-common.
 PRODUCT_SOONG_NAMESPACES += hardware/mediatek
 
-# The official hardware/mediatek tree builds the memtrack/thermal/vibrator HALs
-# and the perf/power client libs from source. TB375FC/TB373FU ship all of these
-# as prebuilt vendor blobs, so opt out of the source builds (otherwise the source
-# module and the prebuilt collide on the vendor partition). These flags are read
-# by select() in hardware/mediatek/{aidl/*,libmtkperf_client}/Android.bp.
-$(call soong_config_set,mediatek_hardware,use_prebuilt_memtrack,true)
-$(call soong_config_set,mediatek_hardware,use_prebuilt_thermal,true)
-$(call soong_config_set,mediatek_hardware,use_prebuilt_vibrator,true)
-$(call soong_config_set,mediatek_hardware,use_prebuilt_perf,true)
+# The official hardware/mediatek tree builds its own memtrack/thermal/vibrator/
+# audio HALs, perf/power client libs, libaedv/libladder/libion_mtk stubs,
+# wlan_assistant, chipinfo and mtkpower/bluetooth.audio interface libs.
+# TB375FC/TB373FU ship the stock blobs instead, installed as
+# MAKE_COPY_RULE_ONLY copies (proprietary-files.txt) that override the source
+# modules' install rules; extract-files.py lib_fixups drop the dependency
+# edges onto them.
 
 $(call inherit-product, hardware/mediatek/overlay/mssi.mk)
 $(call inherit-product, hardware/mediatek/frameworks/mediatek-frameworks.mk)
