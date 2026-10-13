@@ -140,7 +140,7 @@ system_ext/framework/log-handler.jar;MAKE_COPY_RULE_ONLY
 system_ext/framework/log-handler.jar.fsv_meta;MAKE_COPY_RULE_ONLY
 system_ext/framework/mediatek-carrier-config-manager.jar;MAKE_COPY_RULE_ONLY
 system_ext/framework/mediatek-carrier-config-manager.jar.fsv_meta;MAKE_COPY_RULE_ONLY
-system_ext/framework/mediatek-common.jar;MAKE_COPY_RULE_ONLY
+system_ext/framework/mediatek-common.jar;EXTRACT_ONLY
 system_ext/framework/mediatek-common.jar.fsv_meta;MAKE_COPY_RULE_ONLY
 system_ext/framework/mediatek-framework.jar;MAKE_COPY_RULE_ONLY
 system_ext/framework/mediatek-framework.jar.fsv_meta;MAKE_COPY_RULE_ONLY

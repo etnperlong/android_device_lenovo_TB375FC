@@ -16,13 +16,12 @@
 // Why not just leave mediatek-common as the LOS-source 2 KB stub at
 // hardware/mediatek/frameworks/common/Android.bp:  the LOS stub's classes.dex
 // is essentially empty (1712 bytes vs 88,328 bytes here). hardware/mediatek/
-// frameworks/mediatek-frameworks.mk adds `mediatek-common` to PRODUCT_BOOT_JARS,
-// and Soong resolves that to the LOS stub install path
-// (/system/framework/mediatek-common.jar). Vendor MTK apps -- MtkGeofence
+// frameworks/mediatek-frameworks.mk adds `system_ext:mediatek-common` to
+// PRODUCT_BOOT_JARS, so the stub would occupy the BOOTCLASSPATH slot at
+// /system_ext/framework/mediatek-common.jar. Vendor MTK apps -- MtkGeofence
 // (com.mediatek.location.mtkgeofence), MtkSettingsProvider, callrecorder etc.
 // -- ClassNotFound-crash at runtime because IMtkGeofence$Stub and friends are
-// in the proprietary jar at /system_ext/framework/mediatek-common.jar that
-// isn't in BOOTCLASSPATH.
+// only in the proprietary jar.
 //
 // Override mechanism: declare this dex_import with the SAME NAME as the LOS
 // source's `mediatek-common` module and set `prefer: true`. Soong's prebuilt-
@@ -32,10 +31,22 @@
 // duplication error that occurs when both modules end up in the boot dex set.
 // Soong's `prefer: true` is the documented pattern for replacing a source
 // module with a prebuilt across the build (build/soong/java/dex_import.go).
+//
+// The prebuilt must install to the same partition as the source module
+// (system_ext); LineageOS 24.0 Soong rejects a mismatch. Because this module
+// now owns /system_ext/framework/mediatek-common.jar, proprietary-files.txt
+// marks that jar EXTRACT_ONLY so the generated vendor makefile does not also
+// copy it there.
+//
+// Like the source module it also sets use_generic_config: the jar does not
+// depend on device configuration, and Android 17 rejects non-generic modules
+// reachable from the system image through platform-bootclasspath.
 
 dex_import {
     name: "mediatek-common",
     owner: "lenovo",
     jars: ["mediatek-common.jar"],
     prefer: true,
+    system_ext_specific: true,
+    use_generic_config: true,
 }
