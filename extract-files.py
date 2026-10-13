@@ -9,14 +9,32 @@
 # the already-extracted proprietary/ tree; run with a dump path to
 # re-extract from source.
 
+from extract_utils.fixups_lib import (
+    lib_fixups_user_type,
+)
 from extract_utils.main import (
     ExtractUtils,
     ExtractUtilsModule,
 )
 
+
+def lib_fixup_stock_suffix(lib: str, *args, **kwargs):
+    return f'{lib}_stock'
+
+
+lib_fixups: lib_fixups_user_type = {
+    # MediaTek's GNSS library vendor/lib*/mt6897/libmnl.so (needed by mnld)
+    # shares its name with AOSP's netfilter external/libmnl, which is
+    # vendor_available since Android 17. proprietary-files.txt builds the
+    # blob as libmnl_stock (stem libmnl); point dependents at it so the
+    # unrelated AOSP library is never pulled onto /vendor.
+    'libmnl': lib_fixup_stock_suffix,
+}
+
 module = ExtractUtilsModule(
     'TB375FC',
     'lenovo',
+    lib_fixups=lib_fixups,
 )
 
 if __name__ == '__main__':

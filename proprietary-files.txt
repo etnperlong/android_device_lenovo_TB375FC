@@ -1580,7 +1580,7 @@ vendor/lib/mt6897/libimgsys_utils.so
 vendor/lib/mt6897/libimgsys_wpe.so
 vendor/lib/mt6897/libmml.so
 vendor/lib/mt6897/libmmlpqImpl.so
-vendor/lib/mt6897/libmnl.so
+vendor/lib/mt6897/libmnl.so;MODULE_SUFFIX=_stock
 vendor/lib/mt6897/libmtk_drvb.so
 vendor/lib/mt6897/libmtkcam.atmseventmgr.so
 vendor/lib/mt6897/libmtkcam.debugwrapper.so
@@ -2438,7 +2438,7 @@ vendor/lib64/mt6897/libmgr3a.adapt.so
 vendor/lib64/mt6897/libmmagent.so
 vendor/lib64/mt6897/libmml.so
 vendor/lib64/mt6897/libmmlpqImpl.so
-vendor/lib64/mt6897/libmnl.so
+vendor/lib64/mt6897/libmnl.so;MODULE_SUFFIX=_stock
 vendor/lib64/mt6897/libmtk_drvb.so
 vendor/lib64/mt6897/libmtkcam.atmseventmgr.so
 vendor/lib64/mt6897/libmtkcam.debugwrapper.so
