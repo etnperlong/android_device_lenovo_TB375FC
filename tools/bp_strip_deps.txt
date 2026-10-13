@@ -30,3 +30,6 @@ vendor.mediatek.hardware.pq_aidl-impl
 libcodec2_hidl@1.0
 libcodec2_hidl@1.1
 libcodec2_hidl@1.2
+android.frameworks.displayservice@1.0
+android.hardware.light@2.0
+android.system.suspend@1.0
