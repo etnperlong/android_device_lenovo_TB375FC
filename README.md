@@ -1,6 +1,6 @@
 # Lenovo Xiaoxin Pad Pro 12.7 (2025) - TB375FC
 
-LineageOS 23.2 (Android 16) device tree for the Lenovo Xiaoxin Pad Pro 12.7 (2025), `TB375FC`, the PRC Wi-Fi variant. ODM is Wingtech; the internal project codename is `peridot`.
+LineageOS 24.0 (Android 17) device tree for the Lenovo Xiaoxin Pad Pro 12.7 (2025), `TB375FC`, the PRC Wi-Fi variant. ODM is Wingtech; the internal project codename is `peridot`.
 
 ## Specifications
 
@@ -20,7 +20,7 @@ LineageOS 23.2 (Android 16) device tree for the Lenovo Xiaoxin Pad Pro 12.7 (202
 ## Build
 
 ```
-repo init -u https://github.com/LineageOS/android.git -b lineage-23.2
+repo init -u https://github.com/LineageOS/android.git -b lineage-24.0 --git-lfs
 ```
 
 Add the manifest below as `.repo/local_manifests/TB375FC.xml`, then:
@@ -28,7 +28,7 @@ Add the manifest below as `.repo/local_manifests/TB375FC.xml`, then:
 ```
 repo sync
 source build/envsetup.sh
-lunch lineage_TB375FC-bp4a-user
+lunch lineage_TB375FC-cp2a-user
 mka bacon
 ```
 
@@ -39,13 +39,13 @@ Kernel, DTB and modules ship prebuilt in the device tree (`prebuilts/`), so no k
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="LosSantosPro/android_device_lenovo_TB375FC" path="device/lenovo/TB375FC" remote="github" revision="lineage-23.2" />
-  <project name="LosSantosPro/android_vendor_lenovo_TB375FC" path="vendor/lenovo/TB375FC" remote="github" revision="lineage-23.2" />
-  <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="lineage-23.2" />
+  <project name="etnperlong/android_device_lenovo_TB375FC" path="device/lenovo/TB375FC" remote="github" revision="lineage-24.0" />
+  <project name="etnperlong/android_vendor_lenovo_TB375FC" path="vendor/lenovo/TB375FC" remote="github" revision="lineage-24.0" />
+  <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="lineage-24.0" />
 </manifest>
 ```
 
-`hardware/mediatek` is the upstream LineageOS common tree (the device inherits it). For the ROW (global) sibling, use `android_device_lenovo_TB373FU` and `lunch lineage_TB373FU-bp4a-user` instead - see that tree's README.
+`hardware/mediatek` is the upstream LineageOS common tree (the device inherits it). The vendor blobs are the same as the 23.2 port; only the makefiles generated from `proprietary-files.txt` changed for 24.0, so the device and vendor `lineage-24.0` branches must be used together. The ROW (global) sibling `android_device_lenovo_TB373FU` is only available for lineage-23.2.
 
 ## Notes
 

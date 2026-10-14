@@ -7,6 +7,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_TB375FC.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_TB375FC-bp4a-userdebug \
-    lineage_TB375FC-bp4a-eng \
-    lineage_TB375FC-bp4a-user
+    lineage_TB375FC-cp2a-userdebug \
+    lineage_TB375FC-cp2a-eng \
+    lineage_TB375FC-cp2a-user
