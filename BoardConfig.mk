@@ -307,7 +307,7 @@ BOARD_VNDK_VERSION             := current
 # Property emission (sysprop_config.mk):
 #   BOARD_SHIPPING_API_LEVEL    -> ro.board.first_api_level=34
 #   BOARD_API_LEVEL_PROP_OVERRIDE -> ro.board.api_level=34
-#                                   (overrides RELEASE_BOARD_API_LEVEL=202504)
+#                                   (overrides RELEASE_BOARD_API_LEVEL, 202604 on A17)
 # ro.vndk.version=34 is forced separately in device.mk because AOSP A16
 # clears BOARD_VNDK_VERSION at config.mk:1336.
 BOARD_SHIPPING_API_LEVEL       := 34

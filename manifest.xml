@@ -14,9 +14,10 @@
     proprietary/.archive/android.hardware.biometrics.fingerprint-service.a14_v2_f9f02ce2
     available as fallback if a future LineageOS framework requires v2
     semantics or A16 v3 ever fails against this device's TEE.
+
+    The <sepolicy><version> is filled in by assemble_vintf from
+    BOARD_SEPOLICY_VERS, matching the vendor_sepolicy.cil / plat_sepolicy_vers.txt
+    that are built from this tree; hard-coding it breaks on platform upgrades.
 -->
 <manifest version="2.0" type="device" target-level="8">
-    <sepolicy>
-        <version>202504</version>
-    </sepolicy>
 </manifest>
