@@ -15,7 +15,7 @@ LineageOS 24.0 (Android 17) device tree for the Lenovo Xiaoxin Pad Pro 12.7 (202
 | Cameras | 13 MP rear, 8 MP front |
 | Fingerprint | Goodix |
 | Stylus | Lenovo Tab Pen Plus (active pen) |
-| Stock | Android 16 (ZUXOS 1.5.10.060); launched on Android 14 (API 34) |
+| Stock | Android 16 (ZUXOS 1.5.10.103); launched on Android 14 (API 34) |
 
 ## Build
 
@@ -32,7 +32,7 @@ lunch lineage_TB375FC-cp2a-user
 mka bacon
 ```
 
-Kernel, DTB and modules ship prebuilt in the device tree (`prebuilts/`), so no kernel source is needed to build. The from-source 6.1 kernel that produced them is published separately as `android_device_lenovo_TB375FC-kernel` for reference and reproducibility; the build does not consume it.
+Kernel, DTB and modules ship prebuilt in the device tree (`prebuilts/`), so no kernel source is needed to build. The separate `android_device_lenovo_TB375FC-kernel` checkout contains reference prebuilts; the build does not consume it.
 
 ### local_manifests/TB375FC.xml
 
@@ -45,7 +45,7 @@ Kernel, DTB and modules ship prebuilt in the device tree (`prebuilts/`), so no k
 </manifest>
 ```
 
-`hardware/mediatek` is the upstream LineageOS common tree (the device inherits it). The vendor blobs are the same as the 23.2 port; only the makefiles generated from `proprietary-files.txt` changed for 24.0, so the device and vendor `lineage-24.0` branches must be used together. The ROW (global) sibling `android_device_lenovo_TB373FU` is only available for lineage-23.2.
+`hardware/mediatek` is the upstream LineageOS common tree (the device inherits it). The device and vendor `lineage-24.0` branches must be used together.
 
 ## Notes
 

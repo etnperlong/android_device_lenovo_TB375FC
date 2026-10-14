@@ -2,8 +2,7 @@
 # SPDX-FileCopyrightText: The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
-# Regenerate tb375fc-vendor.mk, Android.bp and proprietary-files.txt from
-# the actual contents of vendor/lenovo/TB375FC/proprietary/.
+# Legacy inventory generator; use extract-files.py --regenerate_makefiles.
 #
 # AOSP rules:
 #   .apk files cannot live in PRODUCT_COPY_FILES (kati hard error in

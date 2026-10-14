@@ -3,11 +3,11 @@
 # SPDX-FileCopyrightText: The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
-# TB375FC blob extraction + makefile generation entry point. Sources are
-# the stock A16 TB375FC PRC firmware pulled directly off the device after
-# OTA to ZUI 17.5.10.060. Run with --regenerate_makefiles (-m) to
-# (re)generate makefiles from the already-extracted proprietary/ tree; run
-# with a dump path to re-extract from source (no argument extracts over adb).
+# TB375FC blob extraction + makefile generation entry point.
+# Vendor updates use PRC .103/P16; retain existing Lineage adaptations.
+# Run --regenerate_makefiles (-m) against the maintained proprietary/ tree.
+# Use a disposable dump and isolated checkout for full re-extraction.
+# No source argument extracts over adb.
 
 from extract_utils.fixups_lib import (
     lib_fixup_remove,

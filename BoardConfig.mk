@@ -51,8 +51,8 @@ BOARD_BOOT_HEADER_VERSION     := 4
 BOARD_INIT_BOOT_HEADER_VERSION   := 4
 BOARD_VENDOR_BOOT_HEADER_VERSION := 4
 
-# DTB. 411 KB verbatim from stock TB375FC's vendor_boot dtb section
-# (md5 f004340d171f5b8c7ea28c9313c3b55d). dtb_offset is stock's
+# DTB. 411 KB from the .103 stock TB375FC vendor_boot dtb section
+# (md5 20a492887dceeb4933bb3554d46cb55f). dtb_offset is stock's
 # `dtb address 0x47c80000` minus `kernel load address 0x40000000`.
 TARGET_PREBUILT_DTB           := $(DEVICE_PATH)/prebuilts/dtb/dtb.img
 
@@ -264,9 +264,8 @@ BOARD_AVB_MAKE_VBMETA_VENDOR_IMAGE_ARGS += --flags 3
 # main vbmeta VERIFICATION_DISABLED, and rejects a mismatch as "incompatible hardware".
 # avbtool's default random per-run salt makes the standalone dtbo.img and the descriptor
 # embedded in vbmeta disagree (they are signed by separate avbtool invocations), which
-# bricks boot on a fresh flash. Pin the dtbo salt so both copies carry the same hash. The
-# value is the OEM dtbo salt; the device tree being byte-identical to stock, the signed
-# dtbo reproduces the stock AVB digest exactly, so vbmeta and the flashed dtbo always agree.
+# bricks boot on a fresh flash. Pin the salt so both generated copies agree.
+# This is the retained DTBO salt, not a guarantee of matching every stock image.
 BOARD_AVB_DTBO_ADD_HASH_FOOTER_ARGS += --salt 4e6ccb7d15ef04077beaec9b0bfa9589d57b32eef1f731e4f38cbd4d4119b023
 
 # Recovery (LOS Recovery packed as vendor_boot ramdisk fragment). For A14+
