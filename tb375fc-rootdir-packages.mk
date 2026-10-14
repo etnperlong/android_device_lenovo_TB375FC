@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     device/lenovo/TB375FC/rootdir/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
     device/lenovo/TB375FC/rootdir/etc/init/boringssl_self_test.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/boringssl_self_test.rc \
     device/lenovo/TB375FC/rootdir/etc/init/cas-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cas-default.rc \
-    device/lenovo/TB375FC/rootdir/etc/init/chipinfo_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/chipinfo_init.rc \
     device/lenovo/TB375FC/rootdir/etc/init/dcxo_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dcxo_nvram_init.rc \
     device/lenovo/TB375FC/rootdir/etc/init/dmc_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dmc_core.rc \
     device/lenovo/TB375FC/rootdir/etc/init/dvs-aidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dvs-aidl-service.rc \

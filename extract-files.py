@@ -31,10 +31,10 @@ lib_fixups: lib_fixups_user_type = {
     # unrelated AOSP library is never pulled onto /vendor.
     'libmnl': lib_fixup_stock_suffix,
     # Stock libraries that LineageOS 24.0 hardware/mediatek also builds at the
-    # same install path. A second Soong module for the same file would emit
-    # duplicate install/symbols rules, so proprietary-files.txt ships these
-    # as MAKE_COPY_RULE_ONLY copies; drop the now module-less build-time edges
-    # (check_elf is off, the copied files satisfy DT_NEEDED at runtime).
+    # same install path. Libraries cannot shadow those across the namespace
+    # cleanly, so proprietary-files.txt ships these as MAKE_COPY_RULE_ONLY
+    # copies; drop the now module-less build-time edges (check_elf is off, the
+    # copied files satisfy DT_NEEDED at runtime).
     (
         'libaedv',
         'libion_mtk',
@@ -52,10 +52,19 @@ lib_fixups: lib_fixups_user_type = {
     ): lib_fixup_remove,
 }
 
+# The stock HAL binaries that hardware/mediatek also builds (audio, memtrack,
+# thermal, vibrator, wlan_assistant) are generated as same-name preferred
+# prebuilts. Importing the hardware/mediatek namespace lets Soong pair them
+# with the source modules and hide those, so the source modules' init_rc,
+# vintf_fragments and shared_libs are never installed. A Make copy rule over
+# the same path would merge those as prerequisites into the staging dir,
+# which target_files copies wholesale (duplicate IThermal/IVibrator VINTF
+# fragments).
 module = ExtractUtilsModule(
     'TB375FC',
     'lenovo',
     lib_fixups=lib_fixups,
+    namespace_imports=['hardware/mediatek'],
 )
 
 if __name__ == '__main__':

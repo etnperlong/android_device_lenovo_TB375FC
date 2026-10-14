@@ -414,7 +414,6 @@ vendor/bin/bp_kmsetkey_ca
 vendor/bin/bt_dump
 vendor/bin/ccci_mdinit
 vendor/bin/ccci_rpcd
-vendor/bin/chipinfo;MAKE_COPY_RULE_ONLY
 vendor/bin/conninfra_loader
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/ae/mt6897/ParameterDB_ae.db;MAKE_COPY_RULE_ONLY
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/af/mt6897/ParameterDB_af.db;MAKE_COPY_RULE_ONLY
@@ -498,7 +497,7 @@ vendor/bin/gbe
 vendor/bin/gps_dump
 vendor/bin/gsm0710muxd
 vendor/bin/hostapd_cli
-vendor/bin/hw/android.hardware.audio.service.mediatek;MAKE_COPY_RULE_ONLY
+vendor/bin/hw/android.hardware.audio.service.mediatek
 vendor/bin/hw/android.hardware.biometrics.fingerprint-service
 vendor/bin/hw/android.hardware.bluetooth-service-mediatek
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek
@@ -511,15 +510,15 @@ vendor/bin/hw/android.hardware.health-service.example;MAKE_COPY_RULE_ONLY
 vendor/bin/hw/android.hardware.lights-service.mediatek
 vendor/bin/hw/android.hardware.media.c2@1.2-mediatek
 vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b
-vendor/bin/hw/android.hardware.memtrack-service.mediatek;MAKE_COPY_RULE_ONLY
+vendor/bin/hw/android.hardware.memtrack-service.mediatek
 vendor/bin/hw/android.hardware.neuralnetworks-shim-service-mtk
 vendor/bin/hw/android.hardware.neuralnetworks-shim-service-mtk-lazy
 vendor/bin/hw/android.hardware.security.keymint@3.0-service.beanpod;MAKE_COPY_RULE_ONLY
 vendor/bin/hw/android.hardware.sensors-service.multihal;MAKE_COPY_RULE_ONLY
-vendor/bin/hw/android.hardware.thermal-service.mediatek;MAKE_COPY_RULE_ONLY
+vendor/bin/hw/android.hardware.thermal-service.mediatek
 vendor/bin/hw/android.hardware.usb-aidl-service.mediatekv1.0
 vendor/bin/hw/android.hardware.usb.gadget-aidl-service.mediatekv1.0
-vendor/bin/hw/android.hardware.vibrator-service.mediatek;MAKE_COPY_RULE_ONLY
+vendor/bin/hw/android.hardware.vibrator-service.mediatek
 vendor/bin/hw/android.hardware.wifi-service-lazy;MAKE_COPY_RULE_ONLY
 vendor/bin/hw/dvs-hidl-service
 vendor/bin/hw/hostapd;MAKE_COPY_RULE_ONLY
@@ -597,7 +596,7 @@ vendor/bin/volte_rcs_ua
 vendor/bin/vpud
 vendor/bin/wifi_dump
 vendor/bin/wifitest
-vendor/bin/wlan_assistant;MAKE_COPY_RULE_ONLY
+vendor/bin/wlan_assistant
 vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
 vendor/bin/wpa_cli
@@ -813,7 +812,6 @@ vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/init/bootperf.rc
 vendor/etc/init/boringssl_self_test.rc
 vendor/etc/init/camerahalserver.rc
-vendor/etc/init/chipinfo_init.rc
 vendor/etc/init/dcxo_nvram_init.rc
 vendor/etc/init/dmc_core.rc
 vendor/etc/init/dvs-hidl-service.rc

@@ -33,3 +33,4 @@ libcodec2_hidl@1.2
 android.frameworks.displayservice@1.0
 android.hardware.light@2.0
 android.system.suspend@1.0
+android.hardware.thermal-V1-ndk
