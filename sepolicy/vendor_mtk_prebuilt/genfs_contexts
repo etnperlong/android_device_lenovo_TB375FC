@@ -723,7 +723,10 @@ genfscon sysfs /devices/soc0   u:object_r:sysfs_soc:s0
 genfscon sysfs /class/sensor   u:object_r:sysfs_sensor:s0
 genfscon sysfs /kernel/fpsgo   u:object_r:sysfs_fpsgo:s0
 genfscon sysfs /devices/utos   u:object_r:teei_control_file:s0
-genfscon sysfs /class/typec   u:object_r:sysfs_usb_nonplat:s0
+# /class/typec is labeled sysfs_typec by the platform from genfs labels
+# version 202604 (Android 17); a second vendor label makes secilc fail with
+# "Found conflicting genfscon rules". hal_usb (mtk_hal_usb), system_server and
+# vendor_init already get the access they need on sysfs_typec.
 genfscon sysfs /kernel/ccci   u:object_r:sysfs_ccci:s0
 genfscon sysfs /module/ged   u:object_r:sysfs_ged:s0
 genfscon sysfs /module/xgf   u:object_r:sysfs_xgf:s0
