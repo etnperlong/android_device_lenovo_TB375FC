@@ -355,8 +355,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
-# Runtime resource overlays (overlay/), one per target package. Static, on
-# vendor, below stock's prebuilt vendor overlays for the same target.
+# Runtime resource overlays (overlay/), one per target package, static, on
+# vendor. FrameworkResDeviceOverlay sorts above stock's MediaTek framework
+# overlays (it carries the stock brightness range); the others sort below
+# stock's prebuilt vendor overlays for the same target.
 PRODUCT_PACKAGES += \
     FrameworkResDeviceOverlay \
     LineageSDKDeviceOverlay \
