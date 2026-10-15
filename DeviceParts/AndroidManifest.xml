@@ -13,6 +13,8 @@
          them so the dependencies are explicit. -->
     <uses-permission android:name="android.permission.DEVICE_POWER" />
     <uses-permission android:name="android.permission.RESTRICT_DISPLAY_MODES" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_ROUTING" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <uses-permission android:name="android.permission.MONITOR_INPUT" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
@@ -105,6 +107,10 @@
 
         <service
             android:name=".cover.CoverService"
+            android:exported="false" />
+
+        <service
+            android:name=".audio.SpeakerRotationService"
             android:exported="false" />
 
         <service
