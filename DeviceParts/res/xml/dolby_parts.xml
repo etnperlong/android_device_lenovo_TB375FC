@@ -49,4 +49,23 @@
             android:max="9"
             android:persistent="false" />
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="category_dolby_apps"
+        android:title="@string/category_dolby_apps_title">
+        <SwitchPreferenceCompat
+            android:key="dolby_app_profiles_enabled"
+            android:title="@string/dolby_app_profiles_enabled_title"
+            android:summary="@string/dolby_app_profiles_enabled_summary"
+            android:persistent="false" />
+
+        <Preference
+            android:key="dolby_app_profiles"
+            android:title="@string/dolby_app_profiles_title"
+            android:summary="@string/dolby_app_profiles_summary">
+            <intent
+                android:targetPackage="org.lineageos.settings.device"
+                android:targetClass="org.lineageos.settings.device.dolby.DolbyAppsActivity" />
+        </Preference>
+    </PreferenceCategory>
 </PreferenceScreen>

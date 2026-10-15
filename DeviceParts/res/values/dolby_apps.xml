@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Recommended Dolby modes, from stock /system/etc/audioeffect_whitelist.xml (read by ZUI's
+         AudioService). The ZUI file manager and gallery are replaced by the LineageOS gallery
+         and music player. Users can change or clear every entry. -->
+    <string-array name="dolby_music_apps" translatable="false">
+        <item>com.tencent.qqmusic</item>
+        <item>com.netease.cloudmusic</item>
+        <item>com.kugou.android</item>
+        <item>fm.xiami.main</item>
+        <item>cn.kuwo.player</item>
+        <item>com.android.app.migu</item>
+        <item>com.ting.mp3.android</item>
+        <item>com.spotify.music</item>
+        <item>com.apple.android.music</item>
+        <item>com.amazon.mp3</item>
+        <item>com.google.android.apps.youtube.music</item>
+        <item>com.pandora.android</item>
+        <item>deezer.android.app</item>
+        <item>com.soundcloud.android</item>
+        <item>com.aspiro.tidal</item>
+        <item>com.jio.media.jiobeats</item>
+        <item>com.gaana</item>
+        <item>com.bsbportal.music</item>
+        <item>com.clearchannel.iheartradio.controller</item>
+        <item>com.shazam.android</item>
+        <item>com.tencent.ibg.joox</item>
+        <item>ru.yandex.music</item>
+        <item>com.anghami</item>
+        <item>com.iloen.melon</item>
+        <item>com.skysoft.kkbox.android</item>
+        <item>org.lineageos.twelve</item>
+    </string-array>
+
+    <string-array name="dolby_movie_apps" translatable="false">
+        <item>com.tencent.qqlive</item>
+        <item>com.qiyi.video</item>
+        <item>com.qiyi.video.pad</item>
+        <item>com.youku.phone</item>
+        <item>tv.danmaku.bili</item>
+        <item>com.hunantv.imgo.activity</item>
+        <item>com.sohu.sohuvideo</item>
+        <item>com.letv.android.client</item>
+        <item>com.pplive.androidphone</item>
+        <item>com.google.android.youtube</item>
+        <item>com.netflix.mediaclient</item>
+        <item>com.amazon.avod.thirdpartyclient</item>
+        <item>com.disney.disneyplus</item>
+        <item>com.hulu.plus</item>
+        <item>tv.twitch.android.app</item>
+        <item>com.vimeo.android.videoapp</item>
+        <item>com.dailymotion.dailymotion</item>
+        <item>com.viki.android</item>
+        <item>in.startv.hotstar</item>
+        <item>com.mxtech.videoplayer.ad</item>
+        <item>com.viu.phone</item>
+        <item>com.sonyliv</item>
+        <item>com.graymatrix.did</item>
+        <item>com.tv.v18.viola</item>
+        <item>com.hbo.hbonow</item>
+        <item>org.lineageos.glimpse</item>
+    </string-array>
+</resources>

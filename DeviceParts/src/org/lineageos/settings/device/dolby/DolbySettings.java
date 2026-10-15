@@ -6,7 +6,15 @@
 package org.lineageos.settings.device.dolby;
 
 import android.content.ContentResolver;
+import android.content.Context;
 import android.provider.Settings;
+
+import org.lineageos.settings.device.R;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
 /**
  * Settings keys and value conversions for the Dolby screens and DolbyService.
@@ -15,7 +23,8 @@ import android.provider.Settings;
  * (it applies them to the effect and keeps them in sync with its Quick Settings tile). The user's
  * choices for the profile-specific parameters live in Secure keys that DolbyService applies;
  * these are the settings stock ZUI Settings exposes: intelligent equalizer preset and graphic
- * equalizer for Music, dialogue enhancer for Movie.
+ * equalizer for Music, dialogue enhancer for Movie. The mode is the default one; apps can have
+ * their own mode, used while they play audio (stock ZuiAudioWhitelist).
  */
 public final class DolbySettings {
     /** Owned by daxService: 1 = Dolby on. */
@@ -31,11 +40,17 @@ public final class DolbySettings {
     public static final String KEY_GEQ_GAINS = "tb375fc_dolby_geq_gains";
     /** Movie dialogue enhancer level: 0 off, 1..DIALOGUE_MAX amount. */
     public static final String KEY_DIALOGUE_LEVEL = "tb375fc_dolby_dialogue_level";
+    /** 1 = use the app modes. */
+    public static final String KEY_APP_PROFILES_ENABLED = "tb375fc_dolby_app_profiles_enabled";
+    /** App modes set by the user, "package=mode,...", overriding the recommended ones. */
+    public static final String KEY_APP_PROFILES = "tb375fc_dolby_app_profiles";
 
     // DAX profiles in dax-default.xml that stock ZUI offers.
     public static final int PROFILE_DYNAMIC = 0;
     public static final int PROFILE_MOVIE = 1;
     public static final int PROFILE_MUSIC = 2;
+    /** App mode meaning "use the default mode". */
+    public static final int PROFILE_DEFAULT = -1;
 
     public static final int IEQ_PRESET_MAX = 3;
 
@@ -78,6 +93,90 @@ public final class DolbySettings {
 
     public static void putGeqGains(ContentResolver cr, int[] gains) {
         Settings.Secure.putString(cr, KEY_GEQ_GAINS, formatGeqGains(gains));
+    }
+
+    public static boolean isAppProfilesEnabled(ContentResolver cr) {
+        return Settings.Secure.getInt(cr, KEY_APP_PROFILES_ENABLED, 1) != 0;
+    }
+
+    public static Map<String, Integer> getUserAppProfiles(ContentResolver cr) {
+        return parseAppProfiles(Settings.Secure.getString(cr, KEY_APP_PROFILES));
+    }
+
+    public static void putUserAppProfiles(ContentResolver cr, Map<String, Integer> profiles) {
+        Settings.Secure.putString(cr, KEY_APP_PROFILES, formatAppProfiles(profiles));
+    }
+
+    /**
+     * Stock's audioeffect_whitelist.xml, as overlayable resources: music apps get Music, video
+     * apps Movie.
+     */
+    public static Map<String, Integer> getRecommendedAppProfiles(Context context) {
+        final Map<String, Integer> profiles = new HashMap<>();
+        for (String pkg : context.getResources().getStringArray(R.array.dolby_movie_apps)) {
+            profiles.put(pkg, PROFILE_MOVIE);
+        }
+        for (String pkg : context.getResources().getStringArray(R.array.dolby_music_apps)) {
+            profiles.put(pkg, PROFILE_MUSIC);
+        }
+        return profiles;
+    }
+
+    /** Recommended app modes with the user's choices applied on top. */
+    static Map<String, Integer> mergeAppProfiles(Map<String, Integer> recommended,
+            Map<String, Integer> user) {
+        final Map<String, Integer> profiles = new HashMap<>(recommended);
+        profiles.putAll(user);
+        return profiles;
+    }
+
+    /**
+     * The profile to use while the given packages (those of the app playing audio, or none)
+     * are active: the first app mode found, otherwise the default mode.
+     */
+    static int resolveProfile(int defaultProfile, Map<String, Integer> appProfiles,
+            List<String> packages) {
+        for (String pkg : packages) {
+            final Integer profile = appProfiles.get(pkg);
+            if (profile != null) {
+                return profile == PROFILE_DEFAULT ? defaultProfile : sanitizeProfile(profile);
+            }
+        }
+        return defaultProfile;
+    }
+
+    /** Malformed entries are skipped. */
+    static Map<String, Integer> parseAppProfiles(String value) {
+        final Map<String, Integer> profiles = new TreeMap<>();
+        if (value == null || value.isEmpty()) {
+            return profiles;
+        }
+        for (String entry : value.split(",")) {
+            final int sep = entry.indexOf('=');
+            if (sep <= 0) {
+                continue;
+            }
+            try {
+                final int profile = Integer.parseInt(entry.substring(sep + 1).trim());
+                if (profile == PROFILE_DEFAULT || profile == sanitizeProfile(profile)) {
+                    profiles.put(entry.substring(0, sep).trim(), profile);
+                }
+            } catch (NumberFormatException e) {
+                // Skip.
+            }
+        }
+        return profiles;
+    }
+
+    static String formatAppProfiles(Map<String, Integer> profiles) {
+        final StringBuilder sb = new StringBuilder();
+        for (Map.Entry<String, Integer> entry : new TreeMap<>(profiles).entrySet()) {
+            if (sb.length() > 0) {
+                sb.append(',');
+            }
+            sb.append(entry.getKey()).append('=').append(entry.getValue());
+        }
+        return sb.toString();
     }
 
     static int sanitizeProfile(int profile) {

@@ -5,11 +5,15 @@
 
 package org.lineageos.settings.device.dolby;
 
+import android.app.ActivityManager;
 import android.app.Service;
 import android.content.ContentResolver;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.database.ContentObserver;
+import android.media.AudioAttributes;
 import android.media.AudioManager;
+import android.media.AudioPlaybackConfiguration;
 import android.net.Uri;
 import android.os.Handler;
 import android.os.HandlerThread;
@@ -17,25 +21,48 @@ import android.os.IBinder;
 import android.provider.Settings;
 import android.util.Log;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.Map;
+
 /**
  * Applies the Dolby settings chosen in DolbyFragment to the DAX effect.
  *
  * The mode is written to daxService's Global profile key, the path stock ZUI's AudioService
- * uses; daxService applies it and saves it. The Music and Movie parameters go to the effect
- * directly, for their own profile so they apply whenever that profile is active. They are
- * re-applied at boot and after audioserver restarts because daxService restores only part of
- * them (not the dialogue enhancer switch). On first start the Secure keys are filled from the
- * effect so the screens show the tuning defaults.
+ * uses; daxService applies it and saves it. While an app with its own mode plays media, that
+ * mode is used instead of the default one, as stock does for its whitelisted apps. The Music
+ * and Movie parameters go to the effect directly, for their own profile so they apply whenever
+ * that profile is active. They are re-applied at boot and after audioserver restarts because
+ * daxService restores only part of them (not the dialogue enhancer switch). On first start the
+ * Secure keys are filled from the effect so the screens show the tuning defaults.
  */
 public class DolbyService extends Service {
     private static final String TAG = "DolbyService";
+
+    /** Lets players settle (track changes, pause and resume) before switching the profile. */
+    private static final long PLAYBACK_SETTLE_MS = 1000;
 
     private HandlerThread mThread;
     private Handler mHandler;
     private ContentResolver mResolver;
     private AudioManager mAudioManager;
+    private ActivityManager mActivityManager;
+    private PackageManager mPackageManager;
+    private Map<String, Integer> mRecommendedAppProfiles;
 
     private ContentObserver mObserver;
+
+    private final Runnable mUpdateProfile = this::updateProfile;
+
+    private final AudioManager.AudioPlaybackCallback mPlaybackCallback =
+            new AudioManager.AudioPlaybackCallback() {
+                @Override
+                public void onPlaybackConfigChanged(List<AudioPlaybackConfiguration> configs) {
+                    mHandler.removeCallbacks(mUpdateProfile);
+                    mHandler.postDelayed(mUpdateProfile, PLAYBACK_SETTLE_MS);
+                }
+            };
 
     private final AudioManager.AudioServerStateCallback mAudioServerCallback =
             new AudioManager.AudioServerStateCallback() {
@@ -53,6 +80,9 @@ public class DolbyService extends Service {
         mHandler = new Handler(mThread.getLooper());
         mResolver = getContentResolver();
         mAudioManager = getSystemService(AudioManager.class);
+        mActivityManager = getSystemService(ActivityManager.class);
+        mPackageManager = getPackageManager();
+        mRecommendedAppProfiles = DolbySettings.getRecommendedAppProfiles(this);
 
         mObserver = new ContentObserver(mHandler) {
             @Override
@@ -63,12 +93,15 @@ public class DolbyService extends Service {
         mHandler.post(() -> {
             applyAll();
             for (String key : new String[] {DolbySettings.KEY_PROFILE,
+                    DolbySettings.KEY_APP_PROFILES_ENABLED, DolbySettings.KEY_APP_PROFILES,
                     DolbySettings.KEY_IEQ_PRESET, DolbySettings.KEY_GEQ_GAINS,
                     DolbySettings.KEY_DIALOGUE_LEVEL}) {
                 mResolver.registerContentObserver(
                         Settings.Secure.getUriFor(key), false, mObserver);
             }
         });
+        // Not anonymized (client uid included): this app holds MODIFY_AUDIO_ROUTING.
+        mAudioManager.registerAudioPlaybackCallback(mPlaybackCallback, mHandler);
         mAudioManager.setAudioServerStateCallback(mHandler::post, mAudioServerCallback);
     }
 
@@ -80,6 +113,7 @@ public class DolbyService extends Service {
     @Override
     public void onDestroy() {
         mAudioManager.clearAudioServerStateCallback();
+        mAudioManager.unregisterAudioPlaybackCallback(mPlaybackCallback);
         mResolver.unregisterContentObserver(mObserver);
         mThread.quitSafely();
         super.onDestroy();
@@ -92,7 +126,9 @@ public class DolbyService extends Service {
 
     private void onSettingChanged(Uri uri) {
         final String key = uri.getLastPathSegment();
-        if (DolbySettings.KEY_PROFILE.equals(key)) {
+        if (DolbySettings.KEY_PROFILE.equals(key)
+                || DolbySettings.KEY_APP_PROFILES_ENABLED.equals(key)
+                || DolbySettings.KEY_APP_PROFILES.equals(key)) {
             updateProfile();
             return;
         }
@@ -129,11 +165,52 @@ public class DolbyService extends Service {
     }
 
     private void updateProfile() {
-        final int profile = DolbySettings.getProfile(mResolver);
+        mHandler.removeCallbacks(mUpdateProfile);
+        final int defaultProfile = DolbySettings.getProfile(mResolver);
+        int profile = defaultProfile;
+        List<String> packages = Collections.emptyList();
+        if (DolbySettings.isAppProfilesEnabled(mResolver)) {
+            packages = getPlayingPackages();
+            profile = DolbySettings.resolveProfile(defaultProfile,
+                    DolbySettings.mergeAppProfiles(mRecommendedAppProfiles,
+                            DolbySettings.getUserAppProfiles(mResolver)),
+                    packages);
+        }
         if (Settings.Global.getInt(mResolver, DolbySettings.GLOBAL_DAP_PROFILE, -1) != profile) {
             Settings.Global.putInt(mResolver, DolbySettings.GLOBAL_DAP_PROFILE, profile);
-            Log.d(TAG, "profile " + profile);
+            Log.d(TAG, "profile " + profile + " for " + packages);
         }
+    }
+
+    /**
+     * Packages of the app playing media, game or unspecified audio (the usages stock checks).
+     * If several apps play, the one with the highest importance (e.g. in the foreground) wins.
+     */
+    private List<String> getPlayingPackages() {
+        int bestUid = -1;
+        int bestImportance = Integer.MAX_VALUE;
+        for (AudioPlaybackConfiguration config :
+                mAudioManager.getActivePlaybackConfigurations()) {
+            if (!config.isActive()) {
+                continue;
+            }
+            final int usage = config.getAudioAttributes().getUsage();
+            if (usage != AudioAttributes.USAGE_MEDIA && usage != AudioAttributes.USAGE_GAME
+                    && usage != AudioAttributes.USAGE_UNKNOWN) {
+                continue;
+            }
+            final int uid = config.getClientUid();
+            final int importance = mActivityManager.getUidImportance(uid);
+            if (importance < bestImportance) {
+                bestUid = uid;
+                bestImportance = importance;
+            }
+        }
+        if (bestUid < 0) {
+            return Collections.emptyList();
+        }
+        final String[] packages = mPackageManager.getPackagesForUid(bestUid);
+        return packages != null ? Arrays.asList(packages) : Collections.emptyList();
     }
 
     /** Fills unset keys from the effect, i.e. from dax-default.xml or daxService's last state. */

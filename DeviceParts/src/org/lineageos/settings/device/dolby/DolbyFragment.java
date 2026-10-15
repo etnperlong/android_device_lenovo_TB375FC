@@ -22,9 +22,9 @@ import com.android.settingslib.widget.SettingsBasePreferenceFragment;
 import org.lineageos.settings.device.R;
 
 /**
- * Dolby Atmos settings, laid out like stock ZUI Settings (sound/dolby): switch, mode, the Music
- * equalizers and the Movie dialogue enhancer. Values are read from and written to settings only;
- * DolbyService applies them.
+ * Dolby Atmos settings, laid out like stock ZUI Settings (sound/dolby): switch, default mode,
+ * the Music equalizers, the Movie dialogue enhancer, and the app modes. Values are read from and
+ * written to settings only; DolbyService applies them.
  */
 public class DolbyFragment extends SettingsBasePreferenceFragment
         implements Preference.OnPreferenceChangeListener {
@@ -33,6 +33,8 @@ public class DolbyFragment extends SettingsBasePreferenceFragment
     private static final String KEY_IEQ_PRESET = "dolby_ieq_preset";
     private static final String KEY_GEQ = "dolby_geq";
     private static final String KEY_DIALOGUE_LEVEL = "dolby_dialogue_level";
+    private static final String KEY_APP_PROFILES_ENABLED = "dolby_app_profiles_enabled";
+    private static final String KEY_APP_PROFILES = "dolby_app_profiles";
 
     private ContentResolver mResolver;
     private TwoStatePreference mEnable;
@@ -40,6 +42,8 @@ public class DolbyFragment extends SettingsBasePreferenceFragment
     private ListPreference mIeqPreset;
     private Preference mGeq;
     private SeekBarPreference mDialogueLevel;
+    private TwoStatePreference mAppProfilesEnabled;
+    private Preference mAppProfiles;
 
     /** The Quick Settings tile can switch Dolby while this screen is shown. */
     private final ContentObserver mStateObserver =
@@ -60,6 +64,8 @@ public class DolbyFragment extends SettingsBasePreferenceFragment
         mIeqPreset = findPreference(KEY_IEQ_PRESET);
         mGeq = findPreference(KEY_GEQ);
         mDialogueLevel = findPreference(KEY_DIALOGUE_LEVEL);
+        mAppProfilesEnabled = findPreference(KEY_APP_PROFILES_ENABLED);
+        mAppProfiles = findPreference(KEY_APP_PROFILES);
 
         mProfile.setSummaryProvider(ListPreference.SimpleSummaryProvider.getInstance());
         mIeqPreset.setSummaryProvider(ListPreference.SimpleSummaryProvider.getInstance());
@@ -72,6 +78,7 @@ public class DolbyFragment extends SettingsBasePreferenceFragment
         mProfile.setOnPreferenceChangeListener(this);
         mIeqPreset.setOnPreferenceChangeListener(this);
         mDialogueLevel.setOnPreferenceChangeListener(this);
+        mAppProfilesEnabled.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -82,6 +89,7 @@ public class DolbyFragment extends SettingsBasePreferenceFragment
         mProfile.setValue(String.valueOf(DolbySettings.getProfile(mResolver)));
         mIeqPreset.setValue(String.valueOf(DolbySettings.getIeqPreset(mResolver)));
         mDialogueLevel.setValue(DolbySettings.getDialogueLevel(mResolver));
+        mAppProfilesEnabled.setChecked(DolbySettings.isAppProfilesEnabled(mResolver));
         updateState();
     }
 
@@ -98,6 +106,8 @@ public class DolbyFragment extends SettingsBasePreferenceFragment
         mIeqPreset.setEnabled(on);
         mGeq.setEnabled(on);
         mDialogueLevel.setEnabled(on);
+        mAppProfilesEnabled.setEnabled(on);
+        mAppProfiles.setEnabled(on && mAppProfilesEnabled.isChecked());
     }
 
     @Override
@@ -116,6 +126,10 @@ public class DolbyFragment extends SettingsBasePreferenceFragment
             case KEY_DIALOGUE_LEVEL:
                 return Settings.Secure.putInt(mResolver, DolbySettings.KEY_DIALOGUE_LEVEL,
                         (Integer) newValue);
+            case KEY_APP_PROFILES_ENABLED:
+                mAppProfiles.setEnabled((Boolean) newValue);
+                return Settings.Secure.putInt(mResolver, DolbySettings.KEY_APP_PROFILES_ENABLED,
+                        (Boolean) newValue ? 1 : 0);
             default:
                 return false;
         }

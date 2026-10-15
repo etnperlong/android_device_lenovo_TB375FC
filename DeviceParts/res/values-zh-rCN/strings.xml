@@ -28,9 +28,9 @@
     <string name="smart_cover_summary">合上皮套时息屏并锁定</string>
 
     <string name="dolby_title">杜比全景声</string>
-    <string name="dolby_summary">音效模式、均衡器与对白增强器</string>
+    <string name="dolby_summary">音效模式、均衡器、对白增强器与应用模式</string>
     <string name="dolby_enable_title">使用杜比全景声</string>
-    <string name="dolby_profile_title">模式</string>
+    <string name="dolby_profile_title">默认模式</string>
     <string name="dolby_profile_dynamic">动态</string>
     <string name="dolby_profile_movie">电影</string>
     <string name="dolby_profile_music">音乐</string>
@@ -46,6 +46,12 @@
     <string name="category_dolby_movie_title">电影模式</string>
     <string name="dolby_dialogue_level_title">对白增强器</string>
     <string name="dolby_dialogue_level_summary">让人声更清晰，设为 0 即关闭。</string>
+    <string name="category_dolby_apps_title">应用</string>
+    <string name="dolby_app_profiles_enabled_title">按应用切换模式</string>
+    <string name="dolby_app_profiles_enabled_summary">应用播放音频时使用为其设置的模式</string>
+    <string name="dolby_app_profiles_title">应用模式</string>
+    <string name="dolby_app_profiles_summary">为每个应用选择模式。常见的音乐和视频应用预设为音乐和电影模式。</string>
+    <string name="dolby_app_profile_default">默认模式</string>
 
     <string name="tile_reading_low_refresh">阅读 30 Hz</string>
     <string name="tile_touch_game_mode">触控游戏模式</string>

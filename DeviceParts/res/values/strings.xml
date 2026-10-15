@@ -30,9 +30,9 @@
 
     <!-- Dolby Atmos -->
     <string name="dolby_title">Dolby Atmos</string>
-    <string name="dolby_summary">Sound mode, equalizer and dialogue enhancer</string>
+    <string name="dolby_summary">Sound mode, equalizer, dialogue enhancer and app modes</string>
     <string name="dolby_enable_title">Use Dolby Atmos</string>
-    <string name="dolby_profile_title">Mode</string>
+    <string name="dolby_profile_title">Default mode</string>
     <string name="dolby_profile_dynamic">Dynamic</string>
     <string name="dolby_profile_movie">Movie</string>
     <string name="dolby_profile_music">Music</string>
@@ -50,6 +50,12 @@
     <string name="category_dolby_movie_title">Movie mode</string>
     <string name="dolby_dialogue_level_title">Dialogue enhancer</string>
     <string name="dolby_dialogue_level_summary">Makes speech clearer. 0 turns it off.</string>
+    <string name="category_dolby_apps_title">Apps</string>
+    <string name="dolby_app_profiles_enabled_title">Switch mode by app</string>
+    <string name="dolby_app_profiles_enabled_summary">While an app plays audio, use the mode set for it</string>
+    <string name="dolby_app_profiles_title">App modes</string>
+    <string name="dolby_app_profiles_summary">Choose the mode for each app. Known music and video apps start with Music and Movie.</string>
+    <string name="dolby_app_profile_default">Default mode</string>
 
     <!-- Quick Settings tiles -->
     <string name="tile_reading_low_refresh">Reading 30 Hz</string>

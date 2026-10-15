@@ -16,6 +16,7 @@
     <uses-permission android:name="android.permission.MODIFY_AUDIO_ROUTING" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <uses-permission android:name="android.permission.MONITOR_INPUT" />
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
     <uses-permission android:name="lineageos.permission.HARDWARE_ABSTRACTION_ACCESS" />
@@ -120,6 +121,12 @@
             android:name=".dolby.DolbyEqualizerActivity"
             android:exported="false"
             android:label="@string/dolby_geq_title"
+            android:theme="@style/Theme.SubSettingsBase" />
+
+        <activity
+            android:name=".dolby.DolbyAppsActivity"
+            android:exported="false"
+            android:label="@string/dolby_app_profiles_title"
             android:theme="@style/Theme.SubSettingsBase" />
 
         <service
