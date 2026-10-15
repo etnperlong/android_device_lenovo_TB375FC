@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!--
+        Default Quick Settings tiles on first boot / after reset: the LineageOS
+        defaults with Dolby Atmos appended, so users don't have to drag it out
+        of the "available tiles" tray. SystemUI reads the _split variant when
+        the split internet tile is enabled, so both lists are overlaid. They
+        are strings in SystemUI; the old static overlay declared a
+        string-array, which never matched.
+
+        Only fresh installs / wipes pick this up. Existing devices with
+        Settings.Secure.SYSUI_QS_TILES already populated keep their order.
+    -->
+    <string name="quick_settings_tiles_default" translatable="false">internet,bt,dnd,cast,flashlight,airplane,rotation,wallet,alarm,controls,screenrecord,battery,custom(com.dolby.daxservice/.DaxTileService)</string>
+    <string name="quick_settings_tiles_default_split" translatable="false">wifi,bt,cell,cast,dnd,wallet,airplane,rotation,flashlight,battery,alarm,controls,screenrecord,custom(com.dolby.daxservice/.DaxTileService)</string>
+</resources>

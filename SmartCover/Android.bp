@@ -5,7 +5,7 @@
 // Folio-cover (Hall) sleep/wake for TB375FC. hall.ko reports the cover as unmapped EV_KEY scan
 // codes 252/253; KeyHandler (loaded into system_server via lineage-sdk
 // config_deviceKeyHandlerLibs) turns them into sleep/wake like stock ZuiPhoneWindowManager.
-// The APK path is referenced from overlay/lineage-sdk; keep name and partition in sync.
+// The APK path is referenced from overlay/LineageSDKDeviceOverlay; keep name and partition in sync.
 
 android_app {
     name: "SmartCover",

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.lineageos.overlay.device.frameworkres">
+    <!-- Priority 0 sorts below stock's static vendor overlays (priority 1 and 2), so where both
+         set a resource the stock value still wins, as it did with the old static overlays. -->
+    <overlay
+        android:targetPackage="android"
+        android:isStatic="true"
+        android:priority="0" />
+</manifest>

@@ -326,7 +326,7 @@ PRODUCT_PACKAGES += \
     DisplayPolicy
 
 # Folio cover: hall.ko reports open/close as unmapped scan codes 252/253; the
-# SmartCover KeyHandler (registered in overlay/lineage-sdk) sleeps/wakes
+# SmartCover KeyHandler (registered in LineageSDKDeviceOverlay) sleeps/wakes
 # the device like stock ZuiPhoneWindowManager.
 PRODUCT_PACKAGES += \
     SmartCover
@@ -363,9 +363,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
-# RRO turning on config_supportDoubleTapWake so AOSP Settings -> Display
-# surfaces the toggle.
-DEVICE_PACKAGE_OVERLAYS += device/lenovo/TB375FC/overlay
+# Runtime resource overlays (overlay/), one per target package. Static, on
+# vendor, below stock's prebuilt vendor overlays for the same target.
+PRODUCT_PACKAGES += \
+    FrameworkResDeviceOverlay \
+    LineageSDKDeviceOverlay \
+    SettingsDeviceOverlay \
+    SettingsProviderDeviceOverlay \
+    SystemUIDeviceOverlay
 
 # Locale-to-timezone first-boot mapping (Setup Wizard picks region -> we set TZ).
 PRODUCT_COPY_FILES += \
