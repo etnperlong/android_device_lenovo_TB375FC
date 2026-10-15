@@ -331,6 +331,32 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SmartCover
 
+# Lenovo keyboard / pen accessory key layouts and input configs, from stock
+# /system/usr. ZUI-only key labels (unknown to LineageOS libinput, which would
+# reject the whole file) are commented out or mapped to the closest AOSP key.
+# Installed to system_ext, which InputDevice searches before /system/usr.
+# Stock's Vendor_17ef_Product_61A1.idc is left out: lookups use lower-case hex,
+# so stock never loads it either.
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/keylayout/Vendor_17ef_Product_610b.kl:$(TARGET_COPY_OUT_SYSTEM_EXT)/usr/keylayout/Vendor_17ef_Product_610b.kl \
+    $(DEVICE_PATH)/configs/keylayout/Vendor_17ef_Product_6127.kl:$(TARGET_COPY_OUT_SYSTEM_EXT)/usr/keylayout/Vendor_17ef_Product_6127.kl \
+    $(DEVICE_PATH)/configs/keylayout/Vendor_17ef_Product_612b.kl:$(TARGET_COPY_OUT_SYSTEM_EXT)/usr/keylayout/Vendor_17ef_Product_612b.kl \
+    $(DEVICE_PATH)/configs/keylayout/Vendor_17ef_Product_613d.kl:$(TARGET_COPY_OUT_SYSTEM_EXT)/usr/keylayout/Vendor_17ef_Product_613d.kl \
+    $(DEVICE_PATH)/configs/keylayout/Vendor_17ef_Product_6171.kl:$(TARGET_COPY_OUT_SYSTEM_EXT)/usr/keylayout/Vendor_17ef_Product_6171.kl \
+    $(DEVICE_PATH)/configs/keylayout/Vendor_17ef_Product_6175.kl:$(TARGET_COPY_OUT_SYSTEM_EXT)/usr/keylayout/Vendor_17ef_Product_6175.kl \
+    $(DEVICE_PATH)/configs/keylayout/Vendor_17ef_Product_617f.kl:$(TARGET_COPY_OUT_SYSTEM_EXT)/usr/keylayout/Vendor_17ef_Product_617f.kl \
+    $(DEVICE_PATH)/configs/keylayout/Vendor_17ef_Product_619e.kl:$(TARGET_COPY_OUT_SYSTEM_EXT)/usr/keylayout/Vendor_17ef_Product_619e.kl \
+    $(DEVICE_PATH)/configs/keylayout/Vendor_17ef_Product_61a1.kl:$(TARGET_COPY_OUT_SYSTEM_EXT)/usr/keylayout/Vendor_17ef_Product_61a1.kl \
+    $(DEVICE_PATH)/configs/keylayout/Vendor_17ef_Product_61ba.kl:$(TARGET_COPY_OUT_SYSTEM_EXT)/usr/keylayout/Vendor_17ef_Product_61ba.kl \
+    $(DEVICE_PATH)/configs/keylayout/Vendor_17ef_Product_622e.kl:$(TARGET_COPY_OUT_SYSTEM_EXT)/usr/keylayout/Vendor_17ef_Product_622e.kl \
+    $(DEVICE_PATH)/configs/idc/Vendor_17ef_Product_6127.idc:$(TARGET_COPY_OUT_SYSTEM_EXT)/usr/idc/Vendor_17ef_Product_6127.idc \
+    $(DEVICE_PATH)/configs/idc/Vendor_17ef_Product_612b.idc:$(TARGET_COPY_OUT_SYSTEM_EXT)/usr/idc/Vendor_17ef_Product_612b.idc \
+    $(DEVICE_PATH)/configs/idc/Vendor_17ef_Product_613d.idc:$(TARGET_COPY_OUT_SYSTEM_EXT)/usr/idc/Vendor_17ef_Product_613d.idc \
+    $(DEVICE_PATH)/configs/idc/Vendor_17ef_Product_6171.idc:$(TARGET_COPY_OUT_SYSTEM_EXT)/usr/idc/Vendor_17ef_Product_6171.idc \
+    $(DEVICE_PATH)/configs/idc/Vendor_17ef_Product_6175.idc:$(TARGET_COPY_OUT_SYSTEM_EXT)/usr/idc/Vendor_17ef_Product_6175.idc \
+    $(DEVICE_PATH)/configs/idc/Vendor_17ef_Product_617f.idc:$(TARGET_COPY_OUT_SYSTEM_EXT)/usr/idc/Vendor_17ef_Product_617f.idc \
+    $(DEVICE_PATH)/configs/idc/Vendor_17ef_Product_61ba.idc:$(TARGET_COPY_OUT_SYSTEM_EXT)/usr/idc/Vendor_17ef_Product_61ba.idc
+
 # RRO turning on config_supportDoubleTapWake so AOSP Settings -> Display
 # surfaces the toggle.
 DEVICE_PACKAGE_OVERLAYS += device/lenovo/TB375FC/overlay

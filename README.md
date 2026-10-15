@@ -58,6 +58,9 @@ Reading mode is the LineageOS one (Quick Settings "Reading mode" tile or LiveDis
 ### Folio cover
 The hall sensor driver reports the cover as key scan codes 252 (closed) and 253 (opened); stock maps them to ZUI-only key codes, so on LineageOS they arrive unmapped. `SmartCover` is a LineageOS device key handler that handles them like stock: closing the cover while the screen is on puts the tablet to sleep once the light sensor reads at most 20 lux (so a cover folded behind the tablet does not count), and locks it 2 s later; opening the cover wakes it again, but only if the cover put it to sleep. The "Smart cover" Quick Settings tile turns this off.
 
+### Lenovo keyboards and pens
+`configs/keylayout` and `configs/idc` carry stock's `Vendor_17ef_Product_*` files for Lenovo keyboard covers and pens. Stock uses ZUI-only key codes for the special keys; LineageOS's input stack rejects a whole layout file on an unknown label, so those lines are commented out, except that Lenovo mute, screen lock, search and settings keys are mapped to the AOSP `VOLUME_MUTE`, `LOCK`, `SEARCH` and `SETTINGS` keys. Touchpad mute, Fn lock, full screen, split screen, PC mode, the app keys, keyboard backlight levels and the pen button gestures have no AOSP equivalent and do nothing.
+
 ### Patched prebuilt modules
 Two stock kernel modules are modified; both are required, and extracting from a stock device gives the unpatched versions.
 
