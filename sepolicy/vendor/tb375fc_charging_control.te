@@ -1,0 +1,8 @@
+# Lineage health HAL charging control toggles /sys/class/wt-battery/charging_enabled,
+# which the MTK vendor policy labels sysfs_batteryinfo (genfscon /class/wt-battery).
+
+# init.tb375fc-charging.rc hands the node to the HAL's system uid.
+allow init sysfs_batteryinfo:file setattr;
+
+allow hal_lineage_health_default sysfs_batteryinfo:dir search;
+allow hal_lineage_health_default sysfs_batteryinfo:file rw_file_perms;

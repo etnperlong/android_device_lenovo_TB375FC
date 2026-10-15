@@ -64,6 +64,9 @@ The hall sensor driver reports the cover as key scan codes 252 (closed) and 253 
 ### Touch game mode
 The Novatek touch driver has a game mode (`/proc/game_mode`, sent to the touch controller as command `0x79`). Stock framework code only switches it on another Lenovo product (`ro.product.name` `P85802AA1`); on this tablet, stock's game assistant tunes touch through the Lenovo touchscreen HAL instead. The "Touch game mode" Quick Settings tile (in `TapToWakeService`) switches the driver mode by hand. The driver keeps the mode across screen off/on but not across a reboot.
 
+### Charging control
+Stock's Lenovo battery HAL stops and restarts charging through `/sys/class/wt-battery/charging_enabled` (`1` = charge, `0` = stop). The LineageOS health HAL toggles the same node, which enables Settings -> Battery -> Charging control. Only the on/off toggle is configured, so a charge limit works by stopping the charger at the limit and restarting it a few percent below. Bypass mode stays off: it is not known whether the adapter alone powers the tablet while the charger is stopped.
+
 ### Patched prebuilt modules
 Two stock kernel modules are modified; both are required, and extracting from a stock device gives the unpatched versions.
 

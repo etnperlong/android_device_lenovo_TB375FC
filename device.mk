@@ -357,6 +357,12 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/idc/Vendor_17ef_Product_617f.idc:$(TARGET_COPY_OUT_SYSTEM_EXT)/usr/idc/Vendor_17ef_Product_617f.idc \
     $(DEVICE_PATH)/configs/idc/Vendor_17ef_Product_61ba.idc:$(TARGET_COPY_OUT_SYSTEM_EXT)/usr/idc/Vendor_17ef_Product_61ba.idc
 
+# Lineage health HAL: Settings -> Battery -> Charging control (charge limit /
+# scheduled charging), toggling the charger like stock's charging protection.
+# Configured in BoardConfig.mk.
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
+
 # RRO turning on config_supportDoubleTapWake so AOSP Settings -> Display
 # surfaces the toggle.
 DEVICE_PACKAGE_OVERLAYS += device/lenovo/TB375FC/overlay

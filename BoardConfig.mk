@@ -328,6 +328,16 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor_mtk_prebuilt
 
+# Lineage health HAL charging control. /sys/class/wt-battery/charging_enabled is
+# the node stock's Lenovo battery HAL writes for setBatteryChargeDisabled()
+# (1 = charge, 0 = stop). Toggle only: there is no limit/deadline node, and
+# stopping the charger is not known to bypass the battery, so bypass must be
+# turned off explicitly (the HAL enables it by default) and the framework
+# keeps re-enabling charging at its recharge margin.
+$(call soong_config_set,lineage_health,charging_control_charging_path,/sys/class/wt-battery/charging_enabled)
+$(call soong_config_set_bool,lineage_health,charging_control_supports_toggle,true)
+$(call soong_config_set_bool,lineage_health,charging_control_supports_bypass,false)
+
 # Device-specific platform sepolicy contributions. Declares the ~250
 # vendor_*_prop types that stock TB375FC PRC vendor_sepolicy.cil references
 # but LOS plat_sepolicy does not. Otherwise the on-device policy compile
