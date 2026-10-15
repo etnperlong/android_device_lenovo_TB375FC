@@ -55,6 +55,9 @@ The panel supports 144 / 120 / 60 / 30 Hz, but the NVT active pen is reported to
 ### Reading mode
 Reading mode is the LineageOS one (Quick Settings "Reading mode" tile or LiveDisplay), which renders in grayscale. For the warm paper tint of stock's black-and-white mode, also enable Night Light at a low intensity; Night Light is applied after the grayscale matrix, so the tint is kept. The optional "Reading 30 Hz" Quick Settings tile (off by default, like stock) caps the display at 30 Hz, or at the minimum refresh rate if that is higher, while reading mode is on.
 
+### Folio cover
+The hall sensor driver reports the cover as key scan codes 252 (closed) and 253 (opened); stock maps them to ZUI-only key codes, so on LineageOS they arrive unmapped. `SmartCover` is a LineageOS device key handler that handles them like stock: closing the cover while the screen is on puts the tablet to sleep once the light sensor reads at most 20 lux (so a cover folded behind the tablet does not count), and locks it 2 s later; opening the cover wakes it again, but only if the cover put it to sleep. The "Smart cover" Quick Settings tile turns this off.
+
 ### Patched prebuilt modules
 Two stock kernel modules are modified; both are required, and extracting from a stock device gives the unpatched versions.
 

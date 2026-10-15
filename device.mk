@@ -325,6 +325,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     DisplayPolicy
 
+# Folio cover: hall.ko reports open/close as unmapped scan codes 252/253; the
+# SmartCover KeyHandler (registered in overlay/lineage-sdk) sleeps/wakes
+# the device like stock ZuiPhoneWindowManager.
+PRODUCT_PACKAGES += \
+    SmartCover
+
 # RRO turning on config_supportDoubleTapWake so AOSP Settings -> Display
 # surfaces the toggle.
 DEVICE_PACKAGE_OVERLAYS += device/lenovo/TB375FC/overlay

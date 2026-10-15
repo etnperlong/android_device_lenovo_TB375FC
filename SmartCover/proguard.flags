@@ -1,0 +1,4 @@
+# Loaded reflectively by PhoneWindowManager (config_deviceKeyHandlerClasses).
+-keep public class * implements com.android.internal.os.DeviceKeyHandler {
+   public <init>(android.content.Context);
+}
