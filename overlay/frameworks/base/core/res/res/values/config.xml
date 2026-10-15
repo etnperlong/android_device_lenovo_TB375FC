@@ -13,20 +13,18 @@
 
     <!--
         Panel exposes 144Hz / 120Hz / 60Hz / 30Hz (confirmed via dumpsys
-        display) but is capped at 120 here. The NVT touch controller cannot
-        scan the active pen inside the 144Hz frame window (6.94ms), so the pen
-        only reports at <=120Hz; at 144 it drops to a few sparse samples and is
-        unusable while finger touch still works. Stock runs the pen at 120 too:
-        it advertises 144 but steps the panel down to 120 whenever the stylus
-        is active (the set_pen_timer mechanism in MTK's SurfaceFlinger, which
-        AOSP does not implement). 120 is the highest pen-safe rate.
-        config_defaultRefreshRate stays above the AOSP default of 60 so the
-        panel runs smooth during normal use instead of being capped at 60 by
-        the PRIORITY_DEFAULT_REFRESH_RATE vote; SurfaceFlinger still idles
-        lower for power.
+        display). The NVT active pen is reported to work only at <=120Hz;
+        stock keeps 144 available and steers to 120 while the pen is in use
+        (a 10 s pen timer inside MediaTek's SurfaceFlinger). Here that job is
+        done by DisplayPolicy, which requests a 120Hz max refresh rate
+        while stylus events arrive and drops it 10 s after the last one.
+        config_defaultRefreshRate matches stock (144) so the default render
+        vote does not hide 144; config_defaultPeakRefreshRate stays 120 so 144
+        is only used after the user picks it in Settings. SurfaceFlinger
+        still idles lower for power.
     -->
     <integer name="config_defaultPeakRefreshRate">120</integer>
-    <integer name="config_defaultRefreshRate">120</integer>
+    <integer name="config_defaultRefreshRate">144</integer>
     <integer name="config_defaultRefreshRateInZone">60</integer>
 
     <!--

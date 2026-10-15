@@ -163,19 +163,18 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.gatekeeper=beanpod \
     ro.hardware.kmsetkey=beanpod \
     ro.hardware.wechat=beanpod \
-    ro.vendor.mediatek.platform=MT6897 \
-    ro.surface_flinger.set_pen_timer_ms=10000
+    ro.vendor.mediatek.platform=MT6897
 
 # SurfaceFlinger refresh-rate switch timers, matching stock. Without these the
-# panel never leaves its peak rate when idle (config_defaultRefreshRate=144 ->
-# stuck at 144 -> battery drain); set_touch_timer_ms keeps the rate high through
-# a scroll. AOSP defaults predict_hwc_composition_strategy on, but stock disables
-# it (the prediction misbehaves on this MTK HWC), so match stock.
+# panel never leaves its peak rate when idle (stuck at peak -> battery drain);
+# set_touch_timer_ms keeps the rate high through a scroll. AOSP defaults
+# predict_hwc_composition_strategy on, but stock disables it (the prediction
+# misbehaves on this MTK HWC), so match stock. Stock also sets set_pen_timer_ms,
+# set_launcher_timer_ms and set_refresh_timer_ms, but only MediaTek's
+# SurfaceFlinger reads them; the pen timer is replaced by DisplayPolicy.
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.set_idle_timer_ms=2000 \
     ro.surface_flinger.set_touch_timer_ms=2000 \
-    ro.surface_flinger.set_launcher_timer_ms=30000 \
-    ro.surface_flinger.set_refresh_timer_ms=200 \
     ro.surface_flinger.display_update_imminent_timeout_ms=1000 \
     debug.sf.treat_170m_as_sRGB=1 \
     debug.sf.predict_hwc_composition_strategy=0
@@ -320,6 +319,11 @@ PRODUCT_PACKAGES += \
 # mtkpower ignores Mode.DOUBLE_TAP_TO_WAKE AIDL, so we bridge it ourselves.
 PRODUCT_PACKAGES += \
     TapToWakeService
+
+# Refresh-rate policy: 120 Hz cap while the active pen is in use (stock does this
+# inside MediaTek's SurfaceFlinger) and optional 30 Hz while reading mode is on.
+PRODUCT_PACKAGES += \
+    DisplayPolicy
 
 # RRO turning on config_supportDoubleTapWake so AOSP Settings -> Display
 # surfaces the toggle.

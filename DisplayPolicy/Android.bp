@@ -1,0 +1,30 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+// Display refresh-rate policy for TB375FC:
+//  - caps the panel at 120 Hz while the active pen is in use (stock: MediaTek SurfaceFlinger
+//    PenTimer, ro.surface_flinger.set_pen_timer_ms, which AOSP SurfaceFlinger lacks);
+//  - optionally caps at 30 Hz while LineageOS reading mode is on (stock: ZUI reading mode
+//    "low refresh").
+// Runs as android.uid.system, so it is deliberately not privileged: uid 1000 already passes
+// every permission check, and a privileged priv-app would need privapp-permissions entries.
+
+android_app {
+    name: "DisplayPolicy",
+    owner: "lineage",
+
+    srcs: ["src/**/*.java"],
+    resource_dirs: ["res"],
+    manifest: "AndroidManifest.xml",
+
+    platform_apis: true,
+    certificate: "platform",
+    system_ext_specific: true,
+
+    static_libs: ["org.lineageos.platform.internal"],
+
+    optimize: {
+        proguard_flags_files: ["proguard.flags"],
+    },
+}

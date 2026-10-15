@@ -49,8 +49,11 @@ Kernel, DTB and modules ship prebuilt in the device tree (`prebuilts/`), so no k
 
 ## Notes
 
-### Display capped at 120 Hz
-The panel advertises 144 Hz, but the NVT touch controller cannot scan the active pen inside a 144 Hz frame (6.94 ms), so the stylus stops working above 120 Hz while finger touch still works. Stock steps the panel down to 120 Hz whenever the pen is active (`set_pen_timer` in MediaTek's SurfaceFlinger, which AOSP does not implement), so 120 Hz is the real pen rate. The panel is capped there and the refresh-rate picker is removed.
+### Refresh rate and the active pen
+The panel supports 144 / 120 / 60 / 30 Hz, but the NVT active pen is reported to work only up to 120 Hz. Stock keeps 144 available and steers the panel to 120 Hz while the pen is in use (a 10 s pen timer inside MediaTek's SurfaceFlinger, which AOSP does not have). `DisplayPolicy` does the same with `DisplayManager.requestMaxRefreshRate()`: it watches stylus events (hover included), caps the display at 120 Hz, and lifts the cap 10 s after the last event or when the screen turns off. The default peak stays 120 Hz; 144 Hz can be picked in Settings → Display.
+
+### Reading mode
+Reading mode is the LineageOS one (Quick Settings "Reading mode" tile or LiveDisplay), which renders in grayscale. For the warm paper tint of stock's black-and-white mode, also enable Night Light at a low intensity; Night Light is applied after the grayscale matrix, so the tint is kept. The optional "Reading 30 Hz" Quick Settings tile (off by default, like stock) caps the display at 30 Hz, or at the minimum refresh rate if that is higher, while reading mode is on.
 
 ### Patched prebuilt modules
 Two stock kernel modules are modified; both are required, and extracting from a stock device gives the unpatched versions.
