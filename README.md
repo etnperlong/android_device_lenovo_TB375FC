@@ -61,6 +61,9 @@ The hall sensor driver reports the cover as key scan codes 252 (closed) and 253 
 ### Lenovo keyboards and pens
 `configs/keylayout` and `configs/idc` carry stock's `Vendor_17ef_Product_*` files for Lenovo keyboard covers and pens. Stock uses ZUI-only key codes for the special keys; LineageOS's input stack rejects a whole layout file on an unknown label, so those lines are commented out, except that Lenovo mute, screen lock, search and settings keys are mapped to the AOSP `VOLUME_MUTE`, `LOCK`, `SEARCH` and `SETTINGS` keys. Touchpad mute, Fn lock, full screen, split screen, PC mode, the app keys, keyboard backlight levels and the pen button gestures have no AOSP equivalent and do nothing.
 
+### Touch game mode
+The Novatek touch driver has a game mode (`/proc/game_mode`, sent to the touch controller as command `0x79`). Stock framework code only switches it on another Lenovo product (`ro.product.name` `P85802AA1`); on this tablet, stock's game assistant tunes touch through the Lenovo touchscreen HAL instead. The "Touch game mode" Quick Settings tile (in `TapToWakeService`) switches the driver mode by hand. The driver keeps the mode across screen off/on but not across a reboot.
+
 ### Patched prebuilt modules
 Two stock kernel modules are modified; both are required, and extracting from a stock device gives the unpatched versions.
 

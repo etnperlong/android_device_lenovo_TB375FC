@@ -3,4 +3,5 @@
 <!-- SPDX-License-Identifier: Apache-2.0 -->
 <resources>
     <string name="app_name" translatable="false">Tap to Wake bridge</string>
+    <string name="tile_touch_game_mode">Touch game mode</string>
 </resources>
