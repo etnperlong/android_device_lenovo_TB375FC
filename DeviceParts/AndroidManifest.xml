@@ -134,6 +134,10 @@
             android:exported="false" />
 
         <service
+            android:name=".touch.EdgeRejectionService"
+            android:exported="false" />
+
+        <service
             android:name=".display.DisplayPolicyService"
             android:exported="false" />
 

@@ -4,7 +4,8 @@
 //
 // Device-specific parts for TB375FC, one system_ext app running as android.uid.system:
 //  - touch: mirrors Settings.Secure.DOUBLE_TAP_TO_WAKE to /proc/gesture_control (mtkpower
-//    ignores Mode.DOUBLE_TAP_TO_WAKE) and toggles the Novatek touch game mode;
+//    ignores Mode.DOUBLE_TAP_TO_WAKE), passes the display rotation to the Novatek edge
+//    rejection (/proc/panel_direction) and toggles the Novatek touch game mode;
 //  - display: caps the panel at 120 Hz while the active pen is in use (stock: MediaTek
 //    SurfaceFlinger PenTimer, which AOSP SurfaceFlinger lacks) and optionally at 30 Hz while
 //    LineageOS reading mode is on;

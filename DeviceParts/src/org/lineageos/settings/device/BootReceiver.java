@@ -13,6 +13,7 @@ import org.lineageos.settings.device.audio.SpeakerRotationService;
 import org.lineageos.settings.device.cover.CoverService;
 import org.lineageos.settings.device.display.DisplayPolicyService;
 import org.lineageos.settings.device.dolby.DolbyService;
+import org.lineageos.settings.device.touch.EdgeRejectionService;
 import org.lineageos.settings.device.touch.TapToWakeService;
 
 public class BootReceiver extends BroadcastReceiver {
@@ -22,6 +23,7 @@ public class BootReceiver extends BroadcastReceiver {
         if (Intent.ACTION_LOCKED_BOOT_COMPLETED.equals(action)
                 || Intent.ACTION_BOOT_COMPLETED.equals(action)) {
             context.startService(new Intent(context, TapToWakeService.class));
+            context.startService(new Intent(context, EdgeRejectionService.class));
             context.startService(new Intent(context, DisplayPolicyService.class));
             context.startService(new Intent(context, CoverService.class));
             context.startService(new Intent(context, SpeakerRotationService.class));
