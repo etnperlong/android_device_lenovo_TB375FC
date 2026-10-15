@@ -1,0 +1,34 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+// Device-specific parts for TB375FC, one system_ext app running as android.uid.system:
+//  - touch: mirrors Settings.Secure.DOUBLE_TAP_TO_WAKE to /proc/gesture_control (mtkpower
+//    ignores Mode.DOUBLE_TAP_TO_WAKE) and toggles the Novatek touch game mode;
+//  - display: caps the panel at 120 Hz while the active pen is in use (stock: MediaTek
+//    SurfaceFlinger PenTimer, which AOSP SurfaceFlinger lacks) and optionally at 30 Hz while
+//    LineageOS reading mode is on;
+//  - cover: a lineage-sdk device key handler (loaded into system_server from this APK) turning
+//    the hall.ko scan codes 252/253 into sleep/wake like stock ZuiPhoneWindowManager.
+// Not privileged: uid 1000 already passes every permission check, and a priv-app would need
+// privapp-permissions entries. The APK path is referenced from overlay/LineageSDKDeviceOverlay;
+// keep name and partition in sync.
+
+android_app {
+    name: "DeviceParts",
+    owner: "lineage",
+
+    srcs: ["src/**/*.java"],
+    resource_dirs: ["res"],
+    manifest: "AndroidManifest.xml",
+
+    platform_apis: true,
+    certificate: "platform",
+    system_ext_specific: true,
+
+    static_libs: ["org.lineageos.platform.internal"],
+
+    optimize: {
+        proguard_flags_files: ["proguard.flags"],
+    },
+}

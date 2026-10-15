@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.lineageos.settings.device"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <!-- All signature(-level) permissions; uid 1000 passes the checks anyway, but declare
+         them so the dependencies are explicit. -->
+    <uses-permission android:name="android.permission.RESTRICT_DISPLAY_MODES" />
+    <uses-permission android:name="android.permission.MONITOR_INPUT" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="lineageos.permission.HARDWARE_ABSTRACTION_ACCESS" />
+
+    <application
+        android:label="@string/app_name"
+        android:persistent="true"
+        android:allowBackup="false">
+
+        <!-- cover.KeyHandler is not an app component: PhoneWindowManager loads it into
+             system_server from this APK (lineage-sdk config_deviceKeyHandlerLibs). -->
+
+        <service
+            android:name=".touch.TapToWakeService"
+            android:exported="false" />
+
+        <service
+            android:name=".display.DisplayPolicyService"
+            android:exported="false" />
+
+        <service
+            android:name=".display.ReadingLowRefreshTile"
+            android:exported="true"
+            android:label="@string/tile_reading_low_refresh"
+            android:icon="@drawable/ic_reading_low_refresh"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.service.quicksettings.TOGGLEABLE_TILE"
+                android:value="true" />
+        </service>
+
+        <service
+            android:name=".touch.TouchGameModeTile"
+            android:exported="true"
+            android:label="@string/tile_touch_game_mode"
+            android:icon="@drawable/ic_touch_game_mode"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.service.quicksettings.TOGGLEABLE_TILE"
+                android:value="true" />
+        </service>
+
+        <service
+            android:name=".cover.SmartCoverTile"
+            android:exported="true"
+            android:label="@string/tile_smart_cover"
+            android:icon="@drawable/ic_smart_cover"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.service.quicksettings.TOGGLEABLE_TILE"
+                android:value="true" />
+        </service>
+
+        <receiver
+            android:name=".BootReceiver"
+            android:exported="false"
+            android:directBootAware="true">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

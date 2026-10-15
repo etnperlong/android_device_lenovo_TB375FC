@@ -6,8 +6,8 @@
 <resources>
     <!--
         Surfaces Settings -> Display -> Tap to wake. The toggle writes
-        Settings.Secure.DOUBLE_TAP_TO_WAKE; TapToWakeService observes that
-        and mirrors to /proc/gesture_control.
+        Settings.Secure.DOUBLE_TAP_TO_WAKE; DeviceParts observes that and
+        mirrors it to /proc/gesture_control.
     -->
     <bool name="config_supportDoubleTapWake">true</bool>
 
@@ -16,7 +16,7 @@
         display). The NVT active pen is reported to work only at <=120Hz;
         stock keeps 144 available and steers to 120 while the pen is in use
         (a 10 s pen timer inside MediaTek's SurfaceFlinger). Here that job is
-        done by DisplayPolicy, which requests a 120Hz max refresh rate
+        done by DeviceParts, which requests a 120Hz max refresh rate
         while stylus events arrive and drops it 10 s after the last one.
         config_defaultRefreshRate matches stock (144) so the default render
         vote does not hide 144; config_defaultPeakRefreshRate stays 120 so 144

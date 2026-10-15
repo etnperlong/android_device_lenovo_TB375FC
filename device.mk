@@ -171,7 +171,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # predict_hwc_composition_strategy on, but stock disables it (the prediction
 # misbehaves on this MTK HWC), so match stock. Stock also sets set_pen_timer_ms,
 # set_launcher_timer_ms and set_refresh_timer_ms, but only MediaTek's
-# SurfaceFlinger reads them; the pen timer is replaced by DisplayPolicy.
+# SurfaceFlinger reads them; the pen timer is replaced by DeviceParts.
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.set_idle_timer_ms=2000 \
     ro.surface_flinger.set_touch_timer_ms=2000 \
@@ -315,21 +315,13 @@ PRODUCT_PACKAGES += \
     fs_config_dirs \
     fs_config_files
 
-# Tap-to-wake bridge: Settings.Secure.DOUBLE_TAP_TO_WAKE -> /proc/gesture_control.
-# mtkpower ignores Mode.DOUBLE_TAP_TO_WAKE AIDL, so we bridge it ourselves.
+# DeviceParts: tap-to-wake bridge (mtkpower ignores Mode.DOUBLE_TAP_TO_WAKE),
+# touch game mode, 120 Hz cap while the active pen is in use (stock does this
+# inside MediaTek's SurfaceFlinger), optional 30 Hz in reading mode, and the
+# folio cover key handler (registered in LineageSDKDeviceOverlay) that turns
+# hall.ko scan codes 252/253 into sleep/wake like stock ZuiPhoneWindowManager.
 PRODUCT_PACKAGES += \
-    TapToWakeService
-
-# Refresh-rate policy: 120 Hz cap while the active pen is in use (stock does this
-# inside MediaTek's SurfaceFlinger) and optional 30 Hz while reading mode is on.
-PRODUCT_PACKAGES += \
-    DisplayPolicy
-
-# Folio cover: hall.ko reports open/close as unmapped scan codes 252/253; the
-# SmartCover KeyHandler (registered in LineageSDKDeviceOverlay) sleeps/wakes
-# the device like stock ZuiPhoneWindowManager.
-PRODUCT_PACKAGES += \
-    SmartCover
+    DeviceParts
 
 # Lenovo keyboard / pen accessory key layouts and input configs, from stock
 # /system/usr. ZUI-only key labels (unknown to LineageOS libinput, which would

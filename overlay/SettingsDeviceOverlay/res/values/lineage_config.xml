@@ -6,7 +6,7 @@
 <resources>
     <!--
         Only the LineageOS peak refresh rate list is shown. Picking 144 is safe
-        for the pen because DisplayPolicy caps the panel at 120 while the
+        for the pen because DeviceParts caps the panel at 120 while the
         stylus is in use. The minimum-rate list and the AOSP smooth-display
         switch stay hidden: a forced minimum defeats idle power saving, and the
         list already covers what the switch does.

@@ -5,14 +5,14 @@
 -->
 <resources>
     <!-- Overlaying the arrays replaces them, so LineageParts' default gesture handler is
-         listed again. SmartCover handles the hall.ko cover scan codes 252/253. -->
+         listed again. DeviceParts handles the hall.ko cover scan codes 252/253. -->
     <string-array name="config_deviceKeyHandlerLibs" translatable="false">
         <item>/system_ext/priv-app/LineageParts/LineageParts.apk</item>
-        <item>/system_ext/app/SmartCover/SmartCover.apk</item>
+        <item>/system_ext/app/DeviceParts/DeviceParts.apk</item>
     </string-array>
 
     <string-array name="config_deviceKeyHandlerClasses" translatable="false">
         <item>org.lineageos.lineageparts.gestures.KeyHandler</item>
-        <item>org.lineageos.settings.smartcover.KeyHandler</item>
+        <item>org.lineageos.settings.device.cover.KeyHandler</item>
     </string-array>
 </resources>

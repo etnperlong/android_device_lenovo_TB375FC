@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">设备功能</string>
+    <string name="tile_reading_low_refresh">阅读 30 Hz</string>
+    <string name="tile_touch_game_mode">触控游戏模式</string>
+    <string name="tile_smart_cover">智能皮套</string>
+</resources>
