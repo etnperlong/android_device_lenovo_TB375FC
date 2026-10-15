@@ -8,13 +8,14 @@
 
     <!-- Settings entry points -->
     <string name="device_parts_title">Device parts</string>
-    <string name="device_parts_summary">Pen, touch and folio cover</string>
+    <string name="device_parts_summary">Pen, touch, Dolby Atmos and folio cover</string>
     <string name="display_parts_title">Pen and touch</string>
     <string name="display_parts_summary">Pen refresh rate, reading mode refresh rate, touch game mode</string>
 
     <string name="category_display_title">Refresh rate</string>
     <string name="category_touch_title">Touch</string>
     <string name="category_cover_title">Folio cover</string>
+    <string name="category_audio_title">Audio</string>
 
     <string name="pen_refresh_cap_title">Limit to 120 Hz while using the pen</string>
     <string name="pen_refresh_cap_summary">The active pen is reported to work only up to 120 Hz. The limit lifts 10 seconds after the last pen input.</string>
@@ -26,6 +27,29 @@
     <string name="touch_game_mode_unavailable">Not available</string>
     <string name="smart_cover_title">Smart cover</string>
     <string name="smart_cover_summary">Sleep and lock when the folio cover is closed</string>
+
+    <!-- Dolby Atmos -->
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Sound mode, equalizer and dialogue enhancer</string>
+    <string name="dolby_enable_title">Use Dolby Atmos</string>
+    <string name="dolby_profile_title">Mode</string>
+    <string name="dolby_profile_dynamic">Dynamic</string>
+    <string name="dolby_profile_movie">Movie</string>
+    <string name="dolby_profile_music">Music</string>
+    <string name="category_dolby_music_title">Music mode</string>
+    <string name="dolby_ieq_preset_title">Sound effect</string>
+    <string name="dolby_ieq_preset_none">None</string>
+    <string name="dolby_ieq_preset_detailed">Detailed</string>
+    <string name="dolby_ieq_preset_balanced">Balanced</string>
+    <string name="dolby_ieq_preset_warm">Warm</string>
+    <string name="dolby_geq_title">Equalizer</string>
+    <string name="dolby_geq_summary">Adjust 10 frequency bands</string>
+    <string name="dolby_geq_reset_title">Reset to flat</string>
+    <string name="dolby_geq_band_hz">%1$d Hz</string>
+    <string name="dolby_geq_band_khz">%1$.1f kHz</string>
+    <string name="category_dolby_movie_title">Movie mode</string>
+    <string name="dolby_dialogue_level_title">Dialogue enhancer</string>
+    <string name="dolby_dialogue_level_summary">Makes speech clearer. 0 turns it off.</string>
 
     <!-- Quick Settings tiles -->
     <string name="tile_reading_low_refresh">Reading 30 Hz</string>

@@ -50,7 +50,7 @@ Kernel, DTB and modules ship prebuilt in the device tree (`prebuilts/`), so no k
 ## Notes
 
 ### Device parts
-`DeviceParts` collects the device-specific settings below. All of them are on the "Device parts" entry of the Settings homepage; the pen and touch switches are also under Settings → Display → "Pen and touch", and the cover switch on the lock screen settings page ("Smart cover"). The Quick Settings tiles show the same state.
+`DeviceParts` collects the device-specific settings below. All of them are on the "Device parts" entry of the Settings homepage; the pen and touch switches are also under Settings → Display → "Pen and touch", the Dolby settings under Settings → Sound → "Dolby Atmos", and the cover switch on the lock screen settings page ("Smart cover"). The Quick Settings tiles show the same state.
 
 ### Refresh rate and the active pen
 The panel supports 144 / 120 / 60 / 30 Hz, but the NVT active pen is reported to work only up to 120 Hz. Stock keeps 144 available and steers the panel to 120 Hz while the pen is in use (a 10 s pen timer inside MediaTek's SurfaceFlinger, which AOSP does not have). `DeviceParts` does the same with `DisplayManager.requestMaxRefreshRate()`: it watches stylus events (hover included), caps the display at 120 Hz, and lifts the cap 10 s after the last event or when the screen turns off. The cap is on by default and can be turned off in Device parts. The default peak stays 120 Hz; 144 Hz can be picked in Settings → Display.
@@ -66,6 +66,9 @@ The stock hall sensor driver reports the cover as two key presses that only ZUI 
 
 ### Speaker channels
 The four speakers are driven by Awinic amplifiers whose channel layout follows the screen rotation. The MediaTek audio HAL takes the rotation as the `gsensor_rotation` parameter (it ignores AOSP's `rotation`), which stock ZUI's AudioService sends on every rotation. `DeviceParts` does the same (display rotation 0/90/180/270 → 270/0/90/180, as on stock), also after an audioserver restart, so left and right stay on the correct side in every orientation.
+
+### Dolby Atmos
+The Dolby DAX3 effect and its vendor `daxService` (switch, profile, Quick Settings tile) come from stock, but stock's settings screen lives in ZUI Settings. "Dolby Atmos" in `DeviceParts` rebuilds it: Dolby on/off, the mode (Dynamic, Movie or Music), and for Music the sound effect (none, detailed, balanced or warm intelligent equalizer preset) and a 10-band graphic equalizer (±6 dB), for Movie the dialogue enhancer (0 = off, 1–9). On/off and the active mode go through `daxService`'s `dolby_dap_state` / `dolby_dap_profile` settings, as on stock; the Music and Movie values are written to the effect for their own profile, so they apply whenever that profile is active, and are applied again at boot and after an audioserver restart.
 
 ### Touch game mode
 The Novatek touch driver has a game mode (`/proc/game_mode`, sent to the touch controller as command `0x79`). Stock framework code only switches it on another Lenovo product (`ro.product.name` `P85802AA1`); on this tablet, stock's game assistant tunes touch through the Lenovo touchscreen HAL instead. The "Touch game mode" Quick Settings tile (in `DeviceParts`) switches the driver mode by hand. The driver keeps the mode across screen off/on but not across a reboot.

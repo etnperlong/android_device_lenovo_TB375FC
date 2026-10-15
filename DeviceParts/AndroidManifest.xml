@@ -97,6 +97,31 @@
                 android:resource="@string/smart_cover_summary" />
         </activity>
 
+        <activity
+            android:name=".dolby.DolbyActivity"
+            android:exported="true"
+            android:label="@string/dolby_title"
+            android:theme="@style/Theme.SubSettingsBase">
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.sound" />
+            <meta-data
+                android:name="com.android.settings.keyhint"
+                android:value="sound_dolby" />
+            <meta-data
+                android:name="com.android.settings.summary"
+                android:resource="@string/dolby_summary" />
+        </activity>
+
+        <activity
+            android:name=".dolby.DolbyEqualizerActivity"
+            android:exported="false"
+            android:label="@string/dolby_geq_title"
+            android:theme="@style/Theme.SubSettingsBase" />
+
         <service
             android:name=".touch.TapToWakeService"
             android:exported="false" />
@@ -111,6 +136,10 @@
 
         <service
             android:name=".audio.SpeakerRotationService"
+            android:exported="false" />
+
+        <service
+            android:name=".dolby.DolbyService"
             android:exported="false" />
 
         <service

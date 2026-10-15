@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- DAX profiles in dax-default.xml -->
+    <string-array name="dolby_profile_entries" translatable="false">
+        <item>@string/dolby_profile_dynamic</item>
+        <item>@string/dolby_profile_movie</item>
+        <item>@string/dolby_profile_music</item>
+    </string-array>
+    <string-array name="dolby_profile_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- IEQ presets in dax-default.xml; 0 = none -->
+    <string-array name="dolby_ieq_preset_entries" translatable="false">
+        <item>@string/dolby_ieq_preset_none</item>
+        <item>@string/dolby_ieq_preset_detailed</item>
+        <item>@string/dolby_ieq_preset_balanced</item>
+        <item>@string/dolby_ieq_preset_warm</item>
+    </string-array>
+    <string-array name="dolby_ieq_preset_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

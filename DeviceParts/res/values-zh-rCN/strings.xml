@@ -7,13 +7,14 @@
     <string name="app_name">设备功能</string>
 
     <string name="device_parts_title">设备功能</string>
-    <string name="device_parts_summary">手写笔、触控与皮套</string>
+    <string name="device_parts_summary">手写笔、触控、杜比全景声与皮套</string>
     <string name="display_parts_title">手写笔与触控</string>
     <string name="display_parts_summary">手写笔刷新率、阅读模式刷新率、触控游戏模式</string>
 
     <string name="category_display_title">刷新率</string>
     <string name="category_touch_title">触控</string>
     <string name="category_cover_title">皮套</string>
+    <string name="category_audio_title">音频</string>
 
     <string name="pen_refresh_cap_title">使用手写笔时限制为 120 Hz</string>
     <string name="pen_refresh_cap_summary">主动笔据称最高只支持 120 Hz。最后一次笔输入 10 秒后解除限制。</string>
@@ -25,6 +26,26 @@
     <string name="touch_game_mode_unavailable">不可用</string>
     <string name="smart_cover_title">智能皮套</string>
     <string name="smart_cover_summary">合上皮套时息屏并锁定</string>
+
+    <string name="dolby_title">杜比全景声</string>
+    <string name="dolby_summary">音效模式、均衡器与对白增强器</string>
+    <string name="dolby_enable_title">使用杜比全景声</string>
+    <string name="dolby_profile_title">模式</string>
+    <string name="dolby_profile_dynamic">动态</string>
+    <string name="dolby_profile_movie">电影</string>
+    <string name="dolby_profile_music">音乐</string>
+    <string name="category_dolby_music_title">音乐模式</string>
+    <string name="dolby_ieq_preset_title">音效</string>
+    <string name="dolby_ieq_preset_none">无</string>
+    <string name="dolby_ieq_preset_detailed">明亮</string>
+    <string name="dolby_ieq_preset_balanced">均衡</string>
+    <string name="dolby_ieq_preset_warm">温和</string>
+    <string name="dolby_geq_title">均衡器</string>
+    <string name="dolby_geq_summary">调节 10 个频段</string>
+    <string name="dolby_geq_reset_title">恢复平直</string>
+    <string name="category_dolby_movie_title">电影模式</string>
+    <string name="dolby_dialogue_level_title">对白增强器</string>
+    <string name="dolby_dialogue_level_summary">让人声更清晰，设为 0 即关闭。</string>
 
     <string name="tile_reading_low_refresh">阅读 30 Hz</string>
     <string name="tile_touch_game_mode">触控游戏模式</string>

@@ -32,6 +32,19 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="category_audio"
+        android:title="@string/category_audio_title">
+        <Preference
+            android:key="dolby"
+            android:title="@string/dolby_title"
+            android:summary="@string/dolby_summary">
+            <intent
+                android:targetPackage="org.lineageos.settings.device"
+                android:targetClass="org.lineageos.settings.device.dolby.DolbyActivity" />
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="category_cover"
         android:title="@string/category_cover_title">
         <SwitchPreferenceCompat

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/dolby_title">
+    <SwitchPreferenceCompat
+        android:key="dolby_enable"
+        android:title="@string/dolby_enable_title"
+        android:persistent="false" />
+
+    <ListPreference
+        android:key="dolby_profile"
+        android:title="@string/dolby_profile_title"
+        android:dialogTitle="@string/dolby_profile_title"
+        android:entries="@array/dolby_profile_entries"
+        android:entryValues="@array/dolby_profile_values"
+        android:persistent="false" />
+
+    <PreferenceCategory
+        android:key="category_dolby_music"
+        android:title="@string/category_dolby_music_title">
+        <ListPreference
+            android:key="dolby_ieq_preset"
+            android:title="@string/dolby_ieq_preset_title"
+            android:dialogTitle="@string/dolby_ieq_preset_title"
+            android:entries="@array/dolby_ieq_preset_entries"
+            android:entryValues="@array/dolby_ieq_preset_values"
+            android:persistent="false" />
+
+        <Preference
+            android:key="dolby_geq"
+            android:title="@string/dolby_geq_title"
+            android:summary="@string/dolby_geq_summary">
+            <intent
+                android:targetPackage="org.lineageos.settings.device"
+                android:targetClass="org.lineageos.settings.device.dolby.DolbyEqualizerActivity" />
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="category_dolby_movie"
+        android:title="@string/category_dolby_movie_title">
+        <SeekBarPreference
+            android:key="dolby_dialogue_level"
+            android:title="@string/dolby_dialogue_level_title"
+            android:summary="@string/dolby_dialogue_level_summary"
+            android:max="9"
+            android:persistent="false" />
+    </PreferenceCategory>
+</PreferenceScreen>
