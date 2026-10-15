@@ -8,12 +8,11 @@
 //  - display: caps the panel at 120 Hz while the active pen is in use (stock: MediaTek
 //    SurfaceFlinger PenTimer, which AOSP SurfaceFlinger lacks) and optionally at 30 Hz while
 //    LineageOS reading mode is on;
-//  - cover: a lineage-sdk device key handler (loaded into system_server from this APK) turning
-//    the hall.ko scan codes 252/253 into sleep/wake like stock ZuiPhoneWindowManager.
+//  - cover: applies the stock folio-cover policy (light sensor check, sleep, lock) to the lid
+//    switch reported by the patched hall.ko (docs/hall-ko-lid-switch.md).
 // Its settings screens are injected into the Settings homepage, Display and Lock screen pages.
 // Not privileged: uid 1000 already passes every permission check, and a priv-app would need
-// privapp-permissions entries. The APK path is referenced from overlay/LineageSDKDeviceOverlay;
-// keep name and partition in sync.
+// privapp-permissions entries.
 
 android_app {
     name: "DeviceParts",
@@ -33,8 +32,4 @@ android_app {
         "androidx.preference_preference",
         "org.lineageos.platform.internal",
     ],
-
-    optimize: {
-        proguard_flags_files: ["proguard.flags"],
-    },
 }

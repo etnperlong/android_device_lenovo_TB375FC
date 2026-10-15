@@ -16,7 +16,7 @@ import com.android.settingslib.widget.SettingsBasePreferenceFragment;
 
 import lineageos.hardware.LineageHardwareManager;
 
-import org.lineageos.settings.device.cover.KeyHandler;
+import org.lineageos.settings.device.cover.CoverPolicy;
 import org.lineageos.settings.device.display.DisplayPolicyService;
 import org.lineageos.settings.device.touch.TouchGameMode;
 
@@ -89,7 +89,7 @@ public class DevicePartsFragment extends SettingsBasePreferenceFragment
 
         final TwoStatePreference cover = findPreference(KEY_SMART_COVER);
         if (cover != null) {
-            cover.setChecked(Settings.Secure.getInt(cr, KeyHandler.KEY_SMART_COVER, 1) != 0);
+            cover.setChecked(Settings.Secure.getInt(cr, CoverPolicy.KEY_SMART_COVER, 1) != 0);
         }
     }
 
@@ -107,7 +107,7 @@ public class DevicePartsFragment extends SettingsBasePreferenceFragment
             case KEY_TOUCH_GAME_MODE:
                 return TouchGameMode.write(enabled);
             case KEY_SMART_COVER:
-                return Settings.Secure.putInt(cr, KeyHandler.KEY_SMART_COVER, enabled ? 1 : 0);
+                return Settings.Secure.putInt(cr, CoverPolicy.KEY_SMART_COVER, enabled ? 1 : 0);
             default:
                 return false;
         }

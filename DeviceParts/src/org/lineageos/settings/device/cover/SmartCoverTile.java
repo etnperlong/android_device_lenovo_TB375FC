@@ -18,13 +18,13 @@ public class SmartCoverTile extends TileService {
 
     @Override
     public void onClick() {
-        Settings.Secure.putInt(getContentResolver(), KeyHandler.KEY_SMART_COVER,
+        Settings.Secure.putInt(getContentResolver(), CoverPolicy.KEY_SMART_COVER,
                 isEnabled() ? 0 : 1);
         updateTile();
     }
 
     private boolean isEnabled() {
-        return Settings.Secure.getInt(getContentResolver(), KeyHandler.KEY_SMART_COVER, 1) != 0;
+        return Settings.Secure.getInt(getContentResolver(), CoverPolicy.KEY_SMART_COVER, 1) != 0;
     }
 
     private void updateTile() {

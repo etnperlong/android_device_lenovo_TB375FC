@@ -18,36 +18,25 @@ import android.os.SystemClock;
 import android.os.UserHandle;
 import android.provider.Settings;
 import android.util.Log;
-import android.view.KeyEvent;
 import android.view.WindowManagerGlobal;
 
-import com.android.internal.os.BackgroundThread;
-import com.android.internal.os.DeviceKeyHandler;
-
 /**
- * Folio-cover (Hall sensor) handling, loaded into system_server by PhoneWindowManager through
- * lineage-sdk config_deviceKeyHandlerLibs/Classes.
- *
- * The stock hall.ko driver reports the cover as EV_KEY scan code 252 (closed) / 253 (opened),
- * each as a down+up pair. Stock ZUI maps them to its private HALL_NEAR/HALL_FAR key codes and
- * ZuiPhoneWindowManager turns them into lid-switch events. LineageOS has neither, so the scan
- * codes arrive here unmapped (KEYCODE_UNKNOWN). Behaviour mirrors the stock policy:
+ * Folio-cover policy, driven by the lid switch (the patched hall.ko reports the cover as
+ * SW_LID). It mirrors stock ZuiPhoneWindowManager:
  *  - closed while the screen is on and the feature is enabled: watch the ambient light sensor and
  *    put the device to sleep once it reads at most 20 lux (rejects a cover folded behind the
  *    tablet); lock the keyguard 2 s later if still closed and dark;
- *  - opened (or light returns while closed): wake the device, but only if the cover put it to
- *    sleep.
- * Without a light sensor the cover sleeps the device immediately.
+ *  - light returning while the cover put the device to sleep wakes it again.
+ * Without a light sensor the cover sleeps the device immediately. Opening the cover is left to
+ * PhoneWindowManager, which wakes the device on every lid open.
+ *
+ * All methods run on the handler passed to the constructor.
  */
-public class KeyHandler implements DeviceKeyHandler {
+public class CoverPolicy {
     private static final String TAG = "SmartCover";
 
     /** Settings.Secure toggle, 1 = enabled (stock: System zui_lid_enable, default 1). */
     public static final String KEY_SMART_COVER = "tb375fc_smart_cover";
-
-    // hall.ko hall_eint_work: GPIO low -> scan code 0xfc, GPIO high -> 0xfd.
-    private static final int SCANCODE_COVER_CLOSED = 252;
-    private static final int SCANCODE_COVER_OPENED = 253;
 
     // Stock: framework-res integer/config_light_sensor_min_value = 20.
     private static final float DARK_LUX = 20f;
@@ -62,7 +51,6 @@ public class KeyHandler implements DeviceKeyHandler {
     private final SensorManager mSensorManager;
     private final Sensor mLightSensor;
 
-    // Accessed only on mHandler's thread.
     private boolean mLightListening;
     private boolean mSleptByCover;
 
@@ -79,9 +67,9 @@ public class KeyHandler implements DeviceKeyHandler {
 
     private final Runnable mLockRunnable = this::lockIfStillClosed;
 
-    public KeyHandler(Context context) {
+    public CoverPolicy(Context context, Handler handler) {
         mContext = context;
-        mHandler = BackgroundThread.getHandler();
+        mHandler = handler;
         mPowerManager = context.getSystemService(PowerManager.class);
         mWakeLock = mPowerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, TAG);
         mSensorManager = context.getSystemService(SensorManager.class);
@@ -89,27 +77,12 @@ public class KeyHandler implements DeviceKeyHandler {
                 ? mSensorManager.getDefaultSensor(Sensor.TYPE_LIGHT) : null;
     }
 
-    @Override
-    public KeyEvent handleKeyEvent(KeyEvent event) {
-        final int scanCode = event.getScanCode();
-        if (event.getKeyCode() != KeyEvent.KEYCODE_UNKNOWN
-                || (scanCode != SCANCODE_COVER_CLOSED && scanCode != SCANCODE_COVER_OPENED)) {
-            return event;
+    public void onLidChanged(boolean closed) {
+        if (closed) {
+            onCoverClosed();
+        } else {
+            onCoverOpened();
         }
-        // Called on the input dispatcher's policy path: never block here. The wake lock keeps the
-        // system from re-suspending (the hall IRQ is a wake source) before the handler runs.
-        if (event.getAction() == KeyEvent.ACTION_DOWN && event.getRepeatCount() == 0) {
-            mWakeLock.acquire(WAKELOCK_TIMEOUT_MS);
-            final boolean closed = scanCode == SCANCODE_COVER_CLOSED;
-            mHandler.post(() -> {
-                if (closed) {
-                    onCoverClosed();
-                } else {
-                    onCoverOpened();
-                }
-            });
-        }
-        return null;
     }
 
     private void onCoverClosed() {
@@ -130,10 +103,7 @@ public class KeyHandler implements DeviceKeyHandler {
     private void onCoverOpened() {
         stopLight();
         mHandler.removeCallbacks(mLockRunnable);
-        if (mSleptByCover) {
-            mSleptByCover = false;
-            wake();
-        }
+        mSleptByCover = false;
     }
 
     private void onLight(float lux) {
@@ -154,9 +124,11 @@ public class KeyHandler implements DeviceKeyHandler {
                 mHandler.postDelayed(mLockRunnable, LOCK_DELAY_MS);
             }
         } else if (lux > DARK_LUX && mSleptByCover) {
+            // The lid is still closed, so PhoneWindowManager will not wake the device.
             mHandler.removeCallbacks(mLockRunnable);
             mSleptByCover = false;
-            wake();
+            mPowerManager.wakeUp(SystemClock.uptimeMillis(), PowerManager.WAKE_REASON_LID,
+                    "android.policy:LID");
         }
     }
 
@@ -178,11 +150,6 @@ public class KeyHandler implements DeviceKeyHandler {
         mPowerManager.goToSleep(SystemClock.uptimeMillis(),
                 PowerManager.GO_TO_SLEEP_REASON_LID_SWITCH,
                 PowerManager.GO_TO_SLEEP_FLAG_NO_DOZE);
-    }
-
-    private void wake() {
-        mPowerManager.wakeUp(SystemClock.uptimeMillis(), PowerManager.WAKE_REASON_LID,
-                "android.policy:LID");
     }
 
     private void stopLight() {

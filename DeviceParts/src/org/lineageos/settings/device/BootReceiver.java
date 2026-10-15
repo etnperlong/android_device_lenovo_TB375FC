@@ -9,6 +9,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
+import org.lineageos.settings.device.cover.CoverService;
 import org.lineageos.settings.device.display.DisplayPolicyService;
 import org.lineageos.settings.device.touch.TapToWakeService;
 
@@ -20,6 +21,7 @@ public class BootReceiver extends BroadcastReceiver {
                 || Intent.ACTION_BOOT_COMPLETED.equals(action)) {
             context.startService(new Intent(context, TapToWakeService.class));
             context.startService(new Intent(context, DisplayPolicyService.class));
+            context.startService(new Intent(context, CoverService.class));
         }
     }
 }

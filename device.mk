@@ -318,8 +318,8 @@ PRODUCT_PACKAGES += \
 # DeviceParts: tap-to-wake bridge (mtkpower ignores Mode.DOUBLE_TAP_TO_WAKE),
 # touch game mode, 120 Hz cap while the active pen is in use (stock does this
 # inside MediaTek's SurfaceFlinger), optional 30 Hz in reading mode, and the
-# folio cover key handler (registered in LineageSDKDeviceOverlay) that turns
-# hall.ko scan codes 252/253 into sleep/wake like stock ZuiPhoneWindowManager.
+# stock folio-cover policy on top of the lid switch reported by the patched
+# hall.ko (docs/hall-ko-lid-switch.md).
 PRODUCT_PACKAGES += \
     DeviceParts
 
@@ -361,7 +361,6 @@ PRODUCT_PACKAGES += \
 # stock's prebuilt vendor overlays for the same target.
 PRODUCT_PACKAGES += \
     FrameworkResDeviceOverlay \
-    LineageSDKDeviceOverlay \
     SettingsDeviceOverlay \
     SettingsProviderDeviceOverlay \
     SystemUIDeviceOverlay

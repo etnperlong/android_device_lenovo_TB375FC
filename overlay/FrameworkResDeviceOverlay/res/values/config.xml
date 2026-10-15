@@ -99,6 +99,17 @@
     <string name="config_displayLightSensorType" translatable="false">defaultlightsensor</string>
 
     <!--
+        Folio cover: the patched hall.ko reports a real lid switch. Keep the
+        default lid behaviour at "none" (Settings.Global.LID_BEHAVIOR is seeded
+        from this on first boot): DeviceParts sleeps and locks the device on
+        lid close itself, after stock's light-sensor check, which the framework
+        lid behaviours do not have. Opening the lid always wakes the device
+        (WindowWakeUpPolicy.wakeUpFromLid).
+    -->
+    <bool name="config_lidControlsSleep">false</bool>
+    <bool name="config_lidControlsScreenLock">false</bool>
+
+    <!--
         Desktop Windowing (A16 "Desktop Experience"): mark this 12.7" tablet as
         desktop-capable so the windowed-desktop mode and its developer toggle
         (Settings -> System -> Developer options -> Desktop mode) are available.

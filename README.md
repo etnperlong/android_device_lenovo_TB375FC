@@ -59,7 +59,7 @@ The panel supports 144 / 120 / 60 / 30 Hz, but the NVT active pen is reported to
 Reading mode is the LineageOS one (Quick Settings "Reading mode" tile or LiveDisplay), which renders in grayscale. For the warm paper tint of stock's black-and-white mode, also enable Night Light at a low intensity; Night Light is applied after the grayscale matrix, so the tint is kept. The optional "Reading 30 Hz" Quick Settings tile (off by default, like stock) caps the display at 30 Hz, or at the minimum refresh rate if that is higher, while reading mode is on.
 
 ### Folio cover
-The hall sensor driver reports the cover as key scan codes 252 (closed) and 253 (opened); stock maps them to ZUI-only key codes, so on LineageOS they arrive unmapped. `DeviceParts` registers a LineageOS device key handler that handles them like stock: closing the cover while the screen is on puts the tablet to sleep once the light sensor reads at most 20 lux (so a cover folded behind the tablet does not count), and locks it 2 s later; opening the cover wakes it again, but only if the cover put it to sleep. The "Smart cover" Quick Settings tile turns this off.
+The stock hall sensor driver reports the cover as two key presses that only ZUI understands, so `hall.ko` is patched to report a lid switch (`SW_LID`) instead (see below). `PhoneWindowManager` then tracks the lid and wakes the tablet whenever the cover opens. Lid behaviour stays "none"; `DeviceParts` applies stock's policy on lid close instead: with the screen on, the tablet goes to sleep once the light sensor reads at most 20 lux (so a cover folded behind the tablet does not count) and locks 2 s later. The "Smart cover" switch turns this off.
 
 ### Lenovo keyboards and pens
 `configs/keylayout` and `configs/idc` carry stock's `Vendor_17ef_Product_*` files for Lenovo keyboard covers and pens. Stock uses ZUI-only key codes for the special keys; LineageOS's input stack rejects a whole layout file on an unknown label, so those lines are commented out, except that Lenovo mute, screen lock, search and settings keys are mapped to the AOSP `VOLUME_MUTE`, `LOCK`, `SEARCH` and `SETTINGS` keys. Touchpad mute, Fn lock, full screen, split screen, PC mode, the app keys, keyboard backlight levels and the pen button gestures have no AOSP equivalent and do nothing.
@@ -71,12 +71,13 @@ The Novatek touch driver has a game mode (`/proc/game_mode`, sent to the touch c
 Stock's Lenovo battery HAL stops and restarts charging through `/sys/class/wt-battery/charging_enabled` (`1` = charge, `0` = stop). The LineageOS health HAL toggles the same node, which enables Settings -> Battery -> Charging control. Only the on/off toggle is configured, so a charge limit works by stopping the charger at the limit and restarting it a few percent below. Bypass mode stays off: it is not known whether the adapter alone powers the tablet while the charger is stopped.
 
 ### Patched prebuilt modules
-Two stock kernel modules are modified; both are required, and extracting from a stock device gives the unpatched versions.
+Three stock kernel modules are modified; all are required, and extracting from a stock device gives the unpatched versions.
 
 | Module | Change |
 |--------|--------|
 | `nt36532.ko` | Touch firmware loads on the first attempt in recovery instead of timing out for ~15 s |
 | `wlan_drv_gen4m_6897.ko` | Fixes a WPA3 association failure in the stock driver |
+| `hall.ko` | Reports the folio cover as `SW_LID` instead of key codes 252/253; reproducible with `tools/patch_hall_ko.py`, details in `docs/hall-ko-lid-switch.md` |
 
 ### Signing
 Builds from this tree are signed with the public AOSP test keys, which is fine for personal use but not something to trust for anything security sensitive. Generate your own keys and sign your own build.

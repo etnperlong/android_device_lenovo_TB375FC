@@ -25,7 +25,7 @@
     <string name="touch_game_mode_summary">Game mode of the touch controller. Turns off again after a restart.</string>
     <string name="touch_game_mode_unavailable">Not available</string>
     <string name="smart_cover_title">Smart cover</string>
-    <string name="smart_cover_summary">Sleep when the folio cover closes and wake when it opens</string>
+    <string name="smart_cover_summary">Sleep and lock when the folio cover is closed</string>
 
     <!-- Quick Settings tiles -->
     <string name="tile_reading_low_refresh">Reading 30 Hz</string>
