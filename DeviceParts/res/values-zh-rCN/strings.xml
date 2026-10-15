@@ -5,6 +5,27 @@
 -->
 <resources>
     <string name="app_name">设备功能</string>
+
+    <string name="device_parts_title">设备功能</string>
+    <string name="device_parts_summary">手写笔、触控与皮套</string>
+    <string name="display_parts_title">手写笔与触控</string>
+    <string name="display_parts_summary">手写笔刷新率、阅读模式刷新率、触控游戏模式</string>
+
+    <string name="category_display_title">刷新率</string>
+    <string name="category_touch_title">触控</string>
+    <string name="category_cover_title">皮套</string>
+
+    <string name="pen_refresh_cap_title">使用手写笔时限制为 120 Hz</string>
+    <string name="pen_refresh_cap_summary">主动笔据称最高只支持 120 Hz。最后一次笔输入 10 秒后解除限制。</string>
+    <string name="reading_low_refresh_title">阅读模式下使用 30 Hz</string>
+    <string name="reading_low_refresh_summary">开启阅读模式时降低刷新率</string>
+    <string name="reading_low_refresh_unavailable">阅读模式不可用</string>
+    <string name="touch_game_mode_title">触控游戏模式</string>
+    <string name="touch_game_mode_summary">触控芯片的游戏模式，重启后恢复关闭。</string>
+    <string name="touch_game_mode_unavailable">不可用</string>
+    <string name="smart_cover_title">智能皮套</string>
+    <string name="smart_cover_summary">合上皮套时息屏，打开时亮屏</string>
+
     <string name="tile_reading_low_refresh">阅读 30 Hz</string>
     <string name="tile_touch_game_mode">触控游戏模式</string>
     <string name="tile_smart_cover">智能皮套</string>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/display_parts_title">
+    <PreferenceCategory
+        android:key="category_display"
+        android:title="@string/category_display_title">
+        <SwitchPreferenceCompat
+            android:key="pen_refresh_cap"
+            android:title="@string/pen_refresh_cap_title"
+            android:summary="@string/pen_refresh_cap_summary"
+            android:persistent="false" />
+
+        <SwitchPreferenceCompat
+            android:key="reading_low_refresh"
+            android:title="@string/reading_low_refresh_title"
+            android:summary="@string/reading_low_refresh_summary"
+            android:persistent="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="category_touch"
+        android:title="@string/category_touch_title">
+        <SwitchPreferenceCompat
+            android:key="touch_game_mode"
+            android:title="@string/touch_game_mode_title"
+            android:summary="@string/touch_game_mode_summary"
+            android:persistent="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

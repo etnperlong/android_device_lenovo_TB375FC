@@ -24,6 +24,78 @@
         <!-- cover.KeyHandler is not an app component: PhoneWindowManager loads it into
              system_server from this APK (lineage-sdk config_deviceKeyHandlerLibs). -->
 
+        <!-- Settings entry points. Settings shows an IA_SETTINGS activity of a system app on the
+             page whose category key it declares, so the same screens are reachable from the
+             homepage (all settings) and from the page each setting belongs to. -->
+        <activity
+            android:name=".DevicePartsActivity"
+            android:exported="true"
+            android:label="@string/device_parts_title"
+            android:theme="@style/Theme.SubSettingsBase">
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.homepage" />
+            <meta-data
+                android:name="com.android.settings.group_key"
+                android:value="top_level_system_info_category" />
+            <meta-data
+                android:name="com.android.settings.keyhint"
+                android:value="top_level_device_parts" />
+            <meta-data
+                android:name="com.android.settings.order"
+                android:value="-25" />
+            <meta-data
+                android:name="com.android.settings.icon"
+                android:resource="@drawable/ic_device_parts" />
+            <meta-data
+                android:name="com.android.settings.icon_tintable"
+                android:value="true" />
+            <meta-data
+                android:name="com.android.settings.summary"
+                android:resource="@string/device_parts_summary" />
+        </activity>
+
+        <activity
+            android:name=".DisplayPartsActivity"
+            android:exported="true"
+            android:label="@string/display_parts_title"
+            android:theme="@style/Theme.SubSettingsBase">
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.display" />
+            <meta-data
+                android:name="com.android.settings.keyhint"
+                android:value="display_device_parts" />
+            <meta-data
+                android:name="com.android.settings.summary"
+                android:resource="@string/display_parts_summary" />
+        </activity>
+
+        <activity
+            android:name=".CoverPartsActivity"
+            android:exported="true"
+            android:label="@string/smart_cover_title"
+            android:theme="@style/Theme.SubSettingsBase">
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.lockscreen" />
+            <meta-data
+                android:name="com.android.settings.keyhint"
+                android:value="lockscreen_smart_cover" />
+            <meta-data
+                android:name="com.android.settings.summary"
+                android:resource="@string/smart_cover_summary" />
+        </activity>
+
         <service
             android:name=".touch.TapToWakeService"
             android:exported="false" />

@@ -10,6 +10,7 @@
 //    LineageOS reading mode is on;
 //  - cover: a lineage-sdk device key handler (loaded into system_server from this APK) turning
 //    the hall.ko scan codes 252/253 into sleep/wake like stock ZuiPhoneWindowManager.
+// Its settings screens are injected into the Settings homepage, Display and Lock screen pages.
 // Not privileged: uid 1000 already passes every permission check, and a priv-app would need
 // privapp-permissions entries. The APK path is referenced from overlay/LineageSDKDeviceOverlay;
 // keep name and partition in sync.
@@ -26,7 +27,12 @@ android_app {
     certificate: "platform",
     system_ext_specific: true,
 
-    static_libs: ["org.lineageos.platform.internal"],
+    static_libs: [
+        "SettingsLibCollapsingToolbarBaseActivity",
+        "SettingsLibSettingsTheme",
+        "androidx.preference_preference",
+        "org.lineageos.platform.internal",
+    ],
 
     optimize: {
         proguard_flags_files: ["proguard.flags"],

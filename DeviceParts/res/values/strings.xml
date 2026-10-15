@@ -5,6 +5,29 @@
 -->
 <resources>
     <string name="app_name">Device parts</string>
+
+    <!-- Settings entry points -->
+    <string name="device_parts_title">Device parts</string>
+    <string name="device_parts_summary">Pen, touch and folio cover</string>
+    <string name="display_parts_title">Pen and touch</string>
+    <string name="display_parts_summary">Pen refresh rate, reading mode refresh rate, touch game mode</string>
+
+    <string name="category_display_title">Refresh rate</string>
+    <string name="category_touch_title">Touch</string>
+    <string name="category_cover_title">Folio cover</string>
+
+    <string name="pen_refresh_cap_title">Limit to 120 Hz while using the pen</string>
+    <string name="pen_refresh_cap_summary">The active pen is reported to work only up to 120 Hz. The limit lifts 10 seconds after the last pen input.</string>
+    <string name="reading_low_refresh_title">30 Hz in reading mode</string>
+    <string name="reading_low_refresh_summary">Lower the refresh rate while reading mode is on</string>
+    <string name="reading_low_refresh_unavailable">Reading mode is not available</string>
+    <string name="touch_game_mode_title">Touch game mode</string>
+    <string name="touch_game_mode_summary">Game mode of the touch controller. Turns off again after a restart.</string>
+    <string name="touch_game_mode_unavailable">Not available</string>
+    <string name="smart_cover_title">Smart cover</string>
+    <string name="smart_cover_summary">Sleep when the folio cover closes and wake when it opens</string>
+
+    <!-- Quick Settings tiles -->
     <string name="tile_reading_low_refresh">Reading 30 Hz</string>
     <string name="tile_touch_game_mode">Touch game mode</string>
     <string name="tile_smart_cover">Smart cover</string>

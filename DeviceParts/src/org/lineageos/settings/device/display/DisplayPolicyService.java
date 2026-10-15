@@ -35,7 +35,8 @@ import lineageos.hardware.LineageHardwareManager;
  *
  * - Stylus: stock MediaTek SurfaceFlinger runs a 10 s "PenTimer" fed by every stylus
  *   MotionEvent (hover included) and steers to 120 Hz while it runs. Here a gesture-monitor
- *   spy window observes the same events and caps the display at 120 Hz.
+ *   spy window observes the same events and caps the display at 120 Hz, unless the user turned
+ *   {@link #KEY_PEN_REFRESH_CAP} off.
  * - Reading mode: stock caps at max(min_refresh_rate, 30 Hz) while ZUI reading mode is active
  *   and the user enabled "low refresh". Here the reading mode is LineageOS LiveDisplay reading
  *   enhancement (grayscale; warmth comes from Night Light), and the opt-in toggle is
@@ -47,8 +48,10 @@ import lineageos.hardware.LineageHardwareManager;
 public class DisplayPolicyService extends Service {
     private static final String TAG = "DisplayPolicy";
 
+    /** Secure setting, 1 = cap at 120 Hz while the pen is in use. Default on, like stock. */
+    public static final String KEY_PEN_REFRESH_CAP = "tb375fc_pen_refresh_cap";
     /** Secure setting, 1 = cap at 30 Hz while reading mode is on. Default off, like stock. */
-    static final String KEY_READING_LOW_REFRESH = "tb375fc_reading_low_refresh";
+    public static final String KEY_READING_LOW_REFRESH = "tb375fc_reading_low_refresh";
 
     /** Matches stock ro.surface_flinger.set_pen_timer_ms. */
     private static final long STYLUS_TIMEOUT_MS = 10_000;
@@ -71,6 +74,7 @@ public class DisplayPolicyService extends Service {
     private DisplayManager mDisplayManager;
     private LineageHardwareManager mHardware;
     private boolean mReadingSupported;
+    private boolean mPenCapEnabled = true;
     private boolean mReadingLowRefreshEnabled;
     private InputMonitor mInputMonitor;
     private PolicyInputReceiver mInputReceiver;
@@ -141,6 +145,8 @@ public class DisplayPolicyService extends Service {
         };
         cr.registerContentObserver(Settings.System.getUriFor(Settings.System.MIN_REFRESH_RATE),
                 false, mSettingsObserver);
+        cr.registerContentObserver(Settings.Secure.getUriFor(KEY_PEN_REFRESH_CAP),
+                false, mSettingsObserver);
         cr.registerContentObserver(Settings.Secure.getUriFor(KEY_READING_LOW_REFRESH),
                 false, mSettingsObserver);
 
@@ -193,6 +199,11 @@ public class DisplayPolicyService extends Service {
         final ContentResolver cr = getContentResolver();
         mArbiter.setUserMinHz(
                 Settings.System.getFloat(cr, Settings.System.MIN_REFRESH_RATE, 0f));
+        mPenCapEnabled = Settings.Secure.getInt(cr, KEY_PEN_REFRESH_CAP, 1) != 0;
+        if (!mPenCapEnabled) {
+            mHandler.removeCallbacks(mStylusTimeoutCheck);
+            mArbiter.setStylusActive(false);
+        }
         mReadingLowRefreshEnabled = mReadingSupported
                 && Settings.Secure.getInt(cr, KEY_READING_LOW_REFRESH, 0) != 0;
     }
@@ -205,6 +216,9 @@ public class DisplayPolicyService extends Service {
 
     /** Called on mHandler's looper for every stylus pointer event. */
     private void onStylusEvent() {
+        if (!mPenCapEnabled) {
+            return;
+        }
         mLastStylusUptime = SystemClock.uptimeMillis();
         if (mArbiter.isStylusActive()) {
             return;
