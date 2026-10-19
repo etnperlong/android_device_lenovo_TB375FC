@@ -52,9 +52,6 @@ product/media/audio/ui/camera_click.ogg
 product/media/audio/ui/camera_focus.ogg
 product/media/audio/ui/pen_mono.wav
 product/media/audio/ui/pen_sound.ogg
-system_ext/apex/com.android.compos.apex
-system_ext/apex/com.android.vndk.v31.apex
-system_ext/apex/com.android.vndk.v33.apex
 system_ext/apex/com.android.vndk.v34.apex
 system_ext/app/DolbyVisionService/DolbyVisionService.apk
 system_ext/app/MiraVision/MiraVision.apk
