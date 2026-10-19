@@ -6,6 +6,14 @@
 # flag.val,package.map} (aconfig storage for the flags actually built).
 # Stock copies describe the ZUI build and duplicate the generated files in
 # the partition file lists, which build_image rejects (FileExistsError).
+#
+# Do not list system_ext/bin/hwservicemanager or its init script. The stock
+# Android 16 binary never sets hwservicemanager.disabled=false, while the
+# Android 17 libhwbinder (hwservicemanager.always_sets_disabled=true) waits
+# for that property before any HIDL use, including in hwservicemanager
+# itself, so it deadlocked and vold never mounted /data. As a same-name
+# preferred prebuilt it also hid the AOSP module, which shipping API level
+# 34 already installs.
 
 odm/etc/vintf/manifest.xml;MAKE_COPY_RULE_ONLY
 odm/etc/vintf/manifest_dsds.xml;MAKE_COPY_RULE_ONLY
@@ -57,7 +65,6 @@ system_ext/bin/boot_logo_updater
 system_ext/bin/fsck.ntfs;MAKE_COPY_RULE_ONLY
 system_ext/bin/hw/android.hardware.audio.parameter_parser.service;MAKE_COPY_RULE_ONLY
 system_ext/bin/hw/android.hidl.allocator@1.0-service
-system_ext/bin/hwservicemanager
 system_ext/bin/kpoc_charger
 system_ext/bin/loghidlsysservice
 system_ext/bin/magt
@@ -98,7 +105,6 @@ system_ext/etc/init/bootlogoupdater.rc
 system_ext/etc/init/hw/init.aee.rc
 system_ext/etc/init/hw/meta_init.system.rc
 system_ext/etc/init/hw/vendor_init_as_system.rc
-system_ext/etc/init/hwservicemanager.rc
 system_ext/etc/init/init.thermald.rc
 system_ext/etc/init/init.vtservice.rc
 system_ext/etc/init/kpoc_charger.rc
