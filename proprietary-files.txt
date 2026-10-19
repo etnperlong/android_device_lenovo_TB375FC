@@ -81,7 +81,6 @@ system_ext/bin/omservice
 system_ext/bin/rtt_v2
 system_ext/bin/thermald
 system_ext/bin/trace
-system_ext/bin/vtservice
 system_ext/etc/OVSplitscreen/OVRelaunchBlacklist.xml
 system_ext/etc/OVSplitscreen/OVSplitBlacklist.xml
 system_ext/etc/a2dp_audio_policy_configuration.xml
@@ -111,7 +110,6 @@ system_ext/etc/init/hw/init.aee.rc
 system_ext/etc/init/hw/meta_init.system.rc
 system_ext/etc/init/hw/vendor_init_as_system.rc
 system_ext/etc/init/init.thermald.rc
-system_ext/etc/init/init.vtservice.rc
 system_ext/etc/init/kpoc_charger.rc
 system_ext/etc/init/loghidlsysservice.rc
 system_ext/etc/init/magt.rc
@@ -212,7 +210,6 @@ system_ext/lib64/libccci_util_sys.so
 system_ext/lib64/libcmdl_ndk.mtk.so
 system_ext/lib64/libcomposer_ext.so;MAKE_COPY_RULE_ONLY
 system_ext/lib64/libcompress.so
-system_ext/lib64/libcomutils.so
 system_ext/lib64/libcustom_jni.so
 system_ext/lib64/libcustom_prop.so
 system_ext/lib64/libdcnio_jni.so
@@ -226,10 +223,6 @@ system_ext/lib64/libgpud_sys.so;MAKE_COPY_RULE_ONLY
 system_ext/lib64/libgralloc_extra_sys.so
 system_ext/lib64/libgui_debug.so
 system_ext/lib64/libhdcp_helper.so
-system_ext/lib64/libimsma.so
-system_ext/lib64/libimsma_adapt.so
-system_ext/lib64/libimsma_rtp.so
-system_ext/lib64/libimsma_socketwrapper.so
 system_ext/lib64/libjni_pq.so
 system_ext/lib64/libjpeg-alpha-oal.so
 system_ext/lib64/libjpeg-alpha.so
@@ -239,8 +232,6 @@ system_ext/lib64/libmdloggerrecycle.so
 system_ext/lib64/libmediatek_exceptionlog.so
 system_ext/lib64/libmemoryDumpEncoder.so
 system_ext/lib64/libmtk_sf_llfp.so
-system_ext/lib64/libmtk_vt_service.so
-system_ext/lib64/libmtk_vt_wrapper.so
 system_ext/lib64/libmtkaudio_utils.so
 system_ext/lib64/libmtkperf_client.so;MAKE_COPY_RULE_ONLY
 system_ext/lib64/libmvpu_cic_ci_compiler.mtk.so
@@ -297,10 +288,7 @@ system_ext/lib64/libsf_debug.so
 system_ext/lib64/libsf_perf.so
 system_ext/lib64/libsfpq_inf.so
 system_ext/lib64/libshowlogo.so
-system_ext/lib64/libsignal.so
-system_ext/lib64/libsink.so;MAKE_COPY_RULE_ONLY
 system_ext/lib64/libsmartpower_jni.so
-system_ext/lib64/libsource.so
 system_ext/lib64/libstagefright_mbrain.so
 system_ext/lib64/libstagefright_wfd_mtk.so
 system_ext/lib64/libsysenv_system.so
@@ -312,8 +300,6 @@ system_ext/lib64/libtouch_ll.so
 system_ext/lib64/libtouch_ll_share.so
 system_ext/lib64/libudf.so;MAKE_COPY_RULE_ONLY
 system_ext/lib64/libui_ext.so
-system_ext/lib64/libvcodec_cap.so
-system_ext/lib64/libvcodec_capenc.so
 system_ext/lib64/libvoicerecognition.so
 system_ext/lib64/libvoicerecognition_jni.so
 system_ext/lib64/libvow_ap_train_dddd.so
@@ -337,7 +323,6 @@ system_ext/lib64/libvow_ap_train_znnn.so
 system_ext/lib64/libvow_comp_train.so
 system_ext/lib64/libvsim-adaptor-client.so
 system_ext/lib64/libvsync_hint.so
-system_ext/lib64/libvt_avsync.so
 system_ext/lib64/vendor.mediatek.framework.mtksf_ext-V3-ndk.so
 system_ext/lib64/vendor.mediatek.framework.mtksf_ext-V4-ndk.so
 system_ext/lib64/vendor.mediatek.framework.mtksf_ext-V9-ndk.so
@@ -391,8 +376,6 @@ system_ext/lib64/vendor.mediatek.hardware.pq@2.3.so
 system_ext/lib64/vendor.mediatek.hardware.pq_aidl-V2-ndk.so;MAKE_COPY_RULE_ONLY
 system_ext/lib64/vendor.mediatek.hardware.pq_aidl-V7-ndk.so;MAKE_COPY_RULE_ONLY
 system_ext/lib64/vendor.mediatek.hardware.touchll@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so
-system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 system_ext/lib64/vendor.trustonic.tee-V1-ndk.so
 system_ext/lib64/vendor.trustonic.tee@1.0.so
 system_ext/lib64/vendor.trustonic.tee@1.1.so
