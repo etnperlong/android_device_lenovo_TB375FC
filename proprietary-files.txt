@@ -14,6 +14,11 @@
 # itself, so it deadlocked and vold never mounted /data. As a same-name
 # preferred prebuilt it also hid the AOSP module, which shipping API level
 # 34 already installs.
+#
+# Do not list system_ext/framework/mediatek-{telecom,telephony}-common.jar.
+# hardware/mediatek puts both on the boot classpath and builds them from
+# source; the boot image is compiled from those modules, so a stock copy at
+# the same path fails the boot image checksum check at runtime.
 
 odm/etc/vintf/manifest.xml;MAKE_COPY_RULE_ONLY
 odm/etc/vintf/manifest_dsds.xml;MAKE_COPY_RULE_ONLY
@@ -156,12 +161,8 @@ system_ext/framework/mediatek-ims-extension-plugin.jar;MAKE_COPY_RULE_ONLY
 system_ext/framework/mediatek-ims-extension-plugin.jar.fsv_meta;MAKE_COPY_RULE_ONLY
 system_ext/framework/mediatek-services.jar;MAKE_COPY_RULE_ONLY
 system_ext/framework/mediatek-services.jar.fsv_meta;MAKE_COPY_RULE_ONLY
-system_ext/framework/mediatek-telecom-common.jar;MAKE_COPY_RULE_ONLY
-system_ext/framework/mediatek-telecom-common.jar.fsv_meta;MAKE_COPY_RULE_ONLY
 system_ext/framework/mediatek-telephony-base.jar;MAKE_COPY_RULE_ONLY
 system_ext/framework/mediatek-telephony-base.jar.fsv_meta;MAKE_COPY_RULE_ONLY
-system_ext/framework/mediatek-telephony-common.jar;MAKE_COPY_RULE_ONLY
-system_ext/framework/mediatek-telephony-common.jar.fsv_meta;MAKE_COPY_RULE_ONLY
 system_ext/framework/oat/arm64/CustomPropInterface.odex.fsv_meta
 system_ext/framework/oat/arm64/CustomPropInterface.vdex.fsv_meta
 system_ext/framework/oat/arm64/duraspeed.odex.fsv_meta
