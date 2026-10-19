@@ -214,31 +214,29 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 # LineageOS release signing overrides the keys at sign time, so the tree must not
 # ship real keys.
 #
-# The top-level vbmeta is built with --flags 3 = HASHTREE_DISABLED |
-# VERIFICATION_DISABLED. At first-stage boot libavb reads these on the main vbmeta
-# and returns without descending into the chained vbmeta_system / vbmeta_vendor
-# descriptors, so no partition gets a dm-verity device and none is verified -
-# verity is off device-wide. This is the standard LineageOS A/B posture (the
-# bootloader runs unlocked, and verity-off lets users flash partitions freely) and
-# matches current official LOS A/B trees (oneplus sm8350-common, oneplus billie).
+# All vbmeta images are built with flags 0, so AVB hashtrees are applied and dm-verity is
+# active. With flags 0 libavb in the LK appends androidboot.vbmeta.{hash_alg,size,digest}
+# (external/avb/libavb/avb_cmdline.c, avb_append_options), which first-stage init needs to
+# check the vbmeta digest when the bootloader reports green/locked. With the top-level
+# VERIFICATION_DISABLED, libavb appends no androidboot.vbmeta.* options at all
+# (avb_slot_verify.c), so on a green-reporting LK first-stage mount aborts with
+# "Invalid hash size" and init reboots to the bootloader. An orange-reporting LK does not
+# need them: libfs_avb tolerates verification errors when verifiedbootstate is orange
+# (system/fs/fs_mgr/libfs_avb/fs_avb.cpp, IsAvbPermissive).
 #
-# The chained vbmeta_system / vbmeta_vendor are still built (so the image layout
-# matches official and each image self-describes its hashtree) but are inert at
-# boot while the top-level disables hashtree+verification. /odm is a built EROFS
-# image (vintf fragments + passwd/group) kept in vbmeta_vendor for that layout
-# parity; with verification disabled it is not enforced at boot. The earlier note
-# about /odm dead-locking first-stage mount was an artifact of an old all-chains
-# --flags-3 config and no longer applies.
+# The tree previously set --flags 3 (HASHTREE_DISABLED | VERIFICATION_DISABLED) on the
+# top-level and both chained vbmeta images. On 2026-10-19 the same build with all three
+# images at flags 0 passed preloader and LK and booted to Recovery, so the stated
+# "incompatible hardware" rejection of chained vbmeta images without flags 3 did not
+# reproduce.
 #
-# ROLLBACK_INDEX is 0. This MTK preloader/LK enforces AVB anti-rollback even with the main
-# vbmeta VERIFICATION_DISABLED (--flags 3): a non-zero rollback index is rejected at boot as
-# "incompatible hardware" (a build with index = SPL timestamp fails the LK; the same tree
-# with index 0 boots on identical hardware). The SPL-tied rollback index some Qualcomm LOS
-# trees use (sm8350, billie) is not safe on this MTK LK.
+# ROLLBACK_INDEX is 0. This MTK preloader/LK enforces AVB anti-rollback: a non-zero rollback
+# index is rejected at boot as "incompatible hardware" (a build with index = SPL timestamp
+# fails the LK; the same tree with index 0 boots on identical hardware). The SPL-tied rollback
+# index some Qualcomm LOS trees use (sm8350, billie) is not safe on this MTK LK.
 BOARD_AVB_ENABLE                  := true
 BOARD_AVB_ALGORITHM               := SHA256_RSA2048
 BOARD_AVB_KEY_PATH                := external/avb/test/data/testkey_rsa2048.pem
-BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS  += --flags 3
 BOARD_AVB_ROLLBACK_INDEX                            := 0
 BOARD_AVB_ROLLBACK_INDEX_LOCATION                   := 0
 BOARD_AVB_VBMETA_SYSTEM := system system_ext product
@@ -251,17 +249,10 @@ BOARD_AVB_VBMETA_VENDOR_KEY_PATH                    := external/avb/test/data/te
 BOARD_AVB_VBMETA_VENDOR_ALGORITHM                   := SHA256_RSA2048
 BOARD_AVB_VBMETA_VENDOR_ROLLBACK_INDEX               := 0
 BOARD_AVB_VBMETA_VENDOR_ROLLBACK_INDEX_LOCATION     := 2
-# The chained vbmeta_system / vbmeta_vendor MUST also carry VERIFICATION_DISABLED. The
-# top-level --flags 3 only stops stock libavb from descending, but this MTK preloader reads
-# the chained vbmeta partitions DIRECTLY and enforces them; without --flags 3 here it verifies
-# test-key-signed system/vendor against the fused OEM key and rejects boot as "incompatible
-# hardware" (the same AVB mismatch as flashing ROW on CN). Flags 3 makes them inert too.
-BOARD_AVB_MAKE_VBMETA_SYSTEM_IMAGE_ARGS += --flags 3
-BOARD_AVB_MAKE_VBMETA_VENDOR_IMAGE_ARGS += --flags 3
 #
-# DTBO is the exception to the "nothing is verified" posture above. The MediaTek LK
-# validates the dtbo AVB hash descriptor against the vbmeta copy at boot even with the
-# main vbmeta VERIFICATION_DISABLED, and rejects a mismatch as "incompatible hardware".
+# The MediaTek LK validates the dtbo AVB hash descriptor against the vbmeta copy at boot,
+# including when the main vbmeta was VERIFICATION_DISABLED, and rejects a mismatch as
+# "incompatible hardware".
 # avbtool's default random per-run salt makes the standalone dtbo.img and the descriptor
 # embedded in vbmeta disagree (they are signed by separate avbtool invocations), which
 # bricks boot on a fresh flash. Pin the salt so both generated copies agree.
