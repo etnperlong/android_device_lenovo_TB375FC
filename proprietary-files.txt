@@ -59,12 +59,6 @@ system_ext/apex/com.android.vndk.v34.apex
 system_ext/app/DolbyVisionService/DolbyVisionService.apk
 system_ext/app/MiraVision/MiraVision.apk
 system_ext/bin/AudioSetParam
-system_ext/bin/aee_aed64
-system_ext/bin/aee_aed64_v2
-system_ext/bin/aee_core_forwarder_v2
-system_ext/bin/aee_dumpstate_v2
-system_ext/bin/aee_v2
-system_ext/bin/aeedb_v2
 system_ext/bin/batterywarning
 system_ext/bin/boot_logo_updater
 system_ext/bin/fsck.ntfs;MAKE_COPY_RULE_ONLY
@@ -77,15 +71,12 @@ system_ext/bin/mediahelper
 system_ext/bin/mount.ntfs;MAKE_COPY_RULE_ONLY
 system_ext/bin/mtk_plpath_utils
 system_ext/bin/omservice
-system_ext/bin/rtt_v2
 system_ext/bin/thermald
 system_ext/bin/trace
 system_ext/etc/OVSplitscreen/OVRelaunchBlacklist.xml
 system_ext/etc/OVSplitscreen/OVSplitBlacklist.xml
 system_ext/etc/a2dp_audio_policy_configuration.xml
 system_ext/etc/a2dp_in_audio_policy_configuration.xml
-system_ext/etc/aee-commit
-system_ext/etc/aee-config
 system_ext/etc/audio_policy_configuration.xml
 system_ext/etc/audio_policy_configuration_bluetooth_legacy_hal.xml
 system_ext/etc/audio_policy_configuration_stub.xml
@@ -99,12 +90,9 @@ system_ext/etc/build_flags.json
 system_ext/etc/custom.conf
 system_ext/etc/default_volume_tables.xml
 system_ext/etc/hearing_aid_audio_policy_configuration.xml
-system_ext/etc/init/aee_aed64.rc
-system_ext/etc/init/aee_aed64_v2.rc
 system_ext/etc/init/android.hardware.audio.parameter_parser.service.rc
 system_ext/etc/init/batterywarning.rc
 system_ext/etc/init/bootlogoupdater.rc
-system_ext/etc/init/hw/init.aee.rc
 system_ext/etc/init/hw/meta_init.system.rc
 system_ext/etc/init/hw/vendor_init_as_system.rc
 system_ext/etc/init/init.thermald.rc
@@ -181,7 +169,6 @@ system_ext/lib64/libPQjni.so
 system_ext/lib64/libTeeClient.so
 system_ext/lib64/libTeeServiceJni.so
 system_ext/lib64/lib_remote_simlock.so
-system_ext/lib64/libaed.so
 system_ext/lib64/libapu_mdw_ext.mtk.so
 system_ext/lib64/libapuwareapusys.mtk.so
 system_ext/lib64/libapuwareapusys_v2.mtk.so
@@ -225,7 +212,6 @@ system_ext/lib64/libjpeg-alpha.so
 system_ext/lib64/libmagt.so
 system_ext/lib64/libmagtsync.so
 system_ext/lib64/libmdloggerrecycle.so
-system_ext/lib64/libmediatek_exceptionlog.so
 system_ext/lib64/libmemoryDumpEncoder.so
 system_ext/lib64/libmtk_sf_llfp.so
 system_ext/lib64/libmtkaudio_utils.so
@@ -322,9 +308,6 @@ system_ext/lib64/libvsync_hint.so
 system_ext/lib64/vendor.mediatek.framework.mtksf_ext-V3-ndk.so
 system_ext/lib64/vendor.mediatek.framework.mtksf_ext-V4-ndk.so
 system_ext/lib64/vendor.mediatek.framework.mtksf_ext-V9-ndk.so
-system_ext/lib64/vendor.mediatek.hardware.aee-V1-ndk.so
-system_ext/lib64/vendor.mediatek.hardware.aee@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.aee@1.1.so
 system_ext/lib64/vendor.mediatek.hardware.apuware.apusys-V5-ndk.so
 system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so
