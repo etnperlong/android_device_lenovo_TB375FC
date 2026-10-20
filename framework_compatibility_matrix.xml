@@ -87,6 +87,38 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <!--
+        Dolby HIDL HALs used by the stock daxService and DolbyVisionService.
+        Stock ships these in product/etc/vintf/compatibility_matrix.xml, but
+        that file path is the product matrix the build itself generates, so
+        they are declared here instead.
+    -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.media.c2</name>
+        <version>1.0</version>
+        <interface>
+            <name>IComponentStore</name>
+            <instance>default</instance>
+            <instance>dolby</instance>
+            <instance>vendor</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.dolby.dvs</name>
+        <version>1.0-1</version>
+        <interface>
+            <name>IDvs</name>
+            <instance>dvs-hal-service</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.dolby.hardware.dms</name>
+        <version>2.0</version>
+        <interface>
+            <name>IDms</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="aidl" optional="true">
         <name>vendor.dolby.dvs</name>
         <version>1</version>
