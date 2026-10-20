@@ -11,6 +11,9 @@
 # in mtk_system_ext_daemons.te). Without this label it stays system_file and init
 # execs it unconfined (execute_no_trans denial).
 /(system_ext|system/system_ext)/bin/mtk_plpath_utils  u:object_r:mtk_plpath_utils_exec:s0
+# Userdebug/eng boot logger (tb375fc_bootlog.te) and the log directory it fills.
+/(system_ext|system/system_ext)/bin/tb375fc-bootlog  u:object_r:tb375fc_bootlog_exec:s0
+/metadata/tb375fc_bootlog(/.*)?                     u:object_r:tb375fc_bootlog_file:s0
 
 # DRM KMS node minui opens in LOS recovery. Vendor file_contexts labels card0
 # dri_device for the running system, but vendor /dev labels are not installed

@@ -1,0 +1,17 @@
+# Boot logger for userdebug and eng builds (see tb375fc-bootlog.sh).
+# /metadata is mounted by first-stage init and logd starts in "on init", so
+# logging covers almost all of second-stage init. It stops once the boot has
+# completed, when ADB is available.
+
+on init
+    mkdir /metadata/tb375fc_bootlog 0700 root root
+    start tb375fc_bootlog
+
+on property:sys.boot_completed=1
+    stop tb375fc_bootlog
+
+service tb375fc_bootlog /system_ext/bin/tb375fc-bootlog
+    user root
+    group root log readproc
+    disabled
+    oneshot

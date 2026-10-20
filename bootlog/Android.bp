@@ -1,0 +1,18 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+sh_binary {
+    name: "tb375fc-bootlog",
+    src: "tb375fc-bootlog.sh",
+    system_ext_specific: true,
+    required: ["tb375fc-bootlog.rc"],
+}
+
+prebuilt_etc {
+    name: "tb375fc-bootlog.rc",
+    src: "tb375fc-bootlog.rc",
+    sub_dir: "init",
+    system_ext_specific: true,
+}

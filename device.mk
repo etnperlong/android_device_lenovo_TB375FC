@@ -323,6 +323,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     DeviceParts
 
+# Boot logger for userdebug/eng builds: logcat, dmesg, properties and processes
+# of the last two boots in /metadata/tb375fc_bootlog, readable from Recovery
+# when a boot never brings up ADB (bootlog/).
+PRODUCT_PACKAGES_DEBUG += \
+    tb375fc-bootlog
+
 # Lenovo keyboard / pen accessory key layouts and input configs, from stock
 # /system/usr. ZUI-only key labels (unknown to LineageOS libinput, which would
 # reject the whole file) are commented out or mapped to the closest AOSP key.

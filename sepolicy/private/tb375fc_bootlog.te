@@ -1,0 +1,9 @@
+# tb375fc_bootlog - /system_ext/bin/tb375fc-bootlog, installed only on userdebug
+# and eng builds (PRODUCT_PACKAGES_DEBUG). It runs logcat, dmesg, getprop and ps
+# over every domain during boot, so it is permissive there instead of carrying
+# a broad allow set; user builds do not install it.
+type tb375fc_bootlog, domain, coredomain;
+type tb375fc_bootlog_exec, system_file_type, exec_type, file_type;
+type tb375fc_bootlog_file, file_type;
+init_daemon_domain(tb375fc_bootlog)
+userdebug_or_eng(`permissive tb375fc_bootlog;')
