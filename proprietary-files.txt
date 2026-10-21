@@ -31,6 +31,9 @@
 # systemReady. The Dolby entries of the stock product matrix are declared in
 # framework_compatibility_matrix.xml instead.
 
+# ClearKey is provided by the AOSP Android 17 service APEX; do not extract
+# stock service, init, VINTF, or plugin files that would override it.
+
 odm/etc/vintf/manifest.xml;MAKE_COPY_RULE_ONLY
 odm/etc/vintf/manifest_dsds.xml;MAKE_COPY_RULE_ONLY
 odm/etc/vintf/manifest_qsqs.xml;MAKE_COPY_RULE_ONLY
@@ -208,7 +211,6 @@ vendor/bin/hw/android.hardware.biometrics.fingerprint-service
 vendor/bin/hw/android.hardware.bluetooth-service-mediatek
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek
 vendor/bin/hw/android.hardware.boot-service.mtk
-vendor/bin/hw/android.hardware.drm-service.clearkey;MAKE_COPY_RULE_ONLY
 vendor/bin/hw/android.hardware.gatekeeper-service.beanpod
 vendor/bin/hw/android.hardware.gnss-service.mediatek
 vendor/bin/hw/android.hardware.graphics.composer@3.2-service
@@ -498,7 +500,6 @@ vendor/etc/init/android.hardware.audio.service.mediatek.rc
 vendor/etc/init/android.hardware.bluetooth-service-mediatek.rc
 vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc
 vendor/etc/init/android.hardware.boot-service.mtk.rc
-vendor/etc/init/android.hardware.drm-service.clearkey.rc
 vendor/etc/init/android.hardware.gatekeeper-service.beanpod.rc
 vendor/etc/init/android.hardware.gnss-service.mediatek.rc
 vendor/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc
@@ -768,7 +769,6 @@ vendor/etc/vintf/manifest.xml;MAKE_COPY_RULE_ONLY
 vendor/etc/vintf/manifest/CommandService.xml;MAKE_COPY_RULE_ONLY
 vendor/etc/vintf/manifest/android.hardware.bluetooth-service-mediatek.xml;MAKE_COPY_RULE_ONLY
 vendor/etc/vintf/manifest/android.hardware.boot-service.mtk.xml;MAKE_COPY_RULE_ONLY
-vendor/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml;MAKE_COPY_RULE_ONLY
 vendor/etc/vintf/manifest/android.hardware.gatekeeper-service.beanpod.xml;MAKE_COPY_RULE_ONLY
 vendor/etc/vintf/manifest/android.hardware.health-service.example.xml;MAKE_COPY_RULE_ONLY
 vendor/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-mtk.xml;MAKE_COPY_RULE_ONLY
@@ -1225,7 +1225,6 @@ vendor/lib/libvpud_vcodec.so
 vendor/lib/libwapi.so
 vendor/lib/libwpa_client.so
 vendor/lib/mediacas/libclearkeycasplugin.so
-vendor/lib/mediadrm/libdrmclearkeyplugin.so
 vendor/lib/mediadrm/libmockdrmcryptoplugin.so
 vendor/lib/mt6897/arm.graphics-V4-ndk.so
 vendor/lib/mt6897/arm.mali.platform-V2-ndk.so
@@ -1923,7 +1922,6 @@ vendor/lib64/libwifitest.so
 vendor/lib64/libwpa_client.so
 vendor/lib64/libwpfa.so
 vendor/lib64/mediacas/libclearkeycasplugin.so
-vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 vendor/lib64/mediadrm/libmockdrmcryptoplugin.so
 vendor/lib64/motorola.hardware.input@1.0.so
 vendor/lib64/motorola.hardware.input@1.1.so

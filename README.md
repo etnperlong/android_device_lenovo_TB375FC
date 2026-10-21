@@ -49,6 +49,13 @@ Kernel, DTB and modules ship prebuilt in the device tree (`prebuilts/`), so no k
 
 ## Notes
 
+### DRM
+ClearKey uses AOSP's Android 17 `com.android.hardware.drm.clearkey` service
+APEX, selected through `android.hardware.drm@latest-service.clearkey`.
+Stock Widevine and its OEMCrypto library remain independently shipped;
+the original ZUI `.103` Widevine components are retained. This describes
+the component selection, not L1 or playback validation.
+
 ### Device parts
 `DeviceParts` collects the device-specific settings below. All of them are on the "Device parts" entry of the Settings homepage; the pen and touch switches are also under Settings → Display → "Pen and touch", the Dolby settings under Settings → Sound → "Dolby Atmos", and the cover switch on the lock screen settings page ("Smart cover"). The Quick Settings tiles show the same state.
 

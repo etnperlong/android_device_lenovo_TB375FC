@@ -9,6 +9,11 @@
 # Use a disposable dump and isolated checkout for full re-extraction.
 # No source argument extracts over adb.
 
+from extract_utils.fixups_blob import (
+    blob_fixup,
+    blob_fixups_user_type,
+)
+
 from extract_utils.fixups_lib import (
     lib_fixup_remove,
     lib_fixups_user_type,
@@ -51,6 +56,13 @@ lib_fixups: lib_fixups_user_type = {
         'vendor.mediatek.hardware.mtkpower-V2-ndk',
     ): lib_fixup_remove,
 }
+blob_fixups: blob_fixups_user_type = {
+    'vendor/etc/init/hw/meta_init.vendor.rc': blob_fixup().regex_replace(
+        r'(?m)^import /vendor/etc/init/android\.hardware\.drm-service\.clearkey\.rc\n',
+        '',
+    ),
+}
+
 
 # The stock HAL binaries that hardware/mediatek also builds (audio, memtrack,
 # thermal, vibrator, wlan_assistant) are generated as same-name preferred
@@ -63,9 +75,11 @@ lib_fixups: lib_fixups_user_type = {
 module = ExtractUtilsModule(
     'TB375FC',
     'lenovo',
+    blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
     namespace_imports=['hardware/mediatek'],
 )
+
 
 if __name__ == '__main__':
     utils = ExtractUtils.device(module)

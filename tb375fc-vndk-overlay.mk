@@ -40,11 +40,11 @@
 #   - 100 libbinder A16-new symbols not in v34: 0 referenced by any vendor lib
 #   - libcrypto.so / libssl.so consumers (wpa_supplicant, hostapd,
 #     libkeymaster_portable, vendor.microtrust.hardware.soter-service,
-#     libaudiosmartpamtk, libdecrypt, libmtk-fusion-ril, libmtk-ril,
-#     libdrmclearkeyplugin, etc.) link the v34 unprefixed stack API
-#     (sk_num, sk_dup, sk_value). A16 BoringSSL no longer exports those
-#     (A16 has only OPENSSL_sk_*), so /vendor/lib64/libcrypto.so and
-#     libssl.so must stay v34 or WiFi and keymaster fail to link.
+#     libaudiosmartpamtk, libdecrypt, libmtk-fusion-ril, libmtk-ril, etc.) link
+#     the v34 unprefixed stack API (sk_num, sk_dup, sk_value). A16 BoringSSL no
+#     longer exports those (A16 has only OPENSSL_sk_*), so /vendor/lib64/
+#     libcrypto.so and libssl.so must stay v34 or WiFi and keymaster fail to
+#     link.
 #   - libcurl.so is the one exception and is overlaid below for the same
 #     reason in reverse. The A16 /vendor/lib64/libcurl.so blob (pulled by
 #     mnld for SUPL) imports the A16 OPENSSL_sk_* prefixed API and cannot

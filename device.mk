@@ -70,6 +70,11 @@ PRODUCT_PROPERTY_OVERRIDES += persist.wm.freeform_window_management=1
 # together at /vendor/apex/com.android.hardware.cas.apex.
 PRODUCT_PACKAGES += com.android.hardware.cas
 
+# AOSP Android 17 ClearKey ships in the official service APEX, keeping its
+# current libcrypto isolated from the vendor v34 overlay. Stock Widevine and
+# OEMCrypto remain independently shipped below by the vendor tree.
+PRODUCT_PACKAGES += android.hardware.drm@latest-service.clearkey
+
 # System Tracing (Perfetto UI front-end, Developer Options -> System Tracing).
 # AOSP dev/QoL tool; stock ships it at /system/app/Traceur but LOS doesn't pull
 # it in by default for this product. Quick-settings tile + bug-report capture.
@@ -248,11 +253,12 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.mediatek.version.branch=alps-mp-u0.mp1 \
     ro.vendor.mediatek.version.release=alps-mp-u0.mp1.rc-V8.14_lenovo.p12.u0mp1rc.tb8792p1.64_P16
 
-# Widevine L1: the Lenovo Google Widevine non-updatable APEX
-# (com.google.android.widevine.nonupdatable.apex) is installed via
-# PRODUCT_COPY_FILES in TB375FC-vendor.mk along with liboemcrypto.so. The MTK
-# L1 path is gated on ro.vendor.mtk_widevine_drm_l1_support which the vendor
-# build.prop already sets.
+# Widevine: the stock Lenovo Google Widevine non-updatable APEX is installed
+# through the vendor tree's `prebuilt_apex` module
+# (`com.google.android.widevine.nonupdatable`); OEMCrypto is the separate
+# vendor `liboemcrypto` module. The MTK L1 path is gated on
+# ro.vendor.mtk_widevine_drm_l1_support, which stock vendor/build.prop sets.
+
 #
 # ro.product.board and ro.product.vendor.{brand,manufacturer,model,name,device}
 # are auto-derived from TARGET_BOARD_PLATFORM and the PRODUCT_* vars in

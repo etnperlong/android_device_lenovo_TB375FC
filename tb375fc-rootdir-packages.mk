@@ -8,7 +8,7 @@ PRODUCT_PACKAGES += \
     fstab.mt6897 \
     fstab.mt8792
 
-# 89 init.rc scripts -> vendor/etc/init/.
+# init.rc scripts -> vendor/etc/init/.
 # Removed: gsm0710muxd, init.bip_ap, init.cccimdinit, init.cccirpcd, mtkrild,
 # muxreport, volte_clientapi_ua (cellular stack not used; device is WiFi-only).
 # mtk_storageproxyd (Trusty TEE proxy; this device uses Microtrust/Beanpod
@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     device/lenovo/TB375FC/rootdir/etc/init/android.hardware.bluetooth-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth-service-mediatek.rc \
     device/lenovo/TB375FC/rootdir/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
     device/lenovo/TB375FC/rootdir/etc/init/android.hardware.boot-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.boot-service.mtk.rc \
-    device/lenovo/TB375FC/rootdir/etc/init/android.hardware.drm-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.clearkey.rc \
     device/lenovo/TB375FC/rootdir/etc/init/android.hardware.gatekeeper-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper-service.beanpod.rc \
     device/lenovo/TB375FC/rootdir/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
     device/lenovo/TB375FC/rootdir/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc \
