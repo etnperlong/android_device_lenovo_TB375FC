@@ -33,6 +33,9 @@
 
 # ClearKey is provided by the AOSP Android 17 service APEX; do not extract
 # stock service, init, VINTF, or plugin files that would override it.
+# Do not list the stock ClearKey CAS plugin either: it needs
+# libprotobuf-cpp-{full,lite}-21.7.so, which Android 17 does not provide.
+# base_vendor.mk installs the AOSP libclearkeycasplugin instead.
 
 odm/etc/vintf/manifest.xml;MAKE_COPY_RULE_ONLY
 odm/etc/vintf/manifest_dsds.xml;MAKE_COPY_RULE_ONLY
@@ -1231,7 +1234,6 @@ vendor/lib/libvpu5.so
 vendor/lib/libvpud_vcodec.so
 vendor/lib/libwapi.so
 vendor/lib/libwpa_client.so
-vendor/lib/mediacas/libclearkeycasplugin.so
 vendor/lib/mediadrm/libmockdrmcryptoplugin.so
 vendor/lib/mt6897/arm.graphics-V4-ndk.so
 vendor/lib/mt6897/arm.mali.platform-V2-ndk.so
@@ -1928,7 +1930,6 @@ vendor/lib64/libwifinvramdata.so
 vendor/lib64/libwifitest.so
 vendor/lib64/libwpa_client.so
 vendor/lib64/libwpfa.so
-vendor/lib64/mediacas/libclearkeycasplugin.so
 vendor/lib64/mediadrm/libmockdrmcryptoplugin.so
 vendor/lib64/motorola.hardware.input@1.0.so
 vendor/lib64/motorola.hardware.input@1.1.so

@@ -52,6 +52,8 @@ Kernel, DTB and modules ship prebuilt in the device tree (`prebuilts/`), so no k
 ### DRM
 ClearKey uses AOSP's Android 17 `com.android.hardware.drm.clearkey` service
 APEX, selected through `android.hardware.drm@latest-service.clearkey`.
+The ClearKey CAS plugin is also the AOSP build (installed by `base_vendor.mk`);
+the stock one linked `libprotobuf-cpp-*-21.7.so`, which Android 17 lacks.
 Stock Widevine and its OEMCrypto library remain independently shipped;
 the original ZUI `.103` Widevine components are retained. This describes
 the component selection, not L1 or playback validation.
