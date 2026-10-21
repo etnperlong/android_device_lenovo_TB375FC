@@ -305,6 +305,7 @@ BOARD_API_LEVEL_PROP_OVERRIDE  := 34
 
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE   := $(DEVICE_PATH)/compatibility_matrix.xml
+SYSTEM_EXT_MANIFEST_FILES += $(DEVICE_PATH)/system_ext_manifest.xml
 
 # Framework compatibility matrix add-ons. Declares every vendor-private HAL
 # in vendor.img (53 entries: vendor.lenovo.*, vendor.mediatek.*,

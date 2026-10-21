@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    system_ext framework manifest additions for TB375FC.
+
+    The stock vendor matrix (compatibility_matrix.xml) requires vendor-ndk 34.
+    Android 17 no longer adds <vendor-ndk> to the framework manifest unless
+    PRODUCT_EXTRA_VNDK_VERSIONS is set. That variable would also pull in the
+    prebuilts/vndk/v34 APEX, but we ship the stock com.android.vndk.v34.apex
+    from vendor/lenovo/TB375FC instead. Declare the version that APEX
+    provides here.
+
+    Wired via SYSTEM_EXT_MANIFEST_FILES in BoardConfig.mk.
+-->
+<manifest version="1.0" type="framework">
+    <vendor-ndk>
+        <version>34</version>
+    </vendor-ndk>
+</manifest>
