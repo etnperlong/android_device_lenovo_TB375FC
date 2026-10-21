@@ -297,6 +297,13 @@ vendor/bin/touch_boost
 vendor/bin/toybox_vendor
 vendor/bin/uart_launcher
 vendor/bin/vendor_mke2fs
+# Keep the stock vndservicemanager and vndservice. Vendor processes load the
+# v34 libbinder (tb375fc-vndk-overlay.mk), which numbers IServiceManager calls
+# as Android 14 did. Android 17 inserts getService2 and checkService2, so later
+# transaction codes shift and the AOSP vndservicemanager would misread the
+# stock clients' checkService and addService calls. It also calls
+# Looper::repoll, which the v34 libutils does not export. Shipping API level
+# 34 does not install the AOSP module.
 vendor/bin/vndservice
 vendor/bin/vndservicemanager
 vendor/bin/volte_clientapi_ua

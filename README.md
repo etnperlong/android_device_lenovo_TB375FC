@@ -56,6 +56,14 @@ Stock Widevine and its OEMCrypto library remain independently shipped;
 the original ZUI `.103` Widevine components are retained. This describes
 the component selection, not L1 or playback validation.
 
+### Vendor binder
+`/dev/vndbinder` is still used by stock vendor services such as the MediaTek
+audio, Codec2 and camera HALs and the Dolby codec service, so the stock
+`vndservicemanager` and `vndservice` are kept. The AOSP Android 17
+`vndservicemanager` is not a drop-in replacement: its `IServiceManager`
+transaction codes differ from the v34 `libbinder` these clients load, and it
+needs `Looper::repoll`, which the v34 `libutils` lacks.
+
 ### Device parts
 `DeviceParts` collects the device-specific settings below. All of them are on the "Device parts" entry of the Settings homepage; the pen and touch switches are also under Settings → Display → "Pen and touch", the Dolby settings under Settings → Sound → "Dolby Atmos", and the cover switch on the lock screen settings page ("Smart cover"). The Quick Settings tiles show the same state.
 
