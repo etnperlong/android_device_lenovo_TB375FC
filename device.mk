@@ -394,22 +394,13 @@ PRODUCT_PACKAGES += \
 # chip detects no stations on any frequency. The kernel module
 # (fmradio_drv_connac2x) is also stripped (see tb375fc-kernel-modules.mk).
 
-# WiFi: AOSP wpa_supplicant. Soong builds it out of external/wpa_supplicant_8
-# with nl80211 driver support once BOARD_WPA_SUPPLICANT_DRIVER=NL80211 is set;
-# this entry triggers install to /vendor/bin/hw/wpa_supplicant. The
-# /vendor/etc/init/android.hardware.wifi.supplicant-service.rc ships via vendor
-# blobs and points to this path.
-#
-# Known limitation: AOSP wpa_supplicant fails SAE/WPA3-transition association
-# on this device's MT6897 firmware with status_code=16. WiFi can scan and see
-# networks but won't connect to APs advertising SAE alongside PSK (most modern
-# routers + iOS 16+ hotspots). The real fix needs either a custom kernel with
-# a WLAN driver that doesn't depend on MTK vendor netlink commands, or
-# rebuilding wpa_supplicant_8 with CONFIG_* flags matching MTK driver
-# expectations.
-PRODUCT_PACKAGES += \
-    wpa_supplicant \
-    hostapd
+# WiFi: the stock MediaTek-built wpa_supplicant and hostapd ship from
+# proprietary-files.txt; they link the v34 libcrypto/libssl overlaid into
+# /vendor/lib64. The supplicant rc in rootdir starts it as user wifi with
+# NET_ADMIN/NET_RAW, like the AOSP rc. The stock rc started it as root and
+# relied on setuid/setgid to drop to wifi; Android 17 no longer grants those
+# to hal_wifi_supplicant at board API 202604, so it would stay root and be
+# unable to use the wifi-owned /data/vendor/wifi/wpa.
 
 # WiFi-only telephony cleanup. Telephony APKs absent via three paths:
 #   - lineage_TB375FC.mk inherits full_base.mk (was full_base_telephony.mk),

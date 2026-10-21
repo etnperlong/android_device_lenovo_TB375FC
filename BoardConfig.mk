@@ -360,15 +360,10 @@ BUILD_BROKEN_USES_NETWORK := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 BUILD_BROKEN_VINTF_PRODUCT_COPY_FILES := true
 
-# WiFi. AOSP external/wpa_supplicant_8 builds a wpa_supplicant cc_binary that
-# lands at /vendor/bin/hw/wpa_supplicant. extract-files left this unwired:
-# proprietary tree has Lenovo's blob at the same path but no Android.bp entry.
-# /vendor/etc/init's android.hardware.wifi.supplicant-service.rc references
-# the file, so without an install init can't ctl.interface_start the lazy HAL.
-#
-# Declaring NL80211 driver backend (same as every modern MTK device) makes
-# wpa_supplicant_8 compile in nl80211 support; PRODUCT_PACKAGES += wpa_supplicant
-# in device.mk installs it.
+# WiFi. The stock MediaTek-built wpa_supplicant and hostapd ship from
+# proprietary-files.txt (see device.mk). These standard NL80211 settings only
+# configure the external/wpa_supplicant_8 modules, which stay available as a
+# fallback but are not installed.
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
 BOARD_HOSTAPD_DRIVER        := NL80211
 WPA_SUPPLICANT_VERSION      := VER_0_8_X

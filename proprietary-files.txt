@@ -37,6 +37,10 @@
 # libprotobuf-cpp-{full,lite}-21.7.so, which Android 17 does not provide.
 # base_vendor.mk installs the AOSP libclearkeycasplugin instead.
 
+# Do not list vendor/etc/init/android.hardware.wifi.supplicant-service.rc. The
+# stock rc starts wpa_supplicant as root to setuid to wifi, which Android 17
+# denies; rootdir ships the rc that starts it as wifi instead.
+
 odm/etc/vintf/manifest.xml;MAKE_COPY_RULE_ONLY
 odm/etc/vintf/manifest_dsds.xml;MAKE_COPY_RULE_ONLY
 odm/etc/vintf/manifest_qsqs.xml;MAKE_COPY_RULE_ONLY
@@ -522,7 +526,6 @@ vendor/etc/init/android.hardware.sensors-service-multihal.rc
 vendor/etc/init/android.hardware.usb-aidl-service.mediatek.rc
 vendor/etc/init/android.hardware.usb.gadget-aidl-service.mediatek.rc
 vendor/etc/init/android.hardware.wifi-service-lazy.rc
-vendor/etc/init/android.hardware.wifi.supplicant-service.rc
 vendor/etc/init/arm.mali.platform-mediatek.rc
 vendor/etc/init/atcid.rc
 vendor/etc/init/audiocmdservice_atci.rc

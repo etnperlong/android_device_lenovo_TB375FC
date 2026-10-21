@@ -86,6 +86,13 @@ The folio keyboard UART `/dev/ttyS3` uses an ODM ueventd rule to apply stock
 on the timing of the one-shot init `chown`/`chmod`; the existing SELinux label
 and HAL access rules are unchanged. Keyboard operation still needs device validation.
 
+### Wi-Fi supplicant
+`wpa_supplicant` and `hostapd` are the stock MediaTek builds. Stock's
+supplicant rc started the daemon as root and let it `setuid` to `wifi`, which
+Android 17 SELinux no longer allows, so the rc in `rootdir` starts it as `wifi`
+with `NET_ADMIN`/`NET_RAW`, like AOSP's rc. Connection behaviour still needs
+device validation.
+
 ### Bluetooth classic profiles
 `tb375fc-stock-vendor-props.mk` explicitly enables A2DP source, both HFP roles,
 AVRCP controller/target, HID host, OPP, PBAP server and MAP server for the AOSP
