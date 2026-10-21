@@ -16,6 +16,12 @@
 # stock. No app to vendor-HAL neverallow is instantiated for these HALs (the de-hack emitted
 # raw allows, not the hal_attribute_hwservice macro).
 #
+# Android 17 runs platform-signed apps that target SDK 36 or lower in platform_app_36
+# instead of platform_app (system/sepolicy private/seapp_contexts). A vendor policy at
+# 202504 or older gets platform_app_36 through the compat mapping of platform_app, but this
+# vendor policy is built at 202604, so platform_app_36 must be named explicitly.
+# com.dolby.daxservice targets SDK 35 and runs as platform_app_36.
+#
 # Placement: this file lives in sepolicy/vendor_mtk_prebuilt (not sepolicy/vendor) on purpose.
 # typeattribute requires its attribute already declared, and hal_dms_client/hal_dvs_client are
 # declared in mtk_proprietary.te. The build concatenates BOARD_VENDOR_SEPOLICY_DIRS in order
