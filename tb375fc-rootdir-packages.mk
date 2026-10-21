@@ -15,9 +15,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     device/lenovo/TB375FC/rootdir/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
-    device/lenovo/TB375FC/rootdir/etc/init/dvs-aidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dvs-aidl-service.rc \
     device/lenovo/TB375FC/rootdir/etc/init/init.fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fpsgo.rc \
-    device/lenovo/TB375FC/rootdir/etc/init/vendor.dolby.media.c2_1@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.c2_1@1.0-service.rc \
     device/lenovo/TB375FC/rootdir/etc/init/vendor.lenovo.hardware.factory-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lenovo.hardware.factory-service.rc \
     device/lenovo/TB375FC/rootdir/etc/init/vendor.lenovo.hardware.keyboard-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lenovo.hardware.keyboard-service.rc \
     device/lenovo/TB375FC/rootdir/etc/init/vendor.mediatek.hardware.tinno_keyboard@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.tinno_keyboard@1.0-service.rc \
