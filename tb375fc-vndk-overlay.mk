@@ -61,6 +61,15 @@
 # All overlay candidates verified by nm cross-check across all
 # /vendor/lib64/*.so and /vendor/lib64/hw/*.so.
 #
+# Source-built vendor modules: in the 20261020 lineage-24.0 vendor.img, every
+# 64-bit ELF outside the TEE TA directory resolves its imports by name within
+# its NEEDED closure plus the libraries its loader provides, except
+# lib64/hw/android.hardware.boot@1.0-impl-1.2.so (A17 android::base::Join
+# instantiation missing from v34 libbase; device.mk no longer installs it) and
+# lib64/libcodec2_hal_common.so, whose C2LargeFrameStruct::FieldList() import
+# comes from libcodec2_vndk (a stock copy, not overlaid) and which nothing in
+# vendor loads. A name check does not prove struct layouts match.
+#
 # Mechanism: the rules below redefine the recipe for $(TARGET_OUT_VENDOR)/lib64/<lib>.
 # Soong's installs-lineage_TB375FC.mk already declared these targets; Make
 # resolves the conflict by using the recipe defined last (our Android.mk-included

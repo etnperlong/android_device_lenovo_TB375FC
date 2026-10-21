@@ -304,7 +304,13 @@ DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 # `fastboot reboot fastboot`
 # lands in a recovery that can't enter userspace fastboot mode. Without
 # update_engine_sideload, LOS Recovery's "Apply update from ADB" can't consume
-# the OTA payload. bootctrl + boot HAL are needed for slot switching from recovery.
+# the OTA payload. bootctrl + the boot HAL passthrough impl are needed for slot
+# switching from recovery. Normal boot uses the stock AIDL
+# android.hardware.boot-service.mtk; the vendor variant of
+# android.hardware.boot@1.2-impl is not installed because it imports an
+# android::base::Join instantiation that the v34 libbase in /vendor/lib64
+# (tb375fc-vndk-overlay.mk) does not export. The recovery variant links the
+# recovery libbase.
 PRODUCT_PACKAGES += \
     fastbootd \
     update_engine \
@@ -317,7 +323,6 @@ PRODUCT_PACKAGES += \
     tune2fs_ramdisk \
     resize2fs_ramdisk \
     fsck.f2fs_ramdisk \
-    android.hardware.boot@1.2-impl \
     android.hardware.boot@1.2-impl.recovery \
     bootctrl.default \
     bootctrl.default.recovery \
