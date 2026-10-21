@@ -64,6 +64,14 @@ The stock hall sensor driver reports the cover as two key presses that only ZUI 
 ### Lenovo keyboards and pens
 `configs/keylayout` and `configs/idc` carry stock's `Vendor_17ef_Product_*` files for Lenovo keyboard covers and pens. Stock uses ZUI-only key codes for the special keys; LineageOS's input stack rejects a whole layout file on an unknown label, so those lines are commented out, except that Lenovo mute, screen lock, search and settings keys are mapped to the AOSP `VOLUME_MUTE`, `LOCK`, `SEARCH` and `SETTINGS` keys. Touchpad mute, Fn lock, full screen, split screen, PC mode, the app keys, keyboard backlight levels and the pen button gestures have no AOSP equivalent and do nothing.
 
+### Bluetooth classic profiles
+`tb375fc-stock-vendor-props.mk` explicitly enables A2DP source, both HFP roles,
+AVRCP controller/target, HID host, OPP, PBAP server and MAP server for the AOSP
+Bluetooth stack. HID device mode remains disabled, as do A2DP hardware offload
+and the existing disabled LE profiles. These gates enable the profile services;
+they are not a claim of verified headset playback or keyboard connectivity on
+every build.
+
 ### Speaker channels
 The four speakers are driven by Awinic amplifiers whose channel layout follows the screen rotation. The MediaTek audio HAL takes the rotation as the `gsensor_rotation` parameter (it ignores AOSP's `rotation`), which stock ZUI's AudioService sends on every rotation. `DeviceParts` does the same (display rotation 0/90/180/270 → 270/0/90/180, as on stock), also after an audioserver restart, so left and right stay on the correct side in every orientation.
 

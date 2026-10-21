@@ -36,6 +36,9 @@
 #     Cleanup of cellular binaries/libs/init.rc files is NOT done here;
 #     those stay at stock because the libs cross-link with non-cellular
 #     subsystems via libmipc.
+#
+# Explicit AOSP Bluetooth profile gates for classic audio, media control,
+# HID host and sharing. Keep HID device mode and A2DP hardware offload off.
 
 PRODUCT_VENDOR_PROPERTIES += \
     aaudio.mmap_exclusive_policy=2 \
@@ -44,6 +47,9 @@ PRODUCT_VENDOR_PROPERTIES += \
     audio.deep_buffer.media=true \
     audio.offload.min.duration.secs=30 \
     audio.offload.video=true \
+    bluetooth.profile.a2dp.source.enabled=true \
+    bluetooth.profile.avrcp.controller.enabled=true \
+    bluetooth.profile.avrcp.target.enabled=true \
     bluetooth.profile.bap.broadcast.assist.enabled=false \
     bluetooth.profile.bap.broadcast.source.enabled=false \
     bluetooth.profile.bap.unicast.client.enabled=false \
@@ -52,7 +58,14 @@ PRODUCT_VENDOR_PROPERTIES += \
     bluetooth.profile.ccp.server.enabled=false \
     bluetooth.profile.csip.set_coordinator.enabled=false \
     bluetooth.profile.hap.client.enabled=false \
+    bluetooth.profile.hfp.ag.enabled=true \
+    bluetooth.profile.hfp.hf.enabled=true \
+    bluetooth.profile.hid.device.enabled=false \
+    bluetooth.profile.hid.host.enabled=true \
+    bluetooth.profile.map.server.enabled=true \
     bluetooth.profile.mcp.server.enabled=false \
+    bluetooth.profile.opp.enabled=true \
+    bluetooth.profile.pbap.server.enabled=true \
     bluetooth.profile.sap.server.enabled=true \
     bluetooth.profile.vcp.controller.enabled=false \
     camera.disable_zsl_mode=1 \
