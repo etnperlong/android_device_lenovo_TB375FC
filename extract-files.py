@@ -52,8 +52,10 @@ lib_fixups: lib_fixups_user_type = {
         'vendor.mediatek.hardware.bluetooth.audio@2.1',
         'vendor.mediatek.hardware.bluetooth.audio@2.2',
         'vendor.mediatek.hardware.bluetooth.audio-V1-ndk',
+        'vendor.mediatek.hardware.lbs@1.0',
         'vendor.mediatek.hardware.mtkpower-V1-ndk',
         'vendor.mediatek.hardware.mtkpower-V2-ndk',
+        'vendor.mediatek.hardware.netdagent@1.0',
     ): lib_fixup_remove,
 }
 blob_fixups: blob_fixups_user_type = {

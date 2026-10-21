@@ -15,7 +15,8 @@ PRODUCT_SOONG_NAMESPACES += hardware/mediatek
 
 # The official hardware/mediatek tree builds its own memtrack/thermal/vibrator/
 # audio HALs, perf/power client libs, libaedv/libladder/libion_mtk stubs,
-# wlan_assistant, chipinfo and mtkpower/bluetooth.audio interface libs.
+# wlan_assistant, chipinfo and mtkpower/bluetooth.audio/lbs/netdagent interface
+# libs.
 # TB375FC/TB373FU keep the stock HALs and libraries:
 #  - HAL binaries are same-name preferred prebuilts in the vendor namespace,
 #    which imports hardware/mediatek, so the source modules are hidden;

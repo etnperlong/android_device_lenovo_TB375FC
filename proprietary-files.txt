@@ -1373,7 +1373,7 @@ vendor/lib/vendor.mediatek.hardware.mtkpower@1.1.so;MAKE_COPY_RULE_ONLY
 vendor/lib/vendor.mediatek.hardware.mtkpower@1.2.so;MAKE_COPY_RULE_ONLY
 vendor/lib/vendor.mediatek.hardware.mtkpower_applist-V1-ndk.so
 vendor/lib/vendor.mediatek.hardware.netdagent-V1-ndk.so
-vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so
+vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so;MAKE_COPY_RULE_ONLY
 vendor/lib/vendor.mediatek.hardware.neuropilot.agent-V1-ndk.so
 vendor/lib/vendor.mediatek.hardware.neuropilot.agent@1.0.so
 vendor/lib/vendor.mediatek.hardware.neuropilot.agent@1.1.so
@@ -2363,7 +2363,7 @@ vendor/lib64/vendor.mediatek.hardware.dmc-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.gnss-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.gnss.batching-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.lbs-V1-ndk.so
-vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so
+vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so;MAKE_COPY_RULE_ONLY
 vendor/lib64/vendor.mediatek.hardware.mdmonitor-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mmagent-V1-ndk.so
@@ -2400,7 +2400,7 @@ vendor/lib64/vendor.mediatek.hardware.mtkradioex.sim-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex.smartratswitch-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex.voice-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.netdagent-V1-ndk.so
-vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so
+vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so;MAKE_COPY_RULE_ONLY
 vendor/lib64/vendor.mediatek.hardware.neuropilot.agent-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.0.so
 vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.1.so
