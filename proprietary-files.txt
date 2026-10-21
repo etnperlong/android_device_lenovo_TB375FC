@@ -30,6 +30,14 @@
 # Android 17 ones; with the stock SystemUI allowlist system_server aborts in
 # systemReady. The Dolby entries of the stock product matrix are declared in
 # framework_compatibility_matrix.xml instead.
+#
+# Do not list MediaTek's MiraVision (system_ext/app/MiraVision) or what only it
+# and mediatek-framework.jar use (the PQ JNI libraries, libpowerhalwrap_jni,
+# libcustom_{jni,prop} and the system_ext pq@2.x / pq_aidl client libraries).
+# Stock never exposes MiraVision: no ro.vendor.mtk_miravision_support and no
+# stock component sends its com.android.settings.MIRA_VISION intent. Its JNI
+# libraries also need android.hardware.graphics.common-V6-ndk, which the
+# system image lacks, and mediatek-framework.jar is on no classpath.
 
 # ClearKey is provided by the AOSP Android 17 service APEX; do not extract
 # stock service, init, VINTF, or plugin files that would override it.
@@ -59,7 +67,6 @@ product/etc/init/init.motodestktop.rc
 product/etc/security/fsverity/play_store_fsi_cert.der
 system_ext/apex/com.android.vndk.v34.apex
 system_ext/app/DolbyVisionService/DolbyVisionService.apk
-system_ext/app/MiraVision/MiraVision.apk
 system_ext/bin/AudioSetParam
 system_ext/bin/batterywarning
 system_ext/bin/fsck.ntfs;MAKE_COPY_RULE_ONLY
@@ -82,17 +89,9 @@ system_ext/etc/init/rkp.rc
 system_ext/etc/permissions/com.dolby.daxservice.xml
 system_ext/framework/mediatek-common.jar;EXTRACT_ONLY
 system_ext/framework/mediatek-common.jar.fsv_meta;MAKE_COPY_RULE_ONLY
-system_ext/framework/mediatek-framework.jar;MAKE_COPY_RULE_ONLY
-system_ext/framework/mediatek-framework.jar.fsv_meta;MAKE_COPY_RULE_ONLY
-system_ext/lib64/libMiraVision_jni.so
-system_ext/lib64/libPQDCjni.so
-system_ext/lib64/libPQjni.so
 system_ext/lib64/libcompress.so
-system_ext/lib64/libcustom_jni.so
-system_ext/lib64/libcustom_prop.so
 system_ext/lib64/libfuse-lite.so;MAKE_COPY_RULE_ONLY
 system_ext/lib64/libged_sys.so
-system_ext/lib64/libjni_pq.so
 system_ext/lib64/libmagt.so
 system_ext/lib64/libmagtsync.so
 system_ext/lib64/libmtkperf_client.so;MAKE_COPY_RULE_ONLY
@@ -101,7 +100,6 @@ system_ext/lib64/libntfs-3g.so;MAKE_COPY_RULE_ONLY
 system_ext/lib64/libovbundle.so
 system_ext/lib64/libperfctl.so
 system_ext/lib64/libpowerhalwrap.so;MAKE_COPY_RULE_ONLY
-system_ext/lib64/libpowerhalwrap_jni.so
 system_ext/lib64/libsbectl.so
 system_ext/lib64/libshowlogo.so
 system_ext/lib64/vendor.mediatek.framework.mtksf_ext-V4-ndk.so
@@ -112,12 +110,6 @@ system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.0.so;MAKE_COPY_RULE_ONLY
 system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.1.so;MAKE_COPY_RULE_ONLY
 system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.2.so;MAKE_COPY_RULE_ONLY
 system_ext/lib64/vendor.mediatek.hardware.mtkpower_applist-V3-ndk.so
-system_ext/lib64/vendor.mediatek.hardware.pq@2.0.so
-system_ext/lib64/vendor.mediatek.hardware.pq@2.1.so
-system_ext/lib64/vendor.mediatek.hardware.pq@2.2.so
-system_ext/lib64/vendor.mediatek.hardware.pq@2.3.so
-system_ext/lib64/vendor.mediatek.hardware.pq_aidl-V2-ndk.so;MAKE_COPY_RULE_ONLY
-system_ext/lib64/vendor.mediatek.hardware.pq_aidl-V7-ndk.so;MAKE_COPY_RULE_ONLY
 system_ext/priv-app/daxService/daxService.apk
 vendor/apex/com.google.android.widevine.nonupdatable.apex
 vendor/app/NetworkStackGoogleGoResOverlay/NetworkStackGoogleGoResOverlay.apk
