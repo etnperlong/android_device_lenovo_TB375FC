@@ -84,8 +84,8 @@ PRODUCT_PACKAGES += Traceur
 # both fstab.mt6897 and fstab.mt8792 (identical). Mirror that to cover both
 # resolutions of fstab.${ro.hardware}.
 #
-# All Lenovo init.rc + fstab prebuilt_etc modules are auto-declared in
-# rootdir/Android.bp and listed in tb375fc-rootdir-packages.mk.
+# fstab prebuilt_etc modules (rootdir/Android.bp) and the init scripts the
+# device tree owns are listed in tb375fc-rootdir-packages.mk.
 include $(DEVICE_PATH)/tb375fc-rootdir-packages.mk
 
 # Folio keyboard UART permissions, applied when ueventd creates /dev/ttyS3.

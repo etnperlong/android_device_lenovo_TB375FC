@@ -37,9 +37,18 @@
 # libprotobuf-cpp-{full,lite}-21.7.so, which Android 17 does not provide.
 # base_vendor.mk installs the AOSP libclearkeycasplugin instead.
 
-# Do not list vendor/etc/init/android.hardware.wifi.supplicant-service.rc. The
-# stock rc starts wpa_supplicant as root to setuid to wifi, which Android 17
-# denies; rootdir ships the rc that starts it as wifi instead.
+# Do not list stock init scripts that rootdir/etc/init replaces (see
+# tb375fc-rootdir-packages.mk):
+# - android.hardware.wifi.supplicant-service.rc: stock starts wpa_supplicant
+#   as root to setuid to wifi, which Android 17 denies; rootdir starts it as
+#   wifi.
+# - vendor.mediatek.hardware.tinno_keyboard@1.0-service.rc: its HIDL
+#   interface line fails host_init_verifier, as no hidl_interface module
+#   declares it.
+# - vendor.lenovo.hardware.{factory,keyboard}-service.rc: rootdir keeps only
+#   the service; stock also sets ro.boot.wificountrycode from
+#   vendor.temp.countrycode, which no shipped component sets, and restarts the
+#   already running keyboard service at boot_completed.
 
 odm/etc/vintf/manifest.xml;MAKE_COPY_RULE_ONLY
 odm/etc/vintf/manifest_dsds.xml;MAKE_COPY_RULE_ONLY
@@ -608,9 +617,7 @@ vendor/etc/init/vendor.dolby.media.c2-service-vision.rc
 vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc
 vendor/etc/init/vendor.lenovo.hardware.battery-service.rc
 vendor/etc/init/vendor.lenovo.hardware.display-service.rc
-vendor/etc/init/vendor.lenovo.hardware.factory-service.rc
 vendor/etc/init/vendor.lenovo.hardware.hyperschedule-service.rc
-vendor/etc/init/vendor.lenovo.hardware.keyboard-service.rc
 vendor/etc/init/vendor.lenovo.hardware.misc-service.rc
 vendor/etc/init/vendor.lenovo.hardware.performance-service.rc
 vendor/etc/init/vendor.lenovo.hardware.touchscreen-service.rc
@@ -621,7 +628,6 @@ vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.nvram-sevice.rc
 vendor/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc
-vendor/etc/init/vendor.mediatek.hardware.tinno_keyboard@1.0-service.rc
 vendor/etc/init/vendor.microtrust.hardware.ifaa-service.rc
 vendor/etc/init/vendor.microtrust.hardware.soter-service.rc
 vendor/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc

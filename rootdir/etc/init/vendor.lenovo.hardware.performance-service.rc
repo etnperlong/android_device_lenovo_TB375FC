@@ -1,4 +1,0 @@
-service performance /vendor/bin/hw/vendor.lenovo.hardware.performance-service
-    class hal
-    user system
-    group system
