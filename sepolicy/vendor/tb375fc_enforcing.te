@@ -50,7 +50,7 @@ dontaudit mtk_lbs_service init:binder call;
 dontaudit servicemanager init:binder transfer;
 
 # --- benign rootfs statfs from apps: silence, do not grant ---
-dontaudit untrusted_app unlabeled:filesystem getattr;
+dontaudit { untrusted_app untrusted_app_34 } unlabeled:filesystem getattr;
 
 # Core graphics/media services read the same public vendor props apps do (appdomain is in
 # app_vendor_props.te). vendor_restricted_property_type carries no neverallow, so the

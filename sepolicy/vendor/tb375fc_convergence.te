@@ -26,17 +26,19 @@ allow mtk_hal_power graphics_device:chr_file { ioctl open read write };
 allow mtk_hal_pq hal_graphics_composer_default:binder { call };
 allow mtk_hal_usb sysfs_udc:dir { search };
 allow nvram_daemon sysfs_dt_firmware_android:file { getattr open read };
-allow platform_app hal_dms_hwservice:hwservice_manager { find };
-allow platform_app hal_graphics_allocator_default_tmpfs:file { write };
-allow platform_app mtk_hal_mali_platform_default_service:service_manager { find };
-allow priv_app hal_graphics_allocator_default_tmpfs:file { write };
-allow priv_app mtk_hal_mali_platform_default_service:service_manager { find };
+# Android 17 split platform_app_36 / priv_app_36 / untrusted_app_34 off for apps
+# targeting older SDKs; the captured denials named only the original domains.
+allow { platform_app platform_app_36 } hal_dms_hwservice:hwservice_manager { find };
+allow { platform_app platform_app_36 } hal_graphics_allocator_default_tmpfs:file { write };
+allow { platform_app platform_app_36 } mtk_hal_mali_platform_default_service:service_manager { find };
+allow { priv_app priv_app_36 } hal_graphics_allocator_default_tmpfs:file { write };
+allow { priv_app priv_app_36 } mtk_hal_mali_platform_default_service:service_manager { find };
 allow surfaceflinger mtk_hal_mali_platform_default:binder { call };
 allow surfaceflinger mtk_hal_mali_platform_default_service:service_manager { find };
 allow system_app hal_dvs_hwservice:hwservice_manager { find };
 allow thermal_core sysfs_devinfo:file { open read };
-allow untrusted_app hal_graphics_allocator_default_tmpfs:file { write };
-allow untrusted_app mtk_hal_mali_platform_default_service:service_manager { find };
+allow { untrusted_app untrusted_app_34 } hal_graphics_allocator_default_tmpfs:file { write };
+allow { untrusted_app untrusted_app_34 } mtk_hal_mali_platform_default_service:service_manager { find };
 
 # vold attempts FITRIM on the /mnt/vendor/persist mount during idle maintenance.
 # A core domain issuing ioctl on a vendor persist_data_file dir is neverallow'd
@@ -47,4 +49,4 @@ dontaudit vold persist_data_file:dir { ioctl };
 allow proc_aed proc:filesystem { associate };
 # Aperture (camera) opportunistically reads a vendor camera property; benign, mirrors
 # the existing surfaceflinger/audioserver/cameraserver dontaudit on vendor_default_prop.
-dontaudit untrusted_app vendor_default_prop:file { getattr map open read };
+dontaudit { untrusted_app untrusted_app_34 } vendor_default_prop:file { getattr map open read };
