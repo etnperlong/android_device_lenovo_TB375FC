@@ -98,6 +98,8 @@ Builds from this tree are signed with the public AOSP test keys, which is fine f
 - Boot image header v4: split `boot` / `vendor_boot` / `init_boot`
 - erofs on the super sub-partitions, f2fs on `/data` and `/metadata`
 - VINTF target level 8
+- ART runtime CPU preset: `cortex-a55`; build-time CPU variants remain `generic`.
+  ART does not recognize `cortex-a715`; its ARM64 A55 and A76 presets enable the same instruction-set features.
 - TEE: beanpod (MediaTek); EGL: meow (MediaTek)
 
 ## License
