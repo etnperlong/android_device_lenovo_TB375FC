@@ -36,6 +36,14 @@
 #     Cleanup of cellular binaries/libs/init.rc files is NOT done here;
 #     those stay at stock because the libs cross-link with non-cellular
 #     subsystems via libmipc.
+#   - persist.system.powerhal.applist_enable=1: kept, but init does not set it
+#     from /vendor/build.prop: here it is default_prop, which vendor_init may
+#     not set (stock labels it system_mtk_powerhal_prop in its system_ext
+#     policy). Only libpowerhalwrap's check_applist_supported() reads it, in
+#     the process that sends the foreground app (stock
+#     system_server); the applist service itself does not. On LineageOS the
+#     sender is DeviceParts (perf/PerformanceService), which calls
+#     IMtkpower_applist directly, so the property is not needed.
 #
 # Explicit AOSP Bluetooth profile gates for classic audio, media control,
 # HID host and sharing. Keep HID device mode and A2DP hardware offload off.
