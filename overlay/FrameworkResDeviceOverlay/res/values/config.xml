@@ -113,8 +113,10 @@
         Desktop Windowing (A16 "Desktop Experience"): mark this 12.7" tablet as
         desktop-capable so the windowed-desktop mode and its developer toggle
         (Settings -> System -> Developer options -> Desktop mode) are available.
-        This is the LineageOS/AOSP equivalent of stock's desktop mode. Pairs
-        with persist.wm.freeform_window_management=1 (device.mk).
+        This is the LineageOS/AOSP equivalent of stock's desktop mode. The
+        LineageOS tablet product config already declares
+        FEATURE_FREEFORM_WINDOW_MANAGEMENT
+        (/product/etc/permissions/android.software.freeform_window_management.xml).
         - config_isDesktopModeSupported: device may host desktop sessions
         - config_canInternalDisplayHostDesktops: allow desktop on the built-in
           panel (not just an external display)

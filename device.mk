@@ -57,17 +57,6 @@ $(call inherit-product, hardware/lineage/compat/frameworks/compat.mk)
 # Kept in the device tree because extract-files.py regenerates the vendor
 # Android.bp; a manually added dex_import there would be overwritten.
 
-# Enable Android's built-in freeform window manager for tablet multitasking.
-# Apps launched via the taskbar (Launcher3 tablet UI) render in resizable,
-# movable windows. Replaces the broken Smart Connect / Ready For desktop mode
-# with LOS-native multitasking - no Lenovo vendor blobs needed.
-#
-# The property is read at boot by PackageManagerService.hasSystemFeature() to
-# advertise FEATURE_FREEFORM_WINDOW_MANAGEMENT, and by WindowManager to allow
-# freeform launch modes. Tablet form factor + this prop is what unlocks the
-# "windowed apps on home screen" UX you see in modern Android tablet builds.
-PRODUCT_PROPERTY_OVERRIDES += persist.wm.freeform_window_management=1
-
 # Conditional Access System HAL (AIDL). Stock A16 PRC ships it. Used by digital-
 # broadcast and a few streaming apps to request content protection keys. Most
 # modern streaming uses Widevine (we have that), but adding CAS prevents
