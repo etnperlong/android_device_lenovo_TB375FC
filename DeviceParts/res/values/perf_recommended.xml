@@ -8,9 +8,10 @@
          that use one of its rule sets by default: "package|listed package whose rules it
          takes". Games take the rules of the same title's listed (Chinese) edition; other apps
          those of the listed apps of the same kind (the vendor gives video apps thermal policy
-         10, messaging 13, music 15, its camera 11). Packages were checked on Google Play or in
-         the LineageOS sources in 2026-10. Entries for listed packages are ignored, and users
-         can change or turn off every entry. -->
+         10, messaging 13, music 15, its camera 11). Packages were checked in 2026-10 on Google
+         Play, the Xiaomi or Tencent (应用宝) app stores, game download sites (channel builds)
+         or in the LineageOS sources. Entries for listed packages are ignored, and users can
+         change or turn off every entry. To add an app, add a line here. -->
     <string-array name="perf_recommended_apps" translatable="false">
         <!-- Games: international and regional editions -->
         <item>com.levelinfinite.sgameGlobal|com.tencent.tmgp.sgame</item>
@@ -31,6 +32,15 @@
         <item>com.tencent.stc.cfl|com.tencent.tmgp.cf</item>
         <item>com.vnggames.cfl.crossfirelegends|com.tencent.tmgp.cf</item>
 
+        <!-- Games: Chinese channel builds (Bilibili, Xiaomi) -->
+        <item>com.miHoYo.ys.bilibili|com.miHoYo.Yuanshen</item>
+        <item>com.miHoYo.hkrpg.bilibili|com.miHoYo.hkrpg</item>
+        <item>com.miHoYo.Nap.bilibili|com.miHoYo.Nap</item>
+        <item>com.kurogame.mingchao.bilibili|com.kurogame.mingchao</item>
+        <item>com.miHoYo.bh3.bilibili|com.tencent.tmgp.bh3</item>
+        <item>com.miHoYo.bh3.mi|com.tencent.tmgp.bh3</item>
+        <item>com.papegames.infinitynikki.bilibili|com.papegames.infinitynikki</item>
+
         <!-- Video -->
         <item>com.netflix.mediaclient|com.google.android.youtube</item>
         <item>com.disney.disneyplus|com.google.android.youtube</item>
@@ -48,6 +58,16 @@
         <item>org.videolan.vlc|com.google.android.youtube</item>
         <item>com.mxtech.videoplayer.ad|com.google.android.youtube</item>
         <item>com.plexapp.android|com.google.android.youtube</item>
+        <item>com.ss.android.ugc.aweme.lite|com.google.android.youtube</item>
+        <item>com.kuaishou.nebula|com.google.android.youtube</item>
+        <item>com.ss.android.article.video|com.google.android.youtube</item>
+        <item>tv.acfundanmaku.video|com.google.android.youtube</item>
+        <item>com.hunantv.imgo.activity|com.google.android.youtube</item>
+        <item>com.cmcc.cmvideo|com.google.android.youtube</item>
+        <item>com.cctv.yangshipin.app.androidp|com.google.android.youtube</item>
+        <item>cn.cntv|com.google.android.youtube</item>
+        <item>com.duowan.kiwi|com.google.android.youtube</item>
+        <item>air.tv.douyu.android|com.google.android.youtube</item>
 
         <!-- Communication -->
         <item>com.whatsapp.w4b|com.whatsapp</item>
@@ -60,6 +80,9 @@
         <item>us.zoom.videomeetings|com.whatsapp</item>
         <item>com.google.android.apps.tachyon|com.whatsapp</item>
         <item>com.kakao.talk|com.whatsapp</item>
+        <item>com.ss.android.lark|com.whatsapp</item>
+        <item>com.tencent.wework|com.whatsapp</item>
+        <item>com.tencent.wemeet.app|com.whatsapp</item>
 
         <!-- Music -->
         <item>com.spotify.music|com.tencent.qqmusic</item>
@@ -71,9 +94,24 @@
         <item>com.aspiro.tidal|com.tencent.qqmusic</item>
         <item>com.qobuz.music|com.tencent.qqmusic</item>
         <item>org.lineageos.twelve|com.tencent.qqmusic</item>
+        <item>com.luna.music|com.tencent.qqmusic</item>
+        <item>com.tencent.karaoke|com.tencent.qqmusic</item>
+        <item>com.ximalaya.ting.android|com.tencent.qqmusic</item>
+        <item>fm.qingting.qtradio|com.tencent.qqmusic</item>
+        <item>com.yibasan.lizhifm|com.tencent.qqmusic</item>
+        <item>cn.missevan|com.tencent.qqmusic</item>
 
         <!-- Camera -->
         <item>org.lineageos.aperture|com.zui.camera</item>
         <item>net.sourceforge.opencamera|com.zui.camera</item>
+        <!-- Google Camera, and two package ids GCam ports use (BSG; the "fishfood" id) -->
+        <item>com.google.android.GoogleCamera|com.zui.camera</item>
+        <item>org.codeaurora.snapcam|com.zui.camera</item>
+        <item>com.google.android.apps.googlecamera.fishfood|com.zui.camera</item>
+        <item>com.riseupgames.proshot2|com.zui.camera</item>
+        <item>com.flavionet.android.camera.pro|com.zui.camera</item>
+        <item>lv.mcprotector.mcpro24fps|com.zui.camera</item>
+        <item>com.blackmagicdesign.android.blackmagiccam|com.zui.camera</item>
+        <item>com.footej.camera2|com.zui.camera</item>
     </string-array>
 </resources>
