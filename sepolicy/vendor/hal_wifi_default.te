@@ -1,0 +1,6 @@
+# The Wi-Fi HAL names its soft AP interfaces from ro.vendor.wifi.sap.interface
+# (ap0) and, for bridged dual-band AP, ro.vendor.wifi.sap.concurrent.iface
+# (ap1). Both are labeled vendor_mtk_wifi_hotspot_prop, which the stock vendor
+# policy lets only vendor_init read, so property_get() was denied and the HAL
+# fell back to generic wlanN names.
+get_prop(hal_wifi_default, vendor_mtk_wifi_hotspot_prop)
