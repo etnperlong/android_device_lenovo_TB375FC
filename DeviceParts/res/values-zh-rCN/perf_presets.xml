@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string-array name="perf_preset_reference_names">
+        <item>com.tencent.tmgp.sgame|王者荣耀</item>
+        <item>com.kurogame.mingchao|鸣潮</item>
+        <item>com.tencent.tmgp.bh3|崩坏3</item>
+        <item>com.miHoYo.Yuanshen|原神</item>
+        <item>com.miHoYo.GenshinImpact|原神（国际版）</item>
+        <item>com.tencent.tmgp.pubgmhd|和平精英</item>
+        <item>com.tencent.tmgp.dfm|三角洲行动</item>
+        <item>com.vng.pubgmobile|PUBG Mobile（越南版）</item>
+        <item>com.pwrd.hotta.laohu|幻塔</item>
+        <item>com.tencent.tmgp.cod|使命召唤手游</item>
+        <item>com.tencent.tmgp.speedmobile|QQ飞车手游</item>
+        <item>com.miHoYo.hkrpg|崩坏：星穹铁道</item>
+        <item>com.tencent.jkchess|金铲铲之战</item>
+        <item>com.hottagames.hotta.lenovo|幻塔（联想版）</item>
+        <item>com.tencent.lolm|英雄联盟手游</item>
+        <item>com.netease.nshm|逆水寒手游</item>
+        <item>com.miHoYo.Nap|绝区零</item>
+        <item>com.papegames.infinitynikki|无限暖暖</item>
+        <item>com.tencent.tmgp.cf|穿越火线：枪战王者</item>
+    </string-array>
+</resources>

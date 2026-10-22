@@ -31,7 +31,8 @@ import android.view.MotionEvent;
 import lineageos.hardware.LineageHardwareManager;
 
 /**
- * Refresh-rate policy replacing two stock ZUI mechanisms with AOSP/LineageOS pieces:
+ * Refresh-rate policy: two stock ZUI mechanisms rebuilt with AOSP/LineageOS pieces, and the
+ * per-app limit of the performance profiles:
  *
  * - Stylus: stock MediaTek SurfaceFlinger runs a 10 s "PenTimer" fed by every stylus
  *   MotionEvent (hover included) and steers to 120 Hz while it runs. Here a gesture-monitor
@@ -41,8 +42,10 @@ import lineageos.hardware.LineageHardwareManager;
  *   and the user enabled "low refresh". Here the reading mode is LineageOS LiveDisplay reading
  *   enhancement (grayscale; warmth comes from Night Light), and the opt-in toggle is
  *   {@link #KEY_READING_LOW_REFRESH} (see {@link ReadingLowRefreshTile}).
+ * - App profiles: the refresh-rate limit of the foreground app's performance profile, set by
+ *   PerformanceService through {@link AppRefreshRateLimit}.
  *
- * Both limits are folded into one DisplayManager.requestMaxRefreshRate() value
+ * All limits are folded into one DisplayManager.requestMaxRefreshRate() value
  * (PRIORITY_SYSTEM_REQUESTED_MODES), which DisplayModeDirector drops if this process dies.
  */
 public class DisplayPolicyService extends Service {
@@ -168,12 +171,17 @@ public class DisplayPolicyService extends Service {
         mInputReceiver = new PolicyInputReceiver(mInputMonitor, mHandler);
 
         mArbiter.setScreenOn(getSystemService(PowerManager.class).isInteractive());
+        mArbiter.setAppCapHz(AppRefreshRateLimit.setListener(hz -> mHandler.post(() -> {
+            mArbiter.setAppCapHz(hz);
+            applyCap();
+        })));
         readSettings();
         updateReadingMode();
         applyCap();
     }
 
     private void stop() {
+        AppRefreshRateLimit.setListener(null);
         if (mInputReceiver != null) {
             mInputReceiver.dispose();
             mInputReceiver = null;

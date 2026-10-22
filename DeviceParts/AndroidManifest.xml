@@ -15,6 +15,7 @@
     <uses-permission android:name="android.permission.RESTRICT_DISPLAY_MODES" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_ROUTING" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.MANAGE_ACTIVITY_TASKS" />
     <uses-permission android:name="android.permission.MONITOR_INPUT" />
     <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -129,6 +130,31 @@
             android:label="@string/dolby_app_profiles_title"
             android:theme="@style/Theme.SubSettingsBase" />
 
+        <activity
+            android:name=".perf.PerformanceActivity"
+            android:exported="true"
+            android:label="@string/perf_title"
+            android:theme="@style/Theme.SubSettingsBase">
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.battery" />
+            <meta-data
+                android:name="com.android.settings.keyhint"
+                android:value="battery_perf_profiles" />
+            <meta-data
+                android:name="com.android.settings.summary"
+                android:resource="@string/perf_summary" />
+        </activity>
+
+        <activity
+            android:name=".perf.PerformanceAppActivity"
+            android:exported="false"
+            android:label="@string/perf_title"
+            android:theme="@style/Theme.SubSettingsBase" />
+
         <service
             android:name=".touch.TapToWakeService"
             android:exported="false" />
@@ -151,6 +177,10 @@
 
         <service
             android:name=".dolby.DolbyService"
+            android:exported="false" />
+
+        <service
+            android:name=".perf.PerformanceService"
             android:exported="false" />
 
         <service

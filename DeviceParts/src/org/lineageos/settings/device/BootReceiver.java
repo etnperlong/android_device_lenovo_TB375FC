@@ -13,6 +13,7 @@ import org.lineageos.settings.device.audio.SpeakerRotationService;
 import org.lineageos.settings.device.cover.CoverService;
 import org.lineageos.settings.device.display.DisplayPolicyService;
 import org.lineageos.settings.device.dolby.DolbyService;
+import org.lineageos.settings.device.perf.PerformanceService;
 import org.lineageos.settings.device.touch.EdgeRejectionService;
 import org.lineageos.settings.device.touch.TapToWakeService;
 
@@ -28,6 +29,7 @@ public class BootReceiver extends BroadcastReceiver {
             context.startService(new Intent(context, CoverService.class));
             context.startService(new Intent(context, SpeakerRotationService.class));
             context.startService(new Intent(context, DolbyService.class));
+            context.startService(new Intent(context, PerformanceService.class));
         }
     }
 }

@@ -25,6 +25,7 @@ final class RefreshRateArbiter {
     private boolean mReadingMode;
     private boolean mReadingLowRefresh;
     private float mUserMinHz;
+    private float mAppCapHz = NO_LIMIT;
 
     RefreshRateArbiter(float stylusCapHz, float readingCapHz) {
         mStylusCapHz = stylusCapHz;
@@ -54,6 +55,11 @@ final class RefreshRateArbiter {
         mUserMinHz = minHz;
     }
 
+    /** Limit of the foreground app's performance profile, or {@link #NO_LIMIT}. */
+    void setAppCapHz(float hz) {
+        mAppCapHz = hz;
+    }
+
     boolean isStylusActive() {
         return mStylusActive;
     }
@@ -70,6 +76,11 @@ final class RefreshRateArbiter {
         if (mReadingMode && mReadingLowRefresh) {
             // Stock ZUI votes render [0, max(min_refresh_rate, reading_mode_require_fps)].
             cap = Math.min(cap, Math.max(mUserMinHz, mReadingCapHz));
+        }
+        if (mAppCapHz > 0f) {
+            // An explicit per-app choice, so unlike reading mode it is not raised to the user's
+            // minimum refresh rate.
+            cap = Math.min(cap, mAppCapHz);
         }
         return Float.isInfinite(cap) ? NO_LIMIT : cap;
     }

@@ -7,7 +7,7 @@
     <string name="app_name">设备功能</string>
 
     <string name="device_parts_title">设备功能</string>
-    <string name="device_parts_summary">手写笔、触控、杜比全景声与皮套</string>
+    <string name="device_parts_summary">性能、手写笔、触控、杜比全景声与皮套</string>
     <string name="display_parts_title">手写笔与触控</string>
     <string name="display_parts_summary">手写笔刷新率、阅读模式刷新率、触控游戏模式</string>
 
@@ -15,6 +15,7 @@
     <string name="category_touch_title">触控</string>
     <string name="category_cover_title">皮套</string>
     <string name="category_audio_title">音频</string>
+    <string name="category_perf_title">性能</string>
 
     <string name="pen_refresh_cap_title">使用手写笔时限制为 120 Hz</string>
     <string name="pen_refresh_cap_summary">主动笔据称最高只支持 120 Hz。最后一次笔输入 10 秒后解除限制。</string>
@@ -52,6 +53,52 @@
     <string name="dolby_app_profiles_title">应用模式</string>
     <string name="dolby_app_profiles_summary">为每个应用选择模式。常见的音乐和视频应用预设为音乐和电影模式。</string>
     <string name="dolby_app_profile_default">默认模式</string>
+
+    <string name="perf_title">性能配置</string>
+    <string name="perf_summary">调节联发科天玑芯片性能和温控策略</string>
+    <string name="perf_enabled_title">按应用调节性能</string>
+    <string name="perf_enabled_summary">把前台应用告知联发科电源服务并应用其配置。厂商已适配的应用默认跟随厂商配置。</string>
+    <string name="category_perf_vendor_apps">厂商已适配的应用</string>
+    <string name="category_perf_other_apps">其他应用</string>
+    <string name="perf_mode_title">配置</string>
+    <string name="perf_mode_vendor">跟随厂商</string>
+    <string name="perf_mode_default">默认</string>
+    <string name="perf_mode_custom">自定义</string>
+    <string name="perf_mode_off">关闭</string>
+    <string name="perf_mode_vendor_summary">跟随厂商：%1$s</string>
+    <string name="perf_mode_custom_summary">自定义：%1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s，高级参数</string>
+    <string name="perf_preset_title">预设</string>
+    <string name="perf_preset_none">无</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">预设内容</string>
+    <string name="perf_preset_thermal">温控策略 %1$d</string>
+    <string name="perf_preset_cpu_max">CPU 上限 %1$s</string>
+    <string name="perf_preset_cpu_min">CPU 下限 %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO 帧率调度</string>
+    <plurals name="perf_preset_count">
+        <item quantity="other">共 %1$d 项参数</item>
+    </plurals>
+    <string name="perf_category_video">视频</string>
+    <string name="perf_category_camera">相机</string>
+    <string name="perf_category_communication">通讯</string>
+    <string name="perf_category_music">音乐</string>
+    <string name="perf_category_app_clone">应用分身</string>
+    <string name="perf_category_benchmark">性能测试</string>
+    <string name="perf_category_game">游戏</string>
+    <string name="perf_advanced_title">高级参数</string>
+    <string name="perf_advanced_summary">在预设基础上调节 CPU 频率上下限并锁定帧率</string>
+    <string name="category_perf_cpu">CPU 频率</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">小核</string>
+    <string name="perf_cluster_medium">中核</string>
+    <string name="perf_cluster_big">大核</string>
+    <string name="perf_cluster_title">%1$s（CPU %2$s）</string>
+    <string name="perf_cpu_min_title">%1$s最低频率</string>
+    <string name="perf_cpu_max_title">%1$s最高频率</string>
+    <string name="perf_refresh_rate_title">帧率锁定</string>
+    <string name="perf_refresh_rate_none">不锁定</string>
+    <string name="perf_advanced_reset_title">恢复为预设值</string>
 
     <string name="tile_reading_low_refresh">阅读 30 Hz</string>
     <string name="tile_touch_game_mode">触控游戏模式</string>

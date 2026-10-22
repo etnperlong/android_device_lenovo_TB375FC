@@ -6,6 +6,19 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/device_parts_title">
     <PreferenceCategory
+        android:key="category_perf"
+        android:title="@string/category_perf_title">
+        <Preference
+            android:key="perf"
+            android:title="@string/perf_title"
+            android:summary="@string/perf_summary">
+            <intent
+                android:targetPackage="org.lineageos.settings.device"
+                android:targetClass="org.lineageos.settings.device.perf.PerformanceActivity" />
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="category_display"
         android:title="@string/category_display_title">
         <SwitchPreferenceCompat

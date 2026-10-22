@@ -12,9 +12,11 @@
 //  - cover: applies the stock folio-cover policy (light sensor check, sleep, lock) to the lid
 //    switch reported by the patched hall.ko (docs/hall-ko-lid-switch.md);
 //  - audio: rotates the speaker channels with the display (stock gsensor_rotation);
-//  - dolby: the stock ZUI Dolby Atmos settings on top of the vendor daxService.
-// Its settings screens are injected into the Settings homepage, Display, Sound and Lock screen
-// pages.
+//  - dolby: the stock ZUI Dolby Atmos settings on top of the vendor daxService;
+//  - perf: per-app performance profiles: the foreground app goes to the MediaTek power HAL
+//    (IMtkpower_applist, as stock system_server does) or a custom power HAL lock is held for it.
+// Its settings screens are injected into the Settings homepage, Display, Sound, Battery and Lock
+// screen pages.
 // Not privileged: uid 1000 already passes every permission check, and a priv-app would need
 // privapp-permissions entries.
 
