@@ -31,19 +31,20 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * The switch for the performance profiles and the launchable apps, those with vendor rules
- * first. Each app opens its own profile screen.
+ * The switch for the performance profiles and the launchable apps, those with vendor rules or a
+ * recommended preset first. Each app opens its own profile screen.
  */
 public class PerformanceFragment extends SettingsBasePreferenceFragment {
     private static final String KEY_ENABLED = "perf_enabled";
-    private static final String KEY_VENDOR_APPS = "perf_vendor_apps";
+    private static final String KEY_KNOWN_APPS = "perf_known_apps";
     private static final String KEY_OTHER_APPS = "perf_other_apps";
 
     private ContentResolver mResolver;
     private VendorAppList mVendor;
+    private RecommendedApps mRecommended;
     private PerfLabels mLabels;
     private SwitchPreferenceCompat mEnabled;
-    private PreferenceCategory mVendorApps;
+    private PreferenceCategory mKnownApps;
     private PreferenceCategory mOtherApps;
 
     private static final class App {
@@ -63,7 +64,8 @@ public class PerformanceFragment extends SettingsBasePreferenceFragment {
         final Context context = requireContext();
         mResolver = context.getContentResolver();
         mVendor = VendorAppList.get();
-        mLabels = new PerfLabels(context, mVendor);
+        mRecommended = RecommendedApps.get(context);
+        mLabels = new PerfLabels(context, mVendor, mRecommended);
 
         final PreferenceScreen screen = getPreferenceManager().createPreferenceScreen(context);
         mEnabled = new SwitchPreferenceCompat(context);
@@ -78,10 +80,10 @@ public class PerformanceFragment extends SettingsBasePreferenceFragment {
         });
         screen.addPreference(mEnabled);
 
-        mVendorApps = new PreferenceCategory(context);
-        mVendorApps.setKey(KEY_VENDOR_APPS);
-        mVendorApps.setTitle(R.string.category_perf_vendor_apps);
-        screen.addPreference(mVendorApps);
+        mKnownApps = new PreferenceCategory(context);
+        mKnownApps.setKey(KEY_KNOWN_APPS);
+        mKnownApps.setTitle(R.string.category_perf_known_apps);
+        screen.addPreference(mKnownApps);
         mOtherApps = new PreferenceCategory(context);
         mOtherApps.setKey(KEY_OTHER_APPS);
         mOtherApps.setTitle(R.string.category_perf_other_apps);
@@ -111,7 +113,7 @@ public class PerformanceFragment extends SettingsBasePreferenceFragment {
     }
 
     private void updateEnabled(boolean enabled) {
-        mVendorApps.setEnabled(enabled);
+        mKnownApps.setEnabled(enabled);
         mOtherApps.setEnabled(enabled);
     }
 
@@ -145,15 +147,17 @@ public class PerformanceFragment extends SettingsBasePreferenceFragment {
             pref.setIntent(new Intent(context, PerformanceAppActivity.class)
                     .putExtra(PerformanceAppActivity.EXTRA_PACKAGE, app.packageName)
                     .putExtra(PerformanceAppActivity.EXTRA_LABEL, app.label));
-            (mVendor.isListed(app.packageName) ? mVendorApps : mOtherApps).addPreference(pref);
+            final boolean known = mVendor.isListed(app.packageName)
+                    || mRecommended.getPreset(app.packageName) != null;
+            (known ? mKnownApps : mOtherApps).addPreference(pref);
         }
-        mVendorApps.setVisible(mVendorApps.getPreferenceCount() > 0);
+        mKnownApps.setVisible(mKnownApps.getPreferenceCount() > 0);
         updateSummaries();
     }
 
     private void updateSummaries() {
         final Map<String, PerfProfile> profiles = PerfSettings.getAppProfiles(mResolver);
-        for (PreferenceCategory category : new PreferenceCategory[] {mVendorApps, mOtherApps}) {
+        for (PreferenceCategory category : new PreferenceCategory[] {mKnownApps, mOtherApps}) {
             for (int i = 0; i < category.getPreferenceCount(); i++) {
                 final Preference pref = category.getPreference(i);
                 final PerfProfile profile = profiles.get(pref.getKey());

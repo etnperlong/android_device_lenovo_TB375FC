@@ -62,8 +62,8 @@
     <string name="perf_title">Performance profiles</string>
     <string name="perf_summary">Tune MediaTek Dimensity performance and thermal policies</string>
     <string name="perf_enabled_title">Adjust performance by app</string>
-    <string name="perf_enabled_summary">Tell the MediaTek power service which app is in front and apply its profile. Apps with vendor profiles follow them by default.</string>
-    <string name="category_perf_vendor_apps">Apps with vendor profiles</string>
+    <string name="perf_enabled_summary">Tell the MediaTek power service which app is in front and apply its profile. Apps with vendor or recommended profiles use them by default.</string>
+    <string name="category_perf_known_apps">Apps with profiles</string>
     <string name="category_perf_other_apps">Other apps</string>
     <string name="perf_mode_title">Profile</string>
     <string name="perf_mode_vendor">Follow vendor</string>
@@ -71,6 +71,8 @@
     <string name="perf_mode_custom">Custom</string>
     <string name="perf_mode_off">Off</string>
     <string name="perf_mode_vendor_summary">Follow vendor: %1$s</string>
+    <string name="perf_mode_recommended">Recommended</string>
+    <string name="perf_mode_recommended_summary">Recommended: %1$s</string>
     <string name="perf_mode_custom_summary">Custom: %1$s</string>
     <string name="perf_mode_custom_advanced">%1$s, advanced</string>
     <string name="perf_preset_title">Preset</string>

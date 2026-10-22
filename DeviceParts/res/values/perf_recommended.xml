@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Apps missing from the vendor list (/vendor/etc/power_app_cfg.xml, mostly Chinese apps)
+         that use one of its rule sets by default: "package|listed package whose rules it
+         takes". Games take the rules of the same title's listed (Chinese) edition; other apps
+         those of the listed apps of the same kind (the vendor gives video apps thermal policy
+         10, messaging 13, music 15, its camera 11). Packages were checked on Google Play or in
+         the LineageOS sources in 2026-10. Entries for listed packages are ignored, and users
+         can change or turn off every entry. -->
+    <string-array name="perf_recommended_apps" translatable="false">
+        <!-- Games: international and regional editions -->
+        <item>com.levelinfinite.sgameGlobal|com.tencent.tmgp.sgame</item>
+        <item>com.kurogame.wutheringwaves.global|com.kurogame.mingchao</item>
+        <item>com.miHoYo.bh3global|com.tencent.tmgp.bh3</item>
+        <item>com.miHoYo.GenshinImpact.vn|com.miHoYo.GenshinImpact</item>
+        <item>com.proxima.dfm|com.tencent.tmgp.dfm</item>
+        <item>com.levelinfinite.hotta.gp|com.pwrd.hotta.laohu</item>
+        <item>com.tencent.tmgp.kr.codm|com.activision.callofduty.shooter</item>
+        <item>com.vng.codmvn|com.activision.callofduty.shooter</item>
+        <item>com.HoYoverse.hkrpgoversea|com.miHoYo.hkrpg</item>
+        <item>com.HoYoverse.hkrpgvn|com.miHoYo.hkrpg</item>
+        <item>com.riot.FFGSSea|com.tencent.jkchess</item>
+        <item>com.netease.nshmna|com.netease.nshm</item>
+        <item>com.netease.nshmsea|com.netease.nshm</item>
+        <item>com.HoYoverse.Nap|com.miHoYo.Nap</item>
+        <item>com.infoldgames.infinitynikkien|com.papegames.infinitynikki</item>
+        <item>com.tencent.stc.cfl|com.tencent.tmgp.cf</item>
+        <item>com.vnggames.cfl.crossfirelegends|com.tencent.tmgp.cf</item>
+
+        <!-- Video -->
+        <item>com.netflix.mediaclient|com.google.android.youtube</item>
+        <item>com.disney.disneyplus|com.google.android.youtube</item>
+        <item>com.amazon.avod.thirdpartyclient|com.google.android.youtube</item>
+        <item>com.wbd.stream|com.google.android.youtube</item>
+        <item>com.wbd.hbomax|com.google.android.youtube</item>
+        <item>tv.twitch.android.app|com.google.android.youtube</item>
+        <item>com.zhiliaoapp.musically|com.google.android.youtube</item>
+        <item>com.bstar.intl|com.google.android.youtube</item>
+        <item>com.iqiyi.i18n|com.google.android.youtube</item>
+        <item>com.tencent.qqlivei18n|com.google.android.youtube</item>
+        <item>com.kwai.video|com.google.android.youtube</item>
+        <item>com.google.android.apps.youtube.kids|com.google.android.youtube</item>
+        <item>com.crunchyroll.crunchyroid|com.google.android.youtube</item>
+        <item>org.videolan.vlc|com.google.android.youtube</item>
+        <item>com.mxtech.videoplayer.ad|com.google.android.youtube</item>
+        <item>com.plexapp.android|com.google.android.youtube</item>
+
+        <!-- Communication -->
+        <item>com.whatsapp.w4b|com.whatsapp</item>
+        <item>com.facebook.orca|com.whatsapp</item>
+        <item>org.telegram.messenger|com.whatsapp</item>
+        <item>org.thoughtcrime.securesms|com.whatsapp</item>
+        <item>jp.naver.line.android|com.whatsapp</item>
+        <item>com.viber.voip|com.whatsapp</item>
+        <item>com.discord|com.whatsapp</item>
+        <item>us.zoom.videomeetings|com.whatsapp</item>
+        <item>com.google.android.apps.tachyon|com.whatsapp</item>
+        <item>com.kakao.talk|com.whatsapp</item>
+
+        <!-- Music -->
+        <item>com.spotify.music|com.tencent.qqmusic</item>
+        <item>com.google.android.apps.youtube.music|com.tencent.qqmusic</item>
+        <item>com.apple.android.music|com.tencent.qqmusic</item>
+        <item>com.amazon.mp3|com.tencent.qqmusic</item>
+        <item>deezer.android.app|com.tencent.qqmusic</item>
+        <item>com.soundcloud.android|com.tencent.qqmusic</item>
+        <item>com.aspiro.tidal|com.tencent.qqmusic</item>
+        <item>com.qobuz.music|com.tencent.qqmusic</item>
+        <item>org.lineageos.twelve|com.tencent.qqmusic</item>
+
+        <!-- Camera -->
+        <item>org.lineageos.aperture|com.zui.camera</item>
+        <item>net.sourceforge.opencamera|com.zui.camera</item>
+    </string-array>
+</resources>

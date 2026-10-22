@@ -43,6 +43,7 @@ public class PerformanceAppFragment extends SettingsBasePreferenceFragment {
 
     private ContentResolver mResolver;
     private VendorAppList mVendor;
+    private RecommendedApps mRecommended;
     private PerfLabels mLabels;
     private List<CpuClusters.Cluster> mClusters;
     private String mPackage;
@@ -63,7 +64,8 @@ public class PerformanceAppFragment extends SettingsBasePreferenceFragment {
         final Context context = requireContext();
         mResolver = context.getContentResolver();
         mVendor = VendorAppList.get();
-        mLabels = new PerfLabels(context, mVendor);
+        mRecommended = RecommendedApps.get(context);
+        mLabels = new PerfLabels(context, mVendor, mRecommended);
         mClusters = CpuClusters.get();
         mPackage = requireActivity().getIntent().getStringExtra(
                 PerformanceAppActivity.EXTRA_PACKAGE);
@@ -71,22 +73,26 @@ public class PerformanceAppFragment extends SettingsBasePreferenceFragment {
 
         final PreferenceScreen screen = getPreferenceManager().createPreferenceScreen(context);
 
+        // The default is called after what it does: the vendor rules, a recommended preset, or
+        // nothing (then "off" would be the same, so it is not offered).
         final boolean listed = mVendor.isListed(mPackage);
+        final boolean recommended = mRecommended.getPreset(mPackage) != null;
         mMode = new ListPreference(context);
         mMode.setKey(KEY_MODE);
         mMode.setPersistent(false);
         mMode.setTitle(R.string.perf_mode_title);
         mMode.setDialogTitle(R.string.perf_mode_title);
-        mMode.setEntries(listed
-                ? new CharSequence[] {getString(R.string.perf_mode_vendor),
-                        getString(R.string.perf_mode_custom), getString(R.string.perf_mode_off)}
-                : new CharSequence[] {getString(R.string.perf_mode_default),
-                        getString(R.string.perf_mode_custom)});
-        mMode.setEntryValues(listed
-                ? new CharSequence[] {String.valueOf(PerfProfile.MODE_VENDOR),
+        final CharSequence defaultLabel = getString(listed ? R.string.perf_mode_vendor
+                : recommended ? R.string.perf_mode_recommended : R.string.perf_mode_default);
+        mMode.setEntries(listed || recommended
+                ? new CharSequence[] {defaultLabel, getString(R.string.perf_mode_custom),
+                        getString(R.string.perf_mode_off)}
+                : new CharSequence[] {defaultLabel, getString(R.string.perf_mode_custom)});
+        mMode.setEntryValues(listed || recommended
+                ? new CharSequence[] {String.valueOf(PerfProfile.MODE_DEFAULT),
                         String.valueOf(PerfProfile.MODE_CUSTOM),
                         String.valueOf(PerfProfile.MODE_OFF)}
-                : new CharSequence[] {String.valueOf(PerfProfile.MODE_VENDOR),
+                : new CharSequence[] {String.valueOf(PerfProfile.MODE_DEFAULT),
                         String.valueOf(PerfProfile.MODE_CUSTOM)});
         mMode.setSummaryProvider(ListPreference.SimpleSummaryProvider.getInstance());
         mMode.setOnPreferenceChangeListener((preference, newValue) -> {
@@ -231,12 +237,18 @@ public class PerformanceAppFragment extends SettingsBasePreferenceFragment {
         final PerfProfile profile = new PerfProfile();
         profile.mode = mode;
         if (mode == PerfProfile.MODE_CUSTOM) {
-            // Start from the app's own vendor rules, if it has any.
-            final VendorAppList.Preset preset = mVendor.getAppPreset(mPackage);
+            // Start from the rules the app gets by default, if any.
+            final VendorAppList.Preset preset = defaultPreset();
             profile.preset = preset != null ? preset.id : "";
         }
         mProfile = profile;
         save();
+    }
+
+    /** The vendor rules of the app, or its recommended preset, or null. */
+    private VendorAppList.Preset defaultPreset() {
+        final VendorAppList.Preset vendor = mVendor.getAppPreset(mPackage);
+        return vendor != null ? vendor : mRecommended.getPreset(mPackage);
     }
 
     /** Moves one slider; the other limit of the cluster follows so that min <= max. */
@@ -299,9 +311,8 @@ public class PerformanceAppFragment extends SettingsBasePreferenceFragment {
 
         mPreset.setVisible(custom);
         mPreset.setValue(mProfile.preset);
-        final VendorAppList.Preset preset = mVendor.getPreset(
-                custom ? mProfile.preset : (mProfile.mode == PerfProfile.MODE_VENDOR
-                        ? idOf(mVendor.getAppPreset(mPackage)) : null));
+        final VendorAppList.Preset preset = custom ? mVendor.getPreset(mProfile.preset)
+                : mProfile.isDefault() ? defaultPreset() : null;
         mPresetDetails.setVisible(preset != null);
         if (preset != null) {
             mPresetDetails.setSummary(mLabels.presetDetails(preset));
@@ -324,9 +335,5 @@ public class PerformanceAppFragment extends SettingsBasePreferenceFragment {
             mCpuMax[i].setSummary(mLabels.formatFrequency(mProfile.cpuMax[i]));
         }
         mRefreshRate.setValue(String.valueOf(mProfile.refreshRate));
-    }
-
-    private static String idOf(VendorAppList.Preset preset) {
-        return preset != null ? preset.id : null;
     }
 }

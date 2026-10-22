@@ -41,15 +41,17 @@ import java.util.Objects;
  * from /vendor/etc/power_app_cfg.xml (thermal policy, FPSGO, CPU limits) and records the app's
  * pid and uid in the power HAL. Here the focused task is followed instead, and:
  *
- * - "follow vendor" (the default): the app is sent to IMtkpower_applist as stock does;
+ * - default: the app is sent to IMtkpower_applist as stock does, which applies its vendor rules
+ *   if it has any; an app without vendor rules but with a recommended preset (RecommendedApps)
+ *   gets that preset as a custom profile instead;
  * - "custom": the pid and uid are recorded the way IMtkpower_applist does (setSysInfo), and a
  *   power HAL lock is acquired with the chosen preset and advanced parameters; the refresh-rate
  *   limit goes to DisplayPolicyService;
  * - "off": only the pid and uid are recorded.
  *
  * The app counts as in front only while the screen is on and unlocked, like the paused
- * activity on stock. Locks are owned by this process; libpowerhal drops a lock whose owner is
- * gone (perfUserScnCheckAll, every five minutes).
+ * activity on stock. Locks are owned by this process; going by its log strings, libpowerhal's
+ * five-minute perfUserScnCheckAll disables the locks of owners that no longer exist.
  */
 public class PerformanceService extends Service {
     private static final String TAG = "Performance";
@@ -83,6 +85,7 @@ public class PerformanceService extends Service {
     private Handler mHandler;
     private MtkPower mHal;
     private VendorAppList mVendor;
+    private RecommendedApps mRecommended;
     private ActivityManager mActivityManager;
     private KeyguardManager mKeyguardManager;
     private PowerManager mPowerManager;
@@ -129,6 +132,7 @@ public class PerformanceService extends Service {
     private void start() {
         mHal = new MtkPower(() -> mHandler.post(this::onHalDied));
         mVendor = VendorAppList.get();
+        mRecommended = RecommendedApps.get(this);
         mActivityManager = getSystemService(ActivityManager.class);
         mKeyguardManager = getSystemService(KeyguardManager.class);
         mPowerManager = getSystemService(PowerManager.class);
@@ -210,8 +214,7 @@ public class PerformanceService extends Service {
     private void update() {
         final Foreground app = mEnabled && mPowerManager.isInteractive()
                 && !mKeyguardManager.isKeyguardLocked() ? queryForeground() : null;
-        final PerfProfile profile = app != null
-                ? PerfSettings.getAppProfile(getContentResolver(), app.pkg) : null;
+        final PerfProfile profile = app != null ? resolve(app.pkg) : null;
         if (app == null ? mApplied == null
                 : app.sameApp(mApplied) && profile.equals(mAppliedProfile)) {
             return;
@@ -220,6 +223,21 @@ public class PerformanceService extends Service {
         if (app != null) {
             activate(app, profile);
         }
+    }
+
+    /**
+     * The app's stored profile; for the default of an app without vendor rules but with a
+     * recommended preset, that preset as a custom profile.
+     */
+    private PerfProfile resolve(String pkg) {
+        final PerfProfile profile = PerfSettings.getAppProfile(getContentResolver(), pkg);
+        if (profile.isDefault()) {
+            final VendorAppList.Preset preset = mRecommended.getPreset(pkg);
+            if (preset != null) {
+                return PerfProfile.forPreset(preset.id);
+            }
+        }
+        return profile;
     }
 
     /** The app of the focused task, or null if there is none or its process is not up yet. */
@@ -278,7 +296,7 @@ public class PerformanceService extends Service {
             default:
                 mHal.notifyAppState(app.pkg, app.activity, app.pid, MtkPower.STATE_RESUMED,
                         app.uid);
-                Log.i(TAG, app.pkg + ": vendor rules");
+                Log.i(TAG, app.pkg + ": default (vendor rules if listed)");
                 break;
         }
     }
@@ -288,7 +306,7 @@ public class PerformanceService extends Service {
         if (mApplied == null) {
             return;
         }
-        if (mAppliedProfile.mode == PerfProfile.MODE_VENDOR) {
+        if (mAppliedProfile.mode == PerfProfile.MODE_DEFAULT) {
             mHal.notifyAppState(mApplied.pkg, mApplied.activity, mApplied.pid,
                     MtkPower.STATE_PAUSED, mApplied.uid);
         }

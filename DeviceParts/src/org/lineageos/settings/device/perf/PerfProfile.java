@@ -13,11 +13,14 @@ import java.util.Arrays;
 
 /** The performance profile chosen for one app. */
 public final class PerfProfile {
-    /** The vendor rules for the app, if it has any: what stock does. */
-    public static final int MODE_VENDOR = 0;
+    /**
+     * The app's default: its vendor rules if the vendor list has the app (what stock does),
+     * otherwise its recommended preset (RecommendedApps), otherwise nothing.
+     */
+    public static final int MODE_DEFAULT = 0;
     /** A vendor rule set chosen by the user, optionally with advanced parameters. */
     public static final int MODE_CUSTOM = 1;
-    /** No rules, even if the vendor list has some for the app. */
+    /** No rules, even if the app has vendor rules or a recommended preset. */
     public static final int MODE_OFF = 2;
 
     private static final String JSON_MODE = "mode";
@@ -27,7 +30,7 @@ public final class PerfProfile {
     private static final String JSON_CPU_MAX = "cpu_max";
     private static final String JSON_REFRESH_RATE = "refresh_rate";
 
-    public int mode = MODE_VENDOR;
+    public int mode = MODE_DEFAULT;
     /** VendorAppList.Preset id, or "" for none. */
     public String preset = "";
     public boolean advanced;
@@ -49,7 +52,15 @@ public final class PerfProfile {
     }
 
     public boolean isDefault() {
-        return mode == MODE_VENDOR;
+        return mode == MODE_DEFAULT;
+    }
+
+    /** A custom profile with the given preset and no advanced parameters. */
+    static PerfProfile forPreset(String presetId) {
+        final PerfProfile profile = new PerfProfile();
+        profile.mode = MODE_CUSTOM;
+        profile.preset = presetId;
+        return profile;
     }
 
     JSONObject toJson() throws JSONException {
@@ -69,8 +80,8 @@ public final class PerfProfile {
     /** Unknown or malformed fields fall back to their defaults. */
     static PerfProfile fromJson(JSONObject json) {
         final PerfProfile profile = new PerfProfile();
-        final int mode = json.optInt(JSON_MODE, MODE_VENDOR);
-        profile.mode = mode == MODE_CUSTOM || mode == MODE_OFF ? mode : MODE_VENDOR;
+        final int mode = json.optInt(JSON_MODE, MODE_DEFAULT);
+        profile.mode = mode == MODE_CUSTOM || mode == MODE_OFF ? mode : MODE_DEFAULT;
         profile.preset = json.optString(JSON_PRESET, "");
         profile.advanced = json.optBoolean(JSON_ADVANCED, false);
         profile.cpuMin = fromJsonArray(json.optJSONArray(JSON_CPU_MIN));

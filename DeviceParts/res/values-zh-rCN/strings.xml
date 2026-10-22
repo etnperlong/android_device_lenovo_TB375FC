@@ -57,8 +57,8 @@
     <string name="perf_title">性能配置</string>
     <string name="perf_summary">调节联发科天玑芯片性能和温控策略</string>
     <string name="perf_enabled_title">按应用调节性能</string>
-    <string name="perf_enabled_summary">把前台应用告知联发科电源服务并应用其配置。厂商已适配的应用默认跟随厂商配置。</string>
-    <string name="category_perf_vendor_apps">厂商已适配的应用</string>
+    <string name="perf_enabled_summary">把前台应用告知联发科电源服务并应用其配置。已适配的应用默认使用厂商配置或推荐配置。</string>
+    <string name="category_perf_known_apps">已适配的应用</string>
     <string name="category_perf_other_apps">其他应用</string>
     <string name="perf_mode_title">配置</string>
     <string name="perf_mode_vendor">跟随厂商</string>
@@ -66,6 +66,8 @@
     <string name="perf_mode_custom">自定义</string>
     <string name="perf_mode_off">关闭</string>
     <string name="perf_mode_vendor_summary">跟随厂商：%1$s</string>
+    <string name="perf_mode_recommended">推荐配置</string>
+    <string name="perf_mode_recommended_summary">推荐配置：%1$s</string>
     <string name="perf_mode_custom_summary">自定义：%1$s</string>
     <string name="perf_mode_custom_advanced">%1$s，高级参数</string>
     <string name="perf_preset_title">预设</string>

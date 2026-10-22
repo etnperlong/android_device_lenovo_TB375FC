@@ -19,11 +19,13 @@ import java.util.Map;
 final class PerfLabels {
     private final Context mContext;
     private final VendorAppList mVendor;
+    private final RecommendedApps mRecommended;
     private final Map<String, String> mReferenceNames = new HashMap<>();
 
-    PerfLabels(Context context, VendorAppList vendor) {
+    PerfLabels(Context context, VendorAppList vendor, RecommendedApps recommended) {
         mContext = context;
         mVendor = vendor;
+        mRecommended = recommended;
         for (String entry : context.getResources().getStringArray(
                 R.array.perf_preset_reference_names)) {
             final int sep = entry.indexOf('|');
@@ -146,8 +148,15 @@ final class PerfLabels {
                     return mContext.getString(R.string.perf_mode_vendor_summary,
                             presetCategory(vendor));
                 }
-                return mContext.getString(mVendor.isListed(pkg)
-                        ? R.string.perf_mode_vendor : R.string.perf_mode_default);
+                if (mVendor.isListed(pkg)) {
+                    return mContext.getString(R.string.perf_mode_vendor);
+                }
+                final VendorAppList.Preset recommended = mRecommended.getPreset(pkg);
+                if (recommended != null) {
+                    return mContext.getString(R.string.perf_mode_recommended_summary,
+                            presetLabel(recommended));
+                }
+                return mContext.getString(R.string.perf_mode_default);
         }
     }
 
