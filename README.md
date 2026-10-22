@@ -49,6 +49,9 @@ Kernel, DTB and modules ship prebuilt in the device tree (`prebuilts/`), so no k
 
 ## Notes
 
+### Device name
+The default device name is `Lenovo Xiaoxin Pad Pro 12.7`, matching the English market name in stock ZUXOS `.103`. The SettingsProvider overlay supplies this name without changing `PRODUCT_MODEL`, which remains `TB375FC`, as do the stock vendor model and its boot-time `ro.product.model_for_attestation` assignment. Existing saved device names are preserved; change them in Settings → About tablet → Device name.
+
 ### DRM
 ClearKey uses AOSP's Android 17 `com.android.hardware.drm.clearkey` service
 APEX, selected through `android.hardware.drm@latest-service.clearkey`.
