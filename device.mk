@@ -378,7 +378,8 @@ PRODUCT_PACKAGES += \
     FrameworkResDeviceOverlay \
     SettingsDeviceOverlay \
     SettingsProviderDeviceOverlay \
-    SystemUIDeviceOverlay
+    SystemUIDeviceOverlay \
+    WifiResDeviceOverlay
 
 # Locale-to-timezone first-boot mapping (Setup Wizard picks region -> we set TZ).
 PRODUCT_COPY_FILES += \

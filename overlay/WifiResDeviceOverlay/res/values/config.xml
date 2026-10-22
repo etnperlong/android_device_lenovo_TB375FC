@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!--
+        Wi-Fi only: no telephony country code, no ro.boot.wificountrycode and
+        the driver reports no regulatory changes, so the framework has no
+        country code at all, and soft AP refuses to start on 5 GHz or 6 GHz.
+        Take the country code from the country IE of nearby access points
+        instead, as the Pixel Wi-Fi overlays do.
+    -->
+    <bool name="config_wifiUpdateCountryCodeFromScanResultGeneric">true</bool>
+</resources>
