@@ -38,6 +38,14 @@
 # stock component sends its com.android.settings.MIRA_VISION intent. Its JNI
 # libraries also need android.hardware.graphics.common-V6-ndk, which the
 # system image lacks, and mediatek-framework.jar is on no classpath.
+#
+# Do not list vendor/bin/mtk_storageproxyd, its init script or libisetrusty.so,
+# which only it links. Its two RPMB sessions have no peer on this device:
+# mtk.ufs.ise needs /dev/trusty-ipc-dev1, which does not exist, and
+# mtk.ufs.trustonic needs the rpmb_genl netlink family, which rpmb-mtk.ko
+# registers only when the DT mobicore node has trustonic,real-drv (this DTB
+# has none; Microtrust is the TEE). It retried the netlink lookup about once a
+# second forever. Microtrust reaches RPMB on its own (vendor.soter.teei.*).
 
 # ClearKey is provided by the AOSP Android 17 service APEX; do not extract
 # stock service, init, VINTF, or plugin files that would override it.
@@ -283,7 +291,6 @@ vendor/bin/mt6897/camsys_dump_tool
 vendor/bin/mt6897/jpegtool
 vendor/bin/mtk_lbs_service
 vendor/bin/mtk_plpath_utils_ota
-vendor/bin/mtk_storageproxyd
 vendor/bin/muxreport
 vendor/bin/netdagent
 vendor/bin/netdc
@@ -594,7 +601,6 @@ vendor/etc/init/microtrust.rc
 vendor/etc/init/motorola.hardware.input@1.1-service.rc
 vendor/etc/init/mtk_gnss.rc
 vendor/etc/init/mtk_lbs_service.rc
-vendor/etc/init/mtk_storageproxyd.rc
 vendor/etc/init/mtklog.rc
 vendor/etc/init/mtkpower_applist-mtk-default.rc
 vendor/etc/init/mtkrild.rc
@@ -1743,7 +1749,6 @@ vendor/lib64/libimagebuffer_wrapper.so
 vendor/lib64/libimsg_log.so
 vendor/lib64/libion_mtk.so;MAKE_COPY_RULE_ONLY
 vendor/lib64/libion_ulit.so
-vendor/lib64/libisetrusty.so
 vendor/lib64/libjpeg-alpha-oal_vendor.so
 vendor/lib64/libjpeg-alpha_vendor.so
 vendor/lib64/libjpegdecoder.so;MAKE_COPY_RULE_ONLY

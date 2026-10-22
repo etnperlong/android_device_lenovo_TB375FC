@@ -55,9 +55,9 @@
 #     /apex/com.android.vndk.v34/lib64/, so overlaying it reproduces the
 #     stock crypto stack exactly: one v34 set for WiFi, keymaster, and GPS.
 #   - libnl.so consumers (wpa_supplicant, hostapd, wifi_dump, wlan_assistant,
-#     gps_dump, bt_dump, libwifi-hal, mtk_storageproxyd): libnl ABI hasn't
-#     changed between v34 and A16, but vendor was built against v34 so the
-#     soname expectations are aligned. Overlay is safe.
+#     gps_dump, bt_dump, libwifi-hal): libnl ABI hasn't changed between v34
+#     and A16, but vendor was built against v34 so the soname expectations
+#     are aligned. Overlay is safe.
 # All overlay candidates verified by nm cross-check across all
 # /vendor/lib64/*.so and /vendor/lib64/hw/*.so.
 #

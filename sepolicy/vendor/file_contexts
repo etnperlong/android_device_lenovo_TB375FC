@@ -13,9 +13,8 @@
 /(vendor|system/vendor)/bin/hw/vendor\.mediatek\.hardware\.mtkpower-service\.mediatek u:object_r:mtk_hal_power_exec:s0
 
 # TEE (critical: keymaster needs TEE, FBE needs keymaster).
-# The Trusty storage-proxy entry was removed alongside the binary itself.
-# This device's TEE is Microtrust/Beanpod (KeyMint HAL = beanpod), so
-# storageproxyd had nothing to talk to.
+# This device's TEE is Microtrust/Beanpod (KeyMint HAL = beanpod). The MediaTek
+# storage proxy (mtk_storageproxyd) is not shipped; see proprietary-files.txt.
 /(vendor|system/vendor)/bin/teei_daemon                                              u:object_r:tee_exec:s0
 /(vendor|system/vendor)/bin/teei_loader                                              u:object_r:tee_exec:s0
 
@@ -156,7 +155,6 @@
 /(vendor|system/vendor)/bin/emdloggerv                                               u:object_r:emdloggerv_exec:s0
 /(vendor|system/vendor)/bin/netdagent                                                u:object_r:netdagent_exec:s0
 /(vendor|system/vendor)/bin/eara_io_service                                          u:object_r:eara_io_exec:s0
-/(vendor|system/vendor)/bin/mtk_storageproxyd                                        u:object_r:tee_exec:s0
 
 # MediaTek same-process HAL libraries (graphics / GPU / Vulkan / PQ / MML /
 # neuron-tflite). dlopened into app and system process address spaces for
