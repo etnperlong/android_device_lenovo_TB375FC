@@ -294,7 +294,7 @@ AB_OTA_PARTITIONS += \
     vendor_dlkm
 
 # Bluetooth / Wi-Fi (MediaTek connsys) firmware is shipped via the vendor blob
-# tree (extract-files.sh from /vendor/firmware).
+# tree (proprietary-files.txt, extracted by extract-files.py).
 
 # Display / GPU (Mali-G615): gralloc, hwcomposer, Mali GPU drivers, libgles_mali.so
 # all ship via the vendor blob tree.
@@ -417,12 +417,11 @@ PRODUCT_PACKAGES += \
 # to hal_wifi_supplicant at board API 202604, so it would stay root and be
 # unable to use the wifi-owned /data/vendor/wifi/wpa.
 
-# WiFi-only telephony cleanup. Telephony APKs absent via three paths:
+# WiFi-only telephony cleanup. Telephony APKs absent via two paths:
 #   - lineage_TB375FC.mk inherits full_base.mk (was full_base_telephony.mk),
 #     dropping Dialer/TeleService/TelephonyProvider/Telecom/MmsService/
 #     SimAppDialog/CarrierDefaultApp/ImsServiceEntitlement.
-#   - tb375fc-vendor.mk PRODUCT_PACKAGES line for CarrierConfig commented out.
-#   - ImsService was never in PRODUCT_PACKAGES, just had an Android.bp entry.
+#   - proprietary-files.txt lists neither the stock CarrierConfig nor ImsService.
 
 # Display orientation: keep stock ORIENTATION_270. The Novatek NT36532 kernel
 # driver applies an internal rotation transform based on the DT-configured

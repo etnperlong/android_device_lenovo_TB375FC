@@ -102,8 +102,8 @@ def main():
     # _Unwind_*); ubsan-runtime DT_NEEDED not in shared_libs. The bespoke ships the
     # identical blobs and boots, so the runtime is sound; a per-blob allowlist is a
     # losing game across ~1000 blobs. This matches the bespoke (no check) exactly.
-    # (tools/bp_check_elf_disable.txt + bp_strip_deps.txt still drive the shared_libs
-    # stripping for genuinely-unresolvable MTK-internal deps.)
+    # (tools/bp_strip_deps.txt still drives the shared_libs stripping for
+    # genuinely-unresolvable MTK-internal deps.)
     ce_lines = []
     in_prebuilt = False
     for l in head.split('\n'):
