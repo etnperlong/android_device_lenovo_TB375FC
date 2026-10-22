@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">ຄຸນສົມບັດອຸປະກອນ</string>
+
+    <string name="device_parts_title">ຄຸນສົມບັດອຸປະກອນ</string>
+    <string name="device_parts_summary">ປະສິດທິພາບ, ປາກກາ, ການສຳຜັດ, Dolby Atmos ແລະ ເຄສຝາພັບ</string>
+    <string name="display_parts_title">ປາກກາ ແລະ ການສຳຜັດ</string>
+    <string name="display_parts_summary">ອັດຕາການຣີເຟຣຊຂອງປາກກາ, ອັດຕາການຣີເຟຣຊໃນໂໝດອ່ານ, ໂໝດເກມສຳຜັດ</string>
+
+    <string name="category_display_title">ອັດຕາການຣີເຟຣຊ</string>
+    <string name="category_touch_title">ການສຳຜັດ</string>
+    <string name="category_cover_title">ເຄສຝາພັບ</string>
+    <string name="category_audio_title">ສຽງ</string>
+    <string name="category_perf_title">ປະສິດທິພາບ</string>
+
+    <string name="pen_refresh_cap_title">ຈຳກັດເປັນ 120 Hz ເມື່ອໃຊ້ປາກກາ</string>
+    <string name="pen_refresh_cap_summary">ລາຍງານວ່າປາກກາແອັກທິຟຮອງຮັບສູງສຸດພຽງ 120 Hz. ການຈຳກັດຈະຖືກຍົກເລີກ 10 ວິນາທີຫຼັງຈາກໃຊ້ປາກກາຄັ້ງສຸດທ້າຍ.</string>
+    <string name="reading_low_refresh_title">30 Hz ໃນໂໝດອ່ານ</string>
+    <string name="reading_low_refresh_summary">ຫຼຸດອັດຕາການຣີເຟຣຊເມື່ອເປີດໂໝດອ່ານ</string>
+    <string name="reading_low_refresh_unavailable">ໂໝດອ່ານບໍ່ພ້ອມໃຊ້</string>
+    <string name="touch_game_mode_title">ໂໝດເກມສຳຜັດ</string>
+    <string name="touch_game_mode_summary">ໂໝດເກມຂອງຕົວຄວບຄຸມການສຳຜັດ. ຈະປິດອີກຄັ້ງຫຼັງຈາກຣີສະຕາດ.</string>
+    <string name="touch_game_mode_unavailable">ບໍ່ພ້ອມໃຊ້</string>
+    <string name="smart_cover_title">ເຄສອັດສະລິຍະ</string>
+    <string name="smart_cover_summary">ປິດໜ້າຈໍ ແລະ ລັອກເມື່ອປິດເຄສຝາພັບ</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">ໂໝດສຽງ, ອີຄວາລາຍເຊີ, ການເພີ່ມຄວາມຊັດເຈນສຽງເວົ້າ ແລະ ໂໝດສຳລັບແອັບ</string>
+    <string name="dolby_enable_title">ໃຊ້ Dolby Atmos</string>
+    <string name="dolby_profile_title">ໂໝດເລີ່ມຕົ້ນ</string>
+    <string name="dolby_profile_dynamic">ໄດນາມິກ</string>
+    <string name="dolby_profile_movie">ຮູບເງົາ</string>
+    <string name="dolby_profile_music">ເພງ</string>
+    <string name="category_dolby_music_title">ໂໝດເພງ</string>
+    <string name="dolby_ieq_preset_title">ເອັບເຟັກສຽງ</string>
+    <string name="dolby_ieq_preset_none">ບໍ່ມີ</string>
+    <string name="dolby_ieq_preset_detailed">ລະອຽດ</string>
+    <string name="dolby_ieq_preset_balanced">ສົມດຸນ</string>
+    <string name="dolby_ieq_preset_warm">ອົບອຸ່ນ</string>
+    <string name="dolby_geq_title">ອີຄວາລາຍເຊີ</string>
+    <string name="dolby_geq_summary">ປັບແຖບຄວາມຖີ່ 10 ແຖບ</string>
+    <string name="dolby_geq_reset_title">ຕັ້ງຄ່າອີຄວາລາຍເຊີໃຫ້ຮາບພຽງ</string>
+    <string name="category_dolby_movie_title">ໂໝດຮູບເງົາ</string>
+    <string name="dolby_dialogue_level_title">ເພີ່ມຄວາມຊັດເຈນສຽງເວົ້າ</string>
+    <string name="dolby_dialogue_level_summary">ເຮັດໃຫ້ສຽງເວົ້າຊັດເຈນຂຶ້ນ. ຕັ້ງເປັນ 0 ເພື່ອປິດ.</string>
+    <string name="category_dolby_apps_title">ແອັບ</string>
+    <string name="dolby_app_profiles_enabled_title">ສະຫຼັບໂໝດຕາມແອັບ</string>
+    <string name="dolby_app_profiles_enabled_summary">ເມື່ອແອັບກຳລັງຫຼິ້ນສຽງ, ໃຫ້ໃຊ້ໂໝດທີ່ຕັ້ງໄວ້ສຳລັບແອັບນັ້ນ</string>
+    <string name="dolby_app_profiles_title">ໂໝດສຳລັບແອັບ</string>
+    <string name="dolby_app_profiles_summary">ເລືອກໂໝດສຳລັບແຕ່ລະແອັບ. ແອັບເພງ ແລະ ວິດີໂອທີ່ຮູ້ຈັກຈະເລີ່ມດ້ວຍໂໝດເພງ ແລະ ຮູບເງົາ.</string>
+    <string name="dolby_app_profile_default">ໂໝດເລີ່ມຕົ້ນ</string>
+
+    <string name="perf_title">ໂປຣໄຟລ໌ປະສິດທິພາບ</string>
+    <string name="perf_summary">ປັບປະສິດທິພາບ MediaTek Dimensity ແລະ ນະໂຍບາຍຄວາມຮ້ອນ</string>
+    <string name="perf_enabled_title">ປັບປະສິດທິພາບຕາມແອັບ</string>
+    <string name="perf_enabled_summary">ແຈ້ງບໍລິການຈັດການພະລັງງານ MediaTek ວ່າແອັບໃດຢູ່ເບື້ອງໜ້າ ແລະ ນຳໃຊ້ໂປຣໄຟລ໌ຂອງແອັບນັ້ນ. ແອັບທີ່ມີໂປຣໄຟລ໌ຈາກຜູ້ຜະລິດ ຫຼື ໂປຣໄຟລ໌ທີ່ແນະນຳຈະໃຊ້ໂປຣໄຟລ໌ນັ້ນຕາມຄ່າເລີ່ມຕົ້ນ.</string>
+    <string name="category_perf_known_apps">ແອັບທີ່ມີໂປຣໄຟລ໌</string>
+    <string name="category_perf_other_apps">ແອັບອື່ນໆ</string>
+    <string name="perf_mode_title">ໂປຣໄຟລ໌</string>
+    <string name="perf_mode_vendor">ໃຊ້ຕາມຜູ້ຜະລິດ</string>
+    <string name="perf_mode_default">ຄ່າເລີ່ມຕົ້ນ</string>
+    <string name="perf_mode_custom">ກຳນົດເອງ</string>
+    <string name="perf_mode_off">ປິດ</string>
+    <string name="perf_mode_vendor_summary">ໃຊ້ຕາມຜູ້ຜະລິດ: %1$s</string>
+    <string name="perf_mode_recommended">ແນະນຳ</string>
+    <string name="perf_mode_recommended_summary">ແນະນຳ: %1$s</string>
+    <string name="perf_mode_custom_summary">ກຳນົດເອງ: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, ຂັ້ນສູງ</string>
+    <string name="perf_preset_title">ຄ່າທີ່ກຳນົດລ່ວງໜ້າ</string>
+    <string name="perf_preset_none">ບໍ່ມີ</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">ລາຍລະອຽດຄ່າລ່ວງໜ້າ</string>
+    <string name="perf_preset_thermal">ນະໂຍບາຍຄວາມຮ້ອນ %1$d</string>
+    <string name="perf_preset_cpu_max">CPU ສູງສຸດ %1$s</string>
+    <string name="perf_preset_cpu_min">CPU ຕ່ຳສຸດ %1$s</string>
+    <string name="perf_preset_fpsgo">ການຈັດຈັງຫວະເຟຣມ FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="other">%1$d ລາຍການຕັ້ງຄ່າ</item>
+    </plurals>
+    <string name="perf_category_video">ວິດີໂອ</string>
+    <string name="perf_category_camera">ກ້ອງຖ່າຍຮູບ</string>
+    <string name="perf_category_communication">ການສື່ສານ</string>
+    <string name="perf_category_music">ເພງ</string>
+    <string name="perf_category_app_clone">ແອັບໂຄລນ</string>
+    <string name="perf_category_benchmark">ການທົດສອບປະສິດທິພາບ</string>
+    <string name="perf_category_game">ເກມ</string>
+    <string name="perf_advanced_title">ພາຣາມິເຕີຂັ້ນສູງ</string>
+    <string name="perf_advanced_summary">ຕັ້ງຄ່າຂີດຈຳກັດຄວາມຖີ່ CPU ແລະ ລັອກອັດຕາການຣີເຟຣຊ ໂດຍເລີ່ມຈາກຄ່າທີ່ກຳນົດລ່ວງໜ້າ</string>
+    <string name="category_perf_cpu">ຄວາມຖີ່ CPU</string>
+    <string name="perf_cluster_little">ແກນນ້ອຍ</string>
+    <string name="perf_cluster_medium">ແກນກາງ</string>
+    <string name="perf_cluster_big">ແກນໃຫຍ່</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">ຄວາມຖີ່ຕ່ຳສຸດຂອງ %1$s</string>
+    <string name="perf_cpu_max_title">ຄວາມຖີ່ສູງສຸດຂອງ %1$s</string>
+    <string name="perf_refresh_rate_title">ລັອກອັດຕາການຣີເຟຣຊ</string>
+    <string name="perf_refresh_rate_none">ບໍ່ລັອກ</string>
+    <string name="perf_advanced_reset_title">ຣີເຊັດເປັນຄ່າລ່ວງໜ້າ</string>
+
+    <string name="tile_reading_low_refresh">ອ່ານ 30 Hz</string>
+    <string name="tile_touch_game_mode">ໂໝດເກມສຳຜັດ</string>
+    <string name="tile_smart_cover">ເຄສອັດສະລິຍະ</string>
+</resources>

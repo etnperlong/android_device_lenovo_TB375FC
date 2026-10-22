@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Eiginleikar tækis</string>
+
+    <string name="device_parts_title">Eiginleikar tækis</string>
+    <string name="device_parts_summary">Afköst, penni, snerting, Dolby Atmos og hlíf</string>
+    <string name="display_parts_title">Penni og snerting</string>
+    <string name="display_parts_summary">Endurnýjunartíðni pennans, endurnýjunartíðni í lesham, snertileikjastilling</string>
+
+    <string name="category_display_title">Endurnýjunartíðni</string>
+    <string name="category_touch_title">Snerting</string>
+    <string name="category_cover_title">Folio-hlíf</string>
+    <string name="category_audio_title">Hljóð</string>
+    <string name="category_perf_title">Afköst</string>
+
+    <string name="pen_refresh_cap_title">Takmarka við 120 Hz þegar penninn er notaður</string>
+    <string name="pen_refresh_cap_summary">Virkur penni virðist aðeins styðja allt að 120 Hz. Takmörkunin er afnumin 10 sekúndum eftir síðasta inntak með pennanum.</string>
+    <string name="reading_low_refresh_title">30 Hz í lesham</string>
+    <string name="reading_low_refresh_summary">Lækka endurnýjunartíðnina þegar kveikt er á lesham</string>
+    <string name="reading_low_refresh_unavailable">Leshamur er ekki í boði</string>
+    <string name="touch_game_mode_title">Snertileikjastilling</string>
+    <string name="touch_game_mode_summary">Leikjastilling snertistýringarinnar. Slokknar aftur eftir endurræsingu.</string>
+    <string name="touch_game_mode_unavailable">Ekki í boði</string>
+    <string name="smart_cover_title">Snjallhlíf</string>
+    <string name="smart_cover_summary">Slökkva á skjánum og læsa þegar folio-hlífinni er lokað</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Hljóðstilling, tónjafnari, talbæting og forritastillingar</string>
+    <string name="dolby_enable_title">Nota Dolby Atmos</string>
+    <string name="dolby_profile_title">Sjálfgefin stilling</string>
+    <string name="dolby_profile_dynamic">Dýnamísk</string>
+    <string name="dolby_profile_movie">Kvikmynd</string>
+    <string name="dolby_profile_music">Tónlist</string>
+    <string name="category_dolby_music_title">Tónlistarstilling</string>
+    <string name="dolby_ieq_preset_title">Hljóðbrellur</string>
+    <string name="dolby_ieq_preset_none">Engin</string>
+    <string name="dolby_ieq_preset_detailed">Nákvæm</string>
+    <string name="dolby_ieq_preset_balanced">Jafnvægi</string>
+    <string name="dolby_ieq_preset_warm">Hlý</string>
+    <string name="dolby_geq_title">Tónjafnari</string>
+    <string name="dolby_geq_summary">Stilla 10 tíðnisvið</string>
+    <string name="dolby_geq_reset_title">Endurstilla á flatan tónferil</string>
+    <string name="category_dolby_movie_title">Kvikmyndastilling</string>
+    <string name="dolby_dialogue_level_title">Talbæting</string>
+    <string name="dolby_dialogue_level_summary">Gerir tal skýrara. 0 slekkur á þessu.</string>
+    <string name="category_dolby_apps_title">Forrit</string>
+    <string name="dolby_app_profiles_enabled_title">Skipta um stillingu eftir forriti</string>
+    <string name="dolby_app_profiles_enabled_summary">Nota stillinguna sem er valin fyrir forritið þegar það spilar hljóð</string>
+    <string name="dolby_app_profiles_title">Forritastillingar</string>
+    <string name="dolby_app_profiles_summary">Velja stillingu fyrir hvert forrit. Þekkt tónlistar- og myndskeiðaforrit byrja á Tónlist og Kvikmynd.</string>
+    <string name="dolby_app_profile_default">Sjálfgefin stilling</string>
+
+    <string name="perf_title">Afkastasnið</string>
+    <string name="perf_summary">Stilla afköst og hitastefnur MediaTek Dimensity</string>
+    <string name="perf_enabled_title">Stilla afköst eftir forriti</string>
+    <string name="perf_enabled_summary">Láta MediaTek-orkuþjónustuna vita hvaða forrit er í forgrunni og nota sniðið fyrir það. Forrit með sniði frá framleiðanda eða ráðlögðu sniði nota þau sjálfgefið.</string>
+    <string name="category_perf_known_apps">Forrit með sniðum</string>
+    <string name="category_perf_other_apps">Önnur forrit</string>
+    <string name="perf_mode_title">Snið</string>
+    <string name="perf_mode_vendor">Fylgja framleiðanda</string>
+    <string name="perf_mode_default">Sjálfgefið</string>
+    <string name="perf_mode_custom">Sérsniðið</string>
+    <string name="perf_mode_off">Slökkt</string>
+    <string name="perf_mode_vendor_summary">Fylgja framleiðanda: %1$s</string>
+    <string name="perf_mode_recommended">Ráðlagt</string>
+    <string name="perf_mode_recommended_summary">Ráðlagt: %1$s</string>
+    <string name="perf_mode_custom_summary">Sérsniðið: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, ítarlegt</string>
+    <string name="perf_preset_title">Forstilling</string>
+    <string name="perf_preset_none">Engin</string>
+    <string name="perf_preset_details_title">Stillingar forstillingar</string>
+    <string name="perf_preset_thermal">Hitastefna %1$d</string>
+    <string name="perf_preset_cpu_max">Hámark CPU %1$s</string>
+    <string name="perf_preset_cpu_min">Lágmark CPU %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO-stýring rammatíðni</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d stilling</item>
+        <item quantity="other">%1$d stillingar</item>
+    </plurals>
+    <string name="perf_category_video">Myndskeið</string>
+    <string name="perf_category_camera">Myndavél</string>
+    <string name="perf_category_communication">Samskipti</string>
+    <string name="perf_category_music">Tónlist</string>
+    <string name="perf_category_app_clone">Klónuð forrit</string>
+    <string name="perf_category_benchmark">Afkastapróf</string>
+    <string name="perf_category_game">Leikur</string>
+    <string name="perf_advanced_title">Ítarlegar stillingar</string>
+    <string name="perf_advanced_summary">Stilla tíðnimörk örgjörva og læsa endurnýjunartíðninni út frá forstillingunni</string>
+    <string name="category_perf_cpu">Tíðni örgjörva</string>
+    <string name="perf_cluster_little">Litlir kjarnar</string>
+    <string name="perf_cluster_medium">Miðlungsstórir kjarnar</string>
+    <string name="perf_cluster_big">Stórir kjarnar</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: lágmarkstíðni</string>
+    <string name="perf_cpu_max_title">%1$s: hámarkstíðni</string>
+    <string name="perf_refresh_rate_title">Læsa endurnýjunartíðni</string>
+    <string name="perf_refresh_rate_none">Ólæst</string>
+    <string name="perf_advanced_reset_title">Endurstilla á forstillingu</string>
+
+    <string name="tile_reading_low_refresh">Lestur 30 Hz</string>
+    <string name="tile_touch_game_mode">Snertileikjastilling</string>
+    <string name="tile_smart_cover">Snjallhlíf</string>
+</resources>

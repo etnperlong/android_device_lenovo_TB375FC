@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Функции устройства</string>
+
+    <string name="device_parts_title">Функции устройства</string>
+    <string name="device_parts_summary">Производительность, стилус, сенсорный экран, Dolby Atmos и чехол</string>
+    <string name="display_parts_title">Стилус и сенсорный экран</string>
+    <string name="display_parts_summary">Частота обновления для стилуса и режима чтения, игровой режим сенсорного экрана</string>
+
+    <string name="category_display_title">Частота обновления</string>
+    <string name="category_touch_title">Сенсорный экран</string>
+    <string name="category_cover_title">Чехол-книжка</string>
+    <string name="category_audio_title">Звук</string>
+    <string name="category_perf_title">Производительность</string>
+
+    <string name="pen_refresh_cap_title">Ограничить частоту до 120 Гц при использовании стилуса</string>
+    <string name="pen_refresh_cap_summary">Активный стилус, по имеющимся данным, работает только на частоте до 120 Гц. Ограничение снимается через 10 секунд после последнего ввода стилусом.</string>
+    <string name="reading_low_refresh_title">30 Гц в режиме чтения</string>
+    <string name="reading_low_refresh_summary">Снижать частоту обновления при включённом режиме чтения</string>
+    <string name="reading_low_refresh_unavailable">Режим чтения недоступен</string>
+    <string name="touch_game_mode_title">Игровой режим сенсорного экрана</string>
+    <string name="touch_game_mode_summary">Игровой режим контроллера сенсорного экрана. Отключается после перезагрузки.</string>
+    <string name="touch_game_mode_unavailable">Недоступно</string>
+    <string name="smart_cover_title">Умный чехол</string>
+    <string name="smart_cover_summary">Выключать экран и блокировать устройство при закрытии чехла-книжки</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Режим звука, эквалайзер, улучшение диалогов и режимы для приложений</string>
+    <string name="dolby_enable_title">Использовать Dolby Atmos</string>
+    <string name="dolby_profile_title">Режим по умолчанию</string>
+    <string name="dolby_profile_dynamic">Динамичный</string>
+    <string name="dolby_profile_movie">Кино</string>
+    <string name="dolby_profile_music">Музыка</string>
+    <string name="category_dolby_music_title">Режим «Музыка»</string>
+    <string name="dolby_ieq_preset_title">Звуковой эффект</string>
+    <string name="dolby_ieq_preset_none">Нет</string>
+    <string name="dolby_ieq_preset_detailed">Детальный</string>
+    <string name="dolby_ieq_preset_balanced">Сбалансированный</string>
+    <string name="dolby_ieq_preset_warm">Тёплый</string>
+    <string name="dolby_geq_title">Эквалайзер</string>
+    <string name="dolby_geq_summary">Настроить 10 частотных полос</string>
+    <string name="dolby_geq_reset_title">Сбросить до ровной АЧХ</string>
+    <string name="dolby_geq_band_hz">%1$d Гц</string>
+    <string name="dolby_geq_band_khz">%1$.1f кГц</string>
+    <string name="category_dolby_movie_title">Режим «Кино»</string>
+    <string name="dolby_dialogue_level_title">Улучшение диалогов</string>
+    <string name="dolby_dialogue_level_summary">Делает речь чётче. При значении 0 функция отключена.</string>
+    <string name="category_dolby_apps_title">Приложения</string>
+    <string name="dolby_app_profiles_enabled_title">Переключать режим для каждого приложения</string>
+    <string name="dolby_app_profiles_enabled_summary">Использовать назначенный режим во время воспроизведения звука приложением</string>
+    <string name="dolby_app_profiles_title">Режимы приложений</string>
+    <string name="dolby_app_profiles_summary">Выберите режим для каждого приложения. Для популярных музыкальных и видеоприложений используются режимы «Музыка» и «Кино».</string>
+    <string name="dolby_app_profile_default">Режим по умолчанию</string>
+
+    <string name="perf_title">Профили производительности</string>
+    <string name="perf_summary">Настроить производительность MediaTek Dimensity и тепловые политики</string>
+    <string name="perf_enabled_title">Настраивать производительность для приложений</string>
+    <string name="perf_enabled_summary">Сообщать службе питания MediaTek, какое приложение открыто, и применять его профиль. Для приложений с профилем производителя или рекомендуемым профилем он используется по умолчанию.</string>
+    <string name="category_perf_known_apps">Приложения с профилями</string>
+    <string name="category_perf_other_apps">Другие приложения</string>
+    <string name="perf_mode_title">Профиль</string>
+    <string name="perf_mode_vendor">Профиль производителя</string>
+    <string name="perf_mode_default">По умолчанию</string>
+    <string name="perf_mode_custom">Настраиваемый</string>
+    <string name="perf_mode_off">Отключено</string>
+    <string name="perf_mode_vendor_summary">Профиль производителя: %1$s</string>
+    <string name="perf_mode_recommended">Рекомендуемый</string>
+    <string name="perf_mode_recommended_summary">Рекомендуемый: %1$s</string>
+    <string name="perf_mode_custom_summary">Настраиваемый: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, расширенные настройки</string>
+    <string name="perf_preset_title">Предустановка</string>
+    <string name="perf_preset_none">Нет</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Настройки предустановки</string>
+    <string name="perf_preset_thermal">Тепловая политика %1$d</string>
+    <string name="perf_preset_cpu_max">Максимальная частота CPU %1$s</string>
+    <string name="perf_preset_cpu_min">Минимальная частота CPU %1$s</string>
+    <string name="perf_preset_fpsgo">Управление частотой кадров FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d параметр</item>
+        <item quantity="few">%1$d параметра</item>
+        <item quantity="many">%1$d параметров</item>
+        <item quantity="other">%1$d параметра</item>
+    </plurals>
+    <string name="perf_category_video">Видео</string>
+    <string name="perf_category_camera">Камера</string>
+    <string name="perf_category_communication">Связь</string>
+    <string name="perf_category_music">Музыка</string>
+    <string name="perf_category_app_clone">Клонирование приложений</string>
+    <string name="perf_category_benchmark">Тест производительности</string>
+    <string name="perf_category_game">Игра</string>
+    <string name="perf_advanced_title">Дополнительные параметры</string>
+    <string name="perf_advanced_summary">Настроить ограничения частоты CPU и блокировку частоты обновления на основе предустановки</string>
+    <string name="category_perf_cpu">Частота CPU</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">Малые ядра</string>
+    <string name="perf_cluster_medium">Средние ядра</string>
+    <string name="perf_cluster_big">Большие ядра</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: минимальная частота</string>
+    <string name="perf_cpu_max_title">%1$s: максимальная частота</string>
+    <string name="perf_freq_ghz">%1$.2f ГГц</string>
+    <string name="perf_freq_mhz">%1$d МГц</string>
+    <string name="perf_refresh_rate_title">Блокировка частоты обновления</string>
+    <string name="perf_refresh_rate_none">Не блокировать</string>
+    <string name="perf_refresh_rate_hz">%1$d Гц</string>
+    <string name="perf_advanced_reset_title">Сбросить до предустановки</string>
+
+    <string name="tile_reading_low_refresh">Чтение 30 Гц</string>
+    <string name="tile_touch_game_mode">Игровой режим сенсора</string>
+    <string name="tile_smart_cover">Умный чехол</string>
+</resources>

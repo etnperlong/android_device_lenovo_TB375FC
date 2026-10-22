@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Fitur perangkat</string>
+
+    <string name="device_parts_title">Fitur perangkat</string>
+    <string name="device_parts_summary">Performa, stilus, sentuhan, Dolby Atmos, dan penutup folio</string>
+    <string name="display_parts_title">Stilus dan sentuhan</string>
+    <string name="display_parts_summary">Kecepatan refresh stilus, kecepatan refresh modus membaca, modus game sentuh</string>
+
+    <string name="category_display_title">Kecepatan refresh</string>
+    <string name="category_touch_title">Sentuhan</string>
+    <string name="category_cover_title">Penutup folio</string>
+    <string name="category_audio_title">Audio</string>
+    <string name="category_perf_title">Performa</string>
+
+    <string name="pen_refresh_cap_title">Batasi ke 120 Hz saat menggunakan stilus</string>
+    <string name="pen_refresh_cap_summary">Stilus aktif dilaporkan hanya mendukung hingga 120 Hz. Batas akan dilepas 10 detik setelah input stilus terakhir.</string>
+    <string name="reading_low_refresh_title">30 Hz dalam modus membaca</string>
+    <string name="reading_low_refresh_summary">Turunkan kecepatan refresh saat modus membaca aktif</string>
+    <string name="reading_low_refresh_unavailable">Modus membaca tidak tersedia</string>
+    <string name="touch_game_mode_title">Modus game sentuh</string>
+    <string name="touch_game_mode_summary">Modus game untuk pengontrol sentuh. Akan nonaktif lagi setelah dimulai ulang.</string>
+    <string name="touch_game_mode_unavailable">Tidak tersedia</string>
+    <string name="smart_cover_title">Penutup pintar</string>
+    <string name="smart_cover_summary">Tidurkan dan kunci perangkat saat penutup folio ditutup</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Modus suara, ekualiser, peningkat dialog, dan modus aplikasi</string>
+    <string name="dolby_enable_title">Gunakan Dolby Atmos</string>
+    <string name="dolby_profile_title">Modus default</string>
+    <string name="dolby_profile_dynamic">Dinamis</string>
+    <string name="dolby_profile_movie">Film</string>
+    <string name="dolby_profile_music">Musik</string>
+    <string name="category_dolby_music_title">Modus musik</string>
+    <string name="dolby_ieq_preset_title">Efek suara</string>
+    <string name="dolby_ieq_preset_none">Tidak ada</string>
+    <string name="dolby_ieq_preset_detailed">Detail</string>
+    <string name="dolby_ieq_preset_balanced">Seimbang</string>
+    <string name="dolby_ieq_preset_warm">Hangat</string>
+    <string name="dolby_geq_title">Ekualiser</string>
+    <string name="dolby_geq_summary">Sesuaikan 10 pita frekuensi</string>
+    <string name="dolby_geq_reset_title">Atur ulang ke datar</string>
+    <string name="dolby_geq_band_hz">%1$d Hz</string>
+    <string name="dolby_geq_band_khz">%1$.1f kHz</string>
+    <string name="category_dolby_movie_title">Modus film</string>
+    <string name="dolby_dialogue_level_title">Peningkat dialog</string>
+    <string name="dolby_dialogue_level_summary">Memperjelas ucapan. Nilai 0 menonaktifkannya.</string>
+    <string name="category_dolby_apps_title">Aplikasi</string>
+    <string name="dolby_app_profiles_enabled_title">Ganti modus berdasarkan aplikasi</string>
+    <string name="dolby_app_profiles_enabled_summary">Gunakan modus yang ditetapkan untuk aplikasi saat aplikasi memutar audio</string>
+    <string name="dolby_app_profiles_title">Modus aplikasi</string>
+    <string name="dolby_app_profiles_summary">Pilih modus untuk setiap aplikasi. Aplikasi musik dan video yang dikenal menggunakan Musik dan Film sebagai setelan awal.</string>
+    <string name="dolby_app_profile_default">Modus default</string>
+
+    <string name="perf_title">Profil performa</string>
+    <string name="perf_summary">Sesuaikan performa MediaTek Dimensity dan kebijakan termal</string>
+    <string name="perf_enabled_title">Sesuaikan performa berdasarkan aplikasi</string>
+    <string name="perf_enabled_summary">Beri tahu layanan daya MediaTek aplikasi yang sedang dibuka dan terapkan profilnya. Aplikasi dengan profil vendor atau rekomendasi menggunakannya secara default.</string>
+    <string name="category_perf_known_apps">Aplikasi dengan profil</string>
+    <string name="category_perf_other_apps">Aplikasi lainnya</string>
+    <string name="perf_mode_title">Profil</string>
+    <string name="perf_mode_vendor">Ikuti vendor</string>
+    <string name="perf_mode_default">Default</string>
+    <string name="perf_mode_custom">Kustom</string>
+    <string name="perf_mode_off">Nonaktif</string>
+    <string name="perf_mode_vendor_summary">Ikuti vendor: %1$s</string>
+    <string name="perf_mode_recommended">Direkomendasikan</string>
+    <string name="perf_mode_recommended_summary">Direkomendasikan: %1$s</string>
+    <string name="perf_mode_custom_summary">Kustom: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, lanjutan</string>
+    <string name="perf_preset_title">Preset</string>
+    <string name="perf_preset_none">Tidak ada</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Setelan preset</string>
+    <string name="perf_preset_thermal">Kebijakan termal %1$d</string>
+    <string name="perf_preset_cpu_max">Maks. CPU %1$s</string>
+    <string name="perf_preset_cpu_min">Min. CPU %1$s</string>
+    <string name="perf_preset_fpsgo">Pengaturan frame FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="other">%1$d setelan</item>
+    </plurals>
+    <string name="perf_category_video">Video</string>
+    <string name="perf_category_camera">Kamera</string>
+    <string name="perf_category_communication">Komunikasi</string>
+    <string name="perf_category_music">Musik</string>
+    <string name="perf_category_app_clone">Aplikasi kloning</string>
+    <string name="perf_category_benchmark">Tolok ukur</string>
+    <string name="perf_category_game">Game</string>
+    <string name="perf_advanced_title">Parameter lanjutan</string>
+    <string name="perf_advanced_summary">Atur batas frekuensi CPU dan kunci kecepatan refresh, mulai dari preset</string>
+    <string name="category_perf_cpu">Frekuensi CPU</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">Core kecil</string>
+    <string name="perf_cluster_medium">Core sedang</string>
+    <string name="perf_cluster_big">Core besar</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">Frekuensi minimum %1$s</string>
+    <string name="perf_cpu_max_title">Frekuensi maksimum %1$s</string>
+    <string name="perf_freq_ghz">%1$.2f GHz</string>
+    <string name="perf_freq_mhz">%1$d MHz</string>
+    <string name="perf_refresh_rate_title">Kunci kecepatan refresh</string>
+    <string name="perf_refresh_rate_none">Tidak dikunci</string>
+    <string name="perf_refresh_rate_hz">%1$d Hz</string>
+    <string name="perf_advanced_reset_title">Atur ulang ke preset</string>
+
+    <string name="tile_reading_low_refresh">Baca 30 Hz</string>
+    <string name="tile_touch_game_mode">Modus game sentuh</string>
+    <string name="tile_smart_cover">Penutup pintar</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Түзмөктүн мүмкүнчүлүктөрү</string>
+
+    <string name="device_parts_title">Түзмөктүн мүмкүнчүлүктөрү</string>
+    <string name="device_parts_summary">Өндүрүмдүүлүк, стилус, сенсор, Dolby Atmos жана каптама</string>
+    <string name="display_parts_title">Стилус жана сенсор</string>
+    <string name="display_parts_summary">Стилустун жаңылануу жыштыгы, окуу режиминин жаңылануу жыштыгы, сенсордун оюн режими</string>
+
+    <string name="category_display_title">Жаңылануу жыштыгы</string>
+    <string name="category_touch_title">Сенсор</string>
+    <string name="category_cover_title">Каптама</string>
+    <string name="category_audio_title">Аудио</string>
+    <string name="category_perf_title">Өндүрүмдүүлүк</string>
+
+    <string name="pen_refresh_cap_title">Стилус колдонулганда 120 Гц менен чектөө</string>
+    <string name="pen_refresh_cap_summary">Активдүү стилус 120 Гц чейин гана иштейт деп билдирилген. Стилус менен акыркы аракеттен 10 секунд өткөндө чектөө алынат.</string>
+    <string name="reading_low_refresh_title">Окуу режиминде 30 Гц</string>
+    <string name="reading_low_refresh_summary">Окуу режими күйүп турганда жаңылануу жыштыгын азайтуу</string>
+    <string name="reading_low_refresh_unavailable">Окуу режими жеткиликсиз</string>
+    <string name="touch_game_mode_title">Сенсордун оюн режими</string>
+    <string name="touch_game_mode_summary">Сенсор контроллеринин оюн режими. Кайра иштеткенден кийин кайра өчөт.</string>
+    <string name="touch_game_mode_unavailable">Жеткиликсиз</string>
+    <string name="smart_cover_title">Акылдуу каптама</string>
+    <string name="smart_cover_summary">Каптаманы жапканда экранды өчүрүп, кулпулоо</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Үн режими, эквалайзер, сүйлөөнү жакшыртуу жана колдонмо режимдери</string>
+    <string name="dolby_enable_title">Dolby Atmos колдонуу</string>
+    <string name="dolby_profile_title">Демейки режим</string>
+    <string name="dolby_profile_dynamic">Динамикалык</string>
+    <string name="dolby_profile_movie">Кино</string>
+    <string name="dolby_profile_music">Музыка</string>
+    <string name="category_dolby_music_title">Музыка режими</string>
+    <string name="dolby_ieq_preset_title">Үн эффекти</string>
+    <string name="dolby_ieq_preset_none">Жок</string>
+    <string name="dolby_ieq_preset_detailed">Толук</string>
+    <string name="dolby_ieq_preset_balanced">Тең салмактуу</string>
+    <string name="dolby_ieq_preset_warm">Жылуу</string>
+    <string name="dolby_geq_title">Эквалайзер</string>
+    <string name="dolby_geq_summary">10 жыштык тилкесин тууралоо</string>
+    <string name="dolby_geq_reset_title">Тегиз абалга кайтаруу</string>
+    <string name="dolby_geq_band_hz">%1$d Гц</string>
+    <string name="dolby_geq_band_khz">%1$.1f кГц</string>
+    <string name="category_dolby_movie_title">Кино режими</string>
+    <string name="dolby_dialogue_level_title">Сүйлөөнү жакшыртуу</string>
+    <string name="dolby_dialogue_level_summary">Сүйлөөнү даанараак кылат. 0 болсо өчүрүлөт.</string>
+    <string name="category_dolby_apps_title">Колдонмолор</string>
+    <string name="dolby_app_profiles_enabled_title">Режимди колдонмого жараша которуу</string>
+    <string name="dolby_app_profiles_enabled_summary">Колдонмо аудио ойнотуп жатканда, ага коюлган режимди колдонуу</string>
+    <string name="dolby_app_profiles_title">Колдонмо режимдери</string>
+    <string name="dolby_app_profiles_summary">Ар бир колдонмого режим тандаңыз. Музыка жана видео колдонмолору демейкиде Музыка жана Кино режимдерин колдонот.</string>
+    <string name="dolby_app_profile_default">Демейки режим</string>
+
+    <string name="perf_title">Өндүрүмдүүлүк профилдери</string>
+    <string name="perf_summary">MediaTek Dimensity өндүрүмдүүлүгүн жана температура саясатын жөндөө</string>
+    <string name="perf_enabled_title">Өндүрүмдүүлүктү колдонмого жараша жөндөө</string>
+    <string name="perf_enabled_summary">MediaTek кубат кызматына алдыңкы колдонмону билдирип, анын профилин колдонуу. Өндүрүүчү же сунушталган профилдери бар колдонмолор аларды демейкиде колдонот.</string>
+    <string name="category_perf_known_apps">Профилдери бар колдонмолор</string>
+    <string name="category_perf_other_apps">Башка колдонмолор</string>
+    <string name="perf_mode_title">Профиль</string>
+    <string name="perf_mode_vendor">Өндүрүүчү боюнча</string>
+    <string name="perf_mode_default">Демейки</string>
+    <string name="perf_mode_custom">Ыңгайлаштырылган</string>
+    <string name="perf_mode_off">Өчүк</string>
+    <string name="perf_mode_vendor_summary">Өндүрүүчү боюнча: %1$s</string>
+    <string name="perf_mode_recommended">Сунушталган</string>
+    <string name="perf_mode_recommended_summary">Сунушталган: %1$s</string>
+    <string name="perf_mode_custom_summary">Ыңгайлаштырылган: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, өркүндөтүлгөн</string>
+    <string name="perf_preset_title">Алдын ала жөндөө</string>
+    <string name="perf_preset_none">Жок</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Алдын ала жөндөөнүн параметрлери</string>
+    <string name="perf_preset_thermal">Температура саясаты %1$d</string>
+    <string name="perf_preset_cpu_max">CPU макс. %1$s</string>
+    <string name="perf_preset_cpu_min">CPU мин. %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO кадр ыргагын башкаруу</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d жөндөө</item>
+        <item quantity="other">%1$d жөндөө</item>
+    </plurals>
+    <string name="perf_category_video">Видео</string>
+    <string name="perf_category_camera">Камера</string>
+    <string name="perf_category_communication">Байланыш</string>
+    <string name="perf_category_music">Музыка</string>
+    <string name="perf_category_app_clone">Колдонмо клону</string>
+    <string name="perf_category_benchmark">Өндүрүмдүүлүк сынагы</string>
+    <string name="perf_category_game">Оюн</string>
+    <string name="perf_advanced_title">Өркүндөтүлгөн параметрлер</string>
+    <string name="perf_advanced_summary">Алдын ала жөндөөнүн негизинде CPU жыштыгынын чектерин өзгөртүп, экран жаңылануусун кулпулоо</string>
+    <string name="category_perf_cpu">CPU жыштыгы</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">Аз кубаттуу өзөктөр</string>
+    <string name="perf_cluster_medium">Орточо кубаттуу өзөктөр</string>
+    <string name="perf_cluster_big">Күчтүү өзөктөр</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: эң төмөнкү жыштык</string>
+    <string name="perf_cpu_max_title">%1$s: эң жогорку жыштык</string>
+    <string name="perf_freq_ghz">%1$.2f ГГц</string>
+    <string name="perf_freq_mhz">%1$d МГц</string>
+    <string name="perf_refresh_rate_title">Жаңылануу жыштыгын кулпулоо</string>
+    <string name="perf_refresh_rate_none">Кулпуланган эмес</string>
+    <string name="perf_refresh_rate_hz">%1$d Гц</string>
+    <string name="perf_advanced_reset_title">Алдын ала жөндөөгө кайтаруу</string>
+
+    <string name="tile_reading_low_refresh">Окуу 30 Гц</string>
+    <string name="tile_touch_game_mode">Сенсордун оюн режими</string>
+    <string name="tile_smart_cover">Акылдуу каптама</string>
+</resources>

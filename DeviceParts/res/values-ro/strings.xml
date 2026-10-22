@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Funcții ale dispozitivului</string>
+
+    <string name="device_parts_title">Funcții ale dispozitivului</string>
+    <string name="device_parts_summary">Performanță, creion, atingere, Dolby Atmos și husă cu clapetă</string>
+    <string name="display_parts_title">Creion și atingere</string>
+    <string name="display_parts_summary">Rata de actualizare pentru creion, rata de actualizare în modul de lectură, modul de joc tactil</string>
+
+    <string name="category_display_title">Rata de actualizare</string>
+    <string name="category_touch_title">Atingere</string>
+    <string name="category_cover_title">Husă cu clapetă</string>
+    <string name="category_audio_title">Sunet</string>
+    <string name="category_perf_title">Performanță</string>
+
+    <string name="pen_refresh_cap_title">Limitare la 120 Hz când folosești creionul</string>
+    <string name="pen_refresh_cap_summary">Creionul activ funcționează doar până la 120 Hz. Limita este eliminată la 10 secunde după ultima utilizare a creionului.</string>
+    <string name="reading_low_refresh_title">30 Hz în modul de lectură</string>
+    <string name="reading_low_refresh_summary">Reduce rata de actualizare când este activat modul de lectură</string>
+    <string name="reading_low_refresh_unavailable">Modul de lectură nu este disponibil</string>
+    <string name="touch_game_mode_title">Mod de joc tactil</string>
+    <string name="touch_game_mode_summary">Modul de joc al controlerului tactil. Se dezactivează din nou după repornire.</string>
+    <string name="touch_game_mode_unavailable">Indisponibil</string>
+    <string name="smart_cover_title">Husă inteligentă</string>
+    <string name="smart_cover_summary">Stinge ecranul și blochează dispozitivul când husa cu clapetă este închisă</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Mod de sunet, egalizator, amplificator de dialog și moduri pentru aplicații</string>
+    <string name="dolby_enable_title">Folosește Dolby Atmos</string>
+    <string name="dolby_profile_title">Mod prestabilit</string>
+    <string name="dolby_profile_dynamic">Dinamic</string>
+    <string name="dolby_profile_movie">Film</string>
+    <string name="dolby_profile_music">Muzică</string>
+    <string name="category_dolby_music_title">Mod Muzică</string>
+    <string name="dolby_ieq_preset_title">Efect sonor</string>
+    <string name="dolby_ieq_preset_none">Niciunul</string>
+    <string name="dolby_ieq_preset_detailed">Detaliat</string>
+    <string name="dolby_ieq_preset_balanced">Echilibrat</string>
+    <string name="dolby_ieq_preset_warm">Cald</string>
+    <string name="dolby_geq_title">Egalizator</string>
+    <string name="dolby_geq_summary">Ajustează 10 benzi de frecvență</string>
+    <string name="dolby_geq_reset_title">Resetează la plat</string>
+    <string name="category_dolby_movie_title">Mod Film</string>
+    <string name="dolby_dialogue_level_title">Amplificator de dialog</string>
+    <string name="dolby_dialogue_level_summary">Face vorbirea mai clară. 0 îl dezactivează.</string>
+    <string name="category_dolby_apps_title">Aplicații</string>
+    <string name="dolby_app_profiles_enabled_title">Schimbă modul în funcție de aplicație</string>
+    <string name="dolby_app_profiles_enabled_summary">Folosește modul ales pentru aplicație în timp ce aceasta redă sunet</string>
+    <string name="dolby_app_profiles_title">Moduri pentru aplicații</string>
+    <string name="dolby_app_profiles_summary">Alege modul pentru fiecare aplicație. Aplicațiile cunoscute de muzică și video folosesc inițial modurile Muzică și Film.</string>
+    <string name="dolby_app_profile_default">Mod prestabilit</string>
+
+    <string name="perf_title">Profiluri de performanță</string>
+    <string name="perf_summary">Ajustează performanța MediaTek Dimensity și politicile termice</string>
+    <string name="perf_enabled_title">Ajustează performanța în funcție de aplicație</string>
+    <string name="perf_enabled_summary">Informează serviciul de alimentare MediaTek ce aplicație este în prim-plan și aplică profilul acesteia. Aplicațiile cu profiluri de la producător sau recomandate le folosesc implicit.</string>
+    <string name="category_perf_known_apps">Aplicații cu profiluri</string>
+    <string name="category_perf_other_apps">Alte aplicații</string>
+    <string name="perf_mode_title">Profil</string>
+    <string name="perf_mode_vendor">Urmează producătorul</string>
+    <string name="perf_mode_default">Prestabilit</string>
+    <string name="perf_mode_custom">Personalizat</string>
+    <string name="perf_mode_off">Dezactivat</string>
+    <string name="perf_mode_vendor_summary">Urmează producătorul: %1$s</string>
+    <string name="perf_mode_recommended">Recomandat</string>
+    <string name="perf_mode_recommended_summary">Recomandat: %1$s</string>
+    <string name="perf_mode_custom_summary">Personalizat: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, avansat</string>
+    <string name="perf_preset_title">Presetare</string>
+    <string name="perf_preset_none">Niciuna</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Setări de presetare</string>
+    <string name="perf_preset_thermal">Politica termică %1$d</string>
+    <string name="perf_preset_cpu_max">CPU maxim %1$s</string>
+    <string name="perf_preset_cpu_min">CPU minim %1$s</string>
+    <string name="perf_preset_fpsgo">Controlul ritmului cadrelor FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d setare</item>
+        <item quantity="few">%1$d setări</item>
+        <item quantity="other">%1$d de setări</item>
+    </plurals>
+    <string name="perf_category_video">Video</string>
+    <string name="perf_category_camera">Cameră</string>
+    <string name="perf_category_communication">Comunicare</string>
+    <string name="perf_category_music">Muzică</string>
+    <string name="perf_category_app_clone">Aplicație clonată</string>
+    <string name="perf_category_benchmark">Test de performanță</string>
+    <string name="perf_category_game">Joc</string>
+    <string name="perf_advanced_title">Parametri avansați</string>
+    <string name="perf_advanced_summary">Setează limitele de frecvență CPU și blochează rata de actualizare, pornind de la presetare</string>
+    <string name="category_perf_cpu">Frecvență CPU</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">Nuclee mici</string>
+    <string name="perf_cluster_medium">Nuclee medii</string>
+    <string name="perf_cluster_big">Nuclee mari</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">Frecvența minimă pentru %1$s</string>
+    <string name="perf_cpu_max_title">Frecvența maximă pentru %1$s</string>
+    <string name="perf_refresh_rate_title">Blocarea ratei de actualizare</string>
+    <string name="perf_refresh_rate_none">Fără blocare</string>
+    <string name="perf_advanced_reset_title">Resetează la presetare</string>
+
+    <string name="tile_reading_low_refresh">Lectură 30 Hz</string>
+    <string name="tile_touch_game_mode">Mod de joc tactil</string>
+    <string name="tile_smart_cover">Husă inteligentă</string>
+</resources>

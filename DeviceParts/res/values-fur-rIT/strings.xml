@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Funzions dal dispositîf</string>
+
+    <string name="device_parts_title">Funzions dal dispositîf</string>
+    <string name="device_parts_summary">Prestazions, pene, toc, Dolby Atmos e custodie a libre</string>
+    <string name="display_parts_title">Pene e toc</string>
+    <string name="display_parts_summary">Frecuence di inzornament de pene, frecuence di inzornament de modalitât leture, modalitât zûc dal toc</string>
+
+    <string name="category_display_title">Frecuence di inzornament</string>
+    <string name="category_touch_title">Toc</string>
+    <string name="category_cover_title">Custodie a libre</string>
+    <string name="category_audio_title">Audio</string>
+    <string name="category_perf_title">Prestazions</string>
+
+    <string name="pen_refresh_cap_title">Limitâ a 120 Hz cuant che si dopre la pene</string>
+    <string name="pen_refresh_cap_summary">La pene ative e funzione dome fin a 120 Hz. Il limit al ven gjavât 10 seconts dopo l’ultin toc de pene.</string>
+    <string name="reading_low_refresh_title">30 Hz in modalitât leture</string>
+    <string name="reading_low_refresh_summary">Sbasse la frecuence di inzornament cuant che la modalitât leture e je ativade</string>
+    <string name="reading_low_refresh_unavailable">La modalitât leture no je disponibile</string>
+    <string name="touch_game_mode_title">Modalitât zûc dal toc</string>
+    <string name="touch_game_mode_summary">Modalitât zûc dal controladôr dal toc. Si distude di gnûf dopo un riavie.</string>
+    <string name="touch_game_mode_unavailable">No disponibile</string>
+    <string name="smart_cover_title">Custodie inteligjente</string>
+    <string name="smart_cover_summary">Met in sospension e bloche cuant che la custodie a libre e je sierade</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Modalitât sonore, ecualizadôr, mioradôr dai dialogos e modalitâts des apps</string>
+    <string name="dolby_enable_title">Dopre Dolby Atmos</string>
+    <string name="dolby_profile_title">Modalitât predefinide</string>
+    <string name="dolby_profile_dynamic">Dinamic</string>
+    <string name="dolby_profile_movie">Film</string>
+    <string name="dolby_profile_music">Musiche</string>
+    <string name="category_dolby_music_title">Modalitât musiche</string>
+    <string name="dolby_ieq_preset_title">Efeet sonore</string>
+    <string name="dolby_ieq_preset_none">Nissun</string>
+    <string name="dolby_ieq_preset_detailed">Detaiât</string>
+    <string name="dolby_ieq_preset_balanced">Bilançât</string>
+    <string name="dolby_ieq_preset_warm">Cialt</string>
+    <string name="dolby_geq_title">Ecualizadôr</string>
+    <string name="dolby_geq_summary">Regule 10 bande di frecuence</string>
+    <string name="dolby_geq_reset_title">Ripristine plat</string>
+    <string name="category_dolby_movie_title">Modalitât film</string>
+    <string name="dolby_dialogue_level_title">Mioradôr dai dialogos</string>
+    <string name="dolby_dialogue_level_summary">Al fâs plui clare la vôs. 0 lu distude.</string>
+    <string name="category_dolby_apps_title">Apps</string>
+    <string name="dolby_app_profiles_enabled_title">Cambie modalitât par app</string>
+    <string name="dolby_app_profiles_enabled_summary">Cuant che une app e riprodûs audio, dopre la modalitât stabilide par jê</string>
+    <string name="dolby_app_profiles_title">Modalitâts des apps</string>
+    <string name="dolby_app_profiles_summary">Sielzi la modalitât par ogni app. Lis apps cognossudis di musiche e video a partissin cun Musiche e Film.</string>
+    <string name="dolby_app_profile_default">Modalitât predefinide</string>
+
+    <string name="perf_title">Profîi di prestazions</string>
+    <string name="perf_summary">Regule lis prestazions di MediaTek Dimensity e lis politichis termichis</string>
+    <string name="perf_enabled_title">Regule lis prestazions par app</string>
+    <string name="perf_enabled_summary">Dî al servizi di alimentazion MediaTek cuale app e je in prin plan e aplicâ il so profîl. Lis apps cun profîi dal produtôr o conseâts ju doprin in maniere predefinide.</string>
+    <string name="category_perf_known_apps">Apps cun profîi</string>
+    <string name="category_perf_other_apps">Altris apps</string>
+    <string name="perf_mode_title">Profîl</string>
+    <string name="perf_mode_vendor">Segui il produtôr</string>
+    <string name="perf_mode_default">Predefinît</string>
+    <string name="perf_mode_custom">Personalizât</string>
+    <string name="perf_mode_off">Disativât</string>
+    <string name="perf_mode_vendor_summary">Segui il produtôr: %1$s</string>
+    <string name="perf_mode_recommended">Conseât</string>
+    <string name="perf_mode_recommended_summary">Conseât: %1$s</string>
+    <string name="perf_mode_custom_summary">Personalizât: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, avanzât</string>
+    <string name="perf_preset_title">Preset</string>
+    <string name="perf_preset_none">Nissun</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Impostazions dal preset</string>
+    <string name="perf_preset_thermal">Politiche termiche %1$d</string>
+    <string name="perf_preset_cpu_max">CPU massime %1$s</string>
+    <string name="perf_preset_cpu_min">CPU minime %1$s</string>
+    <string name="perf_preset_fpsgo">Control dal ritmi dai fotograms FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d impostazion</item>
+        <item quantity="other">%1$d impostazions</item>
+    </plurals>
+    <string name="perf_category_video">Video</string>
+    <string name="perf_category_camera">Fotocjamare</string>
+    <string name="perf_category_communication">Comunicazion</string>
+    <string name="perf_category_music">Musiche</string>
+    <string name="perf_category_app_clone">App clonade</string>
+    <string name="perf_category_benchmark">Test di prestazion</string>
+    <string name="perf_category_game">Zûc</string>
+    <string name="perf_advanced_title">Parametris avanzâts</string>
+    <string name="perf_advanced_summary">Stabilìs i limits de frecuence CPU e bloce la frecuence di inzornament, partint dal preset</string>
+    <string name="category_perf_cpu">Frecuence CPU</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">Core piçui</string>
+    <string name="perf_cluster_medium">Core medîs</string>
+    <string name="perf_cluster_big">Core grancj</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">Frecuence minime di %1$s</string>
+    <string name="perf_cpu_max_title">Frecuence massime di %1$s</string>
+    <string name="perf_refresh_rate_title">Blocâ la frecuence di inzornament</string>
+    <string name="perf_refresh_rate_none">No blocade</string>
+    <string name="perf_advanced_reset_title">Ripristine al preset</string>
+
+    <string name="tile_reading_low_refresh">Leture 30 Hz</string>
+    <string name="tile_touch_game_mode">Modalitât zûc dal toc</string>
+    <string name="tile_smart_cover">Custodie inteligjente</string>
+</resources>

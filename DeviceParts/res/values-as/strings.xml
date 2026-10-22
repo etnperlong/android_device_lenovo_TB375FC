@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">ডিভাইচৰ সুবিধাসমূহ</string>
+
+    <string name="device_parts_title">ডিভাইচৰ সুবিধাসমূহ</string>
+    <string name="device_parts_summary">পাৰফৰ্মেন্স, ষ্টাইলাছ, স্পৰ্শ, Dolby Atmos আৰু ফ’লিঅ’ ক’ভাৰ</string>
+    <string name="display_parts_title">ষ্টাইলাছ আৰু স্পৰ্শ</string>
+    <string name="display_parts_summary">ষ্টাইলাছৰ ৰিফ্ৰেছৰ হাৰ, ৰিডিং মোডৰ ৰিফ্ৰেছৰ হাৰ, স্পৰ্শ গেম মোড</string>
+
+    <string name="category_display_title">ৰিফ্ৰেছৰ হাৰ</string>
+    <string name="category_touch_title">স্পৰ্শ</string>
+    <string name="category_cover_title">ফ’লিঅ’ ক’ভাৰ</string>
+    <string name="category_audio_title">অডিঅ’</string>
+    <string name="category_perf_title">কাৰ্যক্ষমতা</string>
+
+    <string name="pen_refresh_cap_title">ষ্টাইলাছ ব্যৱহাৰ কৰাৰ সময়ত 120 Hz-লৈ সীমিত কৰক</string>
+    <string name="pen_refresh_cap_summary">সক্ৰিয় ষ্টাইলাছটোৱে কেৱল 120 Hz-লৈকেহে কাম কৰে। ষ্টাইলাছৰ জৰিয়তে শেষৰ ইনপুটৰ 10 ছেকেণ্ড পিছত সীমাটো আঁতৰোৱা হয়।</string>
+    <string name="reading_low_refresh_title">ৰিডিং মোডত 30 Hz</string>
+    <string name="reading_low_refresh_summary">ৰিডিং মোড অন থাকিলে ৰিফ্ৰেছৰ হাৰ কমাওক</string>
+    <string name="reading_low_refresh_unavailable">ৰিডিং মোড উপলব্ধ নহয়</string>
+    <string name="touch_game_mode_title">স্পৰ্শ গেম মোড</string>
+    <string name="touch_game_mode_summary">স্পৰ্শ নিয়ন্ত্ৰকৰ গেম মোড। পুনৰাৰম্ভ কৰাৰ পিছত পুনৰ অফ হয়।</string>
+    <string name="touch_game_mode_unavailable">উপলব্ধ নহয়</string>
+    <string name="smart_cover_title">স্মাৰ্ট ক’ভাৰ</string>
+    <string name="smart_cover_summary">ফ’লিঅ’ ক’ভাৰ বন্ধ কৰিলে শ্লীপ আৰু লক কৰক</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">ছাউণ্ড মোড, ইকুৱেলাইজাৰ, ডায়লগ এনহান্সাৰ আৰু এপৰ মোড</string>
+    <string name="dolby_enable_title">Dolby Atmos ব্যৱহাৰ কৰক</string>
+    <string name="dolby_profile_title">ডিফ’ল্ট মোড</string>
+    <string name="dolby_profile_dynamic">ডাইনেমিক</string>
+    <string name="dolby_profile_movie">চিনেমা</string>
+    <string name="dolby_profile_music">সংগীত</string>
+    <string name="category_dolby_music_title">সংগীতৰ মোড</string>
+    <string name="dolby_ieq_preset_title">ছাউণ্ড ইফেক্ট</string>
+    <string name="dolby_ieq_preset_none">একো নাই</string>
+    <string name="dolby_ieq_preset_detailed">বিশদ</string>
+    <string name="dolby_ieq_preset_balanced">সন্তুলিত</string>
+    <string name="dolby_ieq_preset_warm">ৱাৰ্ম</string>
+    <string name="dolby_geq_title">ইকুৱেলাইজাৰ</string>
+    <string name="dolby_geq_summary">10টা ফ্ৰিকুৱেন্সি বেণ্ড মিলাওক</string>
+    <string name="dolby_geq_reset_title">ফ্লেটলৈ ৰিছেট কৰক</string>
+    <string name="category_dolby_movie_title">চিনেমাৰ মোড</string>
+    <string name="dolby_dialogue_level_title">ডায়লগ এনহান্সাৰ</string>
+    <string name="dolby_dialogue_level_summary">কথা অধিক স্পষ্টকৈ শুনিবলৈ দিয়ে। 0-এ ইয়াক অফ কৰে।</string>
+    <string name="category_dolby_apps_title">এপসমূহ</string>
+    <string name="dolby_app_profiles_enabled_title">এপ অনুসৰি মোড সলনি কৰক</string>
+    <string name="dolby_app_profiles_enabled_summary">এটা এপে অডিঅ’ চলাওঁতে ইয়াৰ বাবে নিৰ্ধাৰিত মোড ব্যৱহাৰ কৰক</string>
+    <string name="dolby_app_profiles_title">এপৰ মোডসমূহ</string>
+    <string name="dolby_app_profiles_summary">প্ৰতিটো এপৰ বাবে মোড বাছনি কৰক। চিনাক্ত কৰা সংগীত আৰু ভিডিঅ’ এপসমূহ সংগীত আৰু চিনেমাৰ মোডেৰে আৰম্ভ হয়।</string>
+    <string name="dolby_app_profile_default">ডিফ’ল্ট মোড</string>
+
+    <string name="perf_title">কাৰ্যক্ষমতাৰ প্ৰ’ফাইল</string>
+    <string name="perf_summary">MediaTek Dimensity-ৰ কাৰ্যক্ষমতা আৰু তাপীয় নীতি মিলাওক</string>
+    <string name="perf_enabled_title">এপ অনুসৰি কাৰ্যক্ষমতা মিলাওক</string>
+    <string name="perf_enabled_summary">কোনটো এপ সন্মুখত আছে MediaTek পাৱাৰ ছাৰ্ভিচক জনাই তাৰ প্ৰ’ফাইল প্ৰয়োগ কৰক। বিক্ৰেতা বা পৰামৰ্শ দিয়া প্ৰ’ফাইল থকা এপসমূহে ডিফ’ল্টভাৱে সেইবোৰ ব্যৱহাৰ কৰে।</string>
+    <string name="category_perf_known_apps">প্ৰ’ফাইল থকা এপসমূহ</string>
+    <string name="category_perf_other_apps">অন্যান্য এপসমূহ</string>
+    <string name="perf_mode_title">প্ৰ’ফাইল</string>
+    <string name="perf_mode_vendor">বিক্ৰেতাৰ অনুসৰি চলক</string>
+    <string name="perf_mode_default">ডিফ’ল্ট</string>
+    <string name="perf_mode_custom">কাষ্টম</string>
+    <string name="perf_mode_off">অফ</string>
+    <string name="perf_mode_vendor_summary">বিক্ৰেতাৰ অনুসৰি চলক: %1$s</string>
+    <string name="perf_mode_recommended">পৰামৰ্শ দিয়া</string>
+    <string name="perf_mode_recommended_summary">পৰামৰ্শ দিয়া: %1$s</string>
+    <string name="perf_mode_custom_summary">কাষ্টম: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, উন্নত</string>
+    <string name="perf_preset_title">প্ৰিছেট</string>
+    <string name="perf_preset_none">একো নাই</string>
+    <string name="perf_preset_details_title">প্ৰিছেটৰ ছেটিংসমূহ</string>
+    <string name="perf_preset_thermal">তাপীয় নীতি %1$d</string>
+    <string name="perf_preset_cpu_max">CPU সৰ্বাধিক %1$s</string>
+    <string name="perf_preset_cpu_min">CPU সৰ্বনিম্ন %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO ফ্ৰেম পেচিং</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$dটা ছেটিং</item>
+        <item quantity="other">%1$dটা ছেটিং</item>
+    </plurals>
+    <string name="perf_category_video">ভিডিঅ’</string>
+    <string name="perf_category_camera">কেমেৰা</string>
+    <string name="perf_category_communication">যোগাযোগ</string>
+    <string name="perf_category_music">সংগীত</string>
+    <string name="perf_category_app_clone">ক্ল’ন কৰা এপ</string>
+    <string name="perf_category_benchmark">বেঞ্চমাৰ্ক</string>
+    <string name="perf_category_game">গেম</string>
+    <string name="perf_advanced_title">উন্নত প্ৰাচলসমূহ</string>
+    <string name="perf_advanced_summary">প্ৰিছেটৰ পৰা CPU ফ্ৰিকুৱেন্সিৰ সীমা ছেট কৰক আৰু ৰিফ্ৰেছৰ হাৰ লক কৰক</string>
+    <string name="category_perf_cpu">CPU ফ্ৰিকুৱেন্সি</string>
+    <string name="perf_cluster_little">কম শক্তিৰ ক’ৰ</string>
+    <string name="perf_cluster_medium">মধ্যম ক’ৰ</string>
+    <string name="perf_cluster_big">বেছি শক্তিৰ ক’ৰ</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: সৰ্বনিম্ন</string>
+    <string name="perf_cpu_max_title">%1$s: সৰ্বাধিক</string>
+    <string name="perf_refresh_rate_title">ৰিফ্ৰেছৰ হাৰ লক</string>
+    <string name="perf_refresh_rate_none">লক কৰা হোৱা নাই</string>
+    <string name="perf_advanced_reset_title">প্ৰিছেটলৈ ৰিছেট কৰক</string>
+
+    <string name="tile_reading_low_refresh">ৰিডিং 30 Hz</string>
+    <string name="tile_touch_game_mode">স্পৰ্শ গেম মোড</string>
+    <string name="tile_smart_cover">স্মাৰ্ট ক’ভাৰ</string>
+</resources>

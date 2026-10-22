@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">תכונות המכשיר</string>
+
+    <string name="device_parts_title">תכונות המכשיר</string>
+    <string name="device_parts_summary">ביצועים, סטיילוס, מגע, Dolby Atmos וכיסוי מתקפל</string>
+    <string name="display_parts_title">סטיילוס ומגע</string>
+    <string name="display_parts_summary">קצב רענון הסטיילוס, קצב רענון במצב קריאה ומצב משחק במגע</string>
+
+    <string name="category_display_title">קצב רענון</string>
+    <string name="category_touch_title">מגע</string>
+    <string name="category_cover_title">כיסוי מתקפל</string>
+    <string name="category_audio_title">אודיו</string>
+    <string name="category_perf_title">ביצועים</string>
+
+    <string name="pen_refresh_cap_title">הגבלת קצב הרענון ל־120 Hz בזמן שימוש בסטיילוס</string>
+    <string name="pen_refresh_cap_summary">לפי הדיווחים, סטיילוס פעיל פועל בקצב של עד 120 Hz בלבד. ההגבלה מוסרת 10 שניות לאחר השימוש האחרון בסטיילוס.</string>
+    <string name="reading_low_refresh_title">30 Hz במצב קריאה</string>
+    <string name="reading_low_refresh_summary">הפחתת קצב הרענון כשמצב הקריאה מופעל</string>
+    <string name="reading_low_refresh_unavailable">מצב הקריאה לא זמין</string>
+    <string name="touch_game_mode_title">מצב משחק במגע</string>
+    <string name="touch_game_mode_summary">מצב משחק של בקר המגע. מושבת שוב אחרי הפעלה מחדש.</string>
+    <string name="touch_game_mode_unavailable">לא זמין</string>
+    <string name="smart_cover_title">כיסוי חכם</string>
+    <string name="smart_cover_summary">כיבוי ונעילה כשהכיסוי המתקפל נסגר</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">מצב צליל, אקולייזר, שיפור דיאלוג ומצבים לאפליקציות</string>
+    <string name="dolby_enable_title">שימוש ב־Dolby Atmos</string>
+    <string name="dolby_profile_title">מצב ברירת מחדל</string>
+    <string name="dolby_profile_dynamic">דינמי</string>
+    <string name="dolby_profile_movie">סרט</string>
+    <string name="dolby_profile_music">מוזיקה</string>
+    <string name="category_dolby_music_title">מצב מוזיקה</string>
+    <string name="dolby_ieq_preset_title">אפקט קול</string>
+    <string name="dolby_ieq_preset_none">ללא</string>
+    <string name="dolby_ieq_preset_detailed">מפורט</string>
+    <string name="dolby_ieq_preset_balanced">מאוזן</string>
+    <string name="dolby_ieq_preset_warm">חם</string>
+    <string name="dolby_geq_title">אקולייזר</string>
+    <string name="dolby_geq_summary">כוונון 10 תדרים</string>
+    <string name="dolby_geq_reset_title">איפוס לקו שטוח</string>
+    <string name="dolby_geq_band_hz">%1$d Hz</string>
+    <string name="dolby_geq_band_khz">%1$.1f kHz</string>
+    <string name="category_dolby_movie_title">מצב סרט</string>
+    <string name="dolby_dialogue_level_title">שיפור דיאלוג</string>
+    <string name="dolby_dialogue_level_summary">משפר את בהירות הדיבור. הערך 0 מכבה את האפשרות.</string>
+    <string name="category_dolby_apps_title">אפליקציות</string>
+    <string name="dolby_app_profiles_enabled_title">החלפת מצב לפי אפליקציה</string>
+    <string name="dolby_app_profiles_enabled_summary">בזמן שאפליקציה מנגנת אודיו, להשתמש במצב שהוגדר עבורה</string>
+    <string name="dolby_app_profiles_title">מצבים לאפליקציות</string>
+    <string name="dolby_app_profiles_summary">בחירת מצב לכל אפליקציה. אפליקציות מוזיקה ווידאו מוכרות מתחילות במצב מוזיקה וסרט.</string>
+    <string name="dolby_app_profile_default">מצב ברירת מחדל</string>
+
+    <string name="perf_title">פרופילי ביצועים</string>
+    <string name="perf_summary">כוונון הביצועים ומדיניות החום של MediaTek Dimensity</string>
+    <string name="perf_enabled_title">התאמת הביצועים לפי אפליקציה</string>
+    <string name="perf_enabled_summary">דיווח לשירות ההספק של MediaTek איזו אפליקציה בחזית והחלת הפרופיל שלה. אפליקציות עם פרופיל יצרן או פרופיל מומלץ משתמשות בו כברירת מחדל.</string>
+    <string name="category_perf_known_apps">אפליקציות עם פרופילים</string>
+    <string name="category_perf_other_apps">אפליקציות אחרות</string>
+    <string name="perf_mode_title">פרופיל</string>
+    <string name="perf_mode_vendor">לפי היצרן</string>
+    <string name="perf_mode_default">ברירת מחדל</string>
+    <string name="perf_mode_custom">מותאם אישית</string>
+    <string name="perf_mode_off">כבוי</string>
+    <string name="perf_mode_vendor_summary">לפי היצרן: %1$s</string>
+    <string name="perf_mode_recommended">מומלץ</string>
+    <string name="perf_mode_recommended_summary">מומלץ: %1$s</string>
+    <string name="perf_mode_custom_summary">מותאם אישית: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, מתקדם</string>
+    <string name="perf_preset_title">הגדרה קבועה מראש</string>
+    <string name="perf_preset_none">ללא</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">הגדרות קבועות מראש</string>
+    <string name="perf_preset_thermal">מדיניות חום %1$d</string>
+    <string name="perf_preset_cpu_max">מקסימום CPU‏ %1$s</string>
+    <string name="perf_preset_cpu_min">מינימום CPU‏ %1$s</string>
+    <string name="perf_preset_fpsgo">תזמון פריימים של FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">הגדרה אחת (%1$d)</item>
+        <item quantity="two">%1$d הגדרות</item>
+        <item quantity="other">%1$d הגדרות</item>
+    </plurals>
+    <string name="perf_category_video">וידאו</string>
+    <string name="perf_category_camera">מצלמה</string>
+    <string name="perf_category_communication">תקשורת</string>
+    <string name="perf_category_music">מוזיקה</string>
+    <string name="perf_category_app_clone">שכפול אפליקציות</string>
+    <string name="perf_category_benchmark">בדיקת ביצועים</string>
+    <string name="perf_category_game">משחק</string>
+    <string name="perf_advanced_title">פרמטרים מתקדמים</string>
+    <string name="perf_advanced_summary">הגדרת מגבלות תדר ה־CPU ונעילת קצב הרענון, החל מההגדרה הקבועה מראש</string>
+    <string name="category_perf_cpu">תדר CPU</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">ליבות קטנות</string>
+    <string name="perf_cluster_medium">ליבות בינוניות</string>
+    <string name="perf_cluster_big">ליבות גדולות</string>
+    <string name="perf_cluster_title">%1$s (CPU‏ %2$s)</string>
+    <string name="perf_cpu_range">%1$d–%2$d</string>
+    <string name="perf_cpu_min_title">תדר מינימלי של %1$s</string>
+    <string name="perf_cpu_max_title">תדר מקסימלי של %1$s</string>
+    <string name="perf_freq_ghz">%1$.2f GHz</string>
+    <string name="perf_freq_mhz">%1$d MHz</string>
+    <string name="perf_refresh_rate_title">נעילת קצב רענון</string>
+    <string name="perf_refresh_rate_none">לא נעול</string>
+    <string name="perf_refresh_rate_hz">%1$d Hz</string>
+    <string name="perf_advanced_reset_title">איפוס להגדרה קבועה מראש</string>
+
+    <string name="tile_reading_low_refresh">קריאה 30 Hz</string>
+    <string name="tile_touch_game_mode">מצב משחק במגע</string>
+    <string name="tile_smart_cover">כיסוי חכם</string>
+</resources>

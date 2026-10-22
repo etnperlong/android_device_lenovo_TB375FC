@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Nodweddion y ddyfais</string>
+
+    <string name="device_parts_title">Nodweddion y ddyfais</string>
+    <string name="device_parts_summary">Perfformiad, ysgrifbin, cyffwrdd, Dolby Atmos a gorchudd ffolio</string>
+    <string name="display_parts_title">Ysgrifbin a chyffwrdd</string>
+    <string name="display_parts_summary">Cyfradd adnewyddu ysgrifbin, cyfradd adnewyddu modd darllen, modd gêm cyffwrdd</string>
+
+    <string name="category_display_title">Cyfradd adnewyddu</string>
+    <string name="category_touch_title">Cyffwrdd</string>
+    <string name="category_cover_title">Gorchudd ffolio</string>
+    <string name="category_audio_title">Sain</string>
+    <string name="category_perf_title">Perfformiad</string>
+
+    <string name="pen_refresh_cap_title">Cyfyngu i 120 Hz wrth ddefnyddio\'r ysgrifbin</string>
+    <string name="pen_refresh_cap_summary">Dim ond hyd at 120 Hz y mae\'r ysgrifbin gweithredol yn gweithio. Caiff y cyfyngiad ei ddileu 10 eiliad ar ôl defnyddio\'r ysgrifbin ddiwethaf.</string>
+    <string name="reading_low_refresh_title">30 Hz yn y modd darllen</string>
+    <string name="reading_low_refresh_summary">Gostwng y gyfradd adnewyddu pan fydd modd darllen ymlaen</string>
+    <string name="reading_low_refresh_unavailable">Nid yw\'r modd darllen ar gael</string>
+    <string name="touch_game_mode_title">Modd gêm cyffwrdd</string>
+    <string name="touch_game_mode_summary">Modd gêm y rheolydd cyffwrdd. Mae\'n diffodd eto ar ôl ailgychwyn.</string>
+    <string name="touch_game_mode_unavailable">Ddim ar gael</string>
+    <string name="smart_cover_title">Gorchudd clyfar</string>
+    <string name="smart_cover_summary">Cysgu a chloi pan fydd y gorchudd ffolio ar gau</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Modd sain, cyfartalwr, gwella deialog a moddau apiau</string>
+    <string name="dolby_enable_title">Defnyddio Dolby Atmos</string>
+    <string name="dolby_profile_title">Modd diofyn</string>
+    <string name="dolby_profile_dynamic">Dynamig</string>
+    <string name="dolby_profile_movie">Ffilm</string>
+    <string name="dolby_profile_music">Cerddoriaeth</string>
+    <string name="category_dolby_music_title">Modd cerddoriaeth</string>
+    <string name="dolby_ieq_preset_title">Effaith sain</string>
+    <string name="dolby_ieq_preset_none">Dim</string>
+    <string name="dolby_ieq_preset_detailed">Manwl</string>
+    <string name="dolby_ieq_preset_balanced">Cytbwys</string>
+    <string name="dolby_ieq_preset_warm">Cynnes</string>
+    <string name="dolby_geq_title">Cyfartalwr</string>
+    <string name="dolby_geq_summary">Addasu 10 band amledd</string>
+    <string name="dolby_geq_reset_title">Ailosod i wastad</string>
+    <string name="category_dolby_movie_title">Modd ffilm</string>
+    <string name="dolby_dialogue_level_title">Gwella deialog</string>
+    <string name="dolby_dialogue_level_summary">Gwneud lleferydd yn gliriach. Mae 0 yn ei ddiffodd.</string>
+    <string name="category_dolby_apps_title">Apiau</string>
+    <string name="dolby_app_profiles_enabled_title">Newid modd yn ôl ap</string>
+    <string name="dolby_app_profiles_enabled_summary">Defnyddio\'r modd a osodwyd ar gyfer ap tra bo\'n chwarae sain</string>
+    <string name="dolby_app_profiles_title">Moddau apiau</string>
+    <string name="dolby_app_profiles_summary">Dewis y modd ar gyfer pob ap. Mae apiau cerddoriaeth a fideo hysbys yn dechrau gyda Cherddoriaeth a Ffilm.</string>
+    <string name="dolby_app_profile_default">Modd diofyn</string>
+
+    <string name="perf_title">Proffiliau perfformiad</string>
+    <string name="perf_summary">Addasu perfformiad MediaTek Dimensity a pholisïau thermol</string>
+    <string name="perf_enabled_title">Addasu perfformiad yn ôl ap</string>
+    <string name="perf_enabled_summary">Dweud wrth wasanaeth pŵer MediaTek pa ap sydd yn y blaendir a defnyddio ei broffil. Mae apiau â phroffiliau\'r gwneuthurwr neu broffiliau a argymhellir yn eu defnyddio\'n ddiofyn.</string>
+    <string name="category_perf_known_apps">Apiau â phroffiliau</string>
+    <string name="category_perf_other_apps">Apiau eraill</string>
+    <string name="perf_mode_title">Proffil</string>
+    <string name="perf_mode_vendor">Dilyn y gwneuthurwr</string>
+    <string name="perf_mode_default">Diofyn</string>
+    <string name="perf_mode_custom">Addasedig</string>
+    <string name="perf_mode_off">Diffodd</string>
+    <string name="perf_mode_vendor_summary">Dilyn y gwneuthurwr: %1$s</string>
+    <string name="perf_mode_recommended">Argymhellir</string>
+    <string name="perf_mode_recommended_summary">Argymhellir: %1$s</string>
+    <string name="perf_mode_custom_summary">Addasedig: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, uwch</string>
+    <string name="perf_preset_title">Rhagosodiad</string>
+    <string name="perf_preset_none">Dim</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Gosodiadau rhagosodiad</string>
+    <string name="perf_preset_thermal">Polisi thermol %1$d</string>
+    <string name="perf_preset_cpu_max">Uchafswm CPU %1$s</string>
+    <string name="perf_preset_cpu_min">Isafswm CPU %1$s</string>
+    <string name="perf_preset_fpsgo">Rheoli amseru fframiau FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="zero">%1$d gosodiad</item>
+        <item quantity="one">%1$d gosodiad</item>
+        <item quantity="two">%1$d osodiad</item>
+        <item quantity="few">%1$d gosodiad</item>
+        <item quantity="many">%1$d gosodiad</item>
+        <item quantity="other">%1$d gosodiad</item>
+    </plurals>
+    <string name="perf_category_video">Fideo</string>
+    <string name="perf_category_camera">Camera</string>
+    <string name="perf_category_communication">Cyfathrebu</string>
+    <string name="perf_category_music">Cerddoriaeth</string>
+    <string name="perf_category_app_clone">Ap wedi\'i glonio</string>
+    <string name="perf_category_benchmark">Meincnod</string>
+    <string name="perf_category_game">Gêm</string>
+    <string name="perf_advanced_title">Paramedrau uwch</string>
+    <string name="perf_advanced_summary">Gosod terfynau amledd CPU a chloi\'r gyfradd adnewyddu, gan ddechrau o\'r rhagosodiad</string>
+    <string name="category_perf_cpu">Amledd CPU</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">Creiddiau bach</string>
+    <string name="perf_cluster_medium">Creiddiau canolig</string>
+    <string name="perf_cluster_big">Creiddiau mawr</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">Isafswm %1$s</string>
+    <string name="perf_cpu_max_title">Uchafswm %1$s</string>
+    <string name="perf_refresh_rate_title">Clo cyfradd adnewyddu</string>
+    <string name="perf_refresh_rate_none">Heb ei chloi</string>
+    <string name="perf_advanced_reset_title">Ailosod i\'r rhagosodiad</string>
+
+    <string name="tile_reading_low_refresh">Darllen 30 Hz</string>
+    <string name="tile_touch_game_mode">Modd gêm cyffwrdd</string>
+    <string name="tile_smart_cover">Gorchudd clyfar</string>
+</resources>

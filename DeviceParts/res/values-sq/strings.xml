@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Veçoritë e pajisjes</string>
+
+    <string name="device_parts_title">Veçoritë e pajisjes</string>
+    <string name="device_parts_summary">Performanca, stilolapsi, prekja, Dolby Atmos dhe kapaku mbrojtës</string>
+    <string name="display_parts_title">Stilolapsi dhe prekja</string>
+    <string name="display_parts_summary">Shpejtësia e rifreskimit të stilolapsit, shpejtësia e rifreskimit të mënyrës së leximit, mënyra e lojës me prekje</string>
+
+    <string name="category_display_title">Shpejtësia e rifreskimit</string>
+    <string name="category_touch_title">Prekja</string>
+    <string name="category_cover_title">Kapaku mbrojtës</string>
+    <string name="category_audio_title">Audio</string>
+    <string name="category_perf_title">Performanca</string>
+
+    <string name="pen_refresh_cap_title">Kufizoje në 120 Hz kur përdoret stilolapsi</string>
+    <string name="pen_refresh_cap_summary">Stilolapsi aktiv raportohet se funksionon vetëm deri në 120 Hz. Kufizimi hiqet 10 sekonda pas hyrjes së fundit me stilolaps.</string>
+    <string name="reading_low_refresh_title">30 Hz në mënyrën e leximit</string>
+    <string name="reading_low_refresh_summary">Ule shpejtësinë e rifreskimit kur është aktive mënyra e leximit</string>
+    <string name="reading_low_refresh_unavailable">Mënyra e leximit nuk ofrohet</string>
+    <string name="touch_game_mode_title">Mënyra e lojës me prekje</string>
+    <string name="touch_game_mode_summary">Mënyra e lojës për kontrolluesin e prekjes. Çaktivizohet sërish pas rinisjes.</string>
+    <string name="touch_game_mode_unavailable">Nuk ofrohet</string>
+    <string name="smart_cover_title">Kapak inteligjent</string>
+    <string name="smart_cover_summary">Fike dhe kyçe ekranin kur mbyllet kapaku mbrojtës</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Mënyra e tingullit, barazuesi, përforcuesi i dialogut dhe mënyrat e aplikacioneve</string>
+    <string name="dolby_enable_title">Përdor Dolby Atmos</string>
+    <string name="dolby_profile_title">Mënyra e parazgjedhur</string>
+    <string name="dolby_profile_dynamic">Dinamike</string>
+    <string name="dolby_profile_movie">Film</string>
+    <string name="dolby_profile_music">Muzikë</string>
+    <string name="category_dolby_music_title">Mënyra e muzikës</string>
+    <string name="dolby_ieq_preset_title">Efekti zanor</string>
+    <string name="dolby_ieq_preset_none">Asnjë</string>
+    <string name="dolby_ieq_preset_detailed">I detajuar</string>
+    <string name="dolby_ieq_preset_balanced">I ekuilibruar</string>
+    <string name="dolby_ieq_preset_warm">I ngrohtë</string>
+    <string name="dolby_geq_title">Barazuesi</string>
+    <string name="dolby_geq_summary">Rregullo 10 breza frekuencash</string>
+    <string name="dolby_geq_reset_title">Rivendos lakoren e sheshtë</string>
+    <string name="dolby_geq_band_hz">%1$d Hz</string>
+    <string name="dolby_geq_band_khz">%1$.1f kHz</string>
+    <string name="category_dolby_movie_title">Mënyra e filmit</string>
+    <string name="dolby_dialogue_level_title">Përforcuesi i dialogut</string>
+    <string name="dolby_dialogue_level_summary">E bën të folurën më të qartë. Vlera 0 e çaktivizon.</string>
+    <string name="category_dolby_apps_title">Aplikacionet</string>
+    <string name="dolby_app_profiles_enabled_title">Ndërro mënyrën sipas aplikacionit</string>
+    <string name="dolby_app_profiles_enabled_summary">Gjatë luajtjes së audios nga një aplikacion, përdor mënyrën e caktuar për të</string>
+    <string name="dolby_app_profiles_title">Mënyrat e aplikacioneve</string>
+    <string name="dolby_app_profiles_summary">Zgjidh mënyrën për çdo aplikacion. Aplikacionet e njohura të muzikës dhe videos nisin përkatësisht me mënyrat Muzikë dhe Film.</string>
+    <string name="dolby_app_profile_default">Mënyra e parazgjedhur</string>
+
+    <string name="perf_title">Profilet e performancës</string>
+    <string name="perf_summary">Përshtat performancën dhe politikat termike të MediaTek Dimensity</string>
+    <string name="perf_enabled_title">Përshtat performancën sipas aplikacionit</string>
+    <string name="perf_enabled_summary">Njofto shërbimin e energjisë MediaTek për aplikacionin në plan të parë dhe zbato profilin e tij. Aplikacionet me profile të prodhuesit ose të rekomanduara i përdorin ato si parazgjedhje.</string>
+    <string name="category_perf_known_apps">Aplikacionet me profile</string>
+    <string name="category_perf_other_apps">Aplikacionet e tjera</string>
+    <string name="perf_mode_title">Profili</string>
+    <string name="perf_mode_vendor">Ndiq cilësimet e prodhuesit</string>
+    <string name="perf_mode_default">Parazgjedhja</string>
+    <string name="perf_mode_custom">I personalizuar</string>
+    <string name="perf_mode_off">Joaktiv</string>
+    <string name="perf_mode_vendor_summary">Cilësimet e prodhuesit: %1$s</string>
+    <string name="perf_mode_recommended">I rekomanduar</string>
+    <string name="perf_mode_recommended_summary">I rekomanduar: %1$s</string>
+    <string name="perf_mode_custom_summary">I personalizuar: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, i avancuar</string>
+    <string name="perf_preset_title">Paracaktimi</string>
+    <string name="perf_preset_none">Asnjë</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Cilësimet e paracaktimit</string>
+    <string name="perf_preset_thermal">Politika termike %1$d</string>
+    <string name="perf_preset_cpu_max">Maksimumi i CPU-së %1$s</string>
+    <string name="perf_preset_cpu_min">Minimumi i CPU-së %1$s</string>
+    <string name="perf_preset_fpsgo">Ritmi i kuadrove FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d cilësim</item>
+        <item quantity="other">%1$d cilësime</item>
+    </plurals>
+    <string name="perf_category_video">Video</string>
+    <string name="perf_category_camera">Kamera</string>
+    <string name="perf_category_communication">Komunikim</string>
+    <string name="perf_category_music">Muzikë</string>
+    <string name="perf_category_app_clone">Klon aplikacioni</string>
+    <string name="perf_category_benchmark">Test performance</string>
+    <string name="perf_category_game">Lojë</string>
+    <string name="perf_advanced_title">Parametrat e avancuar</string>
+    <string name="perf_advanced_summary">Cakto kufijtë e frekuencës së CPU-së dhe kyç shpejtësinë e rifreskimit, duke nisur nga paracaktimi</string>
+    <string name="category_perf_cpu">Frekuenca e CPU-së</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">Bërthama të vogla</string>
+    <string name="perf_cluster_medium">Bërthama mesatare</string>
+    <string name="perf_cluster_big">Bërthama të mëdha</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: frekuenca minimale</string>
+    <string name="perf_cpu_max_title">%1$s: frekuenca maksimale</string>
+    <string name="perf_freq_ghz">%1$.2f GHz</string>
+    <string name="perf_freq_mhz">%1$d MHz</string>
+    <string name="perf_refresh_rate_title">Kyçja e shpejtësisë së rifreskimit</string>
+    <string name="perf_refresh_rate_none">Pa kyçje</string>
+    <string name="perf_refresh_rate_hz">%1$d Hz</string>
+    <string name="perf_advanced_reset_title">Rivendos paracaktimin</string>
+
+    <string name="tile_reading_low_refresh">Lexim 30 Hz</string>
+    <string name="tile_touch_game_mode">Mënyra e lojës me prekje</string>
+    <string name="tile_smart_cover">Kapak inteligjent</string>
+</resources>

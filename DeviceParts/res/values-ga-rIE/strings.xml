@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Gnéithe an ghléis</string>
+
+    <string name="device_parts_title">Gnéithe an ghléis</string>
+    <string name="device_parts_summary">Feidhmíocht, peann, tadhaill, Dolby Atmos agus clúdach fillte</string>
+    <string name="display_parts_title">Peann agus tadhaill</string>
+    <string name="display_parts_summary">Ráta athnuachana an phinn, ráta athnuachana an mhóid léimh, mód cluiche tadhaill</string>
+
+    <string name="category_display_title">Ráta athnuachana</string>
+    <string name="category_touch_title">Tadhaill</string>
+    <string name="category_cover_title">Clúdach fillte</string>
+    <string name="category_audio_title">Fuaim</string>
+    <string name="category_perf_title">Feidhmíocht</string>
+
+    <string name="pen_refresh_cap_title">Teorannaigh go 120 Hz agus an peann in úsáid</string>
+    <string name="pen_refresh_cap_summary">Ní oibríonn an peann gníomhach ach suas le 120 Hz. Baintear an teorainn 10 soicind tar éis ionchur an phinn dheireanaigh.</string>
+    <string name="reading_low_refresh_title">30 Hz sa mhód léimh</string>
+    <string name="reading_low_refresh_summary">Ísligh an ráta athnuachana nuair atá an mód léimh ar siúl</string>
+    <string name="reading_low_refresh_unavailable">Níl an mód léimh ar fáil</string>
+    <string name="touch_game_mode_title">Mód cluiche tadhaill</string>
+    <string name="touch_game_mode_summary">Mód cluiche an rialaitheora tadhaill. Múchann sé arís tar éis atosaithe.</string>
+    <string name="touch_game_mode_unavailable">Níl sé ar fáil</string>
+    <string name="smart_cover_title">Clúdach cliste</string>
+    <string name="smart_cover_summary">Cuir ar suan agus glas nuair a bhíonn an clúdach fillte dúnta</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Mód fuaime, cothromóir, feabhsaitheoir dialóige agus móid aipeanna</string>
+    <string name="dolby_enable_title">Úsáid Dolby Atmos</string>
+    <string name="dolby_profile_title">Mód réamhshocraithe</string>
+    <string name="dolby_profile_dynamic">Dinimiciúil</string>
+    <string name="dolby_profile_movie">Scannán</string>
+    <string name="dolby_profile_music">Ceol</string>
+    <string name="category_dolby_music_title">Mód ceoil</string>
+    <string name="dolby_ieq_preset_title">Maisíocht fuaime</string>
+    <string name="dolby_ieq_preset_none">Dada</string>
+    <string name="dolby_ieq_preset_detailed">Mionsonraithe</string>
+    <string name="dolby_ieq_preset_balanced">Cothromaithe</string>
+    <string name="dolby_ieq_preset_warm">Te</string>
+    <string name="dolby_geq_title">Cothromóir</string>
+    <string name="dolby_geq_summary">Coigeartaigh 10 mbanda minicíochta</string>
+    <string name="dolby_geq_reset_title">Athshocraigh go cothrom</string>
+    <string name="category_dolby_movie_title">Mód scannáin</string>
+    <string name="dolby_dialogue_level_title">Feabhsaitheoir dialóige</string>
+    <string name="dolby_dialogue_level_summary">Déanann sé an chaint níos soiléire. Múchann 0 é.</string>
+    <string name="category_dolby_apps_title">Aipeanna</string>
+    <string name="dolby_app_profiles_enabled_title">Athraigh mód de réir aipe</string>
+    <string name="dolby_app_profiles_enabled_summary">Agus aip ag seinm fuaime, úsáid an mód atá socraithe di</string>
+    <string name="dolby_app_profiles_title">Móid aipeanna</string>
+    <string name="dolby_app_profiles_summary">Roghnaigh an mód do gach aip. Tosaíonn aipeanna ceoil agus físeáin aitheanta leis na móid Ceol agus Scannán.</string>
+    <string name="dolby_app_profile_default">Mód réamhshocraithe</string>
+
+    <string name="perf_title">Próifílí feidhmíochta</string>
+    <string name="perf_summary">Feidhmíocht MediaTek Dimensity agus polasaithe teirmeacha a choigeartú</string>
+    <string name="perf_enabled_title">Coigeartaigh feidhmíocht de réir aipe</string>
+    <string name="perf_enabled_summary">Cuir in iúl do sheirbhís chumhachta MediaTek cén aip atá chun tosaigh agus cuir a próifíl i bhfeidhm. Úsáideann aipeanna a bhfuil próifílí díoltóra nó molta acu iad de réir réamhshocraithe.</string>
+    <string name="category_perf_known_apps">Aipeanna a bhfuil próifílí acu</string>
+    <string name="category_perf_other_apps">Aipeanna eile</string>
+    <string name="perf_mode_title">Próifíl</string>
+    <string name="perf_mode_vendor">Lean an díoltóir</string>
+    <string name="perf_mode_default">Réamhshocrú</string>
+    <string name="perf_mode_custom">Saincheaptha</string>
+    <string name="perf_mode_off">Múchta</string>
+    <string name="perf_mode_vendor_summary">Lean an díoltóir: %1$s</string>
+    <string name="perf_mode_recommended">Molta</string>
+    <string name="perf_mode_recommended_summary">Molta: %1$s</string>
+    <string name="perf_mode_custom_summary">Saincheaptha: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, ardleibhéal</string>
+    <string name="perf_preset_title">Réamhshocrúchán</string>
+    <string name="perf_preset_none">Dada</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Socruithe an réamhshocrúcháin</string>
+    <string name="perf_preset_thermal">Polasaí teirmeach %1$d</string>
+    <string name="perf_preset_cpu_max">Uas-CPU %1$s</string>
+    <string name="perf_preset_cpu_min">Íos-CPU %1$s</string>
+    <string name="perf_preset_fpsgo">Rialú ama frámaí FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d socrú</item>
+        <item quantity="two">%1$d shocrú</item>
+        <item quantity="few">%1$d shocrú</item>
+        <item quantity="many">%1$d socrú</item>
+        <item quantity="other">%1$d socrú</item>
+    </plurals>
+    <string name="perf_category_video">Físeán</string>
+    <string name="perf_category_camera">Ceamara</string>
+    <string name="perf_category_communication">Cumarsáid</string>
+    <string name="perf_category_music">Ceol</string>
+    <string name="perf_category_app_clone">Aip chlónaithe</string>
+    <string name="perf_category_benchmark">Tagarmharc</string>
+    <string name="perf_category_game">Cluiche</string>
+    <string name="perf_advanced_title">Paraiméadair ardleibhéil</string>
+    <string name="perf_advanced_summary">Socraigh teorainneacha minicíochta an LAP agus glas an ráta athnuachana, ag tosú ón réamhshocrúchán</string>
+    <string name="category_perf_cpu">Minicíocht LAP</string>
+    <string name="perf_cluster_all">LAP</string>
+    <string name="perf_cluster_little">Croíleacáin bheaga</string>
+    <string name="perf_cluster_medium">Croíleacáin mheánmhéide</string>
+    <string name="perf_cluster_big">Croíleacáin mhóra</string>
+    <string name="perf_cluster_title">%1$s (LAP %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: íosmhinicíocht</string>
+    <string name="perf_cpu_max_title">%1$s: uasminicíocht</string>
+    <string name="perf_refresh_rate_title">Glasáil an ráta athnuachana</string>
+    <string name="perf_refresh_rate_none">Gan ghlasáil</string>
+    <string name="perf_advanced_reset_title">Athshocraigh go dtí an réamhshocrúchán</string>
+
+    <string name="tile_reading_low_refresh">Léamh 30 Hz</string>
+    <string name="tile_touch_game_mode">Mód cluiche tadhaill</string>
+    <string name="tile_smart_cover">Clúdach cliste</string>
+</resources>

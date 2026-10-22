@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">មុខងារឧបករណ៍</string>
+
+    <string name="device_parts_title">មុខងារឧបករណ៍</string>
+    <string name="device_parts_summary">ដំណើរការ ប៊ិក ការប៉ះ Dolby Atmos និងស្រោមបត់</string>
+    <string name="display_parts_title">ប៊ិក និងការប៉ះ</string>
+    <string name="display_parts_summary">អត្រាផ្ទុកឡើងវិញរបស់ប៊ិក អត្រាផ្ទុកឡើងវិញក្នុងរបៀបអាន និងរបៀបហ្គេមប៉ះ</string>
+
+    <string name="category_display_title">អត្រាផ្ទុកឡើងវិញ</string>
+    <string name="category_touch_title">ការប៉ះ</string>
+    <string name="category_cover_title">ស្រោមបត់</string>
+    <string name="category_audio_title">សំឡេង</string>
+    <string name="category_perf_title">ដំណើរការ</string>
+
+    <string name="pen_refresh_cap_title">កំណត់ត្រឹម 120 Hz នៅពេលប្រើប៊ិក</string>
+    <string name="pen_refresh_cap_summary">ប៊ិកសកម្មត្រូវបានរាយការណ៍ថាគាំទ្រត្រឹម 120 Hz ប៉ុណ្ណោះ។ កម្រិតកំណត់នឹងត្រូវដកចេញវិញ 10 វិនាទី បន្ទាប់ពីប្រើប៊ិកចុងក្រោយ។</string>
+    <string name="reading_low_refresh_title">30 Hz ក្នុងរបៀបអាន</string>
+    <string name="reading_low_refresh_summary">បន្ថយអត្រាផ្ទុកឡើងវិញ នៅពេលបើករបៀបអាន</string>
+    <string name="reading_low_refresh_unavailable">មិនមានរបៀបអានទេ</string>
+    <string name="touch_game_mode_title">របៀបហ្គេមប៉ះ</string>
+    <string name="touch_game_mode_summary">របៀបហ្គេមរបស់ឧបករណ៍បញ្ជាការប៉ះ។ វានឹងបិទវិញបន្ទាប់ពីចាប់ផ្ដើមឡើងវិញ។</string>
+    <string name="touch_game_mode_unavailable">មិនមានទេ</string>
+    <string name="smart_cover_title">ស្រោមបត់ឆ្លាតវៃ</string>
+    <string name="smart_cover_summary">បិទអេក្រង់ និងចាក់សោ នៅពេលបិទស្រោមបត់</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">របៀបសំឡេង អេក្វ៉ាលីស័រ មុខងារបង្កើនភាពច្បាស់សំឡេងសន្ទនា និងរបៀបកម្មវិធី</string>
+    <string name="dolby_enable_title">ប្រើ Dolby Atmos</string>
+    <string name="dolby_profile_title">របៀបលំនាំដើម</string>
+    <string name="dolby_profile_dynamic">ថាមវន្ត</string>
+    <string name="dolby_profile_movie">ភាពយន្ត</string>
+    <string name="dolby_profile_music">តន្ត្រី</string>
+    <string name="category_dolby_music_title">របៀបតន្ត្រី</string>
+    <string name="dolby_ieq_preset_title">បែបផែនសំឡេង</string>
+    <string name="dolby_ieq_preset_none">គ្មាន</string>
+    <string name="dolby_ieq_preset_detailed">លម្អិត</string>
+    <string name="dolby_ieq_preset_balanced">មានតុល្យភាព</string>
+    <string name="dolby_ieq_preset_warm">កក់ក្តៅ</string>
+    <string name="dolby_geq_title">អេក្វ៉ាលីស័រ</string>
+    <string name="dolby_geq_summary">លៃតម្រូវប្រេកង់ 10 កម្រិត</string>
+    <string name="dolby_geq_reset_title">កំណត់អេក្វ៉ាលីស័រទៅកម្រិតស្មើគ្នាវិញ</string>
+    <string name="category_dolby_movie_title">របៀបភាពយន្ត</string>
+    <string name="dolby_dialogue_level_title">មុខងារបង្កើនភាពច្បាស់សំឡេងសន្ទនា</string>
+    <string name="dolby_dialogue_level_summary">ធ្វើឱ្យសំឡេងនិយាយច្បាស់ជាងមុន។ កំណត់ជា 0 ដើម្បីបិទ។</string>
+    <string name="category_dolby_apps_title">កម្មវិធី</string>
+    <string name="dolby_app_profiles_enabled_title">ប្ដូររបៀបតាមកម្មវិធី</string>
+    <string name="dolby_app_profiles_enabled_summary">នៅពេលកម្មវិធីចាក់សំឡេង សូមប្រើរបៀបដែលបានកំណត់សម្រាប់កម្មវិធីនោះ</string>
+    <string name="dolby_app_profiles_title">របៀបកម្មវិធី</string>
+    <string name="dolby_app_profiles_summary">ជ្រើសរើសរបៀបសម្រាប់កម្មវិធីនីមួយៗ។ កម្មវិធីតន្ត្រី និងវីដេអូដែលស្គាល់ នឹងប្រើរបៀបតន្ត្រី និងភាពយន្តតាមលំនាំដើម។</string>
+    <string name="dolby_app_profile_default">របៀបលំនាំដើម</string>
+
+    <string name="perf_title">កម្រងព័ត៌មានដំណើរការ</string>
+    <string name="perf_summary">កែសម្រួលដំណើរការ និងគោលការណ៍កម្ដៅរបស់ MediaTek Dimensity</string>
+    <string name="perf_enabled_title">កែសម្រួលដំណើរការតាមកម្មវិធី</string>
+    <string name="perf_enabled_summary">ជូនដំណឹងដល់សេវាកម្មថាមពល MediaTek អំពីកម្មវិធីដែលកំពុងប្រើនៅផ្ទៃខាងមុខ ហើយអនុវត្តកម្រងព័ត៌មានរបស់វា។ កម្មវិធីដែលមានកម្រងព័ត៌មានពីក្រុមហ៊ុនផលិត ឬដែលបានណែនាំ នឹងប្រើកម្រងព័ត៌មាននោះតាមលំនាំដើម។</string>
+    <string name="category_perf_known_apps">កម្មវិធីដែលមានកម្រងព័ត៌មាន</string>
+    <string name="category_perf_other_apps">កម្មវិធីផ្សេងទៀត</string>
+    <string name="perf_mode_title">កម្រងព័ត៌មាន</string>
+    <string name="perf_mode_vendor">តាមក្រុមហ៊ុនផលិត</string>
+    <string name="perf_mode_default">លំនាំដើម</string>
+    <string name="perf_mode_custom">ផ្ទាល់ខ្លួន</string>
+    <string name="perf_mode_off">បិទ</string>
+    <string name="perf_mode_vendor_summary">តាមក្រុមហ៊ុនផលិត៖ %1$s</string>
+    <string name="perf_mode_recommended">បានណែនាំ</string>
+    <string name="perf_mode_recommended_summary">បានណែនាំ៖ %1$s</string>
+    <string name="perf_mode_custom_summary">ផ្ទាល់ខ្លួន៖ %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, កម្រិតខ្ពស់</string>
+    <string name="perf_preset_title">ការកំណត់ជាមុន</string>
+    <string name="perf_preset_none">គ្មាន</string>
+    <string name="perf_preset_details_title">ការកំណត់ជាមុន</string>
+    <string name="perf_preset_thermal">គោលការណ៍កម្ដៅ %1$d</string>
+    <string name="perf_preset_cpu_max">CPU អតិបរមា %1$s</string>
+    <string name="perf_preset_cpu_min">CPU អប្បបរមា %1$s</string>
+    <string name="perf_preset_fpsgo">ការសម្របសម្រួលអត្រាហ្វ្រេម FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="other">%1$d ការកំណត់</item>
+    </plurals>
+    <string name="perf_category_video">វីដេអូ</string>
+    <string name="perf_category_camera">កាមេរ៉ា</string>
+    <string name="perf_category_communication">ទំនាក់ទំនង</string>
+    <string name="perf_category_music">តន្ត្រី</string>
+    <string name="perf_category_app_clone">កម្មវិធីក្លូន</string>
+    <string name="perf_category_benchmark">តេស្តសមត្ថភាព</string>
+    <string name="perf_category_game">ហ្គេម</string>
+    <string name="perf_advanced_title">ប៉ារ៉ាម៉ែត្រកម្រិតខ្ពស់</string>
+    <string name="perf_advanced_summary">កំណត់ដែនកំណត់ប្រេកង់ CPU និងចាក់សោអត្រាផ្ទុកឡើងវិញ ដោយចាប់ផ្ដើមពីការកំណត់ជាមុន</string>
+    <string name="category_perf_cpu">ប្រេកង់ CPU</string>
+    <string name="perf_cluster_little">ស្នូលតូច</string>
+    <string name="perf_cluster_medium">ស្នូលមធ្យម</string>
+    <string name="perf_cluster_big">ស្នូលធំ</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s៖ ប្រេកង់អប្បបរមា</string>
+    <string name="perf_cpu_max_title">%1$s៖ ប្រេកង់អតិបរមា</string>
+    <string name="perf_refresh_rate_title">ចាក់សោអត្រាផ្ទុកឡើងវិញ</string>
+    <string name="perf_refresh_rate_none">មិនបានចាក់សោ</string>
+    <string name="perf_advanced_reset_title">កំណត់ទៅការកំណត់ជាមុនវិញ</string>
+
+    <string name="tile_reading_low_refresh">របៀបអាន 30 Hz</string>
+    <string name="tile_touch_game_mode">របៀបហ្គេមប៉ះ</string>
+    <string name="tile_smart_cover">ស្រោមឆ្លាតវៃ</string>
+</resources>

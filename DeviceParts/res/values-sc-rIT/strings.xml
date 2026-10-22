@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Funtzionalidades de su dispositivu</string>
+
+    <string name="device_parts_title">Funtzionalidades de su dispositivu</string>
+    <string name="device_parts_summary">Prestatziones, pinna, tocu, Dolby Atmos e custòdia a libru</string>
+    <string name="display_parts_title">Pinna e tocu</string>
+    <string name="display_parts_summary">Frequèntzia de atualizatzione de sa pinna, frequèntzia de atualizatzione de sa modalidade letura, modalidade giogu de su tocu</string>
+
+    <string name="category_display_title">Frequèntzia de atualizatzione</string>
+    <string name="category_touch_title">Tocu</string>
+    <string name="category_cover_title">Custòdia a libru</string>
+    <string name="category_audio_title">Àudio</string>
+    <string name="category_perf_title">Prestatziones</string>
+
+    <string name="pen_refresh_cap_title">Limita a 120 Hz cando s’impreada sa pinna</string>
+    <string name="pen_refresh_cap_summary">Sa pinna ativa funtzionat isceti finas a 120 Hz. Su limite est bogadu 10 segundos a pustis de s’ùrtimu impreu de sa pinna.</string>
+    <string name="reading_low_refresh_title">30 Hz in modalidade letura</string>
+    <string name="reading_low_refresh_summary">Bassa sa frequèntzia de atualizatzione cando sa modalidade letura est ativa</string>
+    <string name="reading_low_refresh_unavailable">Sa modalidade letura non est disponìbile</string>
+    <string name="touch_game_mode_title">Modalidade giogu de su tocu</string>
+    <string name="touch_game_mode_summary">Modalidade giogu de su controllore de su tocu. Si istutat a torrare a pustis de torrare a aviare.</string>
+    <string name="touch_game_mode_unavailable">Non disponìbile</string>
+    <string name="smart_cover_title">Custòdia inteligente</string>
+    <string name="smart_cover_summary">Pone in suspèndiu e blocat cando sa custòdia a libru est serrada</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Modalidade sonòra, equalizadore, meglioradore de su diàlogu e modalidades de aplicatzione</string>
+    <string name="dolby_enable_title">Imprea Dolby Atmos</string>
+    <string name="dolby_profile_title">Modalidade predefinida</string>
+    <string name="dolby_profile_dynamic">Dinàmica</string>
+    <string name="dolby_profile_movie">Film</string>
+    <string name="dolby_profile_music">Mùsica</string>
+    <string name="category_dolby_music_title">Modalidade mùsica</string>
+    <string name="dolby_ieq_preset_title">Efeito sonoru</string>
+    <string name="dolby_ieq_preset_none">Perunu</string>
+    <string name="dolby_ieq_preset_detailed">Detalliadu</string>
+    <string name="dolby_ieq_preset_balanced">Bilanciadu</string>
+    <string name="dolby_ieq_preset_warm">Càlidu</string>
+    <string name="dolby_geq_title">Equalizadore</string>
+    <string name="dolby_geq_summary">Ajusta 10 bandas de frequèntzia</string>
+    <string name="dolby_geq_reset_title">Ripìstina a pianu</string>
+    <string name="category_dolby_movie_title">Modalidade film</string>
+    <string name="dolby_dialogue_level_title">Meglioradore de su diàlogu</string>
+    <string name="dolby_dialogue_level_summary">Faghet prus craru su faeddare. 0 ddu istutat.</string>
+    <string name="category_dolby_apps_title">Aplicatziones</string>
+    <string name="dolby_app_profiles_enabled_title">Càmbia sa modalidade segundu s’aplicatzione</string>
+    <string name="dolby_app_profiles_enabled_summary">Cando un’aplicatzione riprodùet àudio, imprea sa modalidade posta pro issa</string>
+    <string name="dolby_app_profiles_title">Modalidades de aplicatzione</string>
+    <string name="dolby_app_profiles_summary">Sèbera sa modalidade pro cada aplicatzione. Is aplicatziones de mùsica e vìdeu connòschidas cumèntzant cun Mùsica e Film.</string>
+    <string name="dolby_app_profile_default">Modalidade predefinida</string>
+
+    <string name="perf_title">Profìlos de prestatzione</string>
+    <string name="perf_summary">Ajusta is prestatziones de MediaTek Dimensity e is polìticas tèrmicas</string>
+    <string name="perf_enabled_title">Ajusta is prestatziones segundu s’aplicatzione</string>
+    <string name="perf_enabled_summary">Nàrrat a su servìtziu de alimentatzione MediaTek cale aplicatzione est in primu pranu e aplicat su profilu suo. Is aplicatziones cun profìlos de su produtore o cussigiados ddos impreadas in manera predefinida.</string>
+    <string name="category_perf_known_apps">Aplicatziones cun profìlos</string>
+    <string name="category_perf_other_apps">Àteras aplicatziones</string>
+    <string name="perf_mode_title">Profìlu</string>
+    <string name="perf_mode_vendor">Segui su produtore</string>
+    <string name="perf_mode_default">Predefinidu</string>
+    <string name="perf_mode_custom">Personalizadu</string>
+    <string name="perf_mode_off">Istutadu</string>
+    <string name="perf_mode_vendor_summary">Segui su produtore: %1$s</string>
+    <string name="perf_mode_recommended">Cussigiadu</string>
+    <string name="perf_mode_recommended_summary">Cussigiadu: %1$s</string>
+    <string name="perf_mode_custom_summary">Personalizadu: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, avanzadu</string>
+    <string name="perf_preset_title">Preset</string>
+    <string name="perf_preset_none">Perunu</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Impostatziones de su preset</string>
+    <string name="perf_preset_thermal">Polìtica tèrmica %1$d</string>
+    <string name="perf_preset_cpu_max">CPU màssima %1$s</string>
+    <string name="perf_preset_cpu_min">CPU mìnima %1$s</string>
+    <string name="perf_preset_fpsgo">Controllu de su ritmu de is fotogramas FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d impostatzione</item>
+        <item quantity="other">%1$d impostatziones</item>
+    </plurals>
+    <string name="perf_category_video">Vìdeu</string>
+    <string name="perf_category_camera">Fotocàmara</string>
+    <string name="perf_category_communication">Comunicatzione</string>
+    <string name="perf_category_music">Mùsica</string>
+    <string name="perf_category_app_clone">Aplicatzione clonada</string>
+    <string name="perf_category_benchmark">Prova de prestatzione</string>
+    <string name="perf_category_game">Giogu</string>
+    <string name="perf_advanced_title">Paràmetros avanzados</string>
+    <string name="perf_advanced_summary">Imposta is limites de frequèntzia de sa CPU e bloca sa frequèntzia de atualizatzione, partende de su preset</string>
+    <string name="category_perf_cpu">Frequèntzia CPU</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">Nùcleos piticos</string>
+    <string name="perf_cluster_medium">Nùcleos mèdios</string>
+    <string name="perf_cluster_big">Nùcleos mannos</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">Frequèntzia mìnima de %1$s</string>
+    <string name="perf_cpu_max_title">Frequèntzia màssima de %1$s</string>
+    <string name="perf_refresh_rate_title">Blocu de sa frequèntzia de atualizatzione</string>
+    <string name="perf_refresh_rate_none">Non blocada</string>
+    <string name="perf_advanced_reset_title">Ripìstina a su preset</string>
+
+    <string name="tile_reading_low_refresh">Letura 30 Hz</string>
+    <string name="tile_touch_game_mode">Modalidade giogu de su tocu</string>
+    <string name="tile_smart_cover">Custòdia inteligente</string>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">စက်ပစ္စည်းလုပ်ဆောင်ချက်များ</string>
+
+    <string name="device_parts_title">စက်ပစ္စည်းလုပ်ဆောင်ချက်များ</string>
+    <string name="device_parts_summary">စွမ်းဆောင်ရည်၊ စတိုင်လပ်စ်၊ ထိတွေ့မျက်နှာပြင်၊ Dolby Atmos နှင့် ခေါက်ဖုံး</string>
+    <string name="display_parts_title">စတိုင်လပ်စ်နှင့် ထိတွေ့မှု</string>
+    <string name="display_parts_summary">စတိုင်လပ်စ်အသုံးပြုချိန် ပြန်လည်စတင်နှုန်း၊ စာဖတ်မုဒ် ပြန်လည်စတင်နှုန်း၊ ထိတွေ့ဂိမ်းမုဒ်</string>
+
+    <string name="category_display_title">ပြန်လည်စတင်နှုန်း</string>
+    <string name="category_touch_title">ထိတွေ့မှု</string>
+    <string name="category_cover_title">ခေါက်ဖုံး</string>
+    <string name="category_audio_title">အသံ</string>
+    <string name="category_perf_title">စွမ်းဆောင်ရည်</string>
+
+    <string name="pen_refresh_cap_title">စတိုင်လပ်စ်အသုံးပြုချိန် 120 Hz သို့ ကန့်သတ်ရန်</string>
+    <string name="pen_refresh_cap_summary">အသုံးပြုနေသော စတိုင်လပ်စ်သည် 120 Hz အထိသာ အလုပ်လုပ်နိုင်သည်ဟု ဖော်ပြထားသည်။ နောက်ဆုံး စတိုင်လပ်စ်ထည့်သွင်းမှုမှ 10 စက္ကန့်အကြာတွင် ကန့်သတ်ချက်ကို ဖယ်ရှားမည်။</string>
+    <string name="reading_low_refresh_title">စာဖတ်မုဒ်တွင် 30 Hz</string>
+    <string name="reading_low_refresh_summary">စာဖတ်မုဒ်ဖွင့်ထားစဉ် ပြန်လည်စတင်နှုန်းကို လျှော့ချရန်</string>
+    <string name="reading_low_refresh_unavailable">စာဖတ်မုဒ် မရရှိနိုင်ပါ</string>
+    <string name="touch_game_mode_title">ထိတွေ့ဂိမ်းမုဒ်</string>
+    <string name="touch_game_mode_summary">ထိတွေ့ထိန်းချုပ်ကိရိယာ၏ ဂိမ်းမုဒ်ဖြစ်သည်။ ပြန်လည်စတင်ပြီးနောက် ပိတ်သွားမည်။</string>
+    <string name="touch_game_mode_unavailable">မရရှိနိုင်ပါ</string>
+    <string name="smart_cover_title">စမတ်ခေါက်ဖုံး</string>
+    <string name="smart_cover_summary">ခေါက်ဖုံးပိတ်လိုက်ချိန်တွင် မျက်နှာပြင်ပိတ်ပြီး လော့ခ်ချရန်</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">အသံမုဒ်၊ အသံချိန်ညှိကိရိယာ၊ စကားပြောသံမြှင့်တင်မှုနှင့် အက်ပ်မုဒ်များ</string>
+    <string name="dolby_enable_title">Dolby Atmos ကို အသုံးပြုရန်</string>
+    <string name="dolby_profile_title">မူရင်းမုဒ်</string>
+    <string name="dolby_profile_dynamic">ဒိုင်နမစ်</string>
+    <string name="dolby_profile_movie">ရုပ်ရှင်</string>
+    <string name="dolby_profile_music">တေးဂီတ</string>
+    <string name="category_dolby_music_title">တေးဂီတမုဒ်</string>
+    <string name="dolby_ieq_preset_title">အသံအကျိုးသက်ရောက်မှု</string>
+    <string name="dolby_ieq_preset_none">မရှိ</string>
+    <string name="dolby_ieq_preset_detailed">အသေးစိတ်ပြတ်သား</string>
+    <string name="dolby_ieq_preset_balanced">မျှတ</string>
+    <string name="dolby_ieq_preset_warm">နွေးထွေး</string>
+    <string name="dolby_geq_title">အသံချိန်ညှိကိရိယာ</string>
+    <string name="dolby_geq_summary">ကြိမ်နှုန်းလှိုင်း 10 ခုကို ချိန်ညှိရန်</string>
+    <string name="dolby_geq_reset_title">ညီညာသော အသံအဆင့်သို့ ပြန်သတ်မှတ်ရန်</string>
+    <string name="category_dolby_movie_title">ရုပ်ရှင်မုဒ်</string>
+    <string name="dolby_dialogue_level_title">စကားပြောသံ မြှင့်တင်မှု</string>
+    <string name="dolby_dialogue_level_summary">စကားပြောသံကို ပိုမိုကြည်လင်စေသည်။ 0 သတ်မှတ်ခြင်းဖြင့် ပိတ်မည်။</string>
+    <string name="category_dolby_apps_title">အက်ပ်များ</string>
+    <string name="dolby_app_profiles_enabled_title">အက်ပ်အလိုက် မုဒ်ပြောင်းရန်</string>
+    <string name="dolby_app_profiles_enabled_summary">အက်ပ်တစ်ခုက အသံဖွင့်နေစဉ် ၎င်းအတွက် သတ်မှတ်ထားသော မုဒ်ကို အသုံးပြုရန်</string>
+    <string name="dolby_app_profiles_title">အက်ပ်မုဒ်များ</string>
+    <string name="dolby_app_profiles_summary">အက်ပ်တစ်ခုစီအတွက် မုဒ်ကို ရွေးပါ။ သိရှိထားသော တေးဂီတနှင့် ဗီဒီယိုအက်ပ်များကို တေးဂီတနှင့် ရုပ်ရှင်မုဒ်များဖြင့် စတင်သတ်မှတ်ထားသည်။</string>
+    <string name="dolby_app_profile_default">မူရင်းမုဒ်</string>
+
+    <string name="perf_title">စွမ်းဆောင်ရည်ပရိုဖိုင်များ</string>
+    <string name="perf_summary">MediaTek Dimensity ၏ စွမ်းဆောင်ရည်နှင့် အပူထိန်းချုပ်မှုမူဝါဒများကို ချိန်ညှိပါ</string>
+    <string name="perf_enabled_title">အက်ပ်အလိုက် စွမ်းဆောင်ရည်ကို ချိန်ညှိရန်</string>
+    <string name="perf_enabled_summary">ရှေ့မျက်နှာပြင်တွင် အသုံးပြုနေသော အက်ပ်ကို MediaTek ပါဝါဝန်ဆောင်မှုထံ အသိပေးပြီး ၎င်း၏ပရိုဖိုင်ကို အသုံးပြုပါ။ ထုတ်လုပ်သူ သို့မဟုတ် အကြံပြုထားသော ပရိုဖိုင်ရှိသည့် အက်ပ်များသည် ၎င်းတို့ကို မူရင်းအတိုင်း အသုံးပြုသည်။</string>
+    <string name="category_perf_known_apps">ပရိုဖိုင်ရှိသော အက်ပ်များ</string>
+    <string name="category_perf_other_apps">အခြားအက်ပ်များ</string>
+    <string name="perf_mode_title">ပရိုဖိုင်</string>
+    <string name="perf_mode_vendor">ထုတ်လုပ်သူအတိုင်း လိုက်ရန်</string>
+    <string name="perf_mode_default">မူရင်း</string>
+    <string name="perf_mode_custom">စိတ်ကြိုက်</string>
+    <string name="perf_mode_off">ပိတ်</string>
+    <string name="perf_mode_vendor_summary">ထုတ်လုပ်သူအတိုင်း လိုက်ရန်: %1$s</string>
+    <string name="perf_mode_recommended">အကြံပြုထားသည်</string>
+    <string name="perf_mode_recommended_summary">အကြံပြုထားသည်: %1$s</string>
+    <string name="perf_mode_custom_summary">စိတ်ကြိုက်: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s၊ အဆင့်မြင့်</string>
+    <string name="perf_preset_title">ကြိုတင်သတ်မှတ်ချက်</string>
+    <string name="perf_preset_none">မရှိ</string>
+    <string name="perf_preset_details_title">ကြိုတင်သတ်မှတ်ချက်ဆက်တင်များ</string>
+    <string name="perf_preset_thermal">အပူထိန်းချုပ်မှုမူဝါဒ %1$d</string>
+    <string name="perf_preset_cpu_max">CPU အများဆုံး %1$s</string>
+    <string name="perf_preset_cpu_min">CPU အနည်းဆုံး %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO ဖရိမ်ချိန်ညှိမှု</string>
+    <plurals name="perf_preset_count">
+        <item quantity="other">ဆက်တင် %1$d ခု</item>
+    </plurals>
+    <string name="perf_category_video">ဗီဒီယို</string>
+    <string name="perf_category_camera">ကင်မရာ</string>
+    <string name="perf_category_communication">ဆက်သွယ်ရေး</string>
+    <string name="perf_category_music">တေးဂီတ</string>
+    <string name="perf_category_app_clone">ပုံတူပွားအက်ပ်</string>
+    <string name="perf_category_benchmark">စွမ်းဆောင်ရည်စမ်းသပ်မှု</string>
+    <string name="perf_category_game">ဂိမ်း</string>
+    <string name="perf_advanced_title">အဆင့်မြင့်ဆက်တင်များ</string>
+    <string name="perf_advanced_summary">ကြိုတင်သတ်မှတ်ချက်မှ စတင်၍ CPU ကြိမ်နှုန်းကန့်သတ်ချက်များကို သတ်မှတ်ပြီး ပြန်လည်စတင်နှုန်းကို လော့ခ်ချရန်</string>
+    <string name="category_perf_cpu">CPU ကြိမ်နှုန်း</string>
+    <string name="perf_cluster_little">သေးငယ်သော core များ</string>
+    <string name="perf_cluster_medium">အလယ်အလတ် core များ</string>
+    <string name="perf_cluster_big">ကြီးမားသော core များ</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: အနည်းဆုံး ကြိမ်နှုန်း</string>
+    <string name="perf_cpu_max_title">%1$s: အများဆုံး ကြိမ်နှုန်း</string>
+    <string name="perf_refresh_rate_title">ပြန်လည်စတင်နှုန်း လော့ခ်ချခြင်း</string>
+    <string name="perf_refresh_rate_none">လော့ခ်မချထားပါ</string>
+    <string name="perf_advanced_reset_title">ကြိုတင်သတ်မှတ်ချက်သို့ ပြန်သတ်မှတ်ရန်</string>
+
+    <string name="tile_reading_low_refresh">စာဖတ်မုဒ် 30 Hz</string>
+    <string name="tile_touch_game_mode">ထိတွေ့ဂိမ်းမုဒ်</string>
+    <string name="tile_smart_cover">စမတ်ခေါက်ဖုံး</string>
+</resources>

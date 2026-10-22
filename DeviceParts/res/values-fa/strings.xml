@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">ویژگی‌های دستگاه</string>
+
+    <string name="device_parts_title">ویژگی‌های دستگاه</string>
+    <string name="device_parts_summary">عملکرد، قلم، لمس، Dolby Atmos و قاب تاشو</string>
+    <string name="display_parts_title">قلم و لمس</string>
+    <string name="display_parts_summary">نرخ نوسازی قلم، نرخ نوسازی حالت مطالعه و حالت بازی لمسی</string>
+
+    <string name="category_display_title">نرخ نوسازی</string>
+    <string name="category_touch_title">لمس</string>
+    <string name="category_cover_title">قاب تاشو</string>
+    <string name="category_audio_title">صدا</string>
+    <string name="category_perf_title">عملکرد</string>
+
+    <string name="pen_refresh_cap_title">محدود کردن به ۱۲۰ هرتز هنگام استفاده از قلم</string>
+    <string name="pen_refresh_cap_summary">گزارش شده که قلم فعال فقط تا ۱۲۰ هرتز کار می‌کند. محدودیت ۱۰ ثانیه پس از آخرین ورودی قلم برداشته می‌شود.</string>
+    <string name="reading_low_refresh_title">۳۰ هرتز در حالت مطالعه</string>
+    <string name="reading_low_refresh_summary">هنگام روشن بودن حالت مطالعه، نرخ نوسازی را کاهش دهید</string>
+    <string name="reading_low_refresh_unavailable">حالت مطالعه دردسترس نیست</string>
+    <string name="touch_game_mode_title">حالت بازی لمسی</string>
+    <string name="touch_game_mode_summary">حالت بازی کنترل‌گر لمسی. پس از راه‌اندازی مجدد دوباره خاموش می‌شود.</string>
+    <string name="touch_game_mode_unavailable">دردسترس نیست</string>
+    <string name="smart_cover_title">قاب هوشمند</string>
+    <string name="smart_cover_summary">با بستن قاب تاشو، صفحه‌نمایش را خاموش و قفل کنید</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">حالت صدا، همسان‌ساز، بهبود گفتگو و حالت‌های برنامه</string>
+    <string name="dolby_enable_title">استفاده از Dolby Atmos</string>
+    <string name="dolby_profile_title">حالت پیش‌فرض</string>
+    <string name="dolby_profile_dynamic">پویا</string>
+    <string name="dolby_profile_movie">فیلم</string>
+    <string name="dolby_profile_music">موسیقی</string>
+    <string name="category_dolby_music_title">حالت موسیقی</string>
+    <string name="dolby_ieq_preset_title">جلوه صوتی</string>
+    <string name="dolby_ieq_preset_none">هیچ‌کدام</string>
+    <string name="dolby_ieq_preset_detailed">با‌جزئیات</string>
+    <string name="dolby_ieq_preset_balanced">متعادل</string>
+    <string name="dolby_ieq_preset_warm">گرم</string>
+    <string name="dolby_geq_title">همسان‌ساز</string>
+    <string name="dolby_geq_summary">تنظیم ۱۰ باند فرکانس</string>
+    <string name="dolby_geq_reset_title">بازنشانی به حالت تخت</string>
+    <string name="dolby_geq_band_hz">%1$d هرتز</string>
+    <string name="dolby_geq_band_khz">%1$.1f کیلوهرتز</string>
+    <string name="category_dolby_movie_title">حالت فیلم</string>
+    <string name="dolby_dialogue_level_title">بهبود گفتگو</string>
+    <string name="dolby_dialogue_level_summary">گفتار را واضح‌تر می‌کند. مقدار ۰ آن را خاموش می‌کند.</string>
+    <string name="category_dolby_apps_title">برنامه‌ها</string>
+    <string name="dolby_app_profiles_enabled_title">تغییر حالت بر اساس برنامه</string>
+    <string name="dolby_app_profiles_enabled_summary">هنگام پخش صدا در یک برنامه، از حالت تنظیم‌شده برای آن استفاده شود</string>
+    <string name="dolby_app_profiles_title">حالت‌های برنامه</string>
+    <string name="dolby_app_profiles_summary">حالت هر برنامه را انتخاب کنید. برنامه‌های شناخته‌شده موسیقی و ویدیو با حالت موسیقی و فیلم شروع می‌شوند.</string>
+    <string name="dolby_app_profile_default">حالت پیش‌فرض</string>
+
+    <string name="perf_title">نمایه‌های عملکرد</string>
+    <string name="perf_summary">تنظیم عملکرد MediaTek Dimensity و خط‌مشی‌های حرارتی</string>
+    <string name="perf_enabled_title">تنظیم عملکرد بر اساس برنامه</string>
+    <string name="perf_enabled_summary">به سرویس توان MediaTek می‌گوید کدام برنامه در پیش‌زمینه است و نمایه آن را اعمال می‌کند. برنامه‌هایی که نمایه سازنده یا پیشنهادی دارند به‌طور پیش‌فرض از آن استفاده می‌کنند.</string>
+    <string name="category_perf_known_apps">برنامه‌های دارای نمایه</string>
+    <string name="category_perf_other_apps">برنامه‌های دیگر</string>
+    <string name="perf_mode_title">نمایه</string>
+    <string name="perf_mode_vendor">پیروی از سازنده</string>
+    <string name="perf_mode_default">پیش‌فرض</string>
+    <string name="perf_mode_custom">سفارشی</string>
+    <string name="perf_mode_off">خاموش</string>
+    <string name="perf_mode_vendor_summary">پیروی از سازنده: %1$s</string>
+    <string name="perf_mode_recommended">پیشنهادی</string>
+    <string name="perf_mode_recommended_summary">پیشنهادی: %1$s</string>
+    <string name="perf_mode_custom_summary">سفارشی: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s، پیشرفته</string>
+    <string name="perf_preset_title">ازپیش‌تنظیم‌شده</string>
+    <string name="perf_preset_none">هیچ‌کدام</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">تنظیمات ازپیش‌تنظیم‌شده</string>
+    <string name="perf_preset_thermal">خط‌مشی حرارتی %1$d</string>
+    <string name="perf_preset_cpu_max">حداکثر CPU‏ %1$s</string>
+    <string name="perf_preset_cpu_min">حداقل CPU‏ %1$s</string>
+    <string name="perf_preset_fpsgo">تنظیم فریم FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d تنظیم</item>
+        <item quantity="other">%1$d تنظیم</item>
+    </plurals>
+    <string name="perf_category_video">ویدیو</string>
+    <string name="perf_category_camera">دوربین</string>
+    <string name="perf_category_communication">ارتباطات</string>
+    <string name="perf_category_music">موسیقی</string>
+    <string name="perf_category_app_clone">همسان‌سازی برنامه</string>
+    <string name="perf_category_benchmark">معیار سنجش</string>
+    <string name="perf_category_game">بازی</string>
+    <string name="perf_advanced_title">پارامترهای پیشرفته</string>
+    <string name="perf_advanced_summary">تنظیم محدودیت فرکانس CPU و قفل کردن نرخ نوسازی، با شروع از ازپیش‌تنظیم‌شده</string>
+    <string name="category_perf_cpu">فرکانس CPU</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">هسته‌های کوچک</string>
+    <string name="perf_cluster_medium">هسته‌های متوسط</string>
+    <string name="perf_cluster_big">هسته‌های بزرگ</string>
+    <string name="perf_cluster_title">%1$s (CPU‏ %2$s)</string>
+    <string name="perf_cpu_range">%1$d–%2$d</string>
+    <string name="perf_cpu_min_title">حداقل فرکانس %1$s</string>
+    <string name="perf_cpu_max_title">حداکثر فرکانس %1$s</string>
+    <string name="perf_freq_ghz">%1$.2f گیگاهرتز</string>
+    <string name="perf_freq_mhz">%1$d مگاهرتز</string>
+    <string name="perf_refresh_rate_title">قفل نرخ نوسازی</string>
+    <string name="perf_refresh_rate_none">قفل نشده</string>
+    <string name="perf_refresh_rate_hz">%1$d هرتز</string>
+    <string name="perf_advanced_reset_title">بازنشانی به ازپیش‌تنظیم‌شده</string>
+
+    <string name="tile_reading_low_refresh">مطالعه ۳۰ هرتز</string>
+    <string name="tile_touch_game_mode">حالت بازی لمسی</string>
+    <string name="tile_smart_cover">قاب هوشمند</string>
+</resources>

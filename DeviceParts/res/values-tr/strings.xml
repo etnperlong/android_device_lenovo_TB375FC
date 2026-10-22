@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Cihaz özellikleri</string>
+
+    <string name="device_parts_title">Cihaz özellikleri</string>
+    <string name="device_parts_summary">Performans, ekran kalemi, dokunma, Dolby Atmos ve kapaklı kılıf</string>
+    <string name="display_parts_title">Ekran kalemi ve dokunma</string>
+    <string name="display_parts_summary">Ekran kalemi yenileme hızı, okuma modu yenileme hızı, dokunmatik oyun modu</string>
+
+    <string name="category_display_title">Yenileme hızı</string>
+    <string name="category_touch_title">Dokunma</string>
+    <string name="category_cover_title">Kapaklı kılıf</string>
+    <string name="category_audio_title">Ses</string>
+    <string name="category_perf_title">Performans</string>
+
+    <string name="pen_refresh_cap_title">Ekran kalemi kullanırken 120 Hz ile sınırla</string>
+    <string name="pen_refresh_cap_summary">Etkin ekran kaleminin yalnızca 120 Hz\'e kadar çalıştığı bildiriliyor. Son kalem girişinden 10 saniye sonra sınır kaldırılır.</string>
+    <string name="reading_low_refresh_title">Okuma modunda 30 Hz</string>
+    <string name="reading_low_refresh_summary">Okuma modu açıkken yenileme hızını düşür</string>
+    <string name="reading_low_refresh_unavailable">Okuma modu kullanılamıyor</string>
+    <string name="touch_game_mode_title">Dokunmatik oyun modu</string>
+    <string name="touch_game_mode_summary">Dokunmatik denetleyicinin oyun modu. Yeniden başlatmanın ardından tekrar kapanır.</string>
+    <string name="touch_game_mode_unavailable">Kullanılamıyor</string>
+    <string name="smart_cover_title">Akıllı kapak</string>
+    <string name="smart_cover_summary">Kapak kapatıldığında ekranı kapat ve cihazı kilitle</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Ses modu, ekolayzer, diyalog iyileştirici ve uygulama modları</string>
+    <string name="dolby_enable_title">Dolby Atmos\'u kullan</string>
+    <string name="dolby_profile_title">Varsayılan mod</string>
+    <string name="dolby_profile_dynamic">Dinamik</string>
+    <string name="dolby_profile_movie">Film</string>
+    <string name="dolby_profile_music">Müzik</string>
+    <string name="category_dolby_music_title">Müzik modu</string>
+    <string name="dolby_ieq_preset_title">Ses efekti</string>
+    <string name="dolby_ieq_preset_none">Yok</string>
+    <string name="dolby_ieq_preset_detailed">Ayrıntılı</string>
+    <string name="dolby_ieq_preset_balanced">Dengeli</string>
+    <string name="dolby_ieq_preset_warm">Sıcak</string>
+    <string name="dolby_geq_title">Ekolayzer</string>
+    <string name="dolby_geq_summary">10 frekans bandını ayarla</string>
+    <string name="dolby_geq_reset_title">Düz ayara sıfırla</string>
+    <string name="dolby_geq_band_hz">%1$d Hz</string>
+    <string name="dolby_geq_band_khz">%1$.1f kHz</string>
+    <string name="category_dolby_movie_title">Film modu</string>
+    <string name="dolby_dialogue_level_title">Diyalog iyileştirici</string>
+    <string name="dolby_dialogue_level_summary">Konuşmaları daha anlaşılır hâle getirir. 0, özelliği kapatır.</string>
+    <string name="category_dolby_apps_title">Uygulamalar</string>
+    <string name="dolby_app_profiles_enabled_title">Modu uygulamaya göre değiştir</string>
+    <string name="dolby_app_profiles_enabled_summary">Bir uygulama ses çalarken o uygulama için ayarlanan modu kullan</string>
+    <string name="dolby_app_profiles_title">Uygulama modları</string>
+    <string name="dolby_app_profiles_summary">Her uygulama için bir mod seçin. Bilinen müzik ve video uygulamaları başlangıçta Müzik ve Film modlarını kullanır.</string>
+    <string name="dolby_app_profile_default">Varsayılan mod</string>
+
+    <string name="perf_title">Performans profilleri</string>
+    <string name="perf_summary">MediaTek Dimensity performansını ve termal politikalarını ayarla</string>
+    <string name="perf_enabled_title">Performansı uygulamaya göre ayarla</string>
+    <string name="perf_enabled_summary">Öndeki uygulamayı MediaTek güç hizmetine bildir ve profilini uygula. Üretici veya önerilen profili olan uygulamalar, bu profilleri varsayılan olarak kullanır.</string>
+    <string name="category_perf_known_apps">Profili olan uygulamalar</string>
+    <string name="category_perf_other_apps">Diğer uygulamalar</string>
+    <string name="perf_mode_title">Profil</string>
+    <string name="perf_mode_vendor">Üretici ayarlarını kullan</string>
+    <string name="perf_mode_default">Varsayılan</string>
+    <string name="perf_mode_custom">Özel</string>
+    <string name="perf_mode_off">Kapalı</string>
+    <string name="perf_mode_vendor_summary">Üretici ayarları: %1$s</string>
+    <string name="perf_mode_recommended">Önerilen</string>
+    <string name="perf_mode_recommended_summary">Önerilen: %1$s</string>
+    <string name="perf_mode_custom_summary">Özel: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, gelişmiş</string>
+    <string name="perf_preset_title">Ön ayar</string>
+    <string name="perf_preset_none">Yok</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Ön ayar ayrıntıları</string>
+    <string name="perf_preset_thermal">Termal politika %1$d</string>
+    <string name="perf_preset_cpu_max">CPU maksimumu %1$s</string>
+    <string name="perf_preset_cpu_min">CPU minimumu %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO kare hızı düzenleme</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d ayar</item>
+        <item quantity="other">%1$d ayar</item>
+    </plurals>
+    <string name="perf_category_video">Video</string>
+    <string name="perf_category_camera">Kamera</string>
+    <string name="perf_category_communication">İletişim</string>
+    <string name="perf_category_music">Müzik</string>
+    <string name="perf_category_app_clone">Klonlanmış uygulama</string>
+    <string name="perf_category_benchmark">Performans testi</string>
+    <string name="perf_category_game">Oyun</string>
+    <string name="perf_advanced_title">Gelişmiş parametreler</string>
+    <string name="perf_advanced_summary">Ön ayarı temel alarak CPU frekans sınırlarını ayarla ve yenileme hızını kilitle</string>
+    <string name="category_perf_cpu">CPU frekansı</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">Küçük çekirdekler</string>
+    <string name="perf_cluster_medium">Orta çekirdekler</string>
+    <string name="perf_cluster_big">Büyük çekirdekler</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: minimum frekans</string>
+    <string name="perf_cpu_max_title">%1$s: maksimum frekans</string>
+    <string name="perf_freq_ghz">%1$.2f GHz</string>
+    <string name="perf_freq_mhz">%1$d MHz</string>
+    <string name="perf_refresh_rate_title">Yenileme hızı kilidi</string>
+    <string name="perf_refresh_rate_none">Kilitli değil</string>
+    <string name="perf_refresh_rate_hz">%1$d Hz</string>
+    <string name="perf_advanced_reset_title">Ön ayara sıfırla</string>
+
+    <string name="tile_reading_low_refresh">Okuma 30 Hz</string>
+    <string name="tile_touch_game_mode">Dokunmatik oyun modu</string>
+    <string name="tile_smart_cover">Akıllı kapak</string>
+</resources>

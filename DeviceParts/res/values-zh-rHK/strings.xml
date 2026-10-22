@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">裝置功能</string>
+
+    <string name="device_parts_title">裝置功能</string>
+    <string name="device_parts_summary">效能、觸控筆、觸控、杜比全景聲與翻蓋保護套</string>
+    <string name="display_parts_title">觸控筆與觸控</string>
+    <string name="display_parts_summary">觸控筆更新率、閱讀模式更新率、觸控遊戲模式</string>
+
+    <string name="category_display_title">更新率</string>
+    <string name="category_touch_title">觸控</string>
+    <string name="category_cover_title">翻蓋保護套</string>
+    <string name="category_audio_title">音訊</string>
+    <string name="category_perf_title">效能</string>
+
+    <string name="pen_refresh_cap_title">使用觸控筆時限制為 120 Hz</string>
+    <string name="pen_refresh_cap_summary">主動式觸控筆回報僅支援最高 120 Hz。最後一次觸控筆輸入後 10 秒即解除限制。</string>
+    <string name="reading_low_refresh_title">閱讀模式下使用 30 Hz</string>
+    <string name="reading_low_refresh_summary">開啟閱讀模式時降低更新率</string>
+    <string name="reading_low_refresh_unavailable">閱讀模式無法使用</string>
+    <string name="touch_game_mode_title">觸控遊戲模式</string>
+    <string name="touch_game_mode_summary">觸控控制器的遊戲模式。重新啟動後會再次關閉。</string>
+    <string name="touch_game_mode_unavailable">無法使用</string>
+    <string name="smart_cover_title">智能翻蓋保護套</string>
+    <string name="smart_cover_summary">合上翻蓋保護套時讓裝置進入休眠並鎖定</string>
+
+    <string name="dolby_title">杜比全景聲</string>
+    <string name="dolby_summary">音效模式、等化器、對話增強器與應用程式模式</string>
+    <string name="dolby_enable_title">使用杜比全景聲</string>
+    <string name="dolby_profile_title">預設模式</string>
+    <string name="dolby_profile_dynamic">動態</string>
+    <string name="dolby_profile_movie">電影</string>
+    <string name="dolby_profile_music">音樂</string>
+    <string name="category_dolby_music_title">音樂模式</string>
+    <string name="dolby_ieq_preset_title">音效</string>
+    <string name="dolby_ieq_preset_none">無</string>
+    <string name="dolby_ieq_preset_detailed">明亮</string>
+    <string name="dolby_ieq_preset_balanced">平衡</string>
+    <string name="dolby_ieq_preset_warm">溫暖</string>
+    <string name="dolby_geq_title">等化器</string>
+    <string name="dolby_geq_summary">調整 10 個頻段</string>
+    <string name="dolby_geq_reset_title">重設為平直曲線</string>
+    <string name="category_dolby_movie_title">電影模式</string>
+    <string name="dolby_dialogue_level_title">對話增強器</string>
+    <string name="dolby_dialogue_level_summary">令語音更清晰。設為 0 即可關閉。</string>
+    <string name="category_dolby_apps_title">應用程式</string>
+    <string name="dolby_app_profiles_enabled_title">按應用程式切換模式</string>
+    <string name="dolby_app_profiles_enabled_summary">應用程式播放音訊時，使用為其設定的模式</string>
+    <string name="dolby_app_profiles_title">應用程式模式</string>
+    <string name="dolby_app_profiles_summary">為每個應用程式選擇模式。已知的音樂和影片應用程式預設使用音樂和電影模式。</string>
+    <string name="dolby_app_profile_default">預設模式</string>
+
+    <string name="perf_title">效能設定檔</string>
+    <string name="perf_summary">調整聯發科天璣的效能和溫控策略</string>
+    <string name="perf_enabled_title">按應用程式調整效能</string>
+    <string name="perf_enabled_summary">通知聯發科電源服務目前置於前景的應用程式，並套用其設定檔。具有廠商或建議設定檔的應用程式預設會使用該設定檔。</string>
+    <string name="category_perf_known_apps">具有設定檔的應用程式</string>
+    <string name="category_perf_other_apps">其他應用程式</string>
+    <string name="perf_mode_title">設定檔</string>
+    <string name="perf_mode_vendor">跟隨廠商設定</string>
+    <string name="perf_mode_default">預設</string>
+    <string name="perf_mode_custom">自訂</string>
+    <string name="perf_mode_off">關閉</string>
+    <string name="perf_mode_vendor_summary">跟隨廠商設定：%1$s</string>
+    <string name="perf_mode_recommended">建議</string>
+    <string name="perf_mode_recommended_summary">建議：%1$s</string>
+    <string name="perf_mode_custom_summary">自訂：%1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s，進階</string>
+    <string name="perf_preset_title">預設集</string>
+    <string name="perf_preset_none">無</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">預設集內容</string>
+    <string name="perf_preset_thermal">溫控策略 %1$d</string>
+    <string name="perf_preset_cpu_max">CPU 最高頻率 %1$s</string>
+    <string name="perf_preset_cpu_min">CPU 最低頻率 %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO 影格速率調度</string>
+    <plurals name="perf_preset_count">
+        <item quantity="other">%1$d 項設定</item>
+    </plurals>
+    <string name="perf_category_video">影片</string>
+    <string name="perf_category_camera">相機</string>
+    <string name="perf_category_communication">通訊</string>
+    <string name="perf_category_music">音樂</string>
+    <string name="perf_category_app_clone">複製應用程式</string>
+    <string name="perf_category_benchmark">效能測試</string>
+    <string name="perf_category_game">遊戲</string>
+    <string name="perf_advanced_title">進階參數</string>
+    <string name="perf_advanced_summary">以預設集為基礎設定 CPU 頻率上下限，並鎖定更新率</string>
+    <string name="category_perf_cpu">CPU 頻率</string>
+    <string name="perf_cluster_little">小核心</string>
+    <string name="perf_cluster_medium">中核心</string>
+    <string name="perf_cluster_big">大核心</string>
+    <string name="perf_cluster_title">%1$s（CPU %2$s）</string>
+    <string name="perf_cpu_min_title">%1$s：最低頻率</string>
+    <string name="perf_cpu_max_title">%1$s：最高頻率</string>
+    <string name="perf_refresh_rate_title">鎖定更新率</string>
+    <string name="perf_refresh_rate_none">未鎖定</string>
+    <string name="perf_advanced_reset_title">還原為預設集設定</string>
+
+    <string name="tile_reading_low_refresh">閱讀模式 30 Hz</string>
+    <string name="tile_touch_game_mode">觸控遊戲模式</string>
+    <string name="tile_smart_cover">智能翻蓋保護套</string>
+</resources>

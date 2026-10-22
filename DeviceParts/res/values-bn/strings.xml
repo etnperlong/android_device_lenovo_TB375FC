@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">ডিভাইসের ফিচার</string>
+
+    <string name="device_parts_title">ডিভাইসের ফিচার</string>
+    <string name="device_parts_summary">পারফরম্যান্স, স্টাইলাস, টাচ, Dolby Atmos ও ফোলিও কভার</string>
+    <string name="display_parts_title">স্টাইলাস ও টাচ</string>
+    <string name="display_parts_summary">স্টাইলাস রিফ্রেশ রেট, রিডিং মোডের রিফ্রেশ রেট, টাচ গেম মোড</string>
+
+    <string name="category_display_title">রিফ্রেশ রেট</string>
+    <string name="category_touch_title">টাচ</string>
+    <string name="category_cover_title">ফোলিও কভার</string>
+    <string name="category_audio_title">অডিও</string>
+    <string name="category_perf_title">পারফরম্যান্স</string>
+
+    <string name="pen_refresh_cap_title">স্টাইলাস ব্যবহার করার সময় 120 Hz-এ সীমিত করুন</string>
+    <string name="pen_refresh_cap_summary">অ্যাক্টিভ স্টাইলাসটি সর্বোচ্চ 120 Hz পর্যন্ত কাজ করে। স্টাইলাস দিয়ে শেষবার ইনপুট দেওয়ার 10 সেকেন্ড পরে সীমাটি উঠে যাবে।</string>
+    <string name="reading_low_refresh_title">রিডিং মোডে 30 Hz</string>
+    <string name="reading_low_refresh_summary">রিডিং মোড চালু থাকলে রিফ্রেশ রেট কমান</string>
+    <string name="reading_low_refresh_unavailable">রিডিং মোড উপলভ্য নয়</string>
+    <string name="touch_game_mode_title">টাচ গেম মোড</string>
+    <string name="touch_game_mode_summary">টাচ কন্ট্রোলারের গেম মোড। রিস্টার্ট করলে আবার বন্ধ হয়ে যায়।</string>
+    <string name="touch_game_mode_unavailable">উপলভ্য নয়</string>
+    <string name="smart_cover_title">স্মার্ট কভার</string>
+    <string name="smart_cover_summary">ফোলিও কভার বন্ধ করলে ডিভাইস স্লিপ ও লক করুন</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">সাউন্ড মোড, ইকুয়ালাইজার, ডায়ালগ এনহ্যান্সার ও অ্যাপ মোড</string>
+    <string name="dolby_enable_title">Dolby Atmos ব্যবহার করুন</string>
+    <string name="dolby_profile_title">ডিফল্ট মোড</string>
+    <string name="dolby_profile_dynamic">ডায়নামিক</string>
+    <string name="dolby_profile_movie">মুভি</string>
+    <string name="dolby_profile_music">মিউজিক</string>
+    <string name="category_dolby_music_title">মিউজিক মোড</string>
+    <string name="dolby_ieq_preset_title">সাউন্ড এফেক্ট</string>
+    <string name="dolby_ieq_preset_none">কোনওটি নয়</string>
+    <string name="dolby_ieq_preset_detailed">বিস্তারিত</string>
+    <string name="dolby_ieq_preset_balanced">ভারসাম্যপূর্ণ</string>
+    <string name="dolby_ieq_preset_warm">ওয়ার্ম</string>
+    <string name="dolby_geq_title">ইকুয়ালাইজার</string>
+    <string name="dolby_geq_summary">10টি ফ্রিকোয়েন্সি ব্যান্ড অ্যাডজাস্ট করুন</string>
+    <string name="dolby_geq_reset_title">ফ্ল্যাটে রিসেট করুন</string>
+    <string name="category_dolby_movie_title">মুভি মোড</string>
+    <string name="dolby_dialogue_level_title">ডায়ালগ এনহ্যান্সার</string>
+    <string name="dolby_dialogue_level_summary">কথা আরও স্পষ্ট শোনা যায়। 0 করলে এটি বন্ধ হয়।</string>
+    <string name="category_dolby_apps_title">অ্যাপ</string>
+    <string name="dolby_app_profiles_enabled_title">অ্যাপ অনুযায়ী মোড বদলান</string>
+    <string name="dolby_app_profiles_enabled_summary">কোনও অ্যাপ অডিও চালালে সেটির জন্য বেছে নেওয়া মোড ব্যবহার করুন</string>
+    <string name="dolby_app_profiles_title">অ্যাপের মোড</string>
+    <string name="dolby_app_profiles_summary">প্রতিটি অ্যাপের জন্য মোড বেছে নিন। পরিচিত মিউজিক ও ভিডিও অ্যাপ প্রথমে মিউজিক ও মুভি মোড ব্যবহার করে।</string>
+    <string name="dolby_app_profile_default">ডিফল্ট মোড</string>
+
+    <string name="perf_title">পারফরম্যান্স প্রোফাইল</string>
+    <string name="perf_summary">MediaTek Dimensity-এর পারফরম্যান্স ও থার্মাল পলিসি টিউন করুন</string>
+    <string name="perf_enabled_title">অ্যাপ অনুযায়ী পারফরম্যান্স অ্যাডজাস্ট করুন</string>
+    <string name="perf_enabled_summary">MediaTek পাওয়ার সার্ভিসকে জানান কোন অ্যাপ সামনে আছে এবং তার প্রোফাইল প্রয়োগ করুন। ভেন্ডর বা প্রস্তাবিত প্রোফাইল থাকা অ্যাপ ডিফল্টভাবে সেগুলি ব্যবহার করে।</string>
+    <string name="category_perf_known_apps">প্রোফাইল থাকা অ্যাপ</string>
+    <string name="category_perf_other_apps">অন্যান্য অ্যাপ</string>
+    <string name="perf_mode_title">প্রোফাইল</string>
+    <string name="perf_mode_vendor">ভেন্ডরের অনুসরণ করুন</string>
+    <string name="perf_mode_default">ডিফল্ট</string>
+    <string name="perf_mode_custom">কাস্টম</string>
+    <string name="perf_mode_off">বন্ধ</string>
+    <string name="perf_mode_vendor_summary">ভেন্ডরের অনুসরণ করুন: %1$s</string>
+    <string name="perf_mode_recommended">প্রস্তাবিত</string>
+    <string name="perf_mode_recommended_summary">প্রস্তাবিত: %1$s</string>
+    <string name="perf_mode_custom_summary">কাস্টম: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, অ্যাডভান্সড</string>
+    <string name="perf_preset_title">প্রিসেট</string>
+    <string name="perf_preset_none">কোনওটি নয়</string>
+    <string name="perf_preset_details_title">প্রিসেটের সেটিং</string>
+    <string name="perf_preset_thermal">থার্মাল পলিসি %1$d</string>
+    <string name="perf_preset_cpu_max">CPU সর্বোচ্চ %1$s</string>
+    <string name="perf_preset_cpu_min">CPU সর্বনিম্ন %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO ফ্রেম পেসিং</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$dটি সেটিং</item>
+        <item quantity="other">%1$dটি সেটিং</item>
+    </plurals>
+    <string name="perf_category_video">ভিডিও</string>
+    <string name="perf_category_camera">ক্যামেরা</string>
+    <string name="perf_category_communication">যোগাযোগ</string>
+    <string name="perf_category_music">মিউজিক</string>
+    <string name="perf_category_app_clone">ক্লোন করা অ্যাপ</string>
+    <string name="perf_category_benchmark">বেঞ্চমার্ক</string>
+    <string name="perf_category_game">গেম</string>
+    <string name="perf_advanced_title">অ্যাডভান্সড প্যারামিটার</string>
+    <string name="perf_advanced_summary">প্রিসেট থেকে CPU ফ্রিকোয়েন্সির সীমা সেট করুন এবং রিফ্রেশ রেট লক করুন</string>
+    <string name="category_perf_cpu">CPU ফ্রিকোয়েন্সি</string>
+    <string name="perf_cluster_little">লো-পাওয়ার কোর</string>
+    <string name="perf_cluster_medium">মিডিয়াম কোর</string>
+    <string name="perf_cluster_big">হাই-পাওয়ার কোর</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: সর্বনিম্ন</string>
+    <string name="perf_cpu_max_title">%1$s: সর্বোচ্চ</string>
+    <string name="perf_refresh_rate_title">রিফ্রেশ রেট লক</string>
+    <string name="perf_refresh_rate_none">লক করা নেই</string>
+    <string name="perf_advanced_reset_title">প্রিসেটে রিসেট করুন</string>
+
+    <string name="tile_reading_low_refresh">রিডিং 30 Hz</string>
+    <string name="tile_touch_game_mode">টাচ গেম মোড</string>
+    <string name="tile_smart_cover">স্মার্ট কভার</string>
+</resources>

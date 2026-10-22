@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Apparaatfuncties</string>
+
+    <string name="device_parts_title">Apparaatfuncties</string>
+    <string name="device_parts_summary">Prestaties, stylus, aanraking, Dolby Atmos en foliohoes</string>
+    <string name="display_parts_title">Stylus en touchscreen</string>
+    <string name="display_parts_summary">Vernieuwingssnelheid voor stylus, leesmodus en touchgamemodus</string>
+
+    <string name="category_display_title">Vernieuwingssnelheid</string>
+    <string name="category_touch_title">Touch</string>
+    <string name="category_cover_title">Foliohoes</string>
+    <string name="category_audio_title">Audio</string>
+    <string name="category_perf_title">Prestaties</string>
+
+    <string name="pen_refresh_cap_title">Beperk de vernieuwingssnelheid tot 120 Hz bij gebruik van de stylus</string>
+    <string name="pen_refresh_cap_summary">Volgens de melding werkt de actieve stylus slechts tot 120 Hz. De limiet wordt 10 seconden na de laatste peninvoer opgeheven.</string>
+    <string name="reading_low_refresh_title">30 Hz in leesmodus</string>
+    <string name="reading_low_refresh_summary">Verlaag de vernieuwingssnelheid wanneer de leesmodus is ingeschakeld</string>
+    <string name="reading_low_refresh_unavailable">Leesmodus is niet beschikbaar</string>
+    <string name="touch_game_mode_title">Touchgamemodus</string>
+    <string name="touch_game_mode_summary">Gamemodus van de touchcontroller. Wordt na een herstart weer uitgeschakeld.</string>
+    <string name="touch_game_mode_unavailable">Niet beschikbaar</string>
+    <string name="smart_cover_title">Slimme foliohoes</string>
+    <string name="smart_cover_summary">Scherm uitschakelen en vergrendelen wanneer de foliohoes wordt gesloten</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Geluidsmodus, equalizer, dialoogverbetering en app-modi</string>
+    <string name="dolby_enable_title">Dolby Atmos gebruiken</string>
+    <string name="dolby_profile_title">Standaardmodus</string>
+    <string name="dolby_profile_dynamic">Dynamisch</string>
+    <string name="dolby_profile_movie">Film</string>
+    <string name="dolby_profile_music">Muziek</string>
+    <string name="category_dolby_music_title">Muziekmodus</string>
+    <string name="dolby_ieq_preset_title">Geluidseffect</string>
+    <string name="dolby_ieq_preset_none">Geen</string>
+    <string name="dolby_ieq_preset_detailed">Gedetailleerd</string>
+    <string name="dolby_ieq_preset_balanced">Gebalanceerd</string>
+    <string name="dolby_ieq_preset_warm">Warm</string>
+    <string name="dolby_geq_title">Equalizer</string>
+    <string name="dolby_geq_summary">10 frequentiebanden aanpassen</string>
+    <string name="dolby_geq_reset_title">Resetten naar een vlakke curve</string>
+    <string name="category_dolby_movie_title">Filmmodus</string>
+    <string name="dolby_dialogue_level_title">Dialoogverbetering</string>
+    <string name="dolby_dialogue_level_summary">Maakt spraak duidelijker. Bij 0 wordt de functie uitgeschakeld.</string>
+    <string name="category_dolby_apps_title">Apps</string>
+    <string name="dolby_app_profiles_enabled_title">Modus per app wisselen</string>
+    <string name="dolby_app_profiles_enabled_summary">Gebruik de ingestelde modus voor een app wanneer deze audio afspeelt</string>
+    <string name="dolby_app_profiles_title">App-modi</string>
+    <string name="dolby_app_profiles_summary">Kies de modus voor elke app. Bekende muziek- en video-apps starten met de muziek- en filmmodus.</string>
+    <string name="dolby_app_profile_default">Standaardmodus</string>
+
+    <string name="perf_title">Prestatieprofielen</string>
+    <string name="perf_summary">Prestaties en thermisch beleid van MediaTek Dimensity afstellen</string>
+    <string name="perf_enabled_title">Prestaties per app aanpassen</string>
+    <string name="perf_enabled_summary">Geef de MediaTek-energieservice door welke app op de voorgrond staat en pas het bijbehorende profiel toe. Apps met een profiel van de fabrikant of een aanbevolen profiel gebruiken dit standaard.</string>
+    <string name="category_perf_known_apps">Apps met profielen</string>
+    <string name="category_perf_other_apps">Andere apps</string>
+    <string name="perf_mode_title">Profiel</string>
+    <string name="perf_mode_vendor">Fabrikant volgen</string>
+    <string name="perf_mode_default">Standaard</string>
+    <string name="perf_mode_custom">Aangepast</string>
+    <string name="perf_mode_off">Uit</string>
+    <string name="perf_mode_vendor_summary">Fabrikant volgen: %1$s</string>
+    <string name="perf_mode_recommended">Aanbevolen</string>
+    <string name="perf_mode_recommended_summary">Aanbevolen: %1$s</string>
+    <string name="perf_mode_custom_summary">Aangepast: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, geavanceerd</string>
+    <string name="perf_preset_title">Voorinstelling</string>
+    <string name="perf_preset_none">Geen</string>
+    <string name="perf_preset_details_title">Instellingen van de voorinstelling</string>
+    <string name="perf_preset_thermal">Thermisch beleid %1$d</string>
+    <string name="perf_preset_cpu_max">Max. CPU-frequentie %1$s</string>
+    <string name="perf_preset_cpu_min">Min. CPU-frequentie %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO-frame pacing</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d instelling</item>
+        <item quantity="other">%1$d instellingen</item>
+    </plurals>
+    <string name="perf_category_video">Video</string>
+    <string name="perf_category_camera">Camera</string>
+    <string name="perf_category_communication">Communicatie</string>
+    <string name="perf_category_music">Muziek</string>
+    <string name="perf_category_app_clone">App-kloon</string>
+    <string name="perf_category_benchmark">Benchmark</string>
+    <string name="perf_category_game">Game</string>
+    <string name="perf_advanced_title">Geavanceerde parameters</string>
+    <string name="perf_advanced_summary">Stel CPU-frequentielimieten in en vergrendel de vernieuwingssnelheid vanaf de voorinstelling</string>
+    <string name="category_perf_cpu">CPU-frequentie</string>
+    <string name="perf_cluster_little">Kleine kernen</string>
+    <string name="perf_cluster_medium">Middelgrote kernen</string>
+    <string name="perf_cluster_big">Grote kernen</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: minimumfrequentie</string>
+    <string name="perf_cpu_max_title">%1$s: maximumfrequentie</string>
+    <string name="perf_refresh_rate_title">Vernieuwingssnelheid vergrendelen</string>
+    <string name="perf_refresh_rate_none">Niet vergrendeld</string>
+    <string name="perf_advanced_reset_title">Terugzetten naar voorinstelling</string>
+
+    <string name="tile_reading_low_refresh">Leesmodus 30 Hz</string>
+    <string name="tile_touch_game_mode">Touchgamemodus</string>
+    <string name="tile_smart_cover">Foliohoes</string>
+</resources>

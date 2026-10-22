@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">උපාංග විශේෂාංග</string>
+
+    <string name="device_parts_title">උපාංග විශේෂාංග</string>
+    <string name="device_parts_summary">කාර්යසාධනය, පන්හිඳ, ස්පර්ශය, Dolby Atmos සහ ෆෝලියෝ කවරය</string>
+    <string name="display_parts_title">පන්හිඳ සහ ස්පර්ශය</string>
+    <string name="display_parts_summary">පන්හිඳේ නැවුම් කිරීමේ අනුපාතය, කියවීමේ මාදිලියේ නැවුම් කිරීමේ අනුපාතය, ස්පර්ශ ක්‍රීඩා මාදිලිය</string>
+
+    <string name="category_display_title">නැවුම් කිරීමේ අනුපාතය</string>
+    <string name="category_touch_title">ස්පර්ශය</string>
+    <string name="category_cover_title">ෆෝලියෝ කවරය</string>
+    <string name="category_audio_title">ශ්‍රව්‍ය</string>
+    <string name="category_perf_title">කාර්යසාධනය</string>
+
+    <string name="pen_refresh_cap_title">පන්හිඳ භාවිත කරන විට 120 Hz දක්වා සීමා කරන්න</string>
+    <string name="pen_refresh_cap_summary">සක්‍රිය පන්හිඳ ක්‍රියා කරන්නේ 120 Hz දක්වා පමණි. පන්හිඳෙන් අවසන් ආදානය ලබා දී තත්පර 10කට පසු සීමාව ඉවත් වේ.</string>
+    <string name="reading_low_refresh_title">කියවීමේ මාදිලියේදී 30 Hz</string>
+    <string name="reading_low_refresh_summary">කියවීමේ මාදිලිය ක්‍රියාත්මක විට නැවුම් කිරීමේ අනුපාතය අඩු කරන්න</string>
+    <string name="reading_low_refresh_unavailable">කියවීමේ මාදිලිය ලබා ගත නොහැක</string>
+    <string name="touch_game_mode_title">ස්පර්ශ ක්‍රීඩා මාදිලිය</string>
+    <string name="touch_game_mode_summary">ස්පර්ශ පාලකයේ ක්‍රීඩා මාදිලිය. නැවත ආරම්භ කළ පසු එය නැවත අක්‍රිය වේ.</string>
+    <string name="touch_game_mode_unavailable">ලබා ගත නොහැක</string>
+    <string name="smart_cover_title">ස්මාර්ට් කවරය</string>
+    <string name="smart_cover_summary">ෆෝලියෝ කවරය වැසූ විට නිද්‍රා කර අගුළු දමන්න</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">ශබ්ද මාදිලිය, සමකරනය, සංවාද පැහැදිලි කිරීම සහ යෙදුම් මාදිලි</string>
+    <string name="dolby_enable_title">Dolby Atmos භාවිත කරන්න</string>
+    <string name="dolby_profile_title">පෙරනිමි මාදිලිය</string>
+    <string name="dolby_profile_dynamic">ගතික</string>
+    <string name="dolby_profile_movie">චිත්‍රපට</string>
+    <string name="dolby_profile_music">සංගීතය</string>
+    <string name="category_dolby_music_title">සංගීත මාදිලිය</string>
+    <string name="dolby_ieq_preset_title">ශබ්ද ප්‍රයෝගය</string>
+    <string name="dolby_ieq_preset_none">කිසිවක් නැත</string>
+    <string name="dolby_ieq_preset_detailed">විස්තරාත්මක</string>
+    <string name="dolby_ieq_preset_balanced">සමබර</string>
+    <string name="dolby_ieq_preset_warm">උණුසුම්</string>
+    <string name="dolby_geq_title">සමකරනය</string>
+    <string name="dolby_geq_summary">සංඛ්‍යාත පටි 10 සකසන්න</string>
+    <string name="dolby_geq_reset_title">සමතලා තත්ත්වයට යළි පිහිටුවන්න</string>
+    <string name="category_dolby_movie_title">චිත්‍රපට මාදිලිය</string>
+    <string name="dolby_dialogue_level_title">සංවාද පැහැදිලි කිරීම</string>
+    <string name="dolby_dialogue_level_summary">කථනය වඩාත් පැහැදිලි කරයි. 0 කළ විට එය අක්‍රිය වේ.</string>
+    <string name="category_dolby_apps_title">යෙදුම්</string>
+    <string name="dolby_app_profiles_enabled_title">යෙදුම අනුව මාදිලිය මාරු කරන්න</string>
+    <string name="dolby_app_profiles_enabled_summary">යෙදුමක් ශ්‍රව්‍ය වාදනය කරන විට ඒ සඳහා සකසා ඇති මාදිලිය භාවිත කරන්න</string>
+    <string name="dolby_app_profiles_title">යෙදුම් මාදිලි</string>
+    <string name="dolby_app_profiles_summary">එක් එක් යෙදුම සඳහා මාදිලිය තෝරන්න. හඳුනාගත් සංගීත සහ වීඩියෝ යෙදුම් සංගීත සහ චිත්‍රපට මාදිලිවලින් ආරම්භ වේ.</string>
+    <string name="dolby_app_profile_default">පෙරනිමි මාදිලිය</string>
+
+    <string name="perf_title">කාර්යසාධන පැතිකඩ</string>
+    <string name="perf_summary">MediaTek Dimensity කාර්යසාධනය සහ තාප ප්‍රතිපත්ති සකසන්න</string>
+    <string name="perf_enabled_title">යෙදුම අනුව කාර්යසාධනය සකසන්න</string>
+    <string name="perf_enabled_summary">ඉදිරියෙන් ඇති යෙදුම MediaTek බල සේවාවට දන්වා එහි පැතිකඩ යොදන්න. වෙළෙන්දාගේ හෝ නිර්දේශිත පැතිකඩ ඇති යෙදුම් පෙරනිමියෙන් ඒවා භාවිත කරයි.</string>
+    <string name="category_perf_known_apps">පැතිකඩ ඇති යෙදුම්</string>
+    <string name="category_perf_other_apps">වෙනත් යෙදුම්</string>
+    <string name="perf_mode_title">පැතිකඩ</string>
+    <string name="perf_mode_vendor">වෙළෙන්දා අනුගමනය කරන්න</string>
+    <string name="perf_mode_default">පෙරනිමි</string>
+    <string name="perf_mode_custom">අභිරුචි</string>
+    <string name="perf_mode_off">අක්‍රිය</string>
+    <string name="perf_mode_vendor_summary">වෙළෙන්දා අනුගමනය කරන්න: %1$s</string>
+    <string name="perf_mode_recommended">නිර්දේශිත</string>
+    <string name="perf_mode_recommended_summary">නිර්දේශිත: %1$s</string>
+    <string name="perf_mode_custom_summary">අභිරුචි: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, උසස්</string>
+    <string name="perf_preset_title">පෙරසිටුව</string>
+    <string name="perf_preset_none">කිසිවක් නැත</string>
+    <string name="perf_preset_details_title">පෙරසිටුවේ සැකසුම්</string>
+    <string name="perf_preset_thermal">තාප ප්‍රතිපත්තිය %1$d</string>
+    <string name="perf_preset_cpu_max">CPU උපරිම %1$s</string>
+    <string name="perf_preset_cpu_min">CPU අවම %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO රාමු ගැළපීම</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">සැකසුම් %1$d</item>
+        <item quantity="other">සැකසුම් %1$d</item>
+    </plurals>
+    <string name="perf_category_video">වීඩියෝ</string>
+    <string name="perf_category_camera">කැමරාව</string>
+    <string name="perf_category_communication">සන්නිවේදනය</string>
+    <string name="perf_category_music">සංගීතය</string>
+    <string name="perf_category_app_clone">ක්ලෝන කළ යෙදුම</string>
+    <string name="perf_category_benchmark">මිණුම් පරීක්ෂාව</string>
+    <string name="perf_category_game">ක්‍රීඩාව</string>
+    <string name="perf_advanced_title">උසස් පරාමිතීන්</string>
+    <string name="perf_advanced_summary">පෙරසිටුවෙන් CPU සංඛ්‍යාත සීමා සකසා නැවුම් කිරීමේ අනුපාතය අගුළු දමන්න</string>
+    <string name="category_perf_cpu">CPU සංඛ්‍යාතය</string>
+    <string name="perf_cluster_little">අඩු බලැති හර</string>
+    <string name="perf_cluster_medium">මධ්‍යම හර</string>
+    <string name="perf_cluster_big">ඉහළ බලැති හර</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: අවම</string>
+    <string name="perf_cpu_max_title">%1$s: උපරිම</string>
+    <string name="perf_refresh_rate_title">නැවුම් කිරීමේ අනුපාත අගුල</string>
+    <string name="perf_refresh_rate_none">අගුළු දමා නැත</string>
+    <string name="perf_advanced_reset_title">පෙරසිටුවට යළි පිහිටුවන්න</string>
+
+    <string name="tile_reading_low_refresh">කියවීම 30 Hz</string>
+    <string name="tile_touch_game_mode">ස්පර්ශ ක්‍රීඩා මාදිලිය</string>
+    <string name="tile_smart_cover">ස්මාර්ට් කවරය</string>
+</resources>

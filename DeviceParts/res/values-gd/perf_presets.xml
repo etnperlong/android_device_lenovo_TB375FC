@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string-array name="perf_preset_reference_names">
+        <item>com.tencent.tmgp.sgame|Honor of Kings</item>
+        <item>com.kurogame.mingchao|Wuthering Waves</item>
+        <item>com.tencent.tmgp.bh3|Honkai Impact 3rd</item>
+        <item>com.miHoYo.Yuanshen|Genshin Impact (Sìona)</item>
+        <item>com.miHoYo.GenshinImpact|Genshin Impact</item>
+        <item>com.tencent.tmgp.pubgmhd|Game for Peace</item>
+        <item>com.tencent.tmgp.dfm|Delta Force</item>
+        <item>com.vng.pubgmobile|PUBG Mobile (Bhiet-Nam)</item>
+        <item>com.pwrd.hotta.laohu|Tower of Fantasy</item>
+        <item>com.tencent.tmgp.cod|Call of Duty: Mobile (Sìona)</item>
+        <item>com.tencent.tmgp.speedmobile|QQ Speed</item>
+        <item>com.miHoYo.hkrpg|Honkai: Star Rail</item>
+        <item>com.tencent.jkchess|Golden Spatula</item>
+        <item>com.hottagames.hotta.lenovo|Tower of Fantasy (Lenovo)</item>
+        <item>com.tencent.lolm|League of Legends: Wild Rift (Sìona)</item>
+        <item>com.netease.nshm|Justice Mobile</item>
+        <item>com.miHoYo.Nap|Zenless Zone Zero</item>
+        <item>com.papegames.infinitynikki|Infinity Nikki</item>
+        <item>com.tencent.tmgp.cf|CrossFire Mobile</item>
+    </string-array>
+</resources>

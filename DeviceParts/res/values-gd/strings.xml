@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Feartan an uidheim</string>
+
+    <string name="device_parts_title">Feartan an uidheim</string>
+    <string name="device_parts_summary">Coileanadh, peann, suathadh, Dolby Atmos agus còmhdach fillte</string>
+    <string name="display_parts_title">Peann agus suathadh</string>
+    <string name="display_parts_summary">Ìre ath-nuadhachaidh peann, ìre ath-nuadhachaidh modh leughaidh, modh geama suathaidh</string>
+
+    <string name="category_display_title">Ìre ath-nuadhachaidh</string>
+    <string name="category_touch_title">Suathadh</string>
+    <string name="category_cover_title">Còmhdach fillte</string>
+    <string name="category_audio_title">Fuaim</string>
+    <string name="category_perf_title">Coileanadh</string>
+
+    <string name="pen_refresh_cap_title">Cuir crìoch air aig 120 Hz nuair a thathar a’ cleachdadh a’ pheann</string>
+    <string name="pen_refresh_cap_summary">Chan obraich am peann gnìomhach ach suas ri 120 Hz. Thèid a’ chrìoch a thoirt air falbh 10 diogan an dèidh an in-chur peann mu dheireadh.</string>
+    <string name="reading_low_refresh_title">30 Hz sa mhodh leughaidh</string>
+    <string name="reading_low_refresh_summary">Lùghdaich an ìre ath-nuadhachaidh nuair a bhios am modh leughaidh air</string>
+    <string name="reading_low_refresh_unavailable">Chan eil am modh leughaidh ri fhaighinn</string>
+    <string name="touch_game_mode_title">Modh geama suathaidh</string>
+    <string name="touch_game_mode_summary">Modh geama an rianadair-suathaidh. Tionndaidhidh e dheth a-rithist an dèidh ath-thòiseachaidh.</string>
+    <string name="touch_game_mode_unavailable">Chan eil e ri fhaighinn</string>
+    <string name="smart_cover_title">Còmhdach snasail</string>
+    <string name="smart_cover_summary">Cuir na chadal is glas nuair a bhios an còmhdach fillte dùinte</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Modh fuaime, co-ionannadair, leasaichear còmhraidh agus modhan aplacaid</string>
+    <string name="dolby_enable_title">Cleachd Dolby Atmos</string>
+    <string name="dolby_profile_title">Modh bunaiteach</string>
+    <string name="dolby_profile_dynamic">Fiùghantach</string>
+    <string name="dolby_profile_movie">Film</string>
+    <string name="dolby_profile_music">Ceòl</string>
+    <string name="category_dolby_music_title">Modh ciùil</string>
+    <string name="dolby_ieq_preset_title">Buaidh fuaime</string>
+    <string name="dolby_ieq_preset_none">Chan eil gin</string>
+    <string name="dolby_ieq_preset_detailed">Mionaideach</string>
+    <string name="dolby_ieq_preset_balanced">Cothromach</string>
+    <string name="dolby_ieq_preset_warm">Blàth</string>
+    <string name="dolby_geq_title">Co-ionannadair</string>
+    <string name="dolby_geq_summary">Atharraich 10 bannan tricead</string>
+    <string name="dolby_geq_reset_title">Ath-shuidhich gu rèidh</string>
+    <string name="category_dolby_movie_title">Modh film</string>
+    <string name="dolby_dialogue_level_title">Leasaichear còmhraidh</string>
+    <string name="dolby_dialogue_level_summary">Nì e cainnt nas soilleire. Cuiridh 0 dheth e.</string>
+    <string name="category_dolby_apps_title">Aplacaidean</string>
+    <string name="dolby_app_profiles_enabled_title">Atharraich am modh a rèir na h-aplacaid</string>
+    <string name="dolby_app_profiles_enabled_summary">Fhad ’s a tha aplacaid a’ cluich fuaime, cleachd am modh a chaidh a shuidheachadh air a son</string>
+    <string name="dolby_app_profiles_title">Modhan aplacaid</string>
+    <string name="dolby_app_profiles_summary">Tagh am modh airson gach aplacaid. Tòisichidh aplacaidean ciùil is bhideo aithnichte leis na modhan Ceòl agus Film.</string>
+    <string name="dolby_app_profile_default">Modh bunaiteach</string>
+
+    <string name="perf_title">Pròifilean coileanaidh</string>
+    <string name="perf_summary">Atharraich coileanadh MediaTek Dimensity agus poileasaidhean teirmeach</string>
+    <string name="perf_enabled_title">Atharraich coileanadh a rèir na h-aplacaid</string>
+    <string name="perf_enabled_summary">Innis do sheirbheis chumhachd MediaTek dè an aplacaid a tha air beulaibh, agus cuir am pròifil aice an sàs. Cleachdaidh aplacaidean le pròifil reiceadair no pròifil mholta iad mar bhun-roghainn.</string>
+    <string name="category_perf_known_apps">Aplacaidean le pròifilean</string>
+    <string name="category_perf_other_apps">Aplacaidean eile</string>
+    <string name="perf_mode_title">Pròifil</string>
+    <string name="perf_mode_vendor">Lean an reiceadair</string>
+    <string name="perf_mode_default">Bunaiteach</string>
+    <string name="perf_mode_custom">Gnàthaichte</string>
+    <string name="perf_mode_off">Dheth</string>
+    <string name="perf_mode_vendor_summary">Lean an reiceadair: %1$s</string>
+    <string name="perf_mode_recommended">Molta</string>
+    <string name="perf_mode_recommended_summary">Molta: %1$s</string>
+    <string name="perf_mode_custom_summary">Gnàthaichte: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, adhartach</string>
+    <string name="perf_preset_title">Ro-shuidhichte</string>
+    <string name="perf_preset_none">Chan eil gin</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Roghainnean ro-shuidhichte</string>
+    <string name="perf_preset_thermal">Poileasaidh teirmeach %1$d</string>
+    <string name="perf_preset_cpu_max">CPU as àirde %1$s</string>
+    <string name="perf_preset_cpu_min">CPU as ìsle %1$s</string>
+    <string name="perf_preset_fpsgo">Rianachd astar fhrèaman FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d roghainn</item>
+        <item quantity="two">%1$d roghainn</item>
+        <item quantity="few">%1$d roghainnean</item>
+        <item quantity="other">%1$d roghainn</item>
+    </plurals>
+    <string name="perf_category_video">Bhidio</string>
+    <string name="perf_category_camera">Camara</string>
+    <string name="perf_category_communication">Conaltradh</string>
+    <string name="perf_category_music">Ceòl</string>
+    <string name="perf_category_app_clone">Aplacaid chlonnaichte</string>
+    <string name="perf_category_benchmark">Comharra-tomhais</string>
+    <string name="perf_category_game">Geama</string>
+    <string name="perf_advanced_title">Paramadairean adhartach</string>
+    <string name="perf_advanced_summary">Suidhich crìochan tricead CPU agus glas an ìre ath-nuadhachaidh, a’ tòiseachadh bhon ro-shuidhichte</string>
+    <string name="category_perf_cpu">Tricead CPU</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">Coirean beaga</string>
+    <string name="perf_cluster_medium">Coirean meadhanach</string>
+    <string name="perf_cluster_big">Coirean mòra</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: an tricead as ìsle</string>
+    <string name="perf_cpu_max_title">%1$s: an tricead as àirde</string>
+    <string name="perf_refresh_rate_title">Glasadh na h-ìre ath-nuadhachaidh</string>
+    <string name="perf_refresh_rate_none">Gun ghlasadh</string>
+    <string name="perf_advanced_reset_title">Ath-shuidhich chun an ro-shuidhichte</string>
+
+    <string name="tile_reading_low_refresh">Leughadh 30 Hz</string>
+    <string name="tile_touch_game_mode">Modh geama suathaidh</string>
+    <string name="tile_smart_cover">Còmhdach snasail</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Seadme funktsioonid</string>
+
+    <string name="device_parts_title">Seadme funktsioonid</string>
+    <string name="device_parts_summary">Jõudlus, pliiats, puutejuhtimine, Dolby Atmos ja ümbris</string>
+    <string name="display_parts_title">Pliiats ja puutejuhtimine</string>
+    <string name="display_parts_summary">Pliiatsi värskendussagedus, lugemisrežiimi värskendussagedus, puutejuhtimise mängurežiim</string>
+
+    <string name="category_display_title">Värskendussagedus</string>
+    <string name="category_touch_title">Puutejuhtimine</string>
+    <string name="category_cover_title">Kaanega ümbris</string>
+    <string name="category_audio_title">Heli</string>
+    <string name="category_perf_title">Jõudlus</string>
+
+    <string name="pen_refresh_cap_title">Pliiatsi kasutamisel piira sagedus 120 Hz-ni</string>
+    <string name="pen_refresh_cap_summary">Aktiivne pliiats töötab teadaolevalt ainult kuni sageduseni 120 Hz. Piirang eemaldatakse 10 sekundit pärast viimast pliiatsisisestust.</string>
+    <string name="reading_low_refresh_title">Lugemisrežiimis 30 Hz</string>
+    <string name="reading_low_refresh_summary">Vähenda lugemisrežiimi sisselülitamisel värskendussagedust</string>
+    <string name="reading_low_refresh_unavailable">Lugemisrežiim pole saadaval</string>
+    <string name="touch_game_mode_title">Puutejuhtimise mängurežiim</string>
+    <string name="touch_game_mode_summary">Puutejuhtimise kontrolleri mängurežiim. Lülitub pärast taaskäivitamist uuesti välja.</string>
+    <string name="touch_game_mode_unavailable">Pole saadaval</string>
+    <string name="smart_cover_title">Nutikas ümbris</string>
+    <string name="smart_cover_summary">Lülita ekraan välja ja lukusta seade, kui ümbris suletakse</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Helirežiim, ekvalaiser, kõne selguse parandaja ja rakenduste režiimid</string>
+    <string name="dolby_enable_title">Kasuta Dolby Atmost</string>
+    <string name="dolby_profile_title">Vaikerežiim</string>
+    <string name="dolby_profile_dynamic">Dünaamiline</string>
+    <string name="dolby_profile_movie">Film</string>
+    <string name="dolby_profile_music">Muusika</string>
+    <string name="category_dolby_music_title">Muusikarežiim</string>
+    <string name="dolby_ieq_preset_title">Heliefekt</string>
+    <string name="dolby_ieq_preset_none">Puudub</string>
+    <string name="dolby_ieq_preset_detailed">Detailne</string>
+    <string name="dolby_ieq_preset_balanced">Tasakaalustatud</string>
+    <string name="dolby_ieq_preset_warm">Soe</string>
+    <string name="dolby_geq_title">Ekvalaiser</string>
+    <string name="dolby_geq_summary">Reguleeri 10 sagedusriba</string>
+    <string name="dolby_geq_reset_title">Taasta tasane kõver</string>
+    <string name="dolby_geq_band_hz">%1$d Hz</string>
+    <string name="dolby_geq_band_khz">%1$.1f kHz</string>
+    <string name="category_dolby_movie_title">Filmirežiim</string>
+    <string name="dolby_dialogue_level_title">Kõne selguse parandaja</string>
+    <string name="dolby_dialogue_level_summary">Muudab kõne selgemaks. 0 lülitab selle välja.</string>
+    <string name="category_dolby_apps_title">Rakendused</string>
+    <string name="dolby_app_profiles_enabled_title">Vaheta režiimi rakenduse järgi</string>
+    <string name="dolby_app_profiles_enabled_summary">Kui rakendus esitab heli, kasuta sellele määratud režiimi</string>
+    <string name="dolby_app_profiles_title">Rakenduste režiimid</string>
+    <string name="dolby_app_profiles_summary">Vali igale rakendusele režiim. Tuntud muusika- ja videorakenduste algrežiim on vastavalt muusika või film.</string>
+    <string name="dolby_app_profile_default">Vaikerežiim</string>
+
+    <string name="perf_title">Jõudlusprofiilid</string>
+    <string name="perf_summary">Häälesta MediaTek Dimensity jõudlust ja termorežiime</string>
+    <string name="perf_enabled_title">Kohanda jõudlust rakenduse järgi</string>
+    <string name="perf_enabled_summary">Teavita MediaTeki toitehaldusteenust esiplaanil olevast rakendusest ja rakenda selle profiil. Tarnija- või soovitatud profiiliga rakendused kasutavad seda vaikimisi.</string>
+    <string name="category_perf_known_apps">Profiilidega rakendused</string>
+    <string name="category_perf_other_apps">Muud rakendused</string>
+    <string name="perf_mode_title">Profiil</string>
+    <string name="perf_mode_vendor">Järgi tootja seadeid</string>
+    <string name="perf_mode_default">Vaikeseade</string>
+    <string name="perf_mode_custom">Kohandatud</string>
+    <string name="perf_mode_off">Väljas</string>
+    <string name="perf_mode_vendor_summary">Tootja seaded: %1$s</string>
+    <string name="perf_mode_recommended">Soovitatud</string>
+    <string name="perf_mode_recommended_summary">Soovitatud: %1$s</string>
+    <string name="perf_mode_custom_summary">Kohandatud: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, täpsem</string>
+    <string name="perf_preset_title">Eelseadistus</string>
+    <string name="perf_preset_none">Puudub</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Eelseadistuse seaded</string>
+    <string name="perf_preset_thermal">Termorežiim %1$d</string>
+    <string name="perf_preset_cpu_max">Protsessori maksimum %1$s</string>
+    <string name="perf_preset_cpu_min">Protsessori miinimum %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO kaadrisageduse juhtimine</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d seade</item>
+        <item quantity="other">%1$d seadet</item>
+    </plurals>
+    <string name="perf_category_video">Video</string>
+    <string name="perf_category_camera">Kaamera</string>
+    <string name="perf_category_communication">Side</string>
+    <string name="perf_category_music">Muusika</string>
+    <string name="perf_category_app_clone">Kloonitud rakendus</string>
+    <string name="perf_category_benchmark">Jõudlustest</string>
+    <string name="perf_category_game">Mäng</string>
+    <string name="perf_advanced_title">Täpsemad parameetrid</string>
+    <string name="perf_advanced_summary">Määra protsessori sageduspiirid ja lukusta värskendussagedus eelseadistuse põhjal</string>
+    <string name="category_perf_cpu">Protsessori sagedus</string>
+    <string name="perf_cluster_all">Protsessor</string>
+    <string name="perf_cluster_little">Väikesed tuumad</string>
+    <string name="perf_cluster_medium">Keskmised tuumad</string>
+    <string name="perf_cluster_big">Suured tuumad</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: minimaalne sagedus</string>
+    <string name="perf_cpu_max_title">%1$s: maksimaalne sagedus</string>
+    <string name="perf_freq_ghz">%1$.2f GHz</string>
+    <string name="perf_freq_mhz">%1$d MHz</string>
+    <string name="perf_refresh_rate_title">Värskendussageduse lukustus</string>
+    <string name="perf_refresh_rate_none">Lukustamata</string>
+    <string name="perf_refresh_rate_hz">%1$d Hz</string>
+    <string name="perf_advanced_reset_title">Taasta eelseadistus</string>
+
+    <string name="tile_reading_low_refresh">Lugemine 30 Hz</string>
+    <string name="tile_touch_game_mode">Puutejuhtimise mängurežiim</string>
+    <string name="tile_smart_cover">Nutikas ümbris</string>
+</resources>

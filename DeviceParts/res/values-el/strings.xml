@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Λειτουργίες συσκευής</string>
+
+    <string name="device_parts_title">Λειτουργίες συσκευής</string>
+    <string name="device_parts_summary">Απόδοση, γραφίδα, αφή, Dolby Atmos και θήκη</string>
+    <string name="display_parts_title">Γραφίδα και αφή</string>
+    <string name="display_parts_summary">Ρυθμός ανανέωσης γραφίδας, ρυθμός ανανέωσης λειτουργίας ανάγνωσης, λειτουργία παιχνιδιού αφής</string>
+
+    <string name="category_display_title">Ρυθμός ανανέωσης</string>
+    <string name="category_touch_title">Αφή</string>
+    <string name="category_cover_title">Θήκη με κάλυμμα</string>
+    <string name="category_audio_title">Ήχος</string>
+    <string name="category_perf_title">Απόδοση</string>
+
+    <string name="pen_refresh_cap_title">Περιορισμός στα 120 Hz κατά τη χρήση της γραφίδας</string>
+    <string name="pen_refresh_cap_summary">Η ενεργή γραφίδα αναφέρεται ότι λειτουργεί μόνο έως τα 120 Hz. Το όριο καταργείται 10 δευτερόλεπτα μετά την τελευταία είσοδο από τη γραφίδα.</string>
+    <string name="reading_low_refresh_title">30 Hz στη λειτουργία ανάγνωσης</string>
+    <string name="reading_low_refresh_summary">Μείωση του ρυθμού ανανέωσης όταν είναι ενεργή η λειτουργία ανάγνωσης</string>
+    <string name="reading_low_refresh_unavailable">Η λειτουργία ανάγνωσης δεν είναι διαθέσιμη</string>
+    <string name="touch_game_mode_title">Λειτουργία παιχνιδιού αφής</string>
+    <string name="touch_game_mode_summary">Λειτουργία παιχνιδιού του ελεγκτή αφής. Απενεργοποιείται ξανά μετά την επανεκκίνηση.</string>
+    <string name="touch_game_mode_unavailable">Δεν είναι διαθέσιμη</string>
+    <string name="smart_cover_title">Έξυπνη θήκη</string>
+    <string name="smart_cover_summary">Απενεργοποίηση και κλείδωμα της οθόνης όταν κλείνει το κάλυμμα</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Λειτουργία ήχου, ισοσταθμιστής, ενίσχυση διαλόγων και λειτουργίες εφαρμογών</string>
+    <string name="dolby_enable_title">Χρήση Dolby Atmos</string>
+    <string name="dolby_profile_title">Προεπιλεγμένη λειτουργία</string>
+    <string name="dolby_profile_dynamic">Δυναμική</string>
+    <string name="dolby_profile_movie">Ταινία</string>
+    <string name="dolby_profile_music">Μουσική</string>
+    <string name="category_dolby_music_title">Λειτουργία μουσικής</string>
+    <string name="dolby_ieq_preset_title">Ηχητικό εφέ</string>
+    <string name="dolby_ieq_preset_none">Κανένα</string>
+    <string name="dolby_ieq_preset_detailed">Λεπτομερές</string>
+    <string name="dolby_ieq_preset_balanced">Ισορροπημένο</string>
+    <string name="dolby_ieq_preset_warm">Θερμό</string>
+    <string name="dolby_geq_title">Ισοσταθμιστής</string>
+    <string name="dolby_geq_summary">Προσαρμογή 10 ζωνών συχνοτήτων</string>
+    <string name="dolby_geq_reset_title">Επαναφορά σε επίπεδη καμπύλη</string>
+    <string name="dolby_geq_band_hz">%1$d Hz</string>
+    <string name="dolby_geq_band_khz">%1$.1f kHz</string>
+    <string name="category_dolby_movie_title">Λειτουργία ταινίας</string>
+    <string name="dolby_dialogue_level_title">Ενίσχυση διαλόγων</string>
+    <string name="dolby_dialogue_level_summary">Κάνει την ομιλία πιο καθαρή. Το 0 την απενεργοποιεί.</string>
+    <string name="category_dolby_apps_title">Εφαρμογές</string>
+    <string name="dolby_app_profiles_enabled_title">Εναλλαγή λειτουργίας ανά εφαρμογή</string>
+    <string name="dolby_app_profiles_enabled_summary">Κατά την αναπαραγωγή ήχου από μια εφαρμογή, χρήση της λειτουργίας που έχει οριστεί για αυτή</string>
+    <string name="dolby_app_profiles_title">Λειτουργίες εφαρμογών</string>
+    <string name="dolby_app_profiles_summary">Επιλέξτε λειτουργία για κάθε εφαρμογή. Οι γνωστές εφαρμογές μουσικής και βίντεο ξεκινούν με τις λειτουργίες Μουσική και Ταινία αντίστοιχα.</string>
+    <string name="dolby_app_profile_default">Προεπιλεγμένη λειτουργία</string>
+
+    <string name="perf_title">Προφίλ απόδοσης</string>
+    <string name="perf_summary">Προσαρμογή της απόδοσης MediaTek Dimensity και των πολιτικών θερμότητας</string>
+    <string name="perf_enabled_title">Προσαρμογή απόδοσης ανά εφαρμογή</string>
+    <string name="perf_enabled_summary">Ενημερώστε την υπηρεσία τροφοδοσίας MediaTek για την εφαρμογή στο προσκήνιο και εφαρμόστε το προφίλ της. Οι εφαρμογές με προφίλ κατασκευαστή ή προτεινόμενο προφίλ τα χρησιμοποιούν από προεπιλογή.</string>
+    <string name="category_perf_known_apps">Εφαρμογές με προφίλ</string>
+    <string name="category_perf_other_apps">Άλλες εφαρμογές</string>
+    <string name="perf_mode_title">Προφίλ</string>
+    <string name="perf_mode_vendor">Χρήση ρυθμίσεων κατασκευαστή</string>
+    <string name="perf_mode_default">Προεπιλογή</string>
+    <string name="perf_mode_custom">Προσαρμοσμένο</string>
+    <string name="perf_mode_off">Ανενεργό</string>
+    <string name="perf_mode_vendor_summary">Ρυθμίσεις κατασκευαστή: %1$s</string>
+    <string name="perf_mode_recommended">Προτεινόμενο</string>
+    <string name="perf_mode_recommended_summary">Προτεινόμενο: %1$s</string>
+    <string name="perf_mode_custom_summary">Προσαρμοσμένο: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, σύνθετο</string>
+    <string name="perf_preset_title">Προκαθορισμένη ρύθμιση</string>
+    <string name="perf_preset_none">Καμία</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Ρυθμίσεις προκαθορισμένης επιλογής</string>
+    <string name="perf_preset_thermal">Πολιτική θερμότητας %1$d</string>
+    <string name="perf_preset_cpu_max">Μέγιστο CPU %1$s</string>
+    <string name="perf_preset_cpu_min">Ελάχιστο CPU %1$s</string>
+    <string name="perf_preset_fpsgo">Ρύθμιση ρυθμού καρέ FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d ρύθμιση</item>
+        <item quantity="other">%1$d ρυθμίσεις</item>
+    </plurals>
+    <string name="perf_category_video">Βίντεο</string>
+    <string name="perf_category_camera">Κάμερα</string>
+    <string name="perf_category_communication">Επικοινωνία</string>
+    <string name="perf_category_music">Μουσική</string>
+    <string name="perf_category_app_clone">Κλωνοποιημένη εφαρμογή</string>
+    <string name="perf_category_benchmark">Δοκιμή απόδοσης</string>
+    <string name="perf_category_game">Παιχνίδι</string>
+    <string name="perf_advanced_title">Σύνθετες παράμετροι</string>
+    <string name="perf_advanced_summary">Ορισμός ορίων συχνότητας CPU και κλείδωμα του ρυθμού ανανέωσης με βάση την προκαθορισμένη ρύθμιση</string>
+    <string name="category_perf_cpu">Συχνότητα CPU</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">Μικροί πυρήνες</string>
+    <string name="perf_cluster_medium">Μεσαίοι πυρήνες</string>
+    <string name="perf_cluster_big">Μεγάλοι πυρήνες</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: ελάχιστη συχνότητα</string>
+    <string name="perf_cpu_max_title">%1$s: μέγιστη συχνότητα</string>
+    <string name="perf_freq_ghz">%1$.2f GHz</string>
+    <string name="perf_freq_mhz">%1$d MHz</string>
+    <string name="perf_refresh_rate_title">Κλείδωμα ρυθμού ανανέωσης</string>
+    <string name="perf_refresh_rate_none">Χωρίς κλείδωμα</string>
+    <string name="perf_refresh_rate_hz">%1$d Hz</string>
+    <string name="perf_advanced_reset_title">Επαναφορά στην προκαθορισμένη ρύθμιση</string>
+
+    <string name="tile_reading_low_refresh">Ανάγνωση 30 Hz</string>
+    <string name="tile_touch_game_mode">Λειτουργία παιχνιδιού αφής</string>
+    <string name="tile_smart_cover">Έξυπνη θήκη</string>
+</resources>

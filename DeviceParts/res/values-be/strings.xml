@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Функцыі прылады</string>
+
+    <string name="device_parts_title">Функцыі прылады</string>
+    <string name="device_parts_summary">Прадукцыйнасць, стылус, сэнсарны экран, Dolby Atmos і чахол</string>
+    <string name="display_parts_title">Стылус і сэнсарны экран</string>
+    <string name="display_parts_summary">Частата абнаўлення для стылуса і рэжыму чытання, гульнявы рэжым сэнсарнага экрана</string>
+
+    <string name="category_display_title">Частата абнаўлення</string>
+    <string name="category_touch_title">Сэнсарны экран</string>
+    <string name="category_cover_title">Чахол-кніжка</string>
+    <string name="category_audio_title">Аўдыя</string>
+    <string name="category_perf_title">Прадукцыйнасць</string>
+
+    <string name="pen_refresh_cap_title">Абмежаваць да 120 Гц пры выкарыстанні стылуса</string>
+    <string name="pen_refresh_cap_summary">Паводле звестак, актыўны стылус працуе толькі на частаце да 120 Гц. Абмежаванне здымаецца праз 10 секунд пасля апошняга ўводу стылусам.</string>
+    <string name="reading_low_refresh_title">30 Гц у рэжыме чытання</string>
+    <string name="reading_low_refresh_summary">Зніжаць частату абнаўлення, калі ўключаны рэжым чытання</string>
+    <string name="reading_low_refresh_unavailable">Рэжым чытання недаступны</string>
+    <string name="touch_game_mode_title">Гульнявы рэжым сэнсарнага экрана</string>
+    <string name="touch_game_mode_summary">Гульнявы рэжым кантролера сэнсарнага экрана. Адключаецца пасля перазапуску.</string>
+    <string name="touch_game_mode_unavailable">Недаступна</string>
+    <string name="smart_cover_title">Разумны чахол</string>
+    <string name="smart_cover_summary">Выключаць экран і блакіраваць прыладу пры закрыцці чахла-кніжкі</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Рэжым гуку, эквалайзер, узмацненне дыялогаў і рэжымы праграм</string>
+    <string name="dolby_enable_title">Выкарыстоўваць Dolby Atmos</string>
+    <string name="dolby_profile_title">Рэжым па змаўчанні</string>
+    <string name="dolby_profile_dynamic">Дынамічны</string>
+    <string name="dolby_profile_movie">Фільм</string>
+    <string name="dolby_profile_music">Музыка</string>
+    <string name="category_dolby_music_title">Рэжым «Музыка»</string>
+    <string name="dolby_ieq_preset_title">Гукавы эфект</string>
+    <string name="dolby_ieq_preset_none">Няма</string>
+    <string name="dolby_ieq_preset_detailed">Дэталёвы</string>
+    <string name="dolby_ieq_preset_balanced">Збалансаваны</string>
+    <string name="dolby_ieq_preset_warm">Цёплы</string>
+    <string name="dolby_geq_title">Эквалайзер</string>
+    <string name="dolby_geq_summary">Наладзіць 10 частотных палос</string>
+    <string name="dolby_geq_reset_title">Скінуць да роўнай АЧХ</string>
+    <string name="dolby_geq_band_hz">%1$d Гц</string>
+    <string name="dolby_geq_band_khz">%1$.1f кГц</string>
+    <string name="category_dolby_movie_title">Рэжым «Фільм»</string>
+    <string name="dolby_dialogue_level_title">Узмацненне дыялогаў</string>
+    <string name="dolby_dialogue_level_summary">Робіць маўленне выразнейшым. Значэнне 0 адключае функцыю.</string>
+    <string name="category_dolby_apps_title">Праграмы</string>
+    <string name="dolby_app_profiles_enabled_title">Пераключаць рэжым для кожнай праграмы</string>
+    <string name="dolby_app_profiles_enabled_summary">Выкарыстоўваць зададзены рэжым, калі праграма прайгравае аўдыя</string>
+    <string name="dolby_app_profiles_title">Рэжымы праграм</string>
+    <string name="dolby_app_profiles_summary">Выберыце рэжым для кожнай праграмы. Для вядомых музычных і відэапраграм выкарыстоўваюцца рэжымы «Музыка» і «Фільм».</string>
+    <string name="dolby_app_profile_default">Рэжым па змаўчанні</string>
+
+    <string name="perf_title">Профілі прадукцыйнасці</string>
+    <string name="perf_summary">Наладзіць прадукцыйнасць MediaTek Dimensity і цеплавыя палітыкі</string>
+    <string name="perf_enabled_title">Наладжваць прадукцыйнасць для праграм</string>
+    <string name="perf_enabled_summary">Паведамляць службе сілкавання MediaTek, якая праграма адкрыта, і ўжываць яе профіль. Праграмы з профілем вытворцы або рэкамендаваным профілем выкарыстоўваюць яго па змаўчанні.</string>
+    <string name="category_perf_known_apps">Праграмы з профілямі</string>
+    <string name="category_perf_other_apps">Іншыя праграмы</string>
+    <string name="perf_mode_title">Профіль</string>
+    <string name="perf_mode_vendor">Профіль вытворцы</string>
+    <string name="perf_mode_default">Па змаўчанні</string>
+    <string name="perf_mode_custom">Карыстальніцкі</string>
+    <string name="perf_mode_off">Выключана</string>
+    <string name="perf_mode_vendor_summary">Профіль вытворцы: %1$s</string>
+    <string name="perf_mode_recommended">Рэкамендаваны</string>
+    <string name="perf_mode_recommended_summary">Рэкамендаваны: %1$s</string>
+    <string name="perf_mode_custom_summary">Карыстальніцкі: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, пашыраны</string>
+    <string name="perf_preset_title">Папярэдняя налада</string>
+    <string name="perf_preset_none">Няма</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Налады папярэдняй налады</string>
+    <string name="perf_preset_thermal">Цеплавая палітыка %1$d</string>
+    <string name="perf_preset_cpu_max">Максімальная частата CPU %1$s</string>
+    <string name="perf_preset_cpu_min">Мінімальная частата CPU %1$s</string>
+    <string name="perf_preset_fpsgo">Кіраванне частатой кадраў FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d параметр</item>
+        <item quantity="few">%1$d параметры</item>
+        <item quantity="many">%1$d параметраў</item>
+        <item quantity="other">%1$d параметра</item>
+    </plurals>
+    <string name="perf_category_video">Відэа</string>
+    <string name="perf_category_camera">Камера</string>
+    <string name="perf_category_communication">Сувязь</string>
+    <string name="perf_category_music">Музыка</string>
+    <string name="perf_category_app_clone">Кланаванне праграм</string>
+    <string name="perf_category_benchmark">Тэст прадукцыйнасці</string>
+    <string name="perf_category_game">Гульня</string>
+    <string name="perf_advanced_title">Дадатковыя параметры</string>
+    <string name="perf_advanced_summary">Наладзіць абмежаванні частаты CPU і блакіроўку частаты абнаўлення на аснове папярэдняй налады</string>
+    <string name="category_perf_cpu">Частата CPU</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">Малыя ядры</string>
+    <string name="perf_cluster_medium">Сярэднія ядры</string>
+    <string name="perf_cluster_big">Вялікія ядры</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: мінімальная частата</string>
+    <string name="perf_cpu_max_title">%1$s: максімальная частата</string>
+    <string name="perf_freq_ghz">%1$.2f ГГц</string>
+    <string name="perf_freq_mhz">%1$d МГц</string>
+    <string name="perf_refresh_rate_title">Блакіроўка частаты абнаўлення</string>
+    <string name="perf_refresh_rate_none">Не блакіраваць</string>
+    <string name="perf_refresh_rate_hz">%1$d Гц</string>
+    <string name="perf_advanced_reset_title">Скінуць да папярэдняй налады</string>
+
+    <string name="tile_reading_low_refresh">Чытанне 30 Гц</string>
+    <string name="tile_touch_game_mode">Гульнявы рэжым сэнсара</string>
+    <string name="tile_smart_cover">Разумны чахол</string>
+</resources>

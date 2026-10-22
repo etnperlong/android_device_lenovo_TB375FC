@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">சாதன அம்சங்கள்</string>
+
+    <string name="device_parts_title">சாதன அம்சங்கள்</string>
+    <string name="device_parts_summary">செயல்திறன், ஸ்டைலஸ், தொடுதல், Dolby Atmos மற்றும் ஃபோலியோ கவர்</string>
+    <string name="display_parts_title">ஸ்டைலஸ் மற்றும் தொடுதல்</string>
+    <string name="display_parts_summary">ஸ்டைலஸ் ரெஃப்ரெஷ் ரேட், படித்தல் பயன்முறை ரெஃப்ரெஷ் ரேட், கேம் டச் பயன்முறை</string>
+
+    <string name="category_display_title">ரெஃப்ரெஷ் ரேட்</string>
+    <string name="category_touch_title">தொடுதல்</string>
+    <string name="category_cover_title">ஃபோலியோ கவர்</string>
+    <string name="category_audio_title">ஆடியோ</string>
+    <string name="category_perf_title">செயல்திறன்</string>
+
+    <string name="pen_refresh_cap_title">ஸ்டைலஸைப் பயன்படுத்தும்போது 120 Hz ஆக வரம்பிடு</string>
+    <string name="pen_refresh_cap_summary">செயலில் உள்ள ஸ்டைலஸ் 120 Hz வரை மட்டுமே செயல்படும் எனத் தெரிவிக்கப்பட்டுள்ளது. கடைசி ஸ்டைலஸ் உள்ளீட்டிற்கு 10 வினாடிகளுக்குப் பிறகு வரம்பு நீக்கப்படும்.</string>
+    <string name="reading_low_refresh_title">படித்தல் பயன்முறையில் 30 Hz</string>
+    <string name="reading_low_refresh_summary">படித்தல் பயன்முறை இயக்கத்தில் இருக்கும்போது ரெஃப்ரெஷ் ரேட்டைக் குறைக்கும்</string>
+    <string name="reading_low_refresh_unavailable">படித்தல் பயன்முறை கிடைக்கவில்லை</string>
+    <string name="touch_game_mode_title">டச் கேம் பயன்முறை</string>
+    <string name="touch_game_mode_summary">டச் கன்ட்ரோலரின் கேம் பயன்முறை. மறுதொடக்கத்திற்குப் பிறகு மீண்டும் முடக்கப்படும்.</string>
+    <string name="touch_game_mode_unavailable">கிடைக்கவில்லை</string>
+    <string name="smart_cover_title">ஸ்மார்ட் கவர்</string>
+    <string name="smart_cover_summary">ஃபோலியோ கவரை மூடும்போது உறக்கநிலைக்குச் சென்று பூட்டும்</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">ஒலி பயன்முறை, ஈக்வலைசர், உரையாடல் மேம்படுத்தி மற்றும் ஆப் பயன்முறைகள்</string>
+    <string name="dolby_enable_title">Dolby Atmosஐப் பயன்படுத்து</string>
+    <string name="dolby_profile_title">இயல்புநிலை பயன்முறை</string>
+    <string name="dolby_profile_dynamic">டைனமிக்</string>
+    <string name="dolby_profile_movie">திரைப்படம்</string>
+    <string name="dolby_profile_music">இசை</string>
+    <string name="category_dolby_music_title">இசைப் பயன்முறை</string>
+    <string name="dolby_ieq_preset_title">ஒலி விளைவு</string>
+    <string name="dolby_ieq_preset_none">ஏதுமில்லை</string>
+    <string name="dolby_ieq_preset_detailed">விரிவான</string>
+    <string name="dolby_ieq_preset_balanced">சமநிலையான</string>
+    <string name="dolby_ieq_preset_warm">வெப்பமான</string>
+    <string name="dolby_geq_title">ஈக்வலைசர்</string>
+    <string name="dolby_geq_summary">10 அதிர்வெண் பேண்டுகளைச் சரிசெய்யவும்</string>
+    <string name="dolby_geq_reset_title">சமநிலைக்கு மீட்டமை</string>
+    <string name="category_dolby_movie_title">திரைப்படப் பயன்முறை</string>
+    <string name="dolby_dialogue_level_title">உரையாடல் மேம்படுத்தி</string>
+    <string name="dolby_dialogue_level_summary">பேச்சைத் தெளிவாக்கும். 0 என அமைத்தால் முடக்கப்படும்.</string>
+    <string name="category_dolby_apps_title">ஆப்ஸ்</string>
+    <string name="dolby_app_profiles_enabled_title">ஆப் அடிப்படையில் பயன்முறையை மாற்று</string>
+    <string name="dolby_app_profiles_enabled_summary">ஆப் ஆடியோவை இயக்கும்போது, அதற்காக அமைக்கப்பட்ட பயன்முறையைப் பயன்படுத்து</string>
+    <string name="dolby_app_profiles_title">ஆப் பயன்முறைகள்</string>
+    <string name="dolby_app_profiles_summary">ஒவ்வொரு ஆப்பிற்கும் பயன்முறையைத் தேர்ந்தெடுக்கவும். தெரிந்த இசை மற்றும் வீடியோ ஆப்களுக்கு, இசை மற்றும் திரைப்படப் பயன்முறைகள் முன்கூட்டியே அமைக்கப்படும்.</string>
+    <string name="dolby_app_profile_default">இயல்புநிலை பயன்முறை</string>
+
+    <string name="perf_title">செயல்திறன் சுயவிவரங்கள்</string>
+    <string name="perf_summary">MediaTek Dimensity செயல்திறன் மற்றும் வெப்பக் கொள்கைகளைச் சரிசெய்யவும்</string>
+    <string name="perf_enabled_title">ஆப் அடிப்படையில் செயல்திறனைச் சரிசெய்</string>
+    <string name="perf_enabled_summary">முன்னணியில் உள்ள ஆப்பை MediaTek பவர் சேவைக்குத் தெரிவித்து அதன் சுயவிவரத்தைப் பயன்படுத்து. விற்பனையாளர் அல்லது பரிந்துரைக்கப்பட்ட சுயவிவரங்களைக் கொண்ட ஆப்கள் இயல்பாக அவற்றைப் பயன்படுத்தும்.</string>
+    <string name="category_perf_known_apps">சுயவிவரங்களைக் கொண்ட ஆப்கள்</string>
+    <string name="category_perf_other_apps">பிற ஆப்கள்</string>
+    <string name="perf_mode_title">சுயவிவரம்</string>
+    <string name="perf_mode_vendor">விற்பனையாளர் சுயவிவரத்தைப் பின்பற்று</string>
+    <string name="perf_mode_default">இயல்புநிலை</string>
+    <string name="perf_mode_custom">தனிப்பயன்</string>
+    <string name="perf_mode_off">முடக்கு</string>
+    <string name="perf_mode_vendor_summary">விற்பனையாளர் சுயவிவரம்: %1$s</string>
+    <string name="perf_mode_recommended">பரிந்துரைக்கப்பட்டது</string>
+    <string name="perf_mode_recommended_summary">பரிந்துரைக்கப்பட்டது: %1$s</string>
+    <string name="perf_mode_custom_summary">தனிப்பயன்: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, மேம்பட்டது</string>
+    <string name="perf_preset_title">முன்னமைவு</string>
+    <string name="perf_preset_none">ஏதுமில்லை</string>
+    <string name="perf_preset_details_title">முன்னமைவு அமைப்புகள்</string>
+    <string name="perf_preset_thermal">வெப்பக் கொள்கை %1$d</string>
+    <string name="perf_preset_cpu_max">CPU அதிகபட்சம் %1$s</string>
+    <string name="perf_preset_cpu_min">CPU குறைந்தபட்சம் %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO ஃப்ரேம் பேஸிங்</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d அமைப்பு</item>
+        <item quantity="other">%1$d அமைப்புகள்</item>
+    </plurals>
+    <string name="perf_category_video">வீடியோ</string>
+    <string name="perf_category_camera">கேமரா</string>
+    <string name="perf_category_communication">தொடர்பு</string>
+    <string name="perf_category_music">இசை</string>
+    <string name="perf_category_app_clone">குளோன் செய்யப்பட்ட ஆப்</string>
+    <string name="perf_category_benchmark">பெஞ்ச்மார்க்</string>
+    <string name="perf_category_game">கேம்</string>
+    <string name="perf_advanced_title">மேம்பட்ட அளவுருக்கள்</string>
+    <string name="perf_advanced_summary">முன்னமைவிலிருந்து தொடங்கி CPU அதிர்வெண் வரம்புகளை அமைத்து ரெஃப்ரெஷ் ரேட்டைப் பூட்டவும்</string>
+    <string name="category_perf_cpu">CPU அதிர்வெண்</string>
+    <string name="perf_cluster_little">சிறிய கோர்கள்</string>
+    <string name="perf_cluster_medium">நடுத்தர கோர்கள்</string>
+    <string name="perf_cluster_big">பெரிய கோர்கள்</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: குறைந்தபட்ச அதிர்வெண்</string>
+    <string name="perf_cpu_max_title">%1$s: அதிகபட்ச அதிர்வெண்</string>
+    <string name="perf_refresh_rate_title">ரெஃப்ரெஷ் ரேட் பூட்டு</string>
+    <string name="perf_refresh_rate_none">பூட்டப்படவில்லை</string>
+    <string name="perf_advanced_reset_title">முன்னமைவுக்கு மீட்டமை</string>
+
+    <string name="tile_reading_low_refresh">படித்தல் 30 Hz</string>
+    <string name="tile_touch_game_mode">டச் கேம் பயன்முறை</string>
+    <string name="tile_smart_cover">ஸ்மார்ட் கவர்</string>
+</resources>

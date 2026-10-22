@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">ਡਿਵਾਈਸ ਦੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ</string>
+
+    <string name="device_parts_title">ਡਿਵਾਈਸ ਦੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ</string>
+    <string name="device_parts_summary">ਕਾਰਗੁਜ਼ਾਰੀ, ਸਟਾਈਲਸ, ਟੱਚ, Dolby Atmos ਅਤੇ ਫੋਲੀਓ ਕਵਰ</string>
+    <string name="display_parts_title">ਸਟਾਈਲਸ ਅਤੇ ਟੱਚ</string>
+    <string name="display_parts_summary">ਸਟਾਈਲਸ ਰਿਫ੍ਰੈਸ਼ ਦਰ, ਰੀਡਿੰਗ ਮੋਡ ਰਿਫ੍ਰੈਸ਼ ਦਰ, ਟੱਚ ਗੇਮ ਮੋਡ</string>
+
+    <string name="category_display_title">ਰਿਫ੍ਰੈਸ਼ ਦਰ</string>
+    <string name="category_touch_title">ਟੱਚ</string>
+    <string name="category_cover_title">ਫੋਲੀਓ ਕਵਰ</string>
+    <string name="category_audio_title">ਆਡੀਓ</string>
+    <string name="category_perf_title">ਕਾਰਗੁਜ਼ਾਰੀ</string>
+
+    <string name="pen_refresh_cap_title">ਸਟਾਈਲਸ ਵਰਤਦੇ ਸਮੇਂ 120 Hz ਤੱਕ ਸੀਮਤ ਕਰੋ</string>
+    <string name="pen_refresh_cap_summary">ਐਕਟਿਵ ਸਟਾਈਲਸ ਸਿਰਫ਼ 120 Hz ਤੱਕ ਕੰਮ ਕਰਦਾ ਹੈ। ਸਟਾਈਲਸ ਤੋਂ ਆਖ਼ਰੀ ਇਨਪੁੱਟ ਦੇ 10 ਸਕਿੰਟਾਂ ਬਾਅਦ ਇਹ ਸੀਮਾ ਹਟ ਜਾਂਦੀ ਹੈ।</string>
+    <string name="reading_low_refresh_title">ਰੀਡਿੰਗ ਮੋਡ ਵਿੱਚ 30 Hz</string>
+    <string name="reading_low_refresh_summary">ਰੀਡਿੰਗ ਮੋਡ ਚਾਲੂ ਹੋਣ ਵੇਲੇ ਰਿਫ੍ਰੈਸ਼ ਦਰ ਘਟਾਓ</string>
+    <string name="reading_low_refresh_unavailable">ਰੀਡਿੰਗ ਮੋਡ ਉਪਲਬਧ ਨਹੀਂ ਹੈ</string>
+    <string name="touch_game_mode_title">ਟੱਚ ਗੇਮ ਮੋਡ</string>
+    <string name="touch_game_mode_summary">ਟੱਚ ਕੰਟਰੋਲਰ ਦਾ ਗੇਮ ਮੋਡ। ਰੀਸਟਾਰਟ ਹੋਣ ਤੋਂ ਬਾਅਦ ਇਹ ਮੁੜ ਬੰਦ ਹੋ ਜਾਂਦਾ ਹੈ।</string>
+    <string name="touch_game_mode_unavailable">ਉਪਲਬਧ ਨਹੀਂ ਹੈ</string>
+    <string name="smart_cover_title">ਸਮਾਰਟ ਕਵਰ</string>
+    <string name="smart_cover_summary">ਫੋਲੀਓ ਕਵਰ ਬੰਦ ਹੋਣ \'ਤੇ ਸਲੀਪ ਅਤੇ ਲੌਕ ਕਰੋ</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">ਸਾਊਂਡ ਮੋਡ, ਇਕੁਅਲਾਈਜ਼ਰ, ਡਾਇਲਾਗ ਐਨਹਾਂਸਰ ਅਤੇ ਐਪ ਮੋਡ</string>
+    <string name="dolby_enable_title">Dolby Atmos ਵਰਤੋ</string>
+    <string name="dolby_profile_title">ਪੂਰਵ-ਨਿਰਧਾਰਿਤ ਮੋਡ</string>
+    <string name="dolby_profile_dynamic">ਡਾਇਨੈਮਿਕ</string>
+    <string name="dolby_profile_movie">ਮੂਵੀ</string>
+    <string name="dolby_profile_music">ਸੰਗੀਤ</string>
+    <string name="category_dolby_music_title">ਸੰਗੀਤ ਮੋਡ</string>
+    <string name="dolby_ieq_preset_title">ਸਾਊਂਡ ਇਫੈਕਟ</string>
+    <string name="dolby_ieq_preset_none">ਕੋਈ ਨਹੀਂ</string>
+    <string name="dolby_ieq_preset_detailed">ਵਿਸਤ੍ਰਿਤ</string>
+    <string name="dolby_ieq_preset_balanced">ਸੰਤੁਲਿਤ</string>
+    <string name="dolby_ieq_preset_warm">ਵਾਰਮ</string>
+    <string name="dolby_geq_title">ਇਕੁਅਲਾਈਜ਼ਰ</string>
+    <string name="dolby_geq_summary">10 ਫ੍ਰੀਕੁਐਂਸੀ ਬੈਂਡ ਵਿਵਸਥਿਤ ਕਰੋ</string>
+    <string name="dolby_geq_reset_title">ਫਲੈਟ \'ਤੇ ਰੀਸੈੱਟ ਕਰੋ</string>
+    <string name="category_dolby_movie_title">ਮੂਵੀ ਮੋਡ</string>
+    <string name="dolby_dialogue_level_title">ਡਾਇਲਾਗ ਐਨਹਾਂਸਰ</string>
+    <string name="dolby_dialogue_level_summary">ਬੋਲ ਸਾਫ਼ ਸੁਣਾਈ ਦਿੰਦੇ ਹਨ। 0 ਇਸਨੂੰ ਬੰਦ ਕਰਦਾ ਹੈ।</string>
+    <string name="category_dolby_apps_title">ਐਪਾਂ</string>
+    <string name="dolby_app_profiles_enabled_title">ਐਪ ਮੁਤਾਬਕ ਮੋਡ ਬਦਲੋ</string>
+    <string name="dolby_app_profiles_enabled_summary">ਐਪ ਵੱਲੋਂ ਆਡੀਓ ਚਲਾਏ ਜਾਣ ਦੌਰਾਨ ਇਸ ਲਈ ਸੈੱਟ ਕੀਤਾ ਮੋਡ ਵਰਤੋ</string>
+    <string name="dolby_app_profiles_title">ਐਪ ਮੋਡ</string>
+    <string name="dolby_app_profiles_summary">ਹਰੇਕ ਐਪ ਲਈ ਮੋਡ ਚੁਣੋ। ਪਛਾਣੀਆਂ ਗਈਆਂ ਸੰਗੀਤ ਅਤੇ ਵੀਡੀਓ ਐਪਾਂ ਸੰਗੀਤ ਅਤੇ ਮੂਵੀ ਮੋਡ ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦੀਆਂ ਹਨ।</string>
+    <string name="dolby_app_profile_default">ਪੂਰਵ-ਨਿਰਧਾਰਿਤ ਮੋਡ</string>
+
+    <string name="perf_title">ਕਾਰਗੁਜ਼ਾਰੀ ਪ੍ਰੋਫਾਈਲਾਂ</string>
+    <string name="perf_summary">MediaTek Dimensity ਦੀ ਕਾਰਗੁਜ਼ਾਰੀ ਅਤੇ ਥਰਮਲ ਨੀਤੀਆਂ ਟਿਊਨ ਕਰੋ</string>
+    <string name="perf_enabled_title">ਐਪ ਮੁਤਾਬਕ ਕਾਰਗੁਜ਼ਾਰੀ ਵਿਵਸਥਿਤ ਕਰੋ</string>
+    <string name="perf_enabled_summary">MediaTek ਪਾਵਰ ਸੇਵਾ ਨੂੰ ਦੱਸੋ ਕਿ ਕਿਹੜੀ ਐਪ ਸਾਹਮਣੇ ਹੈ ਅਤੇ ਉਸਦੀ ਪ੍ਰੋਫਾਈਲ ਲਾਗੂ ਕਰੋ। ਵਿਕਰੇਤਾ ਜਾਂ ਸਿਫ਼ਾਰਸ਼ੀ ਪ੍ਰੋਫਾਈਲਾਂ ਵਾਲੀਆਂ ਐਪਾਂ ਪੂਰਵ-ਨਿਰਧਾਰਿਤ ਤੌਰ \'ਤੇ ਉਹਨਾਂ ਨੂੰ ਵਰਤਦੀਆਂ ਹਨ।</string>
+    <string name="category_perf_known_apps">ਪ੍ਰੋਫਾਈਲਾਂ ਵਾਲੀਆਂ ਐਪਾਂ</string>
+    <string name="category_perf_other_apps">ਹੋਰ ਐਪਾਂ</string>
+    <string name="perf_mode_title">ਪ੍ਰੋਫਾਈਲ</string>
+    <string name="perf_mode_vendor">ਵਿਕਰੇਤਾ ਦੀ ਪਾਲਣਾ ਕਰੋ</string>
+    <string name="perf_mode_default">ਪੂਰਵ-ਨਿਰਧਾਰਿਤ</string>
+    <string name="perf_mode_custom">ਕਸਟਮ</string>
+    <string name="perf_mode_off">ਬੰਦ</string>
+    <string name="perf_mode_vendor_summary">ਵਿਕਰੇਤਾ ਦੀ ਪਾਲਣਾ ਕਰੋ: %1$s</string>
+    <string name="perf_mode_recommended">ਸਿਫ਼ਾਰਸ਼ੀ</string>
+    <string name="perf_mode_recommended_summary">ਸਿਫ਼ਾਰਸ਼ੀ: %1$s</string>
+    <string name="perf_mode_custom_summary">ਕਸਟਮ: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, ਉੱਨਤ</string>
+    <string name="perf_preset_title">ਪ੍ਰੀਸੈੱਟ</string>
+    <string name="perf_preset_none">ਕੋਈ ਨਹੀਂ</string>
+    <string name="perf_preset_details_title">ਪ੍ਰੀਸੈੱਟ ਸੈਟਿੰਗਾਂ</string>
+    <string name="perf_preset_thermal">ਥਰਮਲ ਨੀਤੀ %1$d</string>
+    <string name="perf_preset_cpu_max">CPU ਵੱਧ ਤੋਂ ਵੱਧ %1$s</string>
+    <string name="perf_preset_cpu_min">CPU ਘੱਟੋ-ਘੱਟ %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO ਫ੍ਰੇਮ ਪੇਸਿੰਗ</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d ਸੈਟਿੰਗ</item>
+        <item quantity="other">%1$d ਸੈਟਿੰਗਾਂ</item>
+    </plurals>
+    <string name="perf_category_video">ਵੀਡੀਓ</string>
+    <string name="perf_category_camera">ਕੈਮਰਾ</string>
+    <string name="perf_category_communication">ਸੰਚਾਰ</string>
+    <string name="perf_category_music">ਸੰਗੀਤ</string>
+    <string name="perf_category_app_clone">ਕਲੋਨ ਕੀਤੀ ਐਪ</string>
+    <string name="perf_category_benchmark">ਬੈਂਚਮਾਰਕ</string>
+    <string name="perf_category_game">ਗੇਮ</string>
+    <string name="perf_advanced_title">ਉੱਨਤ ਪੈਰਾਮੀਟਰ</string>
+    <string name="perf_advanced_summary">ਪ੍ਰੀਸੈੱਟ ਤੋਂ CPU ਫ੍ਰੀਕੁਐਂਸੀ ਸੀਮਾਵਾਂ ਸੈੱਟ ਕਰੋ ਅਤੇ ਰਿਫ੍ਰੈਸ਼ ਦਰ ਲੌਕ ਕਰੋ</string>
+    <string name="category_perf_cpu">CPU ਫ੍ਰੀਕੁਐਂਸੀ</string>
+    <string name="perf_cluster_little">ਘੱਟ-ਪਾਵਰ ਕੋਰ</string>
+    <string name="perf_cluster_medium">ਮੱਧਮ ਕੋਰ</string>
+    <string name="perf_cluster_big">ਉੱਚ-ਪਾਵਰ ਕੋਰ</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: ਘੱਟੋ-ਘੱਟ</string>
+    <string name="perf_cpu_max_title">%1$s: ਵੱਧ ਤੋਂ ਵੱਧ</string>
+    <string name="perf_refresh_rate_title">ਰਿਫ੍ਰੈਸ਼ ਦਰ ਲੌਕ</string>
+    <string name="perf_refresh_rate_none">ਲੌਕ ਨਹੀਂ ਹੈ</string>
+    <string name="perf_advanced_reset_title">ਪ੍ਰੀਸੈੱਟ \'ਤੇ ਰੀਸੈੱਟ ਕਰੋ</string>
+
+    <string name="tile_reading_low_refresh">ਰੀਡਿੰਗ 30 Hz</string>
+    <string name="tile_touch_game_mode">ਟੱਚ ਗੇਮ ਮੋਡ</string>
+    <string name="tile_smart_cover">ਸਮਾਰਟ ਕਵਰ</string>
+</resources>

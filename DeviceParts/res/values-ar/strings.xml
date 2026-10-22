@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">ميزات الجهاز</string>
+
+    <string name="device_parts_title">ميزات الجهاز</string>
+    <string name="device_parts_summary">الأداء والقلم واللمس وDolby Atmos والغطاء القابل للطي</string>
+    <string name="display_parts_title">القلم واللمس</string>
+    <string name="display_parts_summary">معدل تحديث القلم ومعدل تحديث وضع القراءة ووضع الألعاب باللمس</string>
+
+    <string name="category_display_title">معدل التحديث</string>
+    <string name="category_touch_title">اللمس</string>
+    <string name="category_cover_title">الغطاء القابل للطي</string>
+    <string name="category_audio_title">الصوت</string>
+    <string name="category_perf_title">الأداء</string>
+
+    <string name="pen_refresh_cap_title">تحديد المعدل إلى 120 هرتز عند استخدام القلم</string>
+    <string name="pen_refresh_cap_summary">يُقال إن القلم النشط يعمل بمعدل يصل إلى 120 هرتز فقط. يُرفع الحد بعد 10 ثوانٍ من آخر إدخال بالقلم.</string>
+    <string name="reading_low_refresh_title">30 هرتز في وضع القراءة</string>
+    <string name="reading_low_refresh_summary">خفض معدل التحديث عند تفعيل وضع القراءة</string>
+    <string name="reading_low_refresh_unavailable">وضع القراءة غير متاح</string>
+    <string name="touch_game_mode_title">وضع الألعاب باللمس</string>
+    <string name="touch_game_mode_summary">وضع الألعاب لوحدة التحكم باللمس. يُوقف مجددًا بعد إعادة التشغيل.</string>
+    <string name="touch_game_mode_unavailable">غير متاح</string>
+    <string name="smart_cover_title">الغطاء الذكي</string>
+    <string name="smart_cover_summary">إطفاء الشاشة وقفلها عند إغلاق الغطاء القابل للطي</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">وضع الصوت والمعادل ومُحسِّن الحوار وأوضاع التطبيقات</string>
+    <string name="dolby_enable_title">استخدام Dolby Atmos</string>
+    <string name="dolby_profile_title">الوضع التلقائي</string>
+    <string name="dolby_profile_dynamic">ديناميكي</string>
+    <string name="dolby_profile_movie">أفلام</string>
+    <string name="dolby_profile_music">موسيقى</string>
+    <string name="category_dolby_music_title">وضع الموسيقى</string>
+    <string name="dolby_ieq_preset_title">المؤثر الصوتي</string>
+    <string name="dolby_ieq_preset_none">بلا</string>
+    <string name="dolby_ieq_preset_detailed">تفصيلي</string>
+    <string name="dolby_ieq_preset_balanced">متوازن</string>
+    <string name="dolby_ieq_preset_warm">دافئ</string>
+    <string name="dolby_geq_title">المعادل</string>
+    <string name="dolby_geq_summary">ضبط 10 نطاقات ترددية</string>
+    <string name="dolby_geq_reset_title">إعادة الضبط إلى مستوى مسطح</string>
+    <string name="dolby_geq_band_hz">%1$d هرتز</string>
+    <string name="dolby_geq_band_khz">%1$.1f كيلوهرتز</string>
+    <string name="category_dolby_movie_title">وضع الأفلام</string>
+    <string name="dolby_dialogue_level_title">مُحسِّن الحوار</string>
+    <string name="dolby_dialogue_level_summary">يوضح الكلام. يؤدي ضبطه على 0 إلى إيقافه.</string>
+    <string name="category_dolby_apps_title">التطبيقات</string>
+    <string name="dolby_app_profiles_enabled_title">تبديل الوضع حسب التطبيق</string>
+    <string name="dolby_app_profiles_enabled_summary">استخدام الوضع المحدد للتطبيق أثناء تشغيله للصوت</string>
+    <string name="dolby_app_profiles_title">أوضاع التطبيقات</string>
+    <string name="dolby_app_profiles_summary">اختيار وضع لكل تطبيق. تبدأ تطبيقات الموسيقى والفيديو المعروفة بوضع الموسيقى والأفلام.</string>
+    <string name="dolby_app_profile_default">الوضع التلقائي</string>
+
+    <string name="perf_title">ملفات الأداء</string>
+    <string name="perf_summary">ضبط أداء MediaTek Dimensity وسياسات الحرارة</string>
+    <string name="perf_enabled_title">ضبط الأداء حسب التطبيق</string>
+    <string name="perf_enabled_summary">إبلاغ خدمة الطاقة من MediaTek عن التطبيق المفتوح وتطبيق ملفه. تُستخدم ملفات الشركة المصنّعة أو الموصى بها تلقائيًا للتطبيقات التي تملكها.</string>
+    <string name="category_perf_known_apps">تطبيقات لها ملفات أداء</string>
+    <string name="category_perf_other_apps">تطبيقات أخرى</string>
+    <string name="perf_mode_title">الملف</string>
+    <string name="perf_mode_vendor">اتباع إعداد الشركة المصنّعة</string>
+    <string name="perf_mode_default">تلقائي</string>
+    <string name="perf_mode_custom">مخصّص</string>
+    <string name="perf_mode_off">إيقاف</string>
+    <string name="perf_mode_vendor_summary">اتباع إعداد الشركة المصنّعة: %1$s</string>
+    <string name="perf_mode_recommended">موصى به</string>
+    <string name="perf_mode_recommended_summary">موصى به: %1$s</string>
+    <string name="perf_mode_custom_summary">مخصّص: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s، متقدم</string>
+    <string name="perf_preset_title">إعداد مسبق</string>
+    <string name="perf_preset_none">بلا</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">إعدادات الإعداد المسبق</string>
+    <string name="perf_preset_thermal">سياسة الحرارة %1$d</string>
+    <string name="perf_preset_cpu_max">الحد الأقصى لوحدة المعالجة المركزية %1$s</string>
+    <string name="perf_preset_cpu_min">الحد الأدنى لوحدة المعالجة المركزية %1$s</string>
+    <string name="perf_preset_fpsgo">تنظيم الإطارات FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="zero">%1$d إعدادات</item>
+        <item quantity="one">إعداد واحد (%1$d)</item>
+        <item quantity="two">إعدادان (%1$d)</item>
+        <item quantity="few">%1$d إعدادات</item>
+        <item quantity="many">%1$d إعدادًا</item>
+        <item quantity="other">%1$d إعداد</item>
+    </plurals>
+    <string name="perf_category_video">الفيديو</string>
+    <string name="perf_category_camera">الكاميرا</string>
+    <string name="perf_category_communication">الاتصالات</string>
+    <string name="perf_category_music">الموسيقى</string>
+    <string name="perf_category_app_clone">نسخ التطبيقات</string>
+    <string name="perf_category_benchmark">اختبار الأداء</string>
+    <string name="perf_category_game">الألعاب</string>
+    <string name="perf_advanced_title">مَعلمات متقدمة</string>
+    <string name="perf_advanced_summary">تحديد حدود تردد وحدة المعالجة المركزية وقفل معدل التحديث بدءًا من الإعداد المسبق</string>
+    <string name="category_perf_cpu">تردد وحدة المعالجة المركزية</string>
+    <string name="perf_cluster_all">وحدة المعالجة المركزية</string>
+    <string name="perf_cluster_little">الأنوية الصغيرة</string>
+    <string name="perf_cluster_medium">الأنوية المتوسطة</string>
+    <string name="perf_cluster_big">الأنوية الكبيرة</string>
+    <string name="perf_cluster_title">%1$s (وحدة المعالجة المركزية %2$s)</string>
+    <string name="perf_cpu_range">%1$d–%2$d</string>
+    <string name="perf_cpu_min_title">الحد الأدنى لتردد %1$s</string>
+    <string name="perf_cpu_max_title">الحد الأقصى لتردد %1$s</string>
+    <string name="perf_freq_ghz">%1$.2f جيجاهرتز</string>
+    <string name="perf_freq_mhz">%1$d ميجاهرتز</string>
+    <string name="perf_refresh_rate_title">قفل معدل التحديث</string>
+    <string name="perf_refresh_rate_none">غير مقفل</string>
+    <string name="perf_refresh_rate_hz">%1$d هرتز</string>
+    <string name="perf_advanced_reset_title">إعادة الضبط إلى الإعداد المسبق</string>
+
+    <string name="tile_reading_low_refresh">القراءة 30 هرتز</string>
+    <string name="tile_touch_game_mode">وضع الألعاب باللمس</string>
+    <string name="tile_smart_cover">الغطاء الذكي</string>
+</resources>

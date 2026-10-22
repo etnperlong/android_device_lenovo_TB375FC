@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Funkcie zariadenia</string>
+
+    <string name="device_parts_title">Funkcie zariadenia</string>
+    <string name="device_parts_summary">Výkon, dotykové pero, dotyk, Dolby Atmos a puzdro s klopou</string>
+    <string name="display_parts_title">Dotykové pero a dotyk</string>
+    <string name="display_parts_summary">Frekvencia obnovenia pri používaní pera a režimu čítania, herný režim dotyku</string>
+
+    <string name="category_display_title">Frekvencia obnovenia</string>
+    <string name="category_touch_title">Dotyk</string>
+    <string name="category_cover_title">Puzdro s klopou</string>
+    <string name="category_audio_title">Zvuk</string>
+    <string name="category_perf_title">Výkon</string>
+
+    <string name="pen_refresh_cap_title">Obmedziť na 120 Hz pri používaní dotykového pera</string>
+    <string name="pen_refresh_cap_summary">Aktívne pero údajne podporuje maximálne 120 Hz. Obmedzenie sa zruší 10 sekúnd po poslednom použití pera.</string>
+    <string name="reading_low_refresh_title">30 Hz v režime čítania</string>
+    <string name="reading_low_refresh_summary">Znížiť frekvenciu obnovenia, keď je zapnutý režim čítania</string>
+    <string name="reading_low_refresh_unavailable">Režim čítania nie je k dispozícii</string>
+    <string name="touch_game_mode_title">Herný režim dotyku</string>
+    <string name="touch_game_mode_summary">Herný režim dotykového ovládača. Po reštarte sa znova vypne.</string>
+    <string name="touch_game_mode_unavailable">Nie je k dispozícii</string>
+    <string name="smart_cover_title">Inteligentné puzdro</string>
+    <string name="smart_cover_summary">Po zatvorení puzdra zariadenie uspí a uzamkne</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Zvukový režim, ekvalizér, zvýraznenie dialógov a režimy aplikácií</string>
+    <string name="dolby_enable_title">Používať Dolby Atmos</string>
+    <string name="dolby_profile_title">Predvolený režim</string>
+    <string name="dolby_profile_dynamic">Dynamický</string>
+    <string name="dolby_profile_movie">Film</string>
+    <string name="dolby_profile_music">Hudba</string>
+    <string name="category_dolby_music_title">Režim hudby</string>
+    <string name="dolby_ieq_preset_title">Zvukový efekt</string>
+    <string name="dolby_ieq_preset_none">Žiadny</string>
+    <string name="dolby_ieq_preset_detailed">Detailný</string>
+    <string name="dolby_ieq_preset_balanced">Vyvážený</string>
+    <string name="dolby_ieq_preset_warm">Teplý</string>
+    <string name="dolby_geq_title">Ekvalizér</string>
+    <string name="dolby_geq_summary">Upraviť 10 frekvenčných pásiem</string>
+    <string name="dolby_geq_reset_title">Obnoviť plochú krivku</string>
+    <string name="dolby_geq_band_hz">%1$d Hz</string>
+    <string name="dolby_geq_band_khz">%1$.1f kHz</string>
+    <string name="category_dolby_movie_title">Filmový režim</string>
+    <string name="dolby_dialogue_level_title">Zvýraznenie dialógov</string>
+    <string name="dolby_dialogue_level_summary">Zlepšuje zrozumiteľnosť reči. Hodnota 0 funkciu vypne.</string>
+    <string name="category_dolby_apps_title">Aplikácie</string>
+    <string name="dolby_app_profiles_enabled_title">Prepínať režim podľa aplikácie</string>
+    <string name="dolby_app_profiles_enabled_summary">Pri prehrávaní zvuku aplikáciou použiť režim nastavený pre danú aplikáciu</string>
+    <string name="dolby_app_profiles_title">Režimy aplikácií</string>
+    <string name="dolby_app_profiles_summary">Vyberte režim pre každú aplikáciu. Známe hudobné a video aplikácie začínajú v režime Hudba alebo Film.</string>
+    <string name="dolby_app_profile_default">Predvolený režim</string>
+
+    <string name="perf_title">Profily výkonu</string>
+    <string name="perf_summary">Upraviť výkon MediaTek Dimensity a teplotné zásady</string>
+    <string name="perf_enabled_title">Upraviť výkon podľa aplikácie</string>
+    <string name="perf_enabled_summary">Informovať napájaciu službu MediaTek o aplikácii v popredí a použiť jej profil. Aplikácie s profilom výrobcu alebo odporúčaným profilom ich používajú predvolene.</string>
+    <string name="category_perf_known_apps">Aplikácie s profilmi</string>
+    <string name="category_perf_other_apps">Ostatné aplikácie</string>
+    <string name="perf_mode_title">Profil</string>
+    <string name="perf_mode_vendor">Podľa výrobcu</string>
+    <string name="perf_mode_default">Predvolený</string>
+    <string name="perf_mode_custom">Vlastný</string>
+    <string name="perf_mode_off">Vypnuté</string>
+    <string name="perf_mode_vendor_summary">Podľa výrobcu: %1$s</string>
+    <string name="perf_mode_recommended">Odporúčaný</string>
+    <string name="perf_mode_recommended_summary">Odporúčaný: %1$s</string>
+    <string name="perf_mode_custom_summary">Vlastný: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, pokročilý</string>
+    <string name="perf_preset_title">Predvoľba</string>
+    <string name="perf_preset_none">Žiadna</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Nastavenia predvoľby</string>
+    <string name="perf_preset_thermal">Teplotná zásada %1$d</string>
+    <string name="perf_preset_cpu_max">Max. CPU %1$s</string>
+    <string name="perf_preset_cpu_min">Min. CPU %1$s</string>
+    <string name="perf_preset_fpsgo">Riadenie snímkovej frekvencie FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d nastavenie</item>
+        <item quantity="few">%1$d nastavenia</item>
+        <item quantity="many">%1$d nastavení</item>
+        <item quantity="other">%1$d nastavenia</item>
+    </plurals>
+    <string name="perf_category_video">Video</string>
+    <string name="perf_category_camera">Fotoaparát</string>
+    <string name="perf_category_communication">Komunikácia</string>
+    <string name="perf_category_music">Hudba</string>
+    <string name="perf_category_app_clone">Klonované aplikácie</string>
+    <string name="perf_category_benchmark">Test výkonu</string>
+    <string name="perf_category_game">Hra</string>
+    <string name="perf_advanced_title">Pokročilé parametre</string>
+    <string name="perf_advanced_summary">Nastaviť limity frekvencie CPU a uzamknúť frekvenciu obnovenia, počnúc predvoľbou</string>
+    <string name="category_perf_cpu">Frekvencia CPU</string>
+    <string name="perf_cluster_little">Malé jadrá</string>
+    <string name="perf_cluster_medium">Stredné jadrá</string>
+    <string name="perf_cluster_big">Veľké jadrá</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: minimálna frekvencia</string>
+    <string name="perf_cpu_max_title">%1$s: maximálna frekvencia</string>
+    <string name="perf_freq_ghz">%1$.2f GHz</string>
+    <string name="perf_freq_mhz">%1$d MHz</string>
+    <string name="perf_refresh_rate_title">Zámok frekvencie obnovenia</string>
+    <string name="perf_refresh_rate_none">Bez zámku</string>
+    <string name="perf_refresh_rate_hz">%1$d Hz</string>
+    <string name="perf_advanced_reset_title">Obnoviť predvoľbu</string>
+
+    <string name="tile_reading_low_refresh">Čítanie 30 Hz</string>
+    <string name="tile_touch_game_mode">Herný režim dotyku</string>
+    <string name="tile_smart_cover">Inteligentné puzdro</string>
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">기기 기능</string>
+
+    <string name="device_parts_title">기기 기능</string>
+    <string name="device_parts_summary">성능, 스타일러스, 터치, 돌비 애트모스, 폴리오 커버</string>
+    <string name="display_parts_title">스타일러스 및 터치</string>
+    <string name="display_parts_summary">스타일러스 화면 재생 빈도, 독서 모드 화면 재생 빈도, 터치 게임 모드</string>
+
+    <string name="category_display_title">화면 재생 빈도</string>
+    <string name="category_touch_title">터치</string>
+    <string name="category_cover_title">폴리오 커버</string>
+    <string name="category_audio_title">오디오</string>
+    <string name="category_perf_title">성능</string>
+
+    <string name="pen_refresh_cap_title">스타일러스 사용 시 120Hz로 제한</string>
+    <string name="pen_refresh_cap_summary">스타일러스는 최대 120Hz까지만 작동하는 것으로 알려져 있습니다. 마지막 스타일러스 입력 후 10초가 지나면 제한이 해제됩니다.</string>
+    <string name="reading_low_refresh_title">독서 모드에서 30Hz</string>
+    <string name="reading_low_refresh_summary">독서 모드가 켜져 있을 때 화면 재생 빈도를 낮춥니다</string>
+    <string name="reading_low_refresh_unavailable">독서 모드를 사용할 수 없습니다</string>
+    <string name="touch_game_mode_title">터치 게임 모드</string>
+    <string name="touch_game_mode_summary">터치 컨트롤러의 게임 모드입니다. 기기를 다시 시작하면 꺼집니다.</string>
+    <string name="touch_game_mode_unavailable">사용할 수 없음</string>
+    <string name="smart_cover_title">스마트 커버</string>
+    <string name="smart_cover_summary">폴리오 커버를 닫으면 화면을 끄고 잠급니다</string>
+
+    <string name="dolby_title">돌비 애트모스</string>
+    <string name="dolby_summary">사운드 모드, 이퀄라이저, 대화 향상, 앱 모드</string>
+    <string name="dolby_enable_title">돌비 애트모스 사용</string>
+    <string name="dolby_profile_title">기본 모드</string>
+    <string name="dolby_profile_dynamic">다이내믹</string>
+    <string name="dolby_profile_movie">영화</string>
+    <string name="dolby_profile_music">음악</string>
+    <string name="category_dolby_music_title">음악 모드</string>
+    <string name="dolby_ieq_preset_title">음향 효과</string>
+    <string name="dolby_ieq_preset_none">없음</string>
+    <string name="dolby_ieq_preset_detailed">선명</string>
+    <string name="dolby_ieq_preset_balanced">균형</string>
+    <string name="dolby_ieq_preset_warm">따뜻함</string>
+    <string name="dolby_geq_title">이퀄라이저</string>
+    <string name="dolby_geq_summary">10개 주파수 대역 조정</string>
+    <string name="dolby_geq_reset_title">플랫으로 초기화</string>
+    <string name="category_dolby_movie_title">영화 모드</string>
+    <string name="dolby_dialogue_level_title">대화 향상</string>
+    <string name="dolby_dialogue_level_summary">음성을 더 선명하게 들려줍니다. 0으로 설정하면 꺼집니다.</string>
+    <string name="category_dolby_apps_title">앱</string>
+    <string name="dolby_app_profiles_enabled_title">앱별로 모드 전환</string>
+    <string name="dolby_app_profiles_enabled_summary">앱에서 오디오를 재생하면 해당 앱에 설정된 모드를 사용합니다</string>
+    <string name="dolby_app_profiles_title">앱 모드</string>
+    <string name="dolby_app_profiles_summary">앱별 모드를 선택합니다. 잘 알려진 음악 및 동영상 앱은 기본적으로 음악 및 영화 모드로 설정됩니다.</string>
+    <string name="dolby_app_profile_default">기본 모드</string>
+
+    <string name="perf_title">성능 프로필</string>
+    <string name="perf_summary">MediaTek Dimensity 성능 및 발열 정책 조정</string>
+    <string name="perf_enabled_title">앱별 성능 조정</string>
+    <string name="perf_enabled_summary">MediaTek 전원 서비스에 현재 실행 중인 앱을 알리고 해당 프로필을 적용합니다. 제조업체 또는 권장 프로필이 있는 앱은 기본적으로 해당 프로필을 사용합니다.</string>
+    <string name="category_perf_known_apps">프로필이 있는 앱</string>
+    <string name="category_perf_other_apps">기타 앱</string>
+    <string name="perf_mode_title">프로필</string>
+    <string name="perf_mode_vendor">제조업체 설정 따르기</string>
+    <string name="perf_mode_default">기본값</string>
+    <string name="perf_mode_custom">맞춤</string>
+    <string name="perf_mode_off">사용 안함</string>
+    <string name="perf_mode_vendor_summary">제조업체 설정 따르기: %1$s</string>
+    <string name="perf_mode_recommended">권장</string>
+    <string name="perf_mode_recommended_summary">권장: %1$s</string>
+    <string name="perf_mode_custom_summary">맞춤: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, 고급</string>
+    <string name="perf_preset_title">프리셋</string>
+    <string name="perf_preset_none">없음</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">프리셋 설정</string>
+    <string name="perf_preset_thermal">발열 정책 %1$d</string>
+    <string name="perf_preset_cpu_max">CPU 최대 %1$s</string>
+    <string name="perf_preset_cpu_min">CPU 최소 %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO 프레임 페이싱</string>
+    <plurals name="perf_preset_count">
+        <item quantity="other">설정 %1$d개</item>
+    </plurals>
+    <string name="perf_category_video">동영상</string>
+    <string name="perf_category_camera">카메라</string>
+    <string name="perf_category_communication">커뮤니케이션</string>
+    <string name="perf_category_music">음악</string>
+    <string name="perf_category_app_clone">복제 앱</string>
+    <string name="perf_category_benchmark">벤치마크</string>
+    <string name="perf_category_game">게임</string>
+    <string name="perf_advanced_title">고급 매개변수</string>
+    <string name="perf_advanced_summary">프리셋을 기준으로 CPU 주파수 한도를 설정하고 화면 재생 빈도를 고정합니다</string>
+    <string name="category_perf_cpu">CPU 주파수</string>
+    <string name="perf_cluster_little">리틀 코어</string>
+    <string name="perf_cluster_medium">미디엄 코어</string>
+    <string name="perf_cluster_big">빅 코어</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: 최소 주파수</string>
+    <string name="perf_cpu_max_title">%1$s: 최대 주파수</string>
+    <string name="perf_refresh_rate_title">화면 재생 빈도 고정</string>
+    <string name="perf_refresh_rate_none">고정 안 함</string>
+    <string name="perf_advanced_reset_title">프리셋으로 초기화</string>
+
+    <string name="tile_reading_low_refresh">독서 모드 30Hz</string>
+    <string name="tile_touch_game_mode">터치 게임 모드</string>
+    <string name="tile_smart_cover">스마트 커버</string>
+</resources>

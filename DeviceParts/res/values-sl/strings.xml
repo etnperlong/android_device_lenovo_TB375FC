@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Funkcije naprave</string>
+
+    <string name="device_parts_title">Funkcije naprave</string>
+    <string name="device_parts_summary">Zmogljivost, pisalo, dotik, Dolby Atmos in preklopni ovitek</string>
+    <string name="display_parts_title">Pisalo in dotik</string>
+    <string name="display_parts_summary">Hitrost osveževanja za pisalo in način za branje, igralni način dotika</string>
+
+    <string name="category_display_title">Hitrost osveževanja</string>
+    <string name="category_touch_title">Dotik</string>
+    <string name="category_cover_title">Preklopni ovitek</string>
+    <string name="category_audio_title">Zvok</string>
+    <string name="category_perf_title">Zmogljivost</string>
+
+    <string name="pen_refresh_cap_title">Omeji na 120 Hz med uporabo pisala</string>
+    <string name="pen_refresh_cap_summary">Aktivno pisalo naj bi delovalo le do 120 Hz. Omejitev se odpravi 10 sekund po zadnjem vnosu s pisalom.</string>
+    <string name="reading_low_refresh_title">30 Hz v načinu za branje</string>
+    <string name="reading_low_refresh_summary">Zmanjšaj hitrost osveževanja, ko je vklopljen način za branje</string>
+    <string name="reading_low_refresh_unavailable">Način za branje ni na voljo</string>
+    <string name="touch_game_mode_title">Igralni način dotika</string>
+    <string name="touch_game_mode_summary">Igralni način krmilnika na dotik. Po ponovnem zagonu se znova izklopi.</string>
+    <string name="touch_game_mode_unavailable">Ni na voljo</string>
+    <string name="smart_cover_title">Pametni ovitek</string>
+    <string name="smart_cover_summary">Ob zaprtju ovitka preklopi napravo v stanje pripravljenosti in jo zakleni</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Zvočni način, izenačevalnik, izboljšanje dialogov in načini aplikacij</string>
+    <string name="dolby_enable_title">Uporabi Dolby Atmos</string>
+    <string name="dolby_profile_title">Privzeti način</string>
+    <string name="dolby_profile_dynamic">Dinamično</string>
+    <string name="dolby_profile_movie">Film</string>
+    <string name="dolby_profile_music">Glasba</string>
+    <string name="category_dolby_music_title">Glasbeni način</string>
+    <string name="dolby_ieq_preset_title">Zvočni učinek</string>
+    <string name="dolby_ieq_preset_none">Brez</string>
+    <string name="dolby_ieq_preset_detailed">Podroben</string>
+    <string name="dolby_ieq_preset_balanced">Uravnotežen</string>
+    <string name="dolby_ieq_preset_warm">Topel</string>
+    <string name="dolby_geq_title">Izenačevalnik</string>
+    <string name="dolby_geq_summary">Prilagodi 10 frekvenčnih pasov</string>
+    <string name="dolby_geq_reset_title">Ponastavi na ravno krivuljo</string>
+    <string name="dolby_geq_band_hz">%1$d Hz</string>
+    <string name="dolby_geq_band_khz">%1$.1f kHz</string>
+    <string name="category_dolby_movie_title">Filmski način</string>
+    <string name="dolby_dialogue_level_title">Izboljšanje dialogov</string>
+    <string name="dolby_dialogue_level_summary">Izboljša razločnost govora. Vrednost 0 to izklopi.</string>
+    <string name="category_dolby_apps_title">Aplikacije</string>
+    <string name="dolby_app_profiles_enabled_title">Preklapljaj način glede na aplikacijo</string>
+    <string name="dolby_app_profiles_enabled_summary">Ko aplikacija predvaja zvok, uporabi zanjo nastavljeni način</string>
+    <string name="dolby_app_profiles_title">Načini aplikacij</string>
+    <string name="dolby_app_profiles_summary">Izberi način za vsako aplikacijo. Znane glasbene in video aplikacije se privzeto odprejo v glasbenem ali filmskem načinu.</string>
+    <string name="dolby_app_profile_default">Privzeti način</string>
+
+    <string name="perf_title">Profili zmogljivosti</string>
+    <string name="perf_summary">Prilagodi zmogljivost MediaTek Dimensity in toplotne pravilnike</string>
+    <string name="perf_enabled_title">Prilagajaj zmogljivost glede na aplikacijo</string>
+    <string name="perf_enabled_summary">Storitev MediaTek za upravljanje porabe obvesti, katera aplikacija je v ospredju, in uporabi njen profil. Aplikacije s profilom proizvajalca ali priporočenim profilom ga uporabljajo privzeto.</string>
+    <string name="category_perf_known_apps">Aplikacije s profili</string>
+    <string name="category_perf_other_apps">Druge aplikacije</string>
+    <string name="perf_mode_title">Profil</string>
+    <string name="perf_mode_vendor">Sledi proizvajalcu</string>
+    <string name="perf_mode_default">Privzeto</string>
+    <string name="perf_mode_custom">Po meri</string>
+    <string name="perf_mode_off">Izklopljeno</string>
+    <string name="perf_mode_vendor_summary">Sledi proizvajalcu: %1$s</string>
+    <string name="perf_mode_recommended">Priporočeno</string>
+    <string name="perf_mode_recommended_summary">Priporočeno: %1$s</string>
+    <string name="perf_mode_custom_summary">Po meri: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, napredno</string>
+    <string name="perf_preset_title">Prednastavitev</string>
+    <string name="perf_preset_none">Brez</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Nastavitve prednastavitve</string>
+    <string name="perf_preset_thermal">Toplotni pravilnik %1$d</string>
+    <string name="perf_preset_cpu_max">Največja vrednost CPU %1$s</string>
+    <string name="perf_preset_cpu_min">Najmanjša vrednost CPU %1$s</string>
+    <string name="perf_preset_fpsgo">Uravnavanje hitrosti sličic FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d nastavitev</item>
+        <item quantity="two">%1$d nastavitvi</item>
+        <item quantity="few">%1$d nastavitve</item>
+        <item quantity="other">%1$d nastavitev</item>
+    </plurals>
+    <string name="perf_category_video">Video</string>
+    <string name="perf_category_camera">Kamera</string>
+    <string name="perf_category_communication">Komunikacija</string>
+    <string name="perf_category_music">Glasba</string>
+    <string name="perf_category_app_clone">Klonirane aplikacije</string>
+    <string name="perf_category_benchmark">Preizkus zmogljivosti</string>
+    <string name="perf_category_game">Igra</string>
+    <string name="perf_advanced_title">Napredni parametri</string>
+    <string name="perf_advanced_summary">Nastavi omejitve frekvence CPU in zakleni hitrost osveževanja na podlagi prednastavitve</string>
+    <string name="category_perf_cpu">Frekvenca CPU</string>
+    <string name="perf_cluster_little">Majhna jedra</string>
+    <string name="perf_cluster_medium">Srednja jedra</string>
+    <string name="perf_cluster_big">Velika jedra</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: najmanjša frekvenca</string>
+    <string name="perf_cpu_max_title">%1$s: največja frekvenca</string>
+    <string name="perf_freq_ghz">%1$.2f GHz</string>
+    <string name="perf_freq_mhz">%1$d MHz</string>
+    <string name="perf_refresh_rate_title">Zaklep hitrosti osveževanja</string>
+    <string name="perf_refresh_rate_none">Ni zaklenjeno</string>
+    <string name="perf_refresh_rate_hz">%1$d Hz</string>
+    <string name="perf_advanced_reset_title">Ponastavi na prednastavitev</string>
+
+    <string name="tile_reading_low_refresh">Branje 30 Hz</string>
+    <string name="tile_touch_game_mode">Igralni način dotika</string>
+    <string name="tile_smart_cover">Pametni ovitek</string>
+</resources>

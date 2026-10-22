@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Функции на устройството</string>
+
+    <string name="device_parts_title">Функции на устройството</string>
+    <string name="device_parts_summary">Производителност, стилус, сензорен екран, Dolby Atmos и калъф</string>
+    <string name="display_parts_title">Стилус и сензорен екран</string>
+    <string name="display_parts_summary">Честота на опресняване за стилуса и режима на четене, игрови режим на сензорния екран</string>
+
+    <string name="category_display_title">Честота на опресняване</string>
+    <string name="category_touch_title">Сензорен екран</string>
+    <string name="category_cover_title">Калъф-книга</string>
+    <string name="category_audio_title">Аудио</string>
+    <string name="category_perf_title">Производителност</string>
+
+    <string name="pen_refresh_cap_title">Ограничаване до 120 Гц при използване на стилуса</string>
+    <string name="pen_refresh_cap_summary">Според съобщенията активният стилус работи само до 120 Гц. Ограничението се премахва 10 секунди след последното въвеждане със стилуса.</string>
+    <string name="reading_low_refresh_title">30 Гц в режим на четене</string>
+    <string name="reading_low_refresh_summary">Намаляване на честотата на опресняване, когато режимът на четене е включен</string>
+    <string name="reading_low_refresh_unavailable">Режимът на четене не е наличен</string>
+    <string name="touch_game_mode_title">Игрови режим на сензорния екран</string>
+    <string name="touch_game_mode_summary">Игрови режим на контролера на сензорния екран. Изключва се след рестартиране.</string>
+    <string name="touch_game_mode_unavailable">Не е налично</string>
+    <string name="smart_cover_title">Умен калъф</string>
+    <string name="smart_cover_summary">Изключване на екрана и заключване при затваряне на калъфа-книга</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Звуков режим, еквалайзер, подобряване на диалога и режими за приложения</string>
+    <string name="dolby_enable_title">Използване на Dolby Atmos</string>
+    <string name="dolby_profile_title">Режим по подразбиране</string>
+    <string name="dolby_profile_dynamic">Динамичен</string>
+    <string name="dolby_profile_movie">Филм</string>
+    <string name="dolby_profile_music">Музика</string>
+    <string name="category_dolby_music_title">Режим „Музика“</string>
+    <string name="dolby_ieq_preset_title">Звуков ефект</string>
+    <string name="dolby_ieq_preset_none">Няма</string>
+    <string name="dolby_ieq_preset_detailed">Детайлен</string>
+    <string name="dolby_ieq_preset_balanced">Балансиран</string>
+    <string name="dolby_ieq_preset_warm">Топъл</string>
+    <string name="dolby_geq_title">Еквалайзер</string>
+    <string name="dolby_geq_summary">Настройване на 10 честотни ленти</string>
+    <string name="dolby_geq_reset_title">Нулиране до равна крива</string>
+    <string name="dolby_geq_band_hz">%1$d Гц</string>
+    <string name="dolby_geq_band_khz">%1$.1f кГц</string>
+    <string name="category_dolby_movie_title">Режим „Филм“</string>
+    <string name="dolby_dialogue_level_title">Подобряване на диалога</string>
+    <string name="dolby_dialogue_level_summary">Прави речта по-ясна. Стойност 0 изключва функцията.</string>
+    <string name="category_dolby_apps_title">Приложения</string>
+    <string name="dolby_app_profiles_enabled_title">Смяна на режима за всяко приложение</string>
+    <string name="dolby_app_profiles_enabled_summary">Използване на зададения режим, докато приложението възпроизвежда аудио</string>
+    <string name="dolby_app_profiles_title">Режими за приложения</string>
+    <string name="dolby_app_profiles_summary">Изберете режим за всяко приложение. Познатите музикални и видео приложения се стартират в режимите „Музика“ и „Филм“.</string>
+    <string name="dolby_app_profile_default">Режим по подразбиране</string>
+
+    <string name="perf_title">Профили на производителността</string>
+    <string name="perf_summary">Настройване на производителността на MediaTek Dimensity и топлинните правила</string>
+    <string name="perf_enabled_title">Настройване на производителността за всяко приложение</string>
+    <string name="perf_enabled_summary">Уведомяване на услугата за захранване на MediaTek кое приложение е на преден план и прилагане на профила му. Приложенията с профил на производителя или препоръчителен профил ги използват по подразбиране.</string>
+    <string name="category_perf_known_apps">Приложения с профили</string>
+    <string name="category_perf_other_apps">Други приложения</string>
+    <string name="perf_mode_title">Профил</string>
+    <string name="perf_mode_vendor">Профил на производителя</string>
+    <string name="perf_mode_default">По подразбиране</string>
+    <string name="perf_mode_custom">Персонализиран</string>
+    <string name="perf_mode_off">Изключено</string>
+    <string name="perf_mode_vendor_summary">Профил на производителя: %1$s</string>
+    <string name="perf_mode_recommended">Препоръчителен</string>
+    <string name="perf_mode_recommended_summary">Препоръчителен: %1$s</string>
+    <string name="perf_mode_custom_summary">Персонализиран: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, разширен</string>
+    <string name="perf_preset_title">Предварителна настройка</string>
+    <string name="perf_preset_none">Няма</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Настройки на предварителната настройка</string>
+    <string name="perf_preset_thermal">Топлинно правило %1$d</string>
+    <string name="perf_preset_cpu_max">Максимална честота на CPU %1$s</string>
+    <string name="perf_preset_cpu_min">Минимална честота на CPU %1$s</string>
+    <string name="perf_preset_fpsgo">Управление на кадровата честота FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d настройка</item>
+        <item quantity="other">%1$d настройки</item>
+    </plurals>
+    <string name="perf_category_video">Видео</string>
+    <string name="perf_category_camera">Камера</string>
+    <string name="perf_category_communication">Комуникация</string>
+    <string name="perf_category_music">Музика</string>
+    <string name="perf_category_app_clone">Клонирано приложение</string>
+    <string name="perf_category_benchmark">Тест на производителността</string>
+    <string name="perf_category_game">Игра</string>
+    <string name="perf_advanced_title">Разширени параметри</string>
+    <string name="perf_advanced_summary">Задаване на ограниченията за честотата на CPU и заключване на честотата на опресняване, като се започне от предварителната настройка</string>
+    <string name="category_perf_cpu">Честота на CPU</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">Малки ядра</string>
+    <string name="perf_cluster_medium">Средни ядра</string>
+    <string name="perf_cluster_big">Големи ядра</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: минимална честота</string>
+    <string name="perf_cpu_max_title">%1$s: максимална честота</string>
+    <string name="perf_freq_ghz">%1$.2f ГГц</string>
+    <string name="perf_freq_mhz">%1$d МГц</string>
+    <string name="perf_refresh_rate_title">Заключване на честотата на опресняване</string>
+    <string name="perf_refresh_rate_none">Без заключване</string>
+    <string name="perf_refresh_rate_hz">%1$d Гц</string>
+    <string name="perf_advanced_reset_title">Нулиране до предварителната настройка</string>
+
+    <string name="tile_reading_low_refresh">Четене 30 Гц</string>
+    <string name="tile_touch_game_mode">Игрови режим на сензора</string>
+    <string name="tile_smart_cover">Умен калъф</string>
+</resources>

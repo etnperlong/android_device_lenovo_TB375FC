@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">آلہ کی خصوصیات</string>
+
+    <string name="device_parts_title">آلہ کی خصوصیات</string>
+    <string name="device_parts_summary">کارکردگی، اسٹائلس، ٹچ، Dolby Atmos اور فولیو کور</string>
+    <string name="display_parts_title">اسٹائلس اور ٹچ</string>
+    <string name="display_parts_summary">اسٹائلس ریفریش ریٹ، مطالعہ موڈ ریفریش ریٹ، ٹچ گیم موڈ</string>
+
+    <string name="category_display_title">ریفریش ریٹ</string>
+    <string name="category_touch_title">ٹچ</string>
+    <string name="category_cover_title">فولیو کور</string>
+    <string name="category_audio_title">آڈیو</string>
+    <string name="category_perf_title">کارکردگی</string>
+
+    <string name="pen_refresh_cap_title">اسٹائلس استعمال کرتے وقت 120 Hz تک محدود کریں</string>
+    <string name="pen_refresh_cap_summary">فعال اسٹائلس کے بارے میں بتایا گیا ہے کہ یہ صرف 120 Hz تک کام کرتا ہے۔ آخری اسٹائلس اِن پٹ کے 10 سیکنڈ بعد حد ہٹا دی جاتی ہے۔</string>
+    <string name="reading_low_refresh_title">مطالعہ موڈ میں 30 Hz</string>
+    <string name="reading_low_refresh_summary">مطالعہ موڈ آن ہونے پر ریفریش ریٹ کم کریں</string>
+    <string name="reading_low_refresh_unavailable">مطالعہ موڈ دستیاب نہیں ہے</string>
+    <string name="touch_game_mode_title">ٹچ گیم موڈ</string>
+    <string name="touch_game_mode_summary">ٹچ کنٹرولر کا گیم موڈ۔ دوبارہ شروع کرنے کے بعد پھر آف ہو جاتا ہے۔</string>
+    <string name="touch_game_mode_unavailable">دستیاب نہیں ہے</string>
+    <string name="smart_cover_title">اسمارٹ کور</string>
+    <string name="smart_cover_summary">فولیو کور بند ہونے پر اسکرین کو سلیپ اور لاک کریں</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">ساؤنڈ موڈ، ایکولائزر، ڈائیلاگ انہینسر اور ایپ موڈز</string>
+    <string name="dolby_enable_title">Dolby Atmos استعمال کریں</string>
+    <string name="dolby_profile_title">ڈیفالٹ موڈ</string>
+    <string name="dolby_profile_dynamic">ڈائنامک</string>
+    <string name="dolby_profile_movie">مووی</string>
+    <string name="dolby_profile_music">موسیقی</string>
+    <string name="category_dolby_music_title">موسیقی موڈ</string>
+    <string name="dolby_ieq_preset_title">ساؤنڈ ایفیکٹ</string>
+    <string name="dolby_ieq_preset_none">کوئی نہیں</string>
+    <string name="dolby_ieq_preset_detailed">تفصیلی</string>
+    <string name="dolby_ieq_preset_balanced">متوازن</string>
+    <string name="dolby_ieq_preset_warm">گرم</string>
+    <string name="dolby_geq_title">ایکولائزر</string>
+    <string name="dolby_geq_summary">10 فریکوئنسی بینڈز کو ایڈجسٹ کریں</string>
+    <string name="dolby_geq_reset_title">فلیٹ پر ری سیٹ کریں</string>
+    <string name="dolby_geq_band_hz">%1$d Hz</string>
+    <string name="dolby_geq_band_khz">%1$.1f kHz</string>
+    <string name="category_dolby_movie_title">مووی موڈ</string>
+    <string name="dolby_dialogue_level_title">ڈائیلاگ انہینسر</string>
+    <string name="dolby_dialogue_level_summary">گفتگو کو زیادہ واضح بناتا ہے۔ 0 اسے آف کر دیتا ہے۔</string>
+    <string name="category_dolby_apps_title">ایپس</string>
+    <string name="dolby_app_profiles_enabled_title">ایپ کے لحاظ سے موڈ سوئچ کریں</string>
+    <string name="dolby_app_profiles_enabled_summary">ایپ کے آڈیو چلانے کے دوران، اس کے لیے سیٹ کیا گیا موڈ استعمال کریں</string>
+    <string name="dolby_app_profiles_title">ایپ موڈز</string>
+    <string name="dolby_app_profiles_summary">ہر ایپ کے لیے موڈ منتخب کریں۔ موسیقی اور ویڈیو کی معروف ایپس موسیقی اور مووی موڈز سے شروع ہوتی ہیں۔</string>
+    <string name="dolby_app_profile_default">ڈیفالٹ موڈ</string>
+
+    <string name="perf_title">کارکردگی پروفائلز</string>
+    <string name="perf_summary">MediaTek Dimensity کی کارکردگی اور تھرمل پالیسیاں ٹیون کریں</string>
+    <string name="perf_enabled_title">ایپ کے لحاظ سے کارکردگی ایڈجسٹ کریں</string>
+    <string name="perf_enabled_summary">MediaTek پاور سروس کو بتائیں کہ کون سی ایپ سامنے ہے اور اس کا پروفائل لاگو کریں۔ وینڈر یا تجویز کردہ پروفائل والی ایپس اسے ڈیفالٹ طور پر استعمال کرتی ہیں۔</string>
+    <string name="category_perf_known_apps">پروفائل والی ایپس</string>
+    <string name="category_perf_other_apps">دیگر ایپس</string>
+    <string name="perf_mode_title">پروفائل</string>
+    <string name="perf_mode_vendor">وینڈر کی پیروی کریں</string>
+    <string name="perf_mode_default">ڈیفالٹ</string>
+    <string name="perf_mode_custom">حسب ضرورت</string>
+    <string name="perf_mode_off">آف</string>
+    <string name="perf_mode_vendor_summary">وینڈر کی پیروی کریں: %1$s</string>
+    <string name="perf_mode_recommended">تجویز کردہ</string>
+    <string name="perf_mode_recommended_summary">تجویز کردہ: %1$s</string>
+    <string name="perf_mode_custom_summary">حسب ضرورت: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s، ایڈوانسڈ</string>
+    <string name="perf_preset_title">پری سیٹ</string>
+    <string name="perf_preset_none">کوئی نہیں</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">پری سیٹ کی ترتیبات</string>
+    <string name="perf_preset_thermal">تھرمل پالیسی %1$d</string>
+    <string name="perf_preset_cpu_max">CPU زیادہ سے زیادہ %1$s</string>
+    <string name="perf_preset_cpu_min">CPU کم سے کم %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO فریم پیسنگ</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d ترتیب</item>
+        <item quantity="other">%1$d ترتیبات</item>
+    </plurals>
+    <string name="perf_category_video">ویڈیو</string>
+    <string name="perf_category_camera">کیمرہ</string>
+    <string name="perf_category_communication">مواصلات</string>
+    <string name="perf_category_music">موسیقی</string>
+    <string name="perf_category_app_clone">ایپ کلون</string>
+    <string name="perf_category_benchmark">بینچ مارک</string>
+    <string name="perf_category_game">گیم</string>
+    <string name="perf_advanced_title">ایڈوانسڈ پیرامیٹرز</string>
+    <string name="perf_advanced_summary">CPU فریکوئنسی کی حدیں سیٹ کریں اور ریفریش ریٹ لاک کریں، پری سیٹ سے شروع کرتے ہوئے</string>
+    <string name="category_perf_cpu">CPU فریکوئنسی</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">چھوٹے کورز</string>
+    <string name="perf_cluster_medium">درمیانے کورز</string>
+    <string name="perf_cluster_big">بڑے کورز</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_range">%1$d–%2$d</string>
+    <string name="perf_cpu_min_title">%1$s کم سے کم</string>
+    <string name="perf_cpu_max_title">%1$s زیادہ سے زیادہ</string>
+    <string name="perf_freq_ghz">%1$.2f GHz</string>
+    <string name="perf_freq_mhz">%1$d MHz</string>
+    <string name="perf_refresh_rate_title">ریفریش ریٹ لاک</string>
+    <string name="perf_refresh_rate_none">لاک نہیں</string>
+    <string name="perf_refresh_rate_hz">%1$d Hz</string>
+    <string name="perf_advanced_reset_title">پری سیٹ پر ری سیٹ کریں</string>
+
+    <string name="tile_reading_low_refresh">مطالعہ 30 Hz</string>
+    <string name="tile_touch_game_mode">ٹچ گیم موڈ</string>
+    <string name="tile_smart_cover">اسمارٹ کور</string>
+</resources>

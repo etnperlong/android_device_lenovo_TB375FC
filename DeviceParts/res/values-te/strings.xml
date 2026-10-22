@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">పరికర ఫీచర్‌లు</string>
+
+    <string name="device_parts_title">పరికర ఫీచర్‌లు</string>
+    <string name="device_parts_summary">పనితీరు, స్టయిలస్, టచ్, Dolby Atmos, ఫోలియో కవర్</string>
+    <string name="display_parts_title">స్టయిలస్, టచ్</string>
+    <string name="display_parts_summary">స్టయిలస్ రిఫ్రెష్ రేట్, రీడింగ్ మోడ్ రిఫ్రెష్ రేట్, టచ్ గేమ్ మోడ్</string>
+
+    <string name="category_display_title">రిఫ్రెష్ రేట్</string>
+    <string name="category_touch_title">టచ్</string>
+    <string name="category_cover_title">ఫోలియో కవర్</string>
+    <string name="category_audio_title">ఆడియో</string>
+    <string name="category_perf_title">పనితీరు</string>
+
+    <string name="pen_refresh_cap_title">స్టయిలస్‌ను ఉపయోగిస్తున్నప్పుడు 120 Hzకు పరిమితం చేయండి</string>
+    <string name="pen_refresh_cap_summary">యాక్టివ్ స్టయిలస్ గరిష్ఠంగా 120 Hz వరకు మాత్రమే పనిచేస్తుందని నివేదించబడింది. స్టయిలస్‌తో చివరిసారి ఇన్‌పుట్ ఇచ్చిన 10 సెకన్ల తర్వాత పరిమితి తొలగుతుంది.</string>
+    <string name="reading_low_refresh_title">రీడింగ్ మోడ్‌లో 30 Hz</string>
+    <string name="reading_low_refresh_summary">రీడింగ్ మోడ్ ఆన్‌లో ఉన్నప్పుడు రిఫ్రెష్ రేట్‌ను తగ్గించండి</string>
+    <string name="reading_low_refresh_unavailable">రీడింగ్ మోడ్ అందుబాటులో లేదు</string>
+    <string name="touch_game_mode_title">టచ్ గేమ్ మోడ్</string>
+    <string name="touch_game_mode_summary">టచ్ కంట్రోలర్ గేమ్ మోడ్. రీస్టార్ట్ చేసిన తర్వాత మళ్లీ ఆఫ్ అవుతుంది.</string>
+    <string name="touch_game_mode_unavailable">అందుబాటులో లేదు</string>
+    <string name="smart_cover_title">స్మార్ట్ కవర్</string>
+    <string name="smart_cover_summary">ఫోలియో కవర్ మూసినప్పుడు స్క్రీన్‌ను ఆఫ్ చేసి లాక్ చేయండి</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">సౌండ్ మోడ్, ఈక్వలైజర్, డైలాగ్ ఎన్‌హాన్సర్, యాప్ మోడ్‌లు</string>
+    <string name="dolby_enable_title">Dolby Atmosను ఉపయోగించండి</string>
+    <string name="dolby_profile_title">డిఫాల్ట్ మోడ్</string>
+    <string name="dolby_profile_dynamic">డైనమిక్</string>
+    <string name="dolby_profile_movie">సినిమా</string>
+    <string name="dolby_profile_music">సంగీతం</string>
+    <string name="category_dolby_music_title">సంగీత మోడ్</string>
+    <string name="dolby_ieq_preset_title">సౌండ్ ఎఫెక్ట్</string>
+    <string name="dolby_ieq_preset_none">ఏదీ లేదు</string>
+    <string name="dolby_ieq_preset_detailed">వివరమైన</string>
+    <string name="dolby_ieq_preset_balanced">సమతుల్య</string>
+    <string name="dolby_ieq_preset_warm">వెచ్చని</string>
+    <string name="dolby_geq_title">ఈక్వలైజర్</string>
+    <string name="dolby_geq_summary">10 ఫ్రీక్వెన్సీ బ్యాండ్‌లను సర్దుబాటు చేయండి</string>
+    <string name="dolby_geq_reset_title">ఫ్లాట్ స్థితికి రీసెట్ చేయండి</string>
+    <string name="category_dolby_movie_title">సినిమా మోడ్</string>
+    <string name="dolby_dialogue_level_title">డైలాగ్ ఎన్‌హాన్సర్</string>
+    <string name="dolby_dialogue_level_summary">మాటలను మరింత స్పష్టంగా వినిపిస్తుంది. 0 పెడితే ఇది ఆఫ్ అవుతుంది.</string>
+    <string name="category_dolby_apps_title">యాప్‌లు</string>
+    <string name="dolby_app_profiles_enabled_title">యాప్‌ను బట్టి మోడ్ మార్చండి</string>
+    <string name="dolby_app_profiles_enabled_summary">యాప్ ఆడియోను ప్లే చేస్తున్నప్పుడు, దాని కోసం సెట్ చేసిన మోడ్‌ను ఉపయోగించండి</string>
+    <string name="dolby_app_profiles_title">యాప్ మోడ్‌లు</string>
+    <string name="dolby_app_profiles_summary">ప్రతి యాప్‌కు మోడ్‌ను ఎంచుకోండి. తెలిసిన సంగీత, వీడియో యాప్‌లకు మొదటగా సంగీతం, సినిమా మోడ్‌లు సెట్ చేయబడతాయి.</string>
+    <string name="dolby_app_profile_default">డిఫాల్ట్ మోడ్</string>
+
+    <string name="perf_title">పనితీరు ప్రొఫైళ్లు</string>
+    <string name="perf_summary">MediaTek Dimensity పనితీరు, థర్మల్ విధానాలను సర్దుబాటు చేయండి</string>
+    <string name="perf_enabled_title">యాప్‌ను బట్టి పనితీరును సర్దుబాటు చేయండి</string>
+    <string name="perf_enabled_summary">ముందుభాగంలో ఏ యాప్ ఉందో MediaTek పవర్ సర్వీస్‌కు తెలియజేసి, దాని ప్రొఫైల్‌ను వర్తింపజేస్తుంది. వెండర్ లేదా సిఫార్సు చేసిన ప్రొఫైల్‌లు ఉన్న యాప్‌లకు అవి డిఫాల్ట్‌గా ఉపయోగించబడతాయి.</string>
+    <string name="category_perf_known_apps">ప్రొఫైల్‌లు ఉన్న యాప్‌లు</string>
+    <string name="category_perf_other_apps">ఇతర యాప్‌లు</string>
+    <string name="perf_mode_title">ప్రొఫైల్</string>
+    <string name="perf_mode_vendor">వెండర్‌ను అనుసరించండి</string>
+    <string name="perf_mode_default">డిఫాల్ట్</string>
+    <string name="perf_mode_custom">కస్టమ్</string>
+    <string name="perf_mode_off">ఆఫ్</string>
+    <string name="perf_mode_vendor_summary">వెండర్‌ను అనుసరించండి: %1$s</string>
+    <string name="perf_mode_recommended">సిఫార్సు చేయబడినది</string>
+    <string name="perf_mode_recommended_summary">సిఫార్సు చేయబడినది: %1$s</string>
+    <string name="perf_mode_custom_summary">కస్టమ్: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, అధునాతనమైనది</string>
+    <string name="perf_preset_title">ప్రీసెట్</string>
+    <string name="perf_preset_none">ఏదీ లేదు</string>
+    <string name="perf_preset_details_title">ప్రీసెట్ సెట్టింగ్‌లు</string>
+    <string name="perf_preset_thermal">థర్మల్ విధానం %1$d</string>
+    <string name="perf_preset_cpu_max">CPU గరిష్ఠం %1$s</string>
+    <string name="perf_preset_cpu_min">CPU కనిష్ఠం %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO ఫ్రేమ్ పేసింగ్</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d సెట్టింగ్</item>
+        <item quantity="other">%1$d సెట్టింగ్‌లు</item>
+    </plurals>
+    <string name="perf_category_video">వీడియో</string>
+    <string name="perf_category_camera">కెమెరా</string>
+    <string name="perf_category_communication">కమ్యూనికేషన్</string>
+    <string name="perf_category_music">సంగీతం</string>
+    <string name="perf_category_app_clone">క్లోన్‌డ్ యాప్‌లు</string>
+    <string name="perf_category_benchmark">బెంచ్‌మార్క్</string>
+    <string name="perf_category_game">గేమ్</string>
+    <string name="perf_advanced_title">అధునాతన పారామీటర్‌లు</string>
+    <string name="perf_advanced_summary">ప్రీసెట్ ఆధారంగా CPU ఫ్రీక్వెన్సీ పరిమితులను సెట్ చేసి, రిఫ్రెష్ రేట్‌ను లాక్ చేయండి</string>
+    <string name="category_perf_cpu">CPU ఫ్రీక్వెన్సీ</string>
+    <string name="perf_cluster_little">చిన్న కోర్‌లు</string>
+    <string name="perf_cluster_medium">మధ్యస్థ కోర్‌లు</string>
+    <string name="perf_cluster_big">పెద్ద కోర్‌లు</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: కనిష్ఠ ఫ్రీక్వెన్సీ</string>
+    <string name="perf_cpu_max_title">%1$s: గరిష్ఠ ఫ్రీక్వెన్సీ</string>
+    <string name="perf_refresh_rate_title">రిఫ్రెష్ రేట్ లాక్</string>
+    <string name="perf_refresh_rate_none">లాక్ చేయలేదు</string>
+    <string name="perf_advanced_reset_title">ప్రీసెట్‌కు రీసెట్ చేయండి</string>
+
+    <string name="tile_reading_low_refresh">రీడింగ్ 30 Hz</string>
+    <string name="tile_touch_game_mode">టచ్ గేమ్ మోడ్</string>
+    <string name="tile_smart_cover">స్మార్ట్ కవర్</string>
+</resources>

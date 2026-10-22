@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Bahagian peranti</string>
+
+    <string name="device_parts_title">Bahagian peranti</string>
+    <string name="device_parts_summary">Prestasi, stilus, sentuhan, Dolby Atmos dan penutup folio</string>
+    <string name="display_parts_title">Stilus dan sentuhan</string>
+    <string name="display_parts_summary">Kadar muat semula stilus, kadar muat semula mod bacaan, mod permainan sentuhan</string>
+
+    <string name="category_display_title">Kadar muat semula</string>
+    <string name="category_touch_title">Sentuhan</string>
+    <string name="category_cover_title">Penutup folio</string>
+    <string name="category_audio_title">Audio</string>
+    <string name="category_perf_title">Prestasi</string>
+
+    <string name="pen_refresh_cap_title">Hadkan kepada 120 Hz semasa menggunakan stilus</string>
+    <string name="pen_refresh_cap_summary">Stilus aktif dilaporkan hanya berfungsi sehingga 120 Hz. Had ditarik balik 10 saat selepas input stilus terakhir.</string>
+    <string name="reading_low_refresh_title">30 Hz dalam mod bacaan</string>
+    <string name="reading_low_refresh_summary">Kurangkan kadar muat semula semasa mod bacaan dihidupkan</string>
+    <string name="reading_low_refresh_unavailable">Mod bacaan tidak tersedia</string>
+    <string name="touch_game_mode_title">Mod permainan sentuhan</string>
+    <string name="touch_game_mode_summary">Mod permainan pengawal sentuhan. Dimatikan semula selepas dimulakan semula.</string>
+    <string name="touch_game_mode_unavailable">Tidak tersedia</string>
+    <string name="smart_cover_title">Penutup pintar</string>
+    <string name="smart_cover_summary">Tidurkan dan kunci apabila penutup folio ditutup</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Mod bunyi, penyama, peningkat dialog dan mod apl</string>
+    <string name="dolby_enable_title">Gunakan Dolby Atmos</string>
+    <string name="dolby_profile_title">Mod lalai</string>
+    <string name="dolby_profile_dynamic">Dinamik</string>
+    <string name="dolby_profile_movie">Filem</string>
+    <string name="dolby_profile_music">Muzik</string>
+    <string name="category_dolby_music_title">Mod muzik</string>
+    <string name="dolby_ieq_preset_title">Kesan bunyi</string>
+    <string name="dolby_ieq_preset_none">Tiada</string>
+    <string name="dolby_ieq_preset_detailed">Terperinci</string>
+    <string name="dolby_ieq_preset_balanced">Seimbang</string>
+    <string name="dolby_ieq_preset_warm">Hangat</string>
+    <string name="dolby_geq_title">Penyama</string>
+    <string name="dolby_geq_summary">Laraskan 10 jalur frekuensi</string>
+    <string name="dolby_geq_reset_title">Tetapkan semula kepada rata</string>
+    <string name="dolby_geq_band_hz">%1$d Hz</string>
+    <string name="dolby_geq_band_khz">%1$.1f kHz</string>
+    <string name="category_dolby_movie_title">Mod filem</string>
+    <string name="dolby_dialogue_level_title">Peningkat dialog</string>
+    <string name="dolby_dialogue_level_summary">Menjadikan pertuturan lebih jelas. 0 mematikannya.</string>
+    <string name="category_dolby_apps_title">Apl</string>
+    <string name="dolby_app_profiles_enabled_title">Tukar mod mengikut apl</string>
+    <string name="dolby_app_profiles_enabled_summary">Semasa apl memainkan audio, gunakan mod yang ditetapkan untuknya</string>
+    <string name="dolby_app_profiles_title">Mod apl</string>
+    <string name="dolby_app_profiles_summary">Pilih mod bagi setiap apl. Apl muzik dan video yang diketahui bermula dengan mod Muzik dan Filem.</string>
+    <string name="dolby_app_profile_default">Mod lalai</string>
+
+    <string name="perf_title">Profil prestasi</string>
+    <string name="perf_summary">Laraskan prestasi MediaTek Dimensity dan dasar terma</string>
+    <string name="perf_enabled_title">Laraskan prestasi mengikut apl</string>
+    <string name="perf_enabled_summary">Beritahu perkhidmatan kuasa MediaTek apl yang berada di hadapan dan gunakan profilnya. Apl dengan profil vendor atau disyorkan menggunakannya secara lalai.</string>
+    <string name="category_perf_known_apps">Apl dengan profil</string>
+    <string name="category_perf_other_apps">Apl lain</string>
+    <string name="perf_mode_title">Profil</string>
+    <string name="perf_mode_vendor">Ikut vendor</string>
+    <string name="perf_mode_default">Lalai</string>
+    <string name="perf_mode_custom">Tersuai</string>
+    <string name="perf_mode_off">Mati</string>
+    <string name="perf_mode_vendor_summary">Ikut vendor: %1$s</string>
+    <string name="perf_mode_recommended">Disyorkan</string>
+    <string name="perf_mode_recommended_summary">Disyorkan: %1$s</string>
+    <string name="perf_mode_custom_summary">Tersuai: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, lanjutan</string>
+    <string name="perf_preset_title">Pratetap</string>
+    <string name="perf_preset_none">Tiada</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Tetapan pratetap</string>
+    <string name="perf_preset_thermal">Dasar terma %1$d</string>
+    <string name="perf_preset_cpu_max">CPU maks. %1$s</string>
+    <string name="perf_preset_cpu_min">CPU min. %1$s</string>
+    <string name="perf_preset_fpsgo">Pengaturan bingkai FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="other">%1$d tetapan</item>
+    </plurals>
+    <string name="perf_category_video">Video</string>
+    <string name="perf_category_camera">Kamera</string>
+    <string name="perf_category_communication">Komunikasi</string>
+    <string name="perf_category_music">Muzik</string>
+    <string name="perf_category_app_clone">Apl klon</string>
+    <string name="perf_category_benchmark">Penanda aras</string>
+    <string name="perf_category_game">Permainan</string>
+    <string name="perf_advanced_title">Parameter lanjutan</string>
+    <string name="perf_advanced_summary">Tetapkan had frekuensi CPU dan kunci kadar muat semula, bermula daripada pratetap</string>
+    <string name="category_perf_cpu">Frekuensi CPU</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">Teras kecil</string>
+    <string name="perf_cluster_medium">Teras sederhana</string>
+    <string name="perf_cluster_big">Teras besar</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">Frekuensi minimum %1$s</string>
+    <string name="perf_cpu_max_title">Frekuensi maksimum %1$s</string>
+    <string name="perf_freq_ghz">%1$.2f GHz</string>
+    <string name="perf_freq_mhz">%1$d MHz</string>
+    <string name="perf_refresh_rate_title">Kunci kadar muat semula</string>
+    <string name="perf_refresh_rate_none">Tidak dikunci</string>
+    <string name="perf_refresh_rate_hz">%1$d Hz</string>
+    <string name="perf_advanced_reset_title">Tetapkan semula kepada pratetap</string>
+
+    <string name="tile_reading_low_refresh">Bacaan 30 Hz</string>
+    <string name="tile_touch_game_mode">Mod permainan sentuhan</string>
+    <string name="tile_smart_cover">Penutup pintar</string>
+</resources>

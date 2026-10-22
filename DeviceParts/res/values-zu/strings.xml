@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Izici zedivayisi</string>
+
+    <string name="device_parts_title">Izici zedivayisi</string>
+    <string name="device_parts_summary">Ukusebenza, i-stylus, ukuthinta, i-Dolby Atmos nekhava</string>
+    <string name="display_parts_title">I-stylus nokuthinta</string>
+    <string name="display_parts_summary">Izinga lokuvuselela le-stylus, izinga lokuvuselela lemodi yokufunda, imodi yegeyimu yokuthinta</string>
+
+    <string name="category_display_title">Izinga lokuvuselela</string>
+    <string name="category_touch_title">Ukuthinta</string>
+    <string name="category_cover_title">Ikhava</string>
+    <string name="category_audio_title">Umsindo</string>
+    <string name="category_perf_title">Ukusebenza</string>
+
+    <string name="pen_refresh_cap_title">Khawulela ku-120 Hz uma usebenzisa i-stylus</string>
+    <string name="pen_refresh_cap_summary">Kubikwa ukuthi i-stylus esebenzayo isebenza kuphela kufika ku-120 Hz. Umkhawulo uyasuswa emizuzwaneni engu-10 ngemva kokufaka kokugcina nge-stylus.</string>
+    <string name="reading_low_refresh_title">30 Hz kwimodi yokufunda</string>
+    <string name="reading_low_refresh_summary">Yehlisa izinga lokuvuselela uma imodi yokufunda ivuliwe</string>
+    <string name="reading_low_refresh_unavailable">Imodi yokufunda ayitholakali</string>
+    <string name="touch_game_mode_title">Imodi yegeyimu yokuthinta</string>
+    <string name="touch_game_mode_summary">Imodi yegeyimu yesilawuli sokuthinta. Iyacima futhi ngemva kokuqalisa kabusha.</string>
+    <string name="touch_game_mode_unavailable">Ayitholakali</string>
+    <string name="smart_cover_title">Ikhava ehlakaniphile</string>
+    <string name="smart_cover_summary">Vala isikrini bese usikhiya uma ikhava ivaliwe</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Imodi yomsindo, isilinganisi somsindo, isithuthukisi sezingxoxo namamodi ohlelo lokusebenza</string>
+    <string name="dolby_enable_title">Sebenzisa i-Dolby Atmos</string>
+    <string name="dolby_profile_title">Imodi ezenzakalelayo</string>
+    <string name="dolby_profile_dynamic">Eguquguqukayo</string>
+    <string name="dolby_profile_movie">Ifilimu</string>
+    <string name="dolby_profile_music">Umculo</string>
+    <string name="category_dolby_music_title">Imodi yomculo</string>
+    <string name="dolby_ieq_preset_title">Umthelela womsindo</string>
+    <string name="dolby_ieq_preset_none">Akukho</string>
+    <string name="dolby_ieq_preset_detailed">Enemininingwane</string>
+    <string name="dolby_ieq_preset_balanced">Elinganiselayo</string>
+    <string name="dolby_ieq_preset_warm">Efudumele</string>
+    <string name="dolby_geq_title">Isilinganisi somsindo</string>
+    <string name="dolby_geq_summary">Lungisa amabhendi emvamisa angu-10</string>
+    <string name="dolby_geq_reset_title">Buyisela ekulinganisweni okuyisicaba</string>
+    <string name="category_dolby_movie_title">Imodi yefilimu</string>
+    <string name="dolby_dialogue_level_title">Isithuthukisi sezingxoxo</string>
+    <string name="dolby_dialogue_level_summary">Senze inkulumo icace kakhudlwana. U-0 uyasicima.</string>
+    <string name="category_dolby_apps_title">Izinhlelo zokusebenza</string>
+    <string name="dolby_app_profiles_enabled_title">Shintsha imodi ngohlelo lokusebenza</string>
+    <string name="dolby_app_profiles_enabled_summary">Uma uhlelo lokusebenza ludlala umsindo, sebenzisa imodi elusethelwe lona</string>
+    <string name="dolby_app_profiles_title">Amamodi ohlelo lokusebenza</string>
+    <string name="dolby_app_profiles_summary">Khetha imodi yohlelo lokusebenza ngalunye. Izinhlelo zokusebenza zomculo nevidiyo ezaziwayo ziqala ngamamodi Omculo neFilimu.</string>
+    <string name="dolby_app_profile_default">Imodi ezenzakalelayo</string>
+
+    <string name="perf_title">Amaphrofayela okusebenza</string>
+    <string name="perf_summary">Lungisa ukusebenza kwe-MediaTek Dimensity nezinqubomgomo zokushisa</string>
+    <string name="perf_enabled_title">Lungisa ukusebenza ngohlelo lokusebenza</string>
+    <string name="perf_enabled_summary">Yazisa isevisi yamandla ye-MediaTek ngohlelo lokusebenza olungaphambili bese usebenzisa iphrofayela yalo. Izinhlelo zokusebenza ezinamaphrofayela omkhiqizi noma anconyiwe ziwasebenzisa ngokuzenzakalelayo.</string>
+    <string name="category_perf_known_apps">Izinhlelo zokusebenza ezinamaphrofayela</string>
+    <string name="category_perf_other_apps">Ezinye izinhlelo zokusebenza</string>
+    <string name="perf_mode_title">Iphrofayela</string>
+    <string name="perf_mode_vendor">Landela umkhiqizi</string>
+    <string name="perf_mode_default">Okuzenzakalelayo</string>
+    <string name="perf_mode_custom">Okwenziwe ngokwezifiso</string>
+    <string name="perf_mode_off">Valiwe</string>
+    <string name="perf_mode_vendor_summary">Landela umkhiqizi: %1$s</string>
+    <string name="perf_mode_recommended">Okunconyiwe</string>
+    <string name="perf_mode_recommended_summary">Okunconyiwe: %1$s</string>
+    <string name="perf_mode_custom_summary">Okwenziwe ngokwezifiso: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, okuthuthukile</string>
+    <string name="perf_preset_title">Ukusetha kusengaphambili</string>
+    <string name="perf_preset_none">Akukho</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Izilungiselelo zokusetha kusengaphambili</string>
+    <string name="perf_preset_thermal">Inqubomgomo yokushisa %1$d</string>
+    <string name="perf_preset_cpu_max">I-CPU ephezulu %1$s</string>
+    <string name="perf_preset_cpu_min">I-CPU ephansi %1$s</string>
+    <string name="perf_preset_fpsgo">Ukulawulwa kozimele kwe-FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">ukulungiselelwa okungu-%1$d</item>
+        <item quantity="other">izilungiselelo ezingu-%1$d</item>
+    </plurals>
+    <string name="perf_category_video">Ividiyo</string>
+    <string name="perf_category_camera">Ikhamera</string>
+    <string name="perf_category_communication">Ukuxhumana</string>
+    <string name="perf_category_music">Umculo</string>
+    <string name="perf_category_app_clone">Ikhophi yohlelo lokusebenza</string>
+    <string name="perf_category_benchmark">Ukuhlola ukusebenza</string>
+    <string name="perf_category_game">Igeyimu</string>
+    <string name="perf_advanced_title">Amapharamitha athuthukile</string>
+    <string name="perf_advanced_summary">Setha imikhawulo yemvamisa ye-CPU bese ukhiya izinga lokuvuselela kusukela ekusetheni kusengaphambili</string>
+    <string name="category_perf_cpu">Imvamisa ye-CPU</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">Ama-core amancane</string>
+    <string name="perf_cluster_medium">Ama-core aphakathi</string>
+    <string name="perf_cluster_big">Ama-core amakhulu</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: imvamisa encane</string>
+    <string name="perf_cpu_max_title">%1$s: imvamisa enkulu</string>
+    <string name="perf_refresh_rate_title">Khiya izinga lokuvuselela</string>
+    <string name="perf_refresh_rate_none">Ayikhiyiwe</string>
+    <string name="perf_advanced_reset_title">Buyisela ekusetheni kusengaphambili</string>
+
+    <string name="tile_reading_low_refresh">Funda 30 Hz</string>
+    <string name="tile_touch_game_mode">Imodi yegeyimu yokuthinta</string>
+    <string name="tile_smart_cover">Ikhava ehlakaniphile</string>
+</resources>

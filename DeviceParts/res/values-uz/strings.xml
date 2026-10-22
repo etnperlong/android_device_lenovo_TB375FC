@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Qurilma funksiyalari</string>
+
+    <string name="device_parts_title">Qurilma funksiyalari</string>
+    <string name="device_parts_summary">Unumdorlik, stilus, sensorli ekran, Dolby Atmos va g‘ilof</string>
+    <string name="display_parts_title">Stilus va sensorli ekran</string>
+    <string name="display_parts_summary">Stilus yangilanish chastotasi, oʻqish rejimi yangilanish chastotasi, sensorli ekran oʻyin rejimi</string>
+
+    <string name="category_display_title">Yangilanish chastotasi</string>
+    <string name="category_touch_title">Sensorli ekran</string>
+    <string name="category_cover_title">G‘ilof</string>
+    <string name="category_audio_title">Audio</string>
+    <string name="category_perf_title">Unumdorlik</string>
+
+    <string name="pen_refresh_cap_title">Stilusdan foydalanganda 120 Hz bilan cheklash</string>
+    <string name="pen_refresh_cap_summary">Faol stilus faqat 120 Hz gacha ishlashi aytilgan. Stilusdan oxirgi marta foydalanilgandan 10 soniya oʻtgach cheklov olib tashlanadi.</string>
+    <string name="reading_low_refresh_title">Oʻqish rejimida 30 Hz</string>
+    <string name="reading_low_refresh_summary">Oʻqish rejimi yoqilganda yangilanish chastotasini pasaytirish</string>
+    <string name="reading_low_refresh_unavailable">Oʻqish rejimi mavjud emas</string>
+    <string name="touch_game_mode_title">Sensorli ekran oʻyin rejimi</string>
+    <string name="touch_game_mode_summary">Sensorli ekran kontrollerining oʻyin rejimi. Qayta ishga tushirilganda oʻchadi.</string>
+    <string name="touch_game_mode_unavailable">Mavjud emas</string>
+    <string name="smart_cover_title">Aqlli g‘ilof</string>
+    <string name="smart_cover_summary">G‘ilof yopilganda ekran oʻchadi va qurilma qulflanadi</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Ovoz rejimi, ekvalayzer, dialogni kuchaytirish va ilova rejimlari</string>
+    <string name="dolby_enable_title">Dolby Atmos’dan foydalanish</string>
+    <string name="dolby_profile_title">Birlamchi rejim</string>
+    <string name="dolby_profile_dynamic">Dinamik</string>
+    <string name="dolby_profile_movie">Kino</string>
+    <string name="dolby_profile_music">Musiqa</string>
+    <string name="category_dolby_music_title">Musiqa rejimi</string>
+    <string name="dolby_ieq_preset_title">Ovoz effekti</string>
+    <string name="dolby_ieq_preset_none">Yoʻq</string>
+    <string name="dolby_ieq_preset_detailed">Batafsil</string>
+    <string name="dolby_ieq_preset_balanced">Muvozanatlangan</string>
+    <string name="dolby_ieq_preset_warm">Iliq</string>
+    <string name="dolby_geq_title">Ekvalayzer</string>
+    <string name="dolby_geq_summary">10 ta chastota diapazonini sozlash</string>
+    <string name="dolby_geq_reset_title">Tekis holatga qaytarish</string>
+    <string name="dolby_geq_band_hz">%1$d Hz</string>
+    <string name="dolby_geq_band_khz">%1$.1f kHz</string>
+    <string name="category_dolby_movie_title">Kino rejimi</string>
+    <string name="dolby_dialogue_level_title">Dialogni kuchaytirish</string>
+    <string name="dolby_dialogue_level_summary">Nutqni aniqroq qiladi. 0 uni oʻchiradi.</string>
+    <string name="category_dolby_apps_title">Ilovalar</string>
+    <string name="dolby_app_profiles_enabled_title">Rejimni ilovaga qarab almashtirish</string>
+    <string name="dolby_app_profiles_enabled_summary">Ilova audio ijro etganda unga belgilangan rejimdan foydalanish</string>
+    <string name="dolby_app_profiles_title">Ilova rejimlari</string>
+    <string name="dolby_app_profiles_summary">Har bir ilova uchun rejimni tanlang. Musiqa va video ilovalari odatda Musiqa va Kino rejimlaridan foydalanadi.</string>
+    <string name="dolby_app_profile_default">Birlamchi rejim</string>
+
+    <string name="perf_title">Unumdorlik profillari</string>
+    <string name="perf_summary">MediaTek Dimensity unumdorligi va harorat siyosatini sozlash</string>
+    <string name="perf_enabled_title">Unumdorlikni ilovaga qarab sozlash</string>
+    <string name="perf_enabled_summary">MediaTek quvvat xizmatiga faol ilova haqida xabar berish va uning profilini qoʻllash. Ishlab chiqaruvchi yoki tavsiya etilgan profillarga ega ilovalar odatda ulardan foydalanadi.</string>
+    <string name="category_perf_known_apps">Profilli ilovalar</string>
+    <string name="category_perf_other_apps">Boshqa ilovalar</string>
+    <string name="perf_mode_title">Profil</string>
+    <string name="perf_mode_vendor">Ishlab chiqaruvchi sozlamalariga amal qilish</string>
+    <string name="perf_mode_default">Birlamchi</string>
+    <string name="perf_mode_custom">Maxsus</string>
+    <string name="perf_mode_off">Oʻchiq</string>
+    <string name="perf_mode_vendor_summary">Ishlab chiqaruvchi sozlamalari: %1$s</string>
+    <string name="perf_mode_recommended">Tavsiya etilgan</string>
+    <string name="perf_mode_recommended_summary">Tavsiya etilgan: %1$s</string>
+    <string name="perf_mode_custom_summary">Maxsus: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, kengaytirilgan</string>
+    <string name="perf_preset_title">Oldindan sozlama</string>
+    <string name="perf_preset_none">Yoʻq</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Oldindan sozlama parametrlari</string>
+    <string name="perf_preset_thermal">Harorat siyosati %1$d</string>
+    <string name="perf_preset_cpu_max">CPU maks. %1$s</string>
+    <string name="perf_preset_cpu_min">CPU min. %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO kadr tezligini boshqarish</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d ta sozlama</item>
+        <item quantity="other">%1$d ta sozlama</item>
+    </plurals>
+    <string name="perf_category_video">Video</string>
+    <string name="perf_category_camera">Kamera</string>
+    <string name="perf_category_communication">Aloqa</string>
+    <string name="perf_category_music">Musiqa</string>
+    <string name="perf_category_app_clone">Ilova kloni</string>
+    <string name="perf_category_benchmark">Unumdorlik sinovi</string>
+    <string name="perf_category_game">Oʻyin</string>
+    <string name="perf_advanced_title">Kengaytirilgan parametrlar</string>
+    <string name="perf_advanced_summary">Oldindan sozlama asosida CPU chastotasi chegaralarini oʻzgartirish va yangilanish chastotasini bloklash</string>
+    <string name="category_perf_cpu">CPU chastotasi</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">Kam unumdor yadro</string>
+    <string name="perf_cluster_medium">Oʻrtacha unumdor yadro</string>
+    <string name="perf_cluster_big">Yuqori unumdor yadro</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: eng kam chastota</string>
+    <string name="perf_cpu_max_title">%1$s: eng yuqori chastota</string>
+    <string name="perf_freq_ghz">%1$.2f GHz</string>
+    <string name="perf_freq_mhz">%1$d MHz</string>
+    <string name="perf_refresh_rate_title">Yangilanish chastotasini qulflash</string>
+    <string name="perf_refresh_rate_none">Qulflanmagan</string>
+    <string name="perf_refresh_rate_hz">%1$d Hz</string>
+    <string name="perf_advanced_reset_title">Oldindan sozlamaga qaytarish</string>
+
+    <string name="tile_reading_low_refresh">Oʻqish 30 Hz</string>
+    <string name="tile_touch_game_mode">Sensorli ekran oʻyin rejimi</string>
+    <string name="tile_smart_cover">Aqlli g‘ilof</string>
+</resources>

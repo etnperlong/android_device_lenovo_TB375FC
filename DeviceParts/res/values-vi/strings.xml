@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Tính năng thiết bị</string>
+
+    <string name="device_parts_title">Tính năng thiết bị</string>
+    <string name="device_parts_summary">Hiệu năng, bút cảm ứng, màn hình cảm ứng, Dolby Atmos và bao da</string>
+    <string name="display_parts_title">Bút cảm ứng và màn hình cảm ứng</string>
+    <string name="display_parts_summary">Tần số quét khi dùng bút, tần số quét ở chế độ đọc, chế độ chơi game cảm ứng</string>
+
+    <string name="category_display_title">Tần số quét</string>
+    <string name="category_touch_title">Cảm ứng</string>
+    <string name="category_cover_title">Bao da</string>
+    <string name="category_audio_title">Âm thanh</string>
+    <string name="category_perf_title">Hiệu năng</string>
+
+    <string name="pen_refresh_cap_title">Giới hạn ở 120 Hz khi dùng bút</string>
+    <string name="pen_refresh_cap_summary">Bút cảm ứng chủ động được cho là chỉ hoạt động ở tần số tối đa 120 Hz. Giới hạn sẽ được gỡ bỏ 10 giây sau lần dùng bút cuối cùng.</string>
+    <string name="reading_low_refresh_title">30 Hz ở chế độ đọc</string>
+    <string name="reading_low_refresh_summary">Giảm tần số quét khi bật chế độ đọc</string>
+    <string name="reading_low_refresh_unavailable">Chế độ đọc không khả dụng</string>
+    <string name="touch_game_mode_title">Chế độ chơi game cảm ứng</string>
+    <string name="touch_game_mode_summary">Chế độ chơi game của bộ điều khiển cảm ứng. Chế độ này sẽ tắt lại sau khi khởi động lại.</string>
+    <string name="touch_game_mode_unavailable">Không khả dụng</string>
+    <string name="smart_cover_title">Bao da thông minh</string>
+    <string name="smart_cover_summary">Tắt màn hình và khóa thiết bị khi đóng bao da</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Chế độ âm thanh, bộ chỉnh âm, tăng cường hội thoại và chế độ cho ứng dụng</string>
+    <string name="dolby_enable_title">Sử dụng Dolby Atmos</string>
+    <string name="dolby_profile_title">Chế độ mặc định</string>
+    <string name="dolby_profile_dynamic">Động</string>
+    <string name="dolby_profile_movie">Phim</string>
+    <string name="dolby_profile_music">Nhạc</string>
+    <string name="category_dolby_music_title">Chế độ nhạc</string>
+    <string name="dolby_ieq_preset_title">Hiệu ứng âm thanh</string>
+    <string name="dolby_ieq_preset_none">Không</string>
+    <string name="dolby_ieq_preset_detailed">Chi tiết</string>
+    <string name="dolby_ieq_preset_balanced">Cân bằng</string>
+    <string name="dolby_ieq_preset_warm">Ấm</string>
+    <string name="dolby_geq_title">Bộ chỉnh âm</string>
+    <string name="dolby_geq_summary">Điều chỉnh 10 dải tần số</string>
+    <string name="dolby_geq_reset_title">Đặt lại về đường tần số phẳng</string>
+    <string name="category_dolby_movie_title">Chế độ phim</string>
+    <string name="dolby_dialogue_level_title">Tăng cường hội thoại</string>
+    <string name="dolby_dialogue_level_summary">Giúp lời thoại rõ hơn. Đặt thành 0 để tắt.</string>
+    <string name="category_dolby_apps_title">Ứng dụng</string>
+    <string name="dolby_app_profiles_enabled_title">Chuyển chế độ theo ứng dụng</string>
+    <string name="dolby_app_profiles_enabled_summary">Dùng chế độ đã đặt cho ứng dụng khi ứng dụng phát âm thanh</string>
+    <string name="dolby_app_profiles_title">Chế độ ứng dụng</string>
+    <string name="dolby_app_profiles_summary">Chọn chế độ cho từng ứng dụng. Các ứng dụng nghe nhạc và xem video phổ biến sẽ dùng chế độ Nhạc và Phim.</string>
+    <string name="dolby_app_profile_default">Chế độ mặc định</string>
+
+    <string name="perf_title">Cấu hình hiệu năng</string>
+    <string name="perf_summary">Điều chỉnh hiệu năng và chính sách nhiệt của MediaTek Dimensity</string>
+    <string name="perf_enabled_title">Điều chỉnh hiệu năng theo ứng dụng</string>
+    <string name="perf_enabled_summary">Cho dịch vụ nguồn MediaTek biết ứng dụng nào đang ở phía trước và áp dụng cấu hình của ứng dụng đó. Theo mặc định, ứng dụng có cấu hình của nhà sản xuất hoặc cấu hình đề xuất sẽ dùng cấu hình tương ứng.</string>
+    <string name="category_perf_known_apps">Ứng dụng có cấu hình</string>
+    <string name="category_perf_other_apps">Ứng dụng khác</string>
+    <string name="perf_mode_title">Cấu hình</string>
+    <string name="perf_mode_vendor">Theo nhà sản xuất</string>
+    <string name="perf_mode_default">Mặc định</string>
+    <string name="perf_mode_custom">Tùy chỉnh</string>
+    <string name="perf_mode_off">Tắt</string>
+    <string name="perf_mode_vendor_summary">Theo nhà sản xuất: %1$s</string>
+    <string name="perf_mode_recommended">Đề xuất</string>
+    <string name="perf_mode_recommended_summary">Đề xuất: %1$s</string>
+    <string name="perf_mode_custom_summary">Tùy chỉnh: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, nâng cao</string>
+    <string name="perf_preset_title">Cài đặt sẵn</string>
+    <string name="perf_preset_none">Không</string>
+    <string name="perf_preset_details_title">Thông tin cài đặt sẵn</string>
+    <string name="perf_preset_thermal">Chính sách nhiệt %1$d</string>
+    <string name="perf_preset_cpu_max">CPU tối đa %1$s</string>
+    <string name="perf_preset_cpu_min">CPU tối thiểu %1$s</string>
+    <string name="perf_preset_fpsgo">Điều phối nhịp khung hình FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="other">%1$d thông số</item>
+    </plurals>
+    <string name="perf_category_video">Video</string>
+    <string name="perf_category_camera">Máy ảnh</string>
+    <string name="perf_category_communication">Liên lạc</string>
+    <string name="perf_category_music">Nhạc</string>
+    <string name="perf_category_app_clone">Ứng dụng nhân bản</string>
+    <string name="perf_category_benchmark">Điểm chuẩn</string>
+    <string name="perf_category_game">Trò chơi</string>
+    <string name="perf_advanced_title">Thông số nâng cao</string>
+    <string name="perf_advanced_summary">Đặt giới hạn tần số CPU và khóa tần số quét dựa trên cài đặt sẵn</string>
+    <string name="category_perf_cpu">Tần số CPU</string>
+    <string name="perf_cluster_little">Lõi nhỏ</string>
+    <string name="perf_cluster_medium">Lõi trung</string>
+    <string name="perf_cluster_big">Lõi lớn</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: tần số tối thiểu</string>
+    <string name="perf_cpu_max_title">%1$s: tần số tối đa</string>
+    <string name="perf_refresh_rate_title">Khóa tần số quét</string>
+    <string name="perf_refresh_rate_none">Không khóa</string>
+    <string name="perf_advanced_reset_title">Đặt lại về cài đặt sẵn</string>
+
+    <string name="tile_reading_low_refresh">Đọc 30 Hz</string>
+    <string name="tile_touch_game_mode">Chơi game cảm ứng</string>
+    <string name="tile_smart_cover">Bao da thông minh</string>
+</resources>

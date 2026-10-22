@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">デバイス機能</string>
+
+    <string name="device_parts_title">デバイス機能</string>
+    <string name="device_parts_summary">パフォーマンス、タッチペン、タッチ操作、ドルビーアトモス、フォリオカバー</string>
+    <string name="display_parts_title">タッチペンとタッチ操作</string>
+    <string name="display_parts_summary">タッチペンのリフレッシュ レート、読書モードのリフレッシュ レート、タッチゲームモード</string>
+
+    <string name="category_display_title">リフレッシュ レート</string>
+    <string name="category_touch_title">タッチ操作</string>
+    <string name="category_cover_title">フォリオカバー</string>
+    <string name="category_audio_title">音声</string>
+    <string name="category_perf_title">パフォーマンス</string>
+
+    <string name="pen_refresh_cap_title">タッチペンの使用中は 120 Hz に制限</string>
+    <string name="pen_refresh_cap_summary">アクティブペンは最大 120 Hz でのみ動作すると報告されています。最後にペンを入力してから 10 秒後に制限が解除されます。</string>
+    <string name="reading_low_refresh_title">読書モードでは 30 Hz</string>
+    <string name="reading_low_refresh_summary">読書モードがオンのときにリフレッシュ レートを下げます</string>
+    <string name="reading_low_refresh_unavailable">読書モードは利用できません</string>
+    <string name="touch_game_mode_title">タッチゲームモード</string>
+    <string name="touch_game_mode_summary">タッチコントローラーのゲームモードです。再起動するとオフに戻ります。</string>
+    <string name="touch_game_mode_unavailable">利用できません</string>
+    <string name="smart_cover_title">スマートカバー</string>
+    <string name="smart_cover_summary">フォリオカバーを閉じると画面を消灯してロックします</string>
+
+    <string name="dolby_title">ドルビーアトモス</string>
+    <string name="dolby_summary">サウンドモード、イコライザー、セリフの強調、アプリモード</string>
+    <string name="dolby_enable_title">ドルビーアトモスを使用</string>
+    <string name="dolby_profile_title">デフォルトのモード</string>
+    <string name="dolby_profile_dynamic">ダイナミック</string>
+    <string name="dolby_profile_movie">映画</string>
+    <string name="dolby_profile_music">音楽</string>
+    <string name="category_dolby_music_title">音楽モード</string>
+    <string name="dolby_ieq_preset_title">サウンド効果</string>
+    <string name="dolby_ieq_preset_none">なし</string>
+    <string name="dolby_ieq_preset_detailed">明瞭</string>
+    <string name="dolby_ieq_preset_balanced">バランス</string>
+    <string name="dolby_ieq_preset_warm">ウォーム</string>
+    <string name="dolby_geq_title">イコライザー</string>
+    <string name="dolby_geq_summary">10 個の周波数帯域を調整します</string>
+    <string name="dolby_geq_reset_title">フラットにリセット</string>
+    <string name="category_dolby_movie_title">映画モード</string>
+    <string name="dolby_dialogue_level_title">セリフの強調</string>
+    <string name="dolby_dialogue_level_summary">音声を聞き取りやすくします。0 にするとオフになります。</string>
+    <string name="category_dolby_apps_title">アプリ</string>
+    <string name="dolby_app_profiles_enabled_title">アプリごとにモードを切り替える</string>
+    <string name="dolby_app_profiles_enabled_summary">アプリで音声を再生すると、そのアプリに設定したモードを使用します</string>
+    <string name="dolby_app_profiles_title">アプリモード</string>
+    <string name="dolby_app_profiles_summary">アプリごとにモードを選択します。音楽アプリと動画アプリには、初期設定で音楽モードと映画モードが設定されています。</string>
+    <string name="dolby_app_profile_default">デフォルトのモード</string>
+
+    <string name="perf_title">パフォーマンス プロファイル</string>
+    <string name="perf_summary">MediaTek Dimensity のパフォーマンスと温度ポリシーを調整します</string>
+    <string name="perf_enabled_title">アプリごとにパフォーマンスを調整</string>
+    <string name="perf_enabled_summary">フォアグラウンドのアプリを MediaTek の電源サービスに通知し、そのプロファイルを適用します。ベンダーまたは推奨プロファイルがあるアプリには、デフォルトでそのプロファイルが使用されます。</string>
+    <string name="category_perf_known_apps">プロファイルがあるアプリ</string>
+    <string name="category_perf_other_apps">その他のアプリ</string>
+    <string name="perf_mode_title">プロファイル</string>
+    <string name="perf_mode_vendor">ベンダー設定に従う</string>
+    <string name="perf_mode_default">デフォルト</string>
+    <string name="perf_mode_custom">カスタム</string>
+    <string name="perf_mode_off">オフ</string>
+    <string name="perf_mode_vendor_summary">ベンダー設定に従う: %1$s</string>
+    <string name="perf_mode_recommended">推奨</string>
+    <string name="perf_mode_recommended_summary">推奨: %1$s</string>
+    <string name="perf_mode_custom_summary">カスタム: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s、高度な設定</string>
+    <string name="perf_preset_title">プリセット</string>
+    <string name="perf_preset_none">なし</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">プリセットの設定</string>
+    <string name="perf_preset_thermal">温度ポリシー %1$d</string>
+    <string name="perf_preset_cpu_max">CPU 最大 %1$s</string>
+    <string name="perf_preset_cpu_min">CPU 最小 %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO フレームペーシング</string>
+    <plurals name="perf_preset_count">
+        <item quantity="other">%1$d 個の設定</item>
+    </plurals>
+    <string name="perf_category_video">動画</string>
+    <string name="perf_category_camera">カメラ</string>
+    <string name="perf_category_communication">通信</string>
+    <string name="perf_category_music">音楽</string>
+    <string name="perf_category_app_clone">アプリのクローン</string>
+    <string name="perf_category_benchmark">ベンチマーク</string>
+    <string name="perf_category_game">ゲーム</string>
+    <string name="perf_advanced_title">詳細設定</string>
+    <string name="perf_advanced_summary">プリセットを基準に CPU 周波数の上限と下限を設定し、リフレッシュ レートを固定します</string>
+    <string name="category_perf_cpu">CPU 周波数</string>
+    <string name="perf_cluster_little">リトルコア</string>
+    <string name="perf_cluster_medium">ミドルコア</string>
+    <string name="perf_cluster_big">ビッグコア</string>
+    <string name="perf_cluster_title">%1$s（CPU %2$s）</string>
+    <string name="perf_cpu_min_title">%1$s: 最低周波数</string>
+    <string name="perf_cpu_max_title">%1$s: 最高周波数</string>
+    <string name="perf_refresh_rate_title">リフレッシュ レートの固定</string>
+    <string name="perf_refresh_rate_none">固定しない</string>
+    <string name="perf_advanced_reset_title">プリセットにリセット</string>
+
+    <string name="tile_reading_low_refresh">読書モード 30 Hz</string>
+    <string name="tile_touch_game_mode">タッチゲームモード</string>
+    <string name="tile_smart_cover">スマートカバー</string>
+</resources>

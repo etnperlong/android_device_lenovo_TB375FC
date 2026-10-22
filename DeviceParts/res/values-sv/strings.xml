@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Enhetsfunktioner</string>
+
+    <string name="device_parts_title">Enhetsfunktioner</string>
+    <string name="device_parts_summary">Prestanda, e-penna, pekskärm, Dolby Atmos och fodral</string>
+    <string name="display_parts_title">E-penna och pekskärm</string>
+    <string name="display_parts_summary">E-pennans uppdateringsfrekvens, läslägets uppdateringsfrekvens, pekskärmens spelläge</string>
+
+    <string name="category_display_title">Uppdateringsfrekvens</string>
+    <string name="category_touch_title">Pekskärm</string>
+    <string name="category_cover_title">Fodral</string>
+    <string name="category_audio_title">Ljud</string>
+    <string name="category_perf_title">Prestanda</string>
+
+    <string name="pen_refresh_cap_title">Begränsa till 120 Hz när e-pennan används</string>
+    <string name="pen_refresh_cap_summary">Den aktiva e-pennan uppges bara fungera upp till 120 Hz. Gränsen hävs 10 sekunder efter den senaste inmatningen med e-pennan.</string>
+    <string name="reading_low_refresh_title">30 Hz i läsläge</string>
+    <string name="reading_low_refresh_summary">Sänk uppdateringsfrekvensen när läsläget är aktiverat</string>
+    <string name="reading_low_refresh_unavailable">Läsläget är inte tillgängligt</string>
+    <string name="touch_game_mode_title">Pekskärmens spelläge</string>
+    <string name="touch_game_mode_summary">Spelläge för pekskärmsstyrenheten. Stängs av igen efter en omstart.</string>
+    <string name="touch_game_mode_unavailable">Inte tillgängligt</string>
+    <string name="smart_cover_title">Smart fodral</string>
+    <string name="smart_cover_summary">Släck skärmen och lås när fodralet stängs</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Ljudläge, equalizer, dialogförbättring och applägen</string>
+    <string name="dolby_enable_title">Använd Dolby Atmos</string>
+    <string name="dolby_profile_title">Standardläge</string>
+    <string name="dolby_profile_dynamic">Dynamiskt</string>
+    <string name="dolby_profile_movie">Film</string>
+    <string name="dolby_profile_music">Musik</string>
+    <string name="category_dolby_music_title">Musikläge</string>
+    <string name="dolby_ieq_preset_title">Ljudeffekt</string>
+    <string name="dolby_ieq_preset_none">Ingen</string>
+    <string name="dolby_ieq_preset_detailed">Detaljerat</string>
+    <string name="dolby_ieq_preset_balanced">Balanserat</string>
+    <string name="dolby_ieq_preset_warm">Varmt</string>
+    <string name="dolby_geq_title">Equalizer</string>
+    <string name="dolby_geq_summary">Justera 10 frekvensband</string>
+    <string name="dolby_geq_reset_title">Återställ till platt frekvenskurva</string>
+    <string name="category_dolby_movie_title">Filmläge</string>
+    <string name="dolby_dialogue_level_title">Dialogförbättring</string>
+    <string name="dolby_dialogue_level_summary">Gör tal tydligare. 0 stänger av funktionen.</string>
+    <string name="category_dolby_apps_title">Appar</string>
+    <string name="dolby_app_profiles_enabled_title">Byt läge per app</string>
+    <string name="dolby_app_profiles_enabled_summary">Använd det angivna läget när en app spelar upp ljud</string>
+    <string name="dolby_app_profiles_title">Applägen</string>
+    <string name="dolby_app_profiles_summary">Välj läge för varje app. Kända musik- och videoappar börjar med Musik och Film.</string>
+    <string name="dolby_app_profile_default">Standardläge</string>
+
+    <string name="perf_title">Prestandaprofiler</string>
+    <string name="perf_summary">Justera MediaTek Dimensity-prestanda och temperaturpolicyer</string>
+    <string name="perf_enabled_title">Justera prestanda per app</string>
+    <string name="perf_enabled_summary">Meddela MediaTeks strömtjänst om vilken app som är i förgrunden och använd dess profil. Appar med tillverkar- eller rekommenderade profiler använder dem som standard.</string>
+    <string name="category_perf_known_apps">Appar med profiler</string>
+    <string name="category_perf_other_apps">Andra appar</string>
+    <string name="perf_mode_title">Profil</string>
+    <string name="perf_mode_vendor">Följ tillverkaren</string>
+    <string name="perf_mode_default">Standard</string>
+    <string name="perf_mode_custom">Anpassad</string>
+    <string name="perf_mode_off">Av</string>
+    <string name="perf_mode_vendor_summary">Följ tillverkaren: %1$s</string>
+    <string name="perf_mode_recommended">Rekommenderad</string>
+    <string name="perf_mode_recommended_summary">Rekommenderad: %1$s</string>
+    <string name="perf_mode_custom_summary">Anpassad: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, avancerat</string>
+    <string name="perf_preset_title">Förinställning</string>
+    <string name="perf_preset_none">Ingen</string>
+    <string name="perf_preset_details_title">Förinställningar</string>
+    <string name="perf_preset_thermal">Värmepolicy %1$d</string>
+    <string name="perf_preset_cpu_max">Max. CPU %1$s</string>
+    <string name="perf_preset_cpu_min">Min. CPU %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO-bildfrekvenshantering</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d inställning</item>
+        <item quantity="other">%1$d inställningar</item>
+    </plurals>
+    <string name="perf_category_video">Video</string>
+    <string name="perf_category_camera">Kamera</string>
+    <string name="perf_category_communication">Kommunikation</string>
+    <string name="perf_category_music">Musik</string>
+    <string name="perf_category_app_clone">Klonade appar</string>
+    <string name="perf_category_benchmark">Prestandatest</string>
+    <string name="perf_category_game">Spel</string>
+    <string name="perf_advanced_title">Avancerade parametrar</string>
+    <string name="perf_advanced_summary">Ange CPU-frekvensgränser och lås uppdateringsfrekvensen med utgångspunkt i förinställningen</string>
+    <string name="category_perf_cpu">CPU-frekvens</string>
+    <string name="perf_cluster_little">Små kärnor</string>
+    <string name="perf_cluster_medium">Medelstora kärnor</string>
+    <string name="perf_cluster_big">Stora kärnor</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: minsta frekvens</string>
+    <string name="perf_cpu_max_title">%1$s: högsta frekvens</string>
+    <string name="perf_refresh_rate_title">Lås uppdateringsfrekvens</string>
+    <string name="perf_refresh_rate_none">Inte låst</string>
+    <string name="perf_advanced_reset_title">Återställ till förinställning</string>
+
+    <string name="tile_reading_low_refresh">Läsning 30 Hz</string>
+    <string name="tile_touch_game_mode">Pekskärmsspelläge</string>
+    <string name="tile_smart_cover">Smart fodral</string>
+</resources>

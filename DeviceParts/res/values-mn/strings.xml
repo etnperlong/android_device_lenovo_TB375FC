@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Төхөөрөмжийн онцлогууд</string>
+
+    <string name="device_parts_title">Төхөөрөмжийн онцлогууд</string>
+    <string name="device_parts_summary">Гүйцэтгэл, мэдрэгчтэй үзэг, хүрэлт, Dolby Atmos болон гэр</string>
+    <string name="display_parts_title">Мэдрэгчтэй үзэг ба хүрэлт</string>
+    <string name="display_parts_summary">Үзгийн сэргээх хурд, унших горимын сэргээх хурд, хүрэлтийн тоглоомын горим</string>
+
+    <string name="category_display_title">Сэргээх хурд</string>
+    <string name="category_touch_title">Хүрэлт</string>
+    <string name="category_cover_title">Гэр</string>
+    <string name="category_audio_title">Аудио</string>
+    <string name="category_perf_title">Гүйцэтгэл</string>
+
+    <string name="pen_refresh_cap_title">Үзэг ашиглаж байх үед 120 Гц-ээр хязгаарлах</string>
+    <string name="pen_refresh_cap_summary">Идэвхтэй үзэг зөвхөн 120 Гц хүртэл ажилладаг гэж мэдээлсэн. Үзгээр хамгийн сүүлд оролт хийснээс 10 секундын дараа хязгаар арилна.</string>
+    <string name="reading_low_refresh_title">Унших горимд 30 Гц</string>
+    <string name="reading_low_refresh_summary">Унших горим асаалттай үед сэргээх хурдыг бууруулах</string>
+    <string name="reading_low_refresh_unavailable">Унших горим боломжгүй</string>
+    <string name="touch_game_mode_title">Хүрэлтийн тоглоомын горим</string>
+    <string name="touch_game_mode_summary">Хүрэлтийн удирдлагын тоглоомын горим. Дахин эхлүүлсний дараа унтарна.</string>
+    <string name="touch_game_mode_unavailable">Боломжгүй</string>
+    <string name="smart_cover_title">Ухаалаг гэр</string>
+    <string name="smart_cover_summary">Гэрийг хаахад дэлгэцийг унтрааж, түгжих</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Дууны горим, эквалайзер, яриа тодруулагч болон аппын горимууд</string>
+    <string name="dolby_enable_title">Dolby Atmos ашиглах</string>
+    <string name="dolby_profile_title">Өгөгдмөл горим</string>
+    <string name="dolby_profile_dynamic">Динамик</string>
+    <string name="dolby_profile_movie">Кино</string>
+    <string name="dolby_profile_music">Хөгжим</string>
+    <string name="category_dolby_music_title">Хөгжмийн горим</string>
+    <string name="dolby_ieq_preset_title">Дууны эффект</string>
+    <string name="dolby_ieq_preset_none">Байхгүй</string>
+    <string name="dolby_ieq_preset_detailed">Дэлгэрэнгүй</string>
+    <string name="dolby_ieq_preset_balanced">Тэнцвэртэй</string>
+    <string name="dolby_ieq_preset_warm">Дулаан</string>
+    <string name="dolby_geq_title">Эквалайзер</string>
+    <string name="dolby_geq_summary">10 давтамжийн зурвасыг тохируулах</string>
+    <string name="dolby_geq_reset_title">Хавтгай болгож сэргээх</string>
+    <string name="dolby_geq_band_hz">%1$d Гц</string>
+    <string name="dolby_geq_band_khz">%1$.1f кГц</string>
+    <string name="category_dolby_movie_title">Киноны горим</string>
+    <string name="dolby_dialogue_level_title">Яриа тодруулагч</string>
+    <string name="dolby_dialogue_level_summary">Яриаг илүү тодруулна. 0 бол унтраана.</string>
+    <string name="category_dolby_apps_title">Аппууд</string>
+    <string name="dolby_app_profiles_enabled_title">Аппаар горим солих</string>
+    <string name="dolby_app_profiles_enabled_summary">Апп аудио тоглуулах үед түүнд тохируулсан горимыг ашиглах</string>
+    <string name="dolby_app_profiles_title">Аппын горимууд</string>
+    <string name="dolby_app_profiles_summary">Апп бүрийн горимыг сонгоно уу. Танигдсан хөгжим, видео аппууд эхлэхдээ Хөгжим болон Кино горимыг ашиглана.</string>
+    <string name="dolby_app_profile_default">Өгөгдмөл горим</string>
+
+    <string name="perf_title">Гүйцэтгэлийн профайл</string>
+    <string name="perf_summary">MediaTek Dimensity-ийн гүйцэтгэл болон дулааны бодлогыг тохируулах</string>
+    <string name="perf_enabled_title">Гүйцэтгэлийг аппаар тохируулах</string>
+    <string name="perf_enabled_summary">MediaTek-ийн тэжээлийн үйлчилгээнд урд байгаа аппыг мэдэгдэж, түүний профайлыг хэрэглэх. Үйлдвэрлэгчийн эсвэл санал болгосон профайлтай аппууд тэдгээрийг өгөгдмөлөөр ашиглана.</string>
+    <string name="category_perf_known_apps">Профайлтай аппууд</string>
+    <string name="category_perf_other_apps">Бусад апп</string>
+    <string name="perf_mode_title">Профайл</string>
+    <string name="perf_mode_vendor">Үйлдвэрлэгчийг дагах</string>
+    <string name="perf_mode_default">Өгөгдмөл</string>
+    <string name="perf_mode_custom">Өөрчлөх</string>
+    <string name="perf_mode_off">Унтраалттай</string>
+    <string name="perf_mode_vendor_summary">Үйлдвэрлэгчийг дагах: %1$s</string>
+    <string name="perf_mode_recommended">Санал болгосон</string>
+    <string name="perf_mode_recommended_summary">Санал болгосон: %1$s</string>
+    <string name="perf_mode_custom_summary">Өөрчлөх: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, ахисан түвшин</string>
+    <string name="perf_preset_title">Урьдчилан тохируулга</string>
+    <string name="perf_preset_none">Байхгүй</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Урьдчилан тохируулгын тохиргоо</string>
+    <string name="perf_preset_thermal">Дулааны бодлого %1$d</string>
+    <string name="perf_preset_cpu_max">CPU дээд %1$s</string>
+    <string name="perf_preset_cpu_min">CPU доод %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO кадрын хуваарилалт</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d тохиргоо</item>
+        <item quantity="other">%1$d тохиргоо</item>
+    </plurals>
+    <string name="perf_category_video">Видео</string>
+    <string name="perf_category_camera">Камер</string>
+    <string name="perf_category_communication">Харилцаа холбоо</string>
+    <string name="perf_category_music">Хөгжим</string>
+    <string name="perf_category_app_clone">Аппын хуулбар</string>
+    <string name="perf_category_benchmark">Гүйцэтгэлийн сорил</string>
+    <string name="perf_category_game">Тоглоом</string>
+    <string name="perf_advanced_title">Нарийвчилсан параметрүүд</string>
+    <string name="perf_advanced_summary">Урьдчилан тохируулгад үндэслэн CPU-ийн давтамжийн хязгаарыг тохируулж, сэргээх хурдыг түгжих</string>
+    <string name="category_perf_cpu">CPU-ийн давтамж</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">Бага цөм</string>
+    <string name="perf_cluster_medium">Дунд цөм</string>
+    <string name="perf_cluster_big">Том цөм</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: хамгийн бага давтамж</string>
+    <string name="perf_cpu_max_title">%1$s: хамгийн их давтамж</string>
+    <string name="perf_freq_ghz">%1$.2f ГГц</string>
+    <string name="perf_freq_mhz">%1$d МГц</string>
+    <string name="perf_refresh_rate_title">Сэргээх хурдыг түгжих</string>
+    <string name="perf_refresh_rate_none">Түгжээгүй</string>
+    <string name="perf_refresh_rate_hz">%1$d Гц</string>
+    <string name="perf_advanced_reset_title">Урьдчилан тохируулга сэргээх</string>
+
+    <string name="tile_reading_low_refresh">Унших 30 Гц</string>
+    <string name="tile_touch_game_mode">Хүрэлтийн тоглоомын горим</string>
+    <string name="tile_smart_cover">Ухаалаг гэр</string>
+</resources>

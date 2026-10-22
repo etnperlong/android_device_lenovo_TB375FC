@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Funcións do dispositivo</string>
+
+    <string name="device_parts_title">Funcións do dispositivo</string>
+    <string name="device_parts_summary">Rendemento, lapis, pantalla táctil, Dolby Atmos e funda tipo folio</string>
+    <string name="display_parts_title">Lapis e pantalla táctil</string>
+    <string name="display_parts_summary">Frecuencia de actualización do lapis e do modo de lectura, modo de xogo táctil</string>
+
+    <string name="category_display_title">Frecuencia de actualización</string>
+    <string name="category_touch_title">Pantalla táctil</string>
+    <string name="category_cover_title">Funda tipo folio</string>
+    <string name="category_audio_title">Son</string>
+    <string name="category_perf_title">Rendemento</string>
+
+    <string name="pen_refresh_cap_title">Limitar a 120 Hz ao usar o lapis</string>
+    <string name="pen_refresh_cap_summary">O lapis activo só funciona ata 120 Hz. O límite elimínase 10 segundos despois da última interacción co lapis.</string>
+    <string name="reading_low_refresh_title">30 Hz no modo de lectura</string>
+    <string name="reading_low_refresh_summary">Reducir a frecuencia de actualización mentres o modo de lectura está activado</string>
+    <string name="reading_low_refresh_unavailable">O modo de lectura non está dispoñible</string>
+    <string name="touch_game_mode_title">Modo de xogo táctil</string>
+    <string name="touch_game_mode_summary">Modo de xogo do controlador táctil. Desactívase de novo ao reiniciar.</string>
+    <string name="touch_game_mode_unavailable">Non dispoñible</string>
+    <string name="smart_cover_title">Funda intelixente</string>
+    <string name="smart_cover_summary">Suspender e bloquear ao pechar a funda tipo folio</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Modo de son, ecualizador, mellorador de diálogos e modos por aplicación</string>
+    <string name="dolby_enable_title">Usar Dolby Atmos</string>
+    <string name="dolby_profile_title">Modo predeterminado</string>
+    <string name="dolby_profile_dynamic">Dinámico</string>
+    <string name="dolby_profile_movie">Película</string>
+    <string name="dolby_profile_music">Música</string>
+    <string name="category_dolby_music_title">Modo Música</string>
+    <string name="dolby_ieq_preset_title">Efecto de son</string>
+    <string name="dolby_ieq_preset_none">Ningún</string>
+    <string name="dolby_ieq_preset_detailed">Detallado</string>
+    <string name="dolby_ieq_preset_balanced">Equilibrado</string>
+    <string name="dolby_ieq_preset_warm">Cálido</string>
+    <string name="dolby_geq_title">Ecualizador</string>
+    <string name="dolby_geq_summary">Axustar 10 bandas de frecuencia</string>
+    <string name="dolby_geq_reset_title">Restablecer a plano</string>
+    <string name="category_dolby_movie_title">Modo Película</string>
+    <string name="dolby_dialogue_level_title">Mellorador de diálogos</string>
+    <string name="dolby_dialogue_level_summary">Fai que a fala sexa máis clara. 0 desactívao.</string>
+    <string name="category_dolby_apps_title">Aplicacións</string>
+    <string name="dolby_app_profiles_enabled_title">Cambiar o modo segundo a aplicación</string>
+    <string name="dolby_app_profiles_enabled_summary">Usar o modo definido para cada aplicación mentres reproduce audio</string>
+    <string name="dolby_app_profiles_title">Modos por aplicación</string>
+    <string name="dolby_app_profiles_summary">Escolle o modo para cada aplicación. As aplicacións coñecidas de música e vídeo comezan con Música e Película.</string>
+    <string name="dolby_app_profile_default">Modo predeterminado</string>
+
+    <string name="perf_title">Perfís de rendemento</string>
+    <string name="perf_summary">Axustar o rendemento e as políticas térmicas de MediaTek Dimensity</string>
+    <string name="perf_enabled_title">Axustar o rendemento por aplicación</string>
+    <string name="perf_enabled_summary">Indicar ao servizo de enerxía de MediaTek que aplicación está en primeiro plano e aplicar o seu perfil. As aplicacións con perfís do fabricante ou recomendados úsaos por defecto.</string>
+    <string name="category_perf_known_apps">Aplicacións con perfís</string>
+    <string name="category_perf_other_apps">Outras aplicacións</string>
+    <string name="perf_mode_title">Perfil</string>
+    <string name="perf_mode_vendor">Seguir o fabricante</string>
+    <string name="perf_mode_default">Predeterminado</string>
+    <string name="perf_mode_custom">Personalizado</string>
+    <string name="perf_mode_off">Desactivado</string>
+    <string name="perf_mode_vendor_summary">Seguir o fabricante: %1$s</string>
+    <string name="perf_mode_recommended">Recomendado</string>
+    <string name="perf_mode_recommended_summary">Recomendado: %1$s</string>
+    <string name="perf_mode_custom_summary">Personalizado: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, avanzado</string>
+    <string name="perf_preset_title">Predefinición</string>
+    <string name="perf_preset_none">Ningunha</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Axustes da predefinición</string>
+    <string name="perf_preset_thermal">Política térmica %1$d</string>
+    <string name="perf_preset_cpu_max">CPU máx. %1$s</string>
+    <string name="perf_preset_cpu_min">CPU mín. %1$s</string>
+    <string name="perf_preset_fpsgo">Ritmo de fotogramas FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d axuste</item>
+        <item quantity="other">%1$d axustes</item>
+    </plurals>
+    <string name="perf_category_video">Vídeo</string>
+    <string name="perf_category_camera">Cámara</string>
+    <string name="perf_category_communication">Comunicación</string>
+    <string name="perf_category_music">Música</string>
+    <string name="perf_category_app_clone">Aplicación clonada</string>
+    <string name="perf_category_benchmark">Proba de rendemento</string>
+    <string name="perf_category_game">Xogo</string>
+    <string name="perf_advanced_title">Parámetros avanzados</string>
+    <string name="perf_advanced_summary">Establecer os límites de frecuencia da CPU e bloquear a frecuencia de actualización a partir da predefinición</string>
+    <string name="category_perf_cpu">Frecuencia da CPU</string>
+    <string name="perf_cluster_little">Núcleos de baixo consumo</string>
+    <string name="perf_cluster_medium">Núcleos medios</string>
+    <string name="perf_cluster_big">Núcleos de alto rendemento</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">Frecuencia mínima de %1$s</string>
+    <string name="perf_cpu_max_title">Frecuencia máxima de %1$s</string>
+    <string name="perf_refresh_rate_title">Bloqueo da frecuencia de actualización</string>
+    <string name="perf_refresh_rate_none">Sen bloqueo</string>
+    <string name="perf_advanced_reset_title">Restablecer á predefinición</string>
+
+    <string name="tile_reading_low_refresh">Lectura 30 Hz</string>
+    <string name="tile_touch_game_mode">Modo de xogo táctil</string>
+    <string name="tile_smart_cover">Funda intelixente</string>
+</resources>

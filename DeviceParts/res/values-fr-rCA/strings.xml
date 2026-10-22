@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Fonctions de l’appareil</string>
+
+    <string name="device_parts_title">Fonctions de l’appareil</string>
+    <string name="device_parts_summary">Performance, stylet, tactile, Dolby Atmos et étui à rabat</string>
+    <string name="display_parts_title">Stylet et tactile</string>
+    <string name="display_parts_summary">Taux de rafraîchissement du stylet et du mode Lecture, mode jeu tactile</string>
+
+    <string name="category_display_title">Taux de rafraîchissement</string>
+    <string name="category_touch_title">Tactile</string>
+    <string name="category_cover_title">Étui à rabat</string>
+    <string name="category_audio_title">Audio</string>
+    <string name="category_perf_title">Performance</string>
+
+    <string name="pen_refresh_cap_title">Limiter à 120 Hz lors de l’utilisation du stylet</string>
+    <string name="pen_refresh_cap_summary">Le stylet actif fonctionne seulement jusqu’à 120 Hz. La limite est levée 10 secondes après la dernière utilisation du stylet.</string>
+    <string name="reading_low_refresh_title">30 Hz en mode Lecture</string>
+    <string name="reading_low_refresh_summary">Réduire le taux de rafraîchissement lorsque le mode Lecture est activé</string>
+    <string name="reading_low_refresh_unavailable">Le mode Lecture n’est pas disponible</string>
+    <string name="touch_game_mode_title">Mode jeu tactile</string>
+    <string name="touch_game_mode_summary">Mode jeu du contrôleur tactile. Il se désactive après un redémarrage.</string>
+    <string name="touch_game_mode_unavailable">Non disponible</string>
+    <string name="smart_cover_title">Étui intelligent</string>
+    <string name="smart_cover_summary">Mettre en veille et verrouiller lorsque l’étui à rabat est fermé</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Mode sonore, égaliseur, amélioration des dialogues et modes par appli</string>
+    <string name="dolby_enable_title">Utiliser Dolby Atmos</string>
+    <string name="dolby_profile_title">Mode par défaut</string>
+    <string name="dolby_profile_dynamic">Dynamique</string>
+    <string name="dolby_profile_movie">Film</string>
+    <string name="dolby_profile_music">Musique</string>
+    <string name="category_dolby_music_title">Mode Musique</string>
+    <string name="dolby_ieq_preset_title">Effet sonore</string>
+    <string name="dolby_ieq_preset_none">Aucun</string>
+    <string name="dolby_ieq_preset_detailed">Détaillé</string>
+    <string name="dolby_ieq_preset_balanced">Équilibré</string>
+    <string name="dolby_ieq_preset_warm">Chaud</string>
+    <string name="dolby_geq_title">Égaliseur</string>
+    <string name="dolby_geq_summary">Régler 10 bandes de fréquence</string>
+    <string name="dolby_geq_reset_title">Réinitialiser à plat</string>
+    <string name="dolby_geq_band_hz">%1$d Hz</string>
+    <string name="dolby_geq_band_khz">%1$.1f kHz</string>
+    <string name="category_dolby_movie_title">Mode Film</string>
+    <string name="dolby_dialogue_level_title">Amélioration des dialogues</string>
+    <string name="dolby_dialogue_level_summary">Rend la parole plus claire. 0 désactive cette fonction.</string>
+    <string name="category_dolby_apps_title">Applis</string>
+    <string name="dolby_app_profiles_enabled_title">Changer le mode selon l’appli</string>
+    <string name="dolby_app_profiles_enabled_summary">Utiliser le mode défini pour chaque appli pendant la lecture audio</string>
+    <string name="dolby_app_profiles_title">Modes par appli</string>
+    <string name="dolby_app_profiles_summary">Choisir le mode de chaque appli. Les applis musicales et vidéo reconnues utilisent Musique et Film par défaut.</string>
+    <string name="dolby_app_profile_default">Mode par défaut</string>
+
+    <string name="perf_title">Profils de performance</string>
+    <string name="perf_summary">Régler la performance et les politiques thermiques de MediaTek Dimensity</string>
+    <string name="perf_enabled_title">Régler la performance par appli</string>
+    <string name="perf_enabled_summary">Indiquer au service d’alimentation MediaTek quelle appli est au premier plan et appliquer son profil. Les applis ayant un profil du fournisseur ou recommandé l’utilisent par défaut.</string>
+    <string name="category_perf_known_apps">Applis avec profils</string>
+    <string name="category_perf_other_apps">Autres applis</string>
+    <string name="perf_mode_title">Profil</string>
+    <string name="perf_mode_vendor">Suivre le fournisseur</string>
+    <string name="perf_mode_default">Par défaut</string>
+    <string name="perf_mode_custom">Personnalisé</string>
+    <string name="perf_mode_off">Désactivé</string>
+    <string name="perf_mode_vendor_summary">Suivre le fournisseur : %1$s</string>
+    <string name="perf_mode_recommended">Recommandé</string>
+    <string name="perf_mode_recommended_summary">Recommandé : %1$s</string>
+    <string name="perf_mode_custom_summary">Personnalisé : %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, avancé</string>
+    <string name="perf_preset_title">Préréglage</string>
+    <string name="perf_preset_none">Aucun</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Paramètres du préréglage</string>
+    <string name="perf_preset_thermal">Politique thermique %1$d</string>
+    <string name="perf_preset_cpu_max">CPU max. %1$s</string>
+    <string name="perf_preset_cpu_min">CPU min. %1$s</string>
+    <string name="perf_preset_fpsgo">Cadence d’images FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d paramètre</item>
+        <item quantity="many">%1$d paramètres</item>
+        <item quantity="other">%1$d paramètres</item>
+    </plurals>
+    <string name="perf_category_video">Vidéo</string>
+    <string name="perf_category_camera">Caméra</string>
+    <string name="perf_category_communication">Communication</string>
+    <string name="perf_category_music">Musique</string>
+    <string name="perf_category_app_clone">Appli clonée</string>
+    <string name="perf_category_benchmark">Test de performance</string>
+    <string name="perf_category_game">Jeu</string>
+    <string name="perf_advanced_title">Paramètres avancés</string>
+    <string name="perf_advanced_summary">Définir les limites de fréquence du processeur et verrouiller le taux de rafraîchissement à partir du préréglage</string>
+    <string name="category_perf_cpu">Fréquence du processeur</string>
+    <string name="perf_cluster_little">Cœurs basse consommation</string>
+    <string name="perf_cluster_medium">Cœurs intermédiaires</string>
+    <string name="perf_cluster_big">Cœurs haute performance</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">Fréquence minimale : %1$s</string>
+    <string name="perf_cpu_max_title">Fréquence maximale : %1$s</string>
+    <string name="perf_freq_ghz">%1$.2f GHz</string>
+    <string name="perf_freq_mhz">%1$d MHz</string>
+    <string name="perf_refresh_rate_title">Verrouillage du taux de rafraîchissement</string>
+    <string name="perf_refresh_rate_none">Non verrouillé</string>
+    <string name="perf_refresh_rate_hz">%1$d Hz</string>
+    <string name="perf_advanced_reset_title">Rétablir le préréglage</string>
+
+    <string name="tile_reading_low_refresh">Lecture 30 Hz</string>
+    <string name="tile_touch_game_mode">Mode jeu tactile</string>
+    <string name="tile_smart_cover">Étui intelligent</string>
+</resources>

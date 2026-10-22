@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">ഉപകരണ സവിശേഷതകൾ</string>
+
+    <string name="device_parts_title">ഉപകരണ സവിശേഷതകൾ</string>
+    <string name="device_parts_summary">പ്രകടനം, സ്‌റ്റൈലസ്, ടച്ച്, Dolby Atmos, ഫ്ലിപ്പ് കവർ</string>
+
+    <string name="display_parts_title">സ്‌റ്റൈലസും ടച്ചും</string>
+    <string name="display_parts_summary">സ്‌റ്റൈലസ് റീഫ്രഷ് നിരക്ക്, വായനാ മോഡ് റീഫ്രഷ് നിരക്ക്, ടച്ച് ഗെയിം മോഡ്</string>
+
+    <string name="category_display_title">റീഫ്രഷ് നിരക്ക്</string>
+    <string name="category_touch_title">ടച്ച്</string>
+    <string name="category_cover_title">ഫ്ലിപ്പ് കവർ</string>
+    <string name="category_audio_title">ഓഡിയോ</string>
+    <string name="category_perf_title">പ്രകടനം</string>
+
+    <string name="pen_refresh_cap_title">സ്‌റ്റൈലസ് ഉപയോഗിക്കുമ്പോൾ 120 Hz-ലേക്ക് പരിമിതപ്പെടുത്തുക</string>
+    <string name="pen_refresh_cap_summary">സജീവ സ്‌റ്റൈലസ് പരമാവധി 120 Hz വരെ മാത്രമേ പിന്തുണയ്ക്കൂ എന്നാണ് റിപ്പോർട്ട്. സ്‌റ്റൈലസ് ഉപയോഗിച്ചുള്ള അവസാന ഇൻപുട്ടിന് 10 സെക്കൻഡിന് ശേഷം പരിധി നീങ്ങും.</string>
+    <string name="reading_low_refresh_title">വായനാ മോഡിൽ 30 Hz</string>
+    <string name="reading_low_refresh_summary">വായനാ മോഡ് ഓണായിരിക്കുമ്പോൾ റീഫ്രഷ് നിരക്ക് കുറയ്ക്കുക</string>
+    <string name="reading_low_refresh_unavailable">വായനാ മോഡ് ലഭ്യമല്ല</string>
+    <string name="touch_game_mode_title">ടച്ച് ഗെയിം മോഡ്</string>
+    <string name="touch_game_mode_summary">ടച്ച് കൺട്രോളറിന്റെ ഗെയിം മോഡ്. റീസ്റ്റാർട്ട് ചെയ്താൽ വീണ്ടും ഓഫാകും.</string>
+    <string name="touch_game_mode_unavailable">ലഭ്യമല്ല</string>
+    <string name="smart_cover_title">സ്മാർട്ട് കവർ</string>
+    <string name="smart_cover_summary">ഫ്ലിപ്പ് കവർ അടയ്ക്കുമ്പോൾ സ്ക്രീൻ ഓഫാക്കി ലോക്ക് ചെയ്യുക</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">ശബ്‌ദ മോഡ്, ഇക്വലൈസർ, സംഭാഷണ വ്യക്തത വർധിപ്പിക്കൽ, ആപ്പ് മോഡുകൾ</string>
+    <string name="dolby_enable_title">Dolby Atmos ഉപയോഗിക്കുക</string>
+    <string name="dolby_profile_title">ഡിഫോൾട്ട് മോഡ്</string>
+    <string name="dolby_profile_dynamic">ഡൈനാമിക്</string>
+    <string name="dolby_profile_movie">സിനിമ</string>
+    <string name="dolby_profile_music">സംഗീതം</string>
+    <string name="category_dolby_music_title">സംഗീത മോഡ്</string>
+    <string name="dolby_ieq_preset_title">ശബ്‌ദ ഇഫക്റ്റ്</string>
+    <string name="dolby_ieq_preset_none">ഒന്നുമില്ല</string>
+    <string name="dolby_ieq_preset_detailed">വിശദമായ</string>
+    <string name="dolby_ieq_preset_balanced">സന്തുലിതം</string>
+    <string name="dolby_ieq_preset_warm">മൃദുവായ</string>
+    <string name="dolby_geq_title">ഇക്വലൈസർ</string>
+    <string name="dolby_geq_summary">10 ഫ്രീക്വൻസി ബാൻഡുകൾ ക്രമീകരിക്കുക</string>
+    <string name="dolby_geq_reset_title">ഫ്ലാറ്റിലേക്ക് റീസെറ്റ് ചെയ്യുക</string>
+    <string name="category_dolby_movie_title">സിനിമ മോഡ്</string>
+    <string name="dolby_dialogue_level_title">സംഭാഷണ വ്യക്തത വർധിപ്പിക്കൽ</string>
+    <string name="dolby_dialogue_level_summary">സംഭാഷണം കൂടുതൽ വ്യക്തമാക്കുന്നു. 0 ആണെങ്കിൽ ഇത് ഓഫാകും.</string>
+    <string name="category_dolby_apps_title">ആപ്പുകൾ</string>
+    <string name="dolby_app_profiles_enabled_title">ആപ്പ് അനുസരിച്ച് മോഡ് മാറ്റുക</string>
+    <string name="dolby_app_profiles_enabled_summary">ഒരു ആപ്പ് ഓഡിയോ പ്ലേ ചെയ്യുമ്പോൾ അതിനായി സജ്ജീകരിച്ച മോഡ് ഉപയോഗിക്കുക</string>
+    <string name="dolby_app_profiles_title">ആപ്പ് മോഡുകൾ</string>
+    <string name="dolby_app_profiles_summary">ഓരോ ആപ്പിനും മോഡ് തിരഞ്ഞെടുക്കുക. അറിയപ്പെടുന്ന സംഗീത, വീഡിയോ ആപ്പുകൾ സംഗീതം, സിനിമ മോഡുകൾ ഉപയോഗിച്ചാണ് തുടങ്ങുന്നത്.</string>
+    <string name="dolby_app_profile_default">ഡിഫോൾട്ട് മോഡ്</string>
+
+    <string name="perf_title">പ്രകടന പ്രൊഫൈലുകൾ</string>
+    <string name="perf_summary">MediaTek Dimensity പ്രകടനവും താപ നിയന്ത്രണ നയങ്ങളും ക്രമീകരിക്കുക</string>
+    <string name="perf_enabled_title">ആപ്പ് അനുസരിച്ച് പ്രകടനം ക്രമീകരിക്കുക</string>
+    <string name="perf_enabled_summary">മുൻനിരയിലുള്ള ആപ്പ് ഏതെന്ന് MediaTek പവർ സർവീസിനെ അറിയിക്കുകയും അതിന്റെ പ്രൊഫൈൽ പ്രയോഗിക്കുകയും ചെയ്യുക. നിർമാതാവിന്റെയോ ശുപാർശ ചെയ്തതോ ആയ പ്രൊഫൈലുകൾ ഉള്ള ആപ്പുകൾ അവ ഡിഫോൾട്ടായി ഉപയോഗിക്കും.</string>
+    <string name="category_perf_known_apps">പ്രൊഫൈലുകളുള്ള ആപ്പുകൾ</string>
+    <string name="category_perf_other_apps">മറ്റ് ആപ്പുകൾ</string>
+    <string name="perf_mode_title">പ്രൊഫൈൽ</string>
+    <string name="perf_mode_vendor">നിർമാതാവിന്റെ പ്രൊഫൈൽ പിന്തുടരുക</string>
+    <string name="perf_mode_default">ഡിഫോൾട്ട്</string>
+    <string name="perf_mode_custom">ഇഷ്ടാനുസൃതം</string>
+    <string name="perf_mode_off">ഓഫ്</string>
+    <string name="perf_mode_vendor_summary">നിർമാതാവിന്റെ പ്രൊഫൈൽ പിന്തുടരുക: %1$s</string>
+    <string name="perf_mode_recommended">ശുപാർശ ചെയ്തത്</string>
+    <string name="perf_mode_recommended_summary">ശുപാർശ ചെയ്തത്: %1$s</string>
+    <string name="perf_mode_custom_summary">ഇഷ്ടാനുസൃതം: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, വിപുലമായ ക്രമീകരണങ്ങൾ</string>
+    <string name="perf_preset_title">പ്രീസെറ്റ്</string>
+    <string name="perf_preset_none">ഒന്നുമില്ല</string>
+    <string name="perf_preset_details_title">പ്രീസെറ്റ് ക്രമീകരണങ്ങൾ</string>
+    <string name="perf_preset_thermal">താപ നിയന്ത്രണ നയം %1$d</string>
+    <string name="perf_preset_cpu_max">CPU പരമാവധി %1$s</string>
+    <string name="perf_preset_cpu_min">CPU കുറഞ്ഞത് %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO ഫ്രെയിം പേസിംഗ്</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d ക്രമീകരണം</item>
+        <item quantity="other">%1$d ക്രമീകരണങ്ങൾ</item>
+    </plurals>
+    <string name="perf_category_video">വീഡിയോ</string>
+    <string name="perf_category_camera">ക്യാമറ</string>
+    <string name="perf_category_communication">ആശയവിനിമയം</string>
+    <string name="perf_category_music">സംഗീതം</string>
+    <string name="perf_category_app_clone">ക്ലോൺ ചെയ്ത ആപ്പുകൾ</string>
+    <string name="perf_category_benchmark">ബെഞ്ച്മാർക്ക്</string>
+    <string name="perf_category_game">ഗെയിം</string>
+    <string name="perf_advanced_title">വിപുലമായ പരാമീറ്ററുകൾ</string>
+    <string name="perf_advanced_summary">പ്രീസെറ്റിൽ നിന്ന് തുടങ്ങി CPU ഫ്രീക്വൻസി പരിധികൾ ക്രമീകരിക്കുകയും റീഫ്രഷ് നിരക്ക് ലോക്ക് ചെയ്യുകയും ചെയ്യുക</string>
+    <string name="category_perf_cpu">CPU ഫ്രീക്വൻസി</string>
+    <string name="perf_cluster_little">ചെറിയ കോറുകൾ</string>
+    <string name="perf_cluster_medium">ഇടത്തരം കോറുകൾ</string>
+    <string name="perf_cluster_big">വലിയ കോറുകൾ</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: കുറഞ്ഞ ഫ്രീക്വൻസി</string>
+    <string name="perf_cpu_max_title">%1$s: പരമാവധി ഫ്രീക്വൻസി</string>
+    <string name="perf_refresh_rate_title">റീഫ്രഷ് നിരക്ക് ലോക്ക്</string>
+    <string name="perf_refresh_rate_none">ലോക്ക് ചെയ്തിട്ടില്ല</string>
+    <string name="perf_advanced_reset_title">പ്രീസെറ്റിലേക്ക് റീസെറ്റ് ചെയ്യുക</string>
+
+    <string name="tile_reading_low_refresh">വായനാ മോഡ് 30 Hz</string>
+    <string name="tile_touch_game_mode">ടച്ച് ഗെയിം മോഡ്</string>
+    <string name="tile_smart_cover">സ്മാർട്ട് കവർ</string>
+</resources>

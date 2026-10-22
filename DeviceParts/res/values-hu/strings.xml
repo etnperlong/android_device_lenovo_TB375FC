@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Eszközfunkciók</string>
+
+    <string name="device_parts_title">Eszközfunkciók</string>
+    <string name="device_parts_summary">Teljesítmény, érintőceruza, érintés, Dolby Atmos és tok</string>
+    <string name="display_parts_title">Érintőceruza és érintés</string>
+    <string name="display_parts_summary">Érintőceruza frissítési gyakorisága, olvasómód frissítési gyakorisága, érintéses játék mód</string>
+
+    <string name="category_display_title">Frissítési gyakoriság</string>
+    <string name="category_touch_title">Érintés</string>
+    <string name="category_cover_title">Tok</string>
+    <string name="category_audio_title">Hang</string>
+    <string name="category_perf_title">Teljesítmény</string>
+
+    <string name="pen_refresh_cap_title">120 Hz-re korlátozás érintőceruza használatakor</string>
+    <string name="pen_refresh_cap_summary">Az aktív érintőceruza a jelentések szerint legfeljebb 120 Hz-en működik. A korlátozás az utolsó ceruzás művelet után 10 másodperccel megszűnik.</string>
+    <string name="reading_low_refresh_title">30 Hz olvasómódban</string>
+    <string name="reading_low_refresh_summary">Csökkentse a frissítési gyakoriságot, ha az olvasómód be van kapcsolva</string>
+    <string name="reading_low_refresh_unavailable">Az olvasómód nem áll rendelkezésre</string>
+    <string name="touch_game_mode_title">Érintéses játék mód</string>
+    <string name="touch_game_mode_summary">Az érintésvezérlő játék módja. Újraindítás után ismét kikapcsol.</string>
+    <string name="touch_game_mode_unavailable">Nem áll rendelkezésre</string>
+    <string name="smart_cover_title">Intelligens tok</string>
+    <string name="smart_cover_summary">A tok lezárásakor kapcsolja ki a képernyőt és zárja le az eszközt</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Hangmód, hangszínszabályzó, párbeszédkiemelő és alkalmazásmódok</string>
+    <string name="dolby_enable_title">Dolby Atmos használata</string>
+    <string name="dolby_profile_title">Alapértelmezett mód</string>
+    <string name="dolby_profile_dynamic">Dinamikus</string>
+    <string name="dolby_profile_movie">Film</string>
+    <string name="dolby_profile_music">Zene</string>
+    <string name="category_dolby_music_title">Zene mód</string>
+    <string name="dolby_ieq_preset_title">Hangeffektus</string>
+    <string name="dolby_ieq_preset_none">Nincs</string>
+    <string name="dolby_ieq_preset_detailed">Részletes</string>
+    <string name="dolby_ieq_preset_balanced">Kiegyensúlyozott</string>
+    <string name="dolby_ieq_preset_warm">Meleg</string>
+    <string name="dolby_geq_title">Hangszínszabályzó</string>
+    <string name="dolby_geq_summary">10 frekvenciasáv beállítása</string>
+    <string name="dolby_geq_reset_title">Visszaállítás egyenesre</string>
+    <string name="dolby_geq_band_hz">%1$d Hz</string>
+    <string name="dolby_geq_band_khz">%1$.1f kHz</string>
+    <string name="category_dolby_movie_title">Film mód</string>
+    <string name="dolby_dialogue_level_title">Párbeszédkiemelő</string>
+    <string name="dolby_dialogue_level_summary">Érthetőbbé teszi a beszédet. A 0 kikapcsolja.</string>
+    <string name="category_dolby_apps_title">Alkalmazások</string>
+    <string name="dolby_app_profiles_enabled_title">Módváltás alkalmazásonként</string>
+    <string name="dolby_app_profiles_enabled_summary">Az alkalmazás hangjának lejátszásakor a hozzá beállított mód használata</string>
+    <string name="dolby_app_profiles_title">Alkalmazásmódok</string>
+    <string name="dolby_app_profiles_summary">Válasszon módot az egyes alkalmazásokhoz. Az ismert zene- és videóalkalmazások alapértelmezés szerint a Zene és Film módot használják.</string>
+    <string name="dolby_app_profile_default">Alapértelmezett mód</string>
+
+    <string name="perf_title">Teljesítményprofilok</string>
+    <string name="perf_summary">A MediaTek Dimensity teljesítményének és hőkezelési szabályzatainak beállítása</string>
+    <string name="perf_enabled_title">Teljesítmény módosítása alkalmazásonként</string>
+    <string name="perf_enabled_summary">Az előtérben lévő alkalmazás jelzése a MediaTek energiagazdálkodási szolgáltatásának és a hozzá tartozó profil alkalmazása. A gyártói vagy ajánlott profillal rendelkező alkalmazások alapértelmezés szerint ezeket használják.</string>
+    <string name="category_perf_known_apps">Profilokkal rendelkező alkalmazások</string>
+    <string name="category_perf_other_apps">Egyéb alkalmazások</string>
+    <string name="perf_mode_title">Profil</string>
+    <string name="perf_mode_vendor">Gyártói beállítás követése</string>
+    <string name="perf_mode_default">Alapértelmezett</string>
+    <string name="perf_mode_custom">Egyéni</string>
+    <string name="perf_mode_off">Ki</string>
+    <string name="perf_mode_vendor_summary">Gyártói beállítás: %1$s</string>
+    <string name="perf_mode_recommended">Ajánlott</string>
+    <string name="perf_mode_recommended_summary">Ajánlott: %1$s</string>
+    <string name="perf_mode_custom_summary">Egyéni: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, speciális</string>
+    <string name="perf_preset_title">Előbeállítás</string>
+    <string name="perf_preset_none">Nincs</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Előbeállítás részletei</string>
+    <string name="perf_preset_thermal">Hőkezelési szabályzat: %1$d</string>
+    <string name="perf_preset_cpu_max">CPU maximum: %1$s</string>
+    <string name="perf_preset_cpu_min">CPU minimum: %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO képkockaütemezés</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d beállítás</item>
+        <item quantity="other">%1$d beállítás</item>
+    </plurals>
+    <string name="perf_category_video">Videó</string>
+    <string name="perf_category_camera">Kamera</string>
+    <string name="perf_category_communication">Kommunikáció</string>
+    <string name="perf_category_music">Zene</string>
+    <string name="perf_category_app_clone">Alkalmazásklón</string>
+    <string name="perf_category_benchmark">Teljesítményteszt</string>
+    <string name="perf_category_game">Játék</string>
+    <string name="perf_advanced_title">Speciális paraméterek</string>
+    <string name="perf_advanced_summary">CPU-frekvenciakorlátok beállítása és a frissítési gyakoriság zárolása az előbeállítás alapján</string>
+    <string name="category_perf_cpu">CPU-frekvencia</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">Kis magok</string>
+    <string name="perf_cluster_medium">Közepes magok</string>
+    <string name="perf_cluster_big">Nagy magok</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: minimális frekvencia</string>
+    <string name="perf_cpu_max_title">%1$s: maximális frekvencia</string>
+    <string name="perf_freq_ghz">%1$.2f GHz</string>
+    <string name="perf_freq_mhz">%1$d MHz</string>
+    <string name="perf_refresh_rate_title">Frissítésigyakoriság-zárolás</string>
+    <string name="perf_refresh_rate_none">Nincs zárolva</string>
+    <string name="perf_refresh_rate_hz">%1$d Hz</string>
+    <string name="perf_advanced_reset_title">Visszaállítás az előbeállításra</string>
+
+    <string name="tile_reading_low_refresh">Olvasás 30 Hz</string>
+    <string name="tile_touch_game_mode">Érintéses játék mód</string>
+    <string name="tile_smart_cover">Intelligens tok</string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Gailuaren eginbideak</string>
+
+    <string name="device_parts_title">Gailuaren eginbideak</string>
+    <string name="device_parts_summary">Errendimendua, arkatza, ukipena, Dolby Atmos eta folio-estalkia</string>
+    <string name="display_parts_title">Arkatza eta ukipena</string>
+    <string name="display_parts_summary">Arkatzaren freskatze-abiadura, irakurketa-moduaren freskatze-abiadura, ukipeneko joko-modua</string>
+
+    <string name="category_display_title">Freskatze-abiadura</string>
+    <string name="category_touch_title">Ukipena</string>
+    <string name="category_cover_title">Folio-estalkia</string>
+    <string name="category_audio_title">Audioa</string>
+    <string name="category_perf_title">Errendimendua</string>
+
+    <string name="pen_refresh_cap_title">Mugatu 120 Hz-era arkatza erabiltzean</string>
+    <string name="pen_refresh_cap_summary">Arkatz aktiboak 120 Hz-era arte soilik funtzionatzen duela jakinarazi da. Muga azken arkatz-sarreratik 10 segundora kentzen da.</string>
+    <string name="reading_low_refresh_title">30 Hz irakurketa-moduan</string>
+    <string name="reading_low_refresh_summary">Murriztu freskatze-abiadura irakurketa-modua aktibatuta dagoenean</string>
+    <string name="reading_low_refresh_unavailable">Irakurketa-modua ez dago erabilgarri</string>
+    <string name="touch_game_mode_title">Ukipeneko joko-modua</string>
+    <string name="touch_game_mode_summary">Ukipen-kontrolagailuaren joko-modua. Berrabiarazi ondoren desaktibatu egiten da.</string>
+    <string name="touch_game_mode_unavailable">Ez dago erabilgarri</string>
+    <string name="smart_cover_title">Estalki adimenduna</string>
+    <string name="smart_cover_summary">Lo egin eta blokeatu folio-estalkia ixten denean</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Soinu-modua, ekualizadorea, elkarrizketa-hobetzailea eta aplikazio-moduak</string>
+    <string name="dolby_enable_title">Erabili Dolby Atmos</string>
+    <string name="dolby_profile_title">Modu lehenetsia</string>
+    <string name="dolby_profile_dynamic">Dinamikoa</string>
+    <string name="dolby_profile_movie">Filma</string>
+    <string name="dolby_profile_music">Musika</string>
+    <string name="category_dolby_music_title">Musika-modua</string>
+    <string name="dolby_ieq_preset_title">Soinu-efektua</string>
+    <string name="dolby_ieq_preset_none">Bat ere ez</string>
+    <string name="dolby_ieq_preset_detailed">Xehea</string>
+    <string name="dolby_ieq_preset_balanced">Orekatua</string>
+    <string name="dolby_ieq_preset_warm">Epela</string>
+    <string name="dolby_geq_title">Ekualizadorea</string>
+    <string name="dolby_geq_summary">Doitu 10 maiztasun-banda</string>
+    <string name="dolby_geq_reset_title">Berrezarri laua</string>
+    <string name="category_dolby_movie_title">Film-modua</string>
+    <string name="dolby_dialogue_level_title">Elkarrizketa-hobetzailea</string>
+    <string name="dolby_dialogue_level_summary">Hizketa argiagoa egiten du. 0 balioak desaktibatu egiten du.</string>
+    <string name="category_dolby_apps_title">Aplikazioak</string>
+    <string name="dolby_app_profiles_enabled_title">Aldatu modua aplikazioaren arabera</string>
+    <string name="dolby_app_profiles_enabled_summary">Aplikazio batek audioa erreproduzitzen duenean, erabili hari ezarritako modua</string>
+    <string name="dolby_app_profiles_title">Aplikazio-moduak</string>
+    <string name="dolby_app_profiles_summary">Aukeratu aplikazio bakoitzaren modua. Ezagunak diren musika- eta bideo-aplikazioek Musika eta Filma erabiltzen dituzte lehenespenez.</string>
+    <string name="dolby_app_profile_default">Modu lehenetsia</string>
+
+    <string name="perf_title">Errendimendu-profilak</string>
+    <string name="perf_summary">Doitu MediaTek Dimensity-ren errendimendua eta politika termikoak</string>
+    <string name="perf_enabled_title">Doitu errendimendua aplikazioaren arabera</string>
+    <string name="perf_enabled_summary">Esan MediaTek-en energia-zerbitzuari zein aplikazio dagoen aurrean, eta aplikatu haren profila. Saltzailearen edo gomendatutako profilak dituzten aplikazioek profil horiek erabiltzen dituzte lehenespenez.</string>
+    <string name="category_perf_known_apps">Profilak dituzten aplikazioak</string>
+    <string name="category_perf_other_apps">Beste aplikazio batzuk</string>
+    <string name="perf_mode_title">Profila</string>
+    <string name="perf_mode_vendor">Jarraitu saltzaileari</string>
+    <string name="perf_mode_default">Lehenetsia</string>
+    <string name="perf_mode_custom">Pertsonalizatua</string>
+    <string name="perf_mode_off">Desaktibatuta</string>
+    <string name="perf_mode_vendor_summary">Jarraitu saltzaileari: %1$s</string>
+    <string name="perf_mode_recommended">Gomendatua</string>
+    <string name="perf_mode_recommended_summary">Gomendatua: %1$s</string>
+    <string name="perf_mode_custom_summary">Pertsonalizatua: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, aurreratua</string>
+    <string name="perf_preset_title">Aurrezarpena</string>
+    <string name="perf_preset_none">Bat ere ez</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Aurrezarpenaren ezarpenak</string>
+    <string name="perf_preset_thermal">Politika termikoa %1$d</string>
+    <string name="perf_preset_cpu_max">CPUaren gehienekoa %1$s</string>
+    <string name="perf_preset_cpu_min">CPUaren gutxienekoa %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO fotograma-erritmoa</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d ezarpen</item>
+        <item quantity="other">%1$d ezarpen</item>
+    </plurals>
+    <string name="perf_category_video">Bideoa</string>
+    <string name="perf_category_camera">Kamera</string>
+    <string name="perf_category_communication">Komunikazioa</string>
+    <string name="perf_category_music">Musika</string>
+    <string name="perf_category_app_clone">Aplikazio klonatua</string>
+    <string name="perf_category_benchmark">Erreferentzia-proba</string>
+    <string name="perf_category_game">Jokoa</string>
+    <string name="perf_advanced_title">Parametro aurreratuak</string>
+    <string name="perf_advanced_summary">Ezarri CPUaren maiztasun-mugak eta blokeatu freskatze-abiadura, aurrezarpenetik abiatuta</string>
+    <string name="category_perf_cpu">CPUaren maiztasuna</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">Nukleo txikiak</string>
+    <string name="perf_cluster_medium">Nukleo ertainak</string>
+    <string name="perf_cluster_big">Nukleo handiak</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: gutxieneko maiztasuna</string>
+    <string name="perf_cpu_max_title">%1$s: gehieneko maiztasuna</string>
+    <string name="perf_refresh_rate_title">Freskatze-abiadura blokeatzea</string>
+    <string name="perf_refresh_rate_none">Blokeatu gabe</string>
+    <string name="perf_advanced_reset_title">Berrezarri aurrezarpenera</string>
+
+    <string name="tile_reading_low_refresh">Irakurketa 30 Hz</string>
+    <string name="tile_touch_game_mode">Ukipeneko joko-modua</string>
+    <string name="tile_smart_cover">Estalki adimenduna</string>
+</resources>

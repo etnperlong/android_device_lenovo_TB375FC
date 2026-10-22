@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">የመሣሪያ ባህሪያት</string>
+
+    <string name="device_parts_title">የመሣሪያ ባህሪያት</string>
+    <string name="device_parts_summary">አፈጻጸም፣ ስታይለስ፣ ንክኪ፣ Dolby Atmos እና መያዣ</string>
+    <string name="display_parts_title">ስታይለስ እና ንክኪ</string>
+    <string name="display_parts_summary">የስታይለስ የማደስ ፍጥነት፣ የንባብ ሁነታ የማደስ ፍጥነት፣ የንክኪ ጨዋታ ሁነታ</string>
+
+    <string name="category_display_title">የማደስ ፍጥነት</string>
+    <string name="category_touch_title">ንክኪ</string>
+    <string name="category_cover_title">መያዣ</string>
+    <string name="category_audio_title">ድምጽ</string>
+    <string name="category_perf_title">አፈጻጸም</string>
+
+    <string name="pen_refresh_cap_title">ስታይለስ ሲጠቀሙ ወደ 120 ኸርዝ ገድብ</string>
+    <string name="pen_refresh_cap_summary">ንቁው ስታይለስ እስከ 120 ኸርዝ ብቻ እንደሚሠራ ተገልጿል። የመጨረሻው የስታይለስ ግቤት ከተደረገ ከ10 ሰከንድ በኋላ ገደቡ ይነሳል።</string>
+    <string name="reading_low_refresh_title">በንባብ ሁነታ 30 ኸርዝ</string>
+    <string name="reading_low_refresh_summary">የንባብ ሁነታ ሲበራ የማደስ ፍጥነቱን ዝቅ አድርግ</string>
+    <string name="reading_low_refresh_unavailable">የንባብ ሁነታ አይገኝም</string>
+    <string name="touch_game_mode_title">የንክኪ ጨዋታ ሁነታ</string>
+    <string name="touch_game_mode_summary">የንክኪ መቆጣጠሪያው የጨዋታ ሁነታ። ከዳግም ማስነሳት በኋላ ይጠፋል።</string>
+    <string name="touch_game_mode_unavailable">አይገኝም</string>
+    <string name="smart_cover_title">ስማርት መያዣ</string>
+    <string name="smart_cover_summary">መያዣው ሲዘጋ ማያ ገጹን አጥፋ እና ቆልፍ</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">የድምጽ ሁነታ፣ ኢኳላይዘር፣ የንግግር አጉሊ እና የመተግበሪያ ሁነታዎች</string>
+    <string name="dolby_enable_title">Dolby Atmos ተጠቀም</string>
+    <string name="dolby_profile_title">ነባሪ ሁነታ</string>
+    <string name="dolby_profile_dynamic">ተለዋዋጭ</string>
+    <string name="dolby_profile_movie">ፊልም</string>
+    <string name="dolby_profile_music">ሙዚቃ</string>
+    <string name="category_dolby_music_title">የሙዚቃ ሁነታ</string>
+    <string name="dolby_ieq_preset_title">የድምጽ ተፅዕኖ</string>
+    <string name="dolby_ieq_preset_none">ምንም</string>
+    <string name="dolby_ieq_preset_detailed">ዝርዝር</string>
+    <string name="dolby_ieq_preset_balanced">ሚዛናዊ</string>
+    <string name="dolby_ieq_preset_warm">ሞቅ ያለ</string>
+    <string name="dolby_geq_title">ኢኳላይዘር</string>
+    <string name="dolby_geq_summary">10 የድግግሞሽ ባንዶችን አስተካክል</string>
+    <string name="dolby_geq_reset_title">ወደ ጠፍጣፋ አስተካክል</string>
+    <string name="dolby_geq_band_hz">%1$d ኸርዝ</string>
+    <string name="dolby_geq_band_khz">%1$.1f ኪሎኸርዝ</string>
+    <string name="category_dolby_movie_title">የፊልም ሁነታ</string>
+    <string name="dolby_dialogue_level_title">የንግግር አጉሊ</string>
+    <string name="dolby_dialogue_level_summary">ንግግርን የበለጠ ግልጽ ያደርጋል። 0 ካደረጉት ይጠፋል።</string>
+    <string name="category_dolby_apps_title">መተግበሪያዎች</string>
+    <string name="dolby_app_profiles_enabled_title">ሁነታን በመተግበሪያ ቀይር</string>
+    <string name="dolby_app_profiles_enabled_summary">መተግበሪያ ድምጽ ሲያጫውት ለእሱ የተዘጋጀውን ሁነታ ተጠቀም</string>
+    <string name="dolby_app_profiles_title">የመተግበሪያ ሁነታዎች</string>
+    <string name="dolby_app_profiles_summary">ለእያንዳንዱ መተግበሪያ ሁነታ ምረጥ። የሚታወቁ የሙዚቃ እና የቪዲዮ መተግበሪያዎች ሙዚቃ እና ፊልምን በነባሪ ይጠቀማሉ።</string>
+    <string name="dolby_app_profile_default">ነባሪ ሁነታ</string>
+
+    <string name="perf_title">የአፈጻጸም መገለጫዎች</string>
+    <string name="perf_summary">የMediaTek Dimensity አፈጻጸምን እና የሙቀት ፖሊሲዎችን አስተካክል</string>
+    <string name="perf_enabled_title">አፈጻጸምን በመተግበሪያ አስተካክል</string>
+    <string name="perf_enabled_summary">የፊት ለፊት መተግበሪያን ለMediaTek የኃይል አገልግሎት አሳውቅ እና መገለጫውን ተግብር። የአምራች ወይም የሚመከር መገለጫ ያላቸው መተግበሪያዎች በነባሪ ይጠቀሙባቸዋል።</string>
+    <string name="category_perf_known_apps">መገለጫ ያላቸው መተግበሪያዎች</string>
+    <string name="category_perf_other_apps">ሌሎች መተግበሪያዎች</string>
+    <string name="perf_mode_title">መገለጫ</string>
+    <string name="perf_mode_vendor">የአምራች ቅንብርን ተከተል</string>
+    <string name="perf_mode_default">ነባሪ</string>
+    <string name="perf_mode_custom">ብጁ</string>
+    <string name="perf_mode_off">ጠፍቷል</string>
+    <string name="perf_mode_vendor_summary">የአምራች ቅንብርን ተከተል፦ %1$s</string>
+    <string name="perf_mode_recommended">የሚመከር</string>
+    <string name="perf_mode_recommended_summary">የሚመከር፦ %1$s</string>
+    <string name="perf_mode_custom_summary">ብጁ፦ %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s፣ የላቀ</string>
+    <string name="perf_preset_title">ቅድመ ቅንብር</string>
+    <string name="perf_preset_none">ምንም</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">የቅድመ ቅንብር ቅንብሮች</string>
+    <string name="perf_preset_thermal">የሙቀት ፖሊሲ %1$d</string>
+    <string name="perf_preset_cpu_max">ከፍተኛ CPU %1$s</string>
+    <string name="perf_preset_cpu_min">ዝቅተኛ CPU %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO የፍሬም ማስተካከያ</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d ቅንብር</item>
+        <item quantity="other">%1$d ቅንብሮች</item>
+    </plurals>
+    <string name="perf_category_video">ቪዲዮ</string>
+    <string name="perf_category_camera">ካሜራ</string>
+    <string name="perf_category_communication">ግንኙነት</string>
+    <string name="perf_category_music">ሙዚቃ</string>
+    <string name="perf_category_app_clone">የመተግበሪያ ቅጂ</string>
+    <string name="perf_category_benchmark">የአፈጻጸም ሙከራ</string>
+    <string name="perf_category_game">ጨዋታ</string>
+    <string name="perf_advanced_title">የላቁ መለኪያዎች</string>
+    <string name="perf_advanced_summary">ከቅድመ ቅንብሩ በመነሳት የCPU ድግግሞሽ ገደቦችን አስተካክል እና የማደስ ፍጥነቱን ቆልፍ</string>
+    <string name="category_perf_cpu">የCPU ድግግሞሽ</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">ትንንሽ ኮሮች</string>
+    <string name="perf_cluster_medium">መካከለኛ ኮሮች</string>
+    <string name="perf_cluster_big">ትልቅ ኮሮች</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s፦ ዝቅተኛ ድግግሞሽ</string>
+    <string name="perf_cpu_max_title">%1$s፦ ከፍተኛ ድግግሞሽ</string>
+    <string name="perf_freq_ghz">%1$.2f ጊኸ</string>
+    <string name="perf_freq_mhz">%1$d ሜኸ</string>
+    <string name="perf_refresh_rate_title">የማደስ ፍጥነትን ቆልፍ</string>
+    <string name="perf_refresh_rate_none">አልተቆለፈም</string>
+    <string name="perf_refresh_rate_hz">%1$d ኸርዝ</string>
+    <string name="perf_advanced_reset_title">ወደ ቅድመ ቅንብር አስመልስ</string>
+
+    <string name="tile_reading_low_refresh">ንባብ 30 ኸርዝ</string>
+    <string name="tile_touch_game_mode">የንክኪ ጨዋታ ሁነታ</string>
+    <string name="tile_smart_cover">ስማርት መያዣ</string>
+</resources>

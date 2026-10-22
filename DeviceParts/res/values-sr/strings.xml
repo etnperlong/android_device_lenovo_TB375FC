@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Функције уређаја</string>
+
+    <string name="device_parts_title">Функције уређаја</string>
+    <string name="device_parts_summary">Перформансе, оловка, екран осетљив на додир, Dolby Atmos и футрола</string>
+    <string name="display_parts_title">Оловка и екран осетљив на додир</string>
+    <string name="display_parts_summary">Брзина освежавања за оловку и режим читања, режим за игре екрана осетљивог на додир</string>
+
+    <string name="category_display_title">Брзина освежавања</string>
+    <string name="category_touch_title">Екран осетљив на додир</string>
+    <string name="category_cover_title">Футрола на преклоп</string>
+    <string name="category_audio_title">Звук</string>
+    <string name="category_perf_title">Перформансе</string>
+
+    <string name="pen_refresh_cap_title">Ограничи на 120 Гц при коришћењу оловке</string>
+    <string name="pen_refresh_cap_summary">Активна оловка, према наводима, ради само до 120 Гц. Ограничење се уклања 10 секунди после последњег уноса оловком.</string>
+    <string name="reading_low_refresh_title">30 Гц у режиму читања</string>
+    <string name="reading_low_refresh_summary">Смањи брзину освежавања док је режим читања укључен</string>
+    <string name="reading_low_refresh_unavailable">Режим читања није доступан</string>
+    <string name="touch_game_mode_title">Режим за игре екрана осетљивог на додир</string>
+    <string name="touch_game_mode_summary">Режим за игре контролера екрана осетљивог на додир. Поново се искључује после поновног покретања.</string>
+    <string name="touch_game_mode_unavailable">Није доступно</string>
+    <string name="smart_cover_title">Паметна футрола</string>
+    <string name="smart_cover_summary">Искључи екран и закључај уређај када се затвори футрола на преклоп</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Режим звука, еквилајзер, побољшање дијалога и режими за апликације</string>
+    <string name="dolby_enable_title">Користи Dolby Atmos</string>
+    <string name="dolby_profile_title">Подразумевани режим</string>
+    <string name="dolby_profile_dynamic">Динамички</string>
+    <string name="dolby_profile_movie">Филм</string>
+    <string name="dolby_profile_music">Музика</string>
+    <string name="category_dolby_music_title">Режим „Музика“</string>
+    <string name="dolby_ieq_preset_title">Звучни ефекат</string>
+    <string name="dolby_ieq_preset_none">Ништа</string>
+    <string name="dolby_ieq_preset_detailed">Детаљан</string>
+    <string name="dolby_ieq_preset_balanced">Уравнотежен</string>
+    <string name="dolby_ieq_preset_warm">Топао</string>
+    <string name="dolby_geq_title">Еквилајзер</string>
+    <string name="dolby_geq_summary">Подеси 10 фреквенцијских опсега</string>
+    <string name="dolby_geq_reset_title">Врати равну криву</string>
+    <string name="dolby_geq_band_hz">%1$d Гц</string>
+    <string name="dolby_geq_band_khz">%1$.1f кГц</string>
+    <string name="category_dolby_movie_title">Режим „Филм“</string>
+    <string name="dolby_dialogue_level_title">Побољшање дијалога</string>
+    <string name="dolby_dialogue_level_summary">Чини говор јаснијим. Вредност 0 искључује ову функцију.</string>
+    <string name="category_dolby_apps_title">Апликације</string>
+    <string name="dolby_app_profiles_enabled_title">Промени режим за сваку апликацију</string>
+    <string name="dolby_app_profiles_enabled_summary">Користи додељени режим док апликација репродукује звук</string>
+    <string name="dolby_app_profiles_title">Режими апликација</string>
+    <string name="dolby_app_profiles_summary">Изабери режим за сваку апликацију. Познате музичке и видео апликације почињу са режимима „Музика“ и „Филм“.</string>
+    <string name="dolby_app_profile_default">Подразумевани режим</string>
+
+    <string name="perf_title">Профили перформанси</string>
+    <string name="perf_summary">Подеси перформансе MediaTek Dimensity чипа и термалне смернице</string>
+    <string name="perf_enabled_title">Подешавај перформансе за сваку апликацију</string>
+    <string name="perf_enabled_summary">Обавести MediaTek услугу напајања која је апликација у првом плану и примени њен профил. Апликације са профилом произвођача или препорученим профилом користе га подразумевано.</string>
+    <string name="category_perf_known_apps">Апликације са профилима</string>
+    <string name="category_perf_other_apps">Друге апликације</string>
+    <string name="perf_mode_title">Профил</string>
+    <string name="perf_mode_vendor">Профил произвођача</string>
+    <string name="perf_mode_default">Подразумевано</string>
+    <string name="perf_mode_custom">Прилагођено</string>
+    <string name="perf_mode_off">Искључено</string>
+    <string name="perf_mode_vendor_summary">Профил произвођача: %1$s</string>
+    <string name="perf_mode_recommended">Препоручено</string>
+    <string name="perf_mode_recommended_summary">Препоручено: %1$s</string>
+    <string name="perf_mode_custom_summary">Прилагођено: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, напредно</string>
+    <string name="perf_preset_title">Унапред подешено</string>
+    <string name="perf_preset_none">Ништа</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Подешавања унапред задатог профила</string>
+    <string name="perf_preset_thermal">Термална смерница %1$d</string>
+    <string name="perf_preset_cpu_max">Највећа фреквенција CPU-а %1$s</string>
+    <string name="perf_preset_cpu_min">Најмања фреквенција CPU-а %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO управљање кадровима</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d ставка</item>
+        <item quantity="few">%1$d ставке</item>
+        <item quantity="other">%1$d ставки</item>
+    </plurals>
+    <string name="perf_category_video">Видео</string>
+    <string name="perf_category_camera">Камера</string>
+    <string name="perf_category_communication">Комуникација</string>
+    <string name="perf_category_music">Музика</string>
+    <string name="perf_category_app_clone">Клониране апликације</string>
+    <string name="perf_category_benchmark">Тест перформанси</string>
+    <string name="perf_category_game">Игра</string>
+    <string name="perf_advanced_title">Напредни параметри</string>
+    <string name="perf_advanced_summary">Подеси ограничења CPU фреквенције и закључај брзину освежавања, почевши од унапред задатог профила</string>
+    <string name="category_perf_cpu">CPU фреквенција</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">Мала језгра</string>
+    <string name="perf_cluster_medium">Средња језгра</string>
+    <string name="perf_cluster_big">Велика језгра</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: најмања фреквенција</string>
+    <string name="perf_cpu_max_title">%1$s: највећа фреквенција</string>
+    <string name="perf_freq_ghz">%1$.2f ГГц</string>
+    <string name="perf_freq_mhz">%1$d МГц</string>
+    <string name="perf_refresh_rate_title">Закључавање брзине освежавања</string>
+    <string name="perf_refresh_rate_none">Није закључано</string>
+    <string name="perf_refresh_rate_hz">%1$d Гц</string>
+    <string name="perf_advanced_reset_title">Врати унапред задати профил</string>
+
+    <string name="tile_reading_low_refresh">Читање 30 Гц</string>
+    <string name="tile_touch_game_mode">Режим игара на додир</string>
+    <string name="tile_smart_cover">Паметна футрола</string>
+</resources>

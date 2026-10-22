@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Vipengele vya kifaa</string>
+
+    <string name="device_parts_title">Vipengele vya kifaa</string>
+    <string name="device_parts_summary">Utendaji, kalamu ya kielektroniki, mguso, Dolby Atmos na jalada</string>
+    <string name="display_parts_title">Kalamu ya kielektroniki na mguso</string>
+    <string name="display_parts_summary">Kiwango cha kuonyesha upya cha kalamu, kiwango cha kuonyesha upya cha hali ya kusoma, hali ya mchezo ya mguso</string>
+
+    <string name="category_display_title">Kiwango cha kuonyesha upya</string>
+    <string name="category_touch_title">Mguso</string>
+    <string name="category_cover_title">Jalada</string>
+    <string name="category_audio_title">Sauti</string>
+    <string name="category_perf_title">Utendaji</string>
+
+    <string name="pen_refresh_cap_title">Weka kikomo cha Hz 120 unapotumia kalamu</string>
+    <string name="pen_refresh_cap_summary">Kalamu inayotumika inaripotiwa kufanya kazi hadi Hz 120 pekee. Kikomo huondolewa sekunde 10 baada ya kitendo cha mwisho cha kalamu.</string>
+    <string name="reading_low_refresh_title">Hz 30 katika hali ya kusoma</string>
+    <string name="reading_low_refresh_summary">Punguza kiwango cha kuonyesha upya hali ya kusoma ikiwa imewashwa</string>
+    <string name="reading_low_refresh_unavailable">Hali ya kusoma haipatikani</string>
+    <string name="touch_game_mode_title">Hali ya mchezo ya mguso</string>
+    <string name="touch_game_mode_summary">Hali ya mchezo ya kidhibiti cha mguso. Huzima tena baada ya kuwasha upya.</string>
+    <string name="touch_game_mode_unavailable">Haipatikani</string>
+    <string name="smart_cover_title">Jalada mahiri</string>
+    <string name="smart_cover_summary">Zima skrini na uifunge jalada linapofungwa</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Hali ya sauti, kusawazisha sauti, kuboresha mazungumzo na hali za programu</string>
+    <string name="dolby_enable_title">Tumia Dolby Atmos</string>
+    <string name="dolby_profile_title">Hali chaguomsingi</string>
+    <string name="dolby_profile_dynamic">Inayobadilika</string>
+    <string name="dolby_profile_movie">Filamu</string>
+    <string name="dolby_profile_music">Muziki</string>
+    <string name="category_dolby_music_title">Hali ya muziki</string>
+    <string name="dolby_ieq_preset_title">Athari ya sauti</string>
+    <string name="dolby_ieq_preset_none">Hakuna</string>
+    <string name="dolby_ieq_preset_detailed">Yenye maelezo zaidi</string>
+    <string name="dolby_ieq_preset_balanced">Sawazishwa</string>
+    <string name="dolby_ieq_preset_warm">Joto</string>
+    <string name="dolby_geq_title">Kisawazishi</string>
+    <string name="dolby_geq_summary">Rekebisha bendi 10 za masafa</string>
+    <string name="dolby_geq_reset_title">Rejesha usawazishaji tambarare</string>
+    <string name="dolby_geq_band_hz">Hz %1$d</string>
+    <string name="dolby_geq_band_khz">kHz %1$.1f</string>
+    <string name="category_dolby_movie_title">Hali ya filamu</string>
+    <string name="dolby_dialogue_level_title">Kiboresha mazungumzo</string>
+    <string name="dolby_dialogue_level_summary">Hufanya usemi ueleweke zaidi. 0 huizima.</string>
+    <string name="category_dolby_apps_title">Programu</string>
+    <string name="dolby_app_profiles_enabled_title">Badilisha hali kulingana na programu</string>
+    <string name="dolby_app_profiles_enabled_summary">Programu inapocheza sauti, tumia hali iliyowekwa kwa ajili yake</string>
+    <string name="dolby_app_profiles_title">Hali za programu</string>
+    <string name="dolby_app_profiles_summary">Chagua hali ya kila programu. Programu zinazojulikana za muziki na video huanza na hali za Muziki na Filamu.</string>
+    <string name="dolby_app_profile_default">Hali chaguomsingi</string>
+
+    <string name="perf_title">Wasifu wa utendaji</string>
+    <string name="perf_summary">Rekebisha utendaji na sera za halijoto za MediaTek Dimensity</string>
+    <string name="perf_enabled_title">Rekebisha utendaji kulingana na programu</string>
+    <string name="perf_enabled_summary">Fahamisha huduma ya nishati ya MediaTek programu iliyo mbele na utumie wasifu wake. Programu zilizo na wasifu wa mtengenezaji au unaopendekezwa huutumia kama chaguomsingi.</string>
+    <string name="category_perf_known_apps">Programu zilizo na wasifu</string>
+    <string name="category_perf_other_apps">Programu nyingine</string>
+    <string name="perf_mode_title">Wasifu</string>
+    <string name="perf_mode_vendor">Fuata mtengenezaji</string>
+    <string name="perf_mode_default">Chaguomsingi</string>
+    <string name="perf_mode_custom">Ma maalum</string>
+    <string name="perf_mode_off">Zima</string>
+    <string name="perf_mode_vendor_summary">Fuata mtengenezaji: %1$s</string>
+    <string name="perf_mode_recommended">Unaopendekezwa</string>
+    <string name="perf_mode_recommended_summary">Unaopendekezwa: %1$s</string>
+    <string name="perf_mode_custom_summary">Maalum: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, kina zaidi</string>
+    <string name="perf_preset_title">Mipangilio ya awali</string>
+    <string name="perf_preset_none">Hakuna</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Mipangilio ya mipangilio ya awali</string>
+    <string name="perf_preset_thermal">Sera ya halijoto %1$d</string>
+    <string name="perf_preset_cpu_max">Upeo wa CPU %1$s</string>
+    <string name="perf_preset_cpu_min">Kiwango cha chini cha CPU %1$s</string>
+    <string name="perf_preset_fpsgo">Udhibiti wa kasi ya fremu wa FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">mpangilio %1$d</item>
+        <item quantity="other">mipangilio %1$d</item>
+    </plurals>
+    <string name="perf_category_video">Video</string>
+    <string name="perf_category_camera">Kamera</string>
+    <string name="perf_category_communication">Mawasiliano</string>
+    <string name="perf_category_music">Muziki</string>
+    <string name="perf_category_app_clone">Nakala ya programu</string>
+    <string name="perf_category_benchmark">Jaribio la utendaji</string>
+    <string name="perf_category_game">Mchezo</string>
+    <string name="perf_advanced_title">Vigezo vya kina</string>
+    <string name="perf_advanced_summary">Weka vikomo vya masafa ya CPU na ufunge kiwango cha kuonyesha upya kuanzia kwenye mipangilio ya awali</string>
+    <string name="category_perf_cpu">Masafa ya CPU</string>
+    <string name="perf_cluster_all">CPU</string>
+    <string name="perf_cluster_little">Viini vidogo</string>
+    <string name="perf_cluster_medium">Viini vya wastani</string>
+    <string name="perf_cluster_big">Viini vikubwa</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: masafa ya chini zaidi</string>
+    <string name="perf_cpu_max_title">%1$s: masafa ya juu zaidi</string>
+    <string name="perf_freq_ghz">GHz %1$.2f</string>
+    <string name="perf_freq_mhz">MHz %1$d</string>
+    <string name="perf_refresh_rate_title">Funga kiwango cha kuonyesha upya</string>
+    <string name="perf_refresh_rate_none">Haijafungwa</string>
+    <string name="perf_refresh_rate_hz">Hz %1$d</string>
+    <string name="perf_advanced_reset_title">Rejesha mipangilio ya awali</string>
+
+    <string name="tile_reading_low_refresh">Soma Hz 30</string>
+    <string name="tile_touch_game_mode">Hali ya mchezo ya mguso</string>
+    <string name="tile_smart_cover">Jalada mahiri</string>
+</resources>

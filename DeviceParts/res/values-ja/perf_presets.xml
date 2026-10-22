@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string-array name="perf_preset_reference_names">
+        <item>com.tencent.tmgp.sgame|Honor of Kings</item>
+        <item>com.kurogame.mingchao|鳴潮</item>
+        <item>com.tencent.tmgp.bh3|崩壊3rd</item>
+        <item>com.miHoYo.Yuanshen|原神（中国）</item>
+        <item>com.miHoYo.GenshinImpact|原神</item>
+        <item>com.tencent.tmgp.pubgmhd|Game for Peace</item>
+        <item>com.tencent.tmgp.dfm|Delta Force</item>
+        <item>com.vng.pubgmobile|PUBG Mobile（ベトナム）</item>
+        <item>com.pwrd.hotta.laohu|Tower of Fantasy</item>
+        <item>com.tencent.tmgp.cod|Call of Duty: Mobile（中国）</item>
+        <item>com.tencent.tmgp.speedmobile|QQ Speed</item>
+        <item>com.miHoYo.hkrpg|崩壊：スターレイル</item>
+        <item>com.tencent.jkchess|Golden Spatula</item>
+        <item>com.hottagames.hotta.lenovo|Tower of Fantasy（レノボ版）</item>
+        <item>com.tencent.lolm|League of Legends: Wild Rift（中国）</item>
+        <item>com.netease.nshm|Justice Mobile</item>
+        <item>com.miHoYo.Nap|ゼンレスゾーンゼロ</item>
+        <item>com.papegames.infinitynikki|インフィニティニキ</item>
+        <item>com.tencent.tmgp.cf|CrossFire Mobile</item>
+    </string-array>
+</resources>

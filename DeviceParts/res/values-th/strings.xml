@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">ฟีเจอร์อุปกรณ์</string>
+
+    <string name="device_parts_title">ฟีเจอร์อุปกรณ์</string>
+    <string name="device_parts_summary">ประสิทธิภาพ ปากกาสไตลัส หน้าจอสัมผัส Dolby Atmos และเคสฝาพับ</string>
+    <string name="display_parts_title">ปากกาสไตลัสและหน้าจอสัมผัส</string>
+    <string name="display_parts_summary">อัตราการรีเฟรชขณะใช้ปากกา อัตราการรีเฟรชในโหมดการอ่าน และโหมดเกมหน้าจอสัมผัส</string>
+
+    <string name="category_display_title">อัตราการรีเฟรช</string>
+    <string name="category_touch_title">หน้าจอสัมผัส</string>
+    <string name="category_cover_title">เคสฝาพับ</string>
+    <string name="category_audio_title">เสียง</string>
+    <string name="category_perf_title">ประสิทธิภาพ</string>
+
+    <string name="pen_refresh_cap_title">จำกัดไว้ที่ 120 Hz ขณะใช้ปากกา</string>
+    <string name="pen_refresh_cap_summary">มีรายงานว่าปากกาสไตลัสแบบแอ็กทีฟทำงานได้สูงสุดที่ 120 Hz เท่านั้น โดยจะยกเลิกการจำกัด 10 วินาทีหลังจากใช้ปากกาครั้งล่าสุด</string>
+    <string name="reading_low_refresh_title">30 Hz ในโหมดการอ่าน</string>
+    <string name="reading_low_refresh_summary">ลดอัตราการรีเฟรชขณะเปิดโหมดการอ่าน</string>
+    <string name="reading_low_refresh_unavailable">โหมดการอ่านไม่พร้อมใช้งาน</string>
+    <string name="touch_game_mode_title">โหมดเกมหน้าจอสัมผัส</string>
+    <string name="touch_game_mode_summary">โหมดเกมของตัวควบคุมหน้าจอสัมผัส โดยจะปิดอีกครั้งหลังจากรีสตาร์ท</string>
+    <string name="touch_game_mode_unavailable">ไม่พร้อมใช้งาน</string>
+    <string name="smart_cover_title">เคสอัจฉริยะ</string>
+    <string name="smart_cover_summary">ปิดหน้าจอและล็อกอุปกรณ์เมื่อปิดเคสฝาพับ</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">โหมดเสียง อีควอไลเซอร์ ตัวเพิ่มความชัดเจนของเสียงพูด และโหมดแอป</string>
+    <string name="dolby_enable_title">ใช้ Dolby Atmos</string>
+    <string name="dolby_profile_title">โหมดเริ่มต้น</string>
+    <string name="dolby_profile_dynamic">ไดนามิก</string>
+    <string name="dolby_profile_movie">ภาพยนตร์</string>
+    <string name="dolby_profile_music">เพลง</string>
+    <string name="category_dolby_music_title">โหมดเพลง</string>
+    <string name="dolby_ieq_preset_title">เอฟเฟกต์เสียง</string>
+    <string name="dolby_ieq_preset_none">ไม่มี</string>
+    <string name="dolby_ieq_preset_detailed">รายละเอียด</string>
+    <string name="dolby_ieq_preset_balanced">สมดุล</string>
+    <string name="dolby_ieq_preset_warm">โทนอุ่น</string>
+    <string name="dolby_geq_title">อีควอไลเซอร์</string>
+    <string name="dolby_geq_summary">ปรับย่านความถี่ 10 ย่าน</string>
+    <string name="dolby_geq_reset_title">รีเซ็ตเป็นเส้นเสียงแบนราบ</string>
+    <string name="category_dolby_movie_title">โหมดภาพยนตร์</string>
+    <string name="dolby_dialogue_level_title">ตัวเพิ่มความชัดเจนของเสียงพูด</string>
+    <string name="dolby_dialogue_level_summary">ช่วยให้เสียงพูดชัดเจนขึ้น ตั้งค่าเป็น 0 เพื่อปิด</string>
+    <string name="category_dolby_apps_title">แอป</string>
+    <string name="dolby_app_profiles_enabled_title">สลับโหมดตามแอป</string>
+    <string name="dolby_app_profiles_enabled_summary">ใช้โหมดที่ตั้งค่าไว้สำหรับแอปขณะเล่นเสียง</string>
+    <string name="dolby_app_profiles_title">โหมดแอป</string>
+    <string name="dolby_app_profiles_summary">เลือกโหมดสำหรับแต่ละแอป แอปเพลงและวิดีโอที่รู้จักจะเริ่มต้นด้วยโหมดเพลงและภาพยนตร์</string>
+    <string name="dolby_app_profile_default">โหมดเริ่มต้น</string>
+
+    <string name="perf_title">โปรไฟล์ประสิทธิภาพ</string>
+    <string name="perf_summary">ปรับประสิทธิภาพและนโยบายความร้อนของ MediaTek Dimensity</string>
+    <string name="perf_enabled_title">ปรับประสิทธิภาพตามแอป</string>
+    <string name="perf_enabled_summary">แจ้งบริการพลังงานของ MediaTek ว่าแอปใดอยู่เบื้องหน้าและใช้โปรไฟล์ของแอปนั้น แอปที่มีโปรไฟล์จากผู้ผลิตหรือโปรไฟล์แนะนำจะใช้โปรไฟล์เหล่านั้นเป็นค่าเริ่มต้น</string>
+    <string name="category_perf_known_apps">แอปที่มีโปรไฟล์</string>
+    <string name="category_perf_other_apps">แอปอื่นๆ</string>
+    <string name="perf_mode_title">โปรไฟล์</string>
+    <string name="perf_mode_vendor">ใช้ตามผู้ผลิต</string>
+    <string name="perf_mode_default">ค่าเริ่มต้น</string>
+    <string name="perf_mode_custom">กำหนดเอง</string>
+    <string name="perf_mode_off">ปิด</string>
+    <string name="perf_mode_vendor_summary">ใช้ตามผู้ผลิต: %1$s</string>
+    <string name="perf_mode_recommended">แนะนำ</string>
+    <string name="perf_mode_recommended_summary">แนะนำ: %1$s</string>
+    <string name="perf_mode_custom_summary">กำหนดเอง: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, ขั้นสูง</string>
+    <string name="perf_preset_title">ค่าที่ตั้งไว้</string>
+    <string name="perf_preset_none">ไม่มี</string>
+    <string name="perf_preset_details_title">การตั้งค่าล่วงหน้า</string>
+    <string name="perf_preset_thermal">นโยบายความร้อน %1$d</string>
+    <string name="perf_preset_cpu_max">CPU สูงสุด %1$s</string>
+    <string name="perf_preset_cpu_min">CPU ต่ำสุด %1$s</string>
+    <string name="perf_preset_fpsgo">การจัดจังหวะเฟรม FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="other">การตั้งค่า %1$d รายการ</item>
+    </plurals>
+    <string name="perf_category_video">วิดีโอ</string>
+    <string name="perf_category_camera">กล้อง</string>
+    <string name="perf_category_communication">การสื่อสาร</string>
+    <string name="perf_category_music">เพลง</string>
+    <string name="perf_category_app_clone">แอปโคลน</string>
+    <string name="perf_category_benchmark">เบนช์มาร์ก</string>
+    <string name="perf_category_game">เกม</string>
+    <string name="perf_advanced_title">พารามิเตอร์ขั้นสูง</string>
+    <string name="perf_advanced_summary">ตั้งค่าขีดจำกัดความถี่ CPU และล็อกอัตราการรีเฟรชโดยเริ่มจากค่าที่ตั้งไว้</string>
+    <string name="category_perf_cpu">ความถี่ CPU</string>
+    <string name="perf_cluster_little">คอร์เล็ก</string>
+    <string name="perf_cluster_medium">คอร์กลาง</string>
+    <string name="perf_cluster_big">คอร์ใหญ่</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: ความถี่ต่ำสุด</string>
+    <string name="perf_cpu_max_title">%1$s: ความถี่สูงสุด</string>
+    <string name="perf_refresh_rate_title">ล็อกอัตราการรีเฟรช</string>
+    <string name="perf_refresh_rate_none">ไม่ล็อก</string>
+    <string name="perf_advanced_reset_title">รีเซ็ตเป็นค่าที่ตั้งไว้</string>
+
+    <string name="tile_reading_low_refresh">อ่าน 30 Hz</string>
+    <string name="tile_touch_game_mode">โหมดเกมสัมผัส</string>
+    <string name="tile_smart_cover">เคสอัจฉริยะ</string>
+</resources>

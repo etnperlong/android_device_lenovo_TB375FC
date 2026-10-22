@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Enhedsfunktioner</string>
+
+    <string name="device_parts_title">Enhedsfunktioner</string>
+    <string name="device_parts_summary">Ydeevne, pen, berøring, Dolby Atmos og folioetui</string>
+    <string name="display_parts_title">Pen og berøring</string>
+    <string name="display_parts_summary">Pennens opdateringshastighed, opdateringshastighed i læsetilstand, berøringsspiltilstand</string>
+
+    <string name="category_display_title">Opdateringshastighed</string>
+    <string name="category_touch_title">Berøring</string>
+    <string name="category_cover_title">Folioetui</string>
+    <string name="category_audio_title">Lyd</string>
+    <string name="category_perf_title">Ydeevne</string>
+
+    <string name="pen_refresh_cap_title">Begræns til 120 Hz ved brug af pennen</string>
+    <string name="pen_refresh_cap_summary">Den aktive pen understøtter efter sigende kun op til 120 Hz. Grænsen ophæves 10 sekunder efter det sidste input med pennen.</string>
+    <string name="reading_low_refresh_title">30 Hz i læsetilstand</string>
+    <string name="reading_low_refresh_summary">Sænk opdateringshastigheden, når læsetilstand er slået til</string>
+    <string name="reading_low_refresh_unavailable">Læsetilstand er ikke tilgængelig</string>
+    <string name="touch_game_mode_title">Berøringsspiltilstand</string>
+    <string name="touch_game_mode_summary">Spiltilstand for berøringscontrolleren. Slås fra igen efter en genstart.</string>
+    <string name="touch_game_mode_unavailable">Ikke tilgængelig</string>
+    <string name="smart_cover_title">Smart cover</string>
+    <string name="smart_cover_summary">Sluk skærmen og lås, når folioetuiet lukkes</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Lydtilstand, equalizer, dialogforbedring og apptilstande</string>
+    <string name="dolby_enable_title">Brug Dolby Atmos</string>
+    <string name="dolby_profile_title">Standardtilstand</string>
+    <string name="dolby_profile_dynamic">Dynamisk</string>
+    <string name="dolby_profile_movie">Film</string>
+    <string name="dolby_profile_music">Musik</string>
+    <string name="category_dolby_music_title">Musiktilstand</string>
+    <string name="dolby_ieq_preset_title">Lydeffekt</string>
+    <string name="dolby_ieq_preset_none">Ingen</string>
+    <string name="dolby_ieq_preset_detailed">Detaljeret</string>
+    <string name="dolby_ieq_preset_balanced">Balanceret</string>
+    <string name="dolby_ieq_preset_warm">Varm</string>
+    <string name="dolby_geq_title">Equalizer</string>
+    <string name="dolby_geq_summary">Juster 10 frekvensbånd</string>
+    <string name="dolby_geq_reset_title">Nulstil til flad frekvenskurve</string>
+    <string name="category_dolby_movie_title">Filmtilstand</string>
+    <string name="dolby_dialogue_level_title">Dialogforbedring</string>
+    <string name="dolby_dialogue_level_summary">Gør tale tydeligere. 0 slår funktionen fra.</string>
+    <string name="category_dolby_apps_title">Apps</string>
+    <string name="dolby_app_profiles_enabled_title">Skift tilstand efter app</string>
+    <string name="dolby_app_profiles_enabled_summary">Brug den valgte tilstand, mens en app afspiller lyd</string>
+    <string name="dolby_app_profiles_title">Apptilstande</string>
+    <string name="dolby_app_profiles_summary">Vælg tilstand for hver app. Kendte musik- og videoapps starter med Musik og Film.</string>
+    <string name="dolby_app_profile_default">Standardtilstand</string>
+
+    <string name="perf_title">Ydelsesprofiler</string>
+    <string name="perf_summary">Juster MediaTek Dimensity-ydeevne og termiske politikker</string>
+    <string name="perf_enabled_title">Juster ydeevne efter app</string>
+    <string name="perf_enabled_summary">Fortæl MediaTek-strømtjenesten, hvilken app der er i forgrunden, og anvend dens profil. Apps med producent- eller anbefalede profiler bruger dem som standard.</string>
+    <string name="category_perf_known_apps">Apps med profiler</string>
+    <string name="category_perf_other_apps">Andre apps</string>
+    <string name="perf_mode_title">Profil</string>
+    <string name="perf_mode_vendor">Følg producenten</string>
+    <string name="perf_mode_default">Standard</string>
+    <string name="perf_mode_custom">Brugerdefineret</string>
+    <string name="perf_mode_off">Fra</string>
+    <string name="perf_mode_vendor_summary">Følg producenten: %1$s</string>
+    <string name="perf_mode_recommended">Anbefalet</string>
+    <string name="perf_mode_recommended_summary">Anbefalet: %1$s</string>
+    <string name="perf_mode_custom_summary">Brugerdefineret: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, avanceret</string>
+    <string name="perf_preset_title">Forudindstilling</string>
+    <string name="perf_preset_none">Ingen</string>
+    <string name="perf_preset_details_title">Indstillinger for forudindstilling</string>
+    <string name="perf_preset_thermal">Termisk politik %1$d</string>
+    <string name="perf_preset_cpu_max">Maks. CPU %1$s</string>
+    <string name="perf_preset_cpu_min">Min. CPU %1$s</string>
+    <string name="perf_preset_fpsgo">FPSGO-billedfrekvensstyring</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d indstilling</item>
+        <item quantity="other">%1$d indstillinger</item>
+    </plurals>
+    <string name="perf_category_video">Video</string>
+    <string name="perf_category_camera">Kamera</string>
+    <string name="perf_category_communication">Kommunikation</string>
+    <string name="perf_category_music">Musik</string>
+    <string name="perf_category_app_clone">Klonede apps</string>
+    <string name="perf_category_benchmark">Ydelsestest</string>
+    <string name="perf_category_game">Spil</string>
+    <string name="perf_advanced_title">Avancerede parametre</string>
+    <string name="perf_advanced_summary">Indstil CPU-frekvensgrænserne, og lås opdateringshastigheden med udgangspunkt i forudindstillingen</string>
+    <string name="category_perf_cpu">CPU-frekvens</string>
+    <string name="perf_cluster_little">Små kerner</string>
+    <string name="perf_cluster_medium">Mellemstore kerner</string>
+    <string name="perf_cluster_big">Store kerner</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">%1$s: minimumsfrekvens</string>
+    <string name="perf_cpu_max_title">%1$s: maksimumsfrekvens</string>
+    <string name="perf_refresh_rate_title">Lås opdateringshastighed</string>
+    <string name="perf_refresh_rate_none">Ikke låst</string>
+    <string name="perf_advanced_reset_title">Nulstil til forudindstilling</string>
+
+    <string name="tile_reading_low_refresh">Læsning 30 Hz</string>
+    <string name="tile_touch_game_mode">Berøringsspil</string>
+    <string name="tile_smart_cover">Smart cover</string>
+</resources>

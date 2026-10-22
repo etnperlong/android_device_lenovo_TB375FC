@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Funciones del preséu</string>
+
+    <string name="device_parts_title">Funciones del preséu</string>
+    <string name="device_parts_summary">Rendimientu, llápiz, pantalla táctil, Dolby Atmos y funda tipo folio</string>
+    <string name="display_parts_title">Llápiz y pantalla táctil</string>
+    <string name="display_parts_summary">Frecuencia d’anovamientu del llápiz y del mou de llectura, mou de xuegu táctil</string>
+
+    <string name="category_display_title">Frecuencia d’anovamientu</string>
+    <string name="category_touch_title">Pantalla táctil</string>
+    <string name="category_cover_title">Funda tipo folio</string>
+    <string name="category_audio_title">Audiu</string>
+    <string name="category_perf_title">Rendimientu</string>
+
+    <string name="pen_refresh_cap_title">Llimitar a 120 Hz al usar el llápiz</string>
+    <string name="pen_refresh_cap_summary">El llápiz activu namái funciona hasta 120 Hz. El llímite quítase 10 segundos dempués del últimu usu del llápiz.</string>
+    <string name="reading_low_refresh_title">30 Hz en mou de llectura</string>
+    <string name="reading_low_refresh_summary">Amenorgar la frecuencia d’anovamientu mientres ta activáu’l mou de llectura</string>
+    <string name="reading_low_refresh_unavailable">El mou de llectura nun ta disponible</string>
+    <string name="touch_game_mode_title">Mou de xuegu táctil</string>
+    <string name="touch_game_mode_summary">Mou de xuegu del controlador táctil. Desactívase otra vegada al reaniciar.</string>
+    <string name="touch_game_mode_unavailable">Nun ta disponible</string>
+    <string name="smart_cover_title">Funda intelixente</string>
+    <string name="smart_cover_summary">Suspender y bloquiar al zarrar la funda tipo folio</string>
+
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Mou de soníu, ecualizador, ameyorador de diálogos y modes per aplicación</string>
+    <string name="dolby_enable_title">Usar Dolby Atmos</string>
+    <string name="dolby_profile_title">Mou predetermináu</string>
+    <string name="dolby_profile_dynamic">Dinámicu</string>
+    <string name="dolby_profile_movie">Película</string>
+    <string name="dolby_profile_music">Música</string>
+    <string name="category_dolby_music_title">Mou Música</string>
+    <string name="dolby_ieq_preset_title">Efectu de soníu</string>
+    <string name="dolby_ieq_preset_none">Dengún</string>
+    <string name="dolby_ieq_preset_detailed">Detalláu</string>
+    <string name="dolby_ieq_preset_balanced">Equilibráu</string>
+    <string name="dolby_ieq_preset_warm">Cálidu</string>
+    <string name="dolby_geq_title">Ecualizador</string>
+    <string name="dolby_geq_summary">Axustar 10 bandes de frecuencia</string>
+    <string name="dolby_geq_reset_title">Restablecer a planu</string>
+    <string name="category_dolby_movie_title">Mou Película</string>
+    <string name="dolby_dialogue_level_title">Ameyorador de diálogos</string>
+    <string name="dolby_dialogue_level_summary">Fai que la fala sía más clara. 0 desactívalo.</string>
+    <string name="category_dolby_apps_title">Aplicaciones</string>
+    <string name="dolby_app_profiles_enabled_title">Camudar el mou según l’aplicación</string>
+    <string name="dolby_app_profiles_enabled_summary">Usar el mou configuráu pa cada aplicación mientres reproduz audiu</string>
+    <string name="dolby_app_profiles_title">Modes per aplicación</string>
+    <string name="dolby_app_profiles_summary">Escueye’l mou pa cada aplicación. Les aplicaciones conocíes de música y videu entamen con Música y Película.</string>
+    <string name="dolby_app_profile_default">Mou predetermináu</string>
+
+    <string name="perf_title">Perfiles de rendimientu</string>
+    <string name="perf_summary">Axustar el rendimientu y les polítiques térmiques de MediaTek Dimensity</string>
+    <string name="perf_enabled_title">Axustar el rendimientu per aplicación</string>
+    <string name="perf_enabled_summary">Indicar al serviciu d’enerxía de MediaTek qué aplicación ta en primer planu y aplicar el so perfil. Les aplicaciones con perfiles del fabricante o encamentaos úsenlos de forma predeterminada.</string>
+    <string name="category_perf_known_apps">Aplicaciones con perfiles</string>
+    <string name="category_perf_other_apps">Otres aplicaciones</string>
+    <string name="perf_mode_title">Perfil</string>
+    <string name="perf_mode_vendor">Siguir al fabricante</string>
+    <string name="perf_mode_default">Predetermináu</string>
+    <string name="perf_mode_custom">Personalizáu</string>
+    <string name="perf_mode_off">Desactiváu</string>
+    <string name="perf_mode_vendor_summary">Siguir al fabricante: %1$s</string>
+    <string name="perf_mode_recommended">Encamentáu</string>
+    <string name="perf_mode_recommended_summary">Encamentáu: %1$s</string>
+    <string name="perf_mode_custom_summary">Personalizáu: %1$s</string>
+    <string name="perf_mode_custom_advanced">%1$s, avanzáu</string>
+    <string name="perf_preset_title">Axuste predefiníu</string>
+    <string name="perf_preset_none">Dengún</string>
+    <string name="perf_preset_label">%1$s · %2$s</string>
+    <string name="perf_preset_details_title">Axustes de la predefinición</string>
+    <string name="perf_preset_thermal">Política térmica %1$d</string>
+    <string name="perf_preset_cpu_max">CPU máx. %1$s</string>
+    <string name="perf_preset_cpu_min">CPU mín. %1$s</string>
+    <string name="perf_preset_fpsgo">Ritmu de fotogrames FPSGO</string>
+    <plurals name="perf_preset_count">
+        <item quantity="one">%1$d axuste</item>
+        <item quantity="other">%1$d axustes</item>
+    </plurals>
+    <string name="perf_category_video">Videu</string>
+    <string name="perf_category_camera">Cámara</string>
+    <string name="perf_category_communication">Comunicación</string>
+    <string name="perf_category_music">Música</string>
+    <string name="perf_category_app_clone">Aplicación clonada</string>
+    <string name="perf_category_benchmark">Prueba de rendimientu</string>
+    <string name="perf_category_game">Xuegu</string>
+    <string name="perf_advanced_title">Parámetros avanzaos</string>
+    <string name="perf_advanced_summary">Afitar los llímites de frecuencia de la CPU y bloquiar la frecuencia d’anovamientu dende l’axuste predefiníu</string>
+    <string name="category_perf_cpu">Frecuencia de la CPU</string>
+    <string name="perf_cluster_little">Núcleos de baxu consumu</string>
+    <string name="perf_cluster_medium">Núcleos medios</string>
+    <string name="perf_cluster_big">Núcleos d’altu rendimientu</string>
+    <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_title">Frecuencia mínima de %1$s</string>
+    <string name="perf_cpu_max_title">Frecuencia máxima de %1$s</string>
+    <string name="perf_refresh_rate_title">Bloquéu de la frecuencia d’anovamientu</string>
+    <string name="perf_refresh_rate_none">Ensin bloquéu</string>
+    <string name="perf_advanced_reset_title">Restablecer a la predefinición</string>
+
+    <string name="tile_reading_low_refresh">Llectura 30 Hz</string>
+    <string name="tile_touch_game_mode">Mou de xuegu táctil</string>
+    <string name="tile_smart_cover">Funda intelixente</string>
+</resources>
