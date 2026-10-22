@@ -1,0 +1,39 @@
+# Stock dynamicdata.rc without its vendor.storage.dynamicdata.type=userdata
+# triggers. Those reran mount_all on fstab.mt6897 after init.${ro.hardware}.rc
+# had already mounted the identical fstab.mt8792 in the same fs / late-fs
+# stage. AOSP fs_mgr does not skip mounted entries, so the second pass ran
+# e2fsck on the mounted protect1/2, nvdata, nvcfg and persist ("is in use",
+# exit 8), failed to mount them again and retried fsck. Its e2fsck/tune2fs on
+# userdata also do not apply: /data is f2fs.
+service vendor.dynamicdata /vendor/bin/dynamicdata
+	priority -20
+	user root
+	group root system
+	oneshot
+	disabled
+
+on early-init
+	wait /dev/block/by-name/userdata
+	write /proc/bootprof "INIT:on early-init vendor.dynamicdata start"
+	exec_start vendor.dynamicdata
+	write /proc/bootprof "INIT:on early-init vendor.dynamicdata end"
+
+on early-init && property:ro.vendor.storage.dynamicdata=enable
+	mkdir /mnt/lenovobackup
+	restorecon_recursive /mnt/lenovobackup
+	chown system system /mnt/lenovobackup
+	chmod 0771 /mnt/lenovobackup
+
+on fs && property:vendor.storage.dynamicdata.type=dmuserdata
+	exec /system/bin/e2fsck -v -f -y /dev/block/dm-userdata
+	exec /system/bin/tune2fs -O has_journal -u 10010 -r 4096 /dev/block/dm-userdata
+	mount_all /vendor/etc/fstab.mt6897dm --early
+
+on late-fs && property:vendor.storage.dynamicdata.type=dmuserdata
+	mount_all /vendor/etc/fstab.mt6897dm --late
+
+on post-fs-data && property:vendor.storage.dynamicdata.type=dmuserdata
+	mkdir /mnt/lenovobackup
+	restorecon_recursive /mnt/lenovobackup
+	chown system system /mnt/lenovobackup
+	chmod 0771 /mnt/lenovobackup

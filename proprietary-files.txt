@@ -65,6 +65,9 @@
 #   the service; stock also sets ro.boot.wificountrycode from
 #   vendor.temp.countrycode, which no shipped component sets, and restarts the
 #   already running keyboard service at boot_completed.
+# - dynamicdata.rc: stock reruns mount_all on fstab.mt6897 when
+#   vendor.storage.dynamicdata.type=userdata, after init.mt8792.rc already
+#   mounted the identical fstab.mt8792; fs_mgr then fscks mounted partitions.
 
 odm/etc/vintf/manifest.xml;MAKE_COPY_RULE_ONLY
 odm/etc/vintf/manifest_dsds.xml;MAKE_COPY_RULE_ONLY
@@ -543,7 +546,6 @@ vendor/etc/init/camerahalserver.rc
 vendor/etc/init/dcxo_nvram_init.rc
 vendor/etc/init/dmc_core.rc
 vendor/etc/init/dvs-hidl-service.rc
-vendor/etc/init/dynamicdata.rc
 vendor/etc/init/eara-io-service.rc
 vendor/etc/init/factorybsp_service.rc
 vendor/etc/init/factorybsp_service_mtk.rc
