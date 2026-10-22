@@ -1,6 +1,6 @@
 # Lenovo Xiaoxin Pad Pro 12.7 (2025) - TB375FC
 
-LineageOS 24.0 (Android 17) device tree for the Lenovo Xiaoxin Pad Pro 12.7 (2025), `TB375FC`, the PRC Wi-Fi variant. ODM is Wingtech; the internal project codename is `peridot`.
+Evolution X 12.x (`cnb`, Android 17, based on LineageOS 24.0) device tree for the Lenovo Xiaoxin Pad Pro 12.7 (2025), `TB375FC`, the PRC Wi-Fi variant. ODM is Wingtech; the internal project codename is `peridot`. The `lineage-24.0` branch carries the plain LineageOS build; `cnb` is that branch plus the Evolution X product changes.
 
 ## Specifications
 
@@ -20,7 +20,7 @@ LineageOS 24.0 (Android 17) device tree for the Lenovo Xiaoxin Pad Pro 12.7 (202
 ## Build
 
 ```
-repo init -u https://github.com/LineageOS/android.git -b lineage-24.0 --git-lfs
+repo init -u https://github.com/Evolution-X/manifest -b cnb --git-lfs
 ```
 
 Add the manifest below as `.repo/local_manifests/TB375FC.xml`, then:
@@ -29,7 +29,7 @@ Add the manifest below as `.repo/local_manifests/TB375FC.xml`, then:
 repo sync
 source build/envsetup.sh
 lunch lineage_TB375FC-cp2a-user
-mka bacon
+m evolution
 ```
 
 Kernel, DTB and modules ship prebuilt in the device tree (`prebuilts/`), so no kernel source is needed to build. The separate `android_device_lenovo_TB375FC-kernel` checkout contains reference prebuilts; the build does not consume it.
@@ -39,13 +39,19 @@ Kernel, DTB and modules ship prebuilt in the device tree (`prebuilts/`), so no k
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="etnperlong/android_device_lenovo_TB375FC" path="device/lenovo/TB375FC" remote="github" revision="lineage-24.0" />
-  <project name="etnperlong/android_vendor_lenovo_TB375FC" path="vendor/lenovo/TB375FC" remote="github" revision="lineage-24.0" />
-  <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="lineage-24.0" />
+  <project name="etnperlong/android_device_lenovo_TB375FC" path="device/lenovo/TB375FC" remote="github" revision="cnb" />
+  <project name="etnperlong/android_vendor_lenovo_TB375FC" path="vendor/lenovo/TB375FC" remote="github" revision="cnb" />
+  <project name="hardware_mediatek" path="hardware/mediatek" remote="evo-devices" />
 </manifest>
 ```
 
-`hardware/mediatek` is the upstream LineageOS common tree (the device inherits it). The device and vendor `lineage-24.0` branches must be used together.
+`hardware/mediatek` is the Evolution X MediaTek common tree (`Evolution-X-Devices/hardware_mediatek`, `cnb`), a fork of the LineageOS one; the device inherits it. The fork adds back the power, legacy USB and Wi-Fi HAL sources and lacks some newer LineageOS interface imports. The device ships the stock blobs for these components; the stock `android.hardware.power-service-mediatek` is a preferred prebuilt, so it hides the fork's source module of the same name. The device and vendor `cnb` branches must be used together.
+
+### Evolution X
+
+- GMS is built in: `common_full_tablet_wifionly.mk` sets `WITH_GMS ?= true` and inherits `vendor/gms/gms_full_tablet_wifionly.mk`. Build with `WITH_GMS=false` for the Vanilla variant; see `GAPPS.md`.
+- `TARGET_SUPPORTS_QUICK_TAP := false`: Quick Tap needs the back-tap sensors of supported Pixels.
+- Everything else keeps the Evolution X defaults, including the extra boot animations, Face Unlock, background blur and the build fingerprint override (`TARGET_ENABLE_FP_OVERRIDE`).
 
 ## Notes
 

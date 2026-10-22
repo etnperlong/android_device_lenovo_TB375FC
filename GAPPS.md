@@ -1,48 +1,42 @@
 # Google Apps on TB375FC
 
-This LineageOS build ships without Google Mobile Services (GMS). The MindTheGapps
-project, NikGapps, and similar gapps projects provide GMS as a separate flashable
-package after install.
+The Evolution X build includes Google Mobile Services (GMS). Evolution X's
+`vendor/lineage/config/common_full_tablet_wifionly.mk` sets `WITH_GMS ?= true`
+and inherits `vendor/gms/gms_full_tablet_wifionly.mk`, so Play Services, the
+Play Store, the Pixel launcher and Pixel setup wizard ship in the image. Do not
+flash a separate gapps package on top of it.
 
-## Install gapps (recommended: MindTheGapps)
+## Vanilla build
 
-1. Boot LineageOS, complete the setup wizard.
+Building with `WITH_GMS=false` leaves GMS out and produces the Vanilla package
+(`EvolutionX-...-<version>-Vanilla-...zip`) with the AOSP and LineageOS apps
+instead. To add gapps to a Vanilla install:
+
+1. Boot Evolution X, complete the setup wizard.
 2. Reboot to recovery (`adb reboot recovery` or hold power+volume up).
-3. Sideload MindTheGapps for Android 16 (Core or Full variant):
+3. Sideload a gapps package built for Android 17 (arm64), for example
+   MindTheGapps:
    ```
-   adb sideload MindTheGapps-16.0.0-arm64-YYYYMMDD.zip
+   adb sideload MindTheGapps-17.0.0-arm64-YYYYMMDD.zip
    ```
 4. Reboot, sign in to your Google account.
 
-NikGapps Core, OpenGApps Pico, and similar work the same way. Pick whichever
-matches your preferred GApps weight.
+## Play Integrity
 
-## Play Integrity for apps that require it
+Evolution X overrides the system build fingerprint on devices other than the
+supported Pixels (`TARGET_ENABLE_FP_OVERRIDE`, default `true`; see
+`vendor/lineage/config/evolution.mk`) for RCS and Wallet. The vendor
+fingerprint stays Lenovo's. Play Integrity results on this tablet have not been
+checked.
 
-Some apps (banking, GPay, Netflix HDR, certain games) call the Play Integrity
-API and refuse to run if it doesn't return `MEETS_DEVICE_INTEGRITY`. On an
-unlocked-bootloader LineageOS install Play Integrity reports `MEETS_BASIC_INTEGRITY`
-only, because hardware-backed key attestation includes the verified-boot state
-(orange/unlocked on LineageOS) which the TEE reports faithfully regardless of
-build.prop spoofing.
-
-The standard workaround is Magisk + the Play Integrity Fix Zygisk module:
+With the bootloader unlocked, hardware-backed key attestation still reports the
+verified-boot state, which build.prop spoofing cannot change. If an app needs
+`MEETS_DEVICE_INTEGRITY` and the built-in spoofing does not pass, the usual
+workaround is Magisk with the Play Integrity Fix Zygisk module:
 
 1. Pull `init_boot.img` from the ROM zip (or `fastboot getvar partition-size:init_boot`
    reads the partition).
 2. Patch it with the Magisk app (Install -> Select and Patch a File).
 3. Flash the patched image: `fastboot flash init_boot magisk_patched.img`
-4. Reboot, open Magisk, install the **PlayIntegrityFix** module
-   (chiteroman on GitHub, maintained).
-5. Reboot. Apps that gate on Play Integrity now work.
-
-## Why this is the LineageOS norm
-
-GMS requires a paid OEM license from Google to distribute, and that license
-doesn't transfer to community ROMs. LineageOS upstream and every device tree
-that follows their conventions ship gapps-free for this reason. Users install
-gapps from a separate project (MindTheGapps, NikGapps, etc.) that handles its
-own legal posture.
-
-The Magisk + PIF flow is the standard answer for Play Integrity on any
-LineageOS device; it's been the community norm since SafetyNet tightened in 2020.
+4. Reboot, open Magisk, install the **PlayIntegrityFix** module.
+5. Reboot.

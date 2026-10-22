@@ -37,8 +37,15 @@ $(call inherit-product, device/lenovo/TB375FC/device.mk)
 $(call inherit-product-if-exists, vendor/lenovo/TB375FC/TB375FC-vendor.mk)
 $(call inherit-product-if-exists, vendor/lenovo/TB375FC/TB375FC-overlays.mk)
 
-# Tablet wifi-only base
+# Tablet wifi-only base. On Evolution X this also inherits
+# vendor/gms/gms_full_tablet_wifionly.mk unless WITH_GMS=false.
 $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
+
+# Evolution X feature flags. Inherited makefiles are read after this file,
+# so these assignments win over their ?= defaults.
+# Quick Tap (ColumbusService + quick_tap) needs the back-tap sensor stack of
+# supported Pixels; this tablet has none.
+TARGET_SUPPORTS_QUICK_TAP := false
 
 PRODUCT_DEVICE := TB375FC
 PRODUCT_NAME := lineage_TB375FC
