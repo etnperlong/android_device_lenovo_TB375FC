@@ -220,6 +220,19 @@ PRODUCT_SYSTEM_PROPERTIES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     debug.hwui.use_hint_manager=true
 
+# MediaTek power scenarios: stock powerscntbl.xml plus scenarios for two AOSP hints
+# the power HAL passes to libpowerhal by name but Lenovo's table lacks, so they
+# did nothing (see README, MediaTek power management):
+#  - INTERACTION (Boost.INTERACTION, hint 57, 80 ms or the fling duration):
+#    1.1 GHz floors and top-app uclamp.min 40, like stock's UX_SCROLLING, and a
+#    touch-boost notice to FPSGO, after the INTERACTION scenario of other
+#    MediaTek vendor tables;
+#  - GAME_LOADING (Mode.GAME_LOADING, hint 79, held 5 s by the HAL): the boost
+#    of stock's PROCESS_CREATE.
+# proprietary-files.txt only extracts the stock copy (EXTRACT_ONLY).
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/power/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml
+
 # Lenovo Tab Pen Plus identity props. The Lenovo touchscreen-service AIDL HAL
 # reads these to recognise pen capabilities and wire up the pen event device.
 # VID 0x17EF = Lenovo, PID 0x617F = Tab Pen Plus (BT companion).

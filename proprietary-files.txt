@@ -52,6 +52,10 @@
 # LineageOS ships com.android.networkstack and com.android.tethering, and
 # gapps packages such as MindTheGapps do not replace them, so the targets
 # never exist.
+#
+# vendor/etc/powerscntbl.xml is EXTRACT_ONLY: device.mk installs
+# configs/power/powerscntbl.xml, the stock table plus the INTERACTION and
+# GAME_LOADING scenarios. Diff the two after an update.
 
 # ClearKey is provided by the AOSP Android 17 service APEX; do not extract
 # stock service, init, VINTF, or plugin files that would override it.
@@ -740,7 +744,7 @@ vendor/etc/permissions/handheld_core_hardware.prebuilt.xml
 vendor/etc/permissions/handheld_core_hardware.xml
 vendor/etc/power_app_cfg.xml
 vendor/etc/powercontable.xml
-vendor/etc/powerscntbl.xml
+vendor/etc/powerscntbl.xml;EXTRACT_ONLY
 vendor/etc/pq_flag.xml
 vendor/etc/r_submix_audio_policy_configuration.xml
 vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy
