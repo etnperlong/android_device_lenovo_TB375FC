@@ -36,10 +36,10 @@
         values (cmd overlay lookup) and DisplayDeviceConfig maps slider
         brightness 0.0 to backlight 0.004713, never lower.
 
-        The minimum matters: MediaTek's FrameworkResOverlay (vendor, priority
-        1) sets config_screenBrightnessSettingMinimumFloat to 0.0, which lets
-        the slider drive the backlight down to 0.0, below anything stock uses.
-        This overlay's manifest priority keeps it above that overlay.
+        The minimum matters: MediaTek's FrameworkResOverlay sets
+        config_screenBrightnessSettingMinimumFloat to 0.0, which would let the
+        slider drive the backlight down to 0.0, below anything stock uses. That
+        overlay is not shipped; see the stock MediaTek values below.
 
         Panel is a 400-nit LCD.
         - autoBrightnessLevels: ambient lux thresholds (11 values)
@@ -123,4 +123,21 @@
     <bool name="config_isDesktopModeSupported">true</bool>
     <bool name="config_canInternalDisplayHostDesktops">true</bool>
     <bool name="config_isDesktopModeDevOptionSupported">true</bool>
+
+    <!--
+        Stock MediaTek framework values (vendor FrameworkResOverlay and
+        FrameworkResOverlayExt). Those prebuilt overlays never got an idmap on
+        this build (STATE_NO_IDMAP; they are signed with Lenovo's platform key
+        and name no overlayable target), so they are not shipped; the values
+        that still apply on Android 17 live here.
+
+        - config_powerDecoupleAutoSuspendModeFromDisplay: let the power manager
+          enable autosuspend whenever no suspend blocker is needed instead of
+          only after the display is off, as stock does.
+        - config_enableWifiDisplay: Miracast source. The radio supports P2P and
+          STA + P2P concurrency, and the vendor audio policy loads the r_submix
+          module that Wi-Fi display streams from.
+    -->
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
+    <bool name="config_enableWifiDisplay">true</bool>
 </resources>

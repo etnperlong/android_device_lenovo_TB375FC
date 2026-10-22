@@ -5,10 +5,10 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.lineageos.overlay.device.frameworkres">
-    <!-- Priority 3 sorts above stock's MediaTek vendor overlays (FrameworkResOverlay 1,
-         FrameworkResOverlayExt 2). They share only the brightness range, the light sensor type
-         and config_showNavigationBar with this overlay, and on stock all of those come from
-         Lenovo's /product overlays (not shipped here) rather than MediaTek's values. -->
+    <!-- Priority 3 has no competitor left: stock's MediaTek framework overlays are not shipped
+         (their remaining values live in this overlay), and on stock the brightness range, the
+         light sensor type and config_showNavigationBar came from Lenovo's /product overlays
+         (not shipped here) rather than MediaTek's values. -->
     <overlay
         android:targetPackage="android"
         android:isStatic="true"
