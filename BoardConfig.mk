@@ -134,11 +134,16 @@ BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilts/dtbo_TB375FC.img
 # at every space. The TB373FU variant overrides this with its own ROW vendor.prop.
 TARGET_VENDOR_PROP := $(DEVICE_PATH)/vendor.prop
 
-# Vendor security patch level. The vendor partition is the stock TB375FC PRC A16
-# extraction, whose vendor SPL is 2024-10-05. Without this
-# ro.vendor.build.security_patch is empty and Settings reports the vendor patch
-# level as "Unknown".
-VENDOR_SECURITY_PATCH := 2024-10-05
+# Vendor security patch level. Without this ro.vendor.build.security_patch is
+# empty and Settings reports the vendor patch level as "Unknown". The vendor
+# partition is the stock TB375FC PRC ZUXOS 1.5.10.103 extraction (built
+# 2026-05-25). Its build.prop still claims 2024-10-05 (vendor build id
+# AP3A.240905.015), but the vendor partition was updated with the Android 15 ->
+# 16 upgrade. Report the system patch level of that release, 2026-05-05,
+# instead.
+# KeyMint reads this value as the vendor patch level and upgrades keys when it
+# rises, so it must never go back down on an installed device.
+VENDOR_SECURITY_PATCH := 2026-05-05
 
 # A/B partition
 AB_OTA_UPDATER          := true
