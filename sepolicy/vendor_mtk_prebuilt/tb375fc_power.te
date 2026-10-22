@@ -1,0 +1,22 @@
+# DeviceParts (system_app) as a client of the MediaTek power HALs, for the per-app performance
+# profiles (perf/PerformanceService).
+#
+# Stock ZUI sends the foreground app to IMtkpower_applist from system_server (MTK AmsExtImpl ->
+# libpowerhalwrap), so stock puts only system_server in hal_mtk_applist_client
+# (system_ext_sepolicy.cil). LineageOS has no such framework hook; DeviceParts sends the same
+# notifyAppState() instead, so it takes system_server's place in that attribute.
+#
+# Stock's system_ext policy already lists system_app (with platform_app and system_server) in
+# hal_mtk_power_client; the vendor-CIL de-hack dropped those platform members. DeviceParts needs it
+# for IMtkPowerService perfLockAcquire/perfLockRelease/setSysInfo. The matching
+# "allow mtk_hal_power system_app:dir { getattr search }" kept in mtk_proprietary.te is what lets
+# libpowerhal's lock permission check stat /proc/<pid> of the caller for locks without a timeout.
+#
+# Both attributes already carry the find + binder { call transfer } + fd use ruleset in
+# mtk_proprietary.te, so joining them is the full grant, as on stock.
+#
+# Placement: like tb375fc_dolby.te, this file must sort after mtk_proprietary.te, which declares
+# the attributes.
+
+typeattribute system_app hal_mtk_applist_client;
+typeattribute system_app hal_mtk_power_client;
