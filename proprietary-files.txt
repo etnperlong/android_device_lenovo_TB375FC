@@ -46,6 +46,12 @@
 # registers only when the DT mobicore node has trustonic,real-drv (this DTB
 # has none; Microtrust is the TEE). It retried the netlink lookup about once a
 # second forever. Microtrust reaches RPMB on its own (vendor.soter.teei.*).
+#
+# Do not list the NetworkStack and Tethering overlays for Google's module
+# packages (NetworkStackGoogle{,Go}ResOverlay, TetheringGoogleResOverlay).
+# LineageOS ships com.android.networkstack and com.android.tethering, and
+# gapps packages such as MindTheGapps do not replace them, so the targets
+# never exist.
 
 # ClearKey is provided by the AOSP Android 17 service APEX; do not extract
 # stock service, init, VINTF, or plugin files that would override it.
@@ -123,10 +129,7 @@ system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.2.so;MAKE_COPY_RULE_ONLY
 system_ext/lib64/vendor.mediatek.hardware.mtkpower_applist-V3-ndk.so
 system_ext/priv-app/daxService/daxService.apk
 vendor/apex/com.google.android.widevine.nonupdatable.apex
-vendor/app/NetworkStackGoogleGoResOverlay/NetworkStackGoogleGoResOverlay.apk
-vendor/app/NetworkStackGoogleResOverlay/NetworkStackGoogleResOverlay.apk
 vendor/app/NetworkStackResOverlay/NetworkStackResOverlay.apk
-vendor/app/TetheringGoogleResOverlay/TetheringGoogleResOverlay.apk
 vendor/app/TetheringResOverlay/TetheringResOverlay.apk
 vendor/bin/AgentTest
 vendor/bin/atcid
