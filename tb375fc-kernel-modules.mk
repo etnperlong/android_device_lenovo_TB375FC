@@ -847,8 +847,11 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD := \
     extend_reclaim.ko \
     pmic_tia.ko
 
-# system_dlkm modules (alphabetical)
-BOARD_SYSTEM_DLKM_KERNEL_MODULES := \
+# system_dlkm modules (alphabetical). build/make reads BOARD_SYSTEM_KERNEL_*
+# for the SYSTEM image and installs it to system_dlkm when
+# BOARD_USES_SYSTEM_DLKMIMAGE is set; vendor depmod also resolves vendor
+# modules' dependencies on these (zram_ext -> zsmalloc, mac80211 -> libarc4).
+BOARD_SYSTEM_KERNEL_MODULES := \
     $(DEVICE_PATH)/prebuilts/modules/system_dlkm/6lowpan.ko \
     $(DEVICE_PATH)/prebuilts/modules/system_dlkm/8021q.ko \
     $(DEVICE_PATH)/prebuilts/modules/system_dlkm/aqc111.ko \
@@ -910,8 +913,9 @@ BOARD_SYSTEM_DLKM_KERNEL_MODULES := \
     $(DEVICE_PATH)/prebuilts/modules/system_dlkm/zram.ko \
     $(DEVICE_PATH)/prebuilts/modules/system_dlkm/zsmalloc.ko
 
-# system_dlkm load order (from stock modules.load)
-BOARD_SYSTEM_DLKM_KERNEL_MODULES_LOAD := \
+# system_dlkm load order (from stock modules.load). init.insmod.sh modprobes
+# this list from /system_dlkm before the vendor_dlkm list.
+BOARD_SYSTEM_KERNEL_MODULES_LOAD := \
     gzvm.ko \
     kheaders.ko \
     zsmalloc.ko \
