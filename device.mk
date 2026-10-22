@@ -27,6 +27,13 @@ PRODUCT_SOONG_NAMESPACES += hardware/mediatek
 PRODUCT_PACKAGES += \
     chipinfo
 
+# mssi.mk picks its Wi-Fi overlays by TARGET_BOARD_PLATFORM while the product
+# config is read, before BoardConfig.mk. Unset there, every platform filter
+# matched and the Wi-Fi 7 / MLO overlay (MssiWifiConnac3ChipsetOverlay) was
+# installed, although mt6897 is listed as non-connac3 and the Wi-Fi phy has
+# no EHT capability.
+TARGET_BOARD_PLATFORM := mt6897
+
 $(call inherit-product, hardware/mediatek/overlay/mssi.mk)
 $(call inherit-product, hardware/mediatek/frameworks/mediatek-frameworks.mk)
 $(call inherit-product, hardware/lineage/compat/frameworks/compat.mk)
