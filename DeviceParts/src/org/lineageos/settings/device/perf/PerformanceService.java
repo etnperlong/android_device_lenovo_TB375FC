@@ -7,6 +7,7 @@ package org.lineageos.settings.device.perf;
 
 import android.app.ActivityManager;
 import android.app.ActivityTaskManager;
+import android.app.IProcessObserver;
 import android.app.KeyguardManager;
 import android.app.Service;
 import android.app.TaskStackListener;
@@ -22,13 +23,16 @@ import android.os.HandlerThread;
 import android.os.IBinder;
 import android.os.PowerManager;
 import android.os.Process;
+import android.os.SystemClock;
 import android.os.RemoteException;
 import android.provider.Settings;
 import android.util.Log;
 
 import org.lineageos.settings.device.display.AppRefreshRateLimit;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Objects;
 
 /**
@@ -52,6 +56,16 @@ import java.util.Objects;
  * The app counts as in front only while the screen is on and unlocked, like the paused
  * activity on stock. Locks are owned by this process; going by its log strings, libpowerhal's
  * five-minute perfUserScnCheckAll disables the locks of owners that no longer exist.
+ *
+ * After a cold start (the app's process started just before it came to the front), the
+ * MTKPOWER_HINT_EXT_LAUNCH scenario is held for {@link #LAUNCH_TAIL_MS}, a lighter boost while
+ * the app loads its content. AOSP's Mode.LAUNCH boost ends when the launch is done. Stock's
+ * framework sends its launch hints through IMtkPowerService.mtkPowerHint, and when such a hint
+ * is released the HAL keeps it for the scenario's PERF_RES_POWER_HINT_HOLD_TIME and starts its
+ * PERF_RES_POWER_HINT_EXT_HINT for EXT_HINT_HOLD_TIME ("[mtkPowerHint] hint:22, hold:500,
+ * ext:30, ext_hold:1500"); PROCESS_CREATE has 6 s and EXT_LAUNCH for 30 s. Mode.LAUNCH goes
+ * through IPower instead, which locks and releases the LAUNCH scenario directly, so those fields
+ * would have no effect there; the tail is sent from here.
  */
 public class PerformanceService extends Service {
     private static final String TAG = "Performance";
@@ -61,6 +75,10 @@ public class PerformanceService extends Service {
     /** The focused activity's process may still be starting; look for it again. */
     private static final long PID_RETRY_DELAY_MS = 200;
     private static final int PID_RETRIES = 10;
+    /** A process this young when its app comes to the front counts as a cold start. */
+    private static final long COLD_START_WINDOW_MS = 10_000;
+    /** Length of the EXT_LAUNCH boost after a cold start; stock uses 30 s. */
+    private static final long LAUNCH_TAIL_MS = 15_000;
 
     /** The app in front. */
     private static final class Foreground {
@@ -92,6 +110,12 @@ public class PerformanceService extends Service {
     private ContentObserver mSettingsObserver;
     private BroadcastReceiver mScreenReceiver;
     private TaskStackListener mTaskStackListener;
+    private IProcessObserver mProcessObserver;
+
+    /** Processes started recently: pid -> uptime of the start. */
+    private final Map<Integer, Long> mStartedProcesses = new HashMap<>();
+    /** Uptime until which the EXT_LAUNCH boost runs, 0 if it does not. */
+    private long mLaunchTailEnd;
 
     private boolean mEnabled;
     private int mPidRetries;
@@ -180,6 +204,34 @@ public class PerformanceService extends Service {
             Log.e(TAG, "Cannot follow the task stack", e);
         }
 
+        // Called on binder threads.
+        mProcessObserver = new IProcessObserver.Stub() {
+            @Override
+            public void onProcessStarted(int pid, int processUid, int packageUid,
+                    String packageName, String processName) {
+                final long now = SystemClock.uptimeMillis();
+                mHandler.post(() -> recordProcessStart(pid, now));
+            }
+
+            @Override
+            public void onForegroundActivitiesChanged(int pid, int uid, boolean foreground) {
+            }
+
+            @Override
+            public void onForegroundServicesChanged(int pid, int uid, int serviceTypes) {
+            }
+
+            @Override
+            public void onProcessDied(int pid, int uid) {
+                mHandler.post(() -> mStartedProcesses.remove(pid));
+            }
+        };
+        try {
+            ActivityManager.getService().registerProcessObserver(mProcessObserver);
+        } catch (RemoteException e) {
+            Log.e(TAG, "Cannot follow process starts", e);
+        }
+
         update();
     }
 
@@ -192,6 +244,14 @@ public class PerformanceService extends Service {
             }
             mTaskStackListener = null;
         }
+        if (mProcessObserver != null) {
+            try {
+                ActivityManager.getService().unregisterProcessObserver(mProcessObserver);
+            } catch (RemoteException e) {
+                // system_server is gone, and this process with it.
+            }
+            mProcessObserver = null;
+        }
         if (mScreenReceiver != null) {
             unregisterReceiver(mScreenReceiver);
             mScreenReceiver = null;
@@ -202,6 +262,7 @@ public class PerformanceService extends Service {
         }
         mHandler.removeCallbacksAndMessages(null);
         deactivate();
+        endLaunchTail();
     }
 
     private void scheduleUpdate() {
@@ -220,9 +281,39 @@ public class PerformanceService extends Service {
             return;
         }
         deactivate();
-        if (app != null) {
-            activate(app, profile);
+        if (app == null) {
+            endLaunchTail();
+            return;
         }
+        activate(app, profile);
+        if (profile.mode != PerfProfile.MODE_OFF) {
+            startLaunchTailAfterColdStart(app);
+        }
+    }
+
+    private void recordProcessStart(int pid, long uptime) {
+        mStartedProcesses.values().removeIf(start -> uptime - start > COLD_START_WINDOW_MS);
+        mStartedProcesses.put(pid, uptime);
+    }
+
+    /** Holds EXT_LAUNCH for LAUNCH_TAIL_MS if the app's process has only just started. */
+    private void startLaunchTailAfterColdStart(Foreground app) {
+        final Long start = mStartedProcesses.remove(app.pid);
+        final long now = SystemClock.uptimeMillis();
+        if (start == null || now - start > COLD_START_WINDOW_MS) {
+            return;
+        }
+        mHal.mtkCusPowerHint(MtkPower.HINT_EXT_LAUNCH, (int) LAUNCH_TAIL_MS);
+        mLaunchTailEnd = now + LAUNCH_TAIL_MS;
+        Log.i(TAG, app.pkg + ": cold start, launch tail " + LAUNCH_TAIL_MS + " ms");
+    }
+
+    /** Ends the EXT_LAUNCH boost early, e.g. when the screen turns off. */
+    private void endLaunchTail() {
+        if (mLaunchTailEnd > SystemClock.uptimeMillis()) {
+            mHal.mtkCusPowerHint(MtkPower.HINT_EXT_LAUNCH, 0);
+        }
+        mLaunchTailEnd = 0;
     }
 
     /**
@@ -334,6 +425,7 @@ public class PerformanceService extends Service {
         Log.w(TAG, "MediaTek power service died");
         deactivate();
         mHal.reset();
+        mLaunchTailEnd = 0;
         scheduleUpdate();
     }
 }

@@ -22,6 +22,7 @@ import android.util.Log;
  * IMtkPowerService
  *   2 int perfLockAcquire(int hdl, int duration, int[] boostList, int pid, int reserved)
  *   3 oneway perfLockRelease(int hdl, int reserved)
+ *   5 oneway mtkCusPowerHint(int hint, int data)
  *  10 int setSysInfo(int cmd, String data)
  *
  * Not thread safe; PerformanceService calls it from its handler thread only.
@@ -37,7 +38,14 @@ final class MtkPower {
     private static final int TRANSACTION_NOTIFY_APP_STATE = IBinder.FIRST_CALL_TRANSACTION;
     private static final int TRANSACTION_PERF_LOCK_ACQUIRE = IBinder.FIRST_CALL_TRANSACTION + 1;
     private static final int TRANSACTION_PERF_LOCK_RELEASE = IBinder.FIRST_CALL_TRANSACTION + 2;
+    private static final int TRANSACTION_MTK_CUS_POWER_HINT = IBinder.FIRST_CALL_TRANSACTION + 4;
     private static final int TRANSACTION_SET_SYS_INFO = IBinder.FIRST_CALL_TRANSACTION + 9;
+
+    /**
+     * powerscntbl.xml scenario MTKPOWER_HINT_EXT_LAUNCH: top-app uclamp.min 40, DRAM OPP 2,
+     * FPSGO BHR OPP 31. Stock's framework sends it around launches.
+     */
+    static final int HINT_EXT_LAUNCH = 30;
 
     /** notifyAppState state values (lib_power_applist logs them as RESUMED / PAUSED). */
     static final int STATE_PAUSED = 0;
@@ -132,6 +140,28 @@ final class MtkPower {
             binder.transact(TRANSACTION_PERF_LOCK_RELEASE, data, null, IBinder.FLAG_ONEWAY);
         } catch (RemoteException e) {
             Log.e(TAG, "perfLockRelease failed", e);
+        } finally {
+            data.recycle();
+        }
+    }
+
+    /**
+     * Applies a powerscntbl.xml scenario for durationMs; the HAL owns the lock, keeps one per
+     * hint (a new call replaces it) and releases it on timeout or when called with 0.
+     */
+    void mtkCusPowerHint(int hint, int durationMs) {
+        final IBinder binder = getPower();
+        if (binder == null) {
+            return;
+        }
+        final Parcel data = Parcel.obtain();
+        try {
+            data.writeInterfaceToken(POWER_DESCRIPTOR);
+            data.writeInt(hint);
+            data.writeInt(durationMs);
+            binder.transact(TRANSACTION_MTK_CUS_POWER_HINT, data, null, IBinder.FLAG_ONEWAY);
+        } catch (RemoteException e) {
+            Log.e(TAG, "mtkCusPowerHint(" + hint + ") failed", e);
         } finally {
             data.recycle();
         }
