@@ -129,6 +129,9 @@ TARGET_PREBUILT_KERNEL  := $(DEVICE_PATH)/prebuilts/Image.gz
 TARGET_NEEDS_DTBOIMAGE  := true
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilts/dtbo_TB375FC.img
 
+# Evolution X market name; use a verbatim prop file to preserve spaces.
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # Vendor props whose values contain spaces (marketname, pen name). They are set
 # via a verbatim prop file because PRODUCT_VENDOR_PROPERTIES word-splits a value
 # at every space. The TB373FU variant overrides this with its own ROW vendor.prop.
