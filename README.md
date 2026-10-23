@@ -1,6 +1,6 @@
 # Lenovo Xiaoxin Pad Pro 12.7 (2025) - TB375FC
 
-LineageOS 24.0 (Android 17) device tree for the Lenovo Xiaoxin Pad Pro 12.7 (2025), `TB375FC`, the PRC Wi-Fi variant. ODM is Wingtech; the internal project codename is `peridot`.
+DerpFest 17 (Android 17) device tree for the Lenovo Xiaoxin Pad Pro 12.7 (2025), `TB375FC`, the PRC Wi-Fi variant. ODM is Wingtech; the internal project codename is `peridot`.
 
 ## Specifications
 
@@ -19,8 +19,10 @@ LineageOS 24.0 (Android 17) device tree for the Lenovo Xiaoxin Pad Pro 12.7 (202
 
 ## Build
 
+Initialize the DerpFest 17 source tree:
+
 ```
-repo init -u https://github.com/LineageOS/android.git -b lineage-24.0 --git-lfs
+repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 17 --git-lfs
 ```
 
 Add the manifest below as `.repo/local_manifests/TB375FC.xml`, then:
@@ -29,8 +31,15 @@ Add the manifest below as `.repo/local_manifests/TB375FC.xml`, then:
 repo sync
 source build/envsetup.sh
 lunch lineage_TB375FC-cp2a-user
-mka bacon
+m derp
 ```
+
+The device and vendor projects are not fetched by DerpFest's normal lunch
+discovery; add the local manifest below to sync these repositories. The
+device and vendor branches are `derpfest-17`; the shared `hardware/mediatek`
+project remains on `lineage-24.0`. The device and vendor branches must be
+published on GitHub before `repo sync` can fetch them using this manifest.
+This README update does not publish or push branches.
 
 Kernel, DTB and modules ship prebuilt in the device tree (`prebuilts/`), so no kernel source is needed to build. The separate `android_device_lenovo_TB375FC-kernel` checkout contains reference prebuilts; the build does not consume it.
 
@@ -39,13 +48,45 @@ Kernel, DTB and modules ship prebuilt in the device tree (`prebuilts/`), so no k
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="etnperlong/android_device_lenovo_TB375FC" path="device/lenovo/TB375FC" remote="github" revision="lineage-24.0" />
-  <project name="etnperlong/android_vendor_lenovo_TB375FC" path="vendor/lenovo/TB375FC" remote="github" revision="lineage-24.0" />
+  <remote name="tb375fc" fetch="https://github.com" />
+  <project name="etnperlong/android_device_lenovo_TB375FC" path="device/lenovo/TB375FC" remote="tb375fc" revision="derpfest-17" />
+  <project name="etnperlong/android_vendor_lenovo_TB375FC" path="vendor/lenovo/TB375FC" remote="tb375fc" revision="derpfest-17" />
   <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="lineage-24.0" />
 </manifest>
 ```
 
-`hardware/mediatek` is the upstream LineageOS common tree (the device inherits it). The device and vendor `lineage-24.0` branches must be used together.
+`hardware/mediatek` is the upstream LineageOS common tree inherited by this
+device; `lineage.dependencies` pins its branch for roomservice as well.
+The optional reference kernel checkout can use `derpfest-17` from
+`etnperlong/android_device_lenovo_TB375FC-kernel` after that branch is published.
+It is not required by the manifest above.
+
+DerpFest 17 manifest: <https://github.com/DerpFest-AOSP/android_manifest/tree/17>.
+DerpFest's common configuration sets `WITH_GMS:=true`; the device identifies
+the product as a tablet before that inheritance (`TARGET_IS_TABLET=true`), disables
+the communications suite for this Wi-Fi-only device
+(`WITH_GMS_COMMS_SUITE=false`), sets `PRODUCT_GMS_CLIENTID_BASE` to
+`android-lenovo-rev2`, and disables call recording
+(`TARGET_CALL_RECORDING_SUPPORTED=false`). It also enables
+`TARGET_FACE_UNLOCK_SUPPORTED:=true` for DerpFest Sense.
+DerpFest wires these features in
+[`config/derpfest.mk`](https://github.com/DerpFest-AOSP/android_vendor_derpfest/blob/113962b5f8e7b9eb5649dfb80dcd7948656064f5/config/derpfest.mk);
+the [`FaceUnlock` module](https://github.com/DerpFest-AOSP/android_packages_apps_FaceUnlock/blob/80339aaa6a7b17c1efce24e8c1bba8cd3205587e/Android.bp)
+supplies Sense and its native libraries, permissions and overlay.
+Sense being enabled at build time does not establish working enrollment or
+unlock on this tablet; those require testing on the device. Bundled GMS does
+not imply Google certification or any particular Play Integrity result.
+
+`TARGET_SUPPORTS_QUICK_TAP=false` retains the CNB policy: unvalidated back-tap
+support is disabled on this tablet. Blur follows DerpFest's default.
+
+Validation of this port is limited to a GNU make smoke of the upstream feature,
+tablet and GMS configuration, including the Sense package/property/feature XML,
+tablet SetupWizard property and client ID. It excludes AOSP product resolution,
+device/vendor payloads, Soong compilation, image generation and device runtime.
+Before flashing, validate in a complete DerpFest checkout with
+`lunch lineage_TB375FC-cp2a-userdebug`, `m nothing`, `m DeviceParts`, and `m derp`.
+Then verify boot, front camera, face enrollment/unlock, GMS setup, and DeviceParts.
 
 ## Notes
 
@@ -71,6 +112,14 @@ needs `Looper::repoll`, which the v34 `libutils` lacks.
 
 ### Device parts
 `DeviceParts` collects the device-specific settings below. All of them are on the "Device parts" entry of the Settings homepage; the pen and touch switches are also under Settings → Display → "Pen and touch", the Dolby settings under Settings → Sound → "Dolby Atmos", the performance profiles under Settings → Battery → "Performance profiles", and the cover switch on the lock screen settings page ("Smart cover"). The Quick Settings tiles show the same state.
+
+### DerpFest tablet features
+The existing device-specific settings remain available: 144 Hz can be selected
+(the active-pen safety cap limits refresh to 120 Hz while the pen is in use),
+Dolby Atmos controls, charging limits through charge stop/restart (not charging
+bypass), and per-app performance profiles. DerpFest's ROM-native GameSpace,
+freeform windows and sidebar are bundled by the ROM; this device tree does not
+force extra flags to claim or enable unverified behavior.
 
 ### Refresh rate and the active pen
 The panel supports 144 / 120 / 60 / 30 Hz, but the NVT active pen is reported to work only up to 120 Hz. Stock keeps 144 available and steers the panel to 120 Hz while the pen is in use (a 10 s pen timer inside MediaTek's SurfaceFlinger, which AOSP does not have). `DeviceParts` does the same with `DisplayManager.requestMaxRefreshRate()`: it watches stylus events (hover included), caps the display at 120 Hz, and lifts the cap 10 s after the last event or when the screen turns off. The cap is on by default and can be turned off in Device parts. The default peak stays 120 Hz; 144 Hz can be picked in Settings → Display.
