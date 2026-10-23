@@ -1,6 +1,6 @@
 # Lenovo Xiaoxin Pad Pro 12.7 (2025) - TB375FC
 
-LineageOS 24.0 (Android 17) device tree for the Lenovo Xiaoxin Pad Pro 12.7 (2025), `TB375FC`, the PRC Wi-Fi variant. ODM is Wingtech; the internal project codename is `peridot`.
+DerpFest 17 (Android 17) device tree for the Lenovo Xiaoxin Pad Pro 12.7 (2025), `TB375FC`, the PRC Wi-Fi variant. ODM is Wingtech; the internal project codename is `peridot`.
 
 ## Specifications
 
@@ -19,8 +19,10 @@ LineageOS 24.0 (Android 17) device tree for the Lenovo Xiaoxin Pad Pro 12.7 (202
 
 ## Build
 
+Initialize the DerpFest 17 source tree:
+
 ```
-repo init -u https://github.com/LineageOS/android.git -b lineage-24.0 --git-lfs
+repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 17 --git-lfs
 ```
 
 Add the manifest below as `.repo/local_manifests/TB375FC.xml`, then:
@@ -29,8 +31,15 @@ Add the manifest below as `.repo/local_manifests/TB375FC.xml`, then:
 repo sync
 source build/envsetup.sh
 lunch lineage_TB375FC-cp2a-user
-mka bacon
+m derp
 ```
+
+The device and vendor projects are not fetched by DerpFest's normal lunch
+discovery; add the local manifest below to sync these repositories. The
+device and vendor branches are `derpfest-17`; the shared `hardware/mediatek`
+project remains on `lineage-24.0`. The device and vendor branches must be
+published on GitHub before `repo sync` can fetch them using this manifest.
+This README update does not publish or push branches.
 
 Kernel prebuilts in `prebuilts/` target Android 14 GKI `6.1.176-android14-11`
 (Google build `g6d8630162a37-ab16707926`, tag
@@ -68,13 +77,45 @@ hardware test.
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="etnperlong/android_device_lenovo_TB375FC" path="device/lenovo/TB375FC" remote="github" revision="lineage-24.0" />
-  <project name="etnperlong/android_vendor_lenovo_TB375FC" path="vendor/lenovo/TB375FC" remote="github" revision="lineage-24.0" />
+  <remote name="tb375fc" fetch="https://github.com" />
+  <project name="etnperlong/android_device_lenovo_TB375FC" path="device/lenovo/TB375FC" remote="tb375fc" revision="derpfest-17" />
+  <project name="etnperlong/android_vendor_lenovo_TB375FC" path="vendor/lenovo/TB375FC" remote="tb375fc" revision="derpfest-17" />
   <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="lineage-24.0" />
 </manifest>
 ```
 
-`hardware/mediatek` is the upstream LineageOS common tree (the device inherits it). The device and vendor `lineage-24.0` branches must be used together.
+`hardware/mediatek` is the upstream LineageOS common tree inherited by this
+device; `lineage.dependencies` pins its branch for roomservice as well.
+The optional reference kernel checkout can use `derpfest-17` from
+`etnperlong/android_device_lenovo_TB375FC-kernel` after that branch is published.
+It is not required by the manifest above.
+
+DerpFest 17 manifest: <https://github.com/DerpFest-AOSP/android_manifest/tree/17>.
+DerpFest's common configuration sets `WITH_GMS:=true`; the device identifies
+the product as a tablet before that inheritance (`TARGET_IS_TABLET=true`), disables
+the communications suite for this Wi-Fi-only device
+(`WITH_GMS_COMMS_SUITE=false`), sets `PRODUCT_GMS_CLIENTID_BASE` to
+`android-lenovo-rev2`, and disables call recording
+(`TARGET_CALL_RECORDING_SUPPORTED=false`). It also enables
+`TARGET_FACE_UNLOCK_SUPPORTED:=true` for DerpFest Sense.
+DerpFest wires these features in
+[`config/derpfest.mk`](https://github.com/DerpFest-AOSP/android_vendor_derpfest/blob/113962b5f8e7b9eb5649dfb80dcd7948656064f5/config/derpfest.mk);
+the [`FaceUnlock` module](https://github.com/DerpFest-AOSP/android_packages_apps_FaceUnlock/blob/80339aaa6a7b17c1efce24e8c1bba8cd3205587e/Android.bp)
+supplies Sense and its native libraries, permissions and overlay.
+Sense being enabled at build time does not establish working enrollment or
+unlock on this tablet; those require testing on the device. Bundled GMS does
+not imply Google certification or any particular Play Integrity result.
+
+`TARGET_SUPPORTS_QUICK_TAP=false` retains the CNB policy: unvalidated back-tap
+support is disabled on this tablet. Blur follows DerpFest's default.
+
+Validation of this port is limited to a GNU make smoke of the upstream feature,
+tablet and GMS configuration, including the Sense package/property/feature XML,
+tablet SetupWizard property and client ID. It excludes AOSP product resolution,
+device/vendor payloads, Soong compilation, image generation and device runtime.
+Before flashing, validate in a complete DerpFest checkout with
+`lunch lineage_TB375FC-cp2a-userdebug`, `m nothing`, `m DeviceParts`, and `m derp`.
+Then verify boot, front camera, face enrollment/unlock, GMS setup, and DeviceParts.
 
 ## Notes
 
@@ -120,6 +161,14 @@ needs `Looper::repoll`, which the v34 `libutils` lacks.
 
 ### Device parts
 `DeviceParts` collects the device-specific settings below. The "Device parts" entry of the Settings homepage lists its pages in groups: "MediaTek MiraVision™" ("Screen color" and "Video picture"), "Dolby Atmos®", "Performance and memory" ("Performance tuning" and "RAM expansion"), "Accessories" (pen, folio keyboard and magnetic cover) and "Other" ("Refresh rate and touch": reading mode 30 Hz and touch sensitivity). Each page is also placed in the Settings page it belongs to, through the `com.android.settings.group_key` and `order` of its entry: "Screen color" and "Video picture" first in the Color category of Settings → Display, "Refresh rate and touch" after "Screen refresh rate" on the same page, "Dolby Atmos®" first in the Audio category of Settings → Sound, "Performance profiles" in the first category of Settings → Battery, "RAM expansion" before "Automation & intelligence" on Settings → System, and "Accessories" on Settings → Connected devices. Quick Settings tiles cover the settings changed most often and show the same state: on/off tiles for "Reading 30 Hz", "Magnetic cover", "Adapt to ambient light" (unavailable while screen color is disabled), "Video picture enhancement" and "Performance tuning" (adjusting performance by app), and tiles that show the current choice and pick another in a dialog over the shade for "Dolby Atmos" (Dynamic, Movie, Music or Off), "Screen color" (Standard, Vivid or Disabled) and "Touch sensitivity". The Dolby and screen color dialogs note that apps with their own mode or color setting keep it. Long-pressing any of these tiles opens its settings page. The "Screen color", "Video picture" and "Dolby Atmos" pages end with fine print (two lines of 12sp text, aligned with the category titles): the MediaTek MiraVision or Dolby Atmos trademark notice (MediaTek Inc.; Dolby Laboratories Licensing Corporation), then a note that the page only provides access to the vendor features built into the firmware without including or modifying proprietary software, ending in a "Disclaimer" link. The whole text is one touch target and opens a short disclaimer (community-written, not affiliated with or endorsed by MediaTek, Dolby or Lenovo, no warranty). The per-app settings of screen color, Dolby and performance each have their own list page with the feature's switch on top; Settings' App info page takes no injected entries, so they cannot be shown there.
+
+### DerpFest tablet features
+The existing device-specific settings remain available: 144 Hz can be selected
+(the active-pen safety cap limits refresh to 120 Hz while the pen is in use),
+Dolby Atmos controls, charging limits through charge stop/restart (not charging
+bypass), and per-app performance profiles. DerpFest's ROM-native GameSpace,
+freeform windows and sidebar are bundled by the ROM; this device tree does not
+force extra flags to claim or enable unverified behavior.
 
 ### Active pen
 The pen writes through the Novatek touch controller; Bluetooth only carries its buttons and battery level. The controller looks for the pen only while its pen mode is on: `nt36532.ko` takes the mode from `/proc/support_pen`, starts with it off, turns it off again after the boot firmware update, and re-sends the last value every time the screen turns on. Stock ZUI's `services.jar` (`BluetoothPenConnectPolicy`) switches it through the Lenovo touchscreen HAL when a Lenovo pen connects over Bluetooth HID; LineageOS has no such code, so without it the pen pairs but draws nothing.

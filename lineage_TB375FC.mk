@@ -27,7 +27,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/compression.mk)
 # Sounds
 $(call inherit-product-if-exists, frameworks/base/data/sounds/AllAudio.mk)
 
-# LineageOS common add-ons
+# DerpFest evaluates its feature and Pixel GMS configuration from common.mk.
+# Set tablet identity before that inheritance, not only in the tablet base.
+TARGET_IS_TABLET := true
+WITH_GMS_COMMS_SUITE := false
+PRODUCT_GMS_CLIENTID_BASE := android-lenovo-rev2
+
+# Use DerpFest's complete Sense stack; the MTK front camera needs device testing.
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Keep the CNB back-tap policy and omit cellular-only call-recording features.
+TARGET_SUPPORTS_QUICK_TAP := false
+TARGET_CALL_RECORDING_SUPPORTED := false
+
+# DerpFest common add-ons (the manifest checks this out at vendor/lineage).
 $(call inherit-product, vendor/lineage/config/common.mk)
 
 # Device-specific
@@ -60,5 +73,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=TB375FC
 
 PRODUCT_CHARACTERISTICS := tablet
-
-PRODUCT_GMS_CLIENTID_BASE := android-lenovo-rev2
