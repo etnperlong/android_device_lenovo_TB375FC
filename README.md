@@ -109,13 +109,8 @@ not imply Google certification or any particular Play Integrity result.
 `TARGET_SUPPORTS_QUICK_TAP=false` retains the CNB policy: unvalidated back-tap
 support is disabled on this tablet. Blur follows DerpFest's default.
 
-Validation of this port is limited to a GNU make smoke of the upstream feature,
-tablet and GMS configuration, including the Sense package/property/feature XML,
-tablet SetupWizard property and client ID. It excludes AOSP product resolution,
-device/vendor payloads, Soong compilation, image generation and device runtime.
-Before flashing, validate in a complete DerpFest checkout with
-`lunch lineage_TB375FC-cp2a-userdebug`, `m nothing`, `m DeviceParts`, and `m derp`.
-Then verify boot, front camera, face enrollment/unlock, GMS setup, and DeviceParts.
+Framework overlays use RROs to avoid introducing an unflagged `android.R.font`
+API. Full builds and on-device overlay behavior still need validation.
 
 ## Notes
 

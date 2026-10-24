@@ -40,6 +40,8 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := false
 TARGET_CALL_RECORDING_SUPPORTED := false
 
+PRODUCT_ENFORCE_RRO_TARGETS := framework-res
+
 # DerpFest common add-ons (the manifest checks this out at vendor/lineage).
 $(call inherit-product, vendor/lineage/config/common.mk)
 
