@@ -67,13 +67,12 @@ blob_fixups: blob_fixups_user_type = {
 
 
 # The stock HAL binaries that hardware/mediatek also builds (audio, memtrack,
-# thermal, vibrator, wlan_assistant) are generated as same-name preferred
-# prebuilts. Importing the hardware/mediatek namespace lets Soong pair them
-# with the source modules and hide those, so the source modules' init_rc,
+# thermal, wlan_assistant) are generated as same-name preferred prebuilts.
+# Importing the hardware/mediatek namespace lets Soong pair them with the
+# source modules and hide those, so the source modules' init_rc,
 # vintf_fragments and shared_libs are never installed. A Make copy rule over
 # the same path would merge those as prerequisites into the staging dir,
-# which target_files copies wholesale (duplicate IThermal/IVibrator VINTF
-# fragments).
+# which target_files copies wholesale (duplicate IThermal VINTF fragments).
 module = ExtractUtilsModule(
     'TB375FC',
     'lenovo',

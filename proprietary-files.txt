@@ -56,6 +56,17 @@
 # vendor/etc/powerscntbl.xml is EXTRACT_ONLY: device.mk installs
 # configs/power/powerscntbl.xml, the stock table plus the INTERACTION and
 # GAME_LOADING scenarios. Diff the two after an update.
+#
+# Do not list the stock vibrator HAL (vendor/bin/hw/android.hardware.vibrator-
+# service.mediatek, vibrator-mtk-default.rc, vibrator-mtk-default.xml) or
+# android.hardware.vibrator-V2-ndk.so, which only it links. TB375FC/TB373FU
+# have no vibration motor: the base DT's regulator-vibrator node drives the
+# MT6368 VIBR LDO, which the dtbo assigns to the main camera AF (sensor0
+# afvdd-supply). The HAL reports a vibrator whether or not one exists, so
+# Vibrator.hasVibrator() was true and Settings, notification channels and the
+# ringer offered vibration that did nothing. With no IVibrator service the
+# framework reports no vibrator and hides these. Keep libhal-vibrator.so
+# (libFactoryHALCommon) and libvibratorutils.so (libhapticgenerator).
 
 # ClearKey is provided by the AOSP Android 17 service APEX; do not extract
 # stock service, init, VINTF, or plugin files that would override it.
@@ -252,7 +263,6 @@ vendor/bin/hw/android.hardware.sensors-service.multihal;MAKE_COPY_RULE_ONLY
 vendor/bin/hw/android.hardware.thermal-service.mediatek
 vendor/bin/hw/android.hardware.usb-aidl-service.mediatekv1.0
 vendor/bin/hw/android.hardware.usb.gadget-aidl-service.mediatekv1.0
-vendor/bin/hw/android.hardware.vibrator-service.mediatek
 vendor/bin/hw/android.hardware.wifi-service-lazy;MAKE_COPY_RULE_ONLY
 vendor/bin/hw/dvs-hidl-service
 vendor/bin/hw/hostapd;MAKE_COPY_RULE_ONLY
@@ -638,7 +648,6 @@ vendor/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc
 vendor/etc/init/vendor.microtrust.hardware.ifaa-service.rc
 vendor/etc/init/vendor.microtrust.hardware.soter-service.rc
 vendor/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc
-vendor/etc/init/vibrator-mtk-default.rc
 vendor/etc/init/vndservicemanager.rc
 vendor/etc/init/volte_clientapi_ua.rc
 vendor/etc/init/wlan_assistant.rc
@@ -844,7 +853,6 @@ vendor/etc/vintf/manifest/vendor.lenovo.hardware.misc-service.xml;MAKE_COPY_RULE
 vendor/etc/vintf/manifest/vendor.lenovo.hardware.performance-service.xml;MAKE_COPY_RULE_ONLY
 vendor/etc/vintf/manifest/vendor.lenovo.hardware.touchscreen-service.xml;MAKE_COPY_RULE_ONLY
 vendor/etc/vintf/manifest/vendor.lenovo.hardware.usb.xml;MAKE_COPY_RULE_ONLY
-vendor/etc/vintf/manifest/vibrator-mtk-default.xml;MAKE_COPY_RULE_ONLY
 vendor/etc/virtual-spn-conf-by-efgid1.xml
 vendor/etc/virtual-spn-conf-by-efpnn.xml
 vendor/etc/virtual-spn-conf-by-efspn.xml
@@ -1498,7 +1506,6 @@ vendor/lib64/android.hardware.tetheroffload-V1-ndk.so;MAKE_COPY_RULE_ONLY
 vendor/lib64/android.hardware.thermal-V1-ndk.so;MAKE_COPY_RULE_ONLY
 vendor/lib64/android.hardware.usb-V1-ndk.so;MAKE_COPY_RULE_ONLY
 vendor/lib64/android.hardware.usb.gadget-V1-ndk.so;MAKE_COPY_RULE_ONLY
-vendor/lib64/android.hardware.vibrator-V2-ndk.so;MAKE_COPY_RULE_ONLY
 vendor/lib64/android.hardware.wifi-V1-ndk.so;MAKE_COPY_RULE_ONLY
 vendor/lib64/android.hardware.wifi.hostapd-V1-ndk.so;MAKE_COPY_RULE_ONLY
 vendor/lib64/android.hardware.wifi.supplicant-V2-ndk.so;MAKE_COPY_RULE_ONLY

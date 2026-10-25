@@ -130,9 +130,6 @@
 # Thermal HAL (AOSP standard exec type, no stub needed)
 /(vendor|system/vendor)/bin/hw/android\.hardware\.thermal-service\.mediatek          u:object_r:hal_thermal_default_exec:s0
 
-# Vibrator HAL (AOSP standard exec type, no stub needed)
-/(vendor|system/vendor)/bin/hw/android\.hardware\.vibrator-service\.mediatek         u:object_r:hal_vibrator_default_exec:s0
-
 # Dolby C2 codecs (use AOSP mediacodec_exec, verified via init.rc which has
 # user=mediacodec for both binaries; stock vendor_file_contexts uses
 # mediacodec_exec for the @1.0-service variant, the vision variant follows).
