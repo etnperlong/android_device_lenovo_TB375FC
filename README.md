@@ -32,7 +32,36 @@ lunch lineage_TB375FC-cp2a-user
 mka bacon
 ```
 
-Kernel, DTB and modules ship prebuilt in the device tree (`prebuilts/`), so no kernel source is needed to build. The separate `android_device_lenovo_TB375FC-kernel` checkout contains reference prebuilts; the build does not consume it.
+Kernel prebuilts in `prebuilts/` target Android 14 GKI `6.1.176-android14-11`
+(Google build `g6937a39e99f7-ab16619797`, tag
+[`android14-6.1-2026-09_r4`](https://android.googlesource.com/kernel/common/+/refs/tags/android14-6.1-2026-09_r4/)).
+The kernel image comes from Google's
+[certified GKI archive](https://dl.google.com/android/gki/gki-certified-boot-android14-6.1-2026-09_r4-gz.zip);
+the GKI modules come from
+[CI build 16619797](https://ci.android.com/builds/submitted/16619797/kernel_aarch64/latest).
+The separate `android_device_lenovo_TB375FC-kernel` checkout contains reference
+prebuilts; the build does not consume it.
+
+When updating the GKI, keep the kernel image and GKI `system_dlkm`/`vendor_dlkm`
+modules from the same release. The device-specific 426 modules (222
+`vendor_ramdisk`, 204 `vendor_dlkm`) remain from stock; the resulting 490-module
+set is mixed Google GKI and stock device drivers, not an all-stock module set.
+The GKI copies in `vendor_dlkm` are `bluetooth.ko`, `mii.ko`, `rfkill.ko`, and
+`usbnet.ko`; all 60 `system_dlkm` modules come from the same Google build.
+Preserve module load lists and refresh generated module metadata with the GKI
+update. The current `prebuilts/Image.gz` SHA-256 is
+`962efcb3f29385373ac1da62779543b30a9e3cb1b6d14855f763f4811e11c1e6`;
+the source certified ZIP SHA-256 is
+`23a511948ab741a09d1c9dd435d014378fffad869d9178dfeb9339de43148f4b`;
+the source modules archive SHA-256 is
+`87cc88e6e26e102b10371227d403e075b123a5fed72ac09cfc0f3d28bd1689e0`.
+
+A temporary boot-v4 image was packed and unpacked with byte-exact kernel recovery.
+Module imports, CRCs, protected exports and GKI signatures were checked;
+`depmod` completed without diagnostics, and isolated `modprobe --show-depends`
+dependency-resolution smoke checks passed for selected drivers. No modules were
+loaded. This does not constitute a complete Android build, device boot, or
+hardware test.
 
 ### local_manifests/TB375FC.xml
 

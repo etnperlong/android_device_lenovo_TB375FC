@@ -346,9 +346,9 @@ SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS  += $(DEVICE_PATH)/sepolicy/public
 
 BOARD_KERNEL_VERSION := 6.1
 
-# Prebuilt kernel modules. 282 .ko files from the device's own stock A16
-# TB375FC PRC build sit under prebuilts/modules/{vendor_ramdisk,vendor_dlkm,
-# system_dlkm}/. Load order mirrored from the live stock device's modules.load.
+# Prebuilt kernel and 490 modules: 222 vendor_ramdisk, 208 vendor_dlkm,
+# and 60 system_dlkm. GKI modules are Google prebuilts; device modules remain stock.
+# Load order is mirrored from the stock device's modules.load.
 include $(DEVICE_PATH)/tb375fc-kernel-modules.mk
 
 # HALs at the property level (mirror what stock build.props say).

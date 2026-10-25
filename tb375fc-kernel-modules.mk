@@ -8,7 +8,7 @@
 # and some MTK modules need a specific load sequence beyond what modules.dep
 # enforces.
 #
-# Counts: vr=222 vd=205 sd=60
+# Counts: vr=222 vd=208 sd=60 (490 total; mixed GKI and stock device modules)
 
 # vendor_ramdisk modules (alphabetical)
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES := \
