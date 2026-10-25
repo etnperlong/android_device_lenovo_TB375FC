@@ -145,6 +145,16 @@ TARGET_VENDOR_PROP := $(DEVICE_PATH)/vendor.prop
 # rises, so it must never go back down on an installed device.
 VENDOR_SECURITY_PATCH := 2026-05-05
 
+# Boot security patch level. The LK reads com.android.build.boot.security_patch
+# from the boot AVB descriptor and hands it to the TEE as the KeyMint boot patch
+# level (stock boot.img carries it). Without it AOSP adds no such prop and key
+# attestation reports bootPatchLevel 0. The boot image only holds the prebuilt
+# GKI kernel (android14-6.1-2026-09_r4), so use that release's patch level and
+# bump it together with the kernel. init_boot inherits it (core/Makefile).
+# KeyMint upgrades keys when it rises, so it must never go back down on an
+# installed device.
+BOOT_SECURITY_PATCH := 2026-09-05
+
 # A/B partition
 AB_OTA_UPDATER          := true
 AB_OTA_PARTITIONS += \
