@@ -134,6 +134,44 @@ The default device name is `Lenovo Xiaoxin Pad Pro 12.7`, matching the English m
 With an unlocked bootloader at most `MEETS_BASIC_INTEGRITY` is expected. None of
 this has been validated on the device yet.
 
+### DerpFest maintainer
+
+`SettingsDeviceOverlay` sets `derpfest_maintainer` to `etnperlong`, replacing
+the default About-page maintainer label with `Built by etnperlong` in English.
+This is an attribution string, not official-build status. Updater maintainer
+metadata is fetched separately by the Community OTA configuration below.
+XML and resource-format checks passed; full-build RRO and on-device display
+validation remain pending.
+
+### Community OTA
+
+`UpdaterDeviceOverlay` redirects the Updater's update list, device metadata,
+and plain-text changelog to the public `main` branch of
+[`etnperlong/DerpFest-Community-OTA`](https://github.com/etnperlong/DerpFest-Community-OTA).
+Its URL resources are defined in
+`overlay/UpdaterDeviceOverlay/res/values/config.xml`. Downloads opens the
+[TB375FC SourceForge directory](https://sourceforge.net/projects/derpfest-community-build/files/TB375FC),
+and Report issues opens the
+[device repository's Issues page](https://github.com/etnperlong/android_device_lenovo_TB375FC/issues).
+Neither uses DerpFest's official download or issue service.
+
+The product sets `ro.derpfest.device` from `PRODUCT_DEVICE` (`TB375FC`).
+Updater uses this identity to expand `{device}` in the update-list URL, format
+`%1$s` in the changelog URL, and match the device-info `codename`.
+`ro.updater.next_device` is left unset. The feed remains Community and publishes
+full A/B packages; this configuration does not add incremental OTA support.
+A null support group in the remote device metadata retains Updater's default
+DerpFest Telegram fallback.
+
+XML validation, SDK AAPT2 compile/link of the overlay APK, and a property-only
+Make smoke passed. All five URL resources resolved to HTTP 200 endpoints.
+A range request to the listed SourceForge ZIP returned HTTP 206 with the
+expected total size, and its OTA metadata fragment matched the local release
+package byte-for-byte. A full Android build, installed-overlay/idmap check,
+complete OTA download, signature verification, and on-device upgrade remain
+unverified. Existing installations need a build containing this overlay before
+they can use these endpoints.
+
 ### DRM
 ClearKey uses AOSP's Android 17 `com.android.hardware.drm.clearkey` service
 APEX, selected through `android.hardware.drm@latest-service.clearkey`.

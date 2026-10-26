@@ -4,6 +4,8 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
+    <string name="derpfest_maintainer" translatable="false">etnperlong</string>
+
     <!--
         Only the LineageOS peak refresh rate list is shown. Picking 144 is safe
         for the pen because DeviceParts caps the panel at 120 while the

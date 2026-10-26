@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/etnperlong/DerpFest-Community-OTA/main/{device}.json</string>
+    <string name="device_info_url" translatable="false">https://raw.githubusercontent.com/etnperlong/DerpFest-Community-OTA/main/info/device-info.json</string>
+    <string name="menu_changelog_url" translatable="false">https://raw.githubusercontent.com/etnperlong/DerpFest-Community-OTA/main/changelog_%1$s.txt</string>
+    <string name="menu_downloads_url" translatable="false">https://sourceforge.net/projects/derpfest-community-build/files/TB375FC</string>
+    <string name="report_issue_url" translatable="false">https://github.com/etnperlong/android_device_lenovo_TB375FC/issues</string>
+</resources>

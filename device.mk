@@ -414,6 +414,7 @@ PRODUCT_PACKAGES += \
     LineageSdkDeviceOverlay \
     SettingsDeviceOverlay \
     SettingsProviderDeviceOverlay \
+    UpdaterDeviceOverlay \
     SystemUIDeviceOverlay \
     WifiResDeviceOverlay
 
