@@ -7,16 +7,15 @@
     <string name="app_name">ডিভাইচৰ সুবিধাসমূহ</string>
 
     <string name="device_parts_title">ডিভাইচৰ সুবিধাসমূহ</string>
-    <string name="device_parts_summary">পাৰফৰ্মেন্স, ষ্টাইলাছ, স্পৰ্শ, Dolby Atmos আৰু ফ’লিঅ’ ক’ভাৰ</string>
-    <string name="display_parts_title">ষ্টাইলাছ আৰু স্পৰ্শ</string>
-    <string name="display_parts_summary">ষ্টাইলাছৰ ৰিফ্ৰেছৰ হাৰ, ৰিডিং মোডৰ ৰিফ্ৰেছৰ হাৰ, স্পৰ্শ গেম মোড</string>
+    <string name="device_parts_summary">কাৰ্যক্ষমতা, আনুষংগিক সামগ্ৰী, স্পৰ্শ আৰু Dolby Atmos</string>
+    <string name="display_parts_title">ৰিফ্ৰেছৰ হাৰ আৰু স্পৰ্শ</string>
+    <string name="display_parts_summary">ৰিডিং মোডৰ ৰিফ্ৰেছৰ হাৰ, স্পৰ্শ গেম মোড</string>
 
+    <string name="category_accessories_title">অফিচিয়েল আনুষংগিক সামগ্ৰী</string>
     <string name="category_display_title">ৰিফ্ৰেছৰ হাৰ</string>
     <string name="category_touch_title">স্পৰ্শ</string>
-    <string name="category_cover_title">ফ’লিঅ’ ক’ভাৰ</string>
     <string name="category_audio_title">অডিঅ’</string>
     <string name="category_perf_title">কাৰ্যক্ষমতা</string>
-    <string name="category_pen_title">ষ্টাইলাছ</string>
 
     <string name="pen_refresh_cap_title">ষ্টাইলাছ ব্যৱহাৰ কৰাৰ সময়ত 120 Hz-লৈ সীমিত কৰক</string>
     <string name="pen_refresh_cap_summary">সক্ৰিয় ষ্টাইলাছটোৱে কেৱল 120 Hz-লৈকেহে কাম কৰে। ষ্টাইলাছৰ জৰিয়তে শেষৰ ইনপুটৰ 10 ছেকেণ্ড পিছত সীমাটো আঁতৰোৱা হয়।</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">ফ’লিঅ’ ক’ভাৰ বন্ধ কৰিলে শ্লীপ আৰু লক কৰক</string>
     <string name="pen_notifications_title">ষ্টাইলাছ সংযোগৰ জাননী</string>
     <string name="pen_notifications_summary">Lenovo ষ্টাইলাছ সংযোগ বা বিচ্ছিন্ন হ’লে জাননী দেখুৱাওক</string>
+    <string name="keyboard_notifications_title">কিবৰ্ড সংযোগৰ জাননী</string>
+    <string name="keyboard_notifications_summary">Lenovo ফ’লিঅ’ ক’ভাৰ সংযোগ বা বিচ্ছিন্ন হ’লে জাননী দেখুৱাওক</string>
     <string name="pen_notification_channel">ষ্টাইলাছ সংযোগ</string>
     <string name="pen_connected_title">ষ্টাইলাছ সংযুক্ত</string>
     <string name="pen_disconnected_title">ষ্টাইলাছ বিচ্ছিন্ন</string>
+    <string name="keyboard_notification_channel">কিবৰ্ড সংযোগ</string>
+    <string name="keyboard_connected_title">কিবৰ্ড সংযুক্ত</string>
+    <string name="keyboard_disconnected_title">কিবৰ্ড বিচ্ছিন্ন</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">ছাউণ্ড মোড, ইকুৱেলাইজাৰ, ডায়লগ এনহান্সাৰ আৰু এপৰ মোড</string>

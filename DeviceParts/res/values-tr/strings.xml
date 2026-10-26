@@ -7,16 +7,15 @@
     <string name="app_name">Cihaz özellikleri</string>
 
     <string name="device_parts_title">Cihaz özellikleri</string>
-    <string name="device_parts_summary">Performans, ekran kalemi, dokunma, Dolby Atmos ve kapaklı kılıf</string>
-    <string name="display_parts_title">Ekran kalemi ve dokunma</string>
-    <string name="display_parts_summary">Ekran kalemi yenileme hızı, okuma modu yenileme hızı, dokunmatik oyun modu</string>
+    <string name="device_parts_summary">Performans, aksesuarlar, dokunma ve Dolby Atmos</string>
+    <string name="display_parts_title">Yenileme hızı ve dokunma</string>
+    <string name="display_parts_summary">Okuma modu yenileme hızı, dokunmatik oyun modu</string>
 
+    <string name="category_accessories_title">Resmi aksesuarlar</string>
     <string name="category_display_title">Yenileme hızı</string>
     <string name="category_touch_title">Dokunma</string>
-    <string name="category_cover_title">Kapaklı kılıf</string>
     <string name="category_audio_title">Ses</string>
     <string name="category_perf_title">Performans</string>
-    <string name="category_pen_title">Ekran kalemi</string>
 
     <string name="pen_refresh_cap_title">Ekran kalemi kullanırken 120 Hz ile sınırla</string>
     <string name="pen_refresh_cap_summary">Etkin ekran kaleminin yalnızca 120 Hz\'e kadar çalıştığı bildiriliyor. Son kalem girişinden 10 saniye sonra sınır kaldırılır.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Kapak kapatıldığında ekranı kapat ve cihazı kilitle</string>
     <string name="pen_notifications_title">Ekran kalemi bağlantı bildirimleri</string>
     <string name="pen_notifications_summary">Bir Lenovo ekran kalemi bağlandığında veya bağlantısı kesildiğinde bildirim göster</string>
+    <string name="keyboard_notifications_title">Klavye bağlantı bildirimleri</string>
+    <string name="keyboard_notifications_summary">Lenovo kapaklı kılıf klavyesi bağlandığında veya bağlantısı kesildiğinde bildirim göster</string>
     <string name="pen_notification_channel">Ekran kalemi bağlantısı</string>
     <string name="pen_connected_title">Ekran kalemi bağlandı</string>
     <string name="pen_disconnected_title">Ekran kaleminin bağlantısı kesildi</string>
+    <string name="keyboard_notification_channel">Klavye bağlantısı</string>
+    <string name="keyboard_connected_title">Klavye bağlandı</string>
+    <string name="keyboard_disconnected_title">Klavye bağlantısı kesildi</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Ses modu, ekolayzer, diyalog iyileştirici ve uygulama modları</string>

@@ -7,16 +7,15 @@
     <string name="app_name">Funzioni del dispositivo</string>
 
     <string name="device_parts_title">Funzioni del dispositivo</string>
-    <string name="device_parts_summary">Prestazioni, penna, tocco, Dolby Atmos e custodia a libro</string>
-    <string name="display_parts_title">Penna e tocco</string>
-    <string name="display_parts_summary">Frequenza di aggiornamento della penna e della modalità lettura, modalità gioco touch</string>
+    <string name="device_parts_summary">Prestazioni, accessori, tocco e Dolby Atmos</string>
+    <string name="display_parts_title">Frequenza di aggiornamento e tocco</string>
+    <string name="display_parts_summary">Frequenza di aggiornamento della modalità lettura, modalità gioco touch</string>
 
+    <string name="category_accessories_title">Accessori ufficiali</string>
     <string name="category_display_title">Frequenza di aggiornamento</string>
     <string name="category_touch_title">Tocco</string>
-    <string name="category_cover_title">Custodia a libro</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Prestazioni</string>
-    <string name="category_pen_title">Penna</string>
 
     <string name="pen_refresh_cap_title">Limita a 120 Hz quando usi la penna</string>
     <string name="pen_refresh_cap_summary">La penna attiva funziona solo fino a 120 Hz. Il limite viene rimosso 10 secondi dopo l’ultimo input della penna.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Sospendi e blocca quando la custodia a libro è chiusa</string>
     <string name="pen_notifications_title">Notifiche di connessione della penna</string>
     <string name="pen_notifications_summary">Mostra una notifica quando la penna Lenovo si connette o si disconnette</string>
+    <string name="keyboard_notifications_title">Notifiche di connessione della tastiera</string>
+    <string name="keyboard_notifications_summary">Mostra una notifica quando la tastiera folio Lenovo si connette o si disconnette</string>
     <string name="pen_notification_channel">Connessione della penna</string>
     <string name="pen_connected_title">Penna connessa</string>
     <string name="pen_disconnected_title">Penna disconnessa</string>
+    <string name="keyboard_notification_channel">Connessione della tastiera</string>
+    <string name="keyboard_connected_title">Tastiera connessa</string>
+    <string name="keyboard_disconnected_title">Tastiera disconnessa</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Modalità audio, equalizzatore, miglioramento dei dialoghi e modalità per app</string>

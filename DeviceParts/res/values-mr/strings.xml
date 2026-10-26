@@ -7,16 +7,15 @@
     <string name="app_name">डिव्हाइसची वैशिष्ट्ये</string>
 
     <string name="device_parts_title">डिव्हाइसची वैशिष्ट्ये</string>
-    <string name="device_parts_summary">परफॉर्मन्स, स्टायलस, टच, Dolby Atmos आणि फोलिओ कव्हर</string>
-    <string name="display_parts_title">स्टायलस आणि टच</string>
-    <string name="display_parts_summary">स्टायलस रिफ्रेश रेट, रीडिंग मोड रिफ्रेश रेट, टच गेम मोड</string>
+    <string name="device_parts_summary">परफॉर्मन्स, ॲक्सेसरीज, टच आणि Dolby Atmos</string>
+    <string name="display_parts_title">रिफ्रेश रेट आणि टच</string>
+    <string name="display_parts_summary">रीडिंग मोड रिफ्रेश रेट, टच गेम मोड</string>
 
+    <string name="category_accessories_title">अधिकृत ॲक्सेसरीज</string>
     <string name="category_display_title">रिफ्रेश रेट</string>
     <string name="category_touch_title">टच</string>
-    <string name="category_cover_title">फोलिओ कव्हर</string>
     <string name="category_audio_title">ऑडिओ</string>
     <string name="category_perf_title">परफॉर्मन्स</string>
-    <string name="category_pen_title">स्टायलस</string>
 
     <string name="pen_refresh_cap_title">स्टायलस वापरताना 120 Hz पर्यंत मर्यादित करा</string>
     <string name="pen_refresh_cap_summary">ॲक्टिव्ह स्टायलस फक्त 120 Hz पर्यंतच काम करतो. स्टायलसद्वारे शेवटचा इनपुट दिल्यानंतर 10 सेकंदांनी मर्यादा हटते.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">फोलिओ कव्हर बंद केल्यावर स्लीप आणि लॉक करा</string>
     <string name="pen_notifications_title">स्टायलस कनेक्शन सूचना</string>
     <string name="pen_notifications_summary">Lenovo स्टायलस कनेक्ट किंवा डिस्कनेक्ट झाल्यावर सूचना दाखवा</string>
+    <string name="keyboard_notifications_title">कीबोर्ड कनेक्शन सूचना</string>
+    <string name="keyboard_notifications_summary">Lenovo फोलिओ कीबोर्ड कनेक्ट किंवा डिस्कनेक्ट झाल्यावर सूचना दाखवा</string>
     <string name="pen_notification_channel">स्टायलस कनेक्शन</string>
     <string name="pen_connected_title">स्टायलस कनेक्ट झाले</string>
     <string name="pen_disconnected_title">स्टायलस डिस्कनेक्ट झाले</string>
+    <string name="keyboard_notification_channel">कीबोर्ड कनेक्शन</string>
+    <string name="keyboard_connected_title">कीबोर्ड कनेक्ट झाला</string>
+    <string name="keyboard_disconnected_title">कीबोर्ड डिस्कनेक्ट झाला</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">साउंड मोड, इक्वलायझर, डायलॉग एन्हांसर आणि ॲप मोड</string>

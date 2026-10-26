@@ -6,15 +6,14 @@
 <resources>
     <string name="app_name">Timahilin n yibenk</string>
     <string name="device_parts_title">Timahilin n yibenk</string>
-    <string name="device_parts_summary">Tamellit, amaru, anermis, Dolby Atmos akked uɣlaf yettwafnen</string>
-    <string name="display_parts_title">Amaru akked unermis</string>
-    <string name="display_parts_summary">Amḍan n usnifel n umaru, amḍan n usnifel deg uskar n tɣuri, askar n wurar s unermis</string>
+    <string name="device_parts_summary">Tamellit, iseɣẓanen, anermis akked Dolby Atmos</string>
+    <string name="display_parts_title">Amḍan n usnifel akked unermis</string>
+    <string name="display_parts_summary">Amḍan n usnifel deg uskar n tɣuri, askar n wurar s unermis</string>
+    <string name="category_accessories_title">Iseɣẓanen unṣiben</string>
     <string name="category_display_title">Amḍan n usnifel</string>
     <string name="category_touch_title">Anermis</string>
-    <string name="category_cover_title">Aɣlaf yettwafnen</string>
     <string name="category_audio_title">Imesli</string>
     <string name="category_perf_title">Tamellit</string>
-    <string name="category_pen_title">Amaru</string>
     <string name="pen_refresh_cap_title">Sbed amḍan ar 120 Hz mi ara tesqedceḍ amaru</string>
     <string name="pen_refresh_cap_summary">Aḍris n umaru ur yessawaḍ ara ɣer sdat n 120 Hz. Talast tettwakkes 10 n tesinin seld anekcum aneggaru s umaru.</string>
     <string name="reading_low_refresh_title">30 Hz deg uskar n tɣuri</string>
@@ -27,9 +26,14 @@
     <string name="smart_cover_summary">Sgen akked sekker agdil mi ara yettwamd uɣlaf yettwafnen</string>
     <string name="pen_notifications_title">Ilɣa n tuqqna n umaru</string>
     <string name="pen_notifications_summary">Sken-d alɣu mi ara yeqqen neɣ ad yefser umaru Lenovo</string>
+    <string name="keyboard_notifications_title">Ilɣa n tuqqna n unasiw</string>
+    <string name="keyboard_notifications_summary">Sken-d alɣu mi ara yeqqen neɣ ad yefser unasiw n uɣlaf Lenovo</string>
     <string name="pen_notification_channel">Tuqqna n umaru</string>
     <string name="pen_connected_title">Amaru yeqqen</string>
     <string name="pen_disconnected_title">Amaru yefser</string>
+    <string name="keyboard_notification_channel">Tuqqna n unasiw</string>
+    <string name="keyboard_connected_title">Anasiw yeqqen</string>
+    <string name="keyboard_disconnected_title">Anasiw yefser</string>
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Askar n imesli, equalizer, aseɣti n wawal akked yiskaren n yesnasen</string>
     <string name="dolby_enable_title">Seqdec Dolby Atmos</string>

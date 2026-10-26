@@ -6,15 +6,14 @@
 <resources>
     <string name="app_name">მოწყობილობის ფუნქციები</string>
     <string name="device_parts_title">მოწყობილობის ფუნქციები</string>
-    <string name="device_parts_summary">წარმადობა, სტილუსი, შეხება, Dolby Atmos და დასაკეცი ჩასადები</string>
-    <string name="display_parts_title">სტილუსი და შეხება</string>
-    <string name="display_parts_summary">სტილუსის განახლების სიხშირე, საკითხავი რეჟიმის განახლების სიხშირე, შეხებით თამაშის რეჟიმი</string>
+    <string name="device_parts_summary">წარმადობა, აქსესუარები, შეხება და Dolby Atmos</string>
+    <string name="display_parts_title">განახლების სიხშირე და შეხება</string>
+    <string name="display_parts_summary">საკითხავი რეჟიმის განახლების სიხშირე, შეხებით თამაშის რეჟიმი</string>
+    <string name="category_accessories_title">ოფიციალური აქსესუარები</string>
     <string name="category_display_title">განახლების სიხშირე</string>
     <string name="category_touch_title">შეხება</string>
-    <string name="category_cover_title">დასაკეცი ჩასადები</string>
     <string name="category_audio_title">აუდიო</string>
     <string name="category_perf_title">წარმადობა</string>
-    <string name="category_pen_title">სტილუსი</string>
     <string name="pen_refresh_cap_title">სტილუსის გამოყენებისას 120 ჰც-მდე შეზღუდვა</string>
     <string name="pen_refresh_cap_summary">აქტიური სტილუსი, როგორც ცნობილია, მხოლოდ 120 ჰც-მდე მუშაობს. შეზღუდვა სტილუსით ბოლო შეყვანიდან 10 წამში მოიხსნება.</string>
     <string name="reading_low_refresh_title">30 ჰც საკითხავ რეჟიმში</string>
@@ -27,9 +26,14 @@
     <string name="smart_cover_summary">დასაკეცი ჩასადების დახურვისას ეკრანის გამორთვა და დაბლოკვა</string>
     <string name="pen_notifications_title">სტილუსის კავშირის შეტყობინებები</string>
     <string name="pen_notifications_summary">Lenovo სტილუსის დაკავშირების ან გათიშვისას შეტყობინების ჩვენება</string>
+    <string name="keyboard_notifications_title">კლავიატურის კავშირის შეტყობინებები</string>
+    <string name="keyboard_notifications_summary">Lenovo-ს დასაკეცი ჩასადების კლავიატურის დაკავშირების ან გათიშვისას შეტყობინების ჩვენება</string>
     <string name="pen_notification_channel">სტილუსის კავშირი</string>
     <string name="pen_connected_title">სტილუსი დაკავშირებულია</string>
     <string name="pen_disconnected_title">სტილუსი გათიშულია</string>
+    <string name="keyboard_notification_channel">კლავიატურის კავშირი</string>
+    <string name="keyboard_connected_title">კლავიატურა დაკავშირებულია</string>
+    <string name="keyboard_disconnected_title">კლავიატურა გათიშულია</string>
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">ხმის რეჟიმი, ექვალაიზერი, დიალოგის გამაძლიერებელი და აპების რეჟიმები</string>
     <string name="dolby_enable_title">Dolby Atmos-ის გამოყენება</string>

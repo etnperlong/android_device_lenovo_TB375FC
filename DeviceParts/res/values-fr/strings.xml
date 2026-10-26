@@ -7,16 +7,15 @@
     <string name="app_name">Fonctionnalités de l’appareil</string>
 
     <string name="device_parts_title">Fonctionnalités de l’appareil</string>
-    <string name="device_parts_summary">Performances, stylet, écran tactile, Dolby Atmos et étui folio</string>
-    <string name="display_parts_title">Stylet et écran tactile</string>
-    <string name="display_parts_summary">Fréquence d’actualisation du stylet et du mode Lecture, mode jeu tactile</string>
+    <string name="device_parts_summary">Performances, accessoires, écran tactile et Dolby Atmos</string>
+    <string name="display_parts_title">Fréquence d’actualisation et écran tactile</string>
+    <string name="display_parts_summary">Fréquence d’actualisation du mode Lecture, mode jeu tactile</string>
 
+    <string name="category_accessories_title">Accessoires officiels</string>
     <string name="category_display_title">Fréquence d’actualisation</string>
     <string name="category_touch_title">Écran tactile</string>
-    <string name="category_cover_title">Étui folio</string>
     <string name="category_audio_title">Son</string>
     <string name="category_perf_title">Performances</string>
-    <string name="category_pen_title">Stylet</string>
 
     <string name="pen_refresh_cap_title">Limiter à 120 Hz lors de l’utilisation du stylet</string>
     <string name="pen_refresh_cap_summary">Le stylet actif ne fonctionne que jusqu’à 120 Hz. La limite est levée 10 secondes après la dernière saisie au stylet.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Mettre en veille et verrouiller à la fermeture de l’étui folio</string>
     <string name="pen_notifications_title">Notifications de connexion du stylet</string>
     <string name="pen_notifications_summary">Afficher une notification lorsque le stylet Lenovo se connecte ou se déconnecte</string>
+    <string name="keyboard_notifications_title">Notifications de connexion du clavier</string>
+    <string name="keyboard_notifications_summary">Afficher une notification lorsque le clavier de l’étui folio Lenovo se connecte ou se déconnecte</string>
     <string name="pen_notification_channel">Connexion du stylet</string>
     <string name="pen_connected_title">Stylet connecté</string>
     <string name="pen_disconnected_title">Stylet déconnecté</string>
+    <string name="keyboard_notification_channel">Connexion du clavier</string>
+    <string name="keyboard_connected_title">Clavier connecté</string>
+    <string name="keyboard_disconnected_title">Clavier déconnecté</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Mode sonore, égaliseur, amélioration des dialogues et modes par appli</string>

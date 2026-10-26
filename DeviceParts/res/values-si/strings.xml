@@ -7,16 +7,15 @@
     <string name="app_name">උපාංග විශේෂාංග</string>
 
     <string name="device_parts_title">උපාංග විශේෂාංග</string>
-    <string name="device_parts_summary">කාර්යසාධනය, පන්හිඳ, ස්පර්ශය, Dolby Atmos සහ ෆෝලියෝ කවරය</string>
-    <string name="display_parts_title">පන්හිඳ සහ ස්පර්ශය</string>
-    <string name="display_parts_summary">පන්හිඳේ නැවුම් කිරීමේ අනුපාතය, කියවීමේ මාදිලියේ නැවුම් කිරීමේ අනුපාතය, ස්පර්ශ ක්‍රීඩා මාදිලිය</string>
+    <string name="device_parts_summary">කාර්යසාධනය, උපාංග, ස්පර්ශය සහ Dolby Atmos</string>
+    <string name="display_parts_title">නැවුම් කිරීමේ අනුපාතය සහ ස්පර්ශය</string>
+    <string name="display_parts_summary">කියවීමේ මාදිලියේ නැවුම් කිරීමේ අනුපාතය, ස්පර්ශ ක්‍රීඩා මාදිලිය</string>
 
+    <string name="category_accessories_title">නිල උපාංග</string>
     <string name="category_display_title">නැවුම් කිරීමේ අනුපාතය</string>
     <string name="category_touch_title">ස්පර්ශය</string>
-    <string name="category_cover_title">ෆෝලියෝ කවරය</string>
     <string name="category_audio_title">ශ්‍රව්‍ය</string>
     <string name="category_perf_title">කාර්යසාධනය</string>
-    <string name="category_pen_title">පන්හිඳ</string>
 
     <string name="pen_refresh_cap_title">පන්හිඳ භාවිත කරන විට 120 Hz දක්වා සීමා කරන්න</string>
     <string name="pen_refresh_cap_summary">සක්‍රිය පන්හිඳ ක්‍රියා කරන්නේ 120 Hz දක්වා පමණි. පන්හිඳෙන් අවසන් ආදානය ලබා දී තත්පර 10කට පසු සීමාව ඉවත් වේ.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">ෆෝලියෝ කවරය වැසූ විට නිද්‍රා කර අගුළු දමන්න</string>
     <string name="pen_notifications_title">පන්හිඳ සම්බන්ධතා දැනුම්දීම්</string>
     <string name="pen_notifications_summary">Lenovo පන්හිඳ සම්බන්ධ වූ විට හෝ විසන්ධි වූ විට දැනුම්දීමක් පෙන්වන්න</string>
+    <string name="keyboard_notifications_title">යතුරුපුවරු සම්බන්ධතා දැනුම්දීම්</string>
+    <string name="keyboard_notifications_summary">Lenovo ෆෝලියෝ කවරයේ යතුරුපුවරුව සම්බන්ධ වූ විට හෝ විසන්ධි වූ විට දැනුම්දීමක් පෙන්වන්න</string>
     <string name="pen_notification_channel">පන්හිඳ සම්බන්ධතාව</string>
     <string name="pen_connected_title">පන්හිඳ සම්බන්ධ විය</string>
     <string name="pen_disconnected_title">පන්හිඳ විසන්ධි විය</string>
+    <string name="keyboard_notification_channel">යතුරුපුවරු සම්බන්ධතාව</string>
+    <string name="keyboard_connected_title">යතුරුපුවරුව සම්බන්ධ විය</string>
+    <string name="keyboard_disconnected_title">යතුරුපුවරුව විසන්ධි විය</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">ශබ්ද මාදිලිය, සමකරනය, සංවාද පැහැදිලි කිරීම සහ යෙදුම් මාදිලි</string>

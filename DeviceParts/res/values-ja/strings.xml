@@ -7,16 +7,15 @@
     <string name="app_name">デバイス機能</string>
 
     <string name="device_parts_title">デバイス機能</string>
-    <string name="device_parts_summary">パフォーマンス、タッチペン、タッチ操作、ドルビーアトモス、フォリオカバー</string>
-    <string name="display_parts_title">タッチペンとタッチ操作</string>
-    <string name="display_parts_summary">タッチペンのリフレッシュ レート、読書モードのリフレッシュ レート、タッチゲームモード</string>
+    <string name="device_parts_summary">パフォーマンス、アクセサリー、タッチ操作、ドルビーアトモス</string>
+    <string name="display_parts_title">リフレッシュ レートとタッチ操作</string>
+    <string name="display_parts_summary">読書モードのリフレッシュ レート、タッチゲームモード</string>
 
+    <string name="category_accessories_title">公式アクセサリー</string>
     <string name="category_display_title">リフレッシュ レート</string>
     <string name="category_touch_title">タッチ操作</string>
-    <string name="category_cover_title">フォリオカバー</string>
     <string name="category_audio_title">音声</string>
     <string name="category_perf_title">パフォーマンス</string>
-    <string name="category_pen_title">タッチペン</string>
 
     <string name="pen_refresh_cap_title">タッチペンの使用中は 120 Hz に制限</string>
     <string name="pen_refresh_cap_summary">アクティブペンは最大 120 Hz でのみ動作すると報告されています。最後にペンを入力してから 10 秒後に制限が解除されます。</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">フォリオカバーを閉じると画面を消灯してロックします</string>
     <string name="pen_notifications_title">タッチペンの接続通知</string>
     <string name="pen_notifications_summary">Lenovo のタッチペンが接続または切断されたときに通知を表示します</string>
+    <string name="keyboard_notifications_title">キーボードの接続通知</string>
+    <string name="keyboard_notifications_summary">Lenovo フォリオキーボードが接続または切断されたときに通知を表示します</string>
     <string name="pen_notification_channel">タッチペンの接続</string>
     <string name="pen_connected_title">タッチペンが接続されました</string>
     <string name="pen_disconnected_title">タッチペンが切断されました</string>
+    <string name="keyboard_notification_channel">キーボードの接続</string>
+    <string name="keyboard_connected_title">キーボードが接続されました</string>
+    <string name="keyboard_disconnected_title">キーボードが切断されました</string>
 
     <string name="dolby_title">ドルビーアトモス</string>
     <string name="dolby_summary">サウンドモード、イコライザー、セリフの強調、アプリモード</string>

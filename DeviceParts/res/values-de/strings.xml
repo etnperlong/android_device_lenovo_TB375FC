@@ -7,16 +7,15 @@
     <string name="app_name">Gerätefunktionen</string>
 
     <string name="device_parts_title">Gerätefunktionen</string>
-    <string name="device_parts_summary">Leistung, Eingabestift, Touch, Dolby Atmos und Foliohülle</string>
-    <string name="display_parts_title">Eingabestift und Touch</string>
-    <string name="display_parts_summary">Aktualisierungsrate für Eingabestift, Lesemodus und Touch-Spielmodus</string>
+    <string name="device_parts_summary">Leistung, Zubehör, Touch und Dolby Atmos</string>
+    <string name="display_parts_title">Aktualisierungsrate und Touch</string>
+    <string name="display_parts_summary">Aktualisierungsrate im Lesemodus, Touch-Spielmodus</string>
 
+    <string name="category_accessories_title">Offizielles Zubehör</string>
     <string name="category_display_title">Aktualisierungsrate</string>
     <string name="category_touch_title">Touch</string>
-    <string name="category_cover_title">Foliohülle</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Leistung</string>
-    <string name="category_pen_title">Eingabestift</string>
 
     <string name="pen_refresh_cap_title">Bei Verwendung des Eingabestifts auf 120 Hz begrenzen</string>
     <string name="pen_refresh_cap_summary">Laut Meldung unterstützt der aktive Eingabestift nur bis zu 120 Hz. 10 Sekunden nach der letzten Stifteingabe wird die Begrenzung aufgehoben.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Beim Schließen der Foliohülle in Ruhezustand versetzen und sperren</string>
     <string name="pen_notifications_title">Benachrichtigungen zur Stiftverbindung</string>
     <string name="pen_notifications_summary">Benachrichtigung anzeigen, wenn ein Lenovo-Eingabestift verbunden oder getrennt wird</string>
+    <string name="keyboard_notifications_title">Benachrichtigungen zur Tastaturverbindung</string>
+    <string name="keyboard_notifications_summary">Benachrichtigung anzeigen, wenn die Lenovo-Folio-Tastatur verbunden oder getrennt wird</string>
     <string name="pen_notification_channel">Stiftverbindung</string>
     <string name="pen_connected_title">Stift verbunden</string>
     <string name="pen_disconnected_title">Stift getrennt</string>
+    <string name="keyboard_notification_channel">Tastaturverbindung</string>
+    <string name="keyboard_connected_title">Tastatur verbunden</string>
+    <string name="keyboard_disconnected_title">Tastatur getrennt</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Klangmodus, Equalizer, Dialogoptimierung und App-Modi</string>

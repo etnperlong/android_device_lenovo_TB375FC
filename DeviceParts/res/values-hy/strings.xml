@@ -6,15 +6,14 @@
 <resources>
     <string name="app_name">Սարքի գործառույթներ</string>
     <string name="device_parts_title">Սարքի գործառույթներ</string>
-    <string name="device_parts_summary">Արտադրողականություն, ստիլուս, հպում, Dolby Atmos և ծալվող պատյան</string>
-    <string name="display_parts_title">Ստիլուս և հպում</string>
-    <string name="display_parts_summary">Ստիլուսի թարմացման հաճախականություն, ընթերցման ռեժիմի թարմացման հաճախականություն, հպման խաղային ռեժիմ</string>
+    <string name="device_parts_summary">Արտադրողականություն, աքսեսուարներ, հպում և Dolby Atmos</string>
+    <string name="display_parts_title">Թարմացման հաճախականություն և հպում</string>
+    <string name="display_parts_summary">Ընթերցման ռեժիմի թարմացման հաճախականություն, հպման խաղային ռեժիմ</string>
+    <string name="category_accessories_title">Պաշտոնական աքսեսուարներ</string>
     <string name="category_display_title">Թարմացման հաճախականություն</string>
     <string name="category_touch_title">Հպում</string>
-    <string name="category_cover_title">Ծալվող պատյան</string>
     <string name="category_audio_title">Ձայն</string>
     <string name="category_perf_title">Արտադրողականություն</string>
-    <string name="category_pen_title">Ստիլուս</string>
     <string name="pen_refresh_cap_title">Ստիլուսն օգտագործելիս սահմանափակել մինչև 120 Հց</string>
     <string name="pen_refresh_cap_summary">Ըստ տեղեկությունների՝ ակտիվ ստիլուսն աշխատում է առավելագույնը 120 Հց հաճախականությամբ։ Սահմանափակումը վերացվում է ստիլուսի վերջին մուտքագրումից 10 վայրկյան անց։</string>
     <string name="reading_low_refresh_title">30 Հց՝ ընթերցման ռեժիմում</string>
@@ -27,9 +26,14 @@
     <string name="smart_cover_summary">Ծալվող պատյանը փակելիս անջատել և կողպել էկրանը</string>
     <string name="pen_notifications_title">Ստիլուսի միացման ծանուցումներ</string>
     <string name="pen_notifications_summary">Ցուցադրել ծանուցում, երբ Lenovo ստիլուսը միանում կամ անջատվում է</string>
+    <string name="keyboard_notifications_title">Ստեղնաշարի միացման ծանուցումներ</string>
+    <string name="keyboard_notifications_summary">Ցուցադրել ծանուցում, երբ Lenovo ծալվող ստեղնաշարը միանում կամ անջատվում է</string>
     <string name="pen_notification_channel">Ստիլուսի միացում</string>
     <string name="pen_connected_title">Ստիլուսը միացված է</string>
     <string name="pen_disconnected_title">Ստիլուսն անջատված է</string>
+    <string name="keyboard_notification_channel">Ստեղնաշարի միացում</string>
+    <string name="keyboard_connected_title">Ստեղնաշարը միացված է</string>
+    <string name="keyboard_disconnected_title">Ստեղնաշարն անջատված է</string>
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Ձայնի ռեժիմ, հավասարեցուցիչ, երկխոսության ուժեղացում և հավելվածների ռեժիմներ</string>
     <string name="dolby_enable_title">Օգտագործել Dolby Atmos</string>

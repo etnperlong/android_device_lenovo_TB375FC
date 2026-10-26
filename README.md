@@ -99,7 +99,7 @@ transaction codes differ from the v34 `libbinder` these clients load, and it
 needs `Looper::repoll`, which the v34 `libutils` lacks.
 
 ### Device parts
-`DeviceParts` collects the device-specific settings below. All of them are on the "Device parts" entry of the Settings homepage; the pen and touch switches are also under Settings → Display → "Pen and touch", the Dolby settings under Settings → Sound → "Dolby Atmos", the performance profiles under Settings → Battery → "Performance profiles", and the cover switch on the lock screen settings page ("Smart cover"). The Quick Settings tiles show the same state.
+`DeviceParts` collects the device-specific settings below. All of them are on the "Device parts" entry of the Settings homepage, where the pen, folio keyboard and cover switches share the "Official accessories" category; the reading mode refresh rate and touch switches are also under Settings → Display → "Refresh rate and touch", the Dolby settings under Settings → Sound → "Dolby Atmos", the performance profiles under Settings → Battery → "Performance profiles", and the cover switch on the lock screen settings page ("Smart cover"). The Quick Settings tiles show the same state.
 
 ### Active pen
 The pen writes through the Novatek touch controller; Bluetooth only carries its buttons and battery level. The controller looks for the pen only while its pen mode is on: `nt36532.ko` takes the mode from `/proc/support_pen`, starts with it off, turns it off again after the boot firmware update, and re-sends the last value every time the screen turns on. Stock ZUI's `services.jar` (`BluetoothPenConnectPolicy`) switches it through the Lenovo touchscreen HAL when a Lenovo pen connects over Bluetooth HID; LineageOS has no such code, so without it the pen pairs but draws nothing.
@@ -136,6 +136,12 @@ touchscreen gesture handler, which has nothing to do without a
 turns on "Use on-screen keyboard" (`show_ime_with_hard_keyboard`) until the
 keyboard is folded back or goes away. Whether the firmware reports both scan
 codes still needs device validation.
+
+A notification also shows when the folio keyboard connects or disconnects
+("Keyboard connection notifications" in Device parts turns it off), following
+its `tn_keyboard` input device. `tn_keyboard.ko` cuts the keyboard's power a
+minute after the cover closes, so changes while the screen is off, and the
+reconnection that follows them, are not announced.
 
 ### Wi-Fi supplicant
 `wpa_supplicant` and `hostapd` are the stock MediaTek builds. Stock's

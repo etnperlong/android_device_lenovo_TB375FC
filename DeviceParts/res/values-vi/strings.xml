@@ -7,16 +7,15 @@
     <string name="app_name">Tính năng thiết bị</string>
 
     <string name="device_parts_title">Tính năng thiết bị</string>
-    <string name="device_parts_summary">Hiệu năng, bút cảm ứng, màn hình cảm ứng, Dolby Atmos và bao da</string>
-    <string name="display_parts_title">Bút cảm ứng và màn hình cảm ứng</string>
-    <string name="display_parts_summary">Tần số quét khi dùng bút, tần số quét ở chế độ đọc, chế độ chơi game cảm ứng</string>
+    <string name="device_parts_summary">Hiệu năng, phụ kiện, màn hình cảm ứng và Dolby Atmos</string>
+    <string name="display_parts_title">Tần số quét và màn hình cảm ứng</string>
+    <string name="display_parts_summary">Tần số quét ở chế độ đọc, chế độ chơi game cảm ứng</string>
 
+    <string name="category_accessories_title">Phụ kiện chính hãng</string>
     <string name="category_display_title">Tần số quét</string>
     <string name="category_touch_title">Cảm ứng</string>
-    <string name="category_cover_title">Bao da</string>
     <string name="category_audio_title">Âm thanh</string>
     <string name="category_perf_title">Hiệu năng</string>
-    <string name="category_pen_title">Bút</string>
 
     <string name="pen_refresh_cap_title">Giới hạn ở 120 Hz khi dùng bút</string>
     <string name="pen_refresh_cap_summary">Bút cảm ứng chủ động được cho là chỉ hoạt động ở tần số tối đa 120 Hz. Giới hạn sẽ được gỡ bỏ 10 giây sau lần dùng bút cuối cùng.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Tắt màn hình và khóa thiết bị khi đóng bao da</string>
     <string name="pen_notifications_title">Thông báo kết nối bút</string>
     <string name="pen_notifications_summary">Hiển thị thông báo khi bút Lenovo kết nối hoặc ngắt kết nối</string>
+    <string name="keyboard_notifications_title">Thông báo kết nối bàn phím</string>
+    <string name="keyboard_notifications_summary">Hiển thị thông báo khi bàn phím của bao da Lenovo kết nối hoặc ngắt kết nối</string>
     <string name="pen_notification_channel">Kết nối bút</string>
     <string name="pen_connected_title">Bút đã kết nối</string>
     <string name="pen_disconnected_title">Bút đã ngắt kết nối</string>
+    <string name="keyboard_notification_channel">Kết nối bàn phím</string>
+    <string name="keyboard_connected_title">Bàn phím đã kết nối</string>
+    <string name="keyboard_disconnected_title">Bàn phím đã ngắt kết nối</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Chế độ âm thanh, bộ chỉnh âm, tăng cường hội thoại và chế độ cho ứng dụng</string>

@@ -7,16 +7,15 @@
     <string name="app_name">Gailuaren eginbideak</string>
 
     <string name="device_parts_title">Gailuaren eginbideak</string>
-    <string name="device_parts_summary">Errendimendua, arkatza, ukipena, Dolby Atmos eta folio-estalkia</string>
-    <string name="display_parts_title">Arkatza eta ukipena</string>
-    <string name="display_parts_summary">Arkatzaren freskatze-abiadura, irakurketa-moduaren freskatze-abiadura, ukipeneko joko-modua</string>
+    <string name="device_parts_summary">Errendimendua, osagarriak, ukipena eta Dolby Atmos</string>
+    <string name="display_parts_title">Freskatze-abiadura eta ukipena</string>
+    <string name="display_parts_summary">Irakurketa-moduaren freskatze-abiadura, ukipeneko joko-modua</string>
 
+    <string name="category_accessories_title">Osagarri ofizialak</string>
     <string name="category_display_title">Freskatze-abiadura</string>
     <string name="category_touch_title">Ukipena</string>
-    <string name="category_cover_title">Folio-estalkia</string>
     <string name="category_audio_title">Audioa</string>
     <string name="category_perf_title">Errendimendua</string>
-    <string name="category_pen_title">Arkatza</string>
 
     <string name="pen_refresh_cap_title">Mugatu 120 Hz-era arkatza erabiltzean</string>
     <string name="pen_refresh_cap_summary">Arkatz aktiboak 120 Hz-era arte soilik funtzionatzen duela jakinarazi da. Muga azken arkatz-sarreratik 10 segundora kentzen da.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Lo egin eta blokeatu folio-estalkia ixten denean</string>
     <string name="pen_notifications_title">Arkatzaren konexio-jakinarazpenak</string>
     <string name="pen_notifications_summary">Erakutsi jakinarazpen bat Lenovo arkatza konektatzen edo deskonektatzen denean</string>
+    <string name="keyboard_notifications_title">Teklatuaren konexio-jakinarazpenak</string>
+    <string name="keyboard_notifications_summary">Erakutsi jakinarazpen bat Lenovo folio-teklatua konektatzen edo deskonektatzen denean</string>
     <string name="pen_notification_channel">Arkatzaren konexioa</string>
     <string name="pen_connected_title">Arkatza konektatuta</string>
     <string name="pen_disconnected_title">Arkatza deskonektatuta</string>
+    <string name="keyboard_notification_channel">Teklatuaren konexioa</string>
+    <string name="keyboard_connected_title">Teklatua konektatuta</string>
+    <string name="keyboard_disconnected_title">Teklatua deskonektatuta</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Soinu-modua, ekualizadorea, elkarrizketa-hobetzailea eta aplikazio-moduak</string>

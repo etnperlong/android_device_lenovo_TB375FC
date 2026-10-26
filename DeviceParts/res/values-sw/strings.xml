@@ -7,16 +7,15 @@
     <string name="app_name">Vipengele vya kifaa</string>
 
     <string name="device_parts_title">Vipengele vya kifaa</string>
-    <string name="device_parts_summary">Utendaji, kalamu ya kielektroniki, mguso, Dolby Atmos na jalada</string>
-    <string name="display_parts_title">Kalamu ya kielektroniki na mguso</string>
-    <string name="display_parts_summary">Kiwango cha kuonyesha upya cha kalamu, kiwango cha kuonyesha upya cha hali ya kusoma, hali ya mchezo ya mguso</string>
+    <string name="device_parts_summary">Utendaji, vifuasi, mguso na Dolby Atmos</string>
+    <string name="display_parts_title">Kiwango cha kuonyesha upya na mguso</string>
+    <string name="display_parts_summary">Kiwango cha kuonyesha upya katika hali ya kusoma, hali ya mchezo ya mguso</string>
 
+    <string name="category_accessories_title">Vifuasi rasmi</string>
     <string name="category_display_title">Kiwango cha kuonyesha upya</string>
     <string name="category_touch_title">Mguso</string>
-    <string name="category_cover_title">Jalada</string>
     <string name="category_audio_title">Sauti</string>
     <string name="category_perf_title">Utendaji</string>
-    <string name="category_pen_title">Kalamu</string>
 
     <string name="pen_refresh_cap_title">Weka kikomo cha Hz 120 unapotumia kalamu</string>
     <string name="pen_refresh_cap_summary">Kalamu inayotumika inaripotiwa kufanya kazi hadi Hz 120 pekee. Kikomo huondolewa sekunde 10 baada ya kitendo cha mwisho cha kalamu.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Zima skrini na uifunge jalada linapofungwa</string>
     <string name="pen_notifications_title">Arifa za muunganisho wa kalamu</string>
     <string name="pen_notifications_summary">Onyesha arifa kalamu ya Lenovo inapounganishwa au kukatwa</string>
+    <string name="keyboard_notifications_title">Arifa za muunganisho wa kibodi</string>
+    <string name="keyboard_notifications_summary">Onyesha arifa kibodi ya jalada la Lenovo inapounganishwa au kukatwa</string>
     <string name="pen_notification_channel">Muunganisho wa kalamu</string>
     <string name="pen_connected_title">Kalamu imeunganishwa</string>
     <string name="pen_disconnected_title">Kalamu imekatwa</string>
+    <string name="keyboard_notification_channel">Muunganisho wa kibodi</string>
+    <string name="keyboard_connected_title">Kibodi imeunganishwa</string>
+    <string name="keyboard_disconnected_title">Kibodi imekatwa</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Hali ya sauti, kusawazisha sauti, kuboresha mazungumzo na hali za programu</string>

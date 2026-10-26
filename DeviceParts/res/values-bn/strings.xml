@@ -7,16 +7,15 @@
     <string name="app_name">ডিভাইসের ফিচার</string>
 
     <string name="device_parts_title">ডিভাইসের ফিচার</string>
-    <string name="device_parts_summary">পারফরম্যান্স, স্টাইলাস, টাচ, Dolby Atmos ও ফোলিও কভার</string>
-    <string name="display_parts_title">স্টাইলাস ও টাচ</string>
-    <string name="display_parts_summary">স্টাইলাস রিফ্রেশ রেট, রিডিং মোডের রিফ্রেশ রেট, টাচ গেম মোড</string>
+    <string name="device_parts_summary">পারফরম্যান্স, আনুষঙ্গিক সামগ্রী, টাচ ও Dolby Atmos</string>
+    <string name="display_parts_title">রিফ্রেশ রেট ও টাচ</string>
+    <string name="display_parts_summary">রিডিং মোডের রিফ্রেশ রেট, টাচ গেম মোড</string>
 
+    <string name="category_accessories_title">অফিশিয়াল আনুষঙ্গিক সামগ্রী</string>
     <string name="category_display_title">রিফ্রেশ রেট</string>
     <string name="category_touch_title">টাচ</string>
-    <string name="category_cover_title">ফোলিও কভার</string>
     <string name="category_audio_title">অডিও</string>
     <string name="category_perf_title">পারফরম্যান্স</string>
-    <string name="category_pen_title">স্টাইলাস</string>
 
     <string name="pen_refresh_cap_title">স্টাইলাস ব্যবহার করার সময় 120 Hz-এ সীমিত করুন</string>
     <string name="pen_refresh_cap_summary">অ্যাক্টিভ স্টাইলাসটি সর্বোচ্চ 120 Hz পর্যন্ত কাজ করে। স্টাইলাস দিয়ে শেষবার ইনপুট দেওয়ার 10 সেকেন্ড পরে সীমাটি উঠে যাবে।</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">ফোলিও কভার বন্ধ করলে ডিভাইস স্লিপ ও লক করুন</string>
     <string name="pen_notifications_title">স্টাইলাস সংযোগের বিজ্ঞপ্তি</string>
     <string name="pen_notifications_summary">Lenovo স্টাইলাস সংযুক্ত বা বিচ্ছিন্ন হলে বিজ্ঞপ্তি দেখান</string>
+    <string name="keyboard_notifications_title">কীবোর্ড সংযোগের বিজ্ঞপ্তি</string>
+    <string name="keyboard_notifications_summary">Lenovo ফোলিও কীবোর্ড সংযুক্ত বা বিচ্ছিন্ন হলে বিজ্ঞপ্তি দেখান</string>
     <string name="pen_notification_channel">স্টাইলাস সংযোগ</string>
     <string name="pen_connected_title">স্টাইলাস সংযুক্ত</string>
     <string name="pen_disconnected_title">স্টাইলাস বিচ্ছিন্ন</string>
+    <string name="keyboard_notification_channel">কীবোর্ড সংযোগ</string>
+    <string name="keyboard_connected_title">কীবোর্ড সংযুক্ত</string>
+    <string name="keyboard_disconnected_title">কীবোর্ড বিচ্ছিন্ন</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">সাউন্ড মোড, ইকুয়ালাইজার, ডায়ালগ এনহ্যান্সার ও অ্যাপ মোড</string>

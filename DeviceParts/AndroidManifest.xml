@@ -192,6 +192,10 @@
             android:exported="false" />
 
         <service
+            android:name=".keyboard.KeyboardService"
+            android:exported="false" />
+
+        <service
             android:name=".display.ReadingLowRefreshTile"
             android:exported="true"
             android:label="@string/tile_reading_low_refresh"

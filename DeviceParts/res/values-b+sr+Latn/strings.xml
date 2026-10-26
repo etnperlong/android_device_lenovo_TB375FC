@@ -7,16 +7,15 @@
     <string name="app_name">Funkcije uređaja</string>
 
     <string name="device_parts_title">Funkcije uređaja</string>
-    <string name="device_parts_summary">Performanse, olovka, ekran osetljiv na dodir, Dolby Atmos i futrola</string>
-    <string name="display_parts_title">Olovka i ekran osetljiv na dodir</string>
-    <string name="display_parts_summary">Brzina osvežavanja za olovku i režim čitanja, režim za igre ekrana osetljivog na dodir</string>
+    <string name="device_parts_summary">Performanse, dodaci, dodir i Dolby Atmos</string>
+    <string name="display_parts_title">Brzina osvežavanja i dodir</string>
+    <string name="display_parts_summary">Brzina osvežavanja u režimu čitanja, režim za igre ekrana osetljivog na dodir</string>
 
+    <string name="category_accessories_title">Zvanična dodatna oprema</string>
     <string name="category_display_title">Brzina osvežavanja</string>
     <string name="category_touch_title">Ekran osetljiv na dodir</string>
-    <string name="category_cover_title">Futrola na preklop</string>
     <string name="category_audio_title">Zvuk</string>
     <string name="category_perf_title">Performanse</string>
-    <string name="category_pen_title">Olovka</string>
 
     <string name="pen_refresh_cap_title">Ograniči na 120 Hz pri korišćenju olovke</string>
     <string name="pen_refresh_cap_summary">Aktivna olovka, prema navodima, radi samo do 120 Hz. Ograničenje se uklanja 10 sekundi nakon poslednjeg unosa olovkom.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Isključi ekran i zaključaj uređaj kada se zatvori futrola na preklop</string>
     <string name="pen_notifications_title">Obaveštenja o povezivanju olovke</string>
     <string name="pen_notifications_summary">Prikaži obaveštenje kada se Lenovo olovka poveže ili prekine vezu</string>
+    <string name="keyboard_notifications_title">Obaveštenja o povezivanju tastature</string>
+    <string name="keyboard_notifications_summary">Prikaži obaveštenje kada se Lenovo tastatura u futroli na preklop poveže ili prekine veza</string>
     <string name="pen_notification_channel">Povezivanje olovke</string>
     <string name="pen_connected_title">Olovka je povezana</string>
     <string name="pen_disconnected_title">Olovka je prekinula vezu</string>
+    <string name="keyboard_notification_channel">Povezivanje tastature</string>
+    <string name="keyboard_connected_title">Tastatura je povezana</string>
+    <string name="keyboard_disconnected_title">Tastatura je prekinula vezu</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Režim zvuka, ekvilajzer, poboljšanje dijaloga i režimi aplikacija</string>

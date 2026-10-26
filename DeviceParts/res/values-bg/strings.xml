@@ -7,16 +7,15 @@
     <string name="app_name">Функции на устройството</string>
 
     <string name="device_parts_title">Функции на устройството</string>
-    <string name="device_parts_summary">Производителност, стилус, сензорен екран, Dolby Atmos и калъф</string>
-    <string name="display_parts_title">Стилус и сензорен екран</string>
-    <string name="display_parts_summary">Честота на опресняване за стилуса и режима на четене, игрови режим на сензорния екран</string>
+    <string name="device_parts_summary">Производителност, аксесоари, сензорен екран и Dolby Atmos</string>
+    <string name="display_parts_title">Честота на опресняване и сензорен екран</string>
+    <string name="display_parts_summary">Честота на опресняване в режим на четене, игрови режим на сензорния екран</string>
 
+    <string name="category_accessories_title">Официални аксесоари</string>
     <string name="category_display_title">Честота на опресняване</string>
     <string name="category_touch_title">Сензорен екран</string>
-    <string name="category_cover_title">Калъф-книга</string>
     <string name="category_audio_title">Аудио</string>
     <string name="category_perf_title">Производителност</string>
-    <string name="category_pen_title">Стилус</string>
 
     <string name="pen_refresh_cap_title">Ограничаване до 120 Гц при използване на стилуса</string>
     <string name="pen_refresh_cap_summary">Според съобщенията активният стилус работи само до 120 Гц. Ограничението се премахва 10 секунди след последното въвеждане със стилуса.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Изключване на екрана и заключване при затваряне на калъфа-книга</string>
     <string name="pen_notifications_title">Известия за свързване на стилус</string>
     <string name="pen_notifications_summary">Показване на известие при свързване или прекъсване на връзката със стилус Lenovo</string>
+    <string name="keyboard_notifications_title">Известия за свързване на клавиатура</string>
+    <string name="keyboard_notifications_summary">Показване на известие при свързване или прекъсване на връзката с клавиатурата на калъфа Lenovo</string>
     <string name="pen_notification_channel">Свързване на стилус</string>
     <string name="pen_connected_title">Стилусът е свързан</string>
     <string name="pen_disconnected_title">Стилусът е изключен</string>
+    <string name="keyboard_notification_channel">Свързване на клавиатурата</string>
+    <string name="keyboard_connected_title">Клавиатурата е свързана</string>
+    <string name="keyboard_disconnected_title">Връзката с клавиатурата е прекъсната</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Звуков режим, еквалайзер, подобряване на диалога и режими за приложения</string>

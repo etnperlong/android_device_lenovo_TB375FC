@@ -7,16 +7,15 @@
     <string name="app_name">Функцыі прылады</string>
 
     <string name="device_parts_title">Функцыі прылады</string>
-    <string name="device_parts_summary">Прадукцыйнасць, стылус, сэнсарны экран, Dolby Atmos і чахол</string>
-    <string name="display_parts_title">Стылус і сэнсарны экран</string>
-    <string name="display_parts_summary">Частата абнаўлення для стылуса і рэжыму чытання, гульнявы рэжым сэнсарнага экрана</string>
+    <string name="device_parts_summary">Прадукцыйнасць, аксесуары, сэнсарны экран і Dolby Atmos</string>
+    <string name="display_parts_title">Частата абнаўлення і сэнсарны экран</string>
+    <string name="display_parts_summary">Частата абнаўлення ў рэжыме чытання, гульнявы рэжым сэнсарнага экрана</string>
 
+    <string name="category_accessories_title">Афіцыйныя аксесуары</string>
     <string name="category_display_title">Частата абнаўлення</string>
     <string name="category_touch_title">Сэнсарны экран</string>
-    <string name="category_cover_title">Чахол-кніжка</string>
     <string name="category_audio_title">Аўдыя</string>
     <string name="category_perf_title">Прадукцыйнасць</string>
-    <string name="category_pen_title">Стылус</string>
 
     <string name="pen_refresh_cap_title">Абмежаваць да 120 Гц пры выкарыстанні стылуса</string>
     <string name="pen_refresh_cap_summary">Паводле звестак, актыўны стылус працуе толькі на частаце да 120 Гц. Абмежаванне здымаецца праз 10 секунд пасля апошняга ўводу стылусам.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Выключаць экран і блакіраваць прыладу пры закрыцці чахла-кніжкі</string>
     <string name="pen_notifications_title">Апавяшчэнні аб падключэнні стылуса</string>
     <string name="pen_notifications_summary">Паказваць апавяшчэнне пры падключэнні або адключэнні стылуса Lenovo</string>
+    <string name="keyboard_notifications_title">Апавяшчэнні аб падключэнні клавіятуры</string>
+    <string name="keyboard_notifications_summary">Паказваць апавяшчэнне пры падключэнні або адключэнні клавіятуры Lenovo</string>
     <string name="pen_notification_channel">Падключэнне стылуса</string>
     <string name="pen_connected_title">Стылус падключаны</string>
     <string name="pen_disconnected_title">Стылус адключаны</string>
+    <string name="keyboard_notification_channel">Падключэнне клавіятуры</string>
+    <string name="keyboard_connected_title">Клавіятура падключана</string>
+    <string name="keyboard_disconnected_title">Клавіятура адключана</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Рэжым гуку, эквалайзер, узмацненне дыялогаў і рэжымы праграм</string>

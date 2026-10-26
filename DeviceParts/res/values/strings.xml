@@ -8,16 +8,15 @@
 
     <!-- Settings entry points -->
     <string name="device_parts_title">Device parts</string>
-    <string name="device_parts_summary">Performance, pen, touch, Dolby Atmos and folio cover</string>
-    <string name="display_parts_title">Pen and touch</string>
-    <string name="display_parts_summary">Pen refresh rate, reading mode refresh rate, touch game mode</string>
+    <string name="device_parts_summary">Performance, accessories, touch and Dolby Atmos</string>
+    <string name="display_parts_title">Refresh rate and touch</string>
+    <string name="display_parts_summary">Reading mode refresh rate, touch game mode</string>
 
+    <string name="category_accessories_title">Official accessories</string>
     <string name="category_display_title">Refresh rate</string>
     <string name="category_touch_title">Touch</string>
-    <string name="category_cover_title">Folio cover</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Performance</string>
-    <string name="category_pen_title">Pen</string>
 
     <string name="pen_refresh_cap_title">Limit to 120 Hz while using the pen</string>
     <string name="pen_refresh_cap_summary">The active pen is reported to work only up to 120 Hz. The limit lifts 10 seconds after the last pen input.</string>
@@ -31,11 +30,18 @@
     <string name="smart_cover_summary">Sleep and lock when the folio cover is closed</string>
     <string name="pen_notifications_title">Pen connection notifications</string>
     <string name="pen_notifications_summary">Show a notification when a Lenovo pen connects or disconnects</string>
+    <string name="keyboard_notifications_title">Keyboard connection notifications</string>
+    <string name="keyboard_notifications_summary">Show a notification when the Lenovo folio keyboard connects or disconnects</string>
 
     <!-- Pen notifications -->
     <string name="pen_notification_channel">Pen connection</string>
     <string name="pen_connected_title">Pen connected</string>
     <string name="pen_disconnected_title">Pen disconnected</string>
+
+    <!-- Keyboard notifications -->
+    <string name="keyboard_notification_channel">Keyboard connection</string>
+    <string name="keyboard_connected_title">Keyboard connected</string>
+    <string name="keyboard_disconnected_title">Keyboard disconnected</string>
 
     <!-- Dolby Atmos -->
     <string name="dolby_title">Dolby Atmos</string>

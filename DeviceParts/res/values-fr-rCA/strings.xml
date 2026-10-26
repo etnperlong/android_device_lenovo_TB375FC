@@ -7,16 +7,15 @@
     <string name="app_name">Fonctions de l’appareil</string>
 
     <string name="device_parts_title">Fonctions de l’appareil</string>
-    <string name="device_parts_summary">Performance, stylet, tactile, Dolby Atmos et étui à rabat</string>
-    <string name="display_parts_title">Stylet et tactile</string>
-    <string name="display_parts_summary">Taux de rafraîchissement du stylet et du mode Lecture, mode jeu tactile</string>
+    <string name="device_parts_summary">Performance, accessoires, tactile et Dolby Atmos</string>
+    <string name="display_parts_title">Taux de rafraîchissement et tactile</string>
+    <string name="display_parts_summary">Taux de rafraîchissement du mode Lecture, mode jeu tactile</string>
 
+    <string name="category_accessories_title">Accessoires officiels</string>
     <string name="category_display_title">Taux de rafraîchissement</string>
     <string name="category_touch_title">Tactile</string>
-    <string name="category_cover_title">Étui à rabat</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Performance</string>
-    <string name="category_pen_title">Stylet</string>
 
     <string name="pen_refresh_cap_title">Limiter à 120 Hz lors de l’utilisation du stylet</string>
     <string name="pen_refresh_cap_summary">Le stylet actif fonctionne seulement jusqu’à 120 Hz. La limite est levée 10 secondes après la dernière utilisation du stylet.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Mettre en veille et verrouiller lorsque l’étui à rabat est fermé</string>
     <string name="pen_notifications_title">Notifications de connexion du stylet</string>
     <string name="pen_notifications_summary">Afficher une notification lorsqu’un stylet Lenovo se connecte ou se déconnecte</string>
+    <string name="keyboard_notifications_title">Notifications de connexion du clavier</string>
+    <string name="keyboard_notifications_summary">Afficher une notification lorsque le clavier de l’étui à rabat Lenovo se connecte ou se déconnecte</string>
     <string name="pen_notification_channel">Connexion du stylet</string>
     <string name="pen_connected_title">Stylet connecté</string>
     <string name="pen_disconnected_title">Stylet déconnecté</string>
+    <string name="keyboard_notification_channel">Connexion du clavier</string>
+    <string name="keyboard_connected_title">Clavier connecté</string>
+    <string name="keyboard_disconnected_title">Clavier déconnecté</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Mode sonore, égaliseur, amélioration des dialogues et modes par appli</string>

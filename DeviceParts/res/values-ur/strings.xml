@@ -7,16 +7,15 @@
     <string name="app_name">آلہ کی خصوصیات</string>
 
     <string name="device_parts_title">آلہ کی خصوصیات</string>
-    <string name="device_parts_summary">کارکردگی، اسٹائلس، ٹچ، Dolby Atmos اور فولیو کور</string>
-    <string name="display_parts_title">اسٹائلس اور ٹچ</string>
-    <string name="display_parts_summary">اسٹائلس ریفریش ریٹ، مطالعہ موڈ ریفریش ریٹ، ٹچ گیم موڈ</string>
+    <string name="device_parts_summary">کارکردگی، لوازمات، ٹچ اور Dolby Atmos</string>
+    <string name="display_parts_title">ریفریش ریٹ اور ٹچ</string>
+    <string name="display_parts_summary">مطالعہ موڈ ریفریش ریٹ، ٹچ گیم موڈ</string>
 
+    <string name="category_accessories_title">سرکاری لوازمات</string>
     <string name="category_display_title">ریفریش ریٹ</string>
     <string name="category_touch_title">ٹچ</string>
-    <string name="category_cover_title">فولیو کور</string>
     <string name="category_audio_title">آڈیو</string>
     <string name="category_perf_title">کارکردگی</string>
-    <string name="category_pen_title">اسٹائلس</string>
 
     <string name="pen_refresh_cap_title">اسٹائلس استعمال کرتے وقت 120 Hz تک محدود کریں</string>
     <string name="pen_refresh_cap_summary">فعال اسٹائلس کے بارے میں بتایا گیا ہے کہ یہ صرف 120 Hz تک کام کرتا ہے۔ آخری اسٹائلس اِن پٹ کے 10 سیکنڈ بعد حد ہٹا دی جاتی ہے۔</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">فولیو کور بند ہونے پر اسکرین کو سلیپ اور لاک کریں</string>
     <string name="pen_notifications_title">اسٹائلس کنکشن کی اطلاعات</string>
     <string name="pen_notifications_summary">Lenovo اسٹائلس کے کنیکٹ یا ڈسکنیکٹ ہونے پر اطلاع دکھائیں</string>
+    <string name="keyboard_notifications_title">کی بورڈ کنکشن کی اطلاعات</string>
+    <string name="keyboard_notifications_summary">Lenovo فولیو کی بورڈ کے کنیکٹ یا ڈسکنیکٹ ہونے پر اطلاع دکھائیں</string>
     <string name="pen_notification_channel">اسٹائلس کنکشن</string>
     <string name="pen_connected_title">اسٹائلس کنیکٹ ہو گیا</string>
     <string name="pen_disconnected_title">اسٹائلس ڈسکنیکٹ ہو گیا</string>
+    <string name="keyboard_notification_channel">کی بورڈ کنکشن</string>
+    <string name="keyboard_connected_title">کی بورڈ کنیکٹ ہو گیا</string>
+    <string name="keyboard_disconnected_title">کی بورڈ ڈسکنیکٹ ہو گیا</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">ساؤنڈ موڈ، ایکولائزر، ڈائیلاگ انہینسر اور ایپ موڈز</string>

@@ -7,16 +7,15 @@
     <string name="app_name">设备功能</string>
 
     <string name="device_parts_title">设备功能</string>
-    <string name="device_parts_summary">性能、手写笔、触控、杜比全景声与皮套</string>
-    <string name="display_parts_title">手写笔与触控</string>
-    <string name="display_parts_summary">手写笔刷新率、阅读模式刷新率、触控游戏模式</string>
+    <string name="device_parts_summary">性能、配件、触控与杜比全景声</string>
+    <string name="display_parts_title">刷新率与触控</string>
+    <string name="display_parts_summary">阅读模式刷新率、触控游戏模式</string>
 
+    <string name="category_accessories_title">官方配件</string>
     <string name="category_display_title">刷新率</string>
     <string name="category_touch_title">触控</string>
-    <string name="category_cover_title">皮套</string>
     <string name="category_audio_title">音频</string>
     <string name="category_perf_title">性能</string>
-    <string name="category_pen_title">手写笔</string>
 
     <string name="pen_refresh_cap_title">使用手写笔时限制为 120 Hz</string>
     <string name="pen_refresh_cap_summary">主动笔据称最高只支持 120 Hz。最后一次笔输入 10 秒后解除限制。</string>
@@ -30,9 +29,15 @@
     <string name="smart_cover_summary">合上皮套时息屏并锁定</string>
     <string name="pen_notifications_title">手写笔连接通知</string>
     <string name="pen_notifications_summary">Lenovo 手写笔连接或断开时显示通知</string>
+    <string name="keyboard_notifications_title">键盘连接通知</string>
+    <string name="keyboard_notifications_summary">Lenovo 皮套键盘连接或断开时显示通知</string>
     <string name="pen_notification_channel">手写笔连接</string>
     <string name="pen_connected_title">手写笔已连接</string>
     <string name="pen_disconnected_title">手写笔已断开</string>
+
+    <string name="keyboard_notification_channel">键盘连接</string>
+    <string name="keyboard_connected_title">键盘已连接</string>
+    <string name="keyboard_disconnected_title">键盘已断开</string>
 
     <string name="dolby_title">杜比全景声</string>
     <string name="dolby_summary">音效模式、均衡器、对白增强器与应用模式</string>

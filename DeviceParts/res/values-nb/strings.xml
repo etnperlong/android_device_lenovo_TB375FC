@@ -7,16 +7,15 @@
     <string name="app_name">Enhetsfunksjoner</string>
 
     <string name="device_parts_title">Enhetsfunksjoner</string>
-    <string name="device_parts_summary">Ytelse, pekepenn, berøring, Dolby Atmos og foliodeksel</string>
-    <string name="display_parts_title">Pekepenn og berøring</string>
-    <string name="display_parts_summary">Pekepennens oppdateringsfrekvens, oppdateringsfrekvens i lesemodus, berøringsspillmodus</string>
+    <string name="device_parts_summary">Ytelse, tilbehør, berøring og Dolby Atmos</string>
+    <string name="display_parts_title">Oppdateringsfrekvens og berøring</string>
+    <string name="display_parts_summary">Oppdateringsfrekvens i lesemodus, berøringsspillmodus</string>
 
+    <string name="category_accessories_title">Offisielt tilbehør</string>
     <string name="category_display_title">Oppdateringsfrekvens</string>
     <string name="category_touch_title">Berøring</string>
-    <string name="category_cover_title">Foliodeksel</string>
     <string name="category_audio_title">Lyd</string>
     <string name="category_perf_title">Ytelse</string>
-    <string name="category_pen_title">Pekepenn</string>
 
     <string name="pen_refresh_cap_title">Begrens til 120 Hz når pekepennen brukes</string>
     <string name="pen_refresh_cap_summary">Det rapporteres at den aktive pekepennen bare fungerer opptil 120 Hz. Grensen oppheves 10 sekunder etter siste inndata med pekepennen.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Slå av skjermen og lås når foliodekselet lukkes</string>
     <string name="pen_notifications_title">Varsler om pennetilkobling</string>
     <string name="pen_notifications_summary">Vis et varsel når en Lenovo-pekepenn kobles til eller fra</string>
+    <string name="keyboard_notifications_title">Varsler om tastaturtilkobling</string>
+    <string name="keyboard_notifications_summary">Vis et varsel når tastaturet i Lenovo-foliodekselet kobles til eller fra</string>
     <string name="pen_notification_channel">Pennetilkobling</string>
     <string name="pen_connected_title">Pekepenn tilkoblet</string>
     <string name="pen_disconnected_title">Pekepenn frakoblet</string>
+    <string name="keyboard_notification_channel">Tastaturtilkobling</string>
+    <string name="keyboard_connected_title">Tastatur tilkoblet</string>
+    <string name="keyboard_disconnected_title">Tastatur frakoblet</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Lydmodus, equalizer, dialogforbedring og appmoduser</string>

@@ -7,16 +7,15 @@
     <string name="app_name">Funkcie zariadenia</string>
 
     <string name="device_parts_title">Funkcie zariadenia</string>
-    <string name="device_parts_summary">Výkon, dotykové pero, dotyk, Dolby Atmos a puzdro s klopou</string>
-    <string name="display_parts_title">Dotykové pero a dotyk</string>
-    <string name="display_parts_summary">Frekvencia obnovenia pri používaní pera a režimu čítania, herný režim dotyku</string>
+    <string name="device_parts_summary">Výkon, príslušenstvo, dotyk a Dolby Atmos</string>
+    <string name="display_parts_title">Obnovovacia frekvencia a dotyk</string>
+    <string name="display_parts_summary">Obnovovacia frekvencia v režime čítania, herný režim dotyku</string>
 
+    <string name="category_accessories_title">Oficiálne príslušenstvo</string>
     <string name="category_display_title">Frekvencia obnovenia</string>
     <string name="category_touch_title">Dotyk</string>
-    <string name="category_cover_title">Puzdro s klopou</string>
     <string name="category_audio_title">Zvuk</string>
     <string name="category_perf_title">Výkon</string>
-    <string name="category_pen_title">Dotykové pero</string>
 
     <string name="pen_refresh_cap_title">Obmedziť na 120 Hz pri používaní dotykového pera</string>
     <string name="pen_refresh_cap_summary">Aktívne pero údajne podporuje maximálne 120 Hz. Obmedzenie sa zruší 10 sekúnd po poslednom použití pera.</string>
@@ -30,9 +29,15 @@
     <string name="smart_cover_summary">Po zatvorení puzdra zariadenie uspí a uzamkne</string>
     <string name="pen_notifications_title">Upozornenia o pripojení dotykového pera</string>
     <string name="pen_notifications_summary">Zobraziť upozornenie pri pripojení alebo odpojení dotykového pera Lenovo</string>
+    <string name="keyboard_notifications_title">Upozornenia o pripojení klávesnice</string>
+    <string name="keyboard_notifications_summary">Zobraziť upozornenie pri pripojení alebo odpojení klávesnice Lenovo v puzdre</string>
     <string name="pen_notification_channel">Pripojenie dotykového pera</string>
     <string name="pen_connected_title">Dotykové pero pripojené</string>
     <string name="pen_disconnected_title">Dotykové pero odpojené</string>
+
+    <string name="keyboard_notification_channel">Pripojenie klávesnice</string>
+    <string name="keyboard_connected_title">Klávesnica pripojená</string>
+    <string name="keyboard_disconnected_title">Klávesnica odpojená</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Zvukový režim, ekvalizér, zvýraznenie dialógov a režimy aplikácií</string>

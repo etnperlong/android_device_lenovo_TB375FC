@@ -7,16 +7,15 @@
     <string name="app_name">Enhedsfunktioner</string>
 
     <string name="device_parts_title">Enhedsfunktioner</string>
-    <string name="device_parts_summary">Ydeevne, pen, berøring, Dolby Atmos og folioetui</string>
-    <string name="display_parts_title">Pen og berøring</string>
-    <string name="display_parts_summary">Pennens opdateringshastighed, opdateringshastighed i læsetilstand, berøringsspiltilstand</string>
+    <string name="device_parts_summary">Ydeevne, tilbehør, berøring og Dolby Atmos</string>
+    <string name="display_parts_title">Opdateringshastighed og berøring</string>
+    <string name="display_parts_summary">Opdateringshastighed i læsetilstand, berøringsspiltilstand</string>
 
+    <string name="category_accessories_title">Officielt tilbehør</string>
     <string name="category_display_title">Opdateringshastighed</string>
     <string name="category_touch_title">Berøring</string>
-    <string name="category_cover_title">Folioetui</string>
     <string name="category_audio_title">Lyd</string>
     <string name="category_perf_title">Ydeevne</string>
-    <string name="category_pen_title">Pen</string>
 
     <string name="pen_refresh_cap_title">Begræns til 120 Hz ved brug af pennen</string>
     <string name="pen_refresh_cap_summary">Den aktive pen understøtter efter sigende kun op til 120 Hz. Grænsen ophæves 10 sekunder efter det sidste input med pennen.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Sluk skærmen og lås, når folioetuiet lukkes</string>
     <string name="pen_notifications_title">Meddelelser om penforbindelse</string>
     <string name="pen_notifications_summary">Vis en meddelelse, når en Lenovo-pen opretter eller afbryder forbindelsen</string>
+    <string name="keyboard_notifications_title">Meddelelser om tastaturforbindelse</string>
+    <string name="keyboard_notifications_summary">Vis en meddelelse, når Lenovo-folioetuiets tastatur opretter eller afbryder forbindelsen</string>
     <string name="pen_notification_channel">Penforbindelse</string>
     <string name="pen_connected_title">Pen tilsluttet</string>
     <string name="pen_disconnected_title">Pen afbrudt</string>
+    <string name="keyboard_notification_channel">Tastaturforbindelse</string>
+    <string name="keyboard_connected_title">Tastatur tilsluttet</string>
+    <string name="keyboard_disconnected_title">Tastatur afbrudt</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Lydtilstand, equalizer, dialogforbedring og apptilstande</string>

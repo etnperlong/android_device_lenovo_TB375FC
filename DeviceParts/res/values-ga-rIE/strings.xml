@@ -7,16 +7,15 @@
     <string name="app_name">Gnéithe an ghléis</string>
 
     <string name="device_parts_title">Gnéithe an ghléis</string>
-    <string name="device_parts_summary">Feidhmíocht, peann, tadhaill, Dolby Atmos agus clúdach fillte</string>
-    <string name="display_parts_title">Peann agus tadhaill</string>
-    <string name="display_parts_summary">Ráta athnuachana an phinn, ráta athnuachana an mhóid léimh, mód cluiche tadhaill</string>
+    <string name="device_parts_summary">Feidhmíocht, oiriúintí, tadhaill agus Dolby Atmos</string>
+    <string name="display_parts_title">Ráta athnuachana agus tadhaill</string>
+    <string name="display_parts_summary">Ráta athnuachana an mhóid léimh, mód cluiche tadhaill</string>
 
+    <string name="category_accessories_title">Gabhálais oifigiúla</string>
     <string name="category_display_title">Ráta athnuachana</string>
     <string name="category_touch_title">Tadhaill</string>
-    <string name="category_cover_title">Clúdach fillte</string>
     <string name="category_audio_title">Fuaim</string>
     <string name="category_perf_title">Feidhmíocht</string>
-    <string name="category_pen_title">Peann</string>
 
     <string name="pen_refresh_cap_title">Teorannaigh go 120 Hz agus an peann in úsáid</string>
     <string name="pen_refresh_cap_summary">Ní oibríonn an peann gníomhach ach suas le 120 Hz. Baintear an teorainn 10 soicind tar éis ionchur an phinn dheireanaigh.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Cuir ar suan agus glas nuair a bhíonn an clúdach fillte dúnta</string>
     <string name="pen_notifications_title">Fógraí maidir le nasc an phinn</string>
     <string name="pen_notifications_summary">Taispeáin fógra nuair a nascann peann Lenovo nó nuair a dhínascann sé</string>
+    <string name="keyboard_notifications_title">Fógraí maidir le nasc an mhéarchláir</string>
+    <string name="keyboard_notifications_summary">Taispeáin fógra nuair a nascann méarchlár an chlúdaigh fhillte Lenovo nó nuair a dhínascann sé</string>
     <string name="pen_notification_channel">Nasc peann</string>
     <string name="pen_connected_title">Tá an peann nasctha</string>
     <string name="pen_disconnected_title">Tá an peann dícheangailte</string>
+    <string name="keyboard_notification_channel">Nasc méarchláir</string>
+    <string name="keyboard_connected_title">Tá an méarchlár nasctha</string>
+    <string name="keyboard_disconnected_title">Tá an méarchlár dícheangailte</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Mód fuaime, cothromóir, feabhsaitheoir dialóige agus móid aipeanna</string>

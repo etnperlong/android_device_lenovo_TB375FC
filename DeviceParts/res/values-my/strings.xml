@@ -7,16 +7,15 @@
     <string name="app_name">စက်ပစ္စည်းလုပ်ဆောင်ချက်များ</string>
 
     <string name="device_parts_title">စက်ပစ္စည်းလုပ်ဆောင်ချက်များ</string>
-    <string name="device_parts_summary">စွမ်းဆောင်ရည်၊ စတိုင်လပ်စ်၊ ထိတွေ့မျက်နှာပြင်၊ Dolby Atmos နှင့် ခေါက်ဖုံး</string>
-    <string name="display_parts_title">စတိုင်လပ်စ်နှင့် ထိတွေ့မှု</string>
-    <string name="display_parts_summary">စတိုင်လပ်စ်အသုံးပြုချိန် ပြန်လည်စတင်နှုန်း၊ စာဖတ်မုဒ် ပြန်လည်စတင်နှုန်း၊ ထိတွေ့ဂိမ်းမုဒ်</string>
+    <string name="device_parts_summary">စွမ်းဆောင်ရည်၊ ဆက်စပ်ပစ္စည်းများ၊ ထိတွေ့မျက်နှာပြင်နှင့် Dolby Atmos</string>
+    <string name="display_parts_title">ပြန်လည်စတင်နှုန်းနှင့် ထိတွေ့မှု</string>
+    <string name="display_parts_summary">စာဖတ်မုဒ် ပြန်လည်စတင်နှုန်း၊ ထိတွေ့ဂိမ်းမုဒ်</string>
 
+    <string name="category_accessories_title">တရားဝင်ဆက်စပ်ပစ္စည်းများ</string>
     <string name="category_display_title">ပြန်လည်စတင်နှုန်း</string>
     <string name="category_touch_title">ထိတွေ့မှု</string>
-    <string name="category_cover_title">ခေါက်ဖုံး</string>
     <string name="category_audio_title">အသံ</string>
     <string name="category_perf_title">စွမ်းဆောင်ရည်</string>
-    <string name="category_pen_title">စတိုင်လပ်စ်</string>
 
     <string name="pen_refresh_cap_title">စတိုင်လပ်စ်အသုံးပြုချိန် 120 Hz သို့ ကန့်သတ်ရန်</string>
     <string name="pen_refresh_cap_summary">အသုံးပြုနေသော စတိုင်လပ်စ်သည် 120 Hz အထိသာ အလုပ်လုပ်နိုင်သည်ဟု ဖော်ပြထားသည်။ နောက်ဆုံး စတိုင်လပ်စ်ထည့်သွင်းမှုမှ 10 စက္ကန့်အကြာတွင် ကန့်သတ်ချက်ကို ဖယ်ရှားမည်။</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">ခေါက်ဖုံးပိတ်လိုက်ချိန်တွင် မျက်နှာပြင်ပိတ်ပြီး လော့ခ်ချရန်</string>
     <string name="pen_notifications_title">စတိုင်လပ်စ်ချိတ်ဆက်မှု အသိပေးချက်များ</string>
     <string name="pen_notifications_summary">Lenovo စတိုင်လပ်စ် ချိတ်ဆက်သည့်အခါ သို့မဟုတ် ချိတ်ဆက်မှုဖြုတ်သည့်အခါ အသိပေးချက်ပြရန်</string>
+    <string name="keyboard_notifications_title">ကီးဘုတ်ချိတ်ဆက်မှု အသိပေးချက်များ</string>
+    <string name="keyboard_notifications_summary">Lenovo ခေါက်ဖုံးကီးဘုတ် ချိတ်ဆက်သည့်အခါ သို့မဟုတ် ချိတ်ဆက်မှုဖြုတ်သည့်အခါ အသိပေးချက်ပြရန်</string>
     <string name="pen_notification_channel">စတိုင်လပ်စ်ချိတ်ဆက်မှု</string>
     <string name="pen_connected_title">စတိုင်လပ်စ် ချိတ်ဆက်ပြီးပါပြီ</string>
     <string name="pen_disconnected_title">စတိုင်လပ်စ် ချိတ်ဆက်မှုဖြုတ်ပြီးပါပြီ</string>
+    <string name="keyboard_notification_channel">ကီးဘုတ်ချိတ်ဆက်မှု</string>
+    <string name="keyboard_connected_title">ကီးဘုတ် ချိတ်ဆက်ပြီးပါပြီ</string>
+    <string name="keyboard_disconnected_title">ကီးဘုတ် ချိတ်ဆက်မှုဖြုတ်ပြီးပါပြီ</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">အသံမုဒ်၊ အသံချိန်ညှိကိရိယာ၊ စကားပြောသံမြှင့်တင်မှုနှင့် အက်ပ်မုဒ်များ</string>

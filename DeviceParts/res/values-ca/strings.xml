@@ -7,16 +7,15 @@
     <string name="app_name">Funcions del dispositiu</string>
 
     <string name="device_parts_title">Funcions del dispositiu</string>
-    <string name="device_parts_summary">Rendiment, llapis, pantalla tàctil, Dolby Atmos i funda tipus foli</string>
-    <string name="display_parts_title">Llapis i pantalla tàctil</string>
-    <string name="display_parts_summary">Freqüència d’actualització del llapis i del mode lectura, mode de joc tàctil</string>
+    <string name="device_parts_summary">Rendiment, accessoris, pantalla tàctil i Dolby Atmos</string>
+    <string name="display_parts_title">Freqüència d’actualització i pantalla tàctil</string>
+    <string name="display_parts_summary">Freqüència d’actualització del mode lectura, mode de joc tàctil</string>
 
+    <string name="category_accessories_title">Accessoris oficials</string>
     <string name="category_display_title">Freqüència d’actualització</string>
     <string name="category_touch_title">Pantalla tàctil</string>
-    <string name="category_cover_title">Funda tipus foli</string>
     <string name="category_audio_title">Àudio</string>
     <string name="category_perf_title">Rendiment</string>
-    <string name="category_pen_title">Llapis</string>
 
     <string name="pen_refresh_cap_title">Limita a 120 Hz quan facis servir el llapis</string>
     <string name="pen_refresh_cap_summary">El llapis actiu només funciona fins a 120 Hz. El límit s’elimina 10 segons després de l’última interacció amb el llapis.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Posa en suspensió i bloqueja quan es tanca la funda tipus foli</string>
     <string name="pen_notifications_title">Notificacions de connexió del llapis</string>
     <string name="pen_notifications_summary">Mostra una notificació quan es connecti o desconnecti un llapis Lenovo</string>
+    <string name="keyboard_notifications_title">Notificacions de connexió del teclat</string>
+    <string name="keyboard_notifications_summary">Mostra una notificació quan el teclat de funda folio Lenovo es connecti o desconnecti</string>
     <string name="pen_notification_channel">Connexió del llapis</string>
     <string name="pen_connected_title">Llapis connectat</string>
     <string name="pen_disconnected_title">Llapis desconnectat</string>
+    <string name="keyboard_notification_channel">Connexió del teclat</string>
+    <string name="keyboard_connected_title">Teclat connectat</string>
+    <string name="keyboard_disconnected_title">Teclat desconnectat</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Mode de so, equalitzador, millorador de diàlegs i modes per aplicació</string>

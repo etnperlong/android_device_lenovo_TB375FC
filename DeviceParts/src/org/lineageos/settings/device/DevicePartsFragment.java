@@ -18,6 +18,7 @@ import lineageos.hardware.LineageHardwareManager;
 
 import org.lineageos.settings.device.cover.CoverPolicy;
 import org.lineageos.settings.device.display.DisplayPolicyService;
+import org.lineageos.settings.device.keyboard.KeyboardService;
 import org.lineageos.settings.device.pen.PenService;
 import org.lineageos.settings.device.touch.TouchGameMode;
 
@@ -31,6 +32,7 @@ public class DevicePartsFragment extends SettingsBasePreferenceFragment
     private static final String ARG_PREFERENCES = "preferences";
 
     private static final String KEY_PEN_NOTIFICATIONS = "pen_notifications";
+    private static final String KEY_KEYBOARD_NOTIFICATIONS = "keyboard_notifications";
     private static final String KEY_PEN_REFRESH_CAP = "pen_refresh_cap";
     private static final String KEY_READING_LOW_REFRESH = "reading_low_refresh";
     private static final String KEY_TOUCH_GAME_MODE = "touch_game_mode";
@@ -47,8 +49,9 @@ public class DevicePartsFragment extends SettingsBasePreferenceFragment
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         setPreferencesFromResource(requireArguments().getInt(ARG_PREFERENCES), rootKey);
-        for (String key : new String[] {KEY_PEN_NOTIFICATIONS, KEY_PEN_REFRESH_CAP,
-                KEY_READING_LOW_REFRESH, KEY_TOUCH_GAME_MODE, KEY_SMART_COVER}) {
+        for (String key : new String[] {KEY_PEN_NOTIFICATIONS, KEY_KEYBOARD_NOTIFICATIONS,
+                KEY_PEN_REFRESH_CAP, KEY_READING_LOW_REFRESH, KEY_TOUCH_GAME_MODE,
+                KEY_SMART_COVER}) {
             final Preference pref = findPreference(key);
             if (pref != null) {
                 pref.setOnPreferenceChangeListener(this);
@@ -65,6 +68,13 @@ public class DevicePartsFragment extends SettingsBasePreferenceFragment
         if (penNotifications != null) {
             penNotifications.setChecked(Settings.Secure.getInt(cr,
                     PenService.KEY_PEN_NOTIFICATIONS, 1) != 0);
+        }
+
+        final TwoStatePreference keyboardNotifications =
+                findPreference(KEY_KEYBOARD_NOTIFICATIONS);
+        if (keyboardNotifications != null) {
+            keyboardNotifications.setChecked(Settings.Secure.getInt(cr,
+                    KeyboardService.KEY_KEYBOARD_NOTIFICATIONS, 1) != 0);
         }
 
         final TwoStatePreference penCap = findPreference(KEY_PEN_REFRESH_CAP);
@@ -108,6 +118,9 @@ public class DevicePartsFragment extends SettingsBasePreferenceFragment
         switch (preference.getKey()) {
             case KEY_PEN_NOTIFICATIONS:
                 return Settings.Secure.putInt(cr, PenService.KEY_PEN_NOTIFICATIONS,
+                        enabled ? 1 : 0);
+            case KEY_KEYBOARD_NOTIFICATIONS:
+                return Settings.Secure.putInt(cr, KeyboardService.KEY_KEYBOARD_NOTIFICATIONS,
                         enabled ? 1 : 0);
             case KEY_PEN_REFRESH_CAP:
                 return Settings.Secure.putInt(cr, DisplayPolicyService.KEY_PEN_REFRESH_CAP,

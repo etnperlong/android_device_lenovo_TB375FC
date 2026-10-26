@@ -7,16 +7,15 @@
     <string name="app_name">ฟีเจอร์อุปกรณ์</string>
 
     <string name="device_parts_title">ฟีเจอร์อุปกรณ์</string>
-    <string name="device_parts_summary">ประสิทธิภาพ ปากกาสไตลัส หน้าจอสัมผัส Dolby Atmos และเคสฝาพับ</string>
-    <string name="display_parts_title">ปากกาสไตลัสและหน้าจอสัมผัส</string>
-    <string name="display_parts_summary">อัตราการรีเฟรชขณะใช้ปากกา อัตราการรีเฟรชในโหมดการอ่าน และโหมดเกมหน้าจอสัมผัส</string>
+    <string name="device_parts_summary">ประสิทธิภาพ อุปกรณ์เสริม ระบบสัมผัส และ Dolby Atmos</string>
+    <string name="display_parts_title">อัตราการรีเฟรชและระบบสัมผัส</string>
+    <string name="display_parts_summary">อัตราการรีเฟรชในโหมดการอ่าน โหมดเกมหน้าจอสัมผัส</string>
 
+    <string name="category_accessories_title">อุปกรณ์เสริมอย่างเป็นทางการ</string>
     <string name="category_display_title">อัตราการรีเฟรช</string>
     <string name="category_touch_title">หน้าจอสัมผัส</string>
-    <string name="category_cover_title">เคสฝาพับ</string>
     <string name="category_audio_title">เสียง</string>
     <string name="category_perf_title">ประสิทธิภาพ</string>
-    <string name="category_pen_title">ปากกา</string>
 
     <string name="pen_refresh_cap_title">จำกัดไว้ที่ 120 Hz ขณะใช้ปากกา</string>
     <string name="pen_refresh_cap_summary">มีรายงานว่าปากกาสไตลัสแบบแอ็กทีฟทำงานได้สูงสุดที่ 120 Hz เท่านั้น โดยจะยกเลิกการจำกัด 10 วินาทีหลังจากใช้ปากกาครั้งล่าสุด</string>
@@ -30,9 +29,15 @@
     <string name="smart_cover_summary">ปิดหน้าจอและล็อกอุปกรณ์เมื่อปิดเคสฝาพับ</string>
     <string name="pen_notifications_title">การแจ้งเตือนการเชื่อมต่อปากกา</string>
     <string name="pen_notifications_summary">แสดงการแจ้งเตือนเมื่อปากกา Lenovo เชื่อมต่อหรือยกเลิกการเชื่อมต่อ</string>
+    <string name="keyboard_notifications_title">การแจ้งเตือนการเชื่อมต่อแป้นพิมพ์</string>
+    <string name="keyboard_notifications_summary">แสดงการแจ้งเตือนเมื่อแป้นพิมพ์ของเคสฝาพับ Lenovo เชื่อมต่อหรือยกเลิกการเชื่อมต่อ</string>
     <string name="pen_notification_channel">การเชื่อมต่อปากกา</string>
     <string name="pen_connected_title">เชื่อมต่อปากกาแล้ว</string>
     <string name="pen_disconnected_title">ยกเลิกการเชื่อมต่อปากกาแล้ว</string>
+
+    <string name="keyboard_notification_channel">การเชื่อมต่อแป้นพิมพ์</string>
+    <string name="keyboard_connected_title">เชื่อมต่อแป้นพิมพ์แล้ว</string>
+    <string name="keyboard_disconnected_title">ยกเลิกการเชื่อมต่อแป้นพิมพ์แล้ว</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">โหมดเสียง อีควอไลเซอร์ ตัวเพิ่มความชัดเจนของเสียงพูด และโหมดแอป</string>

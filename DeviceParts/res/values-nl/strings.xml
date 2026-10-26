@@ -7,16 +7,15 @@
     <string name="app_name">Apparaatfuncties</string>
 
     <string name="device_parts_title">Apparaatfuncties</string>
-    <string name="device_parts_summary">Prestaties, stylus, aanraking, Dolby Atmos en foliohoes</string>
-    <string name="display_parts_title">Stylus en touchscreen</string>
-    <string name="display_parts_summary">Vernieuwingssnelheid voor stylus, leesmodus en touchgamemodus</string>
+    <string name="device_parts_summary">Prestaties, accessoires, touch en Dolby Atmos</string>
+    <string name="display_parts_title">Vernieuwingssnelheid en touch</string>
+    <string name="display_parts_summary">Vernieuwingssnelheid in leesmodus, touchgamemodus</string>
 
+    <string name="category_accessories_title">Officiële accessoires</string>
     <string name="category_display_title">Vernieuwingssnelheid</string>
     <string name="category_touch_title">Touch</string>
-    <string name="category_cover_title">Foliohoes</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Prestaties</string>
-    <string name="category_pen_title">Stylus</string>
 
     <string name="pen_refresh_cap_title">Beperk de vernieuwingssnelheid tot 120 Hz bij gebruik van de stylus</string>
     <string name="pen_refresh_cap_summary">Volgens de melding werkt de actieve stylus slechts tot 120 Hz. De limiet wordt 10 seconden na de laatste peninvoer opgeheven.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Scherm uitschakelen en vergrendelen wanneer de foliohoes wordt gesloten</string>
     <string name="pen_notifications_title">Meldingen over stylusverbinding</string>
     <string name="pen_notifications_summary">Een melding weergeven wanneer een Lenovo-stylus verbinding maakt of verbreekt</string>
+    <string name="keyboard_notifications_title">Meldingen over toetsenbordverbinding</string>
+    <string name="keyboard_notifications_summary">Een melding weergeven wanneer een Lenovo-foliotoetsenbord verbinding maakt of verbreekt</string>
     <string name="pen_notification_channel">Stylusverbinding</string>
     <string name="pen_connected_title">Stylus verbonden</string>
     <string name="pen_disconnected_title">Stylus niet verbonden</string>
+    <string name="keyboard_notification_channel">Toetsenbordverbinding</string>
+    <string name="keyboard_connected_title">Toetsenbord verbonden</string>
+    <string name="keyboard_disconnected_title">Toetsenbord niet verbonden</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Geluidsmodus, equalizer, dialoogverbetering en app-modi</string>

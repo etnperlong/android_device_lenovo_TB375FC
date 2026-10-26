@@ -7,17 +7,16 @@
     <string name="app_name">ഉപകരണ സവിശേഷതകൾ</string>
 
     <string name="device_parts_title">ഉപകരണ സവിശേഷതകൾ</string>
-    <string name="device_parts_summary">പ്രകടനം, സ്‌റ്റൈലസ്, ടച്ച്, Dolby Atmos, ഫ്ലിപ്പ് കവർ</string>
+    <string name="device_parts_summary">പ്രകടനം, ആക്‌സസറികൾ, ടച്ച്, Dolby Atmos</string>
 
-    <string name="display_parts_title">സ്‌റ്റൈലസും ടച്ചും</string>
-    <string name="display_parts_summary">സ്‌റ്റൈലസ് റീഫ്രഷ് നിരക്ക്, വായനാ മോഡ് റീഫ്രഷ് നിരക്ക്, ടച്ച് ഗെയിം മോഡ്</string>
+    <string name="display_parts_title">റീഫ്രഷ് നിരക്കും ടച്ചും</string>
+    <string name="display_parts_summary">വായനാ മോഡ് റീഫ്രഷ് നിരക്ക്, ടച്ച് ഗെയിം മോഡ്</string>
 
+    <string name="category_accessories_title">ഔദ്യോഗിക ആക്‌സസറികൾ</string>
     <string name="category_display_title">റീഫ്രഷ് നിരക്ക്</string>
     <string name="category_touch_title">ടച്ച്</string>
-    <string name="category_cover_title">ഫ്ലിപ്പ് കവർ</string>
     <string name="category_audio_title">ഓഡിയോ</string>
     <string name="category_perf_title">പ്രകടനം</string>
-    <string name="category_pen_title">സ്‌റ്റൈലസ്</string>
 
     <string name="pen_refresh_cap_title">സ്‌റ്റൈലസ് ഉപയോഗിക്കുമ്പോൾ 120 Hz-ലേക്ക് പരിമിതപ്പെടുത്തുക</string>
     <string name="pen_refresh_cap_summary">സജീവ സ്‌റ്റൈലസ് പരമാവധി 120 Hz വരെ മാത്രമേ പിന്തുണയ്ക്കൂ എന്നാണ് റിപ്പോർട്ട്. സ്‌റ്റൈലസ് ഉപയോഗിച്ചുള്ള അവസാന ഇൻപുട്ടിന് 10 സെക്കൻഡിന് ശേഷം പരിധി നീങ്ങും.</string>
@@ -31,9 +30,14 @@
     <string name="smart_cover_summary">ഫ്ലിപ്പ് കവർ അടയ്ക്കുമ്പോൾ സ്ക്രീൻ ഓഫാക്കി ലോക്ക് ചെയ്യുക</string>
     <string name="pen_notifications_title">സ്‌റ്റൈലസ് കണക്ഷൻ അറിയിപ്പുകൾ</string>
     <string name="pen_notifications_summary">Lenovo സ്‌റ്റൈലസ് കണക്റ്റ് ചെയ്യുമ്പോഴോ വിച്ഛേദിക്കുമ്പോഴോ അറിയിപ്പ് കാണിക്കുക</string>
+    <string name="keyboard_notifications_title">കീബോർഡ് കണക്ഷൻ അറിയിപ്പുകൾ</string>
+    <string name="keyboard_notifications_summary">Lenovo ഫ്ലിപ്പ് കവർ കീബോർഡ് കണക്റ്റ് ചെയ്യുമ്പോഴോ വിച്ഛേദിക്കുമ്പോഴോ അറിയിപ്പ് കാണിക്കുക</string>
     <string name="pen_notification_channel">സ്‌റ്റൈലസ് കണക്ഷൻ</string>
     <string name="pen_connected_title">സ്‌റ്റൈലസ് കണക്റ്റ് ചെയ്‌തു</string>
     <string name="pen_disconnected_title">സ്‌റ്റൈലസ് വിച്ഛേദിച്ചു</string>
+    <string name="keyboard_notification_channel">കീബോർഡ് കണക്ഷൻ</string>
+    <string name="keyboard_connected_title">കീബോർഡ് കണക്റ്റ് ചെയ്‌തു</string>
+    <string name="keyboard_disconnected_title">കീബോർഡ് വിച്ഛേദിച്ചു</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">ശബ്‌ദ മോഡ്, ഇക്വലൈസർ, സംഭാഷണ വ്യക്തത വർധിപ്പിക്കൽ, ആപ്പ് മോഡുകൾ</string>

@@ -7,16 +7,15 @@
     <string name="app_name">Nodweddion y ddyfais</string>
 
     <string name="device_parts_title">Nodweddion y ddyfais</string>
-    <string name="device_parts_summary">Perfformiad, ysgrifbin, cyffwrdd, Dolby Atmos a gorchudd ffolio</string>
-    <string name="display_parts_title">Ysgrifbin a chyffwrdd</string>
-    <string name="display_parts_summary">Cyfradd adnewyddu ysgrifbin, cyfradd adnewyddu modd darllen, modd gêm cyffwrdd</string>
+    <string name="device_parts_summary">Perfformiad, ategolion, cyffwrdd a Dolby Atmos</string>
+    <string name="display_parts_title">Cyfradd adnewyddu a chyffwrdd</string>
+    <string name="display_parts_summary">Cyfradd adnewyddu modd darllen, modd gêm cyffwrdd</string>
 
+    <string name="category_accessories_title">Ategolion swyddogol</string>
     <string name="category_display_title">Cyfradd adnewyddu</string>
     <string name="category_touch_title">Cyffwrdd</string>
-    <string name="category_cover_title">Gorchudd ffolio</string>
     <string name="category_audio_title">Sain</string>
     <string name="category_perf_title">Perfformiad</string>
-    <string name="category_pen_title">Ysgrifbin</string>
 
     <string name="pen_refresh_cap_title">Cyfyngu i 120 Hz wrth ddefnyddio\'r ysgrifbin</string>
     <string name="pen_refresh_cap_summary">Dim ond hyd at 120 Hz y mae\'r ysgrifbin gweithredol yn gweithio. Caiff y cyfyngiad ei ddileu 10 eiliad ar ôl defnyddio\'r ysgrifbin ddiwethaf.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Cysgu a chloi pan fydd y gorchudd ffolio ar gau</string>
     <string name="pen_notifications_title">Hysbysiadau cysylltu ysgrifbin</string>
     <string name="pen_notifications_summary">Dangos hysbysiad pan fydd ysgrifbin Lenovo yn cysylltu neu\'n datgysylltu</string>
+    <string name="keyboard_notifications_title">Hysbysiadau cysylltu bysellfwrdd</string>
+    <string name="keyboard_notifications_summary">Dangos hysbysiad pan fydd bysellfwrdd ffolio Lenovo yn cysylltu neu\'n datgysylltu</string>
     <string name="pen_notification_channel">Cysylltiad ysgrifbin</string>
     <string name="pen_connected_title">Ysgrifbin wedi cysylltu</string>
     <string name="pen_disconnected_title">Ysgrifbin wedi datgysylltu</string>
+    <string name="keyboard_notification_channel">Cysylltiad bysellfwrdd</string>
+    <string name="keyboard_connected_title">Bysellfwrdd wedi cysylltu</string>
+    <string name="keyboard_disconnected_title">Bysellfwrdd wedi datgysylltu</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Modd sain, cyfartalwr, gwella deialog a moddau apiau</string>

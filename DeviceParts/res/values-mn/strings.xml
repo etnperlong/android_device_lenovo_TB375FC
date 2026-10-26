@@ -7,16 +7,15 @@
     <string name="app_name">Төхөөрөмжийн онцлогууд</string>
 
     <string name="device_parts_title">Төхөөрөмжийн онцлогууд</string>
-    <string name="device_parts_summary">Гүйцэтгэл, мэдрэгчтэй үзэг, хүрэлт, Dolby Atmos болон гэр</string>
-    <string name="display_parts_title">Мэдрэгчтэй үзэг ба хүрэлт</string>
-    <string name="display_parts_summary">Үзгийн сэргээх хурд, унших горимын сэргээх хурд, хүрэлтийн тоглоомын горим</string>
+    <string name="device_parts_summary">Гүйцэтгэл, хэрэгслүүд, хүрэлт болон Dolby Atmos</string>
+    <string name="display_parts_title">Сэргээх хурд ба хүрэлт</string>
+    <string name="display_parts_summary">Унших горимын сэргээх хурд, хүрэлтийн тоглоомын горим</string>
 
+    <string name="category_accessories_title">Албан ёсны хэрэгслүүд</string>
     <string name="category_display_title">Сэргээх хурд</string>
     <string name="category_touch_title">Хүрэлт</string>
-    <string name="category_cover_title">Гэр</string>
     <string name="category_audio_title">Аудио</string>
     <string name="category_perf_title">Гүйцэтгэл</string>
-    <string name="category_pen_title">Үзэг</string>
 
     <string name="pen_refresh_cap_title">Үзэг ашиглаж байх үед 120 Гц-ээр хязгаарлах</string>
     <string name="pen_refresh_cap_summary">Идэвхтэй үзэг зөвхөн 120 Гц хүртэл ажилладаг гэж мэдээлсэн. Үзгээр хамгийн сүүлд оролт хийснээс 10 секундын дараа хязгаар арилна.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Гэрийг хаахад дэлгэцийг унтрааж, түгжих</string>
     <string name="pen_notifications_title">Үзгийн холболтын мэдэгдэл</string>
     <string name="pen_notifications_summary">Lenovo үзэг холбогдох эсвэл салгагдах үед мэдэгдэл харуулах</string>
+    <string name="keyboard_notifications_title">Гарын холболтын мэдэгдэл</string>
+    <string name="keyboard_notifications_summary">Lenovo гэрний гар холбогдох эсвэл салгагдах үед мэдэгдэл харуулах</string>
     <string name="pen_notification_channel">Үзгийн холболт</string>
     <string name="pen_connected_title">Үзэг холбогдлоо</string>
     <string name="pen_disconnected_title">Үзэг саллаа</string>
+    <string name="keyboard_notification_channel">Гарын холболт</string>
+    <string name="keyboard_connected_title">Гар холбогдлоо</string>
+    <string name="keyboard_disconnected_title">Гар саллаа</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Дууны горим, эквалайзер, яриа тодруулагч болон аппын горимууд</string>

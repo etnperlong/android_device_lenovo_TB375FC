@@ -7,16 +7,15 @@
     <string name="app_name">Qurilma funksiyalari</string>
 
     <string name="device_parts_title">Qurilma funksiyalari</string>
-    <string name="device_parts_summary">Unumdorlik, stilus, sensorli ekran, Dolby Atmos va g‘ilof</string>
-    <string name="display_parts_title">Stilus va sensorli ekran</string>
-    <string name="display_parts_summary">Stilus yangilanish chastotasi, oʻqish rejimi yangilanish chastotasi, sensorli ekran oʻyin rejimi</string>
+    <string name="device_parts_summary">Unumdorlik, aksessuarlar, sensorli ekran va Dolby Atmos</string>
+    <string name="display_parts_title">Yangilanish chastotasi va sensorli ekran</string>
+    <string name="display_parts_summary">Oʻqish rejimi yangilanish chastotasi, sensorli ekran oʻyin rejimi</string>
 
+    <string name="category_accessories_title">Rasmiy aksessuarlar</string>
     <string name="category_display_title">Yangilanish chastotasi</string>
     <string name="category_touch_title">Sensorli ekran</string>
-    <string name="category_cover_title">G‘ilof</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Unumdorlik</string>
-    <string name="category_pen_title">Stilus</string>
 
     <string name="pen_refresh_cap_title">Stilusdan foydalanganda 120 Hz bilan cheklash</string>
     <string name="pen_refresh_cap_summary">Faol stilus faqat 120 Hz gacha ishlashi aytilgan. Stilusdan oxirgi marta foydalanilgandan 10 soniya oʻtgach cheklov olib tashlanadi.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">G‘ilof yopilganda ekran oʻchadi va qurilma qulflanadi</string>
     <string name="pen_notifications_title">Stilus ulanishi haqida bildirishnomalar</string>
     <string name="pen_notifications_summary">Lenovo stilusi ulanganda yoki uzilganda bildirishnoma ko‘rsatish</string>
+    <string name="keyboard_notifications_title">Klaviatura ulanishi haqida bildirishnomalar</string>
+    <string name="keyboard_notifications_summary">Lenovo g‘ilofli klaviaturasi ulanganda yoki uzilganda bildirishnoma ko‘rsatish</string>
     <string name="pen_notification_channel">Stilus ulanishi</string>
     <string name="pen_connected_title">Stilus ulandi</string>
     <string name="pen_disconnected_title">Stilus uzildi</string>
+    <string name="keyboard_notification_channel">Klaviatura ulanishi</string>
+    <string name="keyboard_connected_title">Klaviatura ulandi</string>
+    <string name="keyboard_disconnected_title">Klaviatura uzildi</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Ovoz rejimi, ekvalayzer, dialogni kuchaytirish va ilova rejimlari</string>

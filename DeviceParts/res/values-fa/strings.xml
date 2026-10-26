@@ -7,16 +7,15 @@
     <string name="app_name">ویژگی‌های دستگاه</string>
 
     <string name="device_parts_title">ویژگی‌های دستگاه</string>
-    <string name="device_parts_summary">عملکرد، قلم، لمس، Dolby Atmos و قاب تاشو</string>
-    <string name="display_parts_title">قلم و لمس</string>
-    <string name="display_parts_summary">نرخ نوسازی قلم، نرخ نوسازی حالت مطالعه و حالت بازی لمسی</string>
+    <string name="device_parts_summary">عملکرد، لوازم جانبی رسمی، لمس و Dolby Atmos</string>
+    <string name="display_parts_title">نرخ نوسازی و لمس</string>
+    <string name="display_parts_summary">نرخ نوسازی حالت مطالعه، حالت بازی لمسی</string>
 
+    <string name="category_accessories_title">لوازم جانبی رسمی</string>
     <string name="category_display_title">نرخ نوسازی</string>
     <string name="category_touch_title">لمس</string>
-    <string name="category_cover_title">قاب تاشو</string>
     <string name="category_audio_title">صدا</string>
     <string name="category_perf_title">عملکرد</string>
-    <string name="category_pen_title">قلم</string>
 
     <string name="pen_refresh_cap_title">محدود کردن به ۱۲۰ هرتز هنگام استفاده از قلم</string>
     <string name="pen_refresh_cap_summary">گزارش شده که قلم فعال فقط تا ۱۲۰ هرتز کار می‌کند. محدودیت ۱۰ ثانیه پس از آخرین ورودی قلم برداشته می‌شود.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">با بستن قاب تاشو، صفحه‌نمایش را خاموش و قفل کنید</string>
     <string name="pen_notifications_title">اعلان‌های اتصال قلم</string>
     <string name="pen_notifications_summary">هنگام اتصال یا قطع اتصال قلم Lenovo اعلان نمایش داده شود</string>
+    <string name="keyboard_notifications_title">اعلان‌های اتصال صفحه‌کلید</string>
+    <string name="keyboard_notifications_summary">هنگام اتصال یا قطع اتصال صفحه‌کلید تاشوی Lenovo اعلان نمایش داده شود</string>
     <string name="pen_notification_channel">اتصال قلم</string>
     <string name="pen_connected_title">قلم متصل شد</string>
     <string name="pen_disconnected_title">قلم قطع شد</string>
+    <string name="keyboard_notification_channel">اتصال صفحه‌کلید</string>
+    <string name="keyboard_connected_title">صفحه‌کلید متصل شد</string>
+    <string name="keyboard_disconnected_title">صفحه‌کلید قطع شد</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">حالت صدا، همسان‌ساز، بهبود گفتگو و حالت‌های برنامه</string>

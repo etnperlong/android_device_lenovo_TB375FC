@@ -7,16 +7,15 @@
     <string name="app_name">Feartan an uidheim</string>
 
     <string name="device_parts_title">Feartan an uidheim</string>
-    <string name="device_parts_summary">Coileanadh, peann, suathadh, Dolby Atmos agus còmhdach fillte</string>
-    <string name="display_parts_title">Peann agus suathadh</string>
-    <string name="display_parts_summary">Ìre ath-nuadhachaidh peann, ìre ath-nuadhachaidh modh leughaidh, modh geama suathaidh</string>
+    <string name="device_parts_summary">Coileanadh, goireasan, suathadh agus Dolby Atmos</string>
+    <string name="display_parts_title">Ìre ath-nuadhachaidh agus suathadh</string>
+    <string name="display_parts_summary">Ìre ath-nuadhachaidh modh leughaidh, modh geama suathaidh</string>
 
+    <string name="category_accessories_title">Goireasan oifigeil</string>
     <string name="category_display_title">Ìre ath-nuadhachaidh</string>
     <string name="category_touch_title">Suathadh</string>
-    <string name="category_cover_title">Còmhdach fillte</string>
     <string name="category_audio_title">Fuaim</string>
     <string name="category_perf_title">Coileanadh</string>
-    <string name="category_pen_title">Peann</string>
 
     <string name="pen_refresh_cap_title">Cuir crìoch air aig 120 Hz nuair a thathar a’ cleachdadh a’ pheann</string>
     <string name="pen_refresh_cap_summary">Chan obraich am peann gnìomhach ach suas ri 120 Hz. Thèid a’ chrìoch a thoirt air falbh 10 diogan an dèidh an in-chur peann mu dheireadh.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Cuir na chadal is glas nuair a bhios an còmhdach fillte dùinte</string>
     <string name="pen_notifications_title">Brathan mu cheangal a’ phinn</string>
     <string name="pen_notifications_summary">Seall brath nuair a cheanglas peann Lenovo no nuair a sgaras e</string>
+    <string name="keyboard_notifications_title">Brathan mu cheangal a’ mheur-chlàir</string>
+    <string name="keyboard_notifications_summary">Seall brath nuair a cheanglas meur-chlàr còmhdach fillte Lenovo no nuair a sgaras e</string>
     <string name="pen_notification_channel">Ceangal peann</string>
     <string name="pen_connected_title">Tha am peann ceangailte</string>
     <string name="pen_disconnected_title">Tha am peann sgaraichte</string>
+    <string name="keyboard_notification_channel">Ceangal meur-chlàir</string>
+    <string name="keyboard_connected_title">Tha am meur-chlàr ceangailte</string>
+    <string name="keyboard_disconnected_title">Tha am meur-chlàr sgaraichte</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Modh fuaime, co-ionannadair, leasaichear còmhraidh agus modhan aplacaid</string>

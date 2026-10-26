@@ -7,16 +7,15 @@
     <string name="app_name">Cihaz xüsusiyyətləri</string>
 
     <string name="device_parts_title">Cihaz xüsusiyyətləri</string>
-    <string name="device_parts_summary">Məhsuldarlıq, qələm, toxunma, Dolby Atmos və üzlüklü qab</string>
-    <string name="display_parts_title">Qələm və toxunma</string>
-    <string name="display_parts_summary">Qələmin yeniləmə tezliyi, oxuma rejiminin yeniləmə tezliyi, toxunma oyun rejimi</string>
+    <string name="device_parts_summary">Məhsuldarlıq, rəsmi aksesuarlar, toxunma və Dolby Atmos</string>
+    <string name="display_parts_title">Yeniləmə tezliyi və toxunma</string>
+    <string name="display_parts_summary">Oxuma rejiminin yeniləmə tezliyi, toxunma oyun rejimi</string>
 
+    <string name="category_accessories_title">Rəsmi aksesuarlar</string>
     <string name="category_display_title">Yeniləmə tezliyi</string>
     <string name="category_touch_title">Toxunma</string>
-    <string name="category_cover_title">Üzlük</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Məhsuldarlıq</string>
-    <string name="category_pen_title">Qələm</string>
 
     <string name="pen_refresh_cap_title">Qələmdən istifadə zamanı 120 Hs ilə məhdudlaşdırın</string>
     <string name="pen_refresh_cap_summary">Aktiv qələmin yalnız 120 Hs-ə qədər işlədiyi bildirilir. Son qələm girişindən 10 saniyə sonra məhdudiyyət götürülür.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Üzlük bağlandıqda ekranı söndürün və cihazı kilidləyin</string>
     <string name="pen_notifications_title">Qələm bağlantısı bildirişləri</string>
     <string name="pen_notifications_summary">Lenovo qələmi qoşulduqda və ya ayrıldıqda bildiriş göstər</string>
+    <string name="keyboard_notifications_title">Klaviatura bağlantısı bildirişləri</string>
+    <string name="keyboard_notifications_summary">Lenovo folio klaviaturası qoşulduqda və ya ayrıldıqda bildiriş göstər</string>
     <string name="pen_notification_channel">Qələm bağlantısı</string>
     <string name="pen_connected_title">Qələm qoşuldu</string>
     <string name="pen_disconnected_title">Qələm ayrıldı</string>
+    <string name="keyboard_notification_channel">Klaviatura bağlantısı</string>
+    <string name="keyboard_connected_title">Klaviatura qoşuldu</string>
+    <string name="keyboard_disconnected_title">Klaviatura ayrıldı</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Səs rejimi, ekvalayzer, dialoq gücləndiricisi və tətbiq rejimləri</string>

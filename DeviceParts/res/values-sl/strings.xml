@@ -7,16 +7,15 @@
     <string name="app_name">Funkcije naprave</string>
 
     <string name="device_parts_title">Funkcije naprave</string>
-    <string name="device_parts_summary">Zmogljivost, pisalo, dotik, Dolby Atmos in preklopni ovitek</string>
-    <string name="display_parts_title">Pisalo in dotik</string>
-    <string name="display_parts_summary">Hitrost osveževanja za pisalo in način za branje, igralni način dotika</string>
+    <string name="device_parts_summary">Zmogljivost, dodatna oprema, dotik in Dolby Atmos</string>
+    <string name="display_parts_title">Hitrost osveževanja in dotik</string>
+    <string name="display_parts_summary">Hitrost osveževanja v načinu za branje, igralni način dotika</string>
 
+    <string name="category_accessories_title">Uradna dodatna oprema</string>
     <string name="category_display_title">Hitrost osveževanja</string>
     <string name="category_touch_title">Dotik</string>
-    <string name="category_cover_title">Preklopni ovitek</string>
     <string name="category_audio_title">Zvok</string>
     <string name="category_perf_title">Zmogljivost</string>
-    <string name="category_pen_title">Pisalo</string>
 
     <string name="pen_refresh_cap_title">Omeji na 120 Hz med uporabo pisala</string>
     <string name="pen_refresh_cap_summary">Aktivno pisalo naj bi delovalo le do 120 Hz. Omejitev se odpravi 10 sekund po zadnjem vnosu s pisalom.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Ob zaprtju ovitka preklopi napravo v stanje pripravljenosti in jo zakleni</string>
     <string name="pen_notifications_title">Obvestila o povezavi pisala</string>
     <string name="pen_notifications_summary">Prikaži obvestilo, ko se pisalo Lenovo poveže ali odklopi</string>
+    <string name="keyboard_notifications_title">Obvestila o povezavi tipkovnice</string>
+    <string name="keyboard_notifications_summary">Prikaži obvestilo, ko se tipkovnica Lenovo za preklopni ovitek poveže ali odklopi</string>
     <string name="pen_notification_channel">Povezava pisala</string>
     <string name="pen_connected_title">Pisalo je povezano</string>
     <string name="pen_disconnected_title">Pisalo je odklopljeno</string>
+    <string name="keyboard_notification_channel">Povezava tipkovnice</string>
+    <string name="keyboard_connected_title">Tipkovnica je povezana</string>
+    <string name="keyboard_disconnected_title">Tipkovnica je odklopljena</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Zvočni način, izenačevalnik, izboljšanje dialogov in načini aplikacij</string>

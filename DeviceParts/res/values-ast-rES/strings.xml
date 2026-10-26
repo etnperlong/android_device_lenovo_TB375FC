@@ -7,16 +7,15 @@
     <string name="app_name">Funciones del preséu</string>
 
     <string name="device_parts_title">Funciones del preséu</string>
-    <string name="device_parts_summary">Rendimientu, llápiz, pantalla táctil, Dolby Atmos y funda tipo folio</string>
-    <string name="display_parts_title">Llápiz y pantalla táctil</string>
-    <string name="display_parts_summary">Frecuencia d’anovamientu del llápiz y del mou de llectura, mou de xuegu táctil</string>
+    <string name="device_parts_summary">Rendimientu, accesorios, pantalla táctil y Dolby Atmos</string>
+    <string name="display_parts_title">Frecuencia d’anovamientu y pantalla táctil</string>
+    <string name="display_parts_summary">Frecuencia d’anovamientu del mou de llectura, mou de xuegu táctil</string>
 
+    <string name="category_accessories_title">Accesorios oficiales</string>
     <string name="category_display_title">Frecuencia d’anovamientu</string>
     <string name="category_touch_title">Pantalla táctil</string>
-    <string name="category_cover_title">Funda tipo folio</string>
     <string name="category_audio_title">Audiu</string>
     <string name="category_perf_title">Rendimientu</string>
-    <string name="category_pen_title">Llápiz</string>
 
     <string name="pen_refresh_cap_title">Llimitar a 120 Hz al usar el llápiz</string>
     <string name="pen_refresh_cap_summary">El llápiz activu namái funciona hasta 120 Hz. El llímite quítase 10 segundos dempués del últimu usu del llápiz.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Suspender y bloquiar al zarrar la funda tipo folio</string>
     <string name="pen_notifications_title">Avisos de conexón del llápiz</string>
     <string name="pen_notifications_summary">Amosar un avisu cuando un llápiz Lenovo se conecte o se desconecte</string>
+    <string name="keyboard_notifications_title">Avisos de conexón del tecláu</string>
+    <string name="keyboard_notifications_summary">Amosar un avisu cuando se conecte o desconecte’l tecláu folio de Lenovo</string>
     <string name="pen_notification_channel">Conexón del llápiz</string>
     <string name="pen_connected_title">Llápiz conectáu</string>
     <string name="pen_disconnected_title">Llápiz desconectáu</string>
+    <string name="keyboard_notification_channel">Conexón del tecláu</string>
+    <string name="keyboard_connected_title">Tecláu conectáu</string>
+    <string name="keyboard_disconnected_title">Tecláu desconectáu</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Mou de soníu, ecualizador, ameyorador de diálogos y modes per aplicación</string>

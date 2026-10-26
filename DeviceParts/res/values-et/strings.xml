@@ -7,16 +7,15 @@
     <string name="app_name">Seadme funktsioonid</string>
 
     <string name="device_parts_title">Seadme funktsioonid</string>
-    <string name="device_parts_summary">Jõudlus, pliiats, puutejuhtimine, Dolby Atmos ja ümbris</string>
-    <string name="display_parts_title">Pliiats ja puutejuhtimine</string>
-    <string name="display_parts_summary">Pliiatsi värskendussagedus, lugemisrežiimi värskendussagedus, puutejuhtimise mängurežiim</string>
+    <string name="device_parts_summary">Jõudlus, tarvikud, puutejuhtimine ja Dolby Atmos</string>
+    <string name="display_parts_title">Värskendussagedus ja puutejuhtimine</string>
+    <string name="display_parts_summary">Lugemisrežiimi värskendussagedus, puutejuhtimise mängurežiim</string>
 
+    <string name="category_accessories_title">Ametlikud tarvikud</string>
     <string name="category_display_title">Värskendussagedus</string>
     <string name="category_touch_title">Puutejuhtimine</string>
-    <string name="category_cover_title">Kaanega ümbris</string>
     <string name="category_audio_title">Heli</string>
     <string name="category_perf_title">Jõudlus</string>
-    <string name="category_pen_title">Pliiats</string>
 
     <string name="pen_refresh_cap_title">Pliiatsi kasutamisel piira sagedus 120 Hz-ni</string>
     <string name="pen_refresh_cap_summary">Aktiivne pliiats töötab teadaolevalt ainult kuni sageduseni 120 Hz. Piirang eemaldatakse 10 sekundit pärast viimast pliiatsisisestust.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Lülita ekraan välja ja lukusta seade, kui ümbris suletakse</string>
     <string name="pen_notifications_title">Pliiatsi ühenduse teavitused</string>
     <string name="pen_notifications_summary">Kuva teavitus, kui Lenovo pliiats ühendub või katkestab ühenduse</string>
+    <string name="keyboard_notifications_title">Klaviatuuri ühenduse teavitused</string>
+    <string name="keyboard_notifications_summary">Kuva teavitus, kui Lenovo klapiga ümbrise klaviatuur ühendub või katkestab ühenduse</string>
     <string name="pen_notification_channel">Pliiatsi ühendus</string>
     <string name="pen_connected_title">Pliiats ühendatud</string>
     <string name="pen_disconnected_title">Pliiats ühendus katkestatud</string>
+    <string name="keyboard_notification_channel">Klaviatuuri ühendus</string>
+    <string name="keyboard_connected_title">Klaviatuur ühendatud</string>
+    <string name="keyboard_disconnected_title">Klaviatuuri ühendus katkestatud</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Helirežiim, ekvalaiser, kõne selguse parandaja ja rakenduste režiimid</string>

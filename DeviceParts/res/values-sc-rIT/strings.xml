@@ -7,16 +7,15 @@
     <string name="app_name">Funtzionalidades de su dispositivu</string>
 
     <string name="device_parts_title">Funtzionalidades de su dispositivu</string>
-    <string name="device_parts_summary">Prestatziones, pinna, tocu, Dolby Atmos e custòdia a libru</string>
-    <string name="display_parts_title">Pinna e tocu</string>
-    <string name="display_parts_summary">Frequèntzia de atualizatzione de sa pinna, frequèntzia de atualizatzione de sa modalidade letura, modalidade giogu de su tocu</string>
+    <string name="device_parts_summary">Prestatziones, acesòrios, tocu e Dolby Atmos</string>
+    <string name="display_parts_title">Frequèntzia de atualizatzione e tocu</string>
+    <string name="display_parts_summary">Frequèntzia de atualizatzione de sa modalidade letura, modalidade giogu de su tocu</string>
 
+    <string name="category_accessories_title">Acesòrios ofitziales</string>
     <string name="category_display_title">Frequèntzia de atualizatzione</string>
     <string name="category_touch_title">Tocu</string>
-    <string name="category_cover_title">Custòdia a libru</string>
     <string name="category_audio_title">Àudio</string>
     <string name="category_perf_title">Prestatziones</string>
-    <string name="category_pen_title">Pinna</string>
 
     <string name="pen_refresh_cap_title">Limita a 120 Hz cando s’impreada sa pinna</string>
     <string name="pen_refresh_cap_summary">Sa pinna ativa funtzionat isceti finas a 120 Hz. Su limite est bogadu 10 segundos a pustis de s’ùrtimu impreu de sa pinna.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Pone in suspèndiu e blocat cando sa custòdia a libru est serrada</string>
     <string name="pen_notifications_title">Notìficas de connessione de sa pinna</string>
     <string name="pen_notifications_summary">Mustra una notìfica cando una pinna Lenovo si connete o si disconnete</string>
+    <string name="keyboard_notifications_title">Notìficas de connessione de su tecladu</string>
+    <string name="keyboard_notifications_summary">Mustra una notìfica cando su tecladu a custòdia a libru Lenovo si connete o si disconnete</string>
     <string name="pen_notification_channel">Connessione de sa pinna</string>
     <string name="pen_connected_title">Pinna connèctida</string>
     <string name="pen_disconnected_title">Pinna disconnèctida</string>
+    <string name="keyboard_notification_channel">Connessione de su tecladu</string>
+    <string name="keyboard_connected_title">Tecladu connèctidu</string>
+    <string name="keyboard_disconnected_title">Tecladu disconnèctidu</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Modalidade sonòra, equalizadore, meglioradore de su diàlogu e modalidades de aplicatzione</string>

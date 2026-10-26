@@ -7,16 +7,15 @@
     <string name="app_name">Enhetsfunktioner</string>
 
     <string name="device_parts_title">Enhetsfunktioner</string>
-    <string name="device_parts_summary">Prestanda, e-penna, pekskärm, Dolby Atmos och fodral</string>
-    <string name="display_parts_title">E-penna och pekskärm</string>
-    <string name="display_parts_summary">E-pennans uppdateringsfrekvens, läslägets uppdateringsfrekvens, pekskärmens spelläge</string>
+    <string name="device_parts_summary">Prestanda, tillbehör, pekskärm och Dolby Atmos</string>
+    <string name="display_parts_title">Uppdateringsfrekvens och pekskärm</string>
+    <string name="display_parts_summary">Läslägets uppdateringsfrekvens, pekskärmens spelläge</string>
 
+    <string name="category_accessories_title">Officiella tillbehör</string>
     <string name="category_display_title">Uppdateringsfrekvens</string>
     <string name="category_touch_title">Pekskärm</string>
-    <string name="category_cover_title">Fodral</string>
     <string name="category_audio_title">Ljud</string>
     <string name="category_perf_title">Prestanda</string>
-    <string name="category_pen_title">E-penna</string>
 
     <string name="pen_refresh_cap_title">Begränsa till 120 Hz när e-pennan används</string>
     <string name="pen_refresh_cap_summary">Den aktiva e-pennan uppges bara fungera upp till 120 Hz. Gränsen hävs 10 sekunder efter den senaste inmatningen med e-pennan.</string>
@@ -30,9 +29,15 @@
     <string name="smart_cover_summary">Släck skärmen och lås när fodralet stängs</string>
     <string name="pen_notifications_title">Aviseringar om anslutning av e-penna</string>
     <string name="pen_notifications_summary">Visa en avisering när en Lenovo-e-penna ansluts eller kopplas från</string>
+    <string name="keyboard_notifications_title">Aviseringar om tangentbordsanslutning</string>
+    <string name="keyboard_notifications_summary">Visa en avisering när tangentbordet i Lenovos fodral ansluts eller kopplas från</string>
     <string name="pen_notification_channel">Anslutning av e-penna</string>
     <string name="pen_connected_title">E-penna ansluten</string>
     <string name="pen_disconnected_title">E-penna frånkopplad</string>
+
+    <string name="keyboard_notification_channel">Tangentbordsanslutning</string>
+    <string name="keyboard_connected_title">Tangentbord anslutet</string>
+    <string name="keyboard_disconnected_title">Tangentbord frånkopplat</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Ljudläge, equalizer, dialogförbättring och applägen</string>

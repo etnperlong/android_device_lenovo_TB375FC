@@ -7,16 +7,15 @@
     <string name="app_name">Mga bahagi ng device</string>
 
     <string name="device_parts_title">Mga bahagi ng device</string>
-    <string name="device_parts_summary">Performance, stylus, touch, Dolby Atmos, at folio cover</string>
-    <string name="display_parts_title">Stylus at touch</string>
-    <string name="display_parts_summary">Refresh rate ng stylus, refresh rate ng reading mode, touch game mode</string>
+    <string name="device_parts_summary">Performance, mga accessory, touch, at Dolby Atmos</string>
+    <string name="display_parts_title">Refresh rate at touch</string>
+    <string name="display_parts_summary">Refresh rate ng reading mode, touch game mode</string>
 
+    <string name="category_accessories_title">Mga opisyal na accessory</string>
     <string name="category_display_title">Refresh rate</string>
     <string name="category_touch_title">Touch</string>
-    <string name="category_cover_title">Folio cover</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Performance</string>
-    <string name="category_pen_title">Stylus</string>
 
     <string name="pen_refresh_cap_title">Limitahan sa 120 Hz kapag gumagamit ng stylus</string>
     <string name="pen_refresh_cap_summary">Iniulat na hanggang 120 Hz lang ang kayang suportahan ng aktibong stylus. Aalisin ang limitasyon 10 segundo pagkatapos ng huling input ng stylus.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Patulugin at i-lock kapag nakasara ang folio cover</string>
     <string name="pen_notifications_title">Mga notification sa koneksyon ng stylus</string>
     <string name="pen_notifications_summary">Magpakita ng notification kapag kumonekta o nadiskonekta ang isang stylus ng Lenovo</string>
+    <string name="keyboard_notifications_title">Mga notification sa koneksyon ng keyboard</string>
+    <string name="keyboard_notifications_summary">Magpakita ng notification kapag kumonekta o nadiskonekta ang Lenovo folio keyboard</string>
     <string name="pen_notification_channel">Koneksyon ng stylus</string>
     <string name="pen_connected_title">Nakakonekta ang stylus</string>
     <string name="pen_disconnected_title">Nadiskonekta ang stylus</string>
+    <string name="keyboard_notification_channel">Koneksyon ng keyboard</string>
+    <string name="keyboard_connected_title">Nakakonekta ang keyboard</string>
+    <string name="keyboard_disconnected_title">Nadiskonekta ang keyboard</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Sound mode, equalizer, dialogue enhancer, at mga mode ng app</string>

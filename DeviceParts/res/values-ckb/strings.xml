@@ -6,15 +6,14 @@
 <resources>
     <string name="app_name">تایبەتمەندییەکانی ئامێر</string>
     <string name="device_parts_title">تایبەتمەندییەکانی ئامێر</string>
-    <string name="device_parts_summary">کارایی، پێنووس، دەستلێدان، Dolby Atmos و قاپی هەڵگرتن</string>
-    <string name="display_parts_title">پێنووس و دەستلێدان</string>
-    <string name="display_parts_summary">ڕێژەی نوێکردنەوەی پێنووس، ڕێژەی نوێکردنەوەی دۆخی خوێندنەوە، دۆخی یاریی دەستلێدان</string>
+    <string name="device_parts_summary">کارایی، پێوەکراوەکان، دەستلێدان و Dolby Atmos</string>
+    <string name="display_parts_title">ڕێژەی نوێکردنەوە و دەستلێدان</string>
+    <string name="display_parts_summary">ڕێژەی نوێکردنەوەی دۆخی خوێندنەوە، دۆخی یاریی دەستلێدان</string>
+    <string name="category_accessories_title">پێوەکراوە فەرمییەکان</string>
     <string name="category_display_title">ڕێژەی نوێکردنەوە</string>
     <string name="category_touch_title">دەستلێدان</string>
-    <string name="category_cover_title">قاپی هەڵگرتن</string>
     <string name="category_audio_title">دەنگ</string>
     <string name="category_perf_title">کارایی</string>
-    <string name="category_pen_title">پێنووس</string>
     <string name="pen_refresh_cap_title">سنووردارکردن بە 120 هێرتز لە کاتی بەکارهێنانی پێنووسدا</string>
     <string name="pen_refresh_cap_summary">پێنووسی چالاک تەنها تا 120 هێرتز کار دەکات. سنوورەکە 10 چرکە دوای دواخستنی پێنووس لادەبرێت.</string>
     <string name="reading_low_refresh_title">30 هێرتز لە دۆخی خوێندنەوەدا</string>
@@ -27,9 +26,14 @@
     <string name="smart_cover_summary">لە کاتی داخستنی قاپی هەڵگرتندا شاشە بخەوێنە و قفڵی بکە</string>
     <string name="pen_notifications_title">ئاگادارکردنەوەکانی پەیوەندی پێنووس</string>
     <string name="pen_notifications_summary">کاتێک پێنووسێکی Lenovo پەیوەندی دەکات یان دەیبڕێت ئاگادارکردنەوە پیشان بدە</string>
+    <string name="keyboard_notifications_title">ئاگادارکردنەوەکانی پەیوەندی تەختەکلیل</string>
+    <string name="keyboard_notifications_summary">کاتێک تەختەکلیلی Lenovoی قاپی هەڵگرتن پەیوەندی دەکات یان دەیبڕێت، ئاگادارکردنەوە پیشان بدە</string>
     <string name="pen_notification_channel">پەیوەندی پێنووس</string>
     <string name="pen_connected_title">پێنووس پەیوەست بوو</string>
     <string name="pen_disconnected_title">پێنووس پەیوەندییەکەی بڕا</string>
+    <string name="keyboard_notification_channel">پەیوەندی تەختەکلیل</string>
+    <string name="keyboard_connected_title">تەختەکلیل پەیوەست بوو</string>
+    <string name="keyboard_disconnected_title">پەیوەندیی تەختەکلیل بڕا</string>
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">دۆخی دەنگ، هاوسەنگکەر، باشترکەری گفتوگۆ و دۆخەکانی ئەپ</string>
     <string name="dolby_enable_title">بەکارهێنانی Dolby Atmos</string>

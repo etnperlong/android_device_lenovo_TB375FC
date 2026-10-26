@@ -7,16 +7,15 @@
     <string name="app_name">ميزات الجهاز</string>
 
     <string name="device_parts_title">ميزات الجهاز</string>
-    <string name="device_parts_summary">الأداء والقلم واللمس وDolby Atmos والغطاء القابل للطي</string>
-    <string name="display_parts_title">القلم واللمس</string>
-    <string name="display_parts_summary">معدل تحديث القلم ومعدل تحديث وضع القراءة ووضع الألعاب باللمس</string>
+    <string name="device_parts_summary">الأداء والملحقات واللمس وDolby Atmos</string>
+    <string name="display_parts_title">معدل التحديث واللمس</string>
+    <string name="display_parts_summary">معدل تحديث وضع القراءة، وضع الألعاب باللمس</string>
 
+    <string name="category_accessories_title">الملحقات الرسمية</string>
     <string name="category_display_title">معدل التحديث</string>
     <string name="category_touch_title">اللمس</string>
-    <string name="category_cover_title">الغطاء القابل للطي</string>
     <string name="category_audio_title">الصوت</string>
     <string name="category_perf_title">الأداء</string>
-    <string name="category_pen_title">القلم</string>
 
     <string name="pen_refresh_cap_title">تحديد المعدل إلى 120 هرتز عند استخدام القلم</string>
     <string name="pen_refresh_cap_summary">يُقال إن القلم النشط يعمل بمعدل يصل إلى 120 هرتز فقط. يُرفع الحد بعد 10 ثوانٍ من آخر إدخال بالقلم.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">إطفاء الشاشة وقفلها عند إغلاق الغطاء القابل للطي</string>
     <string name="pen_notifications_title">إشعارات اتصال القلم</string>
     <string name="pen_notifications_summary">إظهار إشعار عند اتصال قلم Lenovo أو فصله</string>
+    <string name="keyboard_notifications_title">إشعارات اتصال لوحة المفاتيح</string>
+    <string name="keyboard_notifications_summary">إظهار إشعار عند اتصال لوحة مفاتيح Lenovo للغطاء القابل للطي أو فصلها</string>
     <string name="pen_notification_channel">اتصال القلم</string>
     <string name="pen_connected_title">القلم متصل</string>
     <string name="pen_disconnected_title">القلم غير متصل</string>
+    <string name="keyboard_notification_channel">اتصال لوحة المفاتيح</string>
+    <string name="keyboard_connected_title">لوحة المفاتيح متصلة</string>
+    <string name="keyboard_disconnected_title">لوحة المفاتيح غير متصلة</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">وضع الصوت والمعادل ومُحسِّن الحوار وأوضاع التطبيقات</string>

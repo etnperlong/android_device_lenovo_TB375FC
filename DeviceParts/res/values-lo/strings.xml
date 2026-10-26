@@ -7,16 +7,15 @@
     <string name="app_name">ຄຸນສົມບັດອຸປະກອນ</string>
 
     <string name="device_parts_title">ຄຸນສົມບັດອຸປະກອນ</string>
-    <string name="device_parts_summary">ປະສິດທິພາບ, ປາກກາ, ການສຳຜັດ, Dolby Atmos ແລະ ເຄສຝາພັບ</string>
-    <string name="display_parts_title">ປາກກາ ແລະ ການສຳຜັດ</string>
-    <string name="display_parts_summary">ອັດຕາການຣີເຟຣຊຂອງປາກກາ, ອັດຕາການຣີເຟຣຊໃນໂໝດອ່ານ, ໂໝດເກມສຳຜັດ</string>
+    <string name="device_parts_summary">ປະສິດທິພາບ, ອຸປະກອນເສີມ, ການສຳຜັດ ແລະ Dolby Atmos</string>
+    <string name="display_parts_title">ອັດຕາການຣີເຟຣຊ ແລະ ການສຳຜັດ</string>
+    <string name="display_parts_summary">ອັດຕາການຣີເຟຣຊໃນໂໝດອ່ານ, ໂໝດເກມສຳຜັດ</string>
 
+    <string name="category_accessories_title">ອຸປະກອນເສີມທາງການ</string>
     <string name="category_display_title">ອັດຕາການຣີເຟຣຊ</string>
     <string name="category_touch_title">ການສຳຜັດ</string>
-    <string name="category_cover_title">ເຄສຝາພັບ</string>
     <string name="category_audio_title">ສຽງ</string>
     <string name="category_perf_title">ປະສິດທິພາບ</string>
-    <string name="category_pen_title">ປາກກາ</string>
 
     <string name="pen_refresh_cap_title">ຈຳກັດເປັນ 120 Hz ເມື່ອໃຊ້ປາກກາ</string>
     <string name="pen_refresh_cap_summary">ລາຍງານວ່າປາກກາແອັກທິຟຮອງຮັບສູງສຸດພຽງ 120 Hz. ການຈຳກັດຈະຖືກຍົກເລີກ 10 ວິນາທີຫຼັງຈາກໃຊ້ປາກກາຄັ້ງສຸດທ້າຍ.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">ປິດໜ້າຈໍ ແລະ ລັອກເມື່ອປິດເຄສຝາພັບ</string>
     <string name="pen_notifications_title">ການແຈ້ງເຕືອນການເຊື່ອມຕໍ່ປາກກາ</string>
     <string name="pen_notifications_summary">ສະແດງການແຈ້ງເຕືອນເມື່ອປາກກາ Lenovo ເຊື່ອມຕໍ່ ຫຼື ຕັດການເຊື່ອມຕໍ່</string>
+    <string name="keyboard_notifications_title">ການແຈ້ງເຕືອນການເຊື່ອມຕໍ່ແປ້ນພິມ</string>
+    <string name="keyboard_notifications_summary">ສະແດງການແຈ້ງເຕືອນເມື່ອແປ້ນພິມເຄສຝາພັບ Lenovo ເຊື່ອມຕໍ່ ຫຼື ຕັດການເຊື່ອມຕໍ່</string>
     <string name="pen_notification_channel">ການເຊື່ອມຕໍ່ປາກກາ</string>
     <string name="pen_connected_title">ເຊື່ອມຕໍ່ປາກກາແລ້ວ</string>
     <string name="pen_disconnected_title">ຕັດການເຊື່ອມຕໍ່ປາກກາແລ້ວ</string>
+    <string name="keyboard_notification_channel">ການເຊື່ອມຕໍ່ແປ້ນພິມ</string>
+    <string name="keyboard_connected_title">ເຊື່ອມຕໍ່ແປ້ນພິມແລ້ວ</string>
+    <string name="keyboard_disconnected_title">ຕັດການເຊື່ອມຕໍ່ແປ້ນພິມແລ້ວ</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">ໂໝດສຽງ, ອີຄວາລາຍເຊີ, ການເພີ່ມຄວາມຊັດເຈນສຽງເວົ້າ ແລະ ໂໝດສຳລັບແອັບ</string>

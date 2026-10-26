@@ -7,16 +7,15 @@
     <string name="app_name">Funkcje urządzenia</string>
 
     <string name="device_parts_title">Funkcje urządzenia</string>
-    <string name="device_parts_summary">Wydajność, rysik, dotyk, Dolby Atmos i etui z klapką</string>
-    <string name="display_parts_title">Rysik i dotyk</string>
-    <string name="display_parts_summary">Częstotliwość odświeżania dla rysika i trybu czytania, tryb dotyku w grach</string>
+    <string name="device_parts_summary">Wydajność, akcesoria, dotyk i Dolby Atmos</string>
+    <string name="display_parts_title">Częstotliwość odświeżania i dotyk</string>
+    <string name="display_parts_summary">Częstotliwość odświeżania w trybie czytania, tryb dotyku w grach</string>
 
+    <string name="category_accessories_title">Oficjalne akcesoria</string>
     <string name="category_display_title">Częstotliwość odświeżania</string>
     <string name="category_touch_title">Dotyk</string>
-    <string name="category_cover_title">Etui z klapką</string>
     <string name="category_audio_title">Dźwięk</string>
     <string name="category_perf_title">Wydajność</string>
-    <string name="category_pen_title">Rysik</string>
 
     <string name="pen_refresh_cap_title">Ogranicz do 120 Hz podczas korzystania z rysika</string>
     <string name="pen_refresh_cap_summary">Aktywny rysik obsługuje częstotliwość do 120 Hz. Ograniczenie zostanie zniesione 10 sekund po ostatnim użyciu rysika.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Usypiaj i blokuj urządzenie po zamknięciu etui</string>
     <string name="pen_notifications_title">Powiadomienia o połączeniu rysika</string>
     <string name="pen_notifications_summary">Pokazuj powiadomienie po połączeniu lub rozłączeniu rysika Lenovo</string>
+    <string name="keyboard_notifications_title">Powiadomienia o połączeniu klawiatury</string>
+    <string name="keyboard_notifications_summary">Pokazuj powiadomienie po połączeniu lub rozłączeniu klawiatury Lenovo do etui</string>
     <string name="pen_notification_channel">Połączenie rysika</string>
     <string name="pen_connected_title">Rysik połączony</string>
     <string name="pen_disconnected_title">Rysik rozłączony</string>
+    <string name="keyboard_notification_channel">Połączenie klawiatury</string>
+    <string name="keyboard_connected_title">Klawiatura połączona</string>
+    <string name="keyboard_disconnected_title">Klawiatura rozłączona</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Tryb dźwięku, korektor, ulepszanie dialogów i tryby aplikacji</string>

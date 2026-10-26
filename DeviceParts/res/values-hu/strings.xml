@@ -7,16 +7,15 @@
     <string name="app_name">Eszközfunkciók</string>
 
     <string name="device_parts_title">Eszközfunkciók</string>
-    <string name="device_parts_summary">Teljesítmény, érintőceruza, érintés, Dolby Atmos és tok</string>
-    <string name="display_parts_title">Érintőceruza és érintés</string>
-    <string name="display_parts_summary">Érintőceruza frissítési gyakorisága, olvasómód frissítési gyakorisága, érintéses játék mód</string>
+    <string name="device_parts_summary">Teljesítmény, kiegészítők, érintés és Dolby Atmos</string>
+    <string name="display_parts_title">Frissítési gyakoriság és érintés</string>
+    <string name="display_parts_summary">Olvasómód frissítési gyakorisága, érintéses játék mód</string>
 
+    <string name="category_accessories_title">Hivatalos kiegészítők</string>
     <string name="category_display_title">Frissítési gyakoriság</string>
     <string name="category_touch_title">Érintés</string>
-    <string name="category_cover_title">Tok</string>
     <string name="category_audio_title">Hang</string>
     <string name="category_perf_title">Teljesítmény</string>
-    <string name="category_pen_title">Érintőceruza</string>
 
     <string name="pen_refresh_cap_title">120 Hz-re korlátozás érintőceruza használatakor</string>
     <string name="pen_refresh_cap_summary">Az aktív érintőceruza a jelentések szerint legfeljebb 120 Hz-en működik. A korlátozás az utolsó ceruzás művelet után 10 másodperccel megszűnik.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">A tok lezárásakor kapcsolja ki a képernyőt és zárja le az eszközt</string>
     <string name="pen_notifications_title">Érintőceruza-kapcsolati értesítések</string>
     <string name="pen_notifications_summary">Értesítés megjelenítése Lenovo érintőceruza csatlakozásakor vagy leválasztásakor</string>
+    <string name="keyboard_notifications_title">Billentyűzet-kapcsolati értesítések</string>
+    <string name="keyboard_notifications_summary">Értesítés megjelenítése a Lenovo tokbillentyűzet csatlakozásakor vagy leválasztásakor</string>
     <string name="pen_notification_channel">Érintőceruza-kapcsolat</string>
     <string name="pen_connected_title">Érintőceruza csatlakoztatva</string>
     <string name="pen_disconnected_title">Érintőceruza leválasztva</string>
+    <string name="keyboard_notification_channel">Billentyűzet-kapcsolat</string>
+    <string name="keyboard_connected_title">Billentyűzet csatlakoztatva</string>
+    <string name="keyboard_disconnected_title">Billentyűzet leválasztva</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Hangmód, hangszínszabályzó, párbeszédkiemelő és alkalmazásmódok</string>

@@ -7,16 +7,15 @@
     <string name="app_name">Recursos do dispositivo</string>
 
     <string name="device_parts_title">Recursos do dispositivo</string>
-    <string name="device_parts_summary">Desempenho, stylus, toque, Dolby Atmos e capa tipo fólio</string>
-    <string name="display_parts_title">Stylus e toque</string>
-    <string name="display_parts_summary">Taxa de atualização da stylus e do modo de leitura, modo de jogo por toque</string>
+    <string name="device_parts_summary">Desempenho, acessórios, toque e Dolby Atmos</string>
+    <string name="display_parts_title">Taxa de atualização e toque</string>
+    <string name="display_parts_summary">Taxa de atualização do modo de leitura, modo de jogo por toque</string>
 
+    <string name="category_accessories_title">Acessórios oficiais</string>
     <string name="category_display_title">Taxa de atualização</string>
     <string name="category_touch_title">Toque</string>
-    <string name="category_cover_title">Capa tipo fólio</string>
     <string name="category_audio_title">Áudio</string>
     <string name="category_perf_title">Desempenho</string>
-    <string name="category_pen_title">Stylus</string>
 
     <string name="pen_refresh_cap_title">Limitar a 120 Hz ao usar a stylus</string>
     <string name="pen_refresh_cap_summary">A stylus ativa funciona somente até 120 Hz. O limite é removido 10 segundos após o último uso da stylus.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Suspender e bloquear ao fechar a capa tipo fólio</string>
     <string name="pen_notifications_title">Notificações de conexão da stylus</string>
     <string name="pen_notifications_summary">Mostrar uma notificação quando a stylus Lenovo se conectar ou desconectar</string>
+    <string name="keyboard_notifications_title">Notificações de conexão do teclado</string>
+    <string name="keyboard_notifications_summary">Mostrar uma notificação quando o teclado da capa tipo fólio Lenovo se conectar ou desconectar</string>
     <string name="pen_notification_channel">Conexão da stylus</string>
     <string name="pen_connected_title">Stylus conectada</string>
     <string name="pen_disconnected_title">Stylus desconectada</string>
+    <string name="keyboard_notification_channel">Conexão do teclado</string>
+    <string name="keyboard_connected_title">Teclado conectado</string>
+    <string name="keyboard_disconnected_title">Teclado desconectado</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Modo de som, equalizador, aprimorador de diálogos e modos por app</string>

@@ -7,16 +7,15 @@
     <string name="app_name">Toestelkenmerke</string>
 
     <string name="device_parts_title">Toestelkenmerke</string>
-    <string name="device_parts_summary">Werkverrigting, stilus, aanraking, Dolby Atmos en vouomhulsel</string>
-    <string name="display_parts_title">Stilus en aanraking</string>
-    <string name="display_parts_summary">Stilusverversingstempo, verversingstempo in leesmodus, speletjie-aanraakmodus</string>
+    <string name="device_parts_summary">Werkverrigting, bykomstighede, aanraking en Dolby Atmos</string>
+    <string name="display_parts_title">Verversingstempo en aanraking</string>
+    <string name="display_parts_summary">Verversingstempo in leesmodus, aanraak-speletjiemodus</string>
 
+    <string name="category_accessories_title">Amptelike bykomstighede</string>
     <string name="category_display_title">Verversingstempo</string>
     <string name="category_touch_title">Aanraking</string>
-    <string name="category_cover_title">Vouomhulsel</string>
     <string name="category_audio_title">Oudio</string>
     <string name="category_perf_title">Werkverrigting</string>
-    <string name="category_pen_title">Stilus</string>
 
     <string name="pen_refresh_cap_title">Beperk tot 120 Hz wanneer die stilus gebruik word</string>
     <string name="pen_refresh_cap_summary">Daar word berig dat die aktiewe stilus slegs tot 120 Hz werk. Die beperking word 10 sekondes ná die laaste stilusinvoer opgehef.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Laat slaap en sluit wanneer die vouomhulsel toegemaak word</string>
     <string name="pen_notifications_title">Stilusverbindingskennisgewings</string>
     <string name="pen_notifications_summary">Wys \'n kennisgewing wanneer \'n Lenovo-stilus koppel of ontkoppel</string>
+    <string name="keyboard_notifications_title">Sleutelbordverbindingskennisgewings</string>
+    <string name="keyboard_notifications_summary">Wys \'n kennisgewing wanneer die Lenovo-sleutelbordomslag koppel of ontkoppel</string>
     <string name="pen_notification_channel">Stilusverbinding</string>
     <string name="pen_connected_title">Stilus gekoppel</string>
     <string name="pen_disconnected_title">Stilus ontkoppel</string>
+    <string name="keyboard_notification_channel">Sleutelbordverbinding</string>
+    <string name="keyboard_connected_title">Sleutelbord gekoppel</string>
+    <string name="keyboard_disconnected_title">Sleutelbord ontkoppel</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Klankmodus, gelykmaker, dialoogverbeteraar en programmodusse</string>

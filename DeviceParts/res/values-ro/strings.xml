@@ -7,16 +7,15 @@
     <string name="app_name">Funcții ale dispozitivului</string>
 
     <string name="device_parts_title">Funcții ale dispozitivului</string>
-    <string name="device_parts_summary">Performanță, creion, atingere, Dolby Atmos și husă cu clapetă</string>
-    <string name="display_parts_title">Creion și atingere</string>
-    <string name="display_parts_summary">Rata de actualizare pentru creion, rata de actualizare în modul de lectură, modul de joc tactil</string>
+    <string name="device_parts_summary">Performanță, accesorii, atingere și Dolby Atmos</string>
+    <string name="display_parts_title">Rata de actualizare și atingere</string>
+    <string name="display_parts_summary">Rata de actualizare în modul de lectură, modul de joc tactil</string>
 
+    <string name="category_accessories_title">Accesorii oficiale</string>
     <string name="category_display_title">Rata de actualizare</string>
     <string name="category_touch_title">Atingere</string>
-    <string name="category_cover_title">Husă cu clapetă</string>
     <string name="category_audio_title">Sunet</string>
     <string name="category_perf_title">Performanță</string>
-    <string name="category_pen_title">Creion</string>
 
     <string name="pen_refresh_cap_title">Limitare la 120 Hz când folosești creionul</string>
     <string name="pen_refresh_cap_summary">Creionul activ funcționează doar până la 120 Hz. Limita este eliminată la 10 secunde după ultima utilizare a creionului.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Stinge ecranul și blochează dispozitivul când husa cu clapetă este închisă</string>
     <string name="pen_notifications_title">Notificări privind conexiunea creionului</string>
     <string name="pen_notifications_summary">Afișează o notificare când un creion Lenovo se conectează sau se deconectează</string>
+    <string name="keyboard_notifications_title">Notificări privind conexiunea tastaturii</string>
+    <string name="keyboard_notifications_summary">Afișează o notificare când tastatura folio Lenovo se conectează sau se deconectează</string>
     <string name="pen_notification_channel">Conexiunea creionului</string>
     <string name="pen_connected_title">Creion conectat</string>
     <string name="pen_disconnected_title">Creion deconectat</string>
+    <string name="keyboard_notification_channel">Conexiunea tastaturii</string>
+    <string name="keyboard_connected_title">Tastatură conectată</string>
+    <string name="keyboard_disconnected_title">Tastatură deconectată</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Mod de sunet, egalizator, amplificator de dialog și moduri pentru aplicații</string>

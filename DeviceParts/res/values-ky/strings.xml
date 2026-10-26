@@ -7,16 +7,15 @@
     <string name="app_name">Түзмөктүн мүмкүнчүлүктөрү</string>
 
     <string name="device_parts_title">Түзмөктүн мүмкүнчүлүктөрү</string>
-    <string name="device_parts_summary">Өндүрүмдүүлүк, стилус, сенсор, Dolby Atmos жана каптама</string>
-    <string name="display_parts_title">Стилус жана сенсор</string>
-    <string name="display_parts_summary">Стилустун жаңылануу жыштыгы, окуу режиминин жаңылануу жыштыгы, сенсордун оюн режими</string>
+    <string name="device_parts_summary">Өндүрүмдүүлүк, аксессуарлар, сенсор жана Dolby Atmos</string>
+    <string name="display_parts_title">Жаңылануу жыштыгы жана сенсор</string>
+    <string name="display_parts_summary">Окуу режиминин жаңылануу жыштыгы, сенсордун оюн режими</string>
 
+    <string name="category_accessories_title">Расмий аксессуарлар</string>
     <string name="category_display_title">Жаңылануу жыштыгы</string>
     <string name="category_touch_title">Сенсор</string>
-    <string name="category_cover_title">Каптама</string>
     <string name="category_audio_title">Аудио</string>
     <string name="category_perf_title">Өндүрүмдүүлүк</string>
-    <string name="category_pen_title">Стилус</string>
 
     <string name="pen_refresh_cap_title">Стилус колдонулганда 120 Гц менен чектөө</string>
     <string name="pen_refresh_cap_summary">Активдүү стилус 120 Гц чейин гана иштейт деп билдирилген. Стилус менен акыркы аракеттен 10 секунд өткөндө чектөө алынат.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Каптаманы жапканда экранды өчүрүп, кулпулоо</string>
     <string name="pen_notifications_title">Стилустун туташуусу тууралуу эскертмелер</string>
     <string name="pen_notifications_summary">Lenovo стилусу туташканда же ажыратылганда эскертме көрсөтүү</string>
+    <string name="keyboard_notifications_title">Баскычтоптун туташуусу тууралуу эскертмелер</string>
+    <string name="keyboard_notifications_summary">Lenovo каптама баскычтобу туташканда же ажыратылганда эскертме көрсөтүү</string>
     <string name="pen_notification_channel">Стилустун туташуусу</string>
     <string name="pen_connected_title">Стилус туташты</string>
     <string name="pen_disconnected_title">Стилус ажыратылды</string>
+    <string name="keyboard_notification_channel">Баскычтоптун туташуусу</string>
+    <string name="keyboard_connected_title">Баскычтоп туташты</string>
+    <string name="keyboard_disconnected_title">Баскычтоп ажыратылды</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Үн режими, эквалайзер, сүйлөөнү жакшыртуу жана колдонмо режимдери</string>

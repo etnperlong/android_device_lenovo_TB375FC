@@ -7,16 +7,15 @@
     <string name="app_name">Izici zedivayisi</string>
 
     <string name="device_parts_title">Izici zedivayisi</string>
-    <string name="device_parts_summary">Ukusebenza, i-stylus, ukuthinta, i-Dolby Atmos nekhava</string>
-    <string name="display_parts_title">I-stylus nokuthinta</string>
-    <string name="display_parts_summary">Izinga lokuvuselela le-stylus, izinga lokuvuselela lemodi yokufunda, imodi yegeyimu yokuthinta</string>
+    <string name="device_parts_summary">Ukusebenza, izisekeli, ukuthinta ne-Dolby Atmos</string>
+    <string name="display_parts_title">Izinga lokuvuselela nokuthinta</string>
+    <string name="display_parts_summary">Izinga lokuvuselela lemodi yokufunda, imodi yegeyimu yokuthinta</string>
 
+    <string name="category_accessories_title">Izisekeli ezisemthethweni</string>
     <string name="category_display_title">Izinga lokuvuselela</string>
     <string name="category_touch_title">Ukuthinta</string>
-    <string name="category_cover_title">Ikhava</string>
     <string name="category_audio_title">Umsindo</string>
     <string name="category_perf_title">Ukusebenza</string>
-    <string name="category_pen_title">I-stylus</string>
 
     <string name="pen_refresh_cap_title">Khawulela ku-120 Hz uma usebenzisa i-stylus</string>
     <string name="pen_refresh_cap_summary">Kubikwa ukuthi i-stylus esebenzayo isebenza kuphela kufika ku-120 Hz. Umkhawulo uyasuswa emizuzwaneni engu-10 ngemva kokufaka kokugcina nge-stylus.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Vala isikrini bese usikhiya uma ikhava ivaliwe</string>
     <string name="pen_notifications_title">Izaziso zokuxhumeka kwe-stylus</string>
     <string name="pen_notifications_summary">Bonisa isaziso uma i-stylus ye-Lenovo ixhuma noma inqamuka</string>
+    <string name="keyboard_notifications_title">Izaziso zokuxhumeka kwekhibhodi</string>
+    <string name="keyboard_notifications_summary">Bonisa isaziso uma ikhibhodi yekhava ye-folio ye-Lenovo ixhuma noma inqamuka</string>
     <string name="pen_notification_channel">Ukuxhumeka kwe-stylus</string>
     <string name="pen_connected_title">I-stylus ixhunyiwe</string>
     <string name="pen_disconnected_title">I-stylus inqanyuliwe</string>
+    <string name="keyboard_notification_channel">Ukuxhumeka kwekhibhodi</string>
+    <string name="keyboard_connected_title">Ikhibhodi ixhunyiwe</string>
+    <string name="keyboard_disconnected_title">Ikhibhodi inqanyuliwe</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Imodi yomsindo, isilinganisi somsindo, isithuthukisi sezingxoxo namamodi ohlelo lokusebenza</string>

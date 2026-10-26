@@ -7,16 +7,15 @@
     <string name="app_name">Функције уређаја</string>
 
     <string name="device_parts_title">Функције уређаја</string>
-    <string name="device_parts_summary">Перформансе, оловка, екран осетљив на додир, Dolby Atmos и футрола</string>
-    <string name="display_parts_title">Оловка и екран осетљив на додир</string>
-    <string name="display_parts_summary">Брзина освежавања за оловку и режим читања, режим за игре екрана осетљивог на додир</string>
+    <string name="device_parts_summary">Перформансе, додаци, екран осетљив на додир и Dolby Atmos</string>
+    <string name="display_parts_title">Брзина освежавања и екран осетљив на додир</string>
+    <string name="display_parts_summary">Брзина освежавања режима читања, режим за игре екрана осетљивог на додир</string>
 
+    <string name="category_accessories_title">Званични додаци</string>
     <string name="category_display_title">Брзина освежавања</string>
     <string name="category_touch_title">Екран осетљив на додир</string>
-    <string name="category_cover_title">Футрола на преклоп</string>
     <string name="category_audio_title">Звук</string>
     <string name="category_perf_title">Перформансе</string>
-    <string name="category_pen_title">Оловка</string>
 
     <string name="pen_refresh_cap_title">Ограничи на 120 Гц при коришћењу оловке</string>
     <string name="pen_refresh_cap_summary">Активна оловка, према наводима, ради само до 120 Гц. Ограничење се уклања 10 секунди после последњег уноса оловком.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Искључи екран и закључај уређај када се затвори футрола на преклоп</string>
     <string name="pen_notifications_title">Обавештења о повезивању оловке</string>
     <string name="pen_notifications_summary">Прикажи обавештење када се Lenovo оловка повеже или прекине везу</string>
+    <string name="keyboard_notifications_title">Обавештења о повезивању тастатуре</string>
+    <string name="keyboard_notifications_summary">Прикажи обавештење када се тастатура футроле на преклоп Lenovo повеже или прекине везу</string>
     <string name="pen_notification_channel">Повезивање оловке</string>
     <string name="pen_connected_title">Оловка је повезана</string>
     <string name="pen_disconnected_title">Оловка је прекинула везу</string>
+    <string name="keyboard_notification_channel">Повезивање тастатуре</string>
+    <string name="keyboard_connected_title">Тастатура је повезана</string>
+    <string name="keyboard_disconnected_title">Тастатура је прекинула везу</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Режим звука, еквилајзер, побољшање дијалога и режими за апликације</string>

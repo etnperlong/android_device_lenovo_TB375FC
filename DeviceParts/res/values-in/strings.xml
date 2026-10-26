@@ -7,16 +7,15 @@
     <string name="app_name">Fitur perangkat</string>
 
     <string name="device_parts_title">Fitur perangkat</string>
-    <string name="device_parts_summary">Performa, stilus, sentuhan, Dolby Atmos, dan penutup folio</string>
-    <string name="display_parts_title">Stilus dan sentuhan</string>
-    <string name="display_parts_summary">Kecepatan refresh stilus, kecepatan refresh modus membaca, modus game sentuh</string>
+    <string name="device_parts_summary">Performa, aksesori, sentuhan, dan Dolby Atmos</string>
+    <string name="display_parts_title">Kecepatan refresh dan sentuhan</string>
+    <string name="display_parts_summary">Kecepatan refresh modus membaca, modus game sentuh</string>
 
+    <string name="category_accessories_title">Aksesori resmi</string>
     <string name="category_display_title">Kecepatan refresh</string>
     <string name="category_touch_title">Sentuhan</string>
-    <string name="category_cover_title">Penutup folio</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Performa</string>
-    <string name="category_pen_title">Stilus</string>
 
     <string name="pen_refresh_cap_title">Batasi ke 120 Hz saat menggunakan stilus</string>
     <string name="pen_refresh_cap_summary">Stilus aktif dilaporkan hanya mendukung hingga 120 Hz. Batas akan dilepas 10 detik setelah input stilus terakhir.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Tidurkan dan kunci perangkat saat penutup folio ditutup</string>
     <string name="pen_notifications_title">Notifikasi koneksi stilus</string>
     <string name="pen_notifications_summary">Tampilkan notifikasi saat stilus Lenovo terhubung atau terputus</string>
+    <string name="keyboard_notifications_title">Notifikasi koneksi keyboard</string>
+    <string name="keyboard_notifications_summary">Tampilkan notifikasi saat keyboard folio Lenovo terhubung atau terputus</string>
     <string name="pen_notification_channel">Koneksi stilus</string>
     <string name="pen_connected_title">Stilus terhubung</string>
     <string name="pen_disconnected_title">Stilus terputus</string>
+    <string name="keyboard_notification_channel">Koneksi keyboard</string>
+    <string name="keyboard_connected_title">Keyboard terhubung</string>
+    <string name="keyboard_disconnected_title">Keyboard terputus</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Modus suara, ekualiser, peningkat dialog, dan modus aplikasi</string>

@@ -7,16 +7,15 @@
     <string name="app_name">裝置功能</string>
 
     <string name="device_parts_title">裝置功能</string>
-    <string name="device_parts_summary">效能、觸控筆、觸控、杜比全景聲與翻蓋保護套</string>
-    <string name="display_parts_title">觸控筆與觸控</string>
-    <string name="display_parts_summary">觸控筆更新率、閱讀模式更新率、觸控遊戲模式</string>
+    <string name="device_parts_summary">效能、配件、觸控與杜比全景聲</string>
+    <string name="display_parts_title">更新率與觸控</string>
+    <string name="display_parts_summary">閱讀模式更新率、觸控遊戲模式</string>
 
+    <string name="category_accessories_title">官方配件</string>
     <string name="category_display_title">更新率</string>
     <string name="category_touch_title">觸控</string>
-    <string name="category_cover_title">翻蓋保護套</string>
     <string name="category_audio_title">音訊</string>
     <string name="category_perf_title">效能</string>
-    <string name="category_pen_title">觸控筆</string>
 
     <string name="pen_refresh_cap_title">使用觸控筆時限制為 120 Hz</string>
     <string name="pen_refresh_cap_summary">主動式觸控筆回報僅支援最高 120 Hz。最後一次觸控筆輸入後 10 秒即解除限制。</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">合上翻蓋保護套時讓裝置進入休眠並鎖定</string>
     <string name="pen_notifications_title">觸控筆連線通知</string>
     <string name="pen_notifications_summary">Lenovo 觸控筆連線或中斷連線時顯示通知</string>
+    <string name="keyboard_notifications_title">鍵盤連線通知</string>
+    <string name="keyboard_notifications_summary">Lenovo 翻蓋保護套鍵盤連線或中斷連線時顯示通知</string>
     <string name="pen_notification_channel">觸控筆連線</string>
     <string name="pen_connected_title">觸控筆已連線</string>
     <string name="pen_disconnected_title">觸控筆已中斷連線</string>
+    <string name="keyboard_notification_channel">鍵盤連線</string>
+    <string name="keyboard_connected_title">鍵盤已連線</string>
+    <string name="keyboard_disconnected_title">鍵盤已中斷連線</string>
 
     <string name="dolby_title">杜比全景聲</string>
     <string name="dolby_summary">音效模式、等化器、對話增強器與應用程式模式</string>

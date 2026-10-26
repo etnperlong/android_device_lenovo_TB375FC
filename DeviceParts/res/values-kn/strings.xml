@@ -7,16 +7,15 @@
     <string name="app_name">ಸಾಧನ ವೈಶಿಷ್ಟ್ಯಗಳು</string>
 
     <string name="device_parts_title">ಸಾಧನ ವೈಶಿಷ್ಟ್ಯಗಳು</string>
-    <string name="device_parts_summary">ಕಾರ್ಯಕ್ಷಮತೆ, ಸ್ಟೈಲಸ್, ಸ್ಪರ್ಶ ನಿಯಂತ್ರಣ, Dolby Atmos ಮತ್ತು ಫ್ಲಿಪ್ ಕವರ್</string>
-    <string name="display_parts_title">ಸ್ಟೈಲಸ್ ಮತ್ತು ಸ್ಪರ್ಶ</string>
-    <string name="display_parts_summary">ಸ್ಟೈಲಸ್ ರಿಫ್ರೆಶ್ ರೇಟ್, ಓದುವ ರೀತಿಯ ರಿಫ್ರೆಶ್ ರೇಟ್, ಟಚ್ ಗೇಮ್ ಮೋಡ್</string>
+    <string name="device_parts_summary">ಕಾರ್ಯಕ್ಷಮತೆ, ಪರಿಕರಗಳು, ಸ್ಪರ್ಶ ನಿಯಂತ್ರಣ ಮತ್ತು Dolby Atmos</string>
+    <string name="display_parts_title">ರಿಫ್ರೆಶ್ ರೇಟ್ ಮತ್ತು ಸ್ಪರ್ಶ</string>
+    <string name="display_parts_summary">ಓದುವ ರೀತಿಯ ರಿಫ್ರೆಶ್ ರೇಟ್, ಟಚ್ ಗೇಮ್ ಮೋಡ್</string>
 
+    <string name="category_accessories_title">ಅಧಿಕೃತ ಪರಿಕರಗಳು</string>
     <string name="category_display_title">ರಿಫ್ರೆಶ್ ರೇಟ್</string>
     <string name="category_touch_title">ಸ್ಪರ್ಶ</string>
-    <string name="category_cover_title">ಫ್ಲಿಪ್ ಕವರ್</string>
     <string name="category_audio_title">ಆಡಿಯೋ</string>
     <string name="category_perf_title">ಕಾರ್ಯಕ್ಷಮತೆ</string>
-    <string name="category_pen_title">ಸ್ಟೈಲಸ್</string>
 
     <string name="pen_refresh_cap_title">ಸ್ಟೈಲಸ್ ಬಳಸುವಾಗ 120 Hz ಗೆ ಮಿತಿಗೊಳಿಸಿ</string>
     <string name="pen_refresh_cap_summary">ಸಕ್ರಿಯ ಸ್ಟೈಲಸ್ 120 Hz ವರೆಗೆ ಮಾತ್ರ ಕೆಲಸ ಮಾಡುತ್ತದೆ ಎಂದು ವರದಿಯಾಗಿದೆ. ಕೊನೆಯ ಸ್ಟೈಲಸ್ ಇನ್‌ಪುಟ್‌ನ 10 ಸೆಕೆಂಡುಗಳ ನಂತರ ಮಿತಿ ತೆರವುಗೊಳ್ಳುತ್ತದೆ.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">ಫ್ಲಿಪ್ ಕವರ್ ಮುಚ್ಚಿದಾಗ ಪರದೆಯನ್ನು ಆಫ್ ಮಾಡಿ ಲಾಕ್ ಮಾಡುತ್ತದೆ</string>
     <string name="pen_notifications_title">ಸ್ಟೈಲಸ್ ಸಂಪರ್ಕ ಅಧಿಸೂಚನೆಗಳು</string>
     <string name="pen_notifications_summary">Lenovo ಸ್ಟೈಲಸ್ ಕನೆಕ್ಟ್ ಅಥವಾ ಡಿಸ್‌ಕನೆಕ್ಟ್ ಆದಾಗ ಅಧಿಸೂಚನೆ ತೋರಿಸಿ</string>
+    <string name="keyboard_notifications_title">ಕೀಬೋರ್ಡ್ ಸಂಪರ್ಕ ಅಧಿಸೂಚನೆಗಳು</string>
+    <string name="keyboard_notifications_summary">Lenovo ಫ್ಲಿಪ್ ಕವರ್ ಕೀಬೋರ್ಡ್ ಕನೆಕ್ಟ್ ಅಥವಾ ಡಿಸ್‌ಕನೆಕ್ಟ್ ಆದಾಗ ಅಧಿಸೂಚನೆ ತೋರಿಸಿ</string>
     <string name="pen_notification_channel">ಸ್ಟೈಲಸ್ ಸಂಪರ್ಕ</string>
     <string name="pen_connected_title">ಸ್ಟೈಲಸ್ ಕನೆಕ್ಟ್ ಆಗಿದೆ</string>
     <string name="pen_disconnected_title">ಸ್ಟೈಲಸ್ ಡಿಸ್‌ಕನೆಕ್ಟ್ ಆಗಿದೆ</string>
+    <string name="keyboard_notification_channel">ಕೀಬೋರ್ಡ್ ಸಂಪರ್ಕ</string>
+    <string name="keyboard_connected_title">ಕೀಬೋರ್ಡ್ ಕನೆಕ್ಟ್ ಆಗಿದೆ</string>
+    <string name="keyboard_disconnected_title">ಕೀಬೋರ್ಡ್ ಡಿಸ್‌ಕನೆಕ್ಟ್ ಆಗಿದೆ</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">ಧ್ವನಿ ಮೋಡ್, ಈಕ್ವಲೈಜರ್, ಸಂಭಾಷಣೆ ವರ್ಧಕ ಮತ್ತು ಆ್ಯಪ್ ಮೋಡ್‌ಗಳು</string>

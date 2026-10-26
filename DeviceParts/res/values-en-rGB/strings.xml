@@ -4,12 +4,17 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <string name="category_pen_title">Pen</string>
+    <string name="category_accessories_title">Official accessories</string>
     <string name="pen_notifications_title">Pen connection notifications</string>
     <string name="pen_notifications_summary">Show a notification when a Lenovo pen connects or disconnects</string>
+    <string name="keyboard_notifications_title">Keyboard connection notifications</string>
+    <string name="keyboard_notifications_summary">Show a notification when the Lenovo folio keyboard connects or disconnects</string>
     <string name="pen_notification_channel">Pen connection</string>
     <string name="pen_connected_title">Pen connected</string>
     <string name="pen_disconnected_title">Pen disconnected</string>
+    <string name="keyboard_notification_channel">Keyboard connection</string>
+    <string name="keyboard_connected_title">Keyboard connected</string>
+    <string name="keyboard_disconnected_title">Keyboard disconnected</string>
     <string name="dolby_summary">Sound mode, equaliser, dialogue enhancer and app modes</string>
     <string name="dolby_geq_title">Equaliser</string>
 </resources>

@@ -7,16 +7,15 @@
     <string name="app_name">Функции устройства</string>
 
     <string name="device_parts_title">Функции устройства</string>
-    <string name="device_parts_summary">Производительность, стилус, сенсорный экран, Dolby Atmos и чехол</string>
-    <string name="display_parts_title">Стилус и сенсорный экран</string>
-    <string name="display_parts_summary">Частота обновления для стилуса и режима чтения, игровой режим сенсорного экрана</string>
+    <string name="device_parts_summary">Производительность, аксессуары, сенсорный экран и Dolby Atmos</string>
+    <string name="display_parts_title">Частота обновления и сенсорный экран</string>
+    <string name="display_parts_summary">Частота обновления в режиме чтения, игровой режим сенсорного экрана</string>
 
+    <string name="category_accessories_title">Официальные аксессуары</string>
     <string name="category_display_title">Частота обновления</string>
     <string name="category_touch_title">Сенсорный экран</string>
-    <string name="category_cover_title">Чехол-книжка</string>
     <string name="category_audio_title">Звук</string>
     <string name="category_perf_title">Производительность</string>
-    <string name="category_pen_title">Стилус</string>
 
     <string name="pen_refresh_cap_title">Ограничить частоту до 120 Гц при использовании стилуса</string>
     <string name="pen_refresh_cap_summary">Активный стилус, по имеющимся данным, работает только на частоте до 120 Гц. Ограничение снимается через 10 секунд после последнего ввода стилусом.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Выключать экран и блокировать устройство при закрытии чехла-книжки</string>
     <string name="pen_notifications_title">Уведомления о подключении стилуса</string>
     <string name="pen_notifications_summary">Показывать уведомление при подключении или отключении стилуса Lenovo</string>
+    <string name="keyboard_notifications_title">Уведомления о подключении клавиатуры</string>
+    <string name="keyboard_notifications_summary">Показывать уведомление при подключении или отключении клавиатуры Lenovo для чехла-книжки</string>
     <string name="pen_notification_channel">Подключение стилуса</string>
     <string name="pen_connected_title">Стилус подключён</string>
     <string name="pen_disconnected_title">Стилус отключён</string>
+    <string name="keyboard_notification_channel">Подключение клавиатуры</string>
+    <string name="keyboard_connected_title">Клавиатура подключена</string>
+    <string name="keyboard_disconnected_title">Клавиатура отключена</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Режим звука, эквалайзер, улучшение диалогов и режимы для приложений</string>

@@ -7,16 +7,15 @@
     <string name="app_name">የመሣሪያ ባህሪያት</string>
 
     <string name="device_parts_title">የመሣሪያ ባህሪያት</string>
-    <string name="device_parts_summary">አፈጻጸም፣ ስታይለስ፣ ንክኪ፣ Dolby Atmos እና መያዣ</string>
-    <string name="display_parts_title">ስታይለስ እና ንክኪ</string>
-    <string name="display_parts_summary">የስታይለስ የማደስ ፍጥነት፣ የንባብ ሁነታ የማደስ ፍጥነት፣ የንክኪ ጨዋታ ሁነታ</string>
+    <string name="device_parts_summary">አፈጻጸም፣ መለዋወጫዎች፣ ንክኪ እና Dolby Atmos</string>
+    <string name="display_parts_title">የማደስ ፍጥነት እና ንክኪ</string>
+    <string name="display_parts_summary">የንባብ ሁነታ የማደስ ፍጥነት፣ የንክኪ ጨዋታ ሁነታ</string>
 
+    <string name="category_accessories_title">ኦፊሴላዊ መለዋወጫዎች</string>
     <string name="category_display_title">የማደስ ፍጥነት</string>
     <string name="category_touch_title">ንክኪ</string>
-    <string name="category_cover_title">መያዣ</string>
     <string name="category_audio_title">ድምጽ</string>
     <string name="category_perf_title">አፈጻጸም</string>
-    <string name="category_pen_title">ስታይለስ</string>
 
     <string name="pen_refresh_cap_title">ስታይለስ ሲጠቀሙ ወደ 120 ኸርዝ ገድብ</string>
     <string name="pen_refresh_cap_summary">ንቁው ስታይለስ እስከ 120 ኸርዝ ብቻ እንደሚሠራ ተገልጿል። የመጨረሻው የስታይለስ ግቤት ከተደረገ ከ10 ሰከንድ በኋላ ገደቡ ይነሳል።</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">መያዣው ሲዘጋ ማያ ገጹን አጥፋ እና ቆልፍ</string>
     <string name="pen_notifications_title">የስታይለስ ግንኙነት ማሳወቂያዎች</string>
     <string name="pen_notifications_summary">Lenovo ስታይለስ ሲገናኝ ወይም ሲለያይ ማሳወቂያ አሳይ</string>
+    <string name="keyboard_notifications_title">የቁልፍዳሌ ግንኙነት ማሳወቂያዎች</string>
+    <string name="keyboard_notifications_summary">Lenovo ፎሊዮ ቁልፍዳሌ ሲገናኝ ወይም ሲለያይ ማሳወቂያ አሳይ</string>
     <string name="pen_notification_channel">የስታይለስ ግንኙነት</string>
     <string name="pen_connected_title">ስታይለስ ተገናኝቷል</string>
     <string name="pen_disconnected_title">ስታይለስ ተለይቷል</string>
+    <string name="keyboard_notification_channel">የቁልፍዳሌ ግንኙነት</string>
+    <string name="keyboard_connected_title">ቁልፍዳሌ ተገናኝቷል</string>
+    <string name="keyboard_disconnected_title">ቁልፍዳሌ ተለይቷል</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">የድምጽ ሁነታ፣ ኢኳላይዘር፣ የንግግር አጉሊ እና የመተግበሪያ ሁነታዎች</string>

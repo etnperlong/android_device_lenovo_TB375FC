@@ -7,16 +7,15 @@
     <string name="app_name">Құрылғы мүмкіндіктері</string>
 
     <string name="device_parts_title">Құрылғы мүмкіндіктері</string>
-    <string name="device_parts_summary">Өнімділік, стилус, сенсор, Dolby Atmos және қаптама</string>
-    <string name="display_parts_title">Стилус және сенсор</string>
-    <string name="display_parts_summary">Стилус жаңарту жиілігі, оқу режимінің жаңарту жиілігі, сенсордың ойын режимі</string>
+    <string name="device_parts_summary">Өнімділік, керек-жарақтар, сенсор және Dolby Atmos</string>
+    <string name="display_parts_title">Жаңарту жиілігі және сенсор</string>
+    <string name="display_parts_summary">Оқу режимінің жаңарту жиілігі, сенсордың ойын режимі</string>
 
+    <string name="category_accessories_title">Ресми керек-жарақтар</string>
     <string name="category_display_title">Жаңарту жиілігі</string>
     <string name="category_touch_title">Сенсор</string>
-    <string name="category_cover_title">Қаптама</string>
     <string name="category_audio_title">Дыбыс</string>
     <string name="category_perf_title">Өнімділік</string>
-    <string name="category_pen_title">Стилус</string>
 
     <string name="pen_refresh_cap_title">Стилус пайдаланылғанда 120 Гц-пен шектеу</string>
     <string name="pen_refresh_cap_summary">Белсенді стилус тек 120 Гц-ке дейін жұмыс істейтіні хабарланған. Соңғы стилус енгізуінен кейін 10 секундтан соң шектеу алынады.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Қаптаманы жапқанда экранды өшіріп, құлыптау</string>
     <string name="pen_notifications_title">Стилус қосылымы туралы хабарландырулар</string>
     <string name="pen_notifications_summary">Lenovo стилусы қосылғанда немесе ажыратылғанда хабарландыру көрсету</string>
+    <string name="keyboard_notifications_title">Пернетақта қосылымы туралы хабарландырулар</string>
+    <string name="keyboard_notifications_summary">Lenovo қаптама пернетақтасы қосылғанда немесе ажыратылғанда хабарландыру көрсету</string>
     <string name="pen_notification_channel">Стилус қосылымы</string>
     <string name="pen_connected_title">Стилус қосылды</string>
     <string name="pen_disconnected_title">Стилус ажыратылды</string>
+    <string name="keyboard_notification_channel">Пернетақта қосылымы</string>
+    <string name="keyboard_connected_title">Пернетақта қосылды</string>
+    <string name="keyboard_disconnected_title">Пернетақта ажыратылды</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Дыбыс режимі, эквалайзер, диалогты күшейту және қолданба режимдері</string>

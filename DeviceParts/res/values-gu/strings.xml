@@ -7,16 +7,15 @@
     <string name="app_name">ડિવાઇસની સુવિધાઓ</string>
 
     <string name="device_parts_title">ડિવાઇસની સુવિધાઓ</string>
-    <string name="device_parts_summary">પર્ફોર્મન્સ, સ્ટાઇલસ, ટચ, Dolby Atmos અને ફોલિયો કવર</string>
-    <string name="display_parts_title">સ્ટાઇલસ અને ટચ</string>
-    <string name="display_parts_summary">સ્ટાઇલસ રિફ્રેશ રેટ, રીડિંગ મોડ રિફ્રેશ રેટ, ટચ ગેમ મોડ</string>
+    <string name="device_parts_summary">પર્ફોર્મન્સ, એસેસરીઝ, ટચ અને Dolby Atmos</string>
+    <string name="display_parts_title">રિફ્રેશ રેટ અને ટચ</string>
+    <string name="display_parts_summary">રીડિંગ મોડ રિફ્રેશ રેટ, ટચ ગેમ મોડ</string>
 
+    <string name="category_accessories_title">સત્તાવાર એસેસરીઝ</string>
     <string name="category_display_title">રિફ્રેશ રેટ</string>
     <string name="category_touch_title">ટચ</string>
-    <string name="category_cover_title">ફોલિયો કવર</string>
     <string name="category_audio_title">ઑડિયો</string>
     <string name="category_perf_title">પર્ફોર્મન્સ</string>
-    <string name="category_pen_title">સ્ટાઇલસ</string>
 
     <string name="pen_refresh_cap_title">સ્ટાઇલસનો ઉપયોગ કરતી વખતે 120 Hz સુધી સીમિત કરો</string>
     <string name="pen_refresh_cap_summary">ઍક્ટિવ સ્ટાઇલસ ફક્ત 120 Hz સુધી કામ કરે છે. સ્ટાઇલસ વડે છેલ્લો ઇનપુટ આપ્યાના 10 સેકન્ડ પછી સીમા દૂર થાય છે.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">ફોલિયો કવર બંધ થાય ત્યારે સ્લીપ અને લૉક કરો</string>
     <string name="pen_notifications_title">સ્ટાઇલસ કનેક્શન સૂચનાઓ</string>
     <string name="pen_notifications_summary">Lenovo સ્ટાઇલસ કનેક્ટ કે ડિસ્કનેક્ટ થાય ત્યારે સૂચના બતાવો</string>
+    <string name="keyboard_notifications_title">કીબોર્ડ કનેક્શન સૂચનાઓ</string>
+    <string name="keyboard_notifications_summary">Lenovo ફોલિયો કીબોર્ડ કનેક્ટ કે ડિસ્કનેક્ટ થાય ત્યારે સૂચના બતાવો</string>
     <string name="pen_notification_channel">સ્ટાઇલસ કનેક્શન</string>
     <string name="pen_connected_title">સ્ટાઇલસ કનેક્ટ થયું</string>
     <string name="pen_disconnected_title">સ્ટાઇલસ ડિસ્કનેક્ટ થયું</string>
+    <string name="keyboard_notification_channel">કીબોર્ડ કનેક્શન</string>
+    <string name="keyboard_connected_title">કીબોર્ડ કનેક્ટ થયું</string>
+    <string name="keyboard_disconnected_title">કીબોર્ડ ડિસ્કનેક્ટ થયું</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">સાઉન્ડ મોડ, ઇક્વલાઇઝર, ડાયલૉગ એન્હાન્સર અને ઍપ મોડ</string>

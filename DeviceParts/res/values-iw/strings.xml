@@ -7,16 +7,15 @@
     <string name="app_name">תכונות המכשיר</string>
 
     <string name="device_parts_title">תכונות המכשיר</string>
-    <string name="device_parts_summary">ביצועים, סטיילוס, מגע, Dolby Atmos וכיסוי מתקפל</string>
-    <string name="display_parts_title">סטיילוס ומגע</string>
-    <string name="display_parts_summary">קצב רענון הסטיילוס, קצב רענון במצב קריאה ומצב משחק במגע</string>
+    <string name="device_parts_summary">ביצועים, אביזרים, מגע ו־Dolby Atmos</string>
+    <string name="display_parts_title">קצב רענון ומגע</string>
+    <string name="display_parts_summary">קצב רענון במצב קריאה, מצב משחק במגע</string>
 
+    <string name="category_accessories_title">אביזרים רשמיים</string>
     <string name="category_display_title">קצב רענון</string>
     <string name="category_touch_title">מגע</string>
-    <string name="category_cover_title">כיסוי מתקפל</string>
     <string name="category_audio_title">אודיו</string>
     <string name="category_perf_title">ביצועים</string>
-    <string name="category_pen_title">סטיילוס</string>
 
     <string name="pen_refresh_cap_title">הגבלת קצב הרענון ל־120 Hz בזמן שימוש בסטיילוס</string>
     <string name="pen_refresh_cap_summary">לפי הדיווחים, סטיילוס פעיל פועל בקצב של עד 120 Hz בלבד. ההגבלה מוסרת 10 שניות לאחר השימוש האחרון בסטיילוס.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">כיבוי ונעילה כשהכיסוי המתקפל נסגר</string>
     <string name="pen_notifications_title">התראות על חיבור סטיילוס</string>
     <string name="pen_notifications_summary">הצגת התראה כשהסטיילוס של Lenovo מתחבר או מתנתק</string>
+    <string name="keyboard_notifications_title">התראות על חיבור מקלדת</string>
+    <string name="keyboard_notifications_summary">הצגת התראה כשהמקלדת המתקפלת של Lenovo מתחברת או מתנתקת</string>
     <string name="pen_notification_channel">חיבור סטיילוס</string>
     <string name="pen_connected_title">הסטיילוס מחובר</string>
     <string name="pen_disconnected_title">הסטיילוס מנותק</string>
+    <string name="keyboard_notification_channel">חיבור מקלדת</string>
+    <string name="keyboard_connected_title">המקלדת מחוברת</string>
+    <string name="keyboard_disconnected_title">המקלדת מנותקת</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">מצב צליל, אקולייזר, שיפור דיאלוג ומצבים לאפליקציות</string>

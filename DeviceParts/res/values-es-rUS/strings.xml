@@ -7,16 +7,15 @@
     <string name="app_name">Funciones del dispositivo</string>
 
     <string name="device_parts_title">Funciones del dispositivo</string>
-    <string name="device_parts_summary">Rendimiento, pluma stylus, pantalla táctil, Dolby Atmos y funda tipo folio</string>
-    <string name="display_parts_title">Pluma stylus y pantalla táctil</string>
-    <string name="display_parts_summary">Frecuencia de actualización de la pluma stylus y del modo de lectura, modo de juego táctil</string>
+    <string name="device_parts_summary">Rendimiento, accesorios, pantalla táctil y Dolby Atmos</string>
+    <string name="display_parts_title">Frecuencia de actualización y pantalla táctil</string>
+    <string name="display_parts_summary">Frecuencia de actualización del modo de lectura, modo de juego táctil</string>
 
+    <string name="category_accessories_title">Accesorios oficiales</string>
     <string name="category_display_title">Frecuencia de actualización</string>
     <string name="category_touch_title">Pantalla táctil</string>
-    <string name="category_cover_title">Funda tipo folio</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Rendimiento</string>
-    <string name="category_pen_title">Pluma stylus</string>
 
     <string name="pen_refresh_cap_title">Limitar a 120 Hz al usar la pluma stylus</string>
     <string name="pen_refresh_cap_summary">Se informó que la pluma stylus activa funciona solo hasta 120 Hz. El límite se quita 10 segundos después de la última interacción con la pluma.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Suspender y bloquear al cerrar la funda tipo folio</string>
     <string name="pen_notifications_title">Notificaciones de conexión de la pluma stylus</string>
     <string name="pen_notifications_summary">Mostrar una notificación cuando se conecte o desconecte una pluma stylus Lenovo</string>
+    <string name="keyboard_notifications_title">Notificaciones de conexión del teclado</string>
+    <string name="keyboard_notifications_summary">Mostrar una notificación cuando se conecte o desconecte el teclado de la funda tipo folio Lenovo</string>
     <string name="pen_notification_channel">Conexión de la pluma stylus</string>
     <string name="pen_connected_title">Pluma stylus conectada</string>
     <string name="pen_disconnected_title">Pluma stylus desconectada</string>
+    <string name="keyboard_notification_channel">Conexión del teclado</string>
+    <string name="keyboard_connected_title">Teclado conectado</string>
+    <string name="keyboard_disconnected_title">Teclado desconectado</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Modo de sonido, ecualizador, potenciador de diálogos y modos por app</string>

@@ -7,16 +7,15 @@
     <string name="app_name">Eiginleikar tækis</string>
 
     <string name="device_parts_title">Eiginleikar tækis</string>
-    <string name="device_parts_summary">Afköst, penni, snerting, Dolby Atmos og hlíf</string>
-    <string name="display_parts_title">Penni og snerting</string>
-    <string name="display_parts_summary">Endurnýjunartíðni pennans, endurnýjunartíðni í lesham, snertileikjastilling</string>
+    <string name="device_parts_summary">Afköst, aukabúnaður, snerting og Dolby Atmos</string>
+    <string name="display_parts_title">Endurnýjunartíðni og snerting</string>
+    <string name="display_parts_summary">Endurnýjunartíðni í lesham, snertileikjastilling</string>
 
+    <string name="category_accessories_title">Opinber aukabúnaður</string>
     <string name="category_display_title">Endurnýjunartíðni</string>
     <string name="category_touch_title">Snerting</string>
-    <string name="category_cover_title">Folio-hlíf</string>
     <string name="category_audio_title">Hljóð</string>
     <string name="category_perf_title">Afköst</string>
-    <string name="category_pen_title">Penni</string>
 
     <string name="pen_refresh_cap_title">Takmarka við 120 Hz þegar penninn er notaður</string>
     <string name="pen_refresh_cap_summary">Virkur penni virðist aðeins styðja allt að 120 Hz. Takmörkunin er afnumin 10 sekúndum eftir síðasta inntak með pennanum.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Slökkva á skjánum og læsa þegar folio-hlífinni er lokað</string>
     <string name="pen_notifications_title">Tilkynningar um tengingu penna</string>
     <string name="pen_notifications_summary">Sýna tilkynningu þegar Lenovo-penni tengist eða aftengist</string>
+    <string name="keyboard_notifications_title">Tilkynningar um tengingu lyklaborðs</string>
+    <string name="keyboard_notifications_summary">Sýna tilkynningu þegar lyklaborð Lenovo-folio-hlífar tengist eða aftengist</string>
     <string name="pen_notification_channel">Tenging penna</string>
     <string name="pen_connected_title">Penni tengdur</string>
     <string name="pen_disconnected_title">Penni aftengdur</string>
+    <string name="keyboard_notification_channel">Tenging lyklaborðs</string>
+    <string name="keyboard_connected_title">Lyklaborð tengt</string>
+    <string name="keyboard_disconnected_title">Lyklaborð aftengt</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Hljóðstilling, tónjafnari, talbæting og forritastillingar</string>

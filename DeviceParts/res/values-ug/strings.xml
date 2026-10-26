@@ -6,15 +6,14 @@
 <resources>
     <string name="app_name">ئۈسكۈنە ئىقتىدارلىرى</string>
     <string name="device_parts_title">ئۈسكۈنە ئىقتىدارلىرى</string>
-    <string name="device_parts_summary">ئىقتىدار، قەلەم، چەكمە، Dolby Atmos ۋە قاتلىنىدىغان قاپ</string>
-    <string name="display_parts_title">قەلەم ۋە چەكمە</string>
-    <string name="display_parts_summary">قەلەمنىڭ يېڭىلاش نىسبىتى، ئوقۇش ھالىتىنىڭ يېڭىلاش نىسبىتى ۋە چەكمە ئويۇن ھالىتى</string>
+    <string name="device_parts_summary">ئىقتىدار، قوشۇمچە زاپچاسلار، چەكمە ۋە Dolby Atmos</string>
+    <string name="display_parts_title">يېڭىلاش نىسبىتى ۋە چەكمە</string>
+    <string name="display_parts_summary">ئوقۇش ھالىتىنىڭ يېڭىلاش نىسبىتى ۋە چەكمە ئويۇن ھالىتى</string>
+    <string name="category_accessories_title">رەسمىي قوشۇمچە زاپچاسلار</string>
     <string name="category_display_title">يېڭىلاش نىسبىتى</string>
     <string name="category_touch_title">چەكمە</string>
-    <string name="category_cover_title">قاتلىنىدىغان قاپ</string>
     <string name="category_audio_title">ئۈن</string>
     <string name="category_perf_title">ئىقتىدار</string>
-    <string name="category_pen_title">قەلەم</string>
     <string name="pen_refresh_cap_title">قەلەم ئىشلەتكەندە 120 Hz بىلەن چەكلەش</string>
     <string name="pen_refresh_cap_summary">ئاكتىپ قەلەم پەقەت 120 Hz غىچە ئىشلەيدۇ. ئاخىرقى قەلەم كىرگۈزۈشىدىن 10 سېكۇنت كېيىن چەك ئېلىۋېتىلىدۇ.</string>
     <string name="reading_low_refresh_title">ئوقۇش ھالىتىدە 30 Hz</string>
@@ -27,9 +26,14 @@
     <string name="smart_cover_summary">قاتلىنىدىغان قاپ يېپىلغاندا ئېكراننى ئۇخلىتىپ قۇلۇپلايدۇ</string>
     <string name="pen_notifications_title">قەلەم ئۇلىنىش ئۇقتۇرۇشلىرى</string>
     <string name="pen_notifications_summary">Lenovo قەلەم ئۇلانغان ياكى ئۈزۈلگەن ۋاقىتتا ئۇقتۇرۇش كۆرسىتىش</string>
+    <string name="keyboard_notifications_title">ھەرپتاختا ئۇلىنىش ئۇقتۇرۇشلىرى</string>
+    <string name="keyboard_notifications_summary">Lenovo قاتلىنىدىغان قاپنىڭ ھەرپتاختىسى ئۇلانغان ياكى ئۈزۈلگەن ۋاقىتتا ئۇقتۇرۇش كۆرسىتىش</string>
     <string name="pen_notification_channel">قەلەم ئۇلىنىشى</string>
     <string name="pen_connected_title">قەلەم ئۇلاندى</string>
     <string name="pen_disconnected_title">قەلەم ئۈزۈلدى</string>
+    <string name="keyboard_notification_channel">ھەرپتاختا ئۇلىنىشى</string>
+    <string name="keyboard_connected_title">ھەرپتاختا ئۇلاندى</string>
+    <string name="keyboard_disconnected_title">ھەرپتاختا ئۈزۈلدى</string>
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">ئۈن ھالىتى، تەڭشىگۈچ، دىئالوگ كۈچەيتكۈچ ۋە ئەپ ھالىتى</string>
     <string name="dolby_enable_title">Dolby Atmos نى ئىشلىتىش</string>

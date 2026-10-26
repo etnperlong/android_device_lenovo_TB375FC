@@ -7,16 +7,15 @@
     <string name="app_name">Ierīces funkcijas</string>
 
     <string name="device_parts_title">Ierīces funkcijas</string>
-    <string name="device_parts_summary">Veiktspēja, skārienekrāna pildspalva, skāriens, Dolby Atmos un vāciņš</string>
-    <string name="display_parts_title">Skārienekrāna pildspalva un skāriens</string>
-    <string name="display_parts_summary">Skārienekrāna pildspalvas atsvaidzes intensitāte, lasīšanas režīma atsvaidzes intensitāte, skārienekrāna spēļu režīms</string>
+    <string name="device_parts_summary">Veiktspēja, piederumi, skāriens un Dolby Atmos</string>
+    <string name="display_parts_title">Atsvaidzes intensitāte un skāriens</string>
+    <string name="display_parts_summary">Lasīšanas režīma atsvaidzes intensitāte, skārienekrāna spēļu režīms</string>
 
+    <string name="category_accessories_title">Oficiālie piederumi</string>
     <string name="category_display_title">Atsvaidzes intensitāte</string>
     <string name="category_touch_title">Skāriens</string>
-    <string name="category_cover_title">Atverams vāciņš</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Veiktspēja</string>
-    <string name="category_pen_title">Pildspalva</string>
 
     <string name="pen_refresh_cap_title">Ierobežot līdz 120 Hz, izmantojot skārienekrāna pildspalvu</string>
     <string name="pen_refresh_cap_summary">Aktīvā skārienekrāna pildspalva, kā ziņots, darbojas tikai līdz 120 Hz. Ierobežojums tiek atcelts 10 sekundes pēc pēdējās ievades ar pildspalvu.</string>
@@ -30,9 +29,14 @@
     <string name="smart_cover_summary">Aizverot vāciņu, izslēgt ekrānu un bloķēt ierīci</string>
     <string name="pen_notifications_title">Pildspalvas savienojuma paziņojumi</string>
     <string name="pen_notifications_summary">Rādīt paziņojumu, kad Lenovo pildspalva tiek pievienota vai atvienota</string>
+    <string name="keyboard_notifications_title">Tastatūras savienojuma paziņojumi</string>
+    <string name="keyboard_notifications_summary">Rādīt paziņojumu, kad Lenovo folio tastatūra tiek pievienota vai atvienota</string>
     <string name="pen_notification_channel">Pildspalvas savienojums</string>
     <string name="pen_connected_title">Pildspalva pievienota</string>
     <string name="pen_disconnected_title">Pildspalva atvienota</string>
+    <string name="keyboard_notification_channel">Tastatūras savienojums</string>
+    <string name="keyboard_connected_title">Tastatūra pievienota</string>
+    <string name="keyboard_disconnected_title">Tastatūra atvienota</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Skaņas režīms, ekvalaizers, dialoga uzlabotājs un lietotņu režīmi</string>
