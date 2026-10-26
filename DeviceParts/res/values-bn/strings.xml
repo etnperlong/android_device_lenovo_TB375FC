@@ -16,6 +16,7 @@
     <string name="category_cover_title">ফোলিও কভার</string>
     <string name="category_audio_title">অডিও</string>
     <string name="category_perf_title">পারফরম্যান্স</string>
+    <string name="category_pen_title">স্টাইলাস</string>
 
     <string name="pen_refresh_cap_title">স্টাইলাস ব্যবহার করার সময় 120 Hz-এ সীমিত করুন</string>
     <string name="pen_refresh_cap_summary">অ্যাক্টিভ স্টাইলাসটি সর্বোচ্চ 120 Hz পর্যন্ত কাজ করে। স্টাইলাস দিয়ে শেষবার ইনপুট দেওয়ার 10 সেকেন্ড পরে সীমাটি উঠে যাবে।</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">উপলভ্য নয়</string>
     <string name="smart_cover_title">স্মার্ট কভার</string>
     <string name="smart_cover_summary">ফোলিও কভার বন্ধ করলে ডিভাইস স্লিপ ও লক করুন</string>
+    <string name="pen_notifications_title">স্টাইলাস সংযোগের বিজ্ঞপ্তি</string>
+    <string name="pen_notifications_summary">Lenovo স্টাইলাস সংযুক্ত বা বিচ্ছিন্ন হলে বিজ্ঞপ্তি দেখান</string>
+    <string name="pen_notification_channel">স্টাইলাস সংযোগ</string>
+    <string name="pen_connected_title">স্টাইলাস সংযুক্ত</string>
+    <string name="pen_disconnected_title">স্টাইলাস বিচ্ছিন্ন</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">সাউন্ড মোড, ইকুয়ালাইজার, ডায়ালগ এনহ্যান্সার ও অ্যাপ মোড</string>

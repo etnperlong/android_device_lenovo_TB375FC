@@ -16,6 +16,7 @@
     <string name="category_cover_title">Pouzdro s klopou</string>
     <string name="category_audio_title">Zvuk</string>
     <string name="category_perf_title">Výkon</string>
+    <string name="category_pen_title">Dotykové pero</string>
 
     <string name="pen_refresh_cap_title">Omezit na 120 Hz při používání dotykového pera</string>
     <string name="pen_refresh_cap_summary">Aktivní pero údajně podporuje maximálně 120 Hz. Omezení se zruší 10 sekund po posledním použití pera.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Není k dispozici</string>
     <string name="smart_cover_title">Chytré pouzdro</string>
     <string name="smart_cover_summary">Po zavření pouzdra zařízení uspí a zamkne</string>
+    <string name="pen_notifications_title">Oznámení o připojení dotykového pera</string>
+    <string name="pen_notifications_summary">Zobrazit oznámení při připojení nebo odpojení dotykového pera Lenovo</string>
+    <string name="pen_notification_channel">Připojení dotykového pera</string>
+    <string name="pen_connected_title">Dotykové pero připojeno</string>
+    <string name="pen_disconnected_title">Dotykové pero odpojeno</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Zvukový režim, ekvalizér, zvýraznění dialogů a režimy aplikací</string>

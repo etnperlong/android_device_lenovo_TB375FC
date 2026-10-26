@@ -16,6 +16,7 @@
     <string name="category_cover_title">Gorchudd ffolio</string>
     <string name="category_audio_title">Sain</string>
     <string name="category_perf_title">Perfformiad</string>
+    <string name="category_pen_title">Ysgrifbin</string>
 
     <string name="pen_refresh_cap_title">Cyfyngu i 120 Hz wrth ddefnyddio\'r ysgrifbin</string>
     <string name="pen_refresh_cap_summary">Dim ond hyd at 120 Hz y mae\'r ysgrifbin gweithredol yn gweithio. Caiff y cyfyngiad ei ddileu 10 eiliad ar ôl defnyddio\'r ysgrifbin ddiwethaf.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Ddim ar gael</string>
     <string name="smart_cover_title">Gorchudd clyfar</string>
     <string name="smart_cover_summary">Cysgu a chloi pan fydd y gorchudd ffolio ar gau</string>
+    <string name="pen_notifications_title">Hysbysiadau cysylltu ysgrifbin</string>
+    <string name="pen_notifications_summary">Dangos hysbysiad pan fydd ysgrifbin Lenovo yn cysylltu neu\'n datgysylltu</string>
+    <string name="pen_notification_channel">Cysylltiad ysgrifbin</string>
+    <string name="pen_connected_title">Ysgrifbin wedi cysylltu</string>
+    <string name="pen_disconnected_title">Ysgrifbin wedi datgysylltu</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Modd sain, cyfartalwr, gwella deialog a moddau apiau</string>

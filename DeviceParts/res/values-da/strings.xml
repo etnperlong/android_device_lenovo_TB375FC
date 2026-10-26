@@ -16,6 +16,7 @@
     <string name="category_cover_title">Folioetui</string>
     <string name="category_audio_title">Lyd</string>
     <string name="category_perf_title">Ydeevne</string>
+    <string name="category_pen_title">Pen</string>
 
     <string name="pen_refresh_cap_title">Begræns til 120 Hz ved brug af pennen</string>
     <string name="pen_refresh_cap_summary">Den aktive pen understøtter efter sigende kun op til 120 Hz. Grænsen ophæves 10 sekunder efter det sidste input med pennen.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Ikke tilgængelig</string>
     <string name="smart_cover_title">Smart cover</string>
     <string name="smart_cover_summary">Sluk skærmen og lås, når folioetuiet lukkes</string>
+    <string name="pen_notifications_title">Meddelelser om penforbindelse</string>
+    <string name="pen_notifications_summary">Vis en meddelelse, når en Lenovo-pen opretter eller afbryder forbindelsen</string>
+    <string name="pen_notification_channel">Penforbindelse</string>
+    <string name="pen_connected_title">Pen tilsluttet</string>
+    <string name="pen_disconnected_title">Pen afbrudt</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Lydtilstand, equalizer, dialogforbedring og apptilstande</string>

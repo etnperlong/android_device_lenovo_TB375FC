@@ -16,6 +16,7 @@
     <string name="category_cover_title">เคสฝาพับ</string>
     <string name="category_audio_title">เสียง</string>
     <string name="category_perf_title">ประสิทธิภาพ</string>
+    <string name="category_pen_title">ปากกา</string>
 
     <string name="pen_refresh_cap_title">จำกัดไว้ที่ 120 Hz ขณะใช้ปากกา</string>
     <string name="pen_refresh_cap_summary">มีรายงานว่าปากกาสไตลัสแบบแอ็กทีฟทำงานได้สูงสุดที่ 120 Hz เท่านั้น โดยจะยกเลิกการจำกัด 10 วินาทีหลังจากใช้ปากกาครั้งล่าสุด</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">ไม่พร้อมใช้งาน</string>
     <string name="smart_cover_title">เคสอัจฉริยะ</string>
     <string name="smart_cover_summary">ปิดหน้าจอและล็อกอุปกรณ์เมื่อปิดเคสฝาพับ</string>
+    <string name="pen_notifications_title">การแจ้งเตือนการเชื่อมต่อปากกา</string>
+    <string name="pen_notifications_summary">แสดงการแจ้งเตือนเมื่อปากกา Lenovo เชื่อมต่อหรือยกเลิกการเชื่อมต่อ</string>
+    <string name="pen_notification_channel">การเชื่อมต่อปากกา</string>
+    <string name="pen_connected_title">เชื่อมต่อปากกาแล้ว</string>
+    <string name="pen_disconnected_title">ยกเลิกการเชื่อมต่อปากกาแล้ว</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">โหมดเสียง อีควอไลเซอร์ ตัวเพิ่มความชัดเจนของเสียงพูด และโหมดแอป</string>

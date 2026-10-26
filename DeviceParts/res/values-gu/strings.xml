@@ -16,6 +16,7 @@
     <string name="category_cover_title">ફોલિયો કવર</string>
     <string name="category_audio_title">ઑડિયો</string>
     <string name="category_perf_title">પર્ફોર્મન્સ</string>
+    <string name="category_pen_title">સ્ટાઇલસ</string>
 
     <string name="pen_refresh_cap_title">સ્ટાઇલસનો ઉપયોગ કરતી વખતે 120 Hz સુધી સીમિત કરો</string>
     <string name="pen_refresh_cap_summary">ઍક્ટિવ સ્ટાઇલસ ફક્ત 120 Hz સુધી કામ કરે છે. સ્ટાઇલસ વડે છેલ્લો ઇનપુટ આપ્યાના 10 સેકન્ડ પછી સીમા દૂર થાય છે.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">ઉપલબ્ધ નથી</string>
     <string name="smart_cover_title">સ્માર્ટ કવર</string>
     <string name="smart_cover_summary">ફોલિયો કવર બંધ થાય ત્યારે સ્લીપ અને લૉક કરો</string>
+    <string name="pen_notifications_title">સ્ટાઇલસ કનેક્શન સૂચનાઓ</string>
+    <string name="pen_notifications_summary">Lenovo સ્ટાઇલસ કનેક્ટ કે ડિસ્કનેક્ટ થાય ત્યારે સૂચના બતાવો</string>
+    <string name="pen_notification_channel">સ્ટાઇલસ કનેક્શન</string>
+    <string name="pen_connected_title">સ્ટાઇલસ કનેક્ટ થયું</string>
+    <string name="pen_disconnected_title">સ્ટાઇલસ ડિસ્કનેક્ટ થયું</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">સાઉન્ડ મોડ, ઇક્વલાઇઝર, ડાયલૉગ એન્હાન્સર અને ઍપ મોડ</string>

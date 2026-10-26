@@ -16,6 +16,7 @@
     <string name="category_cover_title">Jalada</string>
     <string name="category_audio_title">Sauti</string>
     <string name="category_perf_title">Utendaji</string>
+    <string name="category_pen_title">Kalamu</string>
 
     <string name="pen_refresh_cap_title">Weka kikomo cha Hz 120 unapotumia kalamu</string>
     <string name="pen_refresh_cap_summary">Kalamu inayotumika inaripotiwa kufanya kazi hadi Hz 120 pekee. Kikomo huondolewa sekunde 10 baada ya kitendo cha mwisho cha kalamu.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Haipatikani</string>
     <string name="smart_cover_title">Jalada mahiri</string>
     <string name="smart_cover_summary">Zima skrini na uifunge jalada linapofungwa</string>
+    <string name="pen_notifications_title">Arifa za muunganisho wa kalamu</string>
+    <string name="pen_notifications_summary">Onyesha arifa kalamu ya Lenovo inapounganishwa au kukatwa</string>
+    <string name="pen_notification_channel">Muunganisho wa kalamu</string>
+    <string name="pen_connected_title">Kalamu imeunganishwa</string>
+    <string name="pen_disconnected_title">Kalamu imekatwa</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Hali ya sauti, kusawazisha sauti, kuboresha mazungumzo na hali za programu</string>

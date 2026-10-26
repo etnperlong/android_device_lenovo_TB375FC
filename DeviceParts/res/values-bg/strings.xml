@@ -16,6 +16,7 @@
     <string name="category_cover_title">Калъф-книга</string>
     <string name="category_audio_title">Аудио</string>
     <string name="category_perf_title">Производителност</string>
+    <string name="category_pen_title">Стилус</string>
 
     <string name="pen_refresh_cap_title">Ограничаване до 120 Гц при използване на стилуса</string>
     <string name="pen_refresh_cap_summary">Според съобщенията активният стилус работи само до 120 Гц. Ограничението се премахва 10 секунди след последното въвеждане със стилуса.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Не е налично</string>
     <string name="smart_cover_title">Умен калъф</string>
     <string name="smart_cover_summary">Изключване на екрана и заключване при затваряне на калъфа-книга</string>
+    <string name="pen_notifications_title">Известия за свързване на стилус</string>
+    <string name="pen_notifications_summary">Показване на известие при свързване или прекъсване на връзката със стилус Lenovo</string>
+    <string name="pen_notification_channel">Свързване на стилус</string>
+    <string name="pen_connected_title">Стилусът е свързан</string>
+    <string name="pen_disconnected_title">Стилусът е изключен</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Звуков режим, еквалайзер, подобряване на диалога и режими за приложения</string>

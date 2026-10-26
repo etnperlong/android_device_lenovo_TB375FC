@@ -16,6 +16,7 @@
     <string name="category_cover_title">Atverčiamas dėklas</string>
     <string name="category_audio_title">Garsas</string>
     <string name="category_perf_title">Našumas</string>
+    <string name="category_pen_title">Rašiklis</string>
 
     <string name="pen_refresh_cap_title">Naudojant rašiklį apriboti iki 120 Hz</string>
     <string name="pen_refresh_cap_summary">Aktyvusis rašiklis, kaip pranešama, veikia tik iki 120 Hz. Apribojimas panaikinamas praėjus 10 sekundžių nuo paskutinio įvesties rašikliu veiksmo.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Nepasiekiama</string>
     <string name="smart_cover_title">Išmanusis dėklas</string>
     <string name="smart_cover_summary">Uždarius dėklą išjungti ekraną ir užrakinti įrenginį</string>
+    <string name="pen_notifications_title">Rašiklio ryšio pranešimai</string>
+    <string name="pen_notifications_summary">Rodyti pranešimą, kai Lenovo rašiklis prisijungia arba atsijungia</string>
+    <string name="pen_notification_channel">Rašiklio ryšys</string>
+    <string name="pen_connected_title">Rašiklis prijungtas</string>
+    <string name="pen_disconnected_title">Rašiklis atjungtas</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Garso režimas, glodintuvas, dialogų paryškinimas ir programų režimai</string>

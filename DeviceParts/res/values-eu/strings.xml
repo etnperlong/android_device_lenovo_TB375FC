@@ -16,6 +16,7 @@
     <string name="category_cover_title">Folio-estalkia</string>
     <string name="category_audio_title">Audioa</string>
     <string name="category_perf_title">Errendimendua</string>
+    <string name="category_pen_title">Arkatza</string>
 
     <string name="pen_refresh_cap_title">Mugatu 120 Hz-era arkatza erabiltzean</string>
     <string name="pen_refresh_cap_summary">Arkatz aktiboak 120 Hz-era arte soilik funtzionatzen duela jakinarazi da. Muga azken arkatz-sarreratik 10 segundora kentzen da.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Ez dago erabilgarri</string>
     <string name="smart_cover_title">Estalki adimenduna</string>
     <string name="smart_cover_summary">Lo egin eta blokeatu folio-estalkia ixten denean</string>
+    <string name="pen_notifications_title">Arkatzaren konexio-jakinarazpenak</string>
+    <string name="pen_notifications_summary">Erakutsi jakinarazpen bat Lenovo arkatza konektatzen edo deskonektatzen denean</string>
+    <string name="pen_notification_channel">Arkatzaren konexioa</string>
+    <string name="pen_connected_title">Arkatza konektatuta</string>
+    <string name="pen_disconnected_title">Arkatza deskonektatuta</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Soinu-modua, ekualizadorea, elkarrizketa-hobetzailea eta aplikazio-moduak</string>

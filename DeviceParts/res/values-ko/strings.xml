@@ -16,6 +16,7 @@
     <string name="category_cover_title">폴리오 커버</string>
     <string name="category_audio_title">오디오</string>
     <string name="category_perf_title">성능</string>
+    <string name="category_pen_title">스타일러스</string>
 
     <string name="pen_refresh_cap_title">스타일러스 사용 시 120Hz로 제한</string>
     <string name="pen_refresh_cap_summary">스타일러스는 최대 120Hz까지만 작동하는 것으로 알려져 있습니다. 마지막 스타일러스 입력 후 10초가 지나면 제한이 해제됩니다.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">사용할 수 없음</string>
     <string name="smart_cover_title">스마트 커버</string>
     <string name="smart_cover_summary">폴리오 커버를 닫으면 화면을 끄고 잠급니다</string>
+    <string name="pen_notifications_title">스타일러스 연결 알림</string>
+    <string name="pen_notifications_summary">Lenovo 스타일러스가 연결되거나 연결이 해제되면 알림 표시</string>
+    <string name="pen_notification_channel">스타일러스 연결</string>
+    <string name="pen_connected_title">스타일러스 연결됨</string>
+    <string name="pen_disconnected_title">스타일러스 연결 해제됨</string>
 
     <string name="dolby_title">돌비 애트모스</string>
     <string name="dolby_summary">사운드 모드, 이퀄라이저, 대화 향상, 앱 모드</string>

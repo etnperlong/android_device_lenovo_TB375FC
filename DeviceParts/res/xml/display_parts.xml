@@ -6,6 +6,16 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/display_parts_title">
     <PreferenceCategory
+        android:key="category_pen"
+        android:title="@string/category_pen_title">
+        <SwitchPreferenceCompat
+            android:key="pen_notifications"
+            android:title="@string/pen_notifications_title"
+            android:summary="@string/pen_notifications_summary"
+            android:persistent="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="category_display"
         android:title="@string/category_display_title">
         <SwitchPreferenceCompat

@@ -16,6 +16,7 @@
     <string name="category_cover_title">Capa tipo fólio</string>
     <string name="category_audio_title">Áudio</string>
     <string name="category_perf_title">Desempenho</string>
+    <string name="category_pen_title">Stylus</string>
 
     <string name="pen_refresh_cap_title">Limitar a 120 Hz ao usar a stylus</string>
     <string name="pen_refresh_cap_summary">A stylus ativa funciona somente até 120 Hz. O limite é removido 10 segundos após o último uso da stylus.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Indisponível</string>
     <string name="smart_cover_title">Capa inteligente</string>
     <string name="smart_cover_summary">Suspender e bloquear ao fechar a capa tipo fólio</string>
+    <string name="pen_notifications_title">Notificações de conexão da stylus</string>
+    <string name="pen_notifications_summary">Mostrar uma notificação quando a stylus Lenovo se conectar ou desconectar</string>
+    <string name="pen_notification_channel">Conexão da stylus</string>
+    <string name="pen_connected_title">Stylus conectada</string>
+    <string name="pen_disconnected_title">Stylus desconectada</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Modo de som, equalizador, aprimorador de diálogos e modos por app</string>

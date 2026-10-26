@@ -16,6 +16,7 @@
     <string name="category_cover_title">Étui folio</string>
     <string name="category_audio_title">Son</string>
     <string name="category_perf_title">Performances</string>
+    <string name="category_pen_title">Stylet</string>
 
     <string name="pen_refresh_cap_title">Limiter à 120 Hz lors de l’utilisation du stylet</string>
     <string name="pen_refresh_cap_summary">Le stylet actif ne fonctionne que jusqu’à 120 Hz. La limite est levée 10 secondes après la dernière saisie au stylet.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Non disponible</string>
     <string name="smart_cover_title">Étui intelligent</string>
     <string name="smart_cover_summary">Mettre en veille et verrouiller à la fermeture de l’étui folio</string>
+    <string name="pen_notifications_title">Notifications de connexion du stylet</string>
+    <string name="pen_notifications_summary">Afficher une notification lorsque le stylet Lenovo se connecte ou se déconnecte</string>
+    <string name="pen_notification_channel">Connexion du stylet</string>
+    <string name="pen_connected_title">Stylet connecté</string>
+    <string name="pen_disconnected_title">Stylet déconnecté</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Mode sonore, égaliseur, amélioration des dialogues et modes par appli</string>

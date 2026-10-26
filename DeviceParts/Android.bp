@@ -9,6 +9,9 @@
 //  - display: caps the panel at 120 Hz while the active pen is in use (stock: MediaTek
 //    SurfaceFlinger PenTimer, which AOSP SurfaceFlinger lacks) and optionally at 30 Hz while
 //    LineageOS reading mode is on;
+//  - pen: turns on the Novatek touch controller's pen mode (/proc/support_pen) while a Lenovo
+//    pen is paired (stock: ZUI BluetoothPenConnectPolicy in services.jar) and notifies when the
+//    pen connects or disconnects;
 //  - cover: applies the stock folio-cover policy (light sensor check, sleep, lock) to the lid
 //    switch reported by the patched hall.ko (docs/hall-ko-lid-switch.md);
 //  - audio: rotates the speaker channels with the display (stock gsensor_rotation);

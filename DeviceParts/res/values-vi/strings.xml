@@ -16,6 +16,7 @@
     <string name="category_cover_title">Bao da</string>
     <string name="category_audio_title">Âm thanh</string>
     <string name="category_perf_title">Hiệu năng</string>
+    <string name="category_pen_title">Bút</string>
 
     <string name="pen_refresh_cap_title">Giới hạn ở 120 Hz khi dùng bút</string>
     <string name="pen_refresh_cap_summary">Bút cảm ứng chủ động được cho là chỉ hoạt động ở tần số tối đa 120 Hz. Giới hạn sẽ được gỡ bỏ 10 giây sau lần dùng bút cuối cùng.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Không khả dụng</string>
     <string name="smart_cover_title">Bao da thông minh</string>
     <string name="smart_cover_summary">Tắt màn hình và khóa thiết bị khi đóng bao da</string>
+    <string name="pen_notifications_title">Thông báo kết nối bút</string>
+    <string name="pen_notifications_summary">Hiển thị thông báo khi bút Lenovo kết nối hoặc ngắt kết nối</string>
+    <string name="pen_notification_channel">Kết nối bút</string>
+    <string name="pen_connected_title">Bút đã kết nối</string>
+    <string name="pen_disconnected_title">Bút đã ngắt kết nối</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Chế độ âm thanh, bộ chỉnh âm, tăng cường hội thoại và chế độ cho ứng dụng</string>

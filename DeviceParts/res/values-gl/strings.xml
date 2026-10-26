@@ -16,6 +16,7 @@
     <string name="category_cover_title">Funda tipo folio</string>
     <string name="category_audio_title">Son</string>
     <string name="category_perf_title">Rendemento</string>
+    <string name="category_pen_title">Lapis</string>
 
     <string name="pen_refresh_cap_title">Limitar a 120 Hz ao usar o lapis</string>
     <string name="pen_refresh_cap_summary">O lapis activo só funciona ata 120 Hz. O límite elimínase 10 segundos despois da última interacción co lapis.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Non dispoñible</string>
     <string name="smart_cover_title">Funda intelixente</string>
     <string name="smart_cover_summary">Suspender e bloquear ao pechar a funda tipo folio</string>
+    <string name="pen_notifications_title">Notificacións de conexión do lapis</string>
+    <string name="pen_notifications_summary">Mostrar unha notificación cando se conecte ou desconecte un lapis Lenovo</string>
+    <string name="pen_notification_channel">Conexión do lapis</string>
+    <string name="pen_connected_title">Lapis conectado</string>
+    <string name="pen_disconnected_title">Lapis desconectado</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Modo de son, ecualizador, mellorador de diálogos e modos por aplicación</string>

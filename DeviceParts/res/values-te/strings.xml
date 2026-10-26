@@ -16,6 +16,7 @@
     <string name="category_cover_title">ఫోలియో కవర్</string>
     <string name="category_audio_title">ఆడియో</string>
     <string name="category_perf_title">పనితీరు</string>
+    <string name="category_pen_title">స్టయిలస్</string>
 
     <string name="pen_refresh_cap_title">స్టయిలస్‌ను ఉపయోగిస్తున్నప్పుడు 120 Hzకు పరిమితం చేయండి</string>
     <string name="pen_refresh_cap_summary">యాక్టివ్ స్టయిలస్ గరిష్ఠంగా 120 Hz వరకు మాత్రమే పనిచేస్తుందని నివేదించబడింది. స్టయిలస్‌తో చివరిసారి ఇన్‌పుట్ ఇచ్చిన 10 సెకన్ల తర్వాత పరిమితి తొలగుతుంది.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">అందుబాటులో లేదు</string>
     <string name="smart_cover_title">స్మార్ట్ కవర్</string>
     <string name="smart_cover_summary">ఫోలియో కవర్ మూసినప్పుడు స్క్రీన్‌ను ఆఫ్ చేసి లాక్ చేయండి</string>
+    <string name="pen_notifications_title">స్టయిలస్ కనెక్షన్ నోటిఫికేషన్‌లు</string>
+    <string name="pen_notifications_summary">Lenovo స్టయిలస్ కనెక్ట్ లేదా డిస్‌కనెక్ట్ అయినప్పుడు నోటిఫికేషన్ చూపండి</string>
+    <string name="pen_notification_channel">స్టయిలస్ కనెక్షన్</string>
+    <string name="pen_connected_title">స్టయిలస్ కనెక్ట్ అయింది</string>
+    <string name="pen_disconnected_title">స్టయిలస్ డిస్‌కనెక్ట్ అయింది</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">సౌండ్ మోడ్, ఈక్వలైజర్, డైలాగ్ ఎన్‌హాన్సర్, యాప్ మోడ్‌లు</string>

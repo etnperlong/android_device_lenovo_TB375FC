@@ -16,6 +16,7 @@
     <string name="category_cover_title">Θήκη με κάλυμμα</string>
     <string name="category_audio_title">Ήχος</string>
     <string name="category_perf_title">Απόδοση</string>
+    <string name="category_pen_title">Γραφίδα</string>
 
     <string name="pen_refresh_cap_title">Περιορισμός στα 120 Hz κατά τη χρήση της γραφίδας</string>
     <string name="pen_refresh_cap_summary">Η ενεργή γραφίδα αναφέρεται ότι λειτουργεί μόνο έως τα 120 Hz. Το όριο καταργείται 10 δευτερόλεπτα μετά την τελευταία είσοδο από τη γραφίδα.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Δεν είναι διαθέσιμη</string>
     <string name="smart_cover_title">Έξυπνη θήκη</string>
     <string name="smart_cover_summary">Απενεργοποίηση και κλείδωμα της οθόνης όταν κλείνει το κάλυμμα</string>
+    <string name="pen_notifications_title">Ειδοποιήσεις σύνδεσης γραφίδας</string>
+    <string name="pen_notifications_summary">Εμφάνιση ειδοποίησης κατά τη σύνδεση ή αποσύνδεση γραφίδας Lenovo</string>
+    <string name="pen_notification_channel">Σύνδεση γραφίδας</string>
+    <string name="pen_connected_title">Η γραφίδα συνδέθηκε</string>
+    <string name="pen_disconnected_title">Η γραφίδα αποσυνδέθηκε</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Λειτουργία ήχου, ισοσταθμιστής, ενίσχυση διαλόγων και λειτουργίες εφαρμογών</string>

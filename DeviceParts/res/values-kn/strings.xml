@@ -16,6 +16,7 @@
     <string name="category_cover_title">ಫ್ಲಿಪ್ ಕವರ್</string>
     <string name="category_audio_title">ಆಡಿಯೋ</string>
     <string name="category_perf_title">ಕಾರ್ಯಕ್ಷಮತೆ</string>
+    <string name="category_pen_title">ಸ್ಟೈಲಸ್</string>
 
     <string name="pen_refresh_cap_title">ಸ್ಟೈಲಸ್ ಬಳಸುವಾಗ 120 Hz ಗೆ ಮಿತಿಗೊಳಿಸಿ</string>
     <string name="pen_refresh_cap_summary">ಸಕ್ರಿಯ ಸ್ಟೈಲಸ್ 120 Hz ವರೆಗೆ ಮಾತ್ರ ಕೆಲಸ ಮಾಡುತ್ತದೆ ಎಂದು ವರದಿಯಾಗಿದೆ. ಕೊನೆಯ ಸ್ಟೈಲಸ್ ಇನ್‌ಪುಟ್‌ನ 10 ಸೆಕೆಂಡುಗಳ ನಂತರ ಮಿತಿ ತೆರವುಗೊಳ್ಳುತ್ತದೆ.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">ಲಭ್ಯವಿಲ್ಲ</string>
     <string name="smart_cover_title">ಸ್ಮಾರ್ಟ್ ಕವರ್</string>
     <string name="smart_cover_summary">ಫ್ಲಿಪ್ ಕವರ್ ಮುಚ್ಚಿದಾಗ ಪರದೆಯನ್ನು ಆಫ್ ಮಾಡಿ ಲಾಕ್ ಮಾಡುತ್ತದೆ</string>
+    <string name="pen_notifications_title">ಸ್ಟೈಲಸ್ ಸಂಪರ್ಕ ಅಧಿಸೂಚನೆಗಳು</string>
+    <string name="pen_notifications_summary">Lenovo ಸ್ಟೈಲಸ್ ಕನೆಕ್ಟ್ ಅಥವಾ ಡಿಸ್‌ಕನೆಕ್ಟ್ ಆದಾಗ ಅಧಿಸೂಚನೆ ತೋರಿಸಿ</string>
+    <string name="pen_notification_channel">ಸ್ಟೈಲಸ್ ಸಂಪರ್ಕ</string>
+    <string name="pen_connected_title">ಸ್ಟೈಲಸ್ ಕನೆಕ್ಟ್ ಆಗಿದೆ</string>
+    <string name="pen_disconnected_title">ಸ್ಟೈಲಸ್ ಡಿಸ್‌ಕನೆಕ್ಟ್ ಆಗಿದೆ</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">ಧ್ವನಿ ಮೋಡ್, ಈಕ್ವಲೈಜರ್, ಸಂಭಾಷಣೆ ವರ್ಧಕ ಮತ್ತು ಆ್ಯಪ್ ಮೋಡ್‌ಗಳು</string>

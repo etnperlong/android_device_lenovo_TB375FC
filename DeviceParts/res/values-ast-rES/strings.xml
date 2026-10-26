@@ -16,6 +16,7 @@
     <string name="category_cover_title">Funda tipo folio</string>
     <string name="category_audio_title">Audiu</string>
     <string name="category_perf_title">Rendimientu</string>
+    <string name="category_pen_title">Llápiz</string>
 
     <string name="pen_refresh_cap_title">Llimitar a 120 Hz al usar el llápiz</string>
     <string name="pen_refresh_cap_summary">El llápiz activu namái funciona hasta 120 Hz. El llímite quítase 10 segundos dempués del últimu usu del llápiz.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Nun ta disponible</string>
     <string name="smart_cover_title">Funda intelixente</string>
     <string name="smart_cover_summary">Suspender y bloquiar al zarrar la funda tipo folio</string>
+    <string name="pen_notifications_title">Avisos de conexón del llápiz</string>
+    <string name="pen_notifications_summary">Amosar un avisu cuando un llápiz Lenovo se conecte o se desconecte</string>
+    <string name="pen_notification_channel">Conexón del llápiz</string>
+    <string name="pen_connected_title">Llápiz conectáu</string>
+    <string name="pen_disconnected_title">Llápiz desconectáu</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Mou de soníu, ecualizador, ameyorador de diálogos y modes per aplicación</string>

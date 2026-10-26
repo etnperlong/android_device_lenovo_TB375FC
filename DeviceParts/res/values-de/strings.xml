@@ -16,6 +16,7 @@
     <string name="category_cover_title">Foliohülle</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Leistung</string>
+    <string name="category_pen_title">Eingabestift</string>
 
     <string name="pen_refresh_cap_title">Bei Verwendung des Eingabestifts auf 120 Hz begrenzen</string>
     <string name="pen_refresh_cap_summary">Laut Meldung unterstützt der aktive Eingabestift nur bis zu 120 Hz. 10 Sekunden nach der letzten Stifteingabe wird die Begrenzung aufgehoben.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Nicht verfügbar</string>
     <string name="smart_cover_title">Intelligente Foliohülle</string>
     <string name="smart_cover_summary">Beim Schließen der Foliohülle in Ruhezustand versetzen und sperren</string>
+    <string name="pen_notifications_title">Benachrichtigungen zur Stiftverbindung</string>
+    <string name="pen_notifications_summary">Benachrichtigung anzeigen, wenn ein Lenovo-Eingabestift verbunden oder getrennt wird</string>
+    <string name="pen_notification_channel">Stiftverbindung</string>
+    <string name="pen_connected_title">Stift verbunden</string>
+    <string name="pen_disconnected_title">Stift getrennt</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Klangmodus, Equalizer, Dialogoptimierung und App-Modi</string>

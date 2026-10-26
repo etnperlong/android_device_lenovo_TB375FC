@@ -16,6 +16,7 @@
     <string name="category_cover_title">ເຄສຝາພັບ</string>
     <string name="category_audio_title">ສຽງ</string>
     <string name="category_perf_title">ປະສິດທິພາບ</string>
+    <string name="category_pen_title">ປາກກາ</string>
 
     <string name="pen_refresh_cap_title">ຈຳກັດເປັນ 120 Hz ເມື່ອໃຊ້ປາກກາ</string>
     <string name="pen_refresh_cap_summary">ລາຍງານວ່າປາກກາແອັກທິຟຮອງຮັບສູງສຸດພຽງ 120 Hz. ການຈຳກັດຈະຖືກຍົກເລີກ 10 ວິນາທີຫຼັງຈາກໃຊ້ປາກກາຄັ້ງສຸດທ້າຍ.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">ບໍ່ພ້ອມໃຊ້</string>
     <string name="smart_cover_title">ເຄສອັດສະລິຍະ</string>
     <string name="smart_cover_summary">ປິດໜ້າຈໍ ແລະ ລັອກເມື່ອປິດເຄສຝາພັບ</string>
+    <string name="pen_notifications_title">ການແຈ້ງເຕືອນການເຊື່ອມຕໍ່ປາກກາ</string>
+    <string name="pen_notifications_summary">ສະແດງການແຈ້ງເຕືອນເມື່ອປາກກາ Lenovo ເຊື່ອມຕໍ່ ຫຼື ຕັດການເຊື່ອມຕໍ່</string>
+    <string name="pen_notification_channel">ການເຊື່ອມຕໍ່ປາກກາ</string>
+    <string name="pen_connected_title">ເຊື່ອມຕໍ່ປາກກາແລ້ວ</string>
+    <string name="pen_disconnected_title">ຕັດການເຊື່ອມຕໍ່ປາກກາແລ້ວ</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">ໂໝດສຽງ, ອີຄວາລາຍເຊີ, ການເພີ່ມຄວາມຊັດເຈນສຽງເວົ້າ ແລະ ໂໝດສຳລັບແອັບ</string>

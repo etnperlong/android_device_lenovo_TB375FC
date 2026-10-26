@@ -16,6 +16,7 @@
     <string name="category_cover_title">ଫୋଲିଓ କଭର</string>
     <string name="category_audio_title">ଅଡିଓ</string>
     <string name="category_perf_title">ପରଫର୍ମାନ୍ସ</string>
+    <string name="category_pen_title">ଷ୍ଟାଇଲସ</string>
 
     <string name="pen_refresh_cap_title">ଷ୍ଟାଇଲସ ବ୍ୟବହାର କରିବାବେଳେ 120 Hzରେ ସୀମିତ କରନ୍ତୁ</string>
     <string name="pen_refresh_cap_summary">ସକ୍ରିୟ ଷ୍ଟାଇଲସ କେବଳ 120 Hz ପର୍ଯ୍ୟନ୍ତ କାର୍ଯ୍ୟ କରେ। ଷ୍ଟାଇଲସରେ ଶେଷ ଇନପୁଟ ଦେବାର 10 ସେକେଣ୍ଡ ପରେ ସୀମା ହଟିଯାଏ।</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">ଉପଲବ୍ଧ ନାହିଁ</string>
     <string name="smart_cover_title">ସ୍ମାର୍ଟ କଭର</string>
     <string name="smart_cover_summary">ଫୋଲିଓ କଭର ବନ୍ଦ ହେଲେ ସ୍ଲିପ ଏବଂ ଲକ କରନ୍ତୁ</string>
+    <string name="pen_notifications_title">ଷ୍ଟାଇଲସ ସଂଯୋଗ ବିଜ୍ଞପ୍ତି</string>
+    <string name="pen_notifications_summary">Lenovo ଷ୍ଟାଇଲସ ସଂଯୋଗ କିମ୍ବା ବିଚ୍ଛିନ୍ନ ହେଲେ ବିଜ୍ଞପ୍ତି ଦେଖାନ୍ତୁ</string>
+    <string name="pen_notification_channel">ଷ୍ଟାଇଲସ ସଂଯୋଗ</string>
+    <string name="pen_connected_title">ଷ୍ଟାଇଲସ ସଂଯୋଗ ହେଲା</string>
+    <string name="pen_disconnected_title">ଷ୍ଟାଇଲସ ବିଚ୍ଛିନ୍ନ ହେଲା</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">ସାଉଣ୍ଡ ମୋଡ, ଇକ୍ୱାଲାଇଜର, ଡାଏଲଗ ଏନହାନ୍ସର ଏବଂ ଆପ ମୋଡ</string>

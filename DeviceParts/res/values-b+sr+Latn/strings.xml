@@ -16,6 +16,7 @@
     <string name="category_cover_title">Futrola na preklop</string>
     <string name="category_audio_title">Zvuk</string>
     <string name="category_perf_title">Performanse</string>
+    <string name="category_pen_title">Olovka</string>
 
     <string name="pen_refresh_cap_title">Ograniči na 120 Hz pri korišćenju olovke</string>
     <string name="pen_refresh_cap_summary">Aktivna olovka, prema navodima, radi samo do 120 Hz. Ograničenje se uklanja 10 sekundi nakon poslednjeg unosa olovkom.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Nije dostupno</string>
     <string name="smart_cover_title">Pametna futrola</string>
     <string name="smart_cover_summary">Isključi ekran i zaključaj uređaj kada se zatvori futrola na preklop</string>
+    <string name="pen_notifications_title">Obaveštenja o povezivanju olovke</string>
+    <string name="pen_notifications_summary">Prikaži obaveštenje kada se Lenovo olovka poveže ili prekine vezu</string>
+    <string name="pen_notification_channel">Povezivanje olovke</string>
+    <string name="pen_connected_title">Olovka je povezana</string>
+    <string name="pen_disconnected_title">Olovka je prekinula vezu</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Režim zvuka, ekvilajzer, poboljšanje dijaloga i režimi aplikacija</string>

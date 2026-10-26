@@ -16,6 +16,7 @@
     <string name="category_cover_title">Custodie a libre</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Prestazions</string>
+    <string name="category_pen_title">Pene</string>
 
     <string name="pen_refresh_cap_title">Limitâ a 120 Hz cuant che si dopre la pene</string>
     <string name="pen_refresh_cap_summary">La pene ative e funzione dome fin a 120 Hz. Il limit al ven gjavât 10 seconts dopo l’ultin toc de pene.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">No disponibile</string>
     <string name="smart_cover_title">Custodie inteligjente</string>
     <string name="smart_cover_summary">Met in sospension e bloche cuant che la custodie a libre e je sierade</string>
+    <string name="pen_notifications_title">Notificâts di conession de la pene</string>
+    <string name="pen_notifications_summary">Mostrâ un notifiche cuant che une pene Lenovo si conet o si disconet</string>
+    <string name="pen_notification_channel">Conession de la pene</string>
+    <string name="pen_connected_title">Pene conetude</string>
+    <string name="pen_disconnected_title">Pene disconetude</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Modalitât sonore, ecualizadôr, mioradôr dai dialogos e modalitâts des apps</string>

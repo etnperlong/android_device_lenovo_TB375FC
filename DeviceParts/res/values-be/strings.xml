@@ -16,6 +16,7 @@
     <string name="category_cover_title">Чахол-кніжка</string>
     <string name="category_audio_title">Аўдыя</string>
     <string name="category_perf_title">Прадукцыйнасць</string>
+    <string name="category_pen_title">Стылус</string>
 
     <string name="pen_refresh_cap_title">Абмежаваць да 120 Гц пры выкарыстанні стылуса</string>
     <string name="pen_refresh_cap_summary">Паводле звестак, актыўны стылус працуе толькі на частаце да 120 Гц. Абмежаванне здымаецца праз 10 секунд пасля апошняга ўводу стылусам.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Недаступна</string>
     <string name="smart_cover_title">Разумны чахол</string>
     <string name="smart_cover_summary">Выключаць экран і блакіраваць прыладу пры закрыцці чахла-кніжкі</string>
+    <string name="pen_notifications_title">Апавяшчэнні аб падключэнні стылуса</string>
+    <string name="pen_notifications_summary">Паказваць апавяшчэнне пры падключэнні або адключэнні стылуса Lenovo</string>
+    <string name="pen_notification_channel">Падключэнне стылуса</string>
+    <string name="pen_connected_title">Стылус падключаны</string>
+    <string name="pen_disconnected_title">Стылус адключаны</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Рэжым гуку, эквалайзер, узмацненне дыялогаў і рэжымы праграм</string>

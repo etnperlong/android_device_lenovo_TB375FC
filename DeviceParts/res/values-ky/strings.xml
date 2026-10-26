@@ -16,6 +16,7 @@
     <string name="category_cover_title">Каптама</string>
     <string name="category_audio_title">Аудио</string>
     <string name="category_perf_title">Өндүрүмдүүлүк</string>
+    <string name="category_pen_title">Стилус</string>
 
     <string name="pen_refresh_cap_title">Стилус колдонулганда 120 Гц менен чектөө</string>
     <string name="pen_refresh_cap_summary">Активдүү стилус 120 Гц чейин гана иштейт деп билдирилген. Стилус менен акыркы аракеттен 10 секунд өткөндө чектөө алынат.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Жеткиликсиз</string>
     <string name="smart_cover_title">Акылдуу каптама</string>
     <string name="smart_cover_summary">Каптаманы жапканда экранды өчүрүп, кулпулоо</string>
+    <string name="pen_notifications_title">Стилустун туташуусу тууралуу эскертмелер</string>
+    <string name="pen_notifications_summary">Lenovo стилусу туташканда же ажыратылганда эскертме көрсөтүү</string>
+    <string name="pen_notification_channel">Стилустун туташуусу</string>
+    <string name="pen_connected_title">Стилус туташты</string>
+    <string name="pen_disconnected_title">Стилус ажыратылды</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Үн режими, эквалайзер, сүйлөөнү жакшыртуу жана колдонмо режимдери</string>

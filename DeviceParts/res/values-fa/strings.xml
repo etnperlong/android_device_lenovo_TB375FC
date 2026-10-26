@@ -16,6 +16,7 @@
     <string name="category_cover_title">قاب تاشو</string>
     <string name="category_audio_title">صدا</string>
     <string name="category_perf_title">عملکرد</string>
+    <string name="category_pen_title">قلم</string>
 
     <string name="pen_refresh_cap_title">محدود کردن به ۱۲۰ هرتز هنگام استفاده از قلم</string>
     <string name="pen_refresh_cap_summary">گزارش شده که قلم فعال فقط تا ۱۲۰ هرتز کار می‌کند. محدودیت ۱۰ ثانیه پس از آخرین ورودی قلم برداشته می‌شود.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">دردسترس نیست</string>
     <string name="smart_cover_title">قاب هوشمند</string>
     <string name="smart_cover_summary">با بستن قاب تاشو، صفحه‌نمایش را خاموش و قفل کنید</string>
+    <string name="pen_notifications_title">اعلان‌های اتصال قلم</string>
+    <string name="pen_notifications_summary">هنگام اتصال یا قطع اتصال قلم Lenovo اعلان نمایش داده شود</string>
+    <string name="pen_notification_channel">اتصال قلم</string>
+    <string name="pen_connected_title">قلم متصل شد</string>
+    <string name="pen_disconnected_title">قلم قطع شد</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">حالت صدا، همسان‌ساز، بهبود گفتگو و حالت‌های برنامه</string>

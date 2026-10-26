@@ -16,6 +16,7 @@
     <string name="category_cover_title">Capa tipo fólio</string>
     <string name="category_audio_title">Áudio</string>
     <string name="category_perf_title">Desempenho</string>
+    <string name="category_pen_title">Caneta stylus</string>
 
     <string name="pen_refresh_cap_title">Limitar a 120 Hz ao utilizar a caneta stylus</string>
     <string name="pen_refresh_cap_summary">A caneta stylus ativa funciona apenas até 120 Hz. O limite é removido 10 segundos após a última utilização da caneta.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Indisponível</string>
     <string name="smart_cover_title">Capa inteligente</string>
     <string name="smart_cover_summary">Suspender e bloquear ao fechar a capa tipo fólio</string>
+    <string name="pen_notifications_title">Notificações de ligação da caneta stylus</string>
+    <string name="pen_notifications_summary">Mostrar uma notificação quando uma caneta stylus Lenovo se ligar ou desligar</string>
+    <string name="pen_notification_channel">Ligação da caneta stylus</string>
+    <string name="pen_connected_title">Caneta stylus ligada</string>
+    <string name="pen_disconnected_title">Caneta stylus desligada</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Modo de som, equalizador, melhorador de diálogos e modos por aplicação</string>

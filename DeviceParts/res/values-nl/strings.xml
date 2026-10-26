@@ -16,6 +16,7 @@
     <string name="category_cover_title">Foliohoes</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Prestaties</string>
+    <string name="category_pen_title">Stylus</string>
 
     <string name="pen_refresh_cap_title">Beperk de vernieuwingssnelheid tot 120 Hz bij gebruik van de stylus</string>
     <string name="pen_refresh_cap_summary">Volgens de melding werkt de actieve stylus slechts tot 120 Hz. De limiet wordt 10 seconden na de laatste peninvoer opgeheven.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Niet beschikbaar</string>
     <string name="smart_cover_title">Slimme foliohoes</string>
     <string name="smart_cover_summary">Scherm uitschakelen en vergrendelen wanneer de foliohoes wordt gesloten</string>
+    <string name="pen_notifications_title">Meldingen over stylusverbinding</string>
+    <string name="pen_notifications_summary">Een melding weergeven wanneer een Lenovo-stylus verbinding maakt of verbreekt</string>
+    <string name="pen_notification_channel">Stylusverbinding</string>
+    <string name="pen_connected_title">Stylus verbonden</string>
+    <string name="pen_disconnected_title">Stylus niet verbonden</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Geluidsmodus, equalizer, dialoogverbetering en app-modi</string>

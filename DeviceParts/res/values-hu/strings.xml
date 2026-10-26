@@ -16,6 +16,7 @@
     <string name="category_cover_title">Tok</string>
     <string name="category_audio_title">Hang</string>
     <string name="category_perf_title">Teljesítmény</string>
+    <string name="category_pen_title">Érintőceruza</string>
 
     <string name="pen_refresh_cap_title">120 Hz-re korlátozás érintőceruza használatakor</string>
     <string name="pen_refresh_cap_summary">Az aktív érintőceruza a jelentések szerint legfeljebb 120 Hz-en működik. A korlátozás az utolsó ceruzás művelet után 10 másodperccel megszűnik.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Nem áll rendelkezésre</string>
     <string name="smart_cover_title">Intelligens tok</string>
     <string name="smart_cover_summary">A tok lezárásakor kapcsolja ki a képernyőt és zárja le az eszközt</string>
+    <string name="pen_notifications_title">Érintőceruza-kapcsolati értesítések</string>
+    <string name="pen_notifications_summary">Értesítés megjelenítése Lenovo érintőceruza csatlakozásakor vagy leválasztásakor</string>
+    <string name="pen_notification_channel">Érintőceruza-kapcsolat</string>
+    <string name="pen_connected_title">Érintőceruza csatlakoztatva</string>
+    <string name="pen_disconnected_title">Érintőceruza leválasztva</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Hangmód, hangszínszabályzó, párbeszédkiemelő és alkalmazásmódok</string>

@@ -9,8 +9,10 @@
     android:versionCode="1"
     android:versionName="1.0">
 
-    <!-- All signature(-level) permissions; uid 1000 passes the checks anyway, but declare
-         them so the dependencies are explicit. -->
+    <!-- Signature(-level) and runtime permissions; uid 1000 passes every check anyway
+         (ActivityManager.checkComponentPermission), but declare them so the dependencies are
+         explicit. -->
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
     <uses-permission android:name="android.permission.DEVICE_POWER" />
     <uses-permission android:name="android.permission.RESTRICT_DISPLAY_MODES" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_ROUTING" />
@@ -18,6 +20,7 @@
     <uses-permission android:name="android.permission.MANAGE_ACTIVITY_TASKS" />
     <uses-permission android:name="android.permission.MONITOR_INPUT" />
     <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.SET_ACTIVITY_WATCHER" />
     <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
@@ -182,6 +185,10 @@
 
         <service
             android:name=".perf.PerformanceService"
+            android:exported="false" />
+
+        <service
+            android:name=".pen.PenService"
             android:exported="false" />
 
         <service

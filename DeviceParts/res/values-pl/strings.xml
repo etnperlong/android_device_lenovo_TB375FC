@@ -16,6 +16,7 @@
     <string name="category_cover_title">Etui z klapką</string>
     <string name="category_audio_title">Dźwięk</string>
     <string name="category_perf_title">Wydajność</string>
+    <string name="category_pen_title">Rysik</string>
 
     <string name="pen_refresh_cap_title">Ogranicz do 120 Hz podczas korzystania z rysika</string>
     <string name="pen_refresh_cap_summary">Aktywny rysik obsługuje częstotliwość do 120 Hz. Ograniczenie zostanie zniesione 10 sekund po ostatnim użyciu rysika.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Niedostępne</string>
     <string name="smart_cover_title">Inteligentne etui</string>
     <string name="smart_cover_summary">Usypiaj i blokuj urządzenie po zamknięciu etui</string>
+    <string name="pen_notifications_title">Powiadomienia o połączeniu rysika</string>
+    <string name="pen_notifications_summary">Pokazuj powiadomienie po połączeniu lub rozłączeniu rysika Lenovo</string>
+    <string name="pen_notification_channel">Połączenie rysika</string>
+    <string name="pen_connected_title">Rysik połączony</string>
+    <string name="pen_disconnected_title">Rysik rozłączony</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Tryb dźwięku, korektor, ulepszanie dialogów i tryby aplikacji</string>

@@ -16,6 +16,7 @@
     <string name="category_cover_title">Гэр</string>
     <string name="category_audio_title">Аудио</string>
     <string name="category_perf_title">Гүйцэтгэл</string>
+    <string name="category_pen_title">Үзэг</string>
 
     <string name="pen_refresh_cap_title">Үзэг ашиглаж байх үед 120 Гц-ээр хязгаарлах</string>
     <string name="pen_refresh_cap_summary">Идэвхтэй үзэг зөвхөн 120 Гц хүртэл ажилладаг гэж мэдээлсэн. Үзгээр хамгийн сүүлд оролт хийснээс 10 секундын дараа хязгаар арилна.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Боломжгүй</string>
     <string name="smart_cover_title">Ухаалаг гэр</string>
     <string name="smart_cover_summary">Гэрийг хаахад дэлгэцийг унтрааж, түгжих</string>
+    <string name="pen_notifications_title">Үзгийн холболтын мэдэгдэл</string>
+    <string name="pen_notifications_summary">Lenovo үзэг холбогдох эсвэл салгагдах үед мэдэгдэл харуулах</string>
+    <string name="pen_notification_channel">Үзгийн холболт</string>
+    <string name="pen_connected_title">Үзэг холбогдлоо</string>
+    <string name="pen_disconnected_title">Үзэг саллаа</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Дууны горим, эквалайзер, яриа тодруулагч болон аппын горимууд</string>

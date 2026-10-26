@@ -16,6 +16,7 @@
     <string name="category_cover_title">Clúdach fillte</string>
     <string name="category_audio_title">Fuaim</string>
     <string name="category_perf_title">Feidhmíocht</string>
+    <string name="category_pen_title">Peann</string>
 
     <string name="pen_refresh_cap_title">Teorannaigh go 120 Hz agus an peann in úsáid</string>
     <string name="pen_refresh_cap_summary">Ní oibríonn an peann gníomhach ach suas le 120 Hz. Baintear an teorainn 10 soicind tar éis ionchur an phinn dheireanaigh.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Níl sé ar fáil</string>
     <string name="smart_cover_title">Clúdach cliste</string>
     <string name="smart_cover_summary">Cuir ar suan agus glas nuair a bhíonn an clúdach fillte dúnta</string>
+    <string name="pen_notifications_title">Fógraí maidir le nasc an phinn</string>
+    <string name="pen_notifications_summary">Taispeáin fógra nuair a nascann peann Lenovo nó nuair a dhínascann sé</string>
+    <string name="pen_notification_channel">Nasc peann</string>
+    <string name="pen_connected_title">Tá an peann nasctha</string>
+    <string name="pen_disconnected_title">Tá an peann dícheangailte</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Mód fuaime, cothromóir, feabhsaitheoir dialóige agus móid aipeanna</string>

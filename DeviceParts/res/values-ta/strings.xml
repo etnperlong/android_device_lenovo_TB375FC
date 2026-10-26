@@ -16,6 +16,7 @@
     <string name="category_cover_title">ஃபோலியோ கவர்</string>
     <string name="category_audio_title">ஆடியோ</string>
     <string name="category_perf_title">செயல்திறன்</string>
+    <string name="category_pen_title">ஸ்டைலஸ்</string>
 
     <string name="pen_refresh_cap_title">ஸ்டைலஸைப் பயன்படுத்தும்போது 120 Hz ஆக வரம்பிடு</string>
     <string name="pen_refresh_cap_summary">செயலில் உள்ள ஸ்டைலஸ் 120 Hz வரை மட்டுமே செயல்படும் எனத் தெரிவிக்கப்பட்டுள்ளது. கடைசி ஸ்டைலஸ் உள்ளீட்டிற்கு 10 வினாடிகளுக்குப் பிறகு வரம்பு நீக்கப்படும்.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">கிடைக்கவில்லை</string>
     <string name="smart_cover_title">ஸ்மார்ட் கவர்</string>
     <string name="smart_cover_summary">ஃபோலியோ கவரை மூடும்போது உறக்கநிலைக்குச் சென்று பூட்டும்</string>
+    <string name="pen_notifications_title">ஸ்டைலஸ் இணைப்பு அறிவிப்புகள்</string>
+    <string name="pen_notifications_summary">Lenovo ஸ்டைலஸ் இணைக்கப்படும்போது அல்லது துண்டிக்கப்படும்போது அறிவிப்பைக் காட்டு</string>
+    <string name="pen_notification_channel">ஸ்டைலஸ் இணைப்பு</string>
+    <string name="pen_connected_title">ஸ்டைலஸ் இணைக்கப்பட்டது</string>
+    <string name="pen_disconnected_title">ஸ்டைலஸ் துண்டிக்கப்பட்டது</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">ஒலி பயன்முறை, ஈக்வலைசர், உரையாடல் மேம்படுத்தி மற்றும் ஆப் பயன்முறைகள்</string>

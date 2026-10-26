@@ -16,6 +16,7 @@
     <string name="category_cover_title">Foliodeksel</string>
     <string name="category_audio_title">Lyd</string>
     <string name="category_perf_title">Ytelse</string>
+    <string name="category_pen_title">Pekepenn</string>
 
     <string name="pen_refresh_cap_title">Begrens til 120 Hz når pekepennen brukes</string>
     <string name="pen_refresh_cap_summary">Det rapporteres at den aktive pekepennen bare fungerer opptil 120 Hz. Grensen oppheves 10 sekunder etter siste inndata med pekepennen.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Ikke tilgjengelig</string>
     <string name="smart_cover_title">Smartdeksel</string>
     <string name="smart_cover_summary">Slå av skjermen og lås når foliodekselet lukkes</string>
+    <string name="pen_notifications_title">Varsler om pennetilkobling</string>
+    <string name="pen_notifications_summary">Vis et varsel når en Lenovo-pekepenn kobles til eller fra</string>
+    <string name="pen_notification_channel">Pennetilkobling</string>
+    <string name="pen_connected_title">Pekepenn tilkoblet</string>
+    <string name="pen_disconnected_title">Pekepenn frakoblet</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Lydmodus, equalizer, dialogforbedring og appmoduser</string>

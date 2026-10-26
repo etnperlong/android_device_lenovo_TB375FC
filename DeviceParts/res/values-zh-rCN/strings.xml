@@ -16,6 +16,7 @@
     <string name="category_cover_title">皮套</string>
     <string name="category_audio_title">音频</string>
     <string name="category_perf_title">性能</string>
+    <string name="category_pen_title">手写笔</string>
 
     <string name="pen_refresh_cap_title">使用手写笔时限制为 120 Hz</string>
     <string name="pen_refresh_cap_summary">主动笔据称最高只支持 120 Hz。最后一次笔输入 10 秒后解除限制。</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">不可用</string>
     <string name="smart_cover_title">智能皮套</string>
     <string name="smart_cover_summary">合上皮套时息屏并锁定</string>
+    <string name="pen_notifications_title">手写笔连接通知</string>
+    <string name="pen_notifications_summary">Lenovo 手写笔连接或断开时显示通知</string>
+    <string name="pen_notification_channel">手写笔连接</string>
+    <string name="pen_connected_title">手写笔已连接</string>
+    <string name="pen_disconnected_title">手写笔已断开</string>
 
     <string name="dolby_title">杜比全景声</string>
     <string name="dolby_summary">音效模式、均衡器、对白增强器与应用模式</string>

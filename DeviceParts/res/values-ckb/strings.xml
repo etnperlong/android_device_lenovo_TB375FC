@@ -14,6 +14,7 @@
     <string name="category_cover_title">قاپی هەڵگرتن</string>
     <string name="category_audio_title">دەنگ</string>
     <string name="category_perf_title">کارایی</string>
+    <string name="category_pen_title">پێنووس</string>
     <string name="pen_refresh_cap_title">سنووردارکردن بە 120 هێرتز لە کاتی بەکارهێنانی پێنووسدا</string>
     <string name="pen_refresh_cap_summary">پێنووسی چالاک تەنها تا 120 هێرتز کار دەکات. سنوورەکە 10 چرکە دوای دواخستنی پێنووس لادەبرێت.</string>
     <string name="reading_low_refresh_title">30 هێرتز لە دۆخی خوێندنەوەدا</string>
@@ -24,6 +25,11 @@
     <string name="touch_game_mode_unavailable">بەردەست نییە</string>
     <string name="smart_cover_title">قاپی زیرەک</string>
     <string name="smart_cover_summary">لە کاتی داخستنی قاپی هەڵگرتندا شاشە بخەوێنە و قفڵی بکە</string>
+    <string name="pen_notifications_title">ئاگادارکردنەوەکانی پەیوەندی پێنووس</string>
+    <string name="pen_notifications_summary">کاتێک پێنووسێکی Lenovo پەیوەندی دەکات یان دەیبڕێت ئاگادارکردنەوە پیشان بدە</string>
+    <string name="pen_notification_channel">پەیوەندی پێنووس</string>
+    <string name="pen_connected_title">پێنووس پەیوەست بوو</string>
+    <string name="pen_disconnected_title">پێنووس پەیوەندییەکەی بڕا</string>
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">دۆخی دەنگ، هاوسەنگکەر، باشترکەری گفتوگۆ و دۆخەکانی ئەپ</string>
     <string name="dolby_enable_title">بەکارهێنانی Dolby Atmos</string>

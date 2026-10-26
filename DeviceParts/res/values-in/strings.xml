@@ -16,6 +16,7 @@
     <string name="category_cover_title">Penutup folio</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Performa</string>
+    <string name="category_pen_title">Stilus</string>
 
     <string name="pen_refresh_cap_title">Batasi ke 120 Hz saat menggunakan stilus</string>
     <string name="pen_refresh_cap_summary">Stilus aktif dilaporkan hanya mendukung hingga 120 Hz. Batas akan dilepas 10 detik setelah input stilus terakhir.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Tidak tersedia</string>
     <string name="smart_cover_title">Penutup pintar</string>
     <string name="smart_cover_summary">Tidurkan dan kunci perangkat saat penutup folio ditutup</string>
+    <string name="pen_notifications_title">Notifikasi koneksi stilus</string>
+    <string name="pen_notifications_summary">Tampilkan notifikasi saat stilus Lenovo terhubung atau terputus</string>
+    <string name="pen_notification_channel">Koneksi stilus</string>
+    <string name="pen_connected_title">Stilus terhubung</string>
+    <string name="pen_disconnected_title">Stilus terputus</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Modus suara, ekualiser, peningkat dialog, dan modus aplikasi</string>

@@ -16,6 +16,7 @@
     <string name="category_cover_title">فولیو کور</string>
     <string name="category_audio_title">آڈیو</string>
     <string name="category_perf_title">کارکردگی</string>
+    <string name="category_pen_title">اسٹائلس</string>
 
     <string name="pen_refresh_cap_title">اسٹائلس استعمال کرتے وقت 120 Hz تک محدود کریں</string>
     <string name="pen_refresh_cap_summary">فعال اسٹائلس کے بارے میں بتایا گیا ہے کہ یہ صرف 120 Hz تک کام کرتا ہے۔ آخری اسٹائلس اِن پٹ کے 10 سیکنڈ بعد حد ہٹا دی جاتی ہے۔</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">دستیاب نہیں ہے</string>
     <string name="smart_cover_title">اسمارٹ کور</string>
     <string name="smart_cover_summary">فولیو کور بند ہونے پر اسکرین کو سلیپ اور لاک کریں</string>
+    <string name="pen_notifications_title">اسٹائلس کنکشن کی اطلاعات</string>
+    <string name="pen_notifications_summary">Lenovo اسٹائلس کے کنیکٹ یا ڈسکنیکٹ ہونے پر اطلاع دکھائیں</string>
+    <string name="pen_notification_channel">اسٹائلس کنکشن</string>
+    <string name="pen_connected_title">اسٹائلس کنیکٹ ہو گیا</string>
+    <string name="pen_disconnected_title">اسٹائلس ڈسکنیکٹ ہو گیا</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">ساؤنڈ موڈ، ایکولائزر، ڈائیلاگ انہینسر اور ایپ موڈز</string>

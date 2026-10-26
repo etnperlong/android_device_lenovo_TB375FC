@@ -16,6 +16,7 @@
     <string name="category_cover_title">G‘ilof</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Unumdorlik</string>
+    <string name="category_pen_title">Stilus</string>
 
     <string name="pen_refresh_cap_title">Stilusdan foydalanganda 120 Hz bilan cheklash</string>
     <string name="pen_refresh_cap_summary">Faol stilus faqat 120 Hz gacha ishlashi aytilgan. Stilusdan oxirgi marta foydalanilgandan 10 soniya oʻtgach cheklov olib tashlanadi.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Mavjud emas</string>
     <string name="smart_cover_title">Aqlli g‘ilof</string>
     <string name="smart_cover_summary">G‘ilof yopilganda ekran oʻchadi va qurilma qulflanadi</string>
+    <string name="pen_notifications_title">Stilus ulanishi haqida bildirishnomalar</string>
+    <string name="pen_notifications_summary">Lenovo stilusi ulanganda yoki uzilganda bildirishnoma ko‘rsatish</string>
+    <string name="pen_notification_channel">Stilus ulanishi</string>
+    <string name="pen_connected_title">Stilus ulandi</string>
+    <string name="pen_disconnected_title">Stilus uzildi</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Ovoz rejimi, ekvalayzer, dialogni kuchaytirish va ilova rejimlari</string>

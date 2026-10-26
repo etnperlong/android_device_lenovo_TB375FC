@@ -16,6 +16,7 @@
     <string name="category_cover_title">翻蓋保護套</string>
     <string name="category_audio_title">音訊</string>
     <string name="category_perf_title">效能</string>
+    <string name="category_pen_title">觸控筆</string>
 
     <string name="pen_refresh_cap_title">使用觸控筆時限制為 120 Hz</string>
     <string name="pen_refresh_cap_summary">主動式觸控筆回報僅支援最高 120 Hz。最後一次觸控筆輸入後 10 秒即解除限制。</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">無法使用</string>
     <string name="smart_cover_title">智能翻蓋保護套</string>
     <string name="smart_cover_summary">合上翻蓋保護套時讓裝置進入休眠並鎖定</string>
+    <string name="pen_notifications_title">觸控筆連線通知</string>
+    <string name="pen_notifications_summary">Lenovo 觸控筆連線或中斷連線時顯示通知</string>
+    <string name="pen_notification_channel">觸控筆連線</string>
+    <string name="pen_connected_title">觸控筆已連線</string>
+    <string name="pen_disconnected_title">觸控筆已中斷連線</string>
 
     <string name="dolby_title">杜比全景聲</string>
     <string name="dolby_summary">音效模式、等化器、對話增強器與應用程式模式</string>

@@ -16,6 +16,7 @@
     <string name="category_cover_title">መያዣ</string>
     <string name="category_audio_title">ድምጽ</string>
     <string name="category_perf_title">አፈጻጸም</string>
+    <string name="category_pen_title">ስታይለስ</string>
 
     <string name="pen_refresh_cap_title">ስታይለስ ሲጠቀሙ ወደ 120 ኸርዝ ገድብ</string>
     <string name="pen_refresh_cap_summary">ንቁው ስታይለስ እስከ 120 ኸርዝ ብቻ እንደሚሠራ ተገልጿል። የመጨረሻው የስታይለስ ግቤት ከተደረገ ከ10 ሰከንድ በኋላ ገደቡ ይነሳል።</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">አይገኝም</string>
     <string name="smart_cover_title">ስማርት መያዣ</string>
     <string name="smart_cover_summary">መያዣው ሲዘጋ ማያ ገጹን አጥፋ እና ቆልፍ</string>
+    <string name="pen_notifications_title">የስታይለስ ግንኙነት ማሳወቂያዎች</string>
+    <string name="pen_notifications_summary">Lenovo ስታይለስ ሲገናኝ ወይም ሲለያይ ማሳወቂያ አሳይ</string>
+    <string name="pen_notification_channel">የስታይለስ ግንኙነት</string>
+    <string name="pen_connected_title">ስታይለስ ተገናኝቷል</string>
+    <string name="pen_disconnected_title">ስታይለስ ተለይቷል</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">የድምጽ ሁነታ፣ ኢኳላይዘር፣ የንግግር አጉሊ እና የመተግበሪያ ሁነታዎች</string>

@@ -16,6 +16,7 @@
     <string name="category_cover_title">ফ’লিঅ’ ক’ভাৰ</string>
     <string name="category_audio_title">অডিঅ’</string>
     <string name="category_perf_title">কাৰ্যক্ষমতা</string>
+    <string name="category_pen_title">ষ্টাইলাছ</string>
 
     <string name="pen_refresh_cap_title">ষ্টাইলাছ ব্যৱহাৰ কৰাৰ সময়ত 120 Hz-লৈ সীমিত কৰক</string>
     <string name="pen_refresh_cap_summary">সক্ৰিয় ষ্টাইলাছটোৱে কেৱল 120 Hz-লৈকেহে কাম কৰে। ষ্টাইলাছৰ জৰিয়তে শেষৰ ইনপুটৰ 10 ছেকেণ্ড পিছত সীমাটো আঁতৰোৱা হয়।</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">উপলব্ধ নহয়</string>
     <string name="smart_cover_title">স্মাৰ্ট ক’ভাৰ</string>
     <string name="smart_cover_summary">ফ’লিঅ’ ক’ভাৰ বন্ধ কৰিলে শ্লীপ আৰু লক কৰক</string>
+    <string name="pen_notifications_title">ষ্টাইলাছ সংযোগৰ জাননী</string>
+    <string name="pen_notifications_summary">Lenovo ষ্টাইলাছ সংযোগ বা বিচ্ছিন্ন হ’লে জাননী দেখুৱাওক</string>
+    <string name="pen_notification_channel">ষ্টাইলাছ সংযোগ</string>
+    <string name="pen_connected_title">ষ্টাইলাছ সংযুক্ত</string>
+    <string name="pen_disconnected_title">ষ্টাইলাছ বিচ্ছিন্ন</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">ছাউণ্ড মোড, ইকুৱেলাইজাৰ, ডায়লগ এনহান্সাৰ আৰু এপৰ মোড</string>

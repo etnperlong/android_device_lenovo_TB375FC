@@ -16,6 +16,7 @@
     <string name="category_cover_title">Футрола-книга</string>
     <string name="category_audio_title">Аудио</string>
     <string name="category_perf_title">Перформанси</string>
+    <string name="category_pen_title">Пенкало</string>
 
     <string name="pen_refresh_cap_title">Ограничи на 120 Гц при користење пенкало</string>
     <string name="pen_refresh_cap_summary">Активното пенкало наводно работи само до 120 Гц. Ограничувањето се отстранува 10 секунди по последното внесување со пенкалото.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Не е достапно</string>
     <string name="smart_cover_title">Паметна футрола</string>
     <string name="smart_cover_summary">Исклучи го екранот и заклучи го уредот кога ќе се затвори футролата-книга</string>
+    <string name="pen_notifications_title">Известувања за поврзување на пенкало</string>
+    <string name="pen_notifications_summary">Прикажи известување кога ќе се поврзе или исклучи пенкало Lenovo</string>
+    <string name="pen_notification_channel">Поврзување на пенкало</string>
+    <string name="pen_connected_title">Пенкалото е поврзано</string>
+    <string name="pen_disconnected_title">Пенкалото е исклучено</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Режим на звук, еквилајзер, подобрувач на дијалог и режими за апликации</string>

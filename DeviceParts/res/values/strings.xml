@@ -17,6 +17,7 @@
     <string name="category_cover_title">Folio cover</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Performance</string>
+    <string name="category_pen_title">Pen</string>
 
     <string name="pen_refresh_cap_title">Limit to 120 Hz while using the pen</string>
     <string name="pen_refresh_cap_summary">The active pen is reported to work only up to 120 Hz. The limit lifts 10 seconds after the last pen input.</string>
@@ -28,6 +29,13 @@
     <string name="touch_game_mode_unavailable">Not available</string>
     <string name="smart_cover_title">Smart cover</string>
     <string name="smart_cover_summary">Sleep and lock when the folio cover is closed</string>
+    <string name="pen_notifications_title">Pen connection notifications</string>
+    <string name="pen_notifications_summary">Show a notification when a Lenovo pen connects or disconnects</string>
+
+    <!-- Pen notifications -->
+    <string name="pen_notification_channel">Pen connection</string>
+    <string name="pen_connected_title">Pen connected</string>
+    <string name="pen_disconnected_title">Pen disconnected</string>
 
     <!-- Dolby Atmos -->
     <string name="dolby_title">Dolby Atmos</string>

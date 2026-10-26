@@ -16,6 +16,7 @@
     <string name="category_cover_title">Kaanega ümbris</string>
     <string name="category_audio_title">Heli</string>
     <string name="category_perf_title">Jõudlus</string>
+    <string name="category_pen_title">Pliiats</string>
 
     <string name="pen_refresh_cap_title">Pliiatsi kasutamisel piira sagedus 120 Hz-ni</string>
     <string name="pen_refresh_cap_summary">Aktiivne pliiats töötab teadaolevalt ainult kuni sageduseni 120 Hz. Piirang eemaldatakse 10 sekundit pärast viimast pliiatsisisestust.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Pole saadaval</string>
     <string name="smart_cover_title">Nutikas ümbris</string>
     <string name="smart_cover_summary">Lülita ekraan välja ja lukusta seade, kui ümbris suletakse</string>
+    <string name="pen_notifications_title">Pliiatsi ühenduse teavitused</string>
+    <string name="pen_notifications_summary">Kuva teavitus, kui Lenovo pliiats ühendub või katkestab ühenduse</string>
+    <string name="pen_notification_channel">Pliiatsi ühendus</string>
+    <string name="pen_connected_title">Pliiats ühendatud</string>
+    <string name="pen_disconnected_title">Pliiats ühendus katkestatud</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Helirežiim, ekvalaiser, kõne selguse parandaja ja rakenduste režiimid</string>

@@ -16,6 +16,7 @@
     <string name="category_cover_title">ស្រោមបត់</string>
     <string name="category_audio_title">សំឡេង</string>
     <string name="category_perf_title">ដំណើរការ</string>
+    <string name="category_pen_title">ប៊ិក</string>
 
     <string name="pen_refresh_cap_title">កំណត់ត្រឹម 120 Hz នៅពេលប្រើប៊ិក</string>
     <string name="pen_refresh_cap_summary">ប៊ិកសកម្មត្រូវបានរាយការណ៍ថាគាំទ្រត្រឹម 120 Hz ប៉ុណ្ណោះ។ កម្រិតកំណត់នឹងត្រូវដកចេញវិញ 10 វិនាទី បន្ទាប់ពីប្រើប៊ិកចុងក្រោយ។</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">មិនមានទេ</string>
     <string name="smart_cover_title">ស្រោមបត់ឆ្លាតវៃ</string>
     <string name="smart_cover_summary">បិទអេក្រង់ និងចាក់សោ នៅពេលបិទស្រោមបត់</string>
+    <string name="pen_notifications_title">ការជូនដំណឹងអំពីការភ្ជាប់ប៊ិក</string>
+    <string name="pen_notifications_summary">បង្ហាញការជូនដំណឹងនៅពេលប៊ិក Lenovo ភ្ជាប់ ឬផ្ដាច់</string>
+    <string name="pen_notification_channel">ការភ្ជាប់ប៊ិក</string>
+    <string name="pen_connected_title">បានភ្ជាប់ប៊ិក</string>
+    <string name="pen_disconnected_title">បានផ្ដាច់ប៊ិក</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">របៀបសំឡេង អេក្វ៉ាលីស័រ មុខងារបង្កើនភាពច្បាស់សំឡេងសន្ទនា និងរបៀបកម្មវិធី</string>

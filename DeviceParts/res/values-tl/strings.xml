@@ -16,6 +16,7 @@
     <string name="category_cover_title">Folio cover</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Performance</string>
+    <string name="category_pen_title">Stylus</string>
 
     <string name="pen_refresh_cap_title">Limitahan sa 120 Hz kapag gumagamit ng stylus</string>
     <string name="pen_refresh_cap_summary">Iniulat na hanggang 120 Hz lang ang kayang suportahan ng aktibong stylus. Aalisin ang limitasyon 10 segundo pagkatapos ng huling input ng stylus.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Hindi available</string>
     <string name="smart_cover_title">Smart cover</string>
     <string name="smart_cover_summary">Patulugin at i-lock kapag nakasara ang folio cover</string>
+    <string name="pen_notifications_title">Mga notification sa koneksyon ng stylus</string>
+    <string name="pen_notifications_summary">Magpakita ng notification kapag kumonekta o nadiskonekta ang isang stylus ng Lenovo</string>
+    <string name="pen_notification_channel">Koneksyon ng stylus</string>
+    <string name="pen_connected_title">Nakakonekta ang stylus</string>
+    <string name="pen_disconnected_title">Nadiskonekta ang stylus</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Sound mode, equalizer, dialogue enhancer, at mga mode ng app</string>

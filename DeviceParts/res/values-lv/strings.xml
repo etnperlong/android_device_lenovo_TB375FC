@@ -16,6 +16,7 @@
     <string name="category_cover_title">Atverams vāciņš</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Veiktspēja</string>
+    <string name="category_pen_title">Pildspalva</string>
 
     <string name="pen_refresh_cap_title">Ierobežot līdz 120 Hz, izmantojot skārienekrāna pildspalvu</string>
     <string name="pen_refresh_cap_summary">Aktīvā skārienekrāna pildspalva, kā ziņots, darbojas tikai līdz 120 Hz. Ierobežojums tiek atcelts 10 sekundes pēc pēdējās ievades ar pildspalvu.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Nav pieejams</string>
     <string name="smart_cover_title">Viedais vāciņš</string>
     <string name="smart_cover_summary">Aizverot vāciņu, izslēgt ekrānu un bloķēt ierīci</string>
+    <string name="pen_notifications_title">Pildspalvas savienojuma paziņojumi</string>
+    <string name="pen_notifications_summary">Rādīt paziņojumu, kad Lenovo pildspalva tiek pievienota vai atvienota</string>
+    <string name="pen_notification_channel">Pildspalvas savienojums</string>
+    <string name="pen_connected_title">Pildspalva pievienota</string>
+    <string name="pen_disconnected_title">Pildspalva atvienota</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Skaņas režīms, ekvalaizers, dialoga uzlabotājs un lietotņu režīmi</string>

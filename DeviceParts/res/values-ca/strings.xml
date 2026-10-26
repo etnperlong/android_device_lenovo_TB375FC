@@ -16,6 +16,7 @@
     <string name="category_cover_title">Funda tipus foli</string>
     <string name="category_audio_title">Àudio</string>
     <string name="category_perf_title">Rendiment</string>
+    <string name="category_pen_title">Llapis</string>
 
     <string name="pen_refresh_cap_title">Limita a 120 Hz quan facis servir el llapis</string>
     <string name="pen_refresh_cap_summary">El llapis actiu només funciona fins a 120 Hz. El límit s’elimina 10 segons després de l’última interacció amb el llapis.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">No disponible</string>
     <string name="smart_cover_title">Funda intel·ligent</string>
     <string name="smart_cover_summary">Posa en suspensió i bloqueja quan es tanca la funda tipus foli</string>
+    <string name="pen_notifications_title">Notificacions de connexió del llapis</string>
+    <string name="pen_notifications_summary">Mostra una notificació quan es connecti o desconnecti un llapis Lenovo</string>
+    <string name="pen_notification_channel">Connexió del llapis</string>
+    <string name="pen_connected_title">Llapis connectat</string>
+    <string name="pen_disconnected_title">Llapis desconnectat</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Mode de so, equalitzador, millorador de diàlegs i modes per aplicació</string>

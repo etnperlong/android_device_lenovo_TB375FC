@@ -16,6 +16,7 @@
     <string name="category_cover_title">Suojakuori</string>
     <string name="category_audio_title">Ääni</string>
     <string name="category_perf_title">Suorituskyky</string>
+    <string name="category_pen_title">Näyttökynä</string>
 
     <string name="pen_refresh_cap_title">Rajoita virkistystaajuus 120 Hz:iin näyttökynää käytettäessä</string>
     <string name="pen_refresh_cap_summary">Aktiivisen näyttökynän ilmoitetaan toimivan vain enintään 120 Hz:n virkistystaajuudella. Rajoitus poistuu 10 sekuntia viimeisen kynän syötteen jälkeen.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Ei käytettävissä</string>
     <string name="smart_cover_title">Älykäs suojakuori</string>
     <string name="smart_cover_summary">Sammuta näyttö ja lukitse laite, kun suojakuori suljetaan</string>
+    <string name="pen_notifications_title">Näyttökynän yhteysilmoitukset</string>
+    <string name="pen_notifications_summary">Näytä ilmoitus, kun Lenovo-näyttökynä yhdistyy tai katkaisee yhteyden</string>
+    <string name="pen_notification_channel">Näyttökynän yhteys</string>
+    <string name="pen_connected_title">Näyttökynä yhdistetty</string>
+    <string name="pen_disconnected_title">Näyttökynän yhteys katkaistu</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Äänitila, taajuuskorjain, puheen selkeytys ja sovellustilat</string>

@@ -101,6 +101,11 @@ needs `Looper::repoll`, which the v34 `libutils` lacks.
 ### Device parts
 `DeviceParts` collects the device-specific settings below. All of them are on the "Device parts" entry of the Settings homepage; the pen and touch switches are also under Settings → Display → "Pen and touch", the Dolby settings under Settings → Sound → "Dolby Atmos", the performance profiles under Settings → Battery → "Performance profiles", and the cover switch on the lock screen settings page ("Smart cover"). The Quick Settings tiles show the same state.
 
+### Active pen
+The pen writes through the Novatek touch controller; Bluetooth only carries its buttons and battery level. The controller looks for the pen only while its pen mode is on: `nt36532.ko` takes the mode from `/proc/support_pen`, starts with it off, turns it off again after the boot firmware update, and re-sends the last value every time the screen turns on. Stock ZUI's `services.jar` (`BluetoothPenConnectPolicy`) switches it through the Lenovo touchscreen HAL when a Lenovo pen connects over Bluetooth HID; LineageOS has no such code, so without it the pen pairs but draws nothing.
+
+`DeviceParts` writes the same values: `1` then `3` when a Lenovo pen (stock's Bluetooth name list, e.g. "Lenovo Tab Pen Plus") connects, and `1` while a pen that has connected before is paired but disconnected, so the mode survives the pen going to sleep; stock writes `0` there and reconnects the pen when the controller reports its address, which AOSP does not do. Unpairing the last pen writes `0`. A notification shows when a pen connects or disconnects; "Pen connection notifications" in Device parts turns it off. Pen operation still needs device validation.
+
 ### Refresh rate and the active pen
 The panel supports 144 / 120 / 60 / 30 Hz, but the NVT active pen is reported to work only up to 120 Hz. Stock keeps 144 available and steers the panel to 120 Hz while the pen is in use (a 10 s pen timer inside MediaTek's SurfaceFlinger, which AOSP does not have). `DeviceParts` does the same with `DisplayManager.requestMaxRefreshRate()`: it watches stylus events (hover included), caps the display at 120 Hz, and lifts the cap 10 s after the last event or when the screen turns off. The cap is on by default and can be turned off in Device parts. The default peak stays 120 Hz; 144 Hz can be picked in Settings → Display.
 

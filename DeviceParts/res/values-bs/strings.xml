@@ -16,6 +16,7 @@
     <string name="category_cover_title">Preklopna futrola</string>
     <string name="category_audio_title">Zvuk</string>
     <string name="category_perf_title">Performanse</string>
+    <string name="category_pen_title">Pisaljka</string>
 
     <string name="pen_refresh_cap_title">Ograniči na 120 Hz tokom korištenja pisaljke</string>
     <string name="pen_refresh_cap_summary">Aktivna pisaljka navodno radi samo do 120 Hz. Ograničenje se ukida 10 sekundi nakon posljednjeg unosa pisaljkom.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Nije dostupno</string>
     <string name="smart_cover_title">Pametna futrola</string>
     <string name="smart_cover_summary">Uspava i zaključava uređaj pri zatvaranju futrole</string>
+    <string name="pen_notifications_title">Obavještenja o povezivanju pisaljke</string>
+    <string name="pen_notifications_summary">Prikaži obavještenje kada se Lenovo pisaljka poveže ili prekine veza</string>
+    <string name="pen_notification_channel">Povezivanje pisaljke</string>
+    <string name="pen_connected_title">Pisaljka je povezana</string>
+    <string name="pen_disconnected_title">Pisaljka je prekinula vezu</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Način zvuka, ekvilajzer, poboljšivač dijaloga i načini aplikacija</string>

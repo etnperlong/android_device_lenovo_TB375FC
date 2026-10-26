@@ -14,6 +14,7 @@
     <string name="category_cover_title">დასაკეცი ჩასადები</string>
     <string name="category_audio_title">აუდიო</string>
     <string name="category_perf_title">წარმადობა</string>
+    <string name="category_pen_title">სტილუსი</string>
     <string name="pen_refresh_cap_title">სტილუსის გამოყენებისას 120 ჰც-მდე შეზღუდვა</string>
     <string name="pen_refresh_cap_summary">აქტიური სტილუსი, როგორც ცნობილია, მხოლოდ 120 ჰც-მდე მუშაობს. შეზღუდვა სტილუსით ბოლო შეყვანიდან 10 წამში მოიხსნება.</string>
     <string name="reading_low_refresh_title">30 ჰც საკითხავ რეჟიმში</string>
@@ -24,6 +25,11 @@
     <string name="touch_game_mode_unavailable">მიუწვდომელია</string>
     <string name="smart_cover_title">ჭკვიანი ჩასადები</string>
     <string name="smart_cover_summary">დასაკეცი ჩასადების დახურვისას ეკრანის გამორთვა და დაბლოკვა</string>
+    <string name="pen_notifications_title">სტილუსის კავშირის შეტყობინებები</string>
+    <string name="pen_notifications_summary">Lenovo სტილუსის დაკავშირების ან გათიშვისას შეტყობინების ჩვენება</string>
+    <string name="pen_notification_channel">სტილუსის კავშირი</string>
+    <string name="pen_connected_title">სტილუსი დაკავშირებულია</string>
+    <string name="pen_disconnected_title">სტილუსი გათიშულია</string>
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">ხმის რეჟიმი, ექვალაიზერი, დიალოგის გამაძლიერებელი და აპების რეჟიმები</string>
     <string name="dolby_enable_title">Dolby Atmos-ის გამოყენება</string>

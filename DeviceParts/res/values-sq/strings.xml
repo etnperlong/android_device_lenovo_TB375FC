@@ -16,6 +16,7 @@
     <string name="category_cover_title">Kapaku mbrojtës</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Performanca</string>
+    <string name="category_pen_title">Stilolaps</string>
 
     <string name="pen_refresh_cap_title">Kufizoje në 120 Hz kur përdoret stilolapsi</string>
     <string name="pen_refresh_cap_summary">Stilolapsi aktiv raportohet se funksionon vetëm deri në 120 Hz. Kufizimi hiqet 10 sekonda pas hyrjes së fundit me stilolaps.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Nuk ofrohet</string>
     <string name="smart_cover_title">Kapak inteligjent</string>
     <string name="smart_cover_summary">Fike dhe kyçe ekranin kur mbyllet kapaku mbrojtës</string>
+    <string name="pen_notifications_title">Njoftime për lidhjen e stilolapsit</string>
+    <string name="pen_notifications_summary">Shfaq njoftim kur lidhet ose shkëputet një stilolaps Lenovo</string>
+    <string name="pen_notification_channel">Lidhja e stilolapsit</string>
+    <string name="pen_connected_title">Stilolapsi u lidh</string>
+    <string name="pen_disconnected_title">Stilolapsi u shkëput</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Mënyra e tingullit, barazuesi, përforcuesi i dialogut dhe mënyrat e aplikacioneve</string>

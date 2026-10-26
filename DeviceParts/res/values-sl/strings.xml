@@ -16,6 +16,7 @@
     <string name="category_cover_title">Preklopni ovitek</string>
     <string name="category_audio_title">Zvok</string>
     <string name="category_perf_title">Zmogljivost</string>
+    <string name="category_pen_title">Pisalo</string>
 
     <string name="pen_refresh_cap_title">Omeji na 120 Hz med uporabo pisala</string>
     <string name="pen_refresh_cap_summary">Aktivno pisalo naj bi delovalo le do 120 Hz. Omejitev se odpravi 10 sekund po zadnjem vnosu s pisalom.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Ni na voljo</string>
     <string name="smart_cover_title">Pametni ovitek</string>
     <string name="smart_cover_summary">Ob zaprtju ovitka preklopi napravo v stanje pripravljenosti in jo zakleni</string>
+    <string name="pen_notifications_title">Obvestila o povezavi pisala</string>
+    <string name="pen_notifications_summary">Prikaži obvestilo, ko se pisalo Lenovo poveže ali odklopi</string>
+    <string name="pen_notification_channel">Povezava pisala</string>
+    <string name="pen_connected_title">Pisalo je povezano</string>
+    <string name="pen_disconnected_title">Pisalo je odklopljeno</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Zvočni način, izenačevalnik, izboljšanje dialogov in načini aplikacij</string>

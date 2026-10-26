@@ -16,6 +16,7 @@
     <string name="category_cover_title">फ़ोलियो कवर</string>
     <string name="category_audio_title">ऑडियो</string>
     <string name="category_perf_title">परफ़ॉर्मेंस</string>
+    <string name="category_pen_title">स्टाइलस</string>
 
     <string name="pen_refresh_cap_title">स्टाइलस इस्तेमाल करते समय 120 Hz तक सीमित करें</string>
     <string name="pen_refresh_cap_summary">ऐक्टिव स्टाइलस 120 Hz तक ही काम करता है। स्टाइलस से आख़िरी इनपुट के 10 सेकंड बाद यह सीमा हट जाती है।</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">उपलब्ध नहीं है</string>
     <string name="smart_cover_title">स्मार्ट कवर</string>
     <string name="smart_cover_summary">फ़ोलियो कवर बंद करने पर स्लीप और लॉक करें</string>
+    <string name="pen_notifications_title">स्टाइलस कनेक्शन की सूचनाएं</string>
+    <string name="pen_notifications_summary">Lenovo स्टाइलस कनेक्ट या डिसकनेक्ट होने पर सूचना दिखाएं</string>
+    <string name="pen_notification_channel">स्टाइलस कनेक्शन</string>
+    <string name="pen_connected_title">स्टाइलस कनेक्ट हो गया</string>
+    <string name="pen_disconnected_title">स्टाइलस डिसकनेक्ट हो गया</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">साउंड मोड, इक्वलाइज़र, डायलॉग एन्हांसर और ऐप मोड</string>

@@ -16,6 +16,7 @@
     <string name="category_cover_title">Custodia a libro</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Prestazioni</string>
+    <string name="category_pen_title">Penna</string>
 
     <string name="pen_refresh_cap_title">Limita a 120 Hz quando usi la penna</string>
     <string name="pen_refresh_cap_summary">La penna attiva funziona solo fino a 120 Hz. Il limite viene rimosso 10 secondi dopo l’ultimo input della penna.</string>
@@ -27,6 +28,11 @@
     <string name="touch_game_mode_unavailable">Non disponibile</string>
     <string name="smart_cover_title">Custodia intelligente</string>
     <string name="smart_cover_summary">Sospendi e blocca quando la custodia a libro è chiusa</string>
+    <string name="pen_notifications_title">Notifiche di connessione della penna</string>
+    <string name="pen_notifications_summary">Mostra una notifica quando la penna Lenovo si connette o si disconnette</string>
+    <string name="pen_notification_channel">Connessione della penna</string>
+    <string name="pen_connected_title">Penna connessa</string>
+    <string name="pen_disconnected_title">Penna disconnessa</string>
 
     <string name="dolby_title">Dolby Atmos</string>
     <string name="dolby_summary">Modalità audio, equalizzatore, miglioramento dei dialoghi e modalità per app</string>
