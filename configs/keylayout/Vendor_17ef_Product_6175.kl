@@ -436,8 +436,11 @@ key 642   META_LEFT
 # ZUI-only, no AOSP equivalent: key 649   SUPER_CONNECT
 # ZUI-only, no AOSP equivalent: key 650   APP1
 # ZUI-only, no AOSP equivalent: key 651   APP2
-# ZUI-only, no AOSP equivalent: key 654   KEYBOARD_RESTORE
-# ZUI-only, no AOSP equivalent: key 655   KEYBOARD_REVERSE
+# Keyboard folded back / behind the tablet, reported on tn_wakeup. Left unmapped on purpose:
+# they reach PhoneWindowManager as KEYCODE_UNKNOWN and the DeviceParts keyboard KeyHandler
+# matches them by scan code.
+# stock: key 654   KEYBOARD_RESTORE
+# stock: key 655   KEYBOARD_REVERSE
 
 # Keys defined by HID usages
 key usage 0x0c0067 WINDOW

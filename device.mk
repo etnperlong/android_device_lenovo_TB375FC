@@ -343,7 +343,9 @@ PRODUCT_PACKAGES += \
 # touch game mode, 120 Hz cap while the active pen is in use (stock does this
 # inside MediaTek's SurfaceFlinger), optional 30 Hz in reading mode, and the
 # stock folio-cover policy on top of the lid switch reported by the patched
-# hall.ko (docs/hall-ko-lid-switch.md).
+# hall.ko (docs/hall-ko-lid-switch.md). Its keyboard KeyHandler, loaded into
+# system_server through LineageSdkDeviceOverlay, disables the folio keyboard
+# and touchpad while the keyboard is folded behind the tablet.
 PRODUCT_PACKAGES += \
     DeviceParts
 
@@ -384,6 +386,7 @@ PRODUCT_PACKAGES += \
 # are not shipped; their remaining values live in FrameworkResDeviceOverlay.
 PRODUCT_PACKAGES += \
     FrameworkResDeviceOverlay \
+    LineageSdkDeviceOverlay \
     SettingsDeviceOverlay \
     SettingsProviderDeviceOverlay \
     SystemUIDeviceOverlay \

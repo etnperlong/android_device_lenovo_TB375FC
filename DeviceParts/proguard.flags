@@ -1,0 +1,6 @@
+# Loaded by name into system_server (PhoneWindowManager, lineage-sdk
+# config_deviceKeyHandlerClasses); nothing in the app references it.
+-keep class org.lineageos.settings.device.keyboard.KeyHandler {
+    public <init>(android.content.Context);
+    public android.view.KeyEvent handleKeyEvent(android.view.KeyEvent);
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- PhoneWindowManager pairs both arrays by index. This replaces the ROM's default entry,
+         the LineageParts touchscreen gesture handler (LineageParts.apk on LineageOS,
+         DerpFest-Parts.apk on DerpFest): it only acts on scan codes that the
+         vendor.lineage.touch gesture HAL configures, and this device has no such HAL. -->
+    <string-array name="config_deviceKeyHandlerLibs" translatable="false">
+        <item>/system_ext/app/DeviceParts/DeviceParts.apk</item>
+    </string-array>
+
+    <string-array name="config_deviceKeyHandlerClasses" translatable="false">
+        <item>org.lineageos.settings.device.keyboard.KeyHandler</item>
+    </string-array>
+</resources>

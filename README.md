@@ -123,6 +123,20 @@ The folio keyboard UART `/dev/ttyS3` uses an ODM ueventd rule to apply stock
 on the timing of the one-shot init `chown`/`chmod`; the existing SELinux label
 and HAL access rules are unchanged. Keyboard operation still needs device validation.
 
+The keyboard keeps typing and its touchpad keeps tracking when it is folded
+behind the tablet; `tn_keyboard.ko` only reports the fold on its `tn_wakeup`
+device (scan code 655, and 654 once it is folded back). Stock ZUI then
+disables the keyboard and lets the on-screen keyboard show. `DeviceParts` does
+the same from a `DeviceKeyHandler` that `PhoneWindowManager` loads into
+system_server (`LineageSdkDeviceOverlay` sets lineage-sdk
+`config_deviceKeyHandlerLibs`/`Classes`, replacing the LineageParts
+touchscreen gesture handler, which has nothing to do without a
+`vendor.lineage.touch` gesture HAL): it disables `tn_keyboard` and
+`tn_touchpad` and, unless it is already on,
+turns on "Use on-screen keyboard" (`show_ime_with_hard_keyboard`) until the
+keyboard is folded back or goes away. Whether the firmware reports both scan
+codes still needs device validation.
+
 ### Wi-Fi supplicant
 `wpa_supplicant` and `hostapd` are the stock MediaTek builds. Stock's
 supplicant rc started the daemon as root and let it `setuid` to `wifi`, which

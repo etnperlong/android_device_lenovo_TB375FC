@@ -14,6 +14,11 @@
 //    pen connects or disconnects;
 //  - cover: applies the stock folio-cover policy (light sensor check, sleep, lock) to the lid
 //    switch reported by the patched hall.ko (docs/hall-ko-lid-switch.md);
+//  - keyboard: disables the folio keyboard and its touchpad while the keyboard is folded behind
+//    the tablet and lets the on-screen keyboard show meanwhile (stock: ZUI
+//    KeyboardShortcutController). This part is the KeyHandler that PhoneWindowManager loads into
+//    system_server from this APK (overlay/LineageSdkDeviceOverlay), not a service of the app;
+//    proguard.flags keeps it from being shrunk away.
 //  - audio: rotates the speaker channels with the display (stock gsensor_rotation);
 //  - dolby: the stock ZUI Dolby Atmos settings on top of the vendor daxService;
 //  - perf: per-app performance profiles: the foreground app goes to the MediaTek power HAL
@@ -41,4 +46,8 @@ android_app {
         "androidx.preference_preference",
         "org.lineageos.platform.internal",
     ],
+
+    optimize: {
+        proguard_flags_files: ["proguard.flags"],
+    },
 }
