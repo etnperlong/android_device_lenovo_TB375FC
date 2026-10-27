@@ -1,4 +1,7 @@
 {
+  "provideLibs": [
+    "liboemcrypto.so"
+  ],
   "requireLibs": [
     "libapexsupport.so",
     "libvendorsupport.so"

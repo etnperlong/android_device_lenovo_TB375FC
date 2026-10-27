@@ -87,8 +87,11 @@ APEX, selected through `android.hardware.drm@latest-service.clearkey`.
 The ClearKey CAS plugin is also the AOSP build (installed by `base_vendor.mk`);
 the stock one linked `libprotobuf-cpp-*-21.7.so`, which Android 17 lacks.
 Stock Widevine and its OEMCrypto library remain independently shipped;
-the original ZUI `.103` Widevine components are retained. This describes
-the component selection, not L1 or playback validation.
+the original ZUI `.103` Widevine components are retained. The vendor linker
+configuration exports `liboemcrypto.so` to the Widevine APEX, matching stock;
+without this namespace link, the CDM can fall back to L3 even though the
+library is installed. L1 provisioning, relocked-bootloader behavior and
+protected playback still require on-device validation.
 
 ### Vendor binder
 `/dev/vndbinder` is still used by stock vendor services such as the MediaTek

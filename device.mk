@@ -153,6 +153,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 # /vendor/lib64/. Those DT_NEEDED libapexsupport.so and libvendorsupport.so
 # (newer LL-NDK), but v34 VNDK apex's llndk.libraries.34.txt predates both.
 # Adding them to vendor's requireLibs forms the vendor -> system link.
+# Export OEMCrypto to the stock Widevine vendor APEX, as stock linkerconfig does.
 PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
     $(DEVICE_PATH)/configs/linker_config/vendor_require_apexsupport.json
 
@@ -277,8 +278,8 @@ PRODUCT_VENDOR_PROPERTIES += \
 # Widevine: the stock Lenovo Google Widevine non-updatable APEX is installed
 # through the vendor tree's `prebuilt_apex` module
 # (`com.google.android.widevine.nonupdatable`); OEMCrypto is the separate
-# vendor `liboemcrypto` module. The MTK L1 path is gated on
-# ro.vendor.mtk_widevine_drm_l1_support, which stock vendor/build.prop sets.
+# vendor `liboemcrypto` module, exported to that APEX by the linker fragment above.
+# Stock vendor/build.prop also retains ro.vendor.mtk_widevine_drm_l1_support=1.
 
 #
 # ro.product.board and ro.product.vendor.{brand,manufacturer,model,name,device}
