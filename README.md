@@ -33,12 +33,12 @@ mka bacon
 ```
 
 Kernel prebuilts in `prebuilts/` target Android 14 GKI `6.1.176-android14-11`
-(Google build `g6937a39e99f7-ab16619797`, tag
-[`android14-6.1-2026-09_r4`](https://android.googlesource.com/kernel/common/+/refs/tags/android14-6.1-2026-09_r4/)).
+(Google build `g6d8630162a37-ab16707926`, tag
+[`android14-6.1-2026-09_r5`](https://android.googlesource.com/kernel/common/+/refs/tags/android14-6.1-2026-09_r5/)).
 The kernel image comes from Google's
-[certified GKI archive](https://dl.google.com/android/gki/gki-certified-boot-android14-6.1-2026-09_r4-gz.zip);
+[certified GKI archive](https://dl.google.com/android/gki/gki-certified-boot-android14-6.1-2026-09_r5-gz.zip);
 the GKI modules come from
-[CI build 16619797](https://ci.android.com/builds/submitted/16619797/kernel_aarch64/latest).
+[CI build 16707926](https://ci.android.com/builds/submitted/16707926/kernel_aarch64/latest).
 The separate `android_device_lenovo_TB375FC-kernel` checkout contains reference
 prebuilts; the build does not consume it.
 
@@ -50,11 +50,11 @@ The GKI copies in `vendor_dlkm` are `bluetooth.ko`, `mii.ko`, `rfkill.ko`, and
 `usbnet.ko`; all 60 `system_dlkm` modules come from the same Google build.
 Preserve module load lists and refresh generated module metadata with the GKI
 update. The current `prebuilts/Image.gz` SHA-256 is
-`962efcb3f29385373ac1da62779543b30a9e3cb1b6d14855f763f4811e11c1e6`;
+`5206d3e7d7bc279c12cc12ecfb48e600822ab776fc8f02590e6d8ed38bb837b3`;
 the source certified ZIP SHA-256 is
-`23a511948ab741a09d1c9dd435d014378fffad869d9178dfeb9339de43148f4b`;
+`c8e0741628cd484ecf60767c53c77cceabbe75c34432749381e2143da3488228`;
 the source modules archive SHA-256 is
-`87cc88e6e26e102b10371227d403e075b123a5fed72ac09cfc0f3d28bd1689e0`.
+`4d6d58d726d0b13525ed0cc7a1a7e1c29bf43effcbc8487fae5ab54c05fa9ece`.
 
 A temporary boot-v4 image was packed and unpacked with byte-exact kernel recovery.
 Module imports, CRCs, protected exports and GKI signatures were checked;
