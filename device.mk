@@ -210,7 +210,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
 
 # Enable HWUI ADPF PowerHintSessions. AOSP gates the per-frame CPU timing hint
 # behind Properties::useHintManager, which defaults to false
-# (frameworks/base/libs/hwui/Properties.cpp:98,171). With it off, foreground apps
+# (frameworks/base/libs/hwui/Properties.cpp:76,151). With it off, foreground apps
 # never report RenderThread work durations to the power HAL, so the MediaTek power
 # HAL and fpsgo never boost the UI/RenderThread during scrolling. The result is
 # the panel running ahead of frame production, i.e. visible scroll jank. The
@@ -219,6 +219,17 @@ PRODUCT_SYSTEM_PROPERTIES += \
 # is meant to opt in here. Measured: roughly halves list-scroll jank.
 PRODUCT_SYSTEM_PROPERTIES += \
     debug.hwui.use_hint_manager=true
+
+# Enable SurfaceFlinger's ADPF PowerHintSession too. Stock's MediaTek
+# SurfaceFlinger sizes its own CPU through libsf_cpupolicy (the
+# vendor.debug.sf.cpupolicy.* props), which AOSP's SurfaceFlinger does not have,
+# so here composition reports through the same ADPF path as HWUI: the MediaTek
+# power HAL hands sessions to powerhal_cpu_ctrl, which feeds them to FPSGO. AOSP
+# 17 reads the switch once in bootFinished() (FlagManager use_adpf_cpu_hint,
+# services/surfaceflinger/common/FlagManager.cpp:264); unset, it falls back to
+# the DeviceConfig flag AdpfFeature__adpf_cpu_hint, which nothing sets here.
+PRODUCT_SYSTEM_PROPERTIES += \
+    debug.sf.enable_adpf_cpu_hint=true
 
 # MediaTek power scenarios: stock powerscntbl.xml plus scenarios for two AOSP hints
 # the power HAL passes to libpowerhal by name but Lenovo's table lacks, so they

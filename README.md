@@ -178,7 +178,7 @@ What drives it on LineageOS:
 | Interaction | AOSP `Boost.INTERACTION` → hint 57 → `INTERACTION` scenario (added) | 1.1 GHz floors on all clusters and top-app `uclamp.min` 40, like stock's `UX_SCROLLING`, for 80 ms or the fling duration |
 | Game loading | AOSP `Mode.GAME_LOADING` (GameManager) → hint 79 → `GAME_LOADING` scenario (added) | Stock's `PROCESS_CREATE` boost, held up to 5 s |
 | Touch | kernel `touch_boost` module and vendor daemon, independent of the framework | 200 ms boost on touch-down (cluster OPP floors, top-app/foreground uclamp 80) |
-| Rendering | ADPF hint sessions from HWUI (`debug.hwui.use_hint_manager`) and SurfaceFlinger → `/proc/perfmgr_powerhal/ioctl_powerhal_adpf` | Per-frame CPU sizing of the UI and render threads |
+| Rendering | ADPF hint sessions from HWUI (`debug.hwui.use_hint_manager`) and SurfaceFlinger (`debug.sf.enable_adpf_cpu_hint`) → `/proc/perfmgr_powerhal/ioctl_powerhal_adpf` → FPSGO | Per-frame CPU sizing of the UI, render and composition threads; stands in for stock's frame reporting from MediaTek's patched `libgui`/`libhwui` and `libsf_cpupolicy`, which AOSP lacks |
 | Foreground app | `DeviceParts` → `IMtkpower_applist` / `IMtkPowerService` (see Performance profiles) | Vendor or recommended per-app rules: thermal policy, FPSGO/FRS, CPU limits |
 | Screen state | AOSP `Mode.INTERACTIVE` | Screen off suspends the power locks clients hold; screen on restores them |
 
