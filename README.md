@@ -81,6 +81,23 @@ hardware test.
 ### Device name
 The default device name is `Lenovo Xiaoxin Pad Pro 12.7`, matching the English market name in stock ZUXOS `.103`. The SettingsProvider overlay supplies this name without changing `PRODUCT_MODEL`, which remains `TB375FC`, as do the stock vendor model and its boot-time `ro.product.model_for_attestation` assignment. Existing saved device names are preserved; change them in Settings → About tablet → Device name.
 
+### Play Integrity
+
+- `remote_provisioning.hostname` is set to `remoteprovisioning.googleapis.com`,
+  as in stock ZUXOS `.103` `/product/etc/build.prop`, so rkpd fetches
+  Google-rooted attestation keys for the beanpod KeyMint. Without it keystore2
+  attests with the KeyMint factory key, and on Android 13+
+  `MEETS_BASIC_INTEGRITY` requires a Google attestation root.
+  `remote_provisioning.tee.rkp_only` stays unset, as on stock.
+- `PRODUCT_MANUFACTURER` is `LENOVO` and `ro.product.vendor.name` is `TB375FC`
+  (`DeviceProduct` override), matching stock. The stock vendor init copies
+  `ro.product.vendor.{brand,model,device,manufacturer}` and `ro.vendor.pn`
+  into `ro.product.*_for_attestation`, which keystore sends to KeyMint for
+  device ID attestation.
+
+With an unlocked bootloader at most `MEETS_BASIC_INTEGRITY` is expected. None of
+this has been validated on the device yet.
+
 ### DRM
 ClearKey uses AOSP's Android 17 `com.android.hardware.drm.clearkey` service
 APEX, selected through `android.hardware.drm@latest-service.clearkey`.

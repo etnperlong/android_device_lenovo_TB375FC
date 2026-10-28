@@ -281,6 +281,11 @@ PRODUCT_VENDOR_PROPERTIES += \
 # vendor `liboemcrypto` module, exported to that APEX by the linker fragment above.
 # Stock vendor/build.prop also retains ro.vendor.mtk_widevine_drm_l1_support=1.
 
+# Remote Key Provisioning, as on stock. Without it keystore2 attests with the
+# KeyMint factory key instead of a Google-rooted RKP key.
+PRODUCT_PRODUCT_PROPERTIES += \
+    remote_provisioning.hostname=remoteprovisioning.googleapis.com
+
 #
 # ro.product.board and ro.product.vendor.{brand,manufacturer,model,name,device}
 # are auto-derived from TARGET_BOARD_PLATFORM and the PRODUCT_* vars in

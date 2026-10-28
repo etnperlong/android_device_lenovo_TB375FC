@@ -51,7 +51,14 @@ PRODUCT_MODEL := TB375FC
 PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.config.lgsi.hw.version=TB375FC \
     ro.vendor.config.lgsi.ota.model=TB375FC_PRC
-PRODUCT_MANUFACTURER := Lenovo
+
+# Stock manufacturer; the vendor init copies it to manufacturer_for_attestation.
+PRODUCT_MANUFACTURER := LENOVO
+
+# Stock ro.product.vendor.name, the fallback for name_for_attestation.
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DeviceProduct=TB375FC
+
 PRODUCT_CHARACTERISTICS := tablet
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo-rev2
