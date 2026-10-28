@@ -142,4 +142,8 @@
     -->
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
     <bool name="config_enableWifiDisplay">true</bool>
+
+    <!-- No built-in Play Integrity profile or keybox; users opt in from Spoofing settings. -->
+    <string-array name="config_certifiedBuildProperties" translatable="false" />
+    <string-array name="config_certifiedKeybox" translatable="false" />
 </resources>
