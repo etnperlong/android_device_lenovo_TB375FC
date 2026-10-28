@@ -130,9 +130,32 @@ The default device name is `Lenovo Xiaoxin Pad Pro 12.7`, matching the English m
   `ro.product.vendor.{brand,model,device,manufacturer}` and `ro.vendor.pn`
   into `ro.product.*_for_attestation`, which keystore sends to KeyMint for
   device ID attestation.
+- `FrameworkResDeviceOverlay` empties DerpFest's `config_certifiedBuildProperties`
+  and `config_certifiedKeybox`, so GMS and the Play Store are not spoofed unless
+  the user imports a profile or keybox, or fetches a profile, on DerpFest's
+  Spoofing settings page.
 
 With an unlocked bootloader at most `MEETS_BASIC_INTEGRITY` is expected. None of
 this has been validated on the device yet.
+
+#### Removing earlier spoofing data
+
+A profile or keybox imported or fetched on an earlier build is kept in
+`Settings.Secure` across updates and is still used. To remove all of it:
+
+```sh
+adb shell settings delete secure fetched_pif
+adb shell settings delete secure pif_data
+adb shell settings delete secure pif_data_timestamp
+adb shell settings delete secure keybox_data
+adb shell settings delete secure keybox_data_timestamp
+adb reboot
+```
+
+The reboot restarts GMS and the Play Store, which apply the spoof when they
+start. The imported profile and keybox can also be deleted with the buttons on
+the Spoofing page; the fetched profile has no button. A factory reset removes
+everything.
 
 ### DerpFest maintainer
 
