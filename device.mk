@@ -322,6 +322,19 @@ DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 # fragment is needed). The earlier tb375fc-gnss.xml workaround was removed - it duplicated
 # the GNSS HAL declaration and broke check_vintf.
 
+# Generic ramdisk (init_boot): AOSP's allow list of first-stage init,
+# snapuserd_ramdisk, toolbox_ramdisk and the ramdisk build.prop, the same set
+# as the stock init_boot. Nothing else may go there: the bootloader loads the
+# generic ramdisk after the vendor ramdisks, so its files replace the same
+# paths of the recovery ramdisk. The *_ramdisk fsck tools must not come back:
+# they don't set system_shared_libs: [], so Soong also installs libc, libm,
+# libdl and ld-android to ramdisk/system/lib64, over the recovery's own bionic.
+# In normal boot, first-stage init switches root to /first_stage_ramdisk
+# (androidboot.force_normal_boot=1; stock needs it too, its platform vendor
+# ramdisk holds the recovery). Its e2fsck and fsck.f2fs are the vendor_ramdisk
+# variants from virtual_ab_ota/compression.mk.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/generic_ramdisk.mk)
+
 # Recovery / fastbootd / sideload packages. Without fastbootd,
 # `fastboot reboot fastboot`
 # lands in a recovery that can't enter userspace fastboot mode. Without
@@ -340,11 +353,6 @@ PRODUCT_PACKAGES += \
     update_engine_sideload \
     update_verifier \
     snapuserd \
-    snapuserd_ramdisk \
-    e2fsck_ramdisk \
-    tune2fs_ramdisk \
-    resize2fs_ramdisk \
-    fsck.f2fs_ramdisk \
     android.hardware.boot@1.2-impl.recovery \
     bootctrl.default \
     bootctrl.default.recovery \
