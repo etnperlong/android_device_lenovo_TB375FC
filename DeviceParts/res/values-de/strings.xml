@@ -7,7 +7,7 @@
     <string name="app_name">Gerätefunktionen</string>
 
     <string name="device_parts_title">Gerätefunktionen</string>
-    <string name="device_parts_summary">Leistung, Zubehör, Touch und Dolby Atmos</string>
+    <string name="device_parts_summary">Leistung, Bildschirmfarbe, Zubehör, Touch und Dolby Atmos</string>
     <string name="display_parts_title">Aktualisierungsrate und Touch</string>
     <string name="display_parts_summary">Aktualisierungsrate im Lesemodus, Touch-Spielmodus</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Touch</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Leistung</string>
+    <string name="category_color_title">Farbe</string>
 
     <string name="pen_refresh_cap_title">Bei Verwendung des Eingabestifts auf 120 Hz begrenzen</string>
     <string name="pen_refresh_cap_summary">Laut Meldung unterstützt der aktive Eingabestift nur bis zu 120 Hz. 10 Sekunden nach der letzten Stifteingabe wird die Begrenzung aufgehoben.</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">App-Modi</string>
     <string name="dolby_app_profiles_summary">Modus für jede App auswählen. Bekannte Musik- und Video-Apps starten mit Musik- bzw. Filmmodus.</string>
     <string name="dolby_app_profile_default">Standardmodus</string>
+
+    <string name="screen_color_title">Bildschirmfarbe</string>
+    <string name="screen_color_summary">Farbmodus, Farbtemperatur und App-Farben</string>
+    <string name="color_mode_title">Farbmodus</string>
+    <string name="color_mode_standard">Standard</string>
+    <string name="color_mode_vivid">Lebendig</string>
+    <string name="color_mode_natural">Natürlich</string>
+    <string name="color_temperature_title">Farbtemperatur</string>
+    <string name="color_temperature_standard">Standard</string>
+    <string name="color_temperature_warm">Warm</string>
+    <string name="color_temperature_cool">Kühl</string>
+    <string name="color_temperature_tip">Tippe auf den Punkt im Farbkreis oder ziehe ihn, um den Farbton des Bildschirms anzupassen. Wähle „Standard“, um zurückzukehren.</string>
+    <string name="color_wheel_description">Farbtemperaturkreis</string>
+    <string name="category_color_more_title">Weitere Einstellungen</string>
+    <string name="color_adaptive_title">An Umgebungslicht anpassen</string>
+    <string name="color_adaptive_summary">Das Weiß des Bildschirms an die Farbe des Umgebungslichts anpassen, damit das Betrachten angenehmer ist</string>
+    <string name="category_color_adjust_title">Bildanpassung</string>
+    <string name="color_saturation_title">Sättigung</string>
+    <string name="color_contrast_title">Kontrast</string>
+    <string name="color_sharpness_title">Schärfe</string>
+    <string name="color_adjust_default">Standard</string>
+    <string name="color_adjust_reset_title">Bildanpassung zurücksetzen</string>
+    <string name="category_color_apps_title">Apps</string>
+    <string name="color_app_profiles_enabled_title">Farbe je nach App wechseln</string>
+    <string name="color_app_profiles_enabled_summary">Wenn eine App im Vordergrund ist, die für sie ausgewählte Farbeinstellung verwenden</string>
+    <string name="color_app_profiles_title">App-Farben</string>
+    <string name="color_app_profiles_summary">Farbverbesserung ausschalten oder für jede App einen Farbmodus auswählen</string>
+    <string name="color_app_profile_default">Bildschirmfarbeinstellungen</string>
+    <string name="color_app_profile_off">Aus (farbgetreu)</string>
 
     <string name="perf_title">Leistungsprofile</string>
     <string name="perf_summary">Leistung und Thermalrichtlinien von MediaTek Dimensity anpassen</string>

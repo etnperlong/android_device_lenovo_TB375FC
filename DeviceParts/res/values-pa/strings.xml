@@ -7,7 +7,7 @@
     <string name="app_name">ਡਿਵਾਈਸ ਦੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ</string>
 
     <string name="device_parts_title">ਡਿਵਾਈਸ ਦੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ</string>
-    <string name="device_parts_summary">ਕਾਰਗੁਜ਼ਾਰੀ, ਸਹਾਇਕ ਉਪਕਰਣ, ਟੱਚ ਅਤੇ Dolby Atmos</string>
+    <string name="device_parts_summary">ਕਾਰਗੁਜ਼ਾਰੀ, ਸਕ੍ਰੀਨ ਦੇ ਰੰਗ, ਸਹਾਇਕ ਉਪਕਰਣ, ਟੱਚ ਅਤੇ Dolby Atmos</string>
     <string name="display_parts_title">ਰਿਫ੍ਰੈਸ਼ ਦਰ ਅਤੇ ਟੱਚ</string>
     <string name="display_parts_summary">ਰੀਡਿੰਗ ਮੋਡ ਦੀ ਰਿਫ੍ਰੈਸ਼ ਦਰ, ਟੱਚ ਗੇਮ ਮੋਡ</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">ਟੱਚ</string>
     <string name="category_audio_title">ਆਡੀਓ</string>
     <string name="category_perf_title">ਕਾਰਗੁਜ਼ਾਰੀ</string>
+    <string name="category_color_title">ਰੰਗ</string>
 
     <string name="pen_refresh_cap_title">ਸਟਾਈਲਸ ਵਰਤਦੇ ਸਮੇਂ 120 Hz ਤੱਕ ਸੀਮਤ ਕਰੋ</string>
     <string name="pen_refresh_cap_summary">ਐਕਟਿਵ ਸਟਾਈਲਸ ਸਿਰਫ਼ 120 Hz ਤੱਕ ਕੰਮ ਕਰਦਾ ਹੈ। ਸਟਾਈਲਸ ਤੋਂ ਆਖ਼ਰੀ ਇਨਪੁੱਟ ਦੇ 10 ਸਕਿੰਟਾਂ ਬਾਅਦ ਇਹ ਸੀਮਾ ਹਟ ਜਾਂਦੀ ਹੈ।</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">ਐਪ ਮੋਡ</string>
     <string name="dolby_app_profiles_summary">ਹਰੇਕ ਐਪ ਲਈ ਮੋਡ ਚੁਣੋ। ਪਛਾਣੀਆਂ ਗਈਆਂ ਸੰਗੀਤ ਅਤੇ ਵੀਡੀਓ ਐਪਾਂ ਸੰਗੀਤ ਅਤੇ ਮੂਵੀ ਮੋਡ ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦੀਆਂ ਹਨ।</string>
     <string name="dolby_app_profile_default">ਪੂਰਵ-ਨਿਰਧਾਰਿਤ ਮੋਡ</string>
+
+    <string name="screen_color_title">ਸਕ੍ਰੀਨ ਦੇ ਰੰਗ</string>
+    <string name="screen_color_summary">ਰੰਗ ਮੋਡ, ਰੰਗ ਦਾ ਤਾਪਮਾਨ ਅਤੇ ਐਪ ਦੇ ਰੰਗ</string>
+    <string name="color_mode_title">ਰੰਗ ਮੋਡ</string>
+    <string name="color_mode_standard">ਮਿਆਰੀ</string>
+    <string name="color_mode_vivid">ਚਮਕਦਾਰ</string>
+    <string name="color_mode_natural">ਕੁਦਰਤੀ</string>
+    <string name="color_temperature_title">ਰੰਗ ਦਾ ਤਾਪਮਾਨ</string>
+    <string name="color_temperature_standard">ਮਿਆਰੀ</string>
+    <string name="color_temperature_warm">ਗਰਮ</string>
+    <string name="color_temperature_cool">ਠੰਢਾ</string>
+    <string name="color_temperature_tip">ਸਕ੍ਰੀਨ ਦਾ ਰੰਗਤ ਬਦਲਣ ਲਈ ਰੰਗ ਚੱਕਰ \'ਤੇ ਟੈਪ ਕਰੋ ਜਾਂ ਬਿੰਦੂ ਨੂੰ ਖਿੱਚੋ। ਰੀਸੈੱਟ ਕਰਨ ਲਈ “ਮਿਆਰੀ” ਚੁਣੋ।</string>
+    <string name="color_wheel_description">ਰੰਗ ਦੇ ਤਾਪਮਾਨ ਦਾ ਚੱਕਰ</string>
+    <string name="category_color_more_title">ਹੋਰ ਸੈਟਿੰਗਾਂ</string>
+    <string name="color_adaptive_title">ਅਨੁਕੂਲ ਮਾਹੌਲੀ ਰੰਗ</string>
+    <string name="color_adaptive_summary">ਦੇਖਣ ਨੂੰ ਵਧੇਰੇ ਆਰਾਮਦਾਇਕ ਬਣਾਉਣ ਲਈ ਮਾਹੌਲੀ ਰੌਸ਼ਨੀ ਦੇ ਰੰਗ ਮੁਤਾਬਕ ਸਕ੍ਰੀਨ ਦਾ ਚਿੱਟਾ ਬਿੰਦੂ ਵਿਵਸਥਿਤ ਕਰੋ</string>
+    <string name="category_color_adjust_title">ਤਸਵੀਰ ਵਿਵਸਥਾ</string>
+    <string name="color_saturation_title">ਸੰਤ੍ਰਿਪਤਾ</string>
+    <string name="color_contrast_title">ਕੰਟ੍ਰਾਸਟ</string>
+    <string name="color_sharpness_title">ਤੀਖਾਪਣ</string>
+    <string name="color_adjust_default">ਪੂਰਵ-ਨਿਰਧਾਰਿਤ</string>
+    <string name="color_adjust_reset_title">ਪੂਰਵ-ਨਿਰਧਾਰਿਤ ਤਸਵੀਰ ਵਿਵਸਥਾ ਮੁੜ-ਬਹਾਲ ਕਰੋ</string>
+    <string name="category_color_apps_title">ਐਪਾਂ</string>
+    <string name="color_app_profiles_enabled_title">ਐਪ ਮੁਤਾਬਕ ਰੰਗ ਬਦਲੋ</string>
+    <string name="color_app_profiles_enabled_summary">ਐਪ ਸਾਹਮਣੇ ਹੋਣ ਵੇਲੇ ਉਸ ਲਈ ਚੁਣੀਆਂ ਰੰਗ ਸੈਟਿੰਗਾਂ ਵਰਤੋ</string>
+    <string name="color_app_profiles_title">ਐਪ ਦੇ ਰੰਗ</string>
+    <string name="color_app_profiles_summary">ਹਰੇਕ ਐਪ ਲਈ ਰੰਗ ਸੁਧਾਰ ਬੰਦ ਕਰੋ ਜਾਂ ਰੰਗ ਮੋਡ ਚੁਣੋ</string>
+    <string name="color_app_profile_default">ਸਕ੍ਰੀਨ ਦੇ ਰੰਗਾਂ ਦੀ ਸੈਟਿੰਗ ਦੀ ਪਾਲਣਾ ਕਰੋ</string>
+    <string name="color_app_profile_off">ਬੰਦ (ਸਹੀ ਰੰਗ)</string>
 
     <string name="perf_title">ਕਾਰਗੁਜ਼ਾਰੀ ਪ੍ਰੋਫਾਈਲਾਂ</string>
     <string name="perf_summary">MediaTek Dimensity ਦੀ ਕਾਰਗੁਜ਼ਾਰੀ ਅਤੇ ਥਰਮਲ ਨੀਤੀਆਂ ਟਿਊਨ ਕਰੋ</string>

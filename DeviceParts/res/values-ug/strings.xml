@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">ئۈسكۈنە ئىقتىدارلىرى</string>
     <string name="device_parts_title">ئۈسكۈنە ئىقتىدارلىرى</string>
-    <string name="device_parts_summary">ئىقتىدار، قوشۇمچە زاپچاسلار، چەكمە ۋە Dolby Atmos</string>
+    <string name="device_parts_summary">ئىقتىدار، ئېكران رەڭگى، قوشۇمچە زاپچاسلار، چەكمە ۋە Dolby Atmos</string>
     <string name="display_parts_title">يېڭىلاش نىسبىتى ۋە چەكمە</string>
     <string name="display_parts_summary">ئوقۇش ھالىتىنىڭ يېڭىلاش نىسبىتى ۋە چەكمە ئويۇن ھالىتى</string>
     <string name="category_accessories_title">رەسمىي قوشۇمچە زاپچاسلار</string>
@@ -14,6 +14,7 @@
     <string name="category_touch_title">چەكمە</string>
     <string name="category_audio_title">ئۈن</string>
     <string name="category_perf_title">ئىقتىدار</string>
+    <string name="category_color_title">رەڭ</string>
     <string name="pen_refresh_cap_title">قەلەم ئىشلەتكەندە 120 Hz بىلەن چەكلەش</string>
     <string name="pen_refresh_cap_summary">ئاكتىپ قەلەم پەقەت 120 Hz غىچە ئىشلەيدۇ. ئاخىرقى قەلەم كىرگۈزۈشىدىن 10 سېكۇنت كېيىن چەك ئېلىۋېتىلىدۇ.</string>
     <string name="reading_low_refresh_title">ئوقۇش ھالىتىدە 30 Hz</string>
@@ -61,6 +62,35 @@
     <string name="dolby_app_profiles_title">ئەپ ھالىتى</string>
     <string name="dolby_app_profiles_summary">ھەر بىر ئەپنىڭ ھالىتىنى تاللاڭ. تونۇلغان مۇزىكا ۋە سىن ئەپلىرى مۇزىكا ۋە كىنو ھالىتى بىلەن باشلىنىدۇ.</string>
     <string name="dolby_app_profile_default">كۆڭۈلدىكى ھالەت</string>
+
+    <string name="screen_color_title">ئېكران رەڭگى</string>
+    <string name="screen_color_summary">رەڭ ھالىتى، رەڭ تېمپېراتۇرىسى ۋە ئەپ رەڭلىرى</string>
+    <string name="color_mode_title">رەڭ ھالىتى</string>
+    <string name="color_mode_standard">ئۆلچەملىك</string>
+    <string name="color_mode_vivid">جانلىق</string>
+    <string name="color_mode_natural">تەبىئىي</string>
+    <string name="color_temperature_title">رەڭ تېمپېراتۇرىسى</string>
+    <string name="color_temperature_standard">ئۆلچەملىك</string>
+    <string name="color_temperature_warm">ئىسسىق</string>
+    <string name="color_temperature_cool">سوغۇق</string>
+    <string name="color_temperature_tip">ئېكرانغا رەڭ بېرىش ئۈچۈن رەڭ چەمبىرىكىدىكى چېكىتنى چېكىڭ ياكى سۆرەڭ. ئەسلىگە قايتىش ئۈچۈن ئۆلچەملىك ھالىتىنى تاللاڭ.</string>
+    <string name="color_wheel_description">رەڭ تېمپېراتۇرىسى چەمبىرىكى</string>
+    <string name="category_color_more_title">تېخىمۇ كۆپ تەڭشەكلەر</string>
+    <string name="color_adaptive_title">مۇھىت يورۇقلۇقىغا ماسلاشتۇرۇش</string>
+    <string name="color_adaptive_summary">راھەت كۆرۈش ئۈچۈن ئېكراننىڭ ئاق رەڭگىنى ئەتراپتىكى يورۇقلۇقنىڭ رەڭگىگە ماسلاشتۇرۇش</string>
+    <string name="category_color_adjust_title">سۈرەتنى تەڭشەش</string>
+    <string name="color_saturation_title">رەڭ تويۇنۇش</string>
+    <string name="color_contrast_title">سېلىشتۇرما</string>
+    <string name="color_sharpness_title">ئېنىقلىق</string>
+    <string name="color_adjust_default">كۆڭۈلدىكى</string>
+    <string name="color_adjust_reset_title">سۈرەت تەڭشىكىنى ئەسلىگە قايتۇرۇش</string>
+    <string name="category_color_apps_title">ئەپ</string>
+    <string name="color_app_profiles_enabled_title">رەڭنى ئەپكە قاراپ ئالماشتۇرۇش</string>
+    <string name="color_app_profiles_enabled_summary">ئەپ ئالدىدا تۇرغاندا ئۇنىڭغا تاللانغان رەڭ تەڭشىكىنى ئىشلىتىش</string>
+    <string name="color_app_profiles_title">ئەپ رەڭلىرى</string>
+    <string name="color_app_profiles_summary">رەڭنى ياخشىلاشنى ئۆچۈرۈڭ ياكى ھەر بىر ئەپ ئۈچۈن رەڭ ھالىتىنى تاللاڭ</string>
+    <string name="color_app_profile_default">ئېكران رەڭ تەڭشەكلىرى</string>
+    <string name="color_app_profile_off">ئۆچۈرۈلگەن (توغرا رەڭلەر)</string>
     <string name="perf_title">ئىقتىدار ئارخىپى</string>
     <string name="perf_summary">MediaTek Dimensity ئىقتىدارى ۋە ئىسسىقلىق سىياسەتلىرىنى تەڭشەيدۇ</string>
     <string name="perf_enabled_title">ئىقتىدارنى ئەپكە قاراپ تەڭشەش</string>

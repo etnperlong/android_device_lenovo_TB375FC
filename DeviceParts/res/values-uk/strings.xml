@@ -7,7 +7,7 @@
     <string name="app_name">Функції пристрою</string>
 
     <string name="device_parts_title">Функції пристрою</string>
-    <string name="device_parts_summary">Продуктивність, аксесуари, сенсорний екран і Dolby Atmos</string>
+    <string name="device_parts_summary">Продуктивність, колір екрана, аксесуари, сенсорний екран і Dolby Atmos</string>
     <string name="display_parts_title">Частота оновлення та сенсорний екран</string>
     <string name="display_parts_summary">Частота оновлення в режимі читання, ігровий режим сенсорного екрана</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Сенсорний екран</string>
     <string name="category_audio_title">Аудіо</string>
     <string name="category_perf_title">Продуктивність</string>
+    <string name="category_color_title">Колір</string>
 
     <string name="pen_refresh_cap_title">Обмежити до 120 Гц під час використання стилуса</string>
     <string name="pen_refresh_cap_summary">За наявними даними, активний стилус працює лише на частоті до 120 Гц. Обмеження знімається через 10 секунд після останнього введення стилусом.</string>
@@ -66,6 +67,35 @@
     <string name="dolby_app_profiles_title">Режими додатків</string>
     <string name="dolby_app_profiles_summary">Виберіть режим для кожного додатка. Для відомих музичних і відеододатків використовуються режими «Музика» та «Фільм».</string>
     <string name="dolby_app_profile_default">Режим за замовчуванням</string>
+
+    <string name="screen_color_title">Колір екрана</string>
+    <string name="screen_color_summary">Колірний режим, колірна температура та кольори додатків</string>
+    <string name="color_mode_title">Колірний режим</string>
+    <string name="color_mode_standard">Стандартний</string>
+    <string name="color_mode_vivid">Насичений</string>
+    <string name="color_mode_natural">Природний</string>
+    <string name="color_temperature_title">Колірна температура</string>
+    <string name="color_temperature_standard">Стандартний</string>
+    <string name="color_temperature_warm">Теплий</string>
+    <string name="color_temperature_cool">Холодний</string>
+    <string name="color_temperature_tip">Торкніться точки на колірному колі або перетягніть її, щоб змінити відтінок екрана. Виберіть «Стандартний», щоб повернутися до початкових налаштувань.</string>
+    <string name="color_wheel_description">Колірне коло температури</string>
+    <string name="category_color_more_title">Інші налаштування</string>
+    <string name="color_adaptive_title">Адаптація до навколишнього освітлення</string>
+    <string name="color_adaptive_summary">Налаштовувати білий колір екрана відповідно до навколишнього освітлення для комфортнішого перегляду</string>
+    <string name="category_color_adjust_title">Налаштування зображення</string>
+    <string name="color_saturation_title">Насиченість</string>
+    <string name="color_contrast_title">Контрастність</string>
+    <string name="color_sharpness_title">Різкість</string>
+    <string name="color_adjust_default">За замовчуванням</string>
+    <string name="color_adjust_reset_title">Скинути налаштування зображення</string>
+    <string name="category_color_apps_title">Додатки</string>
+    <string name="color_app_profiles_enabled_title">Змінювати колір для кожного додатка</string>
+    <string name="color_app_profiles_enabled_summary">Коли додаток відкрито, використовувати вибрані для нього налаштування кольору</string>
+    <string name="color_app_profiles_title">Кольори додатків</string>
+    <string name="color_app_profiles_summary">Вимкніть покращення кольору або виберіть колірний режим для кожного додатка</string>
+    <string name="color_app_profile_default">Налаштування кольору екрана</string>
+    <string name="color_app_profile_off">Вимкнено (точна передача кольорів)</string>
 
     <string name="perf_title">Профілі продуктивності</string>
     <string name="perf_summary">Налаштувати продуктивність MediaTek Dimensity і теплові політики</string>

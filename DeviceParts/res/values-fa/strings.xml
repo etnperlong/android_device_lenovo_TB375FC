@@ -7,7 +7,7 @@
     <string name="app_name">ویژگی‌های دستگاه</string>
 
     <string name="device_parts_title">ویژگی‌های دستگاه</string>
-    <string name="device_parts_summary">عملکرد، لوازم جانبی رسمی، لمس و Dolby Atmos</string>
+    <string name="device_parts_summary">عملکرد، رنگ صفحه‌نمایش، لوازم جانبی رسمی، لمس و Dolby Atmos</string>
     <string name="display_parts_title">نرخ نوسازی و لمس</string>
     <string name="display_parts_summary">نرخ نوسازی حالت مطالعه، حالت بازی لمسی</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">لمس</string>
     <string name="category_audio_title">صدا</string>
     <string name="category_perf_title">عملکرد</string>
+    <string name="category_color_title">رنگ</string>
 
     <string name="pen_refresh_cap_title">محدود کردن به ۱۲۰ هرتز هنگام استفاده از قلم</string>
     <string name="pen_refresh_cap_summary">گزارش شده که قلم فعال فقط تا ۱۲۰ هرتز کار می‌کند. محدودیت ۱۰ ثانیه پس از آخرین ورودی قلم برداشته می‌شود.</string>
@@ -65,6 +66,35 @@
     <string name="dolby_app_profiles_title">حالت‌های برنامه</string>
     <string name="dolby_app_profiles_summary">حالت هر برنامه را انتخاب کنید. برنامه‌های شناخته‌شده موسیقی و ویدیو با حالت موسیقی و فیلم شروع می‌شوند.</string>
     <string name="dolby_app_profile_default">حالت پیش‌فرض</string>
+    
+    <string name="screen_color_title">رنگ صفحه‌نمایش</string>
+    <string name="screen_color_summary">حالت رنگ، دمای رنگ و رنگ برنامه‌ها</string>
+    <string name="color_mode_title">حالت رنگ</string>
+    <string name="color_mode_standard">استاندارد</string>
+    <string name="color_mode_vivid">زنده</string>
+    <string name="color_mode_natural">طبیعی</string>
+    <string name="color_temperature_title">دمای رنگ</string>
+    <string name="color_temperature_standard">استاندارد</string>
+    <string name="color_temperature_warm">گرم</string>
+    <string name="color_temperature_cool">سرد</string>
+    <string name="color_temperature_tip">برای تغییر ته‌رنگ صفحه، نقطهٔ روی چرخهٔ رنگ را لمس یا جابه‌جا کنید. برای بازگشت، استاندارد را انتخاب کنید.</string>
+    <string name="color_wheel_description">چرخهٔ دمای رنگ</string>
+    <string name="category_color_more_title">تنظیمات بیشتر</string>
+    <string name="color_adaptive_title">سازگاری با نور محیط</string>
+    <string name="color_adaptive_summary">برای راحتی بیشتر هنگام تماشا، سفیدی صفحه را با رنگ نور محیط تنظیم کنید</string>
+    <string name="category_color_adjust_title">تنظیم تصویر</string>
+    <string name="color_saturation_title">اشباع رنگ</string>
+    <string name="color_contrast_title">کنتراست</string>
+    <string name="color_sharpness_title">وضوح</string>
+    <string name="color_adjust_default">پیش‌فرض</string>
+    <string name="color_adjust_reset_title">بازنشانی تنظیم تصویر</string>
+    <string name="category_color_apps_title">برنامه‌ها</string>
+    <string name="color_app_profiles_enabled_title">تغییر رنگ بر اساس برنامه</string>
+    <string name="color_app_profiles_enabled_summary">وقتی برنامه‌ای در پیش‌زمینه است، از تنظیم رنگ انتخاب‌شده برای آن استفاده کنید</string>
+    <string name="color_app_profiles_title">رنگ برنامه‌ها</string>
+    <string name="color_app_profiles_summary">بهبود رنگ را خاموش کنید یا برای هر برنامه حالت رنگی انتخاب کنید</string>
+    <string name="color_app_profile_default">تنظیمات رنگ صفحه‌نمایش</string>
+    <string name="color_app_profile_off">خاموش (رنگ‌های دقیق)</string>
 
     <string name="perf_title">نمایه‌های عملکرد</string>
     <string name="perf_summary">تنظیم عملکرد MediaTek Dimensity و خط‌مشی‌های حرارتی</string>

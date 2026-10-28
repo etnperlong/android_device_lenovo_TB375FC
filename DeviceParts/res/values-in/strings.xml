@@ -7,7 +7,7 @@
     <string name="app_name">Fitur perangkat</string>
 
     <string name="device_parts_title">Fitur perangkat</string>
-    <string name="device_parts_summary">Performa, aksesori, sentuhan, dan Dolby Atmos</string>
+    <string name="device_parts_summary">Performa, warna layar, aksesori, sentuhan, dan Dolby Atmos</string>
     <string name="display_parts_title">Kecepatan refresh dan sentuhan</string>
     <string name="display_parts_summary">Kecepatan refresh modus membaca, modus game sentuh</string>
 
@@ -15,7 +15,7 @@
     <string name="category_display_title">Kecepatan refresh</string>
     <string name="category_touch_title">Sentuhan</string>
     <string name="category_audio_title">Audio</string>
-    <string name="category_perf_title">Performa</string>
+    <string name="category_color_title">Warna</string>
 
     <string name="pen_refresh_cap_title">Batasi ke 120 Hz saat menggunakan stilus</string>
     <string name="pen_refresh_cap_summary">Stilus aktif dilaporkan hanya mendukung hingga 120 Hz. Batas akan dilepas 10 detik setelah input stilus terakhir.</string>
@@ -65,6 +65,35 @@
     <string name="dolby_app_profiles_title">Modus aplikasi</string>
     <string name="dolby_app_profiles_summary">Pilih modus untuk setiap aplikasi. Aplikasi musik dan video yang dikenal menggunakan Musik dan Film sebagai setelan awal.</string>
     <string name="dolby_app_profile_default">Modus default</string>
+    <!-- Screen color -->
+    <string name="screen_color_title">Warna layar</string>
+    <string name="screen_color_summary">Modus warna, suhu warna, dan warna aplikasi</string>
+    <string name="color_mode_title">Modus warna</string>
+    <string name="color_mode_standard">Standar</string>
+    <string name="color_mode_vivid">Cerah</string>
+    <string name="color_mode_natural">Alami</string>
+    <string name="color_temperature_title">Suhu warna</string>
+    <string name="color_temperature_standard">Standar</string>
+    <string name="color_temperature_warm">Hangat</string>
+    <string name="color_temperature_cool">Sejuk</string>
+    <string name="color_temperature_tip">Ketuk atau seret titik pada roda warna untuk memberi rona pada layar. Pilih Standar untuk mengembalikannya.</string>
+    <string name="color_wheel_description">Roda suhu warna</string>
+    <string name="category_color_more_title">Setelan lainnya</string>
+    <string name="color_adaptive_title">Sesuaikan dengan cahaya sekitar</string>
+    <string name="color_adaptive_summary">Sesuaikan warna putih layar dengan warna cahaya sekitar agar tampilan lebih nyaman</string>
+    <string name="category_color_adjust_title">Penyesuaian gambar</string>
+    <string name="color_saturation_title">Saturasi</string>
+    <string name="color_contrast_title">Kontras</string>
+    <string name="color_sharpness_title">Ketajaman</string>
+    <string name="color_adjust_default">Default</string>
+    <string name="color_adjust_reset_title">Atur ulang penyesuaian gambar</string>
+    <string name="category_color_apps_title">Aplikasi</string>
+    <string name="color_app_profiles_enabled_title">Ganti warna berdasarkan aplikasi</string>
+    <string name="color_app_profiles_enabled_summary">Saat aplikasi berada di latar depan, gunakan setelan warna yang dipilih untuknya</string>
+    <string name="color_app_profiles_title">Warna aplikasi</string>
+    <string name="color_app_profiles_summary">Nonaktifkan penyempurnaan warna atau pilih modus warna untuk setiap aplikasi</string>
+    <string name="color_app_profile_default">Setelan warna layar</string>
+    <string name="color_app_profile_off">Nonaktif (warna akurat)</string>
 
     <string name="perf_title">Profil performa</string>
     <string name="perf_summary">Sesuaikan performa MediaTek Dimensity dan kebijakan termal</string>

@@ -7,7 +7,7 @@
     <string name="app_name">Funkcie zariadenia</string>
 
     <string name="device_parts_title">Funkcie zariadenia</string>
-    <string name="device_parts_summary">Výkon, príslušenstvo, dotyk a Dolby Atmos</string>
+    <string name="device_parts_summary">Výkon, farba obrazovky, príslušenstvo, dotyk a Dolby Atmos</string>
     <string name="display_parts_title">Obnovovacia frekvencia a dotyk</string>
     <string name="display_parts_summary">Obnovovacia frekvencia v režime čítania, herný režim dotyku</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Dotyk</string>
     <string name="category_audio_title">Zvuk</string>
     <string name="category_perf_title">Výkon</string>
+    <string name="category_color_title">Farba</string>
 
     <string name="pen_refresh_cap_title">Obmedziť na 120 Hz pri používaní dotykového pera</string>
     <string name="pen_refresh_cap_summary">Aktívne pero údajne podporuje maximálne 120 Hz. Obmedzenie sa zruší 10 sekúnd po poslednom použití pera.</string>
@@ -66,6 +67,35 @@
     <string name="dolby_app_profiles_title">Režimy aplikácií</string>
     <string name="dolby_app_profiles_summary">Vyberte režim pre každú aplikáciu. Známe hudobné a video aplikácie začínajú v režime Hudba alebo Film.</string>
     <string name="dolby_app_profile_default">Predvolený režim</string>
+
+    <string name="screen_color_title">Farba obrazovky</string>
+    <string name="screen_color_summary">Režim farieb, teplota farieb a farby aplikácií</string>
+    <string name="color_mode_title">Režim farieb</string>
+    <string name="color_mode_standard">Štandardný</string>
+    <string name="color_mode_vivid">Živý</string>
+    <string name="color_mode_natural">Prirodzený</string>
+    <string name="color_temperature_title">Teplota farieb</string>
+    <string name="color_temperature_standard">Štandardná</string>
+    <string name="color_temperature_warm">Teplá</string>
+    <string name="color_temperature_cool">Studená</string>
+    <string name="color_temperature_tip">Ťuknutím na bod na farebnom kruhu alebo jeho potiahnutím zafarbíte obrazovku. Výberom možnosti Štandardná obnovíte pôvodné nastavenie.</string>
+    <string name="color_wheel_description">Kruh teploty farieb</string>
+    <string name="category_color_more_title">Ďalšie nastavenia</string>
+    <string name="color_adaptive_title">Prispôsobiť okolitému svetlu</string>
+    <string name="color_adaptive_summary">Upraviť bielu farbu obrazovky podľa farby okolitého svetla pre pohodlnejšie sledovanie</string>
+    <string name="category_color_adjust_title">Úprava obrazu</string>
+    <string name="color_saturation_title">Sýtosť</string>
+    <string name="color_contrast_title">Kontrast</string>
+    <string name="color_sharpness_title">Ostrosť</string>
+    <string name="color_adjust_default">Predvolené</string>
+    <string name="color_adjust_reset_title">Obnoviť úpravu obrazu</string>
+    <string name="category_color_apps_title">Aplikácie</string>
+    <string name="color_app_profiles_enabled_title">Prepínať farby podľa aplikácie</string>
+    <string name="color_app_profiles_enabled_summary">Keď je aplikácia v popredí, použiť jej vybraté nastavenie farieb</string>
+    <string name="color_app_profiles_title">Farby aplikácií</string>
+    <string name="color_app_profiles_summary">Vypnúť vylepšenie farieb alebo vybrať režim farieb pre každú aplikáciu</string>
+    <string name="color_app_profile_default">Nastavenia farieb obrazovky</string>
+    <string name="color_app_profile_off">Vypnuté (presné farby)</string>
 
     <string name="perf_title">Profily výkonu</string>
     <string name="perf_summary">Upraviť výkon MediaTek Dimensity a teplotné zásady</string>

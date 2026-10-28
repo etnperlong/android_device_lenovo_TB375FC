@@ -7,7 +7,7 @@
     <string name="app_name">Vipengele vya kifaa</string>
 
     <string name="device_parts_title">Vipengele vya kifaa</string>
-    <string name="device_parts_summary">Utendaji, vifuasi, mguso na Dolby Atmos</string>
+    <string name="device_parts_summary">Utendaji, rangi ya skrini, vifuasi, mguso na Dolby Atmos</string>
     <string name="display_parts_title">Kiwango cha kuonyesha upya na mguso</string>
     <string name="display_parts_summary">Kiwango cha kuonyesha upya katika hali ya kusoma, hali ya mchezo ya mguso</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Mguso</string>
     <string name="category_audio_title">Sauti</string>
     <string name="category_perf_title">Utendaji</string>
+    <string name="category_color_title">Rangi</string>
 
     <string name="pen_refresh_cap_title">Weka kikomo cha Hz 120 unapotumia kalamu</string>
     <string name="pen_refresh_cap_summary">Kalamu inayotumika inaripotiwa kufanya kazi hadi Hz 120 pekee. Kikomo huondolewa sekunde 10 baada ya kitendo cha mwisho cha kalamu.</string>
@@ -65,6 +66,35 @@
     <string name="dolby_app_profiles_title">Hali za programu</string>
     <string name="dolby_app_profiles_summary">Chagua hali ya kila programu. Programu zinazojulikana za muziki na video huanza na hali za Muziki na Filamu.</string>
     <string name="dolby_app_profile_default">Hali chaguomsingi</string>
+
+    <string name="screen_color_title">Rangi ya skrini</string>
+    <string name="screen_color_summary">Hali ya rangi, halijoto ya rangi na rangi za programu</string>
+    <string name="color_mode_title">Hali ya rangi</string>
+    <string name="color_mode_standard">Wastani</string>
+    <string name="color_mode_vivid">Angavu</string>
+    <string name="color_mode_natural">Asili</string>
+    <string name="color_temperature_title">Halijoto ya rangi</string>
+    <string name="color_temperature_standard">Wastani</string>
+    <string name="color_temperature_warm">Joto</string>
+    <string name="color_temperature_cool">Baridi</string>
+    <string name="color_temperature_tip">Gusa au uburute nukta kwenye gurudumu la rangi ili kutia rangi kwenye skrini. Chagua Wastani ili kurudi.</string>
+    <string name="color_wheel_description">Gurudumu la halijoto ya rangi</string>
+    <string name="category_color_more_title">Mipangilio zaidi</string>
+    <string name="color_adaptive_title">Badilika kulingana na mwanga wa mazingira</string>
+    <string name="color_adaptive_summary">Rekebisha weupe wa skrini kulingana na rangi ya mwanga unaoizunguka ili kutazama kwa starehe zaidi</string>
+    <string name="category_color_adjust_title">Rekebisha picha</string>
+    <string name="color_saturation_title">Ukolezi</string>
+    <string name="color_contrast_title">Utofautishaji</string>
+    <string name="color_sharpness_title">Ukali</string>
+    <string name="color_adjust_default">Chaguomsingi</string>
+    <string name="color_adjust_reset_title">Weka upya marekebisho ya picha</string>
+    <string name="category_color_apps_title">Programu</string>
+    <string name="color_app_profiles_enabled_title">Badilisha rangi kulingana na programu</string>
+    <string name="color_app_profiles_enabled_summary">Programu ikiwa mbele, tumia mpangilio wa rangi uliochaguliwa kwa ajili yake</string>
+    <string name="color_app_profiles_title">Rangi za programu</string>
+    <string name="color_app_profiles_summary">Zima uboreshaji wa rangi au uchague hali ya rangi kwa kila programu</string>
+    <string name="color_app_profile_default">Mipangilio ya rangi ya skrini</string>
+    <string name="color_app_profile_off">Zima (rangi sahihi)</string>
 
     <string name="perf_title">Wasifu wa utendaji</string>
     <string name="perf_summary">Rekebisha utendaji na sera za halijoto za MediaTek Dimensity</string>

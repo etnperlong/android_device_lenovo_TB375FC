@@ -7,7 +7,7 @@
     <string name="app_name">Функције уређаја</string>
 
     <string name="device_parts_title">Функције уређаја</string>
-    <string name="device_parts_summary">Перформансе, додаци, екран осетљив на додир и Dolby Atmos</string>
+    <string name="device_parts_summary">Перформансе, боја екрана, додаци, екран осетљив на додир и Dolby Atmos</string>
     <string name="display_parts_title">Брзина освежавања и екран осетљив на додир</string>
     <string name="display_parts_summary">Брзина освежавања режима читања, режим за игре екрана осетљивог на додир</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Екран осетљив на додир</string>
     <string name="category_audio_title">Звук</string>
     <string name="category_perf_title">Перформансе</string>
+    <string name="category_color_title">Боја</string>
 
     <string name="pen_refresh_cap_title">Ограничи на 120 Гц при коришћењу оловке</string>
     <string name="pen_refresh_cap_summary">Активна оловка, према наводима, ради само до 120 Гц. Ограничење се уклања 10 секунди после последњег уноса оловком.</string>
@@ -65,6 +66,35 @@
     <string name="dolby_app_profiles_title">Режими апликација</string>
     <string name="dolby_app_profiles_summary">Изабери режим за сваку апликацију. Познате музичке и видео апликације почињу са режимима „Музика“ и „Филм“.</string>
     <string name="dolby_app_profile_default">Подразумевани режим</string>
+
+    <string name="screen_color_title">Боја екрана</string>
+    <string name="screen_color_summary">Режим боја, температура боја и боје апликација</string>
+    <string name="color_mode_title">Режим боја</string>
+    <string name="color_mode_standard">Стандардно</string>
+    <string name="color_mode_vivid">Живописно</string>
+    <string name="color_mode_natural">Природно</string>
+    <string name="color_temperature_title">Температура боја</string>
+    <string name="color_temperature_standard">Стандардно</string>
+    <string name="color_temperature_warm">Топло</string>
+    <string name="color_temperature_cool">Хладно</string>
+    <string name="color_temperature_tip">Додирните тачку на кругу боја или је превуците да бисте променили нијансу екрана. Изаберите „Стандардно“ да бисте вратили почетно стање.</string>
+    <string name="color_wheel_description">Круг температуре боја</string>
+    <string name="category_color_more_title">Још подешавања</string>
+    <string name="color_adaptive_title">Прилагоди амбијенталном осветљењу</string>
+    <string name="color_adaptive_summary">Прилагодите белу боју екрана боји околног светла ради удобнијег гледања</string>
+    <string name="category_color_adjust_title">Подешавање слике</string>
+    <string name="color_saturation_title">Засићеност</string>
+    <string name="color_contrast_title">Контраст</string>
+    <string name="color_sharpness_title">Оштрина</string>
+    <string name="color_adjust_default">Подразумевано</string>
+    <string name="color_adjust_reset_title">Ресетуј подешавање слике</string>
+    <string name="category_color_apps_title">Апликације</string>
+    <string name="color_app_profiles_enabled_title">Промени боју за сваку апликацију</string>
+    <string name="color_app_profiles_enabled_summary">Када је апликација у првом плану, користи изабрано подешавање боја за њу</string>
+    <string name="color_app_profiles_title">Боје апликација</string>
+    <string name="color_app_profiles_summary">Искључите побољшање боја или изаберите режим боја за сваку апликацију</string>
+    <string name="color_app_profile_default">Подешавања боје екрана</string>
+    <string name="color_app_profile_off">Искључено (тачне боје)</string>
 
     <string name="perf_title">Профили перформанси</string>
     <string name="perf_summary">Подеси перформансе MediaTek Dimensity чипа и термалне смернице</string>

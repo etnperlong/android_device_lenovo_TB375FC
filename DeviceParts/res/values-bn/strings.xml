@@ -7,7 +7,7 @@
     <string name="app_name">ডিভাইসের ফিচার</string>
 
     <string name="device_parts_title">ডিভাইসের ফিচার</string>
-    <string name="device_parts_summary">পারফরম্যান্স, আনুষঙ্গিক সামগ্রী, টাচ ও Dolby Atmos</string>
+    <string name="device_parts_summary">পারফরম্যান্স, স্ক্রিনের রং, আনুষঙ্গিক সামগ্রী, টাচ ও Dolby Atmos</string>
     <string name="display_parts_title">রিফ্রেশ রেট ও টাচ</string>
     <string name="display_parts_summary">রিডিং মোডের রিফ্রেশ রেট, টাচ গেম মোড</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">টাচ</string>
     <string name="category_audio_title">অডিও</string>
     <string name="category_perf_title">পারফরম্যান্স</string>
+    <string name="category_color_title">রং</string>
 
     <string name="pen_refresh_cap_title">স্টাইলাস ব্যবহার করার সময় 120 Hz-এ সীমিত করুন</string>
     <string name="pen_refresh_cap_summary">অ্যাক্টিভ স্টাইলাসটি সর্বোচ্চ 120 Hz পর্যন্ত কাজ করে। স্টাইলাস দিয়ে শেষবার ইনপুট দেওয়ার 10 সেকেন্ড পরে সীমাটি উঠে যাবে।</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">অ্যাপের মোড</string>
     <string name="dolby_app_profiles_summary">প্রতিটি অ্যাপের জন্য মোড বেছে নিন। পরিচিত মিউজিক ও ভিডিও অ্যাপ প্রথমে মিউজিক ও মুভি মোড ব্যবহার করে।</string>
     <string name="dolby_app_profile_default">ডিফল্ট মোড</string>
+
+    <string name="screen_color_title">স্ক্রিনের রং</string>
+    <string name="screen_color_summary">রঙের মোড, রঙের তাপমাত্রা ও অ্যাপের রং</string>
+    <string name="color_mode_title">রঙের মোড</string>
+    <string name="color_mode_standard">স্ট্যান্ডার্ড</string>
+    <string name="color_mode_vivid">উজ্জ্বল</string>
+    <string name="color_mode_natural">স্বাভাবিক</string>
+    <string name="color_temperature_title">রঙের তাপমাত্রা</string>
+    <string name="color_temperature_standard">স্ট্যান্ডার্ড</string>
+    <string name="color_temperature_warm">উষ্ণ</string>
+    <string name="color_temperature_cool">শীতল</string>
+    <string name="color_temperature_tip">স্ক্রিনের আভা বদলাতে রঙের চাকায় থাকা বিন্দুতে ট্যাপ করুন বা টেনে সরান। আগের অবস্থায় ফিরতে স্ট্যান্ডার্ড বেছে নিন।</string>
+    <string name="color_wheel_description">রঙের তাপমাত্রার চাকা</string>
+    <string name="category_color_more_title">আরও সেটিং</string>
+    <string name="color_adaptive_title">পরিবেশের আলোর সঙ্গে মানিয়ে নিন</string>
+    <string name="color_adaptive_summary">আরও আরামদায়কভাবে দেখার জন্য আশপাশের আলোর রং অনুযায়ী স্ক্রিনের সাদা রং অ্যাডজাস্ট করুন</string>
+    <string name="category_color_adjust_title">ছবি অ্যাডজাস্টমেন্ট</string>
+    <string name="color_saturation_title">স্যাচুরেশন</string>
+    <string name="color_contrast_title">কনট্রাস্ট</string>
+    <string name="color_sharpness_title">শার্পনেস</string>
+    <string name="color_adjust_default">ডিফল্ট</string>
+    <string name="color_adjust_reset_title">ছবি অ্যাডজাস্টমেন্ট রিসেট করুন</string>
+    <string name="category_color_apps_title">অ্যাপ</string>
+    <string name="color_app_profiles_enabled_title">অ্যাপ অনুযায়ী রং বদলান</string>
+    <string name="color_app_profiles_enabled_summary">কোনও অ্যাপ সামনে থাকলে সেটির জন্য বেছে নেওয়া রঙের সেটিং ব্যবহার করুন</string>
+    <string name="color_app_profiles_title">অ্যাপের রং</string>
+    <string name="color_app_profiles_summary">রঙের এনহ্যান্সমেন্ট বন্ধ করুন বা প্রতিটি অ্যাপের জন্য রঙের মোড বেছে নিন</string>
+    <string name="color_app_profile_default">স্ক্রিনের রঙের সেটিং</string>
+    <string name="color_app_profile_off">বন্ধ (নির্ভুল রং)</string>
 
     <string name="perf_title">পারফরম্যান্স প্রোফাইল</string>
     <string name="perf_summary">MediaTek Dimensity-এর পারফরম্যান্স ও থার্মাল পলিসি টিউন করুন</string>

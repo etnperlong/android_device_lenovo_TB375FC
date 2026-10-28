@@ -7,7 +7,7 @@
     <string name="app_name">የመሣሪያ ባህሪያት</string>
 
     <string name="device_parts_title">የመሣሪያ ባህሪያት</string>
-    <string name="device_parts_summary">አፈጻጸም፣ መለዋወጫዎች፣ ንክኪ እና Dolby Atmos</string>
+    <string name="device_parts_summary">አፈጻጸም፣ የማያ ገጽ ቀለም፣ መለዋወጫዎች፣ ንክኪ እና Dolby Atmos</string>
     <string name="display_parts_title">የማደስ ፍጥነት እና ንክኪ</string>
     <string name="display_parts_summary">የንባብ ሁነታ የማደስ ፍጥነት፣ የንክኪ ጨዋታ ሁነታ</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">ንክኪ</string>
     <string name="category_audio_title">ድምጽ</string>
     <string name="category_perf_title">አፈጻጸም</string>
+    <string name="category_color_title">ቀለም</string>
 
     <string name="pen_refresh_cap_title">ስታይለስ ሲጠቀሙ ወደ 120 ኸርዝ ገድብ</string>
     <string name="pen_refresh_cap_summary">ንቁው ስታይለስ እስከ 120 ኸርዝ ብቻ እንደሚሠራ ተገልጿል። የመጨረሻው የስታይለስ ግቤት ከተደረገ ከ10 ሰከንድ በኋላ ገደቡ ይነሳል።</string>
@@ -65,6 +66,35 @@
     <string name="dolby_app_profiles_title">የመተግበሪያ ሁነታዎች</string>
     <string name="dolby_app_profiles_summary">ለእያንዳንዱ መተግበሪያ ሁነታ ምረጥ። የሚታወቁ የሙዚቃ እና የቪዲዮ መተግበሪያዎች ሙዚቃ እና ፊልምን በነባሪ ይጠቀማሉ።</string>
     <string name="dolby_app_profile_default">ነባሪ ሁነታ</string>
+
+    <string name="screen_color_title">የማያ ገጽ ቀለም</string>
+    <string name="screen_color_summary">የቀለም ሁነታ፣ የቀለም ሙቀት እና የመተግበሪያ ቀለሞች</string>
+    <string name="color_mode_title">የቀለም ሁነታ</string>
+    <string name="color_mode_standard">መደበኛ</string>
+    <string name="color_mode_vivid">ደማቅ</string>
+    <string name="color_mode_natural">ተፈጥሯዊ</string>
+    <string name="color_temperature_title">የቀለም ሙቀት</string>
+    <string name="color_temperature_standard">መደበኛ</string>
+    <string name="color_temperature_warm">ሞቅ ያለ</string>
+    <string name="color_temperature_cool">ቀዝቃዛ</string>
+    <string name="color_temperature_tip">ማያ ገጹን ቀለም ለመቀባት በቀለም ጎማው ላይ ያለውን ነጥብ ይንኩ ወይም ይጎትቱ። ወደ ቀድሞው ለመመለስ መደበኛን ይምረጡ።</string>
+    <string name="color_wheel_description">የቀለም ሙቀት ጎማ</string>
+    <string name="category_color_more_title">ተጨማሪ ቅንብሮች</string>
+    <string name="color_adaptive_title">ከአካባቢ ብርሃን ጋር አስማማ</string>
+    <string name="color_adaptive_summary">ለተሻለ እይታ የማያ ገጹን ነጭ ቀለም ከአካባቢው ብርሃን ቀለም ጋር አስማማ</string>
+    <string name="category_color_adjust_title">የምስል ማስተካከያ</string>
+    <string name="color_saturation_title">የቀለም ሙላት</string>
+    <string name="color_contrast_title">ንጽጽር</string>
+    <string name="color_sharpness_title">ጥርትነት</string>
+    <string name="color_adjust_default">ነባሪ</string>
+    <string name="color_adjust_reset_title">የምስል ማስተካከያን ዳግም አስጀምር</string>
+    <string name="category_color_apps_title">መተግበሪያዎች</string>
+    <string name="color_app_profiles_enabled_title">በመተግበሪያ ቀለም ቀይር</string>
+    <string name="color_app_profiles_enabled_summary">መተግበሪያው ከፊት ሲሆን ለእሱ የተመረጠውን የቀለም ቅንብር ተጠቀም</string>
+    <string name="color_app_profiles_title">የመተግበሪያ ቀለሞች</string>
+    <string name="color_app_profiles_summary">የቀለም ማሻሻያን አጥፋ ወይም ለእያንዳንዱ መተግበሪያ የቀለም ሁነታ ምረጥ</string>
+    <string name="color_app_profile_default">የማያ ገጽ ቀለም ቅንብሮች</string>
+    <string name="color_app_profile_off">ጠፍቷል (ትክክለኛ ቀለሞች)</string>
 
     <string name="perf_title">የአፈጻጸም መገለጫዎች</string>
     <string name="perf_summary">የMediaTek Dimensity አፈጻጸምን እና የሙቀት ፖሊሲዎችን አስተካክል</string>

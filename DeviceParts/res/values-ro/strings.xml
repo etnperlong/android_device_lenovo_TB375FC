@@ -7,7 +7,7 @@
     <string name="app_name">Funcții ale dispozitivului</string>
 
     <string name="device_parts_title">Funcții ale dispozitivului</string>
-    <string name="device_parts_summary">Performanță, accesorii, atingere și Dolby Atmos</string>
+    <string name="device_parts_summary">Performanță, culoarea ecranului, accesorii, atingere și Dolby Atmos</string>
     <string name="display_parts_title">Rata de actualizare și atingere</string>
     <string name="display_parts_summary">Rata de actualizare în modul de lectură, modul de joc tactil</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Atingere</string>
     <string name="category_audio_title">Sunet</string>
     <string name="category_perf_title">Performanță</string>
+    <string name="category_color_title">Culoare</string>
 
     <string name="pen_refresh_cap_title">Limitare la 120 Hz când folosești creionul</string>
     <string name="pen_refresh_cap_summary">Creionul activ funcționează doar până la 120 Hz. Limita este eliminată la 10 secunde după ultima utilizare a creionului.</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">Moduri pentru aplicații</string>
     <string name="dolby_app_profiles_summary">Alege modul pentru fiecare aplicație. Aplicațiile cunoscute de muzică și video folosesc inițial modurile Muzică și Film.</string>
     <string name="dolby_app_profile_default">Mod prestabilit</string>
+
+    <string name="screen_color_title">Culoarea ecranului</string>
+    <string name="screen_color_summary">Mod de culoare, temperatură de culoare și culorile aplicațiilor</string>
+    <string name="color_mode_title">Mod de culoare</string>
+    <string name="color_mode_standard">Standard</string>
+    <string name="color_mode_vivid">Intens</string>
+    <string name="color_mode_natural">Natural</string>
+    <string name="color_temperature_title">Temperatură de culoare</string>
+    <string name="color_temperature_standard">Standard</string>
+    <string name="color_temperature_warm">Caldă</string>
+    <string name="color_temperature_cool">Rece</string>
+    <string name="color_temperature_tip">Atinge sau trage punctul de pe roata culorilor pentru a schimba nuanța ecranului. Selectează „Standard” pentru a reveni.</string>
+    <string name="color_wheel_description">Roata temperaturii de culoare</string>
+    <string name="category_color_more_title">Mai multe setări</string>
+    <string name="color_adaptive_title">Adaptare la lumina ambientală</string>
+    <string name="color_adaptive_summary">Reglează albul ecranului în funcție de culoarea luminii ambientale, pentru o vizionare mai confortabilă</string>
+    <string name="category_color_adjust_title">Ajustarea imaginii</string>
+    <string name="color_saturation_title">Saturație</string>
+    <string name="color_contrast_title">Contrast</string>
+    <string name="color_sharpness_title">Claritate</string>
+    <string name="color_adjust_default">Prestabilit</string>
+    <string name="color_adjust_reset_title">Resetează ajustarea imaginii</string>
+    <string name="category_color_apps_title">Aplicații</string>
+    <string name="color_app_profiles_enabled_title">Schimbă culoarea în funcție de aplicație</string>
+    <string name="color_app_profiles_enabled_summary">Folosește setarea de culoare aleasă pentru aplicație cât timp aceasta este în prim-plan</string>
+    <string name="color_app_profiles_title">Culorile aplicațiilor</string>
+    <string name="color_app_profiles_summary">Dezactivează îmbunătățirea culorilor sau alege un mod de culoare pentru fiecare aplicație</string>
+    <string name="color_app_profile_default">Setările de culoare ale ecranului</string>
+    <string name="color_app_profile_off">Dezactivat (culori precise)</string>
 
     <string name="perf_title">Profiluri de performanță</string>
     <string name="perf_summary">Ajustează performanța MediaTek Dimensity și politicile termice</string>

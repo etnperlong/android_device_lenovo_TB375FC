@@ -7,7 +7,7 @@
     <string name="app_name">Funtzionalidades de su dispositivu</string>
 
     <string name="device_parts_title">Funtzionalidades de su dispositivu</string>
-    <string name="device_parts_summary">Prestatziones, acesòrios, tocu e Dolby Atmos</string>
+    <string name="device_parts_summary">Prestatziones, colore de su ischermu, acesòrios, tocu e Dolby Atmos</string>
     <string name="display_parts_title">Frequèntzia de atualizatzione e tocu</string>
     <string name="display_parts_summary">Frequèntzia de atualizatzione de sa modalidade letura, modalidade giogu de su tocu</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Tocu</string>
     <string name="category_audio_title">Àudio</string>
     <string name="category_perf_title">Prestatziones</string>
+    <string name="category_color_title">Colore</string>
 
     <string name="pen_refresh_cap_title">Limita a 120 Hz cando s’impreada sa pinna</string>
     <string name="pen_refresh_cap_summary">Sa pinna ativa funtzionat isceti finas a 120 Hz. Su limite est bogadu 10 segundos a pustis de s’ùrtimu impreu de sa pinna.</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">Modalidades de aplicatzione</string>
     <string name="dolby_app_profiles_summary">Sèbera sa modalidade pro cada aplicatzione. Is aplicatziones de mùsica e vìdeu connòschidas cumèntzant cun Mùsica e Film.</string>
     <string name="dolby_app_profile_default">Modalidade predefinida</string>
+
+    <string name="screen_color_title">Colore de su ischermu</string>
+    <string name="screen_color_summary">Modalidade de colore, temperatura de su colore e colores de is aplicatziones</string>
+    <string name="color_mode_title">Modalidade de colore</string>
+    <string name="color_mode_standard">Istandard</string>
+    <string name="color_mode_vivid">Vivu</string>
+    <string name="color_mode_natural">Naturale</string>
+    <string name="color_temperature_title">Temperatura de su colore</string>
+    <string name="color_temperature_standard">Istandard</string>
+    <string name="color_temperature_warm">Càlidu</string>
+    <string name="color_temperature_cool">Friu</string>
+    <string name="color_temperature_tip">Toca o traga su puntu in su giru de is colores pro tintare su ischermu. Sèbera Istandard pro torrare a su normale.</string>
+    <string name="color_wheel_description">Giru de temperatura de su colore</string>
+    <string name="category_color_more_title">Àteras impostatziones</string>
+    <string name="color_adaptive_title">Adatta a sa lughe ambientale</string>
+    <string name="color_adaptive_summary">Ajusta su biancu de su ischermu a sa lughe ambientale pro una visualizatzione prus còmoda</string>
+    <string name="category_color_adjust_title">Ajustamentu de s’immàgine</string>
+    <string name="color_saturation_title">Saturatzione</string>
+    <string name="color_contrast_title">Contrastu</string>
+    <string name="color_sharpness_title">Nitidesa</string>
+    <string name="color_adjust_default">Predefinidu</string>
+    <string name="color_adjust_reset_title">Ripìstina s’ajustamentu de s’immàgine</string>
+    <string name="category_color_apps_title">Aplicatziones</string>
+    <string name="color_app_profiles_enabled_title">Càmbia su colore segundu s’aplicatzione</string>
+    <string name="color_app_profiles_enabled_summary">Imprea s’impostatzione de colore sèbera pro s’aplicatzione cando est in primu pranu</string>
+    <string name="color_app_profiles_title">Colores de is aplicatziones</string>
+    <string name="color_app_profiles_summary">Istuta su meglioramentu de su colore o sèbera una modalidade de colore pro cada aplicatzione</string>
+    <string name="color_app_profile_default">Impostatziones de su colore de su ischermu</string>
+    <string name="color_app_profile_off">Istutadu (colores esatos)</string>
 
     <string name="perf_title">Profìlos de prestatzione</string>
     <string name="perf_summary">Ajusta is prestatziones de MediaTek Dimensity e is polìticas tèrmicas</string>

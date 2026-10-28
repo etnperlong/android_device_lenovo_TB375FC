@@ -7,7 +7,7 @@
     <string name="app_name">Cihaz özellikleri</string>
 
     <string name="device_parts_title">Cihaz özellikleri</string>
-    <string name="device_parts_summary">Performans, aksesuarlar, dokunma ve Dolby Atmos</string>
+    <string name="device_parts_summary">Performans, ekran rengi, aksesuarlar, dokunma ve Dolby Atmos</string>
     <string name="display_parts_title">Yenileme hızı ve dokunma</string>
     <string name="display_parts_summary">Okuma modu yenileme hızı, dokunmatik oyun modu</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Dokunma</string>
     <string name="category_audio_title">Ses</string>
     <string name="category_perf_title">Performans</string>
+    <string name="category_color_title">Renk</string>
 
     <string name="pen_refresh_cap_title">Ekran kalemi kullanırken 120 Hz ile sınırla</string>
     <string name="pen_refresh_cap_summary">Etkin ekran kaleminin yalnızca 120 Hz\'e kadar çalıştığı bildiriliyor. Son kalem girişinden 10 saniye sonra sınır kaldırılır.</string>
@@ -65,6 +66,35 @@
     <string name="dolby_app_profiles_title">Uygulama modları</string>
     <string name="dolby_app_profiles_summary">Her uygulama için bir mod seçin. Bilinen müzik ve video uygulamaları başlangıçta Müzik ve Film modlarını kullanır.</string>
     <string name="dolby_app_profile_default">Varsayılan mod</string>
+
+    <string name="screen_color_title">Ekran rengi</string>
+    <string name="screen_color_summary">Renk modu, renk sıcaklığı ve uygulama renkleri</string>
+    <string name="color_mode_title">Renk modu</string>
+    <string name="color_mode_standard">Standart</string>
+    <string name="color_mode_vivid">Canlı</string>
+    <string name="color_mode_natural">Doğal</string>
+    <string name="color_temperature_title">Renk sıcaklığı</string>
+    <string name="color_temperature_standard">Standart</string>
+    <string name="color_temperature_warm">Sıcak</string>
+    <string name="color_temperature_cool">Soğuk</string>
+    <string name="color_temperature_tip">Ekrana renk tonu vermek için renk tekerleğindeki noktaya dokunun veya noktayı sürükleyin. Geri dönmek için Standart\'ı seçin.</string>
+    <string name="color_wheel_description">Renk sıcaklığı tekerleği</string>
+    <string name="category_color_more_title">Diğer ayarlar</string>
+    <string name="color_adaptive_title">Ortam ışığına uyarla</string>
+    <string name="color_adaptive_summary">Daha rahat görüntüleme için ekranın beyaz rengini çevredeki ışığın rengine göre ayarlayın</string>
+    <string name="category_color_adjust_title">Görüntü ayarı</string>
+    <string name="color_saturation_title">Doygunluk</string>
+    <string name="color_contrast_title">Kontrast</string>
+    <string name="color_sharpness_title">Keskinlik</string>
+    <string name="color_adjust_default">Varsayılan</string>
+    <string name="color_adjust_reset_title">Görüntü ayarını sıfırla</string>
+    <string name="category_color_apps_title">Uygulamalar</string>
+    <string name="color_app_profiles_enabled_title">Rengi uygulamaya göre değiştir</string>
+    <string name="color_app_profiles_enabled_summary">Bir uygulama öndeyken onun için seçilen renk ayarını kullan</string>
+    <string name="color_app_profiles_title">Uygulama renkleri</string>
+    <string name="color_app_profiles_summary">Renk iyileştirmeyi kapatın veya her uygulama için bir renk modu seçin</string>
+    <string name="color_app_profile_default">Ekran rengi ayarları</string>
+    <string name="color_app_profile_off">Kapalı (doğru renkler)</string>
 
     <string name="perf_title">Performans profilleri</string>
     <string name="perf_summary">MediaTek Dimensity performansını ve termal politikalarını ayarla</string>

@@ -1,0 +1,15 @@
+# DeviceParts (system_app) as a client of the MediaTek picture quality service
+# (vendor.mediatek.hardware.pq_aidl.IPictureQuality_AIDL/default), for the screen color settings
+# (color/ScreenColorService).
+#
+# Stock ZUI sets color mode and temperature from system_server (ZuiDisplayService ->
+# com.mediatek.pq.PictureQuality -> libjni_pq.so). Stock's vendor_sepolicy.cil already lists
+# system_app (with platform_app and system_server) in hal_mtk_pq_client; the vendor-CIL de-hack
+# dropped those platform members. The attribute already carries the find + binder
+# { call transfer } + fd use ruleset in mtk_proprietary.te, so joining it is the full grant, as
+# on stock.
+#
+# Placement: like tb375fc_power.te, this file must sort after mtk_proprietary.te, which declares
+# the attribute.
+
+typeattribute system_app hal_mtk_pq_client;

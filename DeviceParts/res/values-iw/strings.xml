@@ -7,7 +7,7 @@
     <string name="app_name">תכונות המכשיר</string>
 
     <string name="device_parts_title">תכונות המכשיר</string>
-    <string name="device_parts_summary">ביצועים, אביזרים, מגע ו־Dolby Atmos</string>
+    <string name="device_parts_summary">ביצועים, צבע המסך, אביזרים, מגע ו־Dolby Atmos</string>
     <string name="display_parts_title">קצב רענון ומגע</string>
     <string name="display_parts_summary">קצב רענון במצב קריאה, מצב משחק במגע</string>
 
@@ -15,7 +15,7 @@
     <string name="category_display_title">קצב רענון</string>
     <string name="category_touch_title">מגע</string>
     <string name="category_audio_title">אודיו</string>
-    <string name="category_perf_title">ביצועים</string>
+    <string name="category_color_title">צבע</string>
 
     <string name="pen_refresh_cap_title">הגבלת קצב הרענון ל־120 Hz בזמן שימוש בסטיילוס</string>
     <string name="pen_refresh_cap_summary">לפי הדיווחים, סטיילוס פעיל פועל בקצב של עד 120 Hz בלבד. ההגבלה מוסרת 10 שניות לאחר השימוש האחרון בסטיילוס.</string>
@@ -65,6 +65,35 @@
     <string name="dolby_app_profiles_title">מצבים לאפליקציות</string>
     <string name="dolby_app_profiles_summary">בחירת מצב לכל אפליקציה. אפליקציות מוזיקה ווידאו מוכרות מתחילות במצב מוזיקה וסרט.</string>
     <string name="dolby_app_profile_default">מצב ברירת מחדל</string>
+    <!-- Screen color -->
+    <string name="screen_color_title">צבע המסך</string>
+    <string name="screen_color_summary">מצב צבע, טמפרטורת צבע וצבעי אפליקציות</string>
+    <string name="color_mode_title">מצב צבע</string>
+    <string name="color_mode_standard">רגיל</string>
+    <string name="color_mode_vivid">חי</string>
+    <string name="color_mode_natural">טבעי</string>
+    <string name="color_temperature_title">טמפרטורת צבע</string>
+    <string name="color_temperature_standard">רגילה</string>
+    <string name="color_temperature_warm">חם</string>
+    <string name="color_temperature_cool">קר</string>
+    <string name="color_temperature_tip">יש להקיש על הנקודה בגלגל הצבעים או לגרור אותה כדי לשנות את גוון המסך. בחירה באפשרות רגיל תחזיר את המצב הקודם.</string>
+    <string name="color_wheel_description">גלגל טמפרטורת הצבע</string>
+    <string name="category_color_more_title">הגדרות נוספות</string>
+    <string name="color_adaptive_title">התאמה לאור הסביבה</string>
+    <string name="color_adaptive_summary">התאמת הלבן של המסך לצבע האור בסביבה, לצפייה נוחה יותר</string>
+    <string name="category_color_adjust_title">התאמת תמונה</string>
+    <string name="color_saturation_title">רוויה</string>
+    <string name="color_contrast_title">ניגודיות</string>
+    <string name="color_sharpness_title">חדות</string>
+    <string name="color_adjust_default">ברירת מחדל</string>
+    <string name="color_adjust_reset_title">איפוס התאמת תמונה</string>
+    <string name="category_color_apps_title">אפליקציות</string>
+    <string name="color_app_profiles_enabled_title">החלפת צבע לפי אפליקציה</string>
+    <string name="color_app_profiles_enabled_summary">כשהאפליקציה בחזית, להשתמש בהגדרת הצבע שנבחרה עבורה</string>
+    <string name="color_app_profiles_title">צבעי אפליקציות</string>
+    <string name="color_app_profiles_summary">כיבוי שיפור צבע או בחירת מצב צבע לכל אפליקציה</string>
+    <string name="color_app_profile_default">הגדרות צבע המסך</string>
+    <string name="color_app_profile_off">כבוי (צבעים מדויקים)</string>
 
     <string name="perf_title">פרופילי ביצועים</string>
     <string name="perf_summary">כוונון הביצועים ומדיניות החום של MediaTek Dimensity</string>

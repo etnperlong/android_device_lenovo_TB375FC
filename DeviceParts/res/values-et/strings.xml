@@ -7,7 +7,7 @@
     <string name="app_name">Seadme funktsioonid</string>
 
     <string name="device_parts_title">Seadme funktsioonid</string>
-    <string name="device_parts_summary">Jõudlus, tarvikud, puutejuhtimine ja Dolby Atmos</string>
+    <string name="device_parts_summary">Jõudlus, ekraanivärvid, tarvikud, puutejuhtimine ja Dolby Atmos</string>
     <string name="display_parts_title">Värskendussagedus ja puutejuhtimine</string>
     <string name="display_parts_summary">Lugemisrežiimi värskendussagedus, puutejuhtimise mängurežiim</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Puutejuhtimine</string>
     <string name="category_audio_title">Heli</string>
     <string name="category_perf_title">Jõudlus</string>
+    <string name="category_color_title">Värv</string>
 
     <string name="pen_refresh_cap_title">Pliiatsi kasutamisel piira sagedus 120 Hz-ni</string>
     <string name="pen_refresh_cap_summary">Aktiivne pliiats töötab teadaolevalt ainult kuni sageduseni 120 Hz. Piirang eemaldatakse 10 sekundit pärast viimast pliiatsisisestust.</string>
@@ -65,6 +66,35 @@
     <string name="dolby_app_profiles_title">Rakenduste režiimid</string>
     <string name="dolby_app_profiles_summary">Vali igale rakendusele režiim. Tuntud muusika- ja videorakenduste algrežiim on vastavalt muusika või film.</string>
     <string name="dolby_app_profile_default">Vaikerežiim</string>
+    
+    <string name="screen_color_title">Ekraani värv</string>
+    <string name="screen_color_summary">Värvirežiim, värvitemperatuur ja rakenduste värvid</string>
+    <string name="color_mode_title">Värvirežiim</string>
+    <string name="color_mode_standard">Standardne</string>
+    <string name="color_mode_vivid">Ergas</string>
+    <string name="color_mode_natural">Loomulik</string>
+    <string name="color_temperature_title">Värvitemperatuur</string>
+    <string name="color_temperature_standard">Standardne</string>
+    <string name="color_temperature_warm">Soe</string>
+    <string name="color_temperature_cool">Jahe</string>
+    <string name="color_temperature_tip">Ekraani värvitooni muutmiseks puuduta või lohista värvirattal olevat punkti. Algseadete taastamiseks vali „Standardne”.</string>
+    <string name="color_wheel_description">Värvitemperatuuri ratas</string>
+    <string name="category_color_more_title">Veel seadeid</string>
+    <string name="color_adaptive_title">Kohanda ümbritseva valguse järgi</string>
+    <string name="color_adaptive_summary">Muuda ekraani valget värvi ümbritseva valguse järgi, et vaatamine oleks mugavam</string>
+    <string name="category_color_adjust_title">Pildi reguleerimine</string>
+    <string name="color_saturation_title">Küllastus</string>
+    <string name="color_contrast_title">Kontrast</string>
+    <string name="color_sharpness_title">Teravus</string>
+    <string name="color_adjust_default">Vaikeseade</string>
+    <string name="color_adjust_reset_title">Pildi reguleerimise lähtestamine</string>
+    <string name="category_color_apps_title">Rakendused</string>
+    <string name="color_app_profiles_enabled_title">Vaheta värvi rakenduse järgi</string>
+    <string name="color_app_profiles_enabled_summary">Kui rakendus on esiplaanil, kasuta sellele valitud värviseadet</string>
+    <string name="color_app_profiles_title">Rakenduste värvid</string>
+    <string name="color_app_profiles_summary">Lülita värviparandus välja või vali igale rakendusele värvirežiim</string>
+    <string name="color_app_profile_default">Ekraani värviseaded</string>
+    <string name="color_app_profile_off">Väljas (täpsed värvid)</string>
 
     <string name="perf_title">Jõudlusprofiilid</string>
     <string name="perf_summary">Häälesta MediaTek Dimensity jõudlust ja termorežiime</string>

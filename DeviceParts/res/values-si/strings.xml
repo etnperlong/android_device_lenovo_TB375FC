@@ -7,7 +7,7 @@
     <string name="app_name">උපාංග විශේෂාංග</string>
 
     <string name="device_parts_title">උපාංග විශේෂාංග</string>
-    <string name="device_parts_summary">කාර්යසාධනය, උපාංග, ස්පර්ශය සහ Dolby Atmos</string>
+    <string name="device_parts_summary">කාර්යසාධනය, තිරයේ වර්ණය, උපාංග, ස්පර්ශය සහ Dolby Atmos</string>
     <string name="display_parts_title">නැවුම් කිරීමේ අනුපාතය සහ ස්පර්ශය</string>
     <string name="display_parts_summary">කියවීමේ මාදිලියේ නැවුම් කිරීමේ අනුපාතය, ස්පර්ශ ක්‍රීඩා මාදිලිය</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">ස්පර්ශය</string>
     <string name="category_audio_title">ශ්‍රව්‍ය</string>
     <string name="category_perf_title">කාර්යසාධනය</string>
+    <string name="category_color_title">වර්ණය</string>
 
     <string name="pen_refresh_cap_title">පන්හිඳ භාවිත කරන විට 120 Hz දක්වා සීමා කරන්න</string>
     <string name="pen_refresh_cap_summary">සක්‍රිය පන්හිඳ ක්‍රියා කරන්නේ 120 Hz දක්වා පමණි. පන්හිඳෙන් අවසන් ආදානය ලබා දී තත්පර 10කට පසු සීමාව ඉවත් වේ.</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">යෙදුම් මාදිලි</string>
     <string name="dolby_app_profiles_summary">එක් එක් යෙදුම සඳහා මාදිලිය තෝරන්න. හඳුනාගත් සංගීත සහ වීඩියෝ යෙදුම් සංගීත සහ චිත්‍රපට මාදිලිවලින් ආරම්භ වේ.</string>
     <string name="dolby_app_profile_default">පෙරනිමි මාදිලිය</string>
+
+    <string name="screen_color_title">තිරයේ වර්ණය</string>
+    <string name="screen_color_summary">වර්ණ මාදිලිය, වර්ණ උෂ්ණත්වය සහ යෙදුම් වර්ණ</string>
+    <string name="color_mode_title">වර්ණ මාදිලිය</string>
+    <string name="color_mode_standard">සම්මත</string>
+    <string name="color_mode_vivid">ප්‍රබෝධමත්</string>
+    <string name="color_mode_natural">ස්වාභාවික</string>
+    <string name="color_temperature_title">වර්ණ උෂ්ණත්වය</string>
+    <string name="color_temperature_standard">සම්මත</string>
+    <string name="color_temperature_warm">උණුසුම්</string>
+    <string name="color_temperature_cool">සිසිල්</string>
+    <string name="color_temperature_tip">තිරයට පැහැය එක් කිරීමට වර්ණ රෝදයේ තිත තට්ටු කරන්න හෝ අදින්න. පෙර තත්ත්වයට යාමට සම්මත තෝරන්න.</string>
+    <string name="color_wheel_description">වර්ණ උෂ්ණත්ව රෝදය</string>
+    <string name="category_color_more_title">තවත් සැකසීම්</string>
+    <string name="color_adaptive_title">පරිසර ආලෝකයට අනුව සකසන්න</string>
+    <string name="color_adaptive_summary">වඩාත් සුවපහසු ලෙස නැරඹීමට, අවට ආලෝකයේ වර්ණයට අනුව තිරයේ සුදු පැහැය සකසන්න</string>
+    <string name="category_color_adjust_title">පින්තූර ගැළපීම</string>
+    <string name="color_saturation_title">වර්ණ තීව්‍රතාව</string>
+    <string name="color_contrast_title">වෙනස</string>
+    <string name="color_sharpness_title">තියුණු බව</string>
+    <string name="color_adjust_default">පෙරනිමි</string>
+    <string name="color_adjust_reset_title">පින්තූර ගැළපීම යළි සකසන්න</string>
+    <string name="category_color_apps_title">යෙදුම්</string>
+    <string name="color_app_profiles_enabled_title">යෙදුම අනුව වර්ණය මාරු කරන්න</string>
+    <string name="color_app_profiles_enabled_summary">යෙදුමක් ඉදිරියෙන් ඇති විට, ඒ සඳහා තෝරාගත් වර්ණ සැකසීම භාවිත කරන්න</string>
+    <string name="color_app_profiles_title">යෙදුම් වර්ණ</string>
+    <string name="color_app_profiles_summary">වර්ණ වැඩිදියුණු කිරීම අක්‍රිය කරන්න හෝ එක් එක් යෙදුම සඳහා වර්ණ මාදිලියක් තෝරන්න</string>
+    <string name="color_app_profile_default">තිර වර්ණ සැකසීම්</string>
+    <string name="color_app_profile_off">අක්‍රිය (නිවැරදි වර්ණ)</string>
 
     <string name="perf_title">කාර්යසාධන පැතිකඩ</string>
     <string name="perf_summary">MediaTek Dimensity කාර්යසාධනය සහ තාප ප්‍රතිපත්ති සකසන්න</string>

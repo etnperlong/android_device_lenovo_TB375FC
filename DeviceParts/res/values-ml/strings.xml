@@ -7,7 +7,7 @@
     <string name="app_name">ഉപകരണ സവിശേഷതകൾ</string>
 
     <string name="device_parts_title">ഉപകരണ സവിശേഷതകൾ</string>
-    <string name="device_parts_summary">പ്രകടനം, ആക്‌സസറികൾ, ടച്ച്, Dolby Atmos</string>
+    <string name="device_parts_summary">പ്രകടനം, സ്ക്രീൻ നിറം, ആക്‌സസറികൾ, ടച്ച്, Dolby Atmos</string>
 
     <string name="display_parts_title">റീഫ്രഷ് നിരക്കും ടച്ചും</string>
     <string name="display_parts_summary">വായനാ മോഡ് റീഫ്രഷ് നിരക്ക്, ടച്ച് ഗെയിം മോഡ്</string>
@@ -17,6 +17,7 @@
     <string name="category_touch_title">ടച്ച്</string>
     <string name="category_audio_title">ഓഡിയോ</string>
     <string name="category_perf_title">പ്രകടനം</string>
+    <string name="category_color_title">സ്ക്രീൻ നിറം</string>
 
     <string name="pen_refresh_cap_title">സ്‌റ്റൈലസ് ഉപയോഗിക്കുമ്പോൾ 120 Hz-ലേക്ക് പരിമിതപ്പെടുത്തുക</string>
     <string name="pen_refresh_cap_summary">സജീവ സ്‌റ്റൈലസ് പരമാവധി 120 Hz വരെ മാത്രമേ പിന്തുണയ്ക്കൂ എന്നാണ് റിപ്പോർട്ട്. സ്‌റ്റൈലസ് ഉപയോഗിച്ചുള്ള അവസാന ഇൻപുട്ടിന് 10 സെക്കൻഡിന് ശേഷം പരിധി നീങ്ങും.</string>
@@ -64,6 +65,35 @@
     <string name="dolby_app_profiles_title">ആപ്പ് മോഡുകൾ</string>
     <string name="dolby_app_profiles_summary">ഓരോ ആപ്പിനും മോഡ് തിരഞ്ഞെടുക്കുക. അറിയപ്പെടുന്ന സംഗീത, വീഡിയോ ആപ്പുകൾ സംഗീതം, സിനിമ മോഡുകൾ ഉപയോഗിച്ചാണ് തുടങ്ങുന്നത്.</string>
     <string name="dolby_app_profile_default">ഡിഫോൾട്ട് മോഡ്</string>
+
+    <string name="screen_color_title">സ്ക്രീൻ നിറം</string>
+    <string name="screen_color_summary">നിറ മോഡ്, നിറ താപനില, ആപ്പുകൾക്കുള്ള നിറം</string>
+    <string name="color_mode_title">നിറ മോഡ്</string>
+    <string name="color_mode_standard">സ്റ്റാൻഡേർഡ്</string>
+    <string name="color_mode_vivid">തിളക്കമുള്ളത്</string>
+    <string name="color_mode_natural">സ്വാഭാവികം</string>
+    <string name="color_temperature_title">നിറ താപനില</string>
+    <string name="color_temperature_standard">സ്റ്റാൻഡേർഡ്</string>
+    <string name="color_temperature_warm">ചൂടുള്ളത്</string>
+    <string name="color_temperature_cool">തണുത്തത്</string>
+    <string name="color_temperature_tip">സ്ക്രീനിന്റെ നിറം ക്രമീകരിക്കാൻ നിറ ചക്രത്തിലെ ബിന്ദുവിൽ ടാപ്പ് ചെയ്യുകയോ വലിച്ചുനീക്കുകയോ ചെയ്യുക. പഴയപടിയാക്കാൻ “സ്റ്റാൻഡേർഡ്” തിരഞ്ഞെടുക്കുക.</string>
+    <string name="color_wheel_description">നിറ താപനില ചക്രം</string>
+    <string name="category_color_more_title">കൂടുതൽ ക്രമീകരണങ്ങൾ</string>
+    <string name="color_adaptive_title">പരിസര നിറത്തിന് അനുസൃതമാക്കുക</string>
+    <string name="color_adaptive_summary">കൂടുതൽ സുഖകരമായി കാണുന്നതിനായി പരിസര വെളിച്ചത്തിന്റെ നിറത്തിനനുസരിച്ച് സ്ക്രീനിന്റെ വെളുത്ത ബിന്ദു ക്രമീകരിക്കുക</string>
+    <string name="category_color_adjust_title">ചിത്ര ക്രമീകരണം</string>
+    <string name="color_saturation_title">നിറസാന്ദ്രത</string>
+    <string name="color_contrast_title">കോൺട്രാസ്റ്റ്</string>
+    <string name="color_sharpness_title">മൂർച്ച</string>
+    <string name="color_adjust_default">ഡിഫോൾട്ട്</string>
+    <string name="color_adjust_reset_title">ചിത്ര ക്രമീകരണം ഡിഫോൾട്ടിലേക്ക് പുനഃസജ്ജമാക്കുക</string>
+    <string name="category_color_apps_title">ആപ്പുകൾ</string>
+    <string name="color_app_profiles_enabled_title">ആപ്പ് അനുസരിച്ച് നിറം മാറ്റുക</string>
+    <string name="color_app_profiles_enabled_summary">ആപ്പ് മുൻനിരയിലായിരിക്കുമ്പോൾ അതിനായി തിരഞ്ഞെടുത്ത നിറ ക്രമീകരണങ്ങൾ ഉപയോഗിക്കുക</string>
+    <string name="color_app_profiles_title">ആപ്പ് നിറങ്ങൾ</string>
+    <string name="color_app_profiles_summary">ഓരോ ആപ്പിനുമുള്ള നിറ മെച്ചപ്പെടുത്തലുകൾ ഓഫാക്കുകയോ നിറ മോഡ് തിരഞ്ഞെടുക്കുകയോ ചെയ്യുക</string>
+    <string name="color_app_profile_default">സ്ക്രീൻ നിറ ക്രമീകരണങ്ങൾ ഉപയോഗിക്കുക</string>
+    <string name="color_app_profile_off">ഓഫ് (കൃത്യമായ നിറം)</string>
 
     <string name="perf_title">പ്രകടന പ്രൊഫൈലുകൾ</string>
     <string name="perf_summary">MediaTek Dimensity പ്രകടനവും താപ നിയന്ത്രണ നയങ്ങളും ക്രമീകരിക്കുക</string>

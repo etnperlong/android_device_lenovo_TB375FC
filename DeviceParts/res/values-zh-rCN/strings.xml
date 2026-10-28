@@ -7,7 +7,7 @@
     <string name="app_name">设备功能</string>
 
     <string name="device_parts_title">设备功能</string>
-    <string name="device_parts_summary">性能、配件、触控与杜比全景声</string>
+    <string name="device_parts_summary">性能、屏幕色彩、配件、触控与杜比全景声</string>
     <string name="display_parts_title">刷新率与触控</string>
     <string name="display_parts_summary">阅读模式刷新率、触控游戏模式</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">触控</string>
     <string name="category_audio_title">音频</string>
     <string name="category_perf_title">性能</string>
+    <string name="category_color_title">色彩</string>
 
     <string name="pen_refresh_cap_title">使用手写笔时限制为 120 Hz</string>
     <string name="pen_refresh_cap_summary">主动笔据称最高只支持 120 Hz。最后一次笔输入 10 秒后解除限制。</string>
@@ -64,6 +65,35 @@
     <string name="dolby_app_profiles_title">应用模式</string>
     <string name="dolby_app_profiles_summary">为每个应用选择模式。常见的音乐和视频应用预设为音乐和电影模式。</string>
     <string name="dolby_app_profile_default">默认模式</string>
+
+    <string name="screen_color_title">屏幕色彩</string>
+    <string name="screen_color_summary">色彩模式、色温与应用色彩</string>
+    <string name="color_mode_title">色彩模式</string>
+    <string name="color_mode_standard">标准</string>
+    <string name="color_mode_vivid">鲜艳</string>
+    <string name="color_mode_natural">自然</string>
+    <string name="color_temperature_title">色温</string>
+    <string name="color_temperature_standard">标准</string>
+    <string name="color_temperature_warm">暖色</string>
+    <string name="color_temperature_cool">冷色</string>
+    <string name="color_temperature_tip">在色环上点击或拖动圆点调节屏幕色调，选择“标准”即可还原。</string>
+    <string name="color_wheel_description">色温色环</string>
+    <string name="category_color_more_title">更多设置</string>
+    <string name="color_adaptive_title">环境色自适应</string>
+    <string name="color_adaptive_summary">根据环境光的颜色调节屏幕白点，让观看更舒适</string>
+    <string name="category_color_adjust_title">画面调整</string>
+    <string name="color_saturation_title">饱和度</string>
+    <string name="color_contrast_title">对比度</string>
+    <string name="color_sharpness_title">锐度</string>
+    <string name="color_adjust_default">默认</string>
+    <string name="color_adjust_reset_title">恢复默认画面调整</string>
+    <string name="category_color_apps_title">应用</string>
+    <string name="color_app_profiles_enabled_title">按应用切换色彩</string>
+    <string name="color_app_profiles_enabled_summary">应用位于前台时使用为其选择的色彩设置</string>
+    <string name="color_app_profiles_title">应用色彩</string>
+    <string name="color_app_profiles_summary">为每个应用关闭色彩增强或指定色彩模式</string>
+    <string name="color_app_profile_default">跟随屏幕色彩设置</string>
+    <string name="color_app_profile_off">关闭（色彩准确）</string>
 
     <string name="perf_title">性能配置</string>
     <string name="perf_summary">调节联发科天玑芯片性能和温控策略</string>

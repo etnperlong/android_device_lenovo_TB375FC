@@ -7,7 +7,7 @@
     <string name="app_name">Įrenginio funkcijos</string>
 
     <string name="device_parts_title">Įrenginio funkcijos</string>
-    <string name="device_parts_summary">Našumas, priedai, lietimas ir „Dolby Atmos“</string>
+    <string name="device_parts_summary">Našumas, ekrano spalvos, priedai, lietimas ir „Dolby Atmos“</string>
     <string name="display_parts_title">Atnaujinimo dažnis ir lietimas</string>
     <string name="display_parts_summary">Skaitymo režimo atnaujinimo dažnis, lietimo žaidimų režimas</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Lietimas</string>
     <string name="category_audio_title">Garsas</string>
     <string name="category_perf_title">Našumas</string>
+    <string name="category_color_title">Spalvos</string>
 
     <string name="pen_refresh_cap_title">Naudojant rašiklį apriboti iki 120 Hz</string>
     <string name="pen_refresh_cap_summary">Aktyvusis rašiklis, kaip pranešama, veikia tik iki 120 Hz. Apribojimas panaikinamas praėjus 10 sekundžių nuo paskutinio įvesties rašikliu veiksmo.</string>
@@ -65,6 +66,35 @@
     <string name="dolby_app_profiles_title">Programų režimai</string>
     <string name="dolby_app_profiles_summary">Pasirinkite režimą kiekvienai programai. Žinomoms muzikos ir vaizdo programoms nustatyti muzikos ir filmų režimai.</string>
     <string name="dolby_app_profile_default">Numatytasis režimas</string>
+
+    <string name="screen_color_title">Ekrano spalvos</string>
+    <string name="screen_color_summary">Spalvų režimas, spalvų temperatūra ir programų spalvos</string>
+    <string name="color_mode_title">Spalvų režimas</string>
+    <string name="color_mode_standard">Standartinis</string>
+    <string name="color_mode_vivid">Ryškus</string>
+    <string name="color_mode_natural">Natūralus</string>
+    <string name="color_temperature_title">Spalvų temperatūra</string>
+    <string name="color_temperature_standard">Standartinis</string>
+    <string name="color_temperature_warm">Šilta</string>
+    <string name="color_temperature_cool">Šalta</string>
+    <string name="color_temperature_tip">Palieskite arba vilkite tašką spalvų rate, kad pakeistumėte ekrano atspalvį. Norėdami grįžti, pasirinkite „Standartinis“.</string>
+    <string name="color_wheel_description">Spalvų temperatūros ratas</string>
+    <string name="category_color_more_title">Daugiau nustatymų</string>
+    <string name="color_adaptive_title">Pritaikyti prie aplinkos apšvietimo</string>
+    <string name="color_adaptive_summary">Kad žiūrėti būtų patogiau, ekrano baltą spalvą pritaikyti prie aplinkos šviesos spalvos</string>
+    <string name="category_color_adjust_title">Vaizdo koregavimas</string>
+    <string name="color_saturation_title">Sodrumas</string>
+    <string name="color_contrast_title">Kontrastas</string>
+    <string name="color_sharpness_title">Ryškumas</string>
+    <string name="color_adjust_default">Numatytoji</string>
+    <string name="color_adjust_reset_title">Iš naujo nustatyti vaizdo koregavimą</string>
+    <string name="category_color_apps_title">Programos</string>
+    <string name="color_app_profiles_enabled_title">Keisti spalvas pagal programą</string>
+    <string name="color_app_profiles_enabled_summary">Kai programa rodoma pirmame plane, naudoti jai pasirinktą spalvų nustatymą</string>
+    <string name="color_app_profiles_title">Programų spalvos</string>
+    <string name="color_app_profiles_summary">Išjungti spalvų paryškinimą arba pasirinkti spalvų režimą kiekvienai programai</string>
+    <string name="color_app_profile_default">Ekrano spalvų nustatymai</string>
+    <string name="color_app_profile_off">Išjungta (tikslios spalvos)</string>
 
     <string name="perf_title">Našumo profiliai</string>
     <string name="perf_summary">Derinti „MediaTek Dimensity“ našumą ir šilumines strategijas</string>

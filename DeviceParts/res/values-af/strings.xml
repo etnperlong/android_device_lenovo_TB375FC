@@ -7,7 +7,7 @@
     <string name="app_name">Toestelkenmerke</string>
 
     <string name="device_parts_title">Toestelkenmerke</string>
-    <string name="device_parts_summary">Werkverrigting, bykomstighede, aanraking en Dolby Atmos</string>
+    <string name="device_parts_summary">Werkverrigting, skermkleur, bykomstighede, aanraking en Dolby Atmos</string>
     <string name="display_parts_title">Verversingstempo en aanraking</string>
     <string name="display_parts_summary">Verversingstempo in leesmodus, aanraak-speletjiemodus</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Aanraking</string>
     <string name="category_audio_title">Oudio</string>
     <string name="category_perf_title">Werkverrigting</string>
+    <string name="category_color_title">Kleur</string>
 
     <string name="pen_refresh_cap_title">Beperk tot 120 Hz wanneer die stilus gebruik word</string>
     <string name="pen_refresh_cap_summary">Daar word berig dat die aktiewe stilus slegs tot 120 Hz werk. Die beperking word 10 sekondes ná die laaste stilusinvoer opgehef.</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">Programmodusse</string>
     <string name="dolby_app_profiles_summary">Kies die modus vir elke program. Bekende musiek- en videoprogramme begin met Musiek en Fliek.</string>
     <string name="dolby_app_profile_default">Verstekmodus</string>
+
+    <string name="screen_color_title">Skermkleur</string>
+    <string name="screen_color_summary">Kleurmodus, kleurtemperatuur en programkleure</string>
+    <string name="color_mode_title">Kleurmodus</string>
+    <string name="color_mode_standard">Standaard</string>
+    <string name="color_mode_vivid">Lewendig</string>
+    <string name="color_mode_natural">Natuurlik</string>
+    <string name="color_temperature_title">Kleurtemperatuur</string>
+    <string name="color_temperature_standard">Standaard</string>
+    <string name="color_temperature_warm">Warm</string>
+    <string name="color_temperature_cool">Koel</string>
+    <string name="color_temperature_tip">Tik of sleep die kol op die kleurwiel om die skerm te kleur. Kies Standaard om terug te keer.</string>
+    <string name="color_wheel_description">Kleurtemperatuurwiel</string>
+    <string name="category_color_more_title">Meer instellings</string>
+    <string name="color_adaptive_title">Pas by omgewingslig aan</string>
+    <string name="color_adaptive_summary">Pas die skerm se wit by die kleur van die omgewingslig aan vir gemakliker kyk</string>
+    <string name="category_color_adjust_title">Beeldaanpassing</string>
+    <string name="color_saturation_title">Versadiging</string>
+    <string name="color_contrast_title">Kontras</string>
+    <string name="color_sharpness_title">Skerpte</string>
+    <string name="color_adjust_default">Verstek</string>
+    <string name="color_adjust_reset_title">Stel beeldaanpassing terug</string>
+    <string name="category_color_apps_title">Programme</string>
+    <string name="color_app_profiles_enabled_title">Wissel kleur volgens program</string>
+    <string name="color_app_profiles_enabled_summary">Gebruik die kleurinstelling wat vir ’n program gekies is terwyl dit voor is</string>
+    <string name="color_app_profiles_title">Programkleure</string>
+    <string name="color_app_profiles_summary">Skakel kleurverbetering af of kies ’n kleurmodus vir elke program</string>
+    <string name="color_app_profile_default">Skermkleurinstellings</string>
+    <string name="color_app_profile_off">Af (akkurate kleure)</string>
 
     <string name="perf_title">Werkverrigtingprofiele</string>
     <string name="perf_summary">Stel MediaTek Dimensity-werkverrigting- en termiese beleide in</string>

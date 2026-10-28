@@ -7,7 +7,7 @@
     <string name="app_name">Veçoritë e pajisjes</string>
 
     <string name="device_parts_title">Veçoritë e pajisjes</string>
-    <string name="device_parts_summary">Performanca, aksesorë, prekje dhe Dolby Atmos</string>
+    <string name="device_parts_summary">Performanca, ngjyra e ekranit, aksesorë, prekja dhe Dolby Atmos</string>
     <string name="display_parts_title">Shpejtësia e rifreskimit dhe prekja</string>
     <string name="display_parts_summary">Shpejtësia e rifreskimit në mënyrën e leximit, mënyra e lojës me prekje</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Prekja</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Performanca</string>
+    <string name="category_color_title">Ngjyra</string>
 
     <string name="pen_refresh_cap_title">Kufizoje në 120 Hz kur përdoret stilolapsi</string>
     <string name="pen_refresh_cap_summary">Stilolapsi aktiv raportohet se funksionon vetëm deri në 120 Hz. Kufizimi hiqet 10 sekonda pas hyrjes së fundit me stilolaps.</string>
@@ -65,6 +66,35 @@
     <string name="dolby_app_profiles_title">Mënyrat e aplikacioneve</string>
     <string name="dolby_app_profiles_summary">Zgjidh mënyrën për çdo aplikacion. Aplikacionet e njohura të muzikës dhe videos nisin përkatësisht me mënyrat Muzikë dhe Film.</string>
     <string name="dolby_app_profile_default">Mënyra e parazgjedhur</string>
+
+    <string name="screen_color_title">Ngjyra e ekranit</string>
+    <string name="screen_color_summary">Mënyra e ngjyrave, temperatura e ngjyrave dhe ngjyrat e aplikacioneve</string>
+    <string name="color_mode_title">Mënyra e ngjyrave</string>
+    <string name="color_mode_standard">Standarde</string>
+    <string name="color_mode_vivid">E gjallë</string>
+    <string name="color_mode_natural">Natyrale</string>
+    <string name="color_temperature_title">Temperatura e ngjyrave</string>
+    <string name="color_temperature_standard">Standarde</string>
+    <string name="color_temperature_warm">E ngrohtë</string>
+    <string name="color_temperature_cool">E ftohtë</string>
+    <string name="color_temperature_tip">Prek ose tërhiq pikën në rrethin e ngjyrave për të ngjyrosur ekranin. Zgjidh Standarde për t’u kthyer pas.</string>
+    <string name="color_wheel_description">Rrethi i temperaturës së ngjyrave</string>
+    <string name="category_color_more_title">Më shumë cilësime</string>
+    <string name="color_adaptive_title">Përshtatu me dritën e ambientit</string>
+    <string name="color_adaptive_summary">Rregullo të bardhën e ekranit sipas ngjyrës së dritës përreth për pamje më të rehatshme</string>
+    <string name="category_color_adjust_title">Rregullimi i figurës</string>
+    <string name="color_saturation_title">Ngopja</string>
+    <string name="color_contrast_title">Kontrasti</string>
+    <string name="color_sharpness_title">Mprehtësia</string>
+    <string name="color_adjust_default">E parazgjedhur</string>
+    <string name="color_adjust_reset_title">Rivendos rregullimin e figurës</string>
+    <string name="category_color_apps_title">Aplikacionet</string>
+    <string name="color_app_profiles_enabled_title">Ndërro ngjyrën sipas aplikacionit</string>
+    <string name="color_app_profiles_enabled_summary">Përdor cilësimin e zgjedhur të ngjyrave kur aplikacioni është në plan të parë</string>
+    <string name="color_app_profiles_title">Ngjyrat e aplikacioneve</string>
+    <string name="color_app_profiles_summary">Çaktivizo përmirësimin e ngjyrave ose zgjidh mënyrën e ngjyrave për çdo aplikacion</string>
+    <string name="color_app_profile_default">Cilësimet e ngjyrave të ekranit</string>
+    <string name="color_app_profile_off">Joaktive (ngjyra të sakta)</string>
 
     <string name="perf_title">Profilet e performancës</string>
     <string name="perf_summary">Përshtat performancën dhe politikat termike të MediaTek Dimensity</string>

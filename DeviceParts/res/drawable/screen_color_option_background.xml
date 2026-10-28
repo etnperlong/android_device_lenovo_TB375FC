@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<!-- A choice card: tinted and outlined while checked. -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:attr/colorControlHighlight">
+    <item>
+        <selector>
+            <item android:state_checked="true">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/screen_color_option_corner_radius" />
+                    <solid android:color="@color/screen_color_option_checked" />
+                    <stroke
+                        android:width="2dp"
+                        android:color="@color/screen_color_option_checked_stroke" />
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/screen_color_option_corner_radius" />
+                    <solid android:color="@color/screen_color_surface" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/screen_color_option_corner_radius" />
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+</ripple>

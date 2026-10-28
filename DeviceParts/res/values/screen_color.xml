@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Stock's picture is 199dp tall on tablets (layout-sw480dp/color_mode_preview_x). -->
+    <dimen name="screen_color_image_height">200dp</dimen>
+    <dimen name="screen_color_wheel_size">240dp</dimen>
+    <dimen name="screen_color_corner_radius">24dp</dimen>
+    <dimen name="screen_color_option_corner_radius">20dp</dimen>
+
+    <!-- Material You system colors, light theme; values-night has the dark ones. -->
+    <color name="screen_color_surface">@android:color/system_surface_container_high_light</color>
+    <color name="screen_color_option_checked">@android:color/system_secondary_container_light</color>
+    <color name="screen_color_option_checked_stroke">@android:color/system_primary_light</color>
+    <color name="screen_color_option_checked_text">@android:color/system_on_secondary_container_light</color>
+    <color name="screen_color_secondary_text">@android:color/system_on_surface_variant_light</color>
+    <color name="screen_color_swatch_outline">@android:color/system_outline_variant_light</color>
+
+    <style name="ScreenColorHeading">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:accessibilityHeading">true</item>
+    </style>
+
+    <!-- A row of cards; the cards' side margins add up to the gap between them. -->
+    <style name="ScreenColorOptions">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">-6dp</item>
+        <item name="android:layout_marginEnd">-6dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="ScreenColorOption">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginStart">6dp</item>
+        <item name="android:layout_marginEnd">6dp</item>
+        <item name="android:minHeight">88dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/screen_color_option_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/screen_color_option_text</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+</resources>

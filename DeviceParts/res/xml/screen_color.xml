@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/screen_color_title">
+    <org.lineageos.settings.device.color.ColorModePreference
+        android:key="color_mode" />
+
+    <org.lineageos.settings.device.color.ColorTemperaturePreference
+        android:key="color_temperature" />
+
+    <PreferenceCategory
+        android:key="category_color_more"
+        android:title="@string/category_color_more_title">
+        <SwitchPreferenceCompat
+            android:key="color_adaptive"
+            android:title="@string/color_adaptive_title"
+            android:summary="@string/color_adaptive_summary"
+            android:persistent="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="category_color_adjust"
+        android:title="@string/category_color_adjust_title">
+        <SeekBarPreference
+            android:key="color_saturation"
+            android:title="@string/color_saturation_title"
+            android:persistent="false" />
+
+        <SeekBarPreference
+            android:key="color_contrast"
+            android:title="@string/color_contrast_title"
+            android:persistent="false" />
+
+        <SeekBarPreference
+            android:key="color_sharpness"
+            android:title="@string/color_sharpness_title"
+            android:persistent="false" />
+
+        <Preference
+            android:key="color_adjust_reset"
+            android:title="@string/color_adjust_reset_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="category_color_apps"
+        android:title="@string/category_color_apps_title">
+        <SwitchPreferenceCompat
+            android:key="color_app_profiles_enabled"
+            android:title="@string/color_app_profiles_enabled_title"
+            android:summary="@string/color_app_profiles_enabled_summary"
+            android:persistent="false" />
+
+        <Preference
+            android:key="color_app_profiles"
+            android:title="@string/color_app_profiles_title"
+            android:summary="@string/color_app_profiles_summary">
+            <intent
+                android:targetPackage="org.lineageos.settings.device"
+                android:targetClass="org.lineageos.settings.device.color.ScreenColorAppsActivity" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

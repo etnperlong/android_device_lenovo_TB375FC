@@ -7,7 +7,7 @@
     <string name="app_name">Laitteen ominaisuudet</string>
 
     <string name="device_parts_title">Laitteen ominaisuudet</string>
-    <string name="device_parts_summary">Suorituskyky, lisävarusteet, kosketus ja Dolby Atmos</string>
+    <string name="device_parts_summary">Suorituskyky, näytön värit, lisävarusteet, kosketus ja Dolby Atmos</string>
     <string name="display_parts_title">Virkistystaajuus ja kosketus</string>
     <string name="display_parts_summary">Lukutilan virkistystaajuus, kosketuspelitila</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Kosketus</string>
     <string name="category_audio_title">Ääni</string>
     <string name="category_perf_title">Suorituskyky</string>
+    <string name="category_color_title">Väri</string>
 
     <string name="pen_refresh_cap_title">Rajoita virkistystaajuus 120 Hz:iin näyttökynää käytettäessä</string>
     <string name="pen_refresh_cap_summary">Aktiivisen näyttökynän ilmoitetaan toimivan vain enintään 120 Hz:n virkistystaajuudella. Rajoitus poistuu 10 sekuntia viimeisen kynän syötteen jälkeen.</string>
@@ -65,6 +66,35 @@
     <string name="dolby_app_profiles_title">Sovellustilat</string>
     <string name="dolby_app_profiles_summary">Valitse tila kullekin sovellukselle. Tunnettujen musiikki- ja videosovellusten oletustilat ovat musiikki ja elokuva.</string>
     <string name="dolby_app_profile_default">Oletustila</string>
+    
+    <string name="screen_color_title">Näytön väri</string>
+    <string name="screen_color_summary">Väritila, värilämpötila ja sovellusvärit</string>
+    <string name="color_mode_title">Väritila</string>
+    <string name="color_mode_standard">Vakio</string>
+    <string name="color_mode_vivid">Kirkas</string>
+    <string name="color_mode_natural">Luonnollinen</string>
+    <string name="color_temperature_title">Värilämpötila</string>
+    <string name="color_temperature_standard">Vakio</string>
+    <string name="color_temperature_warm">Lämmin</string>
+    <string name="color_temperature_cool">Viileä</string>
+    <string name="color_temperature_tip">Säädä näytön sävyä napauttamalla tai vetämällä väripyörän pistettä. Palauta valitsemalla Vakio.</string>
+    <string name="color_wheel_description">Värilämpötilan väripyörä</string>
+    <string name="category_color_more_title">Lisää asetuksia</string>
+    <string name="color_adaptive_title">Mukauta ympäristön valoon</string>
+    <string name="color_adaptive_summary">Säädä näytön valkoista ympäristön valon värin mukaan, jotta katselu olisi miellyttävämpää</string>
+    <string name="category_color_adjust_title">Kuvan säätö</string>
+    <string name="color_saturation_title">Värikylläisyys</string>
+    <string name="color_contrast_title">Kontrasti</string>
+    <string name="color_sharpness_title">Terävyys</string>
+    <string name="color_adjust_default">Oletus</string>
+    <string name="color_adjust_reset_title">Palauta kuvan säädöt</string>
+    <string name="category_color_apps_title">Sovellukset</string>
+    <string name="color_app_profiles_enabled_title">Vaihda väriä sovelluksen mukaan</string>
+    <string name="color_app_profiles_enabled_summary">Käytä sovellukselle valittua väriasetusta, kun sovellus on etualalla</string>
+    <string name="color_app_profiles_title">Sovellusvärit</string>
+    <string name="color_app_profiles_summary">Poista värien parannus käytöstä tai valitse kullekin sovellukselle väritila</string>
+    <string name="color_app_profile_default">Näytön väriasetukset</string>
+    <string name="color_app_profile_off">Ei käytössä (tarkat värit)</string>
 
     <string name="perf_title">Suorituskykyprofiilit</string>
     <string name="perf_summary">Säädä MediaTek Dimensityn suorituskykyä ja lämpötilakäytäntöjä</string>

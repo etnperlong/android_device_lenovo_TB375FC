@@ -85,6 +85,31 @@
         </activity>
 
         <activity
+            android:name=".color.ScreenColorActivity"
+            android:exported="true"
+            android:label="@string/screen_color_title"
+            android:theme="@style/Theme.SubSettingsBase">
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.display" />
+            <meta-data
+                android:name="com.android.settings.keyhint"
+                android:value="display_screen_color" />
+            <meta-data
+                android:name="com.android.settings.summary"
+                android:resource="@string/screen_color_summary" />
+        </activity>
+
+        <activity
+            android:name=".color.ScreenColorAppsActivity"
+            android:exported="false"
+            android:label="@string/color_app_profiles_title"
+            android:theme="@style/Theme.SubSettingsBase" />
+
+        <activity
             android:name=".CoverPartsActivity"
             android:exported="true"
             android:label="@string/smart_cover_title"
@@ -169,6 +194,10 @@
 
         <service
             android:name=".display.DisplayPolicyService"
+            android:exported="false" />
+
+        <service
+            android:name=".color.ScreenColorService"
             android:exported="false" />
 
         <service

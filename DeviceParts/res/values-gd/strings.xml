@@ -7,7 +7,7 @@
     <string name="app_name">Feartan an uidheim</string>
 
     <string name="device_parts_title">Feartan an uidheim</string>
-    <string name="device_parts_summary">Coileanadh, goireasan, suathadh agus Dolby Atmos</string>
+    <string name="device_parts_summary">Coileanadh, dath na sgrìn, goireasan, suathadh agus Dolby Atmos</string>
     <string name="display_parts_title">Ìre ath-nuadhachaidh agus suathadh</string>
     <string name="display_parts_summary">Ìre ath-nuadhachaidh modh leughaidh, modh geama suathaidh</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Suathadh</string>
     <string name="category_audio_title">Fuaim</string>
     <string name="category_perf_title">Coileanadh</string>
+    <string name="category_color_title">Dath</string>
 
     <string name="pen_refresh_cap_title">Cuir crìoch air aig 120 Hz nuair a thathar a’ cleachdadh a’ pheann</string>
     <string name="pen_refresh_cap_summary">Chan obraich am peann gnìomhach ach suas ri 120 Hz. Thèid a’ chrìoch a thoirt air falbh 10 diogan an dèidh an in-chur peann mu dheireadh.</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">Modhan aplacaid</string>
     <string name="dolby_app_profiles_summary">Tagh am modh airson gach aplacaid. Tòisichidh aplacaidean ciùil is bhideo aithnichte leis na modhan Ceòl agus Film.</string>
     <string name="dolby_app_profile_default">Modh bunaiteach</string>
+    <string name="screen_color_title">Dath na sgrìn</string>
+    <string name="screen_color_summary">Modh dhathan, teòthachd dhathan agus dathan aplacaidean</string>
+    <string name="color_mode_title">Modh dhathan</string>
+    <string name="color_mode_standard">Coitcheann</string>
+    <string name="color_mode_vivid">Dathmhor</string>
+    <string name="color_mode_natural">Nàdarra</string>
+    <string name="color_temperature_title">Teòthachd dhathan</string>
+    <string name="color_temperature_standard">Coitcheann</string>
+    <string name="color_temperature_warm">Blàth</string>
+    <string name="color_temperature_cool">Fuar</string>
+    <string name="color_temperature_tip">Thoir gnogag air a’ phuing air a’ chuibhle dhathan no slaod i gus dath a chur air an sgrìn. Tagh Coitcheann airson tilleadh.</string>
+    <string name="color_wheel_description">Cuibhle teòthachd dhathan</string>
+    <string name="category_color_more_title">Barrachd roghainnean</string>
+    <string name="color_adaptive_title">Cuir ris an t-solas mun cuairt</string>
+    <string name="color_adaptive_summary">Atharraich geal na sgrìn a rèir dath an t-solais mun cuairt airson coimhead nas cofhurtaile</string>
+    <string name="category_color_adjust_title">Atharrachadh dhealbhan</string>
+    <string name="color_saturation_title">Sàthachd</string>
+    <string name="color_contrast_title">Iomsgaradh</string>
+    <string name="color_sharpness_title">Gèireachd</string>
+    <string name="color_adjust_default">Bunaiteach</string>
+    <string name="color_adjust_reset_title">Ath-shuidhich atharrachadh dhealbhan</string>
+    <string name="category_color_apps_title">Aplacaidean</string>
+    <string name="color_app_profiles_enabled_title">Atharraich dath a rèir na h-aplacaid</string>
+    <string name="color_app_profiles_enabled_summary">Fhad ’s a tha aplacaid air beulaibh, cleachd an suidheachadh dhathan a chaidh a thaghadh dhi</string>
+    <string name="color_app_profiles_title">Dathan aplacaidean</string>
+    <string name="color_app_profiles_summary">Cuir dheth leasachadh dhathan no tagh modh dhathan airson gach aplacaid</string>
+    <string name="color_app_profile_default">Roghainnean dath na sgrìn</string>
+    <string name="color_app_profile_off">Dheth (dathan ceart)</string>
+
 
     <string name="perf_title">Pròifilean coileanaidh</string>
     <string name="perf_summary">Atharraich coileanadh MediaTek Dimensity agus poileasaidhean teirmeach</string>

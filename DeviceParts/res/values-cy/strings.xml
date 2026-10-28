@@ -7,7 +7,7 @@
     <string name="app_name">Nodweddion y ddyfais</string>
 
     <string name="device_parts_title">Nodweddion y ddyfais</string>
-    <string name="device_parts_summary">Perfformiad, ategolion, cyffwrdd a Dolby Atmos</string>
+    <string name="device_parts_summary">Perfformiad, lliw sgrin, ategolion, cyffwrdd a Dolby Atmos</string>
     <string name="display_parts_title">Cyfradd adnewyddu a chyffwrdd</string>
     <string name="display_parts_summary">Cyfradd adnewyddu modd darllen, modd gêm cyffwrdd</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Cyffwrdd</string>
     <string name="category_audio_title">Sain</string>
     <string name="category_perf_title">Perfformiad</string>
+    <string name="category_color_title">Lliw</string>
 
     <string name="pen_refresh_cap_title">Cyfyngu i 120 Hz wrth ddefnyddio\'r ysgrifbin</string>
     <string name="pen_refresh_cap_summary">Dim ond hyd at 120 Hz y mae\'r ysgrifbin gweithredol yn gweithio. Caiff y cyfyngiad ei ddileu 10 eiliad ar ôl defnyddio\'r ysgrifbin ddiwethaf.</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">Moddau apiau</string>
     <string name="dolby_app_profiles_summary">Dewis y modd ar gyfer pob ap. Mae apiau cerddoriaeth a fideo hysbys yn dechrau gyda Cherddoriaeth a Ffilm.</string>
     <string name="dolby_app_profile_default">Modd diofyn</string>
+
+    <string name="screen_color_title">Lliw sgrin</string>
+    <string name="screen_color_summary">Modd lliw, tymheredd lliw a lliwiau apiau</string>
+    <string name="color_mode_title">Modd lliw</string>
+    <string name="color_mode_standard">Safonol</string>
+    <string name="color_mode_vivid">Bywiog</string>
+    <string name="color_mode_natural">Naturiol</string>
+    <string name="color_temperature_title">Tymheredd lliw</string>
+    <string name="color_temperature_standard">Safonol</string>
+    <string name="color_temperature_warm">Cynnes</string>
+    <string name="color_temperature_cool">Oer</string>
+    <string name="color_temperature_tip">Tapiwch neu lusgwch y dot ar yr olwyn liw i roi arlliw i\'r sgrin. Dewiswch Safonol i ddychwelyd.</string>
+    <string name="color_wheel_description">Olwyn tymheredd lliw</string>
+    <string name="category_color_more_title">Mwy o osodiadau</string>
+    <string name="color_adaptive_title">Addasu i olau amgylchynol</string>
+    <string name="color_adaptive_summary">Addasu gwyn y sgrin i liw\'r golau o\'i hamgylch er mwyn gwylio\'n fwy cyfforddus</string>
+    <string name="category_color_adjust_title">Addasu llun</string>
+    <string name="color_saturation_title">Dirlawnder</string>
+    <string name="color_contrast_title">Cyferbyniad</string>
+    <string name="color_sharpness_title">Heglurder</string>
+    <string name="color_adjust_default">Diofyn</string>
+    <string name="color_adjust_reset_title">Ailosod addasiadau llun</string>
+    <string name="category_color_apps_title">Apiau</string>
+    <string name="color_app_profiles_enabled_title">Newid lliw yn ôl ap</string>
+    <string name="color_app_profiles_enabled_summary">Tra bo ap yn y blaendir, defnyddio\'r gosodiad lliw a ddewiswyd ar ei gyfer</string>
+    <string name="color_app_profiles_title">Lliwiau apiau</string>
+    <string name="color_app_profiles_summary">Diffodd gwella lliw neu ddewis modd lliw ar gyfer pob ap</string>
+    <string name="color_app_profile_default">Gosodiadau lliw sgrin</string>
+    <string name="color_app_profile_off">I ffwrdd (lliwiau cywir)</string>
 
     <string name="perf_title">Proffiliau perfformiad</string>
     <string name="perf_summary">Addasu perfformiad MediaTek Dimensity a pholisïau thermol</string>

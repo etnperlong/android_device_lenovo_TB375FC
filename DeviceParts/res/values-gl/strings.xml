@@ -7,7 +7,7 @@
     <string name="app_name">Funcións do dispositivo</string>
 
     <string name="device_parts_title">Funcións do dispositivo</string>
-    <string name="device_parts_summary">Rendemento, accesorios, pantalla táctil e Dolby Atmos</string>
+    <string name="device_parts_summary">Rendemento, cor da pantalla, accesorios, pantalla táctil e Dolby Atmos</string>
     <string name="display_parts_title">Frecuencia de actualización e pantalla táctil</string>
     <string name="display_parts_summary">Frecuencia de actualización do modo de lectura, modo de xogo táctil</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Pantalla táctil</string>
     <string name="category_audio_title">Son</string>
     <string name="category_perf_title">Rendemento</string>
+    <string name="category_color_title">Cor</string>
 
     <string name="pen_refresh_cap_title">Limitar a 120 Hz ao usar o lapis</string>
     <string name="pen_refresh_cap_summary">O lapis activo só funciona ata 120 Hz. O límite elimínase 10 segundos despois da última interacción co lapis.</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">Modos por aplicación</string>
     <string name="dolby_app_profiles_summary">Escolle o modo para cada aplicación. As aplicacións coñecidas de música e vídeo comezan con Música e Película.</string>
     <string name="dolby_app_profile_default">Modo predeterminado</string>
+    <string name="screen_color_title">Cor da pantalla</string>
+    <string name="screen_color_summary">Modo de cor, temperatura da cor e cores das aplicacións</string>
+    <string name="color_mode_title">Modo de cor</string>
+    <string name="color_mode_standard">Estándar</string>
+    <string name="color_mode_vivid">Vivo</string>
+    <string name="color_mode_natural">Natural</string>
+    <string name="color_temperature_title">Temperatura da cor</string>
+    <string name="color_temperature_standard">Estándar</string>
+    <string name="color_temperature_warm">Cálida</string>
+    <string name="color_temperature_cool">Fría</string>
+    <string name="color_temperature_tip">Toca ou arrastra o punto da roda de cores para tinguir a pantalla. Escolle Estándar para volver.</string>
+    <string name="color_wheel_description">Roda da temperatura da cor</string>
+    <string name="category_color_more_title">Máis axustes</string>
+    <string name="color_adaptive_title">Adaptar á luz ambiental</string>
+    <string name="color_adaptive_summary">Axusta o branco da pantalla á cor da luz ambiental para unha visualización máis cómoda</string>
+    <string name="category_color_adjust_title">Axuste da imaxe</string>
+    <string name="color_saturation_title">Saturación</string>
+    <string name="color_contrast_title">Contraste</string>
+    <string name="color_sharpness_title">Nitidez</string>
+    <string name="color_adjust_default">Predeterminado</string>
+    <string name="color_adjust_reset_title">Restablecer o axuste da imaxe</string>
+    <string name="category_color_apps_title">Aplicacións</string>
+    <string name="color_app_profiles_enabled_title">Cambiar a cor segundo a aplicación</string>
+    <string name="color_app_profiles_enabled_summary">Mentres unha aplicación está en primeiro plano, usa a configuración de cor que se escolleu para ela</string>
+    <string name="color_app_profiles_title">Cores das aplicacións</string>
+    <string name="color_app_profiles_summary">Desactiva a mellora da cor ou escolle un modo de cor para cada aplicación</string>
+    <string name="color_app_profile_default">Axustes da cor da pantalla</string>
+    <string name="color_app_profile_off">Desactivado (cores precisas)</string>
+
 
     <string name="perf_title">Perfís de rendemento</string>
     <string name="perf_summary">Axustar o rendemento e as políticas térmicas de MediaTek Dimensity</string>

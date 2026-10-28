@@ -47,6 +47,19 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="category_color"
+        android:title="@string/category_color_title">
+        <Preference
+            android:key="screen_color"
+            android:title="@string/screen_color_title"
+            android:summary="@string/screen_color_summary">
+            <intent
+                android:targetPackage="org.lineageos.settings.device"
+                android:targetClass="org.lineageos.settings.device.color.ScreenColorActivity" />
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="category_display"
         android:title="@string/category_display_title">
         <SwitchPreferenceCompat

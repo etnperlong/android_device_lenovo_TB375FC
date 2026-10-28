@@ -7,7 +7,7 @@
     <string name="app_name">Funcions del dispositiu</string>
 
     <string name="device_parts_title">Funcions del dispositiu</string>
-    <string name="device_parts_summary">Rendiment, accessoris, pantalla tàctil i Dolby Atmos</string>
+    <string name="device_parts_summary">Rendiment, color de la pantalla, accessoris, pantalla tàctil i Dolby Atmos</string>
     <string name="display_parts_title">Freqüència d’actualització i pantalla tàctil</string>
     <string name="display_parts_summary">Freqüència d’actualització del mode lectura, mode de joc tàctil</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Pantalla tàctil</string>
     <string name="category_audio_title">Àudio</string>
     <string name="category_perf_title">Rendiment</string>
+    <string name="category_color_title">Color</string>
 
     <string name="pen_refresh_cap_title">Limita a 120 Hz quan facis servir el llapis</string>
     <string name="pen_refresh_cap_summary">El llapis actiu només funciona fins a 120 Hz. El límit s’elimina 10 segons després de l’última interacció amb el llapis.</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">Modes per aplicació</string>
     <string name="dolby_app_profiles_summary">Tria el mode per a cada aplicació. Les aplicacions de música i vídeo conegudes comencen amb Música i Pel·lícula.</string>
     <string name="dolby_app_profile_default">Mode predeterminat</string>
+
+    <string name="screen_color_title">Color de la pantalla</string>
+    <string name="screen_color_summary">Mode de color, temperatura del color i colors de les aplicacions</string>
+    <string name="color_mode_title">Mode de color</string>
+    <string name="color_mode_standard">Estàndard</string>
+    <string name="color_mode_vivid">Viu</string>
+    <string name="color_mode_natural">Natural</string>
+    <string name="color_temperature_title">Temperatura del color</string>
+    <string name="color_temperature_standard">Estàndard</string>
+    <string name="color_temperature_warm">Càlid</string>
+    <string name="color_temperature_cool">Fred</string>
+    <string name="color_temperature_tip">Toca o arrossega el punt de la roda de colors per tenyir la pantalla. Tria Estàndard per tornar enrere.</string>
+    <string name="color_wheel_description">Roda de temperatura del color</string>
+    <string name="category_color_more_title">Més paràmetres</string>
+    <string name="color_adaptive_title">Adapta el color a la llum ambiental</string>
+    <string name="color_adaptive_summary">Ajusta el blanc de la pantalla al color de la llum de l’entorn per veure-la amb més comoditat</string>
+    <string name="category_color_adjust_title">Ajust de la imatge</string>
+    <string name="color_saturation_title">Saturació</string>
+    <string name="color_contrast_title">Contrast</string>
+    <string name="color_sharpness_title">Nitidesa</string>
+    <string name="color_adjust_default">Predeterminat</string>
+    <string name="color_adjust_reset_title">Restableix l’ajust de la imatge</string>
+    <string name="category_color_apps_title">Aplicacions</string>
+    <string name="color_app_profiles_enabled_title">Canvia el color segons l’aplicació</string>
+    <string name="color_app_profiles_enabled_summary">Mentre una aplicació és en primer pla, fes servir el paràmetre de color que has triat per a ella</string>
+    <string name="color_app_profiles_title">Colors de les aplicacions</string>
+    <string name="color_app_profiles_summary">Desactiva la millora del color o tria un mode de color per a cada aplicació</string>
+    <string name="color_app_profile_default">Paràmetres del color de la pantalla</string>
+    <string name="color_app_profile_off">Desactivat (colors precisos)</string>
 
     <string name="perf_title">Perfils de rendiment</string>
     <string name="perf_summary">Ajusta el rendiment i les polítiques tèrmiques de MediaTek Dimensity</string>

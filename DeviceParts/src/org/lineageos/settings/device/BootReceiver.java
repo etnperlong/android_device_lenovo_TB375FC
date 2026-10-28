@@ -10,6 +10,7 @@ import android.content.Context;
 import android.content.Intent;
 
 import org.lineageos.settings.device.audio.SpeakerRotationService;
+import org.lineageos.settings.device.color.ScreenColorService;
 import org.lineageos.settings.device.cover.CoverService;
 import org.lineageos.settings.device.display.DisplayPolicyService;
 import org.lineageos.settings.device.dolby.DolbyService;
@@ -28,6 +29,7 @@ public class BootReceiver extends BroadcastReceiver {
             context.startService(new Intent(context, TapToWakeService.class));
             context.startService(new Intent(context, EdgeRejectionService.class));
             context.startService(new Intent(context, DisplayPolicyService.class));
+            context.startService(new Intent(context, ScreenColorService.class));
             context.startService(new Intent(context, CoverService.class));
             context.startService(new Intent(context, SpeakerRotationService.class));
             context.startService(new Intent(context, DolbyService.class));

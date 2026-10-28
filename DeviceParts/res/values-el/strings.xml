@@ -7,7 +7,7 @@
     <string name="app_name">Λειτουργίες συσκευής</string>
 
     <string name="device_parts_title">Λειτουργίες συσκευής</string>
-    <string name="device_parts_summary">Απόδοση, επίσημα αξεσουάρ, αφή και Dolby Atmos</string>
+    <string name="device_parts_summary">Απόδοση, χρώμα οθόνης, επίσημα αξεσουάρ, αφή και Dolby Atmos</string>
     <string name="display_parts_title">Ρυθμός ανανέωσης και αφή</string>
     <string name="display_parts_summary">Ρυθμός ανανέωσης λειτουργίας ανάγνωσης, λειτουργία παιχνιδιού αφής</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Αφή</string>
     <string name="category_audio_title">Ήχος</string>
     <string name="category_perf_title">Απόδοση</string>
+    <string name="category_color_title">Χρώμα</string>
 
     <string name="pen_refresh_cap_title">Περιορισμός στα 120 Hz κατά τη χρήση της γραφίδας</string>
     <string name="pen_refresh_cap_summary">Η ενεργή γραφίδα αναφέρεται ότι λειτουργεί μόνο έως τα 120 Hz. Το όριο καταργείται 10 δευτερόλεπτα μετά την τελευταία είσοδο από τη γραφίδα.</string>
@@ -65,6 +66,35 @@
     <string name="dolby_app_profiles_title">Λειτουργίες εφαρμογών</string>
     <string name="dolby_app_profiles_summary">Επιλέξτε λειτουργία για κάθε εφαρμογή. Οι γνωστές εφαρμογές μουσικής και βίντεο ξεκινούν με τις λειτουργίες Μουσική και Ταινία αντίστοιχα.</string>
     <string name="dolby_app_profile_default">Προεπιλεγμένη λειτουργία</string>
+
+    <string name="screen_color_title">Χρώμα οθόνης</string>
+    <string name="screen_color_summary">Λειτουργία χρώματος, θερμοκρασία χρώματος και χρώματα εφαρμογών</string>
+    <string name="color_mode_title">Λειτουργία χρώματος</string>
+    <string name="color_mode_standard">Τυπική</string>
+    <string name="color_mode_vivid">Ζωντανή</string>
+    <string name="color_mode_natural">Φυσική</string>
+    <string name="color_temperature_title">Θερμοκρασία χρώματος</string>
+    <string name="color_temperature_standard">Τυπική</string>
+    <string name="color_temperature_warm">Θερμή</string>
+    <string name="color_temperature_cool">Ψυχρή</string>
+    <string name="color_temperature_tip">Αγγίξτε ή σύρετε την κουκκίδα στον χρωματικό κύκλο για να αλλάξετε την απόχρωση της οθόνης. Επιλέξτε «Τυπική» για να επαναφέρετε την αρχική ρύθμιση.</string>
+    <string name="color_wheel_description">Κύκλος θερμοκρασίας χρώματος</string>
+    <string name="category_color_more_title">Περισσότερες ρυθμίσεις</string>
+    <string name="color_adaptive_title">Προσαρμογή στο φως περιβάλλοντος</string>
+    <string name="color_adaptive_summary">Προσαρμόστε το λευκό της οθόνης στο χρώμα του περιβάλλοντος φωτός για πιο άνετη προβολή</string>
+    <string name="category_color_adjust_title">Ρύθμιση εικόνας</string>
+    <string name="color_saturation_title">Κορεσμός</string>
+    <string name="color_contrast_title">Αντίθεση</string>
+    <string name="color_sharpness_title">Ευκρίνεια</string>
+    <string name="color_adjust_default">Προεπιλογή</string>
+    <string name="color_adjust_reset_title">Επαναφορά ρύθμισης εικόνας</string>
+    <string name="category_color_apps_title">Εφαρμογές</string>
+    <string name="color_app_profiles_enabled_title">Εναλλαγή χρώματος ανά εφαρμογή</string>
+    <string name="color_app_profiles_enabled_summary">Όταν μια εφαρμογή βρίσκεται στο προσκήνιο, χρήση της επιλεγμένης για αυτή ρύθμισης χρώματος</string>
+    <string name="color_app_profiles_title">Χρώματα εφαρμογών</string>
+    <string name="color_app_profiles_summary">Απενεργοποιήστε τη βελτίωση χρώματος ή επιλέξτε λειτουργία χρώματος για κάθε εφαρμογή</string>
+    <string name="color_app_profile_default">Ρυθμίσεις χρώματος οθόνης</string>
+    <string name="color_app_profile_off">Ανενεργό (ακριβή χρώματα)</string>
 
     <string name="perf_title">Προφίλ απόδοσης</string>
     <string name="perf_summary">Προσαρμογή της απόδοσης MediaTek Dimensity και των πολιτικών θερμότητας</string>

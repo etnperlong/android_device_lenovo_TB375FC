@@ -7,7 +7,7 @@
     <string name="app_name">పరికర ఫీచర్‌లు</string>
 
     <string name="device_parts_title">పరికర ఫీచర్‌లు</string>
-    <string name="device_parts_summary">పనితీరు, ఉపకరణాలు, టచ్ మరియు Dolby Atmos</string>
+    <string name="device_parts_summary">పనితీరు, స్క్రీన్ రంగు, ఉపకరణాలు, టచ్ మరియు Dolby Atmos</string>
     <string name="display_parts_title">రిఫ్రెష్ రేట్ మరియు టచ్</string>
     <string name="display_parts_summary">రీడింగ్ మోడ్ రిఫ్రెష్ రేట్, టచ్ గేమ్ మోడ్</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">టచ్</string>
     <string name="category_audio_title">ఆడియో</string>
     <string name="category_perf_title">పనితీరు</string>
+    <string name="category_color_title">రంగు</string>
 
     <string name="pen_refresh_cap_title">స్టయిలస్‌ను ఉపయోగిస్తున్నప్పుడు 120 Hzకు పరిమితం చేయండి</string>
     <string name="pen_refresh_cap_summary">యాక్టివ్ స్టయిలస్ గరిష్ఠంగా 120 Hz వరకు మాత్రమే పనిచేస్తుందని నివేదించబడింది. స్టయిలస్‌తో చివరిసారి ఇన్‌పుట్ ఇచ్చిన 10 సెకన్ల తర్వాత పరిమితి తొలగుతుంది.</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">యాప్ మోడ్‌లు</string>
     <string name="dolby_app_profiles_summary">ప్రతి యాప్‌కు మోడ్‌ను ఎంచుకోండి. తెలిసిన సంగీత, వీడియో యాప్‌లకు మొదటగా సంగీతం, సినిమా మోడ్‌లు సెట్ చేయబడతాయి.</string>
     <string name="dolby_app_profile_default">డిఫాల్ట్ మోడ్</string>
+
+    <string name="screen_color_title">స్క్రీన్ రంగు</string>
+    <string name="screen_color_summary">రంగు మోడ్, రంగు ఉష్ణోగ్రత మరియు యాప్ రంగులు</string>
+    <string name="color_mode_title">రంగు మోడ్</string>
+    <string name="color_mode_standard">స్టాండర్డ్</string>
+    <string name="color_mode_vivid">ప్రకాశవంతమైన</string>
+    <string name="color_mode_natural">సహజమైన</string>
+    <string name="color_temperature_title">రంగు ఉష్ణోగ్రత</string>
+    <string name="color_temperature_standard">స్టాండర్డ్</string>
+    <string name="color_temperature_warm">వెచ్చని</string>
+    <string name="color_temperature_cool">చల్లని</string>
+    <string name="color_temperature_tip">స్క్రీన్‌కు రంగు పులమడానికి కలర్ వీల్‌పై ఉన్న చుక్కను నొక్కండి లేదా లాగండి. తిరిగి వెళ్లడానికి స్టాండర్డ్‌ను ఎంచుకోండి.</string>
+    <string name="color_wheel_description">రంగు ఉష్ణోగ్రత వీల్</string>
+    <string name="category_color_more_title">మరిన్ని సెట్టింగ్‌లు</string>
+    <string name="color_adaptive_title">పరిసర కాంతికి అనుగుణంగా మార్చండి</string>
+    <string name="color_adaptive_summary">సౌకర్యవంతంగా వీక్షించడానికి చుట్టుపక్కల కాంతి రంగుకు అనుగుణంగా స్క్రీన్ తెలుపు రంగును సర్దుబాటు చేయండి</string>
+    <string name="category_color_adjust_title">చిత్ర సర్దుబాటు</string>
+    <string name="color_saturation_title">సంతృప్తత</string>
+    <string name="color_contrast_title">కాంట్రాస్ట్</string>
+    <string name="color_sharpness_title">షార్ప్‌నెస్</string>
+    <string name="color_adjust_default">డిఫాల్ట్</string>
+    <string name="color_adjust_reset_title">చిత్ర సర్దుబాటును రీసెట్ చేయండి</string>
+    <string name="category_color_apps_title">యాప్‌లు</string>
+    <string name="color_app_profiles_enabled_title">యాప్‌ను బట్టి రంగు మార్చండి</string>
+    <string name="color_app_profiles_enabled_summary">యాప్ ముందుభాగంలో ఉన్నప్పుడు దాని కోసం ఎంచుకున్న రంగు సెట్టింగ్‌ను ఉపయోగించండి</string>
+    <string name="color_app_profiles_title">యాప్ రంగులు</string>
+    <string name="color_app_profiles_summary">రంగు మెరుగుదలని ఆఫ్ చేయండి లేదా ప్రతి యాప్‌కు రంగు మోడ్‌ను ఎంచుకోండి</string>
+    <string name="color_app_profile_default">స్క్రీన్ రంగు సెట్టింగ్‌లు</string>
+    <string name="color_app_profile_off">ఆఫ్ (ఖచ్చితమైన రంగులు)</string>
 
     <string name="perf_title">పనితీరు ప్రొఫైళ్లు</string>
     <string name="perf_summary">MediaTek Dimensity పనితీరు, థర్మల్ విధానాలను సర్దుబాటు చేయండి</string>

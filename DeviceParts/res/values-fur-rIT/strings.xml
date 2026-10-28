@@ -7,7 +7,7 @@
     <string name="app_name">Funzions dal dispositîf</string>
 
     <string name="device_parts_title">Funzions dal dispositîf</string>
-    <string name="device_parts_summary">Prestazions, acèsoris uficiâi, toc e Dolby Atmos</string>
+    <string name="device_parts_summary">Prestazions, colôr dal schermi, acèsoris uficiâi, toc e Dolby Atmos</string>
     <string name="display_parts_title">Frecuence di inzornament e toc</string>
     <string name="display_parts_summary">Frecuence di inzornament de modalitât leture, modalitât zûc dal toc</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Toc</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Prestazions</string>
+    <string name="category_color_title">Colôr</string>
 
     <string name="pen_refresh_cap_title">Limitâ a 120 Hz cuant che si dopre la pene</string>
     <string name="pen_refresh_cap_summary">La pene ative e funzione dome fin a 120 Hz. Il limit al ven gjavât 10 seconts dopo l’ultin toc de pene.</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">Modalitâts des apps</string>
     <string name="dolby_app_profiles_summary">Sielzi la modalitât par ogni app. Lis apps cognossudis di musiche e video a partissin cun Musiche e Film.</string>
     <string name="dolby_app_profile_default">Modalitât predefinide</string>
+    <string name="screen_color_title">Colôr dal schermi</string>
+    <string name="screen_color_summary">Modalitât colôr, temperature dal colôr e colôrs des apps</string>
+    <string name="color_mode_title">Modalitât colôr</string>
+    <string name="color_mode_standard">Standard</string>
+    <string name="color_mode_vivid">Viv</string>
+    <string name="color_mode_natural">Naturâl</string>
+    <string name="color_temperature_title">Temperature dal colôr</string>
+    <string name="color_temperature_standard">Standard</string>
+    <string name="color_temperature_warm">Cjalde</string>
+    <string name="color_temperature_cool">Frede</string>
+    <string name="color_temperature_tip">Toche o strissine il pont sul cercli dai colôrs par cambiâ la tonalitât dal schermi. Sielç Standard par tornâ indaûr.</string>
+    <string name="color_wheel_description">Cercli de temperature dal colôr</string>
+    <string name="category_color_more_title">Altris impostazions</string>
+    <string name="color_adaptive_title">Adate ae lûs ambientâl</string>
+    <string name="color_adaptive_summary">Adate il blanc dal schermi al colôr de lûs dal ambient par vê une vision plui comude</string>
+    <string name="category_color_adjust_title">Regolazion de imagjin</string>
+    <string name="color_saturation_title">Saturazion</string>
+    <string name="color_contrast_title">Contrast</string>
+    <string name="color_sharpness_title">Nitidece</string>
+    <string name="color_adjust_default">Predefinît</string>
+    <string name="color_adjust_reset_title">Ripristine lis regolazions de imagjin</string>
+    <string name="category_color_apps_title">Apps</string>
+    <string name="color_app_profiles_enabled_title">Cambie colôr par app</string>
+    <string name="color_app_profiles_enabled_summary">Cuant che une app e je in prin plan, dopre la impostazion di colôr sielzude par jê</string>
+    <string name="color_app_profiles_title">Colôrs des apps</string>
+    <string name="color_app_profiles_summary">Disative il miorament dai colôrs o sielç une modalitât colôr par ogni app</string>
+    <string name="color_app_profile_default">Impostazions dal colôr dal schermi</string>
+    <string name="color_app_profile_off">Disativât (colôrs precîs)</string>
+
 
     <string name="perf_title">Profîi di prestazions</string>
     <string name="perf_summary">Regule lis prestazions di MediaTek Dimensity e lis politichis termichis</string>

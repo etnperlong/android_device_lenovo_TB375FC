@@ -7,7 +7,7 @@
     <string name="app_name">Funciones del dispositivo</string>
 
     <string name="device_parts_title">Funciones del dispositivo</string>
-    <string name="device_parts_summary">Rendimiento, accesorios, pantalla táctil y Dolby Atmos</string>
+    <string name="device_parts_summary">Rendimiento, color de pantalla, accesorios, pantalla táctil y Dolby Atmos</string>
     <string name="display_parts_title">Frecuencia de actualización y pantalla táctil</string>
     <string name="display_parts_summary">Frecuencia de actualización del modo de lectura, modo de juego táctil</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Pantalla táctil</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Rendimiento</string>
+    <string name="category_color_title">Color</string>
 
     <string name="pen_refresh_cap_title">Limitar a 120 Hz al usar la pluma stylus</string>
     <string name="pen_refresh_cap_summary">Se informó que la pluma stylus activa funciona solo hasta 120 Hz. El límite se quita 10 segundos después de la última interacción con la pluma.</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">Modos por app</string>
     <string name="dolby_app_profiles_summary">Elige el modo para cada app. Las apps conocidas de música y video empiezan con Música y Película.</string>
     <string name="dolby_app_profile_default">Modo predeterminado</string>
+
+    <string name="screen_color_title">Color de pantalla</string>
+    <string name="screen_color_summary">Modo de color, temperatura del color y colores de apps</string>
+    <string name="color_mode_title">Modo de color</string>
+    <string name="color_mode_standard">Estándar</string>
+    <string name="color_mode_vivid">Vívido</string>
+    <string name="color_mode_natural">Natural</string>
+    <string name="color_temperature_title">Temperatura del color</string>
+    <string name="color_temperature_standard">Estándar</string>
+    <string name="color_temperature_warm">Cálida</string>
+    <string name="color_temperature_cool">Fría</string>
+    <string name="color_temperature_tip">Toca o arrastra el punto del círculo cromático para cambiar el tono de la pantalla. Selecciona Estándar para volver.</string>
+    <string name="color_wheel_description">Círculo de temperatura del color</string>
+    <string name="category_color_more_title">Más opciones</string>
+    <string name="color_adaptive_title">Adaptar a la luz ambiental</string>
+    <string name="color_adaptive_summary">Ajusta el blanco de la pantalla al color de la luz del entorno para verla con más comodidad</string>
+    <string name="category_color_adjust_title">Ajuste de imagen</string>
+    <string name="color_saturation_title">Saturación</string>
+    <string name="color_contrast_title">Contraste</string>
+    <string name="color_sharpness_title">Nitidez</string>
+    <string name="color_adjust_default">Predeterminado</string>
+    <string name="color_adjust_reset_title">Restablecer ajuste de imagen</string>
+    <string name="category_color_apps_title">Apps</string>
+    <string name="color_app_profiles_enabled_title">Cambiar el color según la app</string>
+    <string name="color_app_profiles_enabled_summary">Mientras una app está en primer plano, usar el ajuste de color elegido para ella</string>
+    <string name="color_app_profiles_title">Colores de apps</string>
+    <string name="color_app_profiles_summary">Desactiva la mejora del color o elige un modo de color para cada app</string>
+    <string name="color_app_profile_default">Ajustes de color de pantalla</string>
+    <string name="color_app_profile_off">Desactivado (colores precisos)</string>
 
     <string name="perf_title">Perfiles de rendimiento</string>
     <string name="perf_summary">Ajustar el rendimiento y las políticas térmicas de MediaTek Dimensity</string>

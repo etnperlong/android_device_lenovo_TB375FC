@@ -8,7 +8,7 @@
 
     <!-- Settings entry points -->
     <string name="device_parts_title">Device parts</string>
-    <string name="device_parts_summary">Performance, accessories, touch and Dolby Atmos</string>
+    <string name="device_parts_summary">Performance, screen color, accessories, touch and Dolby Atmos</string>
     <string name="display_parts_title">Refresh rate and touch</string>
     <string name="display_parts_summary">Reading mode refresh rate, touch game mode</string>
 
@@ -17,6 +17,7 @@
     <string name="category_touch_title">Touch</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Performance</string>
+    <string name="category_color_title">Color</string>
 
     <string name="pen_refresh_cap_title">Limit to 120 Hz while using the pen</string>
     <string name="pen_refresh_cap_summary">The active pen is reported to work only up to 120 Hz. The limit lifts 10 seconds after the last pen input.</string>
@@ -71,6 +72,36 @@
     <string name="dolby_app_profiles_title">App modes</string>
     <string name="dolby_app_profiles_summary">Choose the mode for each app. Known music and video apps start with Music and Movie.</string>
     <string name="dolby_app_profile_default">Default mode</string>
+
+    <!-- Screen color -->
+    <string name="screen_color_title">Screen color</string>
+    <string name="screen_color_summary">Color mode, color temperature and app colors</string>
+    <string name="color_mode_title">Color mode</string>
+    <string name="color_mode_standard">Standard</string>
+    <string name="color_mode_vivid">Vivid</string>
+    <string name="color_mode_natural">Natural</string>
+    <string name="color_temperature_title">Color temperature</string>
+    <string name="color_temperature_standard">Standard</string>
+    <string name="color_temperature_warm">Warm</string>
+    <string name="color_temperature_cool">Cool</string>
+    <string name="color_temperature_tip">Tap or drag the dot on the color wheel to tint the screen. Choose Standard to go back.</string>
+    <string name="color_wheel_description">Color temperature wheel</string>
+    <string name="category_color_more_title">More settings</string>
+    <string name="color_adaptive_title">Adapt to ambient light</string>
+    <string name="color_adaptive_summary">Adjust the screen\'s white to the color of the surrounding light, for more comfortable viewing</string>
+    <string name="category_color_adjust_title">Picture adjustment</string>
+    <string name="color_saturation_title">Saturation</string>
+    <string name="color_contrast_title">Contrast</string>
+    <string name="color_sharpness_title">Sharpness</string>
+    <string name="color_adjust_default">Default</string>
+    <string name="color_adjust_reset_title">Reset picture adjustment</string>
+    <string name="category_color_apps_title">Apps</string>
+    <string name="color_app_profiles_enabled_title">Switch color by app</string>
+    <string name="color_app_profiles_enabled_summary">While an app is in front, use the color setting chosen for it</string>
+    <string name="color_app_profiles_title">App colors</string>
+    <string name="color_app_profiles_summary">Turn color enhancement off or choose a color mode for each app</string>
+    <string name="color_app_profile_default">Screen color settings</string>
+    <string name="color_app_profile_off">Off (accurate colors)</string>
 
     <!-- Performance profiles -->
     <string name="perf_title">Performance profiles</string>

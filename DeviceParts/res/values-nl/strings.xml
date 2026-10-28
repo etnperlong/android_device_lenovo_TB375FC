@@ -7,7 +7,7 @@
     <string name="app_name">Apparaatfuncties</string>
 
     <string name="device_parts_title">Apparaatfuncties</string>
-    <string name="device_parts_summary">Prestaties, accessoires, touch en Dolby Atmos</string>
+    <string name="device_parts_summary">Prestaties, schermkleuren, accessoires, touch en Dolby Atmos</string>
     <string name="display_parts_title">Vernieuwingssnelheid en touch</string>
     <string name="display_parts_summary">Vernieuwingssnelheid in leesmodus, touchgamemodus</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Touch</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Prestaties</string>
+    <string name="category_color_title">Kleur</string>
 
     <string name="pen_refresh_cap_title">Beperk de vernieuwingssnelheid tot 120 Hz bij gebruik van de stylus</string>
     <string name="pen_refresh_cap_summary">Volgens de melding werkt de actieve stylus slechts tot 120 Hz. De limiet wordt 10 seconden na de laatste peninvoer opgeheven.</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">App-modi</string>
     <string name="dolby_app_profiles_summary">Kies de modus voor elke app. Bekende muziek- en video-apps starten met de muziek- en filmmodus.</string>
     <string name="dolby_app_profile_default">Standaardmodus</string>
+
+    <string name="screen_color_title">Schermkleuren</string>
+    <string name="screen_color_summary">Kleurmodus, kleurtemperatuur en app-kleuren</string>
+    <string name="color_mode_title">Kleurmodus</string>
+    <string name="color_mode_standard">Standaard</string>
+    <string name="color_mode_vivid">Levendig</string>
+    <string name="color_mode_natural">Natuurlijk</string>
+    <string name="color_temperature_title">Kleurtemperatuur</string>
+    <string name="color_temperature_standard">Standaard</string>
+    <string name="color_temperature_warm">Warm</string>
+    <string name="color_temperature_cool">Koel</string>
+    <string name="color_temperature_tip">Tik op de kleurencirkel of sleep de stip om de tint van het scherm aan te passen. Selecteer ‘Standaard’ om de oorspronkelijke instelling te herstellen.</string>
+    <string name="color_wheel_description">Kleurtemperatuurcirkel</string>
+    <string name="category_color_more_title">Meer instellingen</string>
+    <string name="color_adaptive_title">Adaptieve omgevingskleur</string>
+    <string name="color_adaptive_summary">Pas het witpunt van het scherm aan de kleur van het omgevingslicht aan voor comfortabeler kijken</string>
+    <string name="category_color_adjust_title">Beeld aanpassen</string>
+    <string name="color_saturation_title">Verzadiging</string>
+    <string name="color_contrast_title">Contrast</string>
+    <string name="color_sharpness_title">Scherpte</string>
+    <string name="color_adjust_default">Standaard</string>
+    <string name="color_adjust_reset_title">Standaard beeldinstellingen herstellen</string>
+    <string name="category_color_apps_title">Apps</string>
+    <string name="color_app_profiles_enabled_title">Kleur per app wijzigen</string>
+    <string name="color_app_profiles_enabled_summary">Gebruik de gekozen kleurinstellingen voor een app wanneer deze op de voorgrond staat</string>
+    <string name="color_app_profiles_title">App-kleuren</string>
+    <string name="color_app_profiles_summary">Schakel kleurverbetering uit of kies een kleurmodus voor elke app</string>
+    <string name="color_app_profile_default">Instelling voor schermkleuren volgen</string>
+    <string name="color_app_profile_off">Uit (nauwkeurige kleuren)</string>
 
     <string name="perf_title">Prestatieprofielen</string>
     <string name="perf_summary">Prestaties en thermisch beleid van MediaTek Dimensity afstellen</string>

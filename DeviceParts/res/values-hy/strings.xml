@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Սարքի գործառույթներ</string>
     <string name="device_parts_title">Սարքի գործառույթներ</string>
-    <string name="device_parts_summary">Արտադրողականություն, աքսեսուարներ, հպում և Dolby Atmos</string>
+    <string name="device_parts_summary">Արտադրողականություն, էկրանի գույն, աքսեսուարներ, հպում և Dolby Atmos</string>
     <string name="display_parts_title">Թարմացման հաճախականություն և հպում</string>
     <string name="display_parts_summary">Ընթերցման ռեժիմի թարմացման հաճախականություն, հպման խաղային ռեժիմ</string>
     <string name="category_accessories_title">Պաշտոնական աքսեսուարներ</string>
@@ -14,6 +14,7 @@
     <string name="category_touch_title">Հպում</string>
     <string name="category_audio_title">Ձայն</string>
     <string name="category_perf_title">Արտադրողականություն</string>
+    <string name="category_color_title">Գույն</string>
     <string name="pen_refresh_cap_title">Ստիլուսն օգտագործելիս սահմանափակել մինչև 120 Հց</string>
     <string name="pen_refresh_cap_summary">Ըստ տեղեկությունների՝ ակտիվ ստիլուսն աշխատում է առավելագույնը 120 Հց հաճախականությամբ։ Սահմանափակումը վերացվում է ստիլուսի վերջին մուտքագրումից 10 վայրկյան անց։</string>
     <string name="reading_low_refresh_title">30 Հց՝ ընթերցման ռեժիմում</string>
@@ -61,6 +62,35 @@
     <string name="dolby_app_profiles_title">Հավելվածների ռեժիմներ</string>
     <string name="dolby_app_profiles_summary">Ընտրեք յուրաքանչյուր հավելվածի ռեժիմը։ Երաժշտության և տեսանյութերի հայտնի հավելվածները սկսում են համապատասխան ռեժիմներով։</string>
     <string name="dolby_app_profile_default">Կանխադրված ռեժիմ</string>
+    
+    <string name="screen_color_title">Էկրանի գույն</string>
+    <string name="screen_color_summary">Գունային ռեժիմ, գունային ջերմաստիճան և հավելվածների գույներ</string>
+    <string name="color_mode_title">Գունային ռեժիմ</string>
+    <string name="color_mode_standard">Ստանդարտ</string>
+    <string name="color_mode_vivid">Վառ</string>
+    <string name="color_mode_natural">Բնական</string>
+    <string name="color_temperature_title">Գունային ջերմաստիճան</string>
+    <string name="color_temperature_standard">Ստանդարտ</string>
+    <string name="color_temperature_warm">Տաք</string>
+    <string name="color_temperature_cool">Սառը</string>
+    <string name="color_temperature_tip">Էկրանի երանգը փոխելու համար հպեք կամ քաշեք գունային անիվի կետը։ Վերադառնալու համար ընտրեք «Ստանդարտ»։</string>
+    <string name="color_wheel_description">Գունային ջերմաստիճանի անիվ</string>
+    <string name="category_color_more_title">Լրացուցիչ կարգավորումներ</string>
+    <string name="color_adaptive_title">Հարմարեցնել շրջակա լույսին</string>
+    <string name="color_adaptive_summary">Ավելի հարմար դիտելու համար էկրանի սպիտակ գույնը հարմարեցնել շրջակա լույսի գույնին</string>
+    <string name="category_color_adjust_title">Պատկերի կարգավորում</string>
+    <string name="color_saturation_title">Հագեցվածություն</string>
+    <string name="color_contrast_title">Հակադրություն</string>
+    <string name="color_sharpness_title">Սրություն</string>
+    <string name="color_adjust_default">Կանխադրված</string>
+    <string name="color_adjust_reset_title">Վերակայել պատկերի կարգավորումները</string>
+    <string name="category_color_apps_title">Հավելվածներ</string>
+    <string name="color_app_profiles_enabled_title">Փոխել գույնը՝ ըստ հավելվածի</string>
+    <string name="color_app_profiles_enabled_summary">Երբ հավելվածն առջևում է, օգտագործել դրա համար ընտրված գունային կարգավորումը</string>
+    <string name="color_app_profiles_title">Հավելվածների գույներ</string>
+    <string name="color_app_profiles_summary">Անջատել գունային բարելավումը կամ ընտրել գունային ռեժիմ յուրաքանչյուր հավելվածի համար</string>
+    <string name="color_app_profile_default">Էկրանի գույնի կարգավորումներ</string>
+    <string name="color_app_profile_off">Անջատված (ճշգրիտ գույներ)</string>
     <string name="perf_title">Արտադրողականության պրոֆիլներ</string>
     <string name="perf_summary">Կարգավորել MediaTek Dimensity-ի արտադրողականությունն ու ջերմային քաղաքականությունը</string>
     <string name="perf_enabled_title">Կարգավորել արտադրողականությունն ըստ հավելվածի</string>

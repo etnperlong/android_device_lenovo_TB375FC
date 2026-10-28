@@ -7,7 +7,7 @@
     <string name="app_name">ಸಾಧನ ವೈಶಿಷ್ಟ್ಯಗಳು</string>
 
     <string name="device_parts_title">ಸಾಧನ ವೈಶಿಷ್ಟ್ಯಗಳು</string>
-    <string name="device_parts_summary">ಕಾರ್ಯಕ್ಷಮತೆ, ಪರಿಕರಗಳು, ಸ್ಪರ್ಶ ನಿಯಂತ್ರಣ ಮತ್ತು Dolby Atmos</string>
+    <string name="device_parts_summary">ಕಾರ್ಯಕ್ಷಮತೆ, ಪರಿಕರಗಳು, ಪರದೆ ಬಣ್ಣ, ಸ್ಪರ್ಶ ನಿಯಂತ್ರಣ ಮತ್ತು Dolby Atmos</string>
     <string name="display_parts_title">ರಿಫ್ರೆಶ್ ರೇಟ್ ಮತ್ತು ಸ್ಪರ್ಶ</string>
     <string name="display_parts_summary">ಓದುವ ರೀತಿಯ ರಿಫ್ರೆಶ್ ರೇಟ್, ಟಚ್ ಗೇಮ್ ಮೋಡ್</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">ಸ್ಪರ್ಶ</string>
     <string name="category_audio_title">ಆಡಿಯೋ</string>
     <string name="category_perf_title">ಕಾರ್ಯಕ್ಷಮತೆ</string>
+    <string name="category_color_title">ಬಣ್ಣ</string>
 
     <string name="pen_refresh_cap_title">ಸ್ಟೈಲಸ್ ಬಳಸುವಾಗ 120 Hz ಗೆ ಮಿತಿಗೊಳಿಸಿ</string>
     <string name="pen_refresh_cap_summary">ಸಕ್ರಿಯ ಸ್ಟೈಲಸ್ 120 Hz ವರೆಗೆ ಮಾತ್ರ ಕೆಲಸ ಮಾಡುತ್ತದೆ ಎಂದು ವರದಿಯಾಗಿದೆ. ಕೊನೆಯ ಸ್ಟೈಲಸ್ ಇನ್‌ಪುಟ್‌ನ 10 ಸೆಕೆಂಡುಗಳ ನಂತರ ಮಿತಿ ತೆರವುಗೊಳ್ಳುತ್ತದೆ.</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">ಆ್ಯಪ್ ಮೋಡ್‌ಗಳು</string>
     <string name="dolby_app_profiles_summary">ಪ್ರತಿ ಆ್ಯಪ್‌ಗೆ ಮೋಡ್ ಆಯ್ಕೆಮಾಡಿ. ಪರಿಚಿತ ಸಂಗೀತ ಮತ್ತು ವೀಡಿಯೊ ಆ್ಯಪ್‌ಗಳು ಆರಂಭದಲ್ಲಿ ಸಂಗೀತ ಮತ್ತು ಸಿನಿಮಾ ಮೋಡ್‌ಗಳನ್ನು ಬಳಸುತ್ತವೆ.</string>
     <string name="dolby_app_profile_default">ಡೀಫಾಲ್ಟ್ ಮೋಡ್</string>
+
+    <string name="screen_color_title">ಪರದೆ ಬಣ್ಣ</string>
+    <string name="screen_color_summary">ಬಣ್ಣದ ಮೋಡ್, ಬಣ್ಣದ ತಾಪಮಾನ ಮತ್ತು ಆ್ಯಪ್‌ಗಳ ಬಣ್ಣಗಳು</string>
+    <string name="color_mode_title">ಬಣ್ಣದ ಮೋಡ್</string>
+    <string name="color_mode_standard">ಸ್ಟ್ಯಾಂಡರ್ಡ್</string>
+    <string name="color_mode_vivid">ಎದ್ದುಕಾಣುವ</string>
+    <string name="color_mode_natural">ನೈಸರ್ಗಿಕ</string>
+    <string name="color_temperature_title">ಬಣ್ಣದ ತಾಪಮಾನ</string>
+    <string name="color_temperature_standard">ಸ್ಟ್ಯಾಂಡರ್ಡ್</string>
+    <string name="color_temperature_warm">ಬೆಚ್ಚಗಿನ</string>
+    <string name="color_temperature_cool">ತಂಪಾದ</string>
+    <string name="color_temperature_tip">ಪರದೆಗೆ ಬಣ್ಣದ ಛಾಯೆ ನೀಡಲು ಬಣ್ಣದ ಚಕ್ರದಲ್ಲಿರುವ ಚುಕ್ಕೆಯನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ ಅಥವಾ ಎಳೆಯಿರಿ. ಹಿಂದಿನ ಸ್ಥಿತಿಗೆ ಮರಳಲು ಸ್ಟ್ಯಾಂಡರ್ಡ್ ಆಯ್ಕೆಮಾಡಿ.</string>
+    <string name="color_wheel_description">ಬಣ್ಣದ ತಾಪಮಾನದ ಚಕ್ರ</string>
+    <string name="category_color_more_title">ಇನ್ನಷ್ಟು ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="color_adaptive_title">ಪರಿಸರದ ಬೆಳಕಿಗೆ ಹೊಂದಿಸಿ</string>
+    <string name="color_adaptive_summary">ಹೆಚ್ಚು ಆರಾಮವಾಗಿ ವೀಕ್ಷಿಸಲು, ಸುತ್ತಮುತ್ತಲಿನ ಬೆಳಕಿನ ಬಣ್ಣಕ್ಕೆ ತಕ್ಕಂತೆ ಪರದೆಯ ಬಿಳಿ ಬಣ್ಣವನ್ನು ಹೊಂದಿಸಿ</string>
+    <string name="category_color_adjust_title">ಚಿತ್ರ ಹೊಂದಾಣಿಕೆ</string>
+    <string name="color_saturation_title">ಸ್ಯಾಚುರೇಶನ್</string>
+    <string name="color_contrast_title">ಕಾಂಟ್ರಾಸ್ಟ್</string>
+    <string name="color_sharpness_title">ತೀಕ್ಷ್ಣತೆ</string>
+    <string name="color_adjust_default">ಡೀಫಾಲ್ಟ್</string>
+    <string name="color_adjust_reset_title">ಚಿತ್ರ ಹೊಂದಾಣಿಕೆಯನ್ನು ಮರುಹೊಂದಿಸಿ</string>
+    <string name="category_color_apps_title">ಆ್ಯಪ್‌ಗಳು</string>
+    <string name="color_app_profiles_enabled_title">ಆ್ಯಪ್‌ನಂತೆ ಬಣ್ಣ ಬದಲಿಸಿ</string>
+    <string name="color_app_profiles_enabled_summary">ಆ್ಯಪ್ ಮುಂಭಾಗದಲ್ಲಿರುವಾಗ, ಅದಕ್ಕಾಗಿ ಆಯ್ಕೆಮಾಡಿದ ಬಣ್ಣದ ಸೆಟ್ಟಿಂಗ್ ಬಳಸಿ</string>
+    <string name="color_app_profiles_title">ಆ್ಯಪ್‌ಗಳ ಬಣ್ಣಗಳು</string>
+    <string name="color_app_profiles_summary">ಬಣ್ಣ ವರ್ಧನೆಯನ್ನು ಆಫ್ ಮಾಡಿ ಅಥವಾ ಪ್ರತಿಯೊಂದು ಆ್ಯಪ್‌ಗೆ ಬಣ್ಣದ ಮೋಡ್ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="color_app_profile_default">ಪರದೆ ಬಣ್ಣದ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="color_app_profile_off">ಆಫ್ (ನಿಖರವಾದ ಬಣ್ಣಗಳು)</string>
 
     <string name="perf_title">ಕಾರ್ಯಕ್ಷಮತೆಯ ಪ್ರೊಫೈಲ್‌ಗಳು</string>
     <string name="perf_summary">MediaTek Dimensity ಕಾರ್ಯಕ್ಷಮತೆ ಮತ್ತು ತಾಪ ನಿಯಂತ್ರಣ ನೀತಿಗಳನ್ನು ಹೊಂದಿಸಿ</string>

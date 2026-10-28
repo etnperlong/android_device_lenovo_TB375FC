@@ -7,7 +7,7 @@
     <string name="app_name">Funciones del preséu</string>
 
     <string name="device_parts_title">Funciones del preséu</string>
-    <string name="device_parts_summary">Rendimientu, accesorios, pantalla táctil y Dolby Atmos</string>
+    <string name="device_parts_summary">Rendimientu, color de pantalla, accesorios, pantalla táctil y Dolby Atmos</string>
     <string name="display_parts_title">Frecuencia d’anovamientu y pantalla táctil</string>
     <string name="display_parts_summary">Frecuencia d’anovamientu del mou de llectura, mou de xuegu táctil</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Pantalla táctil</string>
     <string name="category_audio_title">Audiu</string>
     <string name="category_perf_title">Rendimientu</string>
+    <string name="category_color_title">Color</string>
 
     <string name="pen_refresh_cap_title">Llimitar a 120 Hz al usar el llápiz</string>
     <string name="pen_refresh_cap_summary">El llápiz activu namái funciona hasta 120 Hz. El llímite quítase 10 segundos dempués del últimu usu del llápiz.</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">Modes per aplicación</string>
     <string name="dolby_app_profiles_summary">Escueye’l mou pa cada aplicación. Les aplicaciones conocíes de música y videu entamen con Música y Película.</string>
     <string name="dolby_app_profile_default">Mou predetermináu</string>
+
+    <string name="screen_color_title">Color de pantalla</string>
+    <string name="screen_color_summary">Mou de color, temperatura del color y colores de les aplicaciones</string>
+    <string name="color_mode_title">Mou de color</string>
+    <string name="color_mode_standard">Estándar</string>
+    <string name="color_mode_vivid">Vivu</string>
+    <string name="color_mode_natural">Natural</string>
+    <string name="color_temperature_title">Temperatura del color</string>
+    <string name="color_temperature_standard">Estándar</string>
+    <string name="color_temperature_warm">Cálidu</string>
+    <string name="color_temperature_cool">Fríu</string>
+    <string name="color_temperature_tip">Toca o arrastra\'l puntu de la rueda de color pa dar color a la pantalla. Escueye Estándar pa volver.</string>
+    <string name="color_wheel_description">Rueda de temperatura del color</string>
+    <string name="category_color_more_title">Más axustes</string>
+    <string name="color_adaptive_title">Afayase a la lluz ambiental</string>
+    <string name="color_adaptive_summary">Axusta\'l blancu de la pantalla al color de la lluz del entornu pa una visualización más cómoda</string>
+    <string name="category_color_adjust_title">Axuste de la imaxe</string>
+    <string name="color_saturation_title">Saturación</string>
+    <string name="color_contrast_title">Contraste</string>
+    <string name="color_sharpness_title">Nididez</string>
+    <string name="color_adjust_default">Predetermináu</string>
+    <string name="color_adjust_reset_title">Restablecer l\'axuste de la imaxe</string>
+    <string name="category_color_apps_title">Aplicaciones</string>
+    <string name="color_app_profiles_enabled_title">Camudar el color según l\'aplicación</string>
+    <string name="color_app_profiles_enabled_summary">Usar l\'axuste de color escoyíu pa una aplicación mientres tea en primer planu</string>
+    <string name="color_app_profiles_title">Colores de les aplicaciones</string>
+    <string name="color_app_profiles_summary">Desactivar la meyora del color o escoyer un mou de color pa cada aplicación</string>
+    <string name="color_app_profile_default">Axustes del color de pantalla</string>
+    <string name="color_app_profile_off">Desactiváu (colores exactos)</string>
 
     <string name="perf_title">Perfiles de rendimientu</string>
     <string name="perf_summary">Axustar el rendimientu y les polítiques térmiques de MediaTek Dimensity</string>

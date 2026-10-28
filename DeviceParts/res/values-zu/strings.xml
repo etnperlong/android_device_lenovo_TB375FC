@@ -7,7 +7,7 @@
     <string name="app_name">Izici zedivayisi</string>
 
     <string name="device_parts_title">Izici zedivayisi</string>
-    <string name="device_parts_summary">Ukusebenza, izisekeli, ukuthinta ne-Dolby Atmos</string>
+    <string name="device_parts_summary">Ukusebenza, umbala wesikrini, izisekeli, ukuthinta ne-Dolby Atmos</string>
     <string name="display_parts_title">Izinga lokuvuselela nokuthinta</string>
     <string name="display_parts_summary">Izinga lokuvuselela lemodi yokufunda, imodi yegeyimu yokuthinta</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Ukuthinta</string>
     <string name="category_audio_title">Umsindo</string>
     <string name="category_perf_title">Ukusebenza</string>
+    <string name="category_color_title">Umbala</string>
 
     <string name="pen_refresh_cap_title">Khawulela ku-120 Hz uma usebenzisa i-stylus</string>
     <string name="pen_refresh_cap_summary">Kubikwa ukuthi i-stylus esebenzayo isebenza kuphela kufika ku-120 Hz. Umkhawulo uyasuswa emizuzwaneni engu-10 ngemva kokufaka kokugcina nge-stylus.</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">Amamodi ohlelo lokusebenza</string>
     <string name="dolby_app_profiles_summary">Khetha imodi yohlelo lokusebenza ngalunye. Izinhlelo zokusebenza zomculo nevidiyo ezaziwayo ziqala ngamamodi Omculo neFilimu.</string>
     <string name="dolby_app_profile_default">Imodi ezenzakalelayo</string>
+
+    <string name="screen_color_title">Umbala wesikrini</string>
+    <string name="screen_color_summary">Imodi yombala, izinga lokushisa lombala nemibala yezinhlelo zokusebenza</string>
+    <string name="color_mode_title">Imodi yombala</string>
+    <string name="color_mode_standard">Okujwayelekile</string>
+    <string name="color_mode_vivid">Okugqamile</string>
+    <string name="color_mode_natural">Okwemvelo</string>
+    <string name="color_temperature_title">Izinga lokushisa lombala</string>
+    <string name="color_temperature_standard">Okujwayelekile</string>
+    <string name="color_temperature_warm">Okufudumele</string>
+    <string name="color_temperature_cool">Okupholile</string>
+    <string name="color_temperature_tip">Thepha noma uhudule ichashazi esondweni lombala ukuze ushintshe umbala wesikrini. Khetha Okujwayelekile ukuze ubuyele emuva.</string>
+    <string name="color_wheel_description">Isondo lezinga lokushisa lombala</string>
+    <string name="category_color_more_title">Ezinye izilungiselelo</string>
+    <string name="color_adaptive_title">Vumelanisa nokukhanya okuzungezile</string>
+    <string name="color_adaptive_summary">Lungisa umbala omhlophe wesikrini uhambisane nombala wokukhanya okuzungezile ukuze ubuke ngokunethezeka</string>
+    <string name="category_color_adjust_title">Ukulungisa isithombe</string>
+    <string name="color_saturation_title">Ukugcwala kombala</string>
+    <string name="color_contrast_title">Umehluko</string>
+    <string name="color_sharpness_title">Ukucija</string>
+    <string name="color_adjust_default">Okuzenzakalelayo</string>
+    <string name="color_adjust_reset_title">Setha kabusha ukulungisa isithombe</string>
+    <string name="category_color_apps_title">Izinhlelo zokusebenza</string>
+    <string name="color_app_profiles_enabled_title">Shintsha umbala ngohlelo lokusebenza</string>
+    <string name="color_app_profiles_enabled_summary">Sebenzisa izilungiselelo zombala ezikhethelwe uhlelo lokusebenza uma lungaphambili</string>
+    <string name="color_app_profiles_title">Imibala yezinhlelo zokusebenza</string>
+    <string name="color_app_profiles_summary">Vala ukuthuthukiswa kombala noma ukhethe imodi yombala yohlelo ngalunye lokusebenza</string>
+    <string name="color_app_profile_default">Izilungiselelo zombala wesikrini</string>
+    <string name="color_app_profile_off">Valiwe (imibala enembile)</string>
 
     <string name="perf_title">Amaphrofayela okusebenza</string>
     <string name="perf_summary">Lungisa ukusebenza kwe-MediaTek Dimensity nezinqubomgomo zokushisa</string>

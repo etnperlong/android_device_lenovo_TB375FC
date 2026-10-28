@@ -7,7 +7,7 @@
     <string name="app_name">Tính năng thiết bị</string>
 
     <string name="device_parts_title">Tính năng thiết bị</string>
-    <string name="device_parts_summary">Hiệu năng, phụ kiện, màn hình cảm ứng và Dolby Atmos</string>
+    <string name="device_parts_summary">Hiệu năng, màu màn hình, phụ kiện, màn hình cảm ứng và Dolby Atmos</string>
     <string name="display_parts_title">Tần số quét và màn hình cảm ứng</string>
     <string name="display_parts_summary">Tần số quét ở chế độ đọc, chế độ chơi game cảm ứng</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Cảm ứng</string>
     <string name="category_audio_title">Âm thanh</string>
     <string name="category_perf_title">Hiệu năng</string>
+    <string name="category_color_title">Màu sắc</string>
 
     <string name="pen_refresh_cap_title">Giới hạn ở 120 Hz khi dùng bút</string>
     <string name="pen_refresh_cap_summary">Bút cảm ứng chủ động được cho là chỉ hoạt động ở tần số tối đa 120 Hz. Giới hạn sẽ được gỡ bỏ 10 giây sau lần dùng bút cuối cùng.</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">Chế độ ứng dụng</string>
     <string name="dolby_app_profiles_summary">Chọn chế độ cho từng ứng dụng. Các ứng dụng nghe nhạc và xem video phổ biến sẽ dùng chế độ Nhạc và Phim.</string>
     <string name="dolby_app_profile_default">Chế độ mặc định</string>
+
+    <string name="screen_color_title">Màu màn hình</string>
+    <string name="screen_color_summary">Chế độ màu, nhiệt độ màu và màu sắc ứng dụng</string>
+    <string name="color_mode_title">Chế độ màu</string>
+    <string name="color_mode_standard">Chuẩn</string>
+    <string name="color_mode_vivid">Sống động</string>
+    <string name="color_mode_natural">Tự nhiên</string>
+    <string name="color_temperature_title">Nhiệt độ màu</string>
+    <string name="color_temperature_standard">Chuẩn</string>
+    <string name="color_temperature_warm">Ấm</string>
+    <string name="color_temperature_cool">Lạnh</string>
+    <string name="color_temperature_tip">Chạm hoặc kéo chấm trên vòng màu để phủ màu lên màn hình. Chọn Chuẩn để quay lại.</string>
+    <string name="color_wheel_description">Vòng nhiệt độ màu</string>
+    <string name="category_color_more_title">Cài đặt khác</string>
+    <string name="color_adaptive_title">Thích ứng với ánh sáng xung quanh</string>
+    <string name="color_adaptive_summary">Điều chỉnh sắc trắng của màn hình theo màu ánh sáng xung quanh để xem thoải mái hơn</string>
+    <string name="category_color_adjust_title">Điều chỉnh hình ảnh</string>
+    <string name="color_saturation_title">Độ bão hòa</string>
+    <string name="color_contrast_title">Độ tương phản</string>
+    <string name="color_sharpness_title">Độ sắc nét</string>
+    <string name="color_adjust_default">Mặc định</string>
+    <string name="color_adjust_reset_title">Đặt lại điều chỉnh hình ảnh</string>
+    <string name="category_color_apps_title">Ứng dụng</string>
+    <string name="color_app_profiles_enabled_title">Đổi màu theo ứng dụng</string>
+    <string name="color_app_profiles_enabled_summary">Dùng chế độ màu đã chọn cho ứng dụng khi ứng dụng ở phía trước</string>
+    <string name="color_app_profiles_title">Màu sắc ứng dụng</string>
+    <string name="color_app_profiles_summary">Tắt tính năng tăng cường màu hoặc chọn chế độ màu cho từng ứng dụng</string>
+    <string name="color_app_profile_default">Cài đặt màu màn hình</string>
+    <string name="color_app_profile_off">Tắt (màu chính xác)</string>
 
     <string name="perf_title">Cấu hình hiệu năng</string>
     <string name="perf_summary">Điều chỉnh hiệu năng và chính sách nhiệt của MediaTek Dimensity</string>

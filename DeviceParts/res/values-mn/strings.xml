@@ -7,7 +7,7 @@
     <string name="app_name">Төхөөрөмжийн онцлогууд</string>
 
     <string name="device_parts_title">Төхөөрөмжийн онцлогууд</string>
-    <string name="device_parts_summary">Гүйцэтгэл, хэрэгслүүд, хүрэлт болон Dolby Atmos</string>
+    <string name="device_parts_summary">Гүйцэтгэл, дэлгэцийн өнгө, хэрэгслүүд, хүрэлт болон Dolby Atmos</string>
     <string name="display_parts_title">Сэргээх хурд ба хүрэлт</string>
     <string name="display_parts_summary">Унших горимын сэргээх хурд, хүрэлтийн тоглоомын горим</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Хүрэлт</string>
     <string name="category_audio_title">Аудио</string>
     <string name="category_perf_title">Гүйцэтгэл</string>
+    <string name="category_color_title">Дэлгэцийн өнгө</string>
 
     <string name="pen_refresh_cap_title">Үзэг ашиглаж байх үед 120 Гц-ээр хязгаарлах</string>
     <string name="pen_refresh_cap_summary">Идэвхтэй үзэг зөвхөн 120 Гц хүртэл ажилладаг гэж мэдээлсэн. Үзгээр хамгийн сүүлд оролт хийснээс 10 секундын дараа хязгаар арилна.</string>
@@ -65,6 +66,35 @@
     <string name="dolby_app_profiles_title">Аппын горимууд</string>
     <string name="dolby_app_profiles_summary">Апп бүрийн горимыг сонгоно уу. Танигдсан хөгжим, видео аппууд эхлэхдээ Хөгжим болон Кино горимыг ашиглана.</string>
     <string name="dolby_app_profile_default">Өгөгдмөл горим</string>
+
+    <string name="screen_color_title">Дэлгэцийн өнгө</string>
+    <string name="screen_color_summary">Өнгөний горим, өнгөний температур болон аппын өнгө</string>
+    <string name="color_mode_title">Өнгөний горим</string>
+    <string name="color_mode_standard">Стандарт</string>
+    <string name="color_mode_vivid">Тод</string>
+    <string name="color_mode_natural">Байгалийн</string>
+    <string name="color_temperature_title">Өнгөний температур</string>
+    <string name="color_temperature_standard">Стандарт</string>
+    <string name="color_temperature_warm">Дулаан</string>
+    <string name="color_temperature_cool">Сэрүүн</string>
+    <string name="color_temperature_tip">Дэлгэцийн өнгө аясыг тохируулахын тулд өнгөний хүрд дээрх цэгийг товших эсвэл чирнэ үү. Анхны байдалд нь оруулахын тулд “Стандарт”-ыг сонгоно уу.</string>
+    <string name="color_wheel_description">Өнгөний температурын хүрд</string>
+    <string name="category_color_more_title">Бусад тохиргоо</string>
+    <string name="color_adaptive_title">Орчны өнгөнд тохируулах</string>
+    <string name="color_adaptive_summary">Илүү тухтай үзэхийн тулд дэлгэцийн цагаан цэгийг орчны гэрлийн өнгөнд тохируулна</string>
+    <string name="category_color_adjust_title">Зургийн тохируулга</string>
+    <string name="color_saturation_title">Өнгөний ханалт</string>
+    <string name="color_contrast_title">Контраст</string>
+    <string name="color_sharpness_title">Тодрол</string>
+    <string name="color_adjust_default">Өгөгдмөл</string>
+    <string name="color_adjust_reset_title">Зургийн тохиргоог өгөгдмөлөөр сэргээх</string>
+    <string name="category_color_apps_title">Аппууд</string>
+    <string name="color_app_profiles_enabled_title">Өнгийг аппаар солих</string>
+    <string name="color_app_profiles_enabled_summary">Апп урд талд байх үед түүнд сонгосон өнгөний тохиргоог ашиглах</string>
+    <string name="color_app_profiles_title">Аппын өнгө</string>
+    <string name="color_app_profiles_summary">Апп бүрийн өнгө сайжруулалтыг унтраах эсвэл өнгөний горим сонгох</string>
+    <string name="color_app_profile_default">Дэлгэцийн өнгөний тохиргоог дагах</string>
+    <string name="color_app_profile_off">Унтраах (өнгөний нарийвчлалтай)</string>
 
     <string name="perf_title">Гүйцэтгэлийн профайл</string>
     <string name="perf_summary">MediaTek Dimensity-ийн гүйцэтгэл болон дулааны бодлогыг тохируулах</string>

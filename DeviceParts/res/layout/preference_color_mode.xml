@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<!-- Stock ZUI layout-sw480dp/color_mode_preview_x: picture, heading, mode cards in a row. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+    android:paddingTop="8dp">
+
+    <ImageView
+        android:id="@+id/screen_color_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/screen_color_image_height"
+        android:background="@drawable/screen_color_frame"
+        android:clipToOutline="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/screen_color_header"
+        android:importantForAccessibility="no" />
+
+    <TextView
+        style="@style/ScreenColorHeading"
+        android:text="@string/color_mode_title" />
+
+    <RadioGroup
+        android:id="@+id/color_mode_group"
+        style="@style/ScreenColorOptions">
+
+        <RadioButton
+            android:id="@+id/color_mode_standard"
+            style="@style/ScreenColorOption"
+            android:drawableTop="@drawable/ic_color_mode_standard"
+            android:text="@string/color_mode_standard" />
+
+        <RadioButton
+            android:id="@+id/color_mode_vivid"
+            style="@style/ScreenColorOption"
+            android:drawableTop="@drawable/ic_color_mode_vivid"
+            android:text="@string/color_mode_vivid" />
+
+        <RadioButton
+            android:id="@+id/color_mode_natural"
+            style="@style/ScreenColorOption"
+            android:drawableTop="@drawable/ic_color_mode_natural"
+            android:text="@string/color_mode_natural" />
+    </RadioGroup>
+</LinearLayout>

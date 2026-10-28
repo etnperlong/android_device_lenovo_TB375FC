@@ -7,7 +7,7 @@
     <string name="app_name">Gnéithe an ghléis</string>
 
     <string name="device_parts_title">Gnéithe an ghléis</string>
-    <string name="device_parts_summary">Feidhmíocht, oiriúintí, tadhaill agus Dolby Atmos</string>
+    <string name="device_parts_summary">Feidhmíocht, dath an scáileáin, oiriúintí, tadhaill agus Dolby Atmos</string>
     <string name="display_parts_title">Ráta athnuachana agus tadhaill</string>
     <string name="display_parts_summary">Ráta athnuachana an mhóid léimh, mód cluiche tadhaill</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Tadhaill</string>
     <string name="category_audio_title">Fuaim</string>
     <string name="category_perf_title">Feidhmíocht</string>
+    <string name="category_color_title">Dath</string>
 
     <string name="pen_refresh_cap_title">Teorannaigh go 120 Hz agus an peann in úsáid</string>
     <string name="pen_refresh_cap_summary">Ní oibríonn an peann gníomhach ach suas le 120 Hz. Baintear an teorainn 10 soicind tar éis ionchur an phinn dheireanaigh.</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">Móid aipeanna</string>
     <string name="dolby_app_profiles_summary">Roghnaigh an mód do gach aip. Tosaíonn aipeanna ceoil agus físeáin aitheanta leis na móid Ceol agus Scannán.</string>
     <string name="dolby_app_profile_default">Mód réamhshocraithe</string>
+    <string name="screen_color_title">Dath an scáileáin</string>
+    <string name="screen_color_summary">Mód datha, teocht datha agus dathanna aipeanna</string>
+    <string name="color_mode_title">Mód datha</string>
+    <string name="color_mode_standard">Caighdeánach</string>
+    <string name="color_mode_vivid">Beoga</string>
+    <string name="color_mode_natural">Nádúrtha</string>
+    <string name="color_temperature_title">Teocht datha</string>
+    <string name="color_temperature_standard">Caighdeánach</string>
+    <string name="color_temperature_warm">Te</string>
+    <string name="color_temperature_cool">Fuar</string>
+    <string name="color_temperature_tip">Tapáil nó tarraing an ponc ar an roth datha chun dath a chur ar an scáileán. Roghnaigh Caighdeánach chun filleadh.</string>
+    <string name="color_wheel_description">Roth teochta datha</string>
+    <string name="category_color_more_title">Tuilleadh socruithe</string>
+    <string name="color_adaptive_title">Cuir in oiriúint don solas comhthimpeallach</string>
+    <string name="color_adaptive_summary">Cuir bán an scáileáin in oiriúint do dhath an tsolais thart air chun féachaint níos compordaí</string>
+    <string name="category_color_adjust_title">Coigeartú íomhá</string>
+    <string name="color_saturation_title">Sáithiú</string>
+    <string name="color_contrast_title">Codarsnacht</string>
+    <string name="color_sharpness_title">Géire</string>
+    <string name="color_adjust_default">Réamhshocrú</string>
+    <string name="color_adjust_reset_title">Athshocraigh coigeartú íomhá</string>
+    <string name="category_color_apps_title">Aipeanna</string>
+    <string name="color_app_profiles_enabled_title">Athraigh dath de réir aipe</string>
+    <string name="color_app_profiles_enabled_summary">Agus aip chun tosaigh, úsáid an socrú datha a roghnaíodh di</string>
+    <string name="color_app_profiles_title">Dathanna aipeanna</string>
+    <string name="color_app_profiles_summary">Múch feabhsú datha nó roghnaigh mód datha do gach aip</string>
+    <string name="color_app_profile_default">Socruithe dath an scáileáin</string>
+    <string name="color_app_profile_off">Múchta (dathanna cruinne)</string>
+
 
     <string name="perf_title">Próifílí feidhmíochta</string>
     <string name="perf_summary">Feidhmíocht MediaTek Dimensity agus polasaithe teirmeacha a choigeartú</string>

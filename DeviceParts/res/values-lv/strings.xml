@@ -7,7 +7,7 @@
     <string name="app_name">Ierīces funkcijas</string>
 
     <string name="device_parts_title">Ierīces funkcijas</string>
-    <string name="device_parts_summary">Veiktspēja, piederumi, skāriens un Dolby Atmos</string>
+    <string name="device_parts_summary">Veiktspēja, ekrāna krāsas, piederumi, skāriens un Dolby Atmos</string>
     <string name="display_parts_title">Atsvaidzes intensitāte un skāriens</string>
     <string name="display_parts_summary">Lasīšanas režīma atsvaidzes intensitāte, skārienekrāna spēļu režīms</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Skāriens</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Veiktspēja</string>
+    <string name="category_color_title">Krāsas</string>
 
     <string name="pen_refresh_cap_title">Ierobežot līdz 120 Hz, izmantojot skārienekrāna pildspalvu</string>
     <string name="pen_refresh_cap_summary">Aktīvā skārienekrāna pildspalva, kā ziņots, darbojas tikai līdz 120 Hz. Ierobežojums tiek atcelts 10 sekundes pēc pēdējās ievades ar pildspalvu.</string>
@@ -65,6 +66,35 @@
     <string name="dolby_app_profiles_title">Lietotņu režīmi</string>
     <string name="dolby_app_profiles_summary">Izvēlieties režīmu katrai lietotnei. Zināmām mūzikas un video lietotnēm sākotnēji ir iestatīts mūzikas un filmu režīms.</string>
     <string name="dolby_app_profile_default">Noklusējuma režīms</string>
+
+    <string name="screen_color_title">Ekrāna krāsas</string>
+    <string name="screen_color_summary">Krāsu režīms, krāsu temperatūra un lietotņu krāsas</string>
+    <string name="color_mode_title">Krāsu režīms</string>
+    <string name="color_mode_standard">Standarta</string>
+    <string name="color_mode_vivid">Spilgts</string>
+    <string name="color_mode_natural">Dabisks</string>
+    <string name="color_temperature_title">Krāsu temperatūra</string>
+    <string name="color_temperature_standard">Standarta</string>
+    <string name="color_temperature_warm">Silts</string>
+    <string name="color_temperature_cool">Vēss</string>
+    <string name="color_temperature_tip">Pieskarieties krāsu rata punktam vai velciet to, lai mainītu ekrāna toni. Lai atgrieztos iepriekšējā stāvoklī, izvēlieties “Standarta”.</string>
+    <string name="color_wheel_description">Krāsu temperatūras rats</string>
+    <string name="category_color_more_title">Papildu iestatījumi</string>
+    <string name="color_adaptive_title">Pielāgot apkārtējam apgaismojumam</string>
+    <string name="color_adaptive_summary">Pielāgojiet ekrāna balto krāsu apkārtējās gaismas krāsai, lai skatīšanās būtu ērtāka</string>
+    <string name="category_color_adjust_title">Attēla pielāgošana</string>
+    <string name="color_saturation_title">Piesātinājums</string>
+    <string name="color_contrast_title">Kontrasts</string>
+    <string name="color_sharpness_title">Asums</string>
+    <string name="color_adjust_default">Noklusējums</string>
+    <string name="color_adjust_reset_title">Atiestatīt attēla pielāgošanu</string>
+    <string name="category_color_apps_title">Lietotnes</string>
+    <string name="color_app_profiles_enabled_title">Mainīt krāsas katrai lietotnei</string>
+    <string name="color_app_profiles_enabled_summary">Kamēr lietotne ir priekšplānā, izmantot tai izvēlētos krāsu iestatījumus</string>
+    <string name="color_app_profiles_title">Lietotņu krāsas</string>
+    <string name="color_app_profiles_summary">Izslēdziet krāsu uzlabošanu vai izvēlieties krāsu režīmu katrai lietotnei</string>
+    <string name="color_app_profile_default">Ekrāna krāsu iestatījumi</string>
+    <string name="color_app_profile_off">Izslēgts (precīzas krāsas)</string>
 
     <string name="perf_title">Veiktspējas profili</string>
     <string name="perf_summary">Pielāgot MediaTek Dimensity veiktspēju un termiskās politikas</string>

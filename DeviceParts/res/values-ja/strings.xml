@@ -7,7 +7,7 @@
     <string name="app_name">デバイス機能</string>
 
     <string name="device_parts_title">デバイス機能</string>
-    <string name="device_parts_summary">パフォーマンス、アクセサリー、タッチ操作、ドルビーアトモス</string>
+    <string name="device_parts_summary">パフォーマンス、画面の色、アクセサリー、タッチ操作、ドルビーアトモス</string>
     <string name="display_parts_title">リフレッシュ レートとタッチ操作</string>
     <string name="display_parts_summary">読書モードのリフレッシュ レート、タッチゲームモード</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">タッチ操作</string>
     <string name="category_audio_title">音声</string>
     <string name="category_perf_title">パフォーマンス</string>
+    <string name="category_color_title">色</string>
 
     <string name="pen_refresh_cap_title">タッチペンの使用中は 120 Hz に制限</string>
     <string name="pen_refresh_cap_summary">アクティブペンは最大 120 Hz でのみ動作すると報告されています。最後にペンを入力してから 10 秒後に制限が解除されます。</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">アプリモード</string>
     <string name="dolby_app_profiles_summary">アプリごとにモードを選択します。音楽アプリと動画アプリには、初期設定で音楽モードと映画モードが設定されています。</string>
     <string name="dolby_app_profile_default">デフォルトのモード</string>
+    <!-- Screen color -->
+    <string name="screen_color_title">画面の色</string>
+    <string name="screen_color_summary">カラーモード、色温度、アプリごとの色設定</string>
+    <string name="color_mode_title">カラーモード</string>
+    <string name="color_mode_standard">標準</string>
+    <string name="color_mode_vivid">鮮やか</string>
+    <string name="color_mode_natural">ナチュラル</string>
+    <string name="color_temperature_title">色温度</string>
+    <string name="color_temperature_standard">標準</string>
+    <string name="color_temperature_warm">暖色</string>
+    <string name="color_temperature_cool">寒色</string>
+    <string name="color_temperature_tip">カラーホイールの点をタップまたはドラッグして画面の色合いを調整します。元に戻すには「標準」を選択してください。</string>
+    <string name="color_wheel_description">色温度ホイール</string>
+    <string name="category_color_more_title">その他の設定</string>
+    <string name="color_adaptive_title">周囲の光に合わせる</string>
+    <string name="color_adaptive_summary">画面の白色を周囲の光の色に合わせて調整し、より快適に見られるようにします</string>
+    <string name="category_color_adjust_title">画質調整</string>
+    <string name="color_saturation_title">彩度</string>
+    <string name="color_contrast_title">コントラスト</string>
+    <string name="color_sharpness_title">シャープネス</string>
+    <string name="color_adjust_default">デフォルト</string>
+    <string name="color_adjust_reset_title">画質調整をリセット</string>
+    <string name="category_color_apps_title">アプリ</string>
+    <string name="color_app_profiles_enabled_title">アプリごとに色を切り替える</string>
+    <string name="color_app_profiles_enabled_summary">アプリを前面に表示している間、そのアプリに選択した色設定を使用します</string>
+    <string name="color_app_profiles_title">アプリごとの色設定</string>
+    <string name="color_app_profiles_summary">色の補正をオフにするか、アプリごとにカラーモードを選択します</string>
+    <string name="color_app_profile_default">画面の色設定</string>
+    <string name="color_app_profile_off">オフ（正確な色）</string>
 
     <string name="perf_title">パフォーマンス プロファイル</string>
     <string name="perf_summary">MediaTek Dimensity のパフォーマンスと温度ポリシーを調整します</string>

@@ -119,7 +119,7 @@ transaction codes differ from the v34 `libbinder` these clients load, and it
 needs `Looper::repoll`, which the v34 `libutils` lacks.
 
 ### Device parts
-`DeviceParts` collects the device-specific settings below. All of them are on the "Device parts" entry of the Settings homepage, where the pen, folio keyboard and cover switches share the "Official accessories" category; the reading mode refresh rate and touch switches are also under Settings → Display → "Refresh rate and touch", the Dolby settings under Settings → Sound → "Dolby Atmos", the performance profiles under Settings → Battery → "Performance profiles", and the cover switch on the lock screen settings page ("Smart cover"). The Quick Settings tiles show the same state.
+`DeviceParts` collects the device-specific settings below. All of them are on the "Device parts" entry of the Settings homepage, where the pen, folio keyboard and cover switches share the "Official accessories" category; the screen color settings are also under Settings → Display → "Screen color", the reading mode refresh rate and touch switches under Settings → Display → "Refresh rate and touch", the Dolby settings under Settings → Sound → "Dolby Atmos", the performance profiles under Settings → Battery → "Performance profiles", and the cover switch on the lock screen settings page ("Smart cover"). The Quick Settings tiles show the same state.
 
 ### Active pen
 The pen writes through the Novatek touch controller; Bluetooth only carries its buttons and battery level. The controller looks for the pen only while its pen mode is on: `nt36532.ko` takes the mode from `/proc/support_pen`, starts with it off, turns it off again after the boot firmware update, and re-sends the last value every time the screen turns on. Stock ZUI's `services.jar` (`BluetoothPenConnectPolicy`) switches it through the Lenovo touchscreen HAL when a Lenovo pen connects over Bluetooth HID; LineageOS has no such code, so without it the pen pairs but draws nothing.
@@ -131,6 +131,20 @@ The panel supports 144 / 120 / 60 / 30 Hz, but the NVT active pen is reported to
 
 ### Reading mode
 Reading mode is the LineageOS one (Quick Settings "Reading mode" tile or LiveDisplay), which renders in grayscale. For the warm paper tint of stock's black-and-white mode, also enable Night Light at a low intensity; Night Light is applied after the grayscale matrix, so the tint is kept. The optional "Reading 30 Hz" Quick Settings tile (off by default, like stock) caps the display at 30 Hz, or at the minimum refresh rate if that is higher, while reading mode is on.
+
+### Screen color
+Stock ZUI's color settings (Settings → Display → Screen color mode) drive MediaTek's picture quality engine: `ZuiDisplayService` in `services.jar` calls `com.mediatek.pq.PictureQuality` (`mediatek-framework.jar`, on stock's boot classpath), whose `libjni_pq.so` calls the vendor `vendor.mediatek.hardware.pq_aidl` service. MediaTek's own MiraVision app is installed on stock but never exposed. LineageOS keeps the vendor service but has nothing that calls it, so `DeviceParts` ("Screen color") calls it directly and sends what stock sends on this panel (`peridot`):
+
+| Setting | Picture quality calls |
+|---------|-----------------------|
+| Vivid (default, as on stock) | gamma table 7, identity color matrix, skin/grass tone and partial Y indexes 0 |
+| Standard | gamma table 8, stock's peridot color matrix |
+| Natural (hidden on stock for this panel) | gamma table 8, stock's natural color matrix |
+| Color temperature: Standard / Warm / Cool / point on the wheel | RGB gains (stock's presets 255/255/255, 255/238/215, 228/229/255; the wheel maps a point to gains the way stock's picker does) |
+| Adapt to ambient light (stock "Adapt color to environment") | Chameleon on/off |
+| Saturation, contrast, sharpness (not on stock; MiraVision has them) | picture indexes 1, 9 and 0, levels 0–9 |
+
+Apps can have their own color setting: the screen color settings, "Off (accurate colors)" (Standard, neutral white, no ambient adaptation or picture adjustment) or a color mode, used while the app is in front with the screen on and unlocked. The settings are reapplied at boot and whenever the vendor service restarts. Stock's video quality and video color enhancement switches are not reproduced: the latter does nothing on stock (its method is missing from MediaTek's class), the former depends on Lenovo's video super-resolution pipeline. The picture at the top of the page (`DeviceParts/res/drawable-nodpi/screen_color_header.jpg`, 1920 × 1279) is an aerial beach photo by Abdulaziz Hasan from Pexels (photo 38127334); the 200dp-tall, full-width frame crops it to its centre. Colors still need device validation, in particular together with Night Light and reading mode, which reach the same color hardware through the composer.
 
 ### Folio cover
 The stock hall sensor driver reports the cover as two key presses that only ZUI understands, so `hall.ko` is patched to report a lid switch (`SW_LID`) instead (see below). `PhoneWindowManager` then tracks the lid and wakes the tablet whenever the cover opens. Lid behaviour stays "none"; `DeviceParts` applies stock's policy on lid close instead: with the screen on, the tablet goes to sleep once the light sensor reads at most 20 lux (so a cover folded behind the tablet does not count) and locks 2 s later. The "Smart cover" switch turns this off.

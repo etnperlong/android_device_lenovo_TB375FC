@@ -7,7 +7,7 @@
     <string name="app_name">Gailuaren eginbideak</string>
 
     <string name="device_parts_title">Gailuaren eginbideak</string>
-    <string name="device_parts_summary">Errendimendua, osagarriak, ukipena eta Dolby Atmos</string>
+    <string name="device_parts_summary">Errendimendua, pantailaren kolorea, osagarriak, ukipena eta Dolby Atmos</string>
     <string name="display_parts_title">Freskatze-abiadura eta ukipena</string>
     <string name="display_parts_summary">Irakurketa-moduaren freskatze-abiadura, ukipeneko joko-modua</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Ukipena</string>
     <string name="category_audio_title">Audioa</string>
     <string name="category_perf_title">Errendimendua</string>
+    <string name="category_color_title">Kolorea</string>
 
     <string name="pen_refresh_cap_title">Mugatu 120 Hz-era arkatza erabiltzean</string>
     <string name="pen_refresh_cap_summary">Arkatz aktiboak 120 Hz-era arte soilik funtzionatzen duela jakinarazi da. Muga azken arkatz-sarreratik 10 segundora kentzen da.</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">Aplikazio-moduak</string>
     <string name="dolby_app_profiles_summary">Aukeratu aplikazio bakoitzaren modua. Ezagunak diren musika- eta bideo-aplikazioek Musika eta Filma erabiltzen dituzte lehenespenez.</string>
     <string name="dolby_app_profile_default">Modu lehenetsia</string>
+    
+    <string name="screen_color_title">Pantailaren kolorea</string>
+    <string name="screen_color_summary">Kolore-modua, kolore-tenperatura eta aplikazioen koloreak</string>
+    <string name="color_mode_title">Kolore-modua</string>
+    <string name="color_mode_standard">Estandarra</string>
+    <string name="color_mode_vivid">Bizia</string>
+    <string name="color_mode_natural">Naturala</string>
+    <string name="color_temperature_title">Kolore-tenperatura</string>
+    <string name="color_temperature_standard">Estandarra</string>
+    <string name="color_temperature_warm">Epela</string>
+    <string name="color_temperature_cool">Hotza</string>
+    <string name="color_temperature_tip">Sakatu edo arrastatu puntu zuria kolore-gurpilean pantailaren tonua aldatzeko. Hautatu Estandarra jatorrizko ezarpenera itzultzeko.</string>
+    <string name="color_wheel_description">Kolore-tenperaturaren gurpila</string>
+    <string name="category_color_more_title">Ezarpen gehiago</string>
+    <string name="color_adaptive_title">Giro-argiari egokitzea</string>
+    <string name="color_adaptive_summary">Doitu pantailako zuria inguruko argiaren kolorearen arabera, ikusmena erosoagoa izan dadin</string>
+    <string name="category_color_adjust_title">Irudiaren doikuntza</string>
+    <string name="color_saturation_title">Saturazioa</string>
+    <string name="color_contrast_title">Kontrastea</string>
+    <string name="color_sharpness_title">Zorroztasuna</string>
+    <string name="color_adjust_default">Lehenetsia</string>
+    <string name="color_adjust_reset_title">Berrezarri irudiaren doikuntza</string>
+    <string name="category_color_apps_title">Aplikazioak</string>
+    <string name="color_app_profiles_enabled_title">Aldatu kolorea aplikazioaren arabera</string>
+    <string name="color_app_profiles_enabled_summary">Aplikazio bat aurrean dagoenean, erabili harentzat aukeratutako kolore-ezarpena</string>
+    <string name="color_app_profiles_title">Aplikazioen koloreak</string>
+    <string name="color_app_profiles_summary">Desaktibatu kolore-hobekuntza edo aukeratu aplikazio bakoitzaren kolore-modua</string>
+    <string name="color_app_profile_default">Pantailaren kolore-ezarpenak</string>
+    <string name="color_app_profile_off">Desaktibatuta (kolore zehatzak)</string>
 
     <string name="perf_title">Errendimendu-profilak</string>
     <string name="perf_summary">Doitu MediaTek Dimensity-ren errendimendua eta politika termikoak</string>

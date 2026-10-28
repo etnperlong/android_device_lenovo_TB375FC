@@ -7,7 +7,7 @@
     <string name="app_name">Qurilma funksiyalari</string>
 
     <string name="device_parts_title">Qurilma funksiyalari</string>
-    <string name="device_parts_summary">Unumdorlik, aksessuarlar, sensorli ekran va Dolby Atmos</string>
+    <string name="device_parts_summary">Unumdorlik, ekran rangi, aksessuarlar, sensorli ekran va Dolby Atmos</string>
     <string name="display_parts_title">Yangilanish chastotasi va sensorli ekran</string>
     <string name="display_parts_summary">Oʻqish rejimi yangilanish chastotasi, sensorli ekran oʻyin rejimi</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Sensorli ekran</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Unumdorlik</string>
+    <string name="category_color_title">Rang</string>
 
     <string name="pen_refresh_cap_title">Stilusdan foydalanganda 120 Hz bilan cheklash</string>
     <string name="pen_refresh_cap_summary">Faol stilus faqat 120 Hz gacha ishlashi aytilgan. Stilusdan oxirgi marta foydalanilgandan 10 soniya oʻtgach cheklov olib tashlanadi.</string>
@@ -65,6 +66,35 @@
     <string name="dolby_app_profiles_title">Ilova rejimlari</string>
     <string name="dolby_app_profiles_summary">Har bir ilova uchun rejimni tanlang. Musiqa va video ilovalari odatda Musiqa va Kino rejimlaridan foydalanadi.</string>
     <string name="dolby_app_profile_default">Birlamchi rejim</string>
+
+    <string name="screen_color_title">Ekran rangi</string>
+    <string name="screen_color_summary">Rang rejimi, rang harorati va ilova ranglari</string>
+    <string name="color_mode_title">Rang rejimi</string>
+    <string name="color_mode_standard">Standart</string>
+    <string name="color_mode_vivid">Yorqin</string>
+    <string name="color_mode_natural">Tabiiy</string>
+    <string name="color_temperature_title">Rang harorati</string>
+    <string name="color_temperature_standard">Standart</string>
+    <string name="color_temperature_warm">Iliq</string>
+    <string name="color_temperature_cool">Sovuq</string>
+    <string name="color_temperature_tip">Ekranga tus berish uchun rang g‘ildiragidagi nuqtani bosing yoki suring. Avvalgi holatga qaytish uchun Standartni tanlang.</string>
+    <string name="color_wheel_description">Rang harorati g‘ildiragi</string>
+    <string name="category_color_more_title">Boshqa sozlamalar</string>
+    <string name="color_adaptive_title">Atrof-muhit yorug‘ligiga moslashish</string>
+    <string name="color_adaptive_summary">Qulayroq tomosha qilish uchun ekran oq rangini atrofdagi yorug‘lik rangiga moslang</string>
+    <string name="category_color_adjust_title">Rasmni sozlash</string>
+    <string name="color_saturation_title">To‘yinganlik</string>
+    <string name="color_contrast_title">Kontrast</string>
+    <string name="color_sharpness_title">Aniqlik</string>
+    <string name="color_adjust_default">Birlamchi</string>
+    <string name="color_adjust_reset_title">Rasm sozlamalarini tiklash</string>
+    <string name="category_color_apps_title">Ilovalar</string>
+    <string name="color_app_profiles_enabled_title">Ilovaga qarab rangni almashtirish</string>
+    <string name="color_app_profiles_enabled_summary">Ilova oldinda turganda, u uchun tanlangan rang sozlamasidan foydalaning</string>
+    <string name="color_app_profiles_title">Ilova ranglari</string>
+    <string name="color_app_profiles_summary">Rang yaxshilashni oʻchiring yoki har bir ilova uchun rang rejimini tanlang</string>
+    <string name="color_app_profile_default">Ekran rangi sozlamalari</string>
+    <string name="color_app_profile_off">Oʻchiq (aniq ranglar)</string>
 
     <string name="perf_title">Unumdorlik profillari</string>
     <string name="perf_summary">MediaTek Dimensity unumdorligi va harorat siyosatini sozlash</string>

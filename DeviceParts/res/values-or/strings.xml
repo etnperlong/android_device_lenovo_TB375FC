@@ -7,7 +7,7 @@
     <string name="app_name">ଡିଭାଇସ ବୈଶିଷ୍ଟ୍ୟ</string>
 
     <string name="device_parts_title">ଡିଭାଇସ ବୈଶିଷ୍ଟ୍ୟ</string>
-    <string name="device_parts_summary">ପରଫର୍ମାନ୍ସ, ଆକ୍ସେସରିଜ, ଟଚ ଏବଂ Dolby Atmos</string>
+    <string name="device_parts_summary">ପରଫର୍ମାନ୍ସ, ସ୍କ୍ରିନ ରଙ୍ଗ, ଆକ୍ସେସରିଜ, ଟଚ ଏବଂ Dolby Atmos</string>
     <string name="display_parts_title">ରିଫ୍ରେସ ରେଟ ଏବଂ ଟଚ</string>
     <string name="display_parts_summary">ରିଡିଙ୍ଗ ମୋଡ ରିଫ୍ରେସ ରେଟ, ଟଚ ଗେମ ମୋଡ</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">ଟଚ</string>
     <string name="category_audio_title">ଅଡିଓ</string>
     <string name="category_perf_title">ପରଫର୍ମାନ୍ସ</string>
+    <string name="category_color_title">ରଙ୍ଗ</string>
 
     <string name="pen_refresh_cap_title">ଷ୍ଟାଇଲସ ବ୍ୟବହାର କରିବାବେଳେ 120 Hzରେ ସୀମିତ କରନ୍ତୁ</string>
     <string name="pen_refresh_cap_summary">ସକ୍ରିୟ ଷ୍ଟାଇଲସ କେବଳ 120 Hz ପର୍ଯ୍ୟନ୍ତ କାର୍ଯ୍ୟ କରେ। ଷ୍ଟାଇଲସରେ ଶେଷ ଇନପୁଟ ଦେବାର 10 ସେକେଣ୍ଡ ପରେ ସୀମା ହଟିଯାଏ।</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">ଆପ ମୋଡଗୁଡ଼ିକ</string>
     <string name="dolby_app_profiles_summary">ପ୍ରତ୍ୟେକ ଆପ ପାଇଁ ମୋଡ ବାଛନ୍ତୁ। ଚିହ୍ନଟ ହୋଇଥିବା ମ୍ୟୁଜିକ ଏବଂ ଭିଡିଓ ଆପଗୁଡ଼ିକ ମ୍ୟୁଜିକ ଏବଂ ମୁଭି ମୋଡରୁ ଆରମ୍ଭ ହୁଏ।</string>
     <string name="dolby_app_profile_default">ଡିଫଲ୍ଟ ମୋଡ</string>
+
+    <string name="screen_color_title">ସ୍କ୍ରିନ ରଙ୍ଗ</string>
+    <string name="screen_color_summary">ରଙ୍ଗ ମୋଡ, ରଙ୍ଗ ତାପମାତ୍ରା ଏବଂ ଆପ ରଙ୍ଗ</string>
+    <string name="color_mode_title">ରଙ୍ଗ ମୋଡ</string>
+    <string name="color_mode_standard">ମାନକ</string>
+    <string name="color_mode_vivid">ଉଜ୍ଜ୍ୱଳ</string>
+    <string name="color_mode_natural">ପ୍ରାକୃତିକ</string>
+    <string name="color_temperature_title">ରଙ୍ଗ ତାପମାତ୍ରା</string>
+    <string name="color_temperature_standard">ମାନକ</string>
+    <string name="color_temperature_warm">ଉଷ୍ଣ</string>
+    <string name="color_temperature_cool">ଶୀତଳ</string>
+    <string name="color_temperature_tip">ସ୍କ୍ରିନର ରଙ୍ଗ ଛାୟା ଆଡଜଷ୍ଟ କରିବା ପାଇଁ ରଙ୍ଗ ଚକ୍ରରେ ଟାପ କରନ୍ତୁ କିମ୍ବା ବିନ୍ଦୁକୁ ଟାଣନ୍ତୁ। ପୁନଃସେଟ କରିବାକୁ “ମାନକ” ବାଛନ୍ତୁ।</string>
+    <string name="color_wheel_description">ରଙ୍ଗ ତାପମାତ୍ରା ଚକ୍ର</string>
+    <string name="category_color_more_title">ଅଧିକ ସେଟିଂ</string>
+    <string name="color_adaptive_title">ଅନୁକୂଳ ପରିବେଶୀୟ ରଙ୍ଗ</string>
+    <string name="color_adaptive_summary">ଅଧିକ ଆରାମଦାୟକ ଦେଖିବା ପାଇଁ ପରିବେଶ ଆଲୋକର ରଙ୍ଗ ଅନୁସାରେ ସ୍କ୍ରିନର ଧଳା ବିନ୍ଦୁ ଆଡଜଷ୍ଟ କରନ୍ତୁ</string>
+    <string name="category_color_adjust_title">ଚିତ୍ର ଆଡଜଷ୍ଟମେଣ୍ଟ</string>
+    <string name="color_saturation_title">ସାଚୁରେସନ</string>
+    <string name="color_contrast_title">କଣ୍ଟ୍ରାଷ୍ଟ</string>
+    <string name="color_sharpness_title">ତୀକ୍ଷ୍ଣତା</string>
+    <string name="color_adjust_default">ଡିଫଲ୍ଟ</string>
+    <string name="color_adjust_reset_title">ଡିଫଲ୍ଟ ଚିତ୍ର ଆଡଜଷ୍ଟମେଣ୍ଟ ପୁନଃସ୍ଥାପନ କରନ୍ତୁ</string>
+    <string name="category_color_apps_title">ଆପଗୁଡ଼ିକ</string>
+    <string name="color_app_profiles_enabled_title">ଆପ ଅନୁସାରେ ରଙ୍ଗ ବଦଳାନ୍ତୁ</string>
+    <string name="color_app_profiles_enabled_summary">ଆପ ଆଗରେ ଥିବାବେଳେ ଏହା ପାଇଁ ବାଛିଥିବା ରଙ୍ଗ ସେଟିଂ ବ୍ୟବହାର କରନ୍ତୁ</string>
+    <string name="color_app_profiles_title">ଆପ ରଙ୍ଗ</string>
+    <string name="color_app_profiles_summary">ପ୍ରତ୍ୟେକ ଆପ ପାଇଁ ରଙ୍ଗ ଉନ୍ନତି ଅଫ କରନ୍ତୁ କିମ୍ବା ରଙ୍ଗ ମୋଡ ବାଛନ୍ତୁ</string>
+    <string name="color_app_profile_default">ସ୍କ୍ରିନ ରଙ୍ଗ ସେଟିଂ ଅନୁସରଣ କରନ୍ତୁ</string>
+    <string name="color_app_profile_off">ଅଫ (ସଠିକ ରଙ୍ଗ)</string>
 
     <string name="perf_title">ପରଫର୍ମାନ୍ସ ପ୍ରୋଫାଇଲ</string>
     <string name="perf_summary">MediaTek Dimensity ପରଫର୍ମାନ୍ସ ଏବଂ ଥର୍ମାଲ ପଲିସି ଟ୍ୟୁନ କରନ୍ତୁ</string>

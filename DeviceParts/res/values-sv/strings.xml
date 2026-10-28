@@ -7,7 +7,7 @@
     <string name="app_name">Enhetsfunktioner</string>
 
     <string name="device_parts_title">Enhetsfunktioner</string>
-    <string name="device_parts_summary">Prestanda, tillbehör, pekskärm och Dolby Atmos</string>
+    <string name="device_parts_summary">Prestanda, skärmfärg, tillbehör, pekskärm och Dolby Atmos</string>
     <string name="display_parts_title">Uppdateringsfrekvens och pekskärm</string>
     <string name="display_parts_summary">Läslägets uppdateringsfrekvens, pekskärmens spelläge</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Pekskärm</string>
     <string name="category_audio_title">Ljud</string>
     <string name="category_perf_title">Prestanda</string>
+    <string name="category_color_title">Färg</string>
 
     <string name="pen_refresh_cap_title">Begränsa till 120 Hz när e-pennan används</string>
     <string name="pen_refresh_cap_summary">Den aktiva e-pennan uppges bara fungera upp till 120 Hz. Gränsen hävs 10 sekunder efter den senaste inmatningen med e-pennan.</string>
@@ -64,6 +65,35 @@
     <string name="dolby_app_profiles_title">Applägen</string>
     <string name="dolby_app_profiles_summary">Välj läge för varje app. Kända musik- och videoappar börjar med Musik och Film.</string>
     <string name="dolby_app_profile_default">Standardläge</string>
+
+    <string name="screen_color_title">Skärmfärg</string>
+    <string name="screen_color_summary">Färgläge, färgtemperatur och appfärger</string>
+    <string name="color_mode_title">Färgläge</string>
+    <string name="color_mode_standard">Standard</string>
+    <string name="color_mode_vivid">Livfull</string>
+    <string name="color_mode_natural">Naturlig</string>
+    <string name="color_temperature_title">Färgtemperatur</string>
+    <string name="color_temperature_standard">Standard</string>
+    <string name="color_temperature_warm">Varm</string>
+    <string name="color_temperature_cool">Kall</string>
+    <string name="color_temperature_tip">Tryck på eller dra punkten på färghjulet för att färga skärmen. Välj Standard för att återställa.</string>
+    <string name="color_wheel_description">Färgtemperaturhjul</string>
+    <string name="category_color_more_title">Fler inställningar</string>
+    <string name="color_adaptive_title">Anpassa efter omgivningsljus</string>
+    <string name="color_adaptive_summary">Justera skärmens vita färg efter färgen på omgivningsljuset för bekvämare visning</string>
+    <string name="category_color_adjust_title">Bildjustering</string>
+    <string name="color_saturation_title">Mättnad</string>
+    <string name="color_contrast_title">Kontrast</string>
+    <string name="color_sharpness_title">Skärpa</string>
+    <string name="color_adjust_default">Standard</string>
+    <string name="color_adjust_reset_title">Återställ bildjustering</string>
+    <string name="category_color_apps_title">Appar</string>
+    <string name="color_app_profiles_enabled_title">Byt färg per app</string>
+    <string name="color_app_profiles_enabled_summary">Använd appens valda färginställning när den är i förgrunden</string>
+    <string name="color_app_profiles_title">Appfärger</string>
+    <string name="color_app_profiles_summary">Stäng av färgförbättring eller välj färgläge för varje app</string>
+    <string name="color_app_profile_default">Skärmfärgsinställningar</string>
+    <string name="color_app_profile_off">Av (korrekta färger)</string>
 
     <string name="perf_title">Prestandaprofiler</string>
     <string name="perf_summary">Justera MediaTek Dimensity-prestanda och temperaturpolicyer</string>

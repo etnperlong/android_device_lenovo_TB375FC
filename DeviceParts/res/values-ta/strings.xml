@@ -7,7 +7,7 @@
     <string name="app_name">சாதன அம்சங்கள்</string>
 
     <string name="device_parts_title">சாதன அம்சங்கள்</string>
-    <string name="device_parts_summary">செயல்திறன், துணைக்கருவிகள், தொடுதல் மற்றும் Dolby Atmos</string>
+    <string name="device_parts_summary">செயல்திறன், திரை வண்ணம், துணைக்கருவிகள், தொடுதல் மற்றும் Dolby Atmos</string>
     <string name="display_parts_title">ரெஃப்ரெஷ் ரேட் மற்றும் தொடுதல்</string>
     <string name="display_parts_summary">படித்தல் பயன்முறை ரெஃப்ரெஷ் ரேட், கேம் டச் பயன்முறை</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">தொடுதல்</string>
     <string name="category_audio_title">ஆடியோ</string>
     <string name="category_perf_title">செயல்திறன்</string>
+    <string name="category_color_title">வண்ணம்</string>
 
     <string name="pen_refresh_cap_title">ஸ்டைலஸைப் பயன்படுத்தும்போது 120 Hz ஆக வரம்பிடு</string>
     <string name="pen_refresh_cap_summary">செயலில் உள்ள ஸ்டைலஸ் 120 Hz வரை மட்டுமே செயல்படும் எனத் தெரிவிக்கப்பட்டுள்ளது. கடைசி ஸ்டைலஸ் உள்ளீட்டிற்கு 10 வினாடிகளுக்குப் பிறகு வரம்பு நீக்கப்படும்.</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">ஆப் பயன்முறைகள்</string>
     <string name="dolby_app_profiles_summary">ஒவ்வொரு ஆப்பிற்கும் பயன்முறையைத் தேர்ந்தெடுக்கவும். தெரிந்த இசை மற்றும் வீடியோ ஆப்களுக்கு, இசை மற்றும் திரைப்படப் பயன்முறைகள் முன்கூட்டியே அமைக்கப்படும்.</string>
     <string name="dolby_app_profile_default">இயல்புநிலை பயன்முறை</string>
+
+    <string name="screen_color_title">திரை வண்ணம்</string>
+    <string name="screen_color_summary">வண்ணப் பயன்முறை, வண்ண வெப்பநிலை மற்றும் ஆப் வண்ணங்கள்</string>
+    <string name="color_mode_title">வண்ணப் பயன்முறை</string>
+    <string name="color_mode_standard">நிலையான</string>
+    <string name="color_mode_vivid">துடிப்பான</string>
+    <string name="color_mode_natural">இயற்கையான</string>
+    <string name="color_temperature_title">வண்ண வெப்பநிலை</string>
+    <string name="color_temperature_standard">நிலையான</string>
+    <string name="color_temperature_warm">வெப்பமான</string>
+    <string name="color_temperature_cool">குளிர்ச்சியான</string>
+    <string name="color_temperature_tip">திரையில் நிறமூட்ட, வண்ணச் சக்கரத்தில் உள்ள புள்ளியைத் தட்டவும் அல்லது இழுக்கவும். பழைய நிலைக்குத் திரும்ப, நிலையானதைத் தேர்ந்தெடுக்கவும்.</string>
+    <string name="color_wheel_description">வண்ண வெப்பநிலைச் சக்கரம்</string>
+    <string name="category_color_more_title">மேலும் அமைப்புகள்</string>
+    <string name="color_adaptive_title">சுற்றுப்புற ஒளிக்கு ஏற்றவாறு மாற்று</string>
+    <string name="color_adaptive_summary">வசதியாகப் பார்ப்பதற்காக, சுற்றியுள்ள ஒளியின் வண்ணத்துக்கு ஏற்ப திரையின் வெள்ளை நிறத்தைச் சரிசெய்யவும்</string>
+    <string name="category_color_adjust_title">படச் சரிசெய்தல்</string>
+    <string name="color_saturation_title">செறிவு</string>
+    <string name="color_contrast_title">மாறுபாடு</string>
+    <string name="color_sharpness_title">கூர்மை</string>
+    <string name="color_adjust_default">இயல்புநிலை</string>
+    <string name="color_adjust_reset_title">படச் சரிசெய்தலை மீட்டமை</string>
+    <string name="category_color_apps_title">ஆப்ஸ்</string>
+    <string name="color_app_profiles_enabled_title">ஆப்பிற்கு ஏற்ப வண்ணத்தை மாற்று</string>
+    <string name="color_app_profiles_enabled_summary">ஆப் முன்னணியில் இருக்கும்போது அதற்காகத் தேர்ந்தெடுத்த வண்ண அமைப்பைப் பயன்படுத்து</string>
+    <string name="color_app_profiles_title">ஆப் வண்ணங்கள்</string>
+    <string name="color_app_profiles_summary">வண்ண மேம்பாட்டை முடக்கவும் அல்லது ஒவ்வொரு ஆப்பிற்கும் வண்ணப் பயன்முறையைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="color_app_profile_default">திரை வண்ண அமைப்புகள்</string>
+    <string name="color_app_profile_off">முடக்கு (துல்லியமான வண்ணங்கள்)</string>
 
     <string name="perf_title">செயல்திறன் சுயவிவரங்கள்</string>
     <string name="perf_summary">MediaTek Dimensity செயல்திறன் மற்றும் வெப்பக் கொள்கைகளைச் சரிசெய்யவும்</string>

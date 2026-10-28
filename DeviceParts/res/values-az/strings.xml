@@ -7,7 +7,7 @@
     <string name="app_name">Cihaz xüsusiyyətləri</string>
 
     <string name="device_parts_title">Cihaz xüsusiyyətləri</string>
-    <string name="device_parts_summary">Məhsuldarlıq, rəsmi aksesuarlar, toxunma və Dolby Atmos</string>
+    <string name="device_parts_summary">Məhsuldarlıq, ekran rəngi, rəsmi aksesuarlar, toxunma və Dolby Atmos</string>
     <string name="display_parts_title">Yeniləmə tezliyi və toxunma</string>
     <string name="display_parts_summary">Oxuma rejiminin yeniləmə tezliyi, toxunma oyun rejimi</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Toxunma</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Məhsuldarlıq</string>
+    <string name="category_color_title">Rəng</string>
 
     <string name="pen_refresh_cap_title">Qələmdən istifadə zamanı 120 Hs ilə məhdudlaşdırın</string>
     <string name="pen_refresh_cap_summary">Aktiv qələmin yalnız 120 Hs-ə qədər işlədiyi bildirilir. Son qələm girişindən 10 saniyə sonra məhdudiyyət götürülür.</string>
@@ -65,6 +66,35 @@
     <string name="dolby_app_profiles_title">Tətbiq rejimləri</string>
     <string name="dolby_app_profiles_summary">Hər tətbiq üçün rejim seçin. Tanınmış musiqi və video tətbiqləri başlanğıcda müvafiq olaraq Musiqi və Film rejimlərindən istifadə edir.</string>
     <string name="dolby_app_profile_default">Defolt rejim</string>
+
+    <string name="screen_color_title">Ekran rəngi</string>
+    <string name="screen_color_summary">Rəng rejimi, rəng temperaturu və tətbiq rəngləri</string>
+    <string name="color_mode_title">Rəng rejimi</string>
+    <string name="color_mode_standard">Standart</string>
+    <string name="color_mode_vivid">Canlı</string>
+    <string name="color_mode_natural">Təbii</string>
+    <string name="color_temperature_title">Rəng temperaturu</string>
+    <string name="color_temperature_standard">Standart</string>
+    <string name="color_temperature_warm">İsti</string>
+    <string name="color_temperature_cool">Soyuq</string>
+    <string name="color_temperature_tip">Ekrana rəng tonu vermək üçün rəng çarxındakı nöqtəyə toxunun və ya onu dartın. Geri qayıtmaq üçün Standart seçin.</string>
+    <string name="color_wheel_description">Rəng temperaturu çarxı</string>
+    <string name="category_color_more_title">Daha çox parametr</string>
+    <string name="color_adaptive_title">Ətraf işığına uyğunlaşdır</string>
+    <string name="color_adaptive_summary">Daha rahat baxış üçün ekranın ağ rəngini ətrafdakı işığın rənginə uyğunlaşdırın</string>
+    <string name="category_color_adjust_title">Şəkil tənzimləməsi</string>
+    <string name="color_saturation_title">Doyğunluq</string>
+    <string name="color_contrast_title">Kontrast</string>
+    <string name="color_sharpness_title">Kəskinlik</string>
+    <string name="color_adjust_default">Defolt</string>
+    <string name="color_adjust_reset_title">Şəkil tənzimləməsini sıfırlayın</string>
+    <string name="category_color_apps_title">Tətbiqlər</string>
+    <string name="color_app_profiles_enabled_title">Rəngi tətbiqə görə dəyişin</string>
+    <string name="color_app_profiles_enabled_summary">Tətbiq ön planda olarkən onun üçün seçilmiş rəng parametrindən istifadə edin</string>
+    <string name="color_app_profiles_title">Tətbiq rəngləri</string>
+    <string name="color_app_profiles_summary">Rəng yaxşılaşdırmasını söndürün və ya hər tətbiq üçün rəng rejimi seçin</string>
+    <string name="color_app_profile_default">Ekran rəngi parametrləri</string>
+    <string name="color_app_profile_off">Söndürülüb (dəqiq rənglər)</string>
 
     <string name="perf_title">Məhsuldarlıq profilləri</string>
     <string name="perf_summary">MediaTek Dimensity məhsuldarlığını və istilik siyasətlərini tənzimləyin</string>

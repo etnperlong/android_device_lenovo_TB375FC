@@ -7,7 +7,7 @@
     <string name="app_name">기기 기능</string>
 
     <string name="device_parts_title">기기 기능</string>
-    <string name="device_parts_summary">성능, 액세서리, 터치, Dolby Atmos</string>
+    <string name="device_parts_summary">성능, 화면 색상, 액세서리, 터치, Dolby Atmos</string>
     <string name="display_parts_title">화면 재생 빈도 및 터치</string>
     <string name="display_parts_summary">독서 모드 화면 재생 빈도, 터치 게임 모드</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">터치</string>
     <string name="category_audio_title">오디오</string>
     <string name="category_perf_title">성능</string>
+    <string name="category_color_title">색상</string>
 
     <string name="pen_refresh_cap_title">스타일러스 사용 시 120Hz로 제한</string>
     <string name="pen_refresh_cap_summary">스타일러스는 최대 120Hz까지만 작동하는 것으로 알려져 있습니다. 마지막 스타일러스 입력 후 10초가 지나면 제한이 해제됩니다.</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">앱 모드</string>
     <string name="dolby_app_profiles_summary">앱별 모드를 선택합니다. 잘 알려진 음악 및 동영상 앱은 기본적으로 음악 및 영화 모드로 설정됩니다.</string>
     <string name="dolby_app_profile_default">기본 모드</string>
+
+    <string name="screen_color_title">화면 색상</string>
+    <string name="screen_color_summary">색상 모드, 색온도 및 앱별 색상</string>
+    <string name="color_mode_title">색상 모드</string>
+    <string name="color_mode_standard">표준</string>
+    <string name="color_mode_vivid">선명</string>
+    <string name="color_mode_natural">자연스러움</string>
+    <string name="color_temperature_title">색온도</string>
+    <string name="color_temperature_standard">표준</string>
+    <string name="color_temperature_warm">따뜻함</string>
+    <string name="color_temperature_cool">차가움</string>
+    <string name="color_temperature_tip">색상환의 점을 탭하거나 드래그하여 화면 색조를 조정하세요. 기본으로 돌아가려면 표준을 선택하세요.</string>
+    <string name="color_wheel_description">색온도 색상환</string>
+    <string name="category_color_more_title">추가 설정</string>
+    <string name="color_adaptive_title">주변 조명에 맞게 조정</string>
+    <string name="color_adaptive_summary">더 편안하게 볼 수 있도록 주변 조명의 색상에 맞춰 화면의 흰색을 조정합니다</string>
+    <string name="category_color_adjust_title">화면 조정</string>
+    <string name="color_saturation_title">채도</string>
+    <string name="color_contrast_title">대비</string>
+    <string name="color_sharpness_title">선명도</string>
+    <string name="color_adjust_default">기본값</string>
+    <string name="color_adjust_reset_title">화면 조정 초기화</string>
+    <string name="category_color_apps_title">앱</string>
+    <string name="color_app_profiles_enabled_title">앱별 색상 전환</string>
+    <string name="color_app_profiles_enabled_summary">앱이 화면에 표시되는 동안 해당 앱에 선택한 색상 설정을 사용합니다</string>
+    <string name="color_app_profiles_title">앱별 색상</string>
+    <string name="color_app_profiles_summary">색상 향상을 끄거나 앱별로 색상 모드를 선택합니다</string>
+    <string name="color_app_profile_default">화면 색상 설정</string>
+    <string name="color_app_profile_off">사용 안 함(정확한 색상)</string>
 
     <string name="perf_title">성능 프로필</string>
     <string name="perf_summary">MediaTek Dimensity 성능 및 발열 정책 조정</string>

@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">تایبەتمەندییەکانی ئامێر</string>
     <string name="device_parts_title">تایبەتمەندییەکانی ئامێر</string>
-    <string name="device_parts_summary">کارایی، پێوەکراوەکان، دەستلێدان و Dolby Atmos</string>
+    <string name="device_parts_summary">کارایی، ڕەنگی شاشە، پێوەکراوەکان، دەستلێدان و Dolby Atmos</string>
     <string name="display_parts_title">ڕێژەی نوێکردنەوە و دەستلێدان</string>
     <string name="display_parts_summary">ڕێژەی نوێکردنەوەی دۆخی خوێندنەوە، دۆخی یاریی دەستلێدان</string>
     <string name="category_accessories_title">پێوەکراوە فەرمییەکان</string>
@@ -14,6 +14,7 @@
     <string name="category_touch_title">دەستلێدان</string>
     <string name="category_audio_title">دەنگ</string>
     <string name="category_perf_title">کارایی</string>
+    <string name="category_color_title">ڕەنگ</string>
     <string name="pen_refresh_cap_title">سنووردارکردن بە 120 هێرتز لە کاتی بەکارهێنانی پێنووسدا</string>
     <string name="pen_refresh_cap_summary">پێنووسی چالاک تەنها تا 120 هێرتز کار دەکات. سنوورەکە 10 چرکە دوای دواخستنی پێنووس لادەبرێت.</string>
     <string name="reading_low_refresh_title">30 هێرتز لە دۆخی خوێندنەوەدا</string>
@@ -61,6 +62,35 @@
     <string name="dolby_app_profiles_title">دۆخەکانی ئەپ</string>
     <string name="dolby_app_profiles_summary">دۆخی هەر ئەپێک هەڵبژێرە. ئەپە ناسراوەکانی مۆسیقا و ڤیدیۆ بە دۆخی مۆسیقا و فیلم دەست پێدەکەن.</string>
     <string name="dolby_app_profile_default">دۆخی بنەڕەت</string>
+
+    <string name="screen_color_title">ڕەنگی شاشە</string>
+    <string name="screen_color_summary">دۆخی ڕەنگ، پلەی گەرمی ڕەنگ و ڕەنگی ئەپەکان</string>
+    <string name="color_mode_title">دۆخی ڕەنگ</string>
+    <string name="color_mode_standard">ستاندارد</string>
+    <string name="color_mode_vivid">ڕوون</string>
+    <string name="color_mode_natural">سروشتی</string>
+    <string name="color_temperature_title">پلەی گەرمی ڕەنگ</string>
+    <string name="color_temperature_standard">ستاندارد</string>
+    <string name="color_temperature_warm">گەرم</string>
+    <string name="color_temperature_cool">سارد</string>
+    <string name="color_temperature_tip">بۆ گۆڕینی تۆنی شاشە، دەست لەسەر خاڵەکەی چرخی ڕەنگ دابنێ یان ڕایبکێشە. بۆ گەڕانەوە «ستاندارد» هەڵبژێرە.</string>
+    <string name="color_wheel_description">چرخی پلەی گەرمی ڕەنگ</string>
+    <string name="category_color_more_title">ڕێکخستنی زیاتر</string>
+    <string name="color_adaptive_title">گونجاندن لەگەڵ ڕووناکی دەوروبەر</string>
+    <string name="color_adaptive_summary">بۆ بینینێکی ئاسوودەتر، سپیی شاشە لەگەڵ ڕەنگی ڕووناکی دەوروبەر بگونجێنە</string>
+    <string name="category_color_adjust_title">ڕێکخستنی وێنە</string>
+    <string name="color_saturation_title">تێری ڕەنگ</string>
+    <string name="color_contrast_title">کۆنتراست</string>
+    <string name="color_sharpness_title">تیژی</string>
+    <string name="color_adjust_default">بنەڕەت</string>
+    <string name="color_adjust_reset_title">گەڕاندنەوەی ڕێکخستنی وێنە</string>
+    <string name="category_color_apps_title">ئەپی</string>
+    <string name="color_app_profiles_enabled_title">گۆڕینی ڕەنگ بەپێی ئەپ</string>
+    <string name="color_app_profiles_enabled_summary">کاتێک ئەپێک لە پێشەوەیە، ڕێکخستنی ڕەنگی بۆ دیاریکراو بەکاربهێنە</string>
+    <string name="color_app_profiles_title">ڕەنگی ئەپەکان</string>
+    <string name="color_app_profiles_summary">باشترکردنی ڕەنگ ناچالاک بکە یان بۆ هەر ئەپێک دۆخی ڕەنگ هەڵبژێرە</string>
+    <string name="color_app_profile_default">ڕێکخستنەکانی ڕەنگی شاشە</string>
+    <string name="color_app_profile_off">کوژاوە (ڕەنگی ورد)</string>
     <string name="perf_title">پرۆفایلی کارایی</string>
     <string name="perf_summary">ڕێکخستنی کارایی MediaTek Dimensity و سیاسەتەکانی گەرما</string>
     <string name="perf_enabled_title">ڕێکخستنی کارایی بەپێی ئەپ</string>

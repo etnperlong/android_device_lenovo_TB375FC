@@ -7,7 +7,7 @@
     <string name="app_name">डिवाइस सुविधाएँ</string>
 
     <string name="device_parts_title">डिवाइस सुविधाएँ</string>
-    <string name="device_parts_summary">परफ़ॉर्मेंस, ऐक्सेसरीज़, टच और Dolby Atmos</string>
+    <string name="device_parts_summary">परफ़ॉर्मेंस, स्क्रीन का रंग, ऐक्सेसरीज़, टच और Dolby Atmos</string>
     <string name="display_parts_title">रीफ़्रेश रेट और टच</string>
     <string name="display_parts_summary">रीडिंग मोड रीफ़्रेश रेट, टच गेम मोड</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">टच</string>
     <string name="category_audio_title">ऑडियो</string>
     <string name="category_perf_title">परफ़ॉर्मेंस</string>
+    <string name="category_color_title">रंग</string>
 
     <string name="pen_refresh_cap_title">स्टाइलस इस्तेमाल करते समय 120 Hz तक सीमित करें</string>
     <string name="pen_refresh_cap_summary">ऐक्टिव स्टाइलस 120 Hz तक ही काम करता है। स्टाइलस से आख़िरी इनपुट के 10 सेकंड बाद यह सीमा हट जाती है।</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">ऐप मोड</string>
     <string name="dolby_app_profiles_summary">हर ऐप के लिए मोड चुनें। पहचाने गए म्यूज़िक और वीडियो ऐप, म्यूज़िक और मूवी मोड से शुरू होते हैं।</string>
     <string name="dolby_app_profile_default">डिफ़ॉल्ट मोड</string>
+    <string name="screen_color_title">स्क्रीन का रंग</string>
+    <string name="screen_color_summary">रंग मोड, रंग तापमान और ऐप के रंग</string>
+    <string name="color_mode_title">रंग मोड</string>
+    <string name="color_mode_standard">स्टैंडर्ड</string>
+    <string name="color_mode_vivid">चटकीला</string>
+    <string name="color_mode_natural">प्राकृतिक</string>
+    <string name="color_temperature_title">रंग तापमान</string>
+    <string name="color_temperature_standard">स्टैंडर्ड</string>
+    <string name="color_temperature_warm">गर्म</string>
+    <string name="color_temperature_cool">ठंडा</string>
+    <string name="color_temperature_tip">स्क्रीन का रंग बदलने के लिए कलर व्हील पर मौजूद बिंदु को टैप करें या खींचें। वापस जाने के लिए स्टैंडर्ड चुनें।</string>
+    <string name="color_wheel_description">रंग तापमान व्हील</string>
+    <string name="category_color_more_title">ज़्यादा सेटिंग</string>
+    <string name="color_adaptive_title">आसपास की रोशनी के मुताबिक़ करें</string>
+    <string name="color_adaptive_summary">आराम से देखने के लिए स्क्रीन के सफ़ेद रंग को आसपास की रोशनी के रंग के मुताबिक़ करें</string>
+    <string name="category_color_adjust_title">तस्वीर में बदलाव</string>
+    <string name="color_saturation_title">रंग की तीव्रता</string>
+    <string name="color_contrast_title">कॉन्ट्रास्ट</string>
+    <string name="color_sharpness_title">तीखापन</string>
+    <string name="color_adjust_default">डिफ़ॉल्ट</string>
+    <string name="color_adjust_reset_title">तस्वीर में बदलाव रीसेट करें</string>
+    <string name="category_color_apps_title">ऐप्लिकेशन</string>
+    <string name="color_app_profiles_enabled_title">ऐप के हिसाब से रंग बदलें</string>
+    <string name="color_app_profiles_enabled_summary">ऐप सबसे आगे होने पर उसके लिए चुनी गई रंग सेटिंग इस्तेमाल करें</string>
+    <string name="color_app_profiles_title">ऐप के रंग</string>
+    <string name="color_app_profiles_summary">रंग सुधार बंद करें या हर ऐप के लिए रंग मोड चुनें</string>
+    <string name="color_app_profile_default">स्क्रीन के रंग की सेटिंग</string>
+    <string name="color_app_profile_off">बंद (सटीक रंग)</string>
+
 
     <string name="perf_title">परफ़ॉर्मेंस प्रोफ़ाइल</string>
     <string name="perf_summary">MediaTek Dimensity की परफ़ॉर्मेंस और थर्मल नीतियां ट्यून करें</string>

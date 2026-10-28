@@ -7,7 +7,7 @@
     <string name="app_name">裝置功能</string>
 
     <string name="device_parts_title">裝置功能</string>
-    <string name="device_parts_summary">效能、配件、觸控與杜比全景聲</string>
+    <string name="device_parts_summary">效能、螢幕色彩、配件、觸控與杜比全景聲</string>
     <string name="display_parts_title">刷新率與觸控</string>
     <string name="display_parts_summary">閱讀模式刷新率、觸控遊戲模式</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">觸控</string>
     <string name="category_audio_title">音訊</string>
     <string name="category_perf_title">效能</string>
+    <string name="category_color_title">色彩</string>
 
     <string name="pen_refresh_cap_title">使用觸控筆時限制為 120 Hz</string>
     <string name="pen_refresh_cap_summary">主動式觸控筆回報僅支援最高 120 Hz。最後一次觸控筆輸入後 10 秒即解除限制。</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">應用程式模式</string>
     <string name="dolby_app_profiles_summary">為每個應用程式選擇模式。已知的音樂和影片應用程式預設使用音樂和電影模式。</string>
     <string name="dolby_app_profile_default">預設模式</string>
+
+    <string name="screen_color_title">螢幕色彩</string>
+    <string name="screen_color_summary">色彩模式、色溫與應用程式色彩</string>
+    <string name="color_mode_title">色彩模式</string>
+    <string name="color_mode_standard">標準</string>
+    <string name="color_mode_vivid">鮮豔</string>
+    <string name="color_mode_natural">自然</string>
+    <string name="color_temperature_title">色溫</string>
+    <string name="color_temperature_standard">標準</string>
+    <string name="color_temperature_warm">暖色</string>
+    <string name="color_temperature_cool">冷色</string>
+    <string name="color_temperature_tip">在色環上輕觸或拖曳圓點以調整螢幕色調。選擇「標準」即可還原。</string>
+    <string name="color_wheel_description">色溫色環</string>
+    <string name="category_color_more_title">更多設定</string>
+    <string name="color_adaptive_title">配合環境光線</string>
+    <string name="color_adaptive_summary">根據環境光線的顏色調整螢幕白色，讓觀看更舒適</string>
+    <string name="category_color_adjust_title">畫面調整</string>
+    <string name="color_saturation_title">飽和度</string>
+    <string name="color_contrast_title">對比度</string>
+    <string name="color_sharpness_title">銳利度</string>
+    <string name="color_adjust_default">預設</string>
+    <string name="color_adjust_reset_title">重設畫面調整</string>
+    <string name="category_color_apps_title">應用程式</string>
+    <string name="color_app_profiles_enabled_title">依應用程式切換色彩</string>
+    <string name="color_app_profiles_enabled_summary">應用程式位於前景時，使用為其選擇的色彩設定</string>
+    <string name="color_app_profiles_title">應用程式色彩</string>
+    <string name="color_app_profiles_summary">關閉色彩增強功能，或為每個應用程式選擇色彩模式</string>
+    <string name="color_app_profile_default">螢幕色彩設定</string>
+    <string name="color_app_profile_off">關閉（色彩準確）</string>
 
     <string name="perf_title">效能設定檔</string>
     <string name="perf_summary">調整聯發科天璣的效能和溫控策略</string>

@@ -7,7 +7,7 @@
     <string name="app_name">Bahagian peranti</string>
 
     <string name="device_parts_title">Bahagian peranti</string>
-    <string name="device_parts_summary">Prestasi, aksesori, sentuhan dan Dolby Atmos</string>
+    <string name="device_parts_summary">Prestasi, warna skrin, aksesori, sentuhan dan Dolby Atmos</string>
     <string name="display_parts_title">Kadar muat semula dan sentuhan</string>
     <string name="display_parts_summary">Kadar muat semula mod bacaan, mod permainan sentuhan</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Sentuhan</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Prestasi</string>
+    <string name="category_color_title">Warna skrin</string>
 
     <string name="pen_refresh_cap_title">Hadkan kepada 120 Hz semasa menggunakan stilus</string>
     <string name="pen_refresh_cap_summary">Stilus aktif dilaporkan hanya berfungsi sehingga 120 Hz. Had ditarik balik 10 saat selepas input stilus terakhir.</string>
@@ -65,6 +66,35 @@
     <string name="dolby_app_profiles_title">Mod apl</string>
     <string name="dolby_app_profiles_summary">Pilih mod bagi setiap apl. Apl muzik dan video yang diketahui bermula dengan mod Muzik dan Filem.</string>
     <string name="dolby_app_profile_default">Mod lalai</string>
+
+    <string name="screen_color_title">Warna skrin</string>
+    <string name="screen_color_summary">Mod warna, suhu warna dan warna apl</string>
+    <string name="color_mode_title">Mod warna</string>
+    <string name="color_mode_standard">Standard</string>
+    <string name="color_mode_vivid">Terang</string>
+    <string name="color_mode_natural">Semula jadi</string>
+    <string name="color_temperature_title">Suhu warna</string>
+    <string name="color_temperature_standard">Standard</string>
+    <string name="color_temperature_warm">Panas</string>
+    <string name="color_temperature_cool">Sejuk</string>
+    <string name="color_temperature_tip">Ketik atau seret titik pada roda warna untuk melaraskan rona skrin. Pilih “Standard” untuk menetapkan semula.</string>
+    <string name="color_wheel_description">Roda suhu warna</string>
+    <string name="category_color_more_title">Lagi tetapan</string>
+    <string name="color_adaptive_title">Sesuaikan dengan warna persekitaran</string>
+    <string name="color_adaptive_summary">Laraskan titik putih skrin mengikut warna cahaya persekitaran untuk tontonan yang lebih selesa</string>
+    <string name="category_color_adjust_title">Pelarasan gambar</string>
+    <string name="color_saturation_title">Ketepuan</string>
+    <string name="color_contrast_title">Kontras</string>
+    <string name="color_sharpness_title">Ketajaman</string>
+    <string name="color_adjust_default">Lalai</string>
+    <string name="color_adjust_reset_title">Tetapkan semula pelarasan gambar kepada lalai</string>
+    <string name="category_color_apps_title">Apl</string>
+    <string name="color_app_profiles_enabled_title">Tukar warna mengikut apl</string>
+    <string name="color_app_profiles_enabled_summary">Gunakan tetapan warna yang dipilih untuk apl semasa apl berada di latar depan</string>
+    <string name="color_app_profiles_title">Warna apl</string>
+    <string name="color_app_profiles_summary">Matikan peningkatan warna atau pilih mod warna untuk setiap apl</string>
+    <string name="color_app_profile_default">Ikut tetapan warna skrin</string>
+    <string name="color_app_profile_off">Mati (warna tepat)</string>
 
     <string name="perf_title">Profil prestasi</string>
     <string name="perf_summary">Laraskan prestasi MediaTek Dimensity dan dasar terma</string>

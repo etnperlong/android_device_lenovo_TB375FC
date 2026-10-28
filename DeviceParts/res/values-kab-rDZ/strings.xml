@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Timahilin n yibenk</string>
     <string name="device_parts_title">Timahilin n yibenk</string>
-    <string name="device_parts_summary">Tamellit, iseɣẓanen, anermis akked Dolby Atmos</string>
+    <string name="device_parts_summary">Tamellit, ini n ugdil, iseɣẓanen, anermis akked Dolby Atmos</string>
     <string name="display_parts_title">Amḍan n usnifel akked unermis</string>
     <string name="display_parts_summary">Amḍan n usnifel deg uskar n tɣuri, askar n wurar s unermis</string>
     <string name="category_accessories_title">Iseɣẓanen unṣiben</string>
@@ -14,6 +14,7 @@
     <string name="category_touch_title">Anermis</string>
     <string name="category_audio_title">Imesli</string>
     <string name="category_perf_title">Tamellit</string>
+    <string name="category_color_title">Ini</string>
     <string name="pen_refresh_cap_title">Sbed amḍan ar 120 Hz mi ara tesqedceḍ amaru</string>
     <string name="pen_refresh_cap_summary">Aḍris n umaru ur yessawaḍ ara ɣer sdat n 120 Hz. Talast tettwakkes 10 n tesinin seld anekcum aneggaru s umaru.</string>
     <string name="reading_low_refresh_title">30 Hz deg uskar n tɣuri</string>
@@ -61,6 +62,36 @@
     <string name="dolby_app_profiles_title">Iskaren n yesnasen</string>
     <string name="dolby_app_profiles_summary">Fren askar i yal asnas. Isnasen n uẓawan akked tvidyutin yettwasnen ad beddun s yiskaren n uẓawan akked usaru.</string>
     <string name="dolby_app_profile_default">Askar amezwer</string>
+    <!-- Screen color -->
+    <string name="screen_color_title">Ini n ugdil</string>
+    <string name="screen_color_summary">Askar n yini, tawtilt n yini akked initen n yesnasen</string>
+    <string name="color_mode_title">Askar n yini</string>
+    <string name="color_mode_standard">Amagnu</string>
+    <string name="color_mode_vivid">Yefra</string>
+    <string name="color_mode_natural">Amagnu</string>
+    <string name="color_temperature_title">Tawtilt n yini</string>
+    <string name="color_temperature_standard">Tamagnut</string>
+    <string name="color_temperature_warm">Iḥma</string>
+    <string name="color_temperature_cool">Isemmed</string>
+    <string name="color_temperature_tip">Senned neɣ zuɣer taqattayt ɣef tfelwit n yini i wakken ad tbeddeleḍ ini n ugdil. Fren Amagnu i wakken ad tuɣaleḍ ɣer tallunt tamezwarut.</string>
+    <string name="color_wheel_description">Tafelwit n tawtilt n yini</string>
+    <string name="category_color_more_title">Iɣewwaren nniḍen</string>
+    <string name="color_adaptive_title">Semselsi ɣer tafat n tama</string>
+    <string name="color_adaptive_summary">Semselsi amellal n ugdil ɣer yini n tafat n tama i wakken ad teɣreḍ s talwit</string>
+    <string name="category_color_adjust_title">Semselsi tugna</string>
+    <string name="color_saturation_title">Tawerragt</string>
+    <string name="color_contrast_title">Amgired n yini</string>
+    <string name="color_sharpness_title">Tifrawt</string>
+    <string name="color_adjust_default">Amezwer</string>
+    <string name="color_adjust_reset_title">Ales awennez n usemselsi n tugna</string>
+    <string name="category_color_apps_title">Isnasen</string>
+    <string name="color_app_profiles_enabled_title">Beddel ini s usnas</string>
+    <string name="color_app_profiles_enabled_summary">Mi ara yili usnas deg sdat, seqdec i-asemmi n yini i yettwafernen i-s</string>
+    <string name="color_app_profiles_title">Initen n yesnasen</string>
+    <string name="color_app_profiles_summary">Sexsi aseɣti n yini neɣ fren askar n yini i yal asnas</string>
+    <string name="color_app_profile_default">Iɣewwaren n yini n ugdil</string>
+    <string name="color_app_profile_off">Sexsi (initen imeɣtu)</string>
+
     <string name="perf_title">Imeɣna n temellit</string>
     <string name="perf_summary">Semselsi tamellit n MediaTek Dimensity akked tsertit n tɣawsa</string>
     <string name="perf_enabled_title">Semselsi tamellit s usnas</string>

@@ -7,7 +7,7 @@
     <string name="app_name">Mga bahagi ng device</string>
 
     <string name="device_parts_title">Mga bahagi ng device</string>
-    <string name="device_parts_summary">Performance, mga accessory, touch, at Dolby Atmos</string>
+    <string name="device_parts_summary">Performance, kulay ng screen, mga accessory, touch, at Dolby Atmos</string>
     <string name="display_parts_title">Refresh rate at touch</string>
     <string name="display_parts_summary">Refresh rate ng reading mode, touch game mode</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Touch</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Performance</string>
+    <string name="category_color_title">Kulay</string>
 
     <string name="pen_refresh_cap_title">Limitahan sa 120 Hz kapag gumagamit ng stylus</string>
     <string name="pen_refresh_cap_summary">Iniulat na hanggang 120 Hz lang ang kayang suportahan ng aktibong stylus. Aalisin ang limitasyon 10 segundo pagkatapos ng huling input ng stylus.</string>
@@ -65,6 +66,35 @@
     <string name="dolby_app_profiles_title">Mga mode ng app</string>
     <string name="dolby_app_profiles_summary">Pumili ng mode para sa bawat app. Nakatakda sa Music at Movie ang mga kilalang music at video app.</string>
     <string name="dolby_app_profile_default">Default na mode</string>
+
+    <string name="screen_color_title">Kulay ng screen</string>
+    <string name="screen_color_summary">Color mode, color temperature, at mga kulay ng app</string>
+    <string name="color_mode_title">Color mode</string>
+    <string name="color_mode_standard">Standard</string>
+    <string name="color_mode_vivid">Matingkad</string>
+    <string name="color_mode_natural">Natural</string>
+    <string name="color_temperature_title">Color temperature</string>
+    <string name="color_temperature_standard">Standard</string>
+    <string name="color_temperature_warm">Warm</string>
+    <string name="color_temperature_cool">Cool</string>
+    <string name="color_temperature_tip">I-tap o i-drag ang tuldok sa color wheel para kulayan ang screen. Piliin ang Standard para bumalik.</string>
+    <string name="color_wheel_description">Color temperature wheel</string>
+    <string name="category_color_more_title">Higit pang setting</string>
+    <string name="color_adaptive_title">Iangkop sa ambient light</string>
+    <string name="color_adaptive_summary">Isaayos ang puti ng screen ayon sa kulay ng liwanag sa paligid para mas komportableng tumingin</string>
+    <string name="category_color_adjust_title">Pag-aayos ng larawan</string>
+    <string name="color_saturation_title">Saturation</string>
+    <string name="color_contrast_title">Contrast</string>
+    <string name="color_sharpness_title">Sharpness</string>
+    <string name="color_adjust_default">Default</string>
+    <string name="color_adjust_reset_title">I-reset ang pag-aayos ng larawan</string>
+    <string name="category_color_apps_title">Mga app</string>
+    <string name="color_app_profiles_enabled_title">Palitan ang kulay ayon sa app</string>
+    <string name="color_app_profiles_enabled_summary">Gamitin ang piniling setting ng kulay para sa app habang nasa unahan ito</string>
+    <string name="color_app_profiles_title">Mga kulay ng app</string>
+    <string name="color_app_profiles_summary">I-off ang color enhancement o pumili ng color mode para sa bawat app</string>
+    <string name="color_app_profile_default">Mga setting ng kulay ng screen</string>
+    <string name="color_app_profile_off">Naka-off (tumpak na mga kulay)</string>
 
     <string name="perf_title">Mga performance profile</string>
     <string name="perf_summary">Isaayos ang performance at mga thermal policy ng MediaTek Dimensity</string>

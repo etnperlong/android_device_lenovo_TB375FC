@@ -7,7 +7,7 @@
     <string name="app_name">Fonctionnalités de l’appareil</string>
 
     <string name="device_parts_title">Fonctionnalités de l’appareil</string>
-    <string name="device_parts_summary">Performances, accessoires, écran tactile et Dolby Atmos</string>
+    <string name="device_parts_summary">Performances, couleur de l’écran, accessoires, écran tactile et Dolby Atmos</string>
     <string name="display_parts_title">Fréquence d’actualisation et écran tactile</string>
     <string name="display_parts_summary">Fréquence d’actualisation du mode Lecture, mode jeu tactile</string>
 
@@ -16,7 +16,7 @@
     <string name="category_touch_title">Écran tactile</string>
     <string name="category_audio_title">Son</string>
     <string name="category_perf_title">Performances</string>
-
+    <string name="category_color_title">Couleur</string>
     <string name="pen_refresh_cap_title">Limiter à 120 Hz lors de l’utilisation du stylet</string>
     <string name="pen_refresh_cap_summary">Le stylet actif ne fonctionne que jusqu’à 120 Hz. La limite est levée 10 secondes après la dernière saisie au stylet.</string>
     <string name="reading_low_refresh_title">30 Hz en mode Lecture</string>
@@ -64,7 +64,37 @@
     <string name="dolby_app_profiles_enabled_summary">Utiliser le mode défini pour chaque appli lorsqu’elle lit du contenu audio</string>
     <string name="dolby_app_profiles_title">Modes par appli</string>
     <string name="dolby_app_profiles_summary">Choisir le mode de chaque appli. Les applis musicales et vidéo connues utilisent Musique et Film par défaut.</string>
+    
     <string name="dolby_app_profile_default">Mode par défaut</string>
+    
+    <string name="screen_color_title">Couleur de l’écran</string>
+    <string name="screen_color_summary">Mode couleur, température des couleurs et couleurs des applis</string>
+    <string name="color_mode_title">Mode couleur</string>
+    <string name="color_mode_standard">Standard</string>
+    <string name="color_mode_vivid">Vif</string>
+    <string name="color_mode_natural">Naturel</string>
+    <string name="color_temperature_title">Température des couleurs</string>
+    <string name="color_temperature_standard">Standard</string>
+    <string name="color_temperature_warm">Chaud</string>
+    <string name="color_temperature_cool">Froid</string>
+    <string name="color_temperature_tip">Touchez ou faites glisser le point sur la roue chromatique pour teinter l’écran. Choisissez Standard pour revenir en arrière.</string>
+    <string name="color_wheel_description">Roue de température des couleurs</string>
+    <string name="category_color_more_title">Plus de paramètres</string>
+    <string name="color_adaptive_title">Adapter à la lumière ambiante</string>
+    <string name="color_adaptive_summary">Ajuster le blanc de l’écran à la couleur de la lumière environnante pour un confort visuel accru</string>
+    <string name="category_color_adjust_title">Réglage de l’image</string>
+    <string name="color_saturation_title">Saturation</string>
+    <string name="color_contrast_title">Contraste</string>
+    <string name="color_sharpness_title">Netteté</string>
+    <string name="color_adjust_default">Par défaut</string>
+    <string name="color_adjust_reset_title">Réinitialiser les réglages de l’image</string>
+    <string name="category_color_apps_title">Applis</string>
+    <string name="color_app_profiles_enabled_title">Changer de couleur selon l’appli</string>
+    <string name="color_app_profiles_enabled_summary">Lorsqu’une appli est au premier plan, utiliser le paramètre de couleur choisi pour elle</string>
+    <string name="color_app_profiles_title">Couleurs des applis</string>
+    <string name="color_app_profiles_summary">Désactiver l’amélioration des couleurs ou choisir un mode couleur pour chaque appli</string>
+    <string name="color_app_profile_default">Paramètres de couleur de l’écran</string>
+    <string name="color_app_profile_off">Désactivé (couleurs fidèles)</string>
 
     <string name="perf_title">Profils de performances</string>
     <string name="perf_summary">Régler les performances et les politiques thermiques de MediaTek Dimensity</string>

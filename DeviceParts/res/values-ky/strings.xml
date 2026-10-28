@@ -7,7 +7,7 @@
     <string name="app_name">Түзмөктүн мүмкүнчүлүктөрү</string>
 
     <string name="device_parts_title">Түзмөктүн мүмкүнчүлүктөрү</string>
-    <string name="device_parts_summary">Өндүрүмдүүлүк, аксессуарлар, сенсор жана Dolby Atmos</string>
+    <string name="device_parts_summary">Өндүрүмдүүлүк, экрандын түсү, аксессуарлар, сенсор жана Dolby Atmos</string>
     <string name="display_parts_title">Жаңылануу жыштыгы жана сенсор</string>
     <string name="display_parts_summary">Окуу режиминин жаңылануу жыштыгы, сенсордун оюн режими</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Сенсор</string>
     <string name="category_audio_title">Аудио</string>
     <string name="category_perf_title">Өндүрүмдүүлүк</string>
+    <string name="category_color_title">Түс</string>
 
     <string name="pen_refresh_cap_title">Стилус колдонулганда 120 Гц менен чектөө</string>
     <string name="pen_refresh_cap_summary">Активдүү стилус 120 Гц чейин гана иштейт деп билдирилген. Стилус менен акыркы аракеттен 10 секунд өткөндө чектөө алынат.</string>
@@ -65,6 +66,35 @@
     <string name="dolby_app_profiles_title">Колдонмо режимдери</string>
     <string name="dolby_app_profiles_summary">Ар бир колдонмого режим тандаңыз. Музыка жана видео колдонмолору демейкиде Музыка жана Кино режимдерин колдонот.</string>
     <string name="dolby_app_profile_default">Демейки режим</string>
+
+    <string name="screen_color_title">Экрандын түсү</string>
+    <string name="screen_color_summary">Түс режими, түс температурасы жана колдонмолордун түстөрү</string>
+    <string name="color_mode_title">Түс режими</string>
+    <string name="color_mode_standard">Стандарттуу</string>
+    <string name="color_mode_vivid">Жандуу</string>
+    <string name="color_mode_natural">Табигый</string>
+    <string name="color_temperature_title">Түс температурасы</string>
+    <string name="color_temperature_standard">Стандарттуу</string>
+    <string name="color_temperature_warm">Жылуу</string>
+    <string name="color_temperature_cool">Муздак</string>
+    <string name="color_temperature_tip">Экрандын түс өңүн өзгөртүү үчүн түс дөңгөлөгүндөгү чекитти таптаңыз же сүйрөңүз. Калыбына келтирүү үчүн «Стандарттуу» дегенди тандаңыз.</string>
+    <string name="color_wheel_description">Түс температурасынын дөңгөлөгү</string>
+    <string name="category_color_more_title">Көбүрөөк жөндөөлөр</string>
+    <string name="color_adaptive_title">Айланадагы жарыкка ылайыкташтыруу</string>
+    <string name="color_adaptive_summary">Көрүүнү ыңгайлуу кылуу үчүн экрандын ак түсүн айланадагы жарыктын түсүнө ылайык тууралоо</string>
+    <string name="category_color_adjust_title">Сүрөттү тууралоо</string>
+    <string name="color_saturation_title">Түстүн каныктыгы</string>
+    <string name="color_contrast_title">Контраст</string>
+    <string name="color_sharpness_title">Тактык</string>
+    <string name="color_adjust_default">Демейки</string>
+    <string name="color_adjust_reset_title">Сүрөт жөндөөлөрүн баштапкы абалга келтирүү</string>
+    <string name="category_color_apps_title">Колдонмолор</string>
+    <string name="color_app_profiles_enabled_title">Түстү колдонмого жараша которуу</string>
+    <string name="color_app_profiles_enabled_summary">Колдонмо алдыңкы планда турганда, ага тандалган түс жөндөөсүн колдонуу</string>
+    <string name="color_app_profiles_title">Колдонмолордун түстөрү</string>
+    <string name="color_app_profiles_summary">Түстү жакшыртууну өчүрүңүз же ар бир колдонмого түс режимин тандаңыз</string>
+    <string name="color_app_profile_default">Экрандын түс жөндөөлөрү</string>
+    <string name="color_app_profile_off">Өчүк (так түстөр)</string>
 
     <string name="perf_title">Өндүрүмдүүлүк профилдери</string>
     <string name="perf_summary">MediaTek Dimensity өндүрүмдүүлүгүн жана температура саясатын жөндөө</string>

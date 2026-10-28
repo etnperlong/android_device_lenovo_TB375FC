@@ -7,7 +7,7 @@
     <string name="app_name">ميزات الجهاز</string>
 
     <string name="device_parts_title">ميزات الجهاز</string>
-    <string name="device_parts_summary">الأداء والملحقات واللمس وDolby Atmos</string>
+    <string name="device_parts_summary">الأداء وألوان الشاشة والملحقات واللمس وDolby Atmos</string>
     <string name="display_parts_title">معدل التحديث واللمس</string>
     <string name="display_parts_summary">معدل تحديث وضع القراءة، وضع الألعاب باللمس</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">اللمس</string>
     <string name="category_audio_title">الصوت</string>
     <string name="category_perf_title">الأداء</string>
+    <string name="category_color_title">الألوان</string>
 
     <string name="pen_refresh_cap_title">تحديد المعدل إلى 120 هرتز عند استخدام القلم</string>
     <string name="pen_refresh_cap_summary">يُقال إن القلم النشط يعمل بمعدل يصل إلى 120 هرتز فقط. يُرفع الحد بعد 10 ثوانٍ من آخر إدخال بالقلم.</string>
@@ -65,6 +66,35 @@
     <string name="dolby_app_profiles_title">أوضاع التطبيقات</string>
     <string name="dolby_app_profiles_summary">اختيار وضع لكل تطبيق. تبدأ تطبيقات الموسيقى والفيديو المعروفة بوضع الموسيقى والأفلام.</string>
     <string name="dolby_app_profile_default">الوضع التلقائي</string>
+
+    <string name="screen_color_title">لون الشاشة</string>
+    <string name="screen_color_summary">وضع الألوان ودرجة حرارة اللون وألوان التطبيقات</string>
+    <string name="color_mode_title">وضع الألوان</string>
+    <string name="color_mode_standard">قياسي</string>
+    <string name="color_mode_vivid">زاهٍ</string>
+    <string name="color_mode_natural">طبيعي</string>
+    <string name="color_temperature_title">درجة حرارة اللون</string>
+    <string name="color_temperature_standard">قياسي</string>
+    <string name="color_temperature_warm">دافئ</string>
+    <string name="color_temperature_cool">بارد</string>
+    <string name="color_temperature_tip">انقر على النقطة في عجلة الألوان أو اسحبها لتلوين الشاشة. اختر «قياسي» للعودة.</string>
+    <string name="color_wheel_description">عجلة درجة حرارة اللون</string>
+    <string name="category_color_more_title">إعدادات إضافية</string>
+    <string name="color_adaptive_title">التكيّف مع الإضاءة المحيطة</string>
+    <string name="color_adaptive_summary">ضبط اللون الأبيض للشاشة ليتناسب مع لون الإضاءة المحيطة لمشاهدة أكثر راحة</string>
+    <string name="category_color_adjust_title">ضبط الصورة</string>
+    <string name="color_saturation_title">التشبع</string>
+    <string name="color_contrast_title">التباين</string>
+    <string name="color_sharpness_title">الحدة</string>
+    <string name="color_adjust_default">افتراضي</string>
+    <string name="color_adjust_reset_title">إعادة ضبط الصورة</string>
+    <string name="category_color_apps_title">التطبيقات</string>
+    <string name="color_app_profiles_enabled_title">تبديل الألوان حسب التطبيق</string>
+    <string name="color_app_profiles_enabled_summary">استخدام إعداد اللون المحدد للتطبيق أثناء ظهوره في المقدمة</string>
+    <string name="color_app_profiles_title">ألوان التطبيقات</string>
+    <string name="color_app_profiles_summary">إيقاف تحسين الألوان أو اختيار وضع لون لكل تطبيق</string>
+    <string name="color_app_profile_default">إعدادات لون الشاشة</string>
+    <string name="color_app_profile_off">إيقاف (ألوان دقيقة)</string>
 
     <string name="perf_title">ملفات الأداء</string>
     <string name="perf_summary">ضبط أداء MediaTek Dimensity وسياسات الحرارة</string>

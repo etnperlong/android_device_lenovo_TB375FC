@@ -7,7 +7,7 @@
     <string name="app_name">Eiginleikar tækis</string>
 
     <string name="device_parts_title">Eiginleikar tækis</string>
-    <string name="device_parts_summary">Afköst, aukabúnaður, snerting og Dolby Atmos</string>
+    <string name="device_parts_summary">Afköst, skjálitur, aukabúnaður, snerting og Dolby Atmos</string>
     <string name="display_parts_title">Endurnýjunartíðni og snerting</string>
     <string name="display_parts_summary">Endurnýjunartíðni í lesham, snertileikjastilling</string>
 
@@ -15,7 +15,7 @@
     <string name="category_display_title">Endurnýjunartíðni</string>
     <string name="category_touch_title">Snerting</string>
     <string name="category_audio_title">Hljóð</string>
-    <string name="category_perf_title">Afköst</string>
+    <string name="category_color_title">Litur</string>
 
     <string name="pen_refresh_cap_title">Takmarka við 120 Hz þegar penninn er notaður</string>
     <string name="pen_refresh_cap_summary">Virkur penni virðist aðeins styðja allt að 120 Hz. Takmörkunin er afnumin 10 sekúndum eftir síðasta inntak með pennanum.</string>
@@ -63,6 +63,35 @@
     <string name="dolby_app_profiles_title">Forritastillingar</string>
     <string name="dolby_app_profiles_summary">Velja stillingu fyrir hvert forrit. Þekkt tónlistar- og myndskeiðaforrit byrja á Tónlist og Kvikmynd.</string>
     <string name="dolby_app_profile_default">Sjálfgefin stilling</string>
+    <!-- Screen color -->
+    <string name="screen_color_title">Skjálitur</string>
+    <string name="screen_color_summary">Litastilling, litahitastig og litir forrita</string>
+    <string name="color_mode_title">Litastilling</string>
+    <string name="color_mode_standard">Venjulegur</string>
+    <string name="color_mode_vivid">Líflegur</string>
+    <string name="color_mode_natural">Náttúrulegur</string>
+    <string name="color_temperature_title">Litahitastig</string>
+    <string name="color_temperature_standard">Venjulegt</string>
+    <string name="color_temperature_warm">Hlýtt</string>
+    <string name="color_temperature_cool">Kalt</string>
+    <string name="color_temperature_tip">Ýttu á punktinn á litahringnum eða dragðu hann til að lita skjáinn. Veldu Venjulegt til að fara aftur.</string>
+    <string name="color_wheel_description">Litahitastigshjól</string>
+    <string name="category_color_more_title">Fleiri stillingar</string>
+    <string name="color_adaptive_title">Aðlaga að umhverfisljósi</string>
+    <string name="color_adaptive_summary">Aðlaga hvítan lit skjásins að lit umhverfisljóssins til að gera áhorf þægilegra</string>
+    <string name="category_color_adjust_title">Myndstilling</string>
+    <string name="color_saturation_title">Litmettun</string>
+    <string name="color_contrast_title">Birtuskil</string>
+    <string name="color_sharpness_title">Skerpa</string>
+    <string name="color_adjust_default">Sjálfgefið</string>
+    <string name="color_adjust_reset_title">Endurstilla myndstillingu</string>
+    <string name="category_color_apps_title">Forrit</string>
+    <string name="color_app_profiles_enabled_title">Skipta um lit eftir forriti</string>
+    <string name="color_app_profiles_enabled_summary">Nota litastillinguna sem valin var fyrir forritið þegar það er í forgrunni</string>
+    <string name="color_app_profiles_title">Forritalitir</string>
+    <string name="color_app_profiles_summary">Slökkva á litabætingu eða velja litastillingu fyrir hvert forrit</string>
+    <string name="color_app_profile_default">Skjálitastillingar</string>
+    <string name="color_app_profile_off">Slökkt (nákvæmir litir)</string>
 
     <string name="perf_title">Afkastasnið</string>
     <string name="perf_summary">Stilla afköst og hitastefnur MediaTek Dimensity</string>

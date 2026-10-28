@@ -7,7 +7,7 @@
     <string name="app_name">Funkcje urządzenia</string>
 
     <string name="device_parts_title">Funkcje urządzenia</string>
-    <string name="device_parts_summary">Wydajność, akcesoria, dotyk i Dolby Atmos</string>
+    <string name="device_parts_summary">Wydajność, kolory ekranu, akcesoria, dotyk i Dolby Atmos</string>
     <string name="display_parts_title">Częstotliwość odświeżania i dotyk</string>
     <string name="display_parts_summary">Częstotliwość odświeżania w trybie czytania, tryb dotyku w grach</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Dotyk</string>
     <string name="category_audio_title">Dźwięk</string>
     <string name="category_perf_title">Wydajność</string>
+    <string name="category_color_title">Kolory</string>
 
     <string name="pen_refresh_cap_title">Ogranicz do 120 Hz podczas korzystania z rysika</string>
     <string name="pen_refresh_cap_summary">Aktywny rysik obsługuje częstotliwość do 120 Hz. Ograniczenie zostanie zniesione 10 sekund po ostatnim użyciu rysika.</string>
@@ -65,6 +66,35 @@
     <string name="dolby_app_profiles_title">Tryby aplikacji</string>
     <string name="dolby_app_profiles_summary">Wybierz tryb dla każdej aplikacji. Popularne aplikacje muzyczne i wideo używają domyślnie trybu Muzyka lub Film.</string>
     <string name="dolby_app_profile_default">Tryb domyślny</string>
+
+    <string name="screen_color_title">Kolory ekranu</string>
+    <string name="screen_color_summary">Tryb kolorów, temperatura barwowa i kolory aplikacji</string>
+    <string name="color_mode_title">Tryb kolorów</string>
+    <string name="color_mode_standard">Standardowy</string>
+    <string name="color_mode_vivid">Żywy</string>
+    <string name="color_mode_natural">Naturalny</string>
+    <string name="color_temperature_title">Temperatura barwowa</string>
+    <string name="color_temperature_standard">Standardowa</string>
+    <string name="color_temperature_warm">Ciepła</string>
+    <string name="color_temperature_cool">Zimna</string>
+    <string name="color_temperature_tip">Dotknij koła kolorów lub przeciągnij kropkę, aby dostosować odcień ekranu. Wybierz „Standardowy”, aby przywrócić ustawienie.</string>
+    <string name="color_wheel_description">Koło temperatury barwowej</string>
+    <string name="category_color_more_title">Więcej ustawień</string>
+    <string name="color_adaptive_title">Adaptacyjny kolor otoczenia</string>
+    <string name="color_adaptive_summary">Dostosuj punkt bieli ekranu do barwy światła otoczenia, aby zwiększyć komfort oglądania</string>
+    <string name="category_color_adjust_title">Dostosowanie obrazu</string>
+    <string name="color_saturation_title">Nasycenie</string>
+    <string name="color_contrast_title">Kontrast</string>
+    <string name="color_sharpness_title">Ostrość</string>
+    <string name="color_adjust_default">Domyślne</string>
+    <string name="color_adjust_reset_title">Przywróć domyślne ustawienia obrazu</string>
+    <string name="category_color_apps_title">Aplikacje</string>
+    <string name="color_app_profiles_enabled_title">Zmieniaj kolory dla aplikacji</string>
+    <string name="color_app_profiles_enabled_summary">Używaj wybranych ustawień kolorów aplikacji, gdy jest ona na pierwszym planie</string>
+    <string name="color_app_profiles_title">Kolory aplikacji</string>
+    <string name="color_app_profiles_summary">Wyłącz ulepszanie kolorów lub wybierz tryb kolorów dla każdej aplikacji</string>
+    <string name="color_app_profile_default">Używaj ustawień kolorów ekranu</string>
+    <string name="color_app_profile_off">Wyłączone (wierne kolory)</string>
 
     <string name="perf_title">Profile wydajności</string>
     <string name="perf_summary">Dostosuj wydajność MediaTek Dimensity i zasady termiczne</string>

@@ -7,7 +7,7 @@
     <string name="app_name">Fonctions de l’appareil</string>
 
     <string name="device_parts_title">Fonctions de l’appareil</string>
-    <string name="device_parts_summary">Performance, accessoires, tactile et Dolby Atmos</string>
+    <string name="device_parts_summary">Performance, couleur de l’écran, accessoires, tactile et Dolby Atmos</string>
     <string name="display_parts_title">Taux de rafraîchissement et tactile</string>
     <string name="display_parts_summary">Taux de rafraîchissement du mode Lecture, mode jeu tactile</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Tactile</string>
     <string name="category_audio_title">Audio</string>
     <string name="category_perf_title">Performance</string>
+    <string name="category_color_title">Couleur</string>
 
     <string name="pen_refresh_cap_title">Limiter à 120 Hz lors de l’utilisation du stylet</string>
     <string name="pen_refresh_cap_summary">Le stylet actif fonctionne seulement jusqu’à 120 Hz. La limite est levée 10 secondes après la dernière utilisation du stylet.</string>
@@ -65,6 +66,35 @@
     <string name="dolby_app_profiles_title">Modes par appli</string>
     <string name="dolby_app_profiles_summary">Choisir le mode de chaque appli. Les applis musicales et vidéo reconnues utilisent Musique et Film par défaut.</string>
     <string name="dolby_app_profile_default">Mode par défaut</string>
+    
+    <string name="screen_color_title">Couleur de l’écran</string>
+    <string name="screen_color_summary">Mode couleur, température des couleurs et couleurs des applis</string>
+    <string name="color_mode_title">Mode couleur</string>
+    <string name="color_mode_standard">Standard</string>
+    <string name="color_mode_vivid">Vive</string>
+    <string name="color_mode_natural">Naturelle</string>
+    <string name="color_temperature_title">Température des couleurs</string>
+    <string name="color_temperature_standard">Standard</string>
+    <string name="color_temperature_warm">Chaude</string>
+    <string name="color_temperature_cool">Froide</string>
+    <string name="color_temperature_tip">Touchez ou faites glisser le point sur la roue chromatique pour teinter l’écran. Choisissez Standard pour revenir en arrière.</string>
+    <string name="color_wheel_description">Roue de température des couleurs</string>
+    <string name="category_color_more_title">Plus de paramètres</string>
+    <string name="color_adaptive_title">Adapter à la lumière ambiante</string>
+    <string name="color_adaptive_summary">Ajuster le blanc de l’écran à la couleur de la lumière environnante pour un confort visuel accru</string>
+    <string name="category_color_adjust_title">Réglage de l’image</string>
+    <string name="color_saturation_title">Saturation</string>
+    <string name="color_contrast_title">Contraste</string>
+    <string name="color_sharpness_title">Netteté</string>
+    <string name="color_adjust_default">Par défaut</string>
+    <string name="color_adjust_reset_title">Réinitialiser les réglages de l’image</string>
+    <string name="category_color_apps_title">Applis</string>
+    <string name="color_app_profiles_enabled_title">Changer de couleur selon l’appli</string>
+    <string name="color_app_profiles_enabled_summary">Lorsqu’une appli est au premier plan, utiliser le paramètre de couleur choisi pour elle</string>
+    <string name="color_app_profiles_title">Couleurs des applis</string>
+    <string name="color_app_profiles_summary">Désactiver l’amélioration des couleurs ou choisir un mode couleur pour chaque appli</string>
+    <string name="color_app_profile_default">Paramètres de couleur de l’écran</string>
+    <string name="color_app_profile_off">Désactivé (couleurs fidèles)</string>
 
     <string name="perf_title">Profils de performance</string>
     <string name="perf_summary">Régler la performance et les politiques thermiques de MediaTek Dimensity</string>
@@ -96,11 +126,7 @@
         <item quantity="other">%1$d paramètres</item>
     </plurals>
     <string name="perf_category_video">Vidéo</string>
-    <string name="perf_category_camera">Caméra</string>
-    <string name="perf_category_communication">Communication</string>
-    <string name="perf_category_music">Musique</string>
-    <string name="perf_category_app_clone">Appli clonée</string>
-    <string name="perf_category_benchmark">Test de performance</string>
+    
     <string name="perf_category_game">Jeu</string>
     <string name="perf_advanced_title">Paramètres avancés</string>
     <string name="perf_advanced_summary">Définir les limites de fréquence du processeur et verrouiller le taux de rafraîchissement à partir du préréglage</string>

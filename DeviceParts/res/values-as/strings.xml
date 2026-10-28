@@ -7,7 +7,7 @@
     <string name="app_name">ডিভাইচৰ সুবিধাসমূহ</string>
 
     <string name="device_parts_title">ডিভাইচৰ সুবিধাসমূহ</string>
-    <string name="device_parts_summary">কাৰ্যক্ষমতা, আনুষংগিক সামগ্ৰী, স্পৰ্শ আৰু Dolby Atmos</string>
+    <string name="device_parts_summary">কাৰ্যক্ষমতা, স্ক্ৰীণৰ ৰং, আনুষংগিক সামগ্ৰী, স্পৰ্শ আৰু Dolby Atmos</string>
     <string name="display_parts_title">ৰিফ্ৰেছৰ হাৰ আৰু স্পৰ্শ</string>
     <string name="display_parts_summary">ৰিডিং মোডৰ ৰিফ্ৰেছৰ হাৰ, স্পৰ্শ গেম মোড</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">স্পৰ্শ</string>
     <string name="category_audio_title">অডিঅ’</string>
     <string name="category_perf_title">কাৰ্যক্ষমতা</string>
+    <string name="category_color_title">ৰং</string>
 
     <string name="pen_refresh_cap_title">ষ্টাইলাছ ব্যৱহাৰ কৰাৰ সময়ত 120 Hz-লৈ সীমিত কৰক</string>
     <string name="pen_refresh_cap_summary">সক্ৰিয় ষ্টাইলাছটোৱে কেৱল 120 Hz-লৈকেহে কাম কৰে। ষ্টাইলাছৰ জৰিয়তে শেষৰ ইনপুটৰ 10 ছেকেণ্ড পিছত সীমাটো আঁতৰোৱা হয়।</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">এপৰ মোডসমূহ</string>
     <string name="dolby_app_profiles_summary">প্ৰতিটো এপৰ বাবে মোড বাছনি কৰক। চিনাক্ত কৰা সংগীত আৰু ভিডিঅ’ এপসমূহ সংগীত আৰু চিনেমাৰ মোডেৰে আৰম্ভ হয়।</string>
     <string name="dolby_app_profile_default">ডিফ’ল্ট মোড</string>
+
+    <string name="screen_color_title">স্ক্ৰীণৰ ৰং</string>
+    <string name="screen_color_summary">ৰঙৰ মোড, ৰঙৰ উষ্ণতা আৰু এপৰ ৰং</string>
+    <string name="color_mode_title">ৰঙৰ মোড</string>
+    <string name="color_mode_standard">মানক</string>
+    <string name="color_mode_vivid">উজ্জ্বল</string>
+    <string name="color_mode_natural">প্ৰাকৃতিক</string>
+    <string name="color_temperature_title">ৰঙৰ উষ্ণতা</string>
+    <string name="color_temperature_standard">মানক</string>
+    <string name="color_temperature_warm">উষ্ণ</string>
+    <string name="color_temperature_cool">শীতল</string>
+    <string name="color_temperature_tip">স্ক্ৰীণত ৰঙৰ আভা দিবলৈ ৰঙৰ চক্ৰৰ বিন্দুটোত টিপক বা টানি নিয়ক। উভতি যাবলৈ মানক বাছনি কৰক।</string>
+    <string name="color_wheel_description">ৰঙৰ উষ্ণতাৰ চক্ৰ</string>
+    <string name="category_color_more_title">অধিক ছেটিং</string>
+    <string name="color_adaptive_title">পৰিৱেশৰ পোহৰৰ সৈতে মিলাওক</string>
+    <string name="color_adaptive_summary">অধিক আৰামদায়কভাৱে চাবলৈ স্ক্ৰীণৰ বগা ৰং চাৰিওফালৰ পোহৰৰ ৰঙৰ সৈতে মিলাওক</string>
+    <string name="category_color_adjust_title">ছবিৰ সালসলনি</string>
+    <string name="color_saturation_title">পৰিপূৰ্ণতা</string>
+    <string name="color_contrast_title">কনট্ৰাষ্ট</string>
+    <string name="color_sharpness_title">ধাৰালতা</string>
+    <string name="color_adjust_default">ডিফ’ল্ট</string>
+    <string name="color_adjust_reset_title">ছবিৰ সালসলনি ৰিছেট কৰক</string>
+    <string name="category_color_apps_title">এপসমূহ</string>
+    <string name="color_app_profiles_enabled_title">এপ অনুসৰি ৰং সলনি কৰক</string>
+    <string name="color_app_profiles_enabled_summary">এটা এপ সন্মুখত থকাৰ সময়ত ইয়াৰ বাবে বাছনি কৰা ৰঙৰ ছেটিং ব্যৱহাৰ কৰক</string>
+    <string name="color_app_profiles_title">এপৰ ৰং</string>
+    <string name="color_app_profiles_summary">ৰঙৰ উন্নতি অফ কৰক বা প্ৰতিটো এপৰ বাবে ৰঙৰ মোড বাছনি কৰক</string>
+    <string name="color_app_profile_default">স্ক্ৰীণৰ ৰঙৰ ছেটিং</string>
+    <string name="color_app_profile_off">অফ (শুদ্ধ ৰং)</string>
 
     <string name="perf_title">কাৰ্যক্ষমতাৰ প্ৰ’ফাইল</string>
     <string name="perf_summary">MediaTek Dimensity-ৰ কাৰ্যক্ষমতা আৰু তাপীয় নীতি মিলাওক</string>

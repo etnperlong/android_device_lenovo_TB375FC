@@ -7,7 +7,7 @@
     <string name="app_name">ຄຸນສົມບັດອຸປະກອນ</string>
 
     <string name="device_parts_title">ຄຸນສົມບັດອຸປະກອນ</string>
-    <string name="device_parts_summary">ປະສິດທິພາບ, ອຸປະກອນເສີມ, ການສຳຜັດ ແລະ Dolby Atmos</string>
+    <string name="device_parts_summary">ປະສິດທິພາບ, ສີໜ້າຈໍ, ອຸປະກອນເສີມ, ການສຳຜັດ ແລະ Dolby Atmos</string>
     <string name="display_parts_title">ອັດຕາການຣີເຟຣຊ ແລະ ການສຳຜັດ</string>
     <string name="display_parts_summary">ອັດຕາການຣີເຟຣຊໃນໂໝດອ່ານ, ໂໝດເກມສຳຜັດ</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">ການສຳຜັດ</string>
     <string name="category_audio_title">ສຽງ</string>
     <string name="category_perf_title">ປະສິດທິພາບ</string>
+    <string name="category_color_title">ສີ</string>
 
     <string name="pen_refresh_cap_title">ຈຳກັດເປັນ 120 Hz ເມື່ອໃຊ້ປາກກາ</string>
     <string name="pen_refresh_cap_summary">ລາຍງານວ່າປາກກາແອັກທິຟຮອງຮັບສູງສຸດພຽງ 120 Hz. ການຈຳກັດຈະຖືກຍົກເລີກ 10 ວິນາທີຫຼັງຈາກໃຊ້ປາກກາຄັ້ງສຸດທ້າຍ.</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">ໂໝດສຳລັບແອັບ</string>
     <string name="dolby_app_profiles_summary">ເລືອກໂໝດສຳລັບແຕ່ລະແອັບ. ແອັບເພງ ແລະ ວິດີໂອທີ່ຮູ້ຈັກຈະເລີ່ມດ້ວຍໂໝດເພງ ແລະ ຮູບເງົາ.</string>
     <string name="dolby_app_profile_default">ໂໝດເລີ່ມຕົ້ນ</string>
+
+    <string name="screen_color_title">ສີໜ້າຈໍ</string>
+    <string name="screen_color_summary">ໂໝດສີ, ອຸນຫະພູມສີ ແລະ ສີຂອງແອັບ</string>
+    <string name="color_mode_title">ໂໝດສີ</string>
+    <string name="color_mode_standard">ມາດຕະຖານ</string>
+    <string name="color_mode_vivid">ສົດໃສ</string>
+    <string name="color_mode_natural">ທຳມະຊາດ</string>
+    <string name="color_temperature_title">ອຸນຫະພູມສີ</string>
+    <string name="color_temperature_standard">ມາດຕະຖານ</string>
+    <string name="color_temperature_warm">ອຸ່ນ</string>
+    <string name="color_temperature_cool">ເຢັນ</string>
+    <string name="color_temperature_tip">ແຕະ ຫຼື ລາກຈຸດເທິງວົງລໍ້ສີເພື່ອປັບສີໜ້າຈໍ. ເລືອກມາດຕະຖານເພື່ອກັບຄືນ.</string>
+    <string name="color_wheel_description">ວົງລໍ້ອຸນຫະພູມສີ</string>
+    <string name="category_color_more_title">ການຕັ້ງຄ່າເພີ່ມເຕີມ</string>
+    <string name="color_adaptive_title">ປັບຕາມແສງອ້ອມຂ້າງ</string>
+    <string name="color_adaptive_summary">ປັບສີຂາວຂອງໜ້າຈໍຕາມສີຂອງແສງອ້ອມຂ້າງ ເພື່ອໃຫ້ເບິ່ງສະບາຍຂຶ້ນ</string>
+    <string name="category_color_adjust_title">ການປັບຮູບພາບ</string>
+    <string name="color_saturation_title">ຄວາມອີ່ມຕົວຂອງສີ</string>
+    <string name="color_contrast_title">ຄວາມຄົມຊັດ</string>
+    <string name="color_sharpness_title">ຄວາມຄົມ</string>
+    <string name="color_adjust_default">ຄ່າເລີ່ມຕົ້ນ</string>
+    <string name="color_adjust_reset_title">ຣີເຊັດການປັບຮູບພາບ</string>
+    <string name="category_color_apps_title">ແອັບ</string>
+    <string name="color_app_profiles_enabled_title">ປ່ຽນສີຕາມແອັບ</string>
+    <string name="color_app_profiles_enabled_summary">ເມື່ອແອັບຢູ່ດ້ານໜ້າ ໃຫ້ໃຊ້ການຕັ້ງຄ່າສີທີ່ເລືອກໄວ້ສຳລັບແອັບນັ້ນ</string>
+    <string name="color_app_profiles_title">ສີຂອງແອັບ</string>
+    <string name="color_app_profiles_summary">ປິດການເພີ່ມສີ ຫຼື ເລືອກໂໝດສີສຳລັບແຕ່ລະແອັບ</string>
+    <string name="color_app_profile_default">ການຕັ້ງຄ່າສີໜ້າຈໍ</string>
+    <string name="color_app_profile_off">ປິດ (ສີຖືກຕ້ອງ)</string>
 
     <string name="perf_title">ໂປຣໄຟລ໌ປະສິດທິພາບ</string>
     <string name="perf_summary">ປັບປະສິດທິພາບ MediaTek Dimensity ແລະ ນະໂຍບາຍຄວາມຮ້ອນ</string>

@@ -7,7 +7,7 @@
     <string name="app_name">Eszközfunkciók</string>
 
     <string name="device_parts_title">Eszközfunkciók</string>
-    <string name="device_parts_summary">Teljesítmény, kiegészítők, érintés és Dolby Atmos</string>
+    <string name="device_parts_summary">Teljesítmény, képernyőszín, kiegészítők, érintés és Dolby Atmos</string>
     <string name="display_parts_title">Frissítési gyakoriság és érintés</string>
     <string name="display_parts_summary">Olvasómód frissítési gyakorisága, érintéses játék mód</string>
 
@@ -15,7 +15,7 @@
     <string name="category_display_title">Frissítési gyakoriság</string>
     <string name="category_touch_title">Érintés</string>
     <string name="category_audio_title">Hang</string>
-    <string name="category_perf_title">Teljesítmény</string>
+    <string name="category_color_title">Szín</string>
 
     <string name="pen_refresh_cap_title">120 Hz-re korlátozás érintőceruza használatakor</string>
     <string name="pen_refresh_cap_summary">Az aktív érintőceruza a jelentések szerint legfeljebb 120 Hz-en működik. A korlátozás az utolsó ceruzás művelet után 10 másodperccel megszűnik.</string>
@@ -65,6 +65,35 @@
     <string name="dolby_app_profiles_title">Alkalmazásmódok</string>
     <string name="dolby_app_profiles_summary">Válasszon módot az egyes alkalmazásokhoz. Az ismert zene- és videóalkalmazások alapértelmezés szerint a Zene és Film módot használják.</string>
     <string name="dolby_app_profile_default">Alapértelmezett mód</string>
+    <!-- Screen color -->
+    <string name="screen_color_title">Képernyőszín</string>
+    <string name="screen_color_summary">Színmód, színhőmérséklet és alkalmazásszínek</string>
+    <string name="color_mode_title">Színmód</string>
+    <string name="color_mode_standard">Normál</string>
+    <string name="color_mode_vivid">Élénk</string>
+    <string name="color_mode_natural">Természetes</string>
+    <string name="color_temperature_title">Színhőmérséklet</string>
+    <string name="color_temperature_standard">Normál</string>
+    <string name="color_temperature_warm">Meleg</string>
+    <string name="color_temperature_cool">Hideg</string>
+    <string name="color_temperature_tip">Érintse meg vagy húzza el a színkör pontját a képernyő árnyalatának módosításához. A visszaállításhoz válassza a Normál lehetőséget.</string>
+    <string name="color_wheel_description">Színhőmérséklet-szabályzó</string>
+    <string name="category_color_more_title">További beállítások</string>
+    <string name="color_adaptive_title">Alkalmazkodás a környezeti fényhez</string>
+    <string name="color_adaptive_summary">A kényelmesebb megtekintés érdekében a képernyő fehér színének igazítása a környezeti fény színéhez</string>
+    <string name="category_color_adjust_title">Képbeállítás</string>
+    <string name="color_saturation_title">Telítettség</string>
+    <string name="color_contrast_title">Kontraszt</string>
+    <string name="color_sharpness_title">Élesség</string>
+    <string name="color_adjust_default">Alapértelmezett</string>
+    <string name="color_adjust_reset_title">Képbeállítás visszaállítása</string>
+    <string name="category_color_apps_title">Alkalmazások</string>
+    <string name="color_app_profiles_enabled_title">Színváltás alkalmazásonként</string>
+    <string name="color_app_profiles_enabled_summary">Az előtérben lévő alkalmazásnál a hozzá választott színbeállítás használata</string>
+    <string name="color_app_profiles_title">Alkalmazásszínek</string>
+    <string name="color_app_profiles_summary">A színjavítás kikapcsolása vagy színmód választása alkalmazásonként</string>
+    <string name="color_app_profile_default">Képernyőszín-beállítások</string>
+    <string name="color_app_profile_off">Ki (pontos színek)</string>
 
     <string name="perf_title">Teljesítményprofilok</string>
     <string name="perf_summary">A MediaTek Dimensity teljesítményének és hőkezelési szabályzatainak beállítása</string>

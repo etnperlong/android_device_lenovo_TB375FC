@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<!-- Vivid mode swatch: the panel's full primaries. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#FFFF1744"
+        android:pathData="M12,12L12,3A9,9 0,0 1,19.794,16.5Z" />
+    <path
+        android:fillColor="#FF00E676"
+        android:pathData="M12,12L19.794,16.5A9,9 0,0 1,4.206,16.5Z" />
+    <path
+        android:fillColor="#FF2979FF"
+        android:pathData="M12,12L4.206,16.5A9,9 0,0 1,12,3Z" />
+    <path
+        android:pathData="M12,3a9,9 0,1 1,0 18a9,9 0,1 1,0 -18z"
+        android:strokeWidth="0.75"
+        android:strokeColor="@color/screen_color_swatch_outline" />
+</vector>

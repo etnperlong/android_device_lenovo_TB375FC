@@ -7,7 +7,7 @@
     <string name="app_name">Enhetsfunksjoner</string>
 
     <string name="device_parts_title">Enhetsfunksjoner</string>
-    <string name="device_parts_summary">Ytelse, tilbehør, berøring og Dolby Atmos</string>
+    <string name="device_parts_summary">Ytelse, skjermfarger, tilbehør, berøring og Dolby Atmos</string>
     <string name="display_parts_title">Oppdateringsfrekvens og berøring</string>
     <string name="display_parts_summary">Oppdateringsfrekvens i lesemodus, berøringsspillmodus</string>
 
@@ -16,6 +16,7 @@
     <string name="category_touch_title">Berøring</string>
     <string name="category_audio_title">Lyd</string>
     <string name="category_perf_title">Ytelse</string>
+    <string name="category_color_title">Skjermfarge</string>
 
     <string name="pen_refresh_cap_title">Begrens til 120 Hz når pekepennen brukes</string>
     <string name="pen_refresh_cap_summary">Det rapporteres at den aktive pekepennen bare fungerer opptil 120 Hz. Grensen oppheves 10 sekunder etter siste inndata med pekepennen.</string>
@@ -63,6 +64,35 @@
     <string name="dolby_app_profiles_title">Appmoduser</string>
     <string name="dolby_app_profiles_summary">Velg modus for hver app. Kjente musikk- og videoapper starter med Musikk og Film.</string>
     <string name="dolby_app_profile_default">Standardmodus</string>
+
+    <string name="screen_color_title">Skjermfarge</string>
+    <string name="screen_color_summary">Fargemodus, fargetemperatur og appfarger</string>
+    <string name="color_mode_title">Fargemodus</string>
+    <string name="color_mode_standard">Standard</string>
+    <string name="color_mode_vivid">Livlig</string>
+    <string name="color_mode_natural">Naturlig</string>
+    <string name="color_temperature_title">Fargetemperatur</string>
+    <string name="color_temperature_standard">Standard</string>
+    <string name="color_temperature_warm">Varm</string>
+    <string name="color_temperature_cool">Kjølig</string>
+    <string name="color_temperature_tip">Trykk på eller dra punktet på fargehjulet for å justere skjermtonen. Velg «Standard» for å tilbakestille.</string>
+    <string name="color_wheel_description">Fargetemperaturhjul</string>
+    <string name="category_color_more_title">Flere innstillinger</string>
+    <string name="color_adaptive_title">Tilpass etter omgivelsesfarge</string>
+    <string name="color_adaptive_summary">Juster skjermens hvitpunkt etter fargen på omgivelseslyset for mer behagelig visning</string>
+    <string name="category_color_adjust_title">Bildejustering</string>
+    <string name="color_saturation_title">Metning</string>
+    <string name="color_contrast_title">Kontrast</string>
+    <string name="color_sharpness_title">Skarphet</string>
+    <string name="color_adjust_default">Standard</string>
+    <string name="color_adjust_reset_title">Tilbakestill bildejusteringene til standard</string>
+    <string name="category_color_apps_title">Apper</string>
+    <string name="color_app_profiles_enabled_title">Bytt farge per app</string>
+    <string name="color_app_profiles_enabled_summary">Bruk de valgte fargeinnstillingene for appen når den er i forgrunnen</string>
+    <string name="color_app_profiles_title">Appfarger</string>
+    <string name="color_app_profiles_summary">Slå av fargeforbedringer eller velg en fargemodus for hver app</string>
+    <string name="color_app_profile_default">Følg skjermens fargeinnstillinger</string>
+    <string name="color_app_profile_off">Av (nøyaktige farger)</string>
 
     <string name="perf_title">Ytelsesprofiler</string>
     <string name="perf_summary">Juster MediaTek Dimensity-ytelse og varmepolicyer</string>
