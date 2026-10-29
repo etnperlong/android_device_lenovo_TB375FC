@@ -92,6 +92,16 @@
     <string name="color_app_profiles_summary">Disative il miorament dai colôrs o sielç une modalitât colôr par ogni app</string>
     <string name="color_app_profile_default">Impostazions dal colôr dal schermi</string>
     <string name="color_app_profile_off">Disativât (colôrs precîs)</string>
+    <string name="category_video_title">Imagjin dal video</string>
+    <string name="video_enhance_title">Miorament de l’imagjin dal video</string>
+    <string name="video_enhance_summary">Elaborazion in plui di MediaTek pai videos decodificâts cul hardware. Disativele se i ôrs dal video a somein masse luminos, il rumôr al risalte o i colôrs a somein sbaliâts</string>
+    <string name="video_sharpness_title">Nitidece</string>
+    <string name="video_dynamic_sharpness_title">Nitidece dinamiche</string>
+    <string name="video_iso_sharpness_title">Nitidece adatade al rumôr</string>
+    <string name="video_ultra_resolution_title">Ultra risoluzion</string>
+    <string name="video_ultra_resolution_summary">Rindince plui net il video a basse risoluzion cuant che tu lu ingrandissis</string>
+    <string name="video_dynamic_contrast_title">Contrast dinamich</string>
+    <string name="video_color_title">Miorament dai colôrs</string>
 
 
     <string name="perf_title">Profîi di prestazions</string>

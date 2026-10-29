@@ -94,6 +94,16 @@
     <string name="color_app_profiles_summary">为每个应用关闭色彩增强或指定色彩模式</string>
     <string name="color_app_profile_default">跟随屏幕色彩设置</string>
     <string name="color_app_profile_off">关闭（色彩准确）</string>
+    <string name="category_video_title">视频画质</string>
+    <string name="video_enhance_title">视频画质增强</string>
+    <string name="video_enhance_summary">联发科对硬件解码视频的额外处理。若视频边缘发白、噪点明显或颜色异常，可将其关闭</string>
+    <string name="video_sharpness_title">锐化</string>
+    <string name="video_dynamic_sharpness_title">动态锐化</string>
+    <string name="video_iso_sharpness_title">噪点自适应锐化</string>
+    <string name="video_ultra_resolution_title">超分辨率</string>
+    <string name="video_ultra_resolution_summary">放大低分辨率视频时进行锐化</string>
+    <string name="video_dynamic_contrast_title">动态对比度</string>
+    <string name="video_color_title">色彩增强</string>
 
     <string name="perf_title">性能配置</string>
     <string name="perf_summary">调节联发科天玑芯片性能和温控策略</string>

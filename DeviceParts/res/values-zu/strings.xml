@@ -93,6 +93,16 @@
     <string name="color_app_profiles_summary">Vala ukuthuthukiswa kombala noma ukhethe imodi yombala yohlelo ngalunye lokusebenza</string>
     <string name="color_app_profile_default">Izilungiselelo zombala wesikrini</string>
     <string name="color_app_profile_off">Valiwe (imibala enembile)</string>
+    <string name="category_video_title">Isithombe sevidiyo</string>
+    <string name="video_enhance_title">Ukuthuthukiswa kwesithombe sevidiyo</string>
+    <string name="video_enhance_summary">Ukucutshungulwa okwengeziwe kwe-MediaTek kwevidiyo eqoshwe ngehadiwe. Yicime uma imiphetho yevidiyo ikhanya kakhulu, umsindo ubonakala kakhulu noma imibala ingalungile</string>
+    <string name="video_sharpness_title">Ukucija</string>
+    <string name="video_dynamic_sharpness_title">Ukucija okuguqukayo</string>
+    <string name="video_iso_sharpness_title">Ukucija okuvumelana nomsindo</string>
+    <string name="video_ultra_resolution_title">Ukulungiswa okuphezulu kakhulu</string>
+    <string name="video_ultra_resolution_summary">Cija ividiyo enokulungiswa okuphansi njengoba ikhuliswa</string>
+    <string name="video_dynamic_contrast_title">Umehluko oguqukayo</string>
+    <string name="video_color_title">Ukuthuthukiswa kombala</string>
 
     <string name="perf_title">Amaphrofayela okusebenza</string>
     <string name="perf_summary">Lungisa ukusebenza kwe-MediaTek Dimensity nezinqubomgomo zokushisa</string>

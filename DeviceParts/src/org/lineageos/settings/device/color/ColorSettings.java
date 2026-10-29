@@ -33,6 +33,8 @@ public final class ColorSettings {
     public static final String KEY_APP_PROFILES_ENABLED = "tb375fc_color_app_profiles_enabled";
     /** App color settings, "package=value,...", value APP_OFF or a MODE_* value. */
     public static final String KEY_APP_PROFILES = "tb375fc_color_app_profiles";
+    /** 1 = MediaTek's video picture enhancements (VIDEO_FEATURES) apply, 0 = all off. */
+    public static final String KEY_VIDEO_ENHANCE = "tb375fc_video_enhance";
 
     // Values of stock's mtk_color_mode, as ZuiDisplayService.setPictureMode handles them.
     public static final int MODE_STANDARD = 0;
@@ -91,6 +93,58 @@ public final class ColorSettings {
     public static final Adjustment SHARPNESS =
             new Adjustment("tb375fc_color_sharpness", 0, 2);
     public static final Adjustment[] ADJUSTMENTS = {SATURATION, CONTRAST, SHARPNESS};
+
+    /**
+     * One of MediaTek's enhancements of video layers (MDP/MML), switched with the picture
+     * quality service's setFeatureSwitch. The service turns them all on when unset
+     * (persist.vendor.sys.pq.*.en default to 1 in initPQProperty); the defaults here are
+     * stock's: ZuiDisplayService only turns ultra resolution off (its "video quality enhance"
+     * switch, off by default) and leaves the others on.
+     */
+    public static final class VideoFeature {
+        public final String key;
+        /** PQFeatureID values sent together. */
+        final int[] featureIds;
+        public final boolean defaultEnabled;
+
+        VideoFeature(String key, boolean defaultEnabled, int... featureIds) {
+            this.key = key;
+            this.defaultEnabled = defaultEnabled;
+            this.featureIds = featureIds;
+        }
+
+        public boolean isEnabled(ContentResolver cr) {
+            return Settings.Secure.getInt(cr, key, defaultEnabled ? 1 : 0) != 0;
+        }
+
+        public void setEnabled(ContentResolver cr, boolean enabled) {
+            Settings.Secure.putInt(cr, key, enabled ? 1 : 0);
+        }
+    }
+
+    // PQFeatureID values the enable methods of com.mediatek.pq.PictureQuality pass to
+    // setFeatureSwitch in libjni_pq.so, with the property the service keeps each in.
+    /** enableSharpness: 3, persist.vendor.sys.pq.shp.en. */
+    public static final VideoFeature VIDEO_SHARPNESS =
+            new VideoFeature("tb375fc_video_sharpness", true, 3);
+    /** enableDynamicSharpness: 5, dshp.en. */
+    public static final VideoFeature VIDEO_DYNAMIC_SHARPNESS =
+            new VideoFeature("tb375fc_video_dynamic_sharpness", true, 5);
+    /** enableISOAdaptiveSharpness: 9, iso.shp.en. */
+    public static final VideoFeature VIDEO_ISO_SHARPNESS =
+            new VideoFeature("tb375fc_video_iso_sharpness", true, 9);
+    /** enableUltraResolution: 10, ultrares.en. */
+    public static final VideoFeature VIDEO_ULTRA_RESOLUTION =
+            new VideoFeature("tb375fc_video_ultra_resolution", false, 10);
+    /** enableDynamicContrast: 4, adl.idx; enableMdpDRE: 13, mdp.vp.dre.en. */
+    public static final VideoFeature VIDEO_DYNAMIC_CONTRAST =
+            new VideoFeature("tb375fc_video_dynamic_contrast", true, 4, 13);
+    /** enableColorEffect (content color for video): 2, mdp.color.idx. */
+    public static final VideoFeature VIDEO_COLOR =
+            new VideoFeature("tb375fc_video_color", true, 2);
+    public static final VideoFeature[] VIDEO_FEATURES = {
+            VIDEO_SHARPNESS, VIDEO_DYNAMIC_SHARPNESS, VIDEO_ISO_SHARPNESS,
+            VIDEO_ULTRA_RESOLUTION, VIDEO_DYNAMIC_CONTRAST, VIDEO_COLOR};
 
     /** The panel's unit for CCORR coefficients and RGB gains: stock uses 1024 on peridot. */
     static final int UNIT = 1024;
@@ -185,6 +239,24 @@ public final class ColorSettings {
 
     public static void setAppProfilesEnabled(ContentResolver cr, boolean enabled) {
         Settings.Secure.putInt(cr, KEY_APP_PROFILES_ENABLED, enabled ? 1 : 0);
+    }
+
+    public static boolean isVideoEnhance(ContentResolver cr) {
+        return Settings.Secure.getInt(cr, KEY_VIDEO_ENHANCE, 1) != 0;
+    }
+
+    public static void setVideoEnhance(ContentResolver cr, boolean enabled) {
+        Settings.Secure.putInt(cr, KEY_VIDEO_ENHANCE, enabled ? 1 : 0);
+    }
+
+    /** Whether each VIDEO_FEATURES entry applies: its switch, and the main switch. */
+    static boolean[] getVideoFeatures(ContentResolver cr) {
+        final boolean main = isVideoEnhance(cr);
+        final boolean[] enabled = new boolean[VIDEO_FEATURES.length];
+        for (int i = 0; i < enabled.length; i++) {
+            enabled[i] = main && VIDEO_FEATURES[i].isEnabled(cr);
+        }
+        return enabled;
     }
 
     public static Map<String, Integer> getAppProfiles(ContentResolver cr) {

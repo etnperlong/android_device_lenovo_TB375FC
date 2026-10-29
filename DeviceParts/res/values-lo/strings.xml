@@ -92,7 +92,16 @@
     <string name="color_app_profiles_title">ສີຂອງແອັບ</string>
     <string name="color_app_profiles_summary">ປິດການເພີ່ມສີ ຫຼື ເລືອກໂໝດສີສຳລັບແຕ່ລະແອັບ</string>
     <string name="color_app_profile_default">ການຕັ້ງຄ່າສີໜ້າຈໍ</string>
-    <string name="color_app_profile_off">ປິດ (ສີຖືກຕ້ອງ)</string>
+    <string name="category_video_title">ຄຸນນະພາບຮູບວິດີໂອ</string>
+    <string name="video_enhance_title">ເພີ່ມຄຸນນະພາບຮູບວິດີໂອ</string>
+    <string name="video_enhance_summary">MediaTek ປະມວນຜົນເພີ່ມເຕີມສຳລັບວິດີໂອທີ່ຖອດລະຫັດດ້ວຍຮາດແວ. ປິດຖ້າຂອບວິດີໂອສະຫວ່າງເກີນໄປ, ສິ່ງລົບກວນເດັ່ນຊັດ ຫຼື ສີເບິ່ງຜິດປົກກະຕິ</string>
+    <string name="video_sharpness_title">ຄວາມຄົມ</string>
+    <string name="video_dynamic_sharpness_title">ຄວາມຄົມແບບໄດນາມິກ</string>
+    <string name="video_iso_sharpness_title">ຄວາມຄົມທີ່ປັບຕາມສິ່ງລົບກວນ</string>
+    <string name="video_ultra_resolution_title">ຄວາມລະອຽດສູງພິເສດ</string>
+    <string name="video_ultra_resolution_summary">ເພີ່ມຄວາມຄົມໃຫ້ວິດີໂອຄວາມລະອຽດຕ່ຳເມື່ອຂະຫຍາຍ</string>
+    <string name="video_dynamic_contrast_title">ຄວາມຄົມຊັດແບບໄດນາມິກ</string>
+    <string name="video_color_title">ເພີ່ມສີ</string>
 
     <string name="perf_title">ໂປຣໄຟລ໌ປະສິດທິພາບ</string>
     <string name="perf_summary">ປັບປະສິດທິພາບ MediaTek Dimensity ແລະ ນະໂຍບາຍຄວາມຮ້ອນ</string>

@@ -92,6 +92,16 @@
     <string name="color_app_profiles_summary">Cuir dheth leasachadh dhathan no tagh modh dhathan airson gach aplacaid</string>
     <string name="color_app_profile_default">Roghainnean dath na sgrìn</string>
     <string name="color_app_profile_off">Dheth (dathan ceart)</string>
+    <string name="category_video_title">Dealbh bhideo</string>
+    <string name="video_enhance_title">Leasachadh dealbh bhideo</string>
+    <string name="video_enhance_summary">Giullachd a bharrachd le MediaTek air video a chaidh a dhì-chòdachadh leis a’ bhathar-chruaidh. Cuir dheth e ma tha oirean a’ video ro shoilleir, ma tha fuaim ri fhaicinn no ma tha na dathan ceàrr</string>
+    <string name="video_sharpness_title">Gèire</string>
+    <string name="video_dynamic_sharpness_title">Gèire dhinimigeach</string>
+    <string name="video_iso_sharpness_title">Gèire a dh’atharraicheas ris an fhuaim</string>
+    <string name="video_ultra_resolution_title">Rùn fìor àrd</string>
+    <string name="video_ultra_resolution_summary">Dèan video le rùn ìosal nas gèire nuair a thèid a leudachadh</string>
+    <string name="video_dynamic_contrast_title">Iomsgaradh dhinimigeach</string>
+    <string name="video_color_title">Leasachadh dhathan</string>
 
 
     <string name="perf_title">Pròifilean coileanaidh</string>

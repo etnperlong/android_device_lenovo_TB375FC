@@ -95,6 +95,16 @@
     <string name="color_app_profiles_summary">Wyłącz ulepszanie kolorów lub wybierz tryb kolorów dla każdej aplikacji</string>
     <string name="color_app_profile_default">Używaj ustawień kolorów ekranu</string>
     <string name="color_app_profile_off">Wyłączone (wierne kolory)</string>
+    <string name="category_video_title">Obraz wideo</string>
+    <string name="video_enhance_title">Poprawa obrazu wideo</string>
+    <string name="video_enhance_summary">Dodatkowe przetwarzanie przez MediaTek wideo dekodowanego sprzętowo. Wyłącz, jeśli krawędzie obrazu są zbyt jasne, szum jest wyraźny lub kolory wyglądają nieprawidłowo</string>
+    <string name="video_sharpness_title">Ostrość</string>
+    <string name="video_dynamic_sharpness_title">Dynamiczna ostrość</string>
+    <string name="video_iso_sharpness_title">Ostrość adaptacyjna do szumu</string>
+    <string name="video_ultra_resolution_title">Ultrawysoka rozdzielczość</string>
+    <string name="video_ultra_resolution_summary">Wyostrzaj wideo o niskiej rozdzielczości podczas powiększania</string>
+    <string name="video_dynamic_contrast_title">Dynamiczny kontrast</string>
+    <string name="video_color_title">Poprawa kolorów</string>
 
     <string name="perf_title">Profile wydajności</string>
     <string name="perf_summary">Dostosuj wydajność MediaTek Dimensity i zasady termiczne</string>

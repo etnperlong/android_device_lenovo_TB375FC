@@ -91,6 +91,16 @@
     <string name="color_app_profiles_summary">رەڭنى ياخشىلاشنى ئۆچۈرۈڭ ياكى ھەر بىر ئەپ ئۈچۈن رەڭ ھالىتىنى تاللاڭ</string>
     <string name="color_app_profile_default">ئېكران رەڭ تەڭشەكلىرى</string>
     <string name="color_app_profile_off">ئۆچۈرۈلگەن (توغرا رەڭلەر)</string>
+    <string name="category_video_title">سىن كۆرۈنۈشى</string>
+    <string name="video_enhance_title">سىن كۆرۈنۈشىنى ياخشىلاش</string>
+    <string name="video_enhance_summary">قاتتىق دېتالدا يېشىپ كودىدىن چىقىرىلغان سىنغا MediaTek قوشقان پىششىقلاش. سىن گىرۋەكلىرى بەك يورۇق كۆرۈنسە، شاۋقۇن روشەن بولسا ياكى رەڭلەر خاتا كۆرۈنسە بۇنى ئۆچۈرۈڭ</string>
+    <string name="video_sharpness_title">ئېنىقلىقنى ئاشۇرۇش</string>
+    <string name="video_dynamic_sharpness_title">ھەرىكەتچان ئېنىقلىق</string>
+    <string name="video_iso_sharpness_title">شاۋقۇنغا ماسلىشىشچان ئېنىقلىق</string>
+    <string name="video_ultra_resolution_title">ئەۋجى ئېنىقلىق</string>
+    <string name="video_ultra_resolution_summary">تۆۋەن ئېنىقلىقتىكى سىن چوڭايتىلغاندا ئۇنىڭ ئېنىقلىقىنى ئاشۇرۇش</string>
+    <string name="video_dynamic_contrast_title">ھەرىكەتچان سېلىشتۇرما</string>
+    <string name="video_color_title">رەڭنى ياخشىلاش</string>
     <string name="perf_title">ئىقتىدار ئارخىپى</string>
     <string name="perf_summary">MediaTek Dimensity ئىقتىدارى ۋە ئىسسىقلىق سىياسەتلىرىنى تەڭشەيدۇ</string>
     <string name="perf_enabled_title">ئىقتىدارنى ئەپكە قاراپ تەڭشەش</string>

@@ -92,6 +92,16 @@
     <string name="color_app_profiles_summary">Múch feabhsú datha nó roghnaigh mód datha do gach aip</string>
     <string name="color_app_profile_default">Socruithe dath an scáileáin</string>
     <string name="color_app_profile_off">Múchta (dathanna cruinne)</string>
+    <string name="category_video_title">Pictiúr físe</string>
+    <string name="video_enhance_title">Feabhsú pictiúir físe</string>
+    <string name="video_enhance_summary">Próiseáil bhreise ó MediaTek ar fhíseán díchódaithe le crua-earraí. Múch é má tá imill an fhíseáin ró-gheal, má sheasann torann amach nó má tá dathanna mícheart</string>
+    <string name="video_sharpness_title">Géire</string>
+    <string name="video_dynamic_sharpness_title">Géire dhinimiciúil</string>
+    <string name="video_iso_sharpness_title">Géire oiriúnaitheach don torann</string>
+    <string name="video_ultra_resolution_title">Taifeach ultra</string>
+    <string name="video_ultra_resolution_summary">Géaraigh físeán ísealtaifigh agus é á mhéadú</string>
+    <string name="video_dynamic_contrast_title">Codarsnacht dhinimiciúil</string>
+    <string name="video_color_title">Feabhsú datha</string>
 
 
     <string name="perf_title">Próifílí feidhmíochta</string>

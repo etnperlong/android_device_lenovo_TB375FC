@@ -92,7 +92,16 @@
     <string name="color_app_profiles_title">앱별 색상</string>
     <string name="color_app_profiles_summary">색상 향상을 끄거나 앱별로 색상 모드를 선택합니다</string>
     <string name="color_app_profile_default">화면 색상 설정</string>
-    <string name="color_app_profile_off">사용 안 함(정확한 색상)</string>
+    <string name="category_video_title">동영상 화질</string>
+    <string name="video_enhance_title">동영상 화질 향상</string>
+    <string name="video_enhance_summary">MediaTek이 하드웨어 디코딩 동영상에 적용하는 추가 처리입니다. 동영상 가장자리가 너무 밝거나 노이즈가 두드러지거나 색상이 이상하게 보이면 끄세요.</string>
+    <string name="video_sharpness_title">선명도</string>
+    <string name="video_dynamic_sharpness_title">동적 선명도</string>
+    <string name="video_iso_sharpness_title">노이즈 적응형 선명도</string>
+    <string name="video_ultra_resolution_title">초고해상도</string>
+    <string name="video_ultra_resolution_summary">저해상도 동영상을 확대할 때 선명하게 처리합니다</string>
+    <string name="video_dynamic_contrast_title">동적 대비</string>
+    <string name="video_color_title">색상 향상</string>
 
     <string name="perf_title">성능 프로필</string>
     <string name="perf_summary">MediaTek Dimensity 성능 및 발열 정책 조정</string>

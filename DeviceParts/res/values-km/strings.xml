@@ -93,6 +93,16 @@
     <string name="color_app_profiles_summary">បិទការបង្កើនពណ៌ ឬជ្រើសរើសរបៀបពណ៌សម្រាប់កម្មវិធីនីមួយៗ</string>
     <string name="color_app_profile_default">ការកំណត់ពណ៌អេក្រង់</string>
     <string name="color_app_profile_off">បិទ (ពណ៌ត្រឹមត្រូវ)</string>
+    <string name="category_video_title">គុណភាពរូបភាពវីដេអូ</string>
+    <string name="video_enhance_title">កែលម្អរូបភាពវីដេអូ</string>
+    <string name="video_enhance_summary">ការដំណើរការបន្ថែមរបស់ MediaTek លើវីដេអូដែលបានឌិកូដដោយផ្នែករឹង។ បិទវា ប្រសិនបើគែមវីដេអូភ្លឺខ្លាំង សំឡេងរំខានលេចធ្លោ ឬពណ៌មិនត្រឹមត្រូវ</string>
+    <string name="video_sharpness_title">ភាពច្បាស់</string>
+    <string name="video_dynamic_sharpness_title">ភាពច្បាស់ថាមវន្ត</string>
+    <string name="video_iso_sharpness_title">ភាពច្បាស់សម្របតាមសំឡេងរំខាន</string>
+    <string name="video_ultra_resolution_title">គុណភាពបង្ហាញអ៊ុលត្រា</string>
+    <string name="video_ultra_resolution_summary">ធ្វើឱ្យវីដេអូដែលមានគុណភាពបង្ហាញទាបកាន់តែច្បាស់ពេលពង្រីក</string>
+    <string name="video_dynamic_contrast_title">កម្រិតពណ៌ថាមវន្ត</string>
+    <string name="video_color_title">ការបង្កើនពណ៌</string>
 
     <string name="perf_title">កម្រងព័ត៌មានដំណើរការ</string>
     <string name="perf_summary">កែសម្រួលដំណើរការ និងគោលការណ៍កម្ដៅរបស់ MediaTek Dimensity</string>

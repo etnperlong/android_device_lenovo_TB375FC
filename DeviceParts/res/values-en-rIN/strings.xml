@@ -32,4 +32,6 @@
     <string name="color_app_profile_default">Screen colour settings</string>
     <string name="color_adaptive_summary">Adjust the screen\'s white to the colour of the surrounding light, for more comfortable viewing</string>
     <string name="color_app_profile_off">Off (accurate colours)</string>
+    <string name="video_enhance_summary">MediaTek\'s extra processing of hardware-decoded video. Turn it off if video edges look too bright, noise stands out or colours look wrong</string>
+    <string name="video_color_title">Colour enhancement</string>
 </resources>

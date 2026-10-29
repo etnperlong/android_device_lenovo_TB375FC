@@ -93,6 +93,16 @@
     <string name="color_app_profiles_summary">Desaktibatu kolore-hobekuntza edo aukeratu aplikazio bakoitzaren kolore-modua</string>
     <string name="color_app_profile_default">Pantailaren kolore-ezarpenak</string>
     <string name="color_app_profile_off">Desaktibatuta (kolore zehatzak)</string>
+    <string name="category_video_title">Bideo-irudia</string>
+    <string name="video_enhance_title">Bideo-irudiaren hobekuntza</string>
+    <string name="video_enhance_summary">MediaTek-ek hardware bidez deskodetutako bideoari egiten dion prozesamendu gehigarria. Desaktibatu bideoaren ertzak argiegi ikusten badira, zarata nabarmentzen bada edo koloreak oker badaude</string>
+    <string name="video_sharpness_title">Zorroztasuna</string>
+    <string name="video_dynamic_sharpness_title">Zorroztasun dinamikoa</string>
+    <string name="video_iso_sharpness_title">Zaratarekiko zorroztasun moldagarria</string>
+    <string name="video_ultra_resolution_title">Ultra bereizmena</string>
+    <string name="video_ultra_resolution_summary">Zorroztu bereizmen txikiko bideoa handitzean</string>
+    <string name="video_dynamic_contrast_title">Kontraste dinamikoa</string>
+    <string name="video_color_title">Kolore-hobekuntza</string>
 
     <string name="perf_title">Errendimendu-profilak</string>
     <string name="perf_summary">Doitu MediaTek Dimensity-ren errendimendua eta politika termikoak</string>

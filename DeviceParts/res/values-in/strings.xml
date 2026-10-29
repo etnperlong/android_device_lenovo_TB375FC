@@ -94,6 +94,16 @@
     <string name="color_app_profiles_summary">Nonaktifkan penyempurnaan warna atau pilih modus warna untuk setiap aplikasi</string>
     <string name="color_app_profile_default">Setelan warna layar</string>
     <string name="color_app_profile_off">Nonaktif (warna akurat)</string>
+    <string name="category_video_title">Kualitas gambar video</string>
+    <string name="video_enhance_title">Peningkatan gambar video</string>
+    <string name="video_enhance_summary">Pemrosesan tambahan oleh MediaTek untuk video yang didekode perangkat keras. Nonaktifkan jika tepi video tampak terlalu terang, noise terlihat jelas, atau warna tampak salah</string>
+    <string name="video_sharpness_title">Ketajaman</string>
+    <string name="video_dynamic_sharpness_title">Ketajaman dinamis</string>
+    <string name="video_iso_sharpness_title">Ketajaman adaptif noise</string>
+    <string name="video_ultra_resolution_title">Resolusi ultra</string>
+    <string name="video_ultra_resolution_summary">Pertajam video beresolusi rendah saat diperbesar</string>
+    <string name="video_dynamic_contrast_title">Kontras dinamis</string>
+    <string name="video_color_title">Penyempurnaan warna</string>
 
     <string name="perf_title">Profil performa</string>
     <string name="perf_summary">Sesuaikan performa MediaTek Dimensity dan kebijakan termal</string>

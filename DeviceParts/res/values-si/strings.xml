@@ -93,6 +93,16 @@
     <string name="color_app_profiles_summary">වර්ණ වැඩිදියුණු කිරීම අක්‍රිය කරන්න හෝ එක් එක් යෙදුම සඳහා වර්ණ මාදිලියක් තෝරන්න</string>
     <string name="color_app_profile_default">තිර වර්ණ සැකසීම්</string>
     <string name="color_app_profile_off">අක්‍රිය (නිවැරදි වර්ණ)</string>
+    <string name="category_video_title">වීඩියෝ රූපය</string>
+    <string name="video_enhance_title">වීඩියෝ රූපය වැඩිදියුණු කිරීම</string>
+    <string name="video_enhance_summary">දෘඪාංගයෙන් විකේතනය කළ වීඩියෝ සඳහා MediaTek හි අමතර සැකසුම. වීඩියෝ දාර ඉතා දීප්තිමත් ලෙස පෙනේ නම්, ශබ්දය පැහැදිලිව පෙනේ නම් හෝ වර්ණ වැරදි ලෙස පෙනේ නම් මෙය අක්‍රිය කරන්න</string>
+    <string name="video_sharpness_title">තියුණු බව</string>
+    <string name="video_dynamic_sharpness_title">ගතික තියුණු බව</string>
+    <string name="video_iso_sharpness_title">ශබ්දයට අනුවර්තී තියුණු බව</string>
+    <string name="video_ultra_resolution_title">අති-ඉහළ විභේදනය</string>
+    <string name="video_ultra_resolution_summary">අඩු විභේදන වීඩියෝව විශාල කරන විට තියුණු කරන්න</string>
+    <string name="video_dynamic_contrast_title">ගතික ප්‍රතිවිරුද්ධතාව</string>
+    <string name="video_color_title">වර්ණ වැඩිදියුණු කිරීම</string>
 
     <string name="perf_title">කාර්යසාධන පැතිකඩ</string>
     <string name="perf_summary">MediaTek Dimensity කාර්යසාධනය සහ තාප ප්‍රතිපත්ති සකසන්න</string>

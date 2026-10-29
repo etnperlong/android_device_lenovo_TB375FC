@@ -94,6 +94,16 @@
     <string name="color_app_profiles_summary">ปิดการเพิ่มความสดของสีหรือเลือกโหมดสีสำหรับแต่ละแอป</string>
     <string name="color_app_profile_default">การตั้งค่าสีหน้าจอ</string>
     <string name="color_app_profile_off">ปิด (สีถูกต้อง)</string>
+    <string name="category_video_title">ภาพวิดีโอ</string>
+    <string name="video_enhance_title">ปรับปรุงภาพวิดีโอ</string>
+    <string name="video_enhance_summary">MediaTek ประมวลผลเพิ่มเติมสำหรับวิดีโอที่ถอดรหัสด้วยฮาร์ดแวร์ ปิดฟีเจอร์นี้หากขอบภาพวิดีโอสว่างเกินไป มีจุดรบกวนเด่นชัด หรือสีดูผิดเพี้ยน</string>
+    <string name="video_sharpness_title">ความคมชัด</string>
+    <string name="video_dynamic_sharpness_title">ความคมชัดแบบไดนามิก</string>
+    <string name="video_iso_sharpness_title">ความคมชัดที่ปรับตามจุดรบกวน</string>
+    <string name="video_ultra_resolution_title">ความละเอียดสูงพิเศษ</string>
+    <string name="video_ultra_resolution_summary">เพิ่มความคมชัดให้วิดีโอความละเอียดต่ำขณะขยายภาพ</string>
+    <string name="video_dynamic_contrast_title">คอนทราสต์แบบไดนามิก</string>
+    <string name="video_color_title">ปรับปรุงสี</string>
 
     <string name="perf_title">โปรไฟล์ประสิทธิภาพ</string>
     <string name="perf_summary">ปรับประสิทธิภาพและนโยบายความร้อนของ MediaTek Dimensity</string>

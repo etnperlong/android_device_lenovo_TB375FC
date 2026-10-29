@@ -94,7 +94,16 @@
     <string name="color_app_profiles_title">Warna apl</string>
     <string name="color_app_profiles_summary">Matikan peningkatan warna atau pilih mod warna untuk setiap apl</string>
     <string name="color_app_profile_default">Ikut tetapan warna skrin</string>
-    <string name="color_app_profile_off">Mati (warna tepat)</string>
+    <string name="category_video_title">Kualiti gambar video</string>
+    <string name="video_enhance_title">Peningkatan gambar video</string>
+    <string name="video_enhance_summary">Pemprosesan tambahan MediaTek untuk video yang dinyahkodkan perkakasan. Matikannya jika tepi video kelihatan terlalu cerah, hingar ketara atau warna kelihatan salah.</string>
+    <string name="video_sharpness_title">Ketajaman</string>
+    <string name="video_dynamic_sharpness_title">Ketajaman dinamik</string>
+    <string name="video_iso_sharpness_title">Ketajaman adaptif hingar</string>
+    <string name="video_ultra_resolution_title">Resolusi ultra</string>
+    <string name="video_ultra_resolution_summary">Tajamkan video beresolusi rendah semasa dibesarkan</string>
+    <string name="video_dynamic_contrast_title">Kontras dinamik</string>
+    <string name="video_color_title">Peningkatan warna</string>
 
     <string name="perf_title">Profil prestasi</string>
     <string name="perf_summary">Laraskan prestasi MediaTek Dimensity dan dasar terma</string>

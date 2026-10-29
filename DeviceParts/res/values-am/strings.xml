@@ -94,7 +94,16 @@
     <string name="color_app_profiles_title">የመተግበሪያ ቀለሞች</string>
     <string name="color_app_profiles_summary">የቀለም ማሻሻያን አጥፋ ወይም ለእያንዳንዱ መተግበሪያ የቀለም ሁነታ ምረጥ</string>
     <string name="color_app_profile_default">የማያ ገጽ ቀለም ቅንብሮች</string>
-    <string name="color_app_profile_off">ጠፍቷል (ትክክለኛ ቀለሞች)</string>
+    <string name="category_video_title">የቪዲዮ ምስል ጥራት</string>
+    <string name="video_enhance_title">የቪዲዮ ምስል ማሻሻያ</string>
+    <string name="video_enhance_summary">MediaTek በሃርድዌር የተፈታ ቪዲዮ ላይ የሚጨምረው ማስኬድ። የቪዲዮ ጠርዞች በጣም ደማቅ ከታዩ፣ ጫጫታ ከጎላ ወይም ቀለሞች ስህተት ከታዩ ያጥፉት</string>
+    <string name="video_sharpness_title">ጥርትነት</string>
+    <string name="video_dynamic_sharpness_title">ተለዋዋጭ ጥርትነት</string>
+    <string name="video_iso_sharpness_title">ጫጫታን የሚለይ ጥርትነት</string>
+    <string name="video_ultra_resolution_title">እጅግ ከፍተኛ ጥራት</string>
+    <string name="video_ultra_resolution_summary">ዝቅተኛ ጥራት ያለውን ቪዲዮ ሲያሳድጉት ጥርት ያድርጉት</string>
+    <string name="video_dynamic_contrast_title">ተለዋዋጭ ንጽጽር</string>
+    <string name="video_color_title">የቀለም ማሻሻያ</string>
 
     <string name="perf_title">የአፈጻጸም መገለጫዎች</string>
     <string name="perf_summary">የMediaTek Dimensity አፈጻጸምን እና የሙቀት ፖሊሲዎችን አስተካክል</string>

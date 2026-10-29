@@ -92,7 +92,16 @@
     <string name="color_app_profiles_title">ॲपचे रंग</string>
     <string name="color_app_profiles_summary">प्रत्येक ॲपसाठी रंग सुधारणा बंद करा किंवा कलर मोड निवडा</string>
     <string name="color_app_profile_default">स्क्रीन रंग सेटिंग्ज फॉलो करा</string>
-    <string name="color_app_profile_off">बंद (अचूक रंग)</string>
+    <string name="category_video_title">व्हिडिओ चित्र गुणवत्ता</string>
+    <string name="video_enhance_title">व्हिडिओ चित्र सुधारणा</string>
+    <string name="video_enhance_summary">हार्डवेअरने डीकोड केलेल्या व्हिडिओवर MediaTek कडून होणारी अतिरिक्त प्रक्रिया. व्हिडिओच्या कडा जास्त उजळ दिसत असल्यास, नॉइज ठळक दिसत असल्यास किंवा रंग चुकीचे वाटत असल्यास हे बंद करा.</string>
+    <string name="video_sharpness_title">शार्पनेस</string>
+    <string name="video_dynamic_sharpness_title">डायनॅमिक शार्पनेस</string>
+    <string name="video_iso_sharpness_title">नॉइजनुसार शार्पनेस</string>
+    <string name="video_ultra_resolution_title">अल्ट्रा रिझोल्यूशन</string>
+    <string name="video_ultra_resolution_summary">कमी रिझोल्यूशनचा व्हिडिओ मोठा करताना शार्प करा</string>
+    <string name="video_dynamic_contrast_title">डायनॅमिक कॉन्ट्रास्ट</string>
+    <string name="video_color_title">रंग सुधारणा</string>
 
     <string name="perf_title">परफॉर्मन्स प्रोफाइल</string>
     <string name="perf_summary">MediaTek Dimensity चे परफॉर्मन्स आणि थर्मल धोरण ट्यून करा</string>

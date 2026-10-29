@@ -91,6 +91,16 @@
     <string name="color_app_profiles_summary">Sexsi aseɣti n yini neɣ fren askar n yini i yal asnas</string>
     <string name="color_app_profile_default">Iɣewwaren n yini n ugdil</string>
     <string name="color_app_profile_off">Sexsi (initen imeɣtu)</string>
+    <string name="category_video_title">Tagnit n tugna n uvidyu</string>
+    <string name="video_enhance_title">Asnerni n tugna n uvidyu</string>
+    <string name="video_enhance_summary">Asesfer nniḍen i uvidyu yettwasefrek s wudem arrumdan sɣur MediaTek. Sexsi-t ma yella iɣallen n uvidyu d ifazen aṭas, lɛyun n lḥuḍ yban neɣ initen mačči d imeɣta</string>
+    <string name="video_sharpness_title">Tiseddast</string>
+    <string name="video_dynamic_sharpness_title">Tiseddast tamaynut</string>
+    <string name="video_iso_sharpness_title">Tiseddast i yettwaɣewsen ɣef lḥuḍ</string>
+    <string name="video_ultra_resolution_title">Tafrayt tameqqrant</string>
+    <string name="video_ultra_resolution_summary">Snerni tiseddast n uvidyu s tefrayt tameẓẓyant ticki yettwasewɛa</string>
+    <string name="video_dynamic_contrast_title">Amyeẓli amaynut</string>
+    <string name="video_color_title">Asnerni n yini</string>
 
     <string name="perf_title">Imeɣna n temellit</string>
     <string name="perf_summary">Semselsi tamellit n MediaTek Dimensity akked tsertit n tɣawsa</string>

@@ -19,8 +19,8 @@ import org.lineageos.settings.device.R;
 /**
  * Screen color settings, laid out like stock ZUI Settings (display/ScreenTonePrefsX): a picture
  * and the color modes, the color temperature wheel and presets, then the switches. Additions:
- * picture adjustments and app color settings. Values are read from and written to settings
- * only; ScreenColorService applies them.
+ * picture adjustments, app color settings and the video picture enhancements. Values are read
+ * from and written to settings only; ScreenColorService applies them.
  */
 public class ScreenColorFragment extends SettingsBasePreferenceFragment
         implements Preference.OnPreferenceChangeListener, Preference.OnPreferenceClickListener {
@@ -28,9 +28,14 @@ public class ScreenColorFragment extends SettingsBasePreferenceFragment
     private static final String KEY_ADJUST_RESET = "color_adjust_reset";
     private static final String KEY_APP_PROFILES_ENABLED = "color_app_profiles_enabled";
     private static final String KEY_APP_PROFILES = "color_app_profiles";
+    private static final String KEY_VIDEO_ENHANCE = "video_enhance";
     /** Preference keys of ColorSettings.ADJUSTMENTS, in the same order. */
     private static final String[] ADJUSTMENT_KEYS = {
             "color_saturation", "color_contrast", "color_sharpness"};
+    /** Preference keys of ColorSettings.VIDEO_FEATURES, in the same order. */
+    private static final String[] VIDEO_FEATURE_KEYS = {
+            "video_sharpness", "video_dynamic_sharpness", "video_iso_sharpness",
+            "video_ultra_resolution", "video_dynamic_contrast", "video_color"};
 
     private ContentResolver mResolver;
     private TwoStatePreference mAdaptive;
@@ -39,6 +44,9 @@ public class ScreenColorFragment extends SettingsBasePreferenceFragment
     private Preference mAdjustReset;
     private TwoStatePreference mAppProfilesEnabled;
     private Preference mAppProfiles;
+    private TwoStatePreference mVideoEnhance;
+    private final TwoStatePreference[] mVideoFeatures =
+            new TwoStatePreference[ColorSettings.VIDEO_FEATURES.length];
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
@@ -61,6 +69,12 @@ public class ScreenColorFragment extends SettingsBasePreferenceFragment
         mAppProfilesEnabled = findPreference(KEY_APP_PROFILES_ENABLED);
         mAppProfilesEnabled.setOnPreferenceChangeListener(this);
         mAppProfiles = findPreference(KEY_APP_PROFILES);
+        mVideoEnhance = findPreference(KEY_VIDEO_ENHANCE);
+        mVideoEnhance.setOnPreferenceChangeListener(this);
+        for (int i = 0; i < mVideoFeatures.length; i++) {
+            mVideoFeatures[i] = findPreference(VIDEO_FEATURE_KEYS[i]);
+            mVideoFeatures[i].setOnPreferenceChangeListener(this);
+        }
     }
 
     @Override
@@ -84,6 +98,10 @@ public class ScreenColorFragment extends SettingsBasePreferenceFragment
         final boolean appProfiles = ColorSettings.isAppProfilesEnabled(mResolver);
         mAppProfilesEnabled.setChecked(appProfiles);
         mAppProfiles.setEnabled(appProfiles);
+        mVideoEnhance.setChecked(ColorSettings.isVideoEnhance(mResolver));
+        for (int i = 0; i < mVideoFeatures.length; i++) {
+            mVideoFeatures[i].setChecked(ColorSettings.VIDEO_FEATURES[i].isEnabled(mResolver));
+        }
     }
 
     @Override
@@ -97,6 +115,16 @@ public class ScreenColorFragment extends SettingsBasePreferenceFragment
             ColorSettings.setAppProfilesEnabled(mResolver, enabled);
             mAppProfiles.setEnabled(enabled);
             return true;
+        }
+        if (preference == mVideoEnhance) {
+            ColorSettings.setVideoEnhance(mResolver, (Boolean) newValue);
+            return true;
+        }
+        for (int i = 0; i < mVideoFeatures.length; i++) {
+            if (preference == mVideoFeatures[i]) {
+                ColorSettings.VIDEO_FEATURES[i].setEnabled(mResolver, (Boolean) newValue);
+                return true;
+            }
         }
         for (int i = 0; i < mAdjustments.length; i++) {
             if (preference == mAdjustments[i]) {

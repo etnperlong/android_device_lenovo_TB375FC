@@ -94,6 +94,16 @@
     <string name="color_app_profiles_summary">A színjavítás kikapcsolása vagy színmód választása alkalmazásonként</string>
     <string name="color_app_profile_default">Képernyőszín-beállítások</string>
     <string name="color_app_profile_off">Ki (pontos színek)</string>
+    <string name="category_video_title">Videókép</string>
+    <string name="video_enhance_title">Videókép javítása</string>
+    <string name="video_enhance_summary">A MediaTek hardveresen dekódolt videókhoz végzett további feldolgozása. Kapcsold ki, ha a videó szélei túl világosak, a zaj feltűnő vagy a színek hibásak</string>
+    <string name="video_sharpness_title">Élesség</string>
+    <string name="video_dynamic_sharpness_title">Dinamikus élesítés</string>
+    <string name="video_iso_sharpness_title">Zajhoz igazodó élesítés</string>
+    <string name="video_ultra_resolution_title">Ultranagy felbontás</string>
+    <string name="video_ultra_resolution_summary">Alacsony felbontású videó élesítése nagyítás közben</string>
+    <string name="video_dynamic_contrast_title">Dinamikus kontraszt</string>
+    <string name="video_color_title">Színjavítás</string>
 
     <string name="perf_title">Teljesítményprofilok</string>
     <string name="perf_summary">A MediaTek Dimensity teljesítményének és hőkezelési szabályzatainak beállítása</string>

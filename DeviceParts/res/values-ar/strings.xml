@@ -94,7 +94,16 @@
     <string name="color_app_profiles_title">ألوان التطبيقات</string>
     <string name="color_app_profiles_summary">إيقاف تحسين الألوان أو اختيار وضع لون لكل تطبيق</string>
     <string name="color_app_profile_default">إعدادات لون الشاشة</string>
-    <string name="color_app_profile_off">إيقاف (ألوان دقيقة)</string>
+    <string name="category_video_title">جودة صورة الفيديو</string>
+    <string name="video_enhance_title">تحسين صورة الفيديو</string>
+    <string name="video_enhance_summary">معالجة MediaTek الإضافية للفيديو المفكوك ترميزه بالأجهزة. أوقفها إذا بدت حواف الفيديو شديدة السطوع أو ظهر التشويش بوضوح أو بدت الألوان غير صحيحة</string>
+    <string name="video_sharpness_title">الحدة</string>
+    <string name="video_dynamic_sharpness_title">حدة ديناميكية</string>
+    <string name="video_iso_sharpness_title">حدة متكيفة مع التشويش</string>
+    <string name="video_ultra_resolution_title">دقة فائقة</string>
+    <string name="video_ultra_resolution_summary">زيادة حدة الفيديو منخفض الدقة عند تكبيره</string>
+    <string name="video_dynamic_contrast_title">تباين ديناميكي</string>
+    <string name="video_color_title">تحسين الألوان</string>
 
     <string name="perf_title">ملفات الأداء</string>
     <string name="perf_summary">ضبط أداء MediaTek Dimensity وسياسات الحرارة</string>

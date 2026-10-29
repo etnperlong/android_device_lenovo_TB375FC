@@ -95,6 +95,16 @@
     <string name="color_app_profiles_summary">Zima uboreshaji wa rangi au uchague hali ya rangi kwa kila programu</string>
     <string name="color_app_profile_default">Mipangilio ya rangi ya skrini</string>
     <string name="color_app_profile_off">Zima (rangi sahihi)</string>
+    <string name="category_video_title">Picha ya video</string>
+    <string name="video_enhance_title">Uboreshaji wa picha ya video</string>
+    <string name="video_enhance_summary">Uchakataji wa ziada wa MediaTek kwa video iliyosimbuliwa kwa maunzi. Zimeze ikiwa kingo za video zinaonekana nyeupe mno, kelele za picha zinaonekana sana au rangi haziko sahihi</string>
+    <string name="video_sharpness_title">Ukali</string>
+    <string name="video_dynamic_sharpness_title">Ukali unaobadilika</string>
+    <string name="video_iso_sharpness_title">Ukali unaoendana na kelele za picha</string>
+    <string name="video_ultra_resolution_title">Ubora wa juu sana</string>
+    <string name="video_ultra_resolution_summary">Imarisha ukali wa video yenye ubora wa chini inapopanuliwa</string>
+    <string name="video_dynamic_contrast_title">Utofautishaji unaobadilika</string>
+    <string name="video_color_title">Uboreshaji wa rangi</string>
 
     <string name="perf_title">Wasifu wa utendaji</string>
     <string name="perf_summary">Rekebisha utendaji na sera za halijoto za MediaTek Dimensity</string>

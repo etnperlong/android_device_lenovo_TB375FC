@@ -93,6 +93,16 @@
     <string name="color_app_profiles_summary">色の補正をオフにするか、アプリごとにカラーモードを選択します</string>
     <string name="color_app_profile_default">画面の色設定</string>
     <string name="color_app_profile_off">オフ（正確な色）</string>
+    <string name="category_video_title">動画画質</string>
+    <string name="video_enhance_title">動画画質の補正</string>
+    <string name="video_enhance_summary">MediaTek によるハードウェアデコード動画の追加処理です。動画の輪郭が白っぽい、ノイズが目立つ、または色がおかしい場合はオフにしてください</string>
+    <string name="video_sharpness_title">シャープネス</string>
+    <string name="video_dynamic_sharpness_title">ダイナミックシャープネス</string>
+    <string name="video_iso_sharpness_title">ノイズ適応シャープネス</string>
+    <string name="video_ultra_resolution_title">超解像</string>
+    <string name="video_ultra_resolution_summary">低解像度の動画を拡大するときにシャープにします</string>
+    <string name="video_dynamic_contrast_title">ダイナミックコントラスト</string>
+    <string name="video_color_title">色補正</string>
 
     <string name="perf_title">パフォーマンス プロファイル</string>
     <string name="perf_summary">MediaTek Dimensity のパフォーマンスと温度ポリシーを調整します</string>

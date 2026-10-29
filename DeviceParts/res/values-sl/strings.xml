@@ -95,6 +95,16 @@
     <string name="color_app_profiles_summary">Izklopi izboljšavo barv ali izberi barvni način za vsako aplikacijo</string>
     <string name="color_app_profile_default">Nastavitve barv zaslona</string>
     <string name="color_app_profile_off">Izklopljeno (natančne barve)</string>
+    <string name="category_video_title">Video slika</string>
+    <string name="video_enhance_title">Izboljšava video slike</string>
+    <string name="video_enhance_summary">Dodatna obdelava strojno dekodiranega videa podjetja MediaTek. Izklopite, če so robovi videa presvetli, šum izstopa ali so barve videti napačne</string>
+    <string name="video_sharpness_title">Ostrina</string>
+    <string name="video_dynamic_sharpness_title">Dinamična ostrina</string>
+    <string name="video_iso_sharpness_title">Ostrina, prilagojena šumu</string>
+    <string name="video_ultra_resolution_title">Izjemna ločljivost</string>
+    <string name="video_ultra_resolution_summary">Izostri videoposnetek nizke ločljivosti, ko ga povečaš</string>
+    <string name="video_dynamic_contrast_title">Dinamični kontrast</string>
+    <string name="video_color_title">Izboljšava barv</string>
 
     <string name="perf_title">Profili zmogljivosti</string>
     <string name="perf_summary">Prilagodi zmogljivost MediaTek Dimensity in toplotne pravilnike</string>

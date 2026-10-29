@@ -94,7 +94,16 @@
     <string name="color_app_profiles_title">Programų spalvos</string>
     <string name="color_app_profiles_summary">Išjungti spalvų paryškinimą arba pasirinkti spalvų režimą kiekvienai programai</string>
     <string name="color_app_profile_default">Ekrano spalvų nustatymai</string>
-    <string name="color_app_profile_off">Išjungta (tikslios spalvos)</string>
+    <string name="category_video_title">Vaizdo įrašo vaizdo kokybė</string>
+    <string name="video_enhance_title">Vaizdo įrašo vaizdo gerinimas</string>
+    <string name="video_enhance_summary">Papildomas „MediaTek“ aparatine įranga iškoduoto vaizdo įrašo apdorojimas. Išjunkite, jei vaizdo įrašo kraštai atrodo per šviesūs, išryškėja triukšmas arba spalvos atrodo neteisingai.</string>
+    <string name="video_sharpness_title">Ryškumas</string>
+    <string name="video_dynamic_sharpness_title">Dinaminis ryškumas</string>
+    <string name="video_iso_sharpness_title">Triukšmui pritaikomas ryškinimas</string>
+    <string name="video_ultra_resolution_title">Itin didelė raiška</string>
+    <string name="video_ultra_resolution_summary">Didinant mažos raiškos vaizdo įrašą, jį paryškinti</string>
+    <string name="video_dynamic_contrast_title">Dinaminis kontrastas</string>
+    <string name="video_color_title">Spalvų gerinimas</string>
 
     <string name="perf_title">Našumo profiliai</string>
     <string name="perf_summary">Derinti „MediaTek Dimensity“ našumą ir šilumines strategijas</string>

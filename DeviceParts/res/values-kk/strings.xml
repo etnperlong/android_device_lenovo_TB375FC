@@ -95,6 +95,16 @@
     <string name="color_app_profiles_summary">Түсті жақсартуды өшіріңіз немесе әр қолданба үшін түс режимін таңдаңыз</string>
     <string name="color_app_profile_default">Экран түсінің параметрлері</string>
     <string name="color_app_profile_off">Өшірулі (түстер дәлдігі)</string>
+    <string name="category_video_title">Бейне кескінінің сапасы</string>
+    <string name="video_enhance_title">Бейне кескінін жақсарту</string>
+    <string name="video_enhance_summary">MediaTek аппараттық құралмен декодталған бейнеге қосымша өңдеу жасайды. Бейне жиектері тым жарық, шу айқын немесе түстер дұрыс болмаса, өшіріңіз</string>
+    <string name="video_sharpness_title">Айқындық</string>
+    <string name="video_dynamic_sharpness_title">Динамикалық айқындық</string>
+    <string name="video_iso_sharpness_title">Шуға бейімделетін айқындық</string>
+    <string name="video_ultra_resolution_title">Аса жоғары ажыратымдылық</string>
+    <string name="video_ultra_resolution_summary">Төмен ажыратымдылықтағы бейнені үлкейткенде айқындау</string>
+    <string name="video_dynamic_contrast_title">Динамикалық контраст</string>
+    <string name="video_color_title">Түсті жақсарту</string>
 
     <string name="perf_title">Өнімділік профильдері</string>
     <string name="perf_summary">MediaTek Dimensity өнімділігі мен температура саясатын реттеу</string>

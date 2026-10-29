@@ -90,7 +90,16 @@
     <string name="color_app_profiles_title">ڕەنگی ئەپەکان</string>
     <string name="color_app_profiles_summary">باشترکردنی ڕەنگ ناچالاک بکە یان بۆ هەر ئەپێک دۆخی ڕەنگ هەڵبژێرە</string>
     <string name="color_app_profile_default">ڕێکخستنەکانی ڕەنگی شاشە</string>
-    <string name="color_app_profile_off">کوژاوە (ڕەنگی ورد)</string>
+    <string name="category_video_title">کوالێتی وێنەی ڤیدیۆ</string>
+    <string name="video_enhance_title">باشترکردنی وێنەی ڤیدیۆ</string>
+    <string name="video_enhance_summary">پرۆسەکردنی زیادەی MediaTek بۆ ڤیدیۆی دیکۆدکراو بە ڕەقەکاڵا. ئەگەر کەنارەکانی ڤیدیۆ زۆر ڕوون بن، ژاوەژاو دیار بێت یان ڕەنگەکان هەڵە بن، ناچالاکی بکە</string>
+    <string name="video_sharpness_title">تیژی</string>
+    <string name="video_dynamic_sharpness_title">تیژیی گۆڕاو</string>
+    <string name="video_iso_sharpness_title">تیژیی گونجاو لەگەڵ ژاوەژاو</string>
+    <string name="video_ultra_resolution_title">وردیی زۆر بەرز</string>
+    <string name="video_ultra_resolution_summary">کاتێک ڤیدیۆی وردیی نزمی گەورە دەکرێت تیژتری بکە</string>
+    <string name="video_dynamic_contrast_title">کۆنتراستی گۆڕاو</string>
+    <string name="video_color_title">باشترکردنی ڕەنگ</string>
     <string name="perf_title">پرۆفایلی کارایی</string>
     <string name="perf_summary">ڕێکخستنی کارایی MediaTek Dimensity و سیاسەتەکانی گەرما</string>
     <string name="perf_enabled_title">ڕێکخستنی کارایی بەپێی ئەپ</string>

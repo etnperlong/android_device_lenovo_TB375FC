@@ -92,6 +92,16 @@
     <string name="color_app_profiles_summary">Slökkva á litabætingu eða velja litastillingu fyrir hvert forrit</string>
     <string name="color_app_profile_default">Skjálitastillingar</string>
     <string name="color_app_profile_off">Slökkt (nákvæmir litir)</string>
+    <string name="category_video_title">Myndgæði myndskeiða</string>
+    <string name="video_enhance_title">Myndbæting myndskeiða</string>
+    <string name="video_enhance_summary">Viðbótarvinnsla MediaTek á vélbúnaðarafkóðuðum myndskeiðum. Slökktu á henni ef brúnir myndskeiða eru of bjartar, suð áberandi eða litir rangir</string>
+    <string name="video_sharpness_title">Skerpa</string>
+    <string name="video_dynamic_sharpness_title">Breytileg skerpa</string>
+    <string name="video_iso_sharpness_title">Suðaðlöguð skerpa</string>
+    <string name="video_ultra_resolution_title">Ofurhá upplausn</string>
+    <string name="video_ultra_resolution_summary">Skerpa myndskeið í lágri upplausn þegar þau eru stækkuð</string>
+    <string name="video_dynamic_contrast_title">Breytilegur birtuskil</string>
+    <string name="video_color_title">Litabæting</string>
 
     <string name="perf_title">Afkastasnið</string>
     <string name="perf_summary">Stilla afköst og hitastefnur MediaTek Dimensity</string>

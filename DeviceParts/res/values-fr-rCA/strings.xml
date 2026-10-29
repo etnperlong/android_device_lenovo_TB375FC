@@ -95,6 +95,16 @@
     <string name="color_app_profiles_summary">Désactiver l’amélioration des couleurs ou choisir un mode couleur pour chaque appli</string>
     <string name="color_app_profile_default">Paramètres de couleur de l’écran</string>
     <string name="color_app_profile_off">Désactivé (couleurs fidèles)</string>
+    <string name="category_video_title">Image vidéo</string>
+    <string name="video_enhance_title">Amélioration de l’image vidéo</string>
+    <string name="video_enhance_summary">Traitement supplémentaire de MediaTek pour les vidéos décodées par le matériel. Désactivez-le si les contours de la vidéo semblent trop lumineux, si le bruit ressort ou si les couleurs semblent incorrectes</string>
+    <string name="video_sharpness_title">Netteté</string>
+    <string name="video_dynamic_sharpness_title">Netteté dynamique</string>
+    <string name="video_iso_sharpness_title">Netteté adaptative au bruit</string>
+    <string name="video_ultra_resolution_title">Ultra-haute résolution</string>
+    <string name="video_ultra_resolution_summary">Augmenter la netteté des vidéos de basse résolution lors de leur agrandissement</string>
+    <string name="video_dynamic_contrast_title">Contraste dynamique</string>
+    <string name="video_color_title">Amélioration des couleurs</string>
 
     <string name="perf_title">Profils de performance</string>
     <string name="perf_summary">Régler la performance et les politiques thermiques de MediaTek Dimensity</string>

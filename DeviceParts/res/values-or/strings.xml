@@ -93,6 +93,16 @@
     <string name="color_app_profiles_summary">ପ୍ରତ୍ୟେକ ଆପ ପାଇଁ ରଙ୍ଗ ଉନ୍ନତି ଅଫ କରନ୍ତୁ କିମ୍ବା ରଙ୍ଗ ମୋଡ ବାଛନ୍ତୁ</string>
     <string name="color_app_profile_default">ସ୍କ୍ରିନ ରଙ୍ଗ ସେଟିଂ ଅନୁସରଣ କରନ୍ତୁ</string>
     <string name="color_app_profile_off">ଅଫ (ସଠିକ ରଙ୍ଗ)</string>
+    <string name="category_video_title">ଭିଡିଓ ଚିତ୍ର</string>
+    <string name="video_enhance_title">ଭିଡିଓ ଚିତ୍ର ଉନ୍ନତି</string>
+    <string name="video_enhance_summary">ହାର୍ଡୱେର ଡିକୋଡ୍ ହୋଇଥିବା ଭିଡିଓର MediaTek ର ଅତିରିକ୍ତ ପ୍ରକ୍ରିୟାକରଣ। ଭିଡିଓ ଧାର ଅତ୍ୟଧିକ ଉଜ୍ଜ୍ୱଳ ଲାଗିଲେ, ନଏଜ୍ ସ୍ପଷ୍ଟ ଦିଶିଲେ କିମ୍ବା ରଙ୍ଗ ଭୁଲ୍ ଲାଗିଲେ ଏହା ବନ୍ଦ କରନ୍ତୁ</string>
+    <string name="video_sharpness_title">ତୀକ୍ଷ୍ଣତା</string>
+    <string name="video_dynamic_sharpness_title">ଡାଇନାମିକ୍ ତୀକ୍ଷ୍ଣତା</string>
+    <string name="video_iso_sharpness_title">ନଏଜ୍-ଅନୁକୂଳ ତୀକ୍ଷ୍ଣତା</string>
+    <string name="video_ultra_resolution_title">ଅଲ୍ଟ୍ରା ରିଜୋଲ୍ୟୁସନ</string>
+    <string name="video_ultra_resolution_summary">କମ୍ ରିଜୋଲ୍ୟୁସନ ଭିଡିଓକୁ ବଡ଼ କରିବା ସମୟରେ ତୀକ୍ଷ୍ଣ କରନ୍ତୁ</string>
+    <string name="video_dynamic_contrast_title">ଡାଇନାମିକ୍ କଣ୍ଟ୍ରାଷ୍ଟ</string>
+    <string name="video_color_title">ରଙ୍ଗ ଉନ୍ନତି</string>
 
     <string name="perf_title">ପରଫର୍ମାନ୍ସ ପ୍ରୋଫାଇଲ</string>
     <string name="perf_summary">MediaTek Dimensity ପରଫର୍ମାନ୍ସ ଏବଂ ଥର୍ମାଲ ପଲିସି ଟ୍ୟୁନ କରନ୍ତୁ</string>

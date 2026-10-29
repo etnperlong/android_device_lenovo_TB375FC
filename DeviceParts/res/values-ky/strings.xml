@@ -94,7 +94,16 @@
     <string name="color_app_profiles_title">Колдонмолордун түстөрү</string>
     <string name="color_app_profiles_summary">Түстү жакшыртууну өчүрүңүз же ар бир колдонмого түс режимин тандаңыз</string>
     <string name="color_app_profile_default">Экрандын түс жөндөөлөрү</string>
-    <string name="color_app_profile_off">Өчүк (так түстөр)</string>
+    <string name="category_video_title">Видеонун сүрөт сапаты</string>
+    <string name="video_enhance_title">Видеонун сүрөтүн жакшыртуу</string>
+    <string name="video_enhance_summary">MediaTek аппараттык декоддолгон видеого кошумча иштетүүнү колдонот. Видеонун четтери өтө ачык, ызы-чуу байкаларлык же түстөр туура эмес көрүнсө, өчүрүңүз.</string>
+    <string name="video_sharpness_title">Тактык</string>
+    <string name="video_dynamic_sharpness_title">Динамикалык тактык</string>
+    <string name="video_iso_sharpness_title">Ызы-чууга ыңгайлашкан тактык</string>
+    <string name="video_ultra_resolution_title">Өтө жогорку чечилиш</string>
+    <string name="video_ultra_resolution_summary">Төмөн чечилишти видеону чоңойтуп жатканда тактоо</string>
+    <string name="video_dynamic_contrast_title">Динамикалык контраст</string>
+    <string name="video_color_title">Түстү жакшыртуу</string>
 
     <string name="perf_title">Өндүрүмдүүлүк профилдери</string>
     <string name="perf_summary">MediaTek Dimensity өндүрүмдүүлүгүн жана температура саясатын жөндөө</string>

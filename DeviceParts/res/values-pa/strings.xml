@@ -93,6 +93,16 @@
     <string name="color_app_profiles_summary">ਹਰੇਕ ਐਪ ਲਈ ਰੰਗ ਸੁਧਾਰ ਬੰਦ ਕਰੋ ਜਾਂ ਰੰਗ ਮੋਡ ਚੁਣੋ</string>
     <string name="color_app_profile_default">ਸਕ੍ਰੀਨ ਦੇ ਰੰਗਾਂ ਦੀ ਸੈਟਿੰਗ ਦੀ ਪਾਲਣਾ ਕਰੋ</string>
     <string name="color_app_profile_off">ਬੰਦ (ਸਹੀ ਰੰਗ)</string>
+    <string name="category_video_title">ਵੀਡੀਓ ਤਸਵੀਰ</string>
+    <string name="video_enhance_title">ਵੀਡੀਓ ਤਸਵੀਰ ਸੁਧਾਰ</string>
+    <string name="video_enhance_summary">ਹਾਰਡਵੇਅਰ-ਡੀਕੋਡ ਕੀਤੇ ਵੀਡੀਓ ਦੀ MediaTek ਵੱਲੋਂ ਵਾਧੂ ਪ੍ਰੋਸੈਸਿੰਗ। ਜੇ ਵੀਡੀਓ ਦੇ ਕਿਨਾਰੇ ਬਹੁਤ ਚਮਕਦਾਰ ਲੱਗਣ, ਨੌਇਜ਼ ਉੱਭਰ ਕੇ ਦਿਸੇ ਜਾਂ ਰੰਗ ਗਲਤ ਲੱਗਣ ਤਾਂ ਇਸਨੂੰ ਬੰਦ ਕਰੋ</string>
+    <string name="video_sharpness_title">ਤਿੱਖਾਪਣ</string>
+    <string name="video_dynamic_sharpness_title">ਡਾਇਨਾਮਿਕ ਤਿੱਖਾਪਣ</string>
+    <string name="video_iso_sharpness_title">ਨੌਇਜ਼-ਅਨੁਕੂਲ ਤਿੱਖਾਪਣ</string>
+    <string name="video_ultra_resolution_title">ਅਲਟਰਾ ਰੈਜ਼ੋਲਿਊਸ਼ਨ</string>
+    <string name="video_ultra_resolution_summary">ਘੱਟ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਵਾਲੇ ਵੀਡੀਓ ਨੂੰ ਵੱਡਾ ਕਰਦੇ ਸਮੇਂ ਤਿੱਖਾ ਕਰੋ</string>
+    <string name="video_dynamic_contrast_title">ਡਾਇਨਾਮਿਕ ਕਨਟਰਾਸਟ</string>
+    <string name="video_color_title">ਰੰਗ ਸੁਧਾਰ</string>
 
     <string name="perf_title">ਕਾਰਗੁਜ਼ਾਰੀ ਪ੍ਰੋਫਾਈਲਾਂ</string>
     <string name="perf_summary">MediaTek Dimensity ਦੀ ਕਾਰਗੁਜ਼ਾਰੀ ਅਤੇ ਥਰਮਲ ਨੀਤੀਆਂ ਟਿਊਨ ਕਰੋ</string>

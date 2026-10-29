@@ -94,6 +94,16 @@
     <string name="color_app_profiles_summary">Stäng av färgförbättring eller välj färgläge för varje app</string>
     <string name="color_app_profile_default">Skärmfärgsinställningar</string>
     <string name="color_app_profile_off">Av (korrekta färger)</string>
+    <string name="category_video_title">Videobild</string>
+    <string name="video_enhance_title">Videobildförbättring</string>
+    <string name="video_enhance_summary">MediaTeks extra bearbetning av hårdvaruavkodad video. Stäng av den om videokanter ser för ljusa ut, brus märks tydligt eller färgerna ser felaktiga ut</string>
+    <string name="video_sharpness_title">Skärpa</string>
+    <string name="video_dynamic_sharpness_title">Dynamisk skärpa</string>
+    <string name="video_iso_sharpness_title">Brusanpassad skärpa</string>
+    <string name="video_ultra_resolution_title">Ultrahög upplösning</string>
+    <string name="video_ultra_resolution_summary">Skärp video med låg upplösning när den förstoras</string>
+    <string name="video_dynamic_contrast_title">Dynamisk kontrast</string>
+    <string name="video_color_title">Färgförbättring</string>
 
     <string name="perf_title">Prestandaprofiler</string>
     <string name="perf_summary">Justera MediaTek Dimensity-prestanda och temperaturpolicyer</string>

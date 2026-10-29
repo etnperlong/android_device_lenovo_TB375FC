@@ -95,6 +95,16 @@
     <string name="color_app_profiles_summary">Poista värien parannus käytöstä tai valitse kullekin sovellukselle väritila</string>
     <string name="color_app_profile_default">Näytön väriasetukset</string>
     <string name="color_app_profile_off">Ei käytössä (tarkat värit)</string>
+    <string name="category_video_title">Videokuva</string>
+    <string name="video_enhance_title">Videokuvan parannus</string>
+    <string name="video_enhance_summary">MediaTekin lisäkäsittely laitteistolla dekoodatulle videolle. Poista se käytöstä, jos videon reunat näyttävät liian kirkkailta, kohina erottuu tai värit näyttävät vääriltä</string>
+    <string name="video_sharpness_title">Terävyys</string>
+    <string name="video_dynamic_sharpness_title">Dynaaminen terävyys</string>
+    <string name="video_iso_sharpness_title">Kohinaan mukautuva terävyys</string>
+    <string name="video_ultra_resolution_title">Ultraresoluutio</string>
+    <string name="video_ultra_resolution_summary">Terävöitä matalan tarkkuuden videota sitä suurennettaessa</string>
+    <string name="video_dynamic_contrast_title">Dynaaminen kontrasti</string>
+    <string name="video_color_title">Värien parannus</string>
 
     <string name="perf_title">Suorituskykyprofiilit</string>
     <string name="perf_summary">Säädä MediaTek Dimensityn suorituskykyä ja lämpötilakäytäntöjä</string>

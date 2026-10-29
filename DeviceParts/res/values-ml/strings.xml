@@ -93,7 +93,16 @@
     <string name="color_app_profiles_title">ആപ്പ് നിറങ്ങൾ</string>
     <string name="color_app_profiles_summary">ഓരോ ആപ്പിനുമുള്ള നിറ മെച്ചപ്പെടുത്തലുകൾ ഓഫാക്കുകയോ നിറ മോഡ് തിരഞ്ഞെടുക്കുകയോ ചെയ്യുക</string>
     <string name="color_app_profile_default">സ്ക്രീൻ നിറ ക്രമീകരണങ്ങൾ ഉപയോഗിക്കുക</string>
-    <string name="color_app_profile_off">ഓഫ് (കൃത്യമായ നിറം)</string>
+    <string name="category_video_title">വീഡിയോ ചിത്രത്തിന്റെ ഗുണനിലവാരം</string>
+    <string name="video_enhance_title">വീഡിയോ ചിത്ര മെച്ചപ്പെടുത്തൽ</string>
+    <string name="video_enhance_summary">ഹാർഡ്‌വെയർ ഡീകോഡ് ചെയ്ത വീഡിയോയിൽ MediaTek നടത്തുന്ന അധിക പ്രോസസ്സിംഗ്. വീഡിയോയുടെ അരികുകൾ വളരെ തെളിച്ചമുള്ളതായോ നോയ്സ് കൂടുതലായി കാണപ്പെടുന്നതായോ നിറങ്ങൾ തെറ്റായതായോ തോന്നിയാൽ ഇത് ഓഫാക്കുക.</string>
+    <string name="video_sharpness_title">മൂർച്ച</string>
+    <string name="video_dynamic_sharpness_title">ഡൈനാമിക് മൂർച്ച</string>
+    <string name="video_iso_sharpness_title">നോയ്സിനനുസരിച്ചുള്ള മൂർച്ച</string>
+    <string name="video_ultra_resolution_title">അൾട്രാ റെസല്യൂഷൻ</string>
+    <string name="video_ultra_resolution_summary">കുറഞ്ഞ റെസല്യൂഷനിലുള്ള വീഡിയോ വലുതാക്കുമ്പോൾ മൂർച്ച കൂട്ടുക</string>
+    <string name="video_dynamic_contrast_title">ഡൈനാമിക് കോൺട്രാസ്റ്റ്</string>
+    <string name="video_color_title">നിറ മെച്ചപ്പെടുത്തൽ</string>
 
     <string name="perf_title">പ്രകടന പ്രൊഫൈലുകൾ</string>
     <string name="perf_summary">MediaTek Dimensity പ്രകടനവും താപ നിയന്ത്രണ നയങ്ങളും ക്രമീകരിക്കുക</string>

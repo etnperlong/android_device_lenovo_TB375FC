@@ -94,7 +94,16 @@
     <string name="color_app_profiles_title">Колеры праграм</string>
     <string name="color_app_profiles_summary">Адключыць паляпшэнне колераў або выбраць каляровы рэжым для кожнай праграмы</string>
     <string name="color_app_profile_default">Налады колеру экрана</string>
-    <string name="color_app_profile_off">Выключана (дакладныя колеры)</string>
+    <string name="category_video_title">Якасць выявы відэа</string>
+    <string name="video_enhance_title">Паляпшэнне выявы відэа</string>
+    <string name="video_enhance_summary">Дадатковая апрацоўка MediaTek відэа, дэкадаванага апаратнымі сродкамі. Адключыце яе, калі краі відэа выглядаюць занадта яркімі, шум вылучаецца або колеры выглядаюць няправільна</string>
+    <string name="video_sharpness_title">Рэзкасць</string>
+    <string name="video_dynamic_sharpness_title">Дынамічная рэзкасць</string>
+    <string name="video_iso_sharpness_title">Рэзкасць з адаптацыяй да шуму</string>
+    <string name="video_ultra_resolution_title">Звышвысокая раздзяляльнасць</string>
+    <string name="video_ultra_resolution_summary">Павышаць рэзкасць відэа нізкай раздзяляльнасці пры павелічэнні</string>
+    <string name="video_dynamic_contrast_title">Дынамічны кантраст</string>
+    <string name="video_color_title">Паляпшэнне колераў</string>
 
     <string name="perf_title">Профілі прадукцыйнасці</string>
     <string name="perf_summary">Наладзіць прадукцыйнасць MediaTek Dimensity і цеплавыя палітыкі</string>

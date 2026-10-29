@@ -94,7 +94,16 @@
     <string name="color_app_profiles_title">Аппын өнгө</string>
     <string name="color_app_profiles_summary">Апп бүрийн өнгө сайжруулалтыг унтраах эсвэл өнгөний горим сонгох</string>
     <string name="color_app_profile_default">Дэлгэцийн өнгөний тохиргоог дагах</string>
-    <string name="color_app_profile_off">Унтраах (өнгөний нарийвчлалтай)</string>
+    <string name="category_video_title">Видео дүрсний чанар</string>
+    <string name="video_enhance_title">Видео дүрс сайжруулах</string>
+    <string name="video_enhance_summary">MediaTek-ийн техник хангамжаар тайлагдсан видеонд хийх нэмэлт боловсруулалт. Видеоны ирмэг хэт цайрсан, шуугиан тод харагдсан эсвэл өнгө буруу мэт байвал унтраана уу.</string>
+    <string name="video_sharpness_title">Тодрол</string>
+    <string name="video_dynamic_sharpness_title">Динамик тодрол</string>
+    <string name="video_iso_sharpness_title">Шуугианд тохируулсан тодрол</string>
+    <string name="video_ultra_resolution_title">Хэт өндөр нягтаршил</string>
+    <string name="video_ultra_resolution_summary">Бага нягтаршилтай видеог томруулахдаа тодруулах</string>
+    <string name="video_dynamic_contrast_title">Динамик контраст</string>
+    <string name="video_color_title">Өнгө сайжруулах</string>
 
     <string name="perf_title">Гүйцэтгэлийн профайл</string>
     <string name="perf_summary">MediaTek Dimensity-ийн гүйцэтгэл болон дулааны бодлогыг тохируулах</string>

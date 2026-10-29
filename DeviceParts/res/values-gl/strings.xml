@@ -92,6 +92,16 @@
     <string name="color_app_profiles_summary">Desactiva a mellora da cor ou escolle un modo de cor para cada aplicación</string>
     <string name="color_app_profile_default">Axustes da cor da pantalla</string>
     <string name="color_app_profile_off">Desactivado (cores precisas)</string>
+    <string name="category_video_title">Imaxe de vídeo</string>
+    <string name="video_enhance_title">Mellora da imaxe de vídeo</string>
+    <string name="video_enhance_summary">Procesamento adicional de MediaTek para vídeos descodificados por hardware. Desactívao se os bordos do vídeo parecen demasiado brillantes, destaca o ruído ou as cores parecen incorrectas</string>
+    <string name="video_sharpness_title">Nitidez</string>
+    <string name="video_dynamic_sharpness_title">Nitidez dinámica</string>
+    <string name="video_iso_sharpness_title">Nitidez adaptativa ao ruído</string>
+    <string name="video_ultra_resolution_title">Ultra resolución</string>
+    <string name="video_ultra_resolution_summary">Aumenta a nitidez dos vídeos de baixa resolución ao amplialos</string>
+    <string name="video_dynamic_contrast_title">Contraste dinámico</string>
+    <string name="video_color_title">Mellora da cor</string>
 
 
     <string name="perf_title">Perfís de rendemento</string>

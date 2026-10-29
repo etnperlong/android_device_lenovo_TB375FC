@@ -96,6 +96,16 @@
     <string name="color_app_profiles_summary">Вимкніть покращення кольору або виберіть колірний режим для кожного додатка</string>
     <string name="color_app_profile_default">Налаштування кольору екрана</string>
     <string name="color_app_profile_off">Вимкнено (точна передача кольорів)</string>
+    <string name="category_video_title">Відеозображення</string>
+    <string name="video_enhance_title">Покращення відеозображення</string>
+    <string name="video_enhance_summary">Додаткова обробка MediaTek відео, декодованого апаратно. Вимкніть, якщо краї відео надто яскраві, помітний шум або кольори виглядають неправильно</string>
+    <string name="video_sharpness_title">Різкість</string>
+    <string name="video_dynamic_sharpness_title">Динамічне підвищення різкості</string>
+    <string name="video_iso_sharpness_title">Підвищення різкості з урахуванням шуму</string>
+    <string name="video_ultra_resolution_title">Надвисока роздільна здатність</string>
+    <string name="video_ultra_resolution_summary">Підвищувати чіткість відео з низькою роздільною здатністю під час збільшення</string>
+    <string name="video_dynamic_contrast_title">Динамічна контрастність</string>
+    <string name="video_color_title">Покращення кольору</string>
 
     <string name="perf_title">Профілі продуктивності</string>
     <string name="perf_summary">Налаштувати продуктивність MediaTek Dimensity і теплові політики</string>

@@ -91,6 +91,16 @@
     <string name="color_app_profiles_summary">გამორთეთ ფერის გაუმჯობესება ან აირჩიეთ ფერის რეჟიმი თითოეული აპისთვის</string>
     <string name="color_app_profile_default">ეკრანის ფერის პარამეტრები</string>
     <string name="color_app_profile_off">გამორთული (ზუსტი ფერები)</string>
+    <string name="category_video_title">ვიდეოს გამოსახულების ხარისხი</string>
+    <string name="video_enhance_title">ვიდეოს გამოსახულების გაუმჯობესება</string>
+    <string name="video_enhance_summary">MediaTek-ის მიერ აპარატურულად დეკოდირებული ვიდეოს დამატებითი დამუშავება. გამორთეთ, თუ ვიდეოს კიდეები ზედმეტად კაშკაშაა, ხმაური შესამჩნევია ან ფერები არასწორია</string>
+    <string name="video_sharpness_title">სიმკვეთრე</string>
+    <string name="video_dynamic_sharpness_title">დინამიკური სიმკვეთრე</string>
+    <string name="video_iso_sharpness_title">ხმაურზე ადაპტირებული სიმკვეთრე</string>
+    <string name="video_ultra_resolution_title">ულტრა გარჩევადობა</string>
+    <string name="video_ultra_resolution_summary">დაბალი გარჩევადობის ვიდეოს გამკვეთრება გადიდებისას</string>
+    <string name="video_dynamic_contrast_title">დინამიკური კონტრასტი</string>
+    <string name="video_color_title">ფერის გაუმჯობესება</string>
 
     <string name="perf_title">წარმადობის პროფილები</string>
     <string name="perf_summary">MediaTek Dimensity-ის წარმადობისა და თერმული წესების მორგება</string>

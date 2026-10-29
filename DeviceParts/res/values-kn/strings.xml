@@ -93,6 +93,16 @@
     <string name="color_app_profiles_summary">ಬಣ್ಣ ವರ್ಧನೆಯನ್ನು ಆಫ್ ಮಾಡಿ ಅಥವಾ ಪ್ರತಿಯೊಂದು ಆ್ಯಪ್‌ಗೆ ಬಣ್ಣದ ಮೋಡ್ ಆಯ್ಕೆಮಾಡಿ</string>
     <string name="color_app_profile_default">ಪರದೆ ಬಣ್ಣದ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
     <string name="color_app_profile_off">ಆಫ್ (ನಿಖರವಾದ ಬಣ್ಣಗಳು)</string>
+    <string name="category_video_title">ವೀಡಿಯೊ ಚಿತ್ರದ ಗುಣಮಟ್ಟ</string>
+    <string name="video_enhance_title">ವೀಡಿಯೊ ಚಿತ್ರ ವರ್ಧನೆ</string>
+    <string name="video_enhance_summary">MediaTek ಹಾರ್ಡ್‌ವೇರ್ ಡಿಕೋಡ್ ಮಾಡಿದ ವೀಡಿಯೊಗೆ ಮಾಡುವ ಹೆಚ್ಚುವರಿ ಪ್ರಕ್ರಿಯೆ. ವೀಡಿಯೊ ಅಂಚುಗಳು ಹೆಚ್ಚು ಪ್ರಕಾಶಮಾನವಾಗಿ ಕಂಡರೆ, ಶಬ್ದ ಎದ್ದು ಕಂಡರೆ ಅಥವಾ ಬಣ್ಣಗಳು ತಪ್ಪಾಗಿ ಕಂಡರೆ ಇದನ್ನು ಆಫ್ ಮಾಡಿ</string>
+    <string name="video_sharpness_title">ತೀಕ್ಷ್ಣತೆ</string>
+    <string name="video_dynamic_sharpness_title">ಡೈನಾಮಿಕ್ ತೀಕ್ಷ್ಣತೆ</string>
+    <string name="video_iso_sharpness_title">ಶಬ್ದಕ್ಕೆ ಹೊಂದಿಕೊಳ್ಳುವ ತೀಕ್ಷ್ಣತೆ</string>
+    <string name="video_ultra_resolution_title">ಅಲ್ಟ್ರಾ ರೆಸಲ್ಯೂಶನ್</string>
+    <string name="video_ultra_resolution_summary">ಕಡಿಮೆ ರೆಸಲ್ಯೂಶನ್ ವೀಡಿಯೊವನ್ನು ದೊಡ್ಡದಾಗಿಸುವಾಗ ತೀಕ್ಷ್ಣಗೊಳಿಸಿ</string>
+    <string name="video_dynamic_contrast_title">ಡೈನಾಮಿಕ್ ಕಾಂಟ್ರಾಸ್ಟ್</string>
+    <string name="video_color_title">ಬಣ್ಣ ವರ್ಧನೆ</string>
 
     <string name="perf_title">ಕಾರ್ಯಕ್ಷಮತೆಯ ಪ್ರೊಫೈಲ್‌ಗಳು</string>
     <string name="perf_summary">MediaTek Dimensity ಕಾರ್ಯಕ್ಷಮತೆ ಮತ್ತು ತಾಪ ನಿಯಂತ್ರಣ ನೀತಿಗಳನ್ನು ಹೊಂದಿಸಿ</string>

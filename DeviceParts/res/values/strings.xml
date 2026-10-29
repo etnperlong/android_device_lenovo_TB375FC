@@ -102,6 +102,16 @@
     <string name="color_app_profiles_summary">Turn color enhancement off or choose a color mode for each app</string>
     <string name="color_app_profile_default">Screen color settings</string>
     <string name="color_app_profile_off">Off (accurate colors)</string>
+    <string name="category_video_title">Video picture</string>
+    <string name="video_enhance_title">Video picture enhancement</string>
+    <string name="video_enhance_summary">MediaTek\'s extra processing of hardware-decoded video. Turn it off if video edges look too bright, noise stands out or colors look wrong</string>
+    <string name="video_sharpness_title">Sharpening</string>
+    <string name="video_dynamic_sharpness_title">Dynamic sharpening</string>
+    <string name="video_iso_sharpness_title">Noise-adaptive sharpening</string>
+    <string name="video_ultra_resolution_title">Ultra resolution</string>
+    <string name="video_ultra_resolution_summary">Sharpen low-resolution video as it is enlarged</string>
+    <string name="video_dynamic_contrast_title">Dynamic contrast</string>
+    <string name="video_color_title">Color enhancement</string>
 
     <!-- Performance profiles -->
     <string name="perf_title">Performance profiles</string>

@@ -93,6 +93,16 @@
     <string name="color_app_profiles_summary">Slå farveforbedring fra, eller vælg en farvetilstand for hver app</string>
     <string name="color_app_profile_default">Skærmfarveindstillinger</string>
     <string name="color_app_profile_off">Fra (korrekte farver)</string>
+    <string name="category_video_title">Videobillede</string>
+    <string name="video_enhance_title">Forbedring af videobillede</string>
+    <string name="video_enhance_summary">MediaTeks ekstra behandling af hardwaredekodet video. Slå det fra, hvis videokanter ser for lyse ud, støj er tydelig, eller farverne ser forkerte ud</string>
+    <string name="video_sharpness_title">Skarphed</string>
+    <string name="video_dynamic_sharpness_title">Dynamisk skarphed</string>
+    <string name="video_iso_sharpness_title">Støjtilpasset skarphed</string>
+    <string name="video_ultra_resolution_title">Ultrahøj opløsning</string>
+    <string name="video_ultra_resolution_summary">Gør video i lav opløsning skarpere, når den forstørres</string>
+    <string name="video_dynamic_contrast_title">Dynamisk kontrast</string>
+    <string name="video_color_title">Farveforbedring</string>
 
     <string name="perf_title">Ydelsesprofiler</string>
     <string name="perf_summary">Juster MediaTek Dimensity-ydeevne og termiske politikker</string>

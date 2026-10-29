@@ -92,6 +92,16 @@
     <string name="color_app_profiles_summary">रंग सुधार बंद करें या हर ऐप के लिए रंग मोड चुनें</string>
     <string name="color_app_profile_default">स्क्रीन के रंग की सेटिंग</string>
     <string name="color_app_profile_off">बंद (सटीक रंग)</string>
+    <string name="category_video_title">वीडियो चित्र</string>
+    <string name="video_enhance_title">वीडियो चित्र बेहतर बनाना</string>
+    <string name="video_enhance_summary">MediaTek द्वारा हार्डवेयर से डिकोड किए गए वीडियो की अतिरिक्त प्रोसेसिंग। वीडियो के किनारे ज़्यादा चमकीले दिखें, नॉइज़ उभरे या रंग गलत लगें, तो इसे बंद करें</string>
+    <string name="video_sharpness_title">तीक्ष्णता</string>
+    <string name="video_dynamic_sharpness_title">डायनैमिक तीक्ष्णता</string>
+    <string name="video_iso_sharpness_title">नॉइज़-अनुकूली तीक्ष्णता</string>
+    <string name="video_ultra_resolution_title">अल्ट्रा रिज़ॉल्यूशन</string>
+    <string name="video_ultra_resolution_summary">कम रिज़ॉल्यूशन वाले वीडियो को बड़ा करते समय तीक्ष्ण बनाएं</string>
+    <string name="video_dynamic_contrast_title">डायनैमिक कंट्रास्ट</string>
+    <string name="video_color_title">रंग बेहतर बनाना</string>
 
 
     <string name="perf_title">परफ़ॉर्मेंस प्रोफ़ाइल</string>

@@ -93,6 +93,16 @@
     <string name="color_app_profiles_summary">Slå av fargeforbetring eller vel ein fargemodus for kvar app</string>
     <string name="color_app_profile_default">Følg innstillingane for skjermfargar</string>
     <string name="color_app_profile_off">Av (fargenøyaktig)</string>
+    <string name="category_video_title">Videobilete</string>
+    <string name="video_enhance_title">Videobileteforbetring</string>
+    <string name="video_enhance_summary">MediaTek si ekstra behandling av maskinvaredekoda video. Slå av dersom videokantar ser for lyse ut, støyen er tydeleg eller fargane verkar feil</string>
+    <string name="video_sharpness_title">Skarpleik</string>
+    <string name="video_dynamic_sharpness_title">Dynamisk skarpleik</string>
+    <string name="video_iso_sharpness_title">Støytilpassa skarpleik</string>
+    <string name="video_ultra_resolution_title">Ultrahøg oppløysing</string>
+    <string name="video_ultra_resolution_summary">Gjer video med låg oppløysing skarpare når han blir forstørra</string>
+    <string name="video_dynamic_contrast_title">Dynamisk kontrast</string>
+    <string name="video_color_title">Fargeforbetring</string>
 
     <string name="perf_title">Ytingsprofilar</string>
     <string name="perf_summary">Juster yting og varmepolicyar for MediaTek Dimensity</string>

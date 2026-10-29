@@ -92,7 +92,16 @@
     <string name="color_app_profiles_title">Colores de les aplicaciones</string>
     <string name="color_app_profiles_summary">Desactivar la meyora del color o escoyer un mou de color pa cada aplicación</string>
     <string name="color_app_profile_default">Axustes del color de pantalla</string>
-    <string name="color_app_profile_off">Desactiváu (colores exactos)</string>
+    <string name="category_video_title">Calidá de la imaxe de vídeo</string>
+    <string name="video_enhance_title">Meyora de la imaxe de vídeo</string>
+    <string name="video_enhance_summary">Procesamientu adicional de MediaTek pa vídeos decodificaos per hardware. Desactívalo si los bordes del vídeo paecen demasiáu brillantes, destaca\'l ruíu o los colores nun paecen correutos</string>
+    <string name="video_sharpness_title">Nididez</string>
+    <string name="video_dynamic_sharpness_title">Nididez dinámica</string>
+    <string name="video_iso_sharpness_title">Nididez adaptada al ruíu</string>
+    <string name="video_ultra_resolution_title">Resolución ultra</string>
+    <string name="video_ultra_resolution_summary">Acentuar vídeos de baxa resolución al amplialos</string>
+    <string name="video_dynamic_contrast_title">Contraste dinámicu</string>
+    <string name="video_color_title">Meyora del color</string>
 
     <string name="perf_title">Perfiles de rendimientu</string>
     <string name="perf_summary">Axustar el rendimientu y les polítiques térmiques de MediaTek Dimensity</string>

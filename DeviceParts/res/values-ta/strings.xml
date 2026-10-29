@@ -93,6 +93,16 @@
     <string name="color_app_profiles_summary">வண்ண மேம்பாட்டை முடக்கவும் அல்லது ஒவ்வொரு ஆப்பிற்கும் வண்ணப் பயன்முறையைத் தேர்ந்தெடுக்கவும்</string>
     <string name="color_app_profile_default">திரை வண்ண அமைப்புகள்</string>
     <string name="color_app_profile_off">முடக்கு (துல்லியமான வண்ணங்கள்)</string>
+    <string name="category_video_title">வீடியோ படத் தரம்</string>
+    <string name="video_enhance_title">வீடியோ பட மேம்பாடு</string>
+    <string name="video_enhance_summary">வன்பொருளால் டிகோடு செய்யப்பட்ட வீடியோவுக்கு MediaTek வழங்கும் கூடுதல் செயலாக்கம். வீடியோ விளிம்புகள் மிகையாக ஒளிர்ந்தாலோ, இரைச்சல் தெளிவாகத் தெரிந்தாலோ அல்லது வண்ணங்கள் தவறாக இருந்தாலோ இதை முடக்கவும்</string>
+    <string name="video_sharpness_title">கூர்மை</string>
+    <string name="video_dynamic_sharpness_title">டைனமிக் கூர்மை</string>
+    <string name="video_iso_sharpness_title">இரைச்சலுக்கு ஏற்ப கூர்மை</string>
+    <string name="video_ultra_resolution_title">அதி உயர் தெளிவுத்திறன்</string>
+    <string name="video_ultra_resolution_summary">குறைந்த தெளிவுத்திறன் கொண்ட வீடியோவை பெரிதாக்கும்போது கூர்மையாக்கு</string>
+    <string name="video_dynamic_contrast_title">டைனமிக் மாறுபாடு</string>
+    <string name="video_color_title">வண்ண மேம்பாடு</string>
 
     <string name="perf_title">செயல்திறன் சுயவிவரங்கள்</string>
     <string name="perf_summary">MediaTek Dimensity செயல்திறன் மற்றும் வெப்பக் கொள்கைகளைச் சரிசெய்யவும்</string>

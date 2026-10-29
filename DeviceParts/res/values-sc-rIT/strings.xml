@@ -93,6 +93,16 @@
     <string name="color_app_profiles_summary">Istuta su meglioramentu de su colore o sèbera una modalidade de colore pro cada aplicatzione</string>
     <string name="color_app_profile_default">Impostatziones de su colore de su ischermu</string>
     <string name="color_app_profile_off">Istutadu (colores esatos)</string>
+    <string name="category_video_title">Imàgine de su vìdeu</string>
+    <string name="video_enhance_title">Mioramentu de s\'imàgine de su vìdeu</string>
+    <string name="video_enhance_summary">Elaboratzione in prus de MediaTek de vìdeu decodificadu in hardware. Disativa si is làteros de su vìdeu sunt tropu craros, su rùidu est evidènte o is colores parint isballiados</string>
+    <string name="video_sharpness_title">Nitidesa</string>
+    <string name="video_dynamic_sharpness_title">Nitidesa dinàmica</string>
+    <string name="video_iso_sharpness_title">Nitidesa adata a su rùidu</string>
+    <string name="video_ultra_resolution_title">Risolutzione ultra</string>
+    <string name="video_ultra_resolution_summary">Aumenta sa nitidesa de su vìdeu a bassa risolutzione cando l\'amplias</string>
+    <string name="video_dynamic_contrast_title">Contrastu dinàmicu</string>
+    <string name="video_color_title">Mioramentu de su colore</string>
 
     <string name="perf_title">Profìlos de prestatzione</string>
     <string name="perf_summary">Ajusta is prestatziones de MediaTek Dimensity e is polìticas tèrmicas</string>

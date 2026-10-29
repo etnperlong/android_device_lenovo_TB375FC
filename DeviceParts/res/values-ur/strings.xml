@@ -95,6 +95,16 @@
     <string name="color_app_profiles_summary">رنگ بڑھانے کی سہولت آف کریں یا ہر ایپ کے لیے رنگ موڈ منتخب کریں</string>
     <string name="color_app_profile_default">اسکرین کے رنگ کی ترتیبات</string>
     <string name="color_app_profile_off">آف (درست رنگ)</string>
+    <string name="category_video_title">ویڈیو تصویر</string>
+    <string name="video_enhance_title">ویڈیو تصویر میں بہتری</string>
+    <string name="video_enhance_summary">ہارڈویئر سے ڈی کوڈ کی گئی ویڈیو کی MediaTek کی اضافی پروسیسنگ۔ اگر ویڈیو کے کنارے بہت روشن دکھائی دیں، شور نمایاں ہو یا رنگ غلط لگیں تو اسے آف کریں</string>
+    <string name="video_sharpness_title">شارپنس</string>
+    <string name="video_dynamic_sharpness_title">متحرک شارپنس</string>
+    <string name="video_iso_sharpness_title">شور کے مطابق شارپنس</string>
+    <string name="video_ultra_resolution_title">انتہائی ریزولوشن</string>
+    <string name="video_ultra_resolution_summary">کم ریزولوشن والی ویڈیو کو بڑا کرتے وقت زیادہ شارپ کریں</string>
+    <string name="video_dynamic_contrast_title">متحرک کنٹراسٹ</string>
+    <string name="video_color_title">رنگوں میں بہتری</string>
 
     <string name="perf_title">کارکردگی پروفائلز</string>
     <string name="perf_summary">MediaTek Dimensity کی کارکردگی اور تھرمل پالیسیاں ٹیون کریں</string>

@@ -92,7 +92,16 @@
     <string name="color_app_profiles_title">Programkleure</string>
     <string name="color_app_profiles_summary">Skakel kleurverbetering af of kies ’n kleurmodus vir elke program</string>
     <string name="color_app_profile_default">Skermkleurinstellings</string>
-    <string name="color_app_profile_off">Af (akkurate kleure)</string>
+    <string name="category_video_title">Videobeeld</string>
+    <string name="video_enhance_title">Videobeeldverbetering</string>
+    <string name="video_enhance_summary">MediaTek se ekstra verwerking van hardewaregedekodeerde video. Skakel dit af as videorande te helder lyk, geraas uitstaan of kleure verkeerd lyk</string>
+    <string name="video_sharpness_title">Skerpte</string>
+    <string name="video_dynamic_sharpness_title">Dinamiese skerpte</string>
+    <string name="video_iso_sharpness_title">Geraasaanpasbare skerpte</string>
+    <string name="video_ultra_resolution_title">Ultraresolusie</string>
+    <string name="video_ultra_resolution_summary">Verskerp lae-resolusievideo soos dit vergroot word</string>
+    <string name="video_dynamic_contrast_title">Dinamiese kontras</string>
+    <string name="video_color_title">Kleurverbetering</string>
 
     <string name="perf_title">Werkverrigtingprofiele</string>
     <string name="perf_summary">Stel MediaTek Dimensity-werkverrigting- en termiese beleide in</string>

@@ -92,7 +92,16 @@
     <string name="color_app_profiles_title">App-kleuren</string>
     <string name="color_app_profiles_summary">Schakel kleurverbetering uit of kies een kleurmodus voor elke app</string>
     <string name="color_app_profile_default">Instelling voor schermkleuren volgen</string>
-    <string name="color_app_profile_off">Uit (nauwkeurige kleuren)</string>
+    <string name="category_video_title">Videobeeldkwaliteit</string>
+    <string name="video_enhance_title">Videobeeld verbeteren</string>
+    <string name="video_enhance_summary">Extra verwerking door MediaTek van hardwarematig gedecodeerde video. Schakel dit uit als videoranden te helder lijken, ruis opvalt of kleuren er verkeerd uitzien.</string>
+    <string name="video_sharpness_title">Scherpte</string>
+    <string name="video_dynamic_sharpness_title">Dynamische scherpte</string>
+    <string name="video_iso_sharpness_title">Ruisadaptieve scherpte</string>
+    <string name="video_ultra_resolution_title">Ultrahoge resolutie</string>
+    <string name="video_ultra_resolution_summary">Video met lage resolutie verscherpen terwijl deze wordt vergroot</string>
+    <string name="video_dynamic_contrast_title">Dynamisch contrast</string>
+    <string name="video_color_title">Kleurverbetering</string>
 
     <string name="perf_title">Prestatieprofielen</string>
     <string name="perf_summary">Prestaties en thermisch beleid van MediaTek Dimensity afstellen</string>

@@ -92,7 +92,16 @@
     <string name="color_app_profiles_title">အက်ပ်အရောင်များ</string>
     <string name="color_app_profiles_summary">အက်ပ်တစ်ခုစီအတွက် အရောင်မြှင့်တင်မှုများကို ပိတ်ပါ သို့မဟုတ် အရောင်မုဒ်ကို ရွေးပါ</string>
     <string name="color_app_profile_default">မျက်နှာပြင်အရောင်ဆက်တင်များအတိုင်း လုပ်ဆောင်ပါ</string>
-    <string name="color_app_profile_off">ပိတ် (တိကျသောအရောင်)</string>
+    <string name="category_video_title">ဗီဒီယိုရုပ်ပုံ အရည်အသွေး</string>
+    <string name="video_enhance_title">ဗီဒီယိုရုပ်ပုံ မြှင့်တင်ခြင်း</string>
+    <string name="video_enhance_summary">ဟာ့ဒ်ဝဲဖြင့် ဒီကုဒ်လုပ်ထားသော ဗီဒီယိုကို MediaTek က ထပ်မံလုပ်ဆောင်ခြင်း ဖြစ်သည်။ ဗီဒီယိုအစွန်းများ အလွန်တောက်ပခြင်း၊ ဆူညံမှု ထင်ရှားခြင်း သို့မဟုတ် အရောင်များ မှားယွင်းခြင်းရှိပါက ပိတ်ပါ။</string>
+    <string name="video_sharpness_title">ပြတ်သားမှု</string>
+    <string name="video_dynamic_sharpness_title">ဒိုင်နမစ် ပြတ်သားမှု</string>
+    <string name="video_iso_sharpness_title">ဆူညံမှုနှင့် လိုက်လျောညီထွေ ပြတ်သားမှု</string>
+    <string name="video_ultra_resolution_title">အလွန်မြင့်မားသော ရုပ်ထွက်</string>
+    <string name="video_ultra_resolution_summary">ရုပ်ထွက်နိမ့်သော ဗီဒီယိုကို ချဲ့သည့်အခါ ပြတ်သားအောင်လုပ်ပါ</string>
+    <string name="video_dynamic_contrast_title">ဒိုင်နမစ် အလင်းအမှောင်ကွာခြားမှု</string>
+    <string name="video_color_title">အရောင်မြှင့်တင်ခြင်း</string>
 
     <string name="perf_title">စွမ်းဆောင်ရည်ပရိုဖိုင်များ</string>
     <string name="perf_summary">MediaTek Dimensity ၏ စွမ်းဆောင်ရည်နှင့် အပူထိန်းချုပ်မှုမူဝါဒများကို ချိန်ညှိပါ</string>

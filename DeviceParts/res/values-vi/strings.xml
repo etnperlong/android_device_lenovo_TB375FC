@@ -93,6 +93,16 @@
     <string name="color_app_profiles_summary">Tắt tính năng tăng cường màu hoặc chọn chế độ màu cho từng ứng dụng</string>
     <string name="color_app_profile_default">Cài đặt màu màn hình</string>
     <string name="color_app_profile_off">Tắt (màu chính xác)</string>
+    <string name="category_video_title">Hình ảnh video</string>
+    <string name="video_enhance_title">Tăng cường hình ảnh video</string>
+    <string name="video_enhance_summary">Xử lý bổ sung của MediaTek đối với video được giải mã bằng phần cứng. Hãy tắt tính năng này nếu viền video quá sáng, nhiễu quá rõ hoặc màu sắc không chính xác</string>
+    <string name="video_sharpness_title">Độ sắc nét</string>
+    <string name="video_dynamic_sharpness_title">Độ sắc nét động</string>
+    <string name="video_iso_sharpness_title">Độ sắc nét thích ứng với nhiễu</string>
+    <string name="video_ultra_resolution_title">Độ phân giải siêu cao</string>
+    <string name="video_ultra_resolution_summary">Làm sắc nét video độ phân giải thấp khi phóng to</string>
+    <string name="video_dynamic_contrast_title">Độ tương phản động</string>
+    <string name="video_color_title">Tăng cường màu sắc</string>
 
     <string name="perf_title">Cấu hình hiệu năng</string>
     <string name="perf_summary">Điều chỉnh hiệu năng và chính sách nhiệt của MediaTek Dimensity</string>

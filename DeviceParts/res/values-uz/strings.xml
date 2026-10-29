@@ -95,6 +95,16 @@
     <string name="color_app_profiles_summary">Rang yaxshilashni oʻchiring yoki har bir ilova uchun rang rejimini tanlang</string>
     <string name="color_app_profile_default">Ekran rangi sozlamalari</string>
     <string name="color_app_profile_off">Oʻchiq (aniq ranglar)</string>
+    <string name="category_video_title">Video tasviri</string>
+    <string name="video_enhance_title">Video tasvirini yaxshilash</string>
+    <string name="video_enhance_summary">MediaTek tomonidan apparatda dekodlangan videoga qoʻshimcha ishlov berish. Video chetlari juda yorqin koʻrinsa, shovqin sezilsa yoki ranglar notoʻgʻri koʻrinsa, uni oʻchiring</string>
+    <string name="video_sharpness_title">Oʻtkirlik</string>
+    <string name="video_dynamic_sharpness_title">Dinamik oʻtkirlik</string>
+    <string name="video_iso_sharpness_title">Shovqinga mos oʻtkirlik</string>
+    <string name="video_ultra_resolution_title">Ultra aniqlik</string>
+    <string name="video_ultra_resolution_summary">Past aniqlikdagi videoni kattalashtirganda oʻtkirligini oshirish</string>
+    <string name="video_dynamic_contrast_title">Dinamik kontrast</string>
+    <string name="video_color_title">Rangni yaxshilash</string>
 
     <string name="perf_title">Unumdorlik profillari</string>
     <string name="perf_summary">MediaTek Dimensity unumdorligi va harorat siyosatini sozlash</string>

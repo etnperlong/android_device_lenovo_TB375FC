@@ -92,7 +92,16 @@
     <string name="color_app_profiles_title">এপৰ ৰং</string>
     <string name="color_app_profiles_summary">ৰঙৰ উন্নতি অফ কৰক বা প্ৰতিটো এপৰ বাবে ৰঙৰ মোড বাছনি কৰক</string>
     <string name="color_app_profile_default">স্ক্ৰীণৰ ৰঙৰ ছেটিং</string>
-    <string name="color_app_profile_off">অফ (শুদ্ধ ৰং)</string>
+    <string name="category_video_title">ভিডিঅ’ৰ ছবিৰ গুণগত মান</string>
+    <string name="video_enhance_title">ভিডিঅ’ৰ ছবি উন্নত কৰা</string>
+    <string name="video_enhance_summary">হাৰ্ডৱেৰে ডিকোড কৰা ভিডিঅ’ত MediaTek-ৰ অতিৰিক্ত প্ৰক্ৰিয়াকৰণ। ভিডিঅ’ৰ কাষবোৰ বেছি উজ্জ্বল দেখালে, নয়জ স্পষ্ট হ’লে বা ৰং ভুল যেন লাগিলে ইয়াক অফ কৰক</string>
+    <string name="video_sharpness_title">ধাৰালতা</string>
+    <string name="video_dynamic_sharpness_title">গতিশীল ধাৰালতা</string>
+    <string name="video_iso_sharpness_title">নয়জ-অনুকূল ধাৰালতা</string>
+    <string name="video_ultra_resolution_title">অতি উচ্চ ৰিজ’লিউশ্যন</string>
+    <string name="video_ultra_resolution_summary">কম ৰিজ’লিউশ্যনৰ ভিডিঅ’ ডাঙৰ কৰাৰ সময়ত ধাৰাল কৰক</string>
+    <string name="video_dynamic_contrast_title">গতিশীল কনট্ৰাষ্ট</string>
+    <string name="video_color_title">ৰঙৰ উন্নতি</string>
 
     <string name="perf_title">কাৰ্যক্ষমতাৰ প্ৰ’ফাইল</string>
     <string name="perf_summary">MediaTek Dimensity-ৰ কাৰ্যক্ষমতা আৰু তাপীয় নীতি মিলাওক</string>

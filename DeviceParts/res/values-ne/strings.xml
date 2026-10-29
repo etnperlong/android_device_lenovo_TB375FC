@@ -92,7 +92,16 @@
     <string name="color_app_profiles_title">एपका रङ</string>
     <string name="color_app_profiles_summary">हरेक एपका लागि रङ इन्ह्यान्समेन्ट अफ गर्नुहोस् वा रङ मोड छान्नुहोस्</string>
     <string name="color_app_profile_default">स्क्रिनका रङ सेटिङअनुसार</string>
-    <string name="color_app_profile_off">अफ (रङ सही)</string>
+    <string name="category_video_title">भिडियो चित्र गुणस्तर</string>
+    <string name="video_enhance_title">भिडियो चित्र इन्ह्यान्समेन्ट</string>
+    <string name="video_enhance_summary">हार्डवेयरले डिकोड गरेको भिडियोमा MediaTek को अतिरिक्त प्रशोधन। भिडियोका किनाराहरू धेरै उज्यालो देखिएमा, न्वाइज प्रस्ट भएमा वा रङ गलत देखिएमा यसलाई अफ गर्नुहोस्।</string>
+    <string name="video_sharpness_title">शार्पनेस</string>
+    <string name="video_dynamic_sharpness_title">डाइनामिक शार्पनेस</string>
+    <string name="video_iso_sharpness_title">न्वाइजअनुसारको शार्पनेस</string>
+    <string name="video_ultra_resolution_title">अल्ट्रा रिजोल्युसन</string>
+    <string name="video_ultra_resolution_summary">कम रिजोल्युसनको भिडियोलाई ठूलो गर्दा शार्प बनाउनुहोस्</string>
+    <string name="video_dynamic_contrast_title">डाइनामिक कन्ट्रास्ट</string>
+    <string name="video_color_title">रङ इन्ह्यान्समेन्ट</string>
 
     <string name="perf_title">कार्यसम्पादन प्रोफाइल</string>
     <string name="perf_summary">MediaTek Dimensity को कार्यसम्पादन र थर्मल नीतिहरू ट्युन गर्नुहोस्</string>

@@ -95,6 +95,16 @@
     <string name="color_app_profiles_summary">Lülita värviparandus välja või vali igale rakendusele värvirežiim</string>
     <string name="color_app_profile_default">Ekraani värviseaded</string>
     <string name="color_app_profile_off">Väljas (täpsed värvid)</string>
+    <string name="category_video_title">Videopilt</string>
+    <string name="video_enhance_title">Videopildi täiustamine</string>
+    <string name="video_enhance_summary">MediaTeki täiendav töötlus riistvaraliselt dekodeeritud videole. Lülita see välja, kui video servad paistavad liiga heledad, müra on märgatav või värvid näivad valed</string>
+    <string name="video_sharpness_title">Teravus</string>
+    <string name="video_dynamic_sharpness_title">Dünaamiline teravus</string>
+    <string name="video_iso_sharpness_title">Müraga kohanduv teravus</string>
+    <string name="video_ultra_resolution_title">Ülikõrge eraldusvõime</string>
+    <string name="video_ultra_resolution_summary">Teravusta madala eraldusvõimega videot selle suurendamisel</string>
+    <string name="video_dynamic_contrast_title">Dünaamiline kontrast</string>
+    <string name="video_color_title">Värvide täiustamine</string>
 
     <string name="perf_title">Jõudlusprofiilid</string>
     <string name="perf_summary">Häälesta MediaTek Dimensity jõudlust ja termorežiime</string>

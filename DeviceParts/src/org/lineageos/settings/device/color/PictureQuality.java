@@ -23,6 +23,7 @@ import android.util.Log;
  *  57 Result setGammaIndex(int index, int step)
  *  62 Result setRGBGain(int r, int g, int b, int step)
  *  68 Result enableChameleon(boolean enable, int step)
+ *  77 Result setFeatureSwitch(PQFeatureID feature, int value)   (PQFeatureID is an int)
  *  87 Result setPQIndex(int level, int scenario, int tuningMode, int index, int step)
  *
  * A fixed-size array is written like a regular one, length first, on every dimension
@@ -41,6 +42,7 @@ final class PictureQuality {
     private static final int TRANSACTION_SET_GAMMA_INDEX = 57;
     private static final int TRANSACTION_SET_RGB_GAIN = 62;
     private static final int TRANSACTION_ENABLE_CHAMELEON = 68;
+    private static final int TRANSACTION_SET_FEATURE_SWITCH = 77;
     private static final int TRANSACTION_SET_PQ_INDEX = 87;
 
     /** setPQIndex scenario and tuning mode libjni_pq.so passes for every index. */
@@ -100,6 +102,14 @@ final class PictureQuality {
         data.writeBoolean(enable);
         data.writeInt(step);
         return call(TRANSACTION_ENABLE_CHAMELEON, "enableChameleon", data);
+    }
+
+    /** feature is a PQFeatureID; value 1 turns it on and 0 off, as libjni_pq.so sends. */
+    boolean setFeatureSwitch(int feature, int value) {
+        final Parcel data = newCall();
+        data.writeInt(feature);
+        data.writeInt(value);
+        return call(TRANSACTION_SET_FEATURE_SWITCH, "setFeatureSwitch(" + feature + ")", data);
     }
 
     boolean setPqIndex(int index, int level, int step) {

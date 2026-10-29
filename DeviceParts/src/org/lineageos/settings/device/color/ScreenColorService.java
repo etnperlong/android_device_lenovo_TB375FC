@@ -38,11 +38,14 @@ import java.util.Arrays;
  * - Color temperature (stock mtk_color_temperature): RGB gains.
  * - Adapt to ambient light (stock auto_color_temperature): enableChameleon.
  * - Saturation, contrast and sharpness: MediaTek picture indexes, as MiraVision sets them.
+ * - Video picture enhancements (MDP/MML processing of hardware-decoded video): setFeatureSwitch,
+ *   as the enable methods of com.mediatek.pq.PictureQuality do. Stock turns only ultra
+ *   resolution off (ZuiDisplayService, "video quality enhance" off).
  *
  * While an app is in front (screen on and unlocked), its app color setting replaces the mode
- * or turns the enhancements off. Only what changed is sent; everything is sent again after the
- * service restarts. Stock's step arguments are kept: libjni_pq.so's default "on" step (0) for
- * gamma and Chameleon, 1 elsewhere.
+ * or turns the color enhancements off; the video enhancements stay as set. Only what changed is
+ * sent; everything is sent again after the service restarts. Stock's step arguments are kept:
+ * libjni_pq.so's default "on" step (0) for gamma and Chameleon, 1 elsewhere.
  */
 public class ScreenColorService extends Service {
     private static final String TAG = "ScreenColor";
@@ -144,6 +147,12 @@ public class ScreenColorService extends Service {
         }
         for (ColorSettings.Adjustment adjustment : ColorSettings.ADJUSTMENTS) {
             cr.registerContentObserver(Settings.Secure.getUriFor(adjustment.key), false,
+                    mSettingsObserver);
+        }
+        cr.registerContentObserver(Settings.Secure.getUriFor(ColorSettings.KEY_VIDEO_ENHANCE),
+                false, mSettingsObserver);
+        for (ColorSettings.VideoFeature feature : ColorSettings.VIDEO_FEATURES) {
+            cr.registerContentObserver(Settings.Secure.getUriFor(feature.key), false,
                     mSettingsObserver);
         }
 
@@ -256,6 +265,13 @@ public class ScreenColorService extends Service {
                         level == ColorSettings.Adjustment.LEVEL_DEFAULT
                                 ? adjustment.defaultLevel : level,
                         STEP);
+            }
+        }
+        for (int i = 0; i < ColorSettings.VIDEO_FEATURES.length; i++) {
+            if (previous == null || previous.video[i] != target.video[i]) {
+                for (int feature : ColorSettings.VIDEO_FEATURES[i].featureIds) {
+                    ok &= mHal.setFeatureSwitch(feature, target.video[i] ? 1 : 0);
+                }
             }
         }
         return ok;

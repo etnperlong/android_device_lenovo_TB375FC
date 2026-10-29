@@ -92,7 +92,16 @@
     <string name="color_app_profiles_title">অ্যাপের রং</string>
     <string name="color_app_profiles_summary">রঙের এনহ্যান্সমেন্ট বন্ধ করুন বা প্রতিটি অ্যাপের জন্য রঙের মোড বেছে নিন</string>
     <string name="color_app_profile_default">স্ক্রিনের রঙের সেটিং</string>
-    <string name="color_app_profile_off">বন্ধ (নির্ভুল রং)</string>
+    <string name="category_video_title">ভিডিও ছবির গুণমান</string>
+    <string name="video_enhance_title">ভিডিও ছবির এনহ্যান্সমেন্ট</string>
+    <string name="video_enhance_summary">হার্ডওয়্যারে ডিকোড করা ভিডিওতে MediaTek-এর অতিরিক্ত প্রসেসিং। ভিডিওর ধার খুব উজ্জ্বল দেখালে, নয়েজ স্পষ্ট হলে বা রং ভুল দেখালে এটি বন্ধ করুন</string>
+    <string name="video_sharpness_title">শার্পনেস</string>
+    <string name="video_dynamic_sharpness_title">ডায়নামিক শার্পনেস</string>
+    <string name="video_iso_sharpness_title">নয়েজ-অ্যাডাপ্টিভ শার্পনেস</string>
+    <string name="video_ultra_resolution_title">আল্ট্রা রেজোলিউশন</string>
+    <string name="video_ultra_resolution_summary">কম রেজোলিউশনের ভিডিও বড় করার সময় শার্প করুন</string>
+    <string name="video_dynamic_contrast_title">ডায়নামিক কনট্রাস্ট</string>
+    <string name="video_color_title">রঙের এনহ্যান্সমেন্ট</string>
 
     <string name="perf_title">পারফরম্যান্স প্রোফাইল</string>
     <string name="perf_summary">MediaTek Dimensity-এর পারফরম্যান্স ও থার্মাল পলিসি টিউন করুন</string>

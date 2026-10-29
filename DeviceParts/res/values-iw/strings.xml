@@ -94,6 +94,16 @@
     <string name="color_app_profiles_summary">כיבוי שיפור צבע או בחירת מצב צבע לכל אפליקציה</string>
     <string name="color_app_profile_default">הגדרות צבע המסך</string>
     <string name="color_app_profile_off">כבוי (צבעים מדויקים)</string>
+    <string name="category_video_title">איכות תמונה של וידאו</string>
+    <string name="video_enhance_title">שיפור תמונת וידאו</string>
+    <string name="video_enhance_summary">עיבוד נוסף של MediaTek לווידאו שפוענח בחומרה. יש לכבות אם קצוות הווידאו בהירים מדי, הרעש בולט או שהצבעים נראים שגויים</string>
+    <string name="video_sharpness_title">חדות</string>
+    <string name="video_dynamic_sharpness_title">חדות דינמית</string>
+    <string name="video_iso_sharpness_title">חדות מותאמת לרעש</string>
+    <string name="video_ultra_resolution_title">רזולוציה אולטרה</string>
+    <string name="video_ultra_resolution_summary">חידוד וידאו ברזולוציה נמוכה בעת הגדלתו</string>
+    <string name="video_dynamic_contrast_title">ניגודיות דינמית</string>
+    <string name="video_color_title">שיפור צבע</string>
 
     <string name="perf_title">פרופילי ביצועים</string>
     <string name="perf_summary">כוונון הביצועים ומדיניות החום של MediaTek Dimensity</string>

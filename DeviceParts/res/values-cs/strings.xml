@@ -94,7 +94,16 @@
     <string name="color_app_profiles_title">Barvy aplikací</string>
     <string name="color_app_profiles_summary">Vypnout vylepšení barev nebo vybrat barevný režim pro každou aplikaci</string>
     <string name="color_app_profile_default">Nastavení barev obrazovky</string>
-    <string name="color_app_profile_off">Vypnuto (přesné barvy)</string>
+    <string name="category_video_title">Kvalita obrazu videa</string>
+    <string name="video_enhance_title">Vylepšení obrazu videa</string>
+    <string name="video_enhance_summary">Dodatečné zpracování videa dekódovaného hardwarem od společnosti MediaTek. Vypněte ho, pokud jsou okraje videa příliš světlé, vyniká šum nebo barvy vypadají nesprávně</string>
+    <string name="video_sharpness_title">Ostrost</string>
+    <string name="video_dynamic_sharpness_title">Dynamická ostrost</string>
+    <string name="video_iso_sharpness_title">Ostrost přizpůsobená šumu</string>
+    <string name="video_ultra_resolution_title">Ultra rozlišení</string>
+    <string name="video_ultra_resolution_summary">Zostřit video s nízkým rozlišením při jeho zvětšování</string>
+    <string name="video_dynamic_contrast_title">Dynamický kontrast</string>
+    <string name="video_color_title">Vylepšení barev</string>
 
     <string name="perf_title">Profily výkonu</string>
     <string name="perf_summary">Upravit výkon MediaTek Dimensity a teplotní zásady</string>

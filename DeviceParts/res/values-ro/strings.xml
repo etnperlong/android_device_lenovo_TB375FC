@@ -93,6 +93,16 @@
     <string name="color_app_profiles_summary">Dezactivează îmbunătățirea culorilor sau alege un mod de culoare pentru fiecare aplicație</string>
     <string name="color_app_profile_default">Setările de culoare ale ecranului</string>
     <string name="color_app_profile_off">Dezactivat (culori precise)</string>
+    <string name="category_video_title">Imagine video</string>
+    <string name="video_enhance_title">Îmbunătățire imagine video</string>
+    <string name="video_enhance_summary">Procesare suplimentară MediaTek pentru videoclipurile decodate hardware. Dezactivează dacă marginile videoclipului par prea luminoase, zgomotul este evident sau culorile par greșite</string>
+    <string name="video_sharpness_title">Claritate</string>
+    <string name="video_dynamic_sharpness_title">Claritate dinamică</string>
+    <string name="video_iso_sharpness_title">Claritate adaptivă la zgomot</string>
+    <string name="video_ultra_resolution_title">Rezoluție ultra</string>
+    <string name="video_ultra_resolution_summary">Clarifică videoclipurile cu rezoluție mică pe măsură ce sunt mărite</string>
+    <string name="video_dynamic_contrast_title">Contrast dinamic</string>
+    <string name="video_color_title">Îmbunătățire culoare</string>
 
     <string name="perf_title">Profiluri de performanță</string>
     <string name="perf_summary">Ajustează performanța MediaTek Dimensity și politicile termice</string>

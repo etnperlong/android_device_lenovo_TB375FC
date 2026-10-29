@@ -91,6 +91,16 @@
     <string name="color_app_profiles_summary">Անջատել գունային բարելավումը կամ ընտրել գունային ռեժիմ յուրաքանչյուր հավելվածի համար</string>
     <string name="color_app_profile_default">Էկրանի գույնի կարգավորումներ</string>
     <string name="color_app_profile_off">Անջատված (ճշգրիտ գույներ)</string>
+    <string name="category_video_title">Տեսանյութի պատկերի որակ</string>
+    <string name="video_enhance_title">Տեսանյութի պատկերի բարելավում</string>
+    <string name="video_enhance_summary">MediaTek-ի կողմից ապարատային եղանակով ապակոդավորված տեսանյութի լրացուցիչ մշակում։ Անջատեք, եթե տեսանյութի եզրերը չափազանց պայծառ են, աղմուկը նկատելի է կամ գույները սխալ են</string>
+    <string name="video_sharpness_title">Սրություն</string>
+    <string name="video_dynamic_sharpness_title">Դինամիկ սրություն</string>
+    <string name="video_iso_sharpness_title">Աղմուկին հարմարեցվող սրություն</string>
+    <string name="video_ultra_resolution_title">Գերբարձր լուծաչափ</string>
+    <string name="video_ultra_resolution_summary">Մեծացնելիս սրել ցածր լուծաչափով տեսանյութը</string>
+    <string name="video_dynamic_contrast_title">Դինամիկ հակադրություն</string>
+    <string name="video_color_title">Գույնի բարելավում</string>
     <string name="perf_title">Արտադրողականության պրոֆիլներ</string>
     <string name="perf_summary">Կարգավորել MediaTek Dimensity-ի արտադրողականությունն ու ջերմային քաղաքականությունը</string>
     <string name="perf_enabled_title">Կարգավորել արտադրողականությունն ըստ հավելվածի</string>

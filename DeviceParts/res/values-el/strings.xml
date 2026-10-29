@@ -95,6 +95,16 @@
     <string name="color_app_profiles_summary">Απενεργοποιήστε τη βελτίωση χρώματος ή επιλέξτε λειτουργία χρώματος για κάθε εφαρμογή</string>
     <string name="color_app_profile_default">Ρυθμίσεις χρώματος οθόνης</string>
     <string name="color_app_profile_off">Ανενεργό (ακριβή χρώματα)</string>
+    <string name="category_video_title">Εικόνα βίντεο</string>
+    <string name="video_enhance_title">Βελτίωση εικόνας βίντεο</string>
+    <string name="video_enhance_summary">Πρόσθετη επεξεργασία βίντεο που αποκωδικοποιείται από το υλικό μέσω MediaTek. Απενεργοποιήστε την αν οι άκρες του βίντεο φαίνονται πολύ φωτεινές, ο θόρυβος είναι έντονος ή τα χρώματα φαίνονται λανθασμένα</string>
+    <string name="video_sharpness_title">Ευκρίνεια</string>
+    <string name="video_dynamic_sharpness_title">Δυναμική ευκρίνεια</string>
+    <string name="video_iso_sharpness_title">Ευκρίνεια προσαρμοσμένη στον θόρυβο</string>
+    <string name="video_ultra_resolution_title">Υπερυψηλή ανάλυση</string>
+    <string name="video_ultra_resolution_summary">Όξυνση βίντεο χαμηλής ανάλυσης κατά τη μεγέθυνσή του</string>
+    <string name="video_dynamic_contrast_title">Δυναμική αντίθεση</string>
+    <string name="video_color_title">Βελτίωση χρωμάτων</string>
 
     <string name="perf_title">Προφίλ απόδοσης</string>
     <string name="perf_summary">Προσαρμογή της απόδοσης MediaTek Dimensity και των πολιτικών θερμότητας</string>

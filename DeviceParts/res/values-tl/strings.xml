@@ -95,6 +95,16 @@
     <string name="color_app_profiles_summary">I-off ang color enhancement o pumili ng color mode para sa bawat app</string>
     <string name="color_app_profile_default">Mga setting ng kulay ng screen</string>
     <string name="color_app_profile_off">Naka-off (tumpak na mga kulay)</string>
+    <string name="category_video_title">Larawan ng video</string>
+    <string name="video_enhance_title">Pagpapahusay ng larawan ng video</string>
+    <string name="video_enhance_summary">Karagdagang pagproseso ng MediaTek para sa video na na-decode ng hardware. I-off ito kung masyadong maliwanag ang mga gilid ng video, kapansin-pansin ang ingay, o mali ang mga kulay</string>
+    <string name="video_sharpness_title">Talas</string>
+    <string name="video_dynamic_sharpness_title">Dinamikong talas</string>
+    <string name="video_iso_sharpness_title">Talas na umaangkop sa ingay</string>
+    <string name="video_ultra_resolution_title">Napakataas na resolusyon</string>
+    <string name="video_ultra_resolution_summary">Patalasin ang video na mababa ang resolusyon habang pinalalaki</string>
+    <string name="video_dynamic_contrast_title">Dinamikong contrast</string>
+    <string name="video_color_title">Pagpapahusay ng kulay</string>
 
     <string name="perf_title">Mga performance profile</string>
     <string name="perf_summary">Isaayos ang performance at mga thermal policy ng MediaTek Dimensity</string>

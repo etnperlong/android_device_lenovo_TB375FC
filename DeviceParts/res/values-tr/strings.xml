@@ -95,6 +95,16 @@
     <string name="color_app_profiles_summary">Renk iyileştirmeyi kapatın veya her uygulama için bir renk modu seçin</string>
     <string name="color_app_profile_default">Ekran rengi ayarları</string>
     <string name="color_app_profile_off">Kapalı (doğru renkler)</string>
+    <string name="category_video_title">Video görüntüsü</string>
+    <string name="video_enhance_title">Video görüntüsü iyileştirme</string>
+    <string name="video_enhance_summary">MediaTek’in donanım kod çözmeli videolara uyguladığı ek işlemdir. Video kenarları fazla parlak görünüyorsa, parazit belirginse veya renkler yanlış görünüyorsa kapatın</string>
+    <string name="video_sharpness_title">Keskinlik</string>
+    <string name="video_dynamic_sharpness_title">Dinamik keskinlik</string>
+    <string name="video_iso_sharpness_title">Parazite uyumlu keskinlik</string>
+    <string name="video_ultra_resolution_title">Ultra çözünürlük</string>
+    <string name="video_ultra_resolution_summary">Düşük çözünürlüklü videoyu büyütürken keskinleştirin</string>
+    <string name="video_dynamic_contrast_title">Dinamik kontrast</string>
+    <string name="video_color_title">Renk iyileştirme</string>
 
     <string name="perf_title">Performans profilleri</string>
     <string name="perf_summary">MediaTek Dimensity performansını ve termal politikalarını ayarla</string>

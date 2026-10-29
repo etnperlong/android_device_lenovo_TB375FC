@@ -95,6 +95,16 @@
     <string name="color_app_profiles_summary">Çaktivizo përmirësimin e ngjyrave ose zgjidh mënyrën e ngjyrave për çdo aplikacion</string>
     <string name="color_app_profile_default">Cilësimet e ngjyrave të ekranit</string>
     <string name="color_app_profile_off">Joaktive (ngjyra të sakta)</string>
+    <string name="category_video_title">Figura e videos</string>
+    <string name="video_enhance_title">Përmirësimi i figurës së videos</string>
+    <string name="video_enhance_summary">Përpunim shtesë nga MediaTek i videos të dekoduar nga hardueri. Çaktivizoje nëse skajet e videos duken shumë të ndritshme, zhurma bie në sy ose ngjyrat duken të pasakta</string>
+    <string name="video_sharpness_title">Mprehtësia</string>
+    <string name="video_dynamic_sharpness_title">Mprehtësi dinamike</string>
+    <string name="video_iso_sharpness_title">Mprehtësi e përshtatur ndaj zhurmës</string>
+    <string name="video_ultra_resolution_title">Rezolucion ultra</string>
+    <string name="video_ultra_resolution_summary">Mprehe videon me rezolucion të ulët gjatë zmadhimit</string>
+    <string name="video_dynamic_contrast_title">Kontrast dinamik</string>
+    <string name="video_color_title">Përmirësimi i ngjyrave</string>
 
     <string name="perf_title">Profilet e performancës</string>
     <string name="perf_summary">Përshtat performancën dhe politikat termike të MediaTek Dimensity</string>

@@ -94,7 +94,16 @@
     <string name="color_app_profiles_title">Цветове за приложения</string>
     <string name="color_app_profiles_summary">Изключване на подобряването на цветовете или избор на цветови режим за всяко приложение</string>
     <string name="color_app_profile_default">Настройки на цветовете на екрана</string>
-    <string name="color_app_profile_off">Изключено (точни цветове)</string>
+    <string name="category_video_title">Качество на картината на видеото</string>
+    <string name="video_enhance_title">Подобряване на картината на видеото</string>
+    <string name="video_enhance_summary">Допълнителна обработка от MediaTek на видео, декодирано с хардуер. Изключете я, ако краищата на видеото изглеждат твърде ярки, шумът изпъква или цветовете изглеждат неправилни</string>
+    <string name="video_sharpness_title">Рязкост</string>
+    <string name="video_dynamic_sharpness_title">Динамична рязкост</string>
+    <string name="video_iso_sharpness_title">Адаптивна към шума рязкост</string>
+    <string name="video_ultra_resolution_title">Ултра разделителна способност</string>
+    <string name="video_ultra_resolution_summary">Изостряне на видео с ниска разделителна способност при увеличаване</string>
+    <string name="video_dynamic_contrast_title">Динамичен контраст</string>
+    <string name="video_color_title">Подобряване на цветовете</string>
 
     <string name="perf_title">Профили на производителността</string>
     <string name="perf_summary">Настройване на производителността на MediaTek Dimensity и топлинните правила</string>

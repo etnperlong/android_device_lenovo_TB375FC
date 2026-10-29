@@ -94,7 +94,16 @@
     <string name="color_app_profiles_title">Lietotņu krāsas</string>
     <string name="color_app_profiles_summary">Izslēdziet krāsu uzlabošanu vai izvēlieties krāsu režīmu katrai lietotnei</string>
     <string name="color_app_profile_default">Ekrāna krāsu iestatījumi</string>
-    <string name="color_app_profile_off">Izslēgts (precīzas krāsas)</string>
+    <string name="category_video_title">Video attēla kvalitāte</string>
+    <string name="video_enhance_title">Video attēla uzlabošana</string>
+    <string name="video_enhance_summary">MediaTek papildu apstrāde aparatūrā dekodētam video. Izslēdziet, ja video malas ir pārāk gaišas, izceļas troksnis vai krāsas izskatās nepareizas.</string>
+    <string name="video_sharpness_title">Asums</string>
+    <string name="video_dynamic_sharpness_title">Dinamiskais asums</string>
+    <string name="video_iso_sharpness_title">Troksnim pielāgots asums</string>
+    <string name="video_ultra_resolution_title">Īpaši augsta izšķirtspēja</string>
+    <string name="video_ultra_resolution_summary">Palielinot zemas izšķirtspējas video, padarīt to asāku</string>
+    <string name="video_dynamic_contrast_title">Dinamiskais kontrasts</string>
+    <string name="video_color_title">Krāsu uzlabošana</string>
 
     <string name="perf_title">Veiktspējas profili</string>
     <string name="perf_summary">Pielāgot MediaTek Dimensity veiktspēju un termiskās politikas</string>

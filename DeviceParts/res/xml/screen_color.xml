@@ -4,6 +4,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:title="@string/screen_color_title">
     <org.lineageos.settings.device.color.ColorModePreference
         android:key="color_mode" />
@@ -61,5 +62,54 @@
                 android:targetPackage="org.lineageos.settings.device"
                 android:targetClass="org.lineageos.settings.device.color.ScreenColorAppsActivity" />
         </Preference>
+    </PreferenceCategory>
+
+    <!-- The single switches fold under "Advanced" until expanded. -->
+    <PreferenceCategory
+        android:key="category_video"
+        android:title="@string/category_video_title"
+        app:initialExpandedChildrenCount="1">
+        <SwitchPreferenceCompat
+            android:key="video_enhance"
+            android:title="@string/video_enhance_title"
+            android:summary="@string/video_enhance_summary"
+            android:persistent="false" />
+
+        <SwitchPreferenceCompat
+            android:key="video_sharpness"
+            android:dependency="video_enhance"
+            android:title="@string/video_sharpness_title"
+            android:persistent="false" />
+
+        <SwitchPreferenceCompat
+            android:key="video_dynamic_sharpness"
+            android:dependency="video_enhance"
+            android:title="@string/video_dynamic_sharpness_title"
+            android:persistent="false" />
+
+        <SwitchPreferenceCompat
+            android:key="video_iso_sharpness"
+            android:dependency="video_enhance"
+            android:title="@string/video_iso_sharpness_title"
+            android:persistent="false" />
+
+        <SwitchPreferenceCompat
+            android:key="video_ultra_resolution"
+            android:dependency="video_enhance"
+            android:title="@string/video_ultra_resolution_title"
+            android:summary="@string/video_ultra_resolution_summary"
+            android:persistent="false" />
+
+        <SwitchPreferenceCompat
+            android:key="video_dynamic_contrast"
+            android:dependency="video_enhance"
+            android:title="@string/video_dynamic_contrast_title"
+            android:persistent="false" />
+
+        <SwitchPreferenceCompat
+            android:key="video_color"
+            android:dependency="video_enhance"
+            android:title="@string/video_color_title"
+            android:persistent="false" />
     </PreferenceCategory>
 </PreferenceScreen>

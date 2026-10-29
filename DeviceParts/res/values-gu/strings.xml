@@ -92,6 +92,16 @@
     <string name="color_app_profiles_summary">રંગ સુધારણા બંધ કરો અથવા દરેક ઍપ માટે રંગ મોડ પસંદ કરો</string>
     <string name="color_app_profile_default">સ્ક્રીનના રંગ સેટિંગ</string>
     <string name="color_app_profile_off">બંધ (ચોક્કસ રંગો)</string>
+    <string name="category_video_title">વિડિયો ચિત્ર</string>
+    <string name="video_enhance_title">વિડિયો ચિત્ર સુધારણા</string>
+    <string name="video_enhance_summary">MediaTek દ્વારા હાર્ડવેરથી ડિકોડ થયેલા વિડિયોનું વધારાનું પ્રોસેસિંગ. વિડિયોની કિનારીઓ વધુ સફેદ દેખાય, નોઇઝ વધુ દેખાય અથવા રંગો ખોટા લાગે તો તેને બંધ કરો</string>
+    <string name="video_sharpness_title">તીક્ષ્ણતા</string>
+    <string name="video_dynamic_sharpness_title">ડાયનેમિક તીક્ષ્ણતા</string>
+    <string name="video_iso_sharpness_title">નોઇઝ-અનુકૂલ તીક્ષ્ણતા</string>
+    <string name="video_ultra_resolution_title">અલ્ટ્રા રિઝોલ્યૂશન</string>
+    <string name="video_ultra_resolution_summary">ઓછા રિઝોલ્યૂશનના વિડિયોને મોટો કરતી વખતે તીક્ષ્ણ બનાવો</string>
+    <string name="video_dynamic_contrast_title">ડાયનેમિક કૉન્ટ્રાસ્ટ</string>
+    <string name="video_color_title">રંગ સુધારણા</string>
 
 
     <string name="perf_title">પર્ફોર્મન્સ પ્રોફાઇલ</string>

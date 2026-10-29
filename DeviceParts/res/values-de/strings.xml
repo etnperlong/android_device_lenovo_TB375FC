@@ -93,6 +93,16 @@
     <string name="color_app_profiles_summary">Farbverbesserung ausschalten oder für jede App einen Farbmodus auswählen</string>
     <string name="color_app_profile_default">Bildschirmfarbeinstellungen</string>
     <string name="color_app_profile_off">Aus (farbgetreu)</string>
+    <string name="category_video_title">Videobild</string>
+    <string name="video_enhance_title">Video-Bildverbesserung</string>
+    <string name="video_enhance_summary">Zusätzliche Verarbeitung von hardwaredekodierten Videos durch MediaTek. Deaktiviere sie, wenn Videokanten zu hell wirken, Rauschen auffällt oder Farben falsch aussehen</string>
+    <string name="video_sharpness_title">Schärfe</string>
+    <string name="video_dynamic_sharpness_title">Dynamische Schärfe</string>
+    <string name="video_iso_sharpness_title">Rauschadaptive Schärfe</string>
+    <string name="video_ultra_resolution_title">Ultraauflösung</string>
+    <string name="video_ultra_resolution_summary">Videos mit niedriger Auflösung beim Vergrößern schärfen</string>
+    <string name="video_dynamic_contrast_title">Dynamischer Kontrast</string>
+    <string name="video_color_title">Farbverbesserung</string>
 
     <string name="perf_title">Leistungsprofile</string>
     <string name="perf_summary">Leistung und Thermalrichtlinien von MediaTek Dimensity anpassen</string>

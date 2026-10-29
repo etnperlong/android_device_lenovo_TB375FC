@@ -95,6 +95,16 @@
     <string name="color_app_profiles_summary">بهبود رنگ را خاموش کنید یا برای هر برنامه حالت رنگی انتخاب کنید</string>
     <string name="color_app_profile_default">تنظیمات رنگ صفحه‌نمایش</string>
     <string name="color_app_profile_off">خاموش (رنگ‌های دقیق)</string>
+    <string name="category_video_title">کیفیت تصویر ویدیو</string>
+    <string name="video_enhance_title">بهبود تصویر ویدیو</string>
+    <string name="video_enhance_summary">پردازش اضافی MediaTek برای ویدیوی رمزگشایی‌شده با سخت‌افزار. اگر لبه‌های ویدیو بیش از حد روشن به نظر می‌رسند، نویز برجسته است یا رنگ‌ها نادرست‌اند، آن را خاموش کنید</string>
+    <string name="video_sharpness_title">وضوح</string>
+    <string name="video_dynamic_sharpness_title">وضوح پویا</string>
+    <string name="video_iso_sharpness_title">وضوح سازگار با نویز</string>
+    <string name="video_ultra_resolution_title">وضوح فوق‌العاده</string>
+    <string name="video_ultra_resolution_summary">هنگام بزرگ‌نمایی ویدیوی کم‌وضوح، آن را واضح‌تر کنید</string>
+    <string name="video_dynamic_contrast_title">کنتراست پویا</string>
+    <string name="video_color_title">بهبود رنگ</string>
 
     <string name="perf_title">نمایه‌های عملکرد</string>
     <string name="perf_summary">تنظیم عملکرد MediaTek Dimensity و خط‌مشی‌های حرارتی</string>

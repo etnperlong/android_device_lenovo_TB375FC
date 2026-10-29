@@ -94,7 +94,16 @@
     <string name="color_app_profiles_title">Tətbiq rəngləri</string>
     <string name="color_app_profiles_summary">Rəng yaxşılaşdırmasını söndürün və ya hər tətbiq üçün rəng rejimi seçin</string>
     <string name="color_app_profile_default">Ekran rəngi parametrləri</string>
-    <string name="color_app_profile_off">Söndürülüb (dəqiq rənglər)</string>
+    <string name="category_video_title">Video təsvirinin keyfiyyəti</string>
+    <string name="video_enhance_title">Video təsvirinin yaxşılaşdırılması</string>
+    <string name="video_enhance_summary">Aparat vasitəsilə dekodlanmış videonun MediaTek tərəfindən əlavə emalı. Video kənarları çox parlaq görünürsə, küy nəzərə çarpırsa və ya rənglər yanlış görünürsə bunu söndürün</string>
+    <string name="video_sharpness_title">Kəskinlik</string>
+    <string name="video_dynamic_sharpness_title">Dinamik kəskinlik</string>
+    <string name="video_iso_sharpness_title">Küyə uyğunlaşan kəskinlik</string>
+    <string name="video_ultra_resolution_title">Ultra yüksək təsvir ölçüsü</string>
+    <string name="video_ultra_resolution_summary">Aşağı təsvir ölçülü videonu böyüdərkən kəskinləşdirin</string>
+    <string name="video_dynamic_contrast_title">Dinamik kontrast</string>
+    <string name="video_color_title">Rəng yaxşılaşdırması</string>
 
     <string name="perf_title">Məhsuldarlıq profilləri</string>
     <string name="perf_summary">MediaTek Dimensity məhsuldarlığını və istilik siyasətlərini tənzimləyin</string>

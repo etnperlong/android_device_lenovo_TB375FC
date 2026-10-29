@@ -93,6 +93,16 @@
     <string name="color_app_profiles_summary">రంగు మెరుగుదలని ఆఫ్ చేయండి లేదా ప్రతి యాప్‌కు రంగు మోడ్‌ను ఎంచుకోండి</string>
     <string name="color_app_profile_default">స్క్రీన్ రంగు సెట్టింగ్‌లు</string>
     <string name="color_app_profile_off">ఆఫ్ (ఖచ్చితమైన రంగులు)</string>
+    <string name="category_video_title">వీడియో చిత్ర నాణ్యత</string>
+    <string name="video_enhance_title">వీడియో చిత్ర మెరుగుదల</string>
+    <string name="video_enhance_summary">హార్డ్‌వేర్ డీకోడ్ చేసిన వీడియోకు MediaTek చేసే అదనపు ప్రాసెసింగ్. వీడియో అంచులు మరీ ప్రకాశంగా కనిపించినా, నాయిస్ ఎక్కువగా కనిపించినా లేదా రంగులు తప్పుగా ఉన్నా దీన్ని ఆఫ్ చేయండి</string>
+    <string name="video_sharpness_title">షార్ప్‌నెస్</string>
+    <string name="video_dynamic_sharpness_title">డైనమిక్ షార్ప్‌నెస్</string>
+    <string name="video_iso_sharpness_title">నాయిస్‌కు అనుగుణమైన షార్ప్‌నెస్</string>
+    <string name="video_ultra_resolution_title">అల్ట్రా రిజల్యూషన్</string>
+    <string name="video_ultra_resolution_summary">తక్కువ రిజల్యూషన్ వీడియోను పెద్దదిగా చేసినప్పుడు షార్ప్ చేయండి</string>
+    <string name="video_dynamic_contrast_title">డైనమిక్ కాంట్రాస్ట్</string>
+    <string name="video_color_title">రంగు మెరుగుదల</string>
 
     <string name="perf_title">పనితీరు ప్రొఫైళ్లు</string>
     <string name="perf_summary">MediaTek Dimensity పనితీరు, థర్మల్ విధానాలను సర్దుబాటు చేయండి</string>

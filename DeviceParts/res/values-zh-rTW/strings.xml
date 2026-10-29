@@ -93,6 +93,16 @@
     <string name="color_app_profiles_summary">關閉色彩增強功能，或為每個應用程式選擇色彩模式</string>
     <string name="color_app_profile_default">螢幕色彩設定</string>
     <string name="color_app_profile_off">關閉（色彩準確）</string>
+    <string name="category_video_title">影片畫質</string>
+    <string name="video_enhance_title">影片畫質增強</string>
+    <string name="video_enhance_summary">聯發科對硬體解碼影片的額外處理。若影片邊緣泛白、雜訊明顯或色彩異常，可將其關閉</string>
+    <string name="video_sharpness_title">銳化</string>
+    <string name="video_dynamic_sharpness_title">動態銳化</string>
+    <string name="video_iso_sharpness_title">雜訊自適應銳化</string>
+    <string name="video_ultra_resolution_title">超解析度</string>
+    <string name="video_ultra_resolution_summary">放大低解析度影片時進行銳化</string>
+    <string name="video_dynamic_contrast_title">動態對比度</string>
+    <string name="video_color_title">色彩增強</string>
 
     <string name="perf_title">效能設定檔</string>
     <string name="perf_summary">調整聯發科天璣的效能和溫控策略</string>
