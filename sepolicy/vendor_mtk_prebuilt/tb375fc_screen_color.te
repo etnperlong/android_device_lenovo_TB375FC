@@ -9,7 +9,15 @@
 # { call transfer } + fd use ruleset in mtk_proprietary.te, so joining it is the full grant, as
 # on stock.
 #
+# system_server joins as well, for ambient light adaptation (enableChameleon). The service reads
+# the RGBW light sensor (private type 65606, every 200 ms) through librgbwlightsensor.so, a client
+# of the framework's HIDL android.frameworks.sensorservice@1.0::ISensorManager, which runs in
+# system_server: it calls system_server for getDefaultSensor/createEventQueue, and system_server
+# calls back into it with each event. Stock grants both directions only through this attribute;
+# without system_server in it, both calls are denied and Chameleon gets no sensor data.
+#
 # Placement: like tb375fc_power.te, this file must sort after mtk_proprietary.te, which declares
 # the attribute.
 
 typeattribute system_app hal_mtk_pq_client;
+typeattribute system_server hal_mtk_pq_client;
