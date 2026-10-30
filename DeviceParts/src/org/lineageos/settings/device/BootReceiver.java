@@ -14,6 +14,7 @@ import org.lineageos.settings.device.color.ScreenColorService;
 import org.lineageos.settings.device.cover.CoverService;
 import org.lineageos.settings.device.display.DisplayPolicyService;
 import org.lineageos.settings.device.dolby.DolbyService;
+import org.lineageos.settings.device.dolby.DolbyTile;
 import org.lineageos.settings.device.keyboard.KeyboardService;
 import org.lineageos.settings.device.pen.PenService;
 import org.lineageos.settings.device.perf.PerformanceService;
@@ -38,6 +39,7 @@ public class BootReceiver extends BroadcastReceiver {
             context.startService(new Intent(context, PenService.class));
             context.startService(new Intent(context, KeyboardService.class));
             TouchSensitivity.restore(context);
+            DolbyTile.hideVendorTile(context);
         }
     }
 }

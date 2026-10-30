@@ -213,4 +213,8 @@
     <string name="tile_touch_sensitivity_medium">Coitcheann</string>
     <string name="tile_touch_sensitivity_high">Freagairteach</string>
     <string name="tile_smart_cover">Còmhdach magnetach</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Leanaidh aplacaidean aig a bheil am modh fhèin ga chleachdadh fhad ’s a tha iad a’ cluich fuaime.</string>
+    <string name="tile_color_app_note">Leanaidh aplacaidean aig a bheil roghainn dhath fhèin ga cleachdadh fhad ’s a tha iad fosgailte.</string>
+    <string name="tile_color_adaptive_unavailable">Tha dath na sgrìn à comas</string>
 </resources>

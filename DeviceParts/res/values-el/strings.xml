@@ -216,4 +216,8 @@
     <string name="tile_touch_sensitivity_medium">Τυπική</string>
     <string name="tile_touch_sensitivity_high">Γρήγορη απόκριση</string>
     <string name="tile_smart_cover">Μαγνητικό κάλυμμα</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Οι εφαρμογές με δική τους λειτουργία εξακολουθούν να τη χρησιμοποιούν κατά την αναπαραγωγή ήχου.</string>
+    <string name="tile_color_app_note">Οι εφαρμογές με δική τους ρύθμιση χρώματος εξακολουθούν να τη χρησιμοποιούν όσο είναι ανοιχτές.</string>
+    <string name="tile_color_adaptive_unavailable">Το χρώμα οθόνης είναι ανενεργό</string>
 </resources>

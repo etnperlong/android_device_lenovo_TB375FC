@@ -214,4 +214,8 @@
     <string name="tile_touch_sensitivity_medium">Caighdeánach</string>
     <string name="tile_touch_sensitivity_high">Freagrúil</string>
     <string name="tile_smart_cover">Clúdach maighnéadach</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Leanann aipeanna a bhfuil a mód féin acu á úsáid agus iad ag seinm fuaime.</string>
+    <string name="tile_color_app_note">Leanann aipeanna a bhfuil a socrú dathanna féin acu á úsáid agus iad oscailte.</string>
+    <string name="tile_color_adaptive_unavailable">Tá dath an scáileáin díchumasaithe</string>
 </resources>

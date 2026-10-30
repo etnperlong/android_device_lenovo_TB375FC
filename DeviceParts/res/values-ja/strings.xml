@@ -209,4 +209,8 @@
     <string name="tile_touch_sensitivity_medium">標準</string>
     <string name="tile_touch_sensitivity_high">高感度</string>
     <string name="tile_smart_cover">マグネットカバー</string>
+    <string name="tile_dolby">ドルビーアトモス</string>
+    <string name="tile_dolby_app_note">モードを個別に設定したアプリでは、再生中も個別のモードが使用されます。</string>
+    <string name="tile_color_app_note">色を個別に設定したアプリでは、開いたときも個別の設定が使用されます。</string>
+    <string name="tile_color_adaptive_unavailable">画面の色は無効です</string>
 </resources>

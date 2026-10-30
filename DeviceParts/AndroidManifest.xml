@@ -359,6 +359,82 @@
                 android:value="true" />
         </service>
 
+        <service
+            android:name=".dolby.DolbyTile"
+            android:exported="true"
+            android:label="@string/tile_dolby"
+            android:icon="@drawable/ic_dolby_dynamic"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".color.ScreenColorTile"
+            android:exported="true"
+            android:label="@string/screen_color_title"
+            android:icon="@drawable/ic_tile_screen_color"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".color.ColorAdaptiveTile"
+            android:exported="true"
+            android:label="@string/color_adaptive_title"
+            android:icon="@drawable/ic_tile_color_adaptive"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.service.quicksettings.TOGGLEABLE_TILE"
+                android:value="true" />
+        </service>
+
+        <service
+            android:name=".color.VideoEnhanceTile"
+            android:exported="true"
+            android:label="@string/video_enhance_title"
+            android:icon="@drawable/ic_tile_video_enhance"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.service.quicksettings.TOGGLEABLE_TILE"
+                android:value="true" />
+        </service>
+
+        <service
+            android:name=".perf.PerformanceTile"
+            android:exported="true"
+            android:label="@string/perf_scheduling_title"
+            android:icon="@drawable/ic_tile_performance"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.service.quicksettings.TOGGLEABLE_TILE"
+                android:value="true" />
+        </service>
+
+        <!-- Long-pressing any tile above opens its settings page through this activity. -->
+        <activity
+            android:name=".TilePreferencesActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES" />
+            </intent-filter>
+        </activity>
+
         <receiver
             android:name=".BootReceiver"
             android:exported="false"

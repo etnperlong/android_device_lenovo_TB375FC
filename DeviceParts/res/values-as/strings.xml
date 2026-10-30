@@ -209,4 +209,8 @@
     <string name="tile_touch_sensitivity_medium">মানক</string>
     <string name="tile_touch_sensitivity_high">দ্ৰুত সঁহাৰি</string>
     <string name="tile_smart_cover">চুম্বকীয় ক’ভাৰ</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">নিজা মোড থকা এপসমূহে অডিঅ’ চলাওঁতে সেই মোড ব্যৱহাৰ কৰি থাকে।</string>
+    <string name="tile_color_app_note">নিজা ৰঙৰ ছেটিং থকা এপসমূহ খোলা থাকোঁতে সেই ছেটিং ব্যৱহাৰ কৰি থাকে।</string>
+    <string name="tile_color_adaptive_unavailable">স্ক্ৰীণৰ ৰং অক্ষম</string>
 </resources>

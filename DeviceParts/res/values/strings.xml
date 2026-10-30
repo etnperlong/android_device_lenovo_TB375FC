@@ -241,4 +241,8 @@
     <string name="tile_touch_sensitivity_medium">Standard</string>
     <string name="tile_touch_sensitivity_high">Responsive</string>
     <string name="tile_smart_cover">Magnetic cover</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Apps with their own mode keep using it while they play.</string>
+    <string name="tile_color_app_note">Apps with their own color setting keep using it while they are open.</string>
+    <string name="tile_color_adaptive_unavailable">Screen color is disabled</string>
 </resources>

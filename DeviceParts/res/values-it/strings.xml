@@ -211,4 +211,8 @@
     <string name="tile_touch_sensitivity_medium">Standard</string>
     <string name="tile_touch_sensitivity_high">Risposta rapida</string>
     <string name="tile_smart_cover">Custodia magnetica</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Le app con modalità impostate separatamente continueranno a usare le proprie modalità durante la riproduzione.</string>
+    <string name="tile_color_app_note">Le app con colori impostati separatamente continueranno a usare le proprie impostazioni all’apertura.</string>
+    <string name="tile_color_adaptive_unavailable">Colore dello schermo disattivato</string>
 </resources>

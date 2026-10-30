@@ -209,4 +209,8 @@
     <string name="tile_touch_sensitivity_medium">স্ট্যান্ডার্ড</string>
     <string name="tile_touch_sensitivity_high">দ্রুত প্রতিক্রিয়া</string>
     <string name="tile_smart_cover">ম্যাগনেটিক কভার</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">নিজস্ব মোড থাকা অ্যাপ অডিও চালানোর সময় সেটি ব্যবহার করতে থাকে।</string>
+    <string name="tile_color_app_note">নিজস্ব রঙের সেটিং থাকা অ্যাপ খোলা থাকলে সেটি ব্যবহার করতে থাকে।</string>
+    <string name="tile_color_adaptive_unavailable">স্ক্রিনের রং বন্ধ আছে</string>
 </resources>

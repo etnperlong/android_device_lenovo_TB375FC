@@ -217,4 +217,8 @@
     <string name="tile_touch_sensitivity_medium">ستاندارد</string>
     <string name="tile_touch_sensitivity_high">وەڵامی خێرا</string>
     <string name="tile_smart_cover">قاپی مەگناتیسی</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">ئەو ئەپانەی دۆخی تایبەتی خۆیان هەیە، لە کاتی پەخشکردنی دەنگدا بەردەوام دەبن لە بەکارهێنانی ئەو دۆخە.</string>
+    <string name="tile_color_app_note">ئەو ئەپانەی ڕێکخستنی ڕەنگی تایبەتی خۆیان هەیە، تا کاتێک کراوەن بەردەوام دەبن لە بەکارهێنانی.</string>
+    <string name="tile_color_adaptive_unavailable">ڕەنگی شاشە ناچالاکە</string>
 </resources>

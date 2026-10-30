@@ -209,4 +209,8 @@
     <string name="tile_touch_sensitivity_medium">Standard</string>
     <string name="tile_touch_sensitivity_high">Hurtig reaktion</string>
     <string name="tile_smart_cover">Magnetisk cover</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Apps med deres egen tilstand fortsætter med at bruge den, mens de afspiller lyd.</string>
+    <string name="tile_color_app_note">Apps med deres egen farveindstilling fortsætter med at bruge den, mens de er åbne.</string>
+    <string name="tile_color_adaptive_unavailable">Skærmfarve er deaktiveret</string>
 </resources>

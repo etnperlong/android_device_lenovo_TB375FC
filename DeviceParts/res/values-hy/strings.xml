@@ -217,4 +217,8 @@
     <string name="tile_touch_sensitivity_medium">Ստանդարտ</string>
     <string name="tile_touch_sensitivity_high">Արագ արձագանք</string>
     <string name="tile_smart_cover">Մագնիսական պատյան</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Առանձին ռեժիմներ սահմանված հավելվածները նվագարկելիս շարունակում են օգտագործել իրենց ռեժիմները։</string>
+    <string name="tile_color_app_note">Առանձին գույներ սահմանված հավելվածները բացելիս շարունակում են օգտագործել իրենց կարգավորումները։</string>
+    <string name="tile_color_adaptive_unavailable">Էկրանի գույնն անջատված է</string>
 </resources>

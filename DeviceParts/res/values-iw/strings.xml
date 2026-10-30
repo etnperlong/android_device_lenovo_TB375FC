@@ -218,4 +218,8 @@
     <string name="tile_touch_sensitivity_medium">רגילה</string>
     <string name="tile_touch_sensitivity_high">תגובה מהירה</string>
     <string name="tile_smart_cover">כיסוי מגנטי</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">אפליקציות עם מצבים שהוגדרו בנפרד ימשיכו להשתמש במצבים שלהן במהלך ההפעלה.</string>
+    <string name="tile_color_app_note">אפליקציות עם צבעים שהוגדרו בנפרד ימשיכו להשתמש בהגדרות שלהן כשפותחים אותן.</string>
+    <string name="tile_color_adaptive_unavailable">צבע המסך מושבת</string>
 </resources>

@@ -221,4 +221,8 @@
     <string name="tile_touch_sensitivity_medium">قياسي</string>
     <string name="tile_touch_sensitivity_high">استجابة سريعة</string>
     <string name="tile_smart_cover">الغطاء المغناطيسي</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">تواصل التطبيقات التي لها وضع خاص بها في استخدامه أثناء تشغيل الصوت.</string>
+    <string name="tile_color_app_note">تواصل التطبيقات التي لها إعداد لون خاص بها في استخدامه أثناء فتحها.</string>
+    <string name="tile_color_adaptive_unavailable">لون الشاشة معطّل</string>
 </resources>

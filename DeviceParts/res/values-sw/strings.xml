@@ -216,4 +216,8 @@
     <string name="tile_touch_sensitivity_medium">Kawaida</string>
     <string name="tile_touch_sensitivity_high">Mwitikio wa haraka</string>
     <string name="tile_smart_cover">Jalada la sumaku</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Programu zilizo na hali zao zitaendelea kuzitumia zinapocheza sauti.</string>
+    <string name="tile_color_app_note">Programu zilizo na mipangilio yake ya rangi zitaendelea kuitumia zikiwa wazi.</string>
+    <string name="tile_color_adaptive_unavailable">Rangi ya skrini imezimwa</string>
 </resources>

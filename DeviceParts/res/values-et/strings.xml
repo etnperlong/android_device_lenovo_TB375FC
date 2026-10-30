@@ -216,4 +216,8 @@
     <string name="tile_touch_sensitivity_medium">Standardne</string>
     <string name="tile_touch_sensitivity_high">Kiire reageerimine</string>
     <string name="tile_smart_cover">Magnetümbris</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Oma režiimiga rakendused kasutavad seda esitamise ajal edasi.</string>
+    <string name="tile_color_app_note">Oma värviseadega rakendused kasutavad seda avatuna edasi.</string>
+    <string name="tile_color_adaptive_unavailable">Ekraani värv on keelatud</string>
 </resources>

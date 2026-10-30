@@ -209,4 +209,8 @@
     <string name="tile_touch_sensitivity_medium">मानक</string>
     <string name="tile_touch_sensitivity_high">द्रुत प्रतिक्रिया</string>
     <string name="tile_smart_cover">चुम्बकीय कभर</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">आफ्नै मोड भएका एपहरूले अडियो चलाउँदा पनि सोही मोड प्रयोग गर्छन्।</string>
+    <string name="tile_color_app_note">आफ्नै रङ सेटिङ भएका एपहरू खुला हुँदा पनि सोही सेटिङ प्रयोग गर्छन्।</string>
+    <string name="tile_color_adaptive_unavailable">स्क्रिनका रङहरू अक्षम छन्</string>
 </resources>

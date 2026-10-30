@@ -216,4 +216,8 @@
     <string name="tile_touch_sensitivity_medium">Стандарттуу</string>
     <string name="tile_touch_sensitivity_high">Тез жооп</string>
     <string name="tile_smart_cover">Магниттик кап</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Режими өзүнчө коюлган колдонмолор аудио ойнотуп жатканда өз режимдерин колдоно берет.</string>
+    <string name="tile_color_app_note">Түсү өзүнчө коюлган колдонмолор ачылганда өз жөндөөлөрүн колдоно берет.</string>
+    <string name="tile_color_adaptive_unavailable">Экрандын түсү өчүрүлгөн</string>
 </resources>

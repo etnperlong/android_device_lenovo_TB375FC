@@ -209,4 +209,8 @@
     <string name="tile_touch_sensitivity_medium">இயல்பானது</string>
     <string name="tile_touch_sensitivity_high">விரைவான பதில்</string>
     <string name="tile_smart_cover">காந்தக் கவர்</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">சொந்த பயன்முறை அமைக்கப்பட்டுள்ள ஆப்கள், ஆடியோ இயக்கும்போதும் அதைப் பயன்படுத்தும்.</string>
+    <string name="tile_color_app_note">சொந்த வண்ண அமைப்பு கொண்ட ஆப்கள் திறந்திருக்கும் போதும் அதைப் பயன்படுத்தும்.</string>
+    <string name="tile_color_adaptive_unavailable">திரை வண்ணம் முடக்கப்பட்டுள்ளது</string>
 </resources>

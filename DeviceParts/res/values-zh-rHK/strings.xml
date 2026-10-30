@@ -216,4 +216,8 @@
     <string name="tile_touch_sensitivity_medium">標準</string>
     <string name="tile_touch_sensitivity_high">加強跟手</string>
     <string name="tile_smart_cover">磁吸保護套</string>
+    <string name="tile_dolby">杜比全景聲</string>
+    <string name="tile_dolby_app_note">設有專屬模式的應用程式在播放音訊時仍會使用該模式。</string>
+    <string name="tile_color_app_note">設有專屬色彩設定的應用程式在開啟時仍會使用該設定。</string>
+    <string name="tile_color_adaptive_unavailable">螢幕色彩已停用</string>
 </resources>

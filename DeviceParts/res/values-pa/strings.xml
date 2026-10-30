@@ -209,4 +209,8 @@
     <string name="tile_touch_sensitivity_medium">ਮਿਆਰੀ</string>
     <string name="tile_touch_sensitivity_high">ਤੇਜ਼ ਜਵਾਬ</string>
     <string name="tile_smart_cover">ਚੁੰਬਕੀ ਕਵਰ</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">ਆਪਣੇ ਮੋਡ ਵਾਲੀਆਂ ਐਪਾਂ ਆਡੀਓ ਚਲਾਉਣ ਦੌਰਾਨ ਉਹੀ ਮੋਡ ਵਰਤਦੀਆਂ ਰਹਿੰਦੀਆਂ ਹਨ।</string>
+    <string name="tile_color_app_note">ਆਪਣੀ ਰੰਗ ਸੈਟਿੰਗ ਵਾਲੀਆਂ ਐਪਾਂ ਖੁੱਲ੍ਹੀਆਂ ਹੋਣ ਦੌਰਾਨ ਉਹੀ ਸੈਟਿੰਗ ਵਰਤਦੀਆਂ ਰਹਿੰਦੀਆਂ ਹਨ।</string>
+    <string name="tile_color_adaptive_unavailable">ਸਕ੍ਰੀਨ ਦੇ ਰੰਗ ਬੰਦ ਹਨ</string>
 </resources>

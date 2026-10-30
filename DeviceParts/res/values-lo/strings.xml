@@ -209,4 +209,8 @@
     <string name="tile_touch_sensitivity_medium">ມາດຕະຖານ</string>
     <string name="tile_touch_sensitivity_high">ຕອບສະໜອງໄວ</string>
     <string name="tile_smart_cover">ເຄສແມ່ເຫຼັກ</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">ແອັບທີ່ຕັ້ງໂໝດໄວ້ແຍກກັນ ຈະຍັງຄົງໃຊ້ໂໝດຂອງຕົນເອງເມື່ອຫຼິ້ນສຽງ.</string>
+    <string name="tile_color_app_note">ແອັບທີ່ຕັ້ງສີໄວ້ແຍກກັນ ຈະຍັງຄົງໃຊ້ການຕັ້ງຄ່າຂອງຕົນເອງເມື່ອເປີດ.</string>
+    <string name="tile_color_adaptive_unavailable">ສີໜ້າຈໍປິດໃຊ້ງານແລ້ວ</string>
 </resources>

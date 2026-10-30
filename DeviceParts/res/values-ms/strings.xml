@@ -215,4 +215,8 @@
     <string name="tile_touch_sensitivity_medium">Standard</string>
     <string name="tile_touch_sensitivity_high">Respons pantas</string>
     <string name="tile_smart_cover">Penutup magnet</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Apl yang mempunyai mod sendiri akan terus menggunakannya semasa memainkan audio.</string>
+    <string name="tile_color_app_note">Apl yang mempunyai tetapan warna sendiri akan terus menggunakannya semasa dibuka.</string>
+    <string name="tile_color_adaptive_unavailable">Warna skrin dilumpuhkan</string>
 </resources>

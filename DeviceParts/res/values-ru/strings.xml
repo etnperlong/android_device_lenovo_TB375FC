@@ -218,4 +218,8 @@
     <string name="tile_touch_sensitivity_medium">Стандартная</string>
     <string name="tile_touch_sensitivity_high">Быстрый отклик</string>
     <string name="tile_smart_cover">Магнитный чехол</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Приложения со своими режимами продолжают использовать их во время воспроизведения звука.</string>
+    <string name="tile_color_app_note">Приложения со своими настройками цвета продолжают использовать их, пока открыты.</string>
+    <string name="tile_color_adaptive_unavailable">Цвет экрана отключен</string>
 </resources>

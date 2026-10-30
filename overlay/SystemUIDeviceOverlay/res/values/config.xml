@@ -7,14 +7,15 @@
     <!--
         Default Quick Settings tiles on first boot / after reset: the LineageOS
         defaults with Dolby Atmos appended, so users don't have to drag it out
-        of the "available tiles" tray. Android 17 SystemUI always uses the split
-        internet tile, so only the _split list is read; the non-split
-        quick_settings_tiles_default is no longer in the SystemUI APK. It is a
-        string in SystemUI; the old static overlay declared a string-array,
-        which never matched.
+        of the "available tiles" tray. It is DeviceParts' Dolby tile, which
+        picks the mode as well; DeviceParts hides daxService's on/off tile.
+        Android 17 SystemUI always uses the split internet tile, so only the
+        _split list is read; the non-split quick_settings_tiles_default is no
+        longer in the SystemUI APK. It is a string in SystemUI; the old static
+        overlay declared a string-array, which never matched.
 
         Only fresh installs / wipes pick this up. Existing devices with
         Settings.Secure.SYSUI_QS_TILES already populated keep their order.
     -->
-    <string name="quick_settings_tiles_default_split" translatable="false">wifi,bt,cell,cast,dnd,wallet,airplane,rotation,flashlight,battery,alarm,controls,screenrecord,custom(com.dolby.daxservice/.DaxTileService)</string>
+    <string name="quick_settings_tiles_default_split" translatable="false">wifi,bt,cell,cast,dnd,wallet,airplane,rotation,flashlight,battery,alarm,controls,screenrecord,custom(org.lineageos.settings.device/.dolby.DolbyTile)</string>
 </resources>

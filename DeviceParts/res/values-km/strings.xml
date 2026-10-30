@@ -208,4 +208,8 @@
     <string name="tile_touch_sensitivity_medium">ស្តង់ដារ</string>
     <string name="tile_touch_sensitivity_high">ឆ្លើយតបរហ័ស</string>
     <string name="tile_smart_cover">ស្រោមម៉ាញេទិក</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">កម្មវិធីដែលបានកំណត់របៀបដាច់ដោយឡែក នឹងបន្តប្រើរបៀបផ្ទាល់ខ្លួន នៅពេលចាក់សំឡេង។</string>
+    <string name="tile_color_app_note">កម្មវិធីដែលបានកំណត់ពណ៌ដាច់ដោយឡែក នឹងបន្តប្រើការកំណត់ផ្ទាល់ខ្លួន នៅពេលបើក។</string>
+    <string name="tile_color_adaptive_unavailable">ពណ៌អេក្រង់បានបិទ</string>
 </resources>

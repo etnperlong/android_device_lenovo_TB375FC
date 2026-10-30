@@ -209,4 +209,8 @@
     <string name="tile_touch_sensitivity_medium">표준</string>
     <string name="tile_touch_sensitivity_high">빠른 반응</string>
     <string name="tile_smart_cover">자석 커버</string>
+    <string name="tile_dolby">돌비 애트모스</string>
+    <string name="tile_dolby_app_note">모드를 개별 설정한 앱은 재생 중에도 각 앱의 모드를 계속 사용합니다.</string>
+    <string name="tile_color_app_note">색상을 개별 설정한 앱은 열 때에도 각 앱의 설정을 계속 사용합니다.</string>
+    <string name="tile_color_adaptive_unavailable">화면 색상 사용 안 함</string>
 </resources>

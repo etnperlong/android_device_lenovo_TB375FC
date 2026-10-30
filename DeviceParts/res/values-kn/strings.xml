@@ -210,4 +210,8 @@
     <string name="tile_touch_sensitivity_medium">ಪ್ರಮಾಣಿತ</string>
     <string name="tile_touch_sensitivity_high">ತ್ವರಿತ ಪ್ರತಿಕ್ರಿಯೆ</string>
     <string name="tile_smart_cover">ಮ್ಯಾಗ್ನೆಟಿಕ್ ಕವರ್</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">ಪ್ರತ್ಯೇಕವಾಗಿ ಮೋಡ್ ಹೊಂದಿಸಲಾದ ಆ್ಯಪ್‌ಗಳು ಪ್ಲೇ ಮಾಡುವಾಗ ತಮ್ಮದೇ ಮೋಡ್‌ಗಳನ್ನು ಬಳಸುವುದನ್ನು ಮುಂದುವರಿಸುತ್ತವೆ.</string>
+    <string name="tile_color_app_note">ಪ್ರತ್ಯೇಕವಾಗಿ ಬಣ್ಣ ಹೊಂದಿಸಲಾದ ಆ್ಯಪ್‌ಗಳು ತೆರೆದಾಗ ತಮ್ಮದೇ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬಳಸುವುದನ್ನು ಮುಂದುವರಿಸುತ್ತವೆ.</string>
+    <string name="tile_color_adaptive_unavailable">ಪರದೆ ಬಣ್ಣ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
 </resources>

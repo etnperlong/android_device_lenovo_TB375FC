@@ -216,4 +216,8 @@
     <string name="tile_touch_sensitivity_medium">Normál</string>
     <string name="tile_touch_sensitivity_high">Gyors reakció</string>
     <string name="tile_smart_cover">Mágneses tok</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Az alkalmazásokhoz külön beállított módok lejátszás közben is érvényben maradnak.</string>
+    <string name="tile_color_app_note">Az alkalmazásokhoz külön beállított színek megnyitáskor is érvényben maradnak.</string>
+    <string name="tile_color_adaptive_unavailable">A képernyőszín letiltva</string>
 </resources>

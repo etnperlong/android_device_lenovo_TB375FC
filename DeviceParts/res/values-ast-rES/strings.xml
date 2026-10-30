@@ -210,4 +210,8 @@
     <string name="tile_touch_sensitivity_medium">Estándar</string>
     <string name="tile_touch_sensitivity_high">Respuesta rápida</string>
     <string name="tile_smart_cover">Funda magnética</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Les aplicaciones col so propiu mou siguen usándolu mientres reproduzan audiu.</string>
+    <string name="tile_color_app_note">Les aplicaciones cola so propia configuración de color siguen usándola mientres tán abiertes.</string>
+    <string name="tile_color_adaptive_unavailable">El color de pantalla ta desactiváu</string>
 </resources>

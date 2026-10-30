@@ -212,4 +212,8 @@
     <string name="tile_touch_sensitivity_medium">Standard</string>
     <string name="tile_touch_sensitivity_high">Reactivă</string>
     <string name="tile_smart_cover">Husă magnetică</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Aplicațiile cu propriul mod îl folosesc în continuare în timp ce redau sunet.</string>
+    <string name="tile_color_app_note">Aplicațiile cu propriile setări de culoare le folosesc în continuare cât timp sunt deschise.</string>
+    <string name="tile_color_adaptive_unavailable">Culoarea ecranului este dezactivată</string>
 </resources>

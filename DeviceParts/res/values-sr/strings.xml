@@ -217,4 +217,8 @@
     <string name="tile_touch_sensitivity_medium">Стандардна</string>
     <string name="tile_touch_sensitivity_high">Брз одзив</string>
     <string name="tile_smart_cover">Магнетна футрола</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Апликације са сопственим режимом и даље га користе током репродукције.</string>
+    <string name="tile_color_app_note">Апликације са сопственим подешавањем боје и даље га користе док су отворене.</string>
+    <string name="tile_color_adaptive_unavailable">Боја екрана је онемогућена</string>
 </resources>

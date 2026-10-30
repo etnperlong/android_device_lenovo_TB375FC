@@ -217,4 +217,8 @@
     <string name="tile_touch_sensitivity_medium">Standardowa</string>
     <string name="tile_touch_sensitivity_high">Responsywna</string>
     <string name="tile_smart_cover">Magnetyczne etui</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Aplikacje z własnym trybem nadal z niego korzystają podczas odtwarzania dźwięku.</string>
+    <string name="tile_color_app_note">Aplikacje z własnymi ustawieniami kolorów nadal z nich korzystają, gdy są otwarte.</string>
+    <string name="tile_color_adaptive_unavailable">Kolory ekranu są wyłączone</string>
 </resources>

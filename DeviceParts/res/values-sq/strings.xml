@@ -216,4 +216,8 @@
     <string name="tile_touch_sensitivity_medium">Standarde</string>
     <string name="tile_touch_sensitivity_high">Reagim i shpejtë</string>
     <string name="tile_smart_cover">Kapak magnetik</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Aplikacionet me mënyrën e tyre vazhdojnë ta përdorin gjatë luajtjes.</string>
+    <string name="tile_color_app_note">Aplikacionet me cilësimin e tyre të ngjyrave vazhdojnë ta përdorin kur janë të hapura.</string>
+    <string name="tile_color_adaptive_unavailable">Ngjyra e ekranit është joaktive</string>
 </resources>

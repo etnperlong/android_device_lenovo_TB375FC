@@ -208,4 +208,8 @@
     <string name="tile_touch_sensitivity_medium">มาตรฐาน</string>
     <string name="tile_touch_sensitivity_high">ตอบสนองไว</string>
     <string name="tile_smart_cover">เคสแม่เหล็ก</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">แอปที่กำหนดโหมดไว้เองจะยังคงใช้โหมดนั้นขณะเล่นเสียง</string>
+    <string name="tile_color_app_note">แอปที่กำหนดการตั้งค่าสีไว้เองจะยังคงใช้การตั้งค่านั้นขณะเปิดแอป</string>
+    <string name="tile_color_adaptive_unavailable">ปิดใช้สีหน้าจอแล้ว</string>
 </resources>

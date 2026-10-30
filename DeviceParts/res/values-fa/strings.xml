@@ -217,4 +217,8 @@
     <string name="tile_touch_sensitivity_medium">استاندارد</string>
     <string name="tile_touch_sensitivity_high">پاسخ سریع</string>
     <string name="tile_smart_cover">قاب مغناطیسی</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">برنامه‌هایی که حالت مخصوص به خود دارند، هنگام پخش صدا همچنان از همان حالت استفاده می‌کنند.</string>
+    <string name="tile_color_app_note">برنامه‌هایی که تنظیم رنگ مخصوص به خود دارند، تا وقتی باز هستند همچنان از آن استفاده می‌کنند.</string>
+    <string name="tile_color_adaptive_unavailable">رنگ صفحه‌نمایش غیرفعال است</string>
 </resources>

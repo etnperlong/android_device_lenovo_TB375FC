@@ -209,4 +209,8 @@
     <string name="tile_touch_sensitivity_medium">ప్రామాణికం</string>
     <string name="tile_touch_sensitivity_high">వేగవంతమైన స్పందన</string>
     <string name="tile_smart_cover">మాగ్నెటిక్ కవర్</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">సొంత మోడ్ ఉన్న యాప్‌లు ఆడియో ప్లే చేస్తున్నప్పుడు కూడా దాన్నే ఉపయోగిస్తాయి.</string>
+    <string name="tile_color_app_note">సొంత రంగు సెట్టింగ్ ఉన్న యాప్‌లు తెరిచి ఉన్నప్పుడు కూడా దాన్నే ఉపయోగిస్తాయి.</string>
+    <string name="tile_color_adaptive_unavailable">స్క్రీన్ రంగు డిజేబుల్ చేయబడింది</string>
 </resources>

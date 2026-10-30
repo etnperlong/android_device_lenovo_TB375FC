@@ -209,4 +209,8 @@
     <string name="tile_touch_sensitivity_medium">Standaard</string>
     <string name="tile_touch_sensitivity_high">Reaktief</string>
     <string name="tile_smart_cover">Magnetiese omslag</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Programme met hul eie modus bly dit gebruik terwyl hulle oudio speel.</string>
+    <string name="tile_color_app_note">Programme met hul eie kleurinstelling bly dit gebruik terwyl hulle oop is.</string>
+    <string name="tile_color_adaptive_unavailable">Skermkleur is gedeaktiveer</string>
 </resources>

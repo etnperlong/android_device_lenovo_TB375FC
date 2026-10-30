@@ -217,4 +217,8 @@
     <string name="tile_touch_sensitivity_medium">Štandardná</string>
     <string name="tile_touch_sensitivity_high">Rýchla odozva</string>
     <string name="tile_smart_cover">Magnetický kryt</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Aplikácie s vlastným režimom ho používajú aj počas prehrávania.</string>
+    <string name="tile_color_app_note">Aplikácie s vlastným nastavením farieb ho používajú aj počas otvorenia.</string>
+    <string name="tile_color_adaptive_unavailable">Farba obrazovky je zakázaná</string>
 </resources>

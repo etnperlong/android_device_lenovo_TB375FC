@@ -208,4 +208,8 @@
     <string name="tile_touch_sensitivity_medium">စံ</string>
     <string name="tile_touch_sensitivity_high">လျင်မြန်စွာ တုံ့ပြန်မှု</string>
     <string name="tile_smart_cover">သံလိုက်အဖုံး</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">ကိုယ်ပိုင်မုဒ်ရှိသည့် အက်ပ်များသည် အသံဖွင့်နေချိန်တွင် ၎င်းမုဒ်ကို ဆက်လက်အသုံးပြုသည်။</string>
+    <string name="tile_color_app_note">ကိုယ်ပိုင်အရောင်ဆက်တင်ရှိသည့် အက်ပ်များသည် ဖွင့်ထားချိန်တွင် ၎င်းဆက်တင်ကို ဆက်လက်အသုံးပြုသည်။</string>
+    <string name="tile_color_adaptive_unavailable">မျက်နှာပြင်အရောင်ကို ပိတ်ထားသည်</string>
 </resources>

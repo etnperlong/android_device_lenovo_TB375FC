@@ -215,4 +215,8 @@
     <string name="tile_touch_sensitivity_medium">Safonol</string>
     <string name="tile_touch_sensitivity_high">Ymateb cyflym</string>
     <string name="tile_smart_cover">Gorchudd magnetig</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Mae apiau sydd â’u modd eu hunain yn parhau i’w ddefnyddio wrth chwarae sain.</string>
+    <string name="tile_color_app_note">Mae apiau sydd â’u gosodiad lliw eu hunain yn parhau i’w ddefnyddio tra maent ar agor.</string>
+    <string name="tile_color_adaptive_unavailable">Mae lliw sgrin wedi’i analluogi</string>
 </resources>

@@ -217,4 +217,8 @@
     <string name="tile_touch_sensitivity_medium">ئۆلچەملىك</string>
     <string name="tile_touch_sensitivity_high">تېز ئىنكاس</string>
     <string name="tile_smart_cover">ماگنىتلىق قاپ</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">ئۆزىگە خاس ھالەت تەڭشەلگەن ئەپلەر ئاۋاز قويۇۋاتقاندا شۇ ھالەتنى ئىشلىتىدۇ.</string>
+    <string name="tile_color_app_note">ئۆزىگە خاس رەڭ تەڭشىكى بار ئەپلەر ئېچىلغاندا شۇ تەڭشەكنى ئىشلىتىدۇ.</string>
+    <string name="tile_color_adaptive_unavailable">ئېكران رەڭگى چەكلەنگەن</string>
 </resources>

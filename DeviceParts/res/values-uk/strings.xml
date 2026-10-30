@@ -218,4 +218,8 @@
     <string name="tile_touch_sensitivity_medium">Стандартна</string>
     <string name="tile_touch_sensitivity_high">Швидкий відгук</string>
     <string name="tile_smart_cover">Магнітний чохол</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Додатки з власним режимом продовжують використовувати його під час відтворення аудіо.</string>
+    <string name="tile_color_app_note">Додатки з власним налаштуванням кольорів продовжують використовувати його, коли відкриті.</string>
+    <string name="tile_color_adaptive_unavailable">Колір екрана вимкнено</string>
 </resources>

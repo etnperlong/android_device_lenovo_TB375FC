@@ -216,4 +216,8 @@
     <string name="tile_touch_sensitivity_medium">Standart</string>
     <string name="tile_touch_sensitivity_high">Hızlı tepki</string>
     <string name="tile_smart_cover">Manyetik kapak</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Kendi modu olan uygulamalar, ses oynatırken bu modu kullanmaya devam eder.</string>
+    <string name="tile_color_app_note">Kendi renk ayarı olan uygulamalar, açıkken bu ayarı kullanmaya devam eder.</string>
+    <string name="tile_color_adaptive_unavailable">Ekran rengi devre dışı</string>
 </resources>

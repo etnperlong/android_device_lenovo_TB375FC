@@ -216,4 +216,8 @@
     <string name="tile_touch_sensitivity_medium">Стандарт</string>
     <string name="tile_touch_sensitivity_high">Шуурхай хариу</string>
     <string name="tile_smart_cover">Соронзон гэр</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Өөрийн горимтой аппууд аудио тоглуулах үедээ тухайн горимыг үргэлжлүүлэн ашиглана.</string>
+    <string name="tile_color_app_note">Өөрийн өнгөний тохиргоотой аппууд нээлттэй байх үедээ үүнийг үргэлжлүүлэн ашиглана.</string>
+    <string name="tile_color_adaptive_unavailable">Дэлгэцийн өнгө идэвхгүй байна</string>
 </resources>

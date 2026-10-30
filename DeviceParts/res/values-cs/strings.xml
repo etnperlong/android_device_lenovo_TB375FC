@@ -217,4 +217,8 @@
     <string name="tile_touch_sensitivity_medium">Standardní</string>
     <string name="tile_touch_sensitivity_high">Rychlá odezva</string>
     <string name="tile_smart_cover">Magnetické pouzdro</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Aplikace s vlastním režimem ho při přehrávání zvuku dál používají.</string>
+    <string name="tile_color_app_note">Aplikace s vlastním nastavením barev ho používají i po dobu, kdy jsou otevřené.</string>
+    <string name="tile_color_adaptive_unavailable">Barva obrazovky je vypnutá</string>
 </resources>

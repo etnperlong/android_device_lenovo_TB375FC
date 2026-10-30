@@ -211,4 +211,8 @@
     <string name="tile_touch_sensitivity_medium">Standard</string>
     <string name="tile_touch_sensitivity_high">Rispueste rapide</string>
     <string name="tile_smart_cover">Custodie magnetiche</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Lis apps cun la lôr modalitât a continuin a doprâle cuant che a riprodûsin.</string>
+    <string name="tile_color_app_note">Lis apps cun la lôr impostazion di colôr a continuin a doprâle fintremai che a son vierte.</string>
+    <string name="tile_color_adaptive_unavailable">Il colôr dal schermi al è disativât</string>
 </resources>

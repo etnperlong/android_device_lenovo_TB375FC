@@ -216,4 +216,8 @@
     <string name="tile_touch_sensitivity_medium">መደበኛ</string>
     <string name="tile_touch_sensitivity_high">ፈጣን ምላሽ</string>
     <string name="tile_smart_cover">መግነጢሳዊ መያዣ</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">የራሳቸው ሁነታ ያላቸው መተግበሪያዎች ድምጽ ሲያጫውቱ ያንኑ ይጠቀማሉ።</string>
+    <string name="tile_color_app_note">የራሳቸው የቀለም ቅንብር ያላቸው መተግበሪያዎች ሲከፈቱ ያንኑ ይጠቀማሉ።</string>
+    <string name="tile_color_adaptive_unavailable">የማያ ገጽ ቀለም ጠፍቷል</string>
 </resources>

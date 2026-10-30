@@ -216,4 +216,8 @@
     <string name="tile_touch_sensitivity_medium">Pamantayan</string>
     <string name="tile_touch_sensitivity_high">Mabilis tumugon</string>
     <string name="tile_smart_cover">Magnetic cover</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Patuloy na ginagamit ng mga app ang sarili nilang mode habang nagpapatugtog.</string>
+    <string name="tile_color_app_note">Patuloy na ginagamit ng mga app ang sarili nilang setting ng kulay habang bukas ang mga ito.</string>
+    <string name="tile_color_adaptive_unavailable">Naka-disable ang kulay ng screen</string>
 </resources>

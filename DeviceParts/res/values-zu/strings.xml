@@ -211,4 +211,8 @@
     <string name="tile_touch_sensitivity_medium">Okuvamile</string>
     <string name="tile_touch_sensitivity_high">Ukuphendula ngokushesha</string>
     <string name="tile_smart_cover">Isembozo sikazibuthe</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Izinhlelo zokusebenza ezinezindlela zazo ziyaqhubeka nokuzisebenzisa lapho zidlala umsindo.</string>
+    <string name="tile_color_app_note">Izinhlelo zokusebenza ezinezilungiselelo zazo zombala ziyaqhubeka nokuzisebenzisa lapho zivuliwe.</string>
+    <string name="tile_color_adaptive_unavailable">Umbala wesikrini ukhutshaziwe</string>
 </resources>

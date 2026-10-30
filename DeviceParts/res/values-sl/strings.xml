@@ -217,4 +217,8 @@
     <string name="tile_touch_sensitivity_medium">Standardna</string>
     <string name="tile_touch_sensitivity_high">Hiter odziv</string>
     <string name="tile_smart_cover">Magnetni ovitek</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Aplikacije z lastnim načinom ga uporabljajo tudi med predvajanjem.</string>
+    <string name="tile_color_app_note">Aplikacije z lastno nastavitvijo barv jo uporabljajo tudi, ko so odprte.</string>
+    <string name="tile_color_adaptive_unavailable">Barva zaslona je onemogočena</string>
 </resources>

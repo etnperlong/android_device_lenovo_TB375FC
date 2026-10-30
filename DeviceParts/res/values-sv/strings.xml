@@ -209,4 +209,8 @@
     <string name="tile_touch_sensitivity_medium">Standard</string>
     <string name="tile_touch_sensitivity_high">Snabb respons</string>
     <string name="tile_smart_cover">Magnetiskt fodral</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Appar med egna lägen använder dem fortfarande när de spelar upp ljud.</string>
+    <string name="tile_color_app_note">Appar med egna färginställningar använder dem fortfarande när de är öppna.</string>
+    <string name="tile_color_adaptive_unavailable">Skärmfärgen är inaktiverad</string>
 </resources>

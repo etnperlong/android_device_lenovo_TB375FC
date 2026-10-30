@@ -209,4 +209,8 @@
     <string name="tile_touch_sensitivity_medium">Standard</string>
     <string name="tile_touch_sensitivity_high">Schnelle Reaktion</string>
     <string name="tile_smart_cover">Magnetcover</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Apps mit eigenem Modus verwenden diesen weiterhin, während sie Audio wiedergeben.</string>
+    <string name="tile_color_app_note">Apps mit eigener Farbeinstellung verwenden diese weiterhin, solange sie geöffnet sind.</string>
+    <string name="tile_color_adaptive_unavailable">Bildschirmfarbe ist deaktiviert</string>
 </resources>

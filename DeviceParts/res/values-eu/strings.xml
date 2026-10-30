@@ -211,4 +211,8 @@
     <string name="tile_touch_sensitivity_medium">Estandarra</string>
     <string name="tile_touch_sensitivity_high">Erantzun azkarra</string>
     <string name="tile_smart_cover">Estalki magnetikoa</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Beren modua duten aplikazioek audioa erreproduzitzen ari diren bitartean erabiltzen jarraitzen dute.</string>
+    <string name="tile_color_app_note">Beren kolore-ezarpena duten aplikazioek irekita dauden bitartean erabiltzen jarraitzen dute.</string>
+    <string name="tile_color_adaptive_unavailable">Pantailaren kolorea desaktibatuta dago</string>
 </resources>

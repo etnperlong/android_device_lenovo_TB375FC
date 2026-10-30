@@ -209,4 +209,8 @@
     <string name="tile_touch_sensitivity_medium">Venjulegt</string>
     <string name="tile_touch_sensitivity_high">Næmara</string>
     <string name="tile_smart_cover">Segulhlíf</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Forrit með stillingum sem eru valdar sérstaklega halda áfram að nota þær þegar þau spila hljóð.</string>
+    <string name="tile_color_app_note">Forrit með liti sem eru valdir sérstaklega halda áfram að nota sínar stillingar þegar þau eru opnuð.</string>
+    <string name="tile_color_adaptive_unavailable">Skjálitur óvirkur</string>
 </resources>

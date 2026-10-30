@@ -209,4 +209,8 @@
     <string name="tile_touch_sensitivity_medium">സ്റ്റാൻഡേർഡ്</string>
     <string name="tile_touch_sensitivity_high">വേഗത്തിലുള്ള പ്രതികരണം</string>
     <string name="tile_smart_cover">കാന്തിക കവർ</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">സ്വന്തമായ മോഡുള്ള ആപ്പുകൾ ഓഡിയോ പ്ലേ ചെയ്യുമ്പോൾ അത് തുടർന്നും ഉപയോഗിക്കും.</string>
+    <string name="tile_color_app_note">സ്വന്തമായ നിറ ക്രമീകരണമുള്ള ആപ്പുകൾ തുറന്നിരിക്കുമ്പോൾ അത് തുടർന്നും ഉപയോഗിക്കും.</string>
+    <string name="tile_color_adaptive_unavailable">സ്ക്രീൻ നിറം പ്രവർത്തനരഹിതമാണ്</string>
 </resources>

@@ -209,4 +209,8 @@
     <string name="tile_touch_sensitivity_medium">Standard</string>
     <string name="tile_touch_sensitivity_high">Responsiv</string>
     <string name="tile_smart_cover">Magnetdeksel</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Appar med eigne modusar held fram med å bruke dei medan dei spelar av lyd.</string>
+    <string name="tile_color_app_note">Appar med eigne fargeinnstillingar held fram med å bruke dei medan dei er opne.</string>
+    <string name="tile_color_adaptive_unavailable">Skjermfargar er av</string>
 </resources>

@@ -217,4 +217,8 @@
     <string name="tile_touch_sensitivity_medium">Standarta</string>
     <string name="tile_touch_sensitivity_high">Ātra reakcija</string>
     <string name="tile_smart_cover">Magnētiskais vāciņš</string>
+    <string name="tile_dolby">Dolby Atmos</string>
+    <string name="tile_dolby_app_note">Lietotnes, kurām režīmi iestatīti atsevišķi, atskaņošanas laikā turpinās izmantot savus režīmus.</string>
+    <string name="tile_color_app_note">Lietotnes, kurām krāsas iestatītas atsevišķi, atverot turpinās izmantot savus iestatījumus.</string>
+    <string name="tile_color_adaptive_unavailable">Ekrāna krāsas ir atspējotas</string>
 </resources>
