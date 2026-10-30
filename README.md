@@ -271,7 +271,7 @@ Three stock kernel modules are modified and one is rebuilt; all are required, an
 | Module | Change |
 |--------|--------|
 | `nt36532.ko` | Touch firmware loads on the first attempt in recovery instead of timing out for ~15 s |
-| `wlan_drv_gen4m_6897.ko` | Fixes a WPA3 association failure in the stock driver |
+| `wlan_drv_gen4m_6897.ko` | Fixes a WPA3 association failure in the stock driver: `mtk_cfg80211_connect` also accepts the WPA3 `wpa_versions` bit (one instruction at `+0x1e8`, `tst w8, #0x2` → `tst w8, #0x6`), applied to the ZUXOS 1.5.10.123 module |
 | `hall.ko` | Reports the folio cover as `SW_LID` instead of key codes 252/253; reproducible with `tools/patch_hall_ko.py`, details in `docs/hall-ko-lid-switch.md` |
 | `zram_ext.ko` | Rebuilt from source. Lenovo's (MediaTek's `zram_ext/zram_601`, GPL source in the [mt8792](https://github.com/mt8792/android_vendor_mediatek_kernel-modules) kernel package) is GKI zram with writeback and its own `wb_size=` mode, but without the `huge_idle` writeback mode mmd uses first, so every mmd writeback failed. The replacement is android14-6.1 (`android14-6.1-2026-09_r5`) zram as `drivers/block/zram_ext`, branch `patch/zram_ext` at `e084d821a192`: writeback, Lenovo's `wb_size=` and `idle_page_size`, access-time tracking (`idle <seconds>`), recompression and incompressible writeback backported from 6.2/6.3, and compressed writeback. Built against GKI build 16707926's `Module.symvers`, so its symbol CRCs and vermagic match the stock kernel; it is unsigned, which GKI allows for zram |
 
