@@ -266,7 +266,7 @@ DeviceParts offers the three levels as "Touch sensitivity" on the "Refresh rate 
 Stock's Lenovo battery HAL stops and restarts charging through `/sys/class/wt-battery/charging_enabled` (`1` = charge, `0` = stop). The LineageOS health HAL toggles the same node, which enables Settings -> Battery -> Charging control. Only the on/off toggle is configured, so a charge limit works by stopping the charger at the limit and restarting it a few percent below. Bypass mode stays off: it is not known whether the adapter alone powers the tablet while the charger is stopped.
 
 ### Patched prebuilt modules
-Three stock kernel modules are modified and one is rebuilt; all are required, and extracting from a stock device gives the stock versions.
+Three stock kernel modules are modified and one is rebuilt; all are required, and extracting from a stock device gives the stock versions. Apart from these and `gf_tee.ko`, the device-specific modules are byte-identical to ZUXOS 1.5.10.123 stock.
 
 | Module | Change |
 |--------|--------|
