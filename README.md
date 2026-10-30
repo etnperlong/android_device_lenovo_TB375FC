@@ -81,6 +81,8 @@ hardware test.
   <project name="etnperlong/android_device_lenovo_TB375FC" path="device/lenovo/TB375FC" remote="tb375fc" revision="derpfest-17" />
   <project name="etnperlong/android_vendor_lenovo_TB375FC" path="vendor/lenovo/TB375FC" remote="tb375fc" revision="derpfest-17" />
   <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="lineage-24.0" />
+  <remove-project name="android_frameworks_native" />
+  <project name="etnperlong/android_frameworks_native" path="frameworks/native" remote="tb375fc" revision="17-TB375FC" />
 </manifest>
 ```
 
@@ -89,6 +91,14 @@ device; `lineage.dependencies` pins its branch for roomservice as well.
 The optional reference kernel checkout can use `derpfest-17` from
 `etnperlong/android_device_lenovo_TB375FC-kernel` after that branch is published.
 It is not required by the manifest above.
+
+`frameworks/native` is replaced by `etnperlong/android_frameworks_native`
+`17-TB375FC`: DerpFest's branch `17` plus one commit adding MediaTek GED KPI
+frame timestamps to libgui, which `device.mk` enables with
+`soong_config_set_bool libgui support_mtk_ged_kpi`. DerpFest declined to merge
+the change. The commit is also exported to `patches/frameworks_native/`. The
+fork's `17` mirrors DerpFest's `17`; rebase
+`17-TB375FC` onto it when DerpFest updates `frameworks/native`.
 
 DerpFest 17 manifest: <https://github.com/DerpFest-AOSP/android_manifest/tree/17>.
 DerpFest's common configuration sets `WITH_GMS:=true`; the device identifies
