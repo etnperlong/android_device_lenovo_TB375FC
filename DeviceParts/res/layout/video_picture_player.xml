@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<!-- The swipeable sample clips and their controls, inline and in full screen (VideoGallery). -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/video_picture_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never" />
+
+    <LinearLayout
+        android:id="@+id/video_picture_dots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/screen_color_gallery_scrim"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="6dp"
+        android:importantForAccessibility="no" />
+
+    <ImageButton
+        android:id="@+id/video_picture_play"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:background="@drawable/screen_color_gallery_button_background"
+        android:scaleType="center"
+        android:src="@drawable/ic_video_play"
+        android:contentDescription="@string/video_picture_play" />
+
+    <LinearLayout
+        android:id="@+id/video_picture_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/video_picture_bar_scrim"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingTop="32dp"
+        android:paddingEnd="4dp"
+        android:paddingBottom="4dp">
+
+        <TextView
+            android:id="@+id/video_picture_time"
+            style="@style/VideoPictureTime" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/video_picture_slider"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:theme="@style/Theme.Material3.DynamicColors.DayNight"
+            android:contentDescription="@string/video_picture_position"
+            android:valueFrom="0"
+            android:valueTo="1"
+            app:labelBehavior="gone"
+            app:trackHeight="4dp"
+            app:thumbRadius="8dp"
+            app:haloRadius="16dp"
+            app:thumbColor="@android:color/white"
+            app:trackColorActive="@android:color/white"
+            app:trackColorInactive="#4DFFFFFF"
+            app:haloColor="#33FFFFFF" />
+
+        <TextView
+            android:id="@+id/video_picture_duration"
+            style="@style/VideoPictureTime" />
+
+        <ImageButton
+            android:id="@+id/video_picture_fullscreen"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:scaleType="center"
+            android:src="@drawable/ic_screen_color_fullscreen"
+            android:contentDescription="@string/video_picture_fullscreen" />
+    </LinearLayout>
+</merge>

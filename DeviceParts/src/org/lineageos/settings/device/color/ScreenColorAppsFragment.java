@@ -18,6 +18,7 @@ import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
+import com.android.settingslib.widget.MainSwitchPreference;
 import com.android.settingslib.widget.SettingsBasePreferenceFragment;
 
 import org.lineageos.settings.device.R;
@@ -30,14 +31,19 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * The color setting of each launchable app: the screen color settings, enhancements off, or a
- * color mode of its own. Only choices other than the screen color settings are stored.
+ * The switch for the app color settings, then the color setting of each launchable app: the
+ * screen color settings, or a color mode of its own (Standard, Vivid or Disabled). Only choices
+ * other than the screen color settings are stored.
  */
 public class ScreenColorAppsFragment extends SettingsBasePreferenceFragment
         implements Preference.OnPreferenceChangeListener {
+    private static final String KEY_PROFILES_ENABLED = "color_app_profiles_enabled";
+
     private ContentResolver mResolver;
     private CharSequence[] mEntries;
     private CharSequence[] mEntryValues;
+    private MainSwitchPreference mProfilesEnabled;
+    private final List<Preference> mAppPreferences = new ArrayList<>();
 
     private static final class App {
         final String packageName;
@@ -57,20 +63,28 @@ public class ScreenColorAppsFragment extends SettingsBasePreferenceFragment
         mResolver = context.getContentResolver();
         mEntries = new CharSequence[] {
                 getString(R.string.color_app_profile_default),
-                getString(R.string.color_app_profile_off),
                 getString(R.string.color_mode_standard),
                 getString(R.string.color_mode_vivid),
-                getString(R.string.color_mode_natural),
+                getString(R.string.color_mode_disabled),
         };
         mEntryValues = new CharSequence[] {
                 String.valueOf(ColorSettings.APP_DEFAULT),
-                String.valueOf(ColorSettings.APP_OFF),
                 String.valueOf(ColorSettings.MODE_STANDARD),
                 String.valueOf(ColorSettings.MODE_VIVID),
-                String.valueOf(ColorSettings.MODE_NATURAL),
+                String.valueOf(ColorSettings.MODE_DISABLED),
         };
 
-        setPreferenceScreen(getPreferenceManager().createPreferenceScreen(context));
+        final PreferenceScreen screen = getPreferenceManager().createPreferenceScreen(context);
+        mProfilesEnabled = new MainSwitchPreference(context);
+        mProfilesEnabled.setKey(KEY_PROFILES_ENABLED);
+        mProfilesEnabled.setPersistent(false);
+        mProfilesEnabled.setTitle(R.string.color_app_profiles_enabled_title);
+        mProfilesEnabled.setSummary(R.string.color_app_profiles_enabled_summary);
+        mProfilesEnabled.setChecked(ColorSettings.isAppProfilesEnabled(mResolver));
+        mProfilesEnabled.setOnPreferenceChangeListener(this);
+        screen.addPreference(mProfilesEnabled);
+        setPreferenceScreen(screen);
+        updateAppPreferencesEnabled(mProfilesEnabled.isChecked());
 
         // Labels and icons of all apps take a while; load them off the main thread.
         final Activity activity = requireActivity();
@@ -83,6 +97,14 @@ public class ScreenColorAppsFragment extends SettingsBasePreferenceFragment
                 }
             });
         }, "ScreenColorApps").start();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        final boolean enabled = ColorSettings.isAppProfilesEnabled(mResolver);
+        mProfilesEnabled.setChecked(enabled);
+        updateAppPreferencesEnabled(enabled);
     }
 
     private static List<App> loadApps(Context context) {
@@ -119,13 +141,27 @@ public class ScreenColorAppsFragment extends SettingsBasePreferenceFragment
             pref.setValue(String.valueOf(
                     profiles.getOrDefault(app.packageName, ColorSettings.APP_DEFAULT)));
             pref.setSummaryProvider(ListPreference.SimpleSummaryProvider.getInstance());
+            pref.setEnabled(mProfilesEnabled.isChecked());
             pref.setOnPreferenceChangeListener(this);
             screen.addPreference(pref);
+            mAppPreferences.add(pref);
+        }
+    }
+
+    private void updateAppPreferencesEnabled(boolean enabled) {
+        for (Preference preference : mAppPreferences) {
+            preference.setEnabled(enabled);
         }
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mProfilesEnabled) {
+            final boolean enabled = (Boolean) newValue;
+            ColorSettings.setAppProfilesEnabled(mResolver, enabled);
+            updateAppPreferencesEnabled(enabled);
+            return true;
+        }
         ColorSettings.putAppProfile(mResolver, preference.getKey(),
                 Integer.parseInt((String) newValue));
         return true;

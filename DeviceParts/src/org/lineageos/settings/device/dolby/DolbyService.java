@@ -31,10 +31,12 @@ import java.util.Map;
  *
  * The mode is written to daxService's Global profile key, the path stock ZUI's AudioService
  * uses; daxService applies it and saves it. While an app with its own mode plays media, that
- * mode is used instead of the default one, as stock does for its whitelisted apps. The Music
- * and Movie parameters go to the effect directly, for their own profile so they apply whenever
- * that profile is active. They are re-applied at boot and after audioserver restarts because
- * daxService restores only part of them (not the dialogue enhancer switch). On first start the
+ * mode is used instead of the default one, as stock does for its whitelisted apps. The graphic
+ * equalizer gains are applied to Dynamic, Movie and Music, matching stock's three enabled GEQs;
+ * the intelligent equalizer remains Music-only and the dialogue enhancer Movie-only. Dynamic
+ * retains stock's media-steered IEQ and dialogue enhancer at amount 4; this service leaves both
+ * parameters untouched. Settings are re-applied at boot and after audioserver restarts because
+ * daxService restores only part of them (not the dialogue enhancer switch). On first start
  * Secure keys are filled from the effect so the screens show the tuning defaults.
  */
 public class DolbyService extends Service {
@@ -265,11 +267,14 @@ public class DolbyService extends Service {
     }
 
     private void applyGeqGains(DolbyEffect effect) {
-        try {
-            effect.set(DolbySettings.PROFILE_MUSIC, DolbyEffect.PARAM_GEQ_BAND_GAINS,
-                    DolbySettings.toDapGeqGains(DolbySettings.getGeqGains(mResolver)));
-        } catch (RuntimeException e) {
-            Log.w(TAG, "Failed to set the graphic equalizer", e);
+        final int[] gains = DolbySettings.toDapGeqGains(DolbySettings.getGeqGains(mResolver));
+        for (int profile = DolbySettings.PROFILE_DYNAMIC;
+                profile <= DolbySettings.PROFILE_MUSIC; profile++) {
+            try {
+                effect.set(profile, DolbyEffect.PARAM_GEQ_BAND_GAINS, gains);
+            } catch (RuntimeException e) {
+                Log.w(TAG, "Failed to set the graphic equalizer for profile " + profile, e);
+            }
         }
     }
 

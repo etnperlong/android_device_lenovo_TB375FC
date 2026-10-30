@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <include layout="@layout/screen_color_gallery_pages" />
+
+    <ImageButton
+        android:id="@+id/screen_color_gallery_close"
+        style="@style/ScreenColorGalleryButton"
+        android:layout_gravity="top|start"
+        android:layout_margin="24dp"
+        android:src="@drawable/ic_screen_color_close"
+        android:contentDescription="@string/screen_color_gallery_close" />
+
+    <TextView
+        android:id="@+id/screen_color_gallery_credit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="24dp"
+        android:background="@drawable/screen_color_gallery_scrim"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="6dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white" />
+</FrameLayout>

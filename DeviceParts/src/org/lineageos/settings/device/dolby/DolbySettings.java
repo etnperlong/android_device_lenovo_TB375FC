@@ -19,12 +19,13 @@ import java.util.TreeMap;
 /**
  * Settings keys and value conversions for the Dolby screens and DolbyService.
  *
- * Dolby on/off and the active DAX profile stay in the Global keys owned by the vendor daxService
- * (it applies them to the effect and keeps them in sync with its Quick Settings tile). The user's
- * choices for the profile-specific parameters live in Secure keys that DolbyService applies;
- * these are the settings stock ZUI Settings exposes: intelligent equalizer preset and graphic
- * equalizer for Music, dialogue enhancer for Movie. The mode is the default one; apps can have
- * their own mode, used while they play audio (stock ZuiAudioWhitelist).
+ * Dolby on/off and the active DAX profile stay in the Global keys owned by vendor daxService
+ * (it applies them to the effect and keeps them in sync with its Quick Settings tile). Stock's
+ * Dynamic profile keeps its media-steered IEQ and dialogue tuning; the exposed profile
+ * parameters are stored in Secure keys that DolbyService applies: the intelligent equalizer
+ * preset is Music-only, graphic equalizer gains are shared by Dynamic, Movie and Music, and the
+ * dialogue enhancer is Movie-only. The mode is the default; apps may have their own mode, as
+ * stock ZuiAudioWhitelist does while they play audio.
  */
 public final class DolbySettings {
     /** Owned by daxService: 1 = Dolby on. */
@@ -36,7 +37,7 @@ public final class DolbySettings {
     public static final String KEY_PROFILE = "tb375fc_dolby_profile";
     /** Music intelligent equalizer preset: 0 none, 1 detailed, 2 balanced, 3 warm. */
     public static final String KEY_IEQ_PRESET = "tb375fc_dolby_ieq_preset";
-    /** Music graphic equalizer, GEQ_BANDS comma-separated gains in dB. */
+    /** Graphic equalizer gains shared by Dynamic, Movie and Music, comma-separated dB values. */
     public static final String KEY_GEQ_GAINS = "tb375fc_dolby_geq_gains";
     /** Movie dialogue enhancer level: 0 off, 1..DIALOGUE_MAX amount. */
     public static final String KEY_DIALOGUE_LEVEL = "tb375fc_dolby_dialogue_level";
@@ -75,16 +76,32 @@ public final class DolbySettings {
         return Settings.Global.getInt(cr, GLOBAL_DAP_STATE, 1) != 0;
     }
 
+    public static boolean putDolbyOn(ContentResolver cr, boolean on) {
+        return Settings.Global.putInt(cr, GLOBAL_DAP_STATE, on ? 1 : 0);
+    }
+
     public static int getProfile(ContentResolver cr) {
         return sanitizeProfile(Settings.Secure.getInt(cr, KEY_PROFILE, PROFILE_DYNAMIC));
+    }
+
+    public static boolean putProfile(ContentResolver cr, int profile) {
+        return Settings.Secure.putInt(cr, KEY_PROFILE, sanitizeProfile(profile));
     }
 
     public static int getIeqPreset(ContentResolver cr) {
         return clamp(Settings.Secure.getInt(cr, KEY_IEQ_PRESET, 0), 0, IEQ_PRESET_MAX);
     }
 
+    public static boolean putIeqPreset(ContentResolver cr, int preset) {
+        return Settings.Secure.putInt(cr, KEY_IEQ_PRESET, clamp(preset, 0, IEQ_PRESET_MAX));
+    }
+
     public static int getDialogueLevel(ContentResolver cr) {
         return clamp(Settings.Secure.getInt(cr, KEY_DIALOGUE_LEVEL, 0), 0, DIALOGUE_MAX);
+    }
+
+    public static boolean putDialogueLevel(ContentResolver cr, int level) {
+        return Settings.Secure.putInt(cr, KEY_DIALOGUE_LEVEL, clamp(level, 0, DIALOGUE_MAX));
     }
 
     public static int[] getGeqGains(ContentResolver cr) {
@@ -97,6 +114,10 @@ public final class DolbySettings {
 
     public static boolean isAppProfilesEnabled(ContentResolver cr) {
         return Settings.Secure.getInt(cr, KEY_APP_PROFILES_ENABLED, 1) != 0;
+    }
+
+    public static boolean putAppProfilesEnabled(ContentResolver cr, boolean enabled) {
+        return Settings.Secure.putInt(cr, KEY_APP_PROFILES_ENABLED, enabled ? 1 : 0);
     }
 
     public static Map<String, Integer> getUserAppProfiles(ContentResolver cr) {

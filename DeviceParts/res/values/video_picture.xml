@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Sample clips for the video picture page, in order, the first frame of each shown before
+         it plays, and who filmed each one (also credit them in README.md). The three arrays
+         must stay the same length and order. -->
+    <array name="video_picture_samples" translatable="false">
+        <item>@raw/video_picture_sample_1</item>
+        <item>@raw/video_picture_sample_2</item>
+        <item>@raw/video_picture_sample_3</item>
+    </array>
+    <array name="video_picture_posters" translatable="false">
+        <item>@drawable/video_picture_poster_1</item>
+        <item>@drawable/video_picture_poster_2</item>
+        <item>@drawable/video_picture_poster_3</item>
+    </array>
+    <string-array name="video_picture_credits" translatable="false">
+        <item>Cihat Dede · Pexels</item>
+        <item>Casey Whalen · Pexels</item>
+        <item>Roy S. · Pexels</item>
+    </string-array>
+
+    <!-- Extra room around the full screen controls, clear of the system gesture areas. -->
+    <dimen name="video_picture_fullscreen_bar_inset">16dp</dimen>
+
+    <style name="VideoPictureTime">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFeatureSettings">tnum</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

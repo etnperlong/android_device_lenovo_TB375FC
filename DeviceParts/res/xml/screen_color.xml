@@ -6,25 +6,25 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:title="@string/screen_color_title">
-    <org.lineageos.settings.device.color.ColorModePreference
-        android:key="color_mode" />
+    <org.lineageos.settings.device.widget.OptionCardsPreference
+        android:key="color_mode"
+        android:title="@string/color_mode_title"
+        app:layout="@layout/preference_color_mode" />
 
-    <org.lineageos.settings.device.color.ColorTemperaturePreference
-        android:key="color_temperature" />
-
-    <PreferenceCategory
-        android:key="category_color_more"
-        android:title="@string/category_color_more_title">
-        <SwitchPreferenceCompat
-            android:key="color_adaptive"
-            android:title="@string/color_adaptive_title"
-            android:summary="@string/color_adaptive_summary"
-            android:persistent="false" />
-    </PreferenceCategory>
+    <SwitchPreferenceCompat
+        android:key="color_adaptive"
+        android:title="@string/color_adaptive_title"
+        android:summary="@string/color_adaptive_summary"
+        android:persistent="false" />
 
     <PreferenceCategory
-        android:key="category_color_adjust"
-        android:title="@string/category_color_adjust_title">
+        android:key="category_color_advanced"
+        android:title="@string/category_color_advanced_title"
+        app:initialExpandedChildrenCount="0">
+        <org.lineageos.settings.device.color.ColorTemperaturePreference
+            android:key="color_temperature"
+            android:title="@string/color_temperature_title" />
+
         <SeekBarPreference
             android:key="color_saturation"
             android:title="@string/color_saturation_title"
@@ -45,71 +45,12 @@
             android:title="@string/color_adjust_reset_title" />
     </PreferenceCategory>
 
-    <PreferenceCategory
-        android:key="category_color_apps"
-        android:title="@string/category_color_apps_title">
-        <SwitchPreferenceCompat
-            android:key="color_app_profiles_enabled"
-            android:title="@string/color_app_profiles_enabled_title"
-            android:summary="@string/color_app_profiles_enabled_summary"
-            android:persistent="false" />
-
-        <Preference
-            android:key="color_app_profiles"
-            android:title="@string/color_app_profiles_title"
-            android:summary="@string/color_app_profiles_summary">
-            <intent
-                android:targetPackage="org.lineageos.settings.device"
-                android:targetClass="org.lineageos.settings.device.color.ScreenColorAppsActivity" />
-        </Preference>
-    </PreferenceCategory>
-
-    <!-- The single switches fold under "Advanced" until expanded. -->
-    <PreferenceCategory
-        android:key="category_video"
-        android:title="@string/category_video_title"
-        app:initialExpandedChildrenCount="1">
-        <SwitchPreferenceCompat
-            android:key="video_enhance"
-            android:title="@string/video_enhance_title"
-            android:summary="@string/video_enhance_summary"
-            android:persistent="false" />
-
-        <SwitchPreferenceCompat
-            android:key="video_sharpness"
-            android:dependency="video_enhance"
-            android:title="@string/video_sharpness_title"
-            android:persistent="false" />
-
-        <SwitchPreferenceCompat
-            android:key="video_dynamic_sharpness"
-            android:dependency="video_enhance"
-            android:title="@string/video_dynamic_sharpness_title"
-            android:persistent="false" />
-
-        <SwitchPreferenceCompat
-            android:key="video_iso_sharpness"
-            android:dependency="video_enhance"
-            android:title="@string/video_iso_sharpness_title"
-            android:persistent="false" />
-
-        <SwitchPreferenceCompat
-            android:key="video_ultra_resolution"
-            android:dependency="video_enhance"
-            android:title="@string/video_ultra_resolution_title"
-            android:summary="@string/video_ultra_resolution_summary"
-            android:persistent="false" />
-
-        <SwitchPreferenceCompat
-            android:key="video_dynamic_contrast"
-            android:dependency="video_enhance"
-            android:title="@string/video_dynamic_contrast_title"
-            android:persistent="false" />
-
-        <SwitchPreferenceCompat
-            android:key="video_color"
-            android:dependency="video_enhance"
-            android:title="@string/video_color_title"
-            android:persistent="false" />
-    </PreferenceCategory>
+    <Preference
+        android:key="color_app_profiles"
+        android:title="@string/color_app_profiles_title"
+        android:summary="@string/color_app_profiles_summary">
+        <intent
+            android:targetPackage="org.lineageos.settings.device"
+            android:targetClass="org.lineageos.settings.device.color.ScreenColorAppsActivity" />
+    </Preference>
 </PreferenceScreen>

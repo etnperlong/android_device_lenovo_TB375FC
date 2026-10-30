@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<!-- One sample clip (VideoGallery): its surface, and its poster over it until it plays. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <org.lineageos.settings.device.color.VideoPictureFrame
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <SurfaceView
+            android:id="@+id/video_picture_surface"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/gallery_page_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </org.lineageos.settings.device.color.VideoPictureFrame>
+</FrameLayout>

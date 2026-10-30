@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<!-- One card of OptionCardsPreference; label and icon are set in code. -->
+<RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/OptionCard" />

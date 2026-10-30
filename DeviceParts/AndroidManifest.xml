@@ -32,8 +32,10 @@
         android:allowBackup="false">
 
         <!-- Settings entry points. Settings shows an IA_SETTINGS activity of a system app on the
-             page whose category key it declares, so the same screens are reachable from the
-             homepage (all settings) and from the page each setting belongs to. -->
+             page whose category key it declares, inside the PreferenceCategory named by its
+             group key (DashboardFragment.refreshDashboardTiles), at its order among that
+             category's preferences. The homepage entry has every screen; each screen is also on
+             the Settings page it belongs to. -->
         <activity
             android:name=".DevicePartsActivity"
             android:exported="true"
@@ -77,6 +79,13 @@
                 android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.display" />
             <meta-data
+                android:name="com.android.settings.group_key"
+                android:value="category_other" />
+            <!-- The category's preferences are ordered as added; "Screen refresh rate" is 4. -->
+            <meta-data
+                android:name="com.android.settings.order"
+                android:value="5" />
+            <meta-data
                 android:name="com.android.settings.keyhint"
                 android:value="display_device_parts" />
             <meta-data
@@ -96,6 +105,13 @@
                 android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.display" />
             <meta-data
+                android:name="com.android.settings.group_key"
+                android:value="category_key_color" />
+            <!-- First in the Color category. -->
+            <meta-data
+                android:name="com.android.settings.order"
+                android:value="-100" />
+            <meta-data
                 android:name="com.android.settings.keyhint"
                 android:value="display_screen_color" />
             <meta-data
@@ -110,22 +126,61 @@
             android:theme="@style/Theme.SubSettingsBase" />
 
         <activity
-            android:name=".CoverPartsActivity"
+            android:name=".color.ScreenColorGalleryActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ScreenColorGallery" />
+
+        <activity
+            android:name=".color.VideoPictureActivity"
             android:exported="true"
-            android:label="@string/smart_cover_title"
+            android:label="@string/video_picture_title"
             android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
             <meta-data
                 android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.lockscreen" />
+                android:value="com.android.settings.category.ia.display" />
+            <meta-data
+                android:name="com.android.settings.group_key"
+                android:value="category_key_color" />
+            <!-- Right after "Screen color". -->
+            <meta-data
+                android:name="com.android.settings.order"
+                android:value="-99" />
             <meta-data
                 android:name="com.android.settings.keyhint"
-                android:value="lockscreen_smart_cover" />
+                android:value="display_video_picture" />
             <meta-data
                 android:name="com.android.settings.summary"
-                android:resource="@string/smart_cover_summary" />
+                android:resource="@string/video_picture_summary" />
+        </activity>
+
+        <!-- Configuration changes, a folio keyboard attaching included, must not stop playback. -->
+        <activity
+            android:name=".color.VideoPictureFullScreenActivity"
+            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Theme.ScreenColorGallery" />
+
+        <activity
+            android:name=".AccessoriesActivity"
+            android:exported="true"
+            android:label="@string/accessories_title"
+            android:theme="@style/Theme.SubSettingsBase">
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.connect" />
+            <meta-data
+                android:name="com.android.settings.keyhint"
+                android:value="connected_accessories" />
+            <meta-data
+                android:name="com.android.settings.summary"
+                android:resource="@string/accessories_summary" />
         </activity>
 
         <activity
@@ -140,6 +195,13 @@
                 android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.sound" />
             <meta-data
+                android:name="com.android.settings.group_key"
+                android:value="audio_category" />
+            <!-- First in the Audio category, whose preferences have orders from -115. -->
+            <meta-data
+                android:name="com.android.settings.order"
+                android:value="-200" />
+            <meta-data
                 android:name="com.android.settings.keyhint"
                 android:value="sound_dolby" />
             <meta-data
@@ -148,15 +210,15 @@
         </activity>
 
         <activity
-            android:name=".dolby.DolbyEqualizerActivity"
-            android:exported="false"
-            android:label="@string/dolby_geq_title"
-            android:theme="@style/Theme.SubSettingsBase" />
-
-        <activity
             android:name=".dolby.DolbyAppsActivity"
             android:exported="false"
             android:label="@string/dolby_app_profiles_title"
+            android:theme="@style/Theme.SubSettingsBase" />
+
+        <activity
+            android:name=".dolby.DolbyEqualizerActivity"
+            android:exported="false"
+            android:label="@string/dolby_geq_settings_title"
             android:theme="@style/Theme.SubSettingsBase" />
 
         <activity
@@ -170,6 +232,13 @@
             <meta-data
                 android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.battery" />
+            <meta-data
+                android:name="com.android.settings.group_key"
+                android:value="power_usage_summary_category" />
+            <!-- Last in the first category, after battery usage, saver and adaptive battery. -->
+            <meta-data
+                android:name="com.android.settings.order"
+                android:value="10" />
             <meta-data
                 android:name="com.android.settings.keyhint"
                 android:value="battery_perf_profiles" />

@@ -8,16 +8,20 @@
 
     <!-- Settings entry points -->
     <string name="device_parts_title">Device parts</string>
-    <string name="device_parts_summary">Performance, screen color, accessories, touch and Dolby Atmos</string>
+    <string name="device_parts_summary">Screen color, video picture, Dolby Atmos, performance, accessories, refresh rate and touch</string>
     <string name="display_parts_title">Refresh rate and touch</string>
     <string name="display_parts_summary">Reading mode refresh rate, touch game mode</string>
+    <string name="category_miravision_title" translatable="false">MediaTek MiraVision™</string>
+    <string name="category_dolby_atmos_title" translatable="false">Dolby Atmos®</string>
 
-    <string name="category_accessories_title">Official accessories</string>
     <string name="category_display_title">Refresh rate</string>
     <string name="category_touch_title">Touch</string>
-    <string name="category_audio_title">Audio</string>
-    <string name="category_perf_title">Performance</string>
-    <string name="category_color_title">Color</string>
+    <string name="accessories_title">Accessories</string>
+    <string name="accessories_summary">Set up official Lenovo pens, keyboards and magnetic covers</string>
+    <string name="category_pen_title">Pen</string>
+    <string name="category_keyboard_title">Keyboard</string>
+    <string name="category_cover_title">Cover</string>
+    <string name="category_misc_title">Other</string>
 
     <string name="pen_refresh_cap_title">Limit to 120 Hz while using the pen</string>
     <string name="pen_refresh_cap_summary">The active pen is reported to work only up to 120 Hz. The limit lifts 10 seconds after the last pen input.</string>
@@ -27,12 +31,12 @@
     <string name="touch_game_mode_title">Touch game mode</string>
     <string name="touch_game_mode_summary">Game mode of the touch controller. Turns off again after a restart.</string>
     <string name="touch_game_mode_unavailable">Not available</string>
-    <string name="smart_cover_title">Smart cover</string>
-    <string name="smart_cover_summary">Sleep and lock when the folio cover is closed</string>
+    <string name="smart_cover_title">Magnetic cover</string>
+    <string name="smart_cover_summary">Sleep and lock when the magnetic cover is closed</string>
     <string name="pen_notifications_title">Pen connection notifications</string>
-    <string name="pen_notifications_summary">Show a notification when a Lenovo pen connects or disconnects</string>
+    <string name="pen_notifications_summary">Show a notification when the pen connects or disconnects. Official Lenovo pens only</string>
     <string name="keyboard_notifications_title">Keyboard connection notifications</string>
-    <string name="keyboard_notifications_summary">Show a notification when the Lenovo folio keyboard connects or disconnects</string>
+    <string name="keyboard_notifications_summary">Show a notification when the keyboard connects or disconnects. Official Lenovo pogo pin keyboards only</string>
 
     <!-- Pen notifications -->
     <string name="pen_notification_channel">Pen connection</string>
@@ -45,13 +49,13 @@
     <string name="keyboard_disconnected_title">Keyboard disconnected</string>
 
     <!-- Dolby Atmos -->
-    <string name="dolby_title">Dolby Atmos</string>
-    <string name="dolby_summary">Sound mode, equalizer, dialogue enhancer and app modes</string>
-    <string name="dolby_enable_title">Use Dolby Atmos</string>
-    <string name="dolby_profile_title">Default mode</string>
+    <string name="dolby_title">Dolby Atmos®</string>
+    <string name="dolby_summary">Turn on immersive surround sound</string>
+    <string name="dolby_mode_title">Mode</string>
     <string name="dolby_profile_dynamic">Dynamic</string>
     <string name="dolby_profile_movie">Movie</string>
     <string name="dolby_profile_music">Music</string>
+    <string name="dolby_mode_off">Off</string>
     <string name="category_dolby_music_title">Music mode</string>
     <string name="dolby_ieq_preset_title">Sound effect</string>
     <string name="dolby_ieq_preset_none">None</string>
@@ -59,8 +63,14 @@
     <string name="dolby_ieq_preset_balanced">Balanced</string>
     <string name="dolby_ieq_preset_warm">Warm</string>
     <string name="dolby_geq_title">Equalizer</string>
-    <string name="dolby_geq_summary">Adjust 10 frequency bands</string>
+    <string name="dolby_geq_settings_title">Equalizer settings</string>
+    <string name="dolby_geq_settings_summary">Adjust the sound band by band in the Dynamic, Movie and Music modes</string>
     <string name="dolby_geq_reset_title">Reset to flat</string>
+    <string name="dolby_geq_reset_confirm_title">Reset to flat?</string>
+    <string name="dolby_geq_reset_confirm_message">All bands go back to 0 dB.</string>
+    <string name="dolby_geq_reset_confirm">Reset</string>
+    <string name="dolby_geq_description">10-band graphic equalizer. Drag a band to set its gain between -6 and +6 dB</string>
+    <string name="dolby_geq_gain_db" translatable="false">%1$s dB</string>
     <string name="dolby_geq_band_hz">%1$d Hz</string>
     <string name="dolby_geq_band_khz">%1$.1f kHz</string>
     <string name="category_dolby_movie_title">Movie mode</string>
@@ -75,47 +85,61 @@
 
     <!-- Screen color -->
     <string name="screen_color_title">Screen color</string>
-    <string name="screen_color_summary">Color mode, color temperature and app colors</string>
+    <string name="screen_color_summary">Enhance how colors look on the screen</string>
+    <string name="video_picture_title">Video picture</string>
+    <string name="video_picture_summary">Enhance the clarity and color of hardware-decoded video</string>
+    <string name="video_picture_play">Play</string>
+    <string name="video_picture_pause">Pause</string>
+    <string name="video_picture_position">Playback position</string>
+    <string name="video_picture_fullscreen">Play in full screen</string>
+    <string name="video_picture_credit">Video: %1$s</string>
     <string name="color_mode_title">Color mode</string>
     <string name="color_mode_standard">Standard</string>
     <string name="color_mode_vivid">Vivid</string>
-    <string name="color_mode_natural">Natural</string>
+    <string name="color_mode_disabled">Disabled</string>
+    <string name="screen_color_gallery_fullscreen">Full screen</string>
+    <string name="screen_color_gallery_close">Exit full screen</string>
+    <string name="screen_color_gallery_credit">Photo: %1$s</string>
     <string name="color_temperature_title">Color temperature</string>
     <string name="color_temperature_standard">Standard</string>
     <string name="color_temperature_warm">Warm</string>
     <string name="color_temperature_cool">Cool</string>
     <string name="color_temperature_tip">Tap or drag the dot on the color wheel to tint the screen. Choose Standard to go back.</string>
     <string name="color_wheel_description">Color temperature wheel</string>
-    <string name="category_color_more_title">More settings</string>
     <string name="color_adaptive_title">Adapt to ambient light</string>
     <string name="color_adaptive_summary">Adjust the screen\'s white to the color of the surrounding light, for more comfortable viewing</string>
-    <string name="category_color_adjust_title">Picture adjustment</string>
+    <string name="category_color_advanced_title">Advanced adjustments</string>
     <string name="color_saturation_title">Saturation</string>
     <string name="color_contrast_title">Contrast</string>
     <string name="color_sharpness_title">Sharpness</string>
     <string name="color_adjust_default">Default</string>
     <string name="color_adjust_reset_title">Reset picture adjustment</string>
-    <string name="category_color_apps_title">Apps</string>
     <string name="color_app_profiles_enabled_title">Switch color by app</string>
     <string name="color_app_profiles_enabled_summary">While an app is in front, use the color setting chosen for it</string>
-    <string name="color_app_profiles_title">App colors</string>
+    <string name="color_app_profiles_title">Per-app settings</string>
     <string name="color_app_profiles_summary">Turn color enhancement off or choose a color mode for each app</string>
     <string name="color_app_profile_default">Screen color settings</string>
-    <string name="color_app_profile_off">Off (accurate colors)</string>
-    <string name="category_video_title">Video picture</string>
     <string name="video_enhance_title">Video picture enhancement</string>
     <string name="video_enhance_summary">MediaTek\'s extra processing of hardware-decoded video. Turn it off if video edges look too bright, noise stands out or colors look wrong</string>
+    <string name="video_enhance_on">On</string>
+    <string name="video_enhance_off">Off</string>
     <string name="video_sharpness_title">Sharpening</string>
+    <string name="video_sharpness_summary">Make edges and fine detail in video look crisper</string>
     <string name="video_dynamic_sharpness_title">Dynamic sharpening</string>
+    <string name="video_dynamic_sharpness_summary">Adjust how much video is sharpened to what each scene shows</string>
     <string name="video_iso_sharpness_title">Noise-adaptive sharpening</string>
+    <string name="video_iso_sharpness_summary">Sharpen less where video is noisy, such as footage shot in low light</string>
     <string name="video_ultra_resolution_title">Ultra resolution</string>
     <string name="video_ultra_resolution_summary">Sharpen low-resolution video as it is enlarged</string>
     <string name="video_dynamic_contrast_title">Dynamic contrast</string>
+    <string name="video_dynamic_contrast_summary">Adjust brightness and contrast scene by scene to bring out detail in dark and bright areas</string>
     <string name="video_color_title">Color enhancement</string>
+    <string name="video_color_summary">Adjust video colors to what each scene shows, for richer colors</string>
 
     <!-- Performance profiles -->
     <string name="perf_title">Performance profiles</string>
-    <string name="perf_summary">Tune MediaTek Dimensity performance and thermal policies</string>
+    <string name="perf_scheduling_title">Performance tuning</string>
+    <string name="perf_summary">Fine-tune parameters to get the most out of the Dimensity chip</string>
     <string name="perf_enabled_title">Adjust performance by app</string>
     <string name="perf_enabled_summary">Tell the MediaTek power service which app is in front and apply its profile. Apps with vendor or recommended profiles use them by default.</string>
     <string name="category_perf_known_apps">Apps with profiles</string>
@@ -158,9 +182,10 @@
     <string name="perf_cluster_medium">Medium cores</string>
     <string name="perf_cluster_big">Big cores</string>
     <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
+    <string name="perf_cpu_min_description">Minimum frequency of %1$s</string>
+    <string name="perf_cpu_max_description">Maximum frequency of %1$s</string>
+    <string name="perf_cpu_range_description">Frequency range of %1$s</string>
     <string name="perf_cpu_range">%1$d–%2$d</string>
-    <string name="perf_cpu_min_title">%1$s minimum</string>
-    <string name="perf_cpu_max_title">%1$s maximum</string>
     <string name="perf_freq_ghz">%1$.2f GHz</string>
     <string name="perf_freq_mhz">%1$d MHz</string>
     <string name="perf_refresh_rate_title">Refresh rate lock</string>
@@ -171,5 +196,5 @@
     <!-- Quick Settings tiles -->
     <string name="tile_reading_low_refresh">Reading 30 Hz</string>
     <string name="tile_touch_game_mode">Touch game mode</string>
-    <string name="tile_smart_cover">Smart cover</string>
+    <string name="tile_smart_cover">Magnetic cover</string>
 </resources>

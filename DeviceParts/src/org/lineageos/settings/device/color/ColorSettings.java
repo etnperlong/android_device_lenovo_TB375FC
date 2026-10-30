@@ -16,9 +16,11 @@ import java.util.TreeMap;
 /**
  * Settings keys and value conversions for the screen color screens and ScreenColorService.
  *
- * Stock ZUI keeps the same choices in Secure mtk_color_mode / mtk_color_temperature and System
- * auto_color_temperature, read by ZuiDisplayService in services.jar; here they live in this
- * app's own Secure keys. The picture adjustments and the app color settings are additions.
+ * Stock ZUI keeps the Standard and Vivid choices in Secure mtk_color_mode /
+ * mtk_color_temperature and System auto_color_temperature, read by ZuiDisplayService in
+ * services.jar; here they live in this app's own Secure keys. Disabled withdraws this app's
+ * picture-quality tuning so the system's Display color mode and panel defaults take over.
+ * Picture adjustments and per-app color settings are additions.
  */
 public final class ColorSettings {
     /** Color mode, one of the MODE_* values. */
@@ -31,7 +33,7 @@ public final class ColorSettings {
     public static final String KEY_ADAPTIVE = "tb375fc_color_adaptive";
     /** 1 = use the app color settings. */
     public static final String KEY_APP_PROFILES_ENABLED = "tb375fc_color_app_profiles_enabled";
-    /** App color settings, "package=value,...", value APP_OFF or a MODE_* value. */
+    /** App color settings, "package=value,...", each value a MODE_* value. */
     public static final String KEY_APP_PROFILES = "tb375fc_color_app_profiles";
     /** 1 = MediaTek's video picture enhancements (VIDEO_FEATURES) apply, 0 = all off. */
     public static final String KEY_VIDEO_ENHANCE = "tb375fc_video_enhance";
@@ -39,7 +41,8 @@ public final class ColorSettings {
     // Values of stock's mtk_color_mode, as ZuiDisplayService.setPictureMode handles them.
     public static final int MODE_STANDARD = 0;
     public static final int MODE_VIVID = 1;
-    public static final int MODE_NATURAL = 2;
+    /** Use panel PQ XML defaults and let the system's Display color mode decide the look. */
+    public static final int MODE_DISABLED = 3;
     /** Stock's default (ZuiDisplayService reads mtk_color_mode with default 1). */
     public static final int DEFAULT_MODE = MODE_VIVID;
 
@@ -50,8 +53,6 @@ public final class ColorSettings {
 
     /** App color setting: the screen color settings apply. Not stored. */
     public static final int APP_DEFAULT = -1;
-    /** App color setting: no color enhancement (Standard mode, neutral white, no extras). */
-    public static final int APP_OFF = -2;
 
     /**
      * One MediaTek picture adjustment: a setPQIndex index with levels 0..LEVEL_MAX. The
@@ -374,11 +375,18 @@ public final class ColorSettings {
     }
 
     static boolean isAppProfile(int profile) {
-        return profile == APP_DEFAULT || profile == APP_OFF || profile == sanitizeMode(profile);
+        return profile == APP_DEFAULT || isAppMode(profile);
     }
 
+    /** Modes an app can have instead of the screen color settings: all of them. */
+    static boolean isAppMode(int mode) {
+        return mode == MODE_STANDARD || mode == MODE_VIVID || mode == MODE_DISABLED;
+    }
+
+    /** Unrecognized stored modes, including the retired value 2, fall back to Vivid. */
     static int sanitizeMode(int mode) {
-        return mode == MODE_STANDARD || mode == MODE_NATURAL ? mode : MODE_VIVID;
+        return mode == MODE_STANDARD || mode == MODE_VIVID || mode == MODE_DISABLED
+                ? mode : MODE_VIVID;
     }
 
     private static float clamp01(float value) {

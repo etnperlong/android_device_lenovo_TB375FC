@@ -15,7 +15,6 @@ import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SeekBarPreference;
 import androidx.preference.SwitchPreferenceCompat;
 
 import com.android.settingslib.widget.SettingsBasePreferenceFragment;
@@ -29,8 +28,8 @@ import java.util.TreeSet;
 /**
  * The profile of one app: follow the vendor rules, off, or custom. A custom profile uses one of
  * the vendor rule sets as preset, starting with the app's own if it has one; with advanced
- * parameters, the preset's CPU frequency limits are replaced by the sliders (one minimum and one
- * maximum per cluster, along the cpufreq table) and the refresh rate can be limited.
+ * parameters, the preset's CPU frequency limits are replaced by a linked range for each cluster
+ * along the cpufreq table, and the refresh rate can be limited.
  */
 public class PerformanceAppFragment extends SettingsBasePreferenceFragment {
     private static final String KEY_MODE = "perf_mode";
@@ -54,8 +53,7 @@ public class PerformanceAppFragment extends SettingsBasePreferenceFragment {
     private Preference mPresetDetails;
     private SwitchPreferenceCompat mAdvanced;
     private PreferenceCategory mCpu;
-    private SeekBarPreference[] mCpuMin;
-    private SeekBarPreference[] mCpuMax;
+    private CpuRangePreference[] mCpuRanges;
     private ListPreference mRefreshRate;
     private Preference mReset;
 
@@ -153,14 +151,25 @@ public class PerformanceAppFragment extends SettingsBasePreferenceFragment {
         mCpu.setKey(KEY_CPU);
         mCpu.setTitle(R.string.category_perf_cpu);
         screen.addPreference(mCpu);
-        mCpuMin = new SeekBarPreference[mClusters.size()];
-        mCpuMax = new SeekBarPreference[mClusters.size()];
+        mCpuRanges = new CpuRangePreference[mClusters.size()];
         for (int i = 0; i < mClusters.size(); i++) {
-            final String name = mLabels.clusterName(i, mClusters.get(i), mClusters.size());
-            mCpuMin[i] = addCpuSlider(context, i, false,
-                    getString(R.string.perf_cpu_min_title, name));
-            mCpuMax[i] = addCpuSlider(context, i, true,
-                    getString(R.string.perf_cpu_max_title, name));
+            final int clusterIndex = i;
+            final CpuClusters.Cluster cluster = mClusters.get(i);
+            final String name = mLabels.clusterName(i, cluster, mClusters.size());
+            final String[] frequencies = new String[cluster.frequencies.length];
+            for (int j = 0; j < frequencies.length; j++) {
+                frequencies[j] = mLabels.formatFrequency(cluster.frequencies[j]);
+            }
+            mCpuRanges[i] = new CpuRangePreference(context);
+            mCpuRanges[i].setKey("perf_cpu_range_" + i);
+            mCpuRanges[i].setTitle(name);
+            mCpuRanges[i].setFrequencies(frequencies);
+            mCpuRanges[i].setDescriptions(getString(R.string.perf_cpu_min_description, name),
+                    getString(R.string.perf_cpu_max_description, name),
+                    getString(R.string.perf_cpu_range_description, name));
+            mCpuRanges[i].setOnLimitsChangedListener(
+                    (min, max) -> setCpuLimits(clusterIndex, min, max));
+            mCpu.addPreference(mCpuRanges[i]);
         }
 
         mRefreshRate = new ListPreference(context);
@@ -202,28 +211,10 @@ public class PerformanceAppFragment extends SettingsBasePreferenceFragment {
         updateUi();
     }
 
-    private SeekBarPreference addCpuSlider(Context context, int cluster, boolean max,
-            String title) {
-        final SeekBarPreference slider = new SeekBarPreference(context);
-        slider.setKey((max ? "perf_cpu_max_" : "perf_cpu_min_") + cluster);
-        slider.setPersistent(false);
-        slider.setTitle(title);
-        slider.setMin(0);
-        slider.setMax(mClusters.get(cluster).frequencies.length - 1);
-        slider.setShowSeekBarValue(false);
-        slider.setUpdatesContinuously(false);
-        slider.setOnPreferenceChangeListener((preference, newValue) -> {
-            setCpuLimit(cluster, max, (Integer) newValue);
-            return true;
-        });
-        mCpu.addPreference(slider);
-        return slider;
-    }
-
     /** Distinct refresh rates of the built-in display, rounded to whole Hz, ascending. */
     private static List<Integer> supportedRefreshRates(Context context) {
-        final Display display = context.getSystemService(DisplayManager.class)
-                .getDisplay(Display.DEFAULT_DISPLAY);
+        final DisplayManager dm = context.getSystemService(DisplayManager.class);
+        final Display display = dm.getDisplay(Display.DEFAULT_DISPLAY);
         final TreeSet<Integer> rates = new TreeSet<>();
         if (display != null) {
             for (Display.Mode mode : display.getSupportedModes()) {
@@ -251,18 +242,12 @@ public class PerformanceAppFragment extends SettingsBasePreferenceFragment {
         return vendor != null ? vendor : mRecommended.getPreset(mPackage);
     }
 
-    /** Moves one slider; the other limit of the cluster follows so that min <= max. */
-    private void setCpuLimit(int cluster, boolean max, int index) {
+    /** Stores a cluster's limits, table indexes with min <= max (CpuRangePreference). */
+    private void setCpuLimits(int cluster, int minIndex, int maxIndex) {
         final CpuClusters.Cluster table = mClusters.get(cluster);
-        final int khz = table.frequencies[index];
         ensureCpuArrays();
-        if (max) {
-            mProfile.cpuMax[cluster] = khz;
-            mProfile.cpuMin[cluster] = Math.min(mProfile.cpuMin[cluster], khz);
-        } else {
-            mProfile.cpuMin[cluster] = khz;
-            mProfile.cpuMax[cluster] = Math.max(mProfile.cpuMax[cluster], khz);
-        }
+        mProfile.cpuMin[cluster] = table.frequencies[minIndex];
+        mProfile.cpuMax[cluster] = table.frequencies[maxIndex];
         save();
     }
 
@@ -329,11 +314,10 @@ public class PerformanceAppFragment extends SettingsBasePreferenceFragment {
         ensureCpuArrays();
         for (int i = 0; i < mClusters.size(); i++) {
             final CpuClusters.Cluster cluster = mClusters.get(i);
-            mCpuMin[i].setValue(cluster.indexOf(mProfile.cpuMin[i]));
-            mCpuMin[i].setSummary(mLabels.formatFrequency(mProfile.cpuMin[i]));
-            mCpuMax[i].setValue(cluster.indexOf(mProfile.cpuMax[i]));
-            mCpuMax[i].setSummary(mLabels.formatFrequency(mProfile.cpuMax[i]));
+            mCpuRanges[i].setLimits(cluster.indexOf(mProfile.cpuMin[i]),
+                    cluster.indexOf(mProfile.cpuMax[i]));
         }
         mRefreshRate.setValue(String.valueOf(mProfile.refreshRate));
     }
 }
+

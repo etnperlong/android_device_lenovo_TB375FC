@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/dolby_geq_settings_title">
+
+    <org.lineageos.settings.device.dolby.DolbyEqualizerPreference
+        android:key="dolby_geq" />
+</PreferenceScreen>

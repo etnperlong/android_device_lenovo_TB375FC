@@ -9,10 +9,11 @@
 //  - display: caps the panel at 120 Hz while the active pen is in use (stock: MediaTek
 //    SurfaceFlinger PenTimer, which AOSP SurfaceFlinger lacks) and optionally at 30 Hz while
 //    LineageOS reading mode is on;
-//  - color: screen color mode, color temperature, picture adjustment and MediaTek's video picture
-//    enhancements (sharpening, ultra resolution, dynamic contrast, video color) through the
-//    MediaTek picture quality service (stock: ZUI ZuiDisplayService in services.jar), colors per
-//    app if chosen;
+//  - color: screen color mode (Standard, Vivid, or Disabled for the vendor defaults), color
+//    temperature, picture adjustment and MediaTek's video picture enhancements (sharpening,
+//    ultra resolution, dynamic contrast, video color) through the MediaTek picture quality
+//    service (stock: ZUI ZuiDisplayService in services.jar), colors per app if chosen; sample
+//    pictures and hardware-decoded sample clips (MediaPlayer on a SurfaceView) to judge them by;
 //  - pen: turns on the Novatek touch controller's pen mode (/proc/support_pen) while a Lenovo
 //    pen is paired (stock: ZUI BluetoothPenConnectPolicy in services.jar) and notifies when the
 //    pen connects or disconnects;
@@ -24,11 +25,12 @@
 //    PhoneWindowManager loads into system_server from this APK (overlay/LineageSdkDeviceOverlay),
 //    not a service of the app; proguard.flags keeps it from being shrunk away.
 //  - audio: rotates the speaker channels with the display (stock gsensor_rotation);
-//  - dolby: the stock ZUI Dolby Atmos settings on top of the vendor daxService;
+//  - dolby: the stock ZUI Dolby Atmos settings on top of the vendor daxService, with a graphic
+//    equalizer shared by the Dynamic, Movie and Music modes;
 //  - perf: per-app performance profiles: the foreground app goes to the MediaTek power HAL
 //    (IMtkpower_applist, as stock system_server does) or a custom power HAL lock is held for it.
-// Its settings screens are injected into the Settings homepage, Display, Sound, Battery and Lock
-// screen pages.
+// Its screens are listed on its Settings homepage entry and placed in the Display, Sound,
+// Battery and Connected devices pages of Settings.
 // Not privileged: uid 1000 already passes every permission check, and a priv-app would need
 // privapp-permissions entries.
 
@@ -46,8 +48,10 @@ android_app {
 
     static_libs: [
         "SettingsLibCollapsingToolbarBaseActivity",
+        "SettingsLibMainSwitchPreference",
         "SettingsLibSettingsTheme",
         "androidx.preference_preference",
+        "com.google.android.material_material",
         "org.lineageos.platform.internal",
     ],
 

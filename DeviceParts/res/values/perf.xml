@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- The CPU frequency dropdowns: room for "3.35 GHz" and the arrow, the same in every row so
+         the sliders line up. -->
+    <dimen name="cpu_range_spinner_width">140dp</dimen>
+</resources>

@@ -14,36 +14,38 @@ import android.provider.Settings;
 
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
 import androidx.preference.SeekBarPreference;
-import androidx.preference.TwoStatePreference;
 
 import com.android.settingslib.widget.SettingsBasePreferenceFragment;
 
 import org.lineageos.settings.device.R;
+import org.lineageos.settings.device.widget.OptionCardsPreference;
 
 /**
- * Dolby Atmos settings, laid out like stock ZUI Settings (sound/dolby): switch, default mode,
- * the Music equalizers, the Movie dialogue enhancer, and the app modes. Values are read from and
- * written to settings only; DolbyService applies them.
+ * Dolby Atmos settings, after stock ZUI Settings (sound/dolby): the mode as a row of cards with
+ * Off for Dolby off, the parameter stock exposes for the chosen mode (Music: intelligent
+ * equalizer preset, Movie: dialogue enhancer; Dynamic keeps its own tuning), the entry to the
+ * graphic equalizer of all three modes (DolbyEqualizerFragment, hidden while Dolby is off) and
+ * the app modes. Everything else but the cards is disabled while Dolby is off. Values are read
+ * from and written to settings only; DolbyService applies them.
  */
 public class DolbyFragment extends SettingsBasePreferenceFragment
         implements Preference.OnPreferenceChangeListener {
-    private static final String KEY_ENABLE = "dolby_enable";
-    private static final String KEY_PROFILE = "dolby_profile";
+    private static final String KEY_MODE = "dolby_mode";
     private static final String KEY_IEQ_PRESET = "dolby_ieq_preset";
-    private static final String KEY_GEQ = "dolby_geq";
     private static final String KEY_DIALOGUE_LEVEL = "dolby_dialogue_level";
-    private static final String KEY_APP_PROFILES_ENABLED = "dolby_app_profiles_enabled";
-    private static final String KEY_APP_PROFILES = "dolby_app_profiles";
+    /** Card value for Dolby off; the DAX profiles are 0 and up. */
+    private static final int MODE_OFF = -1;
 
     private ContentResolver mResolver;
-    private TwoStatePreference mEnable;
-    private ListPreference mProfile;
+    private OptionCardsPreference mMode;
     private ListPreference mIeqPreset;
-    private Preference mGeq;
+    private PreferenceCategory mGeqCategory;
     private SeekBarPreference mDialogueLevel;
-    private TwoStatePreference mAppProfilesEnabled;
-    private Preference mAppProfiles;
+    private PreferenceCategory mMusicCategory;
+    private PreferenceCategory mMovieCategory;
+    private PreferenceCategory mAppsCategory;
 
     /** The Quick Settings tile can switch Dolby while this screen is shown. */
     private final ContentObserver mStateObserver =
@@ -59,26 +61,32 @@ public class DolbyFragment extends SettingsBasePreferenceFragment
         setPreferencesFromResource(R.xml.dolby_parts, rootKey);
         mResolver = requireContext().getContentResolver();
 
-        mEnable = findPreference(KEY_ENABLE);
-        mProfile = findPreference(KEY_PROFILE);
+        mMode = findPreference(KEY_MODE);
         mIeqPreset = findPreference(KEY_IEQ_PRESET);
-        mGeq = findPreference(KEY_GEQ);
+        mGeqCategory = findPreference("category_dolby_geq");
         mDialogueLevel = findPreference(KEY_DIALOGUE_LEVEL);
-        mAppProfilesEnabled = findPreference(KEY_APP_PROFILES_ENABLED);
-        mAppProfiles = findPreference(KEY_APP_PROFILES);
+        mMusicCategory = findPreference("category_dolby_music");
+        mMovieCategory = findPreference("category_dolby_movie");
+        mAppsCategory = findPreference("category_dolby_apps");
 
-        mProfile.setSummaryProvider(ListPreference.SimpleSummaryProvider.getInstance());
+        mMode.setOptions(
+                new int[] {DolbySettings.PROFILE_DYNAMIC, DolbySettings.PROFILE_MOVIE,
+                        DolbySettings.PROFILE_MUSIC, MODE_OFF},
+                new CharSequence[] {getString(R.string.dolby_profile_dynamic),
+                        getString(R.string.dolby_profile_movie),
+                        getString(R.string.dolby_profile_music),
+                        getString(R.string.dolby_mode_off)},
+                new int[] {R.drawable.ic_dolby_dynamic, R.drawable.ic_dolby_movie,
+                        R.drawable.ic_dolby_music, R.drawable.ic_dolby_off});
         mIeqPreset.setSummaryProvider(ListPreference.SimpleSummaryProvider.getInstance());
         mDialogueLevel.setMin(0);
         mDialogueLevel.setMax(DolbySettings.DIALOGUE_MAX);
         mDialogueLevel.setShowSeekBarValue(true);
         mDialogueLevel.setUpdatesContinuously(false);
 
-        mEnable.setOnPreferenceChangeListener(this);
-        mProfile.setOnPreferenceChangeListener(this);
+        mMode.setOnPreferenceChangeListener(this);
         mIeqPreset.setOnPreferenceChangeListener(this);
         mDialogueLevel.setOnPreferenceChangeListener(this);
-        mAppProfilesEnabled.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -86,10 +94,8 @@ public class DolbyFragment extends SettingsBasePreferenceFragment
         super.onResume();
         mResolver.registerContentObserver(
                 Settings.Global.getUriFor(DolbySettings.GLOBAL_DAP_STATE), false, mStateObserver);
-        mProfile.setValue(String.valueOf(DolbySettings.getProfile(mResolver)));
         mIeqPreset.setValue(String.valueOf(DolbySettings.getIeqPreset(mResolver)));
         mDialogueLevel.setValue(DolbySettings.getDialogueLevel(mResolver));
-        mAppProfilesEnabled.setChecked(DolbySettings.isAppProfilesEnabled(mResolver));
         updateState();
     }
 
@@ -101,35 +107,33 @@ public class DolbyFragment extends SettingsBasePreferenceFragment
 
     private void updateState() {
         final boolean on = DolbySettings.isDolbyOn(mResolver);
-        mEnable.setChecked(on);
-        mProfile.setEnabled(on);
-        mIeqPreset.setEnabled(on);
-        mGeq.setEnabled(on);
-        mDialogueLevel.setEnabled(on);
-        mAppProfilesEnabled.setEnabled(on);
-        mAppProfiles.setEnabled(on && mAppProfilesEnabled.isChecked());
+        final int profile = DolbySettings.getProfile(mResolver);
+        mMode.setValue(on ? profile : MODE_OFF);
+        mMusicCategory.setVisible(profile == DolbySettings.PROFILE_MUSIC);
+        mMovieCategory.setVisible(profile == DolbySettings.PROFILE_MOVIE);
+        mMusicCategory.setEnabled(on);
+        mMovieCategory.setEnabled(on);
+        mGeqCategory.setVisible(on);
+        mAppsCategory.setEnabled(on);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         switch (preference.getKey()) {
-            case KEY_ENABLE:
-                // The settings observer refreshes the other preferences.
-                return Settings.Global.putInt(mResolver, DolbySettings.GLOBAL_DAP_STATE,
-                        (Boolean) newValue ? 1 : 0);
-            case KEY_PROFILE:
-                return Settings.Secure.putInt(mResolver, DolbySettings.KEY_PROFILE,
-                        Integer.parseInt((String) newValue));
+            case KEY_MODE:
+                final int mode = (Integer) newValue;
+                final boolean ok = mode == MODE_OFF
+                        ? DolbySettings.putDolbyOn(mResolver, false)
+                        : DolbySettings.putProfile(mResolver, mode)
+                                && DolbySettings.putDolbyOn(mResolver, true);
+                // The state observer follows daxService's key; the profile is ours.
+                updateState();
+                return ok;
             case KEY_IEQ_PRESET:
-                return Settings.Secure.putInt(mResolver, DolbySettings.KEY_IEQ_PRESET,
+                return DolbySettings.putIeqPreset(mResolver,
                         Integer.parseInt((String) newValue));
             case KEY_DIALOGUE_LEVEL:
-                return Settings.Secure.putInt(mResolver, DolbySettings.KEY_DIALOGUE_LEVEL,
-                        (Integer) newValue);
-            case KEY_APP_PROFILES_ENABLED:
-                mAppProfiles.setEnabled((Boolean) newValue);
-                return Settings.Secure.putInt(mResolver, DolbySettings.KEY_APP_PROFILES_ENABLED,
-                        (Boolean) newValue ? 1 : 0);
+                return DolbySettings.putDialogueLevel(mResolver, (Integer) newValue);
             default:
                 return false;
         }

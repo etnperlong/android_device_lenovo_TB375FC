@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<!-- Disabled: let the system and panel color settings decide the look. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M12,3a9,9 0,1 1,0 18a9,9 0,1 1,0 -18z"
+        android:strokeWidth="1.5"
+        android:strokeColor="@color/swatch_outline" />
+    <path
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeColor="@color/swatch_outline"
+        android:pathData="M5.64,18.36L18.36,5.64" />
+</vector>

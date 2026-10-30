@@ -5,18 +5,24 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/dolby_title">
-    <SwitchPreferenceCompat
-        android:key="dolby_enable"
-        android:title="@string/dolby_enable_title"
+
+    <org.lineageos.settings.device.widget.OptionCardsPreference
+        android:key="dolby_mode"
+        android:title="@string/dolby_mode_title"
         android:persistent="false" />
 
-    <ListPreference
-        android:key="dolby_profile"
-        android:title="@string/dolby_profile_title"
-        android:dialogTitle="@string/dolby_profile_title"
-        android:entries="@array/dolby_profile_entries"
-        android:entryValues="@array/dolby_profile_values"
-        android:persistent="false" />
+    <PreferenceCategory
+        android:key="category_dolby_geq"
+        android:title="@string/dolby_geq_title">
+        <Preference
+            android:key="dolby_geq"
+            android:title="@string/dolby_geq_settings_title"
+            android:summary="@string/dolby_geq_settings_summary">
+            <intent
+                android:targetPackage="org.lineageos.settings.device"
+                android:targetClass="org.lineageos.settings.device.dolby.DolbyEqualizerActivity" />
+        </Preference>
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="category_dolby_music"
@@ -28,15 +34,6 @@
             android:entries="@array/dolby_ieq_preset_entries"
             android:entryValues="@array/dolby_ieq_preset_values"
             android:persistent="false" />
-
-        <Preference
-            android:key="dolby_geq"
-            android:title="@string/dolby_geq_title"
-            android:summary="@string/dolby_geq_summary">
-            <intent
-                android:targetPackage="org.lineageos.settings.device"
-                android:targetClass="org.lineageos.settings.device.dolby.DolbyEqualizerActivity" />
-        </Preference>
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -53,12 +50,6 @@
     <PreferenceCategory
         android:key="category_dolby_apps"
         android:title="@string/category_dolby_apps_title">
-        <SwitchPreferenceCompat
-            android:key="dolby_app_profiles_enabled"
-            android:title="@string/dolby_app_profiles_enabled_title"
-            android:summary="@string/dolby_app_profiles_enabled_summary"
-            android:persistent="false" />
-
         <Preference
             android:key="dolby_app_profiles"
             android:title="@string/dolby_app_profiles_title"

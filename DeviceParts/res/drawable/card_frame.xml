@@ -3,9 +3,10 @@
      SPDX-FileCopyrightText: The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
-<!-- Card behind the wheel, and the outline the picture is clipped to. -->
+<!-- A card behind content (the color wheel, the equalizer), and the outline pictures are
+     clipped to. -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
-    <corners android:radius="@dimen/screen_color_corner_radius" />
-    <solid android:color="@color/screen_color_surface" />
+    <corners android:radius="@dimen/card_corner_radius" />
+    <solid android:color="@color/card_surface" />
 </shape>

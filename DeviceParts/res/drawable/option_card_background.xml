@@ -10,24 +10,24 @@
         <selector>
             <item android:state_checked="true">
                 <shape android:shape="rectangle">
-                    <corners android:radius="@dimen/screen_color_option_corner_radius" />
-                    <solid android:color="@color/screen_color_option_checked" />
+                    <corners android:radius="@dimen/option_card_corner_radius" />
+                    <solid android:color="@color/option_card_checked" />
                     <stroke
                         android:width="2dp"
-                        android:color="@color/screen_color_option_checked_stroke" />
+                        android:color="@color/option_card_checked_stroke" />
                 </shape>
             </item>
             <item>
                 <shape android:shape="rectangle">
-                    <corners android:radius="@dimen/screen_color_option_corner_radius" />
-                    <solid android:color="@color/screen_color_surface" />
+                    <corners android:radius="@dimen/option_card_corner_radius" />
+                    <solid android:color="@color/card_surface" />
                 </shape>
             </item>
         </selector>
     </item>
     <item android:id="@android:id/mask">
         <shape android:shape="rectangle">
-            <corners android:radius="@dimen/screen_color_option_corner_radius" />
+            <corners android:radius="@dimen/option_card_corner_radius" />
             <solid android:color="@android:color/white" />
         </shape>
     </item>

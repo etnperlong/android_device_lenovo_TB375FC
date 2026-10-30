@@ -13,7 +13,7 @@
     android:paddingBottom="16dp">
 
     <TextView
-        style="@style/ScreenColorHeading"
+        style="@style/CardHeading"
         android:text="@string/color_temperature_title" />
 
     <LinearLayout
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center_horizontal"
-        android:background="@drawable/screen_color_frame"
+        android:background="@drawable/card_frame"
         android:paddingTop="32dp"
         android:paddingBottom="24dp"
         android:paddingHorizontal="24dp">
@@ -38,30 +38,30 @@
             android:layout_marginTop="20dp"
             android:gravity="center_horizontal"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textColor="@color/screen_color_secondary_text"
+            android:textColor="@color/card_secondary_text"
             android:text="@string/color_temperature_tip" />
     </LinearLayout>
 
     <RadioGroup
         android:id="@+id/color_temperature_group"
-        style="@style/ScreenColorOptions"
+        style="@style/OptionCards"
         android:layout_marginTop="12dp">
 
         <RadioButton
             android:id="@+id/color_temperature_standard"
-            style="@style/ScreenColorOption"
+            style="@style/OptionCard"
             android:drawableTop="@drawable/ic_color_temperature_standard"
             android:text="@string/color_temperature_standard" />
 
         <RadioButton
             android:id="@+id/color_temperature_warm"
-            style="@style/ScreenColorOption"
+            style="@style/OptionCard"
             android:drawableTop="@drawable/ic_color_temperature_warm"
             android:text="@string/color_temperature_warm" />
 
         <RadioButton
             android:id="@+id/color_temperature_cool"
-            style="@style/ScreenColorOption"
+            style="@style/OptionCard"
             android:drawableTop="@drawable/ic_color_temperature_cool"
             android:text="@string/color_temperature_cool" />
     </RadioGroup>

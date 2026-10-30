@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<!-- OptionCardsPreference: heading, optional description, a row of choice cards. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:id="@android:id/title"
+        style="@style/CardHeading" />
+
+    <TextView
+        android:id="@android:id/summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-4dp"
+        android:layout_marginBottom="12dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/card_secondary_text" />
+
+    <RadioGroup
+        android:id="@+id/option_cards"
+        style="@style/OptionCards" />
+</LinearLayout>

@@ -7,7 +7,7 @@ package org.lineageos.settings.device.dolby;
 
 import androidx.fragment.app.Fragment;
 
-/** Music mode graphic equalizer, opened from DolbyFragment. */
+/** The Dolby graphic equalizer, opened from DolbyFragment. */
 public class DolbyEqualizerActivity extends DolbyActivity {
     @Override
     protected Fragment createFragment() {

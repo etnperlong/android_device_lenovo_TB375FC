@@ -4,34 +4,29 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <string name="category_accessories_title">Official accessories</string>
     <string name="pen_notifications_title">Pen connection notifications</string>
-    <string name="pen_notifications_summary">Show a notification when a Lenovo pen connects or disconnects</string>
     <string name="keyboard_notifications_title">Keyboard connection notifications</string>
-    <string name="keyboard_notifications_summary">Show a notification when the Lenovo folio keyboard connects or disconnects</string>
     <string name="pen_notification_channel">Pen connection</string>
     <string name="pen_connected_title">Pen connected</string>
     <string name="pen_disconnected_title">Pen disconnected</string>
     <string name="keyboard_notification_channel">Keyboard connection</string>
     <string name="keyboard_connected_title">Keyboard connected</string>
     <string name="keyboard_disconnected_title">Keyboard disconnected</string>
-    <string name="dolby_summary">Sound mode, equaliser, dialogue enhancer and app modes</string>
     <string name="dolby_geq_title">Equaliser</string>
-    <string name="device_parts_summary">Performance, screen colour, accessories, touch and Dolby Atmos</string>
-    <string name="category_color_title">Colour</string>
+    <string name="device_parts_summary">Screen colour, video picture, Dolby Atmos, performance, accessories, refresh rate and touch</string>
     <string name="screen_color_title">Screen colour</string>
-    <string name="screen_color_summary">Colour mode, colour temperature and app colours</string>
+    <string name="screen_color_summary">Enhance how colours look on the screen</string>
+    <string name="video_picture_summary">Enhance the clarity and colour of hardware-decoded video</string>
     <string name="color_mode_title">Colour mode</string>
     <string name="color_temperature_title">Colour temperature</string>
     <string name="color_temperature_tip">Tap or drag the dot on the colour wheel to tint the screen. Choose Standard to go back.</string>
     <string name="color_adaptive_summary">Adjust the screen\'s white to the colour of the surrounding light, for more comfortable viewing</string>
     <string name="color_app_profiles_enabled_title">Switch colour by app</string>
     <string name="color_app_profiles_enabled_summary">While an app is in front, use the colour setting chosen for it</string>
-    <string name="color_app_profiles_title">App colours</string>
     <string name="color_app_profiles_summary">Turn colour enhancement off or choose a colour mode for each app</string>
     <string name="color_app_profile_default">Screen colour settings</string>
-    <string name="color_app_profile_off">Off (accurate colours)</string>
     <string name="color_wheel_description">Colour temperature wheel</string>
     <string name="video_enhance_summary">MediaTek\'s extra processing of hardware-decoded video. Turn it off if video edges look too bright, noise stands out or colours look wrong</string>
     <string name="video_color_title">Colour enhancement</string>
+    <string name="video_color_summary">Adjust video colours to what each scene shows, for richer colours</string>
 </resources>

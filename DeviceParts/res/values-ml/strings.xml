@@ -5,20 +5,18 @@
 -->
 <resources>
     <string name="app_name">ഉപകരണ സവിശേഷതകൾ</string>
-
     <string name="device_parts_title">ഉപകരണ സവിശേഷതകൾ</string>
-    <string name="device_parts_summary">പ്രകടനം, സ്ക്രീൻ നിറം, ആക്‌സസറികൾ, ടച്ച്, Dolby Atmos</string>
-
+    <string name="device_parts_summary">സ്ക്രീൻ നിറം, വീഡിയോ ചിത്ര നിലവാരം, Dolby Atmos, പ്രകടനം, ആക്‌സസറികൾ, റീഫ്രഷ് നിരക്കും ടച്ചും</string>
     <string name="display_parts_title">റീഫ്രഷ് നിരക്കും ടച്ചും</string>
     <string name="display_parts_summary">വായനാ മോഡ് റീഫ്രഷ് നിരക്ക്, ടച്ച് ഗെയിം മോഡ്</string>
-
-    <string name="category_accessories_title">ഔദ്യോഗിക ആക്‌സസറികൾ</string>
     <string name="category_display_title">റീഫ്രഷ് നിരക്ക്</string>
     <string name="category_touch_title">ടച്ച്</string>
-    <string name="category_audio_title">ഓഡിയോ</string>
-    <string name="category_perf_title">പ്രകടനം</string>
-    <string name="category_color_title">സ്ക്രീൻ നിറം</string>
-
+    <string name="accessories_title">ആക്‌സസറികൾ</string>
+    <string name="accessories_summary">ഔദ്യോഗിക Lenovo പേനകൾ, കീബോർഡുകൾ, കാന്തിക കവറുകൾ എന്നിവ സജ്ജീകരിക്കുക</string>
+    <string name="category_pen_title">പേന</string>
+    <string name="category_keyboard_title">കീബോർഡ്</string>
+    <string name="category_cover_title">കവർ</string>
+    <string name="category_misc_title">മറ്റുള്ളവ</string>
     <string name="pen_refresh_cap_title">സ്‌റ്റൈലസ് ഉപയോഗിക്കുമ്പോൾ 120 Hz-ലേക്ക് പരിമിതപ്പെടുത്തുക</string>
     <string name="pen_refresh_cap_summary">സജീവ സ്‌റ്റൈലസ് പരമാവധി 120 Hz വരെ മാത്രമേ പിന്തുണയ്ക്കൂ എന്നാണ് റിപ്പോർട്ട്. സ്‌റ്റൈലസ് ഉപയോഗിച്ചുള്ള അവസാന ഇൻപുട്ടിന് 10 സെക്കൻഡിന് ശേഷം പരിധി നീങ്ങും.</string>
     <string name="reading_low_refresh_title">വായനാ മോഡിൽ 30 Hz</string>
@@ -27,26 +25,25 @@
     <string name="touch_game_mode_title">ടച്ച് ഗെയിം മോഡ്</string>
     <string name="touch_game_mode_summary">ടച്ച് കൺട്രോളറിന്റെ ഗെയിം മോഡ്. റീസ്റ്റാർട്ട് ചെയ്താൽ വീണ്ടും ഓഫാകും.</string>
     <string name="touch_game_mode_unavailable">ലഭ്യമല്ല</string>
-    <string name="smart_cover_title">സ്മാർട്ട് കവർ</string>
-    <string name="smart_cover_summary">ഫ്ലിപ്പ് കവർ അടയ്ക്കുമ്പോൾ സ്ക്രീൻ ഓഫാക്കി ലോക്ക് ചെയ്യുക</string>
+    <string name="smart_cover_title">കാന്തിക കവർ</string>
+    <string name="smart_cover_summary">കാന്തിക കവർ അടയ്ക്കുമ്പോൾ സ്ലീപ്പിലാക്കി ലോക്ക് ചെയ്യുക</string>
     <string name="pen_notifications_title">സ്‌റ്റൈലസ് കണക്ഷൻ അറിയിപ്പുകൾ</string>
-    <string name="pen_notifications_summary">Lenovo സ്‌റ്റൈലസ് കണക്റ്റ് ചെയ്യുമ്പോഴോ വിച്ഛേദിക്കുമ്പോഴോ അറിയിപ്പ് കാണിക്കുക</string>
+    <string name="pen_notifications_summary">പേന കണക്റ്റ് ചെയ്യുമ്പോഴും വിച്ഛേദിക്കുമ്പോഴും അറിയിപ്പ് കാണിക്കുക. ഔദ്യോഗിക Lenovo പേനകൾ മാത്രം</string>
     <string name="keyboard_notifications_title">കീബോർഡ് കണക്ഷൻ അറിയിപ്പുകൾ</string>
-    <string name="keyboard_notifications_summary">Lenovo ഫ്ലിപ്പ് കവർ കീബോർഡ് കണക്റ്റ് ചെയ്യുമ്പോഴോ വിച്ഛേദിക്കുമ്പോഴോ അറിയിപ്പ് കാണിക്കുക</string>
+    <string name="keyboard_notifications_summary">കീബോർഡ് കണക്റ്റ് ചെയ്യുമ്പോഴും വിച്ഛേദിക്കുമ്പോഴും അറിയിപ്പ് കാണിക്കുക. ഔദ്യോഗിക Lenovo pogo pin കീബോർഡുകൾ മാത്രം</string>
     <string name="pen_notification_channel">സ്‌റ്റൈലസ് കണക്ഷൻ</string>
     <string name="pen_connected_title">സ്‌റ്റൈലസ് കണക്റ്റ് ചെയ്‌തു</string>
     <string name="pen_disconnected_title">സ്‌റ്റൈലസ് വിച്ഛേദിച്ചു</string>
     <string name="keyboard_notification_channel">കീബോർഡ് കണക്ഷൻ</string>
     <string name="keyboard_connected_title">കീബോർഡ് കണക്റ്റ് ചെയ്‌തു</string>
     <string name="keyboard_disconnected_title">കീബോർഡ് വിച്ഛേദിച്ചു</string>
-
-    <string name="dolby_title">Dolby Atmos</string>
-    <string name="dolby_summary">ശബ്‌ദ മോഡ്, ഇക്വലൈസർ, സംഭാഷണ വ്യക്തത വർധിപ്പിക്കൽ, ആപ്പ് മോഡുകൾ</string>
-    <string name="dolby_enable_title">Dolby Atmos ഉപയോഗിക്കുക</string>
-    <string name="dolby_profile_title">ഡിഫോൾട്ട് മോഡ്</string>
+    <string name="dolby_title">Dolby Atmos®</string>
+    <string name="dolby_summary">ആഴത്തിലുള്ള സറൗണ്ട് സൗണ്ട് ഓണാക്കുക</string>
+    <string name="dolby_mode_title">മോഡ്</string>
     <string name="dolby_profile_dynamic">ഡൈനാമിക്</string>
     <string name="dolby_profile_movie">സിനിമ</string>
     <string name="dolby_profile_music">സംഗീതം</string>
+    <string name="dolby_mode_off">ഓഫ്</string>
     <string name="category_dolby_music_title">സംഗീത മോഡ്</string>
     <string name="dolby_ieq_preset_title">ശബ്‌ദ ഇഫക്റ്റ്</string>
     <string name="dolby_ieq_preset_none">ഒന്നുമില്ല</string>
@@ -54,8 +51,13 @@
     <string name="dolby_ieq_preset_balanced">സന്തുലിതം</string>
     <string name="dolby_ieq_preset_warm">മൃദുവായ</string>
     <string name="dolby_geq_title">ഇക്വലൈസർ</string>
-    <string name="dolby_geq_summary">10 ഫ്രീക്വൻസി ബാൻഡുകൾ ക്രമീകരിക്കുക</string>
+    <string name="dolby_geq_settings_title">ഇക്വലൈസർ ക്രമീകരണങ്ങൾ</string>
+    <string name="dolby_geq_settings_summary">ഡൈനാമിക്, സിനിമ, സംഗീതം മോഡുകളിൽ ഓരോ ബാൻഡിലെയും ശബ്ദം ക്രമീകരിക്കുക</string>
     <string name="dolby_geq_reset_title">ഫ്ലാറ്റിലേക്ക് റീസെറ്റ് ചെയ്യുക</string>
+    <string name="dolby_geq_reset_confirm_title">ഫ്ലാറ്റിലേക്ക് റീസെറ്റ് ചെയ്യണോ?</string>
+    <string name="dolby_geq_reset_confirm_message">എല്ലാ ബാൻഡുകളും 0 dB-ലേക്ക് മടങ്ങും.</string>
+    <string name="dolby_geq_reset_confirm">റീസെറ്റ് ചെയ്യുക</string>
+    <string name="dolby_geq_description">10-ബാൻഡ് ഗ്രാഫിക് ഇക്വലൈസർ. ബാൻഡ് വലിച്ചിട്ട് -6 മുതൽ +6 dB വരെ ഗെയിൻ സജ്ജമാക്കുക</string>
     <string name="category_dolby_movie_title">സിനിമ മോഡ്</string>
     <string name="dolby_dialogue_level_title">സംഭാഷണ വ്യക്തത വർധിപ്പിക്കൽ</string>
     <string name="dolby_dialogue_level_summary">സംഭാഷണം കൂടുതൽ വ്യക്തമാക്കുന്നു. 0 ആണെങ്കിൽ ഇത് ഓഫാകും.</string>
@@ -65,47 +67,60 @@
     <string name="dolby_app_profiles_title">ആപ്പ് മോഡുകൾ</string>
     <string name="dolby_app_profiles_summary">ഓരോ ആപ്പിനും മോഡ് തിരഞ്ഞെടുക്കുക. അറിയപ്പെടുന്ന സംഗീത, വീഡിയോ ആപ്പുകൾ സംഗീതം, സിനിമ മോഡുകൾ ഉപയോഗിച്ചാണ് തുടങ്ങുന്നത്.</string>
     <string name="dolby_app_profile_default">ഡിഫോൾട്ട് മോഡ്</string>
-
     <string name="screen_color_title">സ്ക്രീൻ നിറം</string>
-    <string name="screen_color_summary">നിറ മോഡ്, നിറ താപനില, ആപ്പുകൾക്കുള്ള നിറം</string>
+    <string name="screen_color_summary">സ്‌ക്രീനിലെ നിറങ്ങളുടെ ദൃശ്യാനുഭവം വർദ്ധിപ്പിക്കുക</string>
+    <string name="video_picture_title">വീഡിയോ ചിത്ര നിലവാരം</string>
+    <string name="video_picture_summary">ഹാർഡ്‌വെയർ ഡീകോഡ് ചെയ്ത വീഡിയോയുടെ വ്യക്തതയും നിറവും വർദ്ധിപ്പിക്കുക</string>
+    <string name="video_picture_play">പ്ലേ ചെയ്യുക</string>
+    <string name="video_picture_pause">താൽക്കാലികമായി നിർത്തുക</string>
+    <string name="video_picture_position">പ്ലേബാക്ക് സ്ഥാനം</string>
+    <string name="video_picture_fullscreen">പൂർണ്ണ സ്‌ക്രീൻ</string>
+    <string name="video_picture_credit">വീഡിയോ: %1$s</string>
     <string name="color_mode_title">നിറ മോഡ്</string>
     <string name="color_mode_standard">സ്റ്റാൻഡേർഡ്</string>
     <string name="color_mode_vivid">തിളക്കമുള്ളത്</string>
-    <string name="color_mode_natural">സ്വാഭാവികം</string>
+    <string name="color_mode_disabled">പ്രവർത്തനരഹിതം</string>
+    <string name="screen_color_gallery_fullscreen">പൂർണ്ണ സ്‌ക്രീൻ</string>
+    <string name="screen_color_gallery_close">പൂർണ്ണ സ്‌ക്രീനിൽ നിന്ന് പുറത്തുകടക്കുക</string>
+    <string name="screen_color_gallery_credit">ഫോട്ടോ: %1$s</string>
     <string name="color_temperature_title">നിറ താപനില</string>
     <string name="color_temperature_standard">സ്റ്റാൻഡേർഡ്</string>
     <string name="color_temperature_warm">ചൂടുള്ളത്</string>
     <string name="color_temperature_cool">തണുത്തത്</string>
     <string name="color_temperature_tip">സ്ക്രീനിന്റെ നിറം ക്രമീകരിക്കാൻ നിറ ചക്രത്തിലെ ബിന്ദുവിൽ ടാപ്പ് ചെയ്യുകയോ വലിച്ചുനീക്കുകയോ ചെയ്യുക. പഴയപടിയാക്കാൻ “സ്റ്റാൻഡേർഡ്” തിരഞ്ഞെടുക്കുക.</string>
     <string name="color_wheel_description">നിറ താപനില ചക്രം</string>
-    <string name="category_color_more_title">കൂടുതൽ ക്രമീകരണങ്ങൾ</string>
     <string name="color_adaptive_title">പരിസര നിറത്തിന് അനുസൃതമാക്കുക</string>
     <string name="color_adaptive_summary">കൂടുതൽ സുഖകരമായി കാണുന്നതിനായി പരിസര വെളിച്ചത്തിന്റെ നിറത്തിനനുസരിച്ച് സ്ക്രീനിന്റെ വെളുത്ത ബിന്ദു ക്രമീകരിക്കുക</string>
-    <string name="category_color_adjust_title">ചിത്ര ക്രമീകരണം</string>
+    <string name="category_color_advanced_title">വിപുലമായ ക്രമീകരണങ്ങൾ</string>
     <string name="color_saturation_title">നിറസാന്ദ്രത</string>
     <string name="color_contrast_title">കോൺട്രാസ്റ്റ്</string>
     <string name="color_sharpness_title">മൂർച്ച</string>
     <string name="color_adjust_default">ഡിഫോൾട്ട്</string>
     <string name="color_adjust_reset_title">ചിത്ര ക്രമീകരണം ഡിഫോൾട്ടിലേക്ക് പുനഃസജ്ജമാക്കുക</string>
-    <string name="category_color_apps_title">ആപ്പുകൾ</string>
     <string name="color_app_profiles_enabled_title">ആപ്പ് അനുസരിച്ച് നിറം മാറ്റുക</string>
     <string name="color_app_profiles_enabled_summary">ആപ്പ് മുൻനിരയിലായിരിക്കുമ്പോൾ അതിനായി തിരഞ്ഞെടുത്ത നിറ ക്രമീകരണങ്ങൾ ഉപയോഗിക്കുക</string>
-    <string name="color_app_profiles_title">ആപ്പ് നിറങ്ങൾ</string>
+    <string name="color_app_profiles_title">ഓരോ ആപ്പിനുമുള്ള ക്രമീകരണങ്ങൾ</string>
     <string name="color_app_profiles_summary">ഓരോ ആപ്പിനുമുള്ള നിറ മെച്ചപ്പെടുത്തലുകൾ ഓഫാക്കുകയോ നിറ മോഡ് തിരഞ്ഞെടുക്കുകയോ ചെയ്യുക</string>
     <string name="color_app_profile_default">സ്ക്രീൻ നിറ ക്രമീകരണങ്ങൾ ഉപയോഗിക്കുക</string>
-    <string name="category_video_title">വീഡിയോ ചിത്രത്തിന്റെ ഗുണനിലവാരം</string>
     <string name="video_enhance_title">വീഡിയോ ചിത്ര മെച്ചപ്പെടുത്തൽ</string>
     <string name="video_enhance_summary">ഹാർഡ്‌വെയർ ഡീകോഡ് ചെയ്ത വീഡിയോയിൽ MediaTek നടത്തുന്ന അധിക പ്രോസസ്സിംഗ്. വീഡിയോയുടെ അരികുകൾ വളരെ തെളിച്ചമുള്ളതായോ നോയ്സ് കൂടുതലായി കാണപ്പെടുന്നതായോ നിറങ്ങൾ തെറ്റായതായോ തോന്നിയാൽ ഇത് ഓഫാക്കുക.</string>
+    <string name="video_enhance_on">ഓൺ</string>
+    <string name="video_enhance_off">ഓഫ്</string>
     <string name="video_sharpness_title">മൂർച്ച</string>
+    <string name="video_sharpness_summary">വീഡിയോയിലെ അരികുകളും സൂക്ഷ്മ വിശദാംശങ്ങളും കൂടുതൽ വ്യക്തമാക്കുക</string>
     <string name="video_dynamic_sharpness_title">ഡൈനാമിക് മൂർച്ച</string>
+    <string name="video_dynamic_sharpness_summary">ഓരോ രംഗത്തിലെയും ഉള്ളടക്കത്തിനനുസരിച്ച് ഷാർപ്പ്നസ്സ് ക്രമീകരിക്കുക</string>
     <string name="video_iso_sharpness_title">നോയ്സിനനുസരിച്ചുള്ള മൂർച്ച</string>
+    <string name="video_iso_sharpness_summary">കുറഞ്ഞ വെളിച്ചത്തിൽ എടുത്ത വീഡിയോകൾ പോലെ നോയിസ് കൂടുതലുള്ള രംഗങ്ങളിൽ ഷാർപ്പ്നസ്സ് കുറയ്ക്കുക</string>
     <string name="video_ultra_resolution_title">അൾട്രാ റെസല്യൂഷൻ</string>
     <string name="video_ultra_resolution_summary">കുറഞ്ഞ റെസല്യൂഷനിലുള്ള വീഡിയോ വലുതാക്കുമ്പോൾ മൂർച്ച കൂട്ടുക</string>
     <string name="video_dynamic_contrast_title">ഡൈനാമിക് കോൺട്രാസ്റ്റ്</string>
+    <string name="video_dynamic_contrast_summary">ഇരുണ്ടതും തിളക്കമുള്ളതുമായ ഭാഗങ്ങളിലെ വിശദാംശങ്ങൾ വ്യക്തമാക്കാൻ രംഗത്തിനനുസരിച്ച് തെളിച്ചവും കോൺട്രാസ്റ്റും ക്രമീകരിക്കുക</string>
     <string name="video_color_title">നിറ മെച്ചപ്പെടുത്തൽ</string>
-
+    <string name="video_color_summary">കൂടുതൽ സമ്പന്നമായ നിറങ്ങൾക്കായി ഓരോ രംഗത്തിനും അനുയോജ്യമായ രീതിയിൽ വീഡിയോ നിറങ്ങൾ ക്രമീകരിക്കുക</string>
     <string name="perf_title">പ്രകടന പ്രൊഫൈലുകൾ</string>
-    <string name="perf_summary">MediaTek Dimensity പ്രകടനവും താപ നിയന്ത്രണ നയങ്ങളും ക്രമീകരിക്കുക</string>
+    <string name="perf_scheduling_title">പ്രകടന ട്യൂണിംഗ്</string>
+    <string name="perf_summary">Dimensity ചിപ്പിൽ നിന്ന് പരമാവധി പ്രയോജനം നേടുന്നതിന് പാരാമീറ്ററുകൾ കൃത്യമായി ക്രമീകരിക്കുക</string>
     <string name="perf_enabled_title">ആപ്പ് അനുസരിച്ച് പ്രകടനം ക്രമീകരിക്കുക</string>
     <string name="perf_enabled_summary">മുൻനിരയിലുള്ള ആപ്പ് ഏതെന്ന് MediaTek പവർ സർവീസിനെ അറിയിക്കുകയും അതിന്റെ പ്രൊഫൈൽ പ്രയോഗിക്കുകയും ചെയ്യുക. നിർമാതാവിന്റെയോ ശുപാർശ ചെയ്തതോ ആയ പ്രൊഫൈലുകൾ ഉള്ള ആപ്പുകൾ അവ ഡിഫോൾട്ടായി ഉപയോഗിക്കും.</string>
     <string name="category_perf_known_apps">പ്രൊഫൈലുകളുള്ള ആപ്പുകൾ</string>
@@ -145,13 +160,13 @@
     <string name="perf_cluster_medium">ഇടത്തരം കോറുകൾ</string>
     <string name="perf_cluster_big">വലിയ കോറുകൾ</string>
     <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
-    <string name="perf_cpu_min_title">%1$s: കുറഞ്ഞ ഫ്രീക്വൻസി</string>
-    <string name="perf_cpu_max_title">%1$s: പരമാവധി ഫ്രീക്വൻസി</string>
+    <string name="perf_cpu_min_description">%1$s-ന്റെ കുറഞ്ഞ ഫ്രീക്വൻസി</string>
+    <string name="perf_cpu_max_description">%1$s-ന്റെ കൂടിയ ഫ്രീക്വൻസി</string>
+    <string name="perf_cpu_range_description">%1$s-ന്റെ ഫ്രീക്വൻസി പരിധി</string>
     <string name="perf_refresh_rate_title">റീഫ്രഷ് നിരക്ക് ലോക്ക്</string>
     <string name="perf_refresh_rate_none">ലോക്ക് ചെയ്തിട്ടില്ല</string>
     <string name="perf_advanced_reset_title">പ്രീസെറ്റിലേക്ക് റീസെറ്റ് ചെയ്യുക</string>
-
     <string name="tile_reading_low_refresh">വായനാ മോഡ് 30 Hz</string>
     <string name="tile_touch_game_mode">ടച്ച് ഗെയിം മോഡ്</string>
-    <string name="tile_smart_cover">സ്മാർട്ട് കവർ</string>
+    <string name="tile_smart_cover">കാന്തിക കവർ</string>
 </resources>

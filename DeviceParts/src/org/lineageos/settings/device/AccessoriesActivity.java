@@ -5,10 +5,10 @@
 
 package org.lineageos.settings.device;
 
-/** Folio cover settings; injected into Settings > Display > Lock screen. */
-public class CoverPartsActivity extends DevicePartsActivity {
+/** Pen, folio keyboard and magnetic cover settings; injected into Settings > Connected devices. */
+public class AccessoriesActivity extends DevicePartsActivity {
     @Override
     protected int getPreferencesResId() {
-        return R.xml.cover_parts;
+        return R.xml.accessories;
     }
 }

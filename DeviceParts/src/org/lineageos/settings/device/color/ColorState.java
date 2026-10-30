@@ -10,8 +10,9 @@ import android.content.ContentResolver;
 import java.util.Arrays;
 
 /**
- * What the picture quality service is told to show: the settings, or an app's override. The
- * video enhancements are not part of app color settings.
+ * What the picture quality service is told to show: the settings, or an app's override. While
+ * the screen color mode is Disabled, the stored white point, adaptation and adjustments are kept
+ * but not applied. The video enhancements are not part of app color settings.
  */
 final class ColorState {
     final int mode;
@@ -33,29 +34,43 @@ final class ColorState {
 
     /** The screen color settings. */
     static ColorState fromSettings(ContentResolver cr) {
+        final int mode = ColorSettings.getMode(cr);
+        final boolean[] video = ColorSettings.getVideoFeatures(cr);
+        if (mode == ColorSettings.MODE_DISABLED) {
+            return disabled(video);
+        }
         final int[] levels = new int[ColorSettings.ADJUSTMENTS.length];
         for (int i = 0; i < levels.length; i++) {
             levels[i] = ColorSettings.ADJUSTMENTS[i].get(cr);
         }
-        return new ColorState(ColorSettings.getMode(cr), ColorSettings.getTemperatureGains(cr),
-                ColorSettings.isAdaptive(cr), levels, ColorSettings.getVideoFeatures(cr));
+        return new ColorState(mode, ColorSettings.getTemperatureGains(cr),
+                ColorSettings.isAdaptive(cr), levels, video);
+    }
+
+    /** Vendor defaults: neutral white point, no adaptation, default adjustment levels. */
+    private static ColorState disabled(boolean[] video) {
+        return new ColorState(ColorSettings.MODE_DISABLED, ColorSettings.neutralGains(), false,
+                defaultLevels(), video);
     }
 
     /**
-     * This state with an app color setting applied: APP_OFF shows Standard with a neutral white
-     * point and no adaptation or adjustments, a mode replaces only the mode.
+     * This state with an app color setting applied: Disabled as for the screen, Standard or
+     * Vivid replaces only the mode.
      */
     ColorState forApp(int profile) {
-        if (profile == ColorSettings.APP_OFF) {
-            final int[] defaults = new int[levels.length];
-            Arrays.fill(defaults, ColorSettings.Adjustment.LEVEL_DEFAULT);
-            return new ColorState(ColorSettings.MODE_STANDARD, ColorSettings.neutralGains(),
-                    false, defaults, video);
-        }
-        if (profile == ColorSettings.APP_DEFAULT || profile == mode) {
+        if (!ColorSettings.isAppMode(profile) || profile == mode) {
             return this;
         }
-        return new ColorState(ColorSettings.sanitizeMode(profile), gains, adaptive, levels, video);
+        if (profile == ColorSettings.MODE_DISABLED) {
+            return disabled(video);
+        }
+        return new ColorState(profile, gains, adaptive, levels, video);
+    }
+
+    private static int[] defaultLevels() {
+        final int[] levels = new int[ColorSettings.ADJUSTMENTS.length];
+        Arrays.fill(levels, ColorSettings.Adjustment.LEVEL_DEFAULT);
+        return levels;
     }
 
     @Override

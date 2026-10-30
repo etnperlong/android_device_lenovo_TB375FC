@@ -5,19 +5,18 @@
 -->
 <resources>
     <string name="app_name">Enhetsfunktioner</string>
-
     <string name="device_parts_title">Enhetsfunktioner</string>
-    <string name="device_parts_summary">Prestanda, skärmfärg, tillbehör, pekskärm och Dolby Atmos</string>
+    <string name="device_parts_summary">Skärmfärg, videobild, Dolby Atmos, prestanda, tillbehör, uppdateringsfrekvens och pekskärm</string>
     <string name="display_parts_title">Uppdateringsfrekvens och pekskärm</string>
     <string name="display_parts_summary">Läslägets uppdateringsfrekvens, pekskärmens spelläge</string>
-
-    <string name="category_accessories_title">Officiella tillbehör</string>
     <string name="category_display_title">Uppdateringsfrekvens</string>
     <string name="category_touch_title">Pekskärm</string>
-    <string name="category_audio_title">Ljud</string>
-    <string name="category_perf_title">Prestanda</string>
-    <string name="category_color_title">Färg</string>
-
+    <string name="accessories_title">Tillbehör</string>
+    <string name="accessories_summary">Konfigurera officiella Lenovo-pennor, tangentbord och magnetiska fodral</string>
+    <string name="category_pen_title">Penna</string>
+    <string name="category_keyboard_title">Tangentbord</string>
+    <string name="category_cover_title">Fodral</string>
+    <string name="category_misc_title">Övrigt</string>
     <string name="pen_refresh_cap_title">Begränsa till 120 Hz när e-pennan används</string>
     <string name="pen_refresh_cap_summary">Den aktiva e-pennan uppges bara fungera upp till 120 Hz. Gränsen hävs 10 sekunder efter den senaste inmatningen med e-pennan.</string>
     <string name="reading_low_refresh_title">30 Hz i läsläge</string>
@@ -26,27 +25,25 @@
     <string name="touch_game_mode_title">Pekskärmens spelläge</string>
     <string name="touch_game_mode_summary">Spelläge för pekskärmsstyrenheten. Stängs av igen efter en omstart.</string>
     <string name="touch_game_mode_unavailable">Inte tillgängligt</string>
-    <string name="smart_cover_title">Smart fodral</string>
-    <string name="smart_cover_summary">Släck skärmen och lås när fodralet stängs</string>
+    <string name="smart_cover_title">Magnetiskt fodral</string>
+    <string name="smart_cover_summary">Försätt i viloläge och lås när det magnetiska fodralet stängs</string>
     <string name="pen_notifications_title">Aviseringar om anslutning av e-penna</string>
-    <string name="pen_notifications_summary">Visa en avisering när en Lenovo-e-penna ansluts eller kopplas från</string>
+    <string name="pen_notifications_summary">Visa ett meddelande när pennan ansluts eller kopplas från. Endast officiella Lenovo-pennor</string>
     <string name="keyboard_notifications_title">Aviseringar om tangentbordsanslutning</string>
-    <string name="keyboard_notifications_summary">Visa en avisering när tangentbordet i Lenovos fodral ansluts eller kopplas från</string>
+    <string name="keyboard_notifications_summary">Visa ett meddelande när tangentbordet ansluts eller kopplas från. Endast officiella Lenovo-tangentbord med magnetiska kontakter</string>
     <string name="pen_notification_channel">Anslutning av e-penna</string>
     <string name="pen_connected_title">E-penna ansluten</string>
     <string name="pen_disconnected_title">E-penna frånkopplad</string>
-
     <string name="keyboard_notification_channel">Tangentbordsanslutning</string>
     <string name="keyboard_connected_title">Tangentbord anslutet</string>
     <string name="keyboard_disconnected_title">Tangentbord frånkopplat</string>
-
-    <string name="dolby_title">Dolby Atmos</string>
-    <string name="dolby_summary">Ljudläge, equalizer, dialogförbättring och applägen</string>
-    <string name="dolby_enable_title">Använd Dolby Atmos</string>
-    <string name="dolby_profile_title">Standardläge</string>
+    <string name="dolby_title">Dolby Atmos®</string>
+    <string name="dolby_summary">Slå på uppslukande surroundljud</string>
+    <string name="dolby_mode_title">Läge</string>
     <string name="dolby_profile_dynamic">Dynamiskt</string>
     <string name="dolby_profile_movie">Film</string>
     <string name="dolby_profile_music">Musik</string>
+    <string name="dolby_mode_off">Av</string>
     <string name="category_dolby_music_title">Musikläge</string>
     <string name="dolby_ieq_preset_title">Ljudeffekt</string>
     <string name="dolby_ieq_preset_none">Ingen</string>
@@ -54,8 +51,13 @@
     <string name="dolby_ieq_preset_balanced">Balanserat</string>
     <string name="dolby_ieq_preset_warm">Varmt</string>
     <string name="dolby_geq_title">Equalizer</string>
-    <string name="dolby_geq_summary">Justera 10 frekvensband</string>
+    <string name="dolby_geq_settings_title">Equalizerinställningar</string>
+    <string name="dolby_geq_settings_summary">Justera ljudet band för band i lägena Dynamiskt, Film och Musik</string>
     <string name="dolby_geq_reset_title">Återställ till platt frekvenskurva</string>
+    <string name="dolby_geq_reset_confirm_title">Återställ till platt frekvenskurva?</string>
+    <string name="dolby_geq_reset_confirm_message">Alla frekvensband återställs till 0 dB.</string>
+    <string name="dolby_geq_reset_confirm">Återställ</string>
+    <string name="dolby_geq_description">Grafisk equalizer med 10 band. Dra ett band för att ställa in förstärkningen mellan -6 och +6 dB</string>
     <string name="category_dolby_movie_title">Filmläge</string>
     <string name="dolby_dialogue_level_title">Dialogförbättring</string>
     <string name="dolby_dialogue_level_summary">Gör tal tydligare. 0 stänger av funktionen.</string>
@@ -65,48 +67,60 @@
     <string name="dolby_app_profiles_title">Applägen</string>
     <string name="dolby_app_profiles_summary">Välj läge för varje app. Kända musik- och videoappar börjar med Musik och Film.</string>
     <string name="dolby_app_profile_default">Standardläge</string>
-
     <string name="screen_color_title">Skärmfärg</string>
-    <string name="screen_color_summary">Färgläge, färgtemperatur och appfärger</string>
+    <string name="screen_color_summary">Förbättra hur färger visas på skärmen</string>
+    <string name="video_picture_title">Videobild</string>
+    <string name="video_picture_summary">Förbättra skärpa och färger för maskinvaruavkodad video</string>
+    <string name="video_picture_play">Spela upp</string>
+    <string name="video_picture_pause">Pausa</string>
+    <string name="video_picture_position">Uppspelningsposition</string>
+    <string name="video_picture_fullscreen">Helskärm</string>
+    <string name="video_picture_credit">Video: %1$s</string>
     <string name="color_mode_title">Färgläge</string>
     <string name="color_mode_standard">Standard</string>
     <string name="color_mode_vivid">Livfull</string>
-    <string name="color_mode_natural">Naturlig</string>
+    <string name="color_mode_disabled">Inaktiverad</string>
+    <string name="screen_color_gallery_fullscreen">Helskärm</string>
+    <string name="screen_color_gallery_close">Lämna helskärm</string>
+    <string name="screen_color_gallery_credit">Foto: %1$s</string>
     <string name="color_temperature_title">Färgtemperatur</string>
     <string name="color_temperature_standard">Standard</string>
     <string name="color_temperature_warm">Varm</string>
     <string name="color_temperature_cool">Kall</string>
     <string name="color_temperature_tip">Tryck på eller dra punkten på färghjulet för att färga skärmen. Välj Standard för att återställa.</string>
     <string name="color_wheel_description">Färgtemperaturhjul</string>
-    <string name="category_color_more_title">Fler inställningar</string>
     <string name="color_adaptive_title">Anpassa efter omgivningsljus</string>
     <string name="color_adaptive_summary">Justera skärmens vita färg efter färgen på omgivningsljuset för bekvämare visning</string>
-    <string name="category_color_adjust_title">Bildjustering</string>
+    <string name="category_color_advanced_title">Avancerade justeringar</string>
     <string name="color_saturation_title">Mättnad</string>
     <string name="color_contrast_title">Kontrast</string>
     <string name="color_sharpness_title">Skärpa</string>
     <string name="color_adjust_default">Standard</string>
     <string name="color_adjust_reset_title">Återställ bildjustering</string>
-    <string name="category_color_apps_title">Appar</string>
     <string name="color_app_profiles_enabled_title">Byt färg per app</string>
     <string name="color_app_profiles_enabled_summary">Använd appens valda färginställning när den är i förgrunden</string>
-    <string name="color_app_profiles_title">Appfärger</string>
+    <string name="color_app_profiles_title">Inställningar per app</string>
     <string name="color_app_profiles_summary">Stäng av färgförbättring eller välj färgläge för varje app</string>
     <string name="color_app_profile_default">Skärmfärgsinställningar</string>
-    <string name="color_app_profile_off">Av (korrekta färger)</string>
-    <string name="category_video_title">Videobild</string>
     <string name="video_enhance_title">Videobildförbättring</string>
     <string name="video_enhance_summary">MediaTeks extra bearbetning av hårdvaruavkodad video. Stäng av den om videokanter ser för ljusa ut, brus märks tydligt eller färgerna ser felaktiga ut</string>
+    <string name="video_enhance_on">På</string>
+    <string name="video_enhance_off">Av</string>
     <string name="video_sharpness_title">Skärpa</string>
+    <string name="video_sharpness_summary">Gör kanter och fina detaljer i video skarpare</string>
     <string name="video_dynamic_sharpness_title">Dynamisk skärpa</string>
+    <string name="video_dynamic_sharpness_summary">Anpassa skärpenivån efter vad varje scen visar</string>
     <string name="video_iso_sharpness_title">Brusanpassad skärpa</string>
+    <string name="video_iso_sharpness_summary">Minska skärpan i scener med brus, till exempel video inspelad i svagt ljus</string>
     <string name="video_ultra_resolution_title">Ultrahög upplösning</string>
     <string name="video_ultra_resolution_summary">Skärp video med låg upplösning när den förstoras</string>
     <string name="video_dynamic_contrast_title">Dynamisk kontrast</string>
+    <string name="video_dynamic_contrast_summary">Justera ljusstyrka och kontrast scen för scen för att framhäva detaljer i mörka och ljusa områden</string>
     <string name="video_color_title">Färgförbättring</string>
-
+    <string name="video_color_summary">Anpassa videofärger efter vad varje scen visar för fylligare färger</string>
     <string name="perf_title">Prestandaprofiler</string>
-    <string name="perf_summary">Justera MediaTek Dimensity-prestanda och temperaturpolicyer</string>
+    <string name="perf_scheduling_title">Prestandajustering</string>
+    <string name="perf_summary">Finjustera parametrar för att få ut mesta möjliga av Dimensity-chippet</string>
     <string name="perf_enabled_title">Justera prestanda per app</string>
     <string name="perf_enabled_summary">Meddela MediaTeks strömtjänst om vilken app som är i förgrunden och använd dess profil. Appar med tillverkar- eller rekommenderade profiler använder dem som standard.</string>
     <string name="category_perf_known_apps">Appar med profiler</string>
@@ -146,13 +160,13 @@
     <string name="perf_cluster_medium">Medelstora kärnor</string>
     <string name="perf_cluster_big">Stora kärnor</string>
     <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
-    <string name="perf_cpu_min_title">%1$s: minsta frekvens</string>
-    <string name="perf_cpu_max_title">%1$s: högsta frekvens</string>
+    <string name="perf_cpu_min_description">Minsta frekvens för %1$s</string>
+    <string name="perf_cpu_max_description">Högsta frekvens för %1$s</string>
+    <string name="perf_cpu_range_description">Frekvensintervall för %1$s</string>
     <string name="perf_refresh_rate_title">Lås uppdateringsfrekvens</string>
     <string name="perf_refresh_rate_none">Inte låst</string>
     <string name="perf_advanced_reset_title">Återställ till förinställning</string>
-
     <string name="tile_reading_low_refresh">Läsning 30 Hz</string>
     <string name="tile_touch_game_mode">Pekskärmsspelläge</string>
-    <string name="tile_smart_cover">Smart fodral</string>
+    <string name="tile_smart_cover">Magnetiskt fodral</string>
 </resources>

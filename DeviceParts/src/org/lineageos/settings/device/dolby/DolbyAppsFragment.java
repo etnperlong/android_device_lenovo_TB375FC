@@ -18,6 +18,7 @@ import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
+import com.android.settingslib.widget.MainSwitchPreference;
 import com.android.settingslib.widget.SettingsBasePreferenceFragment;
 
 import org.lineageos.settings.device.R;
@@ -32,14 +33,18 @@ import java.util.Set;
 /**
  * The Dolby mode of each launchable app: the default mode, or Dynamic, Movie or Music. Apps from
  * stock's whitelist start with their recommended mode; only choices that differ from it are
- * stored.
+ * stored. The main switch controls whether these per-app modes are used.
  */
 public class DolbyAppsFragment extends SettingsBasePreferenceFragment
         implements Preference.OnPreferenceChangeListener {
+    private static final String KEY_APP_PROFILES_ENABLED = "dolby_app_profiles_enabled";
+
     private ContentResolver mResolver;
     private Map<String, Integer> mRecommended;
     private CharSequence[] mEntries;
     private CharSequence[] mEntryValues;
+    private MainSwitchPreference mAppProfilesSwitch;
+    private final List<Preference> mAppPreferences = new ArrayList<>();
 
     private static final class App {
         final String packageName;
@@ -71,7 +76,16 @@ public class DolbyAppsFragment extends SettingsBasePreferenceFragment
                 String.valueOf(DolbySettings.PROFILE_MUSIC),
         };
 
-        setPreferenceScreen(getPreferenceManager().createPreferenceScreen(context));
+        final PreferenceScreen screen = getPreferenceManager().createPreferenceScreen(context);
+        setPreferenceScreen(screen);
+        mAppProfilesSwitch = new MainSwitchPreference(context);
+        mAppProfilesSwitch.setKey(KEY_APP_PROFILES_ENABLED);
+        mAppProfilesSwitch.setPersistent(false);
+        mAppProfilesSwitch.setTitle(R.string.dolby_app_profiles_enabled_title);
+        mAppProfilesSwitch.setSummary(R.string.dolby_app_profiles_enabled_summary);
+        mAppProfilesSwitch.setOnPreferenceChangeListener(this);
+        screen.addPreference(mAppProfilesSwitch);
+        updateEnabledState(DolbySettings.isAppProfilesEnabled(mResolver));
 
         // Labels and icons of all apps take a while; load them off the main thread.
         final Activity activity = requireActivity();
@@ -84,6 +98,12 @@ public class DolbyAppsFragment extends SettingsBasePreferenceFragment
                 }
             });
         }, "DolbyApps").start();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        updateEnabledState(DolbySettings.isAppProfilesEnabled(mResolver));
     }
 
     private static List<App> loadApps(Context context) {
@@ -123,11 +143,29 @@ public class DolbyAppsFragment extends SettingsBasePreferenceFragment
             pref.setSummaryProvider(ListPreference.SimpleSummaryProvider.getInstance());
             pref.setOnPreferenceChangeListener(this);
             screen.addPreference(pref);
+            mAppPreferences.add(pref);
+        }
+        updateEnabledState(mAppProfilesSwitch.isChecked());
+    }
+
+    private void updateEnabledState(boolean enabled) {
+        mAppProfilesSwitch.setChecked(enabled);
+        for (Preference preference : mAppPreferences) {
+            preference.setEnabled(enabled);
         }
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (KEY_APP_PROFILES_ENABLED.equals(preference.getKey())) {
+            final boolean enabled = (Boolean) newValue;
+            if (!DolbySettings.putAppProfilesEnabled(mResolver, enabled)) {
+                return false;
+            }
+            updateEnabledState(enabled);
+            return true;
+        }
+
         final String pkg = preference.getKey();
         final int profile = Integer.parseInt((String) newValue);
         final Map<String, Integer> user = DolbySettings.getUserAppProfiles(mResolver);

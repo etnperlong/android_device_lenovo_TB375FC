@@ -5,19 +5,18 @@
 -->
 <resources>
     <string name="app_name">ฟีเจอร์อุปกรณ์</string>
-
     <string name="device_parts_title">ฟีเจอร์อุปกรณ์</string>
-    <string name="device_parts_summary">ประสิทธิภาพ สีหน้าจอ อุปกรณ์เสริม ระบบสัมผัส และ Dolby Atmos</string>
+    <string name="device_parts_summary">สีหน้าจอ, คุณภาพวิดีโอ, Dolby Atmos, ประสิทธิภาพ, อุปกรณ์เสริม, อัตราการรีเฟรชและระบบสัมผัส</string>
     <string name="display_parts_title">อัตราการรีเฟรชและระบบสัมผัส</string>
     <string name="display_parts_summary">อัตราการรีเฟรชในโหมดการอ่าน โหมดเกมหน้าจอสัมผัส</string>
-
-    <string name="category_accessories_title">อุปกรณ์เสริมอย่างเป็นทางการ</string>
     <string name="category_display_title">อัตราการรีเฟรช</string>
     <string name="category_touch_title">หน้าจอสัมผัส</string>
-    <string name="category_audio_title">เสียง</string>
-    <string name="category_perf_title">ประสิทธิภาพ</string>
-    <string name="category_color_title">สี</string>
-
+    <string name="accessories_title">อุปกรณ์เสริม</string>
+    <string name="accessories_summary">ตั้งค่าปากกา แป้นพิมพ์ และเคสแม่เหล็กอย่างเป็นทางการของ Lenovo</string>
+    <string name="category_pen_title">ปากกา</string>
+    <string name="category_keyboard_title">แป้นพิมพ์</string>
+    <string name="category_cover_title">เคส</string>
+    <string name="category_misc_title">อื่นๆ</string>
     <string name="pen_refresh_cap_title">จำกัดไว้ที่ 120 Hz ขณะใช้ปากกา</string>
     <string name="pen_refresh_cap_summary">มีรายงานว่าปากกาสไตลัสแบบแอ็กทีฟทำงานได้สูงสุดที่ 120 Hz เท่านั้น โดยจะยกเลิกการจำกัด 10 วินาทีหลังจากใช้ปากกาครั้งล่าสุด</string>
     <string name="reading_low_refresh_title">30 Hz ในโหมดการอ่าน</string>
@@ -26,27 +25,25 @@
     <string name="touch_game_mode_title">โหมดเกมหน้าจอสัมผัส</string>
     <string name="touch_game_mode_summary">โหมดเกมของตัวควบคุมหน้าจอสัมผัส โดยจะปิดอีกครั้งหลังจากรีสตาร์ท</string>
     <string name="touch_game_mode_unavailable">ไม่พร้อมใช้งาน</string>
-    <string name="smart_cover_title">เคสอัจฉริยะ</string>
-    <string name="smart_cover_summary">ปิดหน้าจอและล็อกอุปกรณ์เมื่อปิดเคสฝาพับ</string>
+    <string name="smart_cover_title">เคสแม่เหล็ก</string>
+    <string name="smart_cover_summary">ปิดหน้าจอและล็อกอุปกรณ์เมื่อปิดเคสแม่เหล็ก</string>
     <string name="pen_notifications_title">การแจ้งเตือนการเชื่อมต่อปากกา</string>
-    <string name="pen_notifications_summary">แสดงการแจ้งเตือนเมื่อปากกา Lenovo เชื่อมต่อหรือยกเลิกการเชื่อมต่อ</string>
+    <string name="pen_notifications_summary">แสดงการแจ้งเตือนเมื่อปากกาเชื่อมต่อหรือยกเลิกการเชื่อมต่อ เฉพาะปากกา Lenovo อย่างเป็นทางการ</string>
     <string name="keyboard_notifications_title">การแจ้งเตือนการเชื่อมต่อแป้นพิมพ์</string>
-    <string name="keyboard_notifications_summary">แสดงการแจ้งเตือนเมื่อแป้นพิมพ์ของเคสฝาพับ Lenovo เชื่อมต่อหรือยกเลิกการเชื่อมต่อ</string>
+    <string name="keyboard_notifications_summary">แสดงการแจ้งเตือนเมื่อแป้นพิมพ์เชื่อมต่อหรือยกเลิกการเชื่อมต่อ เฉพาะแป้นพิมพ์ Lenovo แบบหน้าสัมผัสแม่เหล็กอย่างเป็นทางการ</string>
     <string name="pen_notification_channel">การเชื่อมต่อปากกา</string>
     <string name="pen_connected_title">เชื่อมต่อปากกาแล้ว</string>
     <string name="pen_disconnected_title">ยกเลิกการเชื่อมต่อปากกาแล้ว</string>
-
     <string name="keyboard_notification_channel">การเชื่อมต่อแป้นพิมพ์</string>
     <string name="keyboard_connected_title">เชื่อมต่อแป้นพิมพ์แล้ว</string>
     <string name="keyboard_disconnected_title">ยกเลิกการเชื่อมต่อแป้นพิมพ์แล้ว</string>
-
-    <string name="dolby_title">Dolby Atmos</string>
-    <string name="dolby_summary">โหมดเสียง อีควอไลเซอร์ ตัวเพิ่มความชัดเจนของเสียงพูด และโหมดแอป</string>
-    <string name="dolby_enable_title">ใช้ Dolby Atmos</string>
-    <string name="dolby_profile_title">โหมดเริ่มต้น</string>
+    <string name="dolby_title">Dolby Atmos®</string>
+    <string name="dolby_summary">เปิดระบบเสียงรอบทิศทางเสมือนจริง</string>
+    <string name="dolby_mode_title">โหมด</string>
     <string name="dolby_profile_dynamic">ไดนามิก</string>
     <string name="dolby_profile_movie">ภาพยนตร์</string>
     <string name="dolby_profile_music">เพลง</string>
+    <string name="dolby_mode_off">ปิด</string>
     <string name="category_dolby_music_title">โหมดเพลง</string>
     <string name="dolby_ieq_preset_title">เอฟเฟกต์เสียง</string>
     <string name="dolby_ieq_preset_none">ไม่มี</string>
@@ -54,8 +51,13 @@
     <string name="dolby_ieq_preset_balanced">สมดุล</string>
     <string name="dolby_ieq_preset_warm">โทนอุ่น</string>
     <string name="dolby_geq_title">อีควอไลเซอร์</string>
-    <string name="dolby_geq_summary">ปรับย่านความถี่ 10 ย่าน</string>
+    <string name="dolby_geq_settings_title">การตั้งค่าอีควอไลเซอร์</string>
+    <string name="dolby_geq_settings_summary">ปรับเสียงทีละย่านความถี่ในโหมดไดนามิก ภาพยนตร์ และเพลง</string>
     <string name="dolby_geq_reset_title">รีเซ็ตเป็นเส้นเสียงแบนราบ</string>
+    <string name="dolby_geq_reset_confirm_title">รีเซ็ตเป็นเส้นเสียงแบนราบหรือไม่</string>
+    <string name="dolby_geq_reset_confirm_message">ทุกย่านความถี่จะกลับเป็น 0 dB</string>
+    <string name="dolby_geq_reset_confirm">รีเซ็ต</string>
+    <string name="dolby_geq_description">อีควอไลเซอร์กราฟิก 10 แถบ ลากแถบเพื่อกำหนดเกนระหว่าง -6 ถึง +6 dB</string>
     <string name="category_dolby_movie_title">โหมดภาพยนตร์</string>
     <string name="dolby_dialogue_level_title">ตัวเพิ่มความชัดเจนของเสียงพูด</string>
     <string name="dolby_dialogue_level_summary">ช่วยให้เสียงพูดชัดเจนขึ้น ตั้งค่าเป็น 0 เพื่อปิด</string>
@@ -65,48 +67,60 @@
     <string name="dolby_app_profiles_title">โหมดแอป</string>
     <string name="dolby_app_profiles_summary">เลือกโหมดสำหรับแต่ละแอป แอปเพลงและวิดีโอที่รู้จักจะเริ่มต้นด้วยโหมดเพลงและภาพยนตร์</string>
     <string name="dolby_app_profile_default">โหมดเริ่มต้น</string>
-
     <string name="screen_color_title">สีหน้าจอ</string>
-    <string name="screen_color_summary">โหมดสี อุณหภูมิสี และสีของแอป</string>
+    <string name="screen_color_summary">ปรับปรุงการแสดงผลสีบนหน้าจอ</string>
+    <string name="video_picture_title">คุณภาพวิดีโอ</string>
+    <string name="video_picture_summary">เพิ่มความคมชัดและสีสันของวิดีโอที่ถอดรหัสด้วยฮาร์ดแวร์</string>
+    <string name="video_picture_play">เล่น</string>
+    <string name="video_picture_pause">หยุดชั่วคราว</string>
+    <string name="video_picture_position">ตำแหน่งการเล่น</string>
+    <string name="video_picture_fullscreen">เล่นแบบเต็มหน้าจอ</string>
+    <string name="video_picture_credit">วิดีโอ: %1$s</string>
     <string name="color_mode_title">โหมดสี</string>
     <string name="color_mode_standard">มาตรฐาน</string>
     <string name="color_mode_vivid">สดใส</string>
-    <string name="color_mode_natural">ธรรมชาติ</string>
+    <string name="color_mode_disabled">ปิดใช้งาน</string>
+    <string name="screen_color_gallery_fullscreen">เต็มหน้าจอ</string>
+    <string name="screen_color_gallery_close">ออกจากโหมดเต็มหน้าจอ</string>
+    <string name="screen_color_gallery_credit">รูปภาพ: %1$s</string>
     <string name="color_temperature_title">อุณหภูมิสี</string>
     <string name="color_temperature_standard">มาตรฐาน</string>
     <string name="color_temperature_warm">โทนอุ่น</string>
     <string name="color_temperature_cool">โทนเย็น</string>
     <string name="color_temperature_tip">แตะหรือลากจุดบนวงล้อสีเพื่อปรับโทนสีหน้าจอ เลือกมาตรฐานเพื่อกลับไปใช้ค่าเดิม</string>
     <string name="color_wheel_description">วงล้ออุณหภูมิสี</string>
-    <string name="category_color_more_title">การตั้งค่าเพิ่มเติม</string>
     <string name="color_adaptive_title">ปรับตามแสงโดยรอบ</string>
     <string name="color_adaptive_summary">ปรับสีขาวของหน้าจอตามสีของแสงโดยรอบเพื่อให้รับชมได้สบายตายิ่งขึ้น</string>
-    <string name="category_color_adjust_title">การปรับภาพ</string>
+    <string name="category_color_advanced_title">การปรับขั้นสูง</string>
     <string name="color_saturation_title">ความอิ่มตัวของสี</string>
     <string name="color_contrast_title">คอนทราสต์</string>
     <string name="color_sharpness_title">ความคมชัด</string>
     <string name="color_adjust_default">ค่าเริ่มต้น</string>
     <string name="color_adjust_reset_title">รีเซ็ตการปรับภาพ</string>
-    <string name="category_color_apps_title">แอป</string>
     <string name="color_app_profiles_enabled_title">เปลี่ยนสีตามแอป</string>
     <string name="color_app_profiles_enabled_summary">ใช้การตั้งค่าสีที่เลือกไว้สำหรับแอปเมื่อแอปอยู่เบื้องหน้า</string>
-    <string name="color_app_profiles_title">สีของแอป</string>
+    <string name="color_app_profiles_title">การตั้งค่าตามแอป</string>
     <string name="color_app_profiles_summary">ปิดการเพิ่มความสดของสีหรือเลือกโหมดสีสำหรับแต่ละแอป</string>
     <string name="color_app_profile_default">การตั้งค่าสีหน้าจอ</string>
-    <string name="color_app_profile_off">ปิด (สีถูกต้อง)</string>
-    <string name="category_video_title">ภาพวิดีโอ</string>
     <string name="video_enhance_title">ปรับปรุงภาพวิดีโอ</string>
     <string name="video_enhance_summary">MediaTek ประมวลผลเพิ่มเติมสำหรับวิดีโอที่ถอดรหัสด้วยฮาร์ดแวร์ ปิดฟีเจอร์นี้หากขอบภาพวิดีโอสว่างเกินไป มีจุดรบกวนเด่นชัด หรือสีดูผิดเพี้ยน</string>
+    <string name="video_enhance_on">เปิด</string>
+    <string name="video_enhance_off">ปิด</string>
     <string name="video_sharpness_title">ความคมชัด</string>
+    <string name="video_sharpness_summary">ทำให้ขอบและรายละเอียดเล็กๆ ในวิดีโอดูคมชัดขึ้น</string>
     <string name="video_dynamic_sharpness_title">ความคมชัดแบบไดนามิก</string>
+    <string name="video_dynamic_sharpness_summary">ปรับระดับความคมชัดตามเนื้อหาของแต่ละฉาก</string>
     <string name="video_iso_sharpness_title">ความคมชัดที่ปรับตามจุดรบกวน</string>
+    <string name="video_iso_sharpness_summary">ลดความคมชัดในฉากที่มีสัญญาณรบกวนมาก เช่น วิดีโอที่ถ่ายในที่แสงน้อย</string>
     <string name="video_ultra_resolution_title">ความละเอียดสูงพิเศษ</string>
     <string name="video_ultra_resolution_summary">เพิ่มความคมชัดให้วิดีโอความละเอียดต่ำขณะขยายภาพ</string>
     <string name="video_dynamic_contrast_title">คอนทราสต์แบบไดนามิก</string>
+    <string name="video_dynamic_contrast_summary">ปรับความสว่างและคอนทราสต์ทีละฉากเพื่อดึงรายละเอียดในส่วนมืดและสว่าง</string>
     <string name="video_color_title">ปรับปรุงสี</string>
-
+    <string name="video_color_summary">ปรับสีวิดีโอตามเนื้อหาของแต่ละฉากเพื่อให้สีสันสดใสยิ่งขึ้น</string>
     <string name="perf_title">โปรไฟล์ประสิทธิภาพ</string>
-    <string name="perf_summary">ปรับประสิทธิภาพและนโยบายความร้อนของ MediaTek Dimensity</string>
+    <string name="perf_scheduling_title">การจัดกำหนดการประสิทธิภาพ</string>
+    <string name="perf_summary">ปรับแต่งพารามิเตอร์อย่างละเอียดเพื่อใช้ประโยชน์จากชิป Dimensity อย่างเต็มประสิทธิภาพ</string>
     <string name="perf_enabled_title">ปรับประสิทธิภาพตามแอป</string>
     <string name="perf_enabled_summary">แจ้งบริการพลังงานของ MediaTek ว่าแอปใดอยู่เบื้องหน้าและใช้โปรไฟล์ของแอปนั้น แอปที่มีโปรไฟล์จากผู้ผลิตหรือโปรไฟล์แนะนำจะใช้โปรไฟล์เหล่านั้นเป็นค่าเริ่มต้น</string>
     <string name="category_perf_known_apps">แอปที่มีโปรไฟล์</string>
@@ -145,13 +159,13 @@
     <string name="perf_cluster_medium">คอร์กลาง</string>
     <string name="perf_cluster_big">คอร์ใหญ่</string>
     <string name="perf_cluster_title">%1$s (CPU %2$s)</string>
-    <string name="perf_cpu_min_title">%1$s: ความถี่ต่ำสุด</string>
-    <string name="perf_cpu_max_title">%1$s: ความถี่สูงสุด</string>
+    <string name="perf_cpu_min_description">ความถี่ต่ำสุดของ %1$s</string>
+    <string name="perf_cpu_max_description">ความถี่สูงสุดของ %1$s</string>
+    <string name="perf_cpu_range_description">ช่วงความถี่ของ %1$s</string>
     <string name="perf_refresh_rate_title">ล็อกอัตราการรีเฟรช</string>
     <string name="perf_refresh_rate_none">ไม่ล็อก</string>
     <string name="perf_advanced_reset_title">รีเซ็ตเป็นค่าที่ตั้งไว้</string>
-
     <string name="tile_reading_low_refresh">อ่าน 30 Hz</string>
     <string name="tile_touch_game_mode">โหมดเกมสัมผัส</string>
-    <string name="tile_smart_cover">เคสอัจฉริยะ</string>
+    <string name="tile_smart_cover">เคสแม่เหล็ก</string>
 </resources>

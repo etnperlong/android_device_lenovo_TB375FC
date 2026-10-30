@@ -111,13 +111,15 @@ public class ColorWheelView extends View {
         final int alpha = isEnabled() ? 255 : 97;
         mHuePaint.setAlpha(alpha);
         mWhitePaint.setAlpha(alpha);
+        mDotFillPaint.setColor(displayedColor(mPointX, mPointY));
+        mDotFillPaint.setAlpha(alpha);
+        mDotRingPaint.setAlpha(alpha);
+        mDotOutlinePaint.setAlpha(isEnabled() ? 0x61 : 0x25);
         canvas.drawCircle(mCenterX, mCenterY, mRadius, mHuePaint);
         canvas.drawCircle(mCenterX, mCenterY, mRadius, mWhitePaint);
 
         final float x = mCenterX + (mPointX - 0.5f) * 2 * mRadius;
         final float y = mCenterY + (mPointY - 0.5f) * 2 * mRadius;
-        mDotFillPaint.setColor(displayedColor(mPointX, mPointY));
-        mDotFillPaint.setAlpha(alpha);
         canvas.drawCircle(x, y, mDotRadius, mDotFillPaint);
         canvas.drawCircle(x, y, mDotRadius, mDotRingPaint);
         canvas.drawCircle(x, y, mDotRadius + mDotRingPaint.getStrokeWidth() / 2, mDotOutlinePaint);

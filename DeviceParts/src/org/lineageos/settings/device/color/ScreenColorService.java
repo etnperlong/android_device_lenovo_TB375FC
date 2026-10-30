@@ -27,24 +27,27 @@ import android.util.Log;
 import java.util.Arrays;
 
 /**
- * Applies the screen color settings through the MediaTek picture quality service, as stock
- * ZUI's ZuiDisplayService does in system_server (through com.mediatek.pq.PictureQuality and
+ * Applies screen color settings through the MediaTek picture quality service, as stock ZUI's
+ * ZuiDisplayService does in system_server (through com.mediatek.pq.PictureQuality and
  * libjni_pq.so):
  *
  * - Color mode (stock mtk_color_mode, setPictureMode for peridot): Vivid is gamma table 7, an
  *   identity CCORR matrix and the skin/grass tone and partial Y indexes at 0; Standard is gamma
- *   table 8 and peridot's own gamut matrix; Natural is gamma table 8 and the natural matrix
- *   (stock's persist.sys.colormode_modes offers only Vivid and Standard on this tablet).
- * - Color temperature (stock mtk_color_temperature): RGB gains.
- * - Adapt to ambient light (stock auto_color_temperature): enableChameleon.
- * - Saturation, contrast and sharpness: MediaTek picture indexes, as MiraVision sets them.
- * - Video picture enhancements (MDP/MML processing of hardware-decoded video): setFeatureSwitch,
- *   as the enable methods of com.mediatek.pq.PictureQuality do. Stock turns only ultra
- *   resolution off (ZuiDisplayService, "video quality enhance" off).
+ *   table 8 and peridot's own gamut matrix (stock's persist.sys.colormode_modes offers only
+ *   these two on this tablet). Disabled restores the vendor defaults: gamma table 7 (the PQ
+ *   service's getDefaultGammaIndex), the identity matrix and those five indexes at the panel PQ
+ *   XML values, with a neutral white point, no Chameleon and the default adjustment levels, so
+ *   that the system's Display > Colors mode (the panel XML's native/sRGB/P3 modes) decides.
+ * - Color temperature (stock mtk_color_temperature) sets RGB gains; adaptation to ambient light
+ *   (stock auto_color_temperature) uses enableChameleon.
+ * - Saturation, contrast and sharpness use MediaTek picture indexes, as MiraVision sets them.
+ * - Video picture enhancements (MDP/MML processing of hardware-decoded video) use setFeatureSwitch,
+ *   as the enable methods of com.mediatek.pq.PictureQuality do. They are independent of the color
+ *   mode. Stock turns only ultra resolution off (ZuiDisplayService, "video quality enhance" off).
  *
  * While an app is in front (screen on and unlocked), its app color setting replaces the mode
- * or turns the color enhancements off; the video enhancements stay as set. Only what changed is
- * sent; everything is sent again after the service restarts. Stock's step arguments are kept:
+ * (Disabled with its vendor defaults); video enhancements stay as set. Only what changed is sent;
+ * everything is sent again after the service restarts. Stock's step arguments are kept:
  * libjni_pq.so's default "on" step (0) for gamma and Chameleon, 1 elsewhere.
  */
 public class ScreenColorService extends Service {
@@ -72,16 +75,16 @@ public class ScreenColorService extends Service {
             0.84082, 0.17871, 0.02441,
             0.02832, 1.0, 0.0,
             0.01562, 0.0708, 0.94921});
-    private static final int[] MATRIX_NATURAL = toUnit(new double[] {
-            0.87402, 0.08203, 0.03955,
-            0.00878, 0.96777, 0.02441,
-            0.0, 0.01611, 0.98535});
-
     /**
      * Indexes Vivid sets to 0: grass tone hue and saturation, skin tone hue, partial Y and skin
      * tone saturation (setGrassToneHIndex ... setSkinToneSIndex in libjni_pq.so).
      */
     private static final int[] VIVID_ZERO_INDEXES = {4, 7, 3, 2, 6};
+    /**
+     * Their defaults: GRASS_TONE_H, GRASS_TONE_S, SKIN_TONE_H, PartialY and SKIN_TONE_S of
+     * Feature 0x0500 in stock /vendor/etc/cust_pq.xml and panel-*-nt36532-dsi-vdo_pq.xml.
+     */
+    private static final int[] PANEL_DEFAULT_INDEXES = {12, 10, 9, 0, 6};
 
     private HandlerThread mThread;
     private Handler mHandler;
@@ -277,23 +280,20 @@ public class ScreenColorService extends Service {
         return ok;
     }
 
-    /** ZuiDisplayService.setPictureMode for peridot. */
+    /** ZuiDisplayService.setPictureMode for peridot; Disabled restores the vendor defaults. */
     private boolean applyMode(int mode) {
-        switch (mode) {
-            case ColorSettings.MODE_STANDARD:
-                return mHal.setGammaIndex(GAMMA_STANDARD, STEP_ON)
-                        & mHal.setColorMatrix(MATRIX_STANDARD, STEP);
-            case ColorSettings.MODE_NATURAL:
-                return mHal.setGammaIndex(GAMMA_STANDARD, STEP_ON)
-                        & mHal.setColorMatrix(MATRIX_NATURAL, STEP);
-            default:
-                boolean ok = mHal.setGammaIndex(GAMMA_VIVID, STEP_ON)
-                        & mHal.setColorMatrix(MATRIX_IDENTITY, STEP);
-                for (int index : VIVID_ZERO_INDEXES) {
-                    ok &= mHal.setPqIndex(index, 0, STEP);
-                }
-                return ok;
+        if (mode == ColorSettings.MODE_STANDARD) {
+            return mHal.setGammaIndex(GAMMA_STANDARD, STEP_ON)
+                    & mHal.setColorMatrix(MATRIX_STANDARD, STEP);
         }
+        final boolean vivid = mode != ColorSettings.MODE_DISABLED;
+        boolean ok = mHal.setGammaIndex(GAMMA_VIVID, STEP_ON)
+                & mHal.setColorMatrix(MATRIX_IDENTITY, STEP);
+        for (int i = 0; i < VIVID_ZERO_INDEXES.length; i++) {
+            ok &= mHal.setPqIndex(VIVID_ZERO_INDEXES[i], vivid ? 0 : PANEL_DEFAULT_INDEXES[i],
+                    STEP);
+        }
+        return ok;
     }
 
     /** The package of the focused task while the screen is on and unlocked, else null. */

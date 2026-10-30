@@ -9,52 +9,58 @@ import android.content.ContentResolver;
 import android.os.Bundle;
 
 import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
 import androidx.preference.SeekBarPreference;
 import androidx.preference.TwoStatePreference;
 
 import com.android.settingslib.widget.SettingsBasePreferenceFragment;
 
 import org.lineageos.settings.device.R;
+import org.lineageos.settings.device.widget.OptionCardsPreference;
 
 /**
  * Screen color settings, laid out like stock ZUI Settings (display/ScreenTonePrefsX): a picture
- * and the color modes, the color temperature wheel and presets, then the switches. Additions:
- * picture adjustments, app color settings and the video picture enhancements. Values are read
- * from and written to settings only; ScreenColorService applies them.
+ * and the color mode cards, the ambient light switch, then the color temperature wheel and the
+ * picture adjustments folded under "Advanced adjustments". Additions: Disabled mode and the app
+ * color settings. Values are read from and written to settings only; ScreenColorService applies
+ * them.
  */
 public class ScreenColorFragment extends SettingsBasePreferenceFragment
         implements Preference.OnPreferenceChangeListener, Preference.OnPreferenceClickListener {
+    private static final String KEY_MODE = "color_mode";
     private static final String KEY_ADAPTIVE = "color_adaptive";
+    private static final String KEY_ADVANCED = "category_color_advanced";
     private static final String KEY_ADJUST_RESET = "color_adjust_reset";
-    private static final String KEY_APP_PROFILES_ENABLED = "color_app_profiles_enabled";
-    private static final String KEY_APP_PROFILES = "color_app_profiles";
-    private static final String KEY_VIDEO_ENHANCE = "video_enhance";
     /** Preference keys of ColorSettings.ADJUSTMENTS, in the same order. */
     private static final String[] ADJUSTMENT_KEYS = {
             "color_saturation", "color_contrast", "color_sharpness"};
-    /** Preference keys of ColorSettings.VIDEO_FEATURES, in the same order. */
-    private static final String[] VIDEO_FEATURE_KEYS = {
-            "video_sharpness", "video_dynamic_sharpness", "video_iso_sharpness",
-            "video_ultra_resolution", "video_dynamic_contrast", "video_color"};
 
     private ContentResolver mResolver;
+    private OptionCardsPreference mMode;
     private TwoStatePreference mAdaptive;
+    private PreferenceCategory mAdvanced;
     private final SeekBarPreference[] mAdjustments =
             new SeekBarPreference[ColorSettings.ADJUSTMENTS.length];
     private Preference mAdjustReset;
-    private TwoStatePreference mAppProfilesEnabled;
-    private Preference mAppProfiles;
-    private TwoStatePreference mVideoEnhance;
-    private final TwoStatePreference[] mVideoFeatures =
-            new TwoStatePreference[ColorSettings.VIDEO_FEATURES.length];
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         setPreferencesFromResource(R.xml.screen_color, rootKey);
         mResolver = requireContext().getContentResolver();
 
+        mMode = findPreference(KEY_MODE);
+        mMode.setOptions(
+                new int[] {ColorSettings.MODE_STANDARD, ColorSettings.MODE_VIVID,
+                        ColorSettings.MODE_DISABLED},
+                new CharSequence[] {getString(R.string.color_mode_standard),
+                        getString(R.string.color_mode_vivid),
+                        getString(R.string.color_mode_disabled)},
+                new int[] {R.drawable.ic_color_mode_standard, R.drawable.ic_color_mode_vivid,
+                        R.drawable.ic_color_mode_disabled});
+        mMode.setOnPreferenceChangeListener(this);
         mAdaptive = findPreference(KEY_ADAPTIVE);
         mAdaptive.setOnPreferenceChangeListener(this);
+        mAdvanced = findPreference(KEY_ADVANCED);
         for (int i = 0; i < mAdjustments.length; i++) {
             final SeekBarPreference pref = findPreference(ADJUSTMENT_KEYS[i]);
             pref.setMin(0);
@@ -66,15 +72,6 @@ public class ScreenColorFragment extends SettingsBasePreferenceFragment
         }
         mAdjustReset = findPreference(KEY_ADJUST_RESET);
         mAdjustReset.setOnPreferenceClickListener(this);
-        mAppProfilesEnabled = findPreference(KEY_APP_PROFILES_ENABLED);
-        mAppProfilesEnabled.setOnPreferenceChangeListener(this);
-        mAppProfiles = findPreference(KEY_APP_PROFILES);
-        mVideoEnhance = findPreference(KEY_VIDEO_ENHANCE);
-        mVideoEnhance.setOnPreferenceChangeListener(this);
-        for (int i = 0; i < mVideoFeatures.length; i++) {
-            mVideoFeatures[i] = findPreference(VIDEO_FEATURE_KEYS[i]);
-            mVideoFeatures[i].setOnPreferenceChangeListener(this);
-        }
     }
 
     @Override
@@ -84,7 +81,14 @@ public class ScreenColorFragment extends SettingsBasePreferenceFragment
     }
 
     private void updateState() {
+        final int mode = ColorSettings.getMode(mResolver);
+        mMode.setValue(mode);
+        // Disabled keeps these settings but does not apply them.
+        final boolean tuning = mode != ColorSettings.MODE_DISABLED;
+        mAdaptive.setEnabled(tuning);
         mAdaptive.setChecked(ColorSettings.isAdaptive(mResolver));
+        mAdvanced.setEnabled(tuning);
+
         boolean anyChanged = false;
         for (int i = 0; i < mAdjustments.length; i++) {
             final ColorSettings.Adjustment adjustment = ColorSettings.ADJUSTMENTS[i];
@@ -95,36 +99,18 @@ public class ScreenColorFragment extends SettingsBasePreferenceFragment
             anyChanged |= !unchanged;
         }
         mAdjustReset.setEnabled(anyChanged);
-        final boolean appProfiles = ColorSettings.isAppProfilesEnabled(mResolver);
-        mAppProfilesEnabled.setChecked(appProfiles);
-        mAppProfiles.setEnabled(appProfiles);
-        mVideoEnhance.setChecked(ColorSettings.isVideoEnhance(mResolver));
-        for (int i = 0; i < mVideoFeatures.length; i++) {
-            mVideoFeatures[i].setChecked(ColorSettings.VIDEO_FEATURES[i].isEnabled(mResolver));
-        }
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mMode) {
+            ColorSettings.putMode(mResolver, (Integer) newValue);
+            updateState();
+            return true;
+        }
         if (preference == mAdaptive) {
             ColorSettings.setAdaptive(mResolver, (Boolean) newValue);
             return true;
-        }
-        if (preference == mAppProfilesEnabled) {
-            final boolean enabled = (Boolean) newValue;
-            ColorSettings.setAppProfilesEnabled(mResolver, enabled);
-            mAppProfiles.setEnabled(enabled);
-            return true;
-        }
-        if (preference == mVideoEnhance) {
-            ColorSettings.setVideoEnhance(mResolver, (Boolean) newValue);
-            return true;
-        }
-        for (int i = 0; i < mVideoFeatures.length; i++) {
-            if (preference == mVideoFeatures[i]) {
-                ColorSettings.VIDEO_FEATURES[i].setEnabled(mResolver, (Boolean) newValue);
-                return true;
-            }
         }
         for (int i = 0; i < mAdjustments.length; i++) {
             if (preference == mAdjustments[i]) {

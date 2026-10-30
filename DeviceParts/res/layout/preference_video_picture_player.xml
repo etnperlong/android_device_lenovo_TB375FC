@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<!-- The sample clip player at the top of the video picture page, a row of its own: the row of
+     the On / Off cards is rebound whenever they change, and the player has to keep playing. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <org.lineageos.settings.device.color.VideoPictureGallery
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_frame"
+        android:clipToOutline="true">
+
+        <include layout="@layout/video_picture_player" />
+    </org.lineageos.settings.device.color.VideoPictureGallery>
+</FrameLayout>
