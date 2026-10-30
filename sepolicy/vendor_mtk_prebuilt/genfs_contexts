@@ -735,3 +735,10 @@ genfscon sysfs /kernel/gbe   u:object_r:sysfs_gbe:s0
 genfscon sysfs /mtk_ssw   u:object_r:sysfs_ssw:s0
 genfscon sysfs /devices/platform/efuse@11f10000/mtk-devinfo0/nvmem   u:object_r:sysfs_nvmem:s0
 genfscon sysfs /devices/virtual/misc/mcupm   u:object_r:sysfs_mcupm:s0
+genfscon sysfs /devices/platform/11b70000.i2c/i2c-2/2-0028/power_supply/PS5170/wakeup16   u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/11b70000.i2c/i2c-2/2-0028/power_supply/PS5170/wakeup21   u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/11d02000.i2c/i2c-7/7-0055/power_supply/battery/protection_setting_eu   u:object_r:sysfs_pump_express:s0
+genfscon sysfs /devices/platform/charger/chr_type   u:object_r:sysfs_pump_express:s0
+genfscon sysfs /devices/platform/soc/11201000.usb0/   u:object_r:sysfs_usb:s0
+genfscon sysfs /devices/platform/soc/11201000.usb0/otgenable   u:object_r:sysfs_usb:s0
+genfscon sysfs /kernel/extend_reclaim/reclaim   u:object_r:sysfs_zram:s0

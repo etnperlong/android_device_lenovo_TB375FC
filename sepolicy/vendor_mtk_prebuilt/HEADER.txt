@@ -24,6 +24,18 @@
 # are deduped against the plat + hand-written sets; property_contexts and
 # mac_permissions.xml are deduped copies of the stock vendor_* files.
 #
+# Refreshed to ZUXOS 1.5.10.123 by applying the stock CIL and context delta
+# from the previous (ZUI .060-era) inputs to these files, keeping the curated
+# omissions and local additions. .123 adds the PCCSEC/Tianxikey HAL policy and
+# the ro.boot.gsn / ro.boot.pcbaserialno labels, narrows
+# vendor_lenovotb_init_prop reads to platform/system/priv apps
+# (sepolicy/vendor/app_vendor_props.te excludes it from the app blanket to
+# match), drops app connectto on radio sockets and removes the DVS AIDL and
+# magt property declarations. Its `allow dumpstate vold:binder call` is left
+# out: it violates the platform neverallow in private/dumpstate.te.
+# Regenerate tb375fc_app_domains.te with tools/gen_sepolicy_app_domains.py
+# after changing mtk_proprietary.te.
+#
 # Kept separate from sepolicy/vendor/ so a blob resync does not clobber the
 # hand-written overrides there.
 # ============================================================================

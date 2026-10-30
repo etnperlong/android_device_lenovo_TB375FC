@@ -45,9 +45,8 @@ typeattribute system_app hal_dvs_client;
 # Dolby DAX AIDL service (vendor.dolby.dms.IDms). A16 exposes Dolby audio over an
 # AIDL service alongside the legacy HIDL hal_dms_hwservice. The de-hack left the
 # AIDL instance unlabeled (default_android_service), so com.dolby.daxservice
-# (platform_app) was denied find under enforcing. Label it and grant find, mirroring
-# the Dolby Vision dvs_aidl_service already in service_contexts. hal_dms_default (the
-# Dolby DAX HAL) registers it.
+# (platform_app) was denied find under enforcing. Label it and grant find.
+# hal_dms_default (the Dolby DAX HAL) registers it.
 type dms_aidl_service;
 typeattribute dms_aidl_service service_manager_type;
 typeattribute dms_aidl_service hal_service_type;

@@ -1,4 +1,7 @@
 persist.odm.bt.address u:object_r:vendor_nvram_lenovo_prop:s0
+vendor.storage.dynamicdata.backup.sz u:object_r:vendor_dynamicdata_prop:s0
+ro.vendor.storage.dynamicdata u:object_r:vendor_dynamicdata_prop:s0
+vendor.storage.dynamicdata.type u:object_r:vendor_dynamicdata_prop:s0
 ro.odm.lenovo.              u:object_r:vendor_lenovotb_init_prop:s0
 persist.odm.lenovo.         u:object_r:vendor_lenovotb_init_prop:s0
 ro.vendor.config.lgsi.       u:object_r:vendor_lenovotb_init_prop:s0
@@ -14,6 +17,9 @@ ro.odm.lenovo.pro_dock       u:object_r:vendor_lenovotb_init_prop:s0
 ro.odm.lenovo.carrier.code   u:object_r:vendor_lenovotb_init_prop:s0
 ro.odm.lenovo.pro_netflix    u:object_r:vendor_lenovotb_init_prop:s0
 ro.odm.lenovo.pro_eea        u:object_r:vendor_lenovotb_init_prop:s0
+ro.boot.gsn                  u:object_r:vendor_lenovotb_init_prop:s0
+ro.boot.pcbaserialno         u:object_r:vendor_lenovotb_init_prop:s0
+persist.vendor.tianxikey_is_ready  u:object_r:vendor_tianxikey_persist_prop:s0
 ctl.vendor.gsm0710muxd u:object_r:vendor_mtk_ctl_gsm0710muxd_prop:s0
 vendor.ril.ipo u:object_r:vendor_mtk_ril_ipo_prop:s0
 persist.vendor.usb. u:object_r:vendor_mtk_usb_prop:s0
@@ -229,8 +235,6 @@ vendor.mtk.factory.start u:object_r:vendor_mtk_factory_start_prop:s0
 persist.vendor.camera.cam.list u:object_r:vendor_mtk_hal_camera_prop:s0
 persist.vendor.main_back.otp_check  u:object_r:vendor_mtk_hal_camera_prop:s0
 persist.vendor.main_sub.otp_check  u:object_r:vendor_mtk_hal_camera_prop:s0
-vendor.camera.sn.main u:object_r:vendor_mtk_hal_camera_prop:s0
-vendor.camera.sn.front u:object_r:vendor_mtk_hal_camera_prop:s0
 vendor.all.modules.ready u:object_r:vendor_mtk_device_prop:s0
 vendor.performance.frs u:object_r:vendor_mtk_frs_prop:s0
 vendor.sys.vm. u:object_r:vendor_mtk_vm_prop:s0
@@ -485,6 +489,7 @@ ro.vendor.mtk_subsidy_lock_support u:object_r:vendor_mtk_subsidy_lock_support_pr
 ro.vendor.mtk_aov_app_support       u:object_r:vendor_mtk_aov_app_support_prop:s0
 ro.vendor.mtk_flp_support u:object_r:vendor_mtk_flp_prop:s0
 ro.vendor.mtk_geofence_support u:object_r:vendor_mtk_geofence_prop:s0
+ro.vendor.magt. u:object_r:vendor_mtk_magt_prop:s0
 ro.vendor.mtk_femto_cell_support  u:object_r:vendor_mtk_default_prop:s0
 persist.vendor.eara_io.           u:object_r:vendor_mtk_eara_io_prop:s0
 vendor.eara_io.                   u:object_r:vendor_mtk_eara_io_prop:s0
@@ -540,7 +545,3 @@ persist.vendor.radio.factory_sn         u:object_r:vendor_mtk_radio_prop:s0
 odm.ril.radio.status.                   u:object_r:vendor_mtk_radio_prop:s0
 persist.vendor.dolbyv.      u:object_r:vendor_dolbyv_prop:s0
 vendor.dolbyv.              u:object_r:vendor_dolbyv_prop:s0
-ro.vendor.magt. u:object_r:vendor_mtk_magt_prop:s0
-ro.vendor.storage.dynamicdata u:object_r:vendor_dynamicdata_prop:s0
-vendor.storage.dynamicdata.backup.sz u:object_r:vendor_dynamicdata_prop:s0
-vendor.storage.dynamicdata.type u:object_r:vendor_dynamicdata_prop:s0

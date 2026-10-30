@@ -58,7 +58,6 @@ allow platform_app_36 mdla_device:chr_file { ioctl read write getattr lock appen
 allow platform_app_36 vpu_device:chr_file { ioctl read write getattr lock append map open watch watch_reads };
 allow platform_app_36 volte_clientapi_ua_hwservice:hwservice_manager { find };
 allow platform_app_36 volte_clientapi_ua:binder { call transfer };
-allow platform_app_36 radio:unix_stream_socket { connectto };
 allow platform_app_36 sw_sync_device:chr_file { ioctl read write getattr lock append map open watch watch_reads };
 allow platform_app_36 mtk_hal_camera:binder { call transfer };
 allow mtk_hal_camera platform_app_36:binder { transfer };
@@ -89,7 +88,6 @@ allow untrusted_app_34 fuseblk:file { ioctl read write getattr lock append map o
 allow untrusted_app_34 vtservice:dir { search };
 allow untrusted_app_34 mediaserver:dir { search };
 allow untrusted_app_34 mtk_hal_neuralnetworks:binder { call transfer };
-allow untrusted_app_34 radio:unix_stream_socket { connectto };
 allow volte_clientapi_ua platform_app_36:binder { call transfer };
 allow platform_app_36 volte_clientapi_ua:binder { transfer };
 allow volte_clientapi_ua platform_app_36:fd { use };
@@ -150,3 +148,17 @@ allow platform_app_36 mobicore_user_device:chr_file { ioctl read write getattr l
 allow platform_app_36 mobicore_data_file:file { ioctl read getattr lock map open watch watch_reads };
 allow platform_app_36 mobicore_data_file:dir { search };
 allow platform_app_36 mtk_afw_service:service_manager { add };
+allow platform_app_36 vendor_lenovotb_init_prop:file { read getattr map open };
+allow priv_app_36 vendor_lenovotb_init_prop:file { read getattr map open };
+neverallow untrusted_app_34 vendor_lenovotb_init_prop:file { read getattr map open };
+allow priv_app_36 vendor_hal_pccsecd_server:binder { call transfer };
+allow vendor_hal_pccsecd_server priv_app_36:binder { transfer };
+allow priv_app_36 vendor_hal_pccsecd_server:fd { use };
+allow vendor_hal_pccsecd_server priv_app_36:binder { call transfer };
+allow priv_app_36 vendor_hal_pccsecd_server:binder { transfer };
+allow vendor_hal_pccsecd_server priv_app_36:fd { use };
+allow priv_app_36 vendor_hal_pccsecd_hwservice:hwservice_manager { find };
+allow priv_app_36 vendor_hal_pccsec_aidl_service:service_manager { find };
+allow priv_app_36 servicemanager:binder { call transfer };
+allow servicemanager priv_app_36:binder { transfer };
+allow priv_app_36 servicemanager:fd { use };

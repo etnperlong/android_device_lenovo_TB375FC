@@ -1,9 +1,12 @@
 vendor.lenovo.hardware.battery::IBattery u:object_r:hal_lenovobattery_hwservice:s0
-vendor.lenovo.hardware.factory::IFactory u:object_r:hal_lenovofactory_hwservice:s0
-vendor.lenovo.hardware.performance::IPerformance  u:object_r:hal_lenovoperformance_hwservice:s0
 vendor.lenovo.hardware.display::IDisplay u:object_r:hal_lenovodisplay_hwservice:s0
+vendor.lenovo.hardware.factory::IFactory u:object_r:hal_lenovofactory_hwservice:s0
 vendor.lenovo.hardware.misc::IMisc  u:object_r:hal_lenovomisc_hwservice:s0
+vendor.lenovo.hardware.performance::IPerformance  u:object_r:hal_lenovoperformance_hwservice:s0
 vendor.lenovo.hardware.touchscreen::ITouchscreen              u:object_r:hal_lenovotouchscreen_hwservice:s0
+vendor.lenovo.hardware.usb::IUsb u:object_r:hal_lenovousb_hwservice:s0
+vendor.lenovo.hardware.hyperschedule::IHyperschedule u:object_r:hal_lenovohyperschedule_hwservice:s0
+motorola.hardware.pccsec::IPccSec                           u:object_r:vendor_hal_pccsecd_hwservice:s0
 vendor.mediatek.hardware.bluetooth::IMtkBluetoothHci u:object_r:mtk_hal_bluetooth_hwservice:s0
 vendor.mediatek.hardware.mtkradioex::IMtkRadioEx                    u:object_r:mtk_hal_rild_hwservice:s0
 vendor.mediatek.hardware.radio::ISap                                u:object_r:mtk_hal_rild_hwservice:s0
@@ -66,6 +69,4 @@ interfaces.factoryInterface::IFactorySensor     u:object_r:factory_interface_hws
 interfaces.factoryAta::IFactoryAta              u:object_r:factory_interface_hwservice:s0
 interfaces.customNvService::ICustomNv           u:object_r:factory_interface_hwservice:s0
 interfaces.factorySensor::IHalSensor            u:object_r:factory_sensor_hwservice:s0
-vendor.lenovo.hardware.usb::IUsb u:object_r:hal_lenovousb_hwservice:s0
-vendor.lenovo.hardware.hyperschedule::IHyperschedule u:object_r:hal_lenovohyperschedule_hwservice:s0
 vendor.dolby.dvs::IDvs          u:object_r:hal_dvs_hwservice:s0

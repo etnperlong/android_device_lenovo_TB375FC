@@ -6,4 +6,7 @@
 # public set (the "public" in vendor_public_property_type means app-readable). Without
 # this every app's RenderThread is denied vendor_mtk_gpu_prop and the screen blanks under
 # enforcing.
-allow { appdomain -isolated_app -isolated_compute_app } vendor_public_property_type:file { getattr map open read };
+# The Lenovo identity props (vendor_lenovotb_init_prop: serial numbers, ro.boot.gsn,
+# ro.boot.pcbaserialno) are left out: stock .123 grants them only to platform, system
+# and priv apps and neverallows untrusted apps (see mtk_proprietary.te).
+allow { appdomain -isolated_app -isolated_compute_app } { vendor_public_property_type -vendor_lenovotb_init_prop }:file { getattr map open read };

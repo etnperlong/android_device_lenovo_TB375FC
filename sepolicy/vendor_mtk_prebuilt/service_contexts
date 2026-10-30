@@ -1,9 +1,12 @@
 vendor.lenovo.hardware.battery.IBattery/default u:object_r:hal_lenovobattery_service:s0
-vendor.lenovo.hardware.factory.IFactory/default u:object_r:hal_lenovofactory_service:s0
-vendor.lenovo.hardware.performance.IPerformance/default u:object_r:hal_lenovoperformance_service:s0
 vendor.lenovo.hardware.display.IDisplay/default u:object_r:hal_lenovodisplay_service:s0
+vendor.lenovo.hardware.factory.IFactory/default u:object_r:hal_lenovofactory_service:s0
 vendor.lenovo.hardware.misc.IMisc/default u:object_r:hal_lenovomisc_service:s0
+vendor.lenovo.hardware.performance.IPerformance/default u:object_r:hal_lenovoperformance_service:s0
 vendor.lenovo.hardware.touchscreen.ITouchscreen/default u:object_r:hal_lenovotouchscreen_service:s0
+vendor.lenovo.hardware.usb.IUsb/default u:object_r:hal_lenovousb_service:s0
+vendor.lenovo.hardware.hyperschedule.IHyperschedule/default u:object_r:hal_lenovohyperschedule_service:s0
+motorola.hardware.pccsec.IPccSec/default                              u:object_r:vendor_hal_pccsec_aidl_service:s0
 android.hardware.neuralnetworks.IDevice/mtk-dsp_shim    u:object_r:hal_neuralnetworks_service:s0
 android.hardware.neuralnetworks.IDevice/mtk-gpu_shim    u:object_r:hal_neuralnetworks_service:s0
 android.hardware.neuralnetworks.IDevice/mtk-mdla_shim   u:object_r:hal_neuralnetworks_service:s0
@@ -141,7 +144,4 @@ vendor.tsa.hdcp.IHDCPInterface/default      u:object_r:tsa_hal_hdcp_service:s0
 vendor.microtrust.hardware.ifaa.IIFAADevice/default u:object_r:teei_hal_ifaa_service:s0
 vendor.microtrust.hardware.soter.ISoter/default u:object_r:teei_hal_wechat_service:s0
 afw_service     u:object_r:mtk_afw_service:s0
-vendor.dolby.dvs.IDvs/default u:object_r:dvs_aidl_service:s0
 vendor.dolby.dms.IDms/default u:object_r:dms_aidl_service:s0
-vendor.lenovo.hardware.usb.IUsb/default u:object_r:hal_lenovousb_service:s0
-vendor.lenovo.hardware.hyperschedule.IHyperschedule/default u:object_r:hal_lenovohyperschedule_service:s0
