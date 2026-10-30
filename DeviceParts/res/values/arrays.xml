@@ -18,4 +18,16 @@
         <item>2</item>
         <item>3</item>
     </string-array>
+    <string-array name="ram_expansion_algorithm_entries">
+        <item>@string/ram_expansion_algorithm_lz4</item>
+        <item>@string/ram_expansion_algorithm_zstd</item>
+        <item>@string/ram_expansion_algorithm_lzo_rle</item>
+        <item>@string/ram_expansion_algorithm_lzo</item>
+    </string-array>
+    <string-array name="ram_expansion_algorithm_values" translatable="false">
+        <item>lz4</item>
+        <item>zstd</item>
+        <item>lzo-rle</item>
+        <item>lzo</item>
+    </string-array>
 </resources>

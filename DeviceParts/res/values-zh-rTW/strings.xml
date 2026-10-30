@@ -7,7 +7,31 @@
     <string name="app_name">裝置功能</string>
 
     <string name="device_parts_title">裝置功能</string>
-    <string name="device_parts_summary">螢幕色彩、影片畫質、杜比全景聲、效能、配件、刷新率與觸控</string>
+    <string name="device_parts_summary">螢幕色彩、影片畫質、Dolby Atmos、效能、配件、刷新率與觸控、RAM 擴充</string>
+    <string name="category_memory_title">記憶體</string>
+    <string name="ram_expansion_title">RAM 擴充</string>
+    <string name="ram_expansion_summary">將閒置應用程式資料移至儲存空間以釋放 RAM</string>
+    <string name="ram_expansion_description">將長時間未使用的應用程式資料從壓縮記憶體移至儲存空間，以釋放 RAM。會使用所選的儲存空間容量。重新啟動後變更才會生效。</string>
+    <string name="ram_expansion_size_title">RAM 擴充大小</string>
+    <string name="ram_expansion_size_off">關閉</string>
+    <string name="ram_expansion_status_title">狀態</string>
+    <string name="ram_expansion_compressed_title">壓縮記憶體</string>
+    <string name="ram_expansion_compressed_summary">保留的資料：%1$s · 已使用的 RAM：%2$s</string>
+    <string name="ram_expansion_storage_title">RAM 擴充</string>
+    <string name="ram_expansion_storage_summary">目前有 %1$s 已移至儲存空間</string>
+    <string name="ram_expansion_unavailable">無法使用</string>
+    <string name="ram_expansion_pending_title">重新啟動以套用變更</string>
+    <string name="ram_expansion_advanced_title">進階</string>
+    <string name="ram_expansion_algorithm_title">壓縮演算法</string>
+    <string name="ram_expansion_algorithm_lz4">LZ4（預設）</string>
+    <string name="ram_expansion_algorithm_zstd">zstd — 較小、較慢</string>
+    <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
+    <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_not_enough_storage">可用儲存空間不足</string>
+    <string name="ram_expansion_restart_dialog_title">要重新啟動裝置嗎？</string>
+    <string name="ram_expansion_restart_dialog_message">請重新啟動裝置，確保變更生效。</string>
+    <string name="ram_expansion_restart_now">立即重新啟動</string>
+    <string name="ram_expansion_restart_later">稍後</string>
     <string name="display_parts_title">刷新率與觸控</string>
     <string name="display_parts_summary">閱讀模式刷新率、觸控遊戲模式</string>
 

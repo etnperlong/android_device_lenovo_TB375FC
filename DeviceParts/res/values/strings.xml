@@ -8,7 +8,35 @@
 
     <!-- Settings entry points -->
     <string name="device_parts_title">Device parts</string>
-    <string name="device_parts_summary">Screen color, video picture, Dolby Atmos, performance, accessories, refresh rate and touch</string>
+    <string name="device_parts_summary">Screen color, video picture, RAM expansion, Dolby Atmos, performance, accessories, refresh rate and touch</string>
+    <string name="category_memory_title">Memory</string>
+    <string name="ram_expansion_title">RAM expansion</string>
+    <string name="ram_expansion_summary">Move inactive app data to storage to free RAM</string>
+    <string name="ram_expansion_description">Move data from apps that have not been used for a long time from compressed memory to storage, freeing RAM. The selected amount of storage is used. Changes take effect after a restart.</string>
+    <string name="ram_expansion_size_title">RAM expansion size</string>
+    <string name="ram_expansion_size_off">Off</string>
+    <string name="ram_expansion_size_2gb" translatable="false">2 GB</string>
+    <string name="ram_expansion_size_4gb" translatable="false">4 GB</string>
+    <string name="ram_expansion_size_6gb" translatable="false">6 GB</string>
+    <string name="ram_expansion_size_8gb" translatable="false">8 GB</string>
+    <string name="ram_expansion_status_title">Status</string>
+    <string name="ram_expansion_compressed_title">Compressed memory</string>
+    <string name="ram_expansion_compressed_summary">Data held: %1$s · RAM used: %2$s</string>
+    <string name="ram_expansion_storage_title">RAM expansion</string>
+    <string name="ram_expansion_storage_summary">Currently moved to storage: %1$s</string>
+    <string name="ram_expansion_unavailable">Unavailable</string>
+    <string name="ram_expansion_pending_title">Restart to apply changes</string>
+    <string name="ram_expansion_advanced_title">Advanced</string>
+    <string name="ram_expansion_algorithm_title">Compression algorithm</string>
+    <string name="ram_expansion_algorithm_lz4">LZ4 (default)</string>
+    <string name="ram_expansion_algorithm_zstd">zstd — smaller, slower</string>
+    <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
+    <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_not_enough_storage">Not enough free storage</string>
+    <string name="ram_expansion_restart_dialog_title">Restart device?</string>
+    <string name="ram_expansion_restart_dialog_message">Please restart the device to ensure changes take effect.</string>
+    <string name="ram_expansion_restart_now">Restart</string>
+    <string name="ram_expansion_restart_later">Later</string>
     <string name="display_parts_title">Refresh rate and touch</string>
     <string name="display_parts_summary">Reading mode refresh rate, touch game mode</string>
     <string name="category_miravision_title" translatable="false">MediaTek MiraVision™</string>

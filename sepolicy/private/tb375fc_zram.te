@@ -6,3 +6,8 @@
 # touch zram_data_file at all (b/454531915), so every zram writeback and every
 # read of a written-back page was denied and failed.
 allow kernel zram_data_file:file { read write };
+
+# DeviceParts (system_app) shows the compressed memory and how much of it is in
+# the writeback file (mm_stat, bd_stat, backing_dev, comp_algorithm).
+allow system_app sysfs_zram:dir search;
+allow system_app sysfs_zram:file r_file_perms;

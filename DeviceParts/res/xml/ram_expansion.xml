@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/ram_expansion_title">
+    <Preference
+        android:key="ram_expansion_description"
+        android:selectable="false"
+        android:summary="@string/ram_expansion_description" />
+
+    <PreferenceCategory
+        android:key="category_ram_expansion_size"
+        android:title="@string/ram_expansion_size_title">
+        <com.android.settingslib.widget.SelectorWithWidgetPreference
+            android:key="ram_expansion_size_0"
+            android:title="@string/ram_expansion_size_off"
+            android:persistent="false" />
+        <com.android.settingslib.widget.SelectorWithWidgetPreference
+            android:key="ram_expansion_size_2"
+            android:title="@string/ram_expansion_size_2gb"
+            android:persistent="false" />
+        <com.android.settingslib.widget.SelectorWithWidgetPreference
+            android:key="ram_expansion_size_4"
+            android:title="@string/ram_expansion_size_4gb"
+            android:persistent="false" />
+        <com.android.settingslib.widget.SelectorWithWidgetPreference
+            android:key="ram_expansion_size_6"
+            android:title="@string/ram_expansion_size_6gb"
+            android:persistent="false" />
+        <com.android.settingslib.widget.SelectorWithWidgetPreference
+            android:key="ram_expansion_size_8"
+            android:title="@string/ram_expansion_size_8gb"
+            android:persistent="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="category_ram_expansion_status"
+        android:title="@string/ram_expansion_status_title">
+        <Preference
+            android:key="ram_expansion_compressed_status"
+            android:title="@string/ram_expansion_compressed_title"
+            android:selectable="false" />
+        <Preference
+            android:key="ram_expansion_storage_status"
+            android:title="@string/ram_expansion_storage_title"
+            android:selectable="false" />
+        <Preference
+            android:key="ram_expansion_pending"
+            android:title="@string/ram_expansion_pending_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="category_ram_expansion_advanced"
+        android:title="@string/ram_expansion_advanced_title">
+        <ListPreference
+            android:key="ram_expansion_algorithm"
+            android:title="@string/ram_expansion_algorithm_title"
+            android:entries="@array/ram_expansion_algorithm_entries"
+            android:entryValues="@array/ram_expansion_algorithm_values"
+            android:persistent="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

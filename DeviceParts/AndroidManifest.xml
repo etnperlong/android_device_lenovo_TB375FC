@@ -23,6 +23,7 @@
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.SET_ACTIVITY_WATCHER" />
+    <uses-permission android:name="android.permission.REBOOT" />
     <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
     <uses-permission android:name="lineageos.permission.HARDWARE_ABSTRACTION_ACCESS" />
 
@@ -245,6 +246,32 @@
             <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/perf_summary" />
+        </activity>
+
+        <activity
+            android:name=".memory.RamExpansionActivity"
+            android:exported="true"
+            android:label="@string/ram_expansion_title"
+            android:theme="@style/Theme.SubSettingsBase">
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.system" />
+            <meta-data
+                android:name="com.android.settings.group_key"
+                android:value="automation_intelligence_category" />
+            <!-- Automation & intelligence is ordered at -370 on the System page. -->
+            <meta-data
+                android:name="com.android.settings.order"
+                android:value="-370" />
+            <meta-data
+                android:name="com.android.settings.keyhint"
+                android:value="system_ram_expansion" />
+            <meta-data
+                android:name="com.android.settings.summary"
+                android:resource="@string/ram_expansion_summary" />
         </activity>
 
         <activity

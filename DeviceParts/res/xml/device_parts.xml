@@ -55,6 +55,19 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="category_memory"
+        android:title="@string/category_memory_title">
+        <Preference
+            android:key="ram_expansion"
+            android:title="@string/ram_expansion_title"
+            android:summary="@string/ram_expansion_summary">
+            <intent
+                android:targetPackage="org.lineageos.settings.device"
+                android:targetClass="org.lineageos.settings.device.memory.RamExpansionActivity" />
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="category_accessories"
         android:title="@string/accessories_title">
         <Preference

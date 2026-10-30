@@ -28,9 +28,10 @@
 //  - dolby: the stock ZUI Dolby Atmos settings on top of the vendor daxService, with a graphic
 //    equalizer shared by the Dynamic, Movie and Music modes;
 //  - perf: per-app performance profiles: the foreground app goes to the MediaTek power HAL
-//    (IMtkpower_applist, as stock system_server does) or a custom power HAL lock is held for it.
+//    (IMtkpower_applist, as stock system_server does) or a custom power HAL lock is held for it;
+//  - memory: RAM expansion choices for mmd's zram writeback and compression algorithm.
 // Its screens are listed on its Settings homepage entry and placed in the Display, Sound,
-// Battery and Connected devices pages of Settings.
+// Battery, Connected devices and System pages of Settings.
 // Not privileged: uid 1000 already passes every permission check, and a priv-app would need
 // privapp-permissions entries.
 
@@ -49,6 +50,7 @@ android_app {
     static_libs: [
         "SettingsLibCollapsingToolbarBaseActivity",
         "SettingsLibMainSwitchPreference",
+        "SettingsLibSelectorWithWidgetPreference",
         "SettingsLibSettingsTheme",
         "androidx.preference_preference",
         "com.google.android.material_material",
