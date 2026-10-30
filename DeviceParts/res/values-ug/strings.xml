@@ -7,7 +7,7 @@
     <string name="app_name">ئۈسكۈنە ئىقتىدارلىرى</string>
     <string name="device_parts_title">ئۈسكۈنە ئىقتىدارلىرى</string>
     <string name="device_parts_summary">ئېكران رەڭگى، سىن سۈپىتى، Dolby Atmos، ئىقتىدار، قوشۇمچە زاپچاسلار، يېڭىلاش نىسبىتى ۋە چەكمە، RAM كېڭەيتىش</string>
-    <string name="category_memory_title">ئىچكى ساقلىغۇچ</string>
+    <string name="category_perf_memory_title">ئىقتىدار ۋە ئىچكى ساقلىغۇچ</string>
     <string name="ram_expansion_title">RAM كېڭەيتىش</string>
     <string name="ram_expansion_summary">RAM نى بوشىتىش ئۈچۈن ئىشلىتىلمەيدىغان ئەپ سانلىق مەلۇماتلىرىنى ساقلىغۇچقا يۆتكەڭ</string>
     <string name="ram_expansion_description">ئۇزاق ۋاقىت ئىشلىتىلمىگەن ئەپلەرنىڭ سانلىق مەلۇماتلىرىنى پىرىسلانغان ئىچكى ساقلىغۇچتىن ساقلىغۇچقا يۆتكەپ RAM نى بوشىتىڭ. تاللانغان ساقلىغۇچ مىقدارى ئىشلىتىلىدۇ. ئۆزگەرتىشلەر قايتا قوزغىتىلغاندىن كېيىن كۈچكە ئىگە بولىدۇ.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — كىچىكرەك، ئاستىراق</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">ئىشلىتىلمىگەن سانلىق مەلۇماتنى قايتا پىرىسلاش</string>
+    <string name="ram_expansion_recompression_summary">بىر مەزگىل ئىشلىتىلمىگەن سانلىق مەلۇماتنى zstd بىلەن قايتا پىرىسلاپ، CPU نى سەل كۆپرەك ئىشلىتىش بەدىلىگە ئوخشاش RAM غا تېخىمۇ كۆپ سانلىق مەلۇمات سىغدۇرۇڭ</string>
+    <string name="ram_expansion_recompression_zstd_summary">پىرىسلاش ئالگورىزىمى zstd بولغاندا لازىم ئەمەس</string>
+    <string name="ram_expansion_size_limited">%1$s دىن ئارتۇق ساقلاش ئۈچۈن بوش ساقلىغۇچ يېتەرلىك ئەمەس</string>
+    <string name="ram_expansion_save">ساقلاش</string>
+    <string name="ram_expansion_unsaved_title">ئۆزگەرتىشلەرنى ساقلامسىز؟</string>
+    <string name="ram_expansion_unsaved_message">RAM كېڭەيتىش ئۆزگەرتىشلىرى ساقلانمىدى.</string>
+    <string name="ram_expansion_discard">تاشلىۋېتىش</string>
     <string name="ram_expansion_not_enough_storage">بوش ساقلىغۇچ يېتەرلىك ئەمەس</string>
     <string name="ram_expansion_restart_dialog_title">ئۈسكۈنىنى قايتا قوزغىتامسىز؟</string>
-    <string name="ram_expansion_restart_dialog_message">ئۆزگەرتىشلەرنىڭ كۈچكە ئىگە بولۇشى ئۈچۈن ئۈسكۈنىنى قايتا قوزغىتىڭ.</string>
+    <string name="ram_expansion_restart_dialog_message">ئۆزگەرتىشلەر ساقلاندى ۋە قايتا قوزغىتىلغاندىن كېيىن كۈچكە ئىگە بولىدۇ. ھازىر قايتا قوزغىتامسىز؟</string>
     <string name="ram_expansion_restart_now">ھازىر قايتا قوزغىتىش</string>
     <string name="ram_expansion_restart_later">كېيىن</string>
     <string name="display_parts_title">يېڭىلاش نىسبىتى ۋە چەكمە</string>

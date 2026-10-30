@@ -7,7 +7,7 @@
     <string name="app_name">Mga bahagi ng device</string>
     <string name="device_parts_title">Mga bahagi ng device</string>
     <string name="device_parts_summary">Kulay ng screen, larawan ng video, Dolby Atmos, performance, mga accessory, refresh rate at touch, pagpapalawak ng RAM</string>
-    <string name="category_memory_title">Memory</string>
+    <string name="category_perf_memory_title">Performance at memory</string>
     <string name="ram_expansion_title">Pagpapalawak ng RAM</string>
     <string name="ram_expansion_summary">Ilipat ang data ng mga hindi aktibong app sa storage para magbakante ng RAM</string>
     <string name="ram_expansion_description">Ilipat ang data mula sa mga app na matagal nang hindi ginagamit mula sa naka-compress na memory papunta sa storage upang magbakante ng RAM. Gagamitin ang napiling dami ng storage. Magkakabisa ang mga pagbabago pagkatapos mag-restart.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — mas maliit, mas mabagal</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">I-compress muli ang hindi aktibong data</string>
+    <string name="ram_expansion_recompression_summary">I-compress muli gamit ang zstd ang data na matagal nang hindi ginagamit. Mas gagamit ito ng CPU, pero mas maraming data ang magkakasya sa parehong RAM</string>
+    <string name="ram_expansion_recompression_zstd_summary">Hindi kailangan kapag zstd ang ginagamit na algorithm ng compression</string>
     <string name="ram_expansion_not_enough_storage">Kulang ang libreng storage</string>
+    <string name="ram_expansion_size_limited">Kulang ang libreng storage para sa laki na higit sa %1$s</string>
+    <string name="ram_expansion_save">I-save</string>
+    <string name="ram_expansion_unsaved_title">I-save ang mga pagbabago?</string>
+    <string name="ram_expansion_unsaved_message">Hindi pa nase-save ang mga pagbabago sa pagpapalawak ng RAM.</string>
+    <string name="ram_expansion_discard">Itapon</string>
     <string name="ram_expansion_restart_dialog_title">I-restart ang device?</string>
-    <string name="ram_expansion_restart_dialog_message">I-restart ang device para matiyak na magkakabisa ang mga pagbabago.</string>
+    <string name="ram_expansion_restart_dialog_message">Na-save na ang mga pagbabago at magkakabisa pagkatapos mag-restart. Mag-restart ngayon?</string>
     <string name="ram_expansion_restart_now">I-restart</string>
     <string name="ram_expansion_restart_later">Mamaya</string>
     <string name="display_parts_title">Refresh rate at touch</string>

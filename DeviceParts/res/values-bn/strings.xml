@@ -7,7 +7,6 @@
     <string name="app_name">ডিভাইসের ফিচার</string>
     <string name="device_parts_title">ডিভাইসের ফিচার</string>
     <string name="device_parts_summary">স্ক্রিনের রঙ, ভিডিও ছবির মান, Dolby Atmos, পারফরম্যান্স, আনুষঙ্গিক সামগ্রী, রিফ্রেশ রেট, টাচ ও র‍্যাম এক্সপ্যানশন</string>
-    <string name="category_memory_title">মেমরি</string>
     <string name="ram_expansion_title">র‍্যাম এক্সপ্যানশন</string>
     <string name="ram_expansion_summary">র‍্যাম খালি করতে নিষ্ক্রিয় অ্যাপের ডেটা স্টোরেজে সরান</string>
     <string name="ram_expansion_description">দীর্ঘদিন ব্যবহার না করা অ্যাপের ডেটা সংকুচিত মেমরি থেকে স্টোরেজে সরিয়ে র‍্যাম খালি করুন। নির্বাচিত পরিমাণ স্টোরেজ ব্যবহার করা হবে। পুনরায় চালু করার পরে পরিবর্তন কার্যকর হবে।</string>
@@ -27,8 +26,17 @@
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
     <string name="ram_expansion_not_enough_storage">পর্যাপ্ত খালি স্টোরেজ নেই</string>
+    <string name="category_perf_memory_title">পারফরম্যান্স ও মেমরি</string>
+    <string name="ram_expansion_recompression_title">নিষ্ক্রিয় ডেটা আবার সংকুচিত করুন</string>
+    <string name="ram_expansion_recompression_summary">কিছু CPU ব্যবহারের বিনিময়ে একই RAM-এ আরও ডেটা রাখতে দীর্ঘদিন ব্যবহার না করা ডেটা zstd দিয়ে আবার সংকুচিত করুন</string>
+    <string name="ram_expansion_recompression_zstd_summary">zstd সংকোচন অ্যালগরিদম হিসেবে নির্বাচিত থাকলে প্রয়োজন নেই</string>
+    <string name="ram_expansion_size_limited">%1$s-এর বেশি পরিমাণের জন্য পর্যাপ্ত খালি স্টোরেজ নেই</string>
+    <string name="ram_expansion_save">সংরক্ষণ করুন</string>
+    <string name="ram_expansion_unsaved_title">পরিবর্তন সংরক্ষণ করবেন?</string>
+    <string name="ram_expansion_unsaved_message">আপনার RAM সম্প্রসারণের পরিবর্তন সংরক্ষিত হয়নি।</string>
+    <string name="ram_expansion_discard">বাতিল করুন</string>
     <string name="ram_expansion_restart_dialog_title">ডিভাইস পুনরায় চালু করবেন?</string>
-    <string name="ram_expansion_restart_dialog_message">পরিবর্তন কার্যকর হয়েছে কি না নিশ্চিত করতে অনুগ্রহ করে ডিভাইসটি পুনরায় চালু করুন।</string>
+    <string name="ram_expansion_restart_dialog_message">পরিবর্তন সংরক্ষিত হয়েছে এবং পুনরায় চালু করার পরে কার্যকর হবে। এখনই পুনরায় চালু করবেন?</string>
     <string name="ram_expansion_restart_now">এখনই পুনরায় চালু করুন</string>
     <string name="ram_expansion_restart_later">পরে</string>
     <string name="display_parts_title">রিফ্রেশ রেট ও টাচ</string>

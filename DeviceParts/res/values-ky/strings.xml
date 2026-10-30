@@ -7,7 +7,7 @@
     <string name="app_name">Түзмөктүн мүмкүнчүлүктөрү</string>
     <string name="device_parts_title">Түзмөктүн мүмкүнчүлүктөрү</string>
     <string name="device_parts_summary">Экрандын түсү, видео сүрөтү, Dolby Atmos, өндүрүмдүүлүк, аксессуарлар, жаңылануу жыштыгы, сенсор жана RAM кеңейтүү</string>
-    <string name="category_memory_title">Эс тутум</string>
+    <string name="category_perf_memory_title">Өндүрүмдүүлүк жана эс тутум</string>
     <string name="ram_expansion_title">RAM кеңейтүү</string>
     <string name="ram_expansion_summary">RAM бошотуу үчүн колдонулбаган колдонмолордун дайындарын сактагычка жылдыруу</string>
     <string name="ram_expansion_description">Узак убакыт колдонулбаган колдонмолордун дайындарын кысылган эс тутумдан сактагычка жылдырып, RAM бошотуңуз. Тандалган сактагыч көлөмү колдонулат. Өзгөртүүлөр кайра иштетилгенден кийин күчүнө кирет.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — кичирээк, жайыраак</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Колдонулбаган дайындарды кайра кысуу</string>
+    <string name="ram_expansion_recompression_summary">Бир аз убакыт колдонулбаган дайындарды zstd менен кайра кысып, CPU көбүрөөк колдонулганы менен ошол эле RAM көлөмүнө көбүрөөк дайын батырыңыз</string>
+    <string name="ram_expansion_recompression_zstd_summary">Кысуу алгоритми zstd болгондо кереги жок</string>
+    <string name="ram_expansion_size_limited">%1$s ашык сактагыч үчүн бош орун жетишсиз</string>
+    <string name="ram_expansion_save">Сактоо</string>
+    <string name="ram_expansion_unsaved_title">Өзгөртүүлөр сакталсынбы?</string>
+    <string name="ram_expansion_unsaved_message">RAM кеңейтүү өзгөртүүлөрү сакталган жок.</string>
+    <string name="ram_expansion_discard">Өзгөртүүлөрдү жокко чыгаруу</string>
     <string name="ram_expansion_not_enough_storage">Бош сактагыч жетишсиз</string>
     <string name="ram_expansion_restart_dialog_title">Түзмөк кайра иштетилсинби?</string>
-    <string name="ram_expansion_restart_dialog_message">Өзгөртүүлөр күчүнө кириши үчүн түзмөктү кайра иштетиңиз.</string>
+    <string name="ram_expansion_restart_dialog_message">Өзгөртүүлөр сакталды жана кайра иштеткенден кийин күчүнө кирет. Түзмөк азыр кайра иштетилсинби?</string>
     <string name="ram_expansion_restart_now">Кайра иштетүү</string>
     <string name="ram_expansion_restart_later">Кийинчерээк</string>
     <string name="display_parts_title">Жаңылануу жыштыгы жана сенсор</string>

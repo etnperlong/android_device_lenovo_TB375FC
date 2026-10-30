@@ -7,7 +7,7 @@
     <string name="app_name">មុខងារឧបករណ៍</string>
     <string name="device_parts_title">មុខងារឧបករណ៍</string>
     <string name="device_parts_summary">ពណ៌អេក្រង់, រូបភាពវីដេអូ, Dolby Atmos, ដំណើរការ, គ្រឿងបន្ថែម, អត្រាផ្ទុកឡើងវិញ, ការប៉ះ និងការពង្រីក RAM</string>
-    <string name="category_memory_title">អង្គចងចាំ</string>
+    <string name="category_perf_memory_title">ដំណើរការ និងអង្គចងចាំ</string>
     <string name="ram_expansion_title">ការពង្រីក RAM</string>
     <string name="ram_expansion_summary">ផ្លាស់ទីទិន្នន័យកម្មវិធីអសកម្មទៅកន្លែងផ្ទុក ដើម្បីបង្កើន RAM ទំនេរ</string>
     <string name="ram_expansion_description">ផ្លាស់ទីទិន្នន័យពីកម្មវិធីដែលមិនបានប្រើអស់រយៈពេលយូរ ចេញពីអង្គចងចាំដែលបានបង្ហាប់ទៅកន្លែងផ្ទុក ដើម្បីបង្កើន RAM ទំនេរ។ វានឹងប្រើទំហំផ្ទុកដែលបានជ្រើសរើស។ ការផ្លាស់ប្ដូរនឹងមានប្រសិទ្ធភាពក្រោយពេលចាប់ផ្ដើមឡើងវិញ។</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — តូចជាង ប៉ុន្តែយឺតជាង</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">បង្ហាប់ទិន្នន័យអសកម្មឡើងវិញ</string>
+    <string name="ram_expansion_recompression_summary">ប្រើ zstd ដើម្បីបង្ហាប់ទិន្នន័យដែលមិនបានប្រើមួយរយៈឡើងវិញ។ វាប្រើ CPU បន្ថែម ប៉ុន្តែអាចផ្ទុកទិន្នន័យបានច្រើនជាងមុនក្នុង RAM ទំហំដដែល</string>
+    <string name="ram_expansion_recompression_zstd_summary">មិនចាំបាច់ទេ នៅពេលប្រើ zstd ជាក្បួនដោះស្រាយការបង្ហាប់</string>
     <string name="ram_expansion_not_enough_storage">ទំហំផ្ទុកទំនេរមិនគ្រប់គ្រាន់ទេ</string>
+    <string name="ram_expansion_size_limited">ទំហំផ្ទុកមិនគ្រប់គ្រាន់សម្រាប់ទំហំលើសពី %1$s ទេ</string>
+    <string name="ram_expansion_save">រក្សាទុក</string>
+    <string name="ram_expansion_unsaved_title">រក្សាទុកការផ្លាស់ប្ដូរឬ?</string>
+    <string name="ram_expansion_unsaved_message">ការផ្លាស់ប្ដូរការពង្រីក RAM មិនទាន់ត្រូវបានរក្សាទុកទេ។</string>
+    <string name="ram_expansion_discard">បោះបង់</string>
     <string name="ram_expansion_restart_dialog_title">ចាប់ផ្ដើមឧបករណ៍ឡើងវិញឬ?</string>
-    <string name="ram_expansion_restart_dialog_message">សូមចាប់ផ្ដើមឧបករណ៍ឡើងវិញ ដើម្បីធានាថាការផ្លាស់ប្ដូរមានប្រសិទ្ធភាព។</string>
+    <string name="ram_expansion_restart_dialog_message">ការផ្លាស់ប្ដូរត្រូវបានរក្សាទុក ហើយនឹងមានប្រសិទ្ធភាពក្រោយពេលចាប់ផ្ដើមឡើងវិញ។ ចាប់ផ្ដើមឡើងវិញឥឡូវនេះឬ?</string>
     <string name="ram_expansion_restart_now">ចាប់ផ្ដើមឡើងវិញ</string>
     <string name="ram_expansion_restart_later">ពេលក្រោយ</string>
     <string name="display_parts_title">អត្រាផ្ទុកឡើងវិញ និងការប៉ះ</string>

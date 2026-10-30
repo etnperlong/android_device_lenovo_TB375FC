@@ -7,7 +7,7 @@
     <string name="app_name">Veçoritë e pajisjes</string>
     <string name="device_parts_title">Veçoritë e pajisjes</string>
     <string name="device_parts_summary">Ngjyra e ekranit, pamja e videos, Dolby Atmos, performanca, aksesorët, shpejtësia e rifreskimit dhe prekja, zgjerimi i RAM-it</string>
-    <string name="category_memory_title">Memorie</string>
+    <string name="category_perf_memory_title">Performanca dhe memoria</string>
     <string name="ram_expansion_title">Zgjerimi i RAM-it</string>
     <string name="ram_expansion_summary">Zhvendos të dhënat e aplikacioneve joaktive në hapësirën ruajtëse për të liruar RAM-in</string>
     <string name="ram_expansion_description">Zhvendos të dhënat e aplikacioneve që nuk janë përdorur prej kohësh nga memoria e kompresuar në hapësirën ruajtëse, duke liruar RAM-in. Do të përdoret sasia e zgjedhur e hapësirës ruajtëse. Ndryshimet hyjnë në fuqi pas rinisjes.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — më i vogël, më i ngadaltë</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Rikomprimimi i të dhënave joaktive</string>
+    <string name="ram_expansion_recompression_summary">Rikomprimon me zstd të dhënat që nuk janë përdorur prej një kohe, kështu që në të njëjtën sasi RAM futen më shumë të dhëna, me njëfarë ngarkese shtesë të procesorit.</string>
+    <string name="ram_expansion_recompression_zstd_summary">Nuk nevojitet kur zstd është algoritmi i kompresimit</string>
+    <string name="ram_expansion_size_limited">Nuk ka hapësirë të mjaftueshme të lirë për më shumë se %1$s</string>
+    <string name="ram_expansion_save">Ruaj</string>
+    <string name="ram_expansion_unsaved_title">Të ruhen ndryshimet?</string>
+    <string name="ram_expansion_unsaved_message">Ndryshimet e zgjerimit të RAM nuk janë ruajtur.</string>
+    <string name="ram_expansion_discard">Hiq dorë</string>
     <string name="ram_expansion_not_enough_storage">Nuk ka hapësirë të mjaftueshme të lirë në hapësirën ruajtëse</string>
     <string name="ram_expansion_restart_dialog_title">Të riniset pajisja?</string>
-    <string name="ram_expansion_restart_dialog_message">Rinis pajisjen për t\'u siguruar që ndryshimet të hyjnë në fuqi.</string>
+    <string name="ram_expansion_restart_dialog_message">Ndryshimet janë ruajtur dhe hyjnë në fuqi pas rinisjes. Të riniset tani?</string>
     <string name="ram_expansion_restart_now">Rinis</string>
     <string name="ram_expansion_restart_later">Më vonë</string>
     <string name="display_parts_title">Shpejtësia e rifreskimit dhe prekja</string>

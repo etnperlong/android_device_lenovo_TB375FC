@@ -7,7 +7,6 @@
     <string name="app_name">डिव्हाइसची वैशिष्ट्ये</string>
     <string name="device_parts_title">डिव्हाइसची वैशिष्ट्ये</string>
     <string name="device_parts_summary">स्क्रीनचा रंग, व्हिडिओ चित्र गुणवत्ता, Dolby Atmos, परफॉर्मन्स, ॲक्सेसरीज, रिफ्रेश रेट आणि टच, RAM विस्तार</string>
-    <string name="category_memory_title">मेमरी</string>
     <string name="ram_expansion_title">RAM विस्तार</string>
     <string name="ram_expansion_summary">RAM मोकळी करण्यासाठी निष्क्रिय अॅप्सचा डेटा स्टोरेजमध्ये हलवा</string>
     <string name="ram_expansion_description">बराच काळ वापरल्या न गेलेल्या अॅप्सचा डेटा संकुचित मेमरीमधून स्टोरेजमध्ये हलवून RAM मोकळी करा. निवडलेले स्टोरेज प्रमाण वापरले जाईल. बदल रीस्टार्ट केल्यानंतर लागू होतील.</string>
@@ -27,8 +26,17 @@
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
     <string name="ram_expansion_not_enough_storage">पुरेशी मोकळी स्टोरेज जागा नाही</string>
+    <string name="category_perf_memory_title">कार्यक्षमता आणि मेमरी</string>
+    <string name="ram_expansion_recompression_title">निष्क्रिय डेटा पुन्हा संकुचित करा</string>
+    <string name="ram_expansion_recompression_summary">थोड्या CPU वापराच्या बदल्यात त्याच RAMमध्ये अधिक डेटा ठेवण्यासाठी बराच काळ वापरला नसलेला डेटा zstd वापरून पुन्हा संकुचित करा</string>
+    <string name="ram_expansion_recompression_zstd_summary">zstd संकुचन अल्गोरिदम असल्यास याची गरज नाही</string>
+    <string name="ram_expansion_size_limited">%1$s पेक्षा जास्तसाठी पुरेशी रिकामी स्टोरेज जागा नाही</string>
+    <string name="ram_expansion_save">सेव्ह करा</string>
+    <string name="ram_expansion_unsaved_title">बदल सेव्ह करायचे?</string>
+    <string name="ram_expansion_unsaved_message">तुमचे RAM विस्ताराचे बदल सेव्ह केलेले नाहीत.</string>
+    <string name="ram_expansion_discard">टाकून द्या</string>
     <string name="ram_expansion_restart_dialog_title">डिव्हाइस रीस्टार्ट करायचे?</string>
-    <string name="ram_expansion_restart_dialog_message">बदल लागू होतील याची खात्री करण्यासाठी डिव्हाइस रीस्टार्ट करा.</string>
+    <string name="ram_expansion_restart_dialog_message">बदल सेव्ह केले आहेत आणि रीस्टार्टनंतर लागू होतील. आत्ताच रीस्टार्ट करायचे?</string>
     <string name="ram_expansion_restart_now">आता रीस्टार्ट करा</string>
     <string name="ram_expansion_restart_later">नंतर</string>
     <string name="display_parts_title">रिफ्रेश रेट आणि टच</string>

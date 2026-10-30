@@ -7,7 +7,7 @@
     <string name="app_name">תכונות המכשיר</string>
     <string name="device_parts_title">תכונות המכשיר</string>
     <string name="device_parts_summary">צבע המסך, תמונת וידאו, Dolby Atmos, ביצועים, אביזרים, קצב רענון, מגע והרחבת RAM</string>
-    <string name="category_memory_title">זיכרון</string>
+    <string name="category_perf_memory_title">ביצועים וזיכרון</string>
     <string name="ram_expansion_title">הרחבת RAM</string>
     <string name="ram_expansion_summary">העברת נתוני אפליקציות לא פעילות לאחסון כדי לפנות RAM</string>
     <string name="ram_expansion_description">העברת נתונים מאפליקציות שלא נעשה בהן שימוש במשך זמן רב מהזיכרון הדחוס לאחסון, כדי לפנות RAM. הכמות שנבחרה תשמש לאחסון. השינויים ייכנסו לתוקף לאחר הפעלה מחדש.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — קטן יותר, איטי יותר</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">דחיסה מחדש של נתונים לא פעילים</string>
+    <string name="ram_expansion_recompression_summary">דחיסה מחדש של נתונים שלא נעשה בהם שימוש זמן מה באמצעות zstd מאפשרת לאחסן יותר נתונים באותה כמות RAM, במחיר של שימוש נוסף במעבד</string>
+    <string name="ram_expansion_recompression_zstd_summary">אין צורך בכך כאשר אלגוריתם הדחיסה הוא zstd</string>
+    <string name="ram_expansion_size_limited">אין מספיק שטח אחסון פנוי ליותר מ־%1$s</string>
+    <string name="ram_expansion_save">שמירה</string>
+    <string name="ram_expansion_unsaved_title">לשמור את השינויים?</string>
+    <string name="ram_expansion_unsaved_message">השינויים בהרחבת RAM לא נשמרו.</string>
+    <string name="ram_expansion_discard">ביטול</string>
     <string name="ram_expansion_not_enough_storage">אין מספיק שטח אחסון פנוי</string>
     <string name="ram_expansion_restart_dialog_title">להפעיל מחדש את המכשיר?</string>
-    <string name="ram_expansion_restart_dialog_message">יש להפעיל מחדש את המכשיר כדי לוודא שהשינויים ייכנסו לתוקף.</string>
+    <string name="ram_expansion_restart_dialog_message">השינויים נשמרו וייכנסו לתוקף לאחר הפעלה מחדש. להפעיל מחדש עכשיו?</string>
     <string name="ram_expansion_restart_now">הפעלה מחדש</string>
     <string name="ram_expansion_restart_later">מאוחר יותר</string>
     <string name="display_parts_title">קצב רענון ומגע</string>

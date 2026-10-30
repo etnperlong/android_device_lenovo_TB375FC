@@ -7,7 +7,7 @@
     <string name="app_name">Ierīces funkcijas</string>
     <string name="device_parts_title">Ierīces funkcijas</string>
     <string name="device_parts_summary">Ekrāna krāsas, video attēls, Dolby Atmos, veiktspēja, piederumi, atsvaidzes intensitāte, skāriens un RAM paplašināšana</string>
-    <string name="category_memory_title">Atmiņa</string>
+    <string name="category_perf_memory_title">Veiktspēja un atmiņa</string>
     <string name="ram_expansion_title">RAM paplašināšana</string>
     <string name="ram_expansion_summary">Pārvietojiet neaktīvo lietotņu datus uz krātuvi, lai atbrīvotu RAM</string>
     <string name="ram_expansion_description">Pārvietojiet ilgi neizmantotu lietotņu datus no saspiestās atmiņas uz krātuvi, lai atbrīvotu RAM. Tiks izmantots atlasītais krātuves apjoms. Izmaiņas stāsies spēkā pēc restartēšanas.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — mazāks, lēnāks</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Neaktīvo datu saspiešana vēlreiz</string>
+    <string name="ram_expansion_recompression_summary">Ar zstd vēlreiz saspiež datus, kas kādu laiku nav izmantoti, lai tajā pašā RAM apjomā ietilptu vairāk datu, nedaudz noslogojot procesoru.</string>
+    <string name="ram_expansion_recompression_zstd_summary">Nav nepieciešams, ja zstd ir izmantotais saspiešanas algoritms</string>
+    <string name="ram_expansion_size_limited">Nav pietiekami daudz brīvas vietas krātuvē vairāk par %1$s</string>
+    <string name="ram_expansion_save">Saglabāt</string>
+    <string name="ram_expansion_unsaved_title">Saglabāt izmaiņas?</string>
+    <string name="ram_expansion_unsaved_message">RAM paplašināšanas izmaiņas nav saglabātas.</string>
+    <string name="ram_expansion_discard">Atmest</string>
     <string name="ram_expansion_not_enough_storage">Nepietiek brīvas krātuves vietas</string>
     <string name="ram_expansion_restart_dialog_title">Restartēt ierīci?</string>
-    <string name="ram_expansion_restart_dialog_message">Restartējiet ierīci, lai nodrošinātu izmaiņu stāšanos spēkā.</string>
+    <string name="ram_expansion_restart_dialog_message">Izmaiņas ir saglabātas un stāsies spēkā pēc restartēšanas. Restartēt tagad?</string>
     <string name="ram_expansion_restart_now">Restartēt</string>
     <string name="ram_expansion_restart_later">Vēlāk</string>
     <string name="display_parts_title">Atsvaidzes intensitāte un skāriens</string>

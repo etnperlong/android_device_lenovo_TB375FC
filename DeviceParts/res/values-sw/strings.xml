@@ -7,7 +7,7 @@
     <string name="app_name">Vipengele vya kifaa</string>
     <string name="device_parts_title">Vipengele vya kifaa</string>
     <string name="device_parts_summary">Rangi ya skrini, picha ya video, Dolby Atmos, utendaji, vifuasi, kiwango cha kuonyesha upya na mguso, upanuzi wa RAM</string>
-    <string name="category_memory_title">Kumbukumbu</string>
+    <string name="category_perf_memory_title">Utendaji na kumbukumbu</string>
     <string name="ram_expansion_title">Upanuzi wa RAM</string>
     <string name="ram_expansion_summary">Hamisha data za programu zisizotumika hadi kwenye hifadhi ili kufungua RAM</string>
     <string name="ram_expansion_description">Hamisha data kutoka kwa programu ambazo hazijatumika kwa muda mrefu kutoka kwenye kumbukumbu iliyobanwa hadi kwenye hifadhi, na hivyo kufungua RAM. Kiasi cha hifadhi kilichochaguliwa kitatumika. Mabadiliko yataanza kutumika baada ya kuwasha upya.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — ndogo zaidi, polepole zaidi</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Finyaza tena data zisizotumika</string>
+    <string name="ram_expansion_recompression_summary">Finyaza tena kwa zstd data ambazo hazijatumika kwa muda ili data nyingi zaidi ziweze kutoshea kwenye RAM ileile, kwa kutumia CPU zaidi kidogo</string>
+    <string name="ram_expansion_recompression_zstd_summary">Hakuhitajiki wakati algoriti ya kubana ni zstd</string>
+    <string name="ram_expansion_size_limited">Hakuna nafasi ya kutosha ya hifadhi kwa zaidi ya %1$s</string>
+    <string name="ram_expansion_save">Hifadhi</string>
+    <string name="ram_expansion_unsaved_title">Hifadhi mabadiliko?</string>
+    <string name="ram_expansion_unsaved_message">Mabadiliko ya upanuzi wa RAM hayajahifadhiwa.</string>
+    <string name="ram_expansion_discard">Tupa</string>
     <string name="ram_expansion_not_enough_storage">Hakuna nafasi ya kutosha kwenye hifadhi</string>
     <string name="ram_expansion_restart_dialog_title">Washa upya kifaa?</string>
-    <string name="ram_expansion_restart_dialog_message">Washa upya kifaa ili kuhakikisha mabadiliko yanaanza kutumika.</string>
+    <string name="ram_expansion_restart_dialog_message">Mabadiliko yamehifadhiwa na yataanza kutumika baada ya kuwasha upya. Washa kifaa upya sasa?</string>
     <string name="ram_expansion_restart_now">Washa upya</string>
     <string name="ram_expansion_restart_later">Baadaye</string>
     <string name="display_parts_title">Kiwango cha kuonyesha upya na mguso</string>

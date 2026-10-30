@@ -7,7 +7,7 @@
     <string name="app_name">تایبەتمەندییەکانی ئامێر</string>
     <string name="device_parts_title">تایبەتمەندییەکانی ئامێر</string>
     <string name="device_parts_summary">ڕەنگی شاشە، وێنەی ڤیدیۆ، Dolby Atmos، کارایی، پێوەکراوەکان، ڕێژەی نوێکردنەوە، دەستلێدان و فراوانکردنی RAM</string>
-    <string name="category_memory_title">بیرگە</string>
+    <string name="category_perf_memory_title">کارایی و بیرگە</string>
     <string name="ram_expansion_title">فراوانکردنی RAM</string>
     <string name="ram_expansion_summary">داتای ئەپە ناچالاکەکان بگوازەرەوە بۆ بیرگە بۆ بەتاڵکردنی RAM</string>
     <string name="ram_expansion_description">داتای ئەو ئەپانەی بۆ ماوەیەکی درێژ بەکارنەهاتوون لە بیرگەی پەستاندراوەوە بگوازەرەوە بۆ بیرگە بۆ بەتاڵکردنی RAM. ئەو بڕەی بیرگەی هەڵبژێردراو بەکاردەهێنرێت. گۆڕانکارییەکان دوای پێکردنەوە کاریگەردەبن.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — بچووکتر، خاوتر</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">پەستاندنی دووبارەی داتای ناچالاک</string>
+    <string name="ram_expansion_recompression_summary">داتای ئەو ماوەیەکە بەکارنەهاتووانە بە zstd دووبارە پەستاندەوە، تا لە هەمان RAM دا داتای زیاتر بگونجێت، بە بەکارهێنانی CPU ی زیاتر</string>
+    <string name="ram_expansion_recompression_zstd_summary">کاتێک ئەلگۆریتمی پەستاندن zstd بێت پێویست نییە</string>
+    <string name="ram_expansion_size_limited">بۆ زیاتر لە %1$s شوێنی بەتاڵی بیرگە بەس نییە</string>
+    <string name="ram_expansion_save">پاشەکەوتکردن</string>
+    <string name="ram_expansion_unsaved_title">گۆڕانکارییەکان پاشەکەوت بکرێن؟</string>
+    <string name="ram_expansion_unsaved_message">گۆڕانکارییەکانی فراوانکردنی RAM پاشەکەوت نەکراون.</string>
+    <string name="ram_expansion_discard">ڕەتکردنەوە</string>
     <string name="ram_expansion_not_enough_storage">شوێنی بەتاڵی بیرگە بەس نییە</string>
     <string name="ram_expansion_restart_dialog_title">ئامێرەکە دووبارە پێبکرێتەوە؟</string>
-    <string name="ram_expansion_restart_dialog_message">تکایە ئامێرەکە دووبارە پێبکەرەوە بۆ دڵنیابوون لە کاریگەربوونی گۆڕانکارییەکان.</string>
+    <string name="ram_expansion_restart_dialog_message">گۆڕانکارییەکان پاشەکەوت کراون و دوای دووبارە پێکردنەوە کاریگەردەبن. ئێستا ئامێرەکە دووبارە پێبکرێتەوە؟</string>
     <string name="ram_expansion_restart_now">ئێستا دووبارە پێبکەرەوە</string>
     <string name="ram_expansion_restart_later">دواتر</string>
     <string name="display_parts_title">ڕێژەی نوێکردنەوە و دەستلێدان</string>

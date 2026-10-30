@@ -7,7 +7,7 @@
     <string name="app_name">Λειτουργίες συσκευής</string>
     <string name="device_parts_title">Λειτουργίες συσκευής</string>
     <string name="device_parts_summary">Χρώμα οθόνης, εικόνα βίντεο, Dolby Atmos, απόδοση, αξεσουάρ, ρυθμός ανανέωσης, αφή και επέκταση RAM</string>
-    <string name="category_memory_title">Μνήμη</string>
+    <string name="category_perf_memory_title">Απόδοση και μνήμη</string>
     <string name="ram_expansion_title">Επέκταση RAM</string>
     <string name="ram_expansion_summary">Μεταφορά δεδομένων ανενεργών εφαρμογών στον αποθηκευτικό χώρο για απελευθέρωση RAM</string>
     <string name="ram_expansion_description">Μεταφέρετε δεδομένα από εφαρμογές που δεν έχουν χρησιμοποιηθεί για μεγάλο διάστημα από τη συμπιεσμένη μνήμη στον αποθηκευτικό χώρο, για να απελευθερώσετε RAM. Χρησιμοποιείται ο επιλεγμένος χώρος αποθήκευσης. Οι αλλαγές εφαρμόζονται μετά από επανεκκίνηση.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — μικρότερο, πιο αργό</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Εκ νέου συμπίεση ανενεργών δεδομένων</string>
+    <string name="ram_expansion_recompression_summary">Συμπιέζει ξανά με zstd δεδομένα που δεν έχουν χρησιμοποιηθεί για λίγο, ώστε να χωρούν περισσότερα στην ίδια RAM με κάποιο κόστος CPU</string>
+    <string name="ram_expansion_recompression_zstd_summary">Δεν απαιτείται όταν ο αλγόριθμος συμπίεσης είναι zstd</string>
+    <string name="ram_expansion_size_limited">Δεν υπάρχει αρκετός ελεύθερος αποθηκευτικός χώρος για περισσότερα από %1$s</string>
+    <string name="ram_expansion_save">Αποθήκευση</string>
+    <string name="ram_expansion_unsaved_title">Αποθήκευση αλλαγών;</string>
+    <string name="ram_expansion_unsaved_message">Οι αλλαγές επέκτασης RAM δεν έχουν αποθηκευτεί.</string>
+    <string name="ram_expansion_discard">Απόρριψη</string>
     <string name="ram_expansion_not_enough_storage">Δεν υπάρχει αρκετός ελεύθερος αποθηκευτικός χώρος</string>
     <string name="ram_expansion_restart_dialog_title">Επανεκκίνηση συσκευής;</string>
-    <string name="ram_expansion_restart_dialog_message">Επανεκκινήστε τη συσκευή για να εφαρμοστούν οι αλλαγές.</string>
+    <string name="ram_expansion_restart_dialog_message">Οι αλλαγές αποθηκεύτηκαν και θα εφαρμοστούν μετά από επανεκκίνηση. Επανεκκίνηση τώρα;</string>
     <string name="ram_expansion_restart_now">Επανεκκίνηση</string>
     <string name="ram_expansion_restart_later">Αργότερα</string>
     <string name="display_parts_title">Ρυθμός ανανέωσης και αφή</string>

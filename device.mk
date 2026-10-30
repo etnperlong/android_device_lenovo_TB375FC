@@ -468,10 +468,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # zram: mmd (system/memory/mmd) sets it up after boot_completed, at stock's
 # size (all of RAM), instead of stock's swapon_all, which needs Lenovo's
-# patched fs_mgr (see extract-files.py). The writeback file ("RAM expansion"
-# in DeviceParts) and the compression algorithm are handed to mmd by
-# rootdir/etc/init/init.tb375fc-zram.rc. Idle slots are recompressed with
-# zstd on top of the chosen algorithm.
+# patched fs_mgr (see extract-files.py). The writeback file size ("RAM
+# expansion" in DeviceParts), the compression algorithm and whether idle slots
+# are recompressed with zstd are handed to mmd by
+# rootdir/etc/init/init.tb375fc-zram.rc.
 #
 # prebuilts/modules/vendor_dlkm/zram_ext.ko is not stock: Lenovo's lacks the
 # huge_idle writeback mode that mmd uses, and with it every mmd writeback
@@ -483,7 +483,6 @@ PRODUCT_VENDOR_PROPERTIES += \
     mmd.zram.enabled=true \
     mmd.zram.size=100% \
     mmd.zram.writeback.enabled=true \
-    mmd.zram.recompression.enabled=true \
     mmd.zram.recompression.algorithm=zstd
 
 # HDR + spatial audio (MTK PQ pipeline). Mirrors stock A14 ZUI 16/17 to enable

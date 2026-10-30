@@ -7,7 +7,7 @@
     <string name="app_name">Funzioni del dispositivo</string>
     <string name="device_parts_title">Funzioni del dispositivo</string>
     <string name="device_parts_summary">Colore dello schermo, immagine video, Dolby Atmos, prestazioni, accessori, frequenza di aggiornamento, tocco ed espansione RAM</string>
-    <string name="category_memory_title">Memoria</string>
+    <string name="category_perf_memory_title">Prestazioni e memoria</string>
     <string name="ram_expansion_title">Espansione RAM</string>
     <string name="ram_expansion_summary">Sposta i dati delle app inattive nello spazio di archiviazione per liberare RAM</string>
     <string name="ram_expansion_description">Sposta nello spazio di archiviazione i dati delle app che non usi da molto tempo dalla memoria compressa, liberando RAM. Verrà utilizzata la quantità di spazio di archiviazione selezionata. Le modifiche entreranno in vigore dopo il riavvio.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — più compatto, più lento</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Ricompattare i dati inattivi</string>
+    <string name="ram_expansion_recompression_summary">Ricompattare con zstd i dati inutilizzati da un po’, così da conservarne di più nella stessa RAM a costo di un po’ di CPU</string>
+    <string name="ram_expansion_recompression_zstd_summary">Non necessario quando l’algoritmo di compressione è zstd</string>
+    <string name="ram_expansion_size_limited">Spazio di archiviazione insufficiente per superare %1$s</string>
+    <string name="ram_expansion_save">Salva</string>
+    <string name="ram_expansion_unsaved_title">Salvare le modifiche?</string>
+    <string name="ram_expansion_unsaved_message">Le modifiche all’espansione RAM non sono state salvate.</string>
+    <string name="ram_expansion_discard">Scarta</string>
     <string name="ram_expansion_not_enough_storage">Spazio di archiviazione libero insufficiente</string>
     <string name="ram_expansion_restart_dialog_title">Riavviare il dispositivo?</string>
-    <string name="ram_expansion_restart_dialog_message">Riavvia il dispositivo per assicurarti che le modifiche vengano applicate.</string>
+    <string name="ram_expansion_restart_dialog_message">Le modifiche sono state salvate e saranno applicate al riavvio. Riavviare ora?</string>
     <string name="ram_expansion_restart_now">Riavvia</string>
     <string name="ram_expansion_restart_later">Più tardi</string>
     <string name="display_parts_title">Frequenza di aggiornamento e tocco</string>

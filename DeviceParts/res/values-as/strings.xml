@@ -7,7 +7,6 @@
     <string name="app_name">ডিভাইচৰ সুবিধাসমূহ</string>
     <string name="device_parts_title">ডিভাইচৰ সুবিধাসমূহ</string>
     <string name="device_parts_summary">স্ক্ৰীণৰ ৰং, ভিডিঅ’ৰ ছবিৰ মান, Dolby Atmos, কাৰ্যক্ষমতা, আনুষংগিক সামগ্ৰী, ৰিফ্ৰেছৰ হাৰ, স্পৰ্শ আৰু ৰেম সম্প্ৰসাৰণ</string>
-    <string name="category_memory_title">মেমৰি</string>
     <string name="ram_expansion_title">ৰেম সম্প্ৰসাৰণ</string>
     <string name="ram_expansion_summary">ৰেম খালী কৰিবলৈ নিষ্ক্ৰিয় এপৰ ডেটা ষ্ট’ৰেজলৈ স্থানান্তৰ কৰক</string>
     <string name="ram_expansion_description">দীৰ্ঘদিন ব্যৱহাৰ নকৰা এপৰ ডেটা সংকুচিত মেমৰিৰ পৰা ষ্ট’ৰেজলৈ স্থানান্তৰ কৰি ৰেম খালী কৰক। নিৰ্বাচিত পৰিমাণৰ ষ্ট’ৰেজ ব্যৱহাৰ কৰা হ’ব। পুনৰাৰম্ভ কৰাৰ পিছত পৰিৱৰ্তনসমূহ কাৰ্যকৰী হ’ব।</string>
@@ -27,8 +26,17 @@
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
     <string name="ram_expansion_not_enough_storage">পৰ্যাপ্ত খালী ষ্ট’ৰেজ নাই</string>
+    <string name="category_perf_memory_title">কাৰ্যক্ষমতা আৰু মেমৰি</string>
+    <string name="ram_expansion_recompression_title">নিষ্ক্ৰিয় ডেটা পুনৰ সংকুচিত কৰক</string>
+    <string name="ram_expansion_recompression_summary">কিছু CPU ব্যৱহাৰৰ বিনিময়ত একে RAM-ত অধিক ডেটা ৰাখিবলৈ বহুদিন ব্যৱহাৰ নকৰা ডেটা zstd-ৰে পুনৰ সংকুচিত কৰক</string>
+    <string name="ram_expansion_recompression_zstd_summary">zstd সংকোচন এলগৰিদম হ’লে ইয়াৰ প্ৰয়োজন নাই</string>
+    <string name="ram_expansion_size_limited">%1$s-তকৈ অধিকৰ বাবে পৰ্যাপ্ত খালী ষ্ট’ৰেজ নাই</string>
+    <string name="ram_expansion_save">সংৰক্ষণ কৰক</string>
+    <string name="ram_expansion_unsaved_title">পৰিৱৰ্তনসমূহ সংৰক্ষণ কৰিবনে?</string>
+    <string name="ram_expansion_unsaved_message">আপোনাৰ RAM সম্প্ৰসাৰণৰ পৰিৱৰ্তনসমূহ সংৰক্ষণ কৰা হোৱা নাই।</string>
+    <string name="ram_expansion_discard">বাতিল কৰক</string>
     <string name="ram_expansion_restart_dialog_title">ডিভাইচ পুনৰাৰম্ভ কৰিবনে?</string>
-    <string name="ram_expansion_restart_dialog_message">পৰিৱৰ্তনসমূহ কাৰ্যকৰী হোৱাটো নিশ্চিত কৰিবলৈ অনুগ্ৰহ কৰি ডিভাইচটো পুনৰাৰম্ভ কৰক।</string>
+    <string name="ram_expansion_restart_dialog_message">পৰিৱৰ্তনসমূহ সংৰক্ষণ কৰা হৈছে আৰু পুনৰাৰম্ভৰ পিছত কাৰ্যকৰী হ’ব। এতিয়াই পুনৰাৰম্ভ কৰিবনে?</string>
     <string name="ram_expansion_restart_now">এতিয়াই পুনৰাৰম্ভ কৰক</string>
     <string name="ram_expansion_restart_later">পিছত</string>
     <string name="display_parts_title">ৰিফ্ৰেছৰ হাৰ আৰু স্পৰ্শ</string>

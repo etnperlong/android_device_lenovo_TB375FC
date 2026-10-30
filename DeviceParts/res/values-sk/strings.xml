@@ -7,7 +7,7 @@
     <string name="app_name">Funkcie zariadenia</string>
     <string name="device_parts_title">Funkcie zariadenia</string>
     <string name="device_parts_summary">Farba obrazovky, obraz videa, Dolby Atmos, výkon, príslušenstvo, obnovovacia frekvencia a dotyk, rozšírenie RAM</string>
-    <string name="category_memory_title">Pamäť</string>
+    <string name="category_perf_memory_title">Výkon a pamäť</string>
     <string name="ram_expansion_title">Rozšírenie RAM</string>
     <string name="ram_expansion_summary">Presuňte neaktívne údaje aplikácií do úložiska, aby ste uvoľnili RAM</string>
     <string name="ram_expansion_description">Presuňte údaje aplikácií, ktoré sa dlho nepoužívali, z komprimovanej pamäte do úložiska a uvoľnite tak RAM. Použije sa zvolené množstvo úložiska. Zmeny sa prejavia po reštartovaní.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — menšie, pomalšie</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Opätovná kompresia neaktívnych údajov</string>
+    <string name="ram_expansion_recompression_summary">Pomocou zstd znova komprimuje údaje, ktoré sa určitý čas nepoužívali, takže sa do rovnakého množstva RAM zmestí viac údajov za cenu vyššej záťaže procesora.</string>
+    <string name="ram_expansion_recompression_zstd_summary">Nie je potrebná, keď sa ako kompresný algoritmus používa zstd</string>
+    <string name="ram_expansion_size_limited">Nedostatok voľného miesta v úložisku pre viac ako %1$s</string>
+    <string name="ram_expansion_save">Uložiť</string>
+    <string name="ram_expansion_unsaved_title">Uložiť zmeny?</string>
+    <string name="ram_expansion_unsaved_message">Zmeny rozšírenia RAM nie sú uložené.</string>
+    <string name="ram_expansion_discard">Zahodiť</string>
     <string name="ram_expansion_not_enough_storage">Nedostatok voľného miesta v úložisku</string>
     <string name="ram_expansion_restart_dialog_title">Reštartovať zariadenie?</string>
-    <string name="ram_expansion_restart_dialog_message">Reštartujte zariadenie, aby sa zmeny prejavili.</string>
+    <string name="ram_expansion_restart_dialog_message">Zmeny sú uložené a prejavia sa po reštartovaní. Reštartovať teraz?</string>
     <string name="ram_expansion_restart_now">Reštartovať</string>
     <string name="ram_expansion_restart_later">Neskôr</string>
     <string name="display_parts_title">Obnovovacia frekvencia a dotyk</string>

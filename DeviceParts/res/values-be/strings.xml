@@ -7,7 +7,7 @@
     <string name="app_name">Функцыі прылады</string>
     <string name="device_parts_title">Функцыі прылады</string>
     <string name="device_parts_summary">Колер экрана, якасць відэа, Dolby Atmos, прадукцыйнасць, аксесуары, частата абнаўлення, сэнсар і пашырэнне RAM</string>
-    <string name="category_memory_title">Памяць</string>
+    <string name="category_perf_memory_title">Прадукцыйнасць і памяць</string>
     <string name="ram_expansion_title">Пашырэнне RAM</string>
     <string name="ram_expansion_summary">Перамяшчайце даныя неактыўных праграм у сховішча, каб вызваліць RAM</string>
     <string name="ram_expansion_description">Перамяшчайце даныя праграм, якімі даўно не карысталіся, са сціснутай памяці ў сховішча, каб вызваліць RAM. Будзе выкарыстана выбраная колькасць месца ў сховішчы. Змены ўступяць у сілу пасля перазапуску.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — меншы памер, ніжэйшая хуткасць</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Паўторнае сцісканне неактыўных даных</string>
+    <string name="ram_expansion_recompression_summary">Паўторна сціскае з дапамогай zstd даныя, якімі некаторы час не карысталіся: так у тым самым абсягу RAM змяшчаецца больш, але ўзрастае нагрузка на CPU.</string>
+    <string name="ram_expansion_recompression_zstd_summary">Не патрэбна, калі для сціскання выкарыстоўваецца zstd</string>
+    <string name="ram_expansion_size_limited">Недастаткова вольнага месца ў сховішчы для аб’ёму больш за %1$s</string>
+    <string name="ram_expansion_save">Захаваць</string>
+    <string name="ram_expansion_unsaved_title">Захаваць змены?</string>
+    <string name="ram_expansion_unsaved_message">Змены пашырэння RAM не захаваны.</string>
+    <string name="ram_expansion_discard">Адкінуць</string>
     <string name="ram_expansion_not_enough_storage">Недастаткова вольнага месца ў сховішчы</string>
     <string name="ram_expansion_restart_dialog_title">Перазапусціць прыладу?</string>
-    <string name="ram_expansion_restart_dialog_message">Перазапусціце прыладу, каб змены ўступілі ў сілу.</string>
+    <string name="ram_expansion_restart_dialog_message">Змены захаваны і ўступяць у сілу пасля перазапуску. Перазапусціць цяпер?</string>
     <string name="ram_expansion_restart_now">Перазапусціць</string>
     <string name="ram_expansion_restart_later">Пазней</string>
     <string name="display_parts_title">Частата абнаўлення і сэнсарны экран</string>

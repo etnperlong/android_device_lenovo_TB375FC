@@ -7,7 +7,7 @@
     <string name="app_name">Құрылғы мүмкіндіктері</string>
     <string name="device_parts_title">Құрылғы мүмкіндіктері</string>
     <string name="device_parts_summary">Экран түсі, бейне кескіні, Dolby Atmos, өнімділік, керек-жарақтар, жаңарту жиілігі, сенсор және RAM кеңейту</string>
-    <string name="category_memory_title">Жад</string>
+    <string name="category_perf_memory_title">Өнімділік және жад</string>
     <string name="ram_expansion_title">RAM кеңейту</string>
     <string name="ram_expansion_summary">RAM босату үшін белсенді емес қолданбалардың деректерін сақтау орнына көшіру</string>
     <string name="ram_expansion_description">Ұзақ уақыт пайдаланылмаған қолданбалардың деректерін қысылған жадтан сақтау орнына көшіріп, RAM босатыңыз. Таңдалған сақтау орны көлемі пайдаланылады. Өзгерістер қайта іске қосқаннан кейін күшіне енеді.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — көлемі кіші, жылдамдығы баяу</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Белсенді емес деректерді қайта сығу</string>
+    <string name="ram_expansion_recompression_summary">Біраз уақыт пайдаланылмаған деректерді zstd көмегімен қайта сығып, CPU жүктемесін сәл арттыру арқылы бірдей RAM көлеміне көбірек дерек сыйдырыңыз</string>
+    <string name="ram_expansion_recompression_zstd_summary">Сығу алгоритмі zstd болса, бұл қажет емес</string>
+    <string name="ram_expansion_size_limited">%1$s-тан артық орын үшін бос сақтау орны жеткіліксіз</string>
+    <string name="ram_expansion_save">Сақтау</string>
+    <string name="ram_expansion_unsaved_title">Өзгерістер сақталсын ба?</string>
+    <string name="ram_expansion_unsaved_message">RAM кеңейту өзгерістері сақталмады.</string>
+    <string name="ram_expansion_discard">Өзгерістерден бас тарту</string>
     <string name="ram_expansion_not_enough_storage">Бос сақтау орны жеткіліксіз</string>
     <string name="ram_expansion_restart_dialog_title">Құрылғы қайта іске қосылсын ба?</string>
-    <string name="ram_expansion_restart_dialog_message">Өзгерістердің күшіне енуі үшін құрылғыны қайта іске қосыңыз.</string>
+    <string name="ram_expansion_restart_dialog_message">Өзгерістер сақталды және қайта іске қосқаннан кейін күшіне енеді. Қазір құрылғы қайта іске қосылсын ба?</string>
     <string name="ram_expansion_restart_now">Қайта іске қосу</string>
     <string name="ram_expansion_restart_later">Кейін</string>
     <string name="display_parts_title">Жаңарту жиілігі және сенсор</string>

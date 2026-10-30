@@ -7,7 +7,6 @@
     <string name="app_name">آلہ کی خصوصیات</string>
     <string name="device_parts_title">آلہ کی خصوصیات</string>
     <string name="device_parts_summary">اسکرین کا رنگ، ویڈیو تصویر کا معیار، Dolby Atmos، کارکردگی، لوازمات، ریفریش ریٹ اور ٹچ، RAM میں توسیع</string>
-    <string name="category_memory_title">میموری</string>
     <string name="ram_expansion_title">RAM میں توسیع</string>
     <string name="ram_expansion_summary">RAM خالی کرنے کے لیے غیر فعال ایپس کا ڈیٹا اسٹوریج میں منتقل کریں</string>
     <string name="ram_expansion_description">طویل عرصے سے استعمال نہ ہونے والی ایپس کا ڈیٹا کمپریسڈ میموری سے اسٹوریج میں منتقل کر کے RAM خالی کریں۔ منتخب کردہ اسٹوریج کی مقدار استعمال ہوگی۔ تبدیلیاں دوبارہ شروع کرنے کے بعد لاگو ہوں گی۔</string>
@@ -27,8 +26,17 @@
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
     <string name="ram_expansion_not_enough_storage">اسٹوریج میں کافی خالی جگہ نہیں</string>
+    <string name="category_perf_memory_title">کارکردگی اور میموری</string>
+    <string name="ram_expansion_recompression_title">غیر فعال ڈیٹا کو دوبارہ کمپریس کریں</string>
+    <string name="ram_expansion_recompression_summary">کچھ CPU استعمال کے بدلے اسی RAM میں زیادہ ڈیٹا رکھنے کے لیے طویل عرصے سے استعمال نہ ہونے والے ڈیٹا کو zstd سے دوبارہ کمپریس کریں</string>
+    <string name="ram_expansion_recompression_zstd_summary">کمپریشن الگورتھم zstd ہونے پر اس کی ضرورت نہیں</string>
+    <string name="ram_expansion_size_limited">%1$s سے زیادہ کے لیے کافی خالی اسٹوریج نہیں ہے</string>
+    <string name="ram_expansion_save">محفوظ کریں</string>
+    <string name="ram_expansion_unsaved_title">تبدیلیاں محفوظ کریں؟</string>
+    <string name="ram_expansion_unsaved_message">آپ کی RAM توسیع کی تبدیلیاں محفوظ نہیں ہوئی ہیں۔</string>
+    <string name="ram_expansion_discard">مسترد کریں</string>
     <string name="ram_expansion_restart_dialog_title">آلہ دوبارہ شروع کریں؟</string>
-    <string name="ram_expansion_restart_dialog_message">تبدیلیاں لاگو ہونے کو یقینی بنانے کے لیے آلہ دوبارہ شروع کریں۔</string>
+    <string name="ram_expansion_restart_dialog_message">تبدیلیاں محفوظ ہو گئی ہیں اور دوبارہ شروع کرنے کے بعد لاگو ہوں گی۔ کیا ابھی دوبارہ شروع کریں؟</string>
     <string name="ram_expansion_restart_now">ابھی دوبارہ شروع کریں</string>
     <string name="ram_expansion_restart_later">بعد میں</string>
     <string name="display_parts_title">ریفریش ریٹ اور ٹچ</string>

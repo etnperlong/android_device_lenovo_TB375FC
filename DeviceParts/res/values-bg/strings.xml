@@ -7,7 +7,7 @@
     <string name="app_name">Функции на устройството</string>
     <string name="device_parts_title">Функции на устройството</string>
     <string name="device_parts_summary">Цвят на екрана, картина на видеото, Dolby Atmos, производителност, аксесоари, честота на опресняване, сензорен екран и разширяване на RAM</string>
-    <string name="category_memory_title">Памет</string>
+    <string name="category_perf_memory_title">Производителност и памет</string>
     <string name="ram_expansion_title">Разширяване на RAM</string>
     <string name="ram_expansion_summary">Преместване на данни от неактивни приложения в хранилището за освобождаване на RAM</string>
     <string name="ram_expansion_description">Преместете данни от приложения, които не са използвани отдавна, от компресираната памет в хранилището, за да освободите RAM. Ще се използва избраното количество място за съхранение. Промените влизат в сила след рестартиране.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — по-малък, по-бавен</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Повторно компресиране на неактивни данни</string>
+    <string name="ram_expansion_recompression_summary">Повторно компресира със zstd данни, които не са използвани известно време, така че в същото количество RAM да се поберат повече данни, с известно натоварване на процесора.</string>
+    <string name="ram_expansion_recompression_zstd_summary">Не е необходимо, когато zstd е алгоритъмът за компресиране</string>
+    <string name="ram_expansion_size_limited">Недостатъчно свободно място за съхранение за повече от %1$s</string>
+    <string name="ram_expansion_save">Запазване</string>
+    <string name="ram_expansion_unsaved_title">Запазване на промените?</string>
+    <string name="ram_expansion_unsaved_message">Промените в разширяването на RAM не са запазени.</string>
+    <string name="ram_expansion_discard">Отхвърляне</string>
     <string name="ram_expansion_not_enough_storage">Няма достатъчно свободно място в хранилището</string>
     <string name="ram_expansion_restart_dialog_title">Да се рестартира ли устройството?</string>
-    <string name="ram_expansion_restart_dialog_message">Рестартирайте устройството, за да влязат промените в сила.</string>
+    <string name="ram_expansion_restart_dialog_message">Промените са запазени и ще влязат в сила след рестартиране. Да се рестартира ли сега?</string>
     <string name="ram_expansion_restart_now">Рестартиране</string>
     <string name="ram_expansion_restart_later">По-късно</string>
     <string name="display_parts_title">Честота на опресняване и сензорен екран</string>

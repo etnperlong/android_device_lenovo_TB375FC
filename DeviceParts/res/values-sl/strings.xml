@@ -7,7 +7,7 @@
     <string name="app_name">Funkcije naprave</string>
     <string name="device_parts_title">Funkcije naprave</string>
     <string name="device_parts_summary">Barva zaslona, video slika, Dolby Atmos, zmogljivost, dodatki, hitrost osveževanja in dotik, razširitev pomnilnika RAM</string>
-    <string name="category_memory_title">Pomnilnik</string>
+    <string name="category_perf_memory_title">Zmogljivost in pomnilnik</string>
     <string name="ram_expansion_title">Razširitev pomnilnika RAM</string>
     <string name="ram_expansion_summary">Premaknite neaktivne podatke aplikacij v shrambo, da sprostite pomnilnik RAM</string>
     <string name="ram_expansion_description">Podatke aplikacij, ki jih že dolgo niste uporabljali, premaknite iz stisnjenega pomnilnika v shrambo in tako sprostite pomnilnik RAM. Uporabljena bo izbrana količina prostora za shranjevanje. Spremembe bodo uveljavljene po ponovnem zagonu.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — manjše, počasnejše</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Vnovično stiskanje nedejavnih podatkov</string>
+    <string name="ram_expansion_recompression_summary">Z zstd znova stisne podatke, ki jih že nekaj časa niste uporabljali, zato se v enako količino RAM prilega več podatkov, vendar se dodatno obremeni procesor.</string>
+    <string name="ram_expansion_recompression_zstd_summary">Ni potrebno, če je zstd algoritem za stiskanje</string>
+    <string name="ram_expansion_size_limited">Ni dovolj prostora za shranjevanje za več kot %1$s</string>
+    <string name="ram_expansion_save">Shrani</string>
+    <string name="ram_expansion_unsaved_title">Želite shraniti spremembe?</string>
+    <string name="ram_expansion_unsaved_message">Spremembe razširitve RAM niso shranjene.</string>
+    <string name="ram_expansion_discard">Zavrzi</string>
     <string name="ram_expansion_not_enough_storage">Ni dovolj prostega prostora za shranjevanje</string>
     <string name="ram_expansion_restart_dialog_title">Želite znova zagnati napravo?</string>
-    <string name="ram_expansion_restart_dialog_message">Znova zaženite napravo, da bodo spremembe uveljavljene.</string>
+    <string name="ram_expansion_restart_dialog_message">Spremembe so shranjene in bodo uveljavljene po ponovnem zagonu. Želite znova zagnati zdaj?</string>
     <string name="ram_expansion_restart_now">Znova zaženi</string>
     <string name="ram_expansion_restart_later">Pozneje</string>
     <string name="display_parts_title">Hitrost osveževanja in dotik</string>

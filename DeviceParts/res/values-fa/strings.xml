@@ -7,7 +7,7 @@
     <string name="app_name">ویژگی‌های دستگاه</string>
     <string name="device_parts_title">ویژگی‌های دستگاه</string>
     <string name="device_parts_summary">رنگ صفحه‌نمایش، تصویر ویدیو، Dolby Atmos، عملکرد، لوازم جانبی، نرخ نوسازی، لمس و گسترش RAM</string>
-    <string name="category_memory_title">حافظه</string>
+    <string name="category_perf_memory_title">عملکرد و حافظه</string>
     <string name="ram_expansion_title">گسترش RAM</string>
     <string name="ram_expansion_summary">برای آزاد کردن RAM، داده‌های برنامه‌های غیرفعال را به فضای ذخیره‌سازی منتقل کنید</string>
     <string name="ram_expansion_description">برای آزاد کردن RAM، داده‌های برنامه‌هایی را که مدت زیادی استفاده نشده‌اند از حافظهٔ فشرده به فضای ذخیره‌سازی منتقل کنید. مقدار انتخاب‌شده از فضای ذخیره‌سازی استفاده می‌شود. تغییرات پس از راه‌اندازی مجدد اعمال می‌شوند.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — کوچک‌تر، کندتر</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">فشرده‌سازی دوبارهٔ داده‌های غیرفعال</string>
+    <string name="ram_expansion_recompression_summary">داده‌هایی را که مدتی استفاده نشده‌اند با zstd دوباره فشرده کنید تا با کمی مصرف بیشتر CPU، داده‌های بیشتری در همان RAM جا بگیرند</string>
+    <string name="ram_expansion_recompression_zstd_summary">وقتی الگوریتم فشرده‌سازی zstd است نیازی نیست</string>
+    <string name="ram_expansion_size_limited">برای بیش از %1$s فضای ذخیره‌سازی آزاد کافی نیست</string>
+    <string name="ram_expansion_save">ذخیره</string>
+    <string name="ram_expansion_unsaved_title">تغییرات ذخیره شوند؟</string>
+    <string name="ram_expansion_unsaved_message">تغییرات گسترش RAM ذخیره نشده‌اند.</string>
+    <string name="ram_expansion_discard">رد کردن</string>
     <string name="ram_expansion_not_enough_storage">فضای ذخیره‌سازی آزاد کافی نیست</string>
     <string name="ram_expansion_restart_dialog_title">دستگاه راه‌اندازی مجدد شود؟</string>
-    <string name="ram_expansion_restart_dialog_message">برای اطمینان از اعمال تغییرات، لطفاً دستگاه را راه‌اندازی مجدد کنید.</string>
+    <string name="ram_expansion_restart_dialog_message">تغییرات ذخیره شده‌اند و پس از راه‌اندازی مجدد اعمال می‌شوند. اکنون دستگاه راه‌اندازی مجدد شود؟</string>
     <string name="ram_expansion_restart_now">راه‌اندازی مجدد</string>
     <string name="ram_expansion_restart_later">بعداً</string>
     <string name="display_parts_title">نرخ نوسازی و لمس</string>

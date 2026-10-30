@@ -7,7 +7,6 @@
     <string name="app_name">ഉപകരണ സവിശേഷതകൾ</string>
     <string name="device_parts_title">ഉപകരണ സവിശേഷതകൾ</string>
     <string name="device_parts_summary">സ്ക്രീൻ നിറം, വീഡിയോ ചിത്ര നിലവാരം, Dolby Atmos, പ്രകടനം, ആക്‌സസറികൾ, റീഫ്രഷ് നിരക്കും ടച്ചും, RAM വിപുലീകരണവും</string>
-    <string name="category_memory_title">മെമ്മറി</string>
     <string name="ram_expansion_title">RAM വിപുലീകരണം</string>
     <string name="ram_expansion_summary">RAM സ്വതന്ത്രമാക്കാൻ ഉപയോഗിക്കാത്ത ആപ്പുകളുടെ ഡാറ്റ സ്റ്റോറേജിലേക്ക് മാറ്റുക</string>
     <string name="ram_expansion_description">വളരെക്കാലമായി ഉപയോഗിക്കാത്ത ആപ്പുകളുടെ ഡാറ്റ കംപ്രസ് ചെയ്ത മെമ്മറിയിൽ നിന്ന് സ്റ്റോറേജിലേക്ക് മാറ്റി RAM സ്വതന്ത്രമാക്കുക. തിരഞ്ഞെടുത്ത സ്റ്റോറേജ് അളവ് ഉപയോഗിക്കും. പുനരാരംഭിച്ചതിന് ശേഷം മാറ്റങ്ങൾ പ്രാബല്യത്തിൽ വരും.</string>
@@ -27,8 +26,17 @@
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
     <string name="ram_expansion_not_enough_storage">ആവശ്യത്തിന് ശൂന്യമായ സ്റ്റോറേജ് ഇല്ല</string>
+    <string name="category_perf_memory_title">പ്രകടനവും മെമ്മറിയും</string>
+    <string name="ram_expansion_recompression_title">നിഷ്‌ക്രിയ ഡാറ്റ വീണ്ടും കംപ്രസ് ചെയ്യുക</string>
+    <string name="ram_expansion_recompression_summary">കുറച്ച് CPU ഉപയോഗത്തിന് പകരമായി അതേ RAM-ൽ കൂടുതൽ ഡാറ്റ ഉൾക്കൊള്ളാൻ ഏറെക്കാലമായി ഉപയോഗിക്കാത്ത ഡാറ്റ zstd ഉപയോഗിച്ച് വീണ്ടും കംപ്രസ് ചെയ്യുക</string>
+    <string name="ram_expansion_recompression_zstd_summary">കംപ്രഷൻ അൽഗോരിതം zstd ആണെങ്കിൽ ആവശ്യമില്ല</string>
+    <string name="ram_expansion_size_limited">%1$s-ൽ കൂടുതൽ സംഭരിക്കാൻ ആവശ്യമായ ഇടമില്ല</string>
+    <string name="ram_expansion_save">സംരക്ഷിക്കുക</string>
+    <string name="ram_expansion_unsaved_title">മാറ്റങ്ങൾ സംരക്ഷിക്കണോ?</string>
+    <string name="ram_expansion_unsaved_message">നിങ്ങളുടെ RAM വിപുലീകരണ മാറ്റങ്ങൾ സംരക്ഷിച്ചിട്ടില്ല.</string>
+    <string name="ram_expansion_discard">ഉപേക്ഷിക്കുക</string>
     <string name="ram_expansion_restart_dialog_title">ഉപകരണം പുനരാരംഭിക്കണോ?</string>
-    <string name="ram_expansion_restart_dialog_message">മാറ്റങ്ങൾ പ്രാബല്യത്തിൽ വരുമെന്ന് ഉറപ്പാക്കാൻ ഉപകരണം പുനരാരംഭിക്കുക.</string>
+    <string name="ram_expansion_restart_dialog_message">മാറ്റങ്ങൾ സംരക്ഷിച്ചു, പുനരാരംഭിച്ച ശേഷം പ്രാബല്യത്തിൽ വരും. ഇപ്പോൾ പുനരാരംഭിക്കണോ?</string>
     <string name="ram_expansion_restart_now">ഇപ്പോൾ പുനരാരംഭിക്കുക</string>
     <string name="ram_expansion_restart_later">പിന്നീട്</string>
     <string name="display_parts_title">റീഫ്രഷ് നിരക്കും ടച്ചും</string>

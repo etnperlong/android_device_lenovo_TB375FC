@@ -18,7 +18,15 @@
         <item>2</item>
         <item>3</item>
     </string-array>
-    <string-array name="ram_expansion_algorithm_entries">
+    <!-- RAM expansion sizes, in RamExpansionFragment.WRITEBACK_SIZES order -->
+    <string-array name="ram_expansion_size_entries" translatable="false">
+        <item>@string/ram_expansion_size_off</item>
+        <item>@string/ram_expansion_size_2gb</item>
+        <item>@string/ram_expansion_size_4gb</item>
+        <item>@string/ram_expansion_size_6gb</item>
+        <item>@string/ram_expansion_size_8gb</item>
+    </string-array>
+    <string-array name="ram_expansion_algorithm_entries" translatable="false">
         <item>@string/ram_expansion_algorithm_lz4</item>
         <item>@string/ram_expansion_algorithm_zstd</item>
         <item>@string/ram_expansion_algorithm_lzo_rle</item>

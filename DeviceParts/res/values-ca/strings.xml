@@ -7,7 +7,7 @@
     <string name="app_name">Funcions del dispositiu</string>
     <string name="device_parts_title">Funcions del dispositiu</string>
     <string name="device_parts_summary">Color de la pantalla, imatge de vídeo, Dolby Atmos, rendiment, accessoris, freqüència d’actualització, pantalla tàctil i ampliació de RAM</string>
-    <string name="category_memory_title">Memòria</string>
+    <string name="category_perf_memory_title">Rendiment i memòria</string>
     <string name="ram_expansion_title">Ampliació de RAM</string>
     <string name="ram_expansion_summary">Mou les dades de les aplicacions inactives a l’emmagatzematge per alliberar RAM</string>
     <string name="ram_expansion_description">Mou a l’emmagatzematge les dades de les aplicacions que no s’han utilitzat durant molt de temps des de la memòria comprimida per alliberar RAM. S’utilitza la quantitat d’emmagatzematge seleccionada. Els canvis s’aplicaran després de reiniciar.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — més petit, més lent</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Torna a comprimir les dades inactives</string>
+    <string name="ram_expansion_recompression_summary">Recomprimeix amb zstd les dades que fa temps que no s\'utilitzen per desar-ne més a la mateixa RAM, a canvi d’una mica de CPU</string>
+    <string name="ram_expansion_recompression_zstd_summary">No cal quan zstd és l’algoritme de compressió</string>
+    <string name="ram_expansion_size_limited">No hi ha prou espai d’emmagatzematge per superar %1$s</string>
+    <string name="ram_expansion_save">Desa</string>
+    <string name="ram_expansion_unsaved_title">Vols desar els canvis?</string>
+    <string name="ram_expansion_unsaved_message">Els canvis de l’ampliació de RAM no s’han desat.</string>
+    <string name="ram_expansion_discard">Descarta</string>
     <string name="ram_expansion_not_enough_storage">No hi ha prou espai lliure a l’emmagatzematge</string>
     <string name="ram_expansion_restart_dialog_title">Vols reiniciar el dispositiu?</string>
-    <string name="ram_expansion_restart_dialog_message">Reinicia el dispositiu per assegurar-te que els canvis s’apliquin.</string>
+    <string name="ram_expansion_restart_dialog_message">Els canvis s’han desat i s’aplicaran en reiniciar. Vols reiniciar ara?</string>
     <string name="ram_expansion_restart_now">Reinicia</string>
     <string name="ram_expansion_restart_later">Més tard</string>
     <string name="display_parts_title">Freqüència d’actualització i pantalla tàctil</string>

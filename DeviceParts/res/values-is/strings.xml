@@ -7,7 +7,7 @@
     <string name="app_name">Eiginleikar tækis</string>
     <string name="device_parts_title">Eiginleikar tækis</string>
     <string name="device_parts_summary">Skjálitur, myndgæði myndbanda, Dolby Atmos, afköst, aukabúnaður, endurnýjunartíðni, snerting og RAM-viðbót</string>
-    <string name="category_memory_title">Minni</string>
+    <string name="category_perf_memory_title">Afköst og minni</string>
     <string name="ram_expansion_title">RAM-viðbót</string>
     <string name="ram_expansion_summary">Færa óvirk forritsgögn í geymslu til að losa um RAM</string>
     <string name="ram_expansion_description">Færa gögn úr forritum sem hafa ekki verið notuð lengi úr þjöppuðu minni í geymslu til að losa um RAM. Valið geymslurými verður notað. Breytingarnar taka gildi eftir endurræsingu.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — minna, hægara</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Endurþjappa óvirk gögn</string>
+    <string name="ram_expansion_recompression_summary">Þjappa aftur með zstd gögnum sem hafa ekki verið notuð um stund svo meira komist fyrir í sama RAM gegn lítilsháttar CPU-notkun</string>
+    <string name="ram_expansion_recompression_zstd_summary">Ekki þarf að nota þetta þegar zstd er þjöppunarreikniritið</string>
+    <string name="ram_expansion_size_limited">Ekki nægt laust geymslurými til að fara yfir %1$s</string>
+    <string name="ram_expansion_save">Vista</string>
+    <string name="ram_expansion_unsaved_title">Vista breytingar?</string>
+    <string name="ram_expansion_unsaved_message">Breytingar á RAM-viðbótinni hafa ekki verið vistaðar.</string>
+    <string name="ram_expansion_discard">Henda</string>
     <string name="ram_expansion_not_enough_storage">Ekki nægt laust geymslurými</string>
     <string name="ram_expansion_restart_dialog_title">Endurræsa tækið?</string>
-    <string name="ram_expansion_restart_dialog_message">Endurræstu tækið til að tryggja að breytingarnar taki gildi.</string>
+    <string name="ram_expansion_restart_dialog_message">Breytingarnar hafa verið vistaðar og taka gildi eftir endurræsingu. Endurræsa núna?</string>
     <string name="ram_expansion_restart_now">Endurræsa</string>
     <string name="ram_expansion_restart_later">Seinna</string>
     <string name="display_parts_title">Endurnýjunartíðni og snerting</string>

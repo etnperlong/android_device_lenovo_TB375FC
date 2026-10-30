@@ -7,7 +7,6 @@
     <string name="app_name">ଡିଭାଇସ ବୈଶିଷ୍ଟ୍ୟ</string>
     <string name="device_parts_title">ଡିଭାଇସ ବୈଶିଷ୍ଟ୍ୟ</string>
     <string name="device_parts_summary">ସ୍କ୍ରିନ ରଙ୍ଗ, ଭିଡିଓ ଚିତ୍ର ଗୁଣବତ୍ତା, Dolby Atmos, କାର୍ଯ୍ୟଦକ୍ଷତା, ଆକ୍ସେସରିଜ, ରିଫ୍ରେସ ରେଟ ଏବଂ ଟଚ, RAM ବିସ୍ତାର</string>
-    <string name="category_memory_title">ମେମୋରି</string>
     <string name="ram_expansion_title">RAM ବିସ୍ତାର</string>
     <string name="ram_expansion_summary">RAM ଖାଲି କରିବାକୁ ନିଷ୍କ୍ରିୟ ଆପ୍ ଡାଟାକୁ ଷ୍ଟୋରେଜକୁ ଘୁଞ୍ଚାନ୍ତୁ</string>
     <string name="ram_expansion_description">ଦୀର୍ଘ ସମୟ ଧରି ବ୍ୟବହାର ହୋଇନଥିବା ଆପଗୁଡ଼ିକର ଡାଟାକୁ ସଙ୍କୁଚିତ ମେମୋରିରୁ ଷ୍ଟୋରେଜକୁ ଘୁଞ୍ଚାଇ RAM ଖାଲି କରନ୍ତୁ। ଚୟନିତ ଷ୍ଟୋରେଜ ପରିମାଣ ବ୍ୟବହାର ହେବ। ପୁନଃଆରମ୍ଭ ପରେ ପରିବର୍ତ୍ତନଗୁଡ଼ିକ କାର୍ଯ୍ୟକାରୀ ହେବ।</string>
@@ -27,8 +26,17 @@
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
     <string name="ram_expansion_not_enough_storage">ଯଥେଷ୍ଟ ଖାଲି ଷ୍ଟୋରେଜ ନାହିଁ</string>
+    <string name="category_perf_memory_title">କାର୍ଯ୍ୟଦକ୍ଷତା ଓ ମେମୋରୀ</string>
+    <string name="ram_expansion_recompression_title">ନିଷ୍କ୍ରିୟ ଡାଟାକୁ ପୁଣି ସଙ୍କୁଚିତ କରନ୍ତୁ</string>
+    <string name="ram_expansion_recompression_summary">ସାମାନ୍ୟ CPU ବ୍ୟବହାର ବଦଳରେ ସେହି RAMରେ ଅଧିକ ଡାଟା ରଖିବାକୁ ଦୀର୍ଘ ସମୟ ଧରି ବ୍ୟବହାର ହୋଇନଥିବା ଡାଟାକୁ zstd ଦ୍ୱାରା ପୁଣି ସଙ୍କୁଚିତ କରନ୍ତୁ</string>
+    <string name="ram_expansion_recompression_zstd_summary">ସଙ୍କୋଚନ ଆଲଗୋରିଦମ zstd ଥିଲେ ଏହା ଆବଶ୍ୟକ ନୁହେଁ</string>
+    <string name="ram_expansion_size_limited">%1$s ଠାରୁ ଅଧିକ ପାଇଁ ପର୍ଯ୍ୟାପ୍ତ ଖାଲି ଷ୍ଟୋରେଜ ନାହିଁ</string>
+    <string name="ram_expansion_save">ସେଭ୍ କରନ୍ତୁ</string>
+    <string name="ram_expansion_unsaved_title">ପରିବର୍ତ୍ତନଗୁଡ଼ିକ ସେଭ୍ କରିବେ?</string>
+    <string name="ram_expansion_unsaved_message">ଆପଣଙ୍କ RAM ବିସ୍ତାରର ପରିବର୍ତ୍ତନଗୁଡ଼ିକ ସେଭ୍ ହୋଇନାହିଁ।</string>
+    <string name="ram_expansion_discard">ବାତିଲ କରନ୍ତୁ</string>
     <string name="ram_expansion_restart_dialog_title">ଡିଭାଇସ ପୁନଃଆରମ୍ଭ କରିବେ?</string>
-    <string name="ram_expansion_restart_dialog_message">ପରିବର୍ତ୍ତନଗୁଡ଼ିକ କାର୍ଯ୍ୟକାରୀ ହେବା ନିଶ୍ଚିତ କରିବାକୁ ଡିଭାଇସକୁ ପୁନଃଆରମ୍ଭ କରନ୍ତୁ।</string>
+    <string name="ram_expansion_restart_dialog_message">ପରିବର୍ତ୍ତନଗୁଡ଼ିକ ସେଭ୍ ହୋଇଛି ଏବଂ ପୁନଃଆରମ୍ଭ ପରେ କାର୍ଯ୍ୟକାରୀ ହେବ। ଏବେ ପୁନଃଆରମ୍ଭ କରିବେ?</string>
     <string name="ram_expansion_restart_now">ବର୍ତ୍ତମାନ ପୁନଃଆରମ୍ଭ କରନ୍ତୁ</string>
     <string name="ram_expansion_restart_later">ପରେ</string>
     <string name="display_parts_title">ରିଫ୍ରେସ ରେଟ ଏବଂ ଟଚ</string>

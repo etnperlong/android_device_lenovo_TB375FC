@@ -14,7 +14,7 @@
     <string name="keyboard_disconnected_title">Keyboard disconnected</string>
     <string name="dolby_geq_title">Equaliser</string>
     <string name="device_parts_summary">Screen colour, video picture, Dolby Atmos, performance, accessories, refresh rate, touch and RAM expansion</string>
-    <string name="category_memory_title">Memory</string>
+    <string name="category_perf_memory_title">Performance and memory</string>
     <string name="ram_expansion_title">RAM expansion</string>
     <string name="ram_expansion_summary">Move inactive app data to storage to free RAM</string>
     <string name="ram_expansion_description">Move data from apps that have not been used for a long time from compressed memory to storage, freeing RAM. The selected amount of storage is used. Changes take effect after a restart.</string>
@@ -33,9 +33,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — smaller, slower</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Recompress idle data</string>
+    <string name="ram_expansion_recompression_summary">Compress data that has not been used for a while again with zstd, which fits more into the same RAM at some CPU cost</string>
+    <string name="ram_expansion_recompression_zstd_summary">Not needed while zstd is the compression algorithm</string>
+    <string name="ram_expansion_size_limited">Not enough free storage for more than %1$s</string>
+    <string name="ram_expansion_save">Save</string>
+    <string name="ram_expansion_unsaved_title">Save changes?</string>
+    <string name="ram_expansion_unsaved_message">Your RAM expansion changes have not been saved.</string>
+    <string name="ram_expansion_discard">Discard</string>
     <string name="ram_expansion_not_enough_storage">Not enough free storage</string>
     <string name="ram_expansion_restart_dialog_title">Restart device?</string>
-    <string name="ram_expansion_restart_dialog_message">Please restart the device to ensure changes take effect.</string>
+    <string name="ram_expansion_restart_dialog_message">Changes are saved and take effect after a restart. Restart now?</string>
     <string name="ram_expansion_restart_now">Restart</string>
     <string name="ram_expansion_restart_later">Later</string>
     <string name="screen_color_title">Screen colour</string>

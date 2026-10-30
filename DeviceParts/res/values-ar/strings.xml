@@ -7,7 +7,6 @@
     <string name="app_name">ميزات الجهاز</string>
     <string name="device_parts_title">ميزات الجهاز</string>
     <string name="device_parts_summary">لون الشاشة، جودة الفيديو، Dolby Atmos، الأداء، الملحقات، معدل التحديث، اللمس وتوسيع ذاكرة RAM</string>
-    <string name="category_memory_title">الذاكرة</string>
     <string name="ram_expansion_title">توسيع ذاكرة RAM</string>
     <string name="ram_expansion_summary">نقل بيانات التطبيقات غير النشطة إلى مساحة التخزين لتحرير ذاكرة RAM</string>
     <string name="ram_expansion_description">انقل بيانات التطبيقات التي لم تُستخدم منذ مدة طويلة من الذاكرة المضغوطة إلى مساحة التخزين لتحرير ذاكرة RAM. سيُستخدم المقدار المحدد من مساحة التخزين. تسري التغييرات بعد إعادة التشغيل.</string>
@@ -27,8 +26,17 @@
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
     <string name="ram_expansion_not_enough_storage">لا توجد مساحة تخزين خالية كافية</string>
+    <string name="category_perf_memory_title">الأداء والذاكرة</string>
+    <string name="ram_expansion_recompression_title">إعادة ضغط البيانات غير النشطة</string>
+    <string name="ram_expansion_recompression_summary">اضغط البيانات التي لم تُستخدم منذ مدة باستخدام zstd لتخزين المزيد في RAM نفسها مع زيادة بسيطة في استخدام CPU</string>
+    <string name="ram_expansion_recompression_zstd_summary">غير مطلوب عند استخدام zstd كخوارزمية الضغط</string>
+    <string name="ram_expansion_size_limited">لا تتوفر مساحة تخزين كافية لأكثر من %1$s</string>
+    <string name="ram_expansion_save">حفظ</string>
+    <string name="ram_expansion_unsaved_title">حفظ التغييرات؟</string>
+    <string name="ram_expansion_unsaved_message">لم تُحفظ تغييرات توسيع RAM.</string>
+    <string name="ram_expansion_discard">تجاهل</string>
     <string name="ram_expansion_restart_dialog_title">إعادة تشغيل الجهاز؟</string>
-    <string name="ram_expansion_restart_dialog_message">يُرجى إعادة تشغيل الجهاز لضمان سريان التغييرات.</string>
+    <string name="ram_expansion_restart_dialog_message">تم حفظ التغييرات وستُطبّق بعد إعادة التشغيل. هل تريد إعادة التشغيل الآن؟</string>
     <string name="ram_expansion_restart_now">إعادة التشغيل</string>
     <string name="ram_expansion_restart_later">لاحقًا</string>
     <string name="display_parts_title">معدل التحديث واللمس</string>

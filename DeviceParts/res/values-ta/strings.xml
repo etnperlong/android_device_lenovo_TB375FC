@@ -7,7 +7,6 @@
     <string name="app_name">சாதன அம்சங்கள்</string>
     <string name="device_parts_title">சாதன அம்சங்கள்</string>
     <string name="device_parts_summary">திரை வண்ணம், வீடியோ படத் தரம், Dolby Atmos, செயல்திறன், துணைக்கருவிகள், ரெஃப்ரெஷ் ரேட் மற்றும் தொடுதல், RAM விரிவாக்கம்</string>
-    <string name="category_memory_title">நினைவகம்</string>
     <string name="ram_expansion_title">RAM விரிவாக்கம்</string>
     <string name="ram_expansion_summary">RAM-ஐ விடுவிக்கச் செயலற்ற ஆப்ஸ் தரவைச் சேமிப்பகத்திற்கு நகர்த்தவும்</string>
     <string name="ram_expansion_description">நீண்ட காலமாகப் பயன்படுத்தப்படாத ஆப்ஸின் தரவைச் சுருக்கப்பட்ட நினைவகத்திலிருந்து சேமிப்பகத்திற்கு நகர்த்தி RAM-ஐ விடுவிக்கவும். தேர்ந்தெடுக்கப்பட்ட சேமிப்பக அளவு பயன்படுத்தப்படும். மறுதொடக்கம் செய்த பிறகு மாற்றங்கள் நடைமுறைக்கு வரும்.</string>
@@ -27,8 +26,17 @@
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
     <string name="ram_expansion_not_enough_storage">போதிய காலி சேமிப்பிடம் இல்லை</string>
+    <string name="category_perf_memory_title">செயல்திறன் மற்றும் நினைவகம்</string>
+    <string name="ram_expansion_recompression_title">செயலற்ற தரவை மீண்டும் சுருக்கவும்</string>
+    <string name="ram_expansion_recompression_summary">சிறிதளவு CPU பயன்பாட்டிற்கு ஈடாக அதே RAM-இல் அதிக தரவைச் சேமிக்க நீண்டகாலமாகப் பயன்படுத்தாத தரவை zstd மூலம் மீண்டும் சுருக்கவும்</string>
+    <string name="ram_expansion_recompression_zstd_summary">சுருக்க அல்காரிதமாக zstd இருந்தால் தேவையில்லை</string>
+    <string name="ram_expansion_size_limited">%1$s-க்கு மேல் சேமிக்கப் போதுமான காலி சேமிப்பிடம் இல்லை</string>
+    <string name="ram_expansion_save">சேமி</string>
+    <string name="ram_expansion_unsaved_title">மாற்றங்களைச் சேமிக்கவா?</string>
+    <string name="ram_expansion_unsaved_message">உங்கள் RAM விரிவாக்க மாற்றங்கள் சேமிக்கப்படவில்லை.</string>
+    <string name="ram_expansion_discard">நிராகரி</string>
     <string name="ram_expansion_restart_dialog_title">சாதனத்தை மறுதொடக்கம் செய்யவா?</string>
-    <string name="ram_expansion_restart_dialog_message">மாற்றங்கள் நடைமுறைக்கு வருவதை உறுதிசெய்யச் சாதனத்தை மறுதொடக்கம் செய்யவும்.</string>
+    <string name="ram_expansion_restart_dialog_message">மாற்றங்கள் சேமிக்கப்பட்டு மறுதொடக்கத்திற்குப் பிறகு செயல்படும். இப்போது மறுதொடக்கம் செய்யவா?</string>
     <string name="ram_expansion_restart_now">இப்போது மறுதொடக்கம் செய்</string>
     <string name="ram_expansion_restart_later">பிறகு</string>
     <string name="display_parts_title">ரெஃப்ரெஷ் ரேட் மற்றும் தொடுதல்</string>

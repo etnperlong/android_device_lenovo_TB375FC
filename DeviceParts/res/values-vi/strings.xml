@@ -7,7 +7,7 @@
     <string name="app_name">Tính năng thiết bị</string>
     <string name="device_parts_title">Tính năng thiết bị</string>
     <string name="device_parts_summary">Màu màn hình, hình ảnh video, Dolby Atmos, hiệu năng, phụ kiện, tần số quét và cảm ứng, mở rộng RAM</string>
-    <string name="category_memory_title">Bộ nhớ</string>
+    <string name="category_perf_memory_title">Hiệu năng và bộ nhớ</string>
     <string name="ram_expansion_title">Mở rộng RAM</string>
     <string name="ram_expansion_summary">Chuyển dữ liệu ứng dụng không hoạt động sang bộ nhớ lưu trữ để giải phóng RAM</string>
     <string name="ram_expansion_description">Chuyển dữ liệu từ các ứng dụng đã lâu không sử dụng từ bộ nhớ nén sang bộ nhớ lưu trữ để giải phóng RAM. Dung lượng lưu trữ đã chọn sẽ được sử dụng. Các thay đổi có hiệu lực sau khi khởi động lại.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — nhỏ hơn, chậm hơn</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Nén lại dữ liệu không hoạt động</string>
+    <string name="ram_expansion_recompression_summary">Dùng zstd để nén lại dữ liệu đã lâu không sử dụng. Việc này tốn thêm CPU nhưng giúp lưu được nhiều dữ liệu hơn trong cùng lượng RAM</string>
+    <string name="ram_expansion_recompression_zstd_summary">Không cần thiết khi đang dùng zstd làm thuật toán nén</string>
     <string name="ram_expansion_not_enough_storage">Không đủ dung lượng lưu trữ trống</string>
+    <string name="ram_expansion_size_limited">Không đủ dung lượng lưu trữ để đặt mức lớn hơn %1$s</string>
+    <string name="ram_expansion_save">Lưu</string>
+    <string name="ram_expansion_unsaved_title">Lưu các thay đổi?</string>
+    <string name="ram_expansion_unsaved_message">Các thay đổi về mở rộng RAM chưa được lưu.</string>
+    <string name="ram_expansion_discard">Hủy bỏ</string>
     <string name="ram_expansion_restart_dialog_title">Khởi động lại thiết bị?</string>
-    <string name="ram_expansion_restart_dialog_message">Vui lòng khởi động lại thiết bị để đảm bảo các thay đổi có hiệu lực.</string>
+    <string name="ram_expansion_restart_dialog_message">Các thay đổi đã được lưu và có hiệu lực sau khi khởi động lại. Khởi động lại ngay?</string>
     <string name="ram_expansion_restart_now">Khởi động lại</string>
     <string name="ram_expansion_restart_later">Để sau</string>
     <string name="display_parts_title">Tần số quét và màn hình cảm ứng</string>

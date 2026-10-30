@@ -7,7 +7,7 @@
     <string name="app_name">Funcții ale dispozitivului</string>
     <string name="device_parts_title">Funcții ale dispozitivului</string>
     <string name="device_parts_summary">Culoarea ecranului, imagine video, Dolby Atmos, performanță, accesorii, rata de actualizare și atingere, extindere RAM</string>
-    <string name="category_memory_title">Memorie</string>
+    <string name="category_perf_memory_title">Performanță și memorie</string>
     <string name="ram_expansion_title">Extindere RAM</string>
     <string name="ram_expansion_summary">Mută datele aplicațiilor inactive în spațiul de stocare pentru a elibera RAM</string>
     <string name="ram_expansion_description">Mută datele aplicațiilor care nu au fost folosite de mult timp din memoria comprimată în spațiul de stocare, eliberând RAM. Se va folosi cantitatea de stocare selectată. Modificările intră în vigoare după repornire.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — mai mic, mai lent</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Recomprimarea datelor inactive</string>
+    <string name="ram_expansion_recompression_summary">Recomprimă cu zstd datele care nu au fost folosite o perioadă, astfel încât să încapă mai multe în aceeași cantitate de RAM, cu un anumit cost de procesor.</string>
+    <string name="ram_expansion_recompression_zstd_summary">Nu este necesară când zstd este algoritmul de comprimare</string>
+    <string name="ram_expansion_size_limited">Nu există suficient spațiu liber pentru mai mult de %1$s</string>
+    <string name="ram_expansion_save">Salvează</string>
+    <string name="ram_expansion_unsaved_title">Salvezi modificările?</string>
+    <string name="ram_expansion_unsaved_message">Modificările pentru extinderea RAM nu au fost salvate.</string>
+    <string name="ram_expansion_discard">Renunță</string>
     <string name="ram_expansion_not_enough_storage">Spațiu liber insuficient în stocare</string>
     <string name="ram_expansion_restart_dialog_title">Repornești dispozitivul?</string>
-    <string name="ram_expansion_restart_dialog_message">Repornește dispozitivul pentru a te asigura că modificările intră în vigoare.</string>
+    <string name="ram_expansion_restart_dialog_message">Modificările sunt salvate și se aplică după repornire. Repornești acum?</string>
     <string name="ram_expansion_restart_now">Repornește</string>
     <string name="ram_expansion_restart_later">Mai târziu</string>
     <string name="display_parts_title">Rata de actualizare și atingere</string>

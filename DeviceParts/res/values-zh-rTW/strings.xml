@@ -8,7 +8,7 @@
 
     <string name="device_parts_title">裝置功能</string>
     <string name="device_parts_summary">螢幕色彩、影片畫質、Dolby Atmos、效能、配件、刷新率與觸控、RAM 擴充</string>
-    <string name="category_memory_title">記憶體</string>
+    <string name="category_perf_memory_title">效能與記憶體</string>
     <string name="ram_expansion_title">RAM 擴充</string>
     <string name="ram_expansion_summary">將閒置應用程式資料移至儲存空間以釋放 RAM</string>
     <string name="ram_expansion_description">將長時間未使用的應用程式資料從壓縮記憶體移至儲存空間，以釋放 RAM。會使用所選的儲存空間容量。重新啟動後變更才會生效。</string>
@@ -27,9 +27,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — 較小、較慢</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">重新壓縮閒置資料</string>
+    <string name="ram_expansion_recompression_summary">使用 zstd 重新壓縮閒置一段時間的資料。這會增加 CPU 負載，但可在相同 RAM 中容納更多資料</string>
+    <string name="ram_expansion_recompression_zstd_summary">使用 zstd 作為壓縮演算法時不需要</string>
     <string name="ram_expansion_not_enough_storage">可用儲存空間不足</string>
+    <string name="ram_expansion_size_limited">可用儲存空間不足，無法設定高於 %1$s</string>
+    <string name="ram_expansion_save">儲存</string>
+    <string name="ram_expansion_unsaved_title">要儲存變更嗎？</string>
+    <string name="ram_expansion_unsaved_message">RAM 擴充的變更尚未儲存。</string>
+    <string name="ram_expansion_discard">捨棄</string>
     <string name="ram_expansion_restart_dialog_title">要重新啟動裝置嗎？</string>
-    <string name="ram_expansion_restart_dialog_message">請重新啟動裝置，確保變更生效。</string>
+    <string name="ram_expansion_restart_dialog_message">變更已儲存，重新啟動後才會生效。要立即重新啟動嗎？</string>
     <string name="ram_expansion_restart_now">立即重新啟動</string>
     <string name="ram_expansion_restart_later">稍後</string>
     <string name="display_parts_title">刷新率與觸控</string>

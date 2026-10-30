@@ -7,7 +7,6 @@
     <string name="app_name">ડિવાઇસની સુવિધાઓ</string>
     <string name="device_parts_title">ડિવાઇસની સુવિધાઓ</string>
     <string name="device_parts_summary">સ્ક્રીનનો રંગ, વિડિયો ચિત્ર ગુણવત્તા, Dolby Atmos, પર્ફોર્મન્સ, એસેસરીઝ, રિફ્રેશ રેટ, ટચ અને RAM વિસ્તરણ</string>
-    <string name="category_memory_title">મેમરી</string>
     <string name="ram_expansion_title">RAM વિસ્તરણ</string>
     <string name="ram_expansion_summary">RAM ખાલી કરવા માટે નિષ્ક્રિય ઍપનો ડેટા સ્ટોરેજમાં ખસેડો</string>
     <string name="ram_expansion_description">લાંબા સમયથી ઉપયોગમાં ન લેવાયેલી ઍપનો ડેટા સંકુચિત મેમરીમાંથી સ્ટોરેજમાં ખસેડીને RAM ખાલી કરો. પસંદ કરેલી માત્રામાં સ્ટોરેજ વપરાશે. ફરી શરૂ કર્યા પછી ફેરફારો લાગુ થશે.</string>
@@ -27,8 +26,17 @@
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
     <string name="ram_expansion_not_enough_storage">પૂરતું ખાલી સ્ટોરેજ નથી</string>
+    <string name="category_perf_memory_title">કાર્યક્ષમતા અને મેમરી</string>
+    <string name="ram_expansion_recompression_title">નિષ્ક્રિય ડેટાને ફરીથી સંકુચિત કરો</string>
+    <string name="ram_expansion_recompression_summary">થોડા CPU વપરાશના બદલામાં સમાન RAMમાં વધુ ડેટા રાખવા માટે લાંબા સમયથી ઉપયોગ ન કરેલા ડેટાને zstd વડે ફરીથી સંકુચિત કરો</string>
+    <string name="ram_expansion_recompression_zstd_summary">zstd સંકોચન અલ્ગોરિધમ હોય ત્યારે જરૂરી નથી</string>
+    <string name="ram_expansion_size_limited">%1$s કરતાં વધુ માટે પૂરતી ખાલી સ્ટોરેજ નથી</string>
+    <string name="ram_expansion_save">સાચવો</string>
+    <string name="ram_expansion_unsaved_title">ફેરફારો સાચવવા છે?</string>
+    <string name="ram_expansion_unsaved_message">તમારા RAM વિસ્તરણના ફેરફારો સાચવાયા નથી.</string>
+    <string name="ram_expansion_discard">છોડી દો</string>
     <string name="ram_expansion_restart_dialog_title">ડિવાઇસ ફરી શરૂ કરવું છે?</string>
-    <string name="ram_expansion_restart_dialog_message">ફેરફારો લાગુ થાય તેની ખાતરી કરવા માટે કૃપા કરીને ડિવાઇસ ફરી શરૂ કરો.</string>
+    <string name="ram_expansion_restart_dialog_message">ફેરફારો સાચવાયા છે અને પુનઃપ્રારંભ પછી અમલમાં આવશે. હમણાં પુનઃપ્રારંભ કરવો?</string>
     <string name="ram_expansion_restart_now">હમણાં ફરી શરૂ કરો</string>
     <string name="ram_expansion_restart_later">પછી</string>
     <string name="display_parts_title">રિફ્રેશ રેટ અને ટચ</string>

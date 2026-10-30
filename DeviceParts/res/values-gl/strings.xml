@@ -7,7 +7,7 @@
     <string name="app_name">Funcións do dispositivo</string>
     <string name="device_parts_title">Funcións do dispositivo</string>
     <string name="device_parts_summary">Cor da pantalla, imaxe de vídeo, Dolby Atmos, rendemento, accesorios, frecuencia de actualización, pantalla táctil e ampliación da RAM</string>
-    <string name="category_memory_title">Memoria</string>
+    <string name="category_perf_memory_title">Rendemento e memoria</string>
     <string name="ram_expansion_title">Ampliación da RAM</string>
     <string name="ram_expansion_summary">Move os datos das aplicacións inactivas ao almacenamento para liberar RAM</string>
     <string name="ram_expansion_description">Move ao almacenamento os datos das aplicacións que non se usan desde hai moito tempo desde a memoria comprimida para liberar RAM. Emprégase a cantidade de almacenamento seleccionada. Os cambios aplícanse despois de reiniciar.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — máis pequeno, máis lento</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Volver comprimir datos inactivos</string>
+    <string name="ram_expansion_recompression_summary">Volve comprimir con zstd os datos que levan un tempo sen usarse para almacenar máis na mesma RAM, a cambio de algo de CPU</string>
+    <string name="ram_expansion_recompression_zstd_summary">Non é necesario cando zstd é o algoritmo de compresión</string>
+    <string name="ram_expansion_size_limited">Non hai espazo de almacenamento libre abondo para superar %1$s</string>
+    <string name="ram_expansion_save">Gardar</string>
+    <string name="ram_expansion_unsaved_title">Queres gardar os cambios?</string>
+    <string name="ram_expansion_unsaved_message">Non se gardaron os cambios da ampliación da RAM.</string>
+    <string name="ram_expansion_discard">Descartar</string>
     <string name="ram_expansion_not_enough_storage">Non hai espazo de almacenamento libre abondo</string>
     <string name="ram_expansion_restart_dialog_title">Queres reiniciar o dispositivo?</string>
-    <string name="ram_expansion_restart_dialog_message">Reinicia o dispositivo para asegurar que os cambios teñan efecto.</string>
+    <string name="ram_expansion_restart_dialog_message">Os cambios gardáronse e aplicaranse ao reiniciar. Queres reiniciar agora?</string>
     <string name="ram_expansion_restart_now">Reiniciar</string>
     <string name="ram_expansion_restart_later">Máis tarde</string>
     <string name="display_parts_title">Frecuencia de actualización e pantalla táctil</string>

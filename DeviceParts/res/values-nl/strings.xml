@@ -7,7 +7,7 @@
     <string name="app_name">Apparaatfuncties</string>
     <string name="device_parts_title">Apparaatfuncties</string>
     <string name="device_parts_summary">Schermkleur, videobeeld, Dolby Atmos, prestaties, accessoires, vernieuwingsfrequentie en touch, RAM-uitbreiding</string>
-    <string name="category_memory_title">Geheugen</string>
+    <string name="category_perf_memory_title">Prestaties en geheugen</string>
     <string name="ram_expansion_title">RAM-uitbreiding</string>
     <string name="ram_expansion_summary">Verplaats inactieve appgegevens naar opslag om RAM vrij te maken</string>
     <string name="ram_expansion_description">Verplaats gegevens van apps die lange tijd niet zijn gebruikt vanuit gecomprimeerd geheugen naar opslag om RAM vrij te maken. De geselecteerde hoeveelheid opslag wordt gebruikt. Wijzigingen worden van kracht na een herstart.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — kleiner, langzamer</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Inactieve gegevens opnieuw comprimeren</string>
+    <string name="ram_expansion_recompression_summary">Comprimeer gegevens die al een tijdje niet zijn gebruikt opnieuw met zstd, zodat er meer in dezelfde RAM past, ten koste van wat CPU</string>
+    <string name="ram_expansion_recompression_zstd_summary">Niet nodig wanneer zstd het compressiealgoritme is</string>
+    <string name="ram_expansion_size_limited">Onvoldoende vrije opslagruimte voor meer dan %1$s</string>
+    <string name="ram_expansion_save">Opslaan</string>
+    <string name="ram_expansion_unsaved_title">Wijzigingen opslaan?</string>
+    <string name="ram_expansion_unsaved_message">Je wijzigingen aan de RAM-uitbreiding zijn niet opgeslagen.</string>
+    <string name="ram_expansion_discard">Verwerpen</string>
     <string name="ram_expansion_not_enough_storage">Onvoldoende vrije opslagruimte</string>
     <string name="ram_expansion_restart_dialog_title">Apparaat herstarten?</string>
-    <string name="ram_expansion_restart_dialog_message">Herstart het apparaat om ervoor te zorgen dat wijzigingen van kracht worden.</string>
+    <string name="ram_expansion_restart_dialog_message">De wijzigingen zijn opgeslagen en worden van kracht na een herstart. Nu herstarten?</string>
     <string name="ram_expansion_restart_now">Nu herstarten</string>
     <string name="ram_expansion_restart_later">Later</string>
     <string name="display_parts_title">Vernieuwingssnelheid en touch</string>

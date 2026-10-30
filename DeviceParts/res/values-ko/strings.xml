@@ -7,7 +7,7 @@
     <string name="app_name">기기 기능</string>
     <string name="device_parts_title">기기 기능</string>
     <string name="device_parts_summary">화면 색상, 동영상 화질, 돌비 애트모스, 성능, 액세서리, 화면 주사율, 터치 및 RAM 확장</string>
-    <string name="category_memory_title">메모리</string>
+    <string name="category_perf_memory_title">성능 및 메모리</string>
     <string name="ram_expansion_title">RAM 확장</string>
     <string name="ram_expansion_summary">비활성 앱 데이터를 저장소로 이동하여 RAM 확보</string>
     <string name="ram_expansion_description">오랫동안 사용하지 않은 앱의 데이터를 압축 메모리에서 저장소로 이동하여 RAM을 확보합니다. 선택한 저장 공간이 사용됩니다. 변경사항은 다시 시작한 후 적용됩니다.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — 더 작지만 느림</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">유휴 데이터 재압축</string>
+    <string name="ram_expansion_recompression_summary">한동안 사용하지 않은 데이터를 zstd로 다시 압축합니다. CPU 사용량은 늘지만 같은 RAM에 더 많은 데이터를 저장할 수 있습니다</string>
+    <string name="ram_expansion_recompression_zstd_summary">압축 알고리즘으로 zstd를 사용 중이면 필요하지 않습니다</string>
     <string name="ram_expansion_not_enough_storage">저장 공간이 부족합니다</string>
+    <string name="ram_expansion_size_limited">%1$s보다 크게 설정하기에는 저장 공간이 부족합니다</string>
+    <string name="ram_expansion_save">저장</string>
+    <string name="ram_expansion_unsaved_title">변경사항을 저장할까요?</string>
+    <string name="ram_expansion_unsaved_message">RAM 확장 변경사항이 저장되지 않았습니다.</string>
+    <string name="ram_expansion_discard">변경사항 삭제</string>
     <string name="ram_expansion_restart_dialog_title">기기를 다시 시작할까요?</string>
-    <string name="ram_expansion_restart_dialog_message">변경사항을 적용하려면 기기를 다시 시작하세요.</string>
+    <string name="ram_expansion_restart_dialog_message">변경사항이 저장되며 다시 시작한 후 적용됩니다. 지금 다시 시작할까요?</string>
     <string name="ram_expansion_restart_now">다시 시작</string>
     <string name="ram_expansion_restart_later">나중에</string>
     <string name="display_parts_title">화면 재생 빈도 및 터치</string>

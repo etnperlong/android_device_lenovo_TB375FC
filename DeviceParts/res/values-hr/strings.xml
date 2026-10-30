@@ -7,7 +7,7 @@
     <string name="app_name">Značajke uređaja</string>
     <string name="device_parts_title">Značajke uređaja</string>
     <string name="device_parts_summary">Boja zaslona, slika videozapisa, Dolby Atmos, performanse, dodaci, učestalost osvježavanja, dodir i proširenje RAM memorije</string>
-    <string name="category_memory_title">Memorija</string>
+    <string name="category_perf_memory_title">Performanse i memorija</string>
     <string name="ram_expansion_title">Proširenje RAM memorije</string>
     <string name="ram_expansion_summary">Premjestite podatke neaktivnih aplikacija u pohranu da biste oslobodili RAM</string>
     <string name="ram_expansion_description">Premjestite podatke aplikacija koje se dugo nisu koristile iz komprimirane memorije u pohranu da biste oslobodili RAM. Koristi se odabrana količina prostora za pohranu. Promjene stupaju na snagu nakon ponovnog pokretanja.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — manje, sporije</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Ponovna kompresija neaktivnih podataka</string>
+    <string name="ram_expansion_recompression_summary">Ponovno komprimira pomoću zstd podatke koji se neko vrijeme nisu koristili, tako da u istu količinu RAM memorije stane više podataka uz dodatno opterećenje procesora.</string>
+    <string name="ram_expansion_recompression_zstd_summary">Nije potrebno dok je zstd algoritam kompresije</string>
+    <string name="ram_expansion_size_limited">Nema dovoljno slobodnog prostora za pohranu za više od %1$s</string>
+    <string name="ram_expansion_save">Spremi</string>
+    <string name="ram_expansion_unsaved_title">Spremiti promjene?</string>
+    <string name="ram_expansion_unsaved_message">Promjene proširenja RAM memorije nisu spremljene.</string>
+    <string name="ram_expansion_discard">Odbaci</string>
     <string name="ram_expansion_not_enough_storage">Nema dovoljno slobodnog prostora za pohranu</string>
     <string name="ram_expansion_restart_dialog_title">Ponovo pokrenuti uređaj?</string>
-    <string name="ram_expansion_restart_dialog_message">Ponovo pokrenite uređaj kako bi promjene stupile na snagu.</string>
+    <string name="ram_expansion_restart_dialog_message">Promjene su spremljene i stupaju na snagu nakon ponovnog pokretanja. Ponovno pokrenuti sada?</string>
     <string name="ram_expansion_restart_now">Ponovo pokreni</string>
     <string name="ram_expansion_restart_later">Kasnije</string>
     <string name="display_parts_title">Učestalost osvježavanja i dodir</string>

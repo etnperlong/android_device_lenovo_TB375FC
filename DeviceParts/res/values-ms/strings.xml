@@ -7,7 +7,7 @@
     <string name="app_name">Bahagian peranti</string>
     <string name="device_parts_title">Bahagian peranti</string>
     <string name="device_parts_summary">Warna skrin, gambar video, Dolby Atmos, prestasi, aksesori, kadar muat semula dan sentuhan, pengembangan RAM</string>
-    <string name="category_memory_title">Memori</string>
+    <string name="category_perf_memory_title">Prestasi dan memori</string>
     <string name="ram_expansion_title">Pengembangan RAM</string>
     <string name="ram_expansion_summary">Alihkan data aplikasi tidak aktif ke storan untuk mengosongkan RAM</string>
     <string name="ram_expansion_description">Alihkan data daripada aplikasi yang sudah lama tidak digunakan daripada memori termampat ke storan untuk mengosongkan RAM. Jumlah storan yang dipilih akan digunakan. Perubahan berkuat kuasa selepas dimulakan semula.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — lebih kecil, lebih perlahan</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Mampatkan semula data tidak aktif</string>
+    <string name="ram_expansion_recompression_summary">Mampatkan semula data yang tidak digunakan untuk seketika dengan zstd supaya lebih banyak data muat dalam RAM yang sama, dengan sedikit penggunaan CPU tambahan</string>
+    <string name="ram_expansion_recompression_zstd_summary">Tidak diperlukan apabila algoritma pemampatan ialah zstd</string>
+    <string name="ram_expansion_size_limited">Ruang storan kosong tidak mencukupi untuk lebih daripada %1$s</string>
+    <string name="ram_expansion_save">Simpan</string>
+    <string name="ram_expansion_unsaved_title">Simpan perubahan?</string>
+    <string name="ram_expansion_unsaved_message">Perubahan pengembangan RAM belum disimpan.</string>
+    <string name="ram_expansion_discard">Buang</string>
     <string name="ram_expansion_not_enough_storage">Ruang storan kosong tidak mencukupi</string>
     <string name="ram_expansion_restart_dialog_title">Mulakan semula peranti?</string>
-    <string name="ram_expansion_restart_dialog_message">Mulakan semula peranti untuk memastikan perubahan berkuat kuasa.</string>
+    <string name="ram_expansion_restart_dialog_message">Perubahan disimpan dan berkuat kuasa selepas dimulakan semula. Mulakan semula peranti sekarang?</string>
     <string name="ram_expansion_restart_now">Mulakan semula</string>
     <string name="ram_expansion_restart_later">Kemudian</string>
     <string name="display_parts_title">Kadar muat semula dan sentuhan</string>

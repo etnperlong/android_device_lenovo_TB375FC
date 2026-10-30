@@ -7,7 +7,7 @@
     <string name="app_name">Fitur perangkat</string>
     <string name="device_parts_title">Fitur perangkat</string>
     <string name="device_parts_summary">Warna layar, gambar video, Dolby Atmos, performa, aksesori, kecepatan refresh, sentuhan, dan ekspansi RAM</string>
-    <string name="category_memory_title">Memori</string>
+    <string name="category_perf_memory_title">Performa dan memori</string>
     <string name="ram_expansion_title">Ekspansi RAM</string>
     <string name="ram_expansion_summary">Pindahkan data aplikasi yang tidak aktif ke penyimpanan untuk mengosongkan RAM</string>
     <string name="ram_expansion_description">Pindahkan data dari aplikasi yang sudah lama tidak digunakan dari memori terkompresi ke penyimpanan untuk mengosongkan RAM. Jumlah penyimpanan yang dipilih akan digunakan. Perubahan berlaku setelah perangkat dimulai ulang.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — lebih kecil, lebih lambat</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Kompres ulang data tidak aktif</string>
+    <string name="ram_expansion_recompression_summary">Kompres ulang data yang sudah lama tidak digunakan dengan zstd. Ini menggunakan lebih banyak CPU, tetapi dapat memuat lebih banyak data dalam jumlah RAM yang sama</string>
+    <string name="ram_expansion_recompression_zstd_summary">Tidak diperlukan saat zstd digunakan sebagai algoritma kompresi</string>
     <string name="ram_expansion_not_enough_storage">Penyimpanan kosong tidak cukup</string>
+    <string name="ram_expansion_size_limited">Penyimpanan kosong tidak cukup untuk ukuran lebih dari %1$s</string>
+    <string name="ram_expansion_save">Simpan</string>
+    <string name="ram_expansion_unsaved_title">Simpan perubahan?</string>
+    <string name="ram_expansion_unsaved_message">Perubahan ekspansi RAM belum disimpan.</string>
+    <string name="ram_expansion_discard">Buang</string>
     <string name="ram_expansion_restart_dialog_title">Mulai ulang perangkat?</string>
-    <string name="ram_expansion_restart_dialog_message">Mulai ulang perangkat agar perubahan dapat diterapkan.</string>
+    <string name="ram_expansion_restart_dialog_message">Perubahan telah disimpan dan berlaku setelah perangkat dimulai ulang. Mulai ulang sekarang?</string>
     <string name="ram_expansion_restart_now">Mulai ulang</string>
     <string name="ram_expansion_restart_later">Nanti</string>
     <string name="display_parts_title">Kecepatan refresh dan sentuhan</string>

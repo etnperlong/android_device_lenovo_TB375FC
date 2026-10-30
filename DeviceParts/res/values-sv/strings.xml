@@ -7,7 +7,7 @@
     <string name="app_name">Enhetsfunktioner</string>
     <string name="device_parts_title">Enhetsfunktioner</string>
     <string name="device_parts_summary">Skärmfärg, videobild, Dolby Atmos, prestanda, tillbehör, uppdateringsfrekvens och pekskärm, RAM-utökning</string>
-    <string name="category_memory_title">Minne</string>
+    <string name="category_perf_memory_title">Prestanda och minne</string>
     <string name="ram_expansion_title">RAM-utökning</string>
     <string name="ram_expansion_summary">Flytta inaktiva appdata till lagring för att frigöra RAM</string>
     <string name="ram_expansion_description">Flytta data från appar som inte har använts på länge från komprimerat minne till lagring för att frigöra RAM. Den valda mängden lagringsutrymme används. Ändringarna börjar gälla efter en omstart.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — mindre, långsammare</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Komprimera om inaktiv data</string>
+    <string name="ram_expansion_recompression_summary">Komprimera om data som inte har använts på ett tag med zstd för att få plats med mer data i samma RAM, till priset av viss extra CPU-användning</string>
+    <string name="ram_expansion_recompression_zstd_summary">Behövs inte när komprimeringsalgoritmen är zstd</string>
+    <string name="ram_expansion_size_limited">Det finns inte tillräckligt med ledigt lagringsutrymme för mer än %1$s</string>
+    <string name="ram_expansion_save">Spara</string>
+    <string name="ram_expansion_unsaved_title">Spara ändringar?</string>
+    <string name="ram_expansion_unsaved_message">Dina ändringar för RAM-utökning har inte sparats.</string>
+    <string name="ram_expansion_discard">Förkasta</string>
     <string name="ram_expansion_not_enough_storage">Det finns inte tillräckligt med ledigt lagringsutrymme</string>
     <string name="ram_expansion_restart_dialog_title">Starta om enheten?</string>
-    <string name="ram_expansion_restart_dialog_message">Starta om enheten för att säkerställa att ändringarna börjar gälla.</string>
+    <string name="ram_expansion_restart_dialog_message">Ändringarna har sparats och börjar gälla efter en omstart. Starta om nu?</string>
     <string name="ram_expansion_restart_now">Starta om</string>
     <string name="ram_expansion_restart_later">Senare</string>
     <string name="display_parts_title">Uppdateringsfrekvens och pekskärm</string>

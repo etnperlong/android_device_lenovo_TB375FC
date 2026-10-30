@@ -7,7 +7,6 @@
     <string name="app_name">ਡਿਵਾਈਸ ਦੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ</string>
     <string name="device_parts_title">ਡਿਵਾਈਸ ਦੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ</string>
     <string name="device_parts_summary">ਸਕ੍ਰੀਨ ਦੇ ਰੰਗ, ਵੀਡੀਓ ਤਸਵੀਰ ਗੁਣਵੱਤਾ, Dolby Atmos, ਕਾਰਗੁਜ਼ਾਰੀ, ਸਹਾਇਕ ਉਪਕਰਨ, ਰਿਫ੍ਰੈਸ਼ ਦਰ ਅਤੇ ਟੱਚ, RAM ਵਿਸਤਾਰ</string>
-    <string name="category_memory_title">ਮੈਮੋਰੀ</string>
     <string name="ram_expansion_title">RAM ਵਿਸਤਾਰ</string>
     <string name="ram_expansion_summary">RAM ਖਾਲੀ ਕਰਨ ਲਈ ਨਾ-ਸਰਗਰਮ ਐਪ ਡਾਟਾ ਸਟੋਰੇਜ ਵਿੱਚ ਭੇਜੋ</string>
     <string name="ram_expansion_description">ਲੰਬੇ ਸਮੇਂ ਤੋਂ ਨਾ ਵਰਤੀਆਂ ਗਈਆਂ ਐਪਾਂ ਦਾ ਡਾਟਾ ਕੰਪ੍ਰੈੱਸ ਕੀਤੀ ਮੈਮੋਰੀ ਤੋਂ ਸਟੋਰੇਜ ਵਿੱਚ ਭੇਜ ਕੇ RAM ਖਾਲੀ ਕਰੋ। ਚੁਣੀ ਗਈ ਸਟੋਰੇਜ ਮਾਤਰਾ ਵਰਤੀ ਜਾਵੇਗੀ। ਰੀਸਟਾਰਟ ਤੋਂ ਬਾਅਦ ਤਬਦੀਲੀਆਂ ਲਾਗੂ ਹੋਣਗੀਆਂ।</string>
@@ -27,8 +26,17 @@
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
     <string name="ram_expansion_not_enough_storage">ਕਾਫ਼ੀ ਖਾਲੀ ਸਟੋਰੇਜ ਨਹੀਂ ਹੈ</string>
+    <string name="category_perf_memory_title">ਕਾਰਗੁਜ਼ਾਰੀ ਅਤੇ ਮੈਮੋਰੀ</string>
+    <string name="ram_expansion_recompression_title">ਨਿਸ਼ਕਿਰਿਆ ਡਾਟਾ ਨੂੰ ਮੁੜ ਸੰਕੁਚਿਤ ਕਰੋ</string>
+    <string name="ram_expansion_recompression_summary">ਥੋੜ੍ਹੀ CPU ਵਰਤੋਂ ਦੇ ਬਦਲੇ ਉਸੇ RAM ਵਿੱਚ ਹੋਰ ਡਾਟਾ ਰੱਖਣ ਲਈ ਲੰਮੇ ਸਮੇਂ ਤੋਂ ਨਾ ਵਰਤੇ ਡਾਟਾ ਨੂੰ zstd ਨਾਲ ਮੁੜ ਸੰਕੁਚਿਤ ਕਰੋ</string>
+    <string name="ram_expansion_recompression_zstd_summary">ਜਦੋਂ zstd ਸੰਕੁਚਨ ਐਲਗੋਰਿਦਮ ਹੋਵੇ ਤਾਂ ਲੋੜ ਨਹੀਂ</string>
+    <string name="ram_expansion_size_limited">%1$s ਤੋਂ ਵੱਧ ਲਈ ਕਾਫ਼ੀ ਖਾਲੀ ਸਟੋਰੇਜ ਨਹੀਂ ਹੈ</string>
+    <string name="ram_expansion_save">ਸੰਭਾਲੋ</string>
+    <string name="ram_expansion_unsaved_title">ਤਬਦੀਲੀਆਂ ਸੰਭਾਲਣੀਆਂ ਹਨ?</string>
+    <string name="ram_expansion_unsaved_message">ਤੁਹਾਡੀਆਂ RAM ਵਿਸਥਾਰ ਦੀਆਂ ਤਬਦੀਲੀਆਂ ਸੰਭਾਲੀਆਂ ਨਹੀਂ ਗਈਆਂ ਹਨ।</string>
+    <string name="ram_expansion_discard">ਰੱਦ ਕਰੋ</string>
     <string name="ram_expansion_restart_dialog_title">ਡਿਵਾਈਸ ਰੀਸਟਾਰਟ ਕਰਨੀ ਹੈ?</string>
-    <string name="ram_expansion_restart_dialog_message">ਤਬਦੀਲੀਆਂ ਲਾਗੂ ਹੋਣ ਨੂੰ ਯਕੀਨੀ ਬਣਾਉਣ ਲਈ ਡਿਵਾਈਸ ਰੀਸਟਾਰਟ ਕਰੋ।</string>
+    <string name="ram_expansion_restart_dialog_message">ਤਬਦੀਲੀਆਂ ਸੰਭਾਲੀਆਂ ਗਈਆਂ ਹਨ ਅਤੇ ਰੀਸਟਾਰਟ ਤੋਂ ਬਾਅਦ ਲਾਗੂ ਹੋਣਗੀਆਂ। ਹੁਣੇ ਰੀਸਟਾਰਟ ਕਰਨਾ ਹੈ?</string>
     <string name="ram_expansion_restart_now">ਹੁਣੇ ਰੀਸਟਾਰਟ ਕਰੋ</string>
     <string name="ram_expansion_restart_later">ਬਾਅਦ ਵਿੱਚ</string>
     <string name="display_parts_title">ਰਿਫ੍ਰੈਸ਼ ਦਰ ਅਤੇ ਟੱਚ</string>

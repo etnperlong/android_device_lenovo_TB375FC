@@ -50,7 +50,6 @@ android_app {
     static_libs: [
         "SettingsLibCollapsingToolbarBaseActivity",
         "SettingsLibMainSwitchPreference",
-        "SettingsLibSelectorWithWidgetPreference",
         "SettingsLibSettingsTheme",
         "androidx.preference_preference",
         "com.google.android.material_material",

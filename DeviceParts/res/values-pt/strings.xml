@@ -7,7 +7,7 @@
     <string name="app_name">Recursos do dispositivo</string>
     <string name="device_parts_title">Recursos do dispositivo</string>
     <string name="device_parts_summary">Cores do ecrã, imagem de vídeo, Dolby Atmos, desempenho, acessórios, taxa de atualização e toque, expansão de RAM</string>
-    <string name="category_memory_title">Memória</string>
+    <string name="category_perf_memory_title">Desempenho e memória</string>
     <string name="ram_expansion_title">Expansão de RAM</string>
     <string name="ram_expansion_summary">Mova dados de apps inativos para o armazenamento para liberar RAM</string>
     <string name="ram_expansion_description">Mova dados de apps que não são usados há muito tempo da memória compactada para o armazenamento, liberando RAM. A quantidade de armazenamento selecionada será usada. As alterações entram em vigor após reiniciar.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — menor, mais lento</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Recomprimir dados inativos</string>
+    <string name="ram_expansion_recompression_summary">Comprima novamente com zstd os dados que não são usados há algum tempo, para armazenar mais na mesma RAM com algum custo de CPU</string>
+    <string name="ram_expansion_recompression_zstd_summary">Não é necessário quando zstd é o algoritmo de compressão</string>
+    <string name="ram_expansion_size_limited">Não há armazenamento livre suficiente para mais de %1$s</string>
+    <string name="ram_expansion_save">Guardar</string>
+    <string name="ram_expansion_unsaved_title">Guardar alterações?</string>
+    <string name="ram_expansion_unsaved_message">As alterações da expansão de RAM não foram guardadas.</string>
+    <string name="ram_expansion_discard">Descartar</string>
     <string name="ram_expansion_not_enough_storage">Espaço de armazenamento livre insuficiente</string>
     <string name="ram_expansion_restart_dialog_title">Reiniciar o dispositivo?</string>
-    <string name="ram_expansion_restart_dialog_message">Reinicie o dispositivo para garantir que as alterações entrem em vigor.</string>
+    <string name="ram_expansion_restart_dialog_message">As alterações foram guardadas e entram em vigor após reiniciar. Reiniciar agora?</string>
     <string name="ram_expansion_restart_now">Reiniciar</string>
     <string name="ram_expansion_restart_later">Mais tarde</string>
     <string name="display_parts_title">Taxa de atualização e toque</string>

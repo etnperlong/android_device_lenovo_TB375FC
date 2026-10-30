@@ -7,7 +7,7 @@
     <string name="app_name">Функции на уредот</string>
     <string name="device_parts_title">Функции на уредот</string>
     <string name="device_parts_summary">Боја на екранот, слика на видеото, Dolby Atmos, перформанси, додатоци, стапка на освежување, екран на допир и проширување на RAM меморијата</string>
-    <string name="category_memory_title">Меморија</string>
+    <string name="category_perf_memory_title">Перформанси и меморија</string>
     <string name="ram_expansion_title">Проширување на RAM меморијата</string>
     <string name="ram_expansion_summary">Преместете ги неактивните податоци од апликациите во складиштето за да ослободите RAM меморија</string>
     <string name="ram_expansion_description">Преместете ги податоците од апликациите што не биле користени долго време од компресираната меморија во складиштето, со што се ослободува RAM меморија. Се користи избраниот простор за складирање. Промените стапуваат на сила по рестартирање.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — помала големина, побавно</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Повторно компресирање на неактивни податоци</string>
+    <string name="ram_expansion_recompression_summary">Повторно ги компресира со zstd податоците што не се користени извесно време, така што во истото количество RAM ќе собере повеќе податоци, со одредено оптоварување на процесорот.</string>
+    <string name="ram_expansion_recompression_zstd_summary">Не е потребно кога zstd е алгоритамот за компресирање</string>
+    <string name="ram_expansion_size_limited">Нема доволно слободен простор за складирање за повеќе од %1$s</string>
+    <string name="ram_expansion_save">Зачувај</string>
+    <string name="ram_expansion_unsaved_title">Да се зачуваат промените?</string>
+    <string name="ram_expansion_unsaved_message">Промените за проширување на RAM не се зачувани.</string>
+    <string name="ram_expansion_discard">Отфрли</string>
     <string name="ram_expansion_not_enough_storage">Нема доволно слободен простор за складирање</string>
     <string name="ram_expansion_restart_dialog_title">Да се рестартира уредот?</string>
-    <string name="ram_expansion_restart_dialog_message">Рестартирајте го уредот за промените да стапат на сила.</string>
+    <string name="ram_expansion_restart_dialog_message">Промените се зачувани и ќе стапат на сила по рестартирање. Да се рестартира сега?</string>
     <string name="ram_expansion_restart_now">Рестартирај</string>
     <string name="ram_expansion_restart_later">Подоцна</string>
     <string name="display_parts_title">Стапка на освежување и екран на допир</string>

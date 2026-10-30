@@ -7,7 +7,7 @@
     <string name="app_name">Toestelkenmerke</string>
     <string name="device_parts_title">Toestelkenmerke</string>
     <string name="device_parts_summary">Skermkleur, videobeeld, Dolby Atmos, werkverrigting, bykomstighede, verversingstempo, aanraking en RAM-uitbreiding</string>
-    <string name="category_memory_title">Geheue</string>
+    <string name="category_perf_memory_title">Werkverrigting en geheue</string>
     <string name="ram_expansion_title">RAM-uitbreiding</string>
     <string name="ram_expansion_summary">Skuif onaktiewe programdata na berging om RAM vry te maak</string>
     <string name="ram_expansion_description">Skuif data van programme wat lanklaas gebruik is, uit saamgeperste geheue na berging om RAM vry te maak. Die gekose hoeveelheid berging word gebruik. Veranderinge tree ná ’n herbegin in werking.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — kleiner, stadiger</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Herkomprimeer onaktiewe data</string>
+    <string name="ram_expansion_recompression_summary">Komprimeer data wat ’n rukkie nie gebruik is nie weer met zstd, sodat meer in dieselfde RAM pas ten koste van ’n bietjie CPU</string>
+    <string name="ram_expansion_recompression_zstd_summary">Nie nodig wanneer zstd die kompressie-algoritme is nie</string>
+    <string name="ram_expansion_size_limited">Nie genoeg vrye berging vir meer as %1$s nie</string>
+    <string name="ram_expansion_save">Stoor</string>
+    <string name="ram_expansion_unsaved_title">Veranderinge stoor?</string>
+    <string name="ram_expansion_unsaved_message">Jou RAM-uitbreidingsveranderinge is nie gestoor nie.</string>
+    <string name="ram_expansion_discard">Weggooi</string>
     <string name="ram_expansion_not_enough_storage">Nie genoeg vrye berging nie</string>
     <string name="ram_expansion_restart_dialog_title">Herbegin toestel?</string>
-    <string name="ram_expansion_restart_dialog_message">Herbegin asseblief die toestel om te verseker dat veranderinge in werking tree.</string>
+    <string name="ram_expansion_restart_dialog_message">Veranderinge is gestoor en tree ná herbegin in werking. Herbegin nou?</string>
     <string name="ram_expansion_restart_now">Herbegin</string>
     <string name="ram_expansion_restart_later">Later</string>
     <string name="display_parts_title">Verversingstempo en aanraking</string>

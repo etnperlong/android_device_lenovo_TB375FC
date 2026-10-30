@@ -7,7 +7,7 @@
     <string name="app_name">Սարքի գործառույթներ</string>
     <string name="device_parts_title">Սարքի գործառույթներ</string>
     <string name="device_parts_summary">Էկրանի գույն, տեսանյութի պատկեր, Dolby Atmos, արտադրողականություն, աքսեսուարներ, թարմացման հաճախականություն, հպում և RAM-ի ընդլայնում</string>
-    <string name="category_memory_title">Հիշողություն</string>
+    <string name="category_perf_memory_title">Կատարողականություն և հիշողություն</string>
     <string name="ram_expansion_title">RAM-ի ընդլայնում</string>
     <string name="ram_expansion_summary">RAM-ն ազատելու համար ոչ ակտիվ հավելվածների տվյալները տեղափոխեք պահեստ</string>
     <string name="ram_expansion_description">RAM-ն ազատելու համար երկար ժամանակ չօգտագործված հավելվածների տվյալները սեղմված հիշողությունից տեղափոխեք պահեստ։ Կօգտագործվի պահեստի ընտրված ծավալը։ Փոփոխությունները կկիրառվեն վերագործարկումից հետո։</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — ավելի փոքր, ավելի դանդաղ</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Վերասեղմել ոչ ակտիվ տվյալները</string>
+    <string name="ram_expansion_recompression_summary">zstd-ով կրկին սեղմեք որոշ ժամանակ չօգտագործված տվյալները, որպեսզի նույն RAM-ում ավելի շատ տվյալներ տեղավորվեն՝ CPU-ի փոքր լրացուցիչ ծանրաբեռնվածությամբ</string>
+    <string name="ram_expansion_recompression_zstd_summary">Պետք չէ, երբ սեղմման ալգորիթմը zstd է</string>
+    <string name="ram_expansion_size_limited">Ազատ պահեստային տարածքը բավարար չէ %1$s-ից ավելիի համար</string>
+    <string name="ram_expansion_save">Պահել</string>
+    <string name="ram_expansion_unsaved_title">Պահպանե՞լ փոփոխությունները։</string>
+    <string name="ram_expansion_unsaved_message">RAM-ի ընդլայնման փոփոխությունները չեն պահպանվել։</string>
+    <string name="ram_expansion_discard">Չեղարկել</string>
     <string name="ram_expansion_not_enough_storage">Պահեստում ազատ տարածքը բավարար չէ</string>
     <string name="ram_expansion_restart_dialog_title">Վերագործարկե՞լ սարքը</string>
-    <string name="ram_expansion_restart_dialog_message">Փոփոխությունների կիրառումն ապահովելու համար վերագործարկեք սարքը։</string>
+    <string name="ram_expansion_restart_dialog_message">Փոփոխությունները պահպանվել են և կկիրառվեն վերագործարկումից հետո։ Վերագործարկե՞լ հիմա։</string>
     <string name="ram_expansion_restart_now">Վերագործարկել</string>
     <string name="ram_expansion_restart_later">Ավելի ուշ</string>
     <string name="display_parts_title">Թարմացման հաճախականություն և հպում</string>

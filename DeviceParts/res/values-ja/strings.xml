@@ -7,7 +7,7 @@
     <string name="app_name">デバイス機能</string>
     <string name="device_parts_title">デバイス機能</string>
     <string name="device_parts_summary">画面の色、画質、ドルビーアトモス、パフォーマンス、アクセサリ、リフレッシュレート、タッチ操作、RAM 拡張</string>
-    <string name="category_memory_title">メモリ</string>
+    <string name="category_perf_memory_title">パフォーマンスとメモリ</string>
     <string name="ram_expansion_title">RAM 拡張</string>
     <string name="ram_expansion_summary">非アクティブなアプリのデータをストレージに移動して RAM を解放します</string>
     <string name="ram_expansion_description">長期間使用されていないアプリのデータを圧縮メモリからストレージに移動し、RAM を解放します。選択したストレージ容量が使用されます。変更は再起動後に反映されます。</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — より小さく、より低速</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">未使用データを再圧縮</string>
+    <string name="ram_expansion_recompression_summary">しばらく使われていないデータを zstd で再圧縮します。CPU 使用量は増えますが、同じ RAM により多くのデータを保持できます</string>
+    <string name="ram_expansion_recompression_zstd_summary">圧縮アルゴリズムに zstd を使用している場合は不要です</string>
     <string name="ram_expansion_not_enough_storage">空きストレージ容量が不足しています</string>
+    <string name="ram_expansion_size_limited">空き容量が不足しているため、%1$s を超えるサイズは設定できません</string>
+    <string name="ram_expansion_save">保存</string>
+    <string name="ram_expansion_unsaved_title">変更を保存しますか？</string>
+    <string name="ram_expansion_unsaved_message">RAM 拡張の変更は保存されていません。</string>
+    <string name="ram_expansion_discard">破棄</string>
     <string name="ram_expansion_restart_dialog_title">デバイスを再起動しますか？</string>
-    <string name="ram_expansion_restart_dialog_message">変更を確実に反映するには、デバイスを再起動してください。</string>
+    <string name="ram_expansion_restart_dialog_message">変更は保存され、再起動後に反映されます。今すぐ再起動しますか？</string>
     <string name="ram_expansion_restart_now">再起動</string>
     <string name="ram_expansion_restart_later">後で</string>
     <string name="display_parts_title">リフレッシュ レートとタッチ操作</string>

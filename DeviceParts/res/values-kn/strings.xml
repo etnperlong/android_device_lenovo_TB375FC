@@ -7,7 +7,6 @@
     <string name="app_name">ಸಾಧನ ವೈಶಿಷ್ಟ್ಯಗಳು</string>
     <string name="device_parts_title">ಸಾಧನ ವೈಶಿಷ್ಟ್ಯಗಳು</string>
     <string name="device_parts_summary">ಪರದೆ ಬಣ್ಣ, ವೀಡಿಯೊ ಚಿತ್ರ ಗುಣಮಟ್ಟ, Dolby Atmos, ಕಾರ್ಯಕ್ಷಮತೆ, ಪರಿಕರಗಳು, ರಿಫ್ರೆಶ್ ರೇಟ್, ಸ್ಪರ್ಶ ಮತ್ತು RAM ವಿಸ್ತರಣೆ</string>
-    <string name="category_memory_title">ಮೆಮೊರಿ</string>
     <string name="ram_expansion_title">RAM ವಿಸ್ತರಣೆ</string>
     <string name="ram_expansion_summary">RAM ಮುಕ್ತಗೊಳಿಸಲು ನಿಷ್ಕ್ರಿಯ ಆ್ಯಪ್‌ಗಳ ಡೇಟಾವನ್ನು ಸಂಗ್ರಹಣೆಗೆ ಸರಿಸಿ</string>
     <string name="ram_expansion_description">ಬಹಳ ಸಮಯದಿಂದ ಬಳಸದ ಆ್ಯಪ್‌ಗಳ ಡೇಟಾವನ್ನು ಸಂಕುಚಿತ ಮೆಮೊರಿಯಿಂದ ಸಂಗ್ರಹಣೆಗೆ ಸರಿಸಿ RAM ಮುಕ್ತಗೊಳಿಸಿ. ಆಯ್ಕೆಮಾಡಿದ ಸಂಗ್ರಹಣೆಯ ಪ್ರಮಾಣವನ್ನು ಬಳಸಲಾಗುತ್ತದೆ. ಮರುಪ್ರಾರಂಭಿಸಿದ ನಂತರ ಬದಲಾವಣೆಗಳು ಜಾರಿಗೆ ಬರುತ್ತವೆ.</string>
@@ -27,8 +26,17 @@
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
     <string name="ram_expansion_not_enough_storage">ಸಾಕಷ್ಟು ಖಾಲಿ ಸಂಗ್ರಹಣೆ ಇಲ್ಲ</string>
+    <string name="category_perf_memory_title">ಕಾರ್ಯಕ್ಷಮತೆ ಮತ್ತು ಮೆಮೊರಿ</string>
+    <string name="ram_expansion_recompression_title">ನಿಷ್ಕ್ರಿಯ ಡೇಟಾವನ್ನು ಮರುಸಂಕುಚಿಸಿ</string>
+    <string name="ram_expansion_recompression_summary">ಸ್ವಲ್ಪ CPU ಬಳಕೆಯೊಂದಿಗೆ ಅದೇ RAMನಲ್ಲಿ ಹೆಚ್ಚು ಡೇಟಾ ಹೊಂದಿಸಲು ಬಹಳ ಸಮಯದಿಂದ ಬಳಸದ ಡೇಟಾವನ್ನು zstd ಬಳಸಿ ಮರುಸಂಕುಚಿಸಿ</string>
+    <string name="ram_expansion_recompression_zstd_summary">zstd ಸಂಕುಚನ ಅಲ್ಗಾರಿದಮ್ ಆಗಿದ್ದರೆ ಅಗತ್ಯವಿಲ್ಲ</string>
+    <string name="ram_expansion_size_limited">%1$s ಗಿಂತ ಹೆಚ್ಚಿನದಕ್ಕೆ ಸಾಕಷ್ಟು ಖಾಲಿ ಸಂಗ್ರಹಣೆ ಇಲ್ಲ</string>
+    <string name="ram_expansion_save">ಉಳಿಸಿ</string>
+    <string name="ram_expansion_unsaved_title">ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಬೇಕೇ?</string>
+    <string name="ram_expansion_unsaved_message">ನಿಮ್ಮ RAM ವಿಸ್ತರಣೆಯ ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಲಾಗಿಲ್ಲ.</string>
+    <string name="ram_expansion_discard">ತ್ಯಜಿಸಿ</string>
     <string name="ram_expansion_restart_dialog_title">ಸಾಧನವನ್ನು ಮರುಪ್ರಾರಂಭಿಸಬೇಕೆ?</string>
-    <string name="ram_expansion_restart_dialog_message">ಬದಲಾವಣೆಗಳು ಜಾರಿಗೆ ಬರುವುದನ್ನು ಖಚಿತಪಡಿಸಲು ಸಾಧನವನ್ನು ಮರುಪ್ರಾರಂಭಿಸಿ.</string>
+    <string name="ram_expansion_restart_dialog_message">ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಲಾಗಿದೆ ಮತ್ತು ಮರುಪ್ರಾರಂಭಿಸಿದ ನಂತರ ಅನ್ವಯವಾಗುತ್ತವೆ. ಈಗಲೇ ಮರುಪ್ರಾರಂಭಿಸಬೇಕೇ?</string>
     <string name="ram_expansion_restart_now">ಮರುಪ್ರಾರಂಭಿಸಿ</string>
     <string name="ram_expansion_restart_later">ನಂತರ</string>
     <string name="display_parts_title">ರಿಫ್ರೆಶ್ ರೇಟ್ ಮತ್ತು ಸ್ಪರ್ಶ</string>

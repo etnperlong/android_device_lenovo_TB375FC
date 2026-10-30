@@ -7,7 +7,7 @@
     <string name="app_name">Seadme funktsioonid</string>
     <string name="device_parts_title">Seadme funktsioonid</string>
     <string name="device_parts_summary">Ekraani värv, videopilt, Dolby Atmos, jõudlus, tarvikud, värskendussagedus, puutejuhtimine ja RAM-i laiendus</string>
-    <string name="category_memory_title">Mälu</string>
+    <string name="category_perf_memory_title">Jõudlus ja mälu</string>
     <string name="ram_expansion_title">RAM-i laiendus</string>
     <string name="ram_expansion_summary">Vabasta RAM-i, teisaldades jõudeolekus rakenduste andmed salvestusruumi</string>
     <string name="ram_expansion_description">Teisalda kaua kasutamata rakenduste andmed tihendatud mälust salvestusruumi, et vabastada RAM-i. Kasutatakse valitud koguses salvestusruumi. Muudatused jõustuvad pärast taaskäivitamist.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — väiksem, aeglasem</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Jõudeolekus andmete uuesti tihendamine</string>
+    <string name="ram_expansion_recompression_summary">Tihendab zstd abil uuesti andmeid, mida pole mõnda aega kasutatud, nii et samasse RAM-i mahub rohkem andmeid, kuid see koormab veidi protsessorit.</string>
+    <string name="ram_expansion_recompression_zstd_summary">Pole vajalik, kui tihendusalgoritmina kasutatakse zstd</string>
+    <string name="ram_expansion_size_limited">Vaba salvestusruumi ei jätku suurema kui %1$s jaoks</string>
+    <string name="ram_expansion_save">Salvesta</string>
+    <string name="ram_expansion_unsaved_title">Kas salvestada muudatused?</string>
+    <string name="ram_expansion_unsaved_message">RAM-i laienduse muudatused pole salvestatud.</string>
+    <string name="ram_expansion_discard">Loobu</string>
     <string name="ram_expansion_not_enough_storage">Vaba salvestusruumi pole piisavalt</string>
     <string name="ram_expansion_restart_dialog_title">Kas taaskäivitada seade?</string>
-    <string name="ram_expansion_restart_dialog_message">Muudatuste rakendumiseks taaskäivita seade.</string>
+    <string name="ram_expansion_restart_dialog_message">Muudatused on salvestatud ja jõustuvad pärast taaskäivitamist. Kas taaskäivitada kohe?</string>
     <string name="ram_expansion_restart_now">Taaskäivita</string>
     <string name="ram_expansion_restart_later">Hiljem</string>
     <string name="display_parts_title">Värskendussagedus ja puutejuhtimine</string>

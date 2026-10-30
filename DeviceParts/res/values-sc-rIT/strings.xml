@@ -7,7 +7,7 @@
     <string name="app_name">Funtzionalidades de su dispositivu</string>
     <string name="device_parts_title">Funtzionalidades de su dispositivu</string>
     <string name="device_parts_summary">Colore de su ischermu, immàgine de vìdeu, Dolby Atmos, prestatziones, accessòrios, frequèntzia de atualizatzione e tocu, espansione de RAM</string>
-    <string name="category_memory_title">Memòria</string>
+    <string name="category_perf_memory_title">Prestaziones e memòria</string>
     <string name="ram_expansion_title">Espansione de RAM</string>
     <string name="ram_expansion_summary">Tramuda sos datos de sas aplicatziones inativas a s\'archìviu pro liberare RAM</string>
     <string name="ram_expansion_description">Tramuda sos datos de sas aplicatziones chi no sunt istadas impreàdas dae meda dae sa memòria cumpresa a s\'archìviu, pro liberare RAM. S\'importu de s\'archìviu seletzionadu s\'at a impreare. Is cambiamèntos ant a intrare in vigore a pustis de su riavìu.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — prus piticu, prus lentu</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Torra a cumprimere datos inativus</string>
+    <string name="ram_expansion_recompression_summary">Cumprimi di novu cun zstd is datos chi no sunt istados impreos de unu pagu, pro fàghere intrare prus datos in sa matessi RAM cun unu pagu de consumu CPU</string>
+    <string name="ram_expansion_recompression_zstd_summary">No est netzessàriu cando zstd est s\'algoritmu de cumpressione</string>
+    <string name="ram_expansion_size_limited">No b\'at bastu de logu lìberu pro prus de %1$s</string>
+    <string name="ram_expansion_save">Sarva</string>
+    <string name="ram_expansion_unsaved_title">Sarvare is cambiamèntos?</string>
+    <string name="ram_expansion_unsaved_message">Is cambiamèntos de s\'espansione de RAM no sunt istados sarvados.</string>
+    <string name="ram_expansion_discard">Abbandona</string>
     <string name="ram_expansion_not_enough_storage">No b\'at bastu de logu lìberu in s\'archìviu</string>
     <string name="ram_expansion_restart_dialog_title">Torrare a aviare su dispositivu?</string>
-    <string name="ram_expansion_restart_dialog_message">Torra a aviare su dispositivu pro asegurare chi is cambiamèntos intrent in vigore.</string>
+    <string name="ram_expansion_restart_dialog_message">Is cambiamèntos sunt sarvados e intrant in vigore a pustis de torrare a aviare. Torrare a aviare como?</string>
     <string name="ram_expansion_restart_now">Torra a aviare</string>
     <string name="ram_expansion_restart_later">In segus</string>
     <string name="display_parts_title">Frequèntzia de atualizatzione e tocu</string>

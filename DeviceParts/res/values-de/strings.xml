@@ -7,7 +7,7 @@
     <string name="app_name">Gerätefunktionen</string>
     <string name="device_parts_title">Gerätefunktionen</string>
     <string name="device_parts_summary">Bildschirmfarbe, Videobild, Dolby Atmos, Leistung, Zubehör, Aktualisierungsrate, Touch und RAM-Erweiterung</string>
-    <string name="category_memory_title">Speicher</string>
+    <string name="category_perf_memory_title">Leistung und Speicher</string>
     <string name="ram_expansion_title">RAM-Erweiterung</string>
     <string name="ram_expansion_summary">Inaktive App-Daten auf den Speicher verschieben, um RAM freizugeben</string>
     <string name="ram_expansion_description">Daten von Apps, die lange nicht verwendet wurden, aus dem komprimierten Speicher auf den Datenspeicher verschieben, um RAM freizugeben. Der ausgewählte Speicherplatz wird verwendet. Änderungen werden nach einem Neustart wirksam.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — kleiner, langsamer</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Inaktive Daten erneut komprimieren</string>
+    <string name="ram_expansion_recompression_summary">Komprimiert länger ungenutzte Daten erneut mit zstd. Dadurch passt mehr in denselben RAM, bei etwas höherer CPU-Auslastung</string>
+    <string name="ram_expansion_recompression_zstd_summary">Nicht erforderlich, wenn zstd der Komprimierungsalgorithmus ist</string>
+    <string name="ram_expansion_size_limited">Nicht genügend freier Speicherplatz für mehr als %1$s</string>
+    <string name="ram_expansion_save">Speichern</string>
+    <string name="ram_expansion_unsaved_title">Änderungen speichern?</string>
+    <string name="ram_expansion_unsaved_message">Deine Änderungen an der RAM-Erweiterung wurden nicht gespeichert.</string>
+    <string name="ram_expansion_discard">Verwerfen</string>
     <string name="ram_expansion_not_enough_storage">Nicht genügend freier Speicherplatz</string>
     <string name="ram_expansion_restart_dialog_title">Gerät neu starten?</string>
-    <string name="ram_expansion_restart_dialog_message">Bitte starte das Gerät neu, damit die Änderungen wirksam werden.</string>
+    <string name="ram_expansion_restart_dialog_message">Die Änderungen wurden gespeichert und werden nach einem Neustart wirksam. Jetzt neu starten?</string>
     <string name="ram_expansion_restart_now">Neu starten</string>
     <string name="ram_expansion_restart_later">Später</string>
     <string name="display_parts_title">Aktualisierungsrate und Touch</string>

@@ -7,7 +7,7 @@
     <string name="app_name">Enhetsfunksjoner</string>
     <string name="device_parts_title">Enhetsfunksjoner</string>
     <string name="device_parts_summary">Skjermfarge, videobilde, Dolby Atmos, ytelse, tilbehør, oppdateringsfrekvens og berøring, RAM-utvidelse</string>
-    <string name="category_memory_title">Minne</string>
+    <string name="category_perf_memory_title">Ytelse og minne</string>
     <string name="ram_expansion_title">RAM-utvidelse</string>
     <string name="ram_expansion_summary">Flytt inaktive appdata til lagring for å frigjøre RAM</string>
     <string name="ram_expansion_description">Flytt data fra apper som ikke har vært brukt på lenge fra komprimert minne til lagring for å frigjøre RAM. Den valgte lagringsmengden brukes. Endringene trer i kraft etter en omstart.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — mindre, tregere</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Komprimer inaktive data på nytt</string>
+    <string name="ram_expansion_recompression_summary">Komprimer data som ikke har vært brukt på en stund på nytt med zstd, slik at mer får plass i samme RAM mot litt ekstra CPU-bruk</string>
+    <string name="ram_expansion_recompression_zstd_summary">Ikke nødvendig når zstd er komprimeringsalgoritmen</string>
+    <string name="ram_expansion_size_limited">Ikke nok ledig lagringsplass til mer enn %1$s</string>
+    <string name="ram_expansion_save">Lagre</string>
+    <string name="ram_expansion_unsaved_title">Lagre endringer?</string>
+    <string name="ram_expansion_unsaved_message">Endringene i RAM-utvidelsen er ikke lagret.</string>
+    <string name="ram_expansion_discard">Forkast</string>
     <string name="ram_expansion_not_enough_storage">Ikke nok ledig lagringsplass</string>
     <string name="ram_expansion_restart_dialog_title">Starte enheten på nytt?</string>
-    <string name="ram_expansion_restart_dialog_message">Start enheten på nytt for å sikre at endringene trer i kraft.</string>
+    <string name="ram_expansion_restart_dialog_message">Endringene er lagret og trer i kraft etter en omstart. Starte på nytt nå?</string>
     <string name="ram_expansion_restart_now">Start på nytt</string>
     <string name="ram_expansion_restart_later">Senere</string>
     <string name="display_parts_title">Oppdateringsfrekvens og berøring</string>

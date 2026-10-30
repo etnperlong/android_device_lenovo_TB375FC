@@ -7,7 +7,7 @@
     <string name="app_name">Izici zedivayisi</string>
     <string name="device_parts_title">Izici zedivayisi</string>
     <string name="device_parts_summary">Umbala wesikrini, isithombe sevidiyo, Dolby Atmos, ukusebenza, izesekeli, izinga lokuvuselela nokuthinta, ukunwetshwa kwe-RAM</string>
-    <string name="category_memory_title">Imemori</string>
+    <string name="category_perf_memory_title">Ukusebenza nememori</string>
     <string name="ram_expansion_title">Ukunwetshwa kwe-RAM</string>
     <string name="ram_expansion_summary">Hambisa idatha yezinhlelo zokusebenza ezingasebenzi uye kwisitoreji ukuze ukhulule i-RAM</string>
     <string name="ram_expansion_description">Hambisa idatha yezinhlelo zokusebenza ezingasetshenziswanga isikhathi eside isuka kumemori ecindezelwe iye kwisitoreji ukuze ukhulule i-RAM. Kuzosetshenziswa inani lesitoreji elikhethiwe. Izinguquko zizoqala ukusebenza ngemva kokuqalisa kabusha.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — kuncane, kuhamba kancane</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Cindezela kabusha idatha engasebenzi</string>
+    <string name="ram_expansion_recompression_summary">Cindezela kabusha nge-zstd idatha engasetshenziswanga isikhathi esithile ukuze idatha eyengeziwe ingene ku-RAM efanayo, ngokusebenzisa i-CPU eyengeziwe kancane</string>
+    <string name="ram_expansion_recompression_zstd_summary">Akudingeki uma i-algorithm yokucindezela iyi-zstd</string>
+    <string name="ram_expansion_size_limited">Asikho isikhala sesitoreji esanele sokudlula ku-%1$s</string>
+    <string name="ram_expansion_save">Gcina</string>
+    <string name="ram_expansion_unsaved_title">Ugcine izinguquko?</string>
+    <string name="ram_expansion_unsaved_message">Izinguquko zakho zokunwetshwa kwe-RAM azikagcinwa.</string>
+    <string name="ram_expansion_discard">Lahla</string>
     <string name="ram_expansion_not_enough_storage">Asikho isikhala esanele samahhala sesitoreji</string>
     <string name="ram_expansion_restart_dialog_title">Qalisa kabusha idivayisi?</string>
-    <string name="ram_expansion_restart_dialog_message">Qalisa kabusha idivayisi ukuze uqinisekise ukuthi izinguquko ziqala ukusebenza.</string>
+    <string name="ram_expansion_restart_dialog_message">Izinguquko zigciniwe futhi zizoqala ukusebenza ngemva kokuqalisa kabusha. Qalisa kabusha manje?</string>
     <string name="ram_expansion_restart_now">Qalisa kabusha</string>
     <string name="ram_expansion_restart_later">Kamuva</string>
     <string name="display_parts_title">Izinga lokuvuselela nokuthinta</string>

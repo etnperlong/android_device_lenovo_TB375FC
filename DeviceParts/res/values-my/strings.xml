@@ -7,7 +7,7 @@
     <string name="app_name">စက်ပစ္စည်းလုပ်ဆောင်ချက်များ</string>
     <string name="device_parts_title">စက်ပစ္စည်းလုပ်ဆောင်ချက်များ</string>
     <string name="device_parts_summary">မျက်နှာပြင်အရောင်၊ ဗီဒီယိုရုပ်ထွက်၊ Dolby Atmos၊ စွမ်းဆောင်ရည်၊ ဆက်စပ်ပစ္စည်းများ၊ ပြန်လည်စတင်နှုန်းနှင့် ထိတွေ့မှု၊ RAM တိုးချဲ့မှု</string>
-    <string name="category_memory_title">မှတ်ဉာဏ်</string>
+    <string name="category_perf_memory_title">စွမ်းဆောင်ရည်နှင့် မှတ်ဉာဏ်</string>
     <string name="ram_expansion_title">RAM တိုးချဲ့မှု</string>
     <string name="ram_expansion_summary">RAM နေရာလွတ်ရစေရန် အသုံးမပြုသောအက်ပ်ဒေတာများကို သိုလှောင်ခန်းသို့ ရွှေ့ပါ</string>
     <string name="ram_expansion_description">အချိန်ကြာမြင့်စွာ အသုံးမပြုထားသောအက်ပ်များ၏ ဒေတာကို ချုံ့ထားသောမှတ်ဉာဏ်မှ သိုလှောင်ခန်းသို့ ရွှေ့ပြီး RAM နေရာလွတ်ရစေသည်။ ရွေးချယ်ထားသော သိုလှောင်ခန်းပမာဏကို အသုံးပြုမည်။ ပြန်လည်စတင်ပြီးနောက် အပြောင်းအလဲများ အသက်ဝင်မည်။</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — ပိုသေး၊ ပိုနှေး</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">အသုံးမပြုသောဒေတာကို ပြန်ချုံ့ရန်</string>
+    <string name="ram_expansion_recompression_summary">အချိန်ကြာမြင့်စွာ အသုံးမပြုထားသောဒေတာကို zstd ဖြင့် ပြန်ချုံ့ပါ။ CPU ပိုအသုံးပြုသော်လည်း RAM ပမာဏတူတွင် ဒေတာပိုမိုသိမ်းဆည်းနိုင်သည်</string>
+    <string name="ram_expansion_recompression_zstd_summary">ချုံ့မှု အယ်လဂိုရီသမ်အဖြစ် zstd ကို အသုံးပြုထားလျှင် မလိုအပ်ပါ</string>
     <string name="ram_expansion_not_enough_storage">သိုလှောင်ခန်းလွတ် နေရာမလုံလောက်ပါ</string>
+    <string name="ram_expansion_size_limited">%1$s ထက်ပိုသော ပမာဏအတွက် သိုလှောင်ခန်းလွတ် နေရာမလုံလောက်ပါ</string>
+    <string name="ram_expansion_save">သိမ်းရန်</string>
+    <string name="ram_expansion_unsaved_title">အပြောင်းအလဲများကို သိမ်းမလား?</string>
+    <string name="ram_expansion_unsaved_message">RAM တိုးချဲ့မှု အပြောင်းအလဲများကို မသိမ်းရသေးပါ။</string>
+    <string name="ram_expansion_discard">မသိမ်းဘဲ ပယ်ရန်</string>
     <string name="ram_expansion_restart_dialog_title">စက်ကို ပြန်လည်စတင်မလား?</string>
-    <string name="ram_expansion_restart_dialog_message">အပြောင်းအလဲများ အသက်ဝင်ကြောင်း သေချာစေရန် စက်ကို ပြန်လည်စတင်ပါ။</string>
+    <string name="ram_expansion_restart_dialog_message">အပြောင်းအလဲများကို သိမ်းပြီးဖြစ်ပြီး ပြန်လည်စတင်ပြီးနောက် အသက်ဝင်မည်။ ယခုပြန်လည်စတင်မလား?</string>
     <string name="ram_expansion_restart_now">ယခုပြန်လည်စတင်ရန်</string>
     <string name="ram_expansion_restart_later">နောက်မှ</string>
     <string name="display_parts_title">ပြန်လည်စတင်နှုန်းနှင့် ထိတွေ့မှု</string>

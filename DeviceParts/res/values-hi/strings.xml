@@ -7,7 +7,6 @@
     <string name="app_name">डिवाइस सुविधाएँ</string>
     <string name="device_parts_title">डिवाइस सुविधाएँ</string>
     <string name="device_parts_summary">स्क्रीन का रंग, वीडियो क्वालिटी, Dolby Atmos, परफ़ॉर्मेंस, ऐक्सेसरीज़, रीफ़्रेश रेट, टच और RAM विस्तार</string>
-    <string name="category_memory_title">मेमोरी</string>
     <string name="ram_expansion_title">RAM विस्तार</string>
     <string name="ram_expansion_summary">RAM खाली करने के लिए निष्क्रिय ऐप का डेटा स्टोरेज में ले जाएँ</string>
     <string name="ram_expansion_description">लंबे समय से इस्तेमाल नहीं किए गए ऐप का डेटा कंप्रेस की गई मेमोरी से स्टोरेज में ले जाकर RAM खाली करें। चुनी गई स्टोरेज की मात्रा का इस्तेमाल होगा। बदलाव रीस्टार्ट करने के बाद लागू होंगे।</string>
@@ -27,8 +26,17 @@
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
     <string name="ram_expansion_not_enough_storage">स्टोरेज में खाली जगह काफ़ी नहीं है</string>
+    <string name="category_perf_memory_title">प्रदर्शन और मेमोरी</string>
+    <string name="ram_expansion_recompression_title">निष्क्रिय डेटा फिर से संपीड़ित करें</string>
+    <string name="ram_expansion_recompression_summary">थोड़े CPU उपयोग के बदले उसी RAM में अधिक डेटा रखने के लिए लंबे समय से इस्तेमाल न किए गए डेटा को zstd से फिर संपीड़ित करें</string>
+    <string name="ram_expansion_recompression_zstd_summary">zstd संपीड़न एल्गोरिदम होने पर इसकी आवश्यकता नहीं है</string>
+    <string name="ram_expansion_size_limited">%1$s से अधिक के लिए पर्याप्त खाली स्टोरेज नहीं है</string>
+    <string name="ram_expansion_save">सहेजें</string>
+    <string name="ram_expansion_unsaved_title">परिवर्तन सहेजें?</string>
+    <string name="ram_expansion_unsaved_message">आपके RAM विस्तार के परिवर्तन सहेजे नहीं गए हैं।</string>
+    <string name="ram_expansion_discard">छोड़ें</string>
     <string name="ram_expansion_restart_dialog_title">डिवाइस रीस्टार्ट करें?</string>
-    <string name="ram_expansion_restart_dialog_message">बदलाव लागू होने की पुष्टि करने के लिए कृपया डिवाइस रीस्टार्ट करें।</string>
+    <string name="ram_expansion_restart_dialog_message">परिवर्तन सहेज लिए गए हैं और रीस्टार्ट के बाद लागू होंगे। अभी रीस्टार्ट करें?</string>
     <string name="ram_expansion_restart_now">अभी रीस्टार्ट करें</string>
     <string name="ram_expansion_restart_later">बाद में</string>
     <string name="display_parts_title">रीफ़्रेश रेट और टच</string>

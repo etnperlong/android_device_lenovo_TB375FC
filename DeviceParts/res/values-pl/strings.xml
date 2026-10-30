@@ -7,7 +7,7 @@
     <string name="app_name">Funkcje urządzenia</string>
     <string name="device_parts_title">Funkcje urządzenia</string>
     <string name="device_parts_summary">Kolory ekranu, obraz wideo, Dolby Atmos, wydajność, akcesoria, częstotliwość odświeżania i dotyk, rozszerzenie pamięci RAM</string>
-    <string name="category_memory_title">Pamięć</string>
+    <string name="category_perf_memory_title">Wydajność i pamięć</string>
     <string name="ram_expansion_title">Rozszerzenie pamięci RAM</string>
     <string name="ram_expansion_summary">Przenieś nieaktywne dane aplikacji do pamięci, aby zwolnić RAM</string>
     <string name="ram_expansion_description">Przenieś dane aplikacji, które nie były używane od dłuższego czasu, ze skompresowanej pamięci do pamięci masowej, aby zwolnić RAM. Zostanie użyta wybrana ilość pamięci masowej. Zmiany zaczną obowiązywać po ponownym uruchomieniu.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — mniejszy, wolniejszy</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Ponowna kompresja nieaktywnych danych</string>
+    <string name="ram_expansion_recompression_summary">Ponownie kompresuje za pomocą zstd dane, które nie były używane przez jakiś czas, dzięki czemu w tej samej ilości RAM mieści się ich więcej, kosztem dodatkowego obciążenia procesora.</string>
+    <string name="ram_expansion_recompression_zstd_summary">Nie jest potrzebne, gdy zstd jest algorytmem kompresji</string>
+    <string name="ram_expansion_size_limited">Za mało wolnego miejsca na więcej niż %1$s</string>
+    <string name="ram_expansion_save">Zapisz</string>
+    <string name="ram_expansion_unsaved_title">Zapisać zmiany?</string>
+    <string name="ram_expansion_unsaved_message">Zmiany dotyczące rozszerzenia RAM nie zostały zapisane.</string>
+    <string name="ram_expansion_discard">Odrzuć</string>
     <string name="ram_expansion_not_enough_storage">Za mało wolnego miejsca w pamięci</string>
     <string name="ram_expansion_restart_dialog_title">Uruchomić ponownie urządzenie?</string>
-    <string name="ram_expansion_restart_dialog_message">Uruchom ponownie urządzenie, aby zmiany zaczęły obowiązywać.</string>
+    <string name="ram_expansion_restart_dialog_message">Zmiany zostały zapisane i zaczną obowiązywać po ponownym uruchomieniu. Uruchomić ponownie teraz?</string>
     <string name="ram_expansion_restart_now">Uruchom ponownie</string>
     <string name="ram_expansion_restart_later">Później</string>
     <string name="display_parts_title">Częstotliwość odświeżania i dotyk</string>

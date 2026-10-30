@@ -7,7 +7,7 @@
     <string name="app_name">ฟีเจอร์อุปกรณ์</string>
     <string name="device_parts_title">ฟีเจอร์อุปกรณ์</string>
     <string name="device_parts_summary">สีหน้าจอ, คุณภาพวิดีโอ, Dolby Atmos, ประสิทธิภาพ, อุปกรณ์เสริม, อัตราการรีเฟรชและระบบสัมผัส, การขยาย RAM</string>
-    <string name="category_memory_title">หน่วยความจำ</string>
+    <string name="category_perf_memory_title">ประสิทธิภาพและหน่วยความจำ</string>
     <string name="ram_expansion_title">การขยาย RAM</string>
     <string name="ram_expansion_summary">ย้ายข้อมูลแอปที่ไม่ได้ใช้งานไปยังพื้นที่เก็บข้อมูลเพื่อเพิ่ม RAM</string>
     <string name="ram_expansion_description">ย้ายข้อมูลจากแอปที่ไม่ได้ใช้งานเป็นเวลานานจากหน่วยความจำที่บีบอัดไปยังพื้นที่เก็บข้อมูล เพื่อเพิ่ม RAM โดยจะใช้พื้นที่เก็บข้อมูลตามจำนวนที่เลือก การเปลี่ยนแปลงจะมีผลหลังจากรีสตาร์ท</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — เล็กกว่า แต่ช้ากว่า</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">บีบอัดข้อมูลที่ไม่ได้ใช้งานซ้ำ</string>
+    <string name="ram_expansion_recompression_summary">บีบอัดข้อมูลที่ไม่ได้ใช้งานมาระยะหนึ่งด้วย zstd เพื่อให้เก็บข้อมูลใน RAM เท่าเดิมได้มากขึ้น โดยใช้ CPU เพิ่มขึ้น</string>
+    <string name="ram_expansion_recompression_zstd_summary">ไม่จำเป็นเมื่อใช้อัลกอริทึมการบีบอัด zstd</string>
     <string name="ram_expansion_not_enough_storage">พื้นที่เก็บข้อมูลว่างไม่เพียงพอ</string>
+    <string name="ram_expansion_size_limited">พื้นที่เก็บข้อมูลไม่เพียงพอสำหรับขนาดที่เกิน %1$s</string>
+    <string name="ram_expansion_save">บันทึก</string>
+    <string name="ram_expansion_unsaved_title">บันทึกการเปลี่ยนแปลงไหม</string>
+    <string name="ram_expansion_unsaved_message">ยังไม่ได้บันทึกการเปลี่ยนแปลงการขยาย RAM</string>
+    <string name="ram_expansion_discard">ละทิ้ง</string>
     <string name="ram_expansion_restart_dialog_title">รีสตาร์ทอุปกรณ์ไหม</string>
-    <string name="ram_expansion_restart_dialog_message">โปรดรีสตาร์ทอุปกรณ์เพื่อให้แน่ใจว่าการเปลี่ยนแปลงมีผล</string>
+    <string name="ram_expansion_restart_dialog_message">บันทึกการเปลี่ยนแปลงแล้ว และจะมีผลหลังจากรีสตาร์ท รีสตาร์ทตอนนี้ไหม</string>
     <string name="ram_expansion_restart_now">รีสตาร์ท</string>
     <string name="ram_expansion_restart_later">ภายหลัง</string>
     <string name="display_parts_title">อัตราการรีเฟรชและระบบสัมผัส</string>

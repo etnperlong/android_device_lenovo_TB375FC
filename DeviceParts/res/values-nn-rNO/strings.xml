@@ -7,7 +7,7 @@
     <string name="app_name">Einingsfunksjonar</string>
     <string name="device_parts_title">Einingsfunksjonar</string>
     <string name="device_parts_summary">Skjermfargar, videobilete, Dolby Atmos, yting, tilbehøyr, oppdateringsfrekvens og berøring, RAM-utviding</string>
-    <string name="category_memory_title">Minne</string>
+    <string name="category_perf_memory_title">Yting og minne</string>
     <string name="ram_expansion_title">RAM-utviding</string>
     <string name="ram_expansion_summary">Flytt inaktive appdata til lagring for å frigjere RAM</string>
     <string name="ram_expansion_description">Flytt data frå appar som ikkje har vore brukte på lenge, frå komprimert minne til lagring for å frigjere RAM. Den valde lagringsmengda blir brukt. Endringane tek til å gjelde etter ein omstart.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — mindre, seinare</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Komprimer inaktive data på nytt</string>
+    <string name="ram_expansion_recompression_summary">Komprimer data som ikkje har vore brukte på ei stund på nytt med zstd, slik at meir får plass i same RAM mot litt ekstra CPU-bruk</string>
+    <string name="ram_expansion_recompression_zstd_summary">Ikkje nødvendig når zstd er komprimeringsalgoritmen</string>
+    <string name="ram_expansion_size_limited">Ikkje nok ledig lagringsplass til meir enn %1$s</string>
+    <string name="ram_expansion_save">Lagre</string>
+    <string name="ram_expansion_unsaved_title">Lagre endringar?</string>
+    <string name="ram_expansion_unsaved_message">Endringane i RAM-utvidinga er ikkje lagra.</string>
+    <string name="ram_expansion_discard">Forkast</string>
     <string name="ram_expansion_not_enough_storage">Ikkje nok ledig lagringsplass</string>
     <string name="ram_expansion_restart_dialog_title">Starta eininga på nytt?</string>
-    <string name="ram_expansion_restart_dialog_message">Start eininga på nytt for å sikre at endringane tek til å gjelde.</string>
+    <string name="ram_expansion_restart_dialog_message">Endringane er lagra og tek til å gjelde etter ei omstart. Starte på nytt no?</string>
     <string name="ram_expansion_restart_now">Start på nytt</string>
     <string name="ram_expansion_restart_later">Seinare</string>
     <string name="display_parts_title">Oppdateringsfrekvens og berøring</string>

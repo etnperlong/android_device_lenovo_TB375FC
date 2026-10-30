@@ -7,7 +7,6 @@
     <string name="app_name">डिभाइसका सुविधा</string>
     <string name="device_parts_title">डिभाइसका सुविधा</string>
     <string name="device_parts_summary">स्क्रिनका रङ, भिडियो तस्बिर गुणस्तर, Dolby Atmos, कार्यसम्पादन, सहायक सामग्री, रिफ्रेस रेट र टच, RAM विस्तार</string>
-    <string name="category_memory_title">मेमोरी</string>
     <string name="ram_expansion_title">RAM विस्तार</string>
     <string name="ram_expansion_summary">RAM खाली गर्न निष्क्रिय एपका डेटा स्टोरेजमा सार्नुहोस्</string>
     <string name="ram_expansion_description">लामो समयदेखि प्रयोग नगरिएका एपका डेटा कम्प्रेस गरिएको मेमोरीबाट स्टोरेजमा सारेर RAM खाली गर्नुहोस्। चयन गरिएको स्टोरेजको मात्रा प्रयोग गरिनेछ। पुनः सुरु गरेपछि परिवर्तनहरू लागू हुनेछन्।</string>
@@ -27,8 +26,17 @@
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
     <string name="ram_expansion_not_enough_storage">पर्याप्त खाली स्टोरेज छैन</string>
+    <string name="category_perf_memory_title">कार्यसम्पादन र मेमोरी</string>
+    <string name="ram_expansion_recompression_title">निष्क्रिय डेटा फेरि सङ्कुचित गर्नुहोस्</string>
+    <string name="ram_expansion_recompression_summary">केही CPU प्रयोगको बदलामा उही RAMमा धेरै डेटा राख्न लामो समयदेखि प्रयोग नगरिएको डेटा zstd प्रयोग गरेर फेरि सङ्कुचित गर्नुहोस्</string>
+    <string name="ram_expansion_recompression_zstd_summary">सङ्कुचन एल्गोरिदम zstd हुँदा आवश्यक छैन</string>
+    <string name="ram_expansion_size_limited">%1$s भन्दा बढीका लागि पर्याप्त खाली स्टोरेज छैन</string>
+    <string name="ram_expansion_save">सेभ गर्नुहोस्</string>
+    <string name="ram_expansion_unsaved_title">परिवर्तनहरू सेभ गर्ने?</string>
+    <string name="ram_expansion_unsaved_message">तपाईंका RAM विस्तारका परिवर्तनहरू सेभ भएका छैनन्।</string>
+    <string name="ram_expansion_discard">त्याग्नुहोस्</string>
     <string name="ram_expansion_restart_dialog_title">डिभाइस पुनः सुरु गर्ने?</string>
-    <string name="ram_expansion_restart_dialog_message">परिवर्तनहरू लागू भएको सुनिश्चित गर्न डिभाइस पुनः सुरु गर्नुहोस्।</string>
+    <string name="ram_expansion_restart_dialog_message">परिवर्तनहरू सेभ भएका छन् र पुनः सुरु गरेपछि लागू हुनेछन्। अहिले नै पुनः सुरु गर्ने?</string>
     <string name="ram_expansion_restart_now">अहिले पुनः सुरु गर्नुहोस्</string>
     <string name="ram_expansion_restart_later">पछि</string>
     <string name="display_parts_title">रिफ्रेस रेट र टच</string>

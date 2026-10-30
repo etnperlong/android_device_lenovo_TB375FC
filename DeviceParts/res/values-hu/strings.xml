@@ -7,7 +7,7 @@
     <string name="app_name">Eszközfunkciók</string>
     <string name="device_parts_title">Eszközfunkciók</string>
     <string name="device_parts_summary">Képernyőszín, videokép, Dolby Atmos, teljesítmény, kiegészítők, frissítési gyakoriság, érintés és RAM-bővítés</string>
-    <string name="category_memory_title">Memória</string>
+    <string name="category_perf_memory_title">Teljesítmény és memória</string>
     <string name="ram_expansion_title">RAM-bővítés</string>
     <string name="ram_expansion_summary">A RAM felszabadításához helyezze át a nem aktív alkalmazások adatait a tárhelyre</string>
     <string name="ram_expansion_description">A RAM felszabadításához helyezze át a régóta nem használt alkalmazások adatait a tömörített memóriából a tárhelyre. A kiválasztott tárhelymennyiség kerül felhasználásra. A módosítások újraindítás után lépnek életbe.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — kisebb, lassabb</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Inaktív adatok újbóli tömörítése</string>
+    <string name="ram_expansion_recompression_summary">A zstd segítségével újratömöríti a már egy ideje nem használt adatokat, így ugyanannyi RAM-ba több fér, némi processzorterhelés árán.</string>
+    <string name="ram_expansion_recompression_zstd_summary">Nem szükséges, ha a zstd a tömörítési algoritmus</string>
+    <string name="ram_expansion_size_limited">Nincs elég szabad tárhely ennyinél többhöz: %1$s</string>
+    <string name="ram_expansion_save">Mentés</string>
+    <string name="ram_expansion_unsaved_title">Menti a módosításokat?</string>
+    <string name="ram_expansion_unsaved_message">A RAM-bővítés módosításai nincsenek mentve.</string>
+    <string name="ram_expansion_discard">Elvetés</string>
     <string name="ram_expansion_not_enough_storage">Nincs elég szabad tárhely</string>
     <string name="ram_expansion_restart_dialog_title">Újraindítja az eszközt?</string>
-    <string name="ram_expansion_restart_dialog_message">A módosítások életbe lépéséhez indítsa újra az eszközt.</string>
+    <string name="ram_expansion_restart_dialog_message">A módosítások mentve vannak, és újraindítás után lépnek életbe. Újraindítja most?</string>
     <string name="ram_expansion_restart_now">Újraindítás</string>
     <string name="ram_expansion_restart_later">Később</string>
     <string name="display_parts_title">Frissítési gyakoriság és érintés</string>

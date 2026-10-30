@@ -7,7 +7,7 @@
     <string name="app_name">Qurilma funksiyalari</string>
     <string name="device_parts_title">Qurilma funksiyalari</string>
     <string name="device_parts_summary">Ekran rangi, video tasviri, Dolby Atmos, unumdorlik, aksessuarlar, yangilanish chastotasi va sensorli ekran, RAM kengaytmasi</string>
-    <string name="category_memory_title">Xotira</string>
+    <string name="category_perf_memory_title">Ishlash tezligi va xotira</string>
     <string name="ram_expansion_title">RAM kengaytmasi</string>
     <string name="ram_expansion_summary">RAMni bo‘shatish uchun faol bo‘lmagan ilova ma’lumotlarini xotiraga ko‘chiring</string>
     <string name="ram_expansion_description">Uzoq vaqt ishlatilmagan ilovalarning ma’lumotlarini siqilgan xotiradan saqlash joyiga ko‘chirib, RAMni bo‘shating. Tanlangan saqlash joyi miqdori ishlatiladi. O‘zgarishlar qayta ishga tushirilgandan keyin kuchga kiradi.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — kichikroq, sekinroq</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Faol bo\'lmagan ma\'lumotlarni qayta siqish</string>
+    <string name="ram_expansion_recompression_summary">Bir muddat ishlatilmagan ma\'lumotlarni zstd bilan qayta siqib, CPU sarfini biroz oshirish evaziga bir xil RAM hajmiga ko\'proq ma\'lumot joylashtiring</string>
+    <string name="ram_expansion_recompression_zstd_summary">Siqish algoritmi zstd bo‘lsa, kerak emas</string>
+    <string name="ram_expansion_size_limited">%1$s dan ortiq xotira uchun bo‘sh joy yetarli emas</string>
+    <string name="ram_expansion_save">Saqlash</string>
+    <string name="ram_expansion_unsaved_title">O‘zgarishlar saqlansinmi?</string>
+    <string name="ram_expansion_unsaved_message">RAM kengaytmasi o‘zgarishlari saqlanmadi.</string>
+    <string name="ram_expansion_discard">Bekor qilish</string>
     <string name="ram_expansion_not_enough_storage">Bo‘sh saqlash joyi yetarli emas</string>
     <string name="ram_expansion_restart_dialog_title">Qurilma qayta ishga tushirilsinmi?</string>
-    <string name="ram_expansion_restart_dialog_message">O‘zgarishlar kuchga kirishi uchun qurilmani qayta ishga tushiring.</string>
+    <string name="ram_expansion_restart_dialog_message">O‘zgarishlar saqlandi va qurilma qayta ishga tushirilgach kuchga kiradi. Hozir qayta ishga tushirilsinmi?</string>
     <string name="ram_expansion_restart_now">Hozir qayta ishga tushirish</string>
     <string name="ram_expansion_restart_later">Keyinroq</string>
     <string name="display_parts_title">Yangilanish chastotasi va sensorli ekran</string>

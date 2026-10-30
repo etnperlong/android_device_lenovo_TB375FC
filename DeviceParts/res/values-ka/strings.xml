@@ -7,7 +7,7 @@
     <string name="app_name">მოწყობილობის ფუნქციები</string>
     <string name="device_parts_title">მოწყობილობის ფუნქციები</string>
     <string name="device_parts_summary">ეკრანის ფერი, ვიდეოს გამოსახულება, Dolby Atmos, წარმადობა, აქსესუარები, განახლების სიხშირე, შეხება და RAM-ის გაფართოება</string>
-    <string name="category_memory_title">მეხსიერება</string>
+    <string name="category_perf_memory_title">წარმადობა და მეხსიერება</string>
     <string name="ram_expansion_title">RAM-ის გაფართოება</string>
     <string name="ram_expansion_summary">არააქტიური აპების მონაცემების საცავში გადატანა RAM-ის გასათავისუფლებლად</string>
     <string name="ram_expansion_description">დიდი ხნის განმავლობაში გამოუყენებელი აპების მონაცემები შეკუმშული მეხსიერებიდან საცავში გადაიტანეთ RAM-ის გასათავისუფლებლად. გამოიყენება არჩეული საცავის მოცულობა. ცვლილებები ძალაში შევა გადატვირთვის შემდეგ.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — უფრო მცირე, უფრო ნელი</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">უმოქმედო მონაცემების ხელახლა შეკუმშვა</string>
+    <string name="ram_expansion_recompression_summary">გარკვეული დროით გამოუყენებელი მონაცემების zstd-ით ხელახლა შეკუმშვა იმავე RAM-ში მეტ მონაცემს ათავსებს CPU-ის დამატებითი დატვირთვის ფასად</string>
+    <string name="ram_expansion_recompression_zstd_summary">საჭირო არ არის, როცა შეკუმშვის ალგორითმია zstd</string>
+    <string name="ram_expansion_size_limited">საჭიროზე მეტი %1$s საცავისთვის თავისუფალი ადგილი არასაკმარისია</string>
+    <string name="ram_expansion_save">შენახვა</string>
+    <string name="ram_expansion_unsaved_title">შევინახოთ ცვლილებები?</string>
+    <string name="ram_expansion_unsaved_message">RAM-ის გაფართოების ცვლილებები შენახული არ არის.</string>
+    <string name="ram_expansion_discard">გაუქმება</string>
     <string name="ram_expansion_not_enough_storage">თავისუფალი საცავი არასაკმარისია</string>
     <string name="ram_expansion_restart_dialog_title">გადავტვირთოთ მოწყობილობა?</string>
-    <string name="ram_expansion_restart_dialog_message">ცვლილებების ძალაში შესასვლელად გადატვირთეთ მოწყობილობა.</string>
+    <string name="ram_expansion_restart_dialog_message">ცვლილებები შენახულია და ძალაში შევა გადატვირთვის შემდეგ. გადაიტვირთოს მოწყობილობა ახლა?</string>
     <string name="ram_expansion_restart_now">გადატვირთვა</string>
     <string name="ram_expansion_restart_later">მოგვიანებით</string>
     <string name="display_parts_title">განახლების სიხშირე და შეხება</string>

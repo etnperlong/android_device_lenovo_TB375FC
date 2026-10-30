@@ -7,7 +7,7 @@
     <string name="app_name">Feartan an uidheim</string>
     <string name="device_parts_title">Feartan an uidheim</string>
     <string name="device_parts_summary">Dath na sgrìn, dealbh a’ bhidio, Dolby Atmos, coileanadh, goireasan, ìre ath-nuadhachaidh, suathadh agus leudachadh RAM</string>
-    <string name="category_memory_title">Cuimhne</string>
+    <string name="category_perf_memory_title">Coileanadh is cuimhne</string>
     <string name="ram_expansion_title">Leudachadh RAM</string>
     <string name="ram_expansion_summary">Gluais dàta aplacaidean tàmhach dhan stòras gus RAM a shaoradh</string>
     <string name="ram_expansion_description">Gluais dàta aplacaidean nach deach a chleachdadh o chionn fhada on chuimhne dhlùthaichte dhan stòras gus RAM a shaoradh. Thèid an uiread stòrais a thagh thu a chleachdadh. Thig na h-atharrachaidhean an gnìomh an dèidh ath-thòiseachadh.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — nas lugha, nas slaodaiche</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Dùmhlaich dàta neo-ghnìomhach a-rithist</string>
+    <string name="ram_expansion_recompression_summary">Dùmhlaich a-rithist le zstd dàta nach deach a chleachdadh o chionn greis, gus barrachd a chur san aon RAM le beagan a bharrachd CPU</string>
+    <string name="ram_expansion_recompression_zstd_summary">Chan eil feum air nuair a tha zstd na algairim dùmhlaidh</string>
+    <string name="ram_expansion_size_limited">Chan eil stòras saor gu leòr ann airson a dhol thairis air %1$s</string>
+    <string name="ram_expansion_save">Sàbhail</string>
+    <string name="ram_expansion_unsaved_title">Sàbhail na h-atharrachaidhean?</string>
+    <string name="ram_expansion_unsaved_message">Cha deach na h-atharrachaidhean agad air leudachadh RAM a shàbhaladh.</string>
+    <string name="ram_expansion_discard">Tilg air falbh</string>
     <string name="ram_expansion_not_enough_storage">Chan eil stòras saor gu leòr ann</string>
     <string name="ram_expansion_restart_dialog_title">Ath-thòisich an t-inneal?</string>
-    <string name="ram_expansion_restart_dialog_message">Ath-thòisich an t-inneal gus dèanamh cinnteach gun tig na h-atharrachaidhean an gnìomh.</string>
+    <string name="ram_expansion_restart_dialog_message">Chaidh na h-atharrachaidhean a shàbhaladh agus thig iad an gnìomh an dèidh ath-thòiseachadh. Ath-thòisich an-dràsta?</string>
     <string name="ram_expansion_restart_now">Ath-thòisich</string>
     <string name="ram_expansion_restart_later">Nas anmoiche</string>
     <string name="display_parts_title">Ìre ath-nuadhachaidh agus suathadh</string>

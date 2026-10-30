@@ -7,7 +7,7 @@
     <string name="app_name">Įrenginio funkcijos</string>
     <string name="device_parts_title">Įrenginio funkcijos</string>
     <string name="device_parts_summary">Ekrano spalvos, vaizdo įrašo vaizdas, Dolby Atmos, našumas, priedai, atnaujinimo dažnis, lietimas ir RAM išplėtimas</string>
-    <string name="category_memory_title">Atmintis</string>
+    <string name="category_perf_memory_title">Našumas ir atmintis</string>
     <string name="ram_expansion_title">RAM išplėtimas</string>
     <string name="ram_expansion_summary">Perkelkite neaktyvių programų duomenis į saugyklą, kad atlaisvintumėte RAM</string>
     <string name="ram_expansion_description">Ilgai nenaudojamų programų duomenis perkelkite iš suglaudintos atminties į saugyklą, kad atlaisvintumėte RAM. Bus naudojamas pasirinktas saugyklos dydis. Pakeitimai įsigalios paleidus įrenginį iš naujo.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — mažesnis, lėtesnis</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Neaktyvių duomenų glaudinimas iš naujo</string>
+    <string name="ram_expansion_recompression_summary">Iš naujo suglaudina zstd duomenis, kurie kurį laiką nebuvo naudojami, todėl į tą patį RAM kiekį telpa daugiau duomenų, tačiau padidėja procesoriaus apkrova.</string>
+    <string name="ram_expansion_recompression_zstd_summary">Nereikalinga, kai glaudinimo algoritmas yra zstd</string>
+    <string name="ram_expansion_size_limited">Nepakanka laisvos vietos saugykloje daugiau nei %1$s</string>
+    <string name="ram_expansion_save">Išsaugoti</string>
+    <string name="ram_expansion_unsaved_title">Išsaugoti pakeitimus?</string>
+    <string name="ram_expansion_unsaved_message">RAM išplėtimo pakeitimai neišsaugoti.</string>
+    <string name="ram_expansion_discard">Atmesti</string>
     <string name="ram_expansion_not_enough_storage">Nepakanka laisvos saugyklos vietos</string>
     <string name="ram_expansion_restart_dialog_title">Paleisti įrenginį iš naujo?</string>
-    <string name="ram_expansion_restart_dialog_message">Paleiskite įrenginį iš naujo, kad pakeitimai įsigaliotų.</string>
+    <string name="ram_expansion_restart_dialog_message">Pakeitimai išsaugoti ir įsigalios iš naujo paleidus įrenginį. Paleisti iš naujo dabar?</string>
     <string name="ram_expansion_restart_now">Paleisti iš naujo</string>
     <string name="ram_expansion_restart_later">Vėliau</string>
     <string name="display_parts_title">Atnaujinimo dažnis ir lietimas</string>

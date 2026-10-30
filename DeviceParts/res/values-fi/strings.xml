@@ -7,7 +7,7 @@
     <string name="app_name">Laitteen ominaisuudet</string>
     <string name="device_parts_title">Laitteen ominaisuudet</string>
     <string name="device_parts_summary">Näytön väri, videokuva, Dolby Atmos, suorituskyky, lisävarusteet, virkistystaajuus, kosketus ja RAM-laajennus</string>
-    <string name="category_memory_title">Muisti</string>
+    <string name="category_perf_memory_title">Suorituskyky ja muisti</string>
     <string name="ram_expansion_title">RAM-laajennus</string>
     <string name="ram_expansion_summary">Vapauta RAM-muistia siirtämällä passiivisten sovellusten tietoja tallennustilaan</string>
     <string name="ram_expansion_description">Vapauta RAM-muistia siirtämällä pitkään käyttämättömien sovellusten tietoja pakatusta muistista tallennustilaan. Valittu määrä tallennustilaa otetaan käyttöön. Muutokset tulevat voimaan uudelleenkäynnistyksen jälkeen.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — pienempi, hitaampi</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Pakkaa käyttämättömät tiedot uudelleen</string>
+    <string name="ram_expansion_recompression_summary">Pakkaa zstd:llä uudelleen tiedot, joita ei ole käytetty vähään aikaan, jotta samaan RAM-muistiin mahtuu enemmän hieman suuremmalla CPU-kuormalla</string>
+    <string name="ram_expansion_recompression_zstd_summary">Ei tarvita, kun pakkausalgoritmina on zstd</string>
+    <string name="ram_expansion_size_limited">Vapaata tallennustilaa ei ole tarpeeksi yli %1$s:n valintaan</string>
+    <string name="ram_expansion_save">Tallenna</string>
+    <string name="ram_expansion_unsaved_title">Tallennetaanko muutokset?</string>
+    <string name="ram_expansion_unsaved_message">RAM-laajennuksen muutoksia ei ole tallennettu.</string>
+    <string name="ram_expansion_discard">Hylkää</string>
     <string name="ram_expansion_not_enough_storage">Tallennustilassa ei ole tarpeeksi vapaata tilaa</string>
     <string name="ram_expansion_restart_dialog_title">Käynnistetäänkö laite uudelleen?</string>
-    <string name="ram_expansion_restart_dialog_message">Käynnistä laite uudelleen, jotta muutokset tulevat varmasti voimaan.</string>
+    <string name="ram_expansion_restart_dialog_message">Muutokset on tallennettu, ja ne tulevat voimaan uudelleenkäynnistyksen jälkeen. Käynnistetäänkö nyt uudelleen?</string>
     <string name="ram_expansion_restart_now">Käynnistä uudelleen</string>
     <string name="ram_expansion_restart_later">Myöhemmin</string>
     <string name="display_parts_title">Virkistystaajuus ja kosketus</string>

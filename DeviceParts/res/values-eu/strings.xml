@@ -7,7 +7,7 @@
     <string name="app_name">Gailuaren eginbideak</string>
     <string name="device_parts_title">Gailuaren eginbideak</string>
     <string name="device_parts_summary">Pantailaren kolorea, bideo-irudia, Dolby Atmos, errendimendua, osagarriak, freskatze-abiadura, ukipena eta RAM hedapena</string>
-    <string name="category_memory_title">Memoria</string>
+    <string name="category_perf_memory_title">Errendimendua eta memoria</string>
     <string name="ram_expansion_title">RAM hedapena</string>
     <string name="ram_expansion_summary">Eraman aplikazio inaktiboen datuak biltegiratzera RAM askatzeko</string>
     <string name="ram_expansion_description">Eraman aspalditik erabili ez diren aplikazioen datuak memoria konprimatutik biltegiratzera, RAM askatzeko. Hautatutako biltegiratze-kopurua erabiliko da. Aldaketak berrabiarazi ondoren aplikatuko dira.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — txikiagoa, motelagoa</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Datu inaktiboak berriro konprimitu</string>
+    <string name="ram_expansion_recompression_summary">Erabili zstd denbora batez erabili gabeko datuak berriro konprimitzeko; horrela, RAM berean datu gehiago gorde daitezke, CPU pixka bat gehiago erabilita</string>
+    <string name="ram_expansion_recompression_zstd_summary">Ez da beharrezkoa zstd konpresio-algoritmoa denean</string>
+    <string name="ram_expansion_size_limited">Ez dago biltegiratze-leku libre nahikorik %1$s baino gehiago aukeratzeko</string>
+    <string name="ram_expansion_save">Gorde</string>
+    <string name="ram_expansion_unsaved_title">Aldaketak gorde?</string>
+    <string name="ram_expansion_unsaved_message">RAM hedapeneko aldaketak ez dira gorde.</string>
+    <string name="ram_expansion_discard">Baztertu</string>
     <string name="ram_expansion_not_enough_storage">Ez dago behar adina biltegiratze-leku libre</string>
     <string name="ram_expansion_restart_dialog_title">Gailua berrabiarazi?</string>
-    <string name="ram_expansion_restart_dialog_message">Berrabiarazi gailua aldaketak aplikatuko direla ziurtatzeko.</string>
+    <string name="ram_expansion_restart_dialog_message">Aldaketak gorde dira, eta berrabiarazi ondoren aplikatuko dira. Berrabiarazi orain?</string>
     <string name="ram_expansion_restart_now">Berrabiarazi</string>
     <string name="ram_expansion_restart_later">Geroago</string>
     <string name="display_parts_title">Freskatze-abiadura eta ukipena</string>

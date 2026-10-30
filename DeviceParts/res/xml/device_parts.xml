@@ -43,7 +43,7 @@
 
     <PreferenceCategory
         android:key="category_perf"
-        android:title="@string/perf_title">
+        android:title="@string/category_perf_memory_title">
         <Preference
             android:key="perf"
             android:title="@string/perf_scheduling_title"
@@ -52,11 +52,6 @@
                 android:targetPackage="org.lineageos.settings.device"
                 android:targetClass="org.lineageos.settings.device.perf.PerformanceActivity" />
         </Preference>
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="category_memory"
-        android:title="@string/category_memory_title">
         <Preference
             android:key="ram_expansion"
             android:title="@string/ram_expansion_title"

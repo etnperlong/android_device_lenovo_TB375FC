@@ -7,7 +7,6 @@
     <string name="app_name">የመሣሪያ ባህሪያት</string>
     <string name="device_parts_title">የመሣሪያ ባህሪያት</string>
     <string name="device_parts_summary">የማያ ገጽ ቀለም፣ የቪዲዮ ምስል ጥራት፣ Dolby Atmos፣ አፈጻጸም፣ መለዋወጫዎች፣ የማደስ ፍጥነት፣ ንክኪ እና ራም ማስፋፊያ</string>
-    <string name="category_memory_title">ማህደረ ትውስታ</string>
     <string name="ram_expansion_title">ራም ማስፋፊያ</string>
     <string name="ram_expansion_summary">ራም ለማስለቀቅ ንቁ ያልሆኑ የመተግበሪያ ውሂቦችን ወደ ማከማቻ ያዛውሩ</string>
     <string name="ram_expansion_description">ለረጅም ጊዜ ካልተጠቀሙባቸው መተግበሪያዎች ውሂብን ከተጨመቀ ማህደረ ትውስታ ወደ ማከማቻ በማዛወር ራም ያስለቅቁ። የተመረጠው የማከማቻ መጠን ይጠቀማል። ለውጦች ከዳግም ማስነሳት በኋላ ይተገበራሉ።</string>
@@ -27,8 +26,17 @@
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
     <string name="ram_expansion_not_enough_storage">በቂ ነፃ ማከማቻ የለም</string>
+    <string name="category_perf_memory_title">አፈጻጸም እና ማህደረ ትውስታ</string>
+    <string name="ram_expansion_recompression_title">የማይሰራ ውሂብን እንደገና ጭመቅ</string>
+    <string name="ram_expansion_recompression_summary">ለተወሰነ የCPU አጠቃቀም ዋጋ በተመሳሳይ RAM ውስጥ ተጨማሪ ውሂብ እንዲገባ ለተወሰነ ጊዜ ያልተጠቀመ ውሂብን zstd በመጠቀም እንደገና ይጭመቁ</string>
+    <string name="ram_expansion_recompression_zstd_summary">zstd የጭመቂያ ስልተ ቀመር ሲሆን አያስፈልግም</string>
+    <string name="ram_expansion_size_limited">%1$s በላይ ለሆነ በቂ ነጻ ማከማቻ የለም</string>
+    <string name="ram_expansion_save">አስቀምጥ</string>
+    <string name="ram_expansion_unsaved_title">ለውጦችን ያስቀምጡ?</string>
+    <string name="ram_expansion_unsaved_message">የRAM ማስፋፊያ ለውጦችዎ አልተቀመጡም።</string>
+    <string name="ram_expansion_discard">ይተዉ</string>
     <string name="ram_expansion_restart_dialog_title">መሣሪያውን ዳግም ያስነሱ?</string>
-    <string name="ram_expansion_restart_dialog_message">ለውጦቹ ተግባራዊ መሆናቸውን ለማረጋገጥ መሣሪያውን እባክዎ ዳግም ያስነሱ።</string>
+    <string name="ram_expansion_restart_dialog_message">ለውጦቹ ተቀምጠዋል እና ከዳግም ማስነሳት በኋላ ይተገበራሉ። አሁን ዳግም ያስነሱ?</string>
     <string name="ram_expansion_restart_now">አሁን ዳግም አስነሳ</string>
     <string name="ram_expansion_restart_later">በኋላ</string>
     <string name="display_parts_title">የማደስ ፍጥነት እና ንክኪ</string>

@@ -7,7 +7,7 @@
     <string name="app_name">Cihaz xüsusiyyətləri</string>
     <string name="device_parts_title">Cihaz xüsusiyyətləri</string>
     <string name="device_parts_summary">Ekran rəngi, video təsviri, Dolby Atmos, məhsuldarlıq, aksesuarlar, yeniləmə tezliyi, toxunma və RAM genişləndirilməsi</string>
-    <string name="category_memory_title">Yaddaş</string>
+    <string name="category_perf_memory_title">Performans və yaddaş</string>
     <string name="ram_expansion_title">RAM genişləndirilməsi</string>
     <string name="ram_expansion_summary">RAM-i boşaltmaq üçün qeyri-aktiv tətbiq məlumatlarını yaddaş qurğusuna köçürün</string>
     <string name="ram_expansion_description">RAM-i boşaltmaq üçün uzun müddət istifadə edilməyən tətbiqlərin məlumatlarını sıxılmış yaddaşdan yaddaş qurğusuna köçürün. Seçilmiş yaddaş həcmi istifadə olunur. Dəyişikliklər yenidən başladıldıqdan sonra tətbiq edilir.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — daha kiçik, daha yavaş</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Boşdayanma məlumatlarını yenidən sıx</string>
+    <string name="ram_expansion_recompression_summary">Bir müddət istifadə olunmayan məlumatları zstd ilə yenidən sıxaraq, CPU sərfiyyatını bir qədər artırmaqla eyni RAM-a daha çox məlumat yerləşdirin</string>
+    <string name="ram_expansion_recompression_zstd_summary">Sıxılma alqoritmi zstd olduqda lazım deyil</string>
+    <string name="ram_expansion_size_limited">%1$s-dan çox yaddaş üçün kifayət qədər boş yer yoxdur</string>
+    <string name="ram_expansion_save">Yadda saxla</string>
+    <string name="ram_expansion_unsaved_title">Dəyişikliklər yadda saxlanılsın?</string>
+    <string name="ram_expansion_unsaved_message">RAM genişləndirilməsi ilə bağlı dəyişikliklər yadda saxlanmayıb.</string>
+    <string name="ram_expansion_discard">Dəyişiklikləri ləğv et</string>
     <string name="ram_expansion_not_enough_storage">Kifayət qədər boş yaddaş yoxdur</string>
     <string name="ram_expansion_restart_dialog_title">Cihaz yenidən başlatılsın?</string>
-    <string name="ram_expansion_restart_dialog_message">Dəyişikliklərin tətbiq olunmasını təmin etmək üçün cihazı yenidən başladın.</string>
+    <string name="ram_expansion_restart_dialog_message">Dəyişikliklər yadda saxlanıb və cihaz yenidən başladıldıqdan sonra qüvvəyə minəcək. İndi yenidən başladın?</string>
     <string name="ram_expansion_restart_now">İndi yenidən başlat</string>
     <string name="ram_expansion_restart_later">Sonra</string>
     <string name="display_parts_title">Yeniləmə tezliyi və toxunma</string>

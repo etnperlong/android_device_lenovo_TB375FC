@@ -7,7 +7,7 @@
     <string name="app_name">Төхөөрөмжийн онцлогууд</string>
     <string name="device_parts_title">Төхөөрөмжийн онцлогууд</string>
     <string name="device_parts_summary">Дэлгэцийн өнгө, видео дүрс, Dolby Atmos, гүйцэтгэл, дагалдах хэрэгсэл, сэргээх хурд ба хүрэлт, RAM өргөтгөл</string>
-    <string name="category_memory_title">Санах ой</string>
+    <string name="category_perf_memory_title">Гүйцэтгэл ба санах ой</string>
     <string name="ram_expansion_title">RAM өргөтгөл</string>
     <string name="ram_expansion_summary">RAM суллахын тулд идэвхгүй аппын өгөгдлийг санах ой руу зөөнө</string>
     <string name="ram_expansion_description">Удаан хугацаанд ашиглаагүй аппын өгөгдлийг шахсан санах ойгоос хадгалах сан руу зөөж RAM суллана. Сонгосон хэмжээний хадгалах санг ашиглана. Өөрчлөлтүүд дахин эхлүүлсний дараа хэрэгжинэ.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — бага хэмжээтэй, удаан</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Ашиглагдахгүй өгөгдлийг дахин шахах</string>
+    <string name="ram_expansion_recompression_summary">Хэсэг хугацаанд ашиглаагүй өгөгдлийг zstd-ээр дахин шахаж, CPU бага зэрэг илүү ашиглахын оронд ижил RAM-д илүү их өгөгдөл багтаана</string>
+    <string name="ram_expansion_recompression_zstd_summary">Шахалтын алгоритм zstd үед шаардлагагүй</string>
+    <string name="ram_expansion_size_limited">%1$s-ээс их хадгалах зайд хангалттай сул зай алга</string>
+    <string name="ram_expansion_save">Хадгалах</string>
+    <string name="ram_expansion_unsaved_title">Өөрчлөлтийг хадгалах уу?</string>
+    <string name="ram_expansion_unsaved_message">RAM өргөтгөлийн өөрчлөлт хадгалагдаагүй.</string>
+    <string name="ram_expansion_discard">Болих</string>
     <string name="ram_expansion_not_enough_storage">Хадгалах сул зай хүрэлцэхгүй байна</string>
     <string name="ram_expansion_restart_dialog_title">Төхөөрөмжийг дахин эхлүүлэх үү?</string>
-    <string name="ram_expansion_restart_dialog_message">Өөрчлөлт хэрэгжихийн тулд төхөөрөмжийг дахин эхлүүлнэ үү.</string>
+    <string name="ram_expansion_restart_dialog_message">Өөрчлөлт хадгалагдсан бөгөөд дахин эхлүүлсний дараа хэрэгжинэ. Одоо төхөөрөмжийг дахин эхлүүлэх үү?</string>
     <string name="ram_expansion_restart_now">Дахин эхлүүлэх</string>
     <string name="ram_expansion_restart_later">Дараа</string>
     <string name="display_parts_title">Сэргээх хурд ба хүрэлт</string>

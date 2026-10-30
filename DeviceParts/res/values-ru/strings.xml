@@ -7,7 +7,7 @@
     <string name="app_name">Функции устройства</string>
     <string name="device_parts_title">Функции устройства</string>
     <string name="device_parts_summary">Цвет экрана, качество видео, Dolby Atmos, производительность, аксессуары, частота обновления и сенсорный экран, расширение оперативной памяти</string>
-    <string name="category_memory_title">Память</string>
+    <string name="category_perf_memory_title">Производительность и память</string>
     <string name="ram_expansion_title">Расширение оперативной памяти</string>
     <string name="ram_expansion_summary">Перемещение неактивных данных приложений в хранилище для освобождения оперативной памяти</string>
     <string name="ram_expansion_description">Перемещайте данные приложений, которые давно не использовались, из сжатой памяти в хранилище, освобождая оперативную память. Будет использован выбранный объём хранилища. Изменения вступят в силу после перезапуска.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — меньше размер, ниже скорость</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Повторное сжатие неактивных данных</string>
+    <string name="ram_expansion_recompression_summary">Повторно сжимает с помощью zstd данные, которые не использовались некоторое время, чтобы в тот же объём RAM помещалось больше данных за счёт дополнительной нагрузки на процессор.</string>
+    <string name="ram_expansion_recompression_zstd_summary">Не требуется, если для сжатия используется zstd</string>
+    <string name="ram_expansion_size_limited">Недостаточно свободного места в хранилище для объёма более %1$s</string>
+    <string name="ram_expansion_save">Сохранить</string>
+    <string name="ram_expansion_unsaved_title">Сохранить изменения?</string>
+    <string name="ram_expansion_unsaved_message">Изменения расширения RAM не сохранены.</string>
+    <string name="ram_expansion_discard">Не сохранять</string>
     <string name="ram_expansion_not_enough_storage">Недостаточно свободного места в хранилище</string>
     <string name="ram_expansion_restart_dialog_title">Перезапустить устройство?</string>
-    <string name="ram_expansion_restart_dialog_message">Перезапустите устройство, чтобы изменения вступили в силу.</string>
+    <string name="ram_expansion_restart_dialog_message">Изменения сохранены и вступят в силу после перезапуска. Перезапустить сейчас?</string>
     <string name="ram_expansion_restart_now">Перезапустить</string>
     <string name="ram_expansion_restart_later">Позже</string>
     <string name="display_parts_title">Частота обновления и сенсорный экран</string>

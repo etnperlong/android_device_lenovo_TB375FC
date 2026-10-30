@@ -7,7 +7,7 @@
     <string name="app_name">Funciones del preséu</string>
     <string name="device_parts_title">Funciones del preséu</string>
     <string name="device_parts_summary">Color de pantalla, imaxe de vídeu, Dolby Atmos, rendimientu, accesorios, frecuencia d’anovamientu, pantalla táctil y espansión de RAM</string>
-    <string name="category_memory_title">Memoria</string>
+    <string name="category_perf_memory_title">Rendimientu y memoria</string>
     <string name="ram_expansion_title">Espansión de RAM</string>
     <string name="ram_expansion_summary">Mover datos d’aplicaciones inactives al almacenamientu pa lliberar RAM</string>
     <string name="ram_expansion_description">Mueve al almacenamientu los datos d’aplicaciones que nun s’usaron dende va muncho tiempu, dende la memoria comprimida, pa lliberar RAM. Úsase la cantidá d’almacenamientu escoyida. Los cambeos aplíquense dempués de reaniciar.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — más pequeñu, más lentu</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Volver a comprimir datos inactivos</string>
+    <string name="ram_expansion_recompression_summary">Vuelve a comprimir con zstd los datos que lleven un tiempu ensin usase pa guardar más na mesma RAM, a costa d’un poco de CPU</string>
+    <string name="ram_expansion_recompression_zstd_summary">Nun fai falta cuando zstd ye l\'algoritmu de compresión</string>
+    <string name="ram_expansion_size_limited">Nun hai bastante espaciu llibre nel almacenamientu pa superar %1$s</string>
+    <string name="ram_expansion_save">Guardar</string>
+    <string name="ram_expansion_unsaved_title">¿Guardar los cambeos?</string>
+    <string name="ram_expansion_unsaved_message">Los cambeos de l’espansión de RAM nun tán guardaos.</string>
+    <string name="ram_expansion_discard">Descartar</string>
     <string name="ram_expansion_not_enough_storage">Nun hai bastante espaciu llibre nel almacenamientu</string>
     <string name="ram_expansion_restart_dialog_title">¿Reaniciar el preséu?</string>
-    <string name="ram_expansion_restart_dialog_message">Reanicia\'l preséu, por favor, pa que los cambeos tengan efeutu.</string>
+    <string name="ram_expansion_restart_dialog_message">Los cambeos tán guardaos y aplíquense dempués de reaniciar. ¿Reaniciar agora?</string>
     <string name="ram_expansion_restart_now">Reaniciar</string>
     <string name="ram_expansion_restart_later">Más tarde</string>
     <string name="display_parts_title">Frecuencia d’anovamientu y pantalla táctil</string>

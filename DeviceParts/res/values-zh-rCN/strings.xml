@@ -8,7 +8,7 @@
 
     <string name="device_parts_title">设备功能</string>
     <string name="device_parts_summary">屏幕色彩、视频画质、内存扩展、杜比全景声、性能、配件、刷新率与触控</string>
-    <string name="category_memory_title">内存</string>
+    <string name="category_perf_memory_title">性能与内存</string>
     <string name="ram_expansion_title">内存扩展</string>
     <string name="ram_expansion_summary">将不活跃应用的数据移至存储空间以释放 RAM</string>
     <string name="ram_expansion_description">将长时间未使用的应用数据从压缩内存移至存储空间，以释放 RAM。此功能会占用所选容量的存储空间，重启后生效。</string>
@@ -27,9 +27,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — 压缩率更高，速度较慢</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">二次压缩闲置数据</string>
+    <string name="ram_expansion_recompression_summary">使用 zstd 算法对一段时间未使用的数据进行二次压缩，可在相同 RAM 中存放更多数据，但会占用少量 CPU</string>
+    <string name="ram_expansion_recompression_zstd_summary">压缩算法为 zstd 时无需二次压缩</string>
     <string name="ram_expansion_not_enough_storage">可用存储空间不足</string>
+    <string name="ram_expansion_size_limited">可用存储空间不足，最多可选 %1$s</string>
+    <string name="ram_expansion_save">保存</string>
+    <string name="ram_expansion_unsaved_title">保存更改？</string>
+    <string name="ram_expansion_unsaved_message">内存扩展的设置已修改，尚未保存。</string>
+    <string name="ram_expansion_discard">舍弃</string>
     <string name="ram_expansion_restart_dialog_title">重启设备？</string>
-    <string name="ram_expansion_restart_dialog_message">请重启设备以确保修改生效。</string>
+    <string name="ram_expansion_restart_dialog_message">设置已保存，重启设备后生效。是否立即重启？</string>
     <string name="ram_expansion_restart_now">立即重启</string>
     <string name="ram_expansion_restart_later">稍后</string>
     <string name="display_parts_title">刷新率与触控</string>

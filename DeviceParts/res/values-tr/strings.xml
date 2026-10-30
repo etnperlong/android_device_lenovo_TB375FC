@@ -7,7 +7,7 @@
     <string name="app_name">Cihaz özellikleri</string>
     <string name="device_parts_title">Cihaz özellikleri</string>
     <string name="device_parts_summary">Ekran rengi, video görüntüsü, Dolby Atmos, performans, aksesuarlar, yenileme hızı ve dokunma, RAM genişletme</string>
-    <string name="category_memory_title">Bellek</string>
+    <string name="category_perf_memory_title">Performans ve bellek</string>
     <string name="ram_expansion_title">RAM genişletme</string>
     <string name="ram_expansion_summary">RAM\'i boşaltmak için etkin olmayan uygulama verilerini depolamaya taşıyın</string>
     <string name="ram_expansion_description">Uzun süredir kullanılmayan uygulamaların verilerini sıkıştırılmış bellekten depolamaya taşıyarak RAM\'i boşaltın. Seçilen depolama alanı miktarı kullanılır. Değişiklikler yeniden başlatmanın ardından geçerli olur.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — daha küçük, daha yavaş</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Boşta olan verileri yeniden sıkıştır</string>
+    <string name="ram_expansion_recompression_summary">Bir süredir kullanılmayan verileri zstd ile yeniden sıkıştırarak bir miktar daha fazla CPU kullanımı karşılığında aynı RAM alanına daha fazla veri sığdırın</string>
+    <string name="ram_expansion_recompression_zstd_summary">Sıkıştırma algoritması zstd olduğunda gerekmez</string>
+    <string name="ram_expansion_size_limited">Depolama alanını %1$s değerinin üzerine çıkarmak için yeterli boş alan yok</string>
+    <string name="ram_expansion_save">Kaydet</string>
+    <string name="ram_expansion_unsaved_title">Değişiklikler kaydedilsin mi?</string>
+    <string name="ram_expansion_unsaved_message">RAM genişletme değişiklikleriniz kaydedilmedi.</string>
+    <string name="ram_expansion_discard">Değişiklikleri at</string>
     <string name="ram_expansion_not_enough_storage">Yeterli boş depolama alanı yok</string>
     <string name="ram_expansion_restart_dialog_title">Cihaz yeniden başlatılsın mı?</string>
-    <string name="ram_expansion_restart_dialog_message">Değişikliklerin geçerli olması için cihazı yeniden başlatın.</string>
+    <string name="ram_expansion_restart_dialog_message">Değişiklikler kaydedildi ve yeniden başlatmanın ardından geçerli olacak. Şimdi yeniden başlatılsın mı?</string>
     <string name="ram_expansion_restart_now">Yeniden başlat</string>
     <string name="ram_expansion_restart_later">Daha sonra</string>
     <string name="display_parts_title">Yenileme hızı ve dokunma</string>

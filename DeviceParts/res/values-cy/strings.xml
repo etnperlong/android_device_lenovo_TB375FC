@@ -7,7 +7,7 @@
     <string name="app_name">Nodweddion y ddyfais</string>
     <string name="device_parts_title">Nodweddion y ddyfais</string>
     <string name="device_parts_summary">Lliw sgrin, llun fideo, Dolby Atmos, perfformiad, ategolion, cyfradd adnewyddu, cyffwrdd ac ehangu RAM</string>
-    <string name="category_memory_title">Cof</string>
+    <string name="category_perf_memory_title">Perfformiad a chof</string>
     <string name="ram_expansion_title">Ehangu RAM</string>
     <string name="ram_expansion_summary">Symud data apiau segur i’r storfa i ryddhau RAM</string>
     <string name="ram_expansion_description">Symud data o apiau nad ydynt wedi’u defnyddio ers amser hir o’r cof cywasgedig i’r storfa i ryddhau RAM. Defnyddir y swm o storfa a ddewiswyd. Daw’r newidiadau i rym ar ôl ailgychwyn.</string>
@@ -26,9 +26,17 @@
     <string name="ram_expansion_algorithm_zstd">zstd — llai, arafach</string>
     <string name="ram_expansion_algorithm_lzo_rle">LZO-RLE</string>
     <string name="ram_expansion_algorithm_lzo">LZO</string>
+    <string name="ram_expansion_recompression_title">Ailgywasgu data segur</string>
+    <string name="ram_expansion_recompression_summary">Ailgywasgu gyda zstd ddata nad yw wedi cael ei defnyddio ers tro, er mwyn ffitio mwy yn yr un RAM gan ddefnyddio ychydig mwy o CPU</string>
+    <string name="ram_expansion_recompression_zstd_summary">Nid oes angen pan mai zstd yw’r algorithm cywasgu</string>
+    <string name="ram_expansion_size_limited">Dim digon o le storio i fynd dros %1$s</string>
+    <string name="ram_expansion_save">Cadw</string>
+    <string name="ram_expansion_unsaved_title">Cadw newidiadau?</string>
+    <string name="ram_expansion_unsaved_message">Nid yw eich newidiadau i ehangu RAM wedi’u cadw.</string>
+    <string name="ram_expansion_discard">Taflu</string>
     <string name="ram_expansion_not_enough_storage">Dim digon o le storio gwag</string>
     <string name="ram_expansion_restart_dialog_title">Ailgychwyn y ddyfais?</string>
-    <string name="ram_expansion_restart_dialog_message">Ailgychwynnwch y ddyfais i sicrhau bod y newidiadau’n dod i rym.</string>
+    <string name="ram_expansion_restart_dialog_message">Mae’r newidiadau wedi’u cadw a byddant yn dod i rym ar ôl ailgychwyn. Ailgychwyn nawr?</string>
     <string name="ram_expansion_restart_now">Ailgychwyn</string>
     <string name="ram_expansion_restart_later">Yn ddiweddarach</string>
     <string name="display_parts_title">Cyfradd adnewyddu a chyffwrdd</string>
