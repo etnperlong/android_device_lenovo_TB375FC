@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Mulai ulang</string>
     <string name="ram_expansion_restart_later">Nanti</string>
     <string name="display_parts_title">Kecepatan refresh dan sentuhan</string>
-    <string name="display_parts_summary">Kecepatan refresh modus membaca, modus game sentuh</string>
+    <string name="display_parts_summary">Kecepatan refresh modus membaca, sensitivitas sentuhan</string>
     <string name="category_display_title">Kecepatan refresh</string>
     <string name="category_touch_title">Sentuhan</string>
     <string name="accessories_title">Aksesori</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz dalam modus membaca</string>
     <string name="reading_low_refresh_summary">Turunkan kecepatan refresh saat modus membaca aktif</string>
     <string name="reading_low_refresh_unavailable">Modus membaca tidak tersedia</string>
-    <string name="touch_game_mode_title">Modus game sentuh</string>
-    <string name="touch_game_mode_summary">Modus game untuk pengontrol sentuh. Akan nonaktif lagi setelah dimulai ulang.</string>
-    <string name="touch_game_mode_unavailable">Tidak tersedia</string>
+    <string name="touch_sensitivity_title">Sensitivitas sentuhan</string>
+    <string name="touch_sensitivity_low">Penolakan sentuhan telapak (rendah)</string>
+    <string name="touch_sensitivity_medium">Standar (sedang)</string>
+    <string name="touch_sensitivity_high">Responsif (tinggi)</string>
+    <string name="touch_sensitivity_low_summary">Penolakan sentuhan telapak yang lebih kuat, untuk menulis atau meletakkan tangan di layar</string>
+    <string name="touch_sensitivity_medium_summary">Penolakan sentuhan telapak default</string>
+    <string name="touch_sensitivity_high_summary">Filter telapak lebih lemah sehingga ketukan dan usapan mengikuti jari dengan lebih dekat. Cocok untuk game; sentuhan telapak dan tepi layar dapat terdeteksi.</string>
+    <string name="touch_sensitivity_unavailable">Tidak tersedia</string>
     <string name="smart_cover_title">Penutup magnetik</string>
     <string name="smart_cover_summary">Tidurkan dan kunci perangkat saat penutup magnetik ditutup</string>
     <string name="pen_notifications_title">Notifikasi koneksi stilus</string>
@@ -205,6 +210,9 @@
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Atur ulang ke preset</string>
     <string name="tile_reading_low_refresh">Baca 30 Hz</string>
-    <string name="tile_touch_game_mode">Modus game sentuh</string>
+    <string name="tile_touch_sensitivity">Sensitivitas sentuhan</string>
+    <string name="tile_touch_sensitivity_low">Tolak sentuhan telapak</string>
+    <string name="tile_touch_sensitivity_medium">Standar</string>
+    <string name="tile_touch_sensitivity_high">Responsif</string>
     <string name="tile_smart_cover">Penutup magnetik</string>
 </resources>

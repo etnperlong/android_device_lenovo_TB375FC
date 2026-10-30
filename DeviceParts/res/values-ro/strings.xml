@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Repornește</string>
     <string name="ram_expansion_restart_later">Mai târziu</string>
     <string name="display_parts_title">Rata de actualizare și atingere</string>
-    <string name="display_parts_summary">Rata de actualizare în modul de lectură, modul de joc tactil</string>
+    <string name="display_parts_summary">Rata de actualizare în modul de lectură, sensibilitate la atingere</string>
     <string name="category_display_title">Rata de actualizare</string>
     <string name="category_touch_title">Atingere</string>
     <string name="accessories_title">Accesorii</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz în modul de lectură</string>
     <string name="reading_low_refresh_summary">Reduce rata de actualizare când este activat modul de lectură</string>
     <string name="reading_low_refresh_unavailable">Modul de lectură nu este disponibil</string>
-    <string name="touch_game_mode_title">Mod de joc tactil</string>
-    <string name="touch_game_mode_summary">Modul de joc al controlerului tactil. Se dezactivează din nou după repornire.</string>
-    <string name="touch_game_mode_unavailable">Indisponibil</string>
+    <string name="touch_sensitivity_title">Sensibilitate la atingere</string>
+    <string name="touch_sensitivity_low">Respingerea palmei (scăzută)</string>
+    <string name="touch_sensitivity_medium">Standard (medie)</string>
+    <string name="touch_sensitivity_high">Reactivă (ridicată)</string>
+    <string name="touch_sensitivity_low_summary">Respinge mai bine palma, fiind potrivită pentru scris sau pentru a ține mâna sprijinită pe ecran</string>
+    <string name="touch_sensitivity_medium_summary">Nivelul implicit de respingere a palmei</string>
+    <string name="touch_sensitivity_high_summary">Respinge mai puțin palma, astfel încât atingerile și glisările urmăresc mai îndeaproape degetul. Potrivită pentru jocuri; palmele și marginile pot înregistra atingeri.</string>
+    <string name="touch_sensitivity_unavailable">Indisponibil</string>
     <string name="smart_cover_title">Husă magnetică</string>
     <string name="smart_cover_summary">Stinge ecranul și blochează dispozitivul când husa magnetică este închisă</string>
     <string name="pen_notifications_title">Notificări privind conexiunea creionului</string>
@@ -202,6 +207,9 @@
     <string name="perf_refresh_rate_none">Fără blocare</string>
     <string name="perf_advanced_reset_title">Resetează la presetare</string>
     <string name="tile_reading_low_refresh">Lectură 30 Hz</string>
-    <string name="tile_touch_game_mode">Mod de joc tactil</string>
+    <string name="tile_touch_sensitivity">Sensibilitate la atingere</string>
+    <string name="tile_touch_sensitivity_low">Respingerea palmei</string>
+    <string name="tile_touch_sensitivity_medium">Standard</string>
+    <string name="tile_touch_sensitivity_high">Reactivă</string>
     <string name="tile_smart_cover">Husă magnetică</string>
 </resources>

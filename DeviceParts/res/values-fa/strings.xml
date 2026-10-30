@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">راه‌اندازی مجدد</string>
     <string name="ram_expansion_restart_later">بعداً</string>
     <string name="display_parts_title">نرخ نوسازی و لمس</string>
-    <string name="display_parts_summary">نرخ نوسازی حالت مطالعه، حالت بازی لمسی</string>
+    <string name="display_parts_summary">نرخ نوسازی حالت مطالعه، حساسیت لمسی</string>
     <string name="category_display_title">نرخ نوسازی</string>
     <string name="category_touch_title">لمس</string>
     <string name="accessories_title">لوازم جانبی</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">۳۰ هرتز در حالت مطالعه</string>
     <string name="reading_low_refresh_summary">هنگام روشن بودن حالت مطالعه، نرخ نوسازی را کاهش دهید</string>
     <string name="reading_low_refresh_unavailable">حالت مطالعه دردسترس نیست</string>
-    <string name="touch_game_mode_title">حالت بازی لمسی</string>
-    <string name="touch_game_mode_summary">حالت بازی کنترل‌گر لمسی. پس از راه‌اندازی مجدد دوباره خاموش می‌شود.</string>
-    <string name="touch_game_mode_unavailable">دردسترس نیست</string>
+    <string name="touch_sensitivity_title">حساسیت لمسی</string>
+    <string name="touch_sensitivity_low">رد لمس کف دست (کم)</string>
+    <string name="touch_sensitivity_medium">استاندارد (متوسط)</string>
+    <string name="touch_sensitivity_high">پاسخ سریع (زیاد)</string>
+    <string name="touch_sensitivity_low_summary">رد قوی‌تر لمس کف دست، برای نوشتن یا قرار دادن دست روی صفحه</string>
+    <string name="touch_sensitivity_medium_summary">میزان پیش‌فرض رد لمس کف دست</string>
+    <string name="touch_sensitivity_high_summary">فیلتر ضعیف‌تر لمس کف دست تا ضربه‌ها و کشیدن‌ها حرکت انگشتتان را دقیق‌تر دنبال کنند. مناسب بازی؛ کف دست و لبه‌های صفحه ممکن است لمس‌ها را ثبت کنند.</string>
+    <string name="touch_sensitivity_unavailable">دردسترس نیست</string>
     <string name="smart_cover_title">قاب مغناطیسی</string>
     <string name="smart_cover_summary">با بستن قاب مغناطیسی، دستگاه را به حالت خواب ببرید و قفل کنید</string>
     <string name="pen_notifications_title">اعلان‌های اتصال قلم</string>
@@ -207,6 +212,9 @@
     <string name="perf_refresh_rate_hz">%1$d هرتز</string>
     <string name="perf_advanced_reset_title">بازنشانی به ازپیش‌تنظیم‌شده</string>
     <string name="tile_reading_low_refresh">مطالعه ۳۰ هرتز</string>
-    <string name="tile_touch_game_mode">حالت بازی لمسی</string>
+    <string name="tile_touch_sensitivity">حساسیت لمسی</string>
+    <string name="tile_touch_sensitivity_low">رد کف دست</string>
+    <string name="tile_touch_sensitivity_medium">استاندارد</string>
+    <string name="tile_touch_sensitivity_high">پاسخ سریع</string>
     <string name="tile_smart_cover">قاب مغناطیسی</string>
 </resources>

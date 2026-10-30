@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Taaskäivita</string>
     <string name="ram_expansion_restart_later">Hiljem</string>
     <string name="display_parts_title">Värskendussagedus ja puutejuhtimine</string>
-    <string name="display_parts_summary">Lugemisrežiimi värskendussagedus, puutejuhtimise mängurežiim</string>
+    <string name="display_parts_summary">Lugemisrežiimi värskendussagedus, puutetundlikkus</string>
     <string name="category_display_title">Värskendussagedus</string>
     <string name="category_touch_title">Puutejuhtimine</string>
     <string name="accessories_title">Tarvikud</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">Lugemisrežiimis 30 Hz</string>
     <string name="reading_low_refresh_summary">Vähenda lugemisrežiimi sisselülitamisel värskendussagedust</string>
     <string name="reading_low_refresh_unavailable">Lugemisrežiim pole saadaval</string>
-    <string name="touch_game_mode_title">Puutejuhtimise mängurežiim</string>
-    <string name="touch_game_mode_summary">Puutejuhtimise kontrolleri mängurežiim. Lülitub pärast taaskäivitamist uuesti välja.</string>
-    <string name="touch_game_mode_unavailable">Pole saadaval</string>
+    <string name="touch_sensitivity_title">Puutetundlikkus</string>
+    <string name="touch_sensitivity_low">Peopesa puudutuste tagasilükkamine (madal)</string>
+    <string name="touch_sensitivity_medium">Standardne (keskmine)</string>
+    <string name="touch_sensitivity_high">Kiire reageerimine (kõrge)</string>
+    <string name="touch_sensitivity_low_summary">Tugevam peopesa puudutuste tagasilükkamine kirjutamiseks või käe ekraanile toetamiseks</string>
+    <string name="touch_sensitivity_medium_summary">Peopesa puudutuste vaikimisi tagasilükkamine</string>
+    <string name="touch_sensitivity_high_summary">Nõrgem peopesa puudutuste filtreerimine, nii et puudutused ja libistamised järgivad sõrme täpsemalt. Sobib mängimiseks; peopesad ja servad võivad puudutusi registreerida.</string>
+    <string name="touch_sensitivity_unavailable">Pole saadaval</string>
     <string name="smart_cover_title">Magnetümbris</string>
     <string name="smart_cover_summary">Lülita ekraan välja ja lukusta seade magnetümbrise sulgemisel</string>
     <string name="pen_notifications_title">Pliiatsi ühenduse teavitused</string>
@@ -206,6 +211,9 @@
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Taasta eelseadistus</string>
     <string name="tile_reading_low_refresh">Lugemine 30 Hz</string>
-    <string name="tile_touch_game_mode">Puutejuhtimise mängurežiim</string>
+    <string name="tile_touch_sensitivity">Puutetundlikkus</string>
+    <string name="tile_touch_sensitivity_low">Peopesa tagasilükkamine</string>
+    <string name="tile_touch_sensitivity_medium">Standardne</string>
+    <string name="tile_touch_sensitivity_high">Kiire reageerimine</string>
     <string name="tile_smart_cover">Magnetümbris</string>
 </resources>

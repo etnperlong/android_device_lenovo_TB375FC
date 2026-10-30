@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Washa upya</string>
     <string name="ram_expansion_restart_later">Baadaye</string>
     <string name="display_parts_title">Kiwango cha kuonyesha upya na mguso</string>
-    <string name="display_parts_summary">Kiwango cha kuonyesha upya katika hali ya kusoma, hali ya mchezo ya mguso</string>
+    <string name="display_parts_summary">Kiwango cha kuonyesha upya katika hali ya kusoma, unyeti wa mguso</string>
     <string name="category_display_title">Kiwango cha kuonyesha upya</string>
     <string name="category_touch_title">Mguso</string>
     <string name="accessories_title">Vifuasi</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">Hz 30 katika hali ya kusoma</string>
     <string name="reading_low_refresh_summary">Punguza kiwango cha kuonyesha upya hali ya kusoma ikiwa imewashwa</string>
     <string name="reading_low_refresh_unavailable">Hali ya kusoma haipatikani</string>
-    <string name="touch_game_mode_title">Hali ya mchezo ya mguso</string>
-    <string name="touch_game_mode_summary">Hali ya mchezo ya kidhibiti cha mguso. Huzima tena baada ya kuwasha upya.</string>
-    <string name="touch_game_mode_unavailable">Haipatikani</string>
+    <string name="touch_sensitivity_title">Unyeti wa mguso</string>
+    <string name="touch_sensitivity_low">Kukataa kiganja (chini)</string>
+    <string name="touch_sensitivity_medium">Kawaida (wastani)</string>
+    <string name="touch_sensitivity_high">Mwitikio wa haraka (juu)</string>
+    <string name="touch_sensitivity_low_summary">Kukataa viganja kwa nguvu zaidi, kunafaa kwa kuandika au kupumzisha mkono kwenye skrini</string>
+    <string name="touch_sensitivity_medium_summary">Kiwango chaguomsingi cha kukataa viganja</string>
+    <string name="touch_sensitivity_high_summary">Kukataa viganja kwa kiwango cha chini, ili miguso na kutelezesha kufuate kidole kwa karibu zaidi. Nzuri kwa michezo; viganja na kingo za skrini vinaweza kusajiliwa kama miguso.</string>
+    <string name="touch_sensitivity_unavailable">Haipatikani</string>
     <string name="smart_cover_title">Jalada la sumaku</string>
     <string name="smart_cover_summary">Zima skrini na uifunge jalada la sumaku linapofungwa</string>
     <string name="pen_notifications_title">Arifa za muunganisho wa kalamu</string>
@@ -206,6 +211,9 @@
     <string name="perf_refresh_rate_hz">Hz %1$d</string>
     <string name="perf_advanced_reset_title">Rejesha mipangilio ya awali</string>
     <string name="tile_reading_low_refresh">Soma Hz 30</string>
-    <string name="tile_touch_game_mode">Hali ya mchezo ya mguso</string>
+    <string name="tile_touch_sensitivity">Unyeti wa mguso</string>
+    <string name="tile_touch_sensitivity_low">Kukataa kiganja</string>
+    <string name="tile_touch_sensitivity_medium">Kawaida</string>
+    <string name="tile_touch_sensitivity_high">Mwitikio wa haraka</string>
     <string name="tile_smart_cover">Jalada la sumaku</string>
 </resources>

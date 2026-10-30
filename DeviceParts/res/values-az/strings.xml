@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">İndi yenidən başlat</string>
     <string name="ram_expansion_restart_later">Sonra</string>
     <string name="display_parts_title">Yeniləmə tezliyi və toxunma</string>
-    <string name="display_parts_summary">Oxuma rejiminin yeniləmə tezliyi, toxunma oyun rejimi</string>
+    <string name="display_parts_summary">Oxuma rejiminin yeniləmə tezliyi, toxunma həssaslığı</string>
     <string name="category_display_title">Yeniləmə tezliyi</string>
     <string name="category_touch_title">Toxunma</string>
     <string name="accessories_title">Aksesuarlar</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">Oxuma rejimində 30 Hs</string>
     <string name="reading_low_refresh_summary">Oxuma rejimi aktiv olduqda yeniləmə tezliyini azaldın</string>
     <string name="reading_low_refresh_unavailable">Oxuma rejimi əlçatan deyil</string>
-    <string name="touch_game_mode_title">Toxunma oyun rejimi</string>
-    <string name="touch_game_mode_summary">Toxunma kontrollerinin oyun rejimi. Yenidən başladıldıqdan sonra yenə söndürülür.</string>
-    <string name="touch_game_mode_unavailable">Əlçatan deyil</string>
+    <string name="touch_sensitivity_title">Toxunma həssaslığı</string>
+    <string name="touch_sensitivity_low">Ovuc toxunuşunun rəddi (aşağı)</string>
+    <string name="touch_sensitivity_medium">Standart (orta)</string>
+    <string name="touch_sensitivity_high">Sürətli reaksiya (yüksək)</string>
+    <string name="touch_sensitivity_low_summary">Yazmaq və ya əli ekranda saxlamaq üçün ovuc toxunuşunu daha güclü rədd edir</string>
+    <string name="touch_sensitivity_medium_summary">Standart ovuc toxunuşunun rəddi</string>
+    <string name="touch_sensitivity_high_summary">Ovuc toxunuşunu daha az süzgəcdən keçirir, beləliklə toxunuş və sürüşdürmələr barmağınızı daha yaxından izləyir. Oyunlar üçün uyğundur; ovuc və ekran kənarları toxunuş kimi qeydə alına bilər.</string>
+    <string name="touch_sensitivity_unavailable">Əlçatan deyil</string>
     <string name="smart_cover_title">Maqnitli üzlük</string>
     <string name="smart_cover_summary">Maqnitli üzlük bağlandıqda ekranı söndürün və cihazı kilidləyin</string>
     <string name="pen_notifications_title">Qələm bağlantısı bildirişləri</string>
@@ -206,6 +211,9 @@
     <string name="perf_refresh_rate_hz">%1$d Hs</string>
     <string name="perf_advanced_reset_title">Əvvəlcədən təyin edilmiş parametrlərə sıfırlayın</string>
     <string name="tile_reading_low_refresh">Oxuma 30 Hs</string>
-    <string name="tile_touch_game_mode">Toxunma oyun rejimi</string>
+    <string name="tile_touch_sensitivity">Toxunma həssaslığı</string>
+    <string name="tile_touch_sensitivity_low">Ovucdan qorunma</string>
+    <string name="tile_touch_sensitivity_medium">Standart</string>
+    <string name="tile_touch_sensitivity_high">Sürətli reaksiya</string>
     <string name="tile_smart_cover">Maqnitli üzlük</string>
 </resources>

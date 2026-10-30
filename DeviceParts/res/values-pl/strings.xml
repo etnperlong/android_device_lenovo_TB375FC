@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Uruchom ponownie</string>
     <string name="ram_expansion_restart_later">Później</string>
     <string name="display_parts_title">Częstotliwość odświeżania i dotyk</string>
-    <string name="display_parts_summary">Częstotliwość odświeżania w trybie czytania, tryb dotyku w grach</string>
+    <string name="display_parts_summary">Częstotliwość odświeżania w trybie czytania, czułość dotyku</string>
     <string name="category_display_title">Częstotliwość odświeżania</string>
     <string name="category_touch_title">Dotyk</string>
     <string name="accessories_title">Akcesoria</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz w trybie czytania</string>
     <string name="reading_low_refresh_summary">Zmniejsz częstotliwość odświeżania, gdy tryb czytania jest włączony</string>
     <string name="reading_low_refresh_unavailable">Tryb czytania jest niedostępny</string>
-    <string name="touch_game_mode_title">Tryb dotyku w grach</string>
-    <string name="touch_game_mode_summary">Tryb kontrolera dotykowego do gier. Wyłącza się po ponownym uruchomieniu.</string>
-    <string name="touch_game_mode_unavailable">Niedostępne</string>
+    <string name="touch_sensitivity_title">Czułość dotyku</string>
+    <string name="touch_sensitivity_low">Odrzucanie dłoni (niska)</string>
+    <string name="touch_sensitivity_medium">Standardowa (średnia)</string>
+    <string name="touch_sensitivity_high">Responsywna (wysoka)</string>
+    <string name="touch_sensitivity_low_summary">Silniejsze odrzucanie dłoni, przydatne podczas pisania lub opierania dłoni na ekranie</string>
+    <string name="touch_sensitivity_medium_summary">Domyślny poziom odrzucania dłoni</string>
+    <string name="touch_sensitivity_high_summary">Słabsze odrzucanie dłoni, dzięki czemu dotknięcia i przesunięcia dokładniej podążają za palcem. Dobre do gier; dłonie i krawędzie ekranu mogą być rejestrowane jako dotknięcia.</string>
+    <string name="touch_sensitivity_unavailable">Niedostępne</string>
     <string name="smart_cover_title">Magnetyczne etui</string>
     <string name="smart_cover_summary">Usypiaj i blokuj urządzenie po zamknięciu magnetycznego etui</string>
     <string name="pen_notifications_title">Powiadomienia o połączeniu rysika</string>
@@ -207,6 +212,9 @@
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Przywróć ustawienie wstępne</string>
     <string name="tile_reading_low_refresh">Czytanie 30 Hz</string>
-    <string name="tile_touch_game_mode">Tryb dotyku w grach</string>
+    <string name="tile_touch_sensitivity">Czułość dotyku</string>
+    <string name="tile_touch_sensitivity_low">Odrzucanie dłoni</string>
+    <string name="tile_touch_sensitivity_medium">Standardowa</string>
+    <string name="tile_touch_sensitivity_high">Responsywna</string>
     <string name="tile_smart_cover">Magnetyczne etui</string>
 </resources>

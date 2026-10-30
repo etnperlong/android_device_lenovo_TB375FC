@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Berrabiarazi</string>
     <string name="ram_expansion_restart_later">Geroago</string>
     <string name="display_parts_title">Freskatze-abiadura eta ukipena</string>
-    <string name="display_parts_summary">Irakurketa-moduaren freskatze-abiadura, ukipeneko joko-modua</string>
+    <string name="display_parts_summary">Irakurketa-moduaren freskatze-abiadura, ukipen-sentsibilitatea</string>
     <string name="category_display_title">Freskatze-abiadura</string>
     <string name="category_touch_title">Ukipena</string>
     <string name="accessories_title">Osagarriak</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz irakurketa-moduan</string>
     <string name="reading_low_refresh_summary">Murriztu freskatze-abiadura irakurketa-modua aktibatuta dagoenean</string>
     <string name="reading_low_refresh_unavailable">Irakurketa-modua ez dago erabilgarri</string>
-    <string name="touch_game_mode_title">Ukipeneko joko-modua</string>
-    <string name="touch_game_mode_summary">Ukipen-kontrolagailuaren joko-modua. Berrabiarazi ondoren desaktibatu egiten da.</string>
-    <string name="touch_game_mode_unavailable">Ez dago erabilgarri</string>
+    <string name="touch_sensitivity_title">Ukipen-sentsibilitatea</string>
+    <string name="touch_sensitivity_low">Ahurraren ukipenak baztertzea (baxua)</string>
+    <string name="touch_sensitivity_medium">Estandarra (ertaina)</string>
+    <string name="touch_sensitivity_high">Erantzun azkarra (altua)</string>
+    <string name="touch_sensitivity_low_summary">Ahurraren ukipenak indar handiagoz baztertzen ditu, idazteko edo eskua pantailan pausatzeko</string>
+    <string name="touch_sensitivity_medium_summary">Ahurraren ukipenak baztertzeko maila lehenetsia</string>
+    <string name="touch_sensitivity_high_summary">Ahurraren ukipenak gutxiago iragazten ditu, ukituek eta irristatzeek hatzari gertuagotik jarrai diezaioten. Ona da jokoetarako; ahurrek eta ertzek ukipenak erregistra ditzakete.</string>
+    <string name="touch_sensitivity_unavailable">Ez dago erabilgarri</string>
     <string name="smart_cover_title">Estalki magnetikoa</string>
     <string name="smart_cover_summary">Egin lo eta blokeatu estalki magnetikoa ixten denean</string>
     <string name="pen_notifications_title">Arkatzaren konexio-jakinarazpenak</string>
@@ -201,6 +206,9 @@
     <string name="perf_refresh_rate_none">Blokeatu gabe</string>
     <string name="perf_advanced_reset_title">Berrezarri aurrezarpenera</string>
     <string name="tile_reading_low_refresh">Irakurketa 30 Hz</string>
-    <string name="tile_touch_game_mode">Ukipeneko joko-modua</string>
+    <string name="tile_touch_sensitivity">Ukipen-sentsibilitatea</string>
+    <string name="tile_touch_sensitivity_low">Ahurra baztertzea</string>
+    <string name="tile_touch_sensitivity_medium">Estandarra</string>
+    <string name="tile_touch_sensitivity_high">Erantzun azkarra</string>
     <string name="tile_smart_cover">Estalki magnetikoa</string>
 </resources>

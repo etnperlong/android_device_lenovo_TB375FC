@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">હમણાં ફરી શરૂ કરો</string>
     <string name="ram_expansion_restart_later">પછી</string>
     <string name="display_parts_title">રિફ્રેશ રેટ અને ટચ</string>
-    <string name="display_parts_summary">રીડિંગ મોડ રિફ્રેશ રેટ, ટચ ગેમ મોડ</string>
+    <string name="display_parts_summary">રીડિંગ મોડ રિફ્રેશ રેટ, ટચ સંવેદનશીલતા</string>
     <string name="category_display_title">રિફ્રેશ રેટ</string>
     <string name="category_touch_title">ટચ</string>
     <string name="accessories_title">એસેસરીઝ</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">રીડિંગ મોડમાં 30 Hz</string>
     <string name="reading_low_refresh_summary">રીડિંગ મોડ ચાલુ હોય ત્યારે રિફ્રેશ રેટ ઘટાડો</string>
     <string name="reading_low_refresh_unavailable">રીડિંગ મોડ ઉપલબ્ધ નથી</string>
-    <string name="touch_game_mode_title">ટચ ગેમ મોડ</string>
-    <string name="touch_game_mode_summary">ટચ કન્ટ્રોલરનો ગેમ મોડ. રિસ્ટાર્ટ થયા પછી ફરી બંધ થાય છે.</string>
-    <string name="touch_game_mode_unavailable">ઉપલબ્ધ નથી</string>
+    <string name="touch_sensitivity_title">ટચ સંવેદનશીલતા</string>
+    <string name="touch_sensitivity_low">હથેળીના સ્પર્શને અવગણો (ઓછું)</string>
+    <string name="touch_sensitivity_medium">માનક (મધ્યમ)</string>
+    <string name="touch_sensitivity_high">ઝડપી પ્રતિસાદ (ઊંચું)</string>
+    <string name="touch_sensitivity_low_summary">હથેળીના સ્પર્શને વધુ મજબૂત રીતે અવગણે છે, લખવા અથવા સ્ક્રીન પર હાથ રાખવા માટે</string>
+    <string name="touch_sensitivity_medium_summary">હથેળીના સ્પર્શને અવગણવાનું ડિફૉલ્ટ સ્તર</string>
+    <string name="touch_sensitivity_high_summary">હથેળી માટે ઓછું ફિલ્ટરિંગ, જેથી ટેપ અને સ્વાઇપ તમારી આંગળીને વધુ નજીકથી અનુસરે. ગેમ્સ માટે સારું; હથેળી અને સ્ક્રીનની કિનારીના સ્પર્શ નોંધાઈ શકે છે.</string>
+    <string name="touch_sensitivity_unavailable">ઉપલબ્ધ નથી</string>
     <string name="smart_cover_title">મેગ્નેટિક કવર</string>
     <string name="smart_cover_summary">મેગ્નેટિક કવર બંધ થાય ત્યારે સ્લીપ અને લૉક કરો</string>
     <string name="pen_notifications_title">સ્ટાઇલસ કનેક્શન સૂચનાઓ</string>
@@ -199,6 +204,9 @@
     <string name="perf_refresh_rate_none">લૉક કરેલું નથી</string>
     <string name="perf_advanced_reset_title">પ્રીસેટ પર રીસેટ કરો</string>
     <string name="tile_reading_low_refresh">રીડિંગ 30 Hz</string>
-    <string name="tile_touch_game_mode">ટચ ગેમ મોડ</string>
+    <string name="tile_touch_sensitivity">ટચ સંવેદનશીલતા</string>
+    <string name="tile_touch_sensitivity_low">હથેળી અવગણો</string>
+    <string name="tile_touch_sensitivity_medium">માનક</string>
+    <string name="tile_touch_sensitivity_high">ઝડપી પ્રતિસાદ</string>
     <string name="tile_smart_cover">મેગ્નેટિક કવર</string>
 </resources>

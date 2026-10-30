@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">अभी रीस्टार्ट करें</string>
     <string name="ram_expansion_restart_later">बाद में</string>
     <string name="display_parts_title">रीफ़्रेश रेट और टच</string>
-    <string name="display_parts_summary">रीडिंग मोड रीफ़्रेश रेट, टच गेम मोड</string>
+    <string name="display_parts_summary">रीडिंग मोड रीफ़्रेश रेट, टच संवेदनशीलता</string>
     <string name="category_display_title">रीफ़्रेश रेट</string>
     <string name="category_touch_title">टच</string>
     <string name="accessories_title">ऐक्सेसरीज़</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">रीडिंग मोड में 30 Hz</string>
     <string name="reading_low_refresh_summary">रीडिंग मोड चालू होने पर रीफ़्रेश रेट कम करें</string>
     <string name="reading_low_refresh_unavailable">रीडिंग मोड उपलब्ध नहीं है</string>
-    <string name="touch_game_mode_title">टच गेम मोड</string>
-    <string name="touch_game_mode_summary">टच कंट्रोलर का गेम मोड। रीस्टार्ट करने पर यह फिर बंद हो जाता है।</string>
-    <string name="touch_game_mode_unavailable">उपलब्ध नहीं है</string>
+    <string name="touch_sensitivity_title">टच संवेदनशीलता</string>
+    <string name="touch_sensitivity_low">हथेली के स्पर्श को रोकना (कम)</string>
+    <string name="touch_sensitivity_medium">मानक (मध्यम)</string>
+    <string name="touch_sensitivity_high">तेज़ प्रतिक्रिया (ज़्यादा)</string>
+    <string name="touch_sensitivity_low_summary">हथेली के स्पर्श को अधिक प्रभावी ढंग से रोकता है, लिखने या स्क्रीन पर हाथ टिकाने के लिए</string>
+    <string name="touch_sensitivity_medium_summary">हथेली के स्पर्श को रोकने का डिफ़ॉल्ट स्तर</string>
+    <string name="touch_sensitivity_high_summary">हथेली के स्पर्श को कम फ़िल्टर करता है, ताकि टैप और स्वाइप आपकी उंगली का अधिक सटीक रूप से अनुसरण करें। गेम के लिए अच्छा; हथेली और किनारों के स्पर्श दर्ज हो सकते हैं।</string>
+    <string name="touch_sensitivity_unavailable">उपलब्ध नहीं है</string>
     <string name="smart_cover_title">मैग्नेटिक कवर</string>
     <string name="smart_cover_summary">मैग्नेटिक कवर बंद करने पर स्लीप और लॉक करें</string>
     <string name="pen_notifications_title">स्टाइलस कनेक्शन की सूचनाएं</string>
@@ -199,6 +204,9 @@
     <string name="perf_refresh_rate_none">लॉक नहीं है</string>
     <string name="perf_advanced_reset_title">प्रीसेट पर रीसेट करें</string>
     <string name="tile_reading_low_refresh">रीडिंग 30 Hz</string>
-    <string name="tile_touch_game_mode">टच गेम मोड</string>
+    <string name="tile_touch_sensitivity">टच संवेदनशीलता</string>
+    <string name="tile_touch_sensitivity_low">हथेली के स्पर्श को रोकना</string>
+    <string name="tile_touch_sensitivity_medium">मानक</string>
+    <string name="tile_touch_sensitivity_high">तेज़ प्रतिक्रिया</string>
     <string name="tile_smart_cover">मैग्नेटिक कवर</string>
 </resources>

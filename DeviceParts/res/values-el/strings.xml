@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Επανεκκίνηση</string>
     <string name="ram_expansion_restart_later">Αργότερα</string>
     <string name="display_parts_title">Ρυθμός ανανέωσης και αφή</string>
-    <string name="display_parts_summary">Ρυθμός ανανέωσης λειτουργίας ανάγνωσης, λειτουργία παιχνιδιού αφής</string>
+    <string name="display_parts_summary">Ρυθμός ανανέωσης λειτουργίας ανάγνωσης, ευαισθησία αφής</string>
     <string name="category_display_title">Ρυθμός ανανέωσης</string>
     <string name="category_touch_title">Αφή</string>
     <string name="accessories_title">Αξεσουάρ</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz στη λειτουργία ανάγνωσης</string>
     <string name="reading_low_refresh_summary">Μείωση του ρυθμού ανανέωσης όταν είναι ενεργή η λειτουργία ανάγνωσης</string>
     <string name="reading_low_refresh_unavailable">Η λειτουργία ανάγνωσης δεν είναι διαθέσιμη</string>
-    <string name="touch_game_mode_title">Λειτουργία παιχνιδιού αφής</string>
-    <string name="touch_game_mode_summary">Λειτουργία παιχνιδιού του ελεγκτή αφής. Απενεργοποιείται ξανά μετά την επανεκκίνηση.</string>
-    <string name="touch_game_mode_unavailable">Δεν είναι διαθέσιμη</string>
+    <string name="touch_sensitivity_title">Ευαισθησία αφής</string>
+    <string name="touch_sensitivity_low">Απόρριψη αγγίγματος παλάμης (χαμηλή)</string>
+    <string name="touch_sensitivity_medium">Τυπική (μεσαία)</string>
+    <string name="touch_sensitivity_high">Γρήγορη απόκριση (υψηλή)</string>
+    <string name="touch_sensitivity_low_summary">Ισχυρότερη απόρριψη αγγίγματος παλάμης, για γραφή ή στήριξη του χεριού στην οθόνη</string>
+    <string name="touch_sensitivity_medium_summary">Προεπιλεγμένη απόρριψη αγγίγματος παλάμης</string>
+    <string name="touch_sensitivity_high_summary">Ασθενέστερο φιλτράρισμα αγγίγματος παλάμης, ώστε τα πατήματα και τα σαρώματα να ακολουθούν πιο πιστά το δάχτυλό σας. Ιδανικό για παιχνίδια· οι παλάμες και τα άκρα μπορεί να καταγράφουν αγγίγματα.</string>
+    <string name="touch_sensitivity_unavailable">Δεν είναι διαθέσιμη</string>
     <string name="smart_cover_title">Μαγνητικό κάλυμμα</string>
     <string name="smart_cover_summary">Απενεργοποίηση και κλείδωμα όταν κλείνει το μαγνητικό κάλυμμα</string>
     <string name="pen_notifications_title">Ειδοποιήσεις σύνδεσης γραφίδας</string>
@@ -206,6 +211,9 @@
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Επαναφορά στην προκαθορισμένη ρύθμιση</string>
     <string name="tile_reading_low_refresh">Ανάγνωση 30 Hz</string>
-    <string name="tile_touch_game_mode">Λειτουργία παιχνιδιού αφής</string>
+    <string name="tile_touch_sensitivity">Ευαισθησία αφής</string>
+    <string name="tile_touch_sensitivity_low">Απόρριψη παλάμης</string>
+    <string name="tile_touch_sensitivity_medium">Τυπική</string>
+    <string name="tile_touch_sensitivity_high">Γρήγορη απόκριση</string>
     <string name="tile_smart_cover">Μαγνητικό κάλυμμα</string>
 </resources>

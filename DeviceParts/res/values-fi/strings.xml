@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Käynnistä uudelleen</string>
     <string name="ram_expansion_restart_later">Myöhemmin</string>
     <string name="display_parts_title">Virkistystaajuus ja kosketus</string>
-    <string name="display_parts_summary">Lukutilan virkistystaajuus, kosketuspelitila</string>
+    <string name="display_parts_summary">Lukutilan virkistystaajuus, kosketusherkkyys</string>
     <string name="category_display_title">Virkistystaajuus</string>
     <string name="category_touch_title">Kosketus</string>
     <string name="accessories_title">Lisävarusteet</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz lukutilassa</string>
     <string name="reading_low_refresh_summary">Pienennä virkistystaajuutta, kun lukutila on käytössä</string>
     <string name="reading_low_refresh_unavailable">Lukutila ei ole käytettävissä</string>
-    <string name="touch_game_mode_title">Kosketuspelitila</string>
-    <string name="touch_game_mode_summary">Kosketusohjaimen pelitila. Poistuu käytöstä uudelleen uudelleenkäynnistyksen jälkeen.</string>
-    <string name="touch_game_mode_unavailable">Ei käytettävissä</string>
+    <string name="touch_sensitivity_title">Kosketusherkkyys</string>
+    <string name="touch_sensitivity_low">Kämmenkosketusten hylkäys (matala)</string>
+    <string name="touch_sensitivity_medium">Tavallinen (keskitaso)</string>
+    <string name="touch_sensitivity_high">Nopea reagointi (korkea)</string>
+    <string name="touch_sensitivity_low_summary">Voimakkaampi kämmenkosketusten hylkäys kirjoittamiseen tai käden lepuuttamiseen näytöllä</string>
+    <string name="touch_sensitivity_medium_summary">Oletusarvoinen kämmenkosketusten hylkäys</string>
+    <string name="touch_sensitivity_high_summary">Heikompi kämmenkosketusten suodatus, joten napautukset ja pyyhkäisyt seuraavat sormea tarkemmin. Sopii peleihin; kämmenet ja reunat voivat rekisteröidä kosketuksia.</string>
+    <string name="touch_sensitivity_unavailable">Ei käytettävissä</string>
     <string name="smart_cover_title">Magneettinen suojakuori</string>
     <string name="smart_cover_summary">Sammuta näyttö ja lukitse laite, kun magneettinen suojakuori suljetaan</string>
     <string name="pen_notifications_title">Näyttökynän yhteysilmoitukset</string>
@@ -206,6 +211,9 @@
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Palauta esiasetus</string>
     <string name="tile_reading_low_refresh">Luku 30 Hz</string>
-    <string name="tile_touch_game_mode">Kosketuspelitila</string>
+    <string name="tile_touch_sensitivity">Kosketusherkkyys</string>
+    <string name="tile_touch_sensitivity_low">Kämmenkosketusten hylkäys</string>
+    <string name="tile_touch_sensitivity_medium">Tavallinen</string>
+    <string name="tile_touch_sensitivity_high">Nopea reagointi</string>
     <string name="tile_smart_cover">Magneettinen suojakuori</string>
 </resources>

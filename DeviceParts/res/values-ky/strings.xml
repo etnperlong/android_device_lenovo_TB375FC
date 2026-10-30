@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Кайра иштетүү</string>
     <string name="ram_expansion_restart_later">Кийинчерээк</string>
     <string name="display_parts_title">Жаңылануу жыштыгы жана сенсор</string>
-    <string name="display_parts_summary">Окуу режиминин жаңылануу жыштыгы, сенсордун оюн режими</string>
+    <string name="display_parts_summary">Окуу режиминин жаңылануу жыштыгы, сенсордун сезгичтиги</string>
     <string name="category_display_title">Жаңылануу жыштыгы</string>
     <string name="category_touch_title">Сенсор</string>
     <string name="accessories_title">Аксессуарлар</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">Окуу режиминде 30 Гц</string>
     <string name="reading_low_refresh_summary">Окуу режими күйүп турганда жаңылануу жыштыгын азайтуу</string>
     <string name="reading_low_refresh_unavailable">Окуу режими жеткиликсиз</string>
-    <string name="touch_game_mode_title">Сенсордун оюн режими</string>
-    <string name="touch_game_mode_summary">Сенсор контроллеринин оюн режими. Кайра иштеткенден кийин кайра өчөт.</string>
-    <string name="touch_game_mode_unavailable">Жеткиликсиз</string>
+    <string name="touch_sensitivity_title">Сенсордун сезгичтиги</string>
+    <string name="touch_sensitivity_low">Алакандын тийүүсүн четке кагуу (төмөн)</string>
+    <string name="touch_sensitivity_medium">Стандарттуу (орточо)</string>
+    <string name="touch_sensitivity_high">Тез жооп (жогору)</string>
+    <string name="touch_sensitivity_low_summary">Жазганда же колду экранга койгондо алакандын тийүүсүн күчтүүрөөк четке кагат</string>
+    <string name="touch_sensitivity_medium_summary">Алакандын тийүүсүн четке кагуунун демейки деңгээли</string>
+    <string name="touch_sensitivity_high_summary">Алаканды азыраак чыпкалап, таптоо жана сүрүү манжаңыздын кыймылын такыраак ээрчийт. Оюндарга ылайыктуу; алакан же экрандын четтери тийип катталып калышы мүмкүн.</string>
+    <string name="touch_sensitivity_unavailable">Жеткиликсиз</string>
     <string name="smart_cover_title">Магниттик кап</string>
     <string name="smart_cover_summary">Магниттик кап жабылганда уктап, кулпулоо</string>
     <string name="pen_notifications_title">Стилустун туташуусу тууралуу эскертмелер</string>
@@ -206,6 +211,9 @@
     <string name="perf_refresh_rate_hz">%1$d Гц</string>
     <string name="perf_advanced_reset_title">Алдын ала жөндөөгө кайтаруу</string>
     <string name="tile_reading_low_refresh">Окуу 30 Гц</string>
-    <string name="tile_touch_game_mode">Сенсордун оюн режими</string>
+    <string name="tile_touch_sensitivity">Сенсордун сезгичтиги</string>
+    <string name="tile_touch_sensitivity_low">Алакандын тийүүсүн четке кагуу</string>
+    <string name="tile_touch_sensitivity_medium">Стандарттуу</string>
+    <string name="tile_touch_sensitivity_high">Тез жооп</string>
     <string name="tile_smart_cover">Магниттик кап</string>
 </resources>

@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Қайта іске қосу</string>
     <string name="ram_expansion_restart_later">Кейін</string>
     <string name="display_parts_title">Жаңарту жиілігі және сенсор</string>
-    <string name="display_parts_summary">Оқу режимінің жаңарту жиілігі, сенсордың ойын режимі</string>
+    <string name="display_parts_summary">Оқу режимінің жаңарту жиілігі, сенсор сезімталдығы</string>
     <string name="category_display_title">Жаңарту жиілігі</string>
     <string name="category_touch_title">Сенсор</string>
     <string name="accessories_title">Керек-жарақтар</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">Оқу режимінде 30 Гц</string>
     <string name="reading_low_refresh_summary">Оқу режимі қосулы кезде жаңарту жиілігін төмендету</string>
     <string name="reading_low_refresh_unavailable">Оқу режимі қолжетімді емес</string>
-    <string name="touch_game_mode_title">Сенсордың ойын режимі</string>
-    <string name="touch_game_mode_summary">Сенсор контроллерінің ойын режимі. Қайта іске қосқаннан кейін қайта өшеді.</string>
-    <string name="touch_game_mode_unavailable">Қолжетімді емес</string>
+    <string name="touch_sensitivity_title">Сенсор сезімталдығы</string>
+    <string name="touch_sensitivity_low">Алақанды қабылдамау (төмен)</string>
+    <string name="touch_sensitivity_medium">Стандартты (орташа)</string>
+    <string name="touch_sensitivity_high">Жылдам жауап (жоғары)</string>
+    <string name="touch_sensitivity_low_summary">Жазғанда немесе қолды экранға қойғанда алақанның жанасуын күштірек қабылдамайды</string>
+    <string name="touch_sensitivity_medium_summary">Алақанның жанасуын қабылдамаудың әдепкі деңгейі</string>
+    <string name="touch_sensitivity_high_summary">Алақанды әлсіз сүзеді, сондықтан түрту мен сырғыту саусақ қозғалысын дәлірек бақылайды. Ойындарға қолайлы; алақан мен экран шеттерінің жанасуы тіркелуі мүмкін.</string>
+    <string name="touch_sensitivity_unavailable">Қолжетімді емес</string>
     <string name="smart_cover_title">Магнитті қаптама</string>
     <string name="smart_cover_summary">Магнитті қаптаманы жапқанда ұйқы режиміне өткізіп, құлыптау</string>
     <string name="pen_notifications_title">Стилус қосылымы туралы хабарландырулар</string>
@@ -206,6 +211,9 @@
     <string name="perf_refresh_rate_hz">%1$d Гц</string>
     <string name="perf_advanced_reset_title">Алдын ала орнатылған мәнге қайтару</string>
     <string name="tile_reading_low_refresh">Оқу 30 Гц</string>
-    <string name="tile_touch_game_mode">Сенсордың ойын режимі</string>
+    <string name="tile_touch_sensitivity">Сенсор сезімталдығы</string>
+    <string name="tile_touch_sensitivity_low">Алақанды қабылдамау</string>
+    <string name="tile_touch_sensitivity_medium">Стандартты</string>
+    <string name="tile_touch_sensitivity_high">Жылдам жауап</string>
     <string name="tile_smart_cover">Магнитті қаптама</string>
 </resources>

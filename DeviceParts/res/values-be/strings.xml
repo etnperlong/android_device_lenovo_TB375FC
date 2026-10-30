@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Перазапусціць</string>
     <string name="ram_expansion_restart_later">Пазней</string>
     <string name="display_parts_title">Частата абнаўлення і сэнсарны экран</string>
-    <string name="display_parts_summary">Частата абнаўлення ў рэжыме чытання, гульнявы рэжым сэнсарнага экрана</string>
+    <string name="display_parts_summary">Частата абнаўлення ў рэжыме чытання, адчувальнасць сэнсарнага экрана</string>
     <string name="category_display_title">Частата абнаўлення</string>
     <string name="category_touch_title">Сэнсарны экран</string>
     <string name="accessories_title">Аксесуары</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Гц у рэжыме чытання</string>
     <string name="reading_low_refresh_summary">Зніжаць частату абнаўлення, калі ўключаны рэжым чытання</string>
     <string name="reading_low_refresh_unavailable">Рэжым чытання недаступны</string>
-    <string name="touch_game_mode_title">Гульнявы рэжым сэнсарнага экрана</string>
-    <string name="touch_game_mode_summary">Гульнявы рэжым кантролера сэнсарнага экрана. Адключаецца пасля перазапуску.</string>
-    <string name="touch_game_mode_unavailable">Недаступна</string>
+    <string name="touch_sensitivity_title">Адчувальнасць сэнсарнага экрана</string>
+    <string name="touch_sensitivity_low">Адхіленне дотыку далоні (нізкая)</string>
+    <string name="touch_sensitivity_medium">Стандартная (сярэдняя)</string>
+    <string name="touch_sensitivity_high">Хуткі водгук (высокая)</string>
+    <string name="touch_sensitivity_low_summary">Мацнейшае адхіленне дотыку далоні, для пісьма або абапірання рукі на экран</string>
+    <string name="touch_sensitivity_medium_summary">Стандартнае адхіленне дотыку далоні</string>
+    <string name="touch_sensitivity_high_summary">Слабейшая фільтрацыя дотыку далоні, каб дотыкі і правядзенні лепш сачылі за пальцам. Добра для гульняў; далоні і краі экрана могуць рэгістраваць дотыкі.</string>
+    <string name="touch_sensitivity_unavailable">Недаступна</string>
     <string name="smart_cover_title">Магнітны чахол</string>
     <string name="smart_cover_summary">Пры закрыцці магнітнага чахла выключаць экран і блакіраваць прыладу</string>
     <string name="pen_notifications_title">Апавяшчэнні аб падключэнні стылуса</string>
@@ -208,6 +213,9 @@
     <string name="perf_refresh_rate_hz">%1$d Гц</string>
     <string name="perf_advanced_reset_title">Скінуць да папярэдняй налады</string>
     <string name="tile_reading_low_refresh">Чытанне 30 Гц</string>
-    <string name="tile_touch_game_mode">Гульнявы рэжым сэнсара</string>
+    <string name="tile_touch_sensitivity">Адчувальнасць дотыку</string>
+    <string name="tile_touch_sensitivity_low">Адхіленне далоні</string>
+    <string name="tile_touch_sensitivity_medium">Стандартная</string>
+    <string name="tile_touch_sensitivity_high">Хуткі водгук</string>
     <string name="tile_smart_cover">Магнітны чахол</string>
 </resources>

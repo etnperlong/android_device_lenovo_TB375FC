@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">ابھی دوبارہ شروع کریں</string>
     <string name="ram_expansion_restart_later">بعد میں</string>
     <string name="display_parts_title">ریفریش ریٹ اور ٹچ</string>
-    <string name="display_parts_summary">مطالعہ موڈ ریفریش ریٹ، ٹچ گیم موڈ</string>
+    <string name="display_parts_summary">مطالعہ موڈ ریفریش ریٹ، ٹچ کی حساسیت</string>
     <string name="category_display_title">ریفریش ریٹ</string>
     <string name="category_touch_title">ٹچ</string>
     <string name="accessories_title">لوازمات</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">مطالعہ موڈ میں 30 Hz</string>
     <string name="reading_low_refresh_summary">مطالعہ موڈ آن ہونے پر ریفریش ریٹ کم کریں</string>
     <string name="reading_low_refresh_unavailable">مطالعہ موڈ دستیاب نہیں ہے</string>
-    <string name="touch_game_mode_title">ٹچ گیم موڈ</string>
-    <string name="touch_game_mode_summary">ٹچ کنٹرولر کا گیم موڈ۔ دوبارہ شروع کرنے کے بعد پھر آف ہو جاتا ہے۔</string>
-    <string name="touch_game_mode_unavailable">دستیاب نہیں ہے</string>
+    <string name="touch_sensitivity_title">ٹچ کی حساسیت</string>
+    <string name="touch_sensitivity_low">ہتھیلی کو مسترد کرنا (کم)</string>
+    <string name="touch_sensitivity_medium">معیاری (درمیانی)</string>
+    <string name="touch_sensitivity_high">فوری ردعمل (زیادہ)</string>
+    <string name="touch_sensitivity_low_summary">ہتھیلی کو زیادہ مضبوطی سے مسترد کرتا ہے، لکھنے یا اسکرین پر ہاتھ ٹکانے کے لیے موزوں</string>
+    <string name="touch_sensitivity_medium_summary">ہتھیلی کو مسترد کرنے کی ڈیفالٹ سطح</string>
+    <string name="touch_sensitivity_high_summary">ہتھیلی کو کم مسترد کرتا ہے، تاکہ ٹیپ اور سوائپ آپ کی انگلی کے زیادہ قریب چلیں۔ گیمز کے لیے اچھا ہے؛ ہتھیلیاں اور اسکرین کے کنارے بھی ٹچ کے طور پر درج ہو سکتے ہیں۔</string>
+    <string name="touch_sensitivity_unavailable">دستیاب نہیں ہے</string>
     <string name="smart_cover_title">مقناطیسی کور</string>
     <string name="smart_cover_summary">مقناطیسی کور بند ہونے پر سلیپ اور لاک کریں</string>
     <string name="pen_notifications_title">اسٹائلس کنکشن کی اطلاعات</string>
@@ -207,6 +212,9 @@
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">پری سیٹ پر ری سیٹ کریں</string>
     <string name="tile_reading_low_refresh">مطالعہ 30 Hz</string>
-    <string name="tile_touch_game_mode">ٹچ گیم موڈ</string>
+    <string name="tile_touch_sensitivity">ٹچ کی حساسیت</string>
+    <string name="tile_touch_sensitivity_low">ہتھیلی کو مسترد کرنا</string>
+    <string name="tile_touch_sensitivity_medium">معیاری</string>
+    <string name="tile_touch_sensitivity_high">فوری ردعمل</string>
     <string name="tile_smart_cover">مقناطیسی کور</string>
 </resources>

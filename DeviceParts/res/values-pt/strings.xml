@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Reiniciar</string>
     <string name="ram_expansion_restart_later">Mais tarde</string>
     <string name="display_parts_title">Taxa de atualização e toque</string>
-    <string name="display_parts_summary">Taxa de atualização do modo de leitura, modo de jogo por toque</string>
+    <string name="display_parts_summary">Taxa de atualização do modo de leitura, sensibilidade ao toque</string>
     <string name="category_display_title">Taxa de atualização</string>
     <string name="category_touch_title">Toque</string>
     <string name="accessories_title">Acessórios</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz no modo de leitura</string>
     <string name="reading_low_refresh_summary">Reduzir a taxa de atualização enquanto o modo de leitura estiver ativado</string>
     <string name="reading_low_refresh_unavailable">O modo de leitura não está disponível</string>
-    <string name="touch_game_mode_title">Modo de jogo por toque</string>
-    <string name="touch_game_mode_summary">Modo de jogo do controlador de toque. Ele é desativado novamente após reiniciar.</string>
-    <string name="touch_game_mode_unavailable">Indisponível</string>
+    <string name="touch_sensitivity_title">Sensibilidade ao toque</string>
+    <string name="touch_sensitivity_low">Rejeição da palma (baixa)</string>
+    <string name="touch_sensitivity_medium">Padrão (média)</string>
+    <string name="touch_sensitivity_high">Responsiva (alta)</string>
+    <string name="touch_sensitivity_low_summary">Rejeição mais forte da palma, ideal para escrever ou apoiar a mão na tela</string>
+    <string name="touch_sensitivity_medium_summary">Nível padrão de rejeição da palma</string>
+    <string name="touch_sensitivity_high_summary">Rejeição mais fraca da palma, para toques e deslizes seguirem o dedo mais de perto. Ideal para jogos; palmas e bordas podem ser registradas como toques.</string>
+    <string name="touch_sensitivity_unavailable">Indisponível</string>
     <string name="smart_cover_title">Capa magnética</string>
     <string name="smart_cover_summary">Colocar em suspensão e bloquear ao fechar a capa magnética</string>
     <string name="pen_notifications_title">Notificações de conexão da stylus</string>
@@ -201,6 +206,9 @@
     <string name="perf_refresh_rate_none">Sem bloqueio</string>
     <string name="perf_advanced_reset_title">Redefinir para a predefinição</string>
     <string name="tile_reading_low_refresh">Leitura 30 Hz</string>
-    <string name="tile_touch_game_mode">Modo de jogo por toque</string>
+    <string name="tile_touch_sensitivity">Sensibilidade ao toque</string>
+    <string name="tile_touch_sensitivity_low">Rejeição da palma</string>
+    <string name="tile_touch_sensitivity_medium">Padrão</string>
+    <string name="tile_touch_sensitivity_high">Responsiva</string>
     <string name="tile_smart_cover">Capa magnética</string>
 </resources>

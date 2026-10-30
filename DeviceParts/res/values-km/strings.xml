@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">ចាប់ផ្ដើមឡើងវិញ</string>
     <string name="ram_expansion_restart_later">ពេលក្រោយ</string>
     <string name="display_parts_title">អត្រាផ្ទុកឡើងវិញ និងការប៉ះ</string>
-    <string name="display_parts_summary">អត្រាផ្ទុកឡើងវិញក្នុងរបៀបអាន និងរបៀបហ្គេមប៉ះ</string>
+    <string name="display_parts_summary">អត្រាផ្ទុកឡើងវិញក្នុងរបៀបអាន និងភាពរសើបនៃការប៉ះ</string>
     <string name="category_display_title">អត្រាផ្ទុកឡើងវិញ</string>
     <string name="category_touch_title">ការប៉ះ</string>
     <string name="accessories_title">គ្រឿងបន្ថែម</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz ក្នុងរបៀបអាន</string>
     <string name="reading_low_refresh_summary">បន្ថយអត្រាផ្ទុកឡើងវិញ នៅពេលបើករបៀបអាន</string>
     <string name="reading_low_refresh_unavailable">មិនមានរបៀបអានទេ</string>
-    <string name="touch_game_mode_title">របៀបហ្គេមប៉ះ</string>
-    <string name="touch_game_mode_summary">របៀបហ្គេមរបស់ឧបករណ៍បញ្ជាការប៉ះ។ វានឹងបិទវិញបន្ទាប់ពីចាប់ផ្ដើមឡើងវិញ។</string>
-    <string name="touch_game_mode_unavailable">មិនមានទេ</string>
+    <string name="touch_sensitivity_title">ភាពរសើបនៃការប៉ះ</string>
+    <string name="touch_sensitivity_low">ការបដិសេធការប៉ះបាតដៃ (ទាប)</string>
+    <string name="touch_sensitivity_medium">ស្តង់ដារ (មធ្យម)</string>
+    <string name="touch_sensitivity_high">ឆ្លើយតបរហ័ស (ខ្ពស់)</string>
+    <string name="touch_sensitivity_low_summary">បដិសេធការប៉ះបាតដៃខ្លាំងជាងមុន សម្រាប់ការសរសេរ ឬដាក់ដៃលើអេក្រង់</string>
+    <string name="touch_sensitivity_medium_summary">កម្រិតលំនាំដើមនៃការបដិសេធការប៉ះបាតដៃ</string>
+    <string name="touch_sensitivity_high_summary">ត្រងការប៉ះបាតដៃតិចជាងមុន ដើម្បីឱ្យការចុច និងអូសតាមម្រាមដៃបានជិតជាងមុន។ ល្អសម្រាប់ហ្គេម ប៉ុន្តែការប៉ះដោយបាតដៃ និងគែមអេក្រង់អាចត្រូវបានចុះបញ្ជី។</string>
+    <string name="touch_sensitivity_unavailable">មិនមានទេ</string>
     <string name="smart_cover_title">ស្រោមម៉ាញេទិក</string>
     <string name="smart_cover_summary">បិទអេក្រង់ និងចាក់សោ នៅពេលបិទស្រោមម៉ាញេទិក</string>
     <string name="pen_notifications_title">ការជូនដំណឹងអំពីការភ្ជាប់ប៊ិក</string>
@@ -198,6 +203,9 @@
     <string name="perf_refresh_rate_none">មិនបានចាក់សោ</string>
     <string name="perf_advanced_reset_title">កំណត់ទៅការកំណត់ជាមុនវិញ</string>
     <string name="tile_reading_low_refresh">របៀបអាន 30 Hz</string>
-    <string name="tile_touch_game_mode">របៀបហ្គេមប៉ះ</string>
+    <string name="tile_touch_sensitivity">ភាពរសើបនៃការប៉ះ</string>
+    <string name="tile_touch_sensitivity_low">បដិសេធការប៉ះបាតដៃ</string>
+    <string name="tile_touch_sensitivity_medium">ស្តង់ដារ</string>
+    <string name="tile_touch_sensitivity_high">ឆ្លើយតបរហ័ស</string>
     <string name="tile_smart_cover">ស្រោមម៉ាញេទិក</string>
 </resources>

@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Рестартирај</string>
     <string name="ram_expansion_restart_later">Подоцна</string>
     <string name="display_parts_title">Стапка на освежување и екран на допир</string>
-    <string name="display_parts_summary">Стапка на освежување во режимот за читање, режим за игри на екранот на допир</string>
+    <string name="display_parts_summary">Стапка на освежување во режимот за читање, чувствителност на допир</string>
     <string name="category_display_title">Стапка на освежување</string>
     <string name="category_touch_title">Екран на допир</string>
     <string name="accessories_title">Додатоци</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Гц во режимот за читање</string>
     <string name="reading_low_refresh_summary">Намали ја стапката на освежување додека е вклучен режимот за читање</string>
     <string name="reading_low_refresh_unavailable">Режимот за читање не е достапен</string>
-    <string name="touch_game_mode_title">Режим за игри на екранот на допир</string>
-    <string name="touch_game_mode_summary">Режим за игри на контролерот на екранот на допир. Повторно се исклучува по рестартирање.</string>
-    <string name="touch_game_mode_unavailable">Не е достапно</string>
+    <string name="touch_sensitivity_title">Чувствителност на допир</string>
+    <string name="touch_sensitivity_low">Отфрлање допир со дланка (ниска)</string>
+    <string name="touch_sensitivity_medium">Стандардна (средна)</string>
+    <string name="touch_sensitivity_high">Брз одзив (висока)</string>
+    <string name="touch_sensitivity_low_summary">Посилно отфрлање допир со дланка, за пишување или потпирање рака на екранот</string>
+    <string name="touch_sensitivity_medium_summary">Стандардно отфрлање допир со дланка</string>
+    <string name="touch_sensitivity_high_summary">Послабо филтрирање на дланката, за допирите и повлекувањата поблиску да го следат прстот. Добро за игри; може да се регистрираат допири со дланката и рабовите на екранот.</string>
+    <string name="touch_sensitivity_unavailable">Не е достапно</string>
     <string name="smart_cover_title">Магнетна футрола</string>
     <string name="smart_cover_summary">Исклучи го екранот и заклучи го уредот кога ќе се затвори магнетната футрола</string>
     <string name="pen_notifications_title">Известувања за поврзување на пенкало</string>
@@ -206,6 +211,9 @@
     <string name="perf_refresh_rate_hz">%1$d Гц</string>
     <string name="perf_advanced_reset_title">Врати на зададената поставка</string>
     <string name="tile_reading_low_refresh">Читање 30 Гц</string>
-    <string name="tile_touch_game_mode">Режим за игри на допир</string>
+    <string name="tile_touch_sensitivity">Чувствителност на допир</string>
+    <string name="tile_touch_sensitivity_low">Отфрлање допир со дланка</string>
+    <string name="tile_touch_sensitivity_medium">Стандардна</string>
+    <string name="tile_touch_sensitivity_high">Брз одзив</string>
     <string name="tile_smart_cover">Магнетна футрола</string>
 </resources>

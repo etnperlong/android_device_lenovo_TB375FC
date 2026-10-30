@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">إعادة التشغيل</string>
     <string name="ram_expansion_restart_later">لاحقًا</string>
     <string name="display_parts_title">معدل التحديث واللمس</string>
-    <string name="display_parts_summary">معدل تحديث وضع القراءة، وضع الألعاب باللمس</string>
+    <string name="display_parts_summary">معدل تحديث وضع القراءة، حساسية اللمس</string>
     <string name="category_display_title">معدل التحديث</string>
     <string name="category_touch_title">اللمس</string>
     <string name="accessories_title">الملحقات</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 هرتز في وضع القراءة</string>
     <string name="reading_low_refresh_summary">خفض معدل التحديث عند تفعيل وضع القراءة</string>
     <string name="reading_low_refresh_unavailable">وضع القراءة غير متاح</string>
-    <string name="touch_game_mode_title">وضع الألعاب باللمس</string>
-    <string name="touch_game_mode_summary">وضع الألعاب لوحدة التحكم باللمس. يُوقف مجددًا بعد إعادة التشغيل.</string>
-    <string name="touch_game_mode_unavailable">غير متاح</string>
+    <string name="touch_sensitivity_title">حساسية اللمس</string>
+    <string name="touch_sensitivity_low">رفض لمس راحة اليد (منخفض)</string>
+    <string name="touch_sensitivity_medium">قياسي (متوسط)</string>
+    <string name="touch_sensitivity_high">استجابة سريعة (مرتفع)</string>
+    <string name="touch_sensitivity_low_summary">رفض أقوى للمس براحة اليد، للكتابة أو إراحة اليد على الشاشة</string>
+    <string name="touch_sensitivity_medium_summary">مستوى رفض لمس راحة اليد الافتراضي</string>
+    <string name="touch_sensitivity_high_summary">ترشيح أضعف للمس براحة اليد، لتتبع النقرات والتمريرات لحركة إصبعك عن قرب. مناسب للألعاب؛ قد تُسجَّل لمسات راحة اليد وحواف الشاشة.</string>
+    <string name="touch_sensitivity_unavailable">غير متاح</string>
     <string name="smart_cover_title">الغطاء المغناطيسي</string>
     <string name="smart_cover_summary">إطفاء الشاشة وقفلها عند إغلاق الغطاء المغناطيسي</string>
     <string name="pen_notifications_title">إشعارات اتصال القلم</string>
@@ -211,6 +216,9 @@
     <string name="perf_refresh_rate_hz">%1$d هرتز</string>
     <string name="perf_advanced_reset_title">إعادة الضبط إلى الإعداد المسبق</string>
     <string name="tile_reading_low_refresh">القراءة 30 هرتز</string>
-    <string name="tile_touch_game_mode">وضع الألعاب باللمس</string>
+    <string name="tile_touch_sensitivity">حساسية اللمس</string>
+    <string name="tile_touch_sensitivity_low">رفض راحة اليد</string>
+    <string name="tile_touch_sensitivity_medium">قياسي</string>
+    <string name="tile_touch_sensitivity_high">استجابة سريعة</string>
     <string name="tile_smart_cover">الغطاء المغناطيسي</string>
 </resources>

@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Atosaigh anois</string>
     <string name="ram_expansion_restart_later">Níos déanaí</string>
     <string name="display_parts_title">Ráta athnuachana agus tadhaill</string>
-    <string name="display_parts_summary">Ráta athnuachana an mhóid léimh, mód cluiche tadhaill</string>
+    <string name="display_parts_summary">Ráta athnuachana an mhóid léimh, íogaireacht tadhaill</string>
     <string name="category_display_title">Ráta athnuachana</string>
     <string name="category_touch_title">Tadhaill</string>
     <string name="accessories_title">Oiriúintí</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz sa mhód léimh</string>
     <string name="reading_low_refresh_summary">Ísligh an ráta athnuachana nuair atá an mód léimh ar siúl</string>
     <string name="reading_low_refresh_unavailable">Níl an mód léimh ar fáil</string>
-    <string name="touch_game_mode_title">Mód cluiche tadhaill</string>
-    <string name="touch_game_mode_summary">Mód cluiche an rialaitheora tadhaill. Múchann sé arís tar éis atosaithe.</string>
-    <string name="touch_game_mode_unavailable">Níl sé ar fáil</string>
+    <string name="touch_sensitivity_title">Íogaireacht tadhaill</string>
+    <string name="touch_sensitivity_low">Diúltú do theagmháil phailme (íseal)</string>
+    <string name="touch_sensitivity_medium">Caighdeánach (meánach)</string>
+    <string name="touch_sensitivity_high">Freagrúil (ard)</string>
+    <string name="touch_sensitivity_low_summary">Diúltú níos láidre do theagmháil na pailme, le haghaidh scríbhneoireachta nó chun lámh a chur ar an scáileán</string>
+    <string name="touch_sensitivity_medium_summary">Diúltú réamhshocraithe do theagmháil na pailme</string>
+    <string name="touch_sensitivity_high_summary">Diúltú níos laige do theagmháil na pailme, ionas go leanfaidh tapáil agus svaidhpeáil do mhéar níos dlúithe. Oiriúnach do chluichí; is féidir teagmhálacha ón bpailme agus ó imill an scáileáin a chlárú.</string>
+    <string name="touch_sensitivity_unavailable">Níl sé ar fáil</string>
     <string name="smart_cover_title">Clúdach maighnéadach</string>
     <string name="smart_cover_summary">Cuir ar suan agus glas nuair a dhúntar an clúdach maighnéadach</string>
     <string name="pen_notifications_title">Fógraí maidir le nasc an phinn</string>
@@ -204,6 +209,9 @@
     <string name="perf_refresh_rate_none">Gan ghlasáil</string>
     <string name="perf_advanced_reset_title">Athshocraigh go dtí an réamhshocrúchán</string>
     <string name="tile_reading_low_refresh">Léamh 30 Hz</string>
-    <string name="tile_touch_game_mode">Mód cluiche tadhaill</string>
+    <string name="tile_touch_sensitivity">Íogaireacht tadhaill</string>
+    <string name="tile_touch_sensitivity_low">Diúltú pailme</string>
+    <string name="tile_touch_sensitivity_medium">Caighdeánach</string>
+    <string name="tile_touch_sensitivity_high">Freagrúil</string>
     <string name="tile_smart_cover">Clúdach maighnéadach</string>
 </resources>

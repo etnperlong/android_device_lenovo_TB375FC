@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">አሁን ዳግም አስነሳ</string>
     <string name="ram_expansion_restart_later">በኋላ</string>
     <string name="display_parts_title">የማደስ ፍጥነት እና ንክኪ</string>
-    <string name="display_parts_summary">የንባብ ሁነታ የማደስ ፍጥነት፣ የንክኪ ጨዋታ ሁነታ</string>
+    <string name="display_parts_summary">የንባብ ሁነታ የማደስ ፍጥነት፣ የንክኪ ስሜታዊነት</string>
     <string name="category_display_title">የማደስ ፍጥነት</string>
     <string name="category_touch_title">ንክኪ</string>
     <string name="accessories_title">መለዋወጫዎች</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">በንባብ ሁነታ 30 ኸርዝ</string>
     <string name="reading_low_refresh_summary">የንባብ ሁነታ ሲበራ የማደስ ፍጥነቱን ዝቅ አድርግ</string>
     <string name="reading_low_refresh_unavailable">የንባብ ሁነታ አይገኝም</string>
-    <string name="touch_game_mode_title">የንክኪ ጨዋታ ሁነታ</string>
-    <string name="touch_game_mode_summary">የንክኪ መቆጣጠሪያው የጨዋታ ሁነታ። ከዳግም ማስነሳት በኋላ ይጠፋል።</string>
-    <string name="touch_game_mode_unavailable">አይገኝም</string>
+    <string name="touch_sensitivity_title">የንክኪ ስሜታዊነት</string>
+    <string name="touch_sensitivity_low">የመዳፍ ንክኪ መከላከል (ዝቅተኛ)</string>
+    <string name="touch_sensitivity_medium">መደበኛ (መካከለኛ)</string>
+    <string name="touch_sensitivity_high">ፈጣን ምላሽ (ከፍተኛ)</string>
+    <string name="touch_sensitivity_low_summary">ጠንካራ የመዳፍ ንክኪ መከላከል፣ ለመጻፍ ወይም እጅን ማያ ገጹ ላይ ለማሳረፍ</string>
+    <string name="touch_sensitivity_medium_summary">ነባሪ የመዳፍ ንክኪ መከላከል</string>
+    <string name="touch_sensitivity_high_summary">ደካማ የመዳፍ ንክኪ ማጣሪያ፣ ስለዚህ መታ ማድረግና ማንሸራተት ጣትዎን በቅርብ ይከተላል። ለጨዋታዎች ጥሩ ነው፤ መዳፎችና የማያ ገጹ ጠርዞች ንክኪን ሊመዘግቡ ይችላሉ።</string>
+    <string name="touch_sensitivity_unavailable">አይገኝም</string>
     <string name="smart_cover_title">መግነጢሳዊ መያዣ</string>
     <string name="smart_cover_summary">መግነጢሳዊው መያዣ ሲዘጋ ማያ ገጹን አጥፋ እና ቆልፍ</string>
     <string name="pen_notifications_title">የስታይለስ ግንኙነት ማሳወቂያዎች</string>
@@ -206,6 +211,9 @@
     <string name="perf_refresh_rate_hz">%1$d ኸርዝ</string>
     <string name="perf_advanced_reset_title">ወደ ቅድመ ቅንብር አስመልስ</string>
     <string name="tile_reading_low_refresh">ንባብ 30 ኸርዝ</string>
-    <string name="tile_touch_game_mode">የንክኪ ጨዋታ ሁነታ</string>
+    <string name="tile_touch_sensitivity">የንክኪ ስሜታዊነት</string>
+    <string name="tile_touch_sensitivity_low">የመዳፍ መከላከል</string>
+    <string name="tile_touch_sensitivity_medium">መደበኛ</string>
+    <string name="tile_touch_sensitivity_high">ፈጣን ምላሽ</string>
     <string name="tile_smart_cover">መግነጢሳዊ መያዣ</string>
 </resources>

@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Поново покрени</string>
     <string name="ram_expansion_restart_later">Касније</string>
     <string name="display_parts_title">Брзина освежавања и екран осетљив на додир</string>
-    <string name="display_parts_summary">Брзина освежавања режима читања, режим за игре екрана осетљивог на додир</string>
+    <string name="display_parts_summary">Брзина освежавања режима читања, осетљивост додира</string>
     <string name="category_display_title">Брзина освежавања</string>
     <string name="category_touch_title">Екран осетљив на додир</string>
     <string name="accessories_title">Додаци</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Гц у режиму читања</string>
     <string name="reading_low_refresh_summary">Смањи брзину освежавања док је режим читања укључен</string>
     <string name="reading_low_refresh_unavailable">Режим читања није доступан</string>
-    <string name="touch_game_mode_title">Режим за игре екрана осетљивог на додир</string>
-    <string name="touch_game_mode_summary">Режим за игре контролера екрана осетљивог на додир. Поново се искључује после поновног покретања.</string>
-    <string name="touch_game_mode_unavailable">Није доступно</string>
+    <string name="touch_sensitivity_title">Осетљивост додира</string>
+    <string name="touch_sensitivity_low">Одбацивање длана (ниска)</string>
+    <string name="touch_sensitivity_medium">Стандардна (средња)</string>
+    <string name="touch_sensitivity_high">Брз одзив (висока)</string>
+    <string name="touch_sensitivity_low_summary">Јаче одбацивање длана, погодно за писање или ослањање шаке на екран</string>
+    <string name="touch_sensitivity_medium_summary">Подразумевани ниво одбацивања длана</string>
+    <string name="touch_sensitivity_high_summary">Слабије одбацивање длана, па додири и превлачења прецизније прате прст. Погодно за игре; дланови и ивице екрана могу да региструју додире.</string>
+    <string name="touch_sensitivity_unavailable">Није доступно</string>
     <string name="smart_cover_title">Магнетна футрола</string>
     <string name="smart_cover_summary">Искључи екран и закључај уређај када се магнетна футрола затвори</string>
     <string name="pen_notifications_title">Обавештења о повезивању оловке</string>
@@ -207,6 +212,9 @@
     <string name="perf_refresh_rate_hz">%1$d Гц</string>
     <string name="perf_advanced_reset_title">Врати унапред задати профил</string>
     <string name="tile_reading_low_refresh">Читање 30 Гц</string>
-    <string name="tile_touch_game_mode">Режим игара на додир</string>
+    <string name="tile_touch_sensitivity">Осетљивост додира</string>
+    <string name="tile_touch_sensitivity_low">Одбацивање длана</string>
+    <string name="tile_touch_sensitivity_medium">Стандардна</string>
+    <string name="tile_touch_sensitivity_high">Брз одзив</string>
     <string name="tile_smart_cover">Магнетна футрола</string>
 </resources>

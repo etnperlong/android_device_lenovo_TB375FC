@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">දැන් නැවත ආරම්භ කරන්න</string>
     <string name="ram_expansion_restart_later">පසුව</string>
     <string name="display_parts_title">නැවුම් කිරීමේ අනුපාතය සහ ස්පර්ශය</string>
-    <string name="display_parts_summary">කියවීමේ මාදිලියේ නැවුම් කිරීමේ අනුපාතය, ස්පර්ශ ක්‍රීඩා මාදිලිය</string>
+    <string name="display_parts_summary">කියවීමේ මාදිලියේ නැවුම් කිරීමේ අනුපාතය, ස්පර්ශ සංවේදීතාව</string>
     <string name="category_display_title">නැවුම් කිරීමේ අනුපාතය</string>
     <string name="category_touch_title">ස්පර්ශය</string>
     <string name="accessories_title">උපාංග</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">කියවීමේ මාදිලියේදී 30 Hz</string>
     <string name="reading_low_refresh_summary">කියවීමේ මාදිලිය ක්‍රියාත්මක විට නැවුම් කිරීමේ අනුපාතය අඩු කරන්න</string>
     <string name="reading_low_refresh_unavailable">කියවීමේ මාදිලිය ලබා ගත නොහැක</string>
-    <string name="touch_game_mode_title">ස්පර්ශ ක්‍රීඩා මාදිලිය</string>
-    <string name="touch_game_mode_summary">ස්පර්ශ පාලකයේ ක්‍රීඩා මාදිලිය. නැවත ආරම්භ කළ පසු එය නැවත අක්‍රිය වේ.</string>
-    <string name="touch_game_mode_unavailable">ලබා ගත නොහැක</string>
+    <string name="touch_sensitivity_title">ස්පර්ශ සංවේදීතාව</string>
+    <string name="touch_sensitivity_low">අත්ල ප්‍රතික්ෂේප කිරීම (අඩු)</string>
+    <string name="touch_sensitivity_medium">සම්මත (මධ්‍යම)</string>
+    <string name="touch_sensitivity_high">වේගවත් ප්‍රතිචාරය (ඉහළ)</string>
+    <string name="touch_sensitivity_low_summary">අත්ල ප්‍රතික්ෂේප කිරීම වඩාත් ශක්තිමත් කරයි, ලිවීමට හෝ තිරය මත අත තබා ගැනීමට සුදුසුයි</string>
+    <string name="touch_sensitivity_medium_summary">අත්ල ප්‍රතික්ෂේප කිරීමේ පෙරනිමි මට්ටම</string>
+    <string name="touch_sensitivity_high_summary">අත්ල ප්‍රතික්ෂේප කිරීම අඩු කරයි, එබැවින් තට්ටු කිරීම් සහ ස්වයිප් ඔබේ ඇඟිල්ල වඩාත් සමීපව අනුගමනය කරයි. ක්‍රීඩා සඳහා හොඳයි; අත්ල සහ තිරයේ දාරද ස්පර්ශ ලෙස ලියාපදිංචි විය හැක.</string>
+    <string name="touch_sensitivity_unavailable">ලබා ගත නොහැක</string>
     <string name="smart_cover_title">චුම්බක කවරය</string>
     <string name="smart_cover_summary">චුම්බක කවරය වැසූ විට තිරය අක්‍රිය කර අගුළු දමන්න</string>
     <string name="pen_notifications_title">පන්හිඳ සම්බන්ධතා දැනුම්දීම්</string>
@@ -199,6 +204,9 @@
     <string name="perf_refresh_rate_none">අගුළු දමා නැත</string>
     <string name="perf_advanced_reset_title">පෙරසිටුවට යළි පිහිටුවන්න</string>
     <string name="tile_reading_low_refresh">කියවීම 30 Hz</string>
-    <string name="tile_touch_game_mode">ස්පර්ශ ක්‍රීඩා මාදිලිය</string>
+    <string name="tile_touch_sensitivity">ස්පර්ශ සංවේදීතාව</string>
+    <string name="tile_touch_sensitivity_low">අත්ල ප්‍රතික්ෂේප කිරීම</string>
+    <string name="tile_touch_sensitivity_medium">සම්මත</string>
+    <string name="tile_touch_sensitivity_high">වේගවත් ප්‍රතිචාරය</string>
     <string name="tile_smart_cover">චුම්බක කවරය</string>
 </resources>

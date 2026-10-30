@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Рестартиране</string>
     <string name="ram_expansion_restart_later">По-късно</string>
     <string name="display_parts_title">Честота на опресняване и сензорен екран</string>
-    <string name="display_parts_summary">Честота на опресняване в режим на четене, игрови режим на сензорния екран</string>
+    <string name="display_parts_summary">Честота на опресняване в режим на четене, чувствителност на сензорния екран</string>
     <string name="category_display_title">Честота на опресняване</string>
     <string name="category_touch_title">Сензорен екран</string>
     <string name="accessories_title">Аксесоари</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Гц в режим на четене</string>
     <string name="reading_low_refresh_summary">Намаляване на честотата на опресняване, когато режимът на четене е включен</string>
     <string name="reading_low_refresh_unavailable">Режимът на четене не е наличен</string>
-    <string name="touch_game_mode_title">Игрови режим на сензорния екран</string>
-    <string name="touch_game_mode_summary">Игрови режим на контролера на сензорния екран. Изключва се след рестартиране.</string>
-    <string name="touch_game_mode_unavailable">Не е налично</string>
+    <string name="touch_sensitivity_title">Чувствителност на сензорния екран</string>
+    <string name="touch_sensitivity_low">Отхвърляне на допир с длан (ниска)</string>
+    <string name="touch_sensitivity_medium">Стандартна (средна)</string>
+    <string name="touch_sensitivity_high">Бърза реакция (висока)</string>
+    <string name="touch_sensitivity_low_summary">По-силно отхвърляне на допир с длан, за писане или поставяне на ръка върху екрана</string>
+    <string name="touch_sensitivity_medium_summary">Стандартно отхвърляне на допир с длан</string>
+    <string name="touch_sensitivity_high_summary">По-слабо филтриране на допир с длан, така че докосванията и плъзганията да следват пръста по-точно. Подходящо за игри; дланите и краищата на екрана може да регистрират докосвания.</string>
+    <string name="touch_sensitivity_unavailable">Не е налично</string>
     <string name="smart_cover_title">Магнитен калъф</string>
     <string name="smart_cover_summary">Изключване и заключване при затваряне на магнитния калъф</string>
     <string name="pen_notifications_title">Известия за свързване на стилус</string>
@@ -206,6 +211,9 @@
     <string name="perf_refresh_rate_hz">%1$d Гц</string>
     <string name="perf_advanced_reset_title">Нулиране до предварителната настройка</string>
     <string name="tile_reading_low_refresh">Четене 30 Гц</string>
-    <string name="tile_touch_game_mode">Игрови режим на сензора</string>
+    <string name="tile_touch_sensitivity">Чувствителност на допира</string>
+    <string name="tile_touch_sensitivity_low">Отхвърляне на длан</string>
+    <string name="tile_touch_sensitivity_medium">Стандартна</string>
+    <string name="tile_touch_sensitivity_high">Бърза реакция</string>
     <string name="tile_smart_cover">Магнитен калъф</string>
 </resources>

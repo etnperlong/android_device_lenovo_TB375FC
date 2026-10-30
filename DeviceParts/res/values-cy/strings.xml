@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Ailgychwyn</string>
     <string name="ram_expansion_restart_later">Yn ddiweddarach</string>
     <string name="display_parts_title">Cyfradd adnewyddu a chyffwrdd</string>
-    <string name="display_parts_summary">Cyfradd adnewyddu modd darllen, modd gêm cyffwrdd</string>
+    <string name="display_parts_summary">Cyfradd adnewyddu modd darllen, sensitifrwydd cyffwrdd</string>
     <string name="category_display_title">Cyfradd adnewyddu</string>
     <string name="category_touch_title">Cyffwrdd</string>
     <string name="accessories_title">Ategolion</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz yn y modd darllen</string>
     <string name="reading_low_refresh_summary">Gostwng y gyfradd adnewyddu pan fydd modd darllen ymlaen</string>
     <string name="reading_low_refresh_unavailable">Nid yw\'r modd darllen ar gael</string>
-    <string name="touch_game_mode_title">Modd gêm cyffwrdd</string>
-    <string name="touch_game_mode_summary">Modd gêm y rheolydd cyffwrdd. Mae\'n diffodd eto ar ôl ailgychwyn.</string>
-    <string name="touch_game_mode_unavailable">Ddim ar gael</string>
+    <string name="touch_sensitivity_title">Sensitifrwydd cyffwrdd</string>
+    <string name="touch_sensitivity_low">Gwrthod cyffyrddiad cledr (isel)</string>
+    <string name="touch_sensitivity_medium">Safonol (canolig)</string>
+    <string name="touch_sensitivity_high">Ymateb cyflym (uchel)</string>
+    <string name="touch_sensitivity_low_summary">Gwrthod cyffyrddiad cledr yn gryfach, ar gyfer ysgrifennu neu orffwys llaw ar y sgrin</string>
+    <string name="touch_sensitivity_medium_summary">Gwrthod cyffyrddiad cledr yn ddiofyn</string>
+    <string name="touch_sensitivity_high_summary">Llai o hidlo cyffyrddiad cledr, felly mae tapiau a llithriadau yn dilyn eich bys yn agosach. Da ar gyfer gemau; gall cledrau ac ymylon gofrestru cyffyrddiadau.</string>
+    <string name="touch_sensitivity_unavailable">Ddim ar gael</string>
     <string name="smart_cover_title">Gorchudd magnetig</string>
     <string name="smart_cover_summary">Cysgu a chloi pan fydd y gorchudd magnetig ar gau</string>
     <string name="pen_notifications_title">Hysbysiadau cysylltu ysgrifbin</string>
@@ -205,6 +210,9 @@
     <string name="perf_refresh_rate_none">Heb ei chloi</string>
     <string name="perf_advanced_reset_title">Ailosod i\'r rhagosodiad</string>
     <string name="tile_reading_low_refresh">Darllen 30 Hz</string>
-    <string name="tile_touch_game_mode">Modd gêm cyffwrdd</string>
+    <string name="tile_touch_sensitivity">Sensitifrwydd cyffwrdd</string>
+    <string name="tile_touch_sensitivity_low">Gwrthod cledr</string>
+    <string name="tile_touch_sensitivity_medium">Safonol</string>
+    <string name="tile_touch_sensitivity_high">Ymateb cyflym</string>
     <string name="tile_smart_cover">Gorchudd magnetig</string>
 </resources>

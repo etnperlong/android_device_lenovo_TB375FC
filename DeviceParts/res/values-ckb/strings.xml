@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">ئێستا دووبارە پێبکەرەوە</string>
     <string name="ram_expansion_restart_later">دواتر</string>
     <string name="display_parts_title">ڕێژەی نوێکردنەوە و دەستلێدان</string>
-    <string name="display_parts_summary">ڕێژەی نوێکردنەوەی دۆخی خوێندنەوە، دۆخی یاریی دەستلێدان</string>
+    <string name="display_parts_summary">ڕێژەی نوێکردنەوەی دۆخی خوێندنەوە، هەستیاری دەستلێدان</string>
     <string name="category_display_title">ڕێژەی نوێکردنەوە</string>
     <string name="category_touch_title">دەستلێدان</string>
     <string name="accessories_title">پێوەکراوەکان</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 هێرتز لە دۆخی خوێندنەوەدا</string>
     <string name="reading_low_refresh_summary">کەمکردنەوەی ڕێژەی نوێکردنەوە کاتێک دۆخی خوێندنەوە چالاکە</string>
     <string name="reading_low_refresh_unavailable">دۆخی خوێندنەوە بەردەست نییە</string>
-    <string name="touch_game_mode_title">دۆخی یاریی دەستلێدان</string>
-    <string name="touch_game_mode_summary">دۆخی یاریی کۆنتڕۆڵکەری دەستلێدان. دوای دووبارە دەستپێکردن جارێکی تر دەکوژێتەوە.</string>
-    <string name="touch_game_mode_unavailable">بەردەست نییە</string>
+    <string name="touch_sensitivity_title">هەستیاری دەستلێدان</string>
+    <string name="touch_sensitivity_low">ڕەتکردنەوەی دەستلێدانی نێو دەست (نزم)</string>
+    <string name="touch_sensitivity_medium">ستاندارد (مامناوەند)</string>
+    <string name="touch_sensitivity_high">وەڵامی خێرا (بەرز)</string>
+    <string name="touch_sensitivity_low_summary">ڕەتکردنەوەی بەهێزتری دەستلێدانی نێو دەست، بۆ نووسین یان دانانی دەست لەسەر شاشە</string>
+    <string name="touch_sensitivity_medium_summary">ئاستی بنەڕەتیی ڕەتکردنەوەی دەستلێدانی نێو دەست</string>
+    <string name="touch_sensitivity_high_summary">پاڵاوتنی لاوازتری دەستلێدانی نێو دەست، بۆ ئەوەی لێدان و ڕاکێشانەکان نزیکتر شوێنی پەنجەت بکەون. باشە بۆ یاری؛ نێو دەست و کەنارەکانی شاشە لێدان تۆمار دەکەن.</string>
+    <string name="touch_sensitivity_unavailable">بەردەست نییە</string>
     <string name="smart_cover_title">قاپی مەگناتیسی</string>
     <string name="smart_cover_summary">کاتێک قاپی مەگناتیسی دادەخرێت بخەوێنە و قفڵی بکە</string>
     <string name="pen_notifications_title">ئاگادارکردنەوەکانی پەیوەندی پێنووس</string>
@@ -207,6 +212,9 @@
     <string name="perf_refresh_rate_hz">%1$d هێرتز</string>
     <string name="perf_advanced_reset_title">گەڕاندنەوە بۆ پێشئامادە</string>
     <string name="tile_reading_low_refresh">خوێندنەوە 30 هێرتز</string>
-    <string name="tile_touch_game_mode">دۆخی یاریی دەستلێدان</string>
+    <string name="tile_touch_sensitivity">هەستیاری دەستلێدان</string>
+    <string name="tile_touch_sensitivity_low">ڕەتکردنەوەی نێو دەست</string>
+    <string name="tile_touch_sensitivity_medium">ستاندارد</string>
+    <string name="tile_touch_sensitivity_high">وەڵامی خێرا</string>
     <string name="tile_smart_cover">قاپی مەگناتیسی</string>
 </resources>

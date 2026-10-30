@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Дахин эхлүүлэх</string>
     <string name="ram_expansion_restart_later">Дараа</string>
     <string name="display_parts_title">Сэргээх хурд ба хүрэлт</string>
-    <string name="display_parts_summary">Унших горимын сэргээх хурд, хүрэлтийн тоглоомын горим</string>
+    <string name="display_parts_summary">Унших горимын сэргээх хурд, хүрэлтийн мэдрэмж</string>
     <string name="category_display_title">Сэргээх хурд</string>
     <string name="category_touch_title">Хүрэлт</string>
     <string name="accessories_title">Дагалдах хэрэгсэл</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">Унших горимд 30 Гц</string>
     <string name="reading_low_refresh_summary">Унших горим асаалттай үед сэргээх хурдыг бууруулах</string>
     <string name="reading_low_refresh_unavailable">Унших горим боломжгүй</string>
-    <string name="touch_game_mode_title">Хүрэлтийн тоглоомын горим</string>
-    <string name="touch_game_mode_summary">Хүрэлтийн удирдлагын тоглоомын горим. Дахин эхлүүлсний дараа унтарна.</string>
-    <string name="touch_game_mode_unavailable">Боломжгүй</string>
+    <string name="touch_sensitivity_title">Хүрэлтийн мэдрэмж</string>
+    <string name="touch_sensitivity_low">Алганы хүрэлтийг үл тоох (бага)</string>
+    <string name="touch_sensitivity_medium">Стандарт (дунд)</string>
+    <string name="touch_sensitivity_high">Шуурхай хариу (өндөр)</string>
+    <string name="touch_sensitivity_low_summary">Бичих эсвэл дэлгэц дээр гараа тавих үед алганы хүрэлтийг илүү хүчтэй үл тооно</string>
+    <string name="touch_sensitivity_medium_summary">Алганы хүрэлтийг үл тоох өгөгдмөл түвшин</string>
+    <string name="touch_sensitivity_high_summary">Алганы шүүлтүүрийг сулруулснаар товших болон шудрах үйлдэл хурууны хөдөлгөөнийг илүү сайн дагана. Тоглоомд тохиромжтой; алга болон дэлгэцийн ирмэгийн хүрэлт бүртгэгдэж магадгүй.</string>
+    <string name="touch_sensitivity_unavailable">Боломжгүй</string>
     <string name="smart_cover_title">Соронзон гэр</string>
     <string name="smart_cover_summary">Соронзон гэрийг хаахад унтуулж, түгжих</string>
     <string name="pen_notifications_title">Үзгийн холболтын мэдэгдэл</string>
@@ -206,6 +211,9 @@
     <string name="perf_refresh_rate_hz">%1$d Гц</string>
     <string name="perf_advanced_reset_title">Урьдчилан тохируулга сэргээх</string>
     <string name="tile_reading_low_refresh">Унших 30 Гц</string>
-    <string name="tile_touch_game_mode">Хүрэлтийн тоглоомын горим</string>
+    <string name="tile_touch_sensitivity">Хүрэлтийн мэдрэмж</string>
+    <string name="tile_touch_sensitivity_low">Алганы хүрэлтийг үл тоох</string>
+    <string name="tile_touch_sensitivity_medium">Стандарт</string>
+    <string name="tile_touch_sensitivity_high">Шуурхай хариу</string>
     <string name="tile_smart_cover">Соронзон гэр</string>
 </resources>

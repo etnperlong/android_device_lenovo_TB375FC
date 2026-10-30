@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Reiniciar</string>
     <string name="ram_expansion_restart_later">Máis tarde</string>
     <string name="display_parts_title">Frecuencia de actualización e pantalla táctil</string>
-    <string name="display_parts_summary">Frecuencia de actualización do modo de lectura, modo de xogo táctil</string>
+    <string name="display_parts_summary">Frecuencia de actualización do modo de lectura, sensibilidade táctil</string>
     <string name="category_display_title">Frecuencia de actualización</string>
     <string name="category_touch_title">Pantalla táctil</string>
     <string name="accessories_title">Accesorios</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz no modo de lectura</string>
     <string name="reading_low_refresh_summary">Reducir a frecuencia de actualización mentres o modo de lectura está activado</string>
     <string name="reading_low_refresh_unavailable">O modo de lectura non está dispoñible</string>
-    <string name="touch_game_mode_title">Modo de xogo táctil</string>
-    <string name="touch_game_mode_summary">Modo de xogo do controlador táctil. Desactívase de novo ao reiniciar.</string>
-    <string name="touch_game_mode_unavailable">Non dispoñible</string>
+    <string name="touch_sensitivity_title">Sensibilidade táctil</string>
+    <string name="touch_sensitivity_low">Rexeitamento da palma (baixo)</string>
+    <string name="touch_sensitivity_medium">Estándar (medio)</string>
+    <string name="touch_sensitivity_high">Resposta rápida (alto)</string>
+    <string name="touch_sensitivity_low_summary">Maior rexeitamento da palma, para escribir ou apoiar a man na pantalla</string>
+    <string name="touch_sensitivity_medium_summary">Rexeitamento da palma predeterminado</string>
+    <string name="touch_sensitivity_high_summary">Menos filtrado da palma para que os toques e desprazamentos sigan o dedo máis de preto. Ideal para xogos; poden rexistrarse toques da palma e dos bordos da pantalla.</string>
+    <string name="touch_sensitivity_unavailable">Non dispoñible</string>
     <string name="smart_cover_title">Funda magnética</string>
     <string name="smart_cover_summary">Suspender e bloquear ao pechar a funda magnética</string>
     <string name="pen_notifications_title">Notificacións de conexión do lapis</string>
@@ -200,6 +205,9 @@
     <string name="perf_refresh_rate_none">Sen bloqueo</string>
     <string name="perf_advanced_reset_title">Restablecer á predefinición</string>
     <string name="tile_reading_low_refresh">Lectura 30 Hz</string>
-    <string name="tile_touch_game_mode">Modo de xogo táctil</string>
+    <string name="tile_touch_sensitivity">Sensibilidade táctil</string>
+    <string name="tile_touch_sensitivity_low">Rexeitamento da palma</string>
+    <string name="tile_touch_sensitivity_medium">Estándar</string>
+    <string name="tile_touch_sensitivity_high">Resposta rápida</string>
     <string name="tile_smart_cover">Funda magnética</string>
 </resources>

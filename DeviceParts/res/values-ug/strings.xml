@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">ھازىر قايتا قوزغىتىش</string>
     <string name="ram_expansion_restart_later">كېيىن</string>
     <string name="display_parts_title">يېڭىلاش نىسبىتى ۋە چەكمە</string>
-    <string name="display_parts_summary">ئوقۇش ھالىتىنىڭ يېڭىلاش نىسبىتى ۋە چەكمە ئويۇن ھالىتى</string>
+    <string name="display_parts_summary">ئوقۇش ھالىتىنىڭ يېڭىلاش نىسبىتى ۋە چەكمە سەزگۈرلۈكى</string>
     <string name="category_display_title">يېڭىلاش نىسبىتى</string>
     <string name="category_touch_title">چەكمە</string>
     <string name="accessories_title">قوشۇمچە زاپچاسلار</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">ئوقۇش ھالىتىدە 30 Hz</string>
     <string name="reading_low_refresh_summary">ئوقۇش ھالىتى ئېچىلغاندا يېڭىلاش نىسبىتىنى تۆۋەنلىتىدۇ</string>
     <string name="reading_low_refresh_unavailable">ئوقۇش ھالىتىنى ئىشلەتكىلى بولمايدۇ</string>
-    <string name="touch_game_mode_title">چەكمە ئويۇن ھالىتى</string>
-    <string name="touch_game_mode_summary">چەكمە كونتروللىغۇچنىڭ ئويۇن ھالىتى. قايتا قوزغاتقاندىن كېيىن ئۆچۈرۈلىدۇ.</string>
-    <string name="touch_game_mode_unavailable">ئىشلەتكىلى بولمايدۇ</string>
+    <string name="touch_sensitivity_title">چەكمە سەزگۈرلۈكى</string>
+    <string name="touch_sensitivity_low">ئالقاننى رەت قىلىش (تۆۋەن)</string>
+    <string name="touch_sensitivity_medium">ئۆلچەملىك (ئوتتۇرا)</string>
+    <string name="touch_sensitivity_high">تېز ئىنكاس (يۇقىرى)</string>
+    <string name="touch_sensitivity_low_summary">ئالقاننى تېخىمۇ كۈچلۈك رەت قىلىدۇ، يېزىش ياكى قولنى ئېكرانغا قويۇشقا ماس كېلىدۇ</string>
+    <string name="touch_sensitivity_medium_summary">ئالقاننى رەت قىلىشنىڭ كۆڭۈلدىكى دەرىجىسى</string>
+    <string name="touch_sensitivity_high_summary">ئالقاننى رەت قىلىشنى ئازايتىپ، چېكىش ۋە سىيرىشنىڭ بارمىقىڭىزغا تېخىمۇ يېقىندىن ئەگىشىشىگە يول قويىدۇ. ئويۇنغا ماس؛ ئالقان ۋە ئېكران گىرۋەكلىرىمۇ چەكمە سۈپىتىدە خاتىرىلىنىشى مۇمكىن.</string>
+    <string name="touch_sensitivity_unavailable">ئىشلەتكىلى بولمايدۇ</string>
     <string name="smart_cover_title">ماگنىتلىق قاپ</string>
     <string name="smart_cover_summary">ماگنىتلىق قاپ يېپىلغاندا ئېكراننى ئۆچۈرۈپ قۇلۇپلاش</string>
     <string name="pen_notifications_title">قەلەم ئۇلىنىش ئۇقتۇرۇشلىرى</string>
@@ -207,6 +212,9 @@
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">ئالدىن بەلگىلەنگەنگە قايتۇرۇش</string>
     <string name="tile_reading_low_refresh">ئوقۇش 30 Hz</string>
-    <string name="tile_touch_game_mode">چەكمە ئويۇن ھالىتى</string>
+    <string name="tile_touch_sensitivity">چەكمە سەزگۈرلۈكى</string>
+    <string name="tile_touch_sensitivity_low">ئالقاننى رەت قىلىش</string>
+    <string name="tile_touch_sensitivity_medium">ئۆلچەملىك</string>
+    <string name="tile_touch_sensitivity_high">تېز ئىنكاس</string>
     <string name="tile_smart_cover">ماگنىتلىق قاپ</string>
 </resources>

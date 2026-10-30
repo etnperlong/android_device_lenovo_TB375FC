@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">ఇప్పుడే రీస్టార్ట్ చేయండి</string>
     <string name="ram_expansion_restart_later">తర్వాత</string>
     <string name="display_parts_title">రిఫ్రెష్ రేట్ మరియు టచ్</string>
-    <string name="display_parts_summary">రీడింగ్ మోడ్ రిఫ్రెష్ రేట్, టచ్ గేమ్ మోడ్</string>
+    <string name="display_parts_summary">రీడింగ్ మోడ్ రిఫ్రెష్ రేట్, టచ్ సున్నితత్వం</string>
     <string name="category_display_title">రిఫ్రెష్ రేట్</string>
     <string name="category_touch_title">టచ్</string>
     <string name="accessories_title">ఉపకరణాలు</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">రీడింగ్ మోడ్‌లో 30 Hz</string>
     <string name="reading_low_refresh_summary">రీడింగ్ మోడ్ ఆన్‌లో ఉన్నప్పుడు రిఫ్రెష్ రేట్‌ను తగ్గించండి</string>
     <string name="reading_low_refresh_unavailable">రీడింగ్ మోడ్ అందుబాటులో లేదు</string>
-    <string name="touch_game_mode_title">టచ్ గేమ్ మోడ్</string>
-    <string name="touch_game_mode_summary">టచ్ కంట్రోలర్ గేమ్ మోడ్. రీస్టార్ట్ చేసిన తర్వాత మళ్లీ ఆఫ్ అవుతుంది.</string>
-    <string name="touch_game_mode_unavailable">అందుబాటులో లేదు</string>
+    <string name="touch_sensitivity_title">టచ్ సున్నితత్వం</string>
+    <string name="touch_sensitivity_low">అరచేతి తిరస్కరణ (తక్కువ)</string>
+    <string name="touch_sensitivity_medium">ప్రామాణికం (మధ్యస్థం)</string>
+    <string name="touch_sensitivity_high">వేగవంతమైన స్పందన (ఎక్కువ)</string>
+    <string name="touch_sensitivity_low_summary">అరచేతి తిరస్కరణను మరింత బలపరుస్తుంది; రాయడానికి లేదా స్క్రీన్‌పై చేతిని ఉంచడానికి అనుకూలం</string>
+    <string name="touch_sensitivity_medium_summary">అరచేతి తిరస్కరణకు డిఫాల్ట్ స్థాయి</string>
+    <string name="touch_sensitivity_high_summary">అరచేతి తిరస్కరణను తగ్గించి, ట్యాప్‌లు మరియు స్వైప్‌లు మీ వేలిని మరింత దగ్గరగా అనుసరించేలా చేస్తుంది. గేమ్‌లకు మంచిది; అరచేతులు, స్క్రీన్ అంచులు కూడా టచ్‌లుగా నమోదు కావచ్చు.</string>
+    <string name="touch_sensitivity_unavailable">అందుబాటులో లేదు</string>
     <string name="smart_cover_title">మాగ్నెటిక్ కవర్</string>
     <string name="smart_cover_summary">మాగ్నెటిక్ కవర్ మూసినప్పుడు నిద్రలోకి వెళ్లి లాక్ చేయి</string>
     <string name="pen_notifications_title">స్టయిలస్ కనెక్షన్ నోటిఫికేషన్‌లు</string>
@@ -199,6 +204,9 @@
     <string name="perf_refresh_rate_none">లాక్ చేయలేదు</string>
     <string name="perf_advanced_reset_title">ప్రీసెట్‌కు రీసెట్ చేయండి</string>
     <string name="tile_reading_low_refresh">రీడింగ్ 30 Hz</string>
-    <string name="tile_touch_game_mode">టచ్ గేమ్ మోడ్</string>
+    <string name="tile_touch_sensitivity">టచ్ సున్నితత్వం</string>
+    <string name="tile_touch_sensitivity_low">అరచేతి తిరస్కరణ</string>
+    <string name="tile_touch_sensitivity_medium">ప్రామాణికం</string>
+    <string name="tile_touch_sensitivity_high">వేగవంతమైన స్పందన</string>
     <string name="tile_smart_cover">మాగ్నెటిక్ కవర్</string>
 </resources>

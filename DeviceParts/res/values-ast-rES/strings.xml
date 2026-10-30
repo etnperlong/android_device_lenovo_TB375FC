@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Reaniciar</string>
     <string name="ram_expansion_restart_later">Más tarde</string>
     <string name="display_parts_title">Frecuencia d’anovamientu y pantalla táctil</string>
-    <string name="display_parts_summary">Frecuencia d’anovamientu del mou de llectura, mou de xuegu táctil</string>
+    <string name="display_parts_summary">Frecuencia d’anovamientu del mou de llectura, sensibilidá táctil</string>
     <string name="category_display_title">Frecuencia d’anovamientu</string>
     <string name="category_touch_title">Pantalla táctil</string>
     <string name="accessories_title">Axustes d\'accesorios</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz en mou de llectura</string>
     <string name="reading_low_refresh_summary">Amenorgar la frecuencia d’anovamientu mientres ta activáu’l mou de llectura</string>
     <string name="reading_low_refresh_unavailable">El mou de llectura nun ta disponible</string>
-    <string name="touch_game_mode_title">Mou de xuegu táctil</string>
-    <string name="touch_game_mode_summary">Mou de xuegu del controlador táctil. Desactívase otra vegada al reaniciar.</string>
-    <string name="touch_game_mode_unavailable">Nun ta disponible</string>
+    <string name="touch_sensitivity_title">Sensibilidá táctil</string>
+    <string name="touch_sensitivity_low">Refugu de la palma (baxa)</string>
+    <string name="touch_sensitivity_medium">Estándar (media)</string>
+    <string name="touch_sensitivity_high">Respuesta rápida (alta)</string>
+    <string name="touch_sensitivity_low_summary">Refugu más fuerte de la palma, pa escribir o sofitar la mano na pantalla</string>
+    <string name="touch_sensitivity_medium_summary">Refugu de la palma predetermináu</string>
+    <string name="touch_sensitivity_high_summary">Menos filtráu de la palma pa que los toques y deslizamientos sigan el deu más de cerca. Afayadizu pa xuegos; les palmes y los bordes pueden rexistrar toques.</string>
+    <string name="touch_sensitivity_unavailable">Nun ta disponible</string>
     <string name="smart_cover_title">Funda magnética</string>
     <string name="smart_cover_summary">Suspender y bloquiar al zarrar la funda magnética</string>
     <string name="pen_notifications_title">Avisos de conexón del llápiz</string>
@@ -200,6 +205,9 @@
     <string name="perf_refresh_rate_none">Ensin bloquéu</string>
     <string name="perf_advanced_reset_title">Restablecer a la predefinición</string>
     <string name="tile_reading_low_refresh">Llectura 30 Hz</string>
-    <string name="tile_touch_game_mode">Mou de xuegu táctil</string>
+    <string name="tile_touch_sensitivity">Sensibilidá táctil</string>
+    <string name="tile_touch_sensitivity_low">Refugu de la palma</string>
+    <string name="tile_touch_sensitivity_medium">Estándar</string>
+    <string name="tile_touch_sensitivity_high">Respuesta rápida</string>
     <string name="tile_smart_cover">Funda magnética</string>
 </resources>

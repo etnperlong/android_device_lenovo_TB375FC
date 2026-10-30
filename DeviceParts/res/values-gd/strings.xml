@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Ath-thòisich</string>
     <string name="ram_expansion_restart_later">Nas anmoiche</string>
     <string name="display_parts_title">Ìre ath-nuadhachaidh agus suathadh</string>
-    <string name="display_parts_summary">Ìre ath-nuadhachaidh modh leughaidh, modh geama suathaidh</string>
+    <string name="display_parts_summary">Ìre ath-nuadhachaidh a’ mhòid leughaidh, mothalachd suathaidh</string>
     <string name="category_display_title">Ìre ath-nuadhachaidh</string>
     <string name="category_touch_title">Suathadh</string>
     <string name="accessories_title">Goireasan</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz sa mhodh leughaidh</string>
     <string name="reading_low_refresh_summary">Lùghdaich an ìre ath-nuadhachaidh nuair a bhios am modh leughaidh air</string>
     <string name="reading_low_refresh_unavailable">Chan eil am modh leughaidh ri fhaighinn</string>
-    <string name="touch_game_mode_title">Modh geama suathaidh</string>
-    <string name="touch_game_mode_summary">Modh geama an rianadair-suathaidh. Tionndaidhidh e dheth a-rithist an dèidh ath-thòiseachaidh.</string>
-    <string name="touch_game_mode_unavailable">Chan eil e ri fhaighinn</string>
+    <string name="touch_sensitivity_title">Mothalachd suathaidh</string>
+    <string name="touch_sensitivity_low">Diùltadh pailme (ìosal)</string>
+    <string name="touch_sensitivity_medium">Coitcheann (meadhanach)</string>
+    <string name="touch_sensitivity_high">Freagairteach (àrd)</string>
+    <string name="touch_sensitivity_low_summary">Diùltadh nas làidire air suathadh na pailme, airson sgrìobhadh no làmh a chur air an sgrìn</string>
+    <string name="touch_sensitivity_medium_summary">Diùltadh àbhaisteach air suathadh na pailme</string>
+    <string name="touch_sensitivity_high_summary">Nas lugha de shìoladh pailme, gus am bi tapadh is sleamhnachadh a’ leantainn do mheòir nas dlùithe. Freagarrach do gheamannan; faodaidh suathadh na pailme agus oirean na sgrìn clàradh.</string>
+    <string name="touch_sensitivity_unavailable">Chan eil e ri fhaighinn</string>
     <string name="smart_cover_title">Còmhdach magnetach</string>
     <string name="smart_cover_summary">Cuir na chadal is glas nuair a bhios an còmhdach magnetach dùinte</string>
     <string name="pen_notifications_title">Brathan mu cheangal a’ phinn</string>
@@ -203,6 +208,9 @@
     <string name="perf_refresh_rate_none">Gun ghlasadh</string>
     <string name="perf_advanced_reset_title">Ath-shuidhich chun an ro-shuidhichte</string>
     <string name="tile_reading_low_refresh">Leughadh 30 Hz</string>
-    <string name="tile_touch_game_mode">Modh geama suathaidh</string>
+    <string name="tile_touch_sensitivity">Mothalachd suathaidh</string>
+    <string name="tile_touch_sensitivity_low">Diùltadh pailme</string>
+    <string name="tile_touch_sensitivity_medium">Coitcheann</string>
+    <string name="tile_touch_sensitivity_high">Freagairteach</string>
     <string name="tile_smart_cover">Còmhdach magnetach</string>
 </resources>

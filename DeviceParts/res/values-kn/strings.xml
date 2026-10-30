@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">ಮರುಪ್ರಾರಂಭಿಸಿ</string>
     <string name="ram_expansion_restart_later">ನಂತರ</string>
     <string name="display_parts_title">ರಿಫ್ರೆಶ್ ರೇಟ್ ಮತ್ತು ಸ್ಪರ್ಶ</string>
-    <string name="display_parts_summary">ಓದುವ ರೀತಿಯ ರಿಫ್ರೆಶ್ ರೇಟ್, ಟಚ್ ಗೇಮ್ ಮೋಡ್</string>
+    <string name="display_parts_summary">ಓದುವ ರೀತಿಯ ರಿಫ್ರೆಶ್ ರೇಟ್, ಸ್ಪರ್ಶದ ಸಂವೇದನಾಶೀಲತೆ</string>
     <string name="category_display_title">ರಿಫ್ರೆಶ್ ರೇಟ್</string>
     <string name="category_touch_title">ಸ್ಪರ್ಶ</string>
     <string name="accessories_title">ಪರಿಕರಗಳು</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">ಓದುವ ರೀತಿಯಲ್ಲಿ 30 Hz</string>
     <string name="reading_low_refresh_summary">ಓದುವ ರೀತಿ ಆನ್ ಆಗಿರುವಾಗ ರಿಫ್ರೆಶ್ ರೇಟ್ ಕಡಿಮೆ ಮಾಡಿ</string>
     <string name="reading_low_refresh_unavailable">ಓದುವ ರೀತಿ ಲಭ್ಯವಿಲ್ಲ</string>
-    <string name="touch_game_mode_title">ಟಚ್ ಗೇಮ್ ಮೋಡ್</string>
-    <string name="touch_game_mode_summary">ಟಚ್ ನಿಯಂತ್ರಕದ ಗೇಮ್ ಮೋಡ್. ಮರುಪ್ರಾರಂಭಿಸಿದ ನಂತರ ಇದು ಮತ್ತೆ ಆಫ್ ಆಗುತ್ತದೆ.</string>
-    <string name="touch_game_mode_unavailable">ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="touch_sensitivity_title">ಸ್ಪರ್ಶದ ಸಂವೇದನಾಶೀಲತೆ</string>
+    <string name="touch_sensitivity_low">ಅಂಗೈ ಸ್ಪರ್ಶ ನಿರಾಕರಣೆ (ಕಡಿಮೆ)</string>
+    <string name="touch_sensitivity_medium">ಪ್ರಮಾಣಿತ (ಮಧ್ಯಮ)</string>
+    <string name="touch_sensitivity_high">ತ್ವರಿತ ಪ್ರತಿಕ್ರಿಯೆ (ಹೆಚ್ಚು)</string>
+    <string name="touch_sensitivity_low_summary">ಬರೆಯುವಾಗ ಅಥವಾ ಪರದೆಯ ಮೇಲೆ ಕೈ ಇಡುವಾಗ ಅಂಗೈ ಸ್ಪರ್ಶವನ್ನು ಹೆಚ್ಚು ಪರಿಣಾಮಕಾರಿಯಾಗಿ ನಿರಾಕರಿಸುತ್ತದೆ</string>
+    <string name="touch_sensitivity_medium_summary">ಅಂಗೈ ಸ್ಪರ್ಶ ನಿರಾಕರಣೆಯ ಡಿಫಾಲ್ಟ್ ಮಟ್ಟ</string>
+    <string name="touch_sensitivity_high_summary">ಅಂಗೈಗೆ ಕಡಿಮೆ ಫಿಲ್ಟರಿಂಗ್, ಇದರಿಂದ ಟ್ಯಾಪ್ ಮತ್ತು ಸ್ವೈಪ್‌ಗಳು ನಿಮ್ಮ ಬೆರಳನ್ನು ಹೆಚ್ಚು ನಿಕಟವಾಗಿ ಅನುಸರಿಸುತ್ತವೆ. ಆಟಗಳಿಗೆ ಸೂಕ್ತ; ಅಂಗೈ ಮತ್ತು ಪರದೆಯ ಅಂಚಿನ ಸ್ಪರ್ಶಗಳು ದಾಖಲಾಗಬಹುದು.</string>
+    <string name="touch_sensitivity_unavailable">ಲಭ್ಯವಿಲ್ಲ</string>
     <string name="smart_cover_title">ಮ್ಯಾಗ್ನೆಟಿಕ್ ಕವರ್</string>
     <string name="smart_cover_summary">ಮ್ಯಾಗ್ನೆಟಿಕ್ ಕವರ್ ಮುಚ್ಚಿದಾಗ ಪರದೆಯನ್ನು ಆಫ್ ಮಾಡಿ ಲಾಕ್ ಮಾಡಿ</string>
     <string name="pen_notifications_title">ಸ್ಟೈಲಸ್ ಸಂಪರ್ಕ ಅಧಿಸೂಚನೆಗಳು</string>
@@ -200,6 +205,9 @@
     <string name="perf_refresh_rate_none">ಲಾಕ್ ಮಾಡಿಲ್ಲ</string>
     <string name="perf_advanced_reset_title">ಪ್ರಿಸೆಟ್‌ಗೆ ಮರುಹೊಂದಿಸಿ</string>
     <string name="tile_reading_low_refresh">ಓದುವ ರೀತಿ 30 Hz</string>
-    <string name="tile_touch_game_mode">ಟಚ್ ಗೇಮ್ ಮೋಡ್</string>
+    <string name="tile_touch_sensitivity">ಸ್ಪರ್ಶದ ಸಂವೇದನಾಶೀಲತೆ</string>
+    <string name="tile_touch_sensitivity_low">ಅಂಗೈ ಸ್ಪರ್ಶ ನಿರಾಕರಣೆ</string>
+    <string name="tile_touch_sensitivity_medium">ಪ್ರಮಾಣಿತ</string>
+    <string name="tile_touch_sensitivity_high">ತ್ವರಿತ ಪ್ರತಿಕ್ರಿಯೆ</string>
     <string name="tile_smart_cover">ಮ್ಯಾಗ್ನೆಟಿಕ್ ಕವರ್</string>
 </resources>

@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Ponovo pokreni</string>
     <string name="ram_expansion_restart_later">Kasnije</string>
     <string name="display_parts_title">Brzina osvežavanja i dodir</string>
-    <string name="display_parts_summary">Brzina osvežavanja u režimu čitanja, režim za igre ekrana osetljivog na dodir</string>
+    <string name="display_parts_summary">Brzina osvežavanja u režimu čitanja, osetljivost dodira</string>
     <string name="category_display_title">Brzina osvežavanja</string>
     <string name="category_touch_title">Ekran osetljiv na dodir</string>
     <string name="accessories_title">Dodaci</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz u režimu čitanja</string>
     <string name="reading_low_refresh_summary">Smanji brzinu osvežavanja dok je režim čitanja uključen</string>
     <string name="reading_low_refresh_unavailable">Režim čitanja nije dostupan</string>
-    <string name="touch_game_mode_title">Režim za igre ekrana osetljivog na dodir</string>
-    <string name="touch_game_mode_summary">Režim za igre kontrolera ekrana osetljivog na dodir. Ponovo se isključuje nakon ponovnog pokretanja.</string>
-    <string name="touch_game_mode_unavailable">Nije dostupno</string>
+    <string name="touch_sensitivity_title">Osetljivost dodira</string>
+    <string name="touch_sensitivity_low">Odbacivanje dodira dlana (nisko)</string>
+    <string name="touch_sensitivity_medium">Standardno (srednje)</string>
+    <string name="touch_sensitivity_high">Brz odziv (visoko)</string>
+    <string name="touch_sensitivity_low_summary">Jače odbacivanje dodira dlana, za pisanje ili oslanjanje ruke na ekran</string>
+    <string name="touch_sensitivity_medium_summary">Podrazumevano odbacivanje dodira dlana</string>
+    <string name="touch_sensitivity_high_summary">Slabije filtriranje dodira dlana, pa dodiri i prevlačenja bliže prate prst. Dobro za igre; dlanovi i ivice mogu da registruju dodire.</string>
+    <string name="touch_sensitivity_unavailable">Nije dostupno</string>
     <string name="smart_cover_title">Magnetna futrola</string>
     <string name="smart_cover_summary">Pređi u stanje mirovanja i zaključaj kada se magnetna futrola zatvori</string>
     <string name="pen_notifications_title">Obaveštenja o povezivanju olovke</string>
@@ -207,6 +212,9 @@
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Vrati unapred zadati profil</string>
     <string name="tile_reading_low_refresh">Čitanje 30 Hz</string>
-    <string name="tile_touch_game_mode">Režim igara na dodir</string>
+    <string name="tile_touch_sensitivity">Osetljivost dodira</string>
+    <string name="tile_touch_sensitivity_low">Odbacivanje dlana</string>
+    <string name="tile_touch_sensitivity_medium">Standardno</string>
+    <string name="tile_touch_sensitivity_high">Brz odziv</string>
     <string name="tile_smart_cover">Magnetna futrola</string>
 </resources>

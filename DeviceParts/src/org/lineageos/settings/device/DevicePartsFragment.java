@@ -9,6 +9,7 @@ import android.content.ContentResolver;
 import android.os.Bundle;
 import android.provider.Settings;
 
+import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.TwoStatePreference;
 
@@ -20,7 +21,7 @@ import org.lineageos.settings.device.cover.CoverPolicy;
 import org.lineageos.settings.device.display.DisplayPolicyService;
 import org.lineageos.settings.device.keyboard.KeyboardService;
 import org.lineageos.settings.device.pen.PenService;
-import org.lineageos.settings.device.touch.TouchGameMode;
+import org.lineageos.settings.device.touch.TouchSensitivity;
 
 /**
  * Shows one of the preference screens (all settings, or the subset for one Settings page). Every
@@ -35,7 +36,7 @@ public class DevicePartsFragment extends SettingsBasePreferenceFragment
     private static final String KEY_KEYBOARD_NOTIFICATIONS = "keyboard_notifications";
     private static final String KEY_PEN_REFRESH_CAP = "pen_refresh_cap";
     private static final String KEY_READING_LOW_REFRESH = "reading_low_refresh";
-    private static final String KEY_TOUCH_GAME_MODE = "touch_game_mode";
+    private static final String KEY_TOUCH_SENSITIVITY = "touch_sensitivity";
     private static final String KEY_SMART_COVER = "smart_cover";
 
     static DevicePartsFragment newInstance(int preferencesResId) {
@@ -50,7 +51,7 @@ public class DevicePartsFragment extends SettingsBasePreferenceFragment
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         setPreferencesFromResource(requireArguments().getInt(ARG_PREFERENCES), rootKey);
         for (String key : new String[] {KEY_PEN_NOTIFICATIONS, KEY_KEYBOARD_NOTIFICATIONS,
-                KEY_PEN_REFRESH_CAP, KEY_READING_LOW_REFRESH, KEY_TOUCH_GAME_MODE,
+                KEY_PEN_REFRESH_CAP, KEY_READING_LOW_REFRESH, KEY_TOUCH_SENSITIVITY,
                 KEY_SMART_COVER}) {
             final Preference pref = findPreference(key);
             if (pref != null) {
@@ -95,13 +96,14 @@ public class DevicePartsFragment extends SettingsBasePreferenceFragment
             }
         }
 
-        final TwoStatePreference gameMode = findPreference(KEY_TOUCH_GAME_MODE);
-        if (gameMode != null) {
-            final Boolean enabled = TouchGameMode.read();
-            gameMode.setEnabled(enabled != null);
-            gameMode.setChecked(enabled != null && enabled);
-            if (enabled == null) {
-                gameMode.setSummary(R.string.touch_game_mode_unavailable);
+        final ListPreference touch = findPreference(KEY_TOUCH_SENSITIVITY);
+        if (touch != null) {
+            final boolean available = TouchSensitivity.isAvailable();
+            touch.setEnabled(available);
+            if (available) {
+                updateTouchSensitivity(touch, TouchSensitivity.getLevel(requireContext()));
+            } else {
+                touch.setSummary(R.string.touch_sensitivity_unavailable);
             }
         }
 
@@ -113,6 +115,14 @@ public class DevicePartsFragment extends SettingsBasePreferenceFragment
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (KEY_TOUCH_SENSITIVITY.equals(preference.getKey())) {
+            final int level = Integer.parseInt((String) newValue);
+            if (!TouchSensitivity.setLevel(requireContext(), level)) {
+                return false;
+            }
+            updateTouchSensitivity((ListPreference) preference, level);
+            return true;
+        }
         final boolean enabled = (Boolean) newValue;
         final ContentResolver cr = requireContext().getContentResolver();
         switch (preference.getKey()) {
@@ -128,12 +138,18 @@ public class DevicePartsFragment extends SettingsBasePreferenceFragment
             case KEY_READING_LOW_REFRESH:
                 return Settings.Secure.putInt(cr, DisplayPolicyService.KEY_READING_LOW_REFRESH,
                         enabled ? 1 : 0);
-            case KEY_TOUCH_GAME_MODE:
-                return TouchGameMode.write(enabled);
             case KEY_SMART_COVER:
                 return Settings.Secure.putInt(cr, CoverPolicy.KEY_SMART_COVER, enabled ? 1 : 0);
             default:
                 return false;
         }
+    }
+
+    /** Selects the level and shows its name and what it does. */
+    private void updateTouchSensitivity(ListPreference touch, int level) {
+        touch.setValueIndex(level);
+        final CharSequence[] details =
+                getResources().getTextArray(R.array.touch_sensitivity_summaries);
+        touch.setSummary(touch.getEntries()[level] + "\n" + details[level]);
     }
 }

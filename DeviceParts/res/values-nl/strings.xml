@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Nu herstarten</string>
     <string name="ram_expansion_restart_later">Later</string>
     <string name="display_parts_title">Vernieuwingssnelheid en touch</string>
-    <string name="display_parts_summary">Vernieuwingssnelheid in leesmodus, touchgamemodus</string>
+    <string name="display_parts_summary">Vernieuwingssnelheid in leesmodus, touchgevoeligheid</string>
     <string name="category_display_title">Vernieuwingssnelheid</string>
     <string name="category_touch_title">Touch</string>
     <string name="accessories_title">Accessoires</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz in leesmodus</string>
     <string name="reading_low_refresh_summary">Verlaag de vernieuwingssnelheid wanneer de leesmodus is ingeschakeld</string>
     <string name="reading_low_refresh_unavailable">Leesmodus is niet beschikbaar</string>
-    <string name="touch_game_mode_title">Touchgamemodus</string>
-    <string name="touch_game_mode_summary">Gamemodus van de touchcontroller. Wordt na een herstart weer uitgeschakeld.</string>
-    <string name="touch_game_mode_unavailable">Niet beschikbaar</string>
+    <string name="touch_sensitivity_title">Touchgevoeligheid</string>
+    <string name="touch_sensitivity_low">Handpalmonderdrukking (laag)</string>
+    <string name="touch_sensitivity_medium">Standaard (gemiddeld)</string>
+    <string name="touch_sensitivity_high">Responsief (hoog)</string>
+    <string name="touch_sensitivity_low_summary">Sterkere onderdrukking van handpalmen, geschikt om te schrijven of je hand op het scherm te laten rusten</string>
+    <string name="touch_sensitivity_medium_summary">Standaardonderdrukking van handpalmen</string>
+    <string name="touch_sensitivity_high_summary">Minder onderdrukking van handpalmen, zodat tikken en vegen je vinger nauwkeuriger volgen. Geschikt voor games; handpalmen en randen kunnen aanrakingen registreren.</string>
+    <string name="touch_sensitivity_unavailable">Niet beschikbaar</string>
     <string name="smart_cover_title">Magnetische hoes</string>
     <string name="smart_cover_summary">In slaapstand zetten en vergrendelen wanneer de magnetische hoes wordt gesloten</string>
     <string name="pen_notifications_title">Meldingen over stylusverbinding</string>
@@ -199,6 +204,9 @@
     <string name="perf_refresh_rate_none">Niet vergrendeld</string>
     <string name="perf_advanced_reset_title">Terugzetten naar voorinstelling</string>
     <string name="tile_reading_low_refresh">Leesmodus 30 Hz</string>
-    <string name="tile_touch_game_mode">Touchgamemodus</string>
+    <string name="tile_touch_sensitivity">Touchgevoeligheid</string>
+    <string name="tile_touch_sensitivity_low">Handpalmonderdrukking</string>
+    <string name="tile_touch_sensitivity_medium">Standaard</string>
+    <string name="tile_touch_sensitivity_high">Responsief</string>
     <string name="tile_smart_cover">Magnetische hoes</string>
 </resources>

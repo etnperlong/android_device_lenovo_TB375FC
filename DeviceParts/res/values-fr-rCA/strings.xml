@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Redémarrer</string>
     <string name="ram_expansion_restart_later">Plus tard</string>
     <string name="display_parts_title">Taux de rafraîchissement et tactile</string>
-    <string name="display_parts_summary">Taux de rafraîchissement du mode Lecture, mode jeu tactile</string>
+    <string name="display_parts_summary">Taux de rafraîchissement du mode Lecture, sensibilité tactile</string>
     <string name="category_display_title">Taux de rafraîchissement</string>
     <string name="category_touch_title">Tactile</string>
     <string name="accessories_title">Accessoires</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz en mode Lecture</string>
     <string name="reading_low_refresh_summary">Réduire le taux de rafraîchissement lorsque le mode Lecture est activé</string>
     <string name="reading_low_refresh_unavailable">Le mode Lecture n’est pas disponible</string>
-    <string name="touch_game_mode_title">Mode jeu tactile</string>
-    <string name="touch_game_mode_summary">Mode jeu du contrôleur tactile. Il se désactive après un redémarrage.</string>
-    <string name="touch_game_mode_unavailable">Non disponible</string>
+    <string name="touch_sensitivity_title">Sensibilité tactile</string>
+    <string name="touch_sensitivity_low">Rejet de la paume (faible)</string>
+    <string name="touch_sensitivity_medium">Standard (moyenne)</string>
+    <string name="touch_sensitivity_high">Réponse rapide (élevée)</string>
+    <string name="touch_sensitivity_low_summary">Rejet renforcé de la paume, pour écrire ou poser la main sur l’écran</string>
+    <string name="touch_sensitivity_medium_summary">Rejet de la paume par défaut</string>
+    <string name="touch_sensitivity_high_summary">Filtrage réduit de la paume pour suivre les appuis et balayages du doigt de plus près. Idéal pour les jeux ; les paumes et les bords peuvent enregistrer des appuis.</string>
+    <string name="touch_sensitivity_unavailable">Non disponible</string>
     <string name="smart_cover_title">Étui magnétique</string>
     <string name="smart_cover_summary">Mettre en veille et verrouiller lorsque l’étui magnétique est fermé</string>
     <string name="pen_notifications_title">Notifications de connexion du stylet</string>
@@ -206,6 +211,9 @@
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Rétablir le préréglage</string>
     <string name="tile_reading_low_refresh">Lecture 30 Hz</string>
-    <string name="tile_touch_game_mode">Mode jeu tactile</string>
+    <string name="tile_touch_sensitivity">Sensibilité tactile</string>
+    <string name="tile_touch_sensitivity_low">Rejet de la paume</string>
+    <string name="tile_touch_sensitivity_medium">Standard</string>
+    <string name="tile_touch_sensitivity_high">Réponse rapide</string>
     <string name="tile_smart_cover">Étui magnétique</string>
 </resources>

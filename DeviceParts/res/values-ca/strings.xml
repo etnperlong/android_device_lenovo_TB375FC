@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Reinicia</string>
     <string name="ram_expansion_restart_later">Més tard</string>
     <string name="display_parts_title">Freqüència d’actualització i pantalla tàctil</string>
-    <string name="display_parts_summary">Freqüència d’actualització del mode lectura, mode de joc tàctil</string>
+    <string name="display_parts_summary">Freqüència d’actualització del mode lectura, sensibilitat tàctil</string>
     <string name="category_display_title">Freqüència d’actualització</string>
     <string name="category_touch_title">Pantalla tàctil</string>
     <string name="accessories_title">Accessoris</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz en mode lectura</string>
     <string name="reading_low_refresh_summary">Redueix la freqüència d’actualització mentre el mode lectura està activat</string>
     <string name="reading_low_refresh_unavailable">El mode lectura no està disponible</string>
-    <string name="touch_game_mode_title">Mode de joc tàctil</string>
-    <string name="touch_game_mode_summary">Mode de joc del controlador tàctil. Es torna a desactivar en reiniciar.</string>
-    <string name="touch_game_mode_unavailable">No disponible</string>
+    <string name="touch_sensitivity_title">Sensibilitat tàctil</string>
+    <string name="touch_sensitivity_low">Rebuig del palmell (baixa)</string>
+    <string name="touch_sensitivity_medium">Estàndard (mitjana)</string>
+    <string name="touch_sensitivity_high">Resposta ràpida (alta)</string>
+    <string name="touch_sensitivity_low_summary">Rebuig més fort del palmell, per escriure o recolzar la mà a la pantalla</string>
+    <string name="touch_sensitivity_medium_summary">Rebuig del palmell predeterminat</string>
+    <string name="touch_sensitivity_high_summary">Filtratge més feble del palmell perquè els tocs i lliscaments segueixin el dit més de prop. Ideal per a jocs; els palmells i les vores poden registrar tocs.</string>
+    <string name="touch_sensitivity_unavailable">No disponible</string>
     <string name="smart_cover_title">Funda magnètica</string>
     <string name="smart_cover_summary">Posa en suspensió i bloqueja quan es tanca la funda magnètica</string>
     <string name="pen_notifications_title">Notificacions de connexió del llapis</string>
@@ -201,6 +206,9 @@
     <string name="perf_refresh_rate_none">Sense bloqueig</string>
     <string name="perf_advanced_reset_title">Restableix la predefinició</string>
     <string name="tile_reading_low_refresh">Lectura 30 Hz</string>
-    <string name="tile_touch_game_mode">Mode de joc tàctil</string>
+    <string name="tile_touch_sensitivity">Sensibilitat tàctil</string>
+    <string name="tile_touch_sensitivity_low">Rebuig del palmell</string>
+    <string name="tile_touch_sensitivity_medium">Estàndard</string>
+    <string name="tile_touch_sensitivity_high">Resposta ràpida</string>
     <string name="tile_smart_cover">Funda magnètica</string>
 </resources>

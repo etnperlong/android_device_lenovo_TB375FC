@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Перезапустить</string>
     <string name="ram_expansion_restart_later">Позже</string>
     <string name="display_parts_title">Частота обновления и сенсорный экран</string>
-    <string name="display_parts_summary">Частота обновления в режиме чтения, игровой режим сенсорного экрана</string>
+    <string name="display_parts_summary">Частота обновления в режиме чтения, чувствительность касания</string>
     <string name="category_display_title">Частота обновления</string>
     <string name="category_touch_title">Сенсорный экран</string>
     <string name="accessories_title">Аксессуары</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Гц в режиме чтения</string>
     <string name="reading_low_refresh_summary">Снижать частоту обновления при включённом режиме чтения</string>
     <string name="reading_low_refresh_unavailable">Режим чтения недоступен</string>
-    <string name="touch_game_mode_title">Игровой режим сенсорного экрана</string>
-    <string name="touch_game_mode_summary">Игровой режим контроллера сенсорного экрана. Отключается после перезагрузки.</string>
-    <string name="touch_game_mode_unavailable">Недоступно</string>
+    <string name="touch_sensitivity_title">Чувствительность касания</string>
+    <string name="touch_sensitivity_low">Защита от касания ладонью (низкая)</string>
+    <string name="touch_sensitivity_medium">Стандартная (средняя)</string>
+    <string name="touch_sensitivity_high">Быстрый отклик (высокая)</string>
+    <string name="touch_sensitivity_low_summary">Усиленная защита от касания ладонью — для письма или если положить ладонь на экран</string>
+    <string name="touch_sensitivity_medium_summary">Стандартный уровень защиты от касания ладонью</string>
+    <string name="touch_sensitivity_high_summary">Ослабленная защита от ладони, чтобы касания и жесты точнее следовали за пальцем. Подходит для игр; ладони и края экрана тоже могут регистрировать касания.</string>
+    <string name="touch_sensitivity_unavailable">Недоступно</string>
     <string name="smart_cover_title">Магнитный чехол</string>
     <string name="smart_cover_summary">Выключать экран и блокировать устройство при закрытии магнитного чехла</string>
     <string name="pen_notifications_title">Уведомления о подключении стилуса</string>
@@ -208,6 +213,9 @@
     <string name="perf_refresh_rate_hz">%1$d Гц</string>
     <string name="perf_advanced_reset_title">Сбросить до предустановки</string>
     <string name="tile_reading_low_refresh">Чтение 30 Гц</string>
-    <string name="tile_touch_game_mode">Игровой режим сенсора</string>
+    <string name="tile_touch_sensitivity">Чувствительность касания</string>
+    <string name="tile_touch_sensitivity_low">Защита от ладони</string>
+    <string name="tile_touch_sensitivity_medium">Стандартная</string>
+    <string name="tile_touch_sensitivity_high">Быстрый отклик</string>
     <string name="tile_smart_cover">Магнитный чехол</string>
 </resources>

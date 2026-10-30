@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Riavvia</string>
     <string name="ram_expansion_restart_later">Più tardi</string>
     <string name="display_parts_title">Frequenza di aggiornamento e tocco</string>
-    <string name="display_parts_summary">Frequenza di aggiornamento della modalità lettura, modalità gioco touch</string>
+    <string name="display_parts_summary">Frequenza di aggiornamento della modalità lettura, sensibilità al tocco</string>
     <string name="category_display_title">Frequenza di aggiornamento</string>
     <string name="category_touch_title">Tocco</string>
     <string name="accessories_title">Accessori</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz in modalità lettura</string>
     <string name="reading_low_refresh_summary">Riduci la frequenza di aggiornamento mentre la modalità lettura è attiva</string>
     <string name="reading_low_refresh_unavailable">La modalità lettura non è disponibile</string>
-    <string name="touch_game_mode_title">Modalità gioco touch</string>
-    <string name="touch_game_mode_summary">Modalità gioco del controller touch. Si disattiva al riavvio.</string>
-    <string name="touch_game_mode_unavailable">Non disponibile</string>
+    <string name="touch_sensitivity_title">Sensibilità al tocco</string>
+    <string name="touch_sensitivity_low">Rifiuto del tocco del palmo (bassa)</string>
+    <string name="touch_sensitivity_medium">Standard (media)</string>
+    <string name="touch_sensitivity_high">Risposta rapida (alta)</string>
+    <string name="touch_sensitivity_low_summary">Rifiuto più efficace del tocco del palmo, per scrivere o appoggiare la mano sullo schermo</string>
+    <string name="touch_sensitivity_medium_summary">Rifiuto predefinito del tocco del palmo</string>
+    <string name="touch_sensitivity_high_summary">Filtraggio del palmo più debole, così tocchi e scorrimenti seguono il dito più da vicino. Ideale per i giochi; i tocchi del palmo e dei bordi dello schermo potrebbero essere rilevati.</string>
+    <string name="touch_sensitivity_unavailable">Non disponibile</string>
     <string name="smart_cover_title">Custodia magnetica</string>
     <string name="smart_cover_summary">Sospendi e blocca quando la custodia magnetica è chiusa</string>
     <string name="pen_notifications_title">Notifiche di connessione della penna</string>
@@ -201,6 +206,9 @@
     <string name="perf_refresh_rate_none">Non bloccata</string>
     <string name="perf_advanced_reset_title">Ripristina preimpostazione</string>
     <string name="tile_reading_low_refresh">Lettura 30 Hz</string>
-    <string name="tile_touch_game_mode">Modalità gioco touch</string>
+    <string name="tile_touch_sensitivity">Sensibilità al tocco</string>
+    <string name="tile_touch_sensitivity_low">Rifiuto del palmo</string>
+    <string name="tile_touch_sensitivity_medium">Standard</string>
+    <string name="tile_touch_sensitivity_high">Risposta rapida</string>
     <string name="tile_smart_cover">Custodia magnetica</string>
 </resources>

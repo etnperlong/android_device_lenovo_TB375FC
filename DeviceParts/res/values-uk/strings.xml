@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Перезапустити</string>
     <string name="ram_expansion_restart_later">Пізніше</string>
     <string name="display_parts_title">Частота оновлення та сенсорний екран</string>
-    <string name="display_parts_summary">Частота оновлення в режимі читання, ігровий режим сенсорного екрана</string>
+    <string name="display_parts_summary">Частота оновлення в режимі читання, чутливість дотику</string>
     <string name="category_display_title">Частота оновлення</string>
     <string name="category_touch_title">Сенсорний екран</string>
     <string name="accessories_title">Аксесуари</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Гц у режимі читання</string>
     <string name="reading_low_refresh_summary">Знижувати частоту оновлення, коли ввімкнено режим читання</string>
     <string name="reading_low_refresh_unavailable">Режим читання недоступний</string>
-    <string name="touch_game_mode_title">Ігровий режим сенсорного екрана</string>
-    <string name="touch_game_mode_summary">Ігровий режим контролера сенсорного екрана. Вимикається після перезапуску.</string>
-    <string name="touch_game_mode_unavailable">Недоступно</string>
+    <string name="touch_sensitivity_title">Чутливість дотику</string>
+    <string name="touch_sensitivity_low">Відхилення дотику долонею (низька)</string>
+    <string name="touch_sensitivity_medium">Стандартна (середня)</string>
+    <string name="touch_sensitivity_high">Швидкий відгук (висока)</string>
+    <string name="touch_sensitivity_low_summary">Сильніше відхилення дотику долонею — для письма або коли рука спирається на екран</string>
+    <string name="touch_sensitivity_medium_summary">Стандартний рівень відхилення дотику долонею</string>
+    <string name="touch_sensitivity_high_summary">Слабше відхилення дотиків долонею, тож торкання та проведення точніше слідують за пальцем. Підходить для ігор; долоні й краї екрана також можуть реєструвати дотики.</string>
+    <string name="touch_sensitivity_unavailable">Недоступно</string>
     <string name="smart_cover_title">Магнітний чохол</string>
     <string name="smart_cover_summary">Переводити в режим сну й блокувати, коли магнітний чохол закрито</string>
     <string name="pen_notifications_title">Сповіщення про підключення стилуса</string>
@@ -208,6 +213,9 @@
     <string name="perf_refresh_rate_hz">%1$d Гц</string>
     <string name="perf_advanced_reset_title">Скинути до попереднього налаштування</string>
     <string name="tile_reading_low_refresh">Читання 30 Гц</string>
-    <string name="tile_touch_game_mode">Ігровий режим сенсора</string>
+    <string name="tile_touch_sensitivity">Чутливість дотику</string>
+    <string name="tile_touch_sensitivity_low">Відхилення долонею</string>
+    <string name="tile_touch_sensitivity_medium">Стандартна</string>
+    <string name="tile_touch_sensitivity_high">Швидкий відгук</string>
     <string name="tile_smart_cover">Магнітний чохол</string>
 </resources>

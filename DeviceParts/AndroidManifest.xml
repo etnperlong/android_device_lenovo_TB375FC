@@ -335,17 +335,14 @@
         </service>
 
         <service
-            android:name=".touch.TouchGameModeTile"
+            android:name=".touch.TouchSensitivityTile"
             android:exported="true"
-            android:label="@string/tile_touch_game_mode"
-            android:icon="@drawable/ic_touch_game_mode"
+            android:label="@string/tile_touch_sensitivity"
+            android:icon="@drawable/ic_touch_sensitivity"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action android:name="android.service.quicksettings.action.QS_TILE" />
             </intent-filter>
-            <meta-data
-                android:name="android.service.quicksettings.TOGGLEABLE_TILE"
-                android:value="true" />
         </service>
 
         <service

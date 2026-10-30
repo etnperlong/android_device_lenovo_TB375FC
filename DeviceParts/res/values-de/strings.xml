@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Neu starten</string>
     <string name="ram_expansion_restart_later">Später</string>
     <string name="display_parts_title">Aktualisierungsrate und Touch</string>
-    <string name="display_parts_summary">Aktualisierungsrate im Lesemodus, Touch-Spielmodus</string>
+    <string name="display_parts_summary">Aktualisierungsrate im Lesemodus, Touch-Empfindlichkeit</string>
     <string name="category_display_title">Aktualisierungsrate</string>
     <string name="category_touch_title">Touch</string>
     <string name="accessories_title">Zubehör</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz im Lesemodus</string>
     <string name="reading_low_refresh_summary">Aktualisierungsrate bei aktiviertem Lesemodus senken</string>
     <string name="reading_low_refresh_unavailable">Lesemodus ist nicht verfügbar</string>
-    <string name="touch_game_mode_title">Touch-Spielmodus</string>
-    <string name="touch_game_mode_summary">Spielmodus des Touch-Controllers. Wird nach einem Neustart wieder ausgeschaltet.</string>
-    <string name="touch_game_mode_unavailable">Nicht verfügbar</string>
+    <string name="touch_sensitivity_title">Touch-Empfindlichkeit</string>
+    <string name="touch_sensitivity_low">Handballenunterdrückung (niedrig)</string>
+    <string name="touch_sensitivity_medium">Standard (mittel)</string>
+    <string name="touch_sensitivity_high">Schnelle Reaktion (hoch)</string>
+    <string name="touch_sensitivity_low_summary">Stärkere Unterdrückung von Handballenkontakten, zum Schreiben oder Auflegen der Hand auf dem Bildschirm</string>
+    <string name="touch_sensitivity_medium_summary">Standardmäßige Unterdrückung von Handballenkontakten</string>
+    <string name="touch_sensitivity_high_summary">Schwächere Filterung von Handballen, damit Tippen und Wischen dem Finger genauer folgen. Gut für Spiele; Handballen und Bildschirmränder können Berührungen registrieren.</string>
+    <string name="touch_sensitivity_unavailable">Nicht verfügbar</string>
     <string name="smart_cover_title">Magnetcover</string>
     <string name="smart_cover_summary">Beim Schließen des Magnetcovers in den Ruhezustand versetzen und sperren</string>
     <string name="pen_notifications_title">Benachrichtigungen zur Stiftverbindung</string>
@@ -199,6 +204,9 @@
     <string name="perf_refresh_rate_none">Nicht gesperrt</string>
     <string name="perf_advanced_reset_title">Auf Voreinstellung zurücksetzen</string>
     <string name="tile_reading_low_refresh">Lesemodus 30 Hz</string>
-    <string name="tile_touch_game_mode">Touch-Spielmodus</string>
+    <string name="tile_touch_sensitivity">Touch-Empfindlichkeit</string>
+    <string name="tile_touch_sensitivity_low">Handballenerkennung</string>
+    <string name="tile_touch_sensitivity_medium">Standard</string>
+    <string name="tile_touch_sensitivity_high">Schnelle Reaktion</string>
     <string name="tile_smart_cover">Magnetcover</string>
 </resources>

@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Reštartovať</string>
     <string name="ram_expansion_restart_later">Neskôr</string>
     <string name="display_parts_title">Obnovovacia frekvencia a dotyk</string>
-    <string name="display_parts_summary">Obnovovacia frekvencia v režime čítania, herný režim dotyku</string>
+    <string name="display_parts_summary">Obnovovacia frekvencia v režime čítania, citlivosť dotyku</string>
     <string name="category_display_title">Frekvencia obnovenia</string>
     <string name="category_touch_title">Dotyk</string>
     <string name="accessories_title">Príslušenstvo</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz v režime čítania</string>
     <string name="reading_low_refresh_summary">Znížiť frekvenciu obnovenia, keď je zapnutý režim čítania</string>
     <string name="reading_low_refresh_unavailable">Režim čítania nie je k dispozícii</string>
-    <string name="touch_game_mode_title">Herný režim dotyku</string>
-    <string name="touch_game_mode_summary">Herný režim dotykového ovládača. Po reštarte sa znova vypne.</string>
-    <string name="touch_game_mode_unavailable">Nie je k dispozícii</string>
+    <string name="touch_sensitivity_title">Citlivosť dotyku</string>
+    <string name="touch_sensitivity_low">Odmietanie dlane (nízka)</string>
+    <string name="touch_sensitivity_medium">Štandardná (stredná)</string>
+    <string name="touch_sensitivity_high">Rýchla odozva (vysoká)</string>
+    <string name="touch_sensitivity_low_summary">Silnejšie odmietanie dlane, vhodné na písanie alebo opretie ruky o obrazovku</string>
+    <string name="touch_sensitivity_medium_summary">Predvolená úroveň odmietania dlane</string>
+    <string name="touch_sensitivity_high_summary">Slabšie odmietanie dlane, takže ťuknutia a potiahnutia presnejšie sledujú prst. Vhodné na hry; dlane a okraje obrazovky môžu zaznamenať dotyk.</string>
+    <string name="touch_sensitivity_unavailable">Nie je k dispozícii</string>
     <string name="smart_cover_title">Magnetický kryt</string>
     <string name="smart_cover_summary">Pri zatvorení magnetického krytu uspať a uzamknúť</string>
     <string name="pen_notifications_title">Upozornenia o pripojení dotykového pera</string>
@@ -207,6 +212,9 @@
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Obnoviť predvoľbu</string>
     <string name="tile_reading_low_refresh">Čítanie 30 Hz</string>
-    <string name="tile_touch_game_mode">Herný režim dotyku</string>
+    <string name="tile_touch_sensitivity">Citlivosť dotyku</string>
+    <string name="tile_touch_sensitivity_low">Odmietanie dlane</string>
+    <string name="tile_touch_sensitivity_medium">Štandardná</string>
+    <string name="tile_touch_sensitivity_high">Rýchla odozva</string>
     <string name="tile_smart_cover">Magnetický kryt</string>
 </resources>

@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Hozir qayta ishga tushirish</string>
     <string name="ram_expansion_restart_later">Keyinroq</string>
     <string name="display_parts_title">Yangilanish chastotasi va sensorli ekran</string>
-    <string name="display_parts_summary">Oʻqish rejimi yangilanish chastotasi, sensorli ekran oʻyin rejimi</string>
+    <string name="display_parts_summary">Oʻqish rejimi yangilanish chastotasi, sensorli ekran sezgirligi</string>
     <string name="category_display_title">Yangilanish chastotasi</string>
     <string name="category_touch_title">Sensorli ekran</string>
     <string name="accessories_title">Aksessuarlar</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">Oʻqish rejimida 30 Hz</string>
     <string name="reading_low_refresh_summary">Oʻqish rejimi yoqilganda yangilanish chastotasini pasaytirish</string>
     <string name="reading_low_refresh_unavailable">Oʻqish rejimi mavjud emas</string>
-    <string name="touch_game_mode_title">Sensorli ekran oʻyin rejimi</string>
-    <string name="touch_game_mode_summary">Sensorli ekran kontrollerining oʻyin rejimi. Qayta ishga tushirilganda oʻchadi.</string>
-    <string name="touch_game_mode_unavailable">Mavjud emas</string>
+    <string name="touch_sensitivity_title">Sensorli ekran sezgirligi</string>
+    <string name="touch_sensitivity_low">Kaftni rad etish (past)</string>
+    <string name="touch_sensitivity_medium">Standart (oʻrta)</string>
+    <string name="touch_sensitivity_high">Tezkor javob (yuqori)</string>
+    <string name="touch_sensitivity_low_summary">Kaftni kuchliroq rad etadi, yozish yoki qoʻlni ekranga qoʻyib turish uchun mos</string>
+    <string name="touch_sensitivity_medium_summary">Kaftni rad etishning standart darajasi</string>
+    <string name="touch_sensitivity_high_summary">Kaftni kamroq rad etadi, shuning uchun tegish va surish barmogʻingizni aniqroq kuzatadi. Oʻyinlar uchun yaxshi; kaftlar va ekran chetlari ham tegish sifatida qayd etilishi mumkin.</string>
+    <string name="touch_sensitivity_unavailable">Mavjud emas</string>
     <string name="smart_cover_title">Magnit g‘ilof</string>
     <string name="smart_cover_summary">Magnit g‘ilof yopilganda ekran oʻchadi va qurilma qulflanadi</string>
     <string name="pen_notifications_title">Stilus ulanishi haqida bildirishnomalar</string>
@@ -206,6 +211,9 @@
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Oldindan sozlamaga qaytarish</string>
     <string name="tile_reading_low_refresh">Oʻqish 30 Hz</string>
-    <string name="tile_touch_game_mode">Sensorli ekran oʻyin rejimi</string>
+    <string name="tile_touch_sensitivity">Sensorli ekran sezgirligi</string>
+    <string name="tile_touch_sensitivity_low">Kaftni rad etish</string>
+    <string name="tile_touch_sensitivity_medium">Standart</string>
+    <string name="tile_touch_sensitivity_high">Tezkor javob</string>
     <string name="tile_smart_cover">Magnit g‘ilof</string>
 </resources>

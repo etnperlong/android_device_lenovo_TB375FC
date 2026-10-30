@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">I-restart</string>
     <string name="ram_expansion_restart_later">Mamaya</string>
     <string name="display_parts_title">Refresh rate at touch</string>
-    <string name="display_parts_summary">Refresh rate ng reading mode, touch game mode</string>
+    <string name="display_parts_summary">Refresh rate ng reading mode, sensitivity ng touch</string>
     <string name="category_display_title">Refresh rate</string>
     <string name="category_touch_title">Touch</string>
     <string name="accessories_title">Mga accessory</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz sa reading mode</string>
     <string name="reading_low_refresh_summary">Pababain ang refresh rate habang naka-on ang reading mode</string>
     <string name="reading_low_refresh_unavailable">Hindi available ang reading mode</string>
-    <string name="touch_game_mode_title">Touch game mode</string>
-    <string name="touch_game_mode_summary">Game mode ng touch controller. Muli itong mao-off pagkatapos mag-restart.</string>
-    <string name="touch_game_mode_unavailable">Hindi available</string>
+    <string name="touch_sensitivity_title">Sensitivity ng touch</string>
+    <string name="touch_sensitivity_low">Pagtanggi sa palad (mababa)</string>
+    <string name="touch_sensitivity_medium">Pamantayan (katamtaman)</string>
+    <string name="touch_sensitivity_high">Mabilis tumugon (mataas)</string>
+    <string name="touch_sensitivity_low_summary">Mas malakas na pagtanggi sa palad, angkop sa pagsusulat o pagpapatong ng kamay sa screen</string>
+    <string name="touch_sensitivity_medium_summary">Default na antas ng pagtanggi sa palad</string>
+    <string name="touch_sensitivity_high_summary">Mas mahina ang pagtanggi sa palad upang mas sundan ng mga tap at swipe ang daliri. Mainam para sa mga laro; maaaring mairehistro bilang touch ang mga palad at gilid ng screen.</string>
+    <string name="touch_sensitivity_unavailable">Hindi available</string>
     <string name="smart_cover_title">Magnetic cover</string>
     <string name="smart_cover_summary">I-sleep at i-lock kapag isinara ang magnetic cover</string>
     <string name="pen_notifications_title">Mga notification sa koneksyon ng stylus</string>
@@ -206,6 +211,9 @@
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">I-reset sa preset</string>
     <string name="tile_reading_low_refresh">Reading 30 Hz</string>
-    <string name="tile_touch_game_mode">Touch game mode</string>
+    <string name="tile_touch_sensitivity">Sensitivity ng touch</string>
+    <string name="tile_touch_sensitivity_low">Pagtanggi sa palad</string>
+    <string name="tile_touch_sensitivity_medium">Pamantayan</string>
+    <string name="tile_touch_sensitivity_high">Mabilis tumugon</string>
     <string name="tile_smart_cover">Magnetic cover</string>
 </resources>

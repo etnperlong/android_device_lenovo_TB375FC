@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">הפעלה מחדש</string>
     <string name="ram_expansion_restart_later">מאוחר יותר</string>
     <string name="display_parts_title">קצב רענון ומגע</string>
-    <string name="display_parts_summary">קצב רענון במצב קריאה, מצב משחק במגע</string>
+    <string name="display_parts_summary">קצב רענון במצב קריאה, רגישות מגע</string>
     <string name="category_display_title">קצב רענון</string>
     <string name="category_touch_title">מגע</string>
     <string name="accessories_title">אביזרים</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz במצב קריאה</string>
     <string name="reading_low_refresh_summary">הפחתת קצב הרענון כשמצב הקריאה מופעל</string>
     <string name="reading_low_refresh_unavailable">מצב הקריאה לא זמין</string>
-    <string name="touch_game_mode_title">מצב משחק במגע</string>
-    <string name="touch_game_mode_summary">מצב משחק של בקר המגע. מושבת שוב אחרי הפעלה מחדש.</string>
-    <string name="touch_game_mode_unavailable">לא זמין</string>
+    <string name="touch_sensitivity_title">רגישות מגע</string>
+    <string name="touch_sensitivity_low">דחיית מגע כף היד (נמוכה)</string>
+    <string name="touch_sensitivity_medium">רגילה (בינונית)</string>
+    <string name="touch_sensitivity_high">תגובה מהירה (גבוהה)</string>
+    <string name="touch_sensitivity_low_summary">דחייה חזקה יותר של מגע כף היד, לכתיבה או להנחת יד על המסך</string>
+    <string name="touch_sensitivity_medium_summary">רמת ברירת המחדל של דחיית מגע כף היד</string>
+    <string name="touch_sensitivity_high_summary">סינון חלש יותר של כף היד, כך שהקשות והחלקות עוקבות מקרוב יותר אחר האצבע. מתאים למשחקים; מגע בכף היד ובקצוות המסך עשוי להיקלט.</string>
+    <string name="touch_sensitivity_unavailable">לא זמין</string>
     <string name="smart_cover_title">כיסוי מגנטי</string>
     <string name="smart_cover_summary">כיבוי ונעילה כשהכיסוי המגנטי נסגר</string>
     <string name="pen_notifications_title">התראות על חיבור סטיילוס</string>
@@ -208,6 +213,9 @@
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">איפוס להגדרה קבועה מראש</string>
     <string name="tile_reading_low_refresh">קריאה 30 Hz</string>
-    <string name="tile_touch_game_mode">מצב משחק במגע</string>
+    <string name="tile_touch_sensitivity">רגישות מגע</string>
+    <string name="tile_touch_sensitivity_low">דחיית כף היד</string>
+    <string name="tile_touch_sensitivity_medium">רגילה</string>
+    <string name="tile_touch_sensitivity_high">תגובה מהירה</string>
     <string name="tile_smart_cover">כיסוי מגנטי</string>
 </resources>

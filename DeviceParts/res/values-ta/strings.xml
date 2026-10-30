@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">இப்போது மறுதொடக்கம் செய்</string>
     <string name="ram_expansion_restart_later">பிறகு</string>
     <string name="display_parts_title">ரெஃப்ரெஷ் ரேட் மற்றும் தொடுதல்</string>
-    <string name="display_parts_summary">படித்தல் பயன்முறை ரெஃப்ரெஷ் ரேட், கேம் டச் பயன்முறை</string>
+    <string name="display_parts_summary">படித்தல் பயன்முறை ரெஃப்ரெஷ் ரேட், தொடு உணர்திறன்</string>
     <string name="category_display_title">ரெஃப்ரெஷ் ரேட்</string>
     <string name="category_touch_title">தொடுதல்</string>
     <string name="accessories_title">துணைக்கருவிகள்</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">படித்தல் பயன்முறையில் 30 Hz</string>
     <string name="reading_low_refresh_summary">படித்தல் பயன்முறை இயக்கத்தில் இருக்கும்போது ரெஃப்ரெஷ் ரேட்டைக் குறைக்கும்</string>
     <string name="reading_low_refresh_unavailable">படித்தல் பயன்முறை கிடைக்கவில்லை</string>
-    <string name="touch_game_mode_title">டச் கேம் பயன்முறை</string>
-    <string name="touch_game_mode_summary">டச் கன்ட்ரோலரின் கேம் பயன்முறை. மறுதொடக்கத்திற்குப் பிறகு மீண்டும் முடக்கப்படும்.</string>
-    <string name="touch_game_mode_unavailable">கிடைக்கவில்லை</string>
+    <string name="touch_sensitivity_title">தொடு உணர்திறன்</string>
+    <string name="touch_sensitivity_low">உள்ளங்கை நிராகரிப்பு (குறைவு)</string>
+    <string name="touch_sensitivity_medium">இயல்பானது (நடுத்தரம்)</string>
+    <string name="touch_sensitivity_high">விரைவான பதில் (அதிகம்)</string>
+    <string name="touch_sensitivity_low_summary">உள்ளங்கை நிராகரிப்பை வலுப்படுத்தும்; எழுதுவதற்கும் திரையில் கையை வைத்திருப்பதற்கும் ஏற்றது</string>
+    <string name="touch_sensitivity_medium_summary">உள்ளங்கை நிராகரிப்பின் இயல்புநிலை நிலை</string>
+    <string name="touch_sensitivity_high_summary">உள்ளங்கை நிராகரிப்பைக் குறைத்து, தட்டுதல்களும் ஸ்வைப்புகளும் உங்கள் விரலை நெருக்கமாகப் பின்தொடரச் செய்கிறது. கேம்களுக்கு ஏற்றது; உள்ளங்கைகளும் திரையின் விளிம்புகளும் தொடுதல்களாகப் பதிவாகலாம்.</string>
+    <string name="touch_sensitivity_unavailable">கிடைக்கவில்லை</string>
     <string name="smart_cover_title">காந்தக் கவர்</string>
     <string name="smart_cover_summary">காந்தக் கவரை மூடும்போது தூங்கச் செய்து பூட்டவும்</string>
     <string name="pen_notifications_title">ஸ்டைலஸ் இணைப்பு அறிவிப்புகள்</string>
@@ -199,6 +204,9 @@
     <string name="perf_refresh_rate_none">பூட்டப்படவில்லை</string>
     <string name="perf_advanced_reset_title">முன்னமைவுக்கு மீட்டமை</string>
     <string name="tile_reading_low_refresh">படித்தல் 30 Hz</string>
-    <string name="tile_touch_game_mode">டச் கேம் பயன்முறை</string>
+    <string name="tile_touch_sensitivity">தொடு உணர்திறன்</string>
+    <string name="tile_touch_sensitivity_low">உள்ளங்கை நிராகரிப்பு</string>
+    <string name="tile_touch_sensitivity_medium">இயல்பானது</string>
+    <string name="tile_touch_sensitivity_high">விரைவான பதில்</string>
     <string name="tile_smart_cover">காந்தக் கவர்</string>
 </resources>

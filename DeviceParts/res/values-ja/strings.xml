@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">再起動</string>
     <string name="ram_expansion_restart_later">後で</string>
     <string name="display_parts_title">リフレッシュ レートとタッチ操作</string>
-    <string name="display_parts_summary">読書モードのリフレッシュ レート、タッチゲームモード</string>
+    <string name="display_parts_summary">読書モードのリフレッシュ レート、タッチ感度</string>
     <string name="category_display_title">リフレッシュ レート</string>
     <string name="category_touch_title">タッチ操作</string>
     <string name="accessories_title">アクセサリ</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">読書モードでは 30 Hz</string>
     <string name="reading_low_refresh_summary">読書モードがオンのときにリフレッシュ レートを下げます</string>
     <string name="reading_low_refresh_unavailable">読書モードは利用できません</string>
-    <string name="touch_game_mode_title">タッチゲームモード</string>
-    <string name="touch_game_mode_summary">タッチコントローラーのゲームモードです。再起動するとオフに戻ります。</string>
-    <string name="touch_game_mode_unavailable">利用できません</string>
+    <string name="touch_sensitivity_title">タッチ感度</string>
+    <string name="touch_sensitivity_low">手のひらの誤タッチを防止（低）</string>
+    <string name="touch_sensitivity_medium">標準（中）</string>
+    <string name="touch_sensitivity_high">高感度（高）</string>
+    <string name="touch_sensitivity_low_summary">手のひらの誤タッチをより強く防ぎ、書き込みや画面に手を置くときに適しています</string>
+    <string name="touch_sensitivity_medium_summary">手のひらの誤タッチを防ぐ標準設定</string>
+    <string name="touch_sensitivity_high_summary">手のひらのフィルタリングを弱め、タップやスワイプが指の動きにより近く追従します。ゲームに適していますが、手のひらや画面の端のタッチが反応する場合があります。</string>
+    <string name="touch_sensitivity_unavailable">利用できません</string>
     <string name="smart_cover_title">マグネットカバー</string>
     <string name="smart_cover_summary">マグネットカバーを閉じたときにスリープしてロック</string>
     <string name="pen_notifications_title">タッチペンの接続通知</string>
@@ -199,6 +204,9 @@
     <string name="perf_refresh_rate_none">固定しない</string>
     <string name="perf_advanced_reset_title">プリセットにリセット</string>
     <string name="tile_reading_low_refresh">読書モード 30 Hz</string>
-    <string name="tile_touch_game_mode">タッチゲームモード</string>
+    <string name="tile_touch_sensitivity">タッチ感度</string>
+    <string name="tile_touch_sensitivity_low">誤タッチ防止</string>
+    <string name="tile_touch_sensitivity_medium">標準</string>
+    <string name="tile_touch_sensitivity_high">高感度</string>
     <string name="tile_smart_cover">マグネットカバー</string>
 </resources>

@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Starta om</string>
     <string name="ram_expansion_restart_later">Senare</string>
     <string name="display_parts_title">Uppdateringsfrekvens och pekskärm</string>
-    <string name="display_parts_summary">Läslägets uppdateringsfrekvens, pekskärmens spelläge</string>
+    <string name="display_parts_summary">Läslägets uppdateringsfrekvens, pekskärmskänslighet</string>
     <string name="category_display_title">Uppdateringsfrekvens</string>
     <string name="category_touch_title">Pekskärm</string>
     <string name="accessories_title">Tillbehör</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz i läsläge</string>
     <string name="reading_low_refresh_summary">Sänk uppdateringsfrekvensen när läsläget är aktiverat</string>
     <string name="reading_low_refresh_unavailable">Läsläget är inte tillgängligt</string>
-    <string name="touch_game_mode_title">Pekskärmens spelläge</string>
-    <string name="touch_game_mode_summary">Spelläge för pekskärmsstyrenheten. Stängs av igen efter en omstart.</string>
-    <string name="touch_game_mode_unavailable">Inte tillgängligt</string>
+    <string name="touch_sensitivity_title">Pekskärmskänslighet</string>
+    <string name="touch_sensitivity_low">Handflateavvisning (låg)</string>
+    <string name="touch_sensitivity_medium">Standard (medel)</string>
+    <string name="touch_sensitivity_high">Snabb respons (hög)</string>
+    <string name="touch_sensitivity_low_summary">Starkare avvisning av handflator, passar för skrivande eller när du vilar handen på skärmen</string>
+    <string name="touch_sensitivity_medium_summary">Standardnivå för avvisning av handflator</string>
+    <string name="touch_sensitivity_high_summary">Svagare avvisning av handflator, så att tryck och svep följer fingret närmare. Bra för spel; handflator och skärmkanter kan registreras som beröringar.</string>
+    <string name="touch_sensitivity_unavailable">Inte tillgängligt</string>
     <string name="smart_cover_title">Magnetiskt fodral</string>
     <string name="smart_cover_summary">Försätt i viloläge och lås när det magnetiska fodralet stängs</string>
     <string name="pen_notifications_title">Aviseringar om anslutning av e-penna</string>
@@ -199,6 +204,9 @@
     <string name="perf_refresh_rate_none">Inte låst</string>
     <string name="perf_advanced_reset_title">Återställ till förinställning</string>
     <string name="tile_reading_low_refresh">Läsning 30 Hz</string>
-    <string name="tile_touch_game_mode">Pekskärmsspelläge</string>
+    <string name="tile_touch_sensitivity">Pekskärmskänslighet</string>
+    <string name="tile_touch_sensitivity_low">Handflateavvisning</string>
+    <string name="tile_touch_sensitivity_medium">Standard</string>
+    <string name="tile_touch_sensitivity_high">Snabb respons</string>
     <string name="tile_smart_cover">Magnetiskt fodral</string>
 </resources>

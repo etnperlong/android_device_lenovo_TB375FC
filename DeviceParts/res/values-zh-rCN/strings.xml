@@ -41,7 +41,7 @@
     <string name="ram_expansion_restart_now">立即重启</string>
     <string name="ram_expansion_restart_later">稍后</string>
     <string name="display_parts_title">刷新率与触控</string>
-    <string name="display_parts_summary">阅读模式刷新率、触控游戏模式</string>
+    <string name="display_parts_summary">阅读模式刷新率、触控灵敏度</string>
 
     <string name="category_display_title">刷新率</string>
     <string name="category_touch_title">触控</string>
@@ -57,9 +57,14 @@
     <string name="reading_low_refresh_title">阅读模式下使用 30 Hz</string>
     <string name="reading_low_refresh_summary">开启阅读模式时降低刷新率</string>
     <string name="reading_low_refresh_unavailable">阅读模式不可用</string>
-    <string name="touch_game_mode_title">触控游戏模式</string>
-    <string name="touch_game_mode_summary">触控芯片的游戏模式，重启后恢复关闭。</string>
-    <string name="touch_game_mode_unavailable">不可用</string>
+    <string name="touch_sensitivity_title">触控灵敏度</string>
+    <string name="touch_sensitivity_low">防误触（低）</string>
+    <string name="touch_sensitivity_medium">标准（中）</string>
+    <string name="touch_sensitivity_high">增强跟手（高）</string>
+    <string name="touch_sensitivity_low_summary">加强防手掌误触，适合书写或手掌搭在屏幕上时使用</string>
+    <string name="touch_sensitivity_medium_summary">默认的防误触程度</string>
+    <string name="touch_sensitivity_high_summary">减少防误触过滤，提升点按和滑动的跟手性，适合游戏；手掌或屏幕边缘可能更容易误触</string>
+    <string name="touch_sensitivity_unavailable">不可用</string>
     <string name="smart_cover_title">磁吸皮套</string>
     <string name="smart_cover_summary">合上磁吸皮套时息屏并锁定</string>
     <string name="pen_notifications_title">手写笔连接通知</string>
@@ -208,6 +213,9 @@
     <string name="perf_advanced_reset_title">恢复为预设值</string>
 
     <string name="tile_reading_low_refresh">阅读 30 Hz</string>
-    <string name="tile_touch_game_mode">触控游戏模式</string>
+    <string name="tile_touch_sensitivity">触控灵敏度</string>
+    <string name="tile_touch_sensitivity_low">防误触</string>
+    <string name="tile_touch_sensitivity_medium">标准</string>
+    <string name="tile_touch_sensitivity_high">增强跟手</string>
     <string name="tile_smart_cover">磁吸皮套</string>
 </resources>

@@ -46,7 +46,7 @@
     <string name="ram_expansion_restart_now">Restart</string>
     <string name="ram_expansion_restart_later">Later</string>
     <string name="display_parts_title">Refresh rate and touch</string>
-    <string name="display_parts_summary">Reading mode refresh rate, touch game mode</string>
+    <string name="display_parts_summary">Reading mode refresh rate, touch sensitivity</string>
     <string name="category_miravision_title" translatable="false">MediaTek MiraVision™</string>
     <string name="category_dolby_atmos_title" translatable="false">Dolby Atmos®</string>
 
@@ -64,9 +64,14 @@
     <string name="reading_low_refresh_title">30 Hz in reading mode</string>
     <string name="reading_low_refresh_summary">Lower the refresh rate while reading mode is on</string>
     <string name="reading_low_refresh_unavailable">Reading mode is not available</string>
-    <string name="touch_game_mode_title">Touch game mode</string>
-    <string name="touch_game_mode_summary">Game mode of the touch controller. Turns off again after a restart.</string>
-    <string name="touch_game_mode_unavailable">Not available</string>
+    <string name="touch_sensitivity_title">Touch sensitivity</string>
+    <string name="touch_sensitivity_low">Palm rejection (low)</string>
+    <string name="touch_sensitivity_medium">Standard (medium)</string>
+    <string name="touch_sensitivity_high">Responsive (high)</string>
+    <string name="touch_sensitivity_low_summary">Stronger palm rejection, for writing or resting a hand on the screen</string>
+    <string name="touch_sensitivity_medium_summary">Default palm rejection</string>
+    <string name="touch_sensitivity_high_summary">Weaker palm rejection, so taps and swipes follow your finger more closely. Good for games; palms and edges may register touches.</string>
+    <string name="touch_sensitivity_unavailable">Not available</string>
     <string name="smart_cover_title">Magnetic cover</string>
     <string name="smart_cover_summary">Sleep and lock when the magnetic cover is closed</string>
     <string name="pen_notifications_title">Pen connection notifications</string>
@@ -231,6 +236,9 @@
 
     <!-- Quick Settings tiles -->
     <string name="tile_reading_low_refresh">Reading 30 Hz</string>
-    <string name="tile_touch_game_mode">Touch game mode</string>
+    <string name="tile_touch_sensitivity">Touch sensitivity</string>
+    <string name="tile_touch_sensitivity_low">Palm rejection</string>
+    <string name="tile_touch_sensitivity_medium">Standard</string>
+    <string name="tile_touch_sensitivity_high">Responsive</string>
     <string name="tile_smart_cover">Magnetic cover</string>
 </resources>

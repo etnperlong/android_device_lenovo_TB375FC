@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Վերագործարկել</string>
     <string name="ram_expansion_restart_later">Ավելի ուշ</string>
     <string name="display_parts_title">Թարմացման հաճախականություն և հպում</string>
-    <string name="display_parts_summary">Ընթերցման ռեժիմի թարմացման հաճախականություն, հպման խաղային ռեժիմ</string>
+    <string name="display_parts_summary">Ընթերցման ռեժիմի թարմացման հաճախականություն, հպման զգայունություն</string>
     <string name="category_display_title">Թարմացման հաճախականություն</string>
     <string name="category_touch_title">Հպում</string>
     <string name="accessories_title">Աքսեսուարներ</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Հց՝ ընթերցման ռեժիմում</string>
     <string name="reading_low_refresh_summary">Նվազեցնել թարմացման հաճախականությունը, երբ ընթերցման ռեժիմը միացված է</string>
     <string name="reading_low_refresh_unavailable">Ընթերցման ռեժիմը հասանելի չէ</string>
-    <string name="touch_game_mode_title">Հպման խաղային ռեժիմ</string>
-    <string name="touch_game_mode_summary">Հպման կառավարիչի խաղային ռեժիմ։ Վերագործարկելուց հետո կրկին անջատվում է։</string>
-    <string name="touch_game_mode_unavailable">Հասանելի չէ</string>
+    <string name="touch_sensitivity_title">Հպման զգայունություն</string>
+    <string name="touch_sensitivity_low">Ափի հպման մերժում (ցածր)</string>
+    <string name="touch_sensitivity_medium">Ստանդարտ (միջին)</string>
+    <string name="touch_sensitivity_high">Արագ արձագանք (բարձր)</string>
+    <string name="touch_sensitivity_low_summary">Ափի հպման ավելի ուժեղ մերժում՝ գրելու կամ էկրանին ձեռքը դնելու համար</string>
+    <string name="touch_sensitivity_medium_summary">Ափի հպման մերժման կանխադրված մակարդակ</string>
+    <string name="touch_sensitivity_high_summary">Ափի ավելի թույլ զտում, որպեսզի հպումներն ու սահեցումները ավելի ճշգրիտ հետևեն մատին։ Հարմար է խաղերի համար․ ափի կամ էկրանի եզրերի հպումները կարող են գրանցվել։</string>
+    <string name="touch_sensitivity_unavailable">Հասանելի չէ</string>
     <string name="smart_cover_title">Մագնիսական պատյան</string>
     <string name="smart_cover_summary">Մագնիսական պատյանը փակելիս սարքը քնեցնել և կողպել</string>
     <string name="pen_notifications_title">Ստիլուսի միացման ծանուցումներ</string>
@@ -207,6 +212,9 @@
     <string name="perf_refresh_rate_hz">%1$d Հց</string>
     <string name="perf_advanced_reset_title">Վերականգնել նախադրվածը</string>
     <string name="tile_reading_low_refresh">Ընթերցում 30 Հց</string>
-    <string name="tile_touch_game_mode">Հպման խաղային ռեժիմ</string>
+    <string name="tile_touch_sensitivity">Հպման զգայունություն</string>
+    <string name="tile_touch_sensitivity_low">Ափի հպման մերժում</string>
+    <string name="tile_touch_sensitivity_medium">Ստանդարտ</string>
+    <string name="tile_touch_sensitivity_high">Արագ արձագանք</string>
     <string name="tile_smart_cover">Մագնիսական պատյան</string>
 </resources>

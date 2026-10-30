@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Herbegin</string>
     <string name="ram_expansion_restart_later">Later</string>
     <string name="display_parts_title">Verversingstempo en aanraking</string>
-    <string name="display_parts_summary">Verversingstempo in leesmodus, aanraak-speletjiemodus</string>
+    <string name="display_parts_summary">Verversingstempo in leesmodus, aanraaksensitiwiteit</string>
     <string name="category_display_title">Verversingstempo</string>
     <string name="category_touch_title">Aanraking</string>
     <string name="accessories_title">Bykomstighede</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz in leesmodus</string>
     <string name="reading_low_refresh_summary">Verlaag die verversingstempo wanneer leesmodus aan is</string>
     <string name="reading_low_refresh_unavailable">Leesmodus is nie beskikbaar nie</string>
-    <string name="touch_game_mode_title">Aanraak-speletjiemodus</string>
-    <string name="touch_game_mode_summary">Speletjiemodus van die aanraakbeheerder. Skakel weer af ná ’n herbegin.</string>
-    <string name="touch_game_mode_unavailable">Nie beskikbaar nie</string>
+    <string name="touch_sensitivity_title">Aanraaksensitiwiteit</string>
+    <string name="touch_sensitivity_low">Handpalmverwerping (laag)</string>
+    <string name="touch_sensitivity_medium">Standaard (gemiddeld)</string>
+    <string name="touch_sensitivity_high">Reaktief (hoog)</string>
+    <string name="touch_sensitivity_low_summary">Sterker handpalmverwerping, vir skryf of om ’n hand op die skerm te laat rus</string>
+    <string name="touch_sensitivity_medium_summary">Verstekvlak van handpalmverwerping</string>
+    <string name="touch_sensitivity_high_summary">Swakker handpalmverwerping sodat tikke en veegebare jou vinger noukeuriger volg. Goed vir speletjies; handpalms en rande kan aanrakinge registreer.</string>
+    <string name="touch_sensitivity_unavailable">Nie beskikbaar nie</string>
     <string name="smart_cover_title">Magnetiese omslag</string>
     <string name="smart_cover_summary">Slaap en sluit wanneer die magnetiese omslag toegemaak word</string>
     <string name="pen_notifications_title">Stilusverbindingskennisgewings</string>
@@ -199,6 +204,9 @@
     <string name="perf_refresh_rate_none">Nie gesluit nie</string>
     <string name="perf_advanced_reset_title">Stel terug na voorinstelling</string>
     <string name="tile_reading_low_refresh">Lees 30 Hz</string>
-    <string name="tile_touch_game_mode">Aanraak-speletjiemodus</string>
+    <string name="tile_touch_sensitivity">Aanraaksensitiwiteit</string>
+    <string name="tile_touch_sensitivity_low">Handpalmverwerping</string>
+    <string name="tile_touch_sensitivity_medium">Standaard</string>
+    <string name="tile_touch_sensitivity_high">Reaktief</string>
     <string name="tile_smart_cover">Magnetiese omslag</string>
 </resources>

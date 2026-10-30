@@ -38,4 +38,20 @@
         <item>lzo-rle</item>
         <item>lzo</item>
     </string-array>
+    <!-- Touch sensitivity levels, in TouchSensitivity.LEVEL_* order -->
+    <string-array name="touch_sensitivity_entries" translatable="false">
+        <item>@string/touch_sensitivity_low</item>
+        <item>@string/touch_sensitivity_medium</item>
+        <item>@string/touch_sensitivity_high</item>
+    </string-array>
+    <string-array name="touch_sensitivity_summaries" translatable="false">
+        <item>@string/touch_sensitivity_low_summary</item>
+        <item>@string/touch_sensitivity_medium_summary</item>
+        <item>@string/touch_sensitivity_high_summary</item>
+    </string-array>
+    <string-array name="touch_sensitivity_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>

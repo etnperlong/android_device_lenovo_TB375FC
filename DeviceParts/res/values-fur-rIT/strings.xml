@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Tornâ a inviâ</string>
     <string name="ram_expansion_restart_later">Plui tart</string>
     <string name="display_parts_title">Frecuence di inzornament e toc</string>
-    <string name="display_parts_summary">Frecuence di inzornament de modalitât leture, modalitât zûc dal toc</string>
+    <string name="display_parts_summary">Frecuence di inzornament de modalitât leture, sensibilitât dal toc</string>
     <string name="category_display_title">Frecuence di inzornament</string>
     <string name="category_touch_title">Toc</string>
     <string name="accessories_title">Acèsoris</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz in modalitât leture</string>
     <string name="reading_low_refresh_summary">Sbasse la frecuence di inzornament cuant che la modalitât leture e je ativade</string>
     <string name="reading_low_refresh_unavailable">La modalitât leture no je disponibile</string>
-    <string name="touch_game_mode_title">Modalitât zûc dal toc</string>
-    <string name="touch_game_mode_summary">Modalitât zûc dal controladôr dal toc. Si distude di gnûf dopo un riavie.</string>
-    <string name="touch_game_mode_unavailable">No disponibile</string>
+    <string name="touch_sensitivity_title">Sensibilitât dal toc</string>
+    <string name="touch_sensitivity_low">Refût dal toc de palme (basse)</string>
+    <string name="touch_sensitivity_medium">Standard (medie)</string>
+    <string name="touch_sensitivity_high">Rispueste rapide (alte)</string>
+    <string name="touch_sensitivity_low_summary">Refût plui fuart dal toc de palme, par scrivi o poiâ la man sul schermi</string>
+    <string name="touch_sensitivity_medium_summary">Refût dal toc de palme predefinît</string>
+    <string name="touch_sensitivity_high_summary">Filtrazion plui debile dal toc de palme, cussì i toc e i strissulaments a seguissin il dêt plui di dongje. Bon pai zûcs; lis palmis e i ôrs a puedin regjistrâ toc.</string>
+    <string name="touch_sensitivity_unavailable">No disponibile</string>
     <string name="smart_cover_title">Custodie magnetiche</string>
     <string name="smart_cover_summary">Met in sospension e bloche cuant che la custodie magnetiche e je sierade</string>
     <string name="pen_notifications_title">Notificâts di conession de la pene</string>
@@ -201,6 +206,9 @@
     <string name="perf_refresh_rate_none">No blocade</string>
     <string name="perf_advanced_reset_title">Ripristine al preset</string>
     <string name="tile_reading_low_refresh">Leture 30 Hz</string>
-    <string name="tile_touch_game_mode">Modalitât zûc dal toc</string>
+    <string name="tile_touch_sensitivity">Sensibilitât dal toc</string>
+    <string name="tile_touch_sensitivity_low">Refût de palme</string>
+    <string name="tile_touch_sensitivity_medium">Standard</string>
+    <string name="tile_touch_sensitivity_high">Rispueste rapide</string>
     <string name="tile_smart_cover">Custodie magnetiche</string>
 </resources>

@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Rinis</string>
     <string name="ram_expansion_restart_later">Më vonë</string>
     <string name="display_parts_title">Shpejtësia e rifreskimit dhe prekja</string>
-    <string name="display_parts_summary">Shpejtësia e rifreskimit në mënyrën e leximit, mënyra e lojës me prekje</string>
+    <string name="display_parts_summary">Shpejtësia e rifreskimit në mënyrën e leximit, ndjeshmëria e prekjes</string>
     <string name="category_display_title">Shpejtësia e rifreskimit</string>
     <string name="category_touch_title">Prekja</string>
     <string name="accessories_title">Aksesorë</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz në mënyrën e leximit</string>
     <string name="reading_low_refresh_summary">Ule shpejtësinë e rifreskimit kur është aktive mënyra e leximit</string>
     <string name="reading_low_refresh_unavailable">Mënyra e leximit nuk ofrohet</string>
-    <string name="touch_game_mode_title">Mënyra e lojës me prekje</string>
-    <string name="touch_game_mode_summary">Mënyra e lojës për kontrolluesin e prekjes. Çaktivizohet sërish pas rinisjes.</string>
-    <string name="touch_game_mode_unavailable">Nuk ofrohet</string>
+    <string name="touch_sensitivity_title">Ndjeshmëria e prekjes</string>
+    <string name="touch_sensitivity_low">Refuzimi i pëllëmbës (e ulët)</string>
+    <string name="touch_sensitivity_medium">Standarde (mesatare)</string>
+    <string name="touch_sensitivity_high">Reagim i shpejtë (e lartë)</string>
+    <string name="touch_sensitivity_low_summary">Refuzim më i fortë i pëllëmbës, i përshtatshëm për të shkruar ose për të mbështetur dorën në ekran</string>
+    <string name="touch_sensitivity_medium_summary">Niveli i parazgjedhur i refuzimit të pëllëmbës</string>
+    <string name="touch_sensitivity_high_summary">Refuzim më i dobët i pëllëmbës, që prekjet dhe rrëshqitjet të ndjekin më afër gishtin. E përshtatshme për lojëra; pëllëmbët dhe skajet mund të regjistrojnë prekje.</string>
+    <string name="touch_sensitivity_unavailable">Nuk ofrohet</string>
     <string name="smart_cover_title">Kapak magnetik</string>
     <string name="smart_cover_summary">Fike dhe kyçe kur mbyllet kapaku magnetik</string>
     <string name="pen_notifications_title">Njoftime për lidhjen e stilolapsit</string>
@@ -206,6 +211,9 @@
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Rivendos paracaktimin</string>
     <string name="tile_reading_low_refresh">Lexim 30 Hz</string>
-    <string name="tile_touch_game_mode">Mënyra e lojës me prekje</string>
+    <string name="tile_touch_sensitivity">Ndjeshmëria e prekjes</string>
+    <string name="tile_touch_sensitivity_low">Refuzimi i pëllëmbës</string>
+    <string name="tile_touch_sensitivity_medium">Standarde</string>
+    <string name="tile_touch_sensitivity_high">Reagim i shpejtë</string>
     <string name="tile_smart_cover">Kapak magnetik</string>
 </resources>

@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">รีสตาร์ท</string>
     <string name="ram_expansion_restart_later">ภายหลัง</string>
     <string name="display_parts_title">อัตราการรีเฟรชและระบบสัมผัส</string>
-    <string name="display_parts_summary">อัตราการรีเฟรชในโหมดการอ่าน โหมดเกมหน้าจอสัมผัส</string>
+    <string name="display_parts_summary">อัตราการรีเฟรชในโหมดการอ่าน ความไวต่อการสัมผัส</string>
     <string name="category_display_title">อัตราการรีเฟรช</string>
     <string name="category_touch_title">หน้าจอสัมผัส</string>
     <string name="accessories_title">อุปกรณ์เสริม</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz ในโหมดการอ่าน</string>
     <string name="reading_low_refresh_summary">ลดอัตราการรีเฟรชขณะเปิดโหมดการอ่าน</string>
     <string name="reading_low_refresh_unavailable">โหมดการอ่านไม่พร้อมใช้งาน</string>
-    <string name="touch_game_mode_title">โหมดเกมหน้าจอสัมผัส</string>
-    <string name="touch_game_mode_summary">โหมดเกมของตัวควบคุมหน้าจอสัมผัส โดยจะปิดอีกครั้งหลังจากรีสตาร์ท</string>
-    <string name="touch_game_mode_unavailable">ไม่พร้อมใช้งาน</string>
+    <string name="touch_sensitivity_title">ความไวต่อการสัมผัส</string>
+    <string name="touch_sensitivity_low">การปฏิเสธฝ่ามือ (ต่ำ)</string>
+    <string name="touch_sensitivity_medium">มาตรฐาน (ปานกลาง)</string>
+    <string name="touch_sensitivity_high">ตอบสนองไว (สูง)</string>
+    <string name="touch_sensitivity_low_summary">ปฏิเสธฝ่ามือได้มากขึ้น เหมาะสำหรับเขียนหรือวางมือบนหน้าจอ</string>
+    <string name="touch_sensitivity_medium_summary">ระดับการปฏิเสธฝ่ามือเริ่มต้น</string>
+    <string name="touch_sensitivity_high_summary">ลดการปฏิเสธฝ่ามือ เพื่อให้การแตะและปัดติดตามนิ้วได้ใกล้เคียงยิ่งขึ้น เหมาะสำหรับเล่นเกม แต่อาจตรวจจับฝ่ามือและขอบหน้าจอเป็นการสัมผัสได้</string>
+    <string name="touch_sensitivity_unavailable">ไม่พร้อมใช้งาน</string>
     <string name="smart_cover_title">เคสแม่เหล็ก</string>
     <string name="smart_cover_summary">ปิดหน้าจอและล็อกอุปกรณ์เมื่อปิดเคสแม่เหล็ก</string>
     <string name="pen_notifications_title">การแจ้งเตือนการเชื่อมต่อปากกา</string>
@@ -198,6 +203,9 @@
     <string name="perf_refresh_rate_none">ไม่ล็อก</string>
     <string name="perf_advanced_reset_title">รีเซ็ตเป็นค่าที่ตั้งไว้</string>
     <string name="tile_reading_low_refresh">อ่าน 30 Hz</string>
-    <string name="tile_touch_game_mode">โหมดเกมสัมผัส</string>
+    <string name="tile_touch_sensitivity">ความไวต่อการสัมผัส</string>
+    <string name="tile_touch_sensitivity_low">การปฏิเสธฝ่ามือ</string>
+    <string name="tile_touch_sensitivity_medium">มาตรฐาน</string>
+    <string name="tile_touch_sensitivity_high">ตอบสนองไว</string>
     <string name="tile_smart_cover">เคสแม่เหล็ก</string>
 </resources>

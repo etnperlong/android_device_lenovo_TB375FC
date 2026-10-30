@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">ഇപ്പോൾ പുനരാരംഭിക്കുക</string>
     <string name="ram_expansion_restart_later">പിന്നീട്</string>
     <string name="display_parts_title">റീഫ്രഷ് നിരക്കും ടച്ചും</string>
-    <string name="display_parts_summary">വായനാ മോഡ് റീഫ്രഷ് നിരക്ക്, ടച്ച് ഗെയിം മോഡ്</string>
+    <string name="display_parts_summary">വായനാ മോഡ് റീഫ്രഷ് നിരക്ക്, ടച്ച് സംവേദനക്ഷമത</string>
     <string name="category_display_title">റീഫ്രഷ് നിരക്ക്</string>
     <string name="category_touch_title">ടച്ച്</string>
     <string name="accessories_title">ആക്‌സസറികൾ</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">വായനാ മോഡിൽ 30 Hz</string>
     <string name="reading_low_refresh_summary">വായനാ മോഡ് ഓണായിരിക്കുമ്പോൾ റീഫ്രഷ് നിരക്ക് കുറയ്ക്കുക</string>
     <string name="reading_low_refresh_unavailable">വായനാ മോഡ് ലഭ്യമല്ല</string>
-    <string name="touch_game_mode_title">ടച്ച് ഗെയിം മോഡ്</string>
-    <string name="touch_game_mode_summary">ടച്ച് കൺട്രോളറിന്റെ ഗെയിം മോഡ്. റീസ്റ്റാർട്ട് ചെയ്താൽ വീണ്ടും ഓഫാകും.</string>
-    <string name="touch_game_mode_unavailable">ലഭ്യമല്ല</string>
+    <string name="touch_sensitivity_title">ടച്ച് സംവേദനക്ഷമത</string>
+    <string name="touch_sensitivity_low">കൈപ്പത്തിയിലെ സ്പർശം നിരസിക്കൽ (കുറവ്)</string>
+    <string name="touch_sensitivity_medium">സ്റ്റാൻഡേർഡ് (മധ്യം)</string>
+    <string name="touch_sensitivity_high">വേഗത്തിലുള്ള പ്രതികരണം (ഉയർന്നത്)</string>
+    <string name="touch_sensitivity_low_summary">എഴുതുമ്പോഴോ സ്‌ക്രീനിൽ കൈ വയ്ക്കുമ്പോഴോ കൈപ്പത്തിയിലെ സ്പർശം കൂടുതൽ ശക്തമായി നിരസിക്കുന്നു</string>
+    <string name="touch_sensitivity_medium_summary">കൈപ്പത്തി സ്പർശം നിരസിക്കുന്നതിന്റെ ഡിഫോൾട്ട് നില</string>
+    <string name="touch_sensitivity_high_summary">കൈപ്പത്തിക്കുള്ള ഫിൽറ്ററിംഗ് കുറയ്ക്കുന്നു, അതിനാൽ ടാപ്പുകളും സ്വൈപ്പുകളും വിരലിനെ കൂടുതൽ കൃത്യമായി പിന്തുടരും. ഗെയിമുകൾക്ക് അനുയോജ്യം; കൈപ്പത്തിയിലെയും സ്‌ക്രീനിന്റെ അരികുകളിലെയും സ്പർശം തിരിച്ചറിയപ്പെട്ടേക്കാം.</string>
+    <string name="touch_sensitivity_unavailable">ലഭ്യമല്ല</string>
     <string name="smart_cover_title">കാന്തിക കവർ</string>
     <string name="smart_cover_summary">കാന്തിക കവർ അടയ്ക്കുമ്പോൾ സ്ലീപ്പിലാക്കി ലോക്ക് ചെയ്യുക</string>
     <string name="pen_notifications_title">സ്‌റ്റൈലസ് കണക്ഷൻ അറിയിപ്പുകൾ</string>
@@ -199,6 +204,9 @@
     <string name="perf_refresh_rate_none">ലോക്ക് ചെയ്തിട്ടില്ല</string>
     <string name="perf_advanced_reset_title">പ്രീസെറ്റിലേക്ക് റീസെറ്റ് ചെയ്യുക</string>
     <string name="tile_reading_low_refresh">വായനാ മോഡ് 30 Hz</string>
-    <string name="tile_touch_game_mode">ടച്ച് ഗെയിം മോഡ്</string>
+    <string name="tile_touch_sensitivity">ടച്ച് സംവേദനക്ഷമത</string>
+    <string name="tile_touch_sensitivity_low">കൈപ്പത്തി സ്പർശം നിരസിക്കുക</string>
+    <string name="tile_touch_sensitivity_medium">സ്റ്റാൻഡേർഡ്</string>
+    <string name="tile_touch_sensitivity_high">വേഗത്തിലുള്ള പ്രതികരണം</string>
     <string name="tile_smart_cover">കാന്തിക കവർ</string>
 </resources>

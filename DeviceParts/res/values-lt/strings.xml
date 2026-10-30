@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Paleisti iš naujo</string>
     <string name="ram_expansion_restart_later">Vėliau</string>
     <string name="display_parts_title">Atnaujinimo dažnis ir lietimas</string>
-    <string name="display_parts_summary">Skaitymo režimo atnaujinimo dažnis, lietimo žaidimų režimas</string>
+    <string name="display_parts_summary">Skaitymo režimo atnaujinimo dažnis, lietimo jautrumas</string>
     <string name="category_display_title">Atnaujinimo dažnis</string>
     <string name="category_touch_title">Lietimas</string>
     <string name="accessories_title">Priedai</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz skaitymo režimu</string>
     <string name="reading_low_refresh_summary">Sumažinti atnaujinimo dažnį, kai įjungtas skaitymo režimas</string>
     <string name="reading_low_refresh_unavailable">Skaitymo režimas nepasiekiamas</string>
-    <string name="touch_game_mode_title">Lietimo žaidimų režimas</string>
-    <string name="touch_game_mode_summary">Lietimo valdiklio žaidimų režimas. Po paleidimo iš naujo vėl išjungiamas.</string>
-    <string name="touch_game_mode_unavailable">Nepasiekiama</string>
+    <string name="touch_sensitivity_title">Lietimo jautrumas</string>
+    <string name="touch_sensitivity_low">Delno prisilietimų atmetimas (žemas)</string>
+    <string name="touch_sensitivity_medium">Standartinis (vidutinis)</string>
+    <string name="touch_sensitivity_high">Greita reakcija (aukštas)</string>
+    <string name="touch_sensitivity_low_summary">Stipriau atmetami delno prisilietimai, kad būtų patogu rašyti arba laikyti ranką ant ekrano</string>
+    <string name="touch_sensitivity_medium_summary">Numatytasis delno prisilietimų atmetimo lygis</string>
+    <string name="touch_sensitivity_high_summary">Silpnesnis delno filtravimas, todėl palietimai ir perbraukimai tiksliau seka pirštą. Tinka žaidimams; delno ir ekrano kraštų prisilietimai gali būti užregistruoti.</string>
+    <string name="touch_sensitivity_unavailable">Nepasiekiama</string>
     <string name="smart_cover_title">Magnetinis dėklas</string>
     <string name="smart_cover_summary">Uždarius magnetinį dėklą įjungti miego režimą ir užrakinti</string>
     <string name="pen_notifications_title">Rašiklio ryšio pranešimai</string>
@@ -208,6 +213,9 @@
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Atkurti išankstinę nuostatą</string>
     <string name="tile_reading_low_refresh">Skaitymas 30 Hz</string>
-    <string name="tile_touch_game_mode">Lietimo žaidimų režimas</string>
+    <string name="tile_touch_sensitivity">Lietimo jautrumas</string>
+    <string name="tile_touch_sensitivity_low">Delno atmetimas</string>
+    <string name="tile_touch_sensitivity_medium">Standartinis</string>
+    <string name="tile_touch_sensitivity_high">Greita reakcija</string>
     <string name="tile_smart_cover">Magnetinis dėklas</string>
 </resources>

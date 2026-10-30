@@ -41,7 +41,7 @@
     <string name="ram_expansion_restart_now">立即重新啟動</string>
     <string name="ram_expansion_restart_later">稍後</string>
     <string name="display_parts_title">刷新率與觸控</string>
-    <string name="display_parts_summary">閱讀模式刷新率、觸控遊戲模式</string>
+    <string name="display_parts_summary">閱讀模式刷新率、觸控靈敏度</string>
 
     <string name="category_display_title">刷新率</string>
     <string name="category_touch_title">觸控</string>
@@ -57,9 +57,14 @@
     <string name="reading_low_refresh_title">閱讀模式下使用 30 Hz</string>
     <string name="reading_low_refresh_summary">開啟閱讀模式時降低刷新率</string>
     <string name="reading_low_refresh_unavailable">閱讀模式無法使用</string>
-    <string name="touch_game_mode_title">觸控遊戲模式</string>
-    <string name="touch_game_mode_summary">觸控控制器的遊戲模式。重新啟動後會再次關閉。</string>
-    <string name="touch_game_mode_unavailable">無法使用</string>
+    <string name="touch_sensitivity_title">觸控靈敏度</string>
+    <string name="touch_sensitivity_low">防手掌誤觸（低）</string>
+    <string name="touch_sensitivity_medium">標準（中）</string>
+    <string name="touch_sensitivity_high">增強跟手（高）</string>
+    <string name="touch_sensitivity_low_summary">加強防止手掌誤觸，適合書寫或將手掌放在螢幕上時使用</string>
+    <string name="touch_sensitivity_medium_summary">預設的防手掌誤觸程度</string>
+    <string name="touch_sensitivity_high_summary">減少防手掌誤觸過濾，提升點按和滑動的跟手性，適合遊戲；手掌或螢幕邊緣可能更容易誤觸</string>
+    <string name="touch_sensitivity_unavailable">無法使用</string>
     <string name="smart_cover_title">磁吸保護套</string>
     <string name="smart_cover_summary">合上磁吸保護套時讓裝置進入休眠並鎖定</string>
     <string name="pen_notifications_title">觸控筆連線通知</string>
@@ -206,6 +211,9 @@
     <string name="perf_advanced_reset_title">還原為預設集設定</string>
 
     <string name="tile_reading_low_refresh">閱讀模式 30 Hz</string>
-    <string name="tile_touch_game_mode">觸控遊戲模式</string>
+    <string name="tile_touch_sensitivity">觸控靈敏度</string>
+    <string name="tile_touch_sensitivity_low">防手掌誤觸</string>
+    <string name="tile_touch_sensitivity_medium">標準</string>
+    <string name="tile_touch_sensitivity_high">增強跟手</string>
     <string name="tile_smart_cover">磁吸保護套</string>
 </resources>

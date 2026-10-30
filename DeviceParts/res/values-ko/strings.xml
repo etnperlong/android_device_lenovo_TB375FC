@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">다시 시작</string>
     <string name="ram_expansion_restart_later">나중에</string>
     <string name="display_parts_title">화면 재생 빈도 및 터치</string>
-    <string name="display_parts_summary">독서 모드 화면 재생 빈도, 터치 게임 모드</string>
+    <string name="display_parts_summary">독서 모드 화면 재생 빈도, 터치 민감도</string>
     <string name="category_display_title">화면 재생 빈도</string>
     <string name="category_touch_title">터치</string>
     <string name="accessories_title">액세서리</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">독서 모드에서 30Hz</string>
     <string name="reading_low_refresh_summary">독서 모드가 켜져 있을 때 화면 재생 빈도를 낮춥니다</string>
     <string name="reading_low_refresh_unavailable">독서 모드를 사용할 수 없습니다</string>
-    <string name="touch_game_mode_title">터치 게임 모드</string>
-    <string name="touch_game_mode_summary">터치 컨트롤러의 게임 모드입니다. 기기를 다시 시작하면 꺼집니다.</string>
-    <string name="touch_game_mode_unavailable">사용할 수 없음</string>
+    <string name="touch_sensitivity_title">터치 민감도</string>
+    <string name="touch_sensitivity_low">손바닥 터치 차단 (낮음)</string>
+    <string name="touch_sensitivity_medium">표준 (중간)</string>
+    <string name="touch_sensitivity_high">빠른 반응 (높음)</string>
+    <string name="touch_sensitivity_low_summary">글을 쓰거나 화면에 손을 올려둘 때 손바닥 터치를 더 강하게 차단합니다</string>
+    <string name="touch_sensitivity_medium_summary">기본 손바닥 터치 차단 수준</string>
+    <string name="touch_sensitivity_high_summary">손바닥 필터링을 약하게 하여 탭과 스와이프가 손가락 움직임을 더 가깝게 따릅니다. 게임에 적합하지만 손바닥이나 화면 가장자리의 터치가 인식될 수 있습니다.</string>
+    <string name="touch_sensitivity_unavailable">사용할 수 없음</string>
     <string name="smart_cover_title">자석 커버</string>
     <string name="smart_cover_summary">자석 커버를 닫으면 절전 모드로 전환하고 잠급니다</string>
     <string name="pen_notifications_title">스타일러스 연결 알림</string>
@@ -199,6 +204,9 @@
     <string name="perf_refresh_rate_none">고정 안 함</string>
     <string name="perf_advanced_reset_title">프리셋으로 초기화</string>
     <string name="tile_reading_low_refresh">독서 모드 30Hz</string>
-    <string name="tile_touch_game_mode">터치 게임 모드</string>
+    <string name="tile_touch_sensitivity">터치 민감도</string>
+    <string name="tile_touch_sensitivity_low">손바닥 터치 차단</string>
+    <string name="tile_touch_sensitivity_medium">표준</string>
+    <string name="tile_touch_sensitivity_high">빠른 반응</string>
     <string name="tile_smart_cover">자석 커버</string>
 </resources>

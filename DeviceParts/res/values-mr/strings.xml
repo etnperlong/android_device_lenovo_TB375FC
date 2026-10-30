@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">आता रीस्टार्ट करा</string>
     <string name="ram_expansion_restart_later">नंतर</string>
     <string name="display_parts_title">रिफ्रेश रेट आणि टच</string>
-    <string name="display_parts_summary">रीडिंग मोड रिफ्रेश रेट, टच गेम मोड</string>
+    <string name="display_parts_summary">रीडिंग मोड रिफ्रेश रेट, टच संवेदनशीलता</string>
     <string name="category_display_title">रिफ्रेश रेट</string>
     <string name="category_touch_title">टच</string>
     <string name="accessories_title">ॲक्सेसरीज</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">रीडिंग मोडमध्ये 30 Hz</string>
     <string name="reading_low_refresh_summary">रीडिंग मोड सुरू असताना रिफ्रेश रेट कमी करा</string>
     <string name="reading_low_refresh_unavailable">रीडिंग मोड उपलब्ध नाही</string>
-    <string name="touch_game_mode_title">टच गेम मोड</string>
-    <string name="touch_game_mode_summary">टच कंट्रोलरचा गेम मोड. रीस्टार्ट केल्यानंतर तो पुन्हा बंद होतो.</string>
-    <string name="touch_game_mode_unavailable">उपलब्ध नाही</string>
+    <string name="touch_sensitivity_title">टच संवेदनशीलता</string>
+    <string name="touch_sensitivity_low">हाताच्या तळव्याचा स्पर्श नाकारणे (कमी)</string>
+    <string name="touch_sensitivity_medium">मानक (मध्यम)</string>
+    <string name="touch_sensitivity_high">जलद प्रतिसाद (जास्त)</string>
+    <string name="touch_sensitivity_low_summary">लिहिताना किंवा स्क्रीनवर हात ठेवताना तळव्याचा स्पर्श अधिक प्रभावीपणे नाकारतो</string>
+    <string name="touch_sensitivity_medium_summary">तळव्याचा स्पर्श नाकारण्याची डीफॉल्ट पातळी</string>
+    <string name="touch_sensitivity_high_summary">तळव्यासाठी कमी फिल्टरिंग, त्यामुळे टॅप आणि स्वाइप तुमच्या बोटाच्या हालचालीचा अधिक जवळून मागोवा घेतात. गेमसाठी चांगले; तळव्याचे आणि स्क्रीनच्या कडांचे स्पर्श नोंदले जाऊ शकतात.</string>
+    <string name="touch_sensitivity_unavailable">उपलब्ध नाही</string>
     <string name="smart_cover_title">मॅग्नेटिक कव्हर</string>
     <string name="smart_cover_summary">मॅग्नेटिक कव्हर बंद केल्यावर स्क्रीन स्लीपमध्ये ठेवा आणि लॉक करा</string>
     <string name="pen_notifications_title">स्टायलस कनेक्शन सूचना</string>
@@ -199,6 +204,9 @@
     <string name="perf_refresh_rate_none">लॉक केलेले नाही</string>
     <string name="perf_advanced_reset_title">प्रीसेटवर रीसेट करा</string>
     <string name="tile_reading_low_refresh">रीडिंग 30 Hz</string>
-    <string name="tile_touch_game_mode">टच गेम मोड</string>
+    <string name="tile_touch_sensitivity">टच संवेदनशीलता</string>
+    <string name="tile_touch_sensitivity_low">तळव्याचा स्पर्श नाकारा</string>
+    <string name="tile_touch_sensitivity_medium">मानक</string>
+    <string name="tile_touch_sensitivity_high">जलद प्रतिसाद</string>
     <string name="tile_smart_cover">मॅग्नेटिक कव्हर</string>
 </resources>

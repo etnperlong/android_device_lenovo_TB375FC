@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Khởi động lại</string>
     <string name="ram_expansion_restart_later">Để sau</string>
     <string name="display_parts_title">Tần số quét và màn hình cảm ứng</string>
-    <string name="display_parts_summary">Tần số quét ở chế độ đọc, chế độ chơi game cảm ứng</string>
+    <string name="display_parts_summary">Tần số quét ở chế độ đọc, độ nhạy cảm ứng</string>
     <string name="category_display_title">Tần số quét</string>
     <string name="category_touch_title">Cảm ứng</string>
     <string name="accessories_title">Phụ kiện</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz ở chế độ đọc</string>
     <string name="reading_low_refresh_summary">Giảm tần số quét khi bật chế độ đọc</string>
     <string name="reading_low_refresh_unavailable">Chế độ đọc không khả dụng</string>
-    <string name="touch_game_mode_title">Chế độ chơi game cảm ứng</string>
-    <string name="touch_game_mode_summary">Chế độ chơi game của bộ điều khiển cảm ứng. Chế độ này sẽ tắt lại sau khi khởi động lại.</string>
-    <string name="touch_game_mode_unavailable">Không khả dụng</string>
+    <string name="touch_sensitivity_title">Độ nhạy cảm ứng</string>
+    <string name="touch_sensitivity_low">Chống chạm lòng bàn tay (thấp)</string>
+    <string name="touch_sensitivity_medium">Tiêu chuẩn (trung bình)</string>
+    <string name="touch_sensitivity_high">Phản hồi nhanh (cao)</string>
+    <string name="touch_sensitivity_low_summary">Chống chạm lòng bàn tay mạnh hơn, phù hợp khi viết hoặc đặt tay lên màn hình</string>
+    <string name="touch_sensitivity_medium_summary">Mức chống chạm lòng bàn tay mặc định</string>
+    <string name="touch_sensitivity_high_summary">Chống chạm lòng bàn tay yếu hơn để thao tác chạm và vuốt bám theo ngón tay sát hơn. Phù hợp để chơi game; lòng bàn tay và cạnh màn hình cũng có thể được ghi nhận là thao tác chạm.</string>
+    <string name="touch_sensitivity_unavailable">Không khả dụng</string>
     <string name="smart_cover_title">Bao da nam châm</string>
     <string name="smart_cover_summary">Tắt màn hình và khóa khi đóng bao da nam châm</string>
     <string name="pen_notifications_title">Thông báo kết nối bút</string>
@@ -198,6 +203,9 @@
     <string name="perf_refresh_rate_none">Không khóa</string>
     <string name="perf_advanced_reset_title">Đặt lại về cài đặt sẵn</string>
     <string name="tile_reading_low_refresh">Đọc 30 Hz</string>
-    <string name="tile_touch_game_mode">Chơi game cảm ứng</string>
+    <string name="tile_touch_sensitivity">Độ nhạy cảm ứng</string>
+    <string name="tile_touch_sensitivity_low">Chống chạm lòng bàn tay</string>
+    <string name="tile_touch_sensitivity_medium">Tiêu chuẩn</string>
+    <string name="tile_touch_sensitivity_high">Phản hồi nhanh</string>
     <string name="tile_smart_cover">Bao da nam châm</string>
 </resources>

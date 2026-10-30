@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Start på nytt</string>
     <string name="ram_expansion_restart_later">Seinare</string>
     <string name="display_parts_title">Oppdateringsfrekvens og berøring</string>
-    <string name="display_parts_summary">Oppdateringsfrekvens i lesemodus, skjermspelmodus</string>
+    <string name="display_parts_summary">Oppdateringsfrekvens i lesemodus, berøringsfølsamheit</string>
     <string name="category_display_title">Oppdateringsfrekvens</string>
     <string name="category_touch_title">Berøring</string>
     <string name="accessories_title">Tilbehør</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz i lesemodus</string>
     <string name="reading_low_refresh_summary">Senk oppdateringsfrekvensen når lesemodus er på</string>
     <string name="reading_low_refresh_unavailable">Lesemodus er ikkje tilgjengeleg</string>
-    <string name="touch_game_mode_title">Skjermspelmodus</string>
-    <string name="touch_game_mode_summary">Spelmodus for skjermkontrolleren. Vert slått av att etter ei omstart.</string>
-    <string name="touch_game_mode_unavailable">Ikkje tilgjengeleg</string>
+    <string name="touch_sensitivity_title">Berøringsfølsamheit</string>
+    <string name="touch_sensitivity_low">Handflateavvising (låg)</string>
+    <string name="touch_sensitivity_medium">Standard (middels)</string>
+    <string name="touch_sensitivity_high">Responsiv (høg)</string>
+    <string name="touch_sensitivity_low_summary">Sterkare avvising av handflater, eigna til skriving eller når du kviler handa på skjermen</string>
+    <string name="touch_sensitivity_medium_summary">Standardnivå for avvising av handflater</string>
+    <string name="touch_sensitivity_high_summary">Svakare avvising av handflater, slik at trykk og sveip følgjer fingeren tettare. Bra for spel; handflater og skjermkantar kan registrerast som berøringar.</string>
+    <string name="touch_sensitivity_unavailable">Ikkje tilgjengeleg</string>
     <string name="smart_cover_title">Magnetdeksel</string>
     <string name="smart_cover_summary">Slå av skjermen og lås når magnetdekselet vert lukka</string>
     <string name="pen_notifications_title">Varsel om pennetilkobling</string>
@@ -199,6 +204,9 @@
     <string name="perf_refresh_rate_none">Ikkje låst</string>
     <string name="perf_advanced_reset_title">Tilbakestill til førehandsinnstilling</string>
     <string name="tile_reading_low_refresh">Lesing 30 Hz</string>
-    <string name="tile_touch_game_mode">Skjermspel</string>
+    <string name="tile_touch_sensitivity">Berøringsfølsamheit</string>
+    <string name="tile_touch_sensitivity_low">Handflateavvising</string>
+    <string name="tile_touch_sensitivity_medium">Standard</string>
+    <string name="tile_touch_sensitivity_high">Responsiv</string>
     <string name="tile_smart_cover">Magnetdeksel</string>
 </resources>

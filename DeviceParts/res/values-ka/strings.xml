@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">გადატვირთვა</string>
     <string name="ram_expansion_restart_later">მოგვიანებით</string>
     <string name="display_parts_title">განახლების სიხშირე და შეხება</string>
-    <string name="display_parts_summary">საკითხავი რეჟიმის განახლების სიხშირე, შეხებით თამაშის რეჟიმი</string>
+    <string name="display_parts_summary">საკითხავი რეჟიმის განახლების სიხშირე, შეხების მგრძნობელობა</string>
     <string name="category_display_title">განახლების სიხშირე</string>
     <string name="category_touch_title">შეხება</string>
     <string name="accessories_title">აქსესუარები</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 ჰც საკითხავ რეჟიმში</string>
     <string name="reading_low_refresh_summary">საკითხავი რეჟიმის ჩართვისას განახლების სიხშირის შემცირება</string>
     <string name="reading_low_refresh_unavailable">საკითხავი რეჟიმი მიუწვდომელია</string>
-    <string name="touch_game_mode_title">შეხებით თამაშის რეჟიმი</string>
-    <string name="touch_game_mode_summary">შეხების კონტროლერის თამაშის რეჟიმი. გადატვირთვის შემდეგ კვლავ გამოირთვება.</string>
-    <string name="touch_game_mode_unavailable">მიუწვდომელია</string>
+    <string name="touch_sensitivity_title">შეხების მგრძნობელობა</string>
+    <string name="touch_sensitivity_low">ხელისგულის შეხების უარყოფა (დაბალი)</string>
+    <string name="touch_sensitivity_medium">სტანდარტული (საშუალო)</string>
+    <string name="touch_sensitivity_high">სწრაფი რეაგირება (მაღალი)</string>
+    <string name="touch_sensitivity_low_summary">ხელისგულის შეხების უფრო ძლიერი უარყოფა წერისას ან ეკრანზე ხელის დადებისას</string>
+    <string name="touch_sensitivity_medium_summary">ხელისგულის შეხების უარყოფის ნაგულისხმევი დონე</string>
+    <string name="touch_sensitivity_high_summary">ხელისგულის სუსტი გაფილტვრა, რათა შეხება და გასმა თითს უფრო ზუსტად მიჰყვეს. კარგია თამაშებისთვის; ხელისგულისა და ეკრანის კიდეების შეხება შეიძლება დაფიქსირდეს.</string>
+    <string name="touch_sensitivity_unavailable">მიუწვდომელია</string>
     <string name="smart_cover_title">მაგნიტური ჩასადები</string>
     <string name="smart_cover_summary">მაგნიტური ჩასადების დახურვისას ძილის რეჟიმში გადაყვანა და დაბლოკვა</string>
     <string name="pen_notifications_title">სტილუსის კავშირის შეტყობინებები</string>
@@ -207,6 +212,9 @@
     <string name="perf_refresh_rate_hz">%1$d ჰც</string>
     <string name="perf_advanced_reset_title">წინასწარ პარამეტრზე აღდგენა</string>
     <string name="tile_reading_low_refresh">საკითხავი 30 ჰც</string>
-    <string name="tile_touch_game_mode">შეხებით თამაშის რეჟიმი</string>
+    <string name="tile_touch_sensitivity">შეხების მგრძნობელობა</string>
+    <string name="tile_touch_sensitivity_low">ხელისგულის უარყოფა</string>
+    <string name="tile_touch_sensitivity_medium">სტანდარტული</string>
+    <string name="tile_touch_sensitivity_high">სწრაფი რეაგირება</string>
     <string name="tile_smart_cover">მაგნიტური ჩასადები</string>
 </resources>

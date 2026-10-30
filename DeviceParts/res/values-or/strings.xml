@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">ବର୍ତ୍ତମାନ ପୁନଃଆରମ୍ଭ କରନ୍ତୁ</string>
     <string name="ram_expansion_restart_later">ପରେ</string>
     <string name="display_parts_title">ରିଫ୍ରେସ ରେଟ ଏବଂ ଟଚ</string>
-    <string name="display_parts_summary">ରିଡିଙ୍ଗ ମୋଡ ରିଫ୍ରେସ ରେଟ, ଟଚ ଗେମ ମୋଡ</string>
+    <string name="display_parts_summary">ରିଡିଙ୍ଗ ମୋଡ ରିଫ୍ରେସ ରେଟ, ଟଚ ସମ୍ବେଦନଶୀଳତା</string>
     <string name="category_display_title">ରିଫ୍ରେସ ରେଟ</string>
     <string name="category_touch_title">ଟଚ</string>
     <string name="accessories_title">ଆକ୍ସେସରିଜ</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">ରିଡିଙ୍ଗ ମୋଡରେ 30 Hz</string>
     <string name="reading_low_refresh_summary">ରିଡିଙ୍ଗ ମୋଡ ଅନ ଥିବାବେଳେ ରିଫ୍ରେସ ରେଟ କମ କରନ୍ତୁ</string>
     <string name="reading_low_refresh_unavailable">ରିଡିଙ୍ଗ ମୋଡ ଉପଲବ୍ଧ ନାହିଁ</string>
-    <string name="touch_game_mode_title">ଟଚ ଗେମ ମୋଡ</string>
-    <string name="touch_game_mode_summary">ଟଚ କଣ୍ଟ୍ରୋଲରର ଗେମ ମୋଡ। ରିଷ୍ଟାର୍ଟ ପରେ ପୁଣି ଅଫ ହୋଇଯାଏ।</string>
-    <string name="touch_game_mode_unavailable">ଉପଲବ୍ଧ ନାହିଁ</string>
+    <string name="touch_sensitivity_title">ଟଚ ସମ୍ବେଦନଶୀଳତା</string>
+    <string name="touch_sensitivity_low">ହାତପାପୁଲି ପ୍ରତ୍ୟାଖ୍ୟାନ (କମ)</string>
+    <string name="touch_sensitivity_medium">ମାନକ (ମଧ୍ୟମ)</string>
+    <string name="touch_sensitivity_high">ତ୍ୱରିତ ପ୍ରତିକ୍ରିୟା (ଅଧିକ)</string>
+    <string name="touch_sensitivity_low_summary">ହାତପାପୁଲି ପ୍ରତ୍ୟାଖ୍ୟାନକୁ ବଢ଼ାଏ, ଲେଖିବା କିମ୍ବା ସ୍କ୍ରିନ ଉପରେ ହାତ ରଖିବା ପାଇଁ ଉପଯୁକ୍ତ</string>
+    <string name="touch_sensitivity_medium_summary">ହାତପାପୁଲି ପ୍ରତ୍ୟାଖ୍ୟାନର ପୂର୍ବନିର୍ଦ୍ଧାରିତ ସ୍ତର</string>
+    <string name="touch_sensitivity_high_summary">ହାତପାପୁଲି ପ୍ରତ୍ୟାଖ୍ୟାନ କମ କରେ, ତେଣୁ ଟ୍ୟାପ ଓ ସ୍ୱାଇପ ଆଙ୍ଗୁଠିକୁ ଅଧିକ ନିକଟରୁ ଅନୁସରଣ କରେ। ଗେମ ପାଇଁ ଭଲ; ହାତପାପୁଲି ଓ ସ୍କ୍ରିନର ଧାର ମଧ୍ୟ ସ୍ପର୍ଶ ଭାବେ ଦର୍ଜ ହୋଇପାରେ।</string>
+    <string name="touch_sensitivity_unavailable">ଉପଲବ୍ଧ ନାହିଁ</string>
     <string name="smart_cover_title">ମ୍ୟାଗ୍ନେଟିକ କଭର</string>
     <string name="smart_cover_summary">ମ୍ୟାଗ୍ନେଟିକ କଭର ବନ୍ଦ ହେଲେ ସ୍ଲିପ ଏବଂ ଲକ କରନ୍ତୁ</string>
     <string name="pen_notifications_title">ଷ୍ଟାଇଲସ ସଂଯୋଗ ବିଜ୍ଞପ୍ତି</string>
@@ -199,6 +204,9 @@
     <string name="perf_refresh_rate_none">ଲକ ହୋଇନାହିଁ</string>
     <string name="perf_advanced_reset_title">ପ୍ରିସେଟକୁ ରିସେଟ କରନ୍ତୁ</string>
     <string name="tile_reading_low_refresh">ରିଡିଙ୍ଗ 30 Hz</string>
-    <string name="tile_touch_game_mode">ଟଚ ଗେମ ମୋଡ</string>
+    <string name="tile_touch_sensitivity">ଟଚ ସମ୍ବେଦନଶୀଳତା</string>
+    <string name="tile_touch_sensitivity_low">ହାତପାପୁଲି ପ୍ରତ୍ୟାଖ୍ୟାନ</string>
+    <string name="tile_touch_sensitivity_medium">ମାନକ</string>
+    <string name="tile_touch_sensitivity_high">ତ୍ୱରିତ ପ୍ରତିକ୍ରିୟା</string>
     <string name="tile_smart_cover">ମ୍ୟାଗ୍ନେଟିକ କଭର</string>
 </resources>

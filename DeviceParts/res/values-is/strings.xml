@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Endurræsa</string>
     <string name="ram_expansion_restart_later">Seinna</string>
     <string name="display_parts_title">Endurnýjunartíðni og snerting</string>
-    <string name="display_parts_summary">Endurnýjunartíðni í lesham, snertileikjastilling</string>
+    <string name="display_parts_summary">Endurnýjunartíðni í lesham, snertinæmi</string>
     <string name="category_display_title">Endurnýjunartíðni</string>
     <string name="category_touch_title">Snerting</string>
     <string name="accessories_title">Aukabúnaður</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz í lesham</string>
     <string name="reading_low_refresh_summary">Lækka endurnýjunartíðnina þegar kveikt er á lesham</string>
     <string name="reading_low_refresh_unavailable">Leshamur er ekki í boði</string>
-    <string name="touch_game_mode_title">Snertileikjastilling</string>
-    <string name="touch_game_mode_summary">Leikjastilling snertistýringarinnar. Slokknar aftur eftir endurræsingu.</string>
-    <string name="touch_game_mode_unavailable">Ekki í boði</string>
+    <string name="touch_sensitivity_title">Snertinæmi</string>
+    <string name="touch_sensitivity_low">Höfnun lófasnertingar (lágt)</string>
+    <string name="touch_sensitivity_medium">Venjulegt (miðlungs)</string>
+    <string name="touch_sensitivity_high">Næmara (hátt)</string>
+    <string name="touch_sensitivity_low_summary">Meiri höfnun lófasnertingar, til að skrifa eða hvíla hönd á skjánum</string>
+    <string name="touch_sensitivity_medium_summary">Sjálfgefin höfnun lófasnertingar</string>
+    <string name="touch_sensitivity_high_summary">Minni síun lófa svo snertingar og strjúkingar fylgi fingrinum betur. Hentar vel fyrir leiki; snertingar lófa og skjábrúna geta skráðst.</string>
+    <string name="touch_sensitivity_unavailable">Ekki í boði</string>
     <string name="smart_cover_title">Segulhlíf</string>
     <string name="smart_cover_summary">Setja í hvíld og læsa þegar segulhlífinni er lokað</string>
     <string name="pen_notifications_title">Tilkynningar um tengingu penna</string>
@@ -199,6 +204,9 @@
     <string name="perf_refresh_rate_none">Ólæst</string>
     <string name="perf_advanced_reset_title">Endurstilla á forstillingu</string>
     <string name="tile_reading_low_refresh">Lestur 30 Hz</string>
-    <string name="tile_touch_game_mode">Snertileikjastilling</string>
+    <string name="tile_touch_sensitivity">Snertinæmi</string>
+    <string name="tile_touch_sensitivity_low">Hafna lófasnertingu</string>
+    <string name="tile_touch_sensitivity_medium">Venjulegt</string>
+    <string name="tile_touch_sensitivity_high">Næmara</string>
     <string name="tile_smart_cover">Segulhlíf</string>
 </resources>

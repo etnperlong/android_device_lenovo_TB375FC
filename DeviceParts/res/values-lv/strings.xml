@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Restartēt</string>
     <string name="ram_expansion_restart_later">Vēlāk</string>
     <string name="display_parts_title">Atsvaidzes intensitāte un skāriens</string>
-    <string name="display_parts_summary">Lasīšanas režīma atsvaidzes intensitāte, skārienekrāna spēļu režīms</string>
+    <string name="display_parts_summary">Lasīšanas režīma atsvaidzes intensitāte, skārienjutība</string>
     <string name="category_display_title">Atsvaidzes intensitāte</string>
     <string name="category_touch_title">Skāriens</string>
     <string name="accessories_title">Piederumi</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz lasīšanas režīmā</string>
     <string name="reading_low_refresh_summary">Samazināt atsvaidzes intensitāti, kad ir ieslēgts lasīšanas režīms</string>
     <string name="reading_low_refresh_unavailable">Lasīšanas režīms nav pieejams</string>
-    <string name="touch_game_mode_title">Skārienekrāna spēļu režīms</string>
-    <string name="touch_game_mode_summary">Skārienekrāna kontrollera spēļu režīms. Pēc restartēšanas tas atkal tiek izslēgts.</string>
-    <string name="touch_game_mode_unavailable">Nav pieejams</string>
+    <string name="touch_sensitivity_title">Skārienjutība</string>
+    <string name="touch_sensitivity_low">Plaukstas pieskārienu noraidīšana (zema)</string>
+    <string name="touch_sensitivity_medium">Standarta (vidēja)</string>
+    <string name="touch_sensitivity_high">Ātra reakcija (augsta)</string>
+    <string name="touch_sensitivity_low_summary">Spēcīgāka plaukstas pieskārienu noraidīšana rakstīšanai vai rokas atbalstīšanai uz ekrāna</string>
+    <string name="touch_sensitivity_medium_summary">Noklusējuma plaukstas pieskārienu noraidīšana</string>
+    <string name="touch_sensitivity_high_summary">Vājāka plaukstas filtrēšana, lai pieskārieni un vilkšana precīzāk sekotu pirkstam. Piemērota spēlēm; plaukstas un ekrāna malu pieskārieni var tikt reģistrēti.</string>
+    <string name="touch_sensitivity_unavailable">Nav pieejams</string>
     <string name="smart_cover_title">Magnētiskais vāciņš</string>
     <string name="smart_cover_summary">Aizverot magnētisko vāciņu, iemidzināt un bloķēt ierīci</string>
     <string name="pen_notifications_title">Pildspalvas savienojuma paziņojumi</string>
@@ -207,6 +212,9 @@
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Atiestatīt sākotnējo iestatījumu</string>
     <string name="tile_reading_low_refresh">Lasīšana 30 Hz</string>
-    <string name="tile_touch_game_mode">Skārienekrāna spēļu režīms</string>
+    <string name="tile_touch_sensitivity">Skārienjutība</string>
+    <string name="tile_touch_sensitivity_low">Plaukstas noraidīšana</string>
+    <string name="tile_touch_sensitivity_medium">Standarta</string>
+    <string name="tile_touch_sensitivity_high">Ātra reakcija</string>
     <string name="tile_smart_cover">Magnētiskais vāciņš</string>
 </resources>

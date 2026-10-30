@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">अहिले पुनः सुरु गर्नुहोस्</string>
     <string name="ram_expansion_restart_later">पछि</string>
     <string name="display_parts_title">रिफ्रेस रेट र टच</string>
-    <string name="display_parts_summary">रिडिङ मोड रिफ्रेस रेट, टच गेम मोड</string>
+    <string name="display_parts_summary">रिडिङ मोड रिफ्रेस रेट, टच संवेदनशीलता</string>
     <string name="category_display_title">रिफ्रेस रेट</string>
     <string name="category_touch_title">टच</string>
     <string name="accessories_title">सहायक सामग्री</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">रिडिङ मोडमा 30 Hz</string>
     <string name="reading_low_refresh_summary">रिडिङ मोड अन हुँदा रिफ्रेस रेट घटाउनुहोस्</string>
     <string name="reading_low_refresh_unavailable">रिडिङ मोड उपलब्ध छैन</string>
-    <string name="touch_game_mode_title">टच गेम मोड</string>
-    <string name="touch_game_mode_summary">टच कन्ट्रोलरको गेम मोड। रिस्टार्ट गरेपछि फेरि अफ हुन्छ।</string>
-    <string name="touch_game_mode_unavailable">उपलब्ध छैन</string>
+    <string name="touch_sensitivity_title">टच संवेदनशीलता</string>
+    <string name="touch_sensitivity_low">हातको हत्केला अस्वीकार (कम)</string>
+    <string name="touch_sensitivity_medium">मानक (मध्यम)</string>
+    <string name="touch_sensitivity_high">द्रुत प्रतिक्रिया (उच्च)</string>
+    <string name="touch_sensitivity_low_summary">हातको हत्केला अस्वीकार अझ बलियो बनाउँछ, लेख्न वा स्क्रिनमा हात राख्न उपयुक्त</string>
+    <string name="touch_sensitivity_medium_summary">हातको हत्केला अस्वीकार गर्ने पूर्वनिर्धारित स्तर</string>
+    <string name="touch_sensitivity_high_summary">हातको हत्केला अस्वीकार कम गर्छ, त्यसैले ट्याप र स्वाइप औँलालाई अझ नजिकबाट पछ्याउँछन्। खेलका लागि राम्रो; हत्केला र स्क्रिनका किनाराले पनि स्पर्श दर्ता गर्न सक्छन्।</string>
+    <string name="touch_sensitivity_unavailable">उपलब्ध छैन</string>
     <string name="smart_cover_title">चुम्बकीय कभर</string>
     <string name="smart_cover_summary">चुम्बकीय कभर बन्द हुँदा सुताउने र लक गर्ने</string>
     <string name="pen_notifications_title">स्टाइलस जडानका सूचनाहरू</string>
@@ -199,6 +204,9 @@
     <string name="perf_refresh_rate_none">लक गरिएको छैन</string>
     <string name="perf_advanced_reset_title">प्रिसेटमा रिसेट गर्नुहोस्</string>
     <string name="tile_reading_low_refresh">रिडिङ 30 Hz</string>
-    <string name="tile_touch_game_mode">टच गेम मोड</string>
+    <string name="tile_touch_sensitivity">टच संवेदनशीलता</string>
+    <string name="tile_touch_sensitivity_low">हत्केला अस्वीकार</string>
+    <string name="tile_touch_sensitivity_medium">मानक</string>
+    <string name="tile_touch_sensitivity_high">द्रुत प्रतिक्रिया</string>
     <string name="tile_smart_cover">चुम्बकीय कभर</string>
 </resources>

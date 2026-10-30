@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Torra a aviare</string>
     <string name="ram_expansion_restart_later">In segus</string>
     <string name="display_parts_title">Frequèntzia de atualizatzione e tocu</string>
-    <string name="display_parts_summary">Frequèntzia de atualizatzione de sa modalidade letura, modalidade giogu de su tocu</string>
+    <string name="display_parts_summary">Frequèntzia de atualizatzione de sa modalidade letura, sensibilidade de su tocu</string>
     <string name="category_display_title">Frequèntzia de atualizatzione</string>
     <string name="category_touch_title">Tocu</string>
     <string name="accessories_title">Accessòrios</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz in modalidade letura</string>
     <string name="reading_low_refresh_summary">Bassa sa frequèntzia de atualizatzione cando sa modalidade letura est ativa</string>
     <string name="reading_low_refresh_unavailable">Sa modalidade letura non est disponìbile</string>
-    <string name="touch_game_mode_title">Modalidade giogu de su tocu</string>
-    <string name="touch_game_mode_summary">Modalidade giogu de su controllore de su tocu. Si istutat a torrare a pustis de torrare a aviare.</string>
-    <string name="touch_game_mode_unavailable">Non disponìbile</string>
+    <string name="touch_sensitivity_title">Sensibilidade de su tocu</string>
+    <string name="touch_sensitivity_low">Refudu de sa palma (bàscia)</string>
+    <string name="touch_sensitivity_medium">Standard (mesana)</string>
+    <string name="touch_sensitivity_high">Reativa (arta)</string>
+    <string name="touch_sensitivity_low_summary">Refudu prus forte de sa palma, bonu pro iscrìere o pro apogiare sa manu in s\'ischermu</string>
+    <string name="touch_sensitivity_medium_summary">Livellu predefinidu de refudu de sa palma</string>
+    <string name="touch_sensitivity_high_summary">Refudu prus dèbile de sa palma, pro chi sos tocos e sos iscurriros sighint su didu de prus a curtzu. Bonu pro sos giogos; sas palmas e sos orlos podent registrare tocos.</string>
+    <string name="touch_sensitivity_unavailable">Non disponìbile</string>
     <string name="smart_cover_title">Custòdia magnètica</string>
     <string name="smart_cover_summary">Pone in suspèndidu e bloca cando sa custòdia magnètica est serrada</string>
     <string name="pen_notifications_title">Notìficas de connessione de sa pinna</string>
@@ -201,6 +206,9 @@
     <string name="perf_refresh_rate_none">Non blocada</string>
     <string name="perf_advanced_reset_title">Ripìstina a su preset</string>
     <string name="tile_reading_low_refresh">Letura 30 Hz</string>
-    <string name="tile_touch_game_mode">Modalidade giogu de su tocu</string>
+    <string name="tile_touch_sensitivity">Sensibilidade de su tocu</string>
+    <string name="tile_touch_sensitivity_low">Refudu de sa palma</string>
+    <string name="tile_touch_sensitivity_medium">Standard</string>
+    <string name="tile_touch_sensitivity_high">Reativa</string>
     <string name="tile_smart_cover">Custòdia magnètica</string>
 </resources>

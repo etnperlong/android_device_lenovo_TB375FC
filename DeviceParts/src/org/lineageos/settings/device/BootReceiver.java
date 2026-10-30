@@ -19,6 +19,7 @@ import org.lineageos.settings.device.pen.PenService;
 import org.lineageos.settings.device.perf.PerformanceService;
 import org.lineageos.settings.device.touch.EdgeRejectionService;
 import org.lineageos.settings.device.touch.TapToWakeService;
+import org.lineageos.settings.device.touch.TouchSensitivity;
 
 public class BootReceiver extends BroadcastReceiver {
     @Override
@@ -36,6 +37,7 @@ public class BootReceiver extends BroadcastReceiver {
             context.startService(new Intent(context, PerformanceService.class));
             context.startService(new Intent(context, PenService.class));
             context.startService(new Intent(context, KeyboardService.class));
+            TouchSensitivity.restore(context);
         }
     }
 }

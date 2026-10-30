@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Újraindítás</string>
     <string name="ram_expansion_restart_later">Később</string>
     <string name="display_parts_title">Frissítési gyakoriság és érintés</string>
-    <string name="display_parts_summary">Olvasómód frissítési gyakorisága, érintéses játék mód</string>
+    <string name="display_parts_summary">Olvasómód frissítési gyakorisága, érintési érzékenység</string>
     <string name="category_display_title">Frissítési gyakoriság</string>
     <string name="category_touch_title">Érintés</string>
     <string name="accessories_title">Kiegészítők</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz olvasómódban</string>
     <string name="reading_low_refresh_summary">Csökkentse a frissítési gyakoriságot, ha az olvasómód be van kapcsolva</string>
     <string name="reading_low_refresh_unavailable">Az olvasómód nem áll rendelkezésre</string>
-    <string name="touch_game_mode_title">Érintéses játék mód</string>
-    <string name="touch_game_mode_summary">Az érintésvezérlő játék módja. Újraindítás után ismét kikapcsol.</string>
-    <string name="touch_game_mode_unavailable">Nem áll rendelkezésre</string>
+    <string name="touch_sensitivity_title">Érintési érzékenység</string>
+    <string name="touch_sensitivity_low">Tenyérérintés elutasítása (alacsony)</string>
+    <string name="touch_sensitivity_medium">Normál (közepes)</string>
+    <string name="touch_sensitivity_high">Gyors reakció (magas)</string>
+    <string name="touch_sensitivity_low_summary">Erősebb tenyérérintés-elutasítás íráshoz vagy a képernyőn pihentetett kézhez</string>
+    <string name="touch_sensitivity_medium_summary">Alapértelmezett tenyérérintés-elutasítás</string>
+    <string name="touch_sensitivity_high_summary">Gyengébb tenyérszűrés, így az érintések és húzások pontosabban követik az ujját. Játékokhoz jó; a tenyér és a képernyő széleinek érintése is regisztrálódhat.</string>
+    <string name="touch_sensitivity_unavailable">Nem áll rendelkezésre</string>
     <string name="smart_cover_title">Mágneses tok</string>
     <string name="smart_cover_summary">A mágneses tok bezárásakor altassa és zárolja az eszközt</string>
     <string name="pen_notifications_title">Érintőceruza-kapcsolati értesítések</string>
@@ -206,6 +211,9 @@
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Visszaállítás az előbeállításra</string>
     <string name="tile_reading_low_refresh">Olvasás 30 Hz</string>
-    <string name="tile_touch_game_mode">Érintéses játék mód</string>
+    <string name="tile_touch_sensitivity">Érintési érzékenység</string>
+    <string name="tile_touch_sensitivity_low">Tenyérelutasítás</string>
+    <string name="tile_touch_sensitivity_medium">Normál</string>
+    <string name="tile_touch_sensitivity_high">Gyors reakció</string>
     <string name="tile_smart_cover">Mágneses tok</string>
 </resources>

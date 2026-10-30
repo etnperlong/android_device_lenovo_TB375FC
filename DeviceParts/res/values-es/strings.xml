@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Reiniciar</string>
     <string name="ram_expansion_restart_later">Más tarde</string>
     <string name="display_parts_title">Frecuencia de actualización y pantalla táctil</string>
-    <string name="display_parts_summary">Frecuencia de actualización del modo lectura, modo de juego táctil</string>
+    <string name="display_parts_summary">Frecuencia de actualización del modo lectura, sensibilidad táctil</string>
     <string name="category_display_title">Frecuencia de actualización</string>
     <string name="category_touch_title">Pantalla táctil</string>
     <string name="accessories_title">Accesorios</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz en modo lectura</string>
     <string name="reading_low_refresh_summary">Reduce la frecuencia de actualización cuando el modo lectura está activado</string>
     <string name="reading_low_refresh_unavailable">El modo lectura no está disponible</string>
-    <string name="touch_game_mode_title">Modo de juego táctil</string>
-    <string name="touch_game_mode_summary">Modo de juego del controlador táctil. Se vuelve a desactivar al reiniciar.</string>
-    <string name="touch_game_mode_unavailable">No disponible</string>
+    <string name="touch_sensitivity_title">Sensibilidad táctil</string>
+    <string name="touch_sensitivity_low">Rechazo de la palma (baja)</string>
+    <string name="touch_sensitivity_medium">Estándar (media)</string>
+    <string name="touch_sensitivity_high">Respuesta rápida (alta)</string>
+    <string name="touch_sensitivity_low_summary">Mayor rechazo de la palma, para escribir o apoyar la mano en la pantalla</string>
+    <string name="touch_sensitivity_medium_summary">Rechazo de la palma predeterminado</string>
+    <string name="touch_sensitivity_high_summary">Menos filtrado de la palma para que los toques y deslizamientos sigan el dedo más de cerca. Ideal para juegos; las palmas y los bordes pueden registrar toques.</string>
+    <string name="touch_sensitivity_unavailable">No disponible</string>
     <string name="smart_cover_title">Funda magnética</string>
     <string name="smart_cover_summary">Suspender y bloquear al cerrar la funda magnética</string>
     <string name="pen_notifications_title">Notificaciones de conexión del lápiz óptico</string>
@@ -201,6 +206,9 @@
     <string name="perf_refresh_rate_none">Sin bloqueo</string>
     <string name="perf_advanced_reset_title">Restablecer al ajuste preestablecido</string>
     <string name="tile_reading_low_refresh">Lectura 30 Hz</string>
-    <string name="tile_touch_game_mode">Modo de juego táctil</string>
+    <string name="tile_touch_sensitivity">Sensibilidad táctil</string>
+    <string name="tile_touch_sensitivity_low">Rechazo de la palma</string>
+    <string name="tile_touch_sensitivity_medium">Estándar</string>
+    <string name="tile_touch_sensitivity_high">Respuesta rápida</string>
     <string name="tile_smart_cover">Funda magnética</string>
 </resources>

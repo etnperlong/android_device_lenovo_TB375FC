@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">এতিয়াই পুনৰাৰম্ভ কৰক</string>
     <string name="ram_expansion_restart_later">পিছত</string>
     <string name="display_parts_title">ৰিফ্ৰেছৰ হাৰ আৰু স্পৰ্শ</string>
-    <string name="display_parts_summary">ৰিডিং মোডৰ ৰিফ্ৰেছৰ হাৰ, স্পৰ্শ গেম মোড</string>
+    <string name="display_parts_summary">ৰিডিং মোডৰ ৰিফ্ৰেছৰ হাৰ, স্পৰ্শৰ সংবেদনশীলতা</string>
     <string name="category_display_title">ৰিফ্ৰেছৰ হাৰ</string>
     <string name="category_touch_title">স্পৰ্শ</string>
     <string name="accessories_title">আনুষংগিক সামগ্ৰী</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">ৰিডিং মোডত 30 Hz</string>
     <string name="reading_low_refresh_summary">ৰিডিং মোড অন থাকিলে ৰিফ্ৰেছৰ হাৰ কমাওক</string>
     <string name="reading_low_refresh_unavailable">ৰিডিং মোড উপলব্ধ নহয়</string>
-    <string name="touch_game_mode_title">স্পৰ্শ গেম মোড</string>
-    <string name="touch_game_mode_summary">স্পৰ্শ নিয়ন্ত্ৰকৰ গেম মোড। পুনৰাৰম্ভ কৰাৰ পিছত পুনৰ অফ হয়।</string>
-    <string name="touch_game_mode_unavailable">উপলব্ধ নহয়</string>
+    <string name="touch_sensitivity_title">স্পৰ্শৰ সংবেদনশীলতা</string>
+    <string name="touch_sensitivity_low">হাতৰ তলুৱাৰ স্পৰ্শ প্ৰতিৰোধ (কম)</string>
+    <string name="touch_sensitivity_medium">মানক (মধ্যম)</string>
+    <string name="touch_sensitivity_high">দ্ৰুত সঁহাৰি (বেছি)</string>
+    <string name="touch_sensitivity_low_summary">হাতৰ তলুৱাৰ স্পৰ্শ অধিক প্ৰতিৰোধ কৰে, লিখা বা পৰ্দাত হাত ৰাখিবলৈ উপযোগী</string>
+    <string name="touch_sensitivity_medium_summary">হাতৰ তলুৱাৰ স্পৰ্শ প্ৰতিৰোধৰ ডিফল্ট স্তৰ</string>
+    <string name="touch_sensitivity_high_summary">হাতৰ তলুৱাৰ স্পৰ্শ কম ফিল্টাৰ কৰে, সেয়ে টেপ আৰু ছোৱাইপ আঙুলিৰ গতি অধিক ভালদৰে অনুসৰণ কৰে। গেমৰ বাবে ভাল; হাতৰ তলুৱা আৰু পৰ্দাৰ কাষৰ স্পৰ্শ ধৰা পৰিব পাৰে।</string>
+    <string name="touch_sensitivity_unavailable">উপলব্ধ নহয়</string>
     <string name="smart_cover_title">চুম্বকীয় ক’ভাৰ</string>
     <string name="smart_cover_summary">চুম্বকীয় ক’ভাৰ বন্ধ কৰিলে শ্লীপ আৰু লক কৰক</string>
     <string name="pen_notifications_title">ষ্টাইলাছ সংযোগৰ জাননী</string>
@@ -199,6 +204,9 @@
     <string name="perf_refresh_rate_none">লক কৰা হোৱা নাই</string>
     <string name="perf_advanced_reset_title">প্ৰিছেটলৈ ৰিছেট কৰক</string>
     <string name="tile_reading_low_refresh">ৰিডিং 30 Hz</string>
-    <string name="tile_touch_game_mode">স্পৰ্শ গেম মোড</string>
+    <string name="tile_touch_sensitivity">স্পৰ্শৰ সংবেদনশীলতা</string>
+    <string name="tile_touch_sensitivity_low">হাতৰ তলুৱাৰ প্ৰতিৰোধ</string>
+    <string name="tile_touch_sensitivity_medium">মানক</string>
+    <string name="tile_touch_sensitivity_high">দ্ৰুত সঁহাৰি</string>
     <string name="tile_smart_cover">চুম্বকীয় ক’ভাৰ</string>
 </resources>

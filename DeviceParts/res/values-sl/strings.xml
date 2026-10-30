@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Znova zaženi</string>
     <string name="ram_expansion_restart_later">Pozneje</string>
     <string name="display_parts_title">Hitrost osveževanja in dotik</string>
-    <string name="display_parts_summary">Hitrost osveževanja v načinu za branje, igralni način dotika</string>
+    <string name="display_parts_summary">Hitrost osveževanja v načinu za branje, občutljivost dotika</string>
     <string name="category_display_title">Hitrost osveževanja</string>
     <string name="category_touch_title">Dotik</string>
     <string name="accessories_title">Dodatki</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz v načinu za branje</string>
     <string name="reading_low_refresh_summary">Zmanjšaj hitrost osveževanja, ko je vklopljen način za branje</string>
     <string name="reading_low_refresh_unavailable">Način za branje ni na voljo</string>
-    <string name="touch_game_mode_title">Igralni način dotika</string>
-    <string name="touch_game_mode_summary">Igralni način krmilnika na dotik. Po ponovnem zagonu se znova izklopi.</string>
-    <string name="touch_game_mode_unavailable">Ni na voljo</string>
+    <string name="touch_sensitivity_title">Občutljivost dotika</string>
+    <string name="touch_sensitivity_low">Zavračanje dlani (nizka)</string>
+    <string name="touch_sensitivity_medium">Standardna (srednja)</string>
+    <string name="touch_sensitivity_high">Hiter odziv (visoka)</string>
+    <string name="touch_sensitivity_low_summary">Močnejše zavračanje dlani, primerno za pisanje ali počivanje dlani na zaslonu</string>
+    <string name="touch_sensitivity_medium_summary">Privzeta stopnja zavračanja dlani</string>
+    <string name="touch_sensitivity_high_summary">Šibkejše zavračanje dlani, zato se dotiki in podrsanja natančneje ravnajo po prstu. Primerno za igre; dlani in robovi zaslona lahko zaznajo dotike.</string>
+    <string name="touch_sensitivity_unavailable">Ni na voljo</string>
     <string name="smart_cover_title">Magnetni ovitek</string>
     <string name="smart_cover_summary">Ob zaprtju magnetnega ovitka preklopi v spanje in zakleni</string>
     <string name="pen_notifications_title">Obvestila o povezavi pisala</string>
@@ -207,6 +212,9 @@
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Ponastavi na prednastavitev</string>
     <string name="tile_reading_low_refresh">Branje 30 Hz</string>
-    <string name="tile_touch_game_mode">Igralni način dotika</string>
+    <string name="tile_touch_sensitivity">Občutljivost dotika</string>
+    <string name="tile_touch_sensitivity_low">Zavračanje dlani</string>
+    <string name="tile_touch_sensitivity_medium">Standardna</string>
+    <string name="tile_touch_sensitivity_high">Hiter odziv</string>
     <string name="tile_smart_cover">Magnetni ovitek</string>
 </resources>

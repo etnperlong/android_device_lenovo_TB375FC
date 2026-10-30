@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">ယခုပြန်လည်စတင်ရန်</string>
     <string name="ram_expansion_restart_later">နောက်မှ</string>
     <string name="display_parts_title">ပြန်လည်စတင်နှုန်းနှင့် ထိတွေ့မှု</string>
-    <string name="display_parts_summary">စာဖတ်မုဒ် ပြန်လည်စတင်နှုန်း၊ ထိတွေ့ဂိမ်းမုဒ်</string>
+    <string name="display_parts_summary">စာဖတ်မုဒ် ပြန်လည်စတင်နှုန်း၊ ထိတွေ့မှုအာရုံခံနိုင်စွမ်း</string>
     <string name="category_display_title">ပြန်လည်စတင်နှုန်း</string>
     <string name="category_touch_title">ထိတွေ့မှု</string>
     <string name="accessories_title">ဆက်စပ်ပစ္စည်းများ</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">စာဖတ်မုဒ်တွင် 30 Hz</string>
     <string name="reading_low_refresh_summary">စာဖတ်မုဒ်ဖွင့်ထားစဉ် ပြန်လည်စတင်နှုန်းကို လျှော့ချရန်</string>
     <string name="reading_low_refresh_unavailable">စာဖတ်မုဒ် မရရှိနိုင်ပါ</string>
-    <string name="touch_game_mode_title">ထိတွေ့ဂိမ်းမုဒ်</string>
-    <string name="touch_game_mode_summary">ထိတွေ့ထိန်းချုပ်ကိရိယာ၏ ဂိမ်းမုဒ်ဖြစ်သည်။ ပြန်လည်စတင်ပြီးနောက် ပိတ်သွားမည်။</string>
-    <string name="touch_game_mode_unavailable">မရရှိနိုင်ပါ</string>
+    <string name="touch_sensitivity_title">ထိတွေ့မှုအာရုံခံနိုင်စွမ်း</string>
+    <string name="touch_sensitivity_low">လက်ဖဝါးထိတွေ့မှုကို ပယ်ချခြင်း (နိမ့်)</string>
+    <string name="touch_sensitivity_medium">စံ (အလယ်အလတ်)</string>
+    <string name="touch_sensitivity_high">လျင်မြန်စွာ တုံ့ပြန်မှု (မြင့်)</string>
+    <string name="touch_sensitivity_low_summary">စာရေးရန် သို့မဟုတ် မျက်နှာပြင်ပေါ် လက်တင်ထားရန်အတွက် လက်ဖဝါးထိတွေ့မှုကို ပိုမိုပြင်းထန်စွာ ပယ်ချသည်</string>
+    <string name="touch_sensitivity_medium_summary">လက်ဖဝါးထိတွေ့မှုကို ပယ်ချခြင်း၏ မူလအဆင့်</string>
+    <string name="touch_sensitivity_high_summary">လက်ဖဝါးစစ်ထုတ်မှုကို လျှော့ချသဖြင့် တို့ခြင်းနှင့် ပွတ်ဆွဲခြင်းများက လက်ချောင်းနောက်သို့ ပိုမိုနီးကပ်စွာ လိုက်မည်။ ဂိမ်းများအတွက် သင့်တော်သော်လည်း လက်ဖဝါးနှင့် မျက်နှာပြင်အစွန်းများ၏ ထိတွေ့မှုများကို မှတ်မိနိုင်သည်။</string>
+    <string name="touch_sensitivity_unavailable">မရရှိနိုင်ပါ</string>
     <string name="smart_cover_title">သံလိုက်အဖုံး</string>
     <string name="smart_cover_summary">သံလိုက်အဖုံးပိတ်သောအခါ အိပ်စက်ပြီး လော့ခ်ချပါ</string>
     <string name="pen_notifications_title">စတိုင်လပ်စ်ချိတ်ဆက်မှု အသိပေးချက်များ</string>
@@ -198,6 +203,9 @@
     <string name="perf_refresh_rate_none">လော့ခ်မချထားပါ</string>
     <string name="perf_advanced_reset_title">ကြိုတင်သတ်မှတ်ချက်သို့ ပြန်သတ်မှတ်ရန်</string>
     <string name="tile_reading_low_refresh">စာဖတ်မုဒ် 30 Hz</string>
-    <string name="tile_touch_game_mode">ထိတွေ့ဂိမ်းမုဒ်</string>
+    <string name="tile_touch_sensitivity">ထိတွေ့မှုအာရုံခံနိုင်စွမ်း</string>
+    <string name="tile_touch_sensitivity_low">လက်ဖဝါးထိတွေ့မှု ပယ်ချခြင်း</string>
+    <string name="tile_touch_sensitivity_medium">စံ</string>
+    <string name="tile_touch_sensitivity_high">လျင်မြန်စွာ တုံ့ပြန်မှု</string>
     <string name="tile_smart_cover">သံလိုက်အဖုံး</string>
 </resources>

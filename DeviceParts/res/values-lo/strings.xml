@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">ຣີສະຕາດ</string>
     <string name="ram_expansion_restart_later">ພາຍຫຼັງ</string>
     <string name="display_parts_title">ອັດຕາການຣີເຟຣຊ ແລະ ການສຳຜັດ</string>
-    <string name="display_parts_summary">ອັດຕາການຣີເຟຣຊໃນໂໝດອ່ານ, ໂໝດເກມສຳຜັດ</string>
+    <string name="display_parts_summary">ອັດຕາການຣີເຟຣຊໃນໂໝດອ່ານ, ຄວາມໄວຕໍ່ການສຳຜັດ</string>
     <string name="category_display_title">ອັດຕາການຣີເຟຣຊ</string>
     <string name="category_touch_title">ການສຳຜັດ</string>
     <string name="accessories_title">ອຸປະກອນເສີມ</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz ໃນໂໝດອ່ານ</string>
     <string name="reading_low_refresh_summary">ຫຼຸດອັດຕາການຣີເຟຣຊເມື່ອເປີດໂໝດອ່ານ</string>
     <string name="reading_low_refresh_unavailable">ໂໝດອ່ານບໍ່ພ້ອມໃຊ້</string>
-    <string name="touch_game_mode_title">ໂໝດເກມສຳຜັດ</string>
-    <string name="touch_game_mode_summary">ໂໝດເກມຂອງຕົວຄວບຄຸມການສຳຜັດ. ຈະປິດອີກຄັ້ງຫຼັງຈາກຣີສະຕາດ.</string>
-    <string name="touch_game_mode_unavailable">ບໍ່ພ້ອມໃຊ້</string>
+    <string name="touch_sensitivity_title">ຄວາມໄວຕໍ່ການສຳຜັດ</string>
+    <string name="touch_sensitivity_low">ປະຕິເສດການສຳຜັດດ້ວຍຝາມື (ຕ່ຳ)</string>
+    <string name="touch_sensitivity_medium">ມາດຕະຖານ (ປານກາງ)</string>
+    <string name="touch_sensitivity_high">ຕອບສະໜອງໄວ (ສູງ)</string>
+    <string name="touch_sensitivity_low_summary">ປະຕິເສດການສຳຜັດດ້ວຍຝາມືເຂັ້ມງວດຂຶ້ນ ສຳລັບການຂຽນ ຫຼື ວາງມືເທິງໜ້າຈໍ</string>
+    <string name="touch_sensitivity_medium_summary">ລະດັບປົກກະຕິໃນການປະຕິເສດການສຳຜັດດ້ວຍຝາມື</string>
+    <string name="touch_sensitivity_high_summary">ກັ່ນຕອງການສຳຜັດຈາກຝາມືໜ້ອຍລົງ ເພື່ອໃຫ້ການແຕະ ແລະ ປັດຕາມນິ້ວມືໄດ້ໃກ້ຊິດຂຶ້ນ. ເໝາະກັບເກມ; ອາດຈະຮັບຮູ້ການສຳຜັດຈາກຝາມື ແລະ ຂອບໜ້າຈໍ.</string>
+    <string name="touch_sensitivity_unavailable">ບໍ່ພ້ອມໃຊ້</string>
     <string name="smart_cover_title">ເຄສແມ່ເຫຼັກ</string>
     <string name="smart_cover_summary">ປິດໜ້າຈໍ ແລະ ລັອກເມື່ອປິດເຄສແມ່ເຫຼັກ</string>
     <string name="pen_notifications_title">ການແຈ້ງເຕືອນການເຊື່ອມຕໍ່ປາກກາ</string>
@@ -199,6 +204,9 @@
     <string name="perf_refresh_rate_none">ບໍ່ລັອກ</string>
     <string name="perf_advanced_reset_title">ຣີເຊັດເປັນຄ່າລ່ວງໜ້າ</string>
     <string name="tile_reading_low_refresh">ອ່ານ 30 Hz</string>
-    <string name="tile_touch_game_mode">ໂໝດເກມສຳຜັດ</string>
+    <string name="tile_touch_sensitivity">ຄວາມໄວຕໍ່ການສຳຜັດ</string>
+    <string name="tile_touch_sensitivity_low">ປະຕິເສດຝາມື</string>
+    <string name="tile_touch_sensitivity_medium">ມາດຕະຖານ</string>
+    <string name="tile_touch_sensitivity_high">ຕອບສະໜອງໄວ</string>
     <string name="tile_smart_cover">ເຄສແມ່ເຫຼັກ</string>
 </resources>

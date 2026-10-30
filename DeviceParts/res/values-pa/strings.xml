@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">ਹੁਣੇ ਰੀਸਟਾਰਟ ਕਰੋ</string>
     <string name="ram_expansion_restart_later">ਬਾਅਦ ਵਿੱਚ</string>
     <string name="display_parts_title">ਰਿਫ੍ਰੈਸ਼ ਦਰ ਅਤੇ ਟੱਚ</string>
-    <string name="display_parts_summary">ਰੀਡਿੰਗ ਮੋਡ ਦੀ ਰਿਫ੍ਰੈਸ਼ ਦਰ, ਟੱਚ ਗੇਮ ਮੋਡ</string>
+    <string name="display_parts_summary">ਰੀਡਿੰਗ ਮੋਡ ਦੀ ਰਿਫ੍ਰੈਸ਼ ਦਰ, ਟੱਚ ਸੰਵੇਦਨਸ਼ੀਲਤਾ</string>
     <string name="category_display_title">ਰਿਫ੍ਰੈਸ਼ ਦਰ</string>
     <string name="category_touch_title">ਟੱਚ</string>
     <string name="accessories_title">ਸਹਾਇਕ ਉਪਕਰਨ</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">ਰੀਡਿੰਗ ਮੋਡ ਵਿੱਚ 30 Hz</string>
     <string name="reading_low_refresh_summary">ਰੀਡਿੰਗ ਮੋਡ ਚਾਲੂ ਹੋਣ ਵੇਲੇ ਰਿਫ੍ਰੈਸ਼ ਦਰ ਘਟਾਓ</string>
     <string name="reading_low_refresh_unavailable">ਰੀਡਿੰਗ ਮੋਡ ਉਪਲਬਧ ਨਹੀਂ ਹੈ</string>
-    <string name="touch_game_mode_title">ਟੱਚ ਗੇਮ ਮੋਡ</string>
-    <string name="touch_game_mode_summary">ਟੱਚ ਕੰਟਰੋਲਰ ਦਾ ਗੇਮ ਮੋਡ। ਰੀਸਟਾਰਟ ਹੋਣ ਤੋਂ ਬਾਅਦ ਇਹ ਮੁੜ ਬੰਦ ਹੋ ਜਾਂਦਾ ਹੈ।</string>
-    <string name="touch_game_mode_unavailable">ਉਪਲਬਧ ਨਹੀਂ ਹੈ</string>
+    <string name="touch_sensitivity_title">ਟੱਚ ਸੰਵੇਦਨਸ਼ੀਲਤਾ</string>
+    <string name="touch_sensitivity_low">ਹਥੇਲੀ ਰੱਦ ਕਰਨਾ (ਘੱਟ)</string>
+    <string name="touch_sensitivity_medium">ਮਿਆਰੀ (ਦਰਮਿਆਨਾ)</string>
+    <string name="touch_sensitivity_high">ਤੇਜ਼ ਜਵਾਬ (ਵੱਧ)</string>
+    <string name="touch_sensitivity_low_summary">ਹਥੇਲੀ ਨੂੰ ਹੋਰ ਮਜ਼ਬੂਤੀ ਨਾਲ ਰੱਦ ਕਰਦਾ ਹੈ, ਲਿਖਣ ਜਾਂ ਸਕ੍ਰੀਨ \'ਤੇ ਹੱਥ ਰੱਖਣ ਲਈ ਢੁੱਕਵਾਂ</string>
+    <string name="touch_sensitivity_medium_summary">ਹਥੇਲੀ ਰੱਦ ਕਰਨ ਦਾ ਮੂਲ ਪੱਧਰ</string>
+    <string name="touch_sensitivity_high_summary">ਹਥੇਲੀ ਨੂੰ ਘੱਟ ਰੱਦ ਕਰਦਾ ਹੈ, ਇਸ ਲਈ ਟੈਪ ਅਤੇ ਸਵਾਈਪ ਉਂਗਲ ਦੇ ਹੋਰ ਨੇੜੇ-ਨੇੜੇ ਚੱਲਦੇ ਹਨ। ਗੇਮਾਂ ਲਈ ਚੰਗਾ; ਹਥੇਲੀਆਂ ਅਤੇ ਕਿਨਾਰੇ ਵੀ ਛੋਹਾਂ ਦਰਜ ਕਰ ਸਕਦੇ ਹਨ।</string>
+    <string name="touch_sensitivity_unavailable">ਉਪਲਬਧ ਨਹੀਂ ਹੈ</string>
     <string name="smart_cover_title">ਚੁੰਬਕੀ ਕਵਰ</string>
     <string name="smart_cover_summary">ਚੁੰਬਕੀ ਕਵਰ ਬੰਦ ਹੋਣ \'ਤੇ ਸਲੀਪ ਅਤੇ ਲੌਕ ਕਰੋ</string>
     <string name="pen_notifications_title">ਸਟਾਈਲਸ ਕਨੈਕਸ਼ਨ ਸੂਚਨਾਵਾਂ</string>
@@ -199,6 +204,9 @@
     <string name="perf_refresh_rate_none">ਲੌਕ ਨਹੀਂ ਹੈ</string>
     <string name="perf_advanced_reset_title">ਪ੍ਰੀਸੈੱਟ \'ਤੇ ਰੀਸੈੱਟ ਕਰੋ</string>
     <string name="tile_reading_low_refresh">ਰੀਡਿੰਗ 30 Hz</string>
-    <string name="tile_touch_game_mode">ਟੱਚ ਗੇਮ ਮੋਡ</string>
+    <string name="tile_touch_sensitivity">ਟੱਚ ਸੰਵੇਦਨਸ਼ੀਲਤਾ</string>
+    <string name="tile_touch_sensitivity_low">ਹਥੇਲੀ ਰੱਦ ਕਰਨਾ</string>
+    <string name="tile_touch_sensitivity_medium">ਮਿਆਰੀ</string>
+    <string name="tile_touch_sensitivity_high">ਤੇਜ਼ ਜਵਾਬ</string>
     <string name="tile_smart_cover">ਚੁੰਬਕੀ ਕਵਰ</string>
 </resources>

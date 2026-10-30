@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Yeniden başlat</string>
     <string name="ram_expansion_restart_later">Daha sonra</string>
     <string name="display_parts_title">Yenileme hızı ve dokunma</string>
-    <string name="display_parts_summary">Okuma modu yenileme hızı, dokunmatik oyun modu</string>
+    <string name="display_parts_summary">Okuma modu yenileme hızı, dokunma hassasiyeti</string>
     <string name="category_display_title">Yenileme hızı</string>
     <string name="category_touch_title">Dokunma</string>
     <string name="accessories_title">Aksesuarlar</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">Okuma modunda 30 Hz</string>
     <string name="reading_low_refresh_summary">Okuma modu açıkken yenileme hızını düşür</string>
     <string name="reading_low_refresh_unavailable">Okuma modu kullanılamıyor</string>
-    <string name="touch_game_mode_title">Dokunmatik oyun modu</string>
-    <string name="touch_game_mode_summary">Dokunmatik denetleyicinin oyun modu. Yeniden başlatmanın ardından tekrar kapanır.</string>
-    <string name="touch_game_mode_unavailable">Kullanılamıyor</string>
+    <string name="touch_sensitivity_title">Dokunma hassasiyeti</string>
+    <string name="touch_sensitivity_low">Avuç içini reddetme (düşük)</string>
+    <string name="touch_sensitivity_medium">Standart (orta)</string>
+    <string name="touch_sensitivity_high">Hızlı tepki (yüksek)</string>
+    <string name="touch_sensitivity_low_summary">Daha güçlü avuç içi reddetme, yazı yazmak veya elinizi ekrana dayamak için uygundur</string>
+    <string name="touch_sensitivity_medium_summary">Varsayılan avuç içi reddetme düzeyi</string>
+    <string name="touch_sensitivity_high_summary">Daha zayıf avuç içi reddetme sayesinde dokunma ve kaydırma hareketleri parmağınızı daha yakından izler. Oyunlar için uygundur; avuç içleri ve ekran kenarları da dokunma olarak algılanabilir.</string>
+    <string name="touch_sensitivity_unavailable">Kullanılamıyor</string>
     <string name="smart_cover_title">Manyetik kapak</string>
     <string name="smart_cover_summary">Manyetik kapak kapatıldığında uykuya al ve kilitle</string>
     <string name="pen_notifications_title">Ekran kalemi bağlantı bildirimleri</string>
@@ -206,6 +211,9 @@
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Ön ayara sıfırla</string>
     <string name="tile_reading_low_refresh">Okuma 30 Hz</string>
-    <string name="tile_touch_game_mode">Dokunmatik oyun modu</string>
+    <string name="tile_touch_sensitivity">Dokunma hassasiyeti</string>
+    <string name="tile_touch_sensitivity_low">Avuç içini reddetme</string>
+    <string name="tile_touch_sensitivity_medium">Standart</string>
+    <string name="tile_touch_sensitivity_high">Hızlı tepki</string>
     <string name="tile_smart_cover">Manyetik kapak</string>
 </resources>

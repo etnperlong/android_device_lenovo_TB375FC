@@ -40,7 +40,7 @@
     <string name="ram_expansion_restart_now">Ales sekker</string>
     <string name="ram_expansion_restart_later">Ticki</string>
     <string name="display_parts_title">Amḍan n usnifel akked unermis</string>
-    <string name="display_parts_summary">Amḍan n usnifel deg uskar n tɣuri, askar n wurar s unermis</string>
+    <string name="display_parts_summary">Amḍan n usnifel deg uskar n tɣuri, tafrayt n unermis</string>
     <string name="category_display_title">Amḍan n usnifel</string>
     <string name="category_touch_title">Anermis</string>
     <string name="accessories_title">Iseɣẓanen</string>
@@ -54,9 +54,14 @@
     <string name="reading_low_refresh_title">30 Hz deg uskar n tɣuri</string>
     <string name="reading_low_refresh_summary">Sider amḍan n usnifel mi ara yili uskar n tɣuri yermed</string>
     <string name="reading_low_refresh_unavailable">Askar n tɣuri ur yelli ara</string>
-    <string name="touch_game_mode_title">Askar n wurar s unermis</string>
-    <string name="touch_game_mode_summary">Askar n wurar n unagraw n unermis. Ad yexsi tikelt nniḍen seld ales n usekker.</string>
-    <string name="touch_game_mode_unavailable">Ulac-it</string>
+    <string name="touch_sensitivity_title">Tafrayt n unermis</string>
+    <string name="touch_sensitivity_low">Aḥbes n unermis n ufus (ddaw)</string>
+    <string name="touch_sensitivity_medium">Amagnu (alemmas)</string>
+    <string name="touch_sensitivity_high">Tiririt taruradt (afella)</string>
+    <string name="touch_sensitivity_low_summary">Aḥbes n unermis n ufus s waṭas, i tira neɣ i useɣmu n ufus ɣef ugdil</string>
+    <string name="touch_sensitivity_medium_summary">Aḥbes amagnu n unermis n ufus</string>
+    <string name="touch_sensitivity_high_summary">Asefru n ufus s tɣellist, akken ad d-ḍefren uḍfaṛ akked usader anermis-ik s waṭas. Yelha i wurar; unermis n ufus neɣ n yiri n ugdil yezmer ad yettwasekles.</string>
+    <string name="touch_sensitivity_unavailable">Ulac-it</string>
     <string name="smart_cover_title">Aɣlaf amagnu</string>
     <string name="smart_cover_summary">Sgen akked sekker mi ara yettwamd uɣlaf amagnu</string>
     <string name="pen_notifications_title">Ilɣa n tuqqna n umaru</string>
@@ -207,6 +212,9 @@
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Ales awennez ɣer useɣwer</string>
     <string name="tile_reading_low_refresh">Taɣuri 30 Hz</string>
-    <string name="tile_touch_game_mode">Askar n wurar s unermis</string>
+    <string name="tile_touch_sensitivity">Tafrayt n unermis</string>
+    <string name="tile_touch_sensitivity_low">Aḥbes n ufus</string>
+    <string name="tile_touch_sensitivity_medium">Amagnu</string>
+    <string name="tile_touch_sensitivity_high">Tiririt taruradt</string>
     <string name="tile_smart_cover">Aɣlaf amagnu</string>
 </resources>
