@@ -232,6 +232,18 @@ PRODUCT_SYSTEM_PROPERTIES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     debug.sf.enable_adpf_cpu_hint=true
 
+# MediaTek GED KPI: libgui hands frame timestamps to GED (/proc/ged ioctl
+# 0x6767) so GPU DVFS can follow frame deadlines. Without them GED only runs
+# its loading-based fallback (+2 OPPs per ~100 ms), and transitions stall at
+# 265-400 MHz under full load. DerpFest declined to merge the code, so the
+# local manifest replaces frameworks/native with
+# etnperlong/android_frameworks_native 17-TB375FC, which carries it
+# (exported in patches/frameworks_native/; without it this flag does nothing).
+# Source: crDroid 17.0 be7f9ad5297b,
+# https://github.com/crdroidandroid/android_frameworks_native/pull/25
+# (also Evolution-X frameworks_native cc9996b368cc).
+$(call soong_config_set_bool,libgui,support_mtk_ged_kpi,true)
+
 # MediaTek power scenarios: stock powerscntbl.xml plus scenarios for two AOSP hints
 # the power HAL passes to libpowerhal by name but Lenovo's table lacks, so they
 # did nothing (see README, MediaTek power management):
