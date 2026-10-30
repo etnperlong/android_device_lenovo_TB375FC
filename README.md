@@ -93,11 +93,11 @@ The optional reference kernel checkout can use `derpfest-17` from
 It is not required by the manifest above.
 
 `frameworks/native` is replaced by `etnperlong/android_frameworks_native`
-`17-TB375FC`: DerpFest's branch `17` plus one commit adding MediaTek GED KPI
-frame timestamps to libgui, which `device.mk` enables with
-`soong_config_set_bool libgui support_mtk_ged_kpi`. DerpFest declined to merge
-the change. The commit is also exported to `patches/frameworks_native/`. The
-fork's `17` mirrors DerpFest's `17`; rebase
+`17-TB375FC`: DerpFest's branch `17` plus the MediaTek GED KPI frame timestamps
+for libgui (the community change and a follow-up fix), which `device.mk`
+enables with `soong_config_set_bool libgui support_mtk_ged_kpi`. DerpFest
+declined to merge the change. The commits are also exported to
+`patches/frameworks_native/`. The fork's `17` mirrors DerpFest's `17`; rebase
 `17-TB375FC` onto it when DerpFest updates `frameworks/native`.
 
 DerpFest 17 manifest: <https://github.com/DerpFest-AOSP/android_manifest/tree/17>.
