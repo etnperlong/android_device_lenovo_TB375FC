@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<!-- The adapter sets the start and end padding of this root and replaces its background, so the
+     touch feedback is on the text, which reaches 12dp past the text on each side. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="16dp"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:id="@+id/disclaimer_footer_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-12dp"
+        android:layout_marginEnd="-12dp"
+        android:minHeight="48dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:gravity="center_vertical|start"
+        android:textAlignment="viewStart"
+        android:background="@drawable/disclaimer_footer_background"
+        android:clickable="true"
+        android:focusable="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp"
+        android:textColor="?android:attr/textColorSecondary"
+        android:hyphenationFrequency="normalFast"
+        android:lineBreakWordStyle="phrase" />
+</FrameLayout>

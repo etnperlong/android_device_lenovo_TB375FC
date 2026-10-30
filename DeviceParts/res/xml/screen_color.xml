@@ -54,6 +54,7 @@
             android:targetClass="org.lineageos.settings.device.color.ScreenColorAppsActivity" />
     </Preference>
 
-    <com.android.settingslib.widget.FooterPreference
-        android:key="miravision_footer" />
+    <org.lineageos.settings.device.widget.DisclaimerFooterPreference
+        android:key="miravision_footer"
+        android:title="@string/disclaimer_miravision_trademark" />
 </PreferenceScreen>

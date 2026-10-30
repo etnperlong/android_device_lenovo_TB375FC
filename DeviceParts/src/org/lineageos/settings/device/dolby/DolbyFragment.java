@@ -88,8 +88,7 @@ public class DolbyFragment extends SettingsBasePreferenceFragment
         mMode.setOnPreferenceChangeListener(this);
         mIeqPreset.setOnPreferenceChangeListener(this);
         mDialogueLevel.setOnPreferenceChangeListener(this);
-        DisclaimerFooter.setUp(this, "dolby_footer", R.string.disclaimer_dolby_trademark,
-                R.string.disclaimer_dolby_message);
+        DisclaimerFooter.setUp(this, "dolby_footer", R.string.disclaimer_dolby_message);
     }
 
     @Override

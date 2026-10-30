@@ -53,8 +53,7 @@ public class VideoPictureFragment extends SettingsBasePreferenceFragment
             mVideoFeatures[i] = findPreference(VIDEO_FEATURE_KEYS[i]);
             mVideoFeatures[i].setOnPreferenceChangeListener(this);
         }
-        DisclaimerFooter.setUp(this, "miravision_footer", R.string.disclaimer_miravision_trademark,
-                R.string.disclaimer_miravision_message);
+        DisclaimerFooter.setUp(this, "miravision_footer", R.string.disclaimer_miravision_message);
     }
 
     @Override

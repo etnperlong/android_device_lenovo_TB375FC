@@ -7,7 +7,6 @@ package org.lineageos.settings.device.widget;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
-import android.content.Context;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -15,14 +14,11 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
 import androidx.preference.PreferenceFragmentCompat;
 
-import com.android.settingslib.widget.FooterPreference;
-
 import org.lineageos.settings.device.R;
 
 /**
- * Footer of the pages for a licensed vendor feature (MediaTek MiraVision, Dolby Atmos): the
- * trademark notice, a note that the page only drives the vendor's own components, and a
- * "Disclaimer" link that shows the disclaimer in a dialog.
+ * Disclaimer of the pages for a licensed vendor feature (MediaTek MiraVision, Dolby Atmos),
+ * shown in a dialog when the page's {@link DisclaimerFooterPreference} is tapped.
  */
 public final class DisclaimerFooter {
     private static final String TAG_DIALOG = "disclaimer";
@@ -30,19 +26,13 @@ public final class DisclaimerFooter {
     private DisclaimerFooter() {}
 
     /**
-     * Fills in the footer preference.
+     * Makes the footer open the disclaimer.
      *
-     * @param trademarkRes the trademark notice
-     * @param disclaimerRes the disclaimer shown by the link
+     * @param disclaimerRes the disclaimer text
      */
-    public static void setUp(PreferenceFragmentCompat fragment, String key, int trademarkRes,
-            int disclaimerRes) {
-        final FooterPreference footer = fragment.findPreference(key);
-        final Context context = fragment.requireContext();
-        footer.setTitle(context.getText(trademarkRes) + "\n"
-                + context.getText(R.string.disclaimer_footer_notice));
-        footer.setLearnMoreText(context.getText(R.string.disclaimer_title));
-        footer.setLearnMoreAction(v -> {
+    public static void setUp(PreferenceFragmentCompat fragment, String key, int disclaimerRes) {
+        final DisclaimerFooterPreference footer = fragment.findPreference(key);
+        footer.setOnDisclaimerClickListener(v -> {
             if (fragment.getChildFragmentManager().findFragmentByTag(TAG_DIALOG) == null) {
                 DisclaimerDialogFragment.newInstance(disclaimerRes)
                         .show(fragment.getChildFragmentManager(), TAG_DIALOG);

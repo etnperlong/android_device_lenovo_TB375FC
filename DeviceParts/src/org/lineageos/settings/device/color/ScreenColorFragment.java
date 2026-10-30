@@ -73,8 +73,7 @@ public class ScreenColorFragment extends SettingsBasePreferenceFragment
         }
         mAdjustReset = findPreference(KEY_ADJUST_RESET);
         mAdjustReset.setOnPreferenceClickListener(this);
-        DisclaimerFooter.setUp(this, "miravision_footer", R.string.disclaimer_miravision_trademark,
-                R.string.disclaimer_miravision_message);
+        DisclaimerFooter.setUp(this, "miravision_footer", R.string.disclaimer_miravision_message);
     }
 
     @Override

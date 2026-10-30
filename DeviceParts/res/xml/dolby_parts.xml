@@ -60,6 +60,7 @@
         </Preference>
     </PreferenceCategory>
 
-    <com.android.settingslib.widget.FooterPreference
-        android:key="dolby_footer" />
+    <org.lineageos.settings.device.widget.DisclaimerFooterPreference
+        android:key="dolby_footer"
+        android:title="@string/disclaimer_dolby_trademark" />
 </PreferenceScreen>
