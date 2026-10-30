@@ -203,6 +203,13 @@
     <string name="perf_refresh_rate_title">রিফ্রেশ রেট লক</string>
     <string name="perf_refresh_rate_none">লক করা নেই</string>
     <string name="perf_advanced_reset_title">প্রিসেটে রিসেট করুন</string>
+    <string name="disclaimer_miravision_trademark">MediaTek এবং MiraVision হল MediaTek Inc.-এর ট্রেডমার্ক।</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos এবং ডাবল-D প্রতীক হল Dolby Laboratories Licensing Corporation-এর নিবন্ধিত ট্রেডমার্ক।</string>
+    <string name="disclaimer_footer_notice">এই সেটিংসগুলি শুধু ডিভাইসের মূল ফার্মওয়্যারে থাকা ফিচারগুলিতে অ্যাক্সেস দেয়। এগুলিতে কোনো মালিকানাধীন সফ্টওয়্যার অন্তর্ভুক্ত বা পরিবর্তন করা হয় না।</string>
+    <string name="disclaimer_title">দাবিত্যাগ</string>
+    <string name="disclaimer_close">বন্ধ করুন</string>
+    <string name="disclaimer_miravision_message">এই সেটিংসগুলি LineageOS কমিউনিটির ডেভেলপারদের লেখা। তাঁরা MediaTek বা Lenovo-র সঙ্গে যুক্ত নন, এবং এই কোম্পানিগুলি এগুলিকে সমর্থন বা অনুমোদন করেনি।\n\nছবি প্রসেসিং ডিভাইসের সঙ্গে আসা MediaTek-এর মালিকানাধীন কম্পোনেন্টগুলি দিয়ে করা হয়। এই সেটিংসগুলি শুধু সেই কম্পোনেন্টগুলির আগে থেকেই দেওয়া ইন্টারফেস ব্যবহার করে; সেগুলি অন্তর্ভুক্ত, বিতরণ বা পরিবর্তন করে না।\n\nমূল ফার্মওয়্যারের থেকে ফলাফল আলাদা হতে পারে। এই ফিচারটি কোনো ধরনের ওয়ারেন্টি ছাড়াই যেমন আছে তেমনভাবে দেওয়া হয়েছে; নিজের ঝুঁকিতে এটি ব্যবহার করুন।\n\nসব ট্রেডমার্ক তাদের নিজ নিজ মালিকের সম্পত্তি।</string>
+    <string name="disclaimer_dolby_message">এই সেটিংসগুলি LineageOS কমিউনিটির ডেভেলপারদের লেখা। তাঁরা Dolby Laboratories বা Lenovo-র সঙ্গে যুক্ত নন, এবং এই কোম্পানিগুলি এগুলিকে সমর্থন বা অনুমোদন করেনি।\n\nসাউন্ড প্রসেসিং ডিভাইসের সঙ্গে আসা Dolby-র মালিকানাধীন কম্পোনেন্টগুলি দিয়ে করা হয়। এই সেটিংসগুলি শুধু সেই কম্পোনেন্টগুলির আগে থেকেই দেওয়া ইন্টারফেস ব্যবহার করে; সেগুলি অন্তর্ভুক্ত, বিতরণ বা পরিবর্তন করে না।\n\nমূল ফার্মওয়্যারের থেকে ফলাফল আলাদা হতে পারে। এই ফিচারটি কোনো ধরনের ওয়ারেন্টি ছাড়াই যেমন আছে তেমনভাবে দেওয়া হয়েছে; নিজের ঝুঁকিতে এটি ব্যবহার করুন।\n\nসব ট্রেডমার্ক তাদের নিজ নিজ মালিকের সম্পত্তি।</string>
     <string name="tile_reading_low_refresh">রিডিং 30 Hz</string>
     <string name="tile_touch_sensitivity">টাচ সংবেদনশীলতা</string>
     <string name="tile_touch_sensitivity_low">হাতের তালু প্রত্যাখ্যান</string>

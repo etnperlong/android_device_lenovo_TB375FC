@@ -211,6 +211,13 @@
     <string name="perf_refresh_rate_none">Nav bloķēta</string>
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Atiestatīt sākotnējo iestatījumu</string>
+    <string name="disclaimer_miravision_trademark">MediaTek un MiraVision ir MediaTek Inc. preču zīmes.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos un dubultā D simbols ir Dolby Laboratories Licensing Corporation reģistrētas preču zīmes.</string>
+    <string name="disclaimer_footer_notice">Šie iestatījumi nodrošina piekļuvi tikai ierīces sākotnējā aparātprogrammatūrā iebūvētajām funkcijām. Tie neietver un nemaina nekādu patentētu programmatūru.</string>
+    <string name="disclaimer_title">Atruna</string>
+    <string name="disclaimer_close">Aizvērt</string>
+    <string name="disclaimer_miravision_message">Šos iestatījumus ir izveidojuši LineageOS kopienas izstrādātāji. Tie nav saistīti ar MediaTek vai Lenovo, un šie uzņēmumi tos nav apstiprinājuši vai pilnvarojuši.\n\nAttēlu apstrādi veic patentēti MediaTek komponenti, kas ir iekļauti ierīcē. Šie iestatījumi izmanto tikai saskarnes, ko šie komponenti jau nodrošina; tie neietver, neizplata un nemaina šos komponentus.\n\nRezultāti var atšķirties no sākotnējās aparātprogrammatūras. Šī funkcija tiek nodrošināta tāda, kāda tā ir, bez jebkādas garantijas; izmantojiet to uz savu risku.\n\nVisas preču zīmes ir to attiecīgo īpašnieku īpašums.</string>
+    <string name="disclaimer_dolby_message">Šos iestatījumus ir izveidojuši LineageOS kopienas izstrādātāji. Tie nav saistīti ar Dolby Laboratories vai Lenovo, un šie uzņēmumi tos nav apstiprinājuši vai pilnvarojuši.\n\nSkaņas apstrādi veic patentēti Dolby komponenti, kas ir iekļauti ierīcē. Šie iestatījumi izmanto tikai saskarnes, ko šie komponenti jau nodrošina; tie neietver, neizplata un nemaina šos komponentus.\n\nRezultāti var atšķirties no sākotnējās aparātprogrammatūras. Šī funkcija tiek nodrošināta tāda, kāda tā ir, bez jebkādas garantijas; izmantojiet to uz savu risku.\n\nVisas preču zīmes ir to attiecīgo īpašnieku īpašums.</string>
     <string name="tile_reading_low_refresh">Lasīšana 30 Hz</string>
     <string name="tile_touch_sensitivity">Skārienjutība</string>
     <string name="tile_touch_sensitivity_low">Plaukstas noraidīšana</string>

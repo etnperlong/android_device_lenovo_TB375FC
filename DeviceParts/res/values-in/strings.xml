@@ -209,6 +209,13 @@
     <string name="perf_refresh_rate_none">Tidak dikunci</string>
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Atur ulang ke preset</string>
+    <string name="disclaimer_miravision_trademark">MediaTek dan MiraVision adalah merek dagang MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos, dan simbol D ganda adalah merek dagang terdaftar Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Setelan ini hanya menyediakan akses ke fitur yang sudah tertanam dalam firmware asli perangkat. Setelan ini tidak menyertakan atau mengubah perangkat lunak proprietari apa pun.</string>
+    <string name="disclaimer_title">Penafian</string>
+    <string name="disclaimer_close">Tutup</string>
+    <string name="disclaimer_miravision_message">Setelan ini ditulis oleh developer komunitas LineageOS. Mereka tidak berafiliasi dengan MediaTek atau Lenovo, dan tidak didukung maupun diberi wewenang oleh perusahaan tersebut.\n\nPemrosesan gambar dilakukan oleh komponen proprietari MediaTek yang disertakan bersama perangkat. Setelan ini hanya menggunakan antarmuka yang sudah disediakan oleh komponen tersebut; setelan ini tidak menyertakan, mendistribusikan, atau mengubahnya.\n\nHasilnya dapat berbeda dari firmware asli. Fitur ini disediakan apa adanya, tanpa jaminan dalam bentuk apa pun; gunakan dengan risiko Anda sendiri.\n\nSemua merek dagang adalah milik pemiliknya masing-masing.</string>
+    <string name="disclaimer_dolby_message">Setelan ini ditulis oleh developer komunitas LineageOS. Mereka tidak berafiliasi dengan Dolby Laboratories atau Lenovo, dan tidak didukung maupun diberi wewenang oleh perusahaan tersebut.\n\nPemrosesan suara dilakukan oleh komponen proprietari Dolby yang disertakan bersama perangkat. Setelan ini hanya menggunakan antarmuka yang sudah disediakan oleh komponen tersebut; setelan ini tidak menyertakan, mendistribusikan, atau mengubahnya.\n\nHasilnya dapat berbeda dari firmware asli. Fitur ini disediakan apa adanya, tanpa jaminan dalam bentuk apa pun; gunakan dengan risiko Anda sendiri.\n\nSemua merek dagang adalah milik pemiliknya masing-masing.</string>
     <string name="tile_reading_low_refresh">Baca 30 Hz</string>
     <string name="tile_touch_sensitivity">Sensitivitas sentuhan</string>
     <string name="tile_touch_sensitivity_low">Tolak sentuhan telapak</string>

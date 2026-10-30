@@ -210,6 +210,13 @@
     <string name="perf_refresh_rate_none">Түгжээгүй</string>
     <string name="perf_refresh_rate_hz">%1$d Гц</string>
     <string name="perf_advanced_reset_title">Урьдчилан тохируулга сэргээх</string>
+    <string name="disclaimer_miravision_trademark">MediaTek болон MiraVision нь MediaTek Inc.-ийн барааны тэмдэг юм.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos болон давхар D тэмдэг нь Dolby Laboratories Licensing Corporation-ийн бүртгэлтэй барааны тэмдэг юм.</string>
+    <string name="disclaimer_footer_notice">Эдгээр тохиргоо нь зөвхөн төхөөрөмжийн анхны програм хангамжид суурилагдсан онцлогт хандах боломж олгоно. Эдгээрт ямар нэгэн өмчийн програм хангамж ороогүй бөгөөд түүнийг өөрчлөхгүй.</string>
+    <string name="disclaimer_title">Татгалзал</string>
+    <string name="disclaimer_close">Хаах</string>
+    <string name="disclaimer_miravision_message">Эдгээр тохиргоог LineageOS нийгэмлэгийн хөгжүүлэгчид бичсэн. Тэд MediaTek эсвэл Lenovo-той холбоогүй бөгөөд эдгээр компаниас зөвшөөрөл, дэмжлэг аваагүй.\n\nЗургийн боловсруулалтыг төхөөрөмжтэй хамт ирсэн MediaTek-ийн өмчийн бүрэлдэхүүн хэсгүүд гүйцэтгэдэг. Эдгээр тохиргоо нь тэдгээр бүрэлдэхүүн хэсгийн аль хэдийн санал болгодог интерфейсийг л ашигладаг; тэдгээрийг агуулахгүй, түгээхгүй, өөрчлөхгүй.\n\nҮр дүн нь анхны програм хангамжаас өөр байж болно. Энэ функцийг ямар ч төрлийн баталгаагүйгээр байгаагаар нь нийлүүлнэ; өөрийн эрсдэлээр ашиглана уу.\n\nБүх барааны тэмдэг нь тус тусын эзэмшигчдийн өмч юм.</string>
+    <string name="disclaimer_dolby_message">Эдгээр тохиргоог LineageOS нийгэмлэгийн хөгжүүлэгчид бичсэн. Тэд Dolby Laboratories эсвэл Lenovo-той холбоогүй бөгөөд эдгээр компаниас зөвшөөрөл, дэмжлэг аваагүй.\n\nДууны боловсруулалтыг төхөөрөмжтэй хамт ирсэн Dolby-ийн өмчийн бүрэлдэхүүн хэсгүүд гүйцэтгэдэг. Эдгээр тохиргоо нь тэдгээр бүрэлдэхүүн хэсгийн аль хэдийн санал болгодог интерфейсийг л ашигладаг; тэдгээрийг агуулахгүй, түгээхгүй, өөрчлөхгүй.\n\nҮр дүн нь анхны програм хангамжаас өөр байж болно. Энэ функцийг ямар ч төрлийн баталгаагүйгээр байгаагаар нь нийлүүлнэ; өөрийн эрсдэлээр ашиглана уу.\n\nБүх барааны тэмдэг нь тус тусын эзэмшигчдийн өмч юм.</string>
     <string name="tile_reading_low_refresh">Унших 30 Гц</string>
     <string name="tile_touch_sensitivity">Хүрэлтийн мэдрэмж</string>
     <string name="tile_touch_sensitivity_low">Алганы хүрэлтийг үл тоох</string>

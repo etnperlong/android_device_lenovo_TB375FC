@@ -210,6 +210,13 @@
     <string name="perf_refresh_rate_none">Lukustamata</string>
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Taasta eelseadistus</string>
+    <string name="disclaimer_miravision_trademark">MediaTek ja MiraVision on ettevõtte MediaTek Inc. kaubamärgid.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos ja topelt-D sümbol on ettevõtte Dolby Laboratories Licensing Corporation registreeritud kaubamärgid.</string>
+    <string name="disclaimer_footer_notice">Need seaded võimaldavad kasutada ainult seadme algsesse püsivarasse sisseehitatud funktsioone. Need ei sisalda omandiõigusega kaitstud tarkvara ega muuda seda.</string>
+    <string name="disclaimer_title">Vastutusest loobumine</string>
+    <string name="disclaimer_close">Sulge</string>
+    <string name="disclaimer_miravision_message">Need seaded on kirjutanud LineageOS-i kogukonna arendajad. Nad pole seotud ettevõtetega MediaTek ega Lenovo ning need ettevõtted pole neid heaks kiitnud ega volitanud.\n\nPilditöötlust teevad seadmega kaasas olnud MediaTeki omandiõigusega kaitstud komponendid. Need seaded kasutavad ainult liideseid, mida need komponendid juba pakuvad; need ei sisalda, levita ega muuda neid.\n\nTulemused võivad algsest püsivarast erineda. Seda funktsiooni pakutakse olemasoleval kujul ilma igasuguse garantiita; kasutage seda omal vastutusel.\n\nKõik kaubamärgid kuuluvad nende vastavatele omanikele.</string>
+    <string name="disclaimer_dolby_message">Need seaded on kirjutanud LineageOS-i kogukonna arendajad. Nad pole seotud ettevõtetega Dolby Laboratories ega Lenovo ning need ettevõtted pole neid heaks kiitnud ega volitanud.\n\nHelitöötlust teevad seadmega kaasas olnud Dolby omandiõigusega kaitstud komponendid. Need seaded kasutavad ainult liideseid, mida need komponendid juba pakuvad; need ei sisalda, levita ega muuda neid.\n\nTulemused võivad algsest püsivarast erineda. Seda funktsiooni pakutakse olemasoleval kujul ilma igasuguse garantiita; kasutage seda omal vastutusel.\n\nKõik kaubamärgid kuuluvad nende vastavatele omanikele.</string>
     <string name="tile_reading_low_refresh">Lugemine 30 Hz</string>
     <string name="tile_touch_sensitivity">Puutetundlikkus</string>
     <string name="tile_touch_sensitivity_low">Peopesa tagasilükkamine</string>

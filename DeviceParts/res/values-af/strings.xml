@@ -203,6 +203,13 @@
     <string name="perf_refresh_rate_title">Verversingstempogrendel</string>
     <string name="perf_refresh_rate_none">Nie gesluit nie</string>
     <string name="perf_advanced_reset_title">Stel terug na voorinstelling</string>
+    <string name="disclaimer_miravision_trademark">MediaTek en MiraVision is handelsmerke van MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos en die dubbel-D-simbool is geregistreerde handelsmerke van Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Hierdie instellings bied slegs toegang tot funksies wat in die toestel se oorspronklike firmware ingebou is. Dit sluit geen eie sagteware in of wysig dit nie.</string>
+    <string name="disclaimer_title">Vrywaring</string>
+    <string name="disclaimer_close">Sluit</string>
+    <string name="disclaimer_miravision_message">Hierdie instellings is geskryf deur ontwikkelaars in die LineageOS-gemeenskap. Hulle is nie geaffilieer met, onderskryf of gemagtig deur MediaTek of Lenovo nie.\n\nBeeldverwerking word uitgevoer deur MediaTek se eie komponente wat saam met die toestel gelewer is. Hierdie instellings gebruik slegs die koppelvlakke wat daardie komponente reeds bied; hulle sluit dit nie in, versprei dit nie en wysig dit nie.\n\nResultate kan verskil van die oorspronklike firmware. Hierdie funksie word verskaf soos dit is, sonder enige waarborg; gebruik dit op eie risiko.\n\nAlle handelsmerke is die eiendom van hul onderskeie eienaars.</string>
+    <string name="disclaimer_dolby_message">Hierdie instellings is geskryf deur ontwikkelaars in die LineageOS-gemeenskap. Hulle is nie geaffilieer met, onderskryf of gemagtig deur Dolby Laboratories of Lenovo nie.\n\nKlankverwerking word uitgevoer deur Dolby se eie komponente wat saam met die toestel gelewer is. Hierdie instellings gebruik slegs die koppelvlakke wat daardie komponente reeds bied; hulle sluit dit nie in, versprei dit nie en wysig dit nie.\n\nResultate kan verskil van die oorspronklike firmware. Hierdie funksie word verskaf soos dit is, sonder enige waarborg; gebruik dit op eie risiko.\n\nAlle handelsmerke is die eiendom van hul onderskeie eienaars.</string>
     <string name="tile_reading_low_refresh">Lees 30 Hz</string>
     <string name="tile_touch_sensitivity">Aanraaksensitiwiteit</string>
     <string name="tile_touch_sensitivity_low">Handpalmverwerping</string>

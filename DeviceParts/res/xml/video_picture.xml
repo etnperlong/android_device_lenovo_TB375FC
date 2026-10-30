@@ -55,4 +55,7 @@
             android:summary="@string/video_color_summary"
             android:persistent="false" />
     </PreferenceCategory>
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="miravision_footer" />
 </PreferenceScreen>

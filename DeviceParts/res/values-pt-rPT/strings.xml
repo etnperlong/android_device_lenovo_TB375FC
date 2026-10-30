@@ -205,6 +205,13 @@
     <string name="perf_refresh_rate_title">Bloqueio da taxa de atualização</string>
     <string name="perf_refresh_rate_none">Sem bloqueio</string>
     <string name="perf_advanced_reset_title">Repor para a predefinição</string>
+    <string name="disclaimer_miravision_trademark">MediaTek e MiraVision são marcas comerciais da MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos e o símbolo de D duplo são marcas registadas da Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Estas definições apenas dão acesso a funcionalidades incorporadas no firmware original do dispositivo. Não incluem nem modificam qualquer software proprietário.</string>
+    <string name="disclaimer_title">Aviso legal</string>
+    <string name="disclaimer_close">Fechar</string>
+    <string name="disclaimer_miravision_message">Estas definições foram escritas por programadores da comunidade LineageOS. Não são afiliados, aprovados nem autorizados pela MediaTek ou pela Lenovo.\n\nO processamento de imagem é feito pelos componentes proprietários da MediaTek incluídos no dispositivo. Estas definições apenas usam as interfaces que esses componentes já disponibilizam; não os incluem, distribuem nem modificam.\n\nOs resultados podem ser diferentes dos do firmware original. Esta funcionalidade é fornecida tal como está, sem qualquer tipo de garantia; utilize-a por sua conta e risco.\n\nTodas as marcas comerciais são propriedade dos respetivos proprietários.</string>
+    <string name="disclaimer_dolby_message">Estas definições foram escritas por programadores da comunidade LineageOS. Não são afiliados, aprovados nem autorizados pela Dolby Laboratories ou pela Lenovo.\n\nO processamento de som é feito pelos componentes proprietários da Dolby incluídos no dispositivo. Estas definições apenas usam as interfaces que esses componentes já disponibilizam; não os incluem, distribuem nem modificam.\n\nOs resultados podem ser diferentes dos do firmware original. Esta funcionalidade é fornecida tal como está, sem qualquer tipo de garantia; utilize-a por sua conta e risco.\n\nTodas as marcas comerciais são propriedade dos respetivos proprietários.</string>
     <string name="tile_reading_low_refresh">Leitura 30 Hz</string>
     <string name="tile_touch_sensitivity">Sensibilidade ao toque</string>
     <string name="tile_touch_sensitivity_low">Rejeição da palma</string>

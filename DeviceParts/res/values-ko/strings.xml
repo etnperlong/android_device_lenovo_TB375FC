@@ -203,6 +203,13 @@
     <string name="perf_refresh_rate_title">화면 재생 빈도 고정</string>
     <string name="perf_refresh_rate_none">고정 안 함</string>
     <string name="perf_advanced_reset_title">프리셋으로 초기화</string>
+    <string name="disclaimer_miravision_trademark">MediaTek 및 MiraVision은 MediaTek Inc.의 상표입니다.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos 및 이중 D 기호는 Dolby Laboratories Licensing Corporation의 등록 상표입니다.</string>
+    <string name="disclaimer_footer_notice">이 설정은 기기의 원본 펌웨어에 내장된 기능에만 접근할 수 있게 합니다. 독점 소프트웨어를 포함하거나 수정하지 않습니다.</string>
+    <string name="disclaimer_title">면책 조항</string>
+    <string name="disclaimer_close">닫기</string>
+    <string name="disclaimer_miravision_message">이 설정은 LineageOS 커뮤니티 개발자가 작성했습니다. MediaTek 또는 Lenovo와 제휴 관계가 없으며, 해당 회사의 보증이나 승인을 받지 않았습니다.\n\n이미지 처리는 기기에 포함된 MediaTek의 독점 구성 요소가 수행합니다. 이 설정은 해당 구성 요소가 이미 제공하는 인터페이스만 사용하며, 구성 요소를 포함, 배포 또는 수정하지 않습니다.\n\n결과는 원본 펌웨어와 다를 수 있습니다. 이 기능은 어떤 종류의 보증도 없이 있는 그대로 제공됩니다. 사용에 따른 책임은 사용자에게 있습니다.\n\n모든 상표는 각 소유자의 재산입니다.</string>
+    <string name="disclaimer_dolby_message">이 설정은 LineageOS 커뮤니티 개발자가 작성했습니다. Dolby Laboratories 또는 Lenovo와 제휴 관계가 없으며, 해당 회사의 보증이나 승인을 받지 않았습니다.\n\n음향 처리는 기기에 포함된 Dolby의 독점 구성 요소가 수행합니다. 이 설정은 해당 구성 요소가 이미 제공하는 인터페이스만 사용하며, 구성 요소를 포함, 배포 또는 수정하지 않습니다.\n\n결과는 원본 펌웨어와 다를 수 있습니다. 이 기능은 어떤 종류의 보증도 없이 있는 그대로 제공됩니다. 사용에 따른 책임은 사용자에게 있습니다.\n\n모든 상표는 각 소유자의 재산입니다.</string>
     <string name="tile_reading_low_refresh">독서 모드 30Hz</string>
     <string name="tile_touch_sensitivity">터치 민감도</string>
     <string name="tile_touch_sensitivity_low">손바닥 터치 차단</string>

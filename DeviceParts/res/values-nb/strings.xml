@@ -203,6 +203,13 @@
     <string name="perf_refresh_rate_title">Lås oppdateringsfrekvens</string>
     <string name="perf_refresh_rate_none">Ikke låst</string>
     <string name="perf_advanced_reset_title">Tilbakestill til forhåndsinnstilling</string>
+    <string name="disclaimer_miravision_trademark">MediaTek og MiraVision er varemerker for MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos og dobbelt-D-symbolet er registrerte varemerker for Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Disse innstillingene gir bare tilgang til funksjoner som er innebygd i enhetens opprinnelige fastvare. De inneholder eller endrer ikke proprietær programvare.</string>
+    <string name="disclaimer_title">Ansvarsfraskrivelse</string>
+    <string name="disclaimer_close">Lukk</string>
+    <string name="disclaimer_miravision_message">Disse innstillingene er skrevet av utviklere i LineageOS-fellesskapet. De er ikke tilknyttet, godkjent eller autorisert av MediaTek eller Lenovo.\n\nBildebehandlingen utføres av MediaTeks proprietære komponenter som fulgte med enheten. Disse innstillingene bruker bare grensesnittene komponentene allerede tilbyr; de inkluderer, distribuerer eller endrer dem ikke.\n\nResultatene kan avvike fra den opprinnelige fastvaren. Denne funksjonen leveres som den er, uten noen form for garanti; bruk den på eget ansvar.\n\nAlle varemerker tilhører sine respektive eiere.</string>
+    <string name="disclaimer_dolby_message">Disse innstillingene er skrevet av utviklere i LineageOS-fellesskapet. De er ikke tilknyttet, godkjent eller autorisert av Dolby Laboratories eller Lenovo.\n\nLydbehandlingen utføres av Dolbys proprietære komponenter som fulgte med enheten. Disse innstillingene bruker bare grensesnittene komponentene allerede tilbyr; de inkluderer, distribuerer eller endrer dem ikke.\n\nResultatene kan avvike fra den opprinnelige fastvaren. Denne funksjonen leveres som den er, uten noen form for garanti; bruk den på eget ansvar.\n\nAlle varemerker tilhører sine respektive eiere.</string>
     <string name="tile_reading_low_refresh">Lesing 30 Hz</string>
     <string name="tile_touch_sensitivity">Berøringsfølsomhet</string>
     <string name="tile_touch_sensitivity_low">Avvis håndflateberøring</string>

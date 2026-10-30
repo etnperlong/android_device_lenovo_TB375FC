@@ -211,6 +211,13 @@
     <string name="perf_refresh_rate_none">قفل نشده</string>
     <string name="perf_refresh_rate_hz">%1$d هرتز</string>
     <string name="perf_advanced_reset_title">بازنشانی به ازپیش‌تنظیم‌شده</string>
+    <string name="disclaimer_miravision_trademark">MediaTek و MiraVision علامت‌های تجاری MediaTek Inc. هستند.</string>
+    <string name="disclaimer_dolby_trademark">Dolby، Dolby Atmos و نماد D دوتایی، علامت‌های تجاری ثبت‌شدهٔ Dolby Laboratories Licensing Corporation هستند.</string>
+    <string name="disclaimer_footer_notice">این تنظیمات فقط امکان دسترسی به قابلیت‌های تعبیه‌شده در میان‌افزار اصلی دستگاه را فراهم می‌کنند. هیچ نرم‌افزار اختصاصی‌ای را دربرنمی‌گیرند یا تغییر نمی‌دهند.</string>
+    <string name="disclaimer_title">سلب مسئولیت</string>
+    <string name="disclaimer_close">بستن</string>
+    <string name="disclaimer_miravision_message">این تنظیمات را توسعه‌دهندگان انجمن LineageOS نوشته‌اند. آن‌ها وابسته به MediaTek یا Lenovo نیستند و از سوی این شرکت‌ها تأیید یا مجاز نشده‌اند.\n\nپردازش تصویر با مؤلفه‌های اختصاصی MediaTek انجام می‌شود که همراه دستگاه ارائه شده‌اند. این تنظیمات فقط از رابط‌هایی استفاده می‌کنند که آن مؤلفه‌ها از پیش فراهم کرده‌اند؛ آن‌ها را دربرنمی‌گیرند، توزیع نمی‌کنند و تغییر نمی‌دهند.\n\nنتایج ممکن است با میان‌افزار اصلی تفاوت داشته باشند. این قابلیت بدون هیچ‌گونه ضمانتی، به همان شکل موجود ارائه می‌شود؛ با مسئولیت خودتان از آن استفاده کنید.\n\nهمهٔ علامت‌های تجاری متعلق به صاحبان مربوطه هستند.</string>
+    <string name="disclaimer_dolby_message">این تنظیمات را توسعه‌دهندگان انجمن LineageOS نوشته‌اند. آن‌ها وابسته به Dolby Laboratories یا Lenovo نیستند و از سوی این شرکت‌ها تأیید یا مجاز نشده‌اند.\n\nپردازش صدا با مؤلفه‌های اختصاصی Dolby انجام می‌شود که همراه دستگاه ارائه شده‌اند. این تنظیمات فقط از رابط‌هایی استفاده می‌کنند که آن مؤلفه‌ها از پیش فراهم کرده‌اند؛ آن‌ها را دربرنمی‌گیرند، توزیع نمی‌کنند و تغییر نمی‌دهند.\n\nنتایج ممکن است با میان‌افزار اصلی تفاوت داشته باشند. این قابلیت بدون هیچ‌گونه ضمانتی، به همان شکل موجود ارائه می‌شود؛ با مسئولیت خودتان از آن استفاده کنید.\n\nهمهٔ علامت‌های تجاری متعلق به صاحبان مربوطه هستند.</string>
     <string name="tile_reading_low_refresh">مطالعه ۳۰ هرتز</string>
     <string name="tile_touch_sensitivity">حساسیت لمسی</string>
     <string name="tile_touch_sensitivity_low">رد کف دست</string>

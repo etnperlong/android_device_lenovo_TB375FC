@@ -234,6 +234,15 @@
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Reset to preset</string>
 
+    <!-- Trademark notices and disclaimers of the MiraVision and Dolby pages -->
+    <string name="disclaimer_miravision_trademark">MediaTek and MiraVision are trademarks of MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos and the double-D symbol are registered trademarks of Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">These settings only provide access to features built into the device\'s original firmware. They do not include or modify any proprietary software.</string>
+    <string name="disclaimer_title">Disclaimer</string>
+    <string name="disclaimer_close">Close</string>
+    <string name="disclaimer_miravision_message">These settings are written by LineageOS community developers. They are not affiliated with, endorsed or authorized by MediaTek or Lenovo.\n\nPicture processing is done by MediaTek\'s proprietary components that came with the device. These settings only use the interfaces those components already provide; they do not include, distribute or modify them.\n\nResults may differ from the original firmware. This feature is provided \"as is\", without warranty of any kind; use it at your own risk.\n\nAll trademarks are the property of their respective owners.</string>
+    <string name="disclaimer_dolby_message">These settings are written by LineageOS community developers. They are not affiliated with, endorsed or authorized by Dolby Laboratories or Lenovo.\n\nSound processing is done by Dolby\'s proprietary components that came with the device. These settings only use the interfaces those components already provide; they do not include, distribute or modify them.\n\nResults may differ from the original firmware. This feature is provided \"as is\", without warranty of any kind; use it at your own risk.\n\nAll trademarks are the property of their respective owners.</string>
+
     <!-- Quick Settings tiles -->
     <string name="tile_reading_low_refresh">Reading 30 Hz</string>
     <string name="tile_touch_sensitivity">Touch sensitivity</string>

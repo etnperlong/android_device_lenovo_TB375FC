@@ -210,6 +210,13 @@
     <string name="perf_refresh_rate_none">Pa kyçje</string>
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Rivendos paracaktimin</string>
+    <string name="disclaimer_miravision_trademark">MediaTek dhe MiraVision janë marka tregtare të MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos dhe simboli me D të dyfishtë janë marka të regjistruara tregtare të Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Këto cilësime ofrojnë qasje vetëm te veçoritë e integruara në firmuerin origjinal të pajisjes. Ato nuk përfshijnë dhe nuk modifikojnë asnjë softuer pronësor.</string>
+    <string name="disclaimer_title">Mohim përgjegjësie</string>
+    <string name="disclaimer_close">Mbyll</string>
+    <string name="disclaimer_miravision_message">Këto cilësime janë shkruar nga zhvillues të komunitetit LineageOS. Ata nuk janë të lidhur me MediaTek ose Lenovo, nuk kanë miratimin apo autorizimin e tyre.\n\nPërpunimi i figurës kryhet nga përbërësit pronësorë të MediaTek që erdhën me pajisjen. Këto cilësime përdorin vetëm ndërfaqet që këta përbërës ofrojnë tashmë; nuk i përfshijnë, shpërndajnë apo modifikojnë.\n\nRezultatet mund të ndryshojnë nga firmueri origjinal. Kjo veçori ofrohet siç është, pa asnjë lloj garancie; përdoreni me rrezikun tuaj.\n\nTë gjitha markat tregtare janë pronë e zotëruesve përkatës.</string>
+    <string name="disclaimer_dolby_message">Këto cilësime janë shkruar nga zhvillues të komunitetit LineageOS. Ata nuk janë të lidhur me Dolby Laboratories ose Lenovo, nuk kanë miratimin apo autorizimin e tyre.\n\nPërpunimi i zërit kryhet nga përbërësit pronësorë të Dolby që erdhën me pajisjen. Këto cilësime përdorin vetëm ndërfaqet që këta përbërës ofrojnë tashmë; nuk i përfshijnë, shpërndajnë apo modifikojnë.\n\nRezultatet mund të ndryshojnë nga firmueri origjinal. Kjo veçori ofrohet siç është, pa asnjë lloj garancie; përdoreni me rrezikun tuaj.\n\nTë gjitha markat tregtare janë pronë e zotëruesve përkatës.</string>
     <string name="tile_reading_low_refresh">Lexim 30 Hz</string>
     <string name="tile_touch_sensitivity">Ndjeshmëria e prekjes</string>
     <string name="tile_touch_sensitivity_low">Refuzimi i pëllëmbës</string>

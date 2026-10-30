@@ -212,6 +212,13 @@
     <string name="perf_refresh_rate_none">Не блокувати</string>
     <string name="perf_refresh_rate_hz">%1$d Гц</string>
     <string name="perf_advanced_reset_title">Скинути до попереднього налаштування</string>
+    <string name="disclaimer_miravision_trademark">MediaTek і MiraVision є торговельними марками MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos і символ подвійної літери D є зареєстрованими торговельними марками Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Ці налаштування лише надають доступ до функцій, вбудованих в оригінальну прошивку пристрою. Вони не містять і не змінюють жодного пропрієтарного програмного забезпечення.</string>
+    <string name="disclaimer_title">Застереження</string>
+    <string name="disclaimer_close">Закрити</string>
+    <string name="disclaimer_miravision_message">Ці налаштування створені розробниками спільноти LineageOS. Вони не пов’язані з MediaTek або Lenovo, не схвалені та не авторизовані ними.\n\nОбробку зображення виконують пропрієтарні компоненти MediaTek, що постачаються з пристроєм. Ці налаштування лише використовують інтерфейси, які вже надають ці компоненти; вони не містять, не поширюють і не змінюють їх.\n\nРезультати можуть відрізнятися від оригінальної прошивки. Ця функція надається \"як є\", без будь-яких гарантій; користуйтеся нею на власний ризик.\n\nУсі торговельні марки є власністю відповідних власників.</string>
+    <string name="disclaimer_dolby_message">Ці налаштування створені розробниками спільноти LineageOS. Вони не пов’язані з Dolby Laboratories або Lenovo, не схвалені та не авторизовані ними.\n\nОбробку звуку виконують пропрієтарні компоненти Dolby, що постачаються з пристроєм. Ці налаштування лише використовують інтерфейси, які вже надають ці компоненти; вони не містять, не поширюють і не змінюють їх.\n\nРезультати можуть відрізнятися від оригінальної прошивки. Ця функція надається \"як є\", без будь-яких гарантій; користуйтеся нею на власний ризик.\n\nУсі торговельні марки є власністю відповідних власників.</string>
     <string name="tile_reading_low_refresh">Читання 30 Гц</string>
     <string name="tile_touch_sensitivity">Чутливість дотику</string>
     <string name="tile_touch_sensitivity_low">Відхилення долонею</string>

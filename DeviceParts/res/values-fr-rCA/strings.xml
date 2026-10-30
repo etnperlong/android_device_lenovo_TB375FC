@@ -210,6 +210,13 @@
     <string name="perf_refresh_rate_none">Non verrouillé</string>
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Rétablir le préréglage</string>
+    <string name="disclaimer_miravision_trademark">MediaTek et MiraVision sont des marques de commerce de MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos et le symbole du double D sont des marques de commerce déposées de Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Ces paramètres donnent uniquement accès aux fonctionnalités intégrées au micrologiciel d’origine de l’appareil. Ils n’incluent aucun logiciel propriétaire et ne le modifient pas.</string>
+    <string name="disclaimer_title">Avis de non-responsabilité</string>
+    <string name="disclaimer_close">Fermer</string>
+    <string name="disclaimer_miravision_message">Ces paramètres sont écrits par des développeurs de la communauté LineageOS. Ils ne sont pas affiliés à MediaTek ni à Lenovo, et ne sont ni approuvés ni autorisés par ces sociétés.\n\nLe traitement de l’image est effectué par les composants propriétaires MediaTek fournis avec l’appareil. Ces paramètres utilisent uniquement les interfaces déjà fournies par ces composants; ils ne les incluent pas, ne les distribuent pas et ne les modifient pas.\n\nLes résultats peuvent différer du micrologiciel d’origine. Cette fonctionnalité est fournie telle quelle, sans garantie d’aucune sorte; vous l’utilisez à vos risques.\n\nToutes les marques de commerce appartiennent à leurs propriétaires respectifs.</string>
+    <string name="disclaimer_dolby_message">Ces paramètres sont écrits par des développeurs de la communauté LineageOS. Ils ne sont pas affiliés à Dolby Laboratories ni à Lenovo, et ne sont ni approuvés ni autorisés par ces sociétés.\n\nLe traitement du son est effectué par les composants propriétaires Dolby fournis avec l’appareil. Ces paramètres utilisent uniquement les interfaces déjà fournies par ces composants; ils ne les incluent pas, ne les distribuent pas et ne les modifient pas.\n\nLes résultats peuvent différer du micrologiciel d’origine. Cette fonctionnalité est fournie telle quelle, sans garantie d’aucune sorte; vous l’utilisez à vos risques.\n\nToutes les marques de commerce appartiennent à leurs propriétaires respectifs.</string>
     <string name="tile_reading_low_refresh">Lecture 30 Hz</string>
     <string name="tile_touch_sensitivity">Sensibilité tactile</string>
     <string name="tile_touch_sensitivity_low">Rejet de la paume</string>

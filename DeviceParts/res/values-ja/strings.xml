@@ -203,6 +203,13 @@
     <string name="perf_refresh_rate_title">リフレッシュ レートの固定</string>
     <string name="perf_refresh_rate_none">固定しない</string>
     <string name="perf_advanced_reset_title">プリセットにリセット</string>
+    <string name="disclaimer_miravision_trademark">MediaTekおよびMiraVisionはMediaTek Inc.の商標です。</string>
+    <string name="disclaimer_dolby_trademark">Dolby、Dolby Atmos、およびダブルD記号は、Dolby Laboratories Licensing Corporationの登録商標です。</string>
+    <string name="disclaimer_footer_notice">これらの設定からは、デバイスのオリジナルファームウェアに組み込まれた機能にのみアクセスできます。独自ソフトウェアは含まれておらず、変更もされません。</string>
+    <string name="disclaimer_title">免責事項</string>
+    <string name="disclaimer_close">閉じる</string>
+    <string name="disclaimer_miravision_message">これらの設定はLineageOSコミュニティの開発者が作成したものです。MediaTekまたはLenovoとの提携関係はなく、両社から承認または許可を受けたものでもありません。\n\n画像処理には、デバイスに付属するMediaTek独自のコンポーネントが使用されます。これらの設定は、コンポーネントがすでに提供しているインターフェースのみを使用し、コンポーネントを含めたり、配布したり、変更したりするものではありません。\n\n結果はオリジナルファームウェアと異なる場合があります。この機能は現状のまま提供され、いかなる保証もありません。ご自身の責任で使用してください。\n\nすべての商標は各所有者に帰属します。</string>
+    <string name="disclaimer_dolby_message">これらの設定はLineageOSコミュニティの開発者が作成したものです。Dolby LaboratoriesまたはLenovoとの提携関係はなく、両社から承認または許可を受けたものでもありません。\n\n音声処理には、デバイスに付属するDolby独自のコンポーネントが使用されます。これらの設定は、コンポーネントがすでに提供しているインターフェースのみを使用し、コンポーネントを含めたり、配布したり、変更したりするものではありません。\n\n結果はオリジナルファームウェアと異なる場合があります。この機能は現状のまま提供され、いかなる保証もありません。ご自身の責任で使用してください。\n\nすべての商標は各所有者に帰属します。</string>
     <string name="tile_reading_low_refresh">読書モード 30 Hz</string>
     <string name="tile_touch_sensitivity">タッチ感度</string>
     <string name="tile_touch_sensitivity_low">誤タッチ防止</string>

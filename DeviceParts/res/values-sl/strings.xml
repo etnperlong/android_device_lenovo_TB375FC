@@ -211,6 +211,13 @@
     <string name="perf_refresh_rate_none">Ni zaklenjeno</string>
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Ponastavi na prednastavitev</string>
+    <string name="disclaimer_miravision_trademark">MediaTek in MiraVision sta blagovni znamki družbe MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos in simbol dvojnega D so registrirane blagovne znamke družbe Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Te nastavitve omogočajo dostop samo do funkcij, vgrajenih v izvirno vdelano programsko opremo naprave. Ne vključujejo lastniške programske opreme in je ne spreminjajo.</string>
+    <string name="disclaimer_title">Zavrnitev odgovornosti</string>
+    <string name="disclaimer_close">Zapri</string>
+    <string name="disclaimer_miravision_message">Te nastavitve so napisali razvijalci iz skupnosti LineageOS. Niso povezani s podjetjem MediaTek ali Lenovo, podjetji pa jih nista podprli ali pooblastili.\n\nObdelavo slike izvajajo lastniške komponente podjetja MediaTek, priložene napravi. Te nastavitve uporabljajo samo vmesnike, ki jih te komponente že ponujajo; ne vključujejo, distribuirajo ali spreminjajo jih.\n\nRezultati se lahko razlikujejo od izvirne vdelane programske opreme. Ta funkcija je na voljo takšna, kot je, brez kakršnega koli jamstva; uporabljajte jo na lastno odgovornost.\n\nVse blagovne znamke so last njihovih ustreznih lastnikov.</string>
+    <string name="disclaimer_dolby_message">Te nastavitve so napisali razvijalci iz skupnosti LineageOS. Niso povezani s podjetjem Dolby Laboratories ali Lenovo, podjetji pa jih nista podprli ali pooblastili.\n\nObdelavo zvoka izvajajo lastniške komponente podjetja Dolby, priložene napravi. Te nastavitve uporabljajo samo vmesnike, ki jih te komponente že ponujajo; ne vključujejo, distribuirajo ali spreminjajo jih.\n\nRezultati se lahko razlikujejo od izvirne vdelane programske opreme. Ta funkcija je na voljo takšna, kot je, brez kakršnega koli jamstva; uporabljajte jo na lastno odgovornost.\n\nVse blagovne znamke so last njihovih ustreznih lastnikov.</string>
     <string name="tile_reading_low_refresh">Branje 30 Hz</string>
     <string name="tile_touch_sensitivity">Občutljivost dotika</string>
     <string name="tile_touch_sensitivity_low">Zavračanje dlani</string>

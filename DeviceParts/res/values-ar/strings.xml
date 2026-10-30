@@ -215,6 +215,13 @@
     <string name="perf_refresh_rate_none">غير مقفل</string>
     <string name="perf_refresh_rate_hz">%1$d هرتز</string>
     <string name="perf_advanced_reset_title">إعادة الضبط إلى الإعداد المسبق</string>
+    <string name="disclaimer_miravision_trademark">MediaTek وMiraVision علامتان تجاريتان لشركة MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby وDolby Atmos ورمز D المزدوج علامات تجارية مسجلة لشركة Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">تتيح هذه الإعدادات الوصول فقط إلى الميزات المضمّنة في البرنامج الثابت الأصلي للجهاز. ولا تتضمن أي برامج مملوكة أو تعدّلها.</string>
+    <string name="disclaimer_title">إخلاء المسؤولية</string>
+    <string name="disclaimer_close">إغلاق</string>
+    <string name="disclaimer_miravision_message">كتب هذه الإعدادات مطوّرو مجتمع LineageOS. ولا تربطهم علاقة بـMediaTek أو Lenovo، كما أنهما لم تصادقا عليها أو تأذنا بها.\n\nتُجرى معالجة الصور بواسطة مكوّنات MediaTek المملوكة التي جاءت مع الجهاز. ولا تستخدم هذه الإعدادات سوى الواجهات التي توفرها تلك المكوّنات بالفعل؛ فهي لا تتضمنها ولا توزّعها ولا تعدّلها.\n\nقد تختلف النتائج عن البرنامج الثابت الأصلي. تُقدّم هذه الميزة «كما هي» من دون أي ضمان من أي نوع؛ استخدمها على مسؤوليتك الخاصة.\n\nجميع العلامات التجارية ملك لأصحابها المعنيين.</string>
+    <string name="disclaimer_dolby_message">كتب هذه الإعدادات مطوّرو مجتمع LineageOS. ولا تربطهم علاقة بـDolby Laboratories أو Lenovo، كما أنهما لم تصادقا عليها أو تأذنا بها.\n\nتُجرى معالجة الصوت بواسطة مكوّنات Dolby المملوكة التي جاءت مع الجهاز. ولا تستخدم هذه الإعدادات سوى الواجهات التي توفرها تلك المكوّنات بالفعل؛ فهي لا تتضمنها ولا توزّعها ولا تعدّلها.\n\nقد تختلف النتائج عن البرنامج الثابت الأصلي. تُقدّم هذه الميزة «كما هي» من دون أي ضمان من أي نوع؛ استخدمها على مسؤوليتك الخاصة.\n\nجميع العلامات التجارية ملك لأصحابها المعنيين.</string>
     <string name="tile_reading_low_refresh">القراءة 30 هرتز</string>
     <string name="tile_touch_sensitivity">حساسية اللمس</string>
     <string name="tile_touch_sensitivity_low">رفض راحة اليد</string>

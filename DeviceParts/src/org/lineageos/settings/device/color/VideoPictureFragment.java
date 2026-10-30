@@ -15,6 +15,7 @@ import androidx.preference.TwoStatePreference;
 import com.android.settingslib.widget.SettingsBasePreferenceFragment;
 
 import org.lineageos.settings.device.R;
+import org.lineageos.settings.device.widget.DisclaimerFooter;
 import org.lineageos.settings.device.widget.OptionCardsPreference;
 
 /**
@@ -52,6 +53,8 @@ public class VideoPictureFragment extends SettingsBasePreferenceFragment
             mVideoFeatures[i] = findPreference(VIDEO_FEATURE_KEYS[i]);
             mVideoFeatures[i].setOnPreferenceChangeListener(this);
         }
+        DisclaimerFooter.setUp(this, "miravision_footer", R.string.disclaimer_miravision_trademark,
+                R.string.disclaimer_miravision_message);
     }
 
     @Override

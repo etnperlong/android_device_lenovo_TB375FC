@@ -59,4 +59,7 @@
                 android:targetClass="org.lineageos.settings.device.dolby.DolbyAppsActivity" />
         </Preference>
     </PreferenceCategory>
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="dolby_footer" />
 </PreferenceScreen>

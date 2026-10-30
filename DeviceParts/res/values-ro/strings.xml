@@ -206,6 +206,13 @@
     <string name="perf_refresh_rate_title">Blocarea ratei de actualizare</string>
     <string name="perf_refresh_rate_none">Fără blocare</string>
     <string name="perf_advanced_reset_title">Resetează la presetare</string>
+    <string name="disclaimer_miravision_trademark">MediaTek și MiraVision sunt mărci comerciale ale MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos și simbolul D dublu sunt mărci comerciale înregistrate ale Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Aceste setări oferă acces numai la funcțiile integrate în firmware-ul original al dispozitivului. Nu includ și nu modifică niciun software proprietar.</string>
+    <string name="disclaimer_title">Declinarea responsabilității</string>
+    <string name="disclaimer_close">Închide</string>
+    <string name="disclaimer_miravision_message">Aceste setări sunt scrise de dezvoltatori din comunitatea LineageOS. Ei nu sunt afiliați cu MediaTek sau Lenovo și nu sunt susținuți ori autorizați de acestea.\n\nProcesarea imaginilor este realizată de componentele proprietare MediaTek incluse în dispozitiv. Aceste setări folosesc doar interfețele deja oferite de acele componente; nu le includ, distribuie sau modifică.\n\nRezultatele pot fi diferite de cele din firmware-ul original. Această funcție este oferită ca atare, fără nicio garanție; folosiți-o pe propriul risc.\n\nToate mărcile comerciale sunt proprietatea deținătorilor respectivi.</string>
+    <string name="disclaimer_dolby_message">Aceste setări sunt scrise de dezvoltatori din comunitatea LineageOS. Ei nu sunt afiliați cu Dolby Laboratories sau Lenovo și nu sunt susținuți ori autorizați de acestea.\n\nProcesarea sunetului este realizată de componentele proprietare Dolby incluse în dispozitiv. Aceste setări folosesc doar interfețele deja oferite de acele componente; nu le includ, distribuie sau modifică.\n\nRezultatele pot fi diferite de cele din firmware-ul original. Această funcție este oferită ca atare, fără nicio garanție; folosiți-o pe propriul risc.\n\nToate mărcile comerciale sunt proprietatea deținătorilor respectivi.</string>
     <string name="tile_reading_low_refresh">Lectură 30 Hz</string>
     <string name="tile_touch_sensitivity">Sensibilitate la atingere</string>
     <string name="tile_touch_sensitivity_low">Respingerea palmei</string>

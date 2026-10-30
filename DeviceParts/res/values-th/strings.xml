@@ -202,6 +202,13 @@
     <string name="perf_refresh_rate_title">ล็อกอัตราการรีเฟรช</string>
     <string name="perf_refresh_rate_none">ไม่ล็อก</string>
     <string name="perf_advanced_reset_title">รีเซ็ตเป็นค่าที่ตั้งไว้</string>
+    <string name="disclaimer_miravision_trademark">MediaTek และ MiraVision เป็นเครื่องหมายการค้าของ MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos และสัญลักษณ์ D คู่เป็นเครื่องหมายการค้าจดทะเบียนของ Dolby Laboratories Licensing Corporation</string>
+    <string name="disclaimer_footer_notice">การตั้งค่าเหล่านี้ให้สิทธิ์เข้าถึงเฉพาะฟีเจอร์ที่มีอยู่ในเฟิร์มแวร์ดั้งเดิมของอุปกรณ์เท่านั้น โดยไม่มีซอฟต์แวร์กรรมสิทธิ์ใดรวมอยู่หรือถูกแก้ไข</string>
+    <string name="disclaimer_title">ข้อจำกัดความรับผิด</string>
+    <string name="disclaimer_close">ปิด</string>
+    <string name="disclaimer_miravision_message">การตั้งค่าเหล่านี้เขียนโดยนักพัฒนาจากชุมชน LineageOS โดยไม่ได้เกี่ยวข้อง ได้รับการรับรอง หรือได้รับอนุญาตจาก MediaTek หรือ Lenovo\n\nการประมวลผลภาพทำโดยคอมโพเนนต์กรรมสิทธิ์ของ MediaTek ที่มาพร้อมกับอุปกรณ์ การตั้งค่าเหล่านี้ใช้เฉพาะอินเทอร์เฟซที่คอมโพเนนต์เหล่านั้นมีให้อยู่แล้ว โดยไม่ได้รวม แจกจ่าย หรือแก้ไขคอมโพเนนต์ดังกล่าว\n\nผลลัพธ์อาจแตกต่างจากเฟิร์มแวร์ดั้งเดิม ฟีเจอร์นี้ให้บริการตามสภาพที่เป็นอยู่โดยไม่มีการรับประกันใด ๆ โปรดใช้งานโดยยอมรับความเสี่ยงเอง\n\nเครื่องหมายการค้าทั้งหมดเป็นทรัพย์สินของเจ้าของที่เกี่ยวข้อง</string>
+    <string name="disclaimer_dolby_message">การตั้งค่าเหล่านี้เขียนโดยนักพัฒนาจากชุมชน LineageOS โดยไม่ได้เกี่ยวข้อง ได้รับการรับรอง หรือได้รับอนุญาตจาก Dolby Laboratories หรือ Lenovo\n\nการประมวลผลเสียงทำโดยคอมโพเนนต์กรรมสิทธิ์ของ Dolby ที่มาพร้อมกับอุปกรณ์ การตั้งค่าเหล่านี้ใช้เฉพาะอินเทอร์เฟซที่คอมโพเนนต์เหล่านั้นมีให้อยู่แล้ว โดยไม่ได้รวม แจกจ่าย หรือแก้ไขคอมโพเนนต์ดังกล่าว\n\nผลลัพธ์อาจแตกต่างจากเฟิร์มแวร์ดั้งเดิม ฟีเจอร์นี้ให้บริการตามสภาพที่เป็นอยู่โดยไม่มีการรับประกันใด ๆ โปรดใช้งานโดยยอมรับความเสี่ยงเอง\n\nเครื่องหมายการค้าทั้งหมดเป็นทรัพย์สินของเจ้าของที่เกี่ยวข้อง</string>
     <string name="tile_reading_low_refresh">อ่าน 30 Hz</string>
     <string name="tile_touch_sensitivity">ความไวต่อการสัมผัส</string>
     <string name="tile_touch_sensitivity_low">การปฏิเสธฝ่ามือ</string>

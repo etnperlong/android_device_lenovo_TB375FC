@@ -212,6 +212,13 @@
     <string name="perf_refresh_rate_none">Не блокировать</string>
     <string name="perf_refresh_rate_hz">%1$d Гц</string>
     <string name="perf_advanced_reset_title">Сбросить до предустановки</string>
+    <string name="disclaimer_miravision_trademark">MediaTek и MiraVision являются товарными знаками MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos и символ двойной D являются зарегистрированными товарными знаками Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Эти настройки предоставляют доступ только к функциям, встроенным в оригинальную прошивку устройства. Они не включают и не изменяют какое-либо проприетарное программное обеспечение.</string>
+    <string name="disclaimer_title">Отказ от ответственности</string>
+    <string name="disclaimer_close">Закрыть</string>
+    <string name="disclaimer_miravision_message">Эти настройки созданы разработчиками сообщества LineageOS. Они не связаны с MediaTek или Lenovo, не одобрены и не уполномочены ими.\n\nОбработка изображения выполняется проприетарными компонентами MediaTek, поставляемыми с устройством. Эти настройки используют только интерфейсы, уже предоставляемые этими компонентами; они не включают, не распространяют и не изменяют их.\n\nРезультаты могут отличаться от оригинальной прошивки. Эта функция предоставляется как есть, без каких-либо гарантий; используйте ее на свой страх и риск.\n\nВсе товарные знаки являются собственностью соответствующих владельцев.</string>
+    <string name="disclaimer_dolby_message">Эти настройки созданы разработчиками сообщества LineageOS. Они не связаны с Dolby Laboratories или Lenovo, не одобрены и не уполномочены ими.\n\nОбработка звука выполняется проприетарными компонентами Dolby, поставляемыми с устройством. Эти настройки используют только интерфейсы, уже предоставляемые этими компонентами; они не включают, не распространяют и не изменяют их.\n\nРезультаты могут отличаться от оригинальной прошивки. Эта функция предоставляется как есть, без каких-либо гарантий; используйте ее на свой страх и риск.\n\nВсе товарные знаки являются собственностью соответствующих владельцев.</string>
     <string name="tile_reading_low_refresh">Чтение 30 Гц</string>
     <string name="tile_touch_sensitivity">Чувствительность касания</string>
     <string name="tile_touch_sensitivity_low">Защита от ладони</string>

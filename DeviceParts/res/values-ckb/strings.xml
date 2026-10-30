@@ -211,6 +211,13 @@
     <string name="perf_refresh_rate_none">قفڵ نەکراوە</string>
     <string name="perf_refresh_rate_hz">%1$d هێرتز</string>
     <string name="perf_advanced_reset_title">گەڕاندنەوە بۆ پێشئامادە</string>
+    <string name="disclaimer_miravision_trademark">MediaTek و MiraVision نیشانە بازرگانییەکانی MediaTek Inc.ن.</string>
+    <string name="disclaimer_dolby_trademark">Dolby و Dolby Atmos و هێمای Dی دووانە نیشانە بازرگانییە تۆمارکراوەکانی Dolby Laboratories Licensing Corporationن.</string>
+    <string name="disclaimer_footer_notice">ئەم ڕێکخستنانە تەنها دەستگەیشتن بە تایبەتمەندییە دانراوەکانی فێرموێری ڕەسەنی ئامێرەکە دەدەن. هیچ نەرمەواڵەیەکی خاوەندارێتی لەخۆ ناگرن و ناگۆڕن.</string>
+    <string name="disclaimer_title">بەرپرسێتیی خۆت ڕەت دەکەیتەوە</string>
+    <string name="disclaimer_close">داخستن</string>
+    <string name="disclaimer_miravision_message">ئەم ڕێکخستنانە لەلایەن پەرەپێدەرانى کۆمەڵگای LineageOS نووسراون. پەیوەندییان بە MediaTek یان Lenovoوە نییە، و ئەم کۆمپانیایانە پشتگیرییان ناکەن یان مۆڵەتیان پێ نەداون.\n\nپرۆسەکردنی وێنە لەلایەن پێکهاتە خاوەندارێتییەکانی MediaTek ئەنجام دەدرێت کە لەگەڵ ئامێرەکەدا هاتوون. ئەم ڕێکخستنانە تەنها ڕووکاری ئەو پێکهاتانە بەکاردەهێنن کە پێشتر دابینیان دەکەن؛ پێکهاتەکان ناگرنەوە، بڵاویان ناکەنەوە و ناگۆڕن.\n\nئەنجامەکان لەوانەیە لە فێرموێری ڕەسەن جیاواز بن. ئەم تایبەتمەندییە بە شێوەی ئێستا و بێ هیچ جۆرە گەرەنتییەک پێشکەش دەکرێت؛ بە بەرپرسیاریەتی خۆت بەکاری بهێنە.\n\nهەموو نیشانە بازرگانییەکان موڵکی خاوەنە تایبەتەکانی خۆیانن.</string>
+    <string name="disclaimer_dolby_message">ئەم ڕێکخستنانە لەلایەن پەرەپێدەرانى کۆمەڵگای LineageOS نووسراون. پەیوەندییان بە Dolby Laboratories یان Lenovoوە نییە، و ئەم کۆمپانیایانە پشتگیرییان ناکەن یان مۆڵەتیان پێ نەداون.\n\nپرۆسەکردنی دەنگ لەلایەن پێکهاتە خاوەندارێتییەکانی Dolby ئەنجام دەدرێت کە لەگەڵ ئامێرەکەدا هاتوون. ئەم ڕێکخستنانە تەنها ڕووکاری ئەو پێکهاتانە بەکاردەهێنن کە پێشتر دابینیان دەکەن؛ پێکهاتەکان ناگرنەوە، بڵاویان ناکەنەوە و ناگۆڕن.\n\nئەنجامەکان لەوانەیە لە فێرموێری ڕەسەن جیاواز بن. ئەم تایبەتمەندییە بە شێوەی ئێستا و بێ هیچ جۆرە گەرەنتییەک پێشکەش دەکرێت؛ بە بەرپرسیاریەتی خۆت بەکاری بهێنە.\n\nهەموو نیشانە بازرگانییەکان موڵکی خاوەنە تایبەتەکانی خۆیانن.</string>
     <string name="tile_reading_low_refresh">خوێندنەوە 30 هێرتز</string>
     <string name="tile_touch_sensitivity">هەستیاری دەستلێدان</string>
     <string name="tile_touch_sensitivity_low">ڕەتکردنەوەی نێو دەست</string>

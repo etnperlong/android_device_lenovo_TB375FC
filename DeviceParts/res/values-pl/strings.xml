@@ -211,6 +211,13 @@
     <string name="perf_refresh_rate_none">Bez blokady</string>
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Przywróć ustawienie wstępne</string>
+    <string name="disclaimer_miravision_trademark">MediaTek i MiraVision są znakami towarowymi MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos i symbol podwójnego D są zastrzeżonymi znakami towarowymi Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Te ustawienia zapewniają dostęp wyłącznie do funkcji wbudowanych w oryginalne oprogramowanie układowe urządzenia. Nie zawierają ani nie modyfikują żadnego prawnie zastrzeżonego oprogramowania.</string>
+    <string name="disclaimer_title">Informacja prawna</string>
+    <string name="disclaimer_close">Zamknij</string>
+    <string name="disclaimer_miravision_message">Te ustawienia zostały napisane przez programistów społeczności LineageOS. Nie są powiązani z firmami MediaTek ani Lenovo, nie są przez nie popierani ani przez nie upoważnieni.\n\nPrzetwarzanie obrazu odbywa się za pomocą zastrzeżonych komponentów MediaTek dostarczonych z urządzeniem. Te ustawienia korzystają wyłącznie z interfejsów już udostępnianych przez te komponenty; nie zawierają ich, nie rozpowszechniają ani nie modyfikują.\n\nWyniki mogą różnić się od tych w oryginalnym oprogramowaniu układowym. Ta funkcja jest udostępniana w stanie, w jakim się znajduje, bez jakiejkolwiek gwarancji; korzystasz z niej na własne ryzyko.\n\nWszystkie znaki towarowe są własnością ich odpowiednich właścicieli.</string>
+    <string name="disclaimer_dolby_message">Te ustawienia zostały napisane przez programistów społeczności LineageOS. Nie są powiązani z firmami Dolby Laboratories ani Lenovo, nie są przez nie popierani ani przez nie upoważnieni.\n\nPrzetwarzanie dźwięku odbywa się za pomocą zastrzeżonych komponentów Dolby dostarczonych z urządzeniem. Te ustawienia korzystają wyłącznie z interfejsów już udostępnianych przez te komponenty; nie zawierają ich, nie rozpowszechniają ani nie modyfikują.\n\nWyniki mogą różnić się od tych w oryginalnym oprogramowaniu układowym. Ta funkcja jest udostępniana w stanie, w jakim się znajduje, bez jakiejkolwiek gwarancji; korzystasz z niej na własne ryzyko.\n\nWszystkie znaki towarowe są własnością ich odpowiednich właścicieli.</string>
     <string name="tile_reading_low_refresh">Czytanie 30 Hz</string>
     <string name="tile_touch_sensitivity">Czułość dotyku</string>
     <string name="tile_touch_sensitivity_low">Odrzucanie dłoni</string>

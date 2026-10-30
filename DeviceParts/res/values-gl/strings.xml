@@ -204,6 +204,13 @@
     <string name="perf_refresh_rate_title">Bloqueo da frecuencia de actualización</string>
     <string name="perf_refresh_rate_none">Sen bloqueo</string>
     <string name="perf_advanced_reset_title">Restablecer á predefinición</string>
+    <string name="disclaimer_miravision_trademark">MediaTek e MiraVision son marcas rexistradas de MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos e o símbolo da dobre D son marcas rexistradas de Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Esta configuración só dá acceso ás funcións integradas no firmware orixinal do dispositivo. Non inclúe nin modifica ningún software propietario.</string>
+    <string name="disclaimer_title">Aviso legal</string>
+    <string name="disclaimer_close">Pechar</string>
+    <string name="disclaimer_miravision_message">Esta configuración foi escrita por desenvolvedores da comunidade LineageOS. Non teñen afiliación con MediaTek ou Lenovo, nin están aprobadas ou autorizadas por estas empresas.\n\nO procesamento da imaxe realízase con compoñentes propietarios de MediaTek incluídos co dispositivo. Esta configuración só usa as interfaces que eses compoñentes xa ofrecen; non os inclúe, distribúe nin modifica.\n\nOs resultados poden diferir dos do firmware orixinal. Esta función ofrécese tal cal, sen garantía de ningún tipo; úsaa baixo a túa responsabilidade.\n\nTodas as marcas comerciais pertencen aos seus respectivos propietarios.</string>
+    <string name="disclaimer_dolby_message">Esta configuración foi escrita por desenvolvedores da comunidade LineageOS. Non teñen afiliación con Dolby Laboratories ou Lenovo, nin están aprobadas ou autorizadas por estas empresas.\n\nO procesamento do son realízase con compoñentes propietarios de Dolby incluídos co dispositivo. Esta configuración só usa as interfaces que eses compoñentes xa ofrecen; non os inclúe, distribúe nin modifica.\n\nOs resultados poden diferir dos do firmware orixinal. Esta función ofrécese tal cal, sen garantía de ningún tipo; úsaa baixo a túa responsabilidade.\n\nTodas as marcas comerciais pertencen aos seus respectivos propietarios.</string>
     <string name="tile_reading_low_refresh">Lectura 30 Hz</string>
     <string name="tile_touch_sensitivity">Sensibilidade táctil</string>
     <string name="tile_touch_sensitivity_low">Rexeitamento da palma</string>

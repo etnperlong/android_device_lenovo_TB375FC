@@ -49,6 +49,7 @@ android_app {
 
     static_libs: [
         "SettingsLibCollapsingToolbarBaseActivity",
+        "SettingsLibFooterPreference",
         "SettingsLibMainSwitchPreference",
         "SettingsLibSettingsTheme",
         "androidx.preference_preference",

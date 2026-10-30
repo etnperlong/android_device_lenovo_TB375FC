@@ -205,6 +205,13 @@
     <string name="perf_refresh_rate_title">Bloqueo de frecuencia de actualización</string>
     <string name="perf_refresh_rate_none">Sin bloqueo</string>
     <string name="perf_advanced_reset_title">Restablecer al ajuste preestablecido</string>
+    <string name="disclaimer_miravision_trademark">MediaTek y MiraVision son marcas comerciales de MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos y el símbolo de la doble D son marcas registradas de Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Esta configuración solo permite acceder a funciones integradas en el firmware original del dispositivo. No incluye ni modifica ningún software propietario.</string>
+    <string name="disclaimer_title">Aviso legal</string>
+    <string name="disclaimer_close">Cerrar</string>
+    <string name="disclaimer_miravision_message">Esta configuración está escrita por desarrolladores de la comunidad LineageOS. No tiene afiliación con MediaTek ni Lenovo, ni cuenta con su respaldo o autorización.\n\nEl procesamiento de imagen lo realizan componentes propietarios de MediaTek incluidos con el dispositivo. Esta configuración solo usa las interfaces que esos componentes ya ofrecen; no los incluye, distribuye ni modifica.\n\nLos resultados pueden diferir de los del firmware original. Esta función se proporciona tal cual, sin garantía de ningún tipo; úsala bajo tu propia responsabilidad.\n\nTodas las marcas comerciales son propiedad de sus respectivos titulares.</string>
+    <string name="disclaimer_dolby_message">Esta configuración está escrita por desarrolladores de la comunidad LineageOS. No tiene afiliación con Dolby Laboratories ni Lenovo, ni cuenta con su respaldo o autorización.\n\nEl procesamiento de sonido lo realizan componentes propietarios de Dolby incluidos con el dispositivo. Esta configuración solo usa las interfaces que esos componentes ya ofrecen; no los incluye, distribuye ni modifica.\n\nLos resultados pueden diferir de los del firmware original. Esta función se proporciona tal cual, sin garantía de ningún tipo; úsala bajo tu propia responsabilidad.\n\nTodas las marcas comerciales son propiedad de sus respectivos titulares.</string>
     <string name="tile_reading_low_refresh">Lectura 30 Hz</string>
     <string name="tile_touch_sensitivity">Sensibilidad táctil</string>
     <string name="tile_touch_sensitivity_low">Rechazo de la palma</string>

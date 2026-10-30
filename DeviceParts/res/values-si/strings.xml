@@ -203,6 +203,13 @@
     <string name="perf_refresh_rate_title">නැවුම් කිරීමේ අනුපාත අගුල</string>
     <string name="perf_refresh_rate_none">අගුළු දමා නැත</string>
     <string name="perf_advanced_reset_title">පෙරසිටුවට යළි පිහිටුවන්න</string>
+    <string name="disclaimer_miravision_trademark">MediaTek සහ MiraVision යනු MediaTek Inc. හි වෙළඳ ලකුණු වේ.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos සහ ද්විත්ව-D සංකේතය යනු Dolby Laboratories Licensing Corporation හි ලියාපදිංචි වෙළඳ ලකුණු වේ.</string>
+    <string name="disclaimer_footer_notice">මෙම සැකසීම් මඟින් උපාංගයේ මුල් ස්ථිරාංගයට ඇතුළත් විශේෂාංග වෙත පමණක් ප්‍රවේශය ලබා දේ. ඒවාට හිමිකාර මෘදුකාංග ඇතුළත් නොවන අතර එවැනි මෘදුකාංග වෙනස් කිරීමක්ද සිදු නොවේ.</string>
+    <string name="disclaimer_title">වගකීම් ප්‍රතික්ෂේප කිරීම</string>
+    <string name="disclaimer_close">වසන්න</string>
+    <string name="disclaimer_miravision_message">මෙම සැකසීම් ලියා ඇත්තේ LineageOS ප්‍රජාවේ සංවර්ධකයන් විසිනි. ඔවුන් MediaTek හෝ Lenovo සමඟ අනුබද්ධ නැති අතර ඒවායේ අනුමැතිය හෝ අවසරය ලබා නැත.\n\nරූප සැකසීම සිදු කරනු ලබන්නේ උපාංගය සමඟ පැමිණි MediaTek හි හිමිකාර සංරචක මඟිනි. මෙම සැකසීම් භාවිත කරන්නේ එම සංරචක දැනටමත් සපයන අතුරුමුහුණත් පමණි; ඒවා ඇතුළත් කිරීමක්, බෙදාහැරීමක් හෝ වෙනස් කිරීමක් සිදු නොකරයි.\n\nප්‍රතිඵල මුල් ස්ථිරාංගයට වඩා වෙනස් විය හැක. මෙම විශේෂාංගය කිසිදු ආකාරයක වගකීමක් නොමැතිව පවතින ආකාරයෙන් සපයනු ලැබේ; ඔබේම අවදානමෙන් භාවිත කරන්න.\n\nසියලු වෙළඳ ලකුණු අදාළ හිමිකරුවන් සතු දේපළ වේ.</string>
+    <string name="disclaimer_dolby_message">මෙම සැකසීම් ලියා ඇත්තේ LineageOS ප්‍රජාවේ සංවර්ධකයන් විසිනි. ඔවුන් Dolby Laboratories හෝ Lenovo සමඟ අනුබද්ධ නැති අතර ඒවායේ අනුමැතිය හෝ අවසරය ලබා නැත.\n\nශබ්ද සැකසීම සිදු කරනු ලබන්නේ උපාංගය සමඟ පැමිණි Dolby හි හිමිකාර සංරචක මඟිනි. මෙම සැකසීම් භාවිත කරන්නේ එම සංරචක දැනටමත් සපයන අතුරුමුහුණත් පමණි; ඒවා ඇතුළත් කිරීමක්, බෙදාහැරීමක් හෝ වෙනස් කිරීමක් සිදු නොකරයි.\n\nප්‍රතිඵල මුල් ස්ථිරාංගයට වඩා වෙනස් විය හැක. මෙම විශේෂාංගය කිසිදු ආකාරයක වගකීමක් නොමැතිව පවතින ආකාරයෙන් සපයනු ලැබේ; ඔබේම අවදානමෙන් භාවිත කරන්න.\n\nසියලු වෙළඳ ලකුණු අදාළ හිමිකරුවන් සතු දේපළ වේ.</string>
     <string name="tile_reading_low_refresh">කියවීම 30 Hz</string>
     <string name="tile_touch_sensitivity">ස්පර්ශ සංවේදීතාව</string>
     <string name="tile_touch_sensitivity_low">අත්ල ප්‍රතික්ෂේප කිරීම</string>

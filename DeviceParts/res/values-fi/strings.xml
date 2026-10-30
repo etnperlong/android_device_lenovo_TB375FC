@@ -210,6 +210,13 @@
     <string name="perf_refresh_rate_none">Ei lukittu</string>
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Palauta esiasetus</string>
+    <string name="disclaimer_miravision_trademark">MediaTek ja MiraVision ovat MediaTek Inc:n tavaramerkkejä.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos ja kaksois-D-symboli ovat Dolby Laboratories Licensing Corporationin rekisteröityjä tavaramerkkejä.</string>
+    <string name="disclaimer_footer_notice">Nämä asetukset tarjoavat pääsyn vain laitteen alkuperäiseen laiteohjelmistoon sisältyviin ominaisuuksiin. Ne eivät sisällä tai muuta mitään omisteista ohjelmistoa.</string>
+    <string name="disclaimer_title">Vastuuvapauslauseke</string>
+    <string name="disclaimer_close">Sulje</string>
+    <string name="disclaimer_miravision_message">LineageOS-yhteisön kehittäjät ovat laatineet nämä asetukset. Ne eivät ole sidoksissa MediaTekiin tai Lenovoon, eivätkä nämä yritykset ole hyväksyneet tai valtuuttaneet niitä.\n\nKuvankäsittelyssä käytetään laitteen mukana toimitettuja MediaTekin omisteisia komponentteja. Nämä asetukset käyttävät vain niiden jo tarjoamia rajapintoja; ne eivät sisällä, jakele tai muuta kyseisiä komponentteja.\n\nTulokset voivat poiketa alkuperäisestä laiteohjelmistosta. Tämä ominaisuus tarjotaan sellaisenaan, ilman minkäänlaista takuuta; käyttö tapahtuu omalla vastuullasi.\n\nKaikki tavaramerkit ovat omistajiensa omaisuutta.</string>
+    <string name="disclaimer_dolby_message">LineageOS-yhteisön kehittäjät ovat laatineet nämä asetukset. Ne eivät ole sidoksissa Dolby Laboratoriesiin tai Lenovoon, eivätkä nämä yritykset ole hyväksyneet tai valtuuttaneet niitä.\n\nÄänentoistossa käytetään laitteen mukana toimitettuja Dolbyn omisteisia komponentteja. Nämä asetukset käyttävät vain niiden jo tarjoamia rajapintoja; ne eivät sisällä, jakele tai muuta kyseisiä komponentteja.\n\nTulokset voivat poiketa alkuperäisestä laiteohjelmistosta. Tämä ominaisuus tarjotaan sellaisenaan, ilman minkäänlaista takuuta; käyttö tapahtuu omalla vastuullasi.\n\nKaikki tavaramerkit ovat omistajiensa omaisuutta.</string>
     <string name="tile_reading_low_refresh">Luku 30 Hz</string>
     <string name="tile_touch_sensitivity">Kosketusherkkyys</string>
     <string name="tile_touch_sensitivity_low">Kämmenkosketusten hylkäys</string>

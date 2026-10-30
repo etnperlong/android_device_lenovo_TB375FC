@@ -203,6 +203,13 @@
     <string name="perf_refresh_rate_title">Lås opdateringshastighed</string>
     <string name="perf_refresh_rate_none">Ikke låst</string>
     <string name="perf_advanced_reset_title">Nulstil til forudindstilling</string>
+    <string name="disclaimer_miravision_trademark">MediaTek og MiraVision er varemærker tilhørende MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos og dobbelt-D-symbolet er registrerede varemærker tilhørende Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Disse indstillinger giver kun adgang til funktioner, der er indbygget i enhedens oprindelige firmware. De indeholder eller ændrer ikke proprietær software.</string>
+    <string name="disclaimer_title">Ansvarsfraskrivelse</string>
+    <string name="disclaimer_close">Luk</string>
+    <string name="disclaimer_miravision_message">Disse indstillinger er skrevet af udviklere fra LineageOS-fællesskabet. De er ikke tilknyttet MediaTek eller Lenovo og er ikke godkendt eller autoriseret af dem.\n\nBilledbehandling udføres af MediaTeks proprietære komponenter, der fulgte med enheden. Disse indstillinger bruger kun de grænseflader, som komponenterne allerede stiller til rådighed; de indeholder, distribuerer eller ændrer ikke komponenterne.\n\nResultaterne kan afvige fra den oprindelige firmware. Denne funktion leveres, som den er, uden nogen form for garanti; brug den på eget ansvar.\n\nAlle varemærker tilhører deres respektive ejere.</string>
+    <string name="disclaimer_dolby_message">Disse indstillinger er skrevet af udviklere fra LineageOS-fællesskabet. De er ikke tilknyttet Dolby Laboratories eller Lenovo og er ikke godkendt eller autoriseret af dem.\n\nLydbehandling udføres af Dolbys proprietære komponenter, der fulgte med enheden. Disse indstillinger bruger kun de grænseflader, som komponenterne allerede stiller til rådighed; de indeholder, distribuerer eller ændrer ikke komponenterne.\n\nResultaterne kan afvige fra den oprindelige firmware. Denne funktion leveres, som den er, uden nogen form for garanti; brug den på eget ansvar.\n\nAlle varemærker tilhører deres respektive ejere.</string>
     <string name="tile_reading_low_refresh">Læsning 30 Hz</string>
     <string name="tile_touch_sensitivity">Berøringsfølsomhed</string>
     <string name="tile_touch_sensitivity_low">Afvis håndflade</string>

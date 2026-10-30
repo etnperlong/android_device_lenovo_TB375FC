@@ -205,6 +205,13 @@
     <string name="perf_refresh_rate_title">Khiya izinga lokuvuselela</string>
     <string name="perf_refresh_rate_none">Ayikhiyiwe</string>
     <string name="perf_advanced_reset_title">Buyisela ekusetheni kusengaphambili</string>
+    <string name="disclaimer_miravision_trademark">IMediaTek ne-MiraVision kuyizimpawu zokuhweba ze-MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">I-Dolby, i-Dolby Atmos nophawu luka-D oluphindwe kabili kuyizimpawu zokuhweba ezibhalisiwe ze-Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Lezi zilungiselelo zinikeza kuphela ukufinyelela ezicini ezakhelwe ku-firmware yoqobo yedivayisi. Azifaki noma ziguqule noma iyiphi isofthiwe yobunikazi.</string>
+    <string name="disclaimer_title">Ukuzihlangula</string>
+    <string name="disclaimer_close">Vala</string>
+    <string name="disclaimer_miravision_message">Lezi zilungiselelo zibhalwe ngabathuthukisi bomphakathi be-LineageOS. Azihlangene ne-MediaTek noma ne-Lenovo, futhi azigunyaziwe noma azivunyelwe yibo.\n\nUkucutshungulwa kwesithombe kwenziwa izingxenye zobunikazi ze-MediaTek ezize nedivayisi. Lezi zilungiselelo zisebenzisa kuphela izixhumi esezivele zinikezwa yilezo zingxenye; azizifaki, azizisabalalisi noma aziziguquli.\n\nImiphumela ingase yehluke ku-firmware yoqobo. Lesi sici sinikezwa \"njengoba sinjalo\", ngaphandle kwanoma iyiphi iwaranti; sisebenzise ngokuzifaka engozini.\n\nZonke izimpawu zokuhweba ziyimpahla yabanikazi bazo abafanele.</string>
+    <string name="disclaimer_dolby_message">Lezi zilungiselelo zibhalwe ngabathuthukisi bomphakathi be-LineageOS. Azihlangene ne-Dolby Laboratories noma ne-Lenovo, futhi azigunyaziwe noma azivunyelwe yibo.\n\nUkucutshungulwa komsindo kwenziwa izingxenye zobunikazi ze-Dolby ezize nedivayisi. Lezi zilungiselelo zisebenzisa kuphela izixhumi esezivele zinikezwa yilezo zingxenye; azizifaki, azizisabalalisi noma aziziguquli.\n\nImiphumela ingase yehluke ku-firmware yoqobo. Lesi sici sinikezwa \"njengoba sinjalo\", ngaphandle kwanoma iyiphi iwaranti; sisebenzise ngokuzifaka engozini.\n\nZonke izimpawu zokuhweba ziyimpahla yabanikazi bazo abafanele.</string>
     <string name="tile_reading_low_refresh">Funda 30 Hz</string>
     <string name="tile_touch_sensitivity">Ukuzwela kokuthinta</string>
     <string name="tile_touch_sensitivity_low">Ukwenqaba intende yesandla</string>

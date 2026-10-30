@@ -212,6 +212,13 @@
     <string name="perf_refresh_rate_none">Neužrakinta</string>
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Atkurti išankstinę nuostatą</string>
+    <string name="disclaimer_miravision_trademark">„MediaTek“ ir „MiraVision“ yra „MediaTek Inc.“ prekių ženklai.</string>
+    <string name="disclaimer_dolby_trademark">„Dolby“, „Dolby Atmos“ ir dvigubos D simbolis yra registruotieji „Dolby Laboratories Licensing Corporation“ prekių ženklai.</string>
+    <string name="disclaimer_footer_notice">Šie nustatymai suteikia prieigą tik prie funkcijų, įdiegtų originalioje įrenginio programinėje aparatinėje įrangoje. Jie neapima ir nekeičia jokios nuosavybinės programinės įrangos.</string>
+    <string name="disclaimer_title">Atsakomybės atsisakymas</string>
+    <string name="disclaimer_close">Uždaryti</string>
+    <string name="disclaimer_miravision_message">Šiuos nustatymus parašė LineageOS bendruomenės kūrėjai. Jie nėra susiję su „MediaTek“ ar „Lenovo“, o šios bendrovės jų nepatvirtino ir nesuteikė leidimo.\n\nVaizdo apdorojimą atlieka su įrenginiu pateikti nuosavybiniai „MediaTek“ komponentai. Šie nustatymai naudoja tik tų komponentų jau teikiamas sąsajas; jų neapima, neplatina ir nekeičia.\n\nRezultatai gali skirtis nuo originalios programinės aparatinės įrangos. Ši funkcija teikiama tokia, kokia yra, be jokios rūšies garantijos; naudokite ją savo rizika.\n\nVisi prekių ženklai yra atitinkamų savininkų nuosavybė.</string>
+    <string name="disclaimer_dolby_message">Šiuos nustatymus parašė LineageOS bendruomenės kūrėjai. Jie nėra susiję su „Dolby Laboratories“ ar „Lenovo“, o šios bendrovės jų nepatvirtino ir nesuteikė leidimo.\n\nGarso apdorojimą atlieka su įrenginiu pateikti nuosavybiniai „Dolby“ komponentai. Šie nustatymai naudoja tik tų komponentų jau teikiamas sąsajas; jų neapima, neplatina ir nekeičia.\n\nRezultatai gali skirtis nuo originalios programinės aparatinės įrangos. Ši funkcija teikiama tokia, kokia yra, be jokios rūšies garantijos; naudokite ją savo rizika.\n\nVisi prekių ženklai yra atitinkamų savininkų nuosavybė.</string>
     <string name="tile_reading_low_refresh">Skaitymas 30 Hz</string>
     <string name="tile_touch_sensitivity">Lietimo jautrumas</string>
     <string name="tile_touch_sensitivity_low">Delno atmetimas</string>

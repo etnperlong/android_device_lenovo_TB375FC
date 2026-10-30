@@ -203,6 +203,13 @@
     <string name="perf_refresh_rate_title">रीफ़्रेश रेट लॉक</string>
     <string name="perf_refresh_rate_none">लॉक नहीं है</string>
     <string name="perf_advanced_reset_title">प्रीसेट पर रीसेट करें</string>
+    <string name="disclaimer_miravision_trademark">MediaTek और MiraVision, MediaTek Inc. के ट्रेडमार्क हैं।</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos और डबल-D चिह्न, Dolby Laboratories Licensing Corporation के पंजीकृत ट्रेडमार्क हैं।</string>
+    <string name="disclaimer_footer_notice">ये सेटिंग सिर्फ़ डिवाइस के मूल फ़र्मवेयर में पहले से मौजूद सुविधाओं का ऐक्सेस देती हैं। इनमें कोई मालिकाना सॉफ़्टवेयर शामिल नहीं है और न ही वे उसमें बदलाव करती हैं।</string>
+    <string name="disclaimer_title">अस्वीकरण</string>
+    <string name="disclaimer_close">बंद करें</string>
+    <string name="disclaimer_miravision_message">ये सेटिंग LineageOS समुदाय के डेवलपर ने लिखी हैं। उनका MediaTek या Lenovo से कोई संबंध नहीं है, और न ही इन कंपनियों ने इनका समर्थन किया है या इन्हें अधिकृत किया है।\n\nचित्र प्रसंस्करण डिवाइस के साथ आए MediaTek के मालिकाना घटकों द्वारा किया जाता है। ये सेटिंग केवल उन घटकों के पहले से उपलब्ध इंटरफ़ेस का उपयोग करती हैं; वे उन घटकों को शामिल, वितरित या संशोधित नहीं करतीं।\n\nपरिणाम मूल फ़र्मवेयर से अलग हो सकते हैं। यह सुविधा बिना किसी प्रकार की वारंटी के, जैसी है वैसी प्रदान की जाती है; इसका उपयोग अपने जोखिम पर करें।\n\nसभी ट्रेडमार्क उनके संबंधित मालिकों की संपत्ति हैं।</string>
+    <string name="disclaimer_dolby_message">ये सेटिंग LineageOS समुदाय के डेवलपर ने लिखी हैं। उनका Dolby Laboratories या Lenovo से कोई संबंध नहीं है, और न ही इन कंपनियों ने इनका समर्थन किया है या इन्हें अधिकृत किया है।\n\nध्वनि प्रसंस्करण डिवाइस के साथ आए Dolby के मालिकाना घटकों द्वारा किया जाता है। ये सेटिंग केवल उन घटकों के पहले से उपलब्ध इंटरफ़ेस का उपयोग करती हैं; वे उन घटकों को शामिल, वितरित या संशोधित नहीं करतीं।\n\nपरिणाम मूल फ़र्मवेयर से अलग हो सकते हैं। यह सुविधा बिना किसी प्रकार की वारंटी के, जैसी है वैसी प्रदान की जाती है; इसका उपयोग अपने जोखिम पर करें।\n\nसभी ट्रेडमार्क उनके संबंधित मालिकों की संपत्ति हैं।</string>
     <string name="tile_reading_low_refresh">रीडिंग 30 Hz</string>
     <string name="tile_touch_sensitivity">टच संवेदनशीलता</string>
     <string name="tile_touch_sensitivity_low">हथेली के स्पर्श को रोकना</string>

@@ -204,6 +204,13 @@
     <string name="perf_refresh_rate_title">ರಿಫ್ರೆಶ್ ರೇಟ್ ಲಾಕ್</string>
     <string name="perf_refresh_rate_none">ಲಾಕ್ ಮಾಡಿಲ್ಲ</string>
     <string name="perf_advanced_reset_title">ಪ್ರಿಸೆಟ್‌ಗೆ ಮರುಹೊಂದಿಸಿ</string>
+    <string name="disclaimer_miravision_trademark">MediaTek ಮತ್ತು MiraVision, MediaTek Inc.ನ ಟ್ರೇಡ್‌ಮಾರ್ಕ್‌ಗಳಾಗಿವೆ.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos ಮತ್ತು ಡಬಲ್-D ಚಿಹ್ನೆಯು Dolby Laboratories Licensing Corporationನ ನೋಂದಾಯಿತ ಟ್ರೇಡ್‌ಮಾರ್ಕ್‌ಗಳಾಗಿವೆ.</string>
+    <string name="disclaimer_footer_notice">ಈ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಸಾಧನದ ಮೂಲ ಫರ್ಮ್‌ವೇರ್‌ನಲ್ಲಿ ಅಂತರ್ನಿರ್ಮಿತವಾಗಿರುವ ವೈಶಿಷ್ಟ್ಯಗಳಿಗೆ ಮಾತ್ರ ಪ್ರವೇಶ ಒದಗಿಸುತ್ತವೆ. ಯಾವುದೇ ಸ್ವಾಮ್ಯದ ಸಾಫ್ಟ್‌ವೇರ್ ಅನ್ನು ಇವು ಒಳಗೊಂಡಿಲ್ಲ ಅಥವಾ ಮಾರ್ಪಡಿಸುವುದಿಲ್ಲ.</string>
+    <string name="disclaimer_title">ಹಕ್ಕುತ್ಯಾಗ</string>
+    <string name="disclaimer_close">ಮುಚ್ಚಿ</string>
+    <string name="disclaimer_miravision_message">ಈ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು LineageOS ಸಮುದಾಯದ ಡೆವಲಪರ್‌ಗಳು ಬರೆದಿದ್ದಾರೆ. ಅವು MediaTek ಅಥವಾ Lenovo ಜೊತೆಗೆ ಸಂಬಂಧ ಹೊಂದಿಲ್ಲ, ಹಾಗೆಯೇ ಈ ಕಂಪನಿಗಳಿಂದ ಅನುಮೋದನೆ ಅಥವಾ ಅಧಿಕೃತತೆ ಪಡೆದಿಲ್ಲ.\n\nಚಿತ್ರ ಸಂಸ್ಕರಣೆಯನ್ನು ಸಾಧನದೊಂದಿಗೆ ಬಂದಿರುವ MediaTekನ ಸ್ವಾಮ್ಯದ ಘಟಕಗಳು ನಿರ್ವಹಿಸುತ್ತವೆ. ಈ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಆ ಘಟಕಗಳು ಈಗಾಗಲೇ ಒದಗಿಸುವ ಇಂಟರ್‌ಫೇಸ್‌ಗಳನ್ನು ಮಾತ್ರ ಬಳಸುತ್ತವೆ; ಅವುಗಳನ್ನು ಒಳಗೊಂಡಿರುವುದಿಲ್ಲ, ವಿತರಿಸುವುದಿಲ್ಲ ಅಥವಾ ಮಾರ್ಪಡಿಸುವುದಿಲ್ಲ.\n\nಫಲಿತಾಂಶಗಳು ಮೂಲ ಫರ್ಮ್‌ವೇರ್‌ಗಿಂತ ಭಿನ್ನವಾಗಿರಬಹುದು. ಈ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಯಾವುದೇ ರೀತಿಯ ಖಾತರಿಯಿಲ್ಲದೆ, ಇರುವಂತೆಯೇ ಒದಗಿಸಲಾಗಿದೆ; ನಿಮ್ಮ ಸ್ವಂತ ಅಪಾಯದಲ್ಲಿ ಬಳಸಿ.\n\nಎಲ್ಲಾ ಟ್ರೇಡ್‌ಮಾರ್ಕ್‌ಗಳು ಅವುಗಳ ಆಯಾ ಮಾಲೀಕರ ಆಸ್ತಿಯಾಗಿವೆ.</string>
+    <string name="disclaimer_dolby_message">ಈ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು LineageOS ಸಮುದಾಯದ ಡೆವಲಪರ್‌ಗಳು ಬರೆದಿದ್ದಾರೆ. ಅವು Dolby Laboratories ಅಥವಾ Lenovo ಜೊತೆಗೆ ಸಂಬಂಧ ಹೊಂದಿಲ್ಲ, ಹಾಗೆಯೇ ಈ ಕಂಪನಿಗಳಿಂದ ಅನುಮೋದನೆ ಅಥವಾ ಅಧಿಕೃತತೆ ಪಡೆದಿಲ್ಲ.\n\nಧ್ವನಿ ಸಂಸ್ಕರಣೆಯನ್ನು ಸಾಧನದೊಂದಿಗೆ ಬಂದಿರುವ Dolbyನ ಸ್ವಾಮ್ಯದ ಘಟಕಗಳು ನಿರ್ವಹಿಸುತ್ತವೆ. ಈ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಆ ಘಟಕಗಳು ಈಗಾಗಲೇ ಒದಗಿಸುವ ಇಂಟರ್‌ಫೇಸ್‌ಗಳನ್ನು ಮಾತ್ರ ಬಳಸುತ್ತವೆ; ಅವುಗಳನ್ನು ಒಳಗೊಂಡಿರುವುದಿಲ್ಲ, ವಿತರಿಸುವುದಿಲ್ಲ ಅಥವಾ ಮಾರ್ಪಡಿಸುವುದಿಲ್ಲ.\n\nಫಲಿತಾಂಶಗಳು ಮೂಲ ಫರ್ಮ್‌ವೇರ್‌ಗಿಂತ ಭಿನ್ನವಾಗಿರಬಹುದು. ಈ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಯಾವುದೇ ರೀತಿಯ ಖಾತರಿಯಿಲ್ಲದೆ, ಇರುವಂತೆಯೇ ಒದಗಿಸಲಾಗಿದೆ; ನಿಮ್ಮ ಸ್ವಂತ ಅಪಾಯದಲ್ಲಿ ಬಳಸಿ.\n\nಎಲ್ಲಾ ಟ್ರೇಡ್‌ಮಾರ್ಕ್‌ಗಳು ಅವುಗಳ ಆಯಾ ಮಾಲೀಕರ ಆಸ್ತಿಯಾಗಿವೆ.</string>
     <string name="tile_reading_low_refresh">ಓದುವ ರೀತಿ 30 Hz</string>
     <string name="tile_touch_sensitivity">ಸ್ಪರ್ಶದ ಸಂವೇದನಾಶೀಲತೆ</string>
     <string name="tile_touch_sensitivity_low">ಅಂಗೈ ಸ್ಪರ್ಶ ನಿರಾಕರಣೆ</string>

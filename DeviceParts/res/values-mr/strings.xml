@@ -203,6 +203,13 @@
     <string name="perf_refresh_rate_title">रिफ्रेश रेट लॉक</string>
     <string name="perf_refresh_rate_none">लॉक केलेले नाही</string>
     <string name="perf_advanced_reset_title">प्रीसेटवर रीसेट करा</string>
+    <string name="disclaimer_miravision_trademark">MediaTek आणि MiraVision ही MediaTek Inc. ची व्यापारी चिन्हे आहेत.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos आणि दुहेरी-D चिन्ह ही Dolby Laboratories Licensing Corporation ची नोंदणीकृत व्यापारी चिन्हे आहेत.</string>
+    <string name="disclaimer_footer_notice">या सेटिंग्ज फक्त डिव्हाइसच्या मूळ फर्मवेअरमध्ये अंगभूत असलेल्या वैशिष्ट्यांमध्ये प्रवेश देतात. त्यात कोणतेही मालकीचे सॉफ्टवेअर समाविष्ट नाही किंवा त्यात बदल केला जात नाही.</string>
+    <string name="disclaimer_title">अस्वीकरण</string>
+    <string name="disclaimer_close">बंद करा</string>
+    <string name="disclaimer_miravision_message">ही सेटिंग्ज LineageOS समुदायातील विकासकांनी लिहिली आहेत. त्यांचा MediaTek किंवा Lenovo शी संबंध नाही आणि त्यांचे समर्थन किंवा अधिकृतता मिळालेली नाही.\n\nचित्र प्रक्रिया डिव्हाइससोबत आलेल्या MediaTek च्या मालकीच्या घटकांद्वारे केली जाते. ही सेटिंग्ज त्या घटकांनी आधीपासून उपलब्ध केलेले इंटरफेसच वापरतात; त्यांचा समावेश, वितरण किंवा बदल करत नाहीत.\n\nपरिणाम मूळ फर्मवेअरपेक्षा वेगळे असू शकतात. ही सुविधा कोणत्याही प्रकारच्या हमीशिवाय जशी आहे तशी दिली जाते; ती तुमच्या स्वतःच्या जोखमीवर वापरा.\n\nसर्व व्यापारी चिन्हे त्यांच्या संबंधित मालकांची मालमत्ता आहेत.</string>
+    <string name="disclaimer_dolby_message">ही सेटिंग्ज LineageOS समुदायातील विकासकांनी लिहिली आहेत. त्यांचा Dolby Laboratories किंवा Lenovo शी संबंध नाही आणि त्यांचे समर्थन किंवा अधिकृतता मिळालेली नाही.\n\nध्वनी प्रक्रिया डिव्हाइससोबत आलेल्या Dolby च्या मालकीच्या घटकांद्वारे केली जाते. ही सेटिंग्ज त्या घटकांनी आधीपासून उपलब्ध केलेले इंटरफेसच वापरतात; त्यांचा समावेश, वितरण किंवा बदल करत नाहीत.\n\nपरिणाम मूळ फर्मवेअरपेक्षा वेगळे असू शकतात. ही सुविधा कोणत्याही प्रकारच्या हमीशिवाय जशी आहे तशी दिली जाते; ती तुमच्या स्वतःच्या जोखमीवर वापरा.\n\nसर्व व्यापारी चिन्हे त्यांच्या संबंधित मालकांची मालमत्ता आहेत.</string>
     <string name="tile_reading_low_refresh">रीडिंग 30 Hz</string>
     <string name="tile_touch_sensitivity">टच संवेदनशीलता</string>
     <string name="tile_touch_sensitivity_low">तळव्याचा स्पर्श नाकारा</string>

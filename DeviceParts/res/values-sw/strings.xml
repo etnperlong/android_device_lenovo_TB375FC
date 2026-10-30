@@ -210,6 +210,13 @@
     <string name="perf_refresh_rate_none">Haijafungwa</string>
     <string name="perf_refresh_rate_hz">Hz %1$d</string>
     <string name="perf_advanced_reset_title">Rejesha mipangilio ya awali</string>
+    <string name="disclaimer_miravision_trademark">MediaTek na MiraVision ni alama za biashara za MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos na ishara ya D mbili ni alama za biashara zilizosajiliwa za Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Mipangilio hii hutoa ufikiaji wa vipengele vilivyojengewa ndani ya programu dhibiti asili ya kifaa pekee. Haijumuishi wala kurekebisha programu yoyote ya umiliki.</string>
+    <string name="disclaimer_title">Kanusho</string>
+    <string name="disclaimer_close">Funga</string>
+    <string name="disclaimer_miravision_message">Mipangilio hii imeandikwa na wasanidi wa jumuiya ya LineageOS. Hawahusiani na, hawaidhinishwi na wala hawajaidhinishwa na MediaTek au Lenovo.\n\nUchakataji wa picha hufanywa na vipengele vya umiliki vya MediaTek vilivyokuja na kifaa. Mipangilio hii hutumia tu violesura ambavyo vipengele hivyo tayari vinatoa; haivijumuishi, haivisambazi wala kuvirekebisha.\n\nMatokeo yanaweza kutofautiana na programu dhibiti asili. Kipengele hiki hutolewa kilivyo, bila dhamana ya aina yoyote; kitumie kwa hatari yako mwenyewe.\n\nAlama zote za biashara ni mali ya wamiliki husika.</string>
+    <string name="disclaimer_dolby_message">Mipangilio hii imeandikwa na wasanidi wa jumuiya ya LineageOS. Hawahusiani na, hawaidhinishwi na wala hawajaidhinishwa na Dolby Laboratories au Lenovo.\n\nUchakataji wa sauti hufanywa na vipengele vya umiliki vya Dolby vilivyokuja na kifaa. Mipangilio hii hutumia tu violesura ambavyo vipengele hivyo tayari vinatoa; haivijumuishi, haivisambazi wala kuvirekebisha.\n\nMatokeo yanaweza kutofautiana na programu dhibiti asili. Kipengele hiki hutolewa kilivyo, bila dhamana ya aina yoyote; kitumie kwa hatari yako mwenyewe.\n\nAlama zote za biashara ni mali ya wamiliki husika.</string>
     <string name="tile_reading_low_refresh">Soma Hz 30</string>
     <string name="tile_touch_sensitivity">Unyeti wa mguso</string>
     <string name="tile_touch_sensitivity_low">Kukataa kiganja</string>

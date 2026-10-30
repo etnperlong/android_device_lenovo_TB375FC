@@ -205,6 +205,13 @@
     <string name="perf_refresh_rate_title">Freskatze-abiadura blokeatzea</string>
     <string name="perf_refresh_rate_none">Blokeatu gabe</string>
     <string name="perf_advanced_reset_title">Berrezarri aurrezarpenera</string>
+    <string name="disclaimer_miravision_trademark">MediaTek eta MiraVision MediaTek Inc.-en marka komertzialak dira.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos eta D bikoitzaren ikurra Dolby Laboratories Licensing Corporation-en marka erregistratuak dira.</string>
+    <string name="disclaimer_footer_notice">Ezarpen hauek gailuaren jatorrizko firmwarean txertatutako eginbideetarako sarbidea baino ez dute ematen. Ez dute software jabedunik barne hartzen, eta ez dute aldatzen.</string>
+    <string name="disclaimer_title">Lege-oharra</string>
+    <string name="disclaimer_close">Itxi</string>
+    <string name="disclaimer_miravision_message">LineageOS komunitateko garatzaileek idatzi dituzte ezarpen hauek. Ez dute MediaTekekin edo Lenovorekin loturarik, eta enpresa horiek ez dituzte babesten edo baimentzen.\n\nIrudien prozesamendua gailuarekin batera zetorren MediaTek-en osagai jabedunek egiten dute. Ezarpen hauek osagai horiek dagoeneko eskaintzen dituzten interfazeak baino ez dituzte erabiltzen; ez dituzte osagaiak barne hartzen, banatzen edo aldatzen.\n\nEmaitzak jatorrizko firmwarekoen desberdinak izan daitezke. Eginbide hau dagoen bezala eskaintzen da, inolako bermerik gabe; erabili zure ardurapean.\n\nMarka komertzial guztiak dagozkien jabeenak dira.</string>
+    <string name="disclaimer_dolby_message">LineageOS komunitateko garatzaileek idatzi dituzte ezarpen hauek. Ez dute Dolby Laboratoriesekin edo Lenovorekin loturarik, eta enpresa horiek ez dituzte babesten edo baimentzen.\n\nSoinuaren prozesamendua gailuarekin batera zetorren Dolby-ren osagai jabedunek egiten dute. Ezarpen hauek osagai horiek dagoeneko eskaintzen dituzten interfazeak baino ez dituzte erabiltzen; ez dituzte osagaiak barne hartzen, banatzen edo aldatzen.\n\nEmaitzak jatorrizko firmwarekoen desberdinak izan daitezke. Eginbide hau dagoen bezala eskaintzen da, inolako bermerik gabe; erabili zure ardurapean.\n\nMarka komertzial guztiak dagozkien jabeenak dira.</string>
     <string name="tile_reading_low_refresh">Irakurketa 30 Hz</string>
     <string name="tile_touch_sensitivity">Ukipen-sentsibilitatea</string>
     <string name="tile_touch_sensitivity_low">Ahurra baztertzea</string>

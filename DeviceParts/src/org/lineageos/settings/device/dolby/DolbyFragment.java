@@ -20,6 +20,7 @@ import androidx.preference.SeekBarPreference;
 import com.android.settingslib.widget.SettingsBasePreferenceFragment;
 
 import org.lineageos.settings.device.R;
+import org.lineageos.settings.device.widget.DisclaimerFooter;
 import org.lineageos.settings.device.widget.OptionCardsPreference;
 
 /**
@@ -87,6 +88,8 @@ public class DolbyFragment extends SettingsBasePreferenceFragment
         mMode.setOnPreferenceChangeListener(this);
         mIeqPreset.setOnPreferenceChangeListener(this);
         mDialogueLevel.setOnPreferenceChangeListener(this);
+        DisclaimerFooter.setUp(this, "dolby_footer", R.string.disclaimer_dolby_trademark,
+                R.string.disclaimer_dolby_message);
     }
 
     @Override

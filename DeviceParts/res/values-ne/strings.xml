@@ -203,6 +203,13 @@
     <string name="perf_refresh_rate_title">रिफ्रेस रेट लक</string>
     <string name="perf_refresh_rate_none">लक गरिएको छैन</string>
     <string name="perf_advanced_reset_title">प्रिसेटमा रिसेट गर्नुहोस्</string>
+    <string name="disclaimer_miravision_trademark">MediaTek र MiraVision, MediaTek Inc. का व्यापार चिन्ह हुन्।</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos र दोहोरो-D प्रतीक Dolby Laboratories Licensing Corporation का दर्ता गरिएका व्यापार चिन्ह हुन्।</string>
+    <string name="disclaimer_footer_notice">यी सेटिङहरूले उपकरणको मूल फर्मवेयरमा निर्मित सुविधाहरूमा मात्र पहुँच दिन्छन्। यिनले कुनै पनि स्वामित्वयुक्त सफ्टवेयर समावेश वा परिमार्जन गर्दैनन्।</string>
+    <string name="disclaimer_title">अस्वीकरण</string>
+    <string name="disclaimer_close">बन्द गर्नुहोस्</string>
+    <string name="disclaimer_miravision_message">यी सेटिङहरू LineageOS समुदायका विकासकर्ताहरूले लेखेका हुन्। तिनीहरू MediaTek वा Lenovo सँग आबद्ध छैनन् र ती कम्पनीहरूले समर्थन वा अधिकार दिएका छैनन्।\n\nतस्बिर प्रशोधन उपकरणसँगै आएको MediaTek का स्वामित्वयुक्त कम्पोनेन्टहरूले गर्छन्। यी सेटिङहरूले ती कम्पोनेन्टहरूले पहिल्यै उपलब्ध गराएका इन्टरफेस मात्र प्रयोग गर्छन्; तिनलाई समावेश, वितरण वा परिमार्जन गर्दैनन्।\n\nनतिजा मूल फर्मवेयरभन्दा फरक हुन सक्छ। यो सुविधा कुनै पनि प्रकारको वारेन्टीबिना जस्ताको तस्तै प्रदान गरिएको छ; आफ्नै जोखिममा प्रयोग गर्नुहोस्।\n\nसबै व्यापार चिन्ह तिनका सम्बन्धित मालिकहरूको सम्पत्ति हुन्।</string>
+    <string name="disclaimer_dolby_message">यी सेटिङहरू LineageOS समुदायका विकासकर्ताहरूले लेखेका हुन्। तिनीहरू Dolby Laboratories वा Lenovo सँग आबद्ध छैनन् र ती कम्पनीहरूले समर्थन वा अधिकार दिएका छैनन्।\n\nध्वनि प्रशोधन उपकरणसँगै आएको Dolby का स्वामित्वयुक्त कम्पोनेन्टहरूले गर्छन्। यी सेटिङहरूले ती कम्पोनेन्टहरूले पहिल्यै उपलब्ध गराएका इन्टरफेस मात्र प्रयोग गर्छन्; तिनलाई समावेश, वितरण वा परिमार्जन गर्दैनन्।\n\nनतिजा मूल फर्मवेयरभन्दा फरक हुन सक्छ। यो सुविधा कुनै पनि प्रकारको वारेन्टीबिना जस्ताको तस्तै प्रदान गरिएको छ; आफ्नै जोखिममा प्रयोग गर्नुहोस्।\n\nसबै व्यापार चिन्ह तिनका सम्बन्धित मालिकहरूको सम्पत्ति हुन्।</string>
     <string name="tile_reading_low_refresh">रिडिङ 30 Hz</string>
     <string name="tile_touch_sensitivity">टच संवेदनशीलता</string>
     <string name="tile_touch_sensitivity_low">हत्केला अस्वीकार</string>

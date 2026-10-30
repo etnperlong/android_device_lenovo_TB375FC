@@ -202,6 +202,13 @@
     <string name="perf_refresh_rate_title">Khóa tần số quét</string>
     <string name="perf_refresh_rate_none">Không khóa</string>
     <string name="perf_advanced_reset_title">Đặt lại về cài đặt sẵn</string>
+    <string name="disclaimer_miravision_trademark">MediaTek và MiraVision là các nhãn hiệu của MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos và biểu tượng chữ D kép là các nhãn hiệu đã đăng ký của Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Các cài đặt này chỉ cung cấp quyền truy cập vào những tính năng có sẵn trong phần mềm gốc của thiết bị. Chúng không bao gồm hoặc sửa đổi bất kỳ phần mềm độc quyền nào.</string>
+    <string name="disclaimer_title">Tuyên bố miễn trừ trách nhiệm</string>
+    <string name="disclaimer_close">Đóng</string>
+    <string name="disclaimer_miravision_message">Các cài đặt này do các nhà phát triển cộng đồng LineageOS viết. Chúng không liên kết với, không được MediaTek hoặc Lenovo chứng thực hay ủy quyền.\n\nViệc xử lý hình ảnh được thực hiện bởi các thành phần độc quyền của MediaTek đi kèm thiết bị. Các cài đặt này chỉ sử dụng những giao diện mà các thành phần đó đã cung cấp; chúng không bao gồm, phân phối hoặc sửa đổi các thành phần đó.\n\nKết quả có thể khác với phần mềm gốc. Tính năng này được cung cấp \"nguyên trạng\", không có bất kỳ bảo đảm nào; bạn tự chịu rủi ro khi sử dụng.\n\nMọi nhãn hiệu đều thuộc sở hữu của chủ sở hữu tương ứng.</string>
+    <string name="disclaimer_dolby_message">Các cài đặt này do các nhà phát triển cộng đồng LineageOS viết. Chúng không liên kết với, không được Dolby Laboratories hoặc Lenovo chứng thực hay ủy quyền.\n\nViệc xử lý âm thanh được thực hiện bởi các thành phần độc quyền của Dolby đi kèm thiết bị. Các cài đặt này chỉ sử dụng những giao diện mà các thành phần đó đã cung cấp; chúng không bao gồm, phân phối hoặc sửa đổi các thành phần đó.\n\nKết quả có thể khác với phần mềm gốc. Tính năng này được cung cấp \"nguyên trạng\", không có bất kỳ bảo đảm nào; bạn tự chịu rủi ro khi sử dụng.\n\nMọi nhãn hiệu đều thuộc sở hữu của chủ sở hữu tương ứng.</string>
     <string name="tile_reading_low_refresh">Đọc 30 Hz</string>
     <string name="tile_touch_sensitivity">Độ nhạy cảm ứng</string>
     <string name="tile_touch_sensitivity_low">Chống chạm lòng bàn tay</string>

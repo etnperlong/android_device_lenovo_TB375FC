@@ -212,6 +212,14 @@
     <string name="perf_refresh_rate_none">不锁定</string>
     <string name="perf_advanced_reset_title">恢复为预设值</string>
 
+    <string name="disclaimer_miravision_trademark">MediaTek 和 MiraVision 是联发科技股份有限公司的商标。</string>
+    <string name="disclaimer_dolby_trademark">杜比、杜比全景声和双 D 标志是杜比实验室授权公司的注册商标。</string>
+    <string name="disclaimer_footer_notice">本页面仅为设备自带的原厂功能提供设置入口，不包含也不修改相关专有软件。</string>
+    <string name="disclaimer_title">免责声明</string>
+    <string name="disclaimer_close">关闭</string>
+    <string name="disclaimer_miravision_message">本页面由 LineageOS 社区开发者编写，与联发科技、联想均无关联，也未获得其认可或授权。\n\n画质处理由设备出厂自带的联发科专有组件完成。本页面只调用这些组件已有的接口来更改设置，不包含、不分发也不修改这些组件。\n\n显示效果可能与原厂系统不同。本功能按“现状”提供，不作任何担保；使用风险由您自行承担。\n\n文中提及的商标归各自所有者所有。</string>
+    <string name="disclaimer_dolby_message">本页面由 LineageOS 社区开发者编写，与杜比实验室、联想均无关联，也未获得其认可或授权。\n\n音效处理由设备出厂自带的杜比专有组件完成。本页面只调用这些组件已有的接口来更改设置，不包含、不分发也不修改这些组件。\n\n音效可能与原厂系统不同。本功能按“现状”提供，不作任何担保；使用风险由您自行承担。\n\n文中提及的商标归各自所有者所有。</string>
+
     <string name="tile_reading_low_refresh">阅读 30 Hz</string>
     <string name="tile_touch_sensitivity">触控灵敏度</string>
     <string name="tile_touch_sensitivity_low">防误触</string>

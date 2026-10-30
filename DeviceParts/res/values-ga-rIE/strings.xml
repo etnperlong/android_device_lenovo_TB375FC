@@ -208,6 +208,13 @@
     <string name="perf_refresh_rate_title">Glasáil an ráta athnuachana</string>
     <string name="perf_refresh_rate_none">Gan ghlasáil</string>
     <string name="perf_advanced_reset_title">Athshocraigh go dtí an réamhshocrúchán</string>
+    <string name="disclaimer_miravision_trademark">Is trádmharcanna de chuid MediaTek Inc. iad MediaTek agus MiraVision.</string>
+    <string name="disclaimer_dolby_trademark">Is trádmharcanna cláraithe de chuid Dolby Laboratories Licensing Corporation iad Dolby, Dolby Atmos agus an tsiombail dhúbailte D.</string>
+    <string name="disclaimer_footer_notice">Ní thugann na socruithe seo ach rochtain ar ghnéithe atá ionsuite i bhfirmware bunaidh an ghléis. Ní chuireann siad aon bhogearra dílsithe san áireamh ná ní mhodhnaíonn siad é.</string>
+    <string name="disclaimer_title">Séanadh</string>
+    <string name="disclaimer_close">Dún</string>
+    <string name="disclaimer_miravision_message">Is forbróirí phobal LineageOS a scríobh na socruithe seo. Níl siad cleamhnaithe le MediaTek ná Lenovo, agus níor fhormhuinigh ná níor údaraigh ceachtar acu iad.\n\nIs le comhpháirteanna dílseánaigh MediaTek a tháinig leis an ngléas a dhéantar próiseáil pictiúr. Ní úsáideann na socruithe seo ach na comhéadain atá curtha ar fáil cheana ag na comhpháirteanna sin; ní chuireann siad san áireamh, ní dháileann ná ní mhodhnaíonn siad iad.\n\nD’fhéadfadh na torthaí a bheith éagsúil leis an bhfirmware bunaidh. Cuirtear an ghné seo ar fáil mar atá, gan bharántas de chineál ar bith; bain úsáid aisti ar do phriacal féin.\n\nIs maoin a n-úinéirí faoi seach iad gach trádmharc.</string>
+    <string name="disclaimer_dolby_message">Is forbróirí phobal LineageOS a scríobh na socruithe seo. Níl siad cleamhnaithe le Dolby Laboratories ná Lenovo, agus níor fhormhuinigh ná níor údaraigh ceachtar acu iad.\n\nIs le comhpháirteanna dílseánaigh Dolby a tháinig leis an ngléas a dhéantar próiseáil fuaime. Ní úsáideann na socruithe seo ach na comhéadain atá curtha ar fáil cheana ag na comhpháirteanna sin; ní chuireann siad san áireamh, ní dháileann ná ní mhodhnaíonn siad iad.\n\nD’fhéadfadh na torthaí a bheith éagsúil leis an bhfirmware bunaidh. Cuirtear an ghné seo ar fáil mar atá, gan bharántas de chineál ar bith; bain úsáid aisti ar do phriacal féin.\n\nIs maoin a n-úinéirí faoi seach iad gach trádmharc.</string>
     <string name="tile_reading_low_refresh">Léamh 30 Hz</string>
     <string name="tile_touch_sensitivity">Íogaireacht tadhaill</string>
     <string name="tile_touch_sensitivity_low">Diúltú pailme</string>

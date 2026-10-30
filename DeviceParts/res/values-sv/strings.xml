@@ -203,6 +203,13 @@
     <string name="perf_refresh_rate_title">Lås uppdateringsfrekvens</string>
     <string name="perf_refresh_rate_none">Inte låst</string>
     <string name="perf_advanced_reset_title">Återställ till förinställning</string>
+    <string name="disclaimer_miravision_trademark">MediaTek och MiraVision är varumärken som tillhör MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos och den dubbla D-symbolen är registrerade varumärken som tillhör Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">De här inställningarna ger endast åtkomst till funktioner som är inbyggda i enhetens ursprungliga fasta programvara. De innehåller eller ändrar inte någon proprietär programvara.</string>
+    <string name="disclaimer_title">Ansvarsfriskrivning</string>
+    <string name="disclaimer_close">Stäng</string>
+    <string name="disclaimer_miravision_message">De här inställningarna är skrivna av utvecklare i LineageOS-communityn. De är inte knutna till, godkända av eller auktoriserade av MediaTek eller Lenovo.\n\nBildbehandlingen utförs av MediaTeks proprietära komponenter som följde med enheten. Inställningarna använder endast de gränssnitt som komponenterna redan tillhandahåller; de inkluderar, distribuerar eller ändrar inte komponenterna.\n\nResultaten kan skilja sig från den ursprungliga fasta programvaran. Funktionen tillhandahålls i befintligt skick, utan någon garanti; använd den på egen risk.\n\nAlla varumärken tillhör respektive ägare.</string>
+    <string name="disclaimer_dolby_message">De här inställningarna är skrivna av utvecklare i LineageOS-communityn. De är inte knutna till, godkända av eller auktoriserade av Dolby Laboratories eller Lenovo.\n\nLjudbehandlingen utförs av Dolbys proprietära komponenter som följde med enheten. Inställningarna använder endast de gränssnitt som komponenterna redan tillhandahåller; de inkluderar, distribuerar eller ändrar inte komponenterna.\n\nResultaten kan skilja sig från den ursprungliga fasta programvaran. Funktionen tillhandahålls i befintligt skick, utan någon garanti; använd den på egen risk.\n\nAlla varumärken tillhör respektive ägare.</string>
     <string name="tile_reading_low_refresh">Läsning 30 Hz</string>
     <string name="tile_touch_sensitivity">Pekskärmskänslighet</string>
     <string name="tile_touch_sensitivity_low">Handflateavvisning</string>

@@ -202,6 +202,13 @@
     <string name="perf_refresh_rate_title">ចាក់សោអត្រាផ្ទុកឡើងវិញ</string>
     <string name="perf_refresh_rate_none">មិនបានចាក់សោ</string>
     <string name="perf_advanced_reset_title">កំណត់ទៅការកំណត់ជាមុនវិញ</string>
+    <string name="disclaimer_miravision_trademark">MediaTek និង MiraVision ជាពាណិជ្ជសញ្ញារបស់ MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos និងនិមិត្តសញ្ញា D ពីរជាន់ ជាពាណិជ្ជសញ្ញាចុះបញ្ជីរបស់ Dolby Laboratories Licensing Corporation។</string>
+    <string name="disclaimer_footer_notice">ការកំណត់ទាំងនេះផ្តល់តែសិទ្ធិចូលប្រើមុខងារដែលបានបង្កប់ក្នុងកម្មវិធីបង្កប់ដើមរបស់ឧបករណ៍ប៉ុណ្ណោះ។ វាមិនរួមបញ្ចូល ឬកែប្រែកម្មវិធីកម្មសិទ្ធិណាមួយទេ។</string>
+    <string name="disclaimer_title">ការបដិសេធការទទួលខុសត្រូវ</string>
+    <string name="disclaimer_close">បិទ</string>
+    <string name="disclaimer_miravision_message">ការកំណត់ទាំងនេះត្រូវបានសរសេរដោយអ្នកអភិវឌ្ឍន៍សហគមន៍ LineageOS។ ពួកវាមិនជាប់ពាក់ព័ន្ធនឹង MediaTek ឬ Lenovo ហើយក៏មិនត្រូវបានក្រុមហ៊ុនទាំងនេះគាំទ្រ ឬអនុញ្ញាតដែរ។\n\nការដំណើរការរូបភាពធ្វើឡើងដោយសមាសធាតុកម្មសិទ្ធិរបស់ MediaTek ដែលភ្ជាប់មកជាមួយឧបករណ៍។ ការកំណត់ទាំងនេះប្រើតែចំណុចប្រទាក់ដែលសមាសធាតុទាំងនោះផ្តល់រួចហើយប៉ុណ្ណោះ; វាមិនរួមបញ្ចូល ចែកចាយ ឬកែប្រែសមាសធាតុទាំងនោះទេ។\n\nលទ្ធផលអាចខុសពីកម្មវិធីបង្កប់ដើម។ មុខងារនេះផ្តល់ជូនតាមសភាពបច្ចុប្បន្ន ដោយគ្មានការធានាប្រភេទណាមួយ; សូមប្រើដោយទទួលខុសត្រូវផ្ទាល់ខ្លួន។\n\nពាណិជ្ជសញ្ញាទាំងអស់ជាកម្មសិទ្ធិរបស់ម្ចាស់រៀងៗខ្លួន។</string>
+    <string name="disclaimer_dolby_message">ការកំណត់ទាំងនេះត្រូវបានសរសេរដោយអ្នកអភិវឌ្ឍន៍សហគមន៍ LineageOS។ ពួកវាមិនជាប់ពាក់ព័ន្ធនឹង Dolby Laboratories ឬ Lenovo ហើយក៏មិនត្រូវបានក្រុមហ៊ុនទាំងនេះគាំទ្រ ឬអនុញ្ញាតដែរ។\n\nការដំណើរការសំឡេងធ្វើឡើងដោយសមាសធាតុកម្មសិទ្ធិរបស់ Dolby ដែលភ្ជាប់មកជាមួយឧបករណ៍។ ការកំណត់ទាំងនេះប្រើតែចំណុចប្រទាក់ដែលសមាសធាតុទាំងនោះផ្តល់រួចហើយប៉ុណ្ណោះ; វាមិនរួមបញ្ចូល ចែកចាយ ឬកែប្រែសមាសធាតុទាំងនោះទេ។\n\nលទ្ធផលអាចខុសពីកម្មវិធីបង្កប់ដើម។ មុខងារនេះផ្តល់ជូនតាមសភាពបច្ចុប្បន្ន ដោយគ្មានការធានាប្រភេទណាមួយ; សូមប្រើដោយទទួលខុសត្រូវផ្ទាល់ខ្លួន។\n\nពាណិជ្ជសញ្ញាទាំងអស់ជាកម្មសិទ្ធិរបស់ម្ចាស់រៀងៗខ្លួន។</string>
     <string name="tile_reading_low_refresh">របៀបអាន 30 Hz</string>
     <string name="tile_touch_sensitivity">ភាពរសើបនៃការប៉ះ</string>
     <string name="tile_touch_sensitivity_low">បដិសេធការប៉ះបាតដៃ</string>

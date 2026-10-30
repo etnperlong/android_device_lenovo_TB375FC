@@ -209,6 +209,13 @@
     <string name="perf_refresh_rate_none">Tidak dikunci</string>
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Tetapkan semula kepada pratetap</string>
+    <string name="disclaimer_miravision_trademark">MediaTek dan MiraVision ialah tanda dagangan MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos dan simbol D berganda ialah tanda dagangan berdaftar Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Tetapan ini hanya memberikan akses kepada ciri yang terbina dalam perisian tegar asal peranti. Tetapan ini tidak menyertakan atau mengubah suai sebarang perisian proprietari.</string>
+    <string name="disclaimer_title">Penafian</string>
+    <string name="disclaimer_close">Tutup</string>
+    <string name="disclaimer_miravision_message">Tetapan ini ditulis oleh pembangun komuniti LineageOS. Mereka tidak mempunyai kaitan dengan, tidak disokong atau dibenarkan oleh MediaTek atau Lenovo.\n\nPemprosesan gambar dilakukan oleh komponen proprietari MediaTek yang disertakan bersama peranti. Tetapan ini hanya menggunakan antara muka yang telah disediakan oleh komponen tersebut; tetapan ini tidak menyertakan, mengedarkan atau mengubah suai komponen itu.\n\nHasilnya mungkin berbeza daripada perisian tegar asal. Ciri ini disediakan seadanya, tanpa sebarang jaminan; gunakannya atas risiko sendiri.\n\nSemua tanda dagangan ialah hak milik pemilik masing-masing.</string>
+    <string name="disclaimer_dolby_message">Tetapan ini ditulis oleh pembangun komuniti LineageOS. Mereka tidak mempunyai kaitan dengan, tidak disokong atau dibenarkan oleh Dolby Laboratories atau Lenovo.\n\nPemprosesan bunyi dilakukan oleh komponen proprietari Dolby yang disertakan bersama peranti. Tetapan ini hanya menggunakan antara muka yang telah disediakan oleh komponen tersebut; tetapan ini tidak menyertakan, mengedarkan atau mengubah suai komponen itu.\n\nHasilnya mungkin berbeza daripada perisian tegar asal. Ciri ini disediakan seadanya, tanpa sebarang jaminan; gunakannya atas risiko sendiri.\n\nSemua tanda dagangan ialah hak milik pemilik masing-masing.</string>
     <string name="tile_reading_low_refresh">Bacaan 30 Hz</string>
     <string name="tile_touch_sensitivity">Kepekaan sentuhan</string>
     <string name="tile_touch_sensitivity_low">Penolakan tapak tangan</string>

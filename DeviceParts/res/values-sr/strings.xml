@@ -211,6 +211,13 @@
     <string name="perf_refresh_rate_none">Није закључано</string>
     <string name="perf_refresh_rate_hz">%1$d Гц</string>
     <string name="perf_advanced_reset_title">Врати унапред задати профил</string>
+    <string name="disclaimer_miravision_trademark">MediaTek i MiraVision su zaštitni znaci kompanije MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos i simbol dvostrukog D su registrovani zaštitni znaci kompanije Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Ova podešavanja omogućavaju pristup samo funkcijama ugrađenim u originalni firmver uređaja. Ne uključuju niti menjaju bilo koji vlasnički softver.</string>
+    <string name="disclaimer_title">Odricanje odgovornosti</string>
+    <string name="disclaimer_close">Zatvori</string>
+    <string name="disclaimer_miravision_message">Ova podešavanja napisali su programeri iz LineageOS zajednice. Oni nisu povezani sa kompanijama MediaTek ili Lenovo, niti su ih te kompanije podržale ili ovlastile.\n\nObradu slike obavljaju vlasničke komponente kompanije MediaTek koje su isporučene uz uređaj. Ova podešavanja koriste samo interfejse koje te komponente već pružaju; ne uključuju ih, ne distribuiraju niti menjaju.\n\nRezultati se mogu razlikovati od originalnog firmvera. Ova funkcija se pruža takva kakva jeste, bez ikakve garancije; koristite je na sopstveni rizik.\n\nSvi zaštitni znaci su vlasništvo svojih odgovarajućih vlasnika.</string>
+    <string name="disclaimer_dolby_message">Ova podešavanja napisali su programeri iz LineageOS zajednice. Oni nisu povezani sa kompanijama Dolby Laboratories ili Lenovo, niti su ih te kompanije podržale ili ovlastile.\n\nObradu zvuka obavljaju vlasničke komponente kompanije Dolby koje su isporučene uz uređaj. Ova podešavanja koriste samo interfejse koje te komponente već pružaju; ne uključuju ih, ne distribuiraju niti menjaju.\n\nRezultati se mogu razlikovati od originalnog firmvera. Ova funkcija se pruža takva kakva jeste, bez ikakve garancije; koristite je na sopstveni rizik.\n\nSvi zaštitni znaci su vlasništvo svojih odgovarajućih vlasnika.</string>
     <string name="tile_reading_low_refresh">Читање 30 Гц</string>
     <string name="tile_touch_sensitivity">Осетљивост додира</string>
     <string name="tile_touch_sensitivity_low">Одбацивање длана</string>

@@ -205,6 +205,13 @@
     <string name="perf_refresh_rate_title">Bloqueig de la freqüència d’actualització</string>
     <string name="perf_refresh_rate_none">Sense bloqueig</string>
     <string name="perf_advanced_reset_title">Restableix la predefinició</string>
+    <string name="disclaimer_miravision_trademark">MediaTek i MiraVision són marques comercials de MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos i el símbol de la D doble són marques comercials registrades de Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Aquests paràmetres només donen accés a funcions integrades al microprogramari original del dispositiu. No inclouen ni modifiquen cap programari propietari.</string>
+    <string name="disclaimer_title">Avís legal</string>
+    <string name="disclaimer_close">Tanca</string>
+    <string name="disclaimer_miravision_message">Aquests paràmetres estan escrits per desenvolupadors de la comunitat LineageOS. No estan afiliats a MediaTek ni a Lenovo, ni aquestes empreses els avalen o autoritzen.\n\nEl processament d\'imatges el fan components propietaris de MediaTek que venien amb el dispositiu. Aquests paràmetres només utilitzen les interfícies que aquests components ja proporcionen; no els inclouen, distribueixen ni modifiquen.\n\nEls resultats poden diferir dels del microprogramari original. Aquesta funció es proporciona tal com és, sense cap mena de garantia; fes-la servir sota la teva responsabilitat.\n\nTotes les marques comercials són propietat dels seus respectius titulars.</string>
+    <string name="disclaimer_dolby_message">Aquests paràmetres estan escrits per desenvolupadors de la comunitat LineageOS. No estan afiliats a Dolby Laboratories ni a Lenovo, ni aquestes empreses els avalen o autoritzen.\n\nEl processament del so el fan components propietaris de Dolby que venien amb el dispositiu. Aquests paràmetres només utilitzen les interfícies que aquests components ja proporcionen; no els inclouen, distribueixen ni modifiquen.\n\nEls resultats poden diferir dels del microprogramari original. Aquesta funció es proporciona tal com és, sense cap mena de garantia; fes-la servir sota la teva responsabilitat.\n\nTotes les marques comercials són propietat dels seus respectius titulars.</string>
     <string name="tile_reading_low_refresh">Lectura 30 Hz</string>
     <string name="tile_touch_sensitivity">Sensibilitat tàctil</string>
     <string name="tile_touch_sensitivity_low">Rebuig del palmell</string>

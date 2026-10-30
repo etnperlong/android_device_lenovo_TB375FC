@@ -210,6 +210,13 @@
     <string name="perf_refresh_rate_none">Nije zaključano</string>
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Vrati unaprijed postavljeni profil</string>
+    <string name="disclaimer_miravision_trademark">MediaTek i MiraVision zaštitni su znakovi tvrtke MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos i simbol dvostrukog D registrirani su zaštitni znakovi tvrtke Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Ove postavke omogućuju pristup samo značajkama ugrađenima u izvorni firmver uređaja. Ne uključuju niti mijenjaju vlasnički softver.</string>
+    <string name="disclaimer_title">Odricanje od odgovornosti</string>
+    <string name="disclaimer_close">Zatvori</string>
+    <string name="disclaimer_miravision_message">Ove su postavke napisali razvojni programeri zajednice LineageOS. Nisu povezani s tvrtkama MediaTek ili Lenovo, niti ih te tvrtke podržavaju ili ovlašćuju.\n\nObradu slike obavljaju vlasničke komponente tvrtke MediaTek koje su isporučene s uređajem. Ove postavke koriste samo sučelja koja te komponente već pružaju; ne uključuju ih, ne distribuiraju niti mijenjaju.\n\nRezultati se mogu razlikovati od onih u izvornom firmveru. Ova se značajka pruža takva kakva jest, bez ikakvog jamstva; koristite je na vlastitu odgovornost.\n\nSvi zaštitni znakovi vlasništvo su svojih vlasnika.</string>
+    <string name="disclaimer_dolby_message">Ove su postavke napisali razvojni programeri zajednice LineageOS. Nisu povezani s tvrtkama Dolby Laboratories ili Lenovo, niti ih te tvrtke podržavaju ili ovlašćuju.\n\nObradu zvuka obavljaju vlasničke komponente tvrtke Dolby koje su isporučene s uređajem. Ove postavke koriste samo sučelja koja te komponente već pružaju; ne uključuju ih, ne distribuiraju niti mijenjaju.\n\nRezultati se mogu razlikovati od onih u izvornom firmveru. Ova se značajka pruža takva kakva jest, bez ikakvog jamstva; koristite je na vlastitu odgovornost.\n\nSvi zaštitni znakovi vlasništvo su svojih vlasnika.</string>
     <string name="tile_reading_low_refresh">Čitanje 30 Hz</string>
     <string name="tile_touch_sensitivity">Osjetljivost dodira</string>
     <string name="tile_touch_sensitivity_low">Odbijanje dlana</string>

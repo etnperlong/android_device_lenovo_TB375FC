@@ -212,6 +212,13 @@
     <string name="perf_refresh_rate_none">Не блакіраваць</string>
     <string name="perf_refresh_rate_hz">%1$d Гц</string>
     <string name="perf_advanced_reset_title">Скінуць да папярэдняй налады</string>
+    <string name="disclaimer_miravision_trademark">MediaTek і MiraVision — таварныя знакі MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos і сімвал падвойнай D — зарэгістраваныя таварныя знакі Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Гэтыя налады даюць доступ толькі да функцый, убудаваных у арыгінальную прашыўку прылады. Яны не ўключаюць і не змяняюць ніякае прапрыетарнае праграмнае забеспячэнне.</string>
+    <string name="disclaimer_title">Адмова ад адказнасці</string>
+    <string name="disclaimer_close">Закрыць</string>
+    <string name="disclaimer_miravision_message">Гэтыя налады напісаны распрацоўшчыкамі супольнасці LineageOS. Яны не звязаны з MediaTek або Lenovo, не падтрымліваюцца і не ўпаўнаважаны гэтымі кампаніямі.\n\nАпрацоўку выявы выконваюць прапрыетарныя кампаненты MediaTek, якія пастаўляюцца з прыладай. Гэтыя налады выкарыстоўваюць толькі інтэрфейсы, якія ўжо прадастаўляюць гэтыя кампаненты; яны не ўключаюць, не распаўсюджваюць і не змяняюць іх.\n\nВынікі могуць адрознівацца ад арыгінальнай прашыўкі. Гэта функцыя прадастаўляецца як ёсць, без якіх-небудзь гарантый; выкарыстоўвайце яе на свой страх і рызыку.\n\nУсе таварныя знакі з\'яўляюцца ўласнасцю адпаведных уладальнікаў.</string>
+    <string name="disclaimer_dolby_message">Гэтыя налады напісаны распрацоўшчыкамі супольнасці LineageOS. Яны не звязаны з Dolby Laboratories або Lenovo, не падтрымліваюцца і не ўпаўнаважаны гэтымі кампаніямі.\n\nАпрацоўку гуку выконваюць прапрыетарныя кампаненты Dolby, якія пастаўляюцца з прыладай. Гэтыя налады выкарыстоўваюць толькі інтэрфейсы, якія ўжо прадастаўляюць гэтыя кампаненты; яны не ўключаюць, не распаўсюджваюць і не змяняюць іх.\n\nВынікі могуць адрознівацца ад арыгінальнай прашыўкі. Гэта функцыя прадастаўляецца як ёсць, без якіх-небудзь гарантый; выкарыстоўвайце яе на свой страх і рызыку.\n\nУсе таварныя знакі належаць адпаведным уладальнікам.</string>
     <string name="tile_reading_low_refresh">Чытанне 30 Гц</string>
     <string name="tile_touch_sensitivity">Адчувальнасць дотыку</string>
     <string name="tile_touch_sensitivity_low">Адхіленне далоні</string>

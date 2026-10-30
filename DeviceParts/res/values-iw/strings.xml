@@ -212,6 +212,13 @@
     <string name="perf_refresh_rate_none">לא נעול</string>
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">איפוס להגדרה קבועה מראש</string>
+    <string name="disclaimer_miravision_trademark">MediaTek ו־MiraVision הם סימנים מסחריים של MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos וסמל ה־D הכפול הם סימנים מסחריים רשומים של Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">ההגדרות האלה מספקות גישה רק לתכונות המובנות בקושחה המקורית של המכשיר. הן אינן כוללות תוכנה קניינית ואינן משנות אותה.</string>
+    <string name="disclaimer_title">הצהרת אחריות</string>
+    <string name="disclaimer_close">סגירה</string>
+    <string name="disclaimer_miravision_message">ההגדרות האלה נכתבו על ידי מפתחי קהילת LineageOS. אין להן קשר ל־MediaTek או ל־Lenovo, והן אינן נתמכות או מאושרות על ידיהן.\n\nעיבוד התמונה מתבצע באמצעות רכיבים קנייניים של MediaTek שהגיעו עם המכשיר. ההגדרות האלה משתמשות רק בממשקים שהרכיבים האלה כבר מספקים; הן אינן כוללות, מפיצות או משנות אותם.\n\nהתוצאות עשויות להיות שונות מהקושחה המקורית. התכונה ניתנת כפי שהיא, ללא אחריות מכל סוג; השימוש בה הוא באחריותך בלבד.\n\nכל הסימנים המסחריים הם רכוש בעליהם בהתאמה.</string>
+    <string name="disclaimer_dolby_message">ההגדרות האלה נכתבו על ידי מפתחי קהילת LineageOS. אין להן קשר ל־Dolby Laboratories או ל־Lenovo, והן אינן נתמכות או מאושרות על ידיהן.\n\nעיבוד הצליל מתבצע באמצעות רכיבים קנייניים של Dolby שהגיעו עם המכשיר. ההגדרות האלה משתמשות רק בממשקים שהרכיבים האלה כבר מספקים; הן אינן כוללות, מפיצות או משנות אותם.\n\nהתוצאות עשויות להיות שונות מהקושחה המקורית. התכונה ניתנת כפי שהיא, ללא אחריות מכל סוג; השימוש בה הוא באחריותך בלבד.\n\nכל הסימנים המסחריים הם רכוש בעליהם בהתאמה.</string>
     <string name="tile_reading_low_refresh">קריאה 30 Hz</string>
     <string name="tile_touch_sensitivity">רגישות מגע</string>
     <string name="tile_touch_sensitivity_low">דחיית כף היד</string>

@@ -209,6 +209,13 @@
     <string name="perf_refresh_rate_title">Clo cyfradd adnewyddu</string>
     <string name="perf_refresh_rate_none">Heb ei chloi</string>
     <string name="perf_advanced_reset_title">Ailosod i\'r rhagosodiad</string>
+    <string name="disclaimer_miravision_trademark">Mae MediaTek a MiraVision yn nodau masnach MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Mae Dolby, Dolby Atmos a’r symbol D dwbl yn nodau masnach cofrestredig Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Dim ond mynediad at nodweddion sydd wedi’u cynnwys yng nghadarnwedd wreiddiol y ddyfais y mae’r gosodiadau hyn yn ei ddarparu. Nid ydynt yn cynnwys nac yn addasu unrhyw feddalwedd perchnogol.</string>
+    <string name="disclaimer_title">Ymwadiad</string>
+    <string name="disclaimer_close">Cau</string>
+    <string name="disclaimer_miravision_message">Datblygwyr cymuned LineageOS a ysgrifennodd y gosodiadau hyn. Nid ydynt yn gysylltiedig â MediaTek na Lenovo, ac nid yw’r cwmnïau hynny’n eu cymeradwyo nac yn eu hawdurdodi.\n\nMae prosesu lluniau’n cael ei wneud gan gydrannau perchnogol MediaTek a ddaeth gyda’r ddyfais. Dim ond y rhyngwynebau y mae’r cydrannau hynny eisoes yn eu darparu y mae’r gosodiadau hyn yn eu defnyddio; nid ydynt yn cynnwys, yn dosbarthu nac yn addasu’r cydrannau.\n\nGall y canlyniadau fod yn wahanol i’r cadarnwedd gwreiddiol. Darperir y nodwedd hon fel y mae, heb warant o unrhyw fath; defnyddiwch hi ar eich risg eich hun.\n\nMae pob nod masnach yn eiddo i’w berchennog priodol.</string>
+    <string name="disclaimer_dolby_message">Datblygwyr cymuned LineageOS a ysgrifennodd y gosodiadau hyn. Nid ydynt yn gysylltiedig â Dolby Laboratories na Lenovo, ac nid yw’r cwmnïau hynny’n eu cymeradwyo nac yn eu hawdurdodi.\n\nMae prosesu sain yn cael ei wneud gan gydrannau perchnogol Dolby a ddaeth gyda’r ddyfais. Dim ond y rhyngwynebau y mae’r cydrannau hynny eisoes yn eu darparu y mae’r gosodiadau hyn yn eu defnyddio; nid ydynt yn cynnwys, yn dosbarthu nac yn addasu’r cydrannau.\n\nGall y canlyniadau fod yn wahanol i’r cadarnwedd gwreiddiol. Darperir y nodwedd hon fel y mae, heb warant o unrhyw fath; defnyddiwch hi ar eich risg eich hun.\n\nMae pob nod masnach yn eiddo i’w berchennog priodol.</string>
     <string name="tile_reading_low_refresh">Darllen 30 Hz</string>
     <string name="tile_touch_sensitivity">Sensitifrwydd cyffwrdd</string>
     <string name="tile_touch_sensitivity_low">Gwrthod cledr</string>

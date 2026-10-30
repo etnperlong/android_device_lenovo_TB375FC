@@ -211,6 +211,13 @@
     <string name="perf_refresh_rate_none">لاک نہیں</string>
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">پری سیٹ پر ری سیٹ کریں</string>
+    <string name="disclaimer_miravision_trademark">MediaTek اور MiraVision، MediaTek Inc. کے تجارتی نشان ہیں۔</string>
+    <string name="disclaimer_dolby_trademark">Dolby، Dolby Atmos اور ڈبل D کی علامت Dolby Laboratories Licensing Corporation کے رجسٹرڈ تجارتی نشان ہیں۔</string>
+    <string name="disclaimer_footer_notice">یہ ترتیبات صرف آلے کے اصل فرم ویئر میں شامل خصوصیات تک رسائی فراہم کرتی ہیں۔ ان میں کوئی ملکیتی سافٹ ویئر شامل نہیں اور نہ ہی وہ اس میں ترمیم کرتی ہیں۔</string>
+    <string name="disclaimer_title">دستبرداری</string>
+    <string name="disclaimer_close">بند کریں</string>
+    <string name="disclaimer_miravision_message">یہ ترتیبات LineageOS کمیونٹی کے ڈویلپرز نے تیار کی ہیں۔ ان کا MediaTek یا Lenovo سے کوئی تعلق نہیں، نہ ہی انہیں ان کی توثیق یا اجازت حاصل ہے۔\n\nتصویر کی پراسیسنگ آلے کے ساتھ فراہم کردہ MediaTek کے ملکیتی اجزا کے ذریعے کی جاتی ہے۔ یہ ترتیبات صرف ان اجزا کے پہلے سے دستیاب انٹرفیس استعمال کرتی ہیں؛ ان اجزا کو شامل، تقسیم یا ترمیم نہیں کرتیں۔\n\nنتائج اصل فرم ویئر سے مختلف ہو سکتے ہیں۔ یہ سہولت \"جیسی ہے\" کی بنیاد پر، کسی بھی قسم کی ضمانت کے بغیر فراہم کی جاتی ہے؛ اسے اپنے خطرے پر استعمال کریں۔\n\nتمام تجارتی نشان ان کے متعلقہ مالکان کی ملکیت ہیں۔</string>
+    <string name="disclaimer_dolby_message">یہ ترتیبات LineageOS کمیونٹی کے ڈویلپرز نے تیار کی ہیں۔ ان کا Dolby Laboratories یا Lenovo سے کوئی تعلق نہیں، نہ ہی انہیں ان کی توثیق یا اجازت حاصل ہے۔\n\nآواز کی پراسیسنگ آلے کے ساتھ فراہم کردہ Dolby کے ملکیتی اجزا کے ذریعے کی جاتی ہے۔ یہ ترتیبات صرف ان اجزا کے پہلے سے دستیاب انٹرفیس استعمال کرتی ہیں؛ ان اجزا کو شامل، تقسیم یا ترمیم نہیں کرتیں۔\n\nنتائج اصل فرم ویئر سے مختلف ہو سکتے ہیں۔ یہ سہولت \"جیسی ہے\" کی بنیاد پر، کسی بھی قسم کی ضمانت کے بغیر فراہم کی جاتی ہے؛ اسے اپنے خطرے پر استعمال کریں۔\n\nتمام تجارتی نشان ان کے متعلقہ مالکان کی ملکیت ہیں۔</string>
     <string name="tile_reading_low_refresh">مطالعہ 30 Hz</string>
     <string name="tile_touch_sensitivity">ٹچ کی حساسیت</string>
     <string name="tile_touch_sensitivity_low">ہتھیلی کو مسترد کرنا</string>

@@ -203,6 +203,13 @@
     <string name="perf_refresh_rate_title">ৰিফ্ৰেছৰ হাৰ লক</string>
     <string name="perf_refresh_rate_none">লক কৰা হোৱা নাই</string>
     <string name="perf_advanced_reset_title">প্ৰিছেটলৈ ৰিছেট কৰক</string>
+    <string name="disclaimer_miravision_trademark">MediaTek আৰু MiraVision MediaTek Inc.-ৰ ট্ৰেডমাৰ্ক।</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos আৰু ডাবল-D চিহ্ন Dolby Laboratories Licensing Corporation-ৰ পঞ্জীয়নভুক্ত ট্ৰেডমাৰ্ক।</string>
+    <string name="disclaimer_footer_notice">এই ছেটিংসমূহে কেৱল ডিভাইচৰ মূল ফাৰ্মৱেৰত থকা সুবিধাসমূহ ব্যৱহাৰ কৰাৰ সুবিধা দিয়ে। ইয়াত কোনো স্বত্বাধিকাৰী ছফ্টৱেৰ অন্তৰ্ভুক্ত বা সলনি কৰা নহয়।</string>
+    <string name="disclaimer_title">অস্বীকাৰোক্তি</string>
+    <string name="disclaimer_close">বন্ধ কৰক</string>
+    <string name="disclaimer_miravision_message">এই ছেটিংসমূহ LineageOS সম্প্ৰদায়ৰ বিকাশকসকলে লিখিছে। তেওঁলোকৰ MediaTek বা Lenovo-ৰ সৈতে কোনো সম্পৰ্ক নাই, আৰু এই কোম্পানীসমূহে ইয়াক সমৰ্থন বা অনুমোদন কৰা নাই।\n\nচিত্ৰ প্ৰক্ৰিয়াকৰণ ডিভাইচৰ সৈতে অহা MediaTek-ৰ স্বত্বাধিকাৰী উপাদানসমূহে কৰে। এই ছেটিংসমূহে সেই উপাদানসমূহে ইতিমধ্যে প্ৰদান কৰা আন্তঃপৃষ্ঠসমূহহে ব্যৱহাৰ কৰে; সেই উপাদানসমূহ অন্তৰ্ভুক্ত, বিতৰণ বা পৰিৱৰ্তন নকৰে।\n\nফলাফল মূল ফাৰ্মৱেৰৰ পৰা পৃথক হ\'ব পাৰে। এই সুবিধা কোনো ধৰণৰ ৱাৰেণ্টী নোহোৱাকৈ যিদৰে আছে তেনেদৰেই প্ৰদান কৰা হৈছে; নিজৰ দায়িত্বত ব্যৱহাৰ কৰক।\n\nসকলো ট্ৰেডমাৰ্ক নিজ নিজ মালিকৰ সম্পত্তি।</string>
+    <string name="disclaimer_dolby_message">এই ছেটিংসমূহ LineageOS সম্প্ৰদায়ৰ বিকাশকসকলে লিখিছে। তেওঁলোকৰ Dolby Laboratories বা Lenovo-ৰ সৈতে কোনো সম্পৰ্ক নাই, আৰু এই কোম্পানীসমূহে ইয়াক সমৰ্থন বা অনুমোদন কৰা নাই।\n\nশব্দ প্ৰক্ৰিয়াকৰণ ডিভাইচৰ সৈতে অহা Dolby-ৰ স্বত্বাধিকাৰী উপাদানসমূহে কৰে। এই ছেটিংসমূহে সেই উপাদানসমূহে ইতিমধ্যে প্ৰদান কৰা আন্তঃপৃষ্ঠসমূহহে ব্যৱহাৰ কৰে; সেই উপাদানসমূহ অন্তৰ্ভুক্ত, বিতৰণ বা পৰিৱৰ্তন নকৰে।\n\nফলাফল মূল ফাৰ্মৱেৰৰ পৰা পৃথক হ\'ব পাৰে। এই সুবিধা কোনো ধৰণৰ ৱাৰেণ্টী নোহোৱাকৈ যিদৰে আছে তেনেদৰেই প্ৰদান কৰা হৈছে; নিজৰ দায়িত্বত ব্যৱহাৰ কৰক।\n\nসকলো ট্ৰেডমাৰ্ক নিজ নিজ মালিকৰ সম্পত্তি।</string>
     <string name="tile_reading_low_refresh">ৰিডিং 30 Hz</string>
     <string name="tile_touch_sensitivity">স্পৰ্শৰ সংবেদনশীলতা</string>
     <string name="tile_touch_sensitivity_low">হাতৰ তলুৱাৰ প্ৰতিৰোধ</string>

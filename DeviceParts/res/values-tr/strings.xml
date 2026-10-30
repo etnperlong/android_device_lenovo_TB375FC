@@ -210,6 +210,13 @@
     <string name="perf_refresh_rate_none">Kilitli değil</string>
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Ön ayara sıfırla</string>
+    <string name="disclaimer_miravision_trademark">MediaTek ve MiraVision, MediaTek Inc. şirketinin ticari markalarıdır.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos ve çift D simgesi, Dolby Laboratories Licensing Corporation şirketinin tescilli ticari markalarıdır.</string>
+    <string name="disclaimer_footer_notice">Bu ayarlar yalnızca cihazın orijinal aygıt yazılımında yerleşik özelliklere erişim sağlar. Herhangi bir özel mülkiyete tabi yazılım içermez veya değiştirmez.</string>
+    <string name="disclaimer_title">Yasal uyarı</string>
+    <string name="disclaimer_close">Kapat</string>
+    <string name="disclaimer_miravision_message">Bu ayarlar, LineageOS topluluk geliştiricileri tarafından yazılmıştır. MediaTek veya Lenovo ile bağlantılı değildir, onlar tarafından onaylanmamış ya da yetkilendirilmemiştir.\n\nGörüntü işleme, cihazla birlikte gelen MediaTek\'in özel mülkiyetindeki bileşenler tarafından yapılır. Bu ayarlar yalnızca bu bileşenlerin zaten sunduğu arayüzleri kullanır; bileşenleri içermez, dağıtmaz veya değiştirmez.\n\nSonuçlar orijinal aygıt yazılımından farklı olabilir. Bu özellik, herhangi bir garanti olmaksızın \"olduğu gibi\" sunulur; riski size aittir.\n\nTüm ticari markalar ilgili sahiplerinin mülkiyetindedir.</string>
+    <string name="disclaimer_dolby_message">Bu ayarlar, LineageOS topluluk geliştiricileri tarafından yazılmıştır. Dolby Laboratories veya Lenovo ile bağlantılı değildir, onlar tarafından onaylanmamış ya da yetkilendirilmemiştir.\n\nSes işleme, cihazla birlikte gelen Dolby\'nin özel mülkiyetindeki bileşenler tarafından yapılır. Bu ayarlar yalnızca bu bileşenlerin zaten sunduğu arayüzleri kullanır; bileşenleri içermez, dağıtmaz veya değiştirmez.\n\nSonuçlar orijinal aygıt yazılımından farklı olabilir. Bu özellik, herhangi bir garanti olmaksızın \"olduğu gibi\" sunulur; riski size aittir.\n\nTüm ticari markalar ilgili sahiplerinin mülkiyetindedir.</string>
     <string name="tile_reading_low_refresh">Okuma 30 Hz</string>
     <string name="tile_touch_sensitivity">Dokunma hassasiyeti</string>
     <string name="tile_touch_sensitivity_low">Avuç içini reddetme</string>

@@ -211,6 +211,13 @@
     <string name="perf_refresh_rate_none">Nije zaključano</string>
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Vrati unapred zadati profil</string>
+    <string name="disclaimer_miravision_trademark">MediaTek i MiraVision su žigovi kompanije MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos i simbol dvostrukog D su registrovani žigovi kompanije Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Ova podešavanja omogućavaju pristup samo funkcijama ugrađenim u originalni firmver uređaja. Ona ne uključuju niti menjaju vlasnički softver.</string>
+    <string name="disclaimer_title">Odricanje od odgovornosti</string>
+    <string name="disclaimer_close">Zatvori</string>
+    <string name="disclaimer_miravision_message">Ova podešavanja su napisali programeri LineageOS zajednice. Oni nisu povezani sa kompanijama MediaTek ili Lenovo, te ih te kompanije ne podržavaju niti su ih ovlastile.\n\nObradu slike obavljaju vlasničke komponente kompanije MediaTek koje su isporučene uz uređaj. Ova podešavanja koriste samo interfejse koje te komponente već pružaju; ne uključuju ih, ne distribuiraju niti menjaju.\n\nRezultati se mogu razlikovati od originalnog firmvera. Ova funkcija se pruža u zatečenom stanju, bez ikakve garancije; koristite je na sopstveni rizik.\n\nSvi žigovi su vlasništvo svojih odgovarajućih vlasnika.</string>
+    <string name="disclaimer_dolby_message">Ova podešavanja su napisali programeri LineageOS zajednice. Oni nisu povezani sa kompanijama Dolby Laboratories ili Lenovo, te ih te kompanije ne podržavaju niti su ih ovlastile.\n\nObradu zvuka obavljaju vlasničke komponente kompanije Dolby koje su isporučene uz uređaj. Ova podešavanja koriste samo interfejse koje te komponente već pružaju; ne uključuju ih, ne distribuiraju niti menjaju.\n\nRezultati se mogu razlikovati od originalnog firmvera. Ova funkcija se pruža u zatečenom stanju, bez ikakve garancije; koristite je na sopstveni rizik.\n\nSvi žigovi su vlasništvo svojih odgovarajućih vlasnika.</string>
     <string name="tile_reading_low_refresh">Čitanje 30 Hz</string>
     <string name="tile_touch_sensitivity">Osetljivost dodira</string>
     <string name="tile_touch_sensitivity_low">Odbacivanje dlana</string>

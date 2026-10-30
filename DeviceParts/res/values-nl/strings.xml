@@ -203,6 +203,13 @@
     <string name="perf_refresh_rate_title">Vernieuwingssnelheid vergrendelen</string>
     <string name="perf_refresh_rate_none">Niet vergrendeld</string>
     <string name="perf_advanced_reset_title">Terugzetten naar voorinstelling</string>
+    <string name="disclaimer_miravision_trademark">MediaTek en MiraVision zijn handelsmerken van MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos en het dubbele-D-symbool zijn gedeponeerde handelsmerken van Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Deze instellingen geven alleen toegang tot functies die in de oorspronkelijke firmware van het apparaat zijn ingebouwd. Ze bevatten geen bedrijfseigen software en wijzigen die ook niet.</string>
+    <string name="disclaimer_title">Juridische informatie</string>
+    <string name="disclaimer_close">Sluiten</string>
+    <string name="disclaimer_miravision_message">Deze instellingen zijn geschreven door ontwikkelaars uit de LineageOS-community. Ze zijn niet verbonden met, goedgekeurd door of gemachtigd door MediaTek of Lenovo.\n\nDe beeldverwerking wordt uitgevoerd door de bedrijfseigen onderdelen van MediaTek die bij het apparaat zijn geleverd. Deze instellingen gebruiken alleen de interfaces die deze onderdelen al bieden; ze bevatten, verspreiden of wijzigen die onderdelen niet.\n\nDe resultaten kunnen afwijken van de oorspronkelijke firmware. Deze functie wordt geleverd zoals ze is, zonder enige vorm van garantie; gebruik haar op eigen risico.\n\nAlle handelsmerken zijn eigendom van hun respectieve eigenaren.</string>
+    <string name="disclaimer_dolby_message">Deze instellingen zijn geschreven door ontwikkelaars uit de LineageOS-community. Ze zijn niet verbonden met, goedgekeurd door of gemachtigd door Dolby Laboratories of Lenovo.\n\nDe geluidsverwerking wordt uitgevoerd door de bedrijfseigen onderdelen van Dolby die bij het apparaat zijn geleverd. Deze instellingen gebruiken alleen de interfaces die deze onderdelen al bieden; ze bevatten, verspreiden of wijzigen die onderdelen niet.\n\nDe resultaten kunnen afwijken van de oorspronkelijke firmware. Deze functie wordt geleverd zoals ze is, zonder enige vorm van garantie; gebruik haar op eigen risico.\n\nAlle handelsmerken zijn eigendom van hun respectieve eigenaren.</string>
     <string name="tile_reading_low_refresh">Leesmodus 30 Hz</string>
     <string name="tile_touch_sensitivity">Touchgevoeligheid</string>
     <string name="tile_touch_sensitivity_low">Handpalmonderdrukking</string>

@@ -210,6 +210,13 @@
     <string name="perf_refresh_rate_none">Не е заклучено</string>
     <string name="perf_refresh_rate_hz">%1$d Гц</string>
     <string name="perf_advanced_reset_title">Врати на зададената поставка</string>
+    <string name="disclaimer_miravision_trademark">MediaTek и MiraVision се трговски марки на MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos и симболот со двојно D се регистрирани трговски марки на Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Овие поставки овозможуваат пристап само до функциите вградени во оригиналниот фирмвер на уредот. Тие не вклучуваат ниту менуваат сопственички софтвер.</string>
+    <string name="disclaimer_title">Одрекување од одговорност</string>
+    <string name="disclaimer_close">Затвори</string>
+    <string name="disclaimer_miravision_message">Овие поставки ги напишале развивачи од заедницата LineageOS. Тие не се поврзани со MediaTek или Lenovo, ниту се одобрени или овластени од овие компании.\n\nОбработката на сликата ја вршат сопственички компоненти на MediaTek што се испорачани со уредот. Овие поставки ги користат само интерфејсите што тие компоненти веќе ги обезбедуваат; не ги вклучуваат, дистрибуираат или менуваат.\n\nРезултатите може да се разликуваат од оригиналниот фирмвер. Оваа функција се обезбедува таква каква што е, без гаранција од каков било вид; користете ја на сопствен ризик.\n\nСите трговски марки се сопственост на нивните соодветни сопственици.</string>
+    <string name="disclaimer_dolby_message">Овие поставки ги напишале развивачи од заедницата LineageOS. Тие не се поврзани со Dolby Laboratories или Lenovo, ниту се одобрени или овластени од овие компании.\n\nОбработката на звукот ја вршат сопственички компоненти на Dolby што се испорачани со уредот. Овие поставки ги користат само интерфејсите што тие компоненти веќе ги обезбедуваат; не ги вклучуваат, дистрибуираат или менуваат.\n\nРезултатите може да се разликуваат од оригиналниот фирмвер. Оваа функција се обезбедува таква каква што е, без гаранција од каков било вид; користете ја на сопствен ризик.\n\nСите трговски марки се сопственост на нивните соодветни сопственици.</string>
     <string name="tile_reading_low_refresh">Читање 30 Гц</string>
     <string name="tile_touch_sensitivity">Чувствителност на допир</string>
     <string name="tile_touch_sensitivity_low">Отфрлање допир со дланка</string>

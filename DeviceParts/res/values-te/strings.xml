@@ -203,6 +203,13 @@
     <string name="perf_refresh_rate_title">రిఫ్రెష్ రేట్ లాక్</string>
     <string name="perf_refresh_rate_none">లాక్ చేయలేదు</string>
     <string name="perf_advanced_reset_title">ప్రీసెట్‌కు రీసెట్ చేయండి</string>
+    <string name="disclaimer_miravision_trademark">MediaTek మరియు MiraVision అనేవి MediaTek Inc. యొక్క ట్రేడ్‌మార్క్‌లు.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos మరియు డబుల్-D చిహ్నం Dolby Laboratories Licensing Corporation యొక్క నమోదిత ట్రేడ్‌మార్క్‌లు.</string>
+    <string name="disclaimer_footer_notice">ఈ సెట్టింగ్‌లు పరికరం యొక్క అసలు ఫర్మ్‌వేర్‌లో అంతర్నిర్మితంగా ఉన్న ఫీచర్‌లకు మాత్రమే యాక్సెస్‌ను అందిస్తాయి. ఇవి యాజమాన్య సాఫ్ట్‌వేర్‌ను చేర్చవు లేదా సవరించవు.</string>
+    <string name="disclaimer_title">నిరాకరణ</string>
+    <string name="disclaimer_close">మూసివేయి</string>
+    <string name="disclaimer_miravision_message">ఈ సెట్టింగ్‌లను LineageOS కమ్యూనిటీ డెవలపర్‌లు రాశారు. వారికి MediaTek లేదా Lenovoతో అనుబంధం లేదు; వాటి ఆమోదం లేదా అధికారం కూడా లేదు.\n\nచిత్ర ప్రాసెసింగ్ పరికరంతో పాటు వచ్చిన MediaTek యాజమాన్య భాగాల ద్వారా జరుగుతుంది. ఆ భాగాలు ఇప్పటికే అందించే ఇంటర్‌ఫేస్‌లనే ఈ సెట్టింగ్‌లు ఉపయోగిస్తాయి; వాటిని చేర్చవు, పంపిణీ చేయవు లేదా సవరించవు.\n\nఅసలు ఫర్మ్‌వేర్‌తో పోలిస్తే ఫలితాలు మారవచ్చు. ఈ ఫీచర్ ఎలాంటి వారంటీ లేకుండా ఉన్న స్థితిలో అందించబడుతుంది; మీ స్వంత రిస్క్‌పై ఉపయోగించండి.\n\nఅన్ని ట్రేడ్‌మార్క్‌లు వాటి సంబంధిత యజమానుల ఆస్తి.</string>
+    <string name="disclaimer_dolby_message">ఈ సెట్టింగ్‌లను LineageOS కమ్యూనిటీ డెవలపర్‌లు రాశారు. వారికి Dolby Laboratories లేదా Lenovoతో అనుబంధం లేదు; వాటి ఆమోదం లేదా అధికారం కూడా లేదు.\n\nధ్వని ప్రాసెసింగ్ పరికరంతో పాటు వచ్చిన Dolby యాజమాన్య భాగాల ద్వారా జరుగుతుంది. ఆ భాగాలు ఇప్పటికే అందించే ఇంటర్‌ఫేస్‌లనే ఈ సెట్టింగ్‌లు ఉపయోగిస్తాయి; వాటిని చేర్చవు, పంపిణీ చేయవు లేదా సవరించవు.\n\nఅసలు ఫర్మ్‌వేర్‌తో పోలిస్తే ఫలితాలు మారవచ్చు. ఈ ఫీచర్ ఎలాంటి వారంటీ లేకుండా ఉన్న స్థితిలో అందించబడుతుంది; మీ స్వంత రిస్క్‌పై ఉపయోగించండి.\n\nఅన్ని ట్రేడ్‌మార్క్‌లు వాటి సంబంధిత యజమానుల ఆస్తి.</string>
     <string name="tile_reading_low_refresh">రీడింగ్ 30 Hz</string>
     <string name="tile_touch_sensitivity">టచ్ సున్నితత్వం</string>
     <string name="tile_touch_sensitivity_low">అరచేతి తిరస్కరణ</string>

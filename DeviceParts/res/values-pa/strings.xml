@@ -203,6 +203,13 @@
     <string name="perf_refresh_rate_title">ਰਿਫ੍ਰੈਸ਼ ਦਰ ਲੌਕ</string>
     <string name="perf_refresh_rate_none">ਲੌਕ ਨਹੀਂ ਹੈ</string>
     <string name="perf_advanced_reset_title">ਪ੍ਰੀਸੈੱਟ \'ਤੇ ਰੀਸੈੱਟ ਕਰੋ</string>
+    <string name="disclaimer_miravision_trademark">MediaTek ਅਤੇ MiraVision, MediaTek Inc. ਦੇ ਵਪਾਰਕ ਚਿੰਨ੍ਹ ਹਨ।</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos ਅਤੇ ਦੋਹਰਾ-D ਚਿੰਨ੍ਹ, Dolby Laboratories Licensing Corporation ਦੇ ਰਜਿਸਟਰਡ ਵਪਾਰਕ ਚਿੰਨ੍ਹ ਹਨ।</string>
+    <string name="disclaimer_footer_notice">ਇਹ ਸੈਟਿੰਗਾਂ ਸਿਰਫ਼ ਡਿਵਾਈਸ ਦੇ ਮੂਲ ਫ਼ਰਮਵੇਅਰ ਵਿੱਚ ਸ਼ਾਮਲ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਤੱਕ ਪਹੁੰਚ ਦਿੰਦੀਆਂ ਹਨ। ਇਹ ਕਿਸੇ ਵੀ ਮਲਕੀਅਤ ਵਾਲੇ ਸੌਫ਼ਟਵੇਅਰ ਨੂੰ ਸ਼ਾਮਲ ਜਾਂ ਸੋਧਦੀਆਂ ਨਹੀਂ ਹਨ।</string>
+    <string name="disclaimer_title">ਬੇਦਾਅਵਾ</string>
+    <string name="disclaimer_close">ਬੰਦ ਕਰੋ</string>
+    <string name="disclaimer_miravision_message">ਇਹ ਸੈਟਿੰਗਾਂ LineageOS ਭਾਈਚਾਰੇ ਦੇ ਡਿਵੈਲਪਰਾਂ ਨੇ ਲਿਖੀਆਂ ਹਨ। ਉਹ MediaTek ਜਾਂ Lenovo ਨਾਲ ਸੰਬੰਧਿਤ ਨਹੀਂ ਹਨ, ਨਾ ਹੀ ਉਨ੍ਹਾਂ ਵੱਲੋਂ ਮਨਜ਼ੂਰ ਜਾਂ ਅਧਿਕਾਰਤ ਹਨ।\n\nਤਸਵੀਰ ਦੀ ਪ੍ਰੋਸੈਸਿੰਗ ਡਿਵਾਈਸ ਨਾਲ ਆਏ MediaTek ਦੇ ਮਲਕੀਅਤ ਵਾਲੇ ਕੰਪੋਨੈਂਟਾਂ ਦੁਆਰਾ ਕੀਤੀ ਜਾਂਦੀ ਹੈ। ਇਹ ਸੈਟਿੰਗਾਂ ਸਿਰਫ਼ ਉਹ ਇੰਟਰਫੇਸ ਵਰਤਦੀਆਂ ਹਨ ਜੋ ਉਹ ਕੰਪੋਨੈਂਟ ਪਹਿਲਾਂ ਹੀ ਦਿੰਦੇ ਹਨ; ਇਹ ਉਨ੍ਹਾਂ ਨੂੰ ਸ਼ਾਮਲ, ਵੰਡ ਜਾਂ ਸੋਧਦੀਆਂ ਨਹੀਂ ਹਨ।\n\nਨਤੀਜੇ ਮੂਲ ਫ਼ਰਮਵੇਅਰ ਤੋਂ ਵੱਖ ਹੋ ਸਕਦੇ ਹਨ। ਇਹ ਵਿਸ਼ੇਸ਼ਤਾ ਕਿਸੇ ਵੀ ਕਿਸਮ ਦੀ ਵਾਰੰਟੀ ਤੋਂ ਬਿਨਾਂ ਜਿਵੇਂ ਦੀ ਤਿਵੇਂ ਦਿੱਤੀ ਜਾਂਦੀ ਹੈ; ਇਸਨੂੰ ਆਪਣੇ ਜੋਖ਼ਮ ਤੇ ਵਰਤੋ।\n\nਸਾਰੇ ਵਪਾਰਕ ਚਿੰਨ੍ਹ ਉਨ੍ਹਾਂ ਦੇ ਸੰਬੰਧਿਤ ਮਾਲਕਾਂ ਦੀ ਜਾਇਦਾਦ ਹਨ।</string>
+    <string name="disclaimer_dolby_message">ਇਹ ਸੈਟਿੰਗਾਂ LineageOS ਭਾਈਚਾਰੇ ਦੇ ਡਿਵੈਲਪਰਾਂ ਨੇ ਲਿਖੀਆਂ ਹਨ। ਉਹ Dolby Laboratories ਜਾਂ Lenovo ਨਾਲ ਸੰਬੰਧਿਤ ਨਹੀਂ ਹਨ, ਨਾ ਹੀ ਉਨ੍ਹਾਂ ਵੱਲੋਂ ਮਨਜ਼ੂਰ ਜਾਂ ਅਧਿਕਾਰਤ ਹਨ।\n\nਆਵਾਜ਼ ਦੀ ਪ੍ਰੋਸੈਸਿੰਗ ਡਿਵਾਈਸ ਨਾਲ ਆਏ Dolby ਦੇ ਮਲਕੀਅਤ ਵਾਲੇ ਕੰਪੋਨੈਂਟਾਂ ਦੁਆਰਾ ਕੀਤੀ ਜਾਂਦੀ ਹੈ। ਇਹ ਸੈਟਿੰਗਾਂ ਸਿਰਫ਼ ਉਹ ਇੰਟਰਫੇਸ ਵਰਤਦੀਆਂ ਹਨ ਜੋ ਉਹ ਕੰਪੋਨੈਂਟ ਪਹਿਲਾਂ ਹੀ ਦਿੰਦੇ ਹਨ; ਇਹ ਉਨ੍ਹਾਂ ਨੂੰ ਸ਼ਾਮਲ, ਵੰਡ ਜਾਂ ਸੋਧਦੀਆਂ ਨਹੀਂ ਹਨ।\n\nਨਤੀਜੇ ਮੂਲ ਫ਼ਰਮਵੇਅਰ ਤੋਂ ਵੱਖ ਹੋ ਸਕਦੇ ਹਨ। ਇਹ ਵਿਸ਼ੇਸ਼ਤਾ ਕਿਸੇ ਵੀ ਕਿਸਮ ਦੀ ਵਾਰੰਟੀ ਤੋਂ ਬਿਨਾਂ ਜਿਵੇਂ ਦੀ ਤਿਵੇਂ ਦਿੱਤੀ ਜਾਂਦੀ ਹੈ; ਇਸਨੂੰ ਆਪਣੇ ਜੋਖ਼ਮ ਤੇ ਵਰਤੋ।\n\nਸਾਰੇ ਵਪਾਰਕ ਚਿੰਨ੍ਹ ਉਨ੍ਹਾਂ ਦੇ ਸੰਬੰਧਿਤ ਮਾਲਕਾਂ ਦੀ ਜਾਇਦਾਦ ਹਨ।</string>
     <string name="tile_reading_low_refresh">ਰੀਡਿੰਗ 30 Hz</string>
     <string name="tile_touch_sensitivity">ਟੱਚ ਸੰਵੇਦਨਸ਼ੀਲਤਾ</string>
     <string name="tile_touch_sensitivity_low">ਹਥੇਲੀ ਰੱਦ ਕਰਨਾ</string>

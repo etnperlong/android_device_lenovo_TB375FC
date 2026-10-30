@@ -203,6 +203,13 @@
     <string name="perf_refresh_rate_title">ລັອກອັດຕາການຣີເຟຣຊ</string>
     <string name="perf_refresh_rate_none">ບໍ່ລັອກ</string>
     <string name="perf_advanced_reset_title">ຣີເຊັດເປັນຄ່າລ່ວງໜ້າ</string>
+    <string name="disclaimer_miravision_trademark">MediaTek ແລະ MiraVision ເປັນເຄື່ອງໝາຍການຄ້າຂອງ MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos ແລະສັນຍະລັກ D ຄູ່ ເປັນເຄື່ອງໝາຍການຄ້າຈົດທະບຽນຂອງ Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">ການຕັ້ງຄ່າເຫຼົ່ານີ້ໃຫ້ສິດເຂົ້າເຖິງສະເພາະຄຸນສົມບັດທີ່ມີໃນເຟີມແວຕົ້ນສະບັບຂອງອຸປະກອນ. ບໍ່ລວມ ຫຼືດັດແປງຊອບແວສະເພາະກຳມະສິດໃດໆ.</string>
+    <string name="disclaimer_title">ຂໍ້ປະຕິເສດຄວາມຮັບຜິດຊອບ</string>
+    <string name="disclaimer_close">ປິດ</string>
+    <string name="disclaimer_miravision_message">ການຕັ້ງຄ່າເຫຼົ່ານີ້ຂຽນໂດຍນັກພັດທະນາຊຸມຊົນ LineageOS. ພວກເຂົາບໍ່ສັງກັດກັບ MediaTek ຫຼື Lenovo, ແລະບໍ່ໄດ້ຮັບການຮັບຮອງ ຫຼືອະນຸຍາດຈາກບໍລິສັດເຫຼົ່ານັ້ນ.\n\nການປະມວນຜົນຮູບພາບເຮັດໂດຍອົງປະກອບສະເພາະກຳມະສິດຂອງ MediaTek ທີ່ມາກັບອຸປະກອນ. ການຕັ້ງຄ່າເຫຼົ່ານີ້ໃຊ້ສະເພາະອິນເຕີເຟດທີ່ອົງປະກອບເຫຼົ່ານັ້ນມີໃຫ້ແລ້ວ; ບໍ່ໄດ້ລວມ ແຈກຢາຍ ຫຼືດັດແປງອົງປະກອບເຫຼົ່ານັ້ນ.\n\nຜົນລັບອາດແຕກຕ່າງຈາກເຟີມແວຕົ້ນສະບັບ. ຄຸນສົມບັດນີ້ສະໜອງຕາມສະພາບທີ່ເປັນຢູ່ ໂດຍບໍ່ມີການຮັບປະກັນໃດໆ; ໃຊ້ໂດຍຮັບຄວາມສ່ຽງເອງ.\n\nເຄື່ອງໝາຍການຄ້າທັງໝົດເປັນຊັບສິນຂອງເຈົ້າຂອງແຕ່ລະລາຍ.</string>
+    <string name="disclaimer_dolby_message">ການຕັ້ງຄ່າເຫຼົ່ານີ້ຂຽນໂດຍນັກພັດທະນາຊຸມຊົນ LineageOS. ພວກເຂົາບໍ່ສັງກັດກັບ Dolby Laboratories ຫຼື Lenovo, ແລະບໍ່ໄດ້ຮັບການຮັບຮອງ ຫຼືອະນຸຍາດຈາກບໍລິສັດເຫຼົ່ານັ້ນ.\n\nການປະມວນຜົນສຽງເຮັດໂດຍອົງປະກອບສະເພາະກຳມະສິດຂອງ Dolby ທີ່ມາກັບອຸປະກອນ. ການຕັ້ງຄ່າເຫຼົ່ານີ້ໃຊ້ສະເພາະອິນເຕີເຟດທີ່ອົງປະກອບເຫຼົ່ານັ້ນມີໃຫ້ແລ້ວ; ບໍ່ໄດ້ລວມ ແຈກຢາຍ ຫຼືດັດແປງອົງປະກອບເຫຼົ່ານັ້ນ.\n\nຜົນລັບອາດແຕກຕ່າງຈາກເຟີມແວຕົ້ນສະບັບ. ຄຸນສົມບັດນີ້ສະໜອງຕາມສະພາບທີ່ເປັນຢູ່ ໂດຍບໍ່ມີການຮັບປະກັນໃດໆ; ໃຊ້ໂດຍຮັບຄວາມສ່ຽງເອງ.\n\nເຄື່ອງໝາຍການຄ້າທັງໝົດເປັນຊັບສິນຂອງເຈົ້າຂອງແຕ່ລະລາຍ.</string>
     <string name="tile_reading_low_refresh">ອ່ານ 30 Hz</string>
     <string name="tile_touch_sensitivity">ຄວາມໄວຕໍ່ການສຳຜັດ</string>
     <string name="tile_touch_sensitivity_low">ປະຕິເສດຝາມື</string>

@@ -211,6 +211,13 @@
     <string name="perf_refresh_rate_none">Ur isekker ara</string>
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Ales awennez ɣer useɣwer</string>
+    <string name="disclaimer_miravision_trademark">MediaTek akked MiraVision d tizmilin n tmeẓla n MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos akked uzamul n D uslig d tizmilin ttwaṛjmen n Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Isɣewwaren-a ttaken anekcum kan ɣer tmahilin yellan deg firmware asli n yibenk. Ur sɛin ara isefka n useɣẓan n tmeẓla, ur ttbeddilen ara ula d yiwen.</string>
+    <string name="disclaimer_title">Aɣawas n tɣellist</string>
+    <string name="disclaimer_close">Mdel</string>
+    <string name="disclaimer_miravision_message">Isɣewwaren-a rran-ten imnadiyen n temɣiwant LineageOS. Ur sɛin ara assaɣ akked MediaTek neɣ Lenovo, ur ttwasenɛaten neɣ ttwasiregen ara seg-sent.\n\nAsesfer n tugniwin yettwaxedem s yiferdisen n tmeẓla n MediaTek i d-yeddan akked yibenk. Isɣewwaren-a seqdacen kan tifyar i d-sseknen yakan yiferdisen-nni; ur ten-sɛin ara, ur ten-bḍun ara neɣ beddilen-tent ara.\n\nIgmaḍ zemren ad mgarraden ɣef firmware asli. Tameẓla-a tettunefk akka am akken, war garantit n yal tawsit; seqdec-itt s uɛeṭṭer-ik.\n\nAkk tizmilin d ayla n yimawlan-nsent.</string>
+    <string name="disclaimer_dolby_message">Isɣewwaren-a rran-ten imnadiyen n temɣiwant LineageOS. Ur sɛin ara assaɣ akked Dolby Laboratories neɣ Lenovo, ur ttwasenɛaten neɣ ttwasiregen ara seg-sent.\n\nAsesfer n imesli yettwaxedem s yiferdisen n tmeẓla n Dolby i d-yeddan akked yibenk. Isɣewwaren-a seqdacen kan tifyar i d-sseknen yakan yiferdisen-nni; ur ten-sɛin ara, ur ten-bḍun ara neɣ beddilen-tent ara.\n\nIgmaḍ zemren ad mgarraden ɣef firmware asli. Tameẓla-a tettunefk akka am akken, war garantit n yal tawsit; seqdec-itt s uɛeṭṭer-ik.\n\nAkk tizmilin d ayla n yimawlan-nsent.</string>
     <string name="tile_reading_low_refresh">Taɣuri 30 Hz</string>
     <string name="tile_touch_sensitivity">Tafrayt n unermis</string>
     <string name="tile_touch_sensitivity_low">Aḥbes n ufus</string>

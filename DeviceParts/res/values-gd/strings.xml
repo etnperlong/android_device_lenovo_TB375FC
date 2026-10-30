@@ -207,6 +207,13 @@
     <string name="perf_refresh_rate_title">Glasadh na h-ìre ath-nuadhachaidh</string>
     <string name="perf_refresh_rate_none">Gun ghlasadh</string>
     <string name="perf_advanced_reset_title">Ath-shuidhich chun an ro-shuidhichte</string>
+    <string name="disclaimer_miravision_trademark">Tha MediaTek agus MiraVision nan comharran-malairt aig MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Tha Dolby, Dolby Atmos agus an samhla D dhùbailte nan comharran-malairt clàraichte aig Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Chan eil na roghainnean seo a’ toirt ach cothrom air feartan a tha am broinn bathar-bog tùsail an uidheim. Chan eil bathar-bog seilbhe sam bith annta agus cha dèan iad atharrachadh air.</string>
+    <string name="disclaimer_title">Àicheadh</string>
+    <string name="disclaimer_close">Dùin</string>
+    <string name="disclaimer_miravision_message">Sgrìobh luchd-leasachaidh coimhearsnachd LineageOS na roghainnean seo. Chan eil ceangal aca ri MediaTek no Lenovo, agus cha deach an aontachadh no an ceadachadh leis na companaidhean sin.\n\nTha giullachd dhealbhan ga dèanamh le co-phàirtean seilbhe MediaTek a thàinig leis an uidheam. Chan eil na roghainnean seo a’ cleachdadh ach na h-eadar-aghaidhean a tha na co-phàirtean sin a’ toirt seachad mar-thà; chan eil iad a’ gabhail a-steach, a’ sgaoileadh no ag atharrachadh nan co-phàirtean sin.\n\nDh’fhaodadh na toraidhean a bhith eadar-dhealaichte bhon bhathar-bhog thùsail. Tha am feart seo ga thoirt seachad mar a tha e, gun bharantas de sheòrsa sam bith; cleachd e air do chunnart fhèin.\n\n’S ann leis na sealbhadairean fa leth aca a tha gach comharra-malairt.</string>
+    <string name="disclaimer_dolby_message">Sgrìobh luchd-leasachaidh coimhearsnachd LineageOS na roghainnean seo. Chan eil ceangal aca ri Dolby Laboratories no Lenovo, agus cha deach an aontachadh no an ceadachadh leis na companaidhean sin.\n\nTha giullachd fuaime ga dèanamh le co-phàirtean seilbhe Dolby a thàinig leis an uidheam. Chan eil na roghainnean seo a’ cleachdadh ach na h-eadar-aghaidhean a tha na co-phàirtean sin a’ toirt seachad mar-thà; chan eil iad a’ gabhail a-steach, a’ sgaoileadh no ag atharrachadh nan co-phàirtean sin.\n\nDh’fhaodadh na toraidhean a bhith eadar-dhealaichte bhon bhathar-bhog thùsail. Tha am feart seo ga thoirt seachad mar a tha e, gun bharantas de sheòrsa sam bith; cleachd e air do chunnart fhèin.\n\n’S ann leis na sealbhadairean fa leth aca a tha gach comharra-malairt.</string>
     <string name="tile_reading_low_refresh">Leughadh 30 Hz</string>
     <string name="tile_touch_sensitivity">Mothalachd suathaidh</string>
     <string name="tile_touch_sensitivity_low">Diùltadh pailme</string>

@@ -203,6 +203,13 @@
     <string name="perf_refresh_rate_title">Lås oppdateringsfrekvens</string>
     <string name="perf_refresh_rate_none">Ikkje låst</string>
     <string name="perf_advanced_reset_title">Tilbakestill til førehandsinnstilling</string>
+    <string name="disclaimer_miravision_trademark">MediaTek og MiraVision er varemerke for MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos og dobbelt-D-symbolet er registrerte varemerke for Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Desse innstillingane gir berre tilgang til funksjonar som er innebygde i den opphavlege fastvara til eininga. Dei inneheld ikkje eller endrar ikkje proprietær programvare.</string>
+    <string name="disclaimer_title">Ansvarsfråskriving</string>
+    <string name="disclaimer_close">Lukk</string>
+    <string name="disclaimer_miravision_message">Desse innstillingane er skrivne av utviklarar i LineageOS-fellesskapet. Dei er ikkje knytte til, godkjende eller autoriserte av MediaTek eller Lenovo.\n\nBilethandsaminga blir utført av dei proprietære MediaTek-komponentane som følgde med eininga. Desse innstillingane bruker berre grensesnitta komponentane alt tilbyr; dei inkluderer, distribuerer eller endrar ikkje komponentane.\n\nResultata kan skilje seg frå den opphavlege fastvara. Denne funksjonen blir levert som han er, utan garanti av noko slag; bruk han på eige ansvar.\n\nAlle varemerke høyrer til dei respektive eigarane.</string>
+    <string name="disclaimer_dolby_message">Desse innstillingane er skrivne av utviklarar i LineageOS-fellesskapet. Dei er ikkje knytte til, godkjende eller autoriserte av Dolby Laboratories eller Lenovo.\n\nLydhandsaminga blir utført av dei proprietære Dolby-komponentane som følgde med eininga. Desse innstillingane bruker berre grensesnitta komponentane alt tilbyr; dei inkluderer, distribuerer eller endrar ikkje komponentane.\n\nResultata kan skilje seg frå den opphavlege fastvara. Denne funksjonen blir levert som han er, utan garanti av noko slag; bruk han på eige ansvar.\n\nAlle varemerke høyrer til dei respektive eigarane.</string>
     <string name="tile_reading_low_refresh">Lesing 30 Hz</string>
     <string name="tile_touch_sensitivity">Berøringsfølsamheit</string>
     <string name="tile_touch_sensitivity_low">Handflateavvising</string>

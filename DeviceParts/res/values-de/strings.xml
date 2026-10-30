@@ -203,6 +203,13 @@
     <string name="perf_refresh_rate_title">Aktualisierungsrate sperren</string>
     <string name="perf_refresh_rate_none">Nicht gesperrt</string>
     <string name="perf_advanced_reset_title">Auf Voreinstellung zurücksetzen</string>
+    <string name="disclaimer_miravision_trademark">MediaTek und MiraVision sind Marken von MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos und das Doppel-D-Symbol sind eingetragene Marken der Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Diese Einstellungen bieten lediglich Zugriff auf Funktionen der Original-Firmware des Geräts. Sie enthalten oder verändern keine proprietäre Software.</string>
+    <string name="disclaimer_title">Haftungsausschluss</string>
+    <string name="disclaimer_close">Schließen</string>
+    <string name="disclaimer_miravision_message">Diese Einstellungen wurden von Entwicklern der LineageOS-Community geschrieben. Sie sind weder mit MediaTek noch mit Lenovo verbunden und werden von diesen Unternehmen weder unterstützt noch autorisiert.\n\nDie Bildverarbeitung erfolgt durch proprietäre MediaTek-Komponenten, die mit dem Gerät geliefert wurden. Diese Einstellungen verwenden lediglich die Schnittstellen, die diese Komponenten bereits bereitstellen; sie enthalten, verbreiten oder verändern diese Komponenten nicht.\n\nDie Ergebnisse können von der Original-Firmware abweichen. Diese Funktion wird ohne jegliche Gewährleistung so bereitgestellt, wie sie ist; die Nutzung erfolgt auf eigene Gefahr.\n\nAlle Marken sind Eigentum ihrer jeweiligen Inhaber.</string>
+    <string name="disclaimer_dolby_message">Diese Einstellungen wurden von Entwicklern der LineageOS-Community geschrieben. Sie sind weder mit Dolby Laboratories noch mit Lenovo verbunden und werden von diesen Unternehmen weder unterstützt noch autorisiert.\n\nDie Tonverarbeitung erfolgt durch proprietäre Dolby-Komponenten, die mit dem Gerät geliefert wurden. Diese Einstellungen verwenden lediglich die Schnittstellen, die diese Komponenten bereits bereitstellen; sie enthalten, verbreiten oder verändern diese Komponenten nicht.\n\nDie Ergebnisse können von der Original-Firmware abweichen. Diese Funktion wird ohne jegliche Gewährleistung so bereitgestellt, wie sie ist; die Nutzung erfolgt auf eigene Gefahr.\n\nAlle Marken sind Eigentum ihrer jeweiligen Inhaber.</string>
     <string name="tile_reading_low_refresh">Lesemodus 30 Hz</string>
     <string name="tile_touch_sensitivity">Touch-Empfindlichkeit</string>
     <string name="tile_touch_sensitivity_low">Handballenerkennung</string>

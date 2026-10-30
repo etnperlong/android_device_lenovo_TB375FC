@@ -203,6 +203,13 @@
     <string name="perf_refresh_rate_title">રિફ્રેશ રેટ લૉક</string>
     <string name="perf_refresh_rate_none">લૉક કરેલું નથી</string>
     <string name="perf_advanced_reset_title">પ્રીસેટ પર રીસેટ કરો</string>
+    <string name="disclaimer_miravision_trademark">MediaTek અને MiraVision એ MediaTek Inc.ના ટ્રેડમાર્ક છે.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos અને ડબલ-D ચિહ્ન Dolby Laboratories Licensing Corporationના નોંધાયેલા ટ્રેડમાર્ક છે.</string>
+    <string name="disclaimer_footer_notice">આ સેટિંગ્સ માત્ર ઉપકરણના મૂળ ફર્મવેરમાં બનેલી સુવિધાઓનો ઍક્સેસ આપે છે. તેમાં કોઈ માલિકીનું સૉફ્ટવેર સમાવાતું નથી કે તેમાં ફેરફાર થતો નથી.</string>
+    <string name="disclaimer_title">અસ્વીકરણ</string>
+    <string name="disclaimer_close">બંધ કરો</string>
+    <string name="disclaimer_miravision_message">આ સેટિંગ્સ LineageOS સમુદાયના ડેવલપર્સે લખી છે. તેઓ MediaTek કે Lenovo સાથે સંકળાયેલા નથી, અને આ કંપનીઓએ તેમનું સમર્થન કે અધિકૃતતા આપી નથી.\n\nચિત્રનું પ્રોસેસિંગ ઉપકરણ સાથે આવેલા MediaTekના માલિકીના ઘટકો દ્વારા થાય છે. આ સેટિંગ્સ માત્ર એ ઘટકો પહેલેથી આપતા ઇન્ટરફેસનો ઉપયોગ કરે છે; તેમાં એ ઘટકો સમાવાતા, વિતરિત થતા કે બદલાતા નથી.\n\nપરિણામો મૂળ ફર્મવેરથી અલગ હોઈ શકે છે. આ સુવિધા કોઈ પણ પ્રકારની વૉરંટી વિના, જેવી છે તેવી પૂરી પાડવામાં આવે છે; તેનો ઉપયોગ તમારા પોતાના જોખમે કરો.\n\nતમામ ટ્રેડમાર્ક તેમના સંબંધિત માલિકોની મિલકત છે.</string>
+    <string name="disclaimer_dolby_message">આ સેટિંગ્સ LineageOS સમુદાયના ડેવલપર્સે લખી છે. તેઓ Dolby Laboratories કે Lenovo સાથે સંકળાયેલા નથી, અને આ કંપનીઓએ તેમનું સમર્થન કે અધિકૃતતા આપી નથી.\n\nઑડિયોનું પ્રોસેસિંગ ઉપકરણ સાથે આવેલા Dolbyના માલિકીના ઘટકો દ્વારા થાય છે. આ સેટિંગ્સ માત્ર એ ઘટકો પહેલેથી આપતા ઇન્ટરફેસનો ઉપયોગ કરે છે; તેમાં એ ઘટકો સમાવાતા, વિતરિત થતા કે બદલાતા નથી.\n\nપરિણામો મૂળ ફર્મવેરથી અલગ હોઈ શકે છે. આ સુવિધા કોઈ પણ પ્રકારની વૉરંટી વિના, જેવી છે તેવી પૂરી પાડવામાં આવે છે; તેનો ઉપયોગ તમારા પોતાના જોખમે કરો.\n\nતમામ ટ્રેડમાર્ક તેમના સંબંધિત માલિકોની મિલકત છે.</string>
     <string name="tile_reading_low_refresh">રીડિંગ 30 Hz</string>
     <string name="tile_touch_sensitivity">ટચ સંવેદનશીલતા</string>
     <string name="tile_touch_sensitivity_low">હથેળી અવગણો</string>

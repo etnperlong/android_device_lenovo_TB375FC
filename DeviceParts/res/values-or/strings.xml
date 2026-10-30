@@ -203,6 +203,13 @@
     <string name="perf_refresh_rate_title">ରିଫ୍ରେସ ରେଟ ଲକ</string>
     <string name="perf_refresh_rate_none">ଲକ ହୋଇନାହିଁ</string>
     <string name="perf_advanced_reset_title">ପ୍ରିସେଟକୁ ରିସେଟ କରନ୍ତୁ</string>
+    <string name="disclaimer_miravision_trademark">MediaTek ଏବଂ MiraVision ହେଉଛି MediaTek Inc.ର ବାଣିଜ୍ୟିକ ଚିହ୍ନ।</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos ଏବଂ ଡବଲ-D ପ୍ରତୀକ ହେଉଛି Dolby Laboratories Licensing Corporationର ପଞ୍ଜୀକୃତ ବାଣିଜ୍ୟିକ ଚିହ୍ନ।</string>
+    <string name="disclaimer_footer_notice">ଏହି ସେଟିଂଗୁଡ଼ିକ କେବଳ ଡିଭାଇସର ମୂଳ ଫର୍ମୱେରରେ ଥିବା ସୁବିଧାଗୁଡ଼ିକୁ ବ୍ୟବହାର କରିବାର ଅଧିକାର ଦିଏ। ଏଥିରେ କୌଣସି ମାଲିକାନା ସଫ୍ଟୱେର ଅନ୍ତର୍ଭୁକ୍ତ ନାହିଁ କିମ୍ବା ଏହାକୁ ପରିବର୍ତ୍ତନ କରାଯାଏ ନାହିଁ।</string>
+    <string name="disclaimer_title">ଅସ୍ୱୀକୃତି</string>
+    <string name="disclaimer_close">ବନ୍ଦ କରନ୍ତୁ</string>
+    <string name="disclaimer_miravision_message">ଏହି ସେଟିଂଗୁଡ଼ିକ LineageOS ସମୁଦାୟର ବିକାଶକାରୀମାନେ ଲେଖିଛନ୍ତି। ସେମାନଙ୍କର MediaTek କିମ୍ବା Lenovo ସହିତ କୌଣସି ସମ୍ପର୍କ ନାହିଁ, ସେମାନଙ୍କ ଦ୍ୱାରା ଅନୁମୋଦିତ କିମ୍ବା ଅଧିକୃତ ମଧ୍ୟ ନୁହନ୍ତି।\n\nଚିତ୍ର ପ୍ରକ୍ରିୟାକରଣ ଡିଭାଇସ ସହିତ ଆସିଥିବା MediaTekର ମାଲିକାନା ଉପାଦାନଗୁଡ଼ିକ ଦ୍ୱାରା ହୁଏ। ଏହି ସେଟିଂଗୁଡ଼ିକ ସେହି ଉପାଦାନଗୁଡ଼ିକ ପୂର୍ବରୁ ଯୋଗାଇଥିବା ଇଣ୍ଟରଫେସଗୁଡ଼ିକୁ ମାତ୍ର ବ୍ୟବହାର କରନ୍ତି; ସେଗୁଡ଼ିକୁ ଅନ୍ତର୍ଭୁକ୍ତ, ବଣ୍ଟନ କିମ୍ବା ପରିବର୍ତ୍ତନ କରନ୍ତି ନାହିଁ।\n\nଫଳାଫଳ ମୂଳ ଫର୍ମୱେରଠାରୁ ଭିନ୍ନ ହୋଇପାରେ। ଏହି ସୁବିଧା କୌଣସି ପ୍ରକାରର ୱାରେଣ୍ଟି ବିନା ଯେପରି ଅଛି ସେପରି ଦିଆଯାଉଛି; ନିଜ ଦାୟିତ୍ୱରେ ଏହାକୁ ବ୍ୟବହାର କରନ୍ତୁ।\n\nସମସ୍ତ ବାଣିଜ୍ୟିକ ଚିହ୍ନ ସେମାନଙ୍କର ସମ୍ପୃକ୍ତ ମାଲିକଙ୍କର ସମ୍ପତ୍ତି।</string>
+    <string name="disclaimer_dolby_message">ଏହି ସେଟିଂଗୁଡ଼ିକ LineageOS ସମୁଦାୟର ବିକାଶକାରୀମାନେ ଲେଖିଛନ୍ତି। ସେମାନଙ୍କର Dolby Laboratories କିମ୍ବା Lenovo ସହିତ କୌଣସି ସମ୍ପର୍କ ନାହିଁ, ସେମାନଙ୍କ ଦ୍ୱାରା ଅନୁମୋଦିତ କିମ୍ବା ଅଧିକୃତ ମଧ୍ୟ ନୁହନ୍ତି।\n\nଧ୍ୱନି ପ୍ରକ୍ରିୟାକରଣ ଡିଭାଇସ ସହିତ ଆସିଥିବା Dolbyର ମାଲିକାନା ଉପାଦାନଗୁଡ଼ିକ ଦ୍ୱାରା ହୁଏ। ଏହି ସେଟିଂଗୁଡ଼ିକ ସେହି ଉପାଦାନଗୁଡ଼ିକ ପୂର୍ବରୁ ଯୋଗାଇଥିବା ଇଣ୍ଟରଫେସଗୁଡ଼ିକୁ ମାତ୍ର ବ୍ୟବହାର କରନ୍ତି; ସେଗୁଡ଼ିକୁ ଅନ୍ତର୍ଭୁକ୍ତ, ବଣ୍ଟନ କିମ୍ବା ପରିବର୍ତ୍ତନ କରନ୍ତି ନାହିଁ।\n\nଫଳାଫଳ ମୂଳ ଫର୍ମୱେରଠାରୁ ଭିନ୍ନ ହୋଇପାରେ। ଏହି ସୁବିଧା କୌଣସି ପ୍ରକାରର ୱାରେଣ୍ଟି ବିନା ଯେପରି ଅଛି ସେପରି ଦିଆଯାଉଛି; ନିଜ ଦାୟିତ୍ୱରେ ଏହାକୁ ବ୍ୟବହାର କରନ୍ତୁ।\n\nସମସ୍ତ ବାଣିଜ୍ୟିକ ଚିହ୍ନ ସେମାନଙ୍କର ସମ୍ପୃକ୍ତ ମାଲିକଙ୍କର ସମ୍ପତ୍ତି।</string>
     <string name="tile_reading_low_refresh">ରିଡିଙ୍ଗ 30 Hz</string>
     <string name="tile_touch_sensitivity">ଟଚ ସମ୍ବେଦନଶୀଳତା</string>
     <string name="tile_touch_sensitivity_low">ହାତପାପୁଲି ପ୍ରତ୍ୟାଖ୍ୟାନ</string>

@@ -205,6 +205,13 @@
     <string name="perf_refresh_rate_title">Blocu de sa frequèntzia de atualizatzione</string>
     <string name="perf_refresh_rate_none">Non blocada</string>
     <string name="perf_advanced_reset_title">Ripìstina a su preset</string>
+    <string name="disclaimer_miravision_trademark">MediaTek e MiraVision sunt marcas de MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos e su sìmbulu a D dòpiu sunt marcas registradas de Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Custas impostatziones permitint isceti de intrare a is funtzionalidades incluidas in su firmware originale de su dispositivu. Non includint nemu modificant perunu software proprietariu.</string>
+    <string name="disclaimer_title">Nota legale</string>
+    <string name="disclaimer_close">Serra</string>
+    <string name="disclaimer_miravision_message">Custas impostatziones sunt istadas iscritas dae is programmadore de sa comunidade LineageOS. Non sunt afiliados a MediaTek o Lenovo, e non tenent su suportu nen s\'autorizatzione issoro.\n\nSu tratamentu de s\'immàgine est fatu dae is componentes proprietarios de MediaTek, arribados cun su dispositivu. Custas impostatziones impreant isceti is interfàtzias chi is componentes tenent giai; non los includint, non los distribuint e non los modificant.\n\nIs resurtados podent èssere diferentes dae su firmware originale. Custa funtzionalidade est fornida comente est, chentza peruna garantia; impreala a su risicu tuo.\n\nTotu is marcas sunt de sos proprietàrios respetivos.</string>
+    <string name="disclaimer_dolby_message">Custas impostatziones sunt istadas iscritas dae is programmadore de sa comunidade LineageOS. Non sunt afiliados a Dolby Laboratories o Lenovo, e non tenent su suportu nen s\'autorizatzione issoro.\n\nSu tratamentu de su sonu est fatu dae is componentes proprietarios de Dolby, arribados cun su dispositivu. Custas impostatziones impreant isceti is interfàtzias chi is componentes tenent giai; non los includint, non los distribuint e non los modificant.\n\nIs resurtados podent èssere diferentes dae su firmware originale. Custa funtzionalidade est fornida comente est, chentza peruna garantia; impreala a su risicu tuo.\n\nTotu is marcas sunt de sos proprietàrios respetivos.</string>
     <string name="tile_reading_low_refresh">Letura 30 Hz</string>
     <string name="tile_touch_sensitivity">Sensibilidade de su tocu</string>
     <string name="tile_touch_sensitivity_low">Refudu de sa palma</string>

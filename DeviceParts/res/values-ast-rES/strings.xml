@@ -204,6 +204,13 @@
     <string name="perf_refresh_rate_title">Bloquéu de la frecuencia d’anovamientu</string>
     <string name="perf_refresh_rate_none">Ensin bloquéu</string>
     <string name="perf_advanced_reset_title">Restablecer a la predefinición</string>
+    <string name="disclaimer_miravision_trademark">MediaTek y MiraVision son marques comerciales de MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos y el símbolu D doble son marques comerciales rexistraes de Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Estes opciones solo dan accesu a funciones integraes nel firmware orixinal del dispositivu. Nun inclúin nin modifiquen nengún software propietariu.</string>
+    <string name="disclaimer_title">Avisu llegal</string>
+    <string name="disclaimer_close">Zarrar</string>
+    <string name="disclaimer_miravision_message">Estes opciones tán escrites por desarrolladores de la comunidá LineageOS. Nun tán venceyaos a MediaTek nin a Lenovo, nin cuentan col so respaldu nin autorización.\n\nEl procesamientu de les imaxes realícenlu componentes propietarios de MediaTek que veníen col dispositivu. Estes opciones namái usen les interfaces que yá ufierten esos componentes; nun los inclúin, distribúin nin modifiquen.\n\nLos resultaos pueden ser distintos de los del firmware orixinal. Esta función ufiértase tal cual, ensin garantía de nengún tipu; úsala baxo la to responsabilidá.\n\nToles marques comerciales son propiedá de los sos respeutivos propietarios.</string>
+    <string name="disclaimer_dolby_message">Estes opciones tán escrites por desarrolladores de la comunidá LineageOS. Nun tán venceyaos a Dolby Laboratories nin a Lenovo, nin cuentan col so respaldu nin autorización.\n\nEl procesamientu del soníu realícenlu componentes propietarios de Dolby que veníen col dispositivu. Estes opciones namái usen les interfaces que yá ufierten esos componentes; nun los inclúin, distribúin nin modifiquen.\n\nLos resultaos pueden ser distintos de los del firmware orixinal. Esta función ufiértase tal cual, ensin garantía de nengún tipu; úsala baxo la to responsabilidá.\n\nToles marques comerciales son propiedá de los sos respeutivos propietarios.</string>
     <string name="tile_reading_low_refresh">Llectura 30 Hz</string>
     <string name="tile_touch_sensitivity">Sensibilidá táctil</string>
     <string name="tile_touch_sensitivity_low">Refugu de la palma</string>

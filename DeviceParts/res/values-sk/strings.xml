@@ -211,6 +211,13 @@
     <string name="perf_refresh_rate_none">Bez zámku</string>
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Obnoviť predvoľbu</string>
+    <string name="disclaimer_miravision_trademark">MediaTek a MiraVision sú ochranné známky spoločnosti MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos a symbol dvojitého D sú registrované ochranné známky spoločnosti Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Tieto nastavenia poskytujú prístup iba k funkciám zabudovaným do pôvodného firmvéru zariadenia. Neobsahujú ani neupravujú žiadny proprietárny softvér.</string>
+    <string name="disclaimer_title">Vylúčenie zodpovednosti</string>
+    <string name="disclaimer_close">Zavrieť</string>
+    <string name="disclaimer_miravision_message">Tieto nastavenia vytvorili vývojári z komunity LineageOS. Nie sú prepojení so spoločnosťou MediaTek ani Lenovo a tieto spoločnosti ich neschválili ani nepovolili.\n\nSpracovanie obrazu vykonávajú proprietárne komponenty spoločnosti MediaTek dodané so zariadením. Tieto nastavenia používajú iba rozhrania, ktoré tieto komponenty už poskytujú; neobsahujú ich, nedistribuujú ani neupravujú.\n\nVýsledky sa môžu líšiť od pôvodného firmvéru. Táto funkcia sa poskytuje tak, ako je, bez akejkoľvek záruky; používajte ju na vlastné riziko.\n\nVšetky ochranné známky sú majetkom príslušných vlastníkov.</string>
+    <string name="disclaimer_dolby_message">Tieto nastavenia vytvorili vývojári z komunity LineageOS. Nie sú prepojení so spoločnosťou Dolby Laboratories ani Lenovo a tieto spoločnosti ich neschválili ani nepovolili.\n\nSpracovanie zvuku vykonávajú proprietárne komponenty spoločnosti Dolby dodané so zariadením. Tieto nastavenia používajú iba rozhrania, ktoré tieto komponenty už poskytujú; neobsahujú ich, nedistribuujú ani neupravujú.\n\nVýsledky sa môžu líšiť od pôvodného firmvéru. Táto funkcia sa poskytuje tak, ako je, bez akejkoľvek záruky; používajte ju na vlastné riziko.\n\nVšetky ochranné známky sú majetkom príslušných vlastníkov.</string>
     <string name="tile_reading_low_refresh">Čítanie 30 Hz</string>
     <string name="tile_touch_sensitivity">Citlivosť dotyku</string>
     <string name="tile_touch_sensitivity_low">Odmietanie dlane</string>

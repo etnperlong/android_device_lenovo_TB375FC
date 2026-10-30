@@ -205,6 +205,13 @@
     <string name="perf_refresh_rate_title">Blocâ la frecuence di inzornament</string>
     <string name="perf_refresh_rate_none">No blocade</string>
     <string name="perf_advanced_reset_title">Ripristine al preset</string>
+    <string name="disclaimer_miravision_trademark">MediaTek e MiraVision a son marchis registradis di MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos e il simbui dal doppi D a son marchis registradis di Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Chescj impostazions a dan dome acès aes funzionalitâts integradis tal firmware origjinâl dal dispositîf. No includin ni modifichin software proprietari.</string>
+    <string name="disclaimer_title">Declinazion di responsabilitât</string>
+    <string name="disclaimer_close">Siere</string>
+    <string name="disclaimer_miravision_message">Chescj parametris a son scrits dai svilupadôrs de comunitât LineageOS. No son afiliâts, aproâts ni autorizâts di MediaTek o Lenovo.\n\nLa elaborazion des imagjins e je fate dai components proprietaris MediaTek includûts cul dispositîf. Chescj parametris a doprin dome lis interfaces chei components a dan za; no ju includin, distribuissin ni modifichin.\n\nI risultâts a puedin jessi diviers dal firmware origjinâl. Cheste funzion e je furnide cence garanzie di cualsisei sorte; doprela a to risc.\n\nDutis lis marchis a son proprietât dai lôr rispetîfs titolârs.</string>
+    <string name="disclaimer_dolby_message">Chescj parametris a son scrits dai svilupadôrs de comunitât LineageOS. No son afiliâts, aproâts ni autorizâts di Dolby Laboratories o Lenovo.\n\nLa elaborazion dal sun e je fate dai components proprietaris Dolby includûts cul dispositîf. Chescj parametris a doprin dome lis interfaces chei components a dan za; no ju includin, distribuissin ni modifichin.\n\nI risultâts a puedin jessi diviers dal firmware origjinâl. Cheste funzion e je furnide cence garanzie di cualsisei sorte; doprela a to risc.\n\nDutis lis marchis a son proprietât dai lôr rispetîfs titolârs.</string>
     <string name="tile_reading_low_refresh">Leture 30 Hz</string>
     <string name="tile_touch_sensitivity">Sensibilitât dal toc</string>
     <string name="tile_touch_sensitivity_low">Refût de palme</string>

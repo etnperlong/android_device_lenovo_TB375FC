@@ -210,6 +210,13 @@
     <string name="perf_refresh_rate_none">Qulflanmagan</string>
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Oldindan sozlamaga qaytarish</string>
+    <string name="disclaimer_miravision_trademark">MediaTek va MiraVision MediaTek Inc. kompaniyasining savdo belgilaridir.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos va qo‘sh D belgisi Dolby Laboratories Licensing Corporation kompaniyasining ro‘yxatdan oʻtgan savdo belgilaridir.</string>
+    <string name="disclaimer_footer_notice">Bu sozlamalar faqat qurilmaning asl mikrodasturiga oʻrnatilgan funksiyalardan foydalanish imkonini beradi. Ular hech qanday xususiy dasturiy taʼminotni oʻz ichiga olmaydi yoki oʻzgartirmaydi.</string>
+    <string name="disclaimer_title">Ogohlantirish</string>
+    <string name="disclaimer_close">Yopish</string>
+    <string name="disclaimer_miravision_message">Bu sozlamalarni LineageOS hamjamiyati dasturchilari yozgan. Ular MediaTek yoki Lenovo bilan bogʻliq emas, bu kompaniyalar tomonidan maʼqullanmagan va ruxsat berilmagan.\n\nTasvirga ishlov berish qurilma bilan birga kelgan MediaTek kompaniyasining xususiy komponentlari orqali amalga oshiriladi. Bu sozlamalar faqat ushbu komponentlar allaqachon taqdim etgan interfeyslardan foydalanadi; ularni oʻz ichiga olmaydi, tarqatmaydi yoki oʻzgartirmaydi.\n\nNatijalar asl mikrodasturdagidan farq qilishi mumkin. Bu funksiya hech qanday kafolatsiz, \"qanday boʻlsa, shunday\" taqdim etiladi; undan oʻz xavf-xataringiz ostida foydalaning.\n\nBarcha savdo belgilari tegishli egalarining mulkidir.</string>
+    <string name="disclaimer_dolby_message">Bu sozlamalarni LineageOS hamjamiyati dasturchilari yozgan. Ular Dolby Laboratories yoki Lenovo bilan bogʻliq emas, bu kompaniyalar tomonidan maʼqullanmagan va ruxsat berilmagan.\n\nOvozga ishlov berish qurilma bilan birga kelgan Dolby kompaniyasining xususiy komponentlari orqali amalga oshiriladi. Bu sozlamalar faqat ushbu komponentlar allaqachon taqdim etgan interfeyslardan foydalanadi; ularni oʻz ichiga olmaydi, tarqatmaydi yoki oʻzgartirmaydi.\n\nNatijalar asl mikrodasturdagidan farq qilishi mumkin. Bu funksiya hech qanday kafolatsiz, \"qanday boʻlsa, shunday\" taqdim etiladi; undan oʻz xavf-xataringiz ostida foydalaning.\n\nBarcha savdo belgilari tegishli egalarining mulkidir.</string>
     <string name="tile_reading_low_refresh">Oʻqish 30 Hz</string>
     <string name="tile_touch_sensitivity">Sensorli ekran sezgirligi</string>
     <string name="tile_touch_sensitivity_low">Kaftni rad etish</string>

@@ -210,6 +210,13 @@
     <string name="perf_refresh_rate_none">አልተቆለፈም</string>
     <string name="perf_refresh_rate_hz">%1$d ኸርዝ</string>
     <string name="perf_advanced_reset_title">ወደ ቅድመ ቅንብር አስመልስ</string>
+    <string name="disclaimer_miravision_trademark">MediaTek እና MiraVision የMediaTek Inc. የንግድ ምልክቶች ናቸው።</string>
+    <string name="disclaimer_dolby_trademark">Dolby፣ Dolby Atmos እና ድርብ-D ምልክቱ የDolby Laboratories Licensing Corporation የተመዘገቡ የንግድ ምልክቶች ናቸው።</string>
+    <string name="disclaimer_footer_notice">እነዚህ ቅንብሮች በመሣሪያው የመጀመሪያ ፈርምዌር ውስጥ የተካተቱ ባህሪያትን ብቻ ማግኘት ያስችላሉ። ማንኛውንም የባለቤትነት ሶፍትዌር አያካትቱም ወይም አያሻሽሉም።</string>
+    <string name="disclaimer_title">የኃላፊነት ማስተባበያ</string>
+    <string name="disclaimer_close">ዝጋ</string>
+    <string name="disclaimer_miravision_message">እነዚህ ቅንብሮች በLineageOS ማኅበረሰብ ገንቢዎች የተጻፉ ናቸው። ከMediaTek ወይም Lenovo ጋር ግንኙነት የላቸውም፣ የተደገፉ አይደሉም ወይም ፈቃድ አልተሰጣቸውም።\n\nየምስል ሂደት የሚከናወነው ከመሣሪያው ጋር በመጡ የMediaTek የባለቤትነት ክፍሎች ነው። እነዚህ ቅንብሮች እነዚያ ክፍሎች አስቀድመው የሚያቀርቡትን በይነገጾች ብቻ ይጠቀማሉ፤ ክፍሎቹን አያካትቱም፣ አያሰራጩም ወይም አያሻሽሉም።\n\nውጤቶቹ ከመጀመሪያው ፈርምዌር ሊለዩ ይችላሉ። ይህ ባህሪ ምንም ዓይነት ዋስትና ሳይኖረው እንዳለ ይቀርባል፤ በራስዎ ኃላፊነት ይጠቀሙበት።\n\nሁሉም የንግድ ምልክቶች የየራሳቸው ባለቤቶች ንብረት ናቸው።</string>
+    <string name="disclaimer_dolby_message">እነዚህ ቅንብሮች በLineageOS ማኅበረሰብ ገንቢዎች የተጻፉ ናቸው። ከDolby Laboratories ወይም Lenovo ጋር ግንኙነት የላቸውም፣ የተደገፉ አይደሉም ወይም ፈቃድ አልተሰጣቸውም።\n\nየድምፅ ሂደት የሚከናወነው ከመሣሪያው ጋር በመጡ የDolby የባለቤትነት ክፍሎች ነው። እነዚህ ቅንብሮች እነዚያ ክፍሎች አስቀድመው የሚያቀርቡትን በይነገጾች ብቻ ይጠቀማሉ፤ ክፍሎቹን አያካትቱም፣ አያሰራጩም ወይም አያሻሽሉም።\n\nውጤቶቹ ከመጀመሪያው ፈርምዌር ሊለዩ ይችላሉ። ይህ ባህሪ ምንም ዓይነት ዋስትና ሳይኖረው እንዳለ ይቀርባል፤ በራስዎ ኃላፊነት ይጠቀሙበት።\n\nሁሉም የንግድ ምልክቶች የየራሳቸው ባለቤቶች ንብረት ናቸው።</string>
     <string name="tile_reading_low_refresh">ንባብ 30 ኸርዝ</string>
     <string name="tile_touch_sensitivity">የንክኪ ስሜታዊነት</string>
     <string name="tile_touch_sensitivity_low">የመዳፍ መከላከል</string>

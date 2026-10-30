@@ -210,6 +210,13 @@
     <string name="perf_refresh_rate_none">Hindi naka-lock</string>
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">I-reset sa preset</string>
+    <string name="disclaimer_miravision_trademark">Ang MediaTek at MiraVision ay mga trademark ng MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Ang Dolby, Dolby Atmos, at double-D na simbolo ay mga rehistradong trademark ng Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Nagbibigay lang ang mga setting na ito ng access sa mga feature na nakapaloob na sa orihinal na firmware ng device. Hindi kasama o binabago ng mga ito ang anumang proprietary software.</string>
+    <string name="disclaimer_title">Pagtatanggi</string>
+    <string name="disclaimer_close">Isara</string>
+    <string name="disclaimer_miravision_message">Isinulat ng mga developer ng komunidad ng LineageOS ang mga setting na ito. Hindi sila kaanib, ineendorso, o pinahintulutan ng MediaTek o Lenovo.\n\nGinagawa ang pagproseso ng larawan ng mga proprietary na component ng MediaTek na kasama ng device. Ginagamit lang ng mga setting na ito ang mga interface na dati nang ibinibigay ng mga component na iyon; hindi nila isinasama, ipinapamahagi, o binabago ang mga ito.\n\nMaaaring iba ang mga resulta sa orihinal na firmware. Ibinibigay ang feature na ito ayon sa kasalukuyang kalagayan nito, nang walang anumang uri ng warranty; gamitin ito sa sarili mong panganib.\n\nPag-aari ng kani-kanilang may-ari ang lahat ng trademark.</string>
+    <string name="disclaimer_dolby_message">Isinulat ng mga developer ng komunidad ng LineageOS ang mga setting na ito. Hindi sila kaanib, ineendorso, o pinahintulutan ng Dolby Laboratories o Lenovo.\n\nGinagawa ang pagproseso ng tunog ng mga proprietary na component ng Dolby na kasama ng device. Ginagamit lang ng mga setting na ito ang mga interface na dati nang ibinibigay ng mga component na iyon; hindi nila isinasama, ipinapamahagi, o binabago ang mga ito.\n\nMaaaring iba ang mga resulta sa orihinal na firmware. Ibinibigay ang feature na ito ayon sa kasalukuyang kalagayan nito, nang walang anumang uri ng warranty; gamitin ito sa sarili mong panganib.\n\nPag-aari ng kani-kanilang may-ari ang lahat ng trademark.</string>
     <string name="tile_reading_low_refresh">Reading 30 Hz</string>
     <string name="tile_touch_sensitivity">Sensitivity ng touch</string>
     <string name="tile_touch_sensitivity_low">Pagtanggi sa palad</string>

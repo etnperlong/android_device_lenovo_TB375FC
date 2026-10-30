@@ -203,6 +203,13 @@
     <string name="perf_refresh_rate_title">Læsa endurnýjunartíðni</string>
     <string name="perf_refresh_rate_none">Ólæst</string>
     <string name="perf_advanced_reset_title">Endurstilla á forstillingu</string>
+    <string name="disclaimer_miravision_trademark">MediaTek og MiraVision eru vörumerki MediaTek Inc.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos og tvöfalda D-merkið eru skráð vörumerki Dolby Laboratories Licensing Corporation.</string>
+    <string name="disclaimer_footer_notice">Þessar stillingar veita aðeins aðgang að eiginleikum sem eru innbyggðir í upprunalegan fastbúnað tækisins. Þær innihalda ekki sérhugbúnað og breyta honum ekki.</string>
+    <string name="disclaimer_title">Fyrirvari</string>
+    <string name="disclaimer_close">Loka</string>
+    <string name="disclaimer_miravision_message">Þessar stillingar eru skrifaðar af forriturum LineageOS-samfélagsins. Þeir eru ekki tengdir MediaTek eða Lenovo og fyrirtækin hafa hvorki samþykkt né heimilað þær.\n\nMyndvinnsla er framkvæmd af séreignaríhlutum MediaTek sem fylgdu tækinu. Þessar stillingar nota aðeins viðmótin sem íhlutirnir bjóða nú þegar; þær innihalda, dreifa eða breyta þeim ekki.\n\nNiðurstöður geta verið aðrar en í upprunalega fastbúnaðinum. Þessi eiginleiki er veittur eins og hann er, án nokkurrar ábyrgðar; notaðu hann á eigin ábyrgð.\n\nÖll vörumerki eru eign viðkomandi eigenda.</string>
+    <string name="disclaimer_dolby_message">Þessar stillingar eru skrifaðar af forriturum LineageOS-samfélagsins. Þeir eru ekki tengdir Dolby Laboratories eða Lenovo og fyrirtækin hafa hvorki samþykkt né heimilað þær.\n\nHljóðvinnsla er framkvæmd af séreignaríhlutum Dolby sem fylgdu tækinu. Þessar stillingar nota aðeins viðmótin sem íhlutirnir bjóða nú þegar; þær innihalda, dreifa eða breyta þeim ekki.\n\nNiðurstöður geta verið aðrar en í upprunalega fastbúnaðinum. Þessi eiginleiki er veittur eins og hann er, án nokkurrar ábyrgðar; notaðu hann á eigin ábyrgð.\n\nÖll vörumerki eru eign viðkomandi eigenda.</string>
     <string name="tile_reading_low_refresh">Lestur 30 Hz</string>
     <string name="tile_touch_sensitivity">Snertinæmi</string>
     <string name="tile_touch_sensitivity_low">Hafna lófasnertingu</string>

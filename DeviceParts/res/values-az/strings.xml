@@ -210,6 +210,13 @@
     <string name="perf_refresh_rate_none">Kilidlənməyib</string>
     <string name="perf_refresh_rate_hz">%1$d Hs</string>
     <string name="perf_advanced_reset_title">Əvvəlcədən təyin edilmiş parametrlərə sıfırlayın</string>
+    <string name="disclaimer_miravision_trademark">MediaTek və MiraVision MediaTek Inc.-in ticarət nişanlarıdır.</string>
+    <string name="disclaimer_dolby_trademark">Dolby, Dolby Atmos və qoşa-D simvolu Dolby Laboratories Licensing Corporation-un qeydə alınmış ticarət nişanlarıdır.</string>
+    <string name="disclaimer_footer_notice">Bu parametrlər yalnız cihazın orijinal proqram təminatında quraşdırılmış funksiyalara giriş imkanı verir. Heç bir mülkiyyət proqramını daxil etmir və ya dəyişdirmir.</string>
+    <string name="disclaimer_title">Məsuliyyətdən imtina</string>
+    <string name="disclaimer_close">Bağla</string>
+    <string name="disclaimer_miravision_message">Bu parametrlər LineageOS icmasının tərtibatçıları tərəfindən yazılıb. Onların MediaTek və ya Lenovo ilə əlaqəsi yoxdur, bu şirkətlər tərəfindən dəstəklənmir və ya səlahiyyət verilməyib.\n\nŞəkil emalı cihazla birlikdə gələn MediaTek-in mülkiyyət komponentləri vasitəsilə aparılır. Bu parametrlər yalnız həmin komponentlərin artıq təqdim etdiyi interfeyslərdən istifadə edir; onları daxil etmir, yaymır və ya dəyişdirmir.\n\nNəticələr orijinal proqram təminatından fərqlənə bilər. Bu funksiya heç bir zəmanət verilmədən olduğu kimi təqdim olunur; öz riskinizlə istifadə edin.\n\nBütün ticarət nişanları müvafiq sahiblərinin mülkiyyətidir.</string>
+    <string name="disclaimer_dolby_message">Bu parametrlər LineageOS icmasının tərtibatçıları tərəfindən yazılıb. Onların Dolby Laboratories və ya Lenovo ilə əlaqəsi yoxdur, bu şirkətlər tərəfindən dəstəklənmir və ya səlahiyyət verilməyib.\n\nSəs emalı cihazla birlikdə gələn Dolby-nin mülkiyyət komponentləri vasitəsilə aparılır. Bu parametrlər yalnız həmin komponentlərin artıq təqdim etdiyi interfeyslərdən istifadə edir; onları daxil etmir, yaymır və ya dəyişdirmir.\n\nNəticələr orijinal proqram təminatından fərqlənə bilər. Bu funksiya heç bir zəmanət verilmədən olduğu kimi təqdim olunur; öz riskinizlə istifadə edin.\n\nBütün ticarət nişanları müvafiq sahiblərinin mülkiyyətidir.</string>
     <string name="tile_reading_low_refresh">Oxuma 30 Hs</string>
     <string name="tile_touch_sensitivity">Toxunma həssaslığı</string>
     <string name="tile_touch_sensitivity_low">Ovucdan qorunma</string>

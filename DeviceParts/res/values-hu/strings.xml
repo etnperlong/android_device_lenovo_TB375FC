@@ -210,6 +210,13 @@
     <string name="perf_refresh_rate_none">Nincs zárolva</string>
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Visszaállítás az előbeállításra</string>
+    <string name="disclaimer_miravision_trademark">A MediaTek és a MiraVision a MediaTek Inc. védjegyei.</string>
+    <string name="disclaimer_dolby_trademark">A Dolby, a Dolby Atmos és a kettős D szimbólum a Dolby Laboratories Licensing Corporation bejegyzett védjegyei.</string>
+    <string name="disclaimer_footer_notice">Ezek a beállítások csak az eszköz eredeti firmware-ébe épített funkciókhoz biztosítanak hozzáférést. Saját tulajdonú szoftvert nem tartalmaznak és nem módosítanak.</string>
+    <string name="disclaimer_title">Jogi nyilatkozat</string>
+    <string name="disclaimer_close">Bezárás</string>
+    <string name="disclaimer_miravision_message">Ezeket a beállításokat a LineageOS közösség fejlesztői készítették. Nem állnak kapcsolatban a MediaTekkel vagy a Lenovóval, és ezeket a cégek nem hagyták jóvá, illetve nem engedélyezték.\n\nA képfeldolgozást az eszközhöz mellékelt, MediaTek tulajdonában lévő összetevők végzik. Ezek a beállítások csak az összetevők által már biztosított felületeket használják; nem tartalmazzák, nem terjesztik és nem módosítják azokat.\n\nAz eredmények eltérhetnek az eredeti firmware-től. Ez a funkció mindenféle garancia nélkül, jelen állapotában érhető el; saját felelősségére használja.\n\nMinden védjegy a megfelelő tulajdonos tulajdona.</string>
+    <string name="disclaimer_dolby_message">Ezeket a beállításokat a LineageOS közösség fejlesztői készítették. Nem állnak kapcsolatban a Dolby Laboratories vállalattal vagy a Lenovóval, és ezeket a cégek nem hagyták jóvá, illetve nem engedélyezték.\n\nA hangfeldolgozást az eszközhöz mellékelt, Dolby tulajdonában lévő összetevők végzik. Ezek a beállítások csak az összetevők által már biztosított felületeket használják; nem tartalmazzák, nem terjesztik és nem módosítják azokat.\n\nAz eredmények eltérhetnek az eredeti firmware-től. Ez a funkció mindenféle garancia nélkül, jelen állapotában érhető el; saját felelősségére használja.\n\nMinden védjegy a megfelelő tulajdonos tulajdona.</string>
     <string name="tile_reading_low_refresh">Olvasás 30 Hz</string>
     <string name="tile_touch_sensitivity">Érintési érzékenység</string>
     <string name="tile_touch_sensitivity_low">Tenyérelutasítás</string>
