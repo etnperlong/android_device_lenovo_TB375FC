@@ -58,11 +58,37 @@ lib_fixups: lib_fixups_user_type = {
         'vendor.mediatek.hardware.netdagent@1.0',
     ): lib_fixup_remove,
 }
+
+
+# mmd sets up zram and its writeback device after boot_completed (see
+# rootdir/etc/init/init.tb375fc-zram.rc). Stock vendor init sets it up first
+# with swapon_all, whose zram_backingdev_size=prop only Lenovo's patched
+# fs_mgr understands; mmd then finds zram on and skips its own setup.
+zram_swapon_trigger_fixup = blob_fixup().regex_replace(
+    r'(?m)^\n    trigger swapon_zram\n'
+    r'|^\non swapon_zram\n    swapon_all /vendor/etc/fstab\.(enableswap|zram_wb)\n',
+    '',
+)
+zram_swapon_boot_fixup = blob_fixup().regex_replace(
+    r'(?m)^\n    # zram writeback\n'
+    r'    setprop persist\.sys\.zram_enabled 1\n'
+    r'    swapon_all /vendor/etc/fstab\.enableswap\n',
+    '',
+)
+
 blob_fixups: blob_fixups_user_type = {
     'vendor/etc/init/hw/meta_init.vendor.rc': blob_fixup().regex_replace(
         r'(?m)^import /vendor/etc/init/android\.hardware\.drm-service\.clearkey\.rc\n',
         '',
     ),
+    (
+        'vendor/etc/init/hw/init.mt6897.rc',
+        'vendor/etc/init/hw/init.mt8792.rc',
+    ): zram_swapon_boot_fixup,
+    (
+        'vendor/etc/init/hw/init.project.rc',
+        'vendor/etc/init/init.extend_reclaim.rc',
+    ): zram_swapon_trigger_fixup,
 }
 
 

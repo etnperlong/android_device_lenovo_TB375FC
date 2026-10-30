@@ -259,13 +259,14 @@ The Novatek touch driver has a game mode (`/proc/game_mode`, sent to the touch c
 Stock's Lenovo battery HAL stops and restarts charging through `/sys/class/wt-battery/charging_enabled` (`1` = charge, `0` = stop). The LineageOS health HAL toggles the same node, which enables Settings -> Battery -> Charging control. Only the on/off toggle is configured, so a charge limit works by stopping the charger at the limit and restarting it a few percent below. Bypass mode stays off: it is not known whether the adapter alone powers the tablet while the charger is stopped.
 
 ### Patched prebuilt modules
-Three stock kernel modules are modified; all are required, and extracting from a stock device gives the unpatched versions.
+Three stock kernel modules are modified and one is rebuilt; all are required, and extracting from a stock device gives the stock versions.
 
 | Module | Change |
 |--------|--------|
 | `nt36532.ko` | Touch firmware loads on the first attempt in recovery instead of timing out for ~15 s |
 | `wlan_drv_gen4m_6897.ko` | Fixes a WPA3 association failure in the stock driver |
 | `hall.ko` | Reports the folio cover as `SW_LID` instead of key codes 252/253; reproducible with `tools/patch_hall_ko.py`, details in `docs/hall-ko-lid-switch.md` |
+| `zram_ext.ko` | Rebuilt from source. Lenovo's (MediaTek's `zram_ext/zram_601`, GPL source in the [mt8792](https://github.com/mt8792/android_vendor_mediatek_kernel-modules) kernel package) is GKI zram with writeback and its own `wb_size=` mode, but without the `huge_idle` writeback mode mmd uses first, so every mmd writeback failed. The replacement is android14-6.1 (`android14-6.1-2026-09_r5`) zram as `drivers/block/zram_ext`, branch `patch/zram_ext` at `e084d821a192`: writeback, Lenovo's `wb_size=` and `idle_page_size`, access-time tracking (`idle <seconds>`), recompression and incompressible writeback backported from 6.2/6.3, and compressed writeback. Built against GKI build 16707926's `Module.symvers`, so its symbol CRCs and vermagic match the stock kernel; it is unsigned, which GKI allows for zram |
 
 ### Signing
 Builds from this tree are signed with the public AOSP test keys, which is fine for personal use but not something to trust for anything security sensitive. Generate your own keys and sign your own build.

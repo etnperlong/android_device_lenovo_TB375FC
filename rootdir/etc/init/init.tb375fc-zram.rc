@@ -1,0 +1,22 @@
+# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+# RAM expansion: mmd (system/memory/mmd) sets up zram once after
+# boot_completed, with a writeback file of mmd.zram.writeback.device_size
+# bytes in /data/per_boot/zram (0 skips it). DeviceParts stores the user's
+# choice in persist.sys.tb375fc.zram.*; it is handed to mmd here, before mmd
+# runs, so a change takes effect on the next boot. The sys.* copies tell
+# DeviceParts what this boot applied. Installed to system_ext with DeviceParts,
+# which owns these properties; the fixed mmd settings are vendor properties
+# (device.mk).
+
+on property:ro.persistent_properties.ready=true
+    setprop mmd.zram.comp_algorithm ${persist.sys.tb375fc.zram.comp_algorithm:-lz4}
+    setprop mmd.zram.writeback.device_size ${persist.sys.tb375fc.zram.writeback_size:-0}
+    setprop sys.tb375fc.zram.comp_algorithm ${persist.sys.tb375fc.zram.comp_algorithm:-lz4}
+    setprop sys.tb375fc.zram.writeback_size ${persist.sys.tb375fc.zram.writeback_size:-0}
+
+# Idle slots are recompressed with zstd (device.mk); with zstd already the
+# primary algorithm that only burns CPU, every slot coming out incompressible.
+on property:ro.persistent_properties.ready=true && property:persist.sys.tb375fc.zram.comp_algorithm=zstd
+    setprop mmd.zram.recompression.enabled false

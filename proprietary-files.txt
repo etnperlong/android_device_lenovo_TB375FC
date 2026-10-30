@@ -90,6 +90,11 @@
 #   vendor.storage.dynamicdata.type=userdata, after init.mt8792.rc already
 #   mounted the identical fstab.mt8792; fs_mgr then fscks mounted partitions.
 
+# Do not list stock fstab.enableswap or fstab.zram_wb. They set up zram with
+# zram_backingdev_size=prop, which only Lenovo's patched fs_mgr reads (as
+# persist.sys.zram_wb_size); mmd sets up zram here, and the swapon_all lines
+# that read them are removed by extract-files.py.
+
 odm/etc/vintf/manifest.xml;MAKE_COPY_RULE_ONLY
 odm/etc/vintf/manifest_dsds.xml;MAKE_COPY_RULE_ONLY
 odm/etc/vintf/manifest_qsqs.xml;MAKE_COPY_RULE_ONLY
@@ -524,12 +529,10 @@ vendor/etc/ecc_list_OP236.xml
 vendor/etc/ecc_list_preference.xml
 vendor/etc/factory.ini
 vendor/etc/fstab.emmc
-vendor/etc/fstab.enableswap
 vendor/etc/fstab.mt6897
 vendor/etc/fstab.mt6897dm
 vendor/etc/fstab.mt8792
 vendor/etc/fstab.mt8792dm
-vendor/etc/fstab.zram_wb
 vendor/etc/genshin.dla
 vendor/etc/gralloc/cam.xml
 vendor/etc/gralloc/dpu.xml

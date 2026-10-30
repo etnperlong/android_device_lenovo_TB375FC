@@ -21,4 +21,5 @@ PRODUCT_COPY_FILES += \
     device/lenovo/TB375FC/rootdir/etc/init/vendor.lenovo.hardware.keyboard-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lenovo.hardware.keyboard-service.rc \
     device/lenovo/TB375FC/rootdir/etc/init/vendor.mediatek.hardware.tinno_keyboard@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.tinno_keyboard@1.0-service.rc \
     device/lenovo/TB375FC/rootdir/etc/init/init.tb375fc-lenovocust.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.tb375fc-lenovocust.rc \
-    device/lenovo/TB375FC/rootdir/etc/init/init.tb375fc-charging.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.tb375fc-charging.rc
+    device/lenovo/TB375FC/rootdir/etc/init/init.tb375fc-charging.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.tb375fc-charging.rc \
+    device/lenovo/TB375FC/rootdir/etc/init/init.tb375fc-zram.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.tb375fc-zram.rc

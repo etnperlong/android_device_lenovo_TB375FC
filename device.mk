@@ -466,6 +466,26 @@ PRODUCT_PACKAGES += \
 PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.magt.mtk_magt_support=0
 
+# zram: mmd (system/memory/mmd) sets it up after boot_completed, at stock's
+# size (all of RAM), instead of stock's swapon_all, which needs Lenovo's
+# patched fs_mgr (see extract-files.py). The writeback file ("RAM expansion"
+# in DeviceParts) and the compression algorithm are handed to mmd by
+# rootdir/etc/init/init.tb375fc-zram.rc. Idle slots are recompressed with
+# zstd on top of the chosen algorithm.
+#
+# prebuilts/modules/vendor_dlkm/zram_ext.ko is not stock: Lenovo's lacks the
+# huge_idle writeback mode that mmd uses, and with it every mmd writeback
+# failed. It is built from android14-6.1 branch patch/zram_ext (e084d821a192,
+# drivers/block/zram_ext) against GKI build 16707926: zram with writeback,
+# access time tracking, recompression and compressed writeback, plus Lenovo's
+# wb_size= and idle_page_size.
+PRODUCT_VENDOR_PROPERTIES += \
+    mmd.zram.enabled=true \
+    mmd.zram.size=100% \
+    mmd.zram.writeback.enabled=true \
+    mmd.zram.recompression.enabled=true \
+    mmd.zram.recompression.algorithm=zstd
+
 # HDR + spatial audio (MTK PQ pipeline). Mirrors stock A14 ZUI 16/17 to enable
 # HDR10+/HDR Vivid/CUVA and Dolby Atmos spatial audio. Without these the
 # framework reports the panel as SDR-only even though the dtb / hwcomposer /

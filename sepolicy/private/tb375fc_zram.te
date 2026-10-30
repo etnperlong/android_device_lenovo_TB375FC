@@ -1,0 +1,8 @@
+# RAM expansion (zram writeback, see rootdir/etc/init/init.tb375fc-zram.rc).
+#
+# On this 6.1 kernel the loop driver does the I/O of the writeback file
+# (/data/per_boot/zram/zram_swap, created by mmd_setup) from kworker threads
+# in the kernel domain. AOSP only lets the kernel read per_boot_file and not
+# touch zram_data_file at all (b/454531915), so every zram writeback and every
+# read of a written-back page was denied and failed.
+allow kernel zram_data_file:file { read write };
