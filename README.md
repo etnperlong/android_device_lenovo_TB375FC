@@ -15,7 +15,7 @@ LineageOS 24.0 (Android 17) device tree for the Lenovo Xiaoxin Pad Pro 12.7 (202
 | Cameras | 13 MP rear, 8 MP front |
 | Fingerprint | Goodix |
 | Stylus | Lenovo Tab Pen Plus (active pen) |
-| Stock | Android 16 (ZUXOS 1.5.10.103); launched on Android 14 (API 34) |
+| Stock | Android 16 (ZUXOS 1.5.10.123); launched on Android 14 (API 34) |
 
 ## Build
 
@@ -79,12 +79,12 @@ hardware test.
 ## Notes
 
 ### Device name
-The default device name is `Lenovo Xiaoxin Pad Pro 12.7`, matching the English market name in stock ZUXOS `.103`. The SettingsProvider overlay supplies this name without changing `PRODUCT_MODEL`, which remains `TB375FC`, as do the stock vendor model and its boot-time `ro.product.model_for_attestation` assignment. Existing saved device names are preserved; change them in Settings → About tablet → Device name.
+The default device name is `Lenovo Xiaoxin Pad Pro 12.7`, matching the English market name in stock ZUXOS `.123`. The SettingsProvider overlay supplies this name without changing `PRODUCT_MODEL`, which remains `TB375FC`, as do the stock vendor model and its boot-time `ro.product.model_for_attestation` assignment. Existing saved device names are preserved; change them in Settings → About tablet → Device name.
 
 ### Play Integrity
 
 - `remote_provisioning.hostname` is set to `remoteprovisioning.googleapis.com`,
-  as in stock ZUXOS `.103` `/product/etc/build.prop`, so rkpd fetches
+  as in stock ZUXOS `.123` `/product/etc/build.prop`, so rkpd fetches
   Google-rooted attestation keys for the beanpod KeyMint. Without it keystore2
   attests with the KeyMint factory key, and on Android 13+
   `MEETS_BASIC_INTEGRITY` requires a Google attestation root.
@@ -104,7 +104,7 @@ APEX, selected through `android.hardware.drm@latest-service.clearkey`.
 The ClearKey CAS plugin is also the AOSP build (installed by `base_vendor.mk`);
 the stock one linked `libprotobuf-cpp-*-21.7.so`, which Android 17 lacks.
 Stock Widevine and its OEMCrypto library remain independently shipped;
-the original ZUI `.103` Widevine components are retained. The vendor linker
+the stock ZUI `.123` Widevine components are used unchanged. The vendor linker
 configuration exports `liboemcrypto.so` to the Widevine APEX, matching stock;
 without this namespace link, the CDM can fall back to L3 even though the
 library is installed. L1 provisioning, relocked-bootloader behavior and

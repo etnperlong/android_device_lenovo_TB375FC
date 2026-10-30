@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 # TB375FC blob extraction + makefile generation entry point.
-# Vendor updates use PRC .103/P16; retain existing Lineage adaptations.
+# Vendor updates use PRC .123/P34; retain existing Lineage adaptations.
 # Run --regenerate_makefiles (-m) against the maintained proprietary/ tree.
 # Use a disposable dump and isolated checkout for full re-extraction.
 # No source argument extracts over adb.

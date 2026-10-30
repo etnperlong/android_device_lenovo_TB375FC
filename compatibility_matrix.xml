@@ -7,8 +7,9 @@
     DEVICE_MATRIX_FILE into /vendor/etc/vintf/compatibility_matrix.xml.
 
     The matrix is copied verbatim from stock A16 vendor extraction
-    (TB375FC_CN_OPEN_USER_M21.814_A16_ZUI_17.5.10.060_ST_260225) so the
-    runtime VINTF check has the same expectations as stock. Earlier we
+    (TB375FC_CN_OPEN_USER_M21.814_A16_ZUI_17.5.10.060_ST_260225; unchanged
+    through 17.5.10.123_ST_260906) so the runtime VINTF check has the same
+    expectations as stock. Earlier we
     shipped a hand-derived type="framework" matrix with 40 entries;
     assemble_vintf stripped optional="true" from all of them, causing
     every HAL to become required at boot and fail the vendor manifest

@@ -51,8 +51,8 @@ BOARD_BOOT_HEADER_VERSION     := 4
 BOARD_INIT_BOOT_HEADER_VERSION   := 4
 BOARD_VENDOR_BOOT_HEADER_VERSION := 4
 
-# DTB. 411 KB from the .103 stock TB375FC vendor_boot dtb section
-# (md5 20a492887dceeb4933bb3554d46cb55f). dtb_offset is stock's
+# DTB. 411 KB from the stock TB375FC vendor_boot dtb section, identical in
+# .103 and .123 (md5 20a492887dceeb4933bb3554d46cb55f). dtb_offset is stock's
 # `dtb address 0x47c80000` minus `kernel load address 0x40000000`.
 TARGET_PREBUILT_DTB           := $(DEVICE_PATH)/prebuilts/dtb/dtb.img
 
@@ -136,14 +136,14 @@ TARGET_VENDOR_PROP := $(DEVICE_PATH)/vendor.prop
 
 # Vendor security patch level. Without this ro.vendor.build.security_patch is
 # empty and Settings reports the vendor patch level as "Unknown". The vendor
-# partition is the stock TB375FC PRC ZUXOS 1.5.10.103 extraction (built
-# 2026-05-25). Its build.prop still claims 2024-10-05 (vendor build id
+# partition is the stock TB375FC PRC ZUXOS 1.5.10.123 extraction (built
+# 2026-09-06). Its build.prop still claims 2024-10-05 (vendor build id
 # AP3A.240905.015), but the vendor partition was updated with the Android 15 ->
-# 16 upgrade. Report the system patch level of that release, 2026-05-05,
+# 16 upgrade. Report the system patch level of that release, 2026-08-05,
 # instead.
 # KeyMint reads this value as the vendor patch level and upgrades keys when it
 # rises, so it must never go back down on an installed device.
-VENDOR_SECURITY_PATCH := 2026-05-05
+VENDOR_SECURITY_PATCH := 2026-08-05
 
 # Boot security patch level. The LK reads com.android.build.boot.security_patch
 # from the boot AVB descriptor and hands it to the TEE as the KeyMint boot patch

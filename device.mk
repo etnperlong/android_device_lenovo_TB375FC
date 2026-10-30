@@ -273,7 +273,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.config.lgsi.cmitid=CMIT_ID-LGSIU-2023 \
     ro.vendor.config.lgsi.aod.support=0 \
     ro.vendor.mediatek.version.branch=alps-mp-u0.mp1 \
-    ro.vendor.mediatek.version.release=alps-mp-u0.mp1.rc-V8.14_lenovo.p12.u0mp1rc.tb8792p1.64_P16
+    ro.vendor.mediatek.version.release=alps-mp-u0.mp1.rc-V8.14_lenovo.p12.u0mp1rc.tb8792p1.64_P34
 
 # Widevine: the stock Lenovo Google Widevine non-updatable APEX is installed
 # through the vendor tree's `prebuilt_apex` module
