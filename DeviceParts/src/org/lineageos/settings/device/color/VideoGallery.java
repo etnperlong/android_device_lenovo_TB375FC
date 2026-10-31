@@ -324,18 +324,6 @@ final class VideoGallery implements GalleryPager.Callback {
             return;
         }
         final MediaPlayer player = new MediaPlayer();
-        try (AssetFileDescriptor clip = mContext.getResources().openRawResourceFd(
-                mClips[mIndex])) {
-            player.setDataSource(clip);
-        } catch (IOException e) {
-            Log.e(TAG, "Cannot open clip " + mIndex, e);
-            player.release();
-            mActive = false;
-            mPlaying = false;
-            updateControls();
-            return;
-        }
-        player.setDisplay(mHolder);
         player.setScreenOnWhilePlaying(true);
         player.setLooping(true);
         player.setOnPreparedListener(mp -> onPrepared());
@@ -355,9 +343,24 @@ final class VideoGallery implements GalleryPager.Callback {
             setChromeShown(true, true);
             return true;
         });
+        // These throw rather than report an error when the media server is not there, e.g.
+        // right after it died with the previous player.
+        try (AssetFileDescriptor clip = mContext.getResources().openRawResourceFd(
+                mClips[mIndex])) {
+            player.setDataSource(clip);
+            player.setDisplay(mHolder);
+            player.prepareAsync();
+        } catch (IOException | IllegalStateException | IllegalArgumentException e) {
+            Log.e(TAG, "Cannot open clip " + mIndex, e);
+            player.release();
+            mActive = false;
+            mPlaying = false;
+            updateControls();
+            setChromeShown(true, true);
+            return;
+        }
         mPlayer = player;
         mPrepared = false;
-        player.prepareAsync();
     }
 
     private void onPrepared() {
