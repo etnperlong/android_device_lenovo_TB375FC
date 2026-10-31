@@ -374,6 +374,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     DeviceParts
 
+# DeviceParts' full-screen galleries turn the screen to landscape: static
+# app-compat overrides let its sensorLandscape through the large-screen
+# orientation policy (see the file for the two change IDs).
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/appcompat/compat_framework_overrides.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/appcompat/compat_framework_overrides.xml
+
 # Lenovo keyboard / pen accessory key layouts and input configs, from stock
 # /system/usr. ZUI-only key labels (unknown to LineageOS libinput, which would
 # reject the whole file) are commented out or mapped to the closest AOSP key.

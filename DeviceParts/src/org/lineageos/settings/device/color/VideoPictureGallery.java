@@ -6,24 +6,20 @@
 package org.lineageos.settings.device.color;
 
 import android.content.Context;
-import android.content.Intent;
+import android.os.Bundle;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
 
-import androidx.activity.result.ActivityResultLauncher;
-import androidx.activity.result.contract.ActivityResultContracts;
-
 /**
  * The 16:9 player card at the top of the video picture page (see VideoGallery). Full screen
- * continues the clip where it is, and coming back the card continues where full screen left.
+ * continues the clip where it is, and coming back the card continues where full screen left
+ * (see GalleryHandoff).
  */
 public class VideoPictureGallery extends FrameLayout implements VideoGallery.Host {
     private static final int RATIO_WIDTH = 16;
     private static final int RATIO_HEIGHT = 9;
-    private static final String RESULT_KEY = "video_picture_gallery";
 
     private VideoGallery mGallery;
-    private ActivityResultLauncher<Intent> mFullScreen;
 
     public VideoPictureGallery(Context context, AttributeSet attrs) {
         super(context, attrs);
@@ -37,43 +33,30 @@ public class VideoPictureGallery extends FrameLayout implements VideoGallery.Hos
 
     @Override
     public void onFullScreenClicked() {
-        if (mFullScreen == null) {
-            return;
-        }
-        final Intent intent = new Intent(getContext(), VideoPictureFullScreenActivity.class)
-                .putExtra(VideoPictureFullScreenActivity.EXTRA_INDEX, mGallery.getIndex())
-                .putExtra(VideoPictureFullScreenActivity.EXTRA_POSITION, mGallery.getPosition())
-                .putExtra(VideoPictureFullScreenActivity.EXTRA_PLAYING, mGallery.isPlaying());
+        final Bundle extras = new Bundle();
+        extras.putInt(VideoPictureFullScreenActivity.EXTRA_INDEX, mGallery.getIndex());
+        extras.putInt(VideoPictureFullScreenActivity.EXTRA_POSITION, mGallery.getPosition());
+        extras.putBoolean(VideoPictureFullScreenActivity.EXTRA_PLAYING, mGallery.isPlaying());
         // Full screen opens its own decoder; this one goes first.
         mGallery.suspend();
-        mFullScreen.launch(intent);
+        GalleryHandoff.launch(getContext(), VideoPictureFullScreenActivity.class, extras);
     }
 
     @Override
-    protected void onAttachedToWindow() {
-        super.onAttachedToWindow();
-        // Registered with a fixed key, so a result for a recreated page still arrives.
-        mFullScreen = ScreenColorGallery.findActivity(getContext()).getActivityResultRegistry()
-                .register(RESULT_KEY, new ActivityResultContracts.StartActivityForResult(),
-                        result -> {
-                            final Intent data = result.getData();
-                            if (data != null) {
-                                mGallery.restore(
-                                        data.getIntExtra(VideoPictureFullScreenActivity.EXTRA_INDEX,
-                                                0),
-                                        data.getIntExtra(
-                                                VideoPictureFullScreenActivity.EXTRA_POSITION, 0),
-                                        data.getBooleanExtra(
-                                                VideoPictureFullScreenActivity.EXTRA_PLAYING,
-                                                false));
-                            }
-                        });
+    protected void onWindowVisibilityChanged(int visibility) {
+        super.onWindowVisibilityChanged(visibility);
+        if (visibility == VISIBLE) {
+            final Bundle state = GalleryHandoff.take(VideoPictureFullScreenActivity.class);
+            if (state != null) {
+                mGallery.restore(state.getInt(VideoPictureFullScreenActivity.EXTRA_INDEX),
+                        state.getInt(VideoPictureFullScreenActivity.EXTRA_POSITION),
+                        state.getBoolean(VideoPictureFullScreenActivity.EXTRA_PLAYING));
+            }
+        }
     }
 
     @Override
     protected void onDetachedFromWindow() {
-        mFullScreen.unregister();
-        mFullScreen = null;
         mGallery.release();
         super.onDetachedFromWindow();
     }

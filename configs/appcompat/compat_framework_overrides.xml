@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Static app-compat overrides, loaded by system_server's CompatConfig from
+    /product/etc/appcompat/ at boot.
+
+    DeviceParts' full-screen screen color and video picture galleries request
+    sensorLandscape. On this sw866dp tablet the display ignores fixed-orientation
+    requests, and from target SDK 36 the request is dropped from the activity
+    too, so both overrides are needed for the gallery to turn the screen:
+      357141415 UNIVERSAL_RESIZABLE_BY_DEFAULT          off: keep the manifest orientation
+      236283604 OVERRIDE_RESPECT_REQUESTED_ORIENTATION  on:  the display follows it
+    Both changes are @Overridable. The second only applies to activities in a
+    fullscreen task (not embedded in the Settings split), and DeviceParts
+    declares no other fixed orientation.
+-->
+<overrides>
+    <change-overrides changeId="357141415">
+        <validated>
+            <override-value packageName="org.lineageos.settings.device" enabled="false" />
+        </validated>
+        <raw>
+            <raw-override-value packageName="org.lineageos.settings.device"
+                minVersionCode="-9223372036854775808" maxVersionCode="9223372036854775807"
+                enabled="false" />
+        </raw>
+    </change-overrides>
+    <change-overrides changeId="236283604">
+        <validated>
+            <override-value packageName="org.lineageos.settings.device" enabled="true" />
+        </validated>
+        <raw>
+            <raw-override-value packageName="org.lineageos.settings.device"
+                minVersionCode="-9223372036854775808" maxVersionCode="9223372036854775807"
+                enabled="true" />
+        </raw>
+    </change-overrides>
+</overrides>

@@ -126,9 +126,15 @@
             android:label="@string/color_app_profiles_title"
             android:theme="@style/Theme.SubSettingsBase" />
 
+        <!-- Full screen leaves the Settings split for a task of its own, gone from recents, and
+             turns the screen to landscape (configs/appcompat lets the request through the
+             large-screen orientation policy). See GalleryHandoff. -->
         <activity
             android:name=".color.ScreenColorGalleryActivity"
+            android:excludeFromRecents="true"
             android:exported="false"
+            android:screenOrientation="sensorLandscape"
+            android:taskAffinity="org.lineageos.settings.device.gallery"
             android:theme="@style/Theme.ScreenColorGallery" />
 
         <activity
@@ -157,12 +163,15 @@
                 android:resource="@string/video_picture_summary" />
         </activity>
 
-        <!-- Configuration changes, a folio keyboard attaching included, must not stop playback. -->
+        <!-- Like the screen color gallery. Configuration changes, a folio keyboard attaching
+             included, must not stop playback. -->
         <activity
             android:name=".color.VideoPictureFullScreenActivity"
             android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:excludeFromRecents="true"
             android:exported="false"
             android:screenOrientation="sensorLandscape"
+            android:taskAffinity="org.lineageos.settings.device.gallery"
             android:theme="@style/Theme.ScreenColorGallery" />
 
         <activity

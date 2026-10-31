@@ -6,7 +6,6 @@
 package org.lineageos.settings.device.color;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.WindowInsets;
 import android.view.WindowInsetsController;
@@ -15,12 +14,13 @@ import android.widget.TextView;
 import org.lineageos.settings.device.R;
 
 /**
- * The video picture sample clips in full screen, landscape, with the system bars hidden until
- * swiped in, and who filmed the current clip (R.array.video_picture_credits) shown with the
- * controls. It starts and ends with the clip, position and play state of the inline player.
+ * The video picture sample clips in full screen, landscape and in a task of its own (out of the
+ * Settings split, see GalleryHandoff), with the system bars hidden until swiped in, and who
+ * filmed the current clip (R.array.video_picture_credits) shown with the controls. It starts and
+ * ends with the clip, position and play state of the inline player.
  */
 public class VideoPictureFullScreenActivity extends Activity implements VideoGallery.Host {
-    /** Clip, position in ms and play state to start with, and the ones left in the result. */
+    /** Clip, position in ms and play state to start with, and the ones left in the handoff. */
     static final String EXTRA_INDEX = "index";
     static final String EXTRA_POSITION = "position";
     static final String EXTRA_PLAYING = "playing";
@@ -65,10 +65,11 @@ public class VideoPictureFullScreenActivity extends Activity implements VideoGal
 
     @Override
     public void finish() {
-        setResult(RESULT_OK, new Intent()
-                .putExtra(EXTRA_INDEX, mGallery.getIndex())
-                .putExtra(EXTRA_POSITION, mGallery.getPosition())
-                .putExtra(EXTRA_PLAYING, mGallery.isPlaying()));
+        final Bundle state = new Bundle();
+        state.putInt(EXTRA_INDEX, mGallery.getIndex());
+        state.putInt(EXTRA_POSITION, mGallery.getPosition());
+        state.putBoolean(EXTRA_PLAYING, mGallery.isPlaying());
+        GalleryHandoff.leave(VideoPictureFullScreenActivity.class, state);
         // The inline player opens its own decoder as soon as it is back.
         mGallery.release();
         super.finish();

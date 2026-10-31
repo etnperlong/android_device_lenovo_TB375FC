@@ -6,7 +6,6 @@
 package org.lineageos.settings.device.color;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowInsets;
@@ -18,13 +17,14 @@ import android.widget.TextView;
 import org.lineageos.settings.device.R;
 
 /**
- * The screen color sample pictures in full screen, whole and swipeable, with the system bars
- * hidden until swiped in. The close button, the page dots and the credit of the current picture
+ * The screen color sample pictures in full screen, whole and swipeable, in landscape and in a
+ * task of its own (out of the Settings split, see GalleryHandoff), with the system bars hidden
+ * until swiped in. The close button, the page dots and the credit of the current picture
  * (R.array.screen_color_gallery_credits) are shown until the picture is tapped, which toggles
- * them. The picture shown last is returned to the inline gallery.
+ * them. The picture shown last is handed back to the inline gallery.
  */
 public class ScreenColorGalleryActivity extends Activity implements GalleryPager.Callback {
-    /** Picture to start with, and the one shown last in the result. */
+    /** Picture to start with, and the one shown last in the handoff. */
     static final String EXTRA_INDEX = "index";
     private static final String STATE_CHROME = "chrome";
 
@@ -90,7 +90,9 @@ public class ScreenColorGalleryActivity extends Activity implements GalleryPager
 
     @Override
     public void finish() {
-        setResult(RESULT_OK, new Intent().putExtra(EXTRA_INDEX, mPager.getCurrent()));
+        final Bundle state = new Bundle();
+        state.putInt(EXTRA_INDEX, mPager.getCurrent());
+        GalleryHandoff.leave(ScreenColorGalleryActivity.class, state);
         super.finish();
     }
 
