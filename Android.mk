@@ -12,7 +12,7 @@ LOCAL_PATH := $(call my-dir)
 # (including the toybox aliases the early-init module loader resolves cat/wc
 # through) and hangs boot at a black screen.
 ifneq ($(filter TB375FC TB373FU,$(TARGET_DEVICE)),)
-# 381 vendor/lib64 -> mt6897/* symlinks. Rules reference $(TARGET_OUT_VENDOR),
+# 381 vendor/lib64 and 97 vendor/lib -> mt6897/* symlinks. Rules reference $(TARGET_OUT_VENDOR),
 # which is only set after envsetup.mk runs - device.mk is parsed during
 # product-config (too early).
 include $(LOCAL_PATH)/tb375fc-vendor-symlinks.mk
