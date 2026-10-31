@@ -274,13 +274,24 @@ BOARD_AVB_VBMETA_VENDOR_ROLLBACK_INDEX_LOCATION     := 2
 # This is the retained DTBO salt, not a guarantee of matching every stock image.
 BOARD_AVB_DTBO_ADD_HASH_FOOTER_ARGS += --salt 4e6ccb7d15ef04077beaec9b0bfa9589d57b32eef1f731e4f38cbd4d4119b023
 
-# Recovery (LOS Recovery packed as vendor_boot ramdisk fragment). For A14+
-# GKI A/B devices recovery is a fragment inside vendor_boot.img (not its own
-# recovery.img). The bootloader switches
-# between vendor_ramdisk00 (default) and vendor_ramdisk01 (recovery) based
-# on the misc partition's bcb command.
+# Recovery: a ramdisk fragment inside vendor_boot.img (no recovery partition on
+# this A14+ GKI A/B device). The bootloader switches between vendor_ramdisk00
+# (default) and vendor_ramdisk01 (recovery) based on the misc partition's bcb
+# command.
 BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
 BOARD_INCLUDE_RECOVERY_RAMDISK_IN_VENDOR_BOOT := true
+
+# The recovery fragment is OrangeFox's prebuilt one, the
+# vendor_ramdisk_recovery.cpio (LZ4 legacy) of its build, packed verbatim
+# instead of the LineageOS recovery. build/make/core/Makefile honours
+# BOARD_VENDOR_RAMDISK_FRAGMENT.<name>.PREBUILT for the internal "recovery"
+# fragment too, and keeps its "--ramdisk_type RECOVERY --ramdisk_name recovery";
+# target-files carries it as VENDOR_BOOT/RAMDISK_FRAGMENTS/recovery/prebuilt_ramdisk,
+# so releasetools repacks the same fragment. The LineageOS recovery is still
+# built (BOARD_INCLUDE_RECOVERY_RAMDISK_IN_VENDOR_BOOT), but not packed; the
+# TARGET_RECOVERY_* settings below only apply to it. Delete this line to go
+# back to the LineageOS recovery.
+BOARD_VENDOR_RAMDISK_FRAGMENT.recovery.PREBUILT := $(DEVICE_PATH)/prebuilts/orangefox/vendor_ramdisk_recovery.cpio
 
 # Recovery fstab: same as fstab.mt8792 minus the dm-userdata and dm-lenovobackup
 # entries. Those map to device-mapper nodes that only come into existence
