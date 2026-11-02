@@ -406,11 +406,10 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/idc/Vendor_17ef_Product_617f.idc:$(TARGET_COPY_OUT_SYSTEM_EXT)/usr/idc/Vendor_17ef_Product_617f.idc \
     $(DEVICE_PATH)/configs/idc/Vendor_17ef_Product_61ba.idc:$(TARGET_COPY_OUT_SYSTEM_EXT)/usr/idc/Vendor_17ef_Product_61ba.idc
 
-# Lineage health HAL: Settings -> Battery -> Charging control (charge limit /
-# scheduled charging), toggling the charger like stock's charging protection.
-# Configured in BoardConfig.mk.
+# LineageOS health HAL on the stock charger driver (health/): Settings -> Battery ->
+# Charging control sets the driver's own charge limit.
 PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
+    vendor.lineage.health-service.tb375fc
 
 # Runtime resource overlays (overlay/), one per target package, static, on
 # vendor. Stock's MediaTek framework, Settings and SettingsProvider overlays

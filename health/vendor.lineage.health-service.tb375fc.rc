@@ -1,0 +1,7 @@
+# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+
+service vendor.lineage_health /vendor/bin/hw/vendor.lineage.health-service.tb375fc
+    class hal
+    user system
+    group system

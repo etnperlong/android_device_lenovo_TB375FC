@@ -1,8 +1,12 @@
-# Lineage health HAL charging control toggles /sys/class/wt-battery/charging_enabled,
-# which the MTK vendor policy labels sysfs_batteryinfo (genfscon /class/wt-battery).
-
-# init.tb375fc-charging.rc hands the node to the HAL's system uid.
-allow init sysfs_batteryinfo:file setattr;
+# vendor.lineage.health-service.tb375fc (hal_lineage_health_default) drives the stock charger
+# driver: /sys/class/wt-battery/charging_enabled, labeled sysfs_batteryinfo (genfscon
+# /class/wt-battery), and the battery's protection_setting_eu, labeled sysfs_pump_express by
+# the MTK vendor policy (genfscon .../7-0055/power_supply/battery/protection_setting_eu), as
+# for stock's Lenovo battery HAL.
+#
+# init.tb375fc-charging.rc hands both nodes to the HAL's system uid. It is a /vendor script, so
+# init runs its chown and chmod in the vendor_init subcontext, whose AOSP policy already allows
+# setattr on both labels; init itself needs nothing.
 
 allow hal_lineage_health_default sysfs_batteryinfo:dir search;
-allow hal_lineage_health_default sysfs_batteryinfo:file rw_file_perms;
+allow hal_lineage_health_default { sysfs_batteryinfo sysfs_pump_express }:file rw_file_perms;

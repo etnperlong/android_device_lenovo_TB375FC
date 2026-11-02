@@ -1,9 +1,11 @@
 # SPDX-FileCopyrightText: The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
-# vendor.lineage.health-service.default runs as system and toggles charging
-# through this node; the kernel creates it root:root 0644.
+# vendor.lineage.health-service.tb375fc runs as system and drives charging through these
+# nodes, which the kernel creates owned by root.
 
 on boot
     chown system system /sys/class/wt-battery/charging_enabled
     chmod 0664 /sys/class/wt-battery/charging_enabled
+    chown system system /sys/class/power_supply/battery/protection_setting_eu
+    chmod 0664 /sys/class/power_supply/battery/protection_setting_eu

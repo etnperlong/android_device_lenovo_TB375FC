@@ -82,6 +82,9 @@
 /(vendor|system/vendor)/bin/hw/vendor\.lenovo\.hardware\.performance-service         u:object_r:hal_lenovoperformance_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.lenovo\.hardware\.touchscreen-service         u:object_r:hal_lenovotouchscreen_default_exec:s0
 
+# LineageOS health HAL on the stock charger driver (health/), in Lineage's domain.
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.health-service\.tb375fc              u:object_r:hal_lineage_health_default_exec:s0
+
 # Other vendor HAL services that ship with stock and also need proper domain
 /(vendor|system/vendor)/bin/hw/vendor\.dolby\.hardware\.dms@2\.0-service             u:object_r:hal_dms_default_exec:s0
 /(vendor|system/vendor)/bin/hw/motorola\.hardware\.input@1\.1-service                u:object_r:hal_motinput_default_exec:s0
