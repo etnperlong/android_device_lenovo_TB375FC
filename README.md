@@ -206,6 +206,12 @@ Android 17 SELinux no longer allows, so the rc in `rootdir` starts it as `wifi`
 with `NET_ADMIN`/`NET_RAW`, like AOSP's rc. Connection behaviour still needs
 device validation.
 
+init creates the supplicant's `wpa_wlan0` control socket (and `mnld`'s socket)
+and deletes it when the service exits or before creating it again. Both carry
+MediaTek socket types outside AOSP's grant to init, so the device policy also
+allows `unlink` on them; without it, Wi-Fi could not be turned back on after
+being turned off until a reboot (`Failed to unlink old socket 'wpa_wlan0'`).
+
 ### Bluetooth classic profiles
 `tb375fc-stock-vendor-props.mk` explicitly enables A2DP source, both HFP roles,
 AVRCP controller/target, HID host, OPP, PBAP server and MAP server for the AOSP
