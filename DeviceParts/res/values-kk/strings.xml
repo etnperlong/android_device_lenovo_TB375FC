@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Құрылғы мүмкіндіктері</string>
     <string name="device_parts_title">Құрылғы мүмкіндіктері</string>
-    <string name="device_parts_summary">Экран түсі, бейне кескіні, Dolby Atmos, өнімділік, керек-жарақтар, жаңарту жиілігі, сенсор және RAM кеңейту</string>
+    <string name="device_parts_summary">Экран түсі, бейне кескіні, Dolby Atmos, өнімділік, керек-жарақтар, жаңарту жиілігі, сенсор, RAM кеңейту және зарядтау</string>
     <string name="category_perf_memory_title">Өнімділік және жад</string>
     <string name="ram_expansion_title">RAM кеңейту</string>
     <string name="ram_expansion_summary">RAM босату үшін белсенді емес қолданбалардың деректерін сақтау орнына көшіру</string>
@@ -227,4 +227,29 @@
     <string name="tile_dolby_app_note">Режимі бөлек орнатылған қолданбалар аудио ойнатқанда өз режимдерін пайдалана береді.</string>
     <string name="tile_color_app_note">Түсі бөлек орнатылған қолданбалар ашылғанда өз параметрлерін пайдалана береді.</string>
     <string name="tile_color_adaptive_unavailable">Экран түсі өшірілген</string>
+
+    <string name="category_perf_charging">Зарядтау</string>
+    <string name="bypass_app_title">Айналма зарядтау</string>
+    <string name="bypass_app_summary">Осы қолданба алдыңғы жоспарда тұрғанда және зарядтағыш жалғанғанда, зарядтағыш планшетті тікелей қуаттайды, ал батарея зарядталмайды. Батарея заряды %1$d%% деңгейіне түскенде өшеді.</string>
+    <string name="bypass_notification_channel">Айналма зарядтау</string>
+    <string name="charging_warning_notification_channel">Зарядтау ескертулері</string>
+    <string name="bypass_on_toast">Айналма зарядтау қосулы</string>
+    <string name="bypass_on_title">%1$s үшін орнатылғандай, айналма зарядтау қосулы</string>
+    <string name="bypass_on_text">Зарядтағыш планшетті тікелей қуаттайды, ал батарея зарядталмайды. Батарея заряды %1$d%% деңгейіне түскенде, зарядтау жалғасады.</string>
+    <string name="bypass_low_battery_toast">Батарея заряды төмен, айналма зарядтау өшірілді</string>
+    <string name="bypass_low_battery_title">Батарея заряды төмен, айналма зарядтау өшірілді</string>
+    <string name="bypass_low_battery_text">Батарея заряды %1$d%% деңгейіне түсті, сондықтан ол қайта зарядталуда.</string>
+    <string name="heat_protection_title">Зарядтау кезінде қызудан қорғау</string>
+    <string name="heat_protection_summary">Планшет қызып кеткенде, батареяны зарядтауды кідірту</string>
+    <string name="heat_protection_enabled_title">Зарядтау кезінде қызудан қорғауды пайдалану</string>
+    <string name="heat_protection_description">Зарядтау кезінде батарея шекті температураға жетсе және кемінде ең аз заряд деңгейіне дейін зарядталса, батарея зарядталуын тоқтатады, ал зарядтағыш планшетті тікелей қуаттайды, сонда батарея одан әрі қызбайды. Температура немесе заряд олардан төмен түскенде, зарядтау жалғасады. Ауысу 5 минутта ең көбі бір рет болады.</string>
+    <string name="category_heat_protection_title">Қорғау параметрлері</string>
+    <string name="heat_protection_min_level_title">Ең аз заряд</string>
+    <string name="heat_protection_min_level_summary">Тек %1$d%% не одан жоғары болғанда</string>
+    <string name="heat_protection_threshold_title">Шекті температура</string>
+    <string name="heat_protection_threshold_low">Төмен (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Орташа (41 °C)</string>
+    <string name="heat_protection_threshold_high">Жоғары (43 °C)</string>
+    <string name="heat_protection_notification_title">Планшет тым қызып кетті, зарядтау кідіртілді</string>
+    <string name="heat_protection_notification_text">Батарея температурасы: %1$s. Планшет суығанша зарядтағыш оны тікелей қуаттайды, содан кейін зарядтау жалғасады.</string>
 </resources>

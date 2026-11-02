@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Fitur perangkat</string>
     <string name="device_parts_title">Fitur perangkat</string>
-    <string name="device_parts_summary">Warna layar, gambar video, Dolby Atmos, performa, aksesori, kecepatan refresh, sentuhan, dan ekspansi RAM</string>
+    <string name="device_parts_summary">Warna layar, gambar video, Dolby Atmos, performa, aksesori, kecepatan refresh, sentuhan, ekspansi RAM, dan pengisian daya</string>
     <string name="category_perf_memory_title">Performa dan memori</string>
     <string name="ram_expansion_title">Ekspansi RAM</string>
     <string name="ram_expansion_summary">Pindahkan data aplikasi yang tidak aktif ke penyimpanan untuk mengosongkan RAM</string>
@@ -226,4 +226,29 @@
     <string name="tile_dolby_app_note">Aplikasi dengan modus yang ditetapkan secara terpisah akan tetap menggunakan modusnya saat memutar audio.</string>
     <string name="tile_color_app_note">Aplikasi dengan warna yang ditetapkan secara terpisah akan tetap menggunakan setelannya saat dibuka.</string>
     <string name="tile_color_adaptive_unavailable">Warna layar nonaktif</string>
+
+    <string name="category_perf_charging">Pengisian daya</string>
+    <string name="bypass_app_title">Bypass pengisian daya</string>
+    <string name="bypass_app_summary">Saat aplikasi ini berada di latar depan dan pengisi daya terhubung, pengisi daya langsung memberi daya ke tablet dan baterai tidak diisi. Nonaktif saat baterai turun ke %1$d%%.</string>
+    <string name="bypass_notification_channel">Bypass pengisian daya</string>
+    <string name="charging_warning_notification_channel">Peringatan pengisian daya</string>
+    <string name="bypass_on_toast">Bypass pengisian daya aktif</string>
+    <string name="bypass_on_title">Bypass pengisian daya aktif, sesuai setelan untuk %1$s</string>
+    <string name="bypass_on_text">Pengisi daya langsung memberi daya ke tablet dan baterai tidak diisi. Pengisian daya dilanjutkan saat baterai turun ke %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Baterai lemah, bypass pengisian daya dinonaktifkan</string>
+    <string name="bypass_low_battery_title">Baterai lemah, bypass pengisian daya dinonaktifkan</string>
+    <string name="bypass_low_battery_text">Baterai turun ke %1$d%%, jadi baterai diisi lagi.</string>
+    <string name="heat_protection_title">Perlindungan panas saat mengisi daya</string>
+    <string name="heat_protection_summary">Jeda pengisian baterai saat tablet panas</string>
+    <string name="heat_protection_enabled_title">Gunakan perlindungan panas saat mengisi daya</string>
+    <string name="heat_protection_description">Saat mengisi daya, jika baterai mencapai suhu ambang dan terisi setidaknya hingga daya minimum, pengisian baterai dihentikan dan pengisi daya langsung memberi daya ke tablet, sehingga baterai tidak semakin panas. Pengisian daya dilanjutkan saat suhu atau daya baterai turun di bawah batas tersebut. Peralihan terjadi paling banyak sekali setiap 5 menit.</string>
+    <string name="category_heat_protection_title">Setelan perlindungan</string>
+    <string name="heat_protection_min_level_title">Daya minimum</string>
+    <string name="heat_protection_min_level_summary">Hanya saat %1$d%% atau lebih</string>
+    <string name="heat_protection_threshold_title">Suhu ambang</string>
+    <string name="heat_protection_threshold_low">Rendah (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Sedang (41 °C)</string>
+    <string name="heat_protection_threshold_high">Tinggi (43 °C)</string>
+    <string name="heat_protection_notification_title">Tablet terlalu panas, pengisian daya dijeda</string>
+    <string name="heat_protection_notification_text">Suhu baterai %1$s. Pengisi daya langsung memberi daya ke tablet hingga suhunya turun, lalu pengisian daya dilanjutkan.</string>
 </resources>

@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">ਡਿਵਾਈਸ ਦੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ</string>
     <string name="device_parts_title">ਡਿਵਾਈਸ ਦੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ</string>
-    <string name="device_parts_summary">ਸਕ੍ਰੀਨ ਦੇ ਰੰਗ, ਵੀਡੀਓ ਤਸਵੀਰ ਗੁਣਵੱਤਾ, Dolby Atmos, ਕਾਰਗੁਜ਼ਾਰੀ, ਸਹਾਇਕ ਉਪਕਰਨ, ਰਿਫ੍ਰੈਸ਼ ਦਰ ਅਤੇ ਟੱਚ, RAM ਵਿਸਤਾਰ</string>
+    <string name="device_parts_summary">ਸਕ੍ਰੀਨ ਦੇ ਰੰਗ, ਵੀਡੀਓ ਤਸਵੀਰ ਗੁਣਵੱਤਾ, Dolby Atmos, ਕਾਰਗੁਜ਼ਾਰੀ, ਸਹਾਇਕ ਉਪਕਰਨ, ਰਿਫ੍ਰੈਸ਼ ਦਰ ਅਤੇ ਟੱਚ, RAM ਵਿਸਤਾਰ, ਚਾਰਜਿੰਗ</string>
     <string name="ram_expansion_title">RAM ਵਿਸਤਾਰ</string>
     <string name="ram_expansion_summary">RAM ਖਾਲੀ ਕਰਨ ਲਈ ਨਾ-ਸਰਗਰਮ ਐਪ ਡਾਟਾ ਸਟੋਰੇਜ ਵਿੱਚ ਭੇਜੋ</string>
     <string name="ram_expansion_description">ਲੰਬੇ ਸਮੇਂ ਤੋਂ ਨਾ ਵਰਤੀਆਂ ਗਈਆਂ ਐਪਾਂ ਦਾ ਡਾਟਾ ਕੰਪ੍ਰੈੱਸ ਕੀਤੀ ਮੈਮੋਰੀ ਤੋਂ ਸਟੋਰੇਜ ਵਿੱਚ ਭੇਜ ਕੇ RAM ਖਾਲੀ ਕਰੋ। ਚੁਣੀ ਗਈ ਸਟੋਰੇਜ ਮਾਤਰਾ ਵਰਤੀ ਜਾਵੇਗੀ। ਰੀਸਟਾਰਟ ਤੋਂ ਬਾਅਦ ਤਬਦੀਲੀਆਂ ਲਾਗੂ ਹੋਣਗੀਆਂ।</string>
@@ -220,4 +220,29 @@
     <string name="tile_dolby_app_note">ਆਪਣੇ ਮੋਡ ਵਾਲੀਆਂ ਐਪਾਂ ਆਡੀਓ ਚਲਾਉਣ ਦੌਰਾਨ ਉਹੀ ਮੋਡ ਵਰਤਦੀਆਂ ਰਹਿੰਦੀਆਂ ਹਨ।</string>
     <string name="tile_color_app_note">ਆਪਣੀ ਰੰਗ ਸੈਟਿੰਗ ਵਾਲੀਆਂ ਐਪਾਂ ਖੁੱਲ੍ਹੀਆਂ ਹੋਣ ਦੌਰਾਨ ਉਹੀ ਸੈਟਿੰਗ ਵਰਤਦੀਆਂ ਰਹਿੰਦੀਆਂ ਹਨ।</string>
     <string name="tile_color_adaptive_unavailable">ਸਕ੍ਰੀਨ ਦੇ ਰੰਗ ਬੰਦ ਹਨ</string>
+
+    <string name="category_perf_charging">ਚਾਰਜਿੰਗ</string>
+    <string name="bypass_app_title">ਬਾਈਪਾਸ ਚਾਰਜਿੰਗ</string>
+    <string name="bypass_app_summary">ਜਦੋਂ ਇਹ ਐਪ ਸਾਹਮਣੇ ਹੋਵੇ ਅਤੇ ਚਾਰਜਰ ਕਨੈਕਟ ਹੋਵੇ, ਤਾਂ ਚਾਰਜਰ ਸਿੱਧਾ ਟੈਬਲੈੱਟ ਨੂੰ ਪਾਵਰ ਦਿੰਦਾ ਹੈ ਅਤੇ ਬੈਟਰੀ ਚਾਰਜ ਨਹੀਂ ਹੁੰਦੀ। ਬੈਟਰੀ %1$d%% ਤੱਕ ਘਟਣ \'ਤੇ ਬੰਦ ਹੋ ਜਾਂਦਾ ਹੈ।</string>
+    <string name="bypass_notification_channel">ਬਾਈਪਾਸ ਚਾਰਜਿੰਗ</string>
+    <string name="charging_warning_notification_channel">ਚਾਰਜਿੰਗ ਚਿਤਾਵਨੀਆਂ</string>
+    <string name="bypass_on_toast">ਬਾਈਪਾਸ ਚਾਰਜਿੰਗ ਚਾਲੂ ਹੈ</string>
+    <string name="bypass_on_title">%1$s ਲਈ ਕੀਤੀ ਸੈਟਿੰਗ ਮੁਤਾਬਕ ਬਾਈਪਾਸ ਚਾਰਜਿੰਗ ਚਾਲੂ ਹੈ</string>
+    <string name="bypass_on_text">ਚਾਰਜਰ ਸਿੱਧਾ ਟੈਬਲੈੱਟ ਨੂੰ ਪਾਵਰ ਦਿੰਦਾ ਹੈ ਅਤੇ ਬੈਟਰੀ ਚਾਰਜ ਨਹੀਂ ਹੁੰਦੀ। ਬੈਟਰੀ %1$d%% ਤੱਕ ਘਟਣ \'ਤੇ ਚਾਰਜਿੰਗ ਮੁੜ ਸ਼ੁਰੂ ਹੋ ਜਾਂਦੀ ਹੈ।</string>
+    <string name="bypass_low_battery_toast">ਬੈਟਰੀ ਘੱਟ ਹੈ, ਬਾਈਪਾਸ ਚਾਰਜਿੰਗ ਬੰਦ ਕੀਤੀ ਗਈ</string>
+    <string name="bypass_low_battery_title">ਬੈਟਰੀ ਘੱਟ ਹੈ, ਬਾਈਪਾਸ ਚਾਰਜਿੰਗ ਬੰਦ ਕੀਤੀ ਗਈ</string>
+    <string name="bypass_low_battery_text">ਬੈਟਰੀ %1$d%% ਤੱਕ ਘਟ ਗਈ ਹੈ, ਇਸ ਲਈ ਇਹ ਮੁੜ ਚਾਰਜ ਹੋ ਰਹੀ ਹੈ।</string>
+    <string name="heat_protection_title">ਚਾਰਜਿੰਗ ਗਰਮੀ ਸੁਰੱਖਿਆ</string>
+    <string name="heat_protection_summary">ਟੈਬਲੈੱਟ ਗਰਮ ਹੋਣ ਦੌਰਾਨ ਬੈਟਰੀ ਦੀ ਚਾਰਜਿੰਗ ਰੋਕੋ</string>
+    <string name="heat_protection_enabled_title">ਚਾਰਜਿੰਗ ਗਰਮੀ ਸੁਰੱਖਿਆ ਵਰਤੋ</string>
+    <string name="heat_protection_description">ਚਾਰਜਿੰਗ ਦੌਰਾਨ, ਜੇ ਬੈਟਰੀ ਸੀਮਾ ਤਾਪਮਾਨ \'ਤੇ ਪਹੁੰਚ ਜਾਵੇ ਅਤੇ ਘੱਟੋ-ਘੱਟ ਚਾਰਜ ਜਿੰਨੀ ਚਾਰਜ ਹੋਵੇ, ਤਾਂ ਬੈਟਰੀ ਚਾਰਜ ਹੋਣਾ ਬੰਦ ਕਰ ਦਿੰਦੀ ਹੈ ਅਤੇ ਚਾਰਜਰ ਸਿੱਧਾ ਟੈਬਲੈੱਟ ਨੂੰ ਪਾਵਰ ਦਿੰਦਾ ਹੈ, ਤਾਂ ਜੋ ਬੈਟਰੀ ਹੋਰ ਗਰਮ ਨਾ ਹੋਵੇ। ਤਾਪਮਾਨ ਜਾਂ ਚਾਰਜ ਇਨ੍ਹਾਂ ਤੋਂ ਹੇਠਾਂ ਆਉਣ \'ਤੇ ਚਾਰਜਿੰਗ ਮੁੜ ਸ਼ੁਰੂ ਹੋ ਜਾਂਦੀ ਹੈ। ਇਹ ਹਰ 5 ਮਿੰਟਾਂ ਵਿੱਚ ਵੱਧ ਤੋਂ ਵੱਧ ਇੱਕ ਵਾਰ ਬਦਲਦਾ ਹੈ।</string>
+    <string name="category_heat_protection_title">ਸੁਰੱਖਿਆ ਸੈਟਿੰਗਾਂ</string>
+    <string name="heat_protection_min_level_title">ਘੱਟੋ-ਘੱਟ ਚਾਰਜ</string>
+    <string name="heat_protection_min_level_summary">ਸਿਰਫ਼ %1$d%% ਜਾਂ ਵੱਧ \'ਤੇ</string>
+    <string name="heat_protection_threshold_title">ਸੀਮਾ ਤਾਪਮਾਨ</string>
+    <string name="heat_protection_threshold_low">ਘੱਟ (39 °C)</string>
+    <string name="heat_protection_threshold_medium">ਦਰਮਿਆਨਾ (41 °C)</string>
+    <string name="heat_protection_threshold_high">ਉੱਚਾ (43 °C)</string>
+    <string name="heat_protection_notification_title">ਟੈਬਲੈੱਟ ਬਹੁਤ ਗਰਮ ਹੈ, ਚਾਰਜਿੰਗ ਰੋਕੀ ਗਈ</string>
+    <string name="heat_protection_notification_text">ਬੈਟਰੀ ਦਾ ਤਾਪਮਾਨ %1$s ਹੈ। ਠੰਢਾ ਹੋਣ ਤੱਕ ਚਾਰਜਰ ਸਿੱਧਾ ਟੈਬਲੈੱਟ ਨੂੰ ਪਾਵਰ ਦਿੰਦਾ ਹੈ, ਫਿਰ ਚਾਰਜਿੰਗ ਮੁੜ ਸ਼ੁਰੂ ਹੋ ਜਾਂਦੀ ਹੈ।</string>
 </resources>

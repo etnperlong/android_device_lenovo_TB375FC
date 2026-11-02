@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Funkcije naprave</string>
     <string name="device_parts_title">Funkcije naprave</string>
-    <string name="device_parts_summary">Barva zaslona, video slika, Dolby Atmos, zmogljivost, dodatki, hitrost osveževanja in dotik, razširitev pomnilnika RAM</string>
+    <string name="device_parts_summary">Barva zaslona, video slika, Dolby Atmos, zmogljivost, dodatki, hitrost osveževanja in dotik, razširitev pomnilnika RAM, polnjenje</string>
     <string name="category_perf_memory_title">Zmogljivost in pomnilnik</string>
     <string name="ram_expansion_title">Razširitev pomnilnika RAM</string>
     <string name="ram_expansion_summary">Premaknite neaktivne podatke aplikacij v shrambo, da sprostite pomnilnik RAM</string>
@@ -228,4 +228,29 @@
     <string name="tile_dolby_app_note">Aplikacije z lastnim načinom ga uporabljajo tudi med predvajanjem.</string>
     <string name="tile_color_app_note">Aplikacije z lastno nastavitvijo barv jo uporabljajo tudi, ko so odprte.</string>
     <string name="tile_color_adaptive_unavailable">Barva zaslona je onemogočena</string>
+
+    <string name="category_perf_charging">Polnjenje</string>
+    <string name="bypass_app_title">Obvodno polnjenje</string>
+    <string name="bypass_app_summary">Ko je ta aplikacija v ospredju in je polnilnik priključen, polnilnik neposredno napaja tablični računalnik, baterija pa se ne polni. Izklopi se, ko raven baterije pade na %1$d %%.</string>
+    <string name="bypass_notification_channel">Obvodno polnjenje</string>
+    <string name="charging_warning_notification_channel">Opozorila o polnjenju</string>
+    <string name="bypass_on_toast">Obvodno polnjenje je vklopljeno</string>
+    <string name="bypass_on_title">Obvodno polnjenje je vklopljeno, kot je nastavljeno za %1$s</string>
+    <string name="bypass_on_text">Polnilnik neposredno napaja tablični računalnik, baterija pa se ne polni. Polnjenje se nadaljuje, ko raven baterije pade na %1$d %%.</string>
+    <string name="bypass_low_battery_toast">Baterija je skoraj prazna, obvodno polnjenje je izklopljeno</string>
+    <string name="bypass_low_battery_title">Baterija je skoraj prazna, obvodno polnjenje je izklopljeno</string>
+    <string name="bypass_low_battery_text">Raven baterije je padla na %1$d %%, zato se znova polni.</string>
+    <string name="heat_protection_title">Zaščita pred vročino med polnjenjem</string>
+    <string name="heat_protection_summary">Začasno ustavi polnjenje baterije, ko je tablični računalnik vroč</string>
+    <string name="heat_protection_enabled_title">Uporabi zaščito pred vročino med polnjenjem</string>
+    <string name="heat_protection_description">Če med polnjenjem baterija doseže mejno temperaturo in je napolnjena vsaj do najnižje ravni napolnjenosti, se polnjenje baterije ustavi in polnilnik neposredno napaja tablični računalnik, zato se baterija ne segreva še bolj. Polnjenje se nadaljuje, ko temperatura ali raven napolnjenosti pade pod nastavljeno vrednost. Preklop se izvede največ enkrat na 5 minut.</string>
+    <string name="category_heat_protection_title">Nastavitve zaščite</string>
+    <string name="heat_protection_min_level_title">Najnižja raven napolnjenosti</string>
+    <string name="heat_protection_min_level_summary">Samo pri %1$d %% ali več</string>
+    <string name="heat_protection_threshold_title">Mejna temperatura</string>
+    <string name="heat_protection_threshold_low">Nizka (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Srednja (41 °C)</string>
+    <string name="heat_protection_threshold_high">Visoka (43 °C)</string>
+    <string name="heat_protection_notification_title">Tablični računalnik je prevroč, polnjenje je začasno ustavljeno</string>
+    <string name="heat_protection_notification_text">Temperatura baterije je %1$s. Polnilnik neposredno napaja tablični računalnik, dokler se ne ohladi, nato se polnjenje nadaljuje.</string>
 </resources>

@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Gailuaren eginbideak</string>
     <string name="device_parts_title">Gailuaren eginbideak</string>
-    <string name="device_parts_summary">Pantailaren kolorea, bideo-irudia, Dolby Atmos, errendimendua, osagarriak, freskatze-abiadura, ukipena eta RAM hedapena</string>
+    <string name="device_parts_summary">Pantailaren kolorea, bideo-irudia, Dolby Atmos, errendimendua, osagarriak, freskatze-abiadura, ukipena, RAM hedapena eta kargatzea</string>
     <string name="category_perf_memory_title">Errendimendua eta memoria</string>
     <string name="ram_expansion_title">RAM hedapena</string>
     <string name="ram_expansion_summary">Eraman aplikazio inaktiboen datuak biltegiratzera RAM askatzeko</string>
@@ -222,4 +222,29 @@
     <string name="tile_dolby_app_note">Beren modua duten aplikazioek audioa erreproduzitzen ari diren bitartean erabiltzen jarraitzen dute.</string>
     <string name="tile_color_app_note">Beren kolore-ezarpena duten aplikazioek irekita dauden bitartean erabiltzen jarraitzen dute.</string>
     <string name="tile_color_adaptive_unavailable">Pantailaren kolorea desaktibatuta dago</string>
+
+    <string name="category_perf_charging">Kargatzea</string>
+    <string name="bypass_app_title">Bypass karga</string>
+    <string name="bypass_app_summary">Aplikazio hau aurrealdean dagoen eta kargagailua konektatuta dagoen bitartean, kargagailuak zuzenean elikatzen du tableta eta bateria ez da kargatzen. Bateria %%%1$d izatera jaisten denean desaktibatzen da.</string>
+    <string name="bypass_notification_channel">Bypass karga</string>
+    <string name="charging_warning_notification_channel">Kargatzeari buruzko abisuak</string>
+    <string name="bypass_on_toast">Bypass karga aktibatuta</string>
+    <string name="bypass_on_title">Bypass karga aktibatuta dago, %1$s aplikaziorako ezarri bezala</string>
+    <string name="bypass_on_text">Kargagailuak zuzenean elikatzen du tableta eta bateria ez da kargatzen. Bateria %%%1$d izatera jaisten denean berrekingo zaio kargatzeari.</string>
+    <string name="bypass_low_battery_toast">Bateria gutxi; bypass karga desaktibatu da</string>
+    <string name="bypass_low_battery_title">Bateria gutxi; bypass karga desaktibatu da</string>
+    <string name="bypass_low_battery_text">Bateria %%%1$d izatera jaitsi da; beraz, berriro kargatzen ari da.</string>
+    <string name="heat_protection_title">Kargatzean beroaren aurkako babesa</string>
+    <string name="heat_protection_summary">Pausatu bateriaren karga tableta beroegi dagoen bitartean</string>
+    <string name="heat_protection_enabled_title">Erabili kargatzean beroaren aurkako babesa</string>
+    <string name="heat_protection_description">Kargatzen ari den bitartean, bateriak tenperatura-muga lortzen badu eta gutxieneko karga behintzat badu, bateria kargatzeari utziko zaio eta kargagailuak zuzenean elikatuko du tableta, bateria gehiago bero ez dadin. Tenperatura edo karga horien azpitik jaisten denean berrekingo zaio kargatzeari. Gehienez 5 minuturo behin aldatzen da.</string>
+    <string name="category_heat_protection_title">Babesaren ezarpenak</string>
+    <string name="heat_protection_min_level_title">Gutxieneko karga</string>
+    <string name="heat_protection_min_level_summary">%%%1$d edo gehiago dagoenean soilik</string>
+    <string name="heat_protection_threshold_title">Tenperatura-muga</string>
+    <string name="heat_protection_threshold_low">Baxua (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Ertaina (41 °C)</string>
+    <string name="heat_protection_threshold_high">Altua (43 °C)</string>
+    <string name="heat_protection_notification_title">Tableta beroegi dago; karga pausatu da</string>
+    <string name="heat_protection_notification_text">Bateria %1$s-tan dago. Kargagailuak zuzenean elikatuko du tableta hoztu arte, eta gero berrekingo zaio kargatzeari.</string>
 </resources>

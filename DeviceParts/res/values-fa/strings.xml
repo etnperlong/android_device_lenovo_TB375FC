@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">ویژگی‌های دستگاه</string>
     <string name="device_parts_title">ویژگی‌های دستگاه</string>
-    <string name="device_parts_summary">رنگ صفحه‌نمایش، تصویر ویدیو، Dolby Atmos، عملکرد، لوازم جانبی، نرخ نوسازی، لمس و گسترش RAM</string>
+    <string name="device_parts_summary">رنگ صفحه‌نمایش، تصویر ویدیو، Dolby Atmos، عملکرد، لوازم جانبی، نرخ نوسازی، لمس، گسترش RAM و شارژ</string>
     <string name="category_perf_memory_title">عملکرد و حافظه</string>
     <string name="ram_expansion_title">گسترش RAM</string>
     <string name="ram_expansion_summary">برای آزاد کردن RAM، داده‌های برنامه‌های غیرفعال را به فضای ذخیره‌سازی منتقل کنید</string>
@@ -228,4 +228,29 @@
     <string name="tile_dolby_app_note">برنامه‌هایی که حالت مخصوص به خود دارند، هنگام پخش صدا همچنان از همان حالت استفاده می‌کنند.</string>
     <string name="tile_color_app_note">برنامه‌هایی که تنظیم رنگ مخصوص به خود دارند، تا وقتی باز هستند همچنان از آن استفاده می‌کنند.</string>
     <string name="tile_color_adaptive_unavailable">رنگ صفحه‌نمایش غیرفعال است</string>
+
+    <string name="category_perf_charging">شارژ</string>
+    <string name="bypass_app_title">شارژ بای‌پس</string>
+    <string name="bypass_app_summary">وقتی این برنامه در پیش‌زمینه است و شارژر وصل است، شارژر مستقیماً رایانه لوحی را تغذیه می‌کند و باتری شارژ نمی‌شود. وقتی باتری به %1$d%% برسد خاموش می‌شود.</string>
+    <string name="bypass_notification_channel">شارژ بای‌پس</string>
+    <string name="charging_warning_notification_channel">هشدارهای شارژ</string>
+    <string name="bypass_on_toast">شارژ بای‌پس روشن شد</string>
+    <string name="bypass_on_title">شارژ بای‌پس طبق تنظیم برای %1$s روشن است</string>
+    <string name="bypass_on_text">شارژر مستقیماً رایانه لوحی را تغذیه می‌کند و باتری شارژ نمی‌شود. وقتی باتری به %1$d%% برسد، شارژ از سر گرفته می‌شود.</string>
+    <string name="bypass_low_battery_toast">باتری ضعیف است، شارژ بای‌پس خاموش شد</string>
+    <string name="bypass_low_battery_title">باتری ضعیف است، شارژ بای‌پس خاموش شد</string>
+    <string name="bypass_low_battery_text">باتری به %1$d%% رسید، بنابراین دوباره در حال شارژ است.</string>
+    <string name="heat_protection_title">محافظت از گرما هنگام شارژ</string>
+    <string name="heat_protection_summary">توقف شارژ باتری وقتی رایانه لوحی داغ است</string>
+    <string name="heat_protection_enabled_title">استفاده از محافظت از گرما هنگام شارژ</string>
+    <string name="heat_protection_description">هنگام شارژ، اگر دمای باتری به دمای آستانه برسد و شارژ آن حداقل به میزان حداقل شارژ باشد، شارژ باتری متوقف می‌شود و شارژر مستقیماً رایانه لوحی را تغذیه می‌کند تا باتری بیشتر گرم نشود. وقتی دما یا شارژ کمتر از این مقادیر شود، شارژ از سر گرفته می‌شود. این تغییر حداکثر هر 5 دقیقه یک بار انجام می‌شود.</string>
+    <string name="category_heat_protection_title">تنظیمات محافظت</string>
+    <string name="heat_protection_min_level_title">حداقل شارژ</string>
+    <string name="heat_protection_min_level_summary">فقط در %1$d%% یا بیشتر</string>
+    <string name="heat_protection_threshold_title">دمای آستانه</string>
+    <string name="heat_protection_threshold_low">کم (39 °C)</string>
+    <string name="heat_protection_threshold_medium">متوسط (41 °C)</string>
+    <string name="heat_protection_threshold_high">زیاد (43 °C)</string>
+    <string name="heat_protection_notification_title">رایانه لوحی خیلی داغ است، شارژ متوقف شد</string>
+    <string name="heat_protection_notification_text">دمای باتری %1$s است. شارژر تا خنک شدن رایانه لوحی مستقیماً آن را تغذیه می‌کند و سپس شارژ از سر گرفته می‌شود.</string>
 </resources>

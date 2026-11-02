@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Функції пристрою</string>
     <string name="device_parts_title">Функції пристрою</string>
-    <string name="device_parts_summary">Колір екрана, якість відео, Dolby Atmos, продуктивність, аксесуари, частота оновлення та сенсор, розширення RAM</string>
+    <string name="device_parts_summary">Колір екрана, якість відео, Dolby Atmos, продуктивність, аксесуари, частота оновлення та сенсор, розширення RAM, заряджання</string>
     <string name="category_perf_memory_title">Продуктивність і пам’ять</string>
     <string name="ram_expansion_title">Розширення RAM</string>
     <string name="ram_expansion_summary">Переміщуйте неактивні дані додатків у сховище, щоб звільнити RAM</string>
@@ -229,4 +229,29 @@
     <string name="tile_dolby_app_note">Додатки з власним режимом продовжують використовувати його під час відтворення аудіо.</string>
     <string name="tile_color_app_note">Додатки з власним налаштуванням кольорів продовжують використовувати його, коли відкриті.</string>
     <string name="tile_color_adaptive_unavailable">Колір екрана вимкнено</string>
+
+    <string name="category_perf_charging">Заряджання</string>
+    <string name="bypass_app_title">Обхідне заряджання</string>
+    <string name="bypass_app_summary">Коли цей додаток на передньому плані й зарядний пристрій підключено, планшет живиться безпосередньо від зарядного пристрою, а акумулятор не заряджається. Вимикається, коли заряд акумулятора знижується до %1$d%%.</string>
+    <string name="bypass_notification_channel">Обхідне заряджання</string>
+    <string name="charging_warning_notification_channel">Попередження про заряджання</string>
+    <string name="bypass_on_toast">Обхідне заряджання ввімкнено</string>
+    <string name="bypass_on_title">Обхідне заряджання ввімкнено згідно з налаштуванням для %1$s</string>
+    <string name="bypass_on_text">Планшет живиться безпосередньо від зарядного пристрою, а акумулятор не заряджається. Заряджання відновиться, коли заряд акумулятора знизиться до %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Низький заряд, обхідне заряджання вимкнено</string>
+    <string name="bypass_low_battery_title">Низький заряд, обхідне заряджання вимкнено</string>
+    <string name="bypass_low_battery_text">Заряд акумулятора знизився до %1$d%%, тому він знову заряджається.</string>
+    <string name="heat_protection_title">Захист від перегріву під час заряджання</string>
+    <string name="heat_protection_summary">Призупиняти заряджання акумулятора, коли планшет гарячий</string>
+    <string name="heat_protection_enabled_title">Використовувати захист від перегріву</string>
+    <string name="heat_protection_description">Якщо під час заряджання температура акумулятора досягає порогової, а його заряд не нижчий за мінімальний, акумулятор перестає заряджатися, а планшет живиться безпосередньо від зарядного пристрою, щоб акумулятор не нагрівався далі. Заряджання відновлюється, коли температура або заряд опускаються нижче заданих значень. Перемикання відбувається не частіше ніж раз на 5 хвилин.</string>
+    <string name="category_heat_protection_title">Налаштування захисту</string>
+    <string name="heat_protection_min_level_title">Мінімальний заряд</string>
+    <string name="heat_protection_min_level_summary">Лише за заряду від %1$d%%</string>
+    <string name="heat_protection_threshold_title">Порогова температура</string>
+    <string name="heat_protection_threshold_low">Низька (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Середня (41 °C)</string>
+    <string name="heat_protection_threshold_high">Висока (43 °C)</string>
+    <string name="heat_protection_notification_title">Планшет перегрівся, заряджання призупинено</string>
+    <string name="heat_protection_notification_text">Температура акумулятора: %1$s. Планшет живиться безпосередньо від зарядного пристрою, доки не охолоне, після чого заряджання відновиться.</string>
 </resources>

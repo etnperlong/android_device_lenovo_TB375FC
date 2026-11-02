@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Функции на устройството</string>
     <string name="device_parts_title">Функции на устройството</string>
-    <string name="device_parts_summary">Цвят на екрана, картина на видеото, Dolby Atmos, производителност, аксесоари, честота на опресняване, сензорен екран и разширяване на RAM</string>
+    <string name="device_parts_summary">Цвят на екрана, картина на видеото, Dolby Atmos, производителност, аксесоари, честота на опресняване, сензорен екран, разширяване на RAM и зареждане</string>
     <string name="category_perf_memory_title">Производителност и памет</string>
     <string name="ram_expansion_title">Разширяване на RAM</string>
     <string name="ram_expansion_summary">Преместване на данни от неактивни приложения в хранилището за освобождаване на RAM</string>
@@ -227,4 +227,29 @@
     <string name="tile_dolby_app_note">Приложенията със собствен режим продължават да го използват, докато възпроизвеждат аудио.</string>
     <string name="tile_color_app_note">Приложенията със собствени настройки за цвят продължават да ги използват, докато са отворени.</string>
     <string name="tile_color_adaptive_unavailable">Цветът на екрана е изключен</string>
+
+    <string name="category_perf_charging">Зареждане</string>
+    <string name="bypass_app_title">Директно захранване</string>
+    <string name="bypass_app_summary">Докато това приложение е на преден план и зарядното устройство е свързано, то захранва таблета директно и батерията не се зарежда. Изключва се, когато батерията падне до %1$d%%.</string>
+    <string name="bypass_notification_channel">Директно захранване</string>
+    <string name="charging_warning_notification_channel">Предупреждения за зареждането</string>
+    <string name="bypass_on_toast">Директното захранване е включено</string>
+    <string name="bypass_on_title">Директното захранване е включено според настройката за %1$s</string>
+    <string name="bypass_on_text">Зарядното устройство захранва таблета директно и батерията не се зарежда. Зареждането се възобновява, когато батерията падне до %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Батерията е изтощена, директното захранване е изключено</string>
+    <string name="bypass_low_battery_title">Батерията е изтощена, директното захранване е изключено</string>
+    <string name="bypass_low_battery_text">Батерията падна до %1$d%%, затова отново се зарежда.</string>
+    <string name="heat_protection_title">Защита от прегряване при зареждане</string>
+    <string name="heat_protection_summary">Зареждането на батерията се спира, докато таблетът е горещ</string>
+    <string name="heat_protection_enabled_title">Използване на защитата от прегряване</string>
+    <string name="heat_protection_description">Ако по време на зареждане батерията достигне праговата температура и е заредена поне до минималното ниво, зареждането ѝ спира и зарядното устройство захранва таблета директно, така че батерията да не се нагрява повече. Зареждането се възобновява, когато температурата или нивото на заряд паднат под зададените стойности. Превключването става най-много веднъж на всеки 5 минути.</string>
+    <string name="category_heat_protection_title">Настройки на защитата</string>
+    <string name="heat_protection_min_level_title">Минимален заряд</string>
+    <string name="heat_protection_min_level_summary">Само при %1$d%% или повече</string>
+    <string name="heat_protection_threshold_title">Прагова температура</string>
+    <string name="heat_protection_threshold_low">Ниска (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Средна (41 °C)</string>
+    <string name="heat_protection_threshold_high">Висока (43 °C)</string>
+    <string name="heat_protection_notification_title">Таблетът е твърде горещ, зареждането е на пауза</string>
+    <string name="heat_protection_notification_text">Температурата на батерията е %1$s. Зарядното устройство захранва таблета директно, докато той се охлади, след което зареждането се възобновява.</string>
 </resources>

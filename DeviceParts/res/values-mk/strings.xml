@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Функции на уредот</string>
     <string name="device_parts_title">Функции на уредот</string>
-    <string name="device_parts_summary">Боја на екранот, слика на видеото, Dolby Atmos, перформанси, додатоци, стапка на освежување, екран на допир и проширување на RAM меморијата</string>
+    <string name="device_parts_summary">Боја на екранот, слика на видеото, Dolby Atmos, перформанси, додатоци, стапка на освежување, екран на допир, проширување на RAM меморијата и полнење</string>
     <string name="category_perf_memory_title">Перформанси и меморија</string>
     <string name="ram_expansion_title">Проширување на RAM меморијата</string>
     <string name="ram_expansion_summary">Преместете ги неактивните податоци од апликациите во складиштето за да ослободите RAM меморија</string>
@@ -227,4 +227,29 @@
     <string name="tile_dolby_app_note">Апликациите со посебно зададени режими ќе продолжат да ги користат своите режими при репродукција.</string>
     <string name="tile_color_app_note">Апликациите со посебно зададени бои ќе продолжат да ги користат своите поставки при отворање.</string>
     <string name="tile_color_adaptive_unavailable">Боја на екранот е оневозможена</string>
+
+    <string name="category_perf_charging">Полнење</string>
+    <string name="bypass_app_title">Директно напојување</string>
+    <string name="bypass_app_summary">Додека оваа апликација е во преден план и полначот е поврзан, полначот директно го напојува таблетот, а батеријата не се полни. Се исклучува кога батеријата ќе падне на %1$d%%.</string>
+    <string name="bypass_notification_channel">Директно напојување</string>
+    <string name="charging_warning_notification_channel">Предупредувања за полнење</string>
+    <string name="bypass_on_toast">Директното напојување е вклучено</string>
+    <string name="bypass_on_title">Директното напојување е вклучено, како што е поставено за %1$s</string>
+    <string name="bypass_on_text">Полначот директно го напојува таблетот, а батеријата не се полни. Полнењето продолжува кога батеријата ќе падне на %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Слаба батерија, директното напојување е исклучено</string>
+    <string name="bypass_low_battery_title">Слаба батерија, директното напојување е исклучено</string>
+    <string name="bypass_low_battery_text">Батеријата падна на %1$d%%, па повторно се полни.</string>
+    <string name="heat_protection_title">Заштита од прегревање при полнење</string>
+    <string name="heat_protection_summary">Паузирај го полнењето на батеријата додека таблетот е жежок</string>
+    <string name="heat_protection_enabled_title">Користи заштита од прегревање при полнење</string>
+    <string name="heat_protection_description">Ако за време на полнењето батеријата ја достигне граничната температура и е наполнета барем до минималното полнење, батеријата престанува да се полни и полначот директно го напојува таблетот, за батеријата да не се загрева понатаму. Полнењето продолжува кога температурата или полнењето ќе паднат под овие вредности. Се префрла најмногу еднаш на секои 5 минути.</string>
+    <string name="category_heat_protection_title">Поставки за заштита</string>
+    <string name="heat_protection_min_level_title">Минимално полнење</string>
+    <string name="heat_protection_min_level_summary">Само при %1$d%% или повеќе</string>
+    <string name="heat_protection_threshold_title">Гранична температура</string>
+    <string name="heat_protection_threshold_low">Ниска (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Средна (41 °C)</string>
+    <string name="heat_protection_threshold_high">Висока (43 °C)</string>
+    <string name="heat_protection_notification_title">Таблетот е премногу жежок, полнењето е паузирано</string>
+    <string name="heat_protection_notification_text">Батеријата е на %1$s. Полначот директно го напојува таблетот додека не се олади, а потоа полнењето продолжува.</string>
 </resources>

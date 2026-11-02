@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/heat_protection_title">
+    <com.android.settingslib.widget.MainSwitchPreference
+        android:key="heat_protection_enabled"
+        android:title="@string/heat_protection_enabled_title"
+        android:persistent="false" />
+
+    <Preference
+        android:key="heat_protection_description"
+        android:summary="@string/heat_protection_description"
+        android:selectable="false" />
+
+    <PreferenceCategory
+        android:key="category_heat_protection"
+        android:title="@string/category_heat_protection_title">
+        <SeekBarPreference
+            android:key="heat_protection_min_level"
+            android:title="@string/heat_protection_min_level_title"
+            android:persistent="false" />
+
+        <DropDownPreference
+            android:key="heat_protection_threshold"
+            android:title="@string/heat_protection_threshold_title"
+            android:entries="@array/heat_protection_threshold_entries"
+            android:entryValues="@array/heat_protection_threshold_values"
+            android:persistent="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

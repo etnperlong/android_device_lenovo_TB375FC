@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Apparaatfuncties</string>
     <string name="device_parts_title">Apparaatfuncties</string>
-    <string name="device_parts_summary">Schermkleur, videobeeld, Dolby Atmos, prestaties, accessoires, vernieuwingsfrequentie en touch, RAM-uitbreiding</string>
+    <string name="device_parts_summary">Schermkleur, videobeeld, Dolby Atmos, prestaties, accessoires, vernieuwingsfrequentie en touch, RAM-uitbreiding, opladen</string>
     <string name="category_perf_memory_title">Prestaties en geheugen</string>
     <string name="ram_expansion_title">RAM-uitbreiding</string>
     <string name="ram_expansion_summary">Verplaats inactieve appgegevens naar opslag om RAM vrij te maken</string>
@@ -220,4 +220,29 @@
     <string name="tile_dolby_app_note">Apps met een eigen modus blijven deze gebruiken terwijl ze audio afspelen.</string>
     <string name="tile_color_app_note">Apps met een eigen kleurinstelling blijven deze gebruiken zolang ze open zijn.</string>
     <string name="tile_color_adaptive_unavailable">Schermkleuren zijn uitgeschakeld</string>
+
+    <string name="category_perf_charging">Opladen</string>
+    <string name="bypass_app_title">Bypass-opladen</string>
+    <string name="bypass_app_summary">Als deze app op de voorgrond staat en de oplader is aangesloten, voedt de oplader de tablet rechtstreeks en wordt de batterij niet opgeladen. Wordt uitgeschakeld als de batterij daalt tot %1$d%%.</string>
+    <string name="bypass_notification_channel">Bypass-opladen</string>
+    <string name="charging_warning_notification_channel">Oplaadwaarschuwingen</string>
+    <string name="bypass_on_toast">Bypass-opladen aan</string>
+    <string name="bypass_on_title">Bypass-opladen is aan, zoals ingesteld voor %1$s</string>
+    <string name="bypass_on_text">De oplader voedt de tablet rechtstreeks en de batterij wordt niet opgeladen. Het opladen wordt hervat als de batterij daalt tot %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Batterij bijna leeg, bypass-opladen uitgeschakeld</string>
+    <string name="bypass_low_battery_title">Batterij bijna leeg, bypass-opladen uitgeschakeld</string>
+    <string name="bypass_low_battery_text">De batterij is gedaald tot %1$d%% en wordt daarom weer opgeladen.</string>
+    <string name="heat_protection_title">Hittebescherming bij opladen</string>
+    <string name="heat_protection_summary">Opladen van de batterij pauzeren als de tablet heet is</string>
+    <string name="heat_protection_enabled_title">Hittebescherming bij opladen gebruiken</string>
+    <string name="heat_protection_description">Als de batterij tijdens het opladen de drempeltemperatuur bereikt en minstens tot de minimale lading is opgeladen, stopt het opladen van de batterij en voedt de oplader de tablet rechtstreeks, zodat de batterij niet verder opwarmt. Het opladen wordt hervat als de temperatuur of de lading onder deze waarden daalt. Er wordt maximaal één keer per 5 minuten gewisseld.</string>
+    <string name="category_heat_protection_title">Beschermingsinstellingen</string>
+    <string name="heat_protection_min_level_title">Minimale lading</string>
+    <string name="heat_protection_min_level_summary">Alleen bij %1$d%% of meer</string>
+    <string name="heat_protection_threshold_title">Drempeltemperatuur</string>
+    <string name="heat_protection_threshold_low">Laag (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Gemiddeld (41 °C)</string>
+    <string name="heat_protection_threshold_high">Hoog (43 °C)</string>
+    <string name="heat_protection_notification_title">Tablet te heet, opladen gepauzeerd</string>
+    <string name="heat_protection_notification_text">De batterij is %1$s. De oplader voedt de tablet rechtstreeks totdat deze is afgekoeld. Daarna wordt het opladen hervat.</string>
 </resources>

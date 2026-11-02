@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">စက်ပစ္စည်းလုပ်ဆောင်ချက်များ</string>
     <string name="device_parts_title">စက်ပစ္စည်းလုပ်ဆောင်ချက်များ</string>
-    <string name="device_parts_summary">မျက်နှာပြင်အရောင်၊ ဗီဒီယိုရုပ်ထွက်၊ Dolby Atmos၊ စွမ်းဆောင်ရည်၊ ဆက်စပ်ပစ္စည်းများ၊ ပြန်လည်စတင်နှုန်းနှင့် ထိတွေ့မှု၊ RAM တိုးချဲ့မှု</string>
+    <string name="device_parts_summary">မျက်နှာပြင်အရောင်၊ ဗီဒီယိုရုပ်ထွက်၊ Dolby Atmos၊ စွမ်းဆောင်ရည်၊ ဆက်စပ်ပစ္စည်းများ၊ ပြန်လည်စတင်နှုန်းနှင့် ထိတွေ့မှု၊ RAM တိုးချဲ့မှု၊ အားသွင်းခြင်း</string>
     <string name="category_perf_memory_title">စွမ်းဆောင်ရည်နှင့် မှတ်ဉာဏ်</string>
     <string name="ram_expansion_title">RAM တိုးချဲ့မှု</string>
     <string name="ram_expansion_summary">RAM နေရာလွတ်ရစေရန် အသုံးမပြုသောအက်ပ်ဒေတာများကို သိုလှောင်ခန်းသို့ ရွှေ့ပါ</string>
@@ -219,4 +219,29 @@
     <string name="tile_dolby_app_note">ကိုယ်ပိုင်မုဒ်ရှိသည့် အက်ပ်များသည် အသံဖွင့်နေချိန်တွင် ၎င်းမုဒ်ကို ဆက်လက်အသုံးပြုသည်။</string>
     <string name="tile_color_app_note">ကိုယ်ပိုင်အရောင်ဆက်တင်ရှိသည့် အက်ပ်များသည် ဖွင့်ထားချိန်တွင် ၎င်းဆက်တင်ကို ဆက်လက်အသုံးပြုသည်။</string>
     <string name="tile_color_adaptive_unavailable">မျက်နှာပြင်အရောင်ကို ပိတ်ထားသည်</string>
+
+    <string name="category_perf_charging">အားသွင်းခြင်း</string>
+    <string name="bypass_app_title">Bypass အားသွင်းခြင်း</string>
+    <string name="bypass_app_summary">ဤအက်ပ်ကို ရှေ့တွင်ဖွင့်ထားပြီး အားသွင်းကိရိယာ ချိတ်ဆက်ထားစဉ် အားသွင်းကိရိယာက တက်ဘလက်ကို တိုက်ရိုက်ပါဝါပေးပြီး ဘက်ထရီကို အားမသွင်းပါ။ ဘက်ထရီ %1$d%% သို့ ကျဆင်းသောအခါ ပိတ်သွားသည်။</string>
+    <string name="bypass_notification_channel">Bypass အားသွင်းခြင်း</string>
+    <string name="charging_warning_notification_channel">အားသွင်းခြင်း သတိပေးချက်များ</string>
+    <string name="bypass_on_toast">Bypass အားသွင်းခြင်း ဖွင့်ထားသည်</string>
+    <string name="bypass_on_title">%1$s အတွက် သတ်မှတ်ထားသည့်အတိုင်း Bypass အားသွင်းခြင်း ဖွင့်ထားသည်</string>
+    <string name="bypass_on_text">အားသွင်းကိရိယာက တက်ဘလက်ကို တိုက်ရိုက်ပါဝါပေးပြီး ဘက်ထရီကို အားမသွင်းပါ။ ဘက်ထရီ %1$d%% သို့ ကျဆင်းသောအခါ အားပြန်သွင်းမည်။</string>
+    <string name="bypass_low_battery_toast">ဘက်ထရီအားနည်းနေသဖြင့် Bypass အားသွင်းခြင်းကို ပိတ်လိုက်သည်</string>
+    <string name="bypass_low_battery_title">ဘက်ထရီအားနည်းနေသဖြင့် Bypass အားသွင်းခြင်းကို ပိတ်လိုက်သည်</string>
+    <string name="bypass_low_battery_text">ဘက်ထရီ %1$d%% သို့ ကျဆင်းသွားသဖြင့် အားပြန်သွင်းနေပါသည်။</string>
+    <string name="heat_protection_title">အားသွင်းစဉ် အပူကာကွယ်မှု</string>
+    <string name="heat_protection_summary">တက်ဘလက် ပူနေစဉ် ဘက်ထရီအားသွင်းခြင်းကို ခေတ္တရပ်ရန်</string>
+    <string name="heat_protection_enabled_title">အားသွင်းစဉ် အပူကာကွယ်မှုကို သုံးရန်</string>
+    <string name="heat_protection_description">အားသွင်းနေစဉ် ဘက်ထရီသည် သတ်မှတ်အပူချိန်သို့ ရောက်ပြီး အနည်းဆုံးအားအထိ ရှိနေပါက ဘက်ထရီကို အားသွင်းခြင်း ရပ်ပြီး အားသွင်းကိရိယာက တက်ဘလက်ကို တိုက်ရိုက်ပါဝါပေးသဖြင့် ဘက်ထရီ ထပ်မပူတော့ပါ။ အပူချိန် သို့မဟုတ် ဘက်ထရီအား သတ်မှတ်ချက်အောက် ကျသောအခါ အားပြန်သွင်းမည်။ 5 မိနစ်လျှင် အများဆုံး တစ်ကြိမ်သာ ပြောင်းသည်။</string>
+    <string name="category_heat_protection_title">ကာကွယ်မှု ဆက်တင်များ</string>
+    <string name="heat_protection_min_level_title">အနည်းဆုံး ဘက်ထရီအား</string>
+    <string name="heat_protection_min_level_summary">%1$d%% နှင့်အထက်တွင်သာ</string>
+    <string name="heat_protection_threshold_title">သတ်မှတ်အပူချိန်</string>
+    <string name="heat_protection_threshold_low">နိမ့် (39 °C)</string>
+    <string name="heat_protection_threshold_medium">အလယ်အလတ် (41 °C)</string>
+    <string name="heat_protection_threshold_high">မြင့် (43 °C)</string>
+    <string name="heat_protection_notification_title">တက်ဘလက် အလွန်ပူနေသဖြင့် အားသွင်းခြင်း ခေတ္တရပ်ထားသည်</string>
+    <string name="heat_protection_notification_text">ဘက်ထရီ အပူချိန် %1$s ရှိသည်။ အေးသွားသည်အထိ အားသွင်းကိရိယာက တက်ဘလက်ကို တိုက်ရိုက်ပါဝါပေးပြီးနောက် အားပြန်သွင်းမည်။</string>
 </resources>

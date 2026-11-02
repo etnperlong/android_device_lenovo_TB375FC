@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">ഉപകരണ സവിശേഷതകൾ</string>
     <string name="device_parts_title">ഉപകരണ സവിശേഷതകൾ</string>
-    <string name="device_parts_summary">സ്ക്രീൻ നിറം, വീഡിയോ ചിത്ര നിലവാരം, Dolby Atmos, പ്രകടനം, ആക്‌സസറികൾ, റീഫ്രഷ് നിരക്കും ടച്ചും, RAM വിപുലീകരണവും</string>
+    <string name="device_parts_summary">സ്ക്രീൻ നിറം, വീഡിയോ ചിത്ര നിലവാരം, Dolby Atmos, പ്രകടനം, ആക്‌സസറികൾ, റീഫ്രഷ് നിരക്കും ടച്ചും, RAM വിപുലീകരണം, ചാർജിംഗും</string>
     <string name="ram_expansion_title">RAM വിപുലീകരണം</string>
     <string name="ram_expansion_summary">RAM സ്വതന്ത്രമാക്കാൻ ഉപയോഗിക്കാത്ത ആപ്പുകളുടെ ഡാറ്റ സ്റ്റോറേജിലേക്ക് മാറ്റുക</string>
     <string name="ram_expansion_description">വളരെക്കാലമായി ഉപയോഗിക്കാത്ത ആപ്പുകളുടെ ഡാറ്റ കംപ്രസ് ചെയ്ത മെമ്മറിയിൽ നിന്ന് സ്റ്റോറേജിലേക്ക് മാറ്റി RAM സ്വതന്ത്രമാക്കുക. തിരഞ്ഞെടുത്ത സ്റ്റോറേജ് അളവ് ഉപയോഗിക്കും. പുനരാരംഭിച്ചതിന് ശേഷം മാറ്റങ്ങൾ പ്രാബല്യത്തിൽ വരും.</string>
@@ -220,4 +220,29 @@
     <string name="tile_dolby_app_note">സ്വന്തമായ മോഡുള്ള ആപ്പുകൾ ഓഡിയോ പ്ലേ ചെയ്യുമ്പോൾ അത് തുടർന്നും ഉപയോഗിക്കും.</string>
     <string name="tile_color_app_note">സ്വന്തമായ നിറ ക്രമീകരണമുള്ള ആപ്പുകൾ തുറന്നിരിക്കുമ്പോൾ അത് തുടർന്നും ഉപയോഗിക്കും.</string>
     <string name="tile_color_adaptive_unavailable">സ്ക്രീൻ നിറം പ്രവർത്തനരഹിതമാണ്</string>
+
+    <string name="category_perf_charging">ചാർജിംഗ്</string>
+    <string name="bypass_app_title">ബൈപാസ് ചാർജിംഗ്</string>
+    <string name="bypass_app_summary">ഈ ആപ്പ് മുന്നിലായിരിക്കുകയും ചാർജർ കണക്റ്റ് ചെയ്തിരിക്കുകയും ചെയ്യുമ്പോൾ, ചാർജർ ടാബ്‌ലെറ്റിന് നേരിട്ട് പവർ നൽകുന്നു, ബാറ്ററി ചാർജ് ചെയ്യപ്പെടുന്നില്ല. ബാറ്ററി %1$d%% ആയി കുറയുമ്പോൾ ഓഫാകും.</string>
+    <string name="bypass_notification_channel">ബൈപാസ് ചാർജിംഗ്</string>
+    <string name="charging_warning_notification_channel">ചാർജിംഗ് മുന്നറിയിപ്പുകൾ</string>
+    <string name="bypass_on_toast">ബൈപാസ് ചാർജിംഗ് ഓണാണ്</string>
+    <string name="bypass_on_title">%1$s എന്നതിനായി സജ്ജമാക്കിയതുപോലെ ബൈപാസ് ചാർജിംഗ് ഓണാണ്</string>
+    <string name="bypass_on_text">ചാർജർ ടാബ്‌ലെറ്റിന് നേരിട്ട് പവർ നൽകുന്നു, ബാറ്ററി ചാർജ് ചെയ്യപ്പെടുന്നില്ല. ബാറ്ററി %1$d%% ആയി കുറയുമ്പോൾ ചാർജിംഗ് പുനരാരംഭിക്കും.</string>
+    <string name="bypass_low_battery_toast">ബാറ്ററി കുറവാണ്, ബൈപാസ് ചാർജിംഗ് ഓഫാക്കി</string>
+    <string name="bypass_low_battery_title">ബാറ്ററി കുറവാണ്, ബൈപാസ് ചാർജിംഗ് ഓഫാക്കി</string>
+    <string name="bypass_low_battery_text">ബാറ്ററി %1$d%% ആയി കുറഞ്ഞു, അതിനാൽ വീണ്ടും ചാർജ് ചെയ്യുന്നു.</string>
+    <string name="heat_protection_title">ചാർജിംഗ് താപ സംരക്ഷണം</string>
+    <string name="heat_protection_summary">ടാബ്‌ലെറ്റ് ചൂടായിരിക്കുമ്പോൾ ബാറ്ററി ചാർജ് ചെയ്യുന്നത് താൽക്കാലികമായി നിർത്തുക</string>
+    <string name="heat_protection_enabled_title">ചാർജിംഗ് താപ സംരക്ഷണം ഉപയോഗിക്കുക</string>
+    <string name="heat_protection_description">ചാർജ് ചെയ്യുമ്പോൾ, ബാറ്ററി പരിധി താപനിലയിൽ എത്തുകയും കുറഞ്ഞത് മിനിമം ചാർജ് വരെ ചാർജ് ആയിരിക്കുകയും ചെയ്താൽ, ബാറ്ററി ചാർജ് ചെയ്യുന്നത് നിർത്തുകയും ചാർജർ ടാബ്‌ലെറ്റിന് നേരിട്ട് പവർ നൽകുകയും ചെയ്യുന്നു, അതിനാൽ ബാറ്ററി കൂടുതൽ ചൂടാകില്ല. താപനിലയോ ചാർജോ ഇവയ്ക്ക് താഴെയാകുമ്പോൾ ചാർജിംഗ് പുനരാരംഭിക്കും. 5 മിനിറ്റിൽ പരമാവധി ഒരു തവണ മാത്രമേ മാറുകയുള്ളൂ.</string>
+    <string name="category_heat_protection_title">സംരക്ഷണ ക്രമീകരണം</string>
+    <string name="heat_protection_min_level_title">മിനിമം ചാർജ്</string>
+    <string name="heat_protection_min_level_summary">%1$d%% അല്ലെങ്കിൽ അതിൽ കൂടുതലുള്ളപ്പോൾ മാത്രം</string>
+    <string name="heat_protection_threshold_title">പരിധി താപനില</string>
+    <string name="heat_protection_threshold_low">കുറവ് (39 °C)</string>
+    <string name="heat_protection_threshold_medium">ഇടത്തരം (41 °C)</string>
+    <string name="heat_protection_threshold_high">ഉയർന്നത് (43 °C)</string>
+    <string name="heat_protection_notification_title">ടാബ്‌ലെറ്റ് വളരെ ചൂടാണ്, ചാർജിംഗ് താൽക്കാലികമായി നിർത്തി</string>
+    <string name="heat_protection_notification_text">ബാറ്ററി താപനില %1$s ആണ്. തണുക്കുന്നതുവരെ ചാർജർ ടാബ്‌ലെറ്റിന് നേരിട്ട് പവർ നൽകും, തുടർന്ന് ചാർജിംഗ് പുനരാരംഭിക്കും.</string>
 </resources>

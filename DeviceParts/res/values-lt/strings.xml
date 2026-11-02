@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Įrenginio funkcijos</string>
     <string name="device_parts_title">Įrenginio funkcijos</string>
-    <string name="device_parts_summary">Ekrano spalvos, vaizdo įrašo vaizdas, Dolby Atmos, našumas, priedai, atnaujinimo dažnis, lietimas ir RAM išplėtimas</string>
+    <string name="device_parts_summary">Ekrano spalvos, vaizdo įrašo vaizdas, Dolby Atmos, našumas, priedai, atnaujinimo dažnis, lietimas, RAM išplėtimas ir įkrovimas</string>
     <string name="category_perf_memory_title">Našumas ir atmintis</string>
     <string name="ram_expansion_title">RAM išplėtimas</string>
     <string name="ram_expansion_summary">Perkelkite neaktyvių programų duomenis į saugyklą, kad atlaisvintumėte RAM</string>
@@ -229,4 +229,29 @@
     <string name="tile_dolby_app_note">Programos, kurioms režimai nustatyti atskirai, atkūrimo metu toliau naudos savo režimus.</string>
     <string name="tile_color_app_note">Programos, kurioms spalvos nustatytos atskirai, atidarius toliau naudos savo nustatymus.</string>
     <string name="tile_color_adaptive_unavailable">Ekrano spalvos išjungtos</string>
+
+    <string name="category_perf_charging">Įkrovimas</string>
+    <string name="bypass_app_title">Apeinamasis įkrovimas</string>
+    <string name="bypass_app_summary">Kai ši programa yra priekiniame plane ir prijungtas įkroviklis, įkroviklis tiesiogiai maitina planšetinį kompiuterį, o akumuliatorius nėra įkraunamas. Išsijungia, kai akumuliatoriaus įkrova nukrenta iki %1$d%%.</string>
+    <string name="bypass_notification_channel">Apeinamasis įkrovimas</string>
+    <string name="charging_warning_notification_channel">Įkrovimo įspėjimai</string>
+    <string name="bypass_on_toast">Apeinamasis įkrovimas įjungtas</string>
+    <string name="bypass_on_title">Apeinamasis įkrovimas įjungtas, kaip nustatyta programai %1$s</string>
+    <string name="bypass_on_text">Įkroviklis tiesiogiai maitina planšetinį kompiuterį, o akumuliatorius nėra įkraunamas. Įkrovimas bus tęsiamas, kai akumuliatoriaus įkrova nukris iki %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Akumuliatorius senka, apeinamasis įkrovimas išjungtas</string>
+    <string name="bypass_low_battery_title">Akumuliatorius senka, apeinamasis įkrovimas išjungtas</string>
+    <string name="bypass_low_battery_text">Akumuliatoriaus įkrova nukrito iki %1$d%%, todėl jis vėl įkraunamas.</string>
+    <string name="heat_protection_title">Apsauga nuo perkaitimo įkraunant</string>
+    <string name="heat_protection_summary">Pristabdyti akumuliatoriaus įkrovimą, kai planšetinis kompiuteris įkaitęs</string>
+    <string name="heat_protection_enabled_title">Naudoti apsaugą nuo perkaitimo įkraunant</string>
+    <string name="heat_protection_description">Įkraunant, jei akumuliatorius pasiekia ribinę temperatūrą ir yra įkrautas bent iki minimalios įkrovos, akumuliatoriaus įkrovimas sustabdomas, o įkroviklis tiesiogiai maitina planšetinį kompiuterį, kad akumuliatorius toliau nekaistų. Įkrovimas tęsiamas, kai temperatūra arba įkrova nukrenta žemiau nustatytų verčių. Perjungiama ne dažniau kaip kas 5 minutes.</string>
+    <string name="category_heat_protection_title">Apsaugos nustatymai</string>
+    <string name="heat_protection_min_level_title">Minimali įkrova</string>
+    <string name="heat_protection_min_level_summary">Tik kai įkrova %1$d%% ar didesnė</string>
+    <string name="heat_protection_threshold_title">Ribinė temperatūra</string>
+    <string name="heat_protection_threshold_low">Žema (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Vidutinė (41 °C)</string>
+    <string name="heat_protection_threshold_high">Aukšta (43 °C)</string>
+    <string name="heat_protection_notification_title">Planšetinis kompiuteris per karštas, įkrovimas pristabdytas</string>
+    <string name="heat_protection_notification_text">Akumuliatoriaus temperatūra: %1$s. Įkroviklis tiesiogiai maitina planšetinį kompiuterį, kol jis atvės, tada įkrovimas bus tęsiamas.</string>
 </resources>

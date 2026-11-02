@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Laitteen ominaisuudet</string>
     <string name="device_parts_title">Laitteen ominaisuudet</string>
-    <string name="device_parts_summary">Näytön väri, videokuva, Dolby Atmos, suorituskyky, lisävarusteet, virkistystaajuus, kosketus ja RAM-laajennus</string>
+    <string name="device_parts_summary">Näytön väri, videokuva, Dolby Atmos, suorituskyky, lisävarusteet, virkistystaajuus, kosketus, RAM-laajennus ja lataus</string>
     <string name="category_perf_memory_title">Suorituskyky ja muisti</string>
     <string name="ram_expansion_title">RAM-laajennus</string>
     <string name="ram_expansion_summary">Vapauta RAM-muistia siirtämällä passiivisten sovellusten tietoja tallennustilaan</string>
@@ -227,4 +227,29 @@
     <string name="tile_dolby_app_note">Sovellukset, joilla on oma tila, käyttävät sitä edelleen toistaessaan.</string>
     <string name="tile_color_app_note">Sovellukset, joilla on oma väriasetus, käyttävät sitä edelleen ollessaan auki.</string>
     <string name="tile_color_adaptive_unavailable">Näytön väri ei ole käytössä</string>
+
+    <string name="category_perf_charging">Lataus</string>
+    <string name="bypass_app_title">Ohituslataus</string>
+    <string name="bypass_app_summary">Kun tämä sovellus on etualalla ja laturi on yhdistetty, laturi antaa virtaa suoraan tabletille eikä akkua ladata. Poistuu käytöstä, kun akun varaus laskee %1$d%%:iin.</string>
+    <string name="bypass_notification_channel">Ohituslataus</string>
+    <string name="charging_warning_notification_channel">Latausvaroitukset</string>
+    <string name="bypass_on_toast">Ohituslataus päällä</string>
+    <string name="bypass_on_title">Ohituslataus on päällä sovelluksen %1$s asetuksen mukaisesti</string>
+    <string name="bypass_on_text">Laturi antaa virtaa suoraan tabletille eikä akkua ladata. Lataus jatkuu, kun akun varaus laskee %1$d%%:iin.</string>
+    <string name="bypass_low_battery_toast">Akku vähissä, ohituslataus poistettu käytöstä</string>
+    <string name="bypass_low_battery_title">Akku vähissä, ohituslataus poistettu käytöstä</string>
+    <string name="bypass_low_battery_text">Akun varaus laski %1$d%%:iin, joten akkua ladataan taas.</string>
+    <string name="heat_protection_title">Latauksen lämpösuojaus</string>
+    <string name="heat_protection_summary">Keskeytä akun lataus, kun tabletti on kuuma</string>
+    <string name="heat_protection_enabled_title">Käytä latauksen lämpösuojausta</string>
+    <string name="heat_protection_description">Jos akku saavuttaa latauksen aikana kynnyslämpötilan ja sen varaus on vähintään vähimmäisvarauksen verran, akun lataus keskeytetään ja laturi antaa virtaa suoraan tabletille, jotta akku ei lämpene enempää. Lataus jatkuu, kun lämpötila tai varaus laskee näiden arvojen alle. Tila vaihtuu enintään kerran 5 minuutissa.</string>
+    <string name="category_heat_protection_title">Suojausasetukset</string>
+    <string name="heat_protection_min_level_title">Vähimmäisvaraus</string>
+    <string name="heat_protection_min_level_summary">Vain, kun varaus on vähintään %1$d%%</string>
+    <string name="heat_protection_threshold_title">Kynnyslämpötila</string>
+    <string name="heat_protection_threshold_low">Matala (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Keskitaso (41 °C)</string>
+    <string name="heat_protection_threshold_high">Korkea (43 °C)</string>
+    <string name="heat_protection_notification_title">Tabletti liian kuuma, lataus keskeytetty</string>
+    <string name="heat_protection_notification_text">Akun lämpötila on %1$s. Laturi antaa virtaa suoraan tabletille, kunnes se jäähtyy, minkä jälkeen lataus jatkuu.</string>
 </resources>

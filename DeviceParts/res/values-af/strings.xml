@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Toestelkenmerke</string>
     <string name="device_parts_title">Toestelkenmerke</string>
-    <string name="device_parts_summary">Skermkleur, videobeeld, Dolby Atmos, werkverrigting, bykomstighede, verversingstempo, aanraking en RAM-uitbreiding</string>
+    <string name="device_parts_summary">Skermkleur, videobeeld, Dolby Atmos, werkverrigting, bykomstighede, verversingstempo, aanraking, RAM-uitbreiding en laai</string>
     <string name="category_perf_memory_title">Werkverrigting en geheue</string>
     <string name="ram_expansion_title">RAM-uitbreiding</string>
     <string name="ram_expansion_summary">Skuif onaktiewe programdata na berging om RAM vry te maak</string>
@@ -220,4 +220,29 @@
     <string name="tile_dolby_app_note">Programme met hul eie modus bly dit gebruik terwyl hulle oudio speel.</string>
     <string name="tile_color_app_note">Programme met hul eie kleurinstelling bly dit gebruik terwyl hulle oop is.</string>
     <string name="tile_color_adaptive_unavailable">Skermkleur is gedeaktiveer</string>
+
+    <string name="category_perf_charging">Laai</string>
+    <string name="bypass_app_title">Omleidingslaai</string>
+    <string name="bypass_app_summary">Terwyl hierdie program op die voorgrond is en die laaier gekoppel is, voed die laaier die tablet direk en word die battery nie gelaai nie. Skakel af wanneer die battery tot %1$d%% daal.</string>
+    <string name="bypass_notification_channel">Omleidingslaai</string>
+    <string name="charging_warning_notification_channel">Laaiwaarskuwings</string>
+    <string name="bypass_on_toast">Omleidingslaai is aan</string>
+    <string name="bypass_on_title">Omleidingslaai is aan, soos vir %1$s gestel</string>
+    <string name="bypass_on_text">Die laaier voed die tablet direk en die battery word nie gelaai nie. Laai hervat wanneer die battery tot %1$d%% daal.</string>
+    <string name="bypass_low_battery_toast">Battery laag, omleidingslaai afgeskakel</string>
+    <string name="bypass_low_battery_title">Battery laag, omleidingslaai afgeskakel</string>
+    <string name="bypass_low_battery_text">Die battery het tot %1$d%% gedaal en laai dus weer.</string>
+    <string name="heat_protection_title">Hittebeskerming tydens laai</string>
+    <string name="heat_protection_summary">Onderbreek die laai van die battery terwyl die tablet warm is</string>
+    <string name="heat_protection_enabled_title">Gebruik hittebeskerming tydens laai</string>
+    <string name="heat_protection_description">As die battery tydens laai die drempeltemperatuur bereik en tot minstens die minimum lading gelaai is, hou die battery op laai en voed die laaier die tablet direk, sodat die battery nie verder warm word nie. Laai hervat wanneer die temperatuur of die lading onder hierdie waardes daal. Dit skakel hoogstens een keer elke 5 minute oor.</string>
+    <string name="category_heat_protection_title">Beskermingsinstellings</string>
+    <string name="heat_protection_min_level_title">Minimum lading</string>
+    <string name="heat_protection_min_level_summary">Slegs by %1$d%% of meer</string>
+    <string name="heat_protection_threshold_title">Drempeltemperatuur</string>
+    <string name="heat_protection_threshold_low">Laag (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Medium (41 °C)</string>
+    <string name="heat_protection_threshold_high">Hoog (43 °C)</string>
+    <string name="heat_protection_notification_title">Tablet te warm, laai onderbreek</string>
+    <string name="heat_protection_notification_text">Die battery is %1$s. Die laaier voed die tablet direk totdat dit afkoel, en dan hervat laai.</string>
 </resources>

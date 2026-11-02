@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Funzioni del dispositivo</string>
     <string name="device_parts_title">Funzioni del dispositivo</string>
-    <string name="device_parts_summary">Colore dello schermo, immagine video, Dolby Atmos, prestazioni, accessori, frequenza di aggiornamento, tocco ed espansione RAM</string>
+    <string name="device_parts_summary">Colore dello schermo, immagine video, Dolby Atmos, prestazioni, accessori, frequenza di aggiornamento, tocco, espansione RAM e ricarica</string>
     <string name="category_perf_memory_title">Prestazioni e memoria</string>
     <string name="ram_expansion_title">Espansione RAM</string>
     <string name="ram_expansion_summary">Sposta i dati delle app inattive nello spazio di archiviazione per liberare RAM</string>
@@ -223,4 +223,29 @@
     <string name="tile_dolby_app_note">Le app con modalità impostate separatamente continueranno a usare le proprie modalità durante la riproduzione.</string>
     <string name="tile_color_app_note">Le app con colori impostati separatamente continueranno a usare le proprie impostazioni all’apertura.</string>
     <string name="tile_color_adaptive_unavailable">Colore dello schermo disattivato</string>
+
+    <string name="category_perf_charging">Ricarica</string>
+    <string name="bypass_app_title">Ricarica bypass</string>
+    <string name="bypass_app_summary">Quando questa app è in primo piano e il caricabatterie è connesso, il caricabatterie alimenta direttamente il tablet e la batteria non viene caricata. Si disattiva quando la batteria scende al %1$d%%.</string>
+    <string name="bypass_notification_channel">Ricarica bypass</string>
+    <string name="charging_warning_notification_channel">Avvisi di ricarica</string>
+    <string name="bypass_on_toast">Ricarica bypass attiva</string>
+    <string name="bypass_on_title">Ricarica bypass attiva, come impostato per %1$s</string>
+    <string name="bypass_on_text">Il caricabatterie alimenta direttamente il tablet e la batteria non viene caricata. La ricarica riprende quando la batteria scende al %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Batteria scarica, ricarica bypass disattivata</string>
+    <string name="bypass_low_battery_title">Batteria scarica, ricarica bypass disattivata</string>
+    <string name="bypass_low_battery_text">La batteria è scesa al %1$d%%, quindi è di nuovo in carica.</string>
+    <string name="heat_protection_title">Protezione dal calore in ricarica</string>
+    <string name="heat_protection_summary">Sospendi la ricarica della batteria quando il tablet è caldo</string>
+    <string name="heat_protection_enabled_title">Usa la protezione dal calore in ricarica</string>
+    <string name="heat_protection_description">Durante la ricarica, se la batteria raggiunge la temperatura di soglia ed è carica almeno al livello minimo, la batteria smette di caricarsi e il caricabatterie alimenta direttamente il tablet, così la batteria non si scalda ulteriormente. La ricarica riprende quando la temperatura o il livello di carica scendono sotto tali valori. Il passaggio avviene al massimo una volta ogni 5 minuti.</string>
+    <string name="category_heat_protection_title">Impostazioni di protezione</string>
+    <string name="heat_protection_min_level_title">Carica minima</string>
+    <string name="heat_protection_min_level_summary">Solo dal %1$d%% in su</string>
+    <string name="heat_protection_threshold_title">Temperatura di soglia</string>
+    <string name="heat_protection_threshold_low">Bassa (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Media (41 °C)</string>
+    <string name="heat_protection_threshold_high">Alta (43 °C)</string>
+    <string name="heat_protection_notification_title">Tablet troppo caldo, ricarica sospesa</string>
+    <string name="heat_protection_notification_text">La batteria è a %1$s. Il caricabatterie alimenta direttamente il tablet finché non si raffredda, poi la ricarica riprende.</string>
 </resources>

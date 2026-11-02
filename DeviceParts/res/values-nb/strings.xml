@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Enhetsfunksjoner</string>
     <string name="device_parts_title">Enhetsfunksjoner</string>
-    <string name="device_parts_summary">Skjermfarge, videobilde, Dolby Atmos, ytelse, tilbehør, oppdateringsfrekvens og berøring, RAM-utvidelse</string>
+    <string name="device_parts_summary">Skjermfarge, videobilde, Dolby Atmos, ytelse, tilbehør, oppdateringsfrekvens og berøring, RAM-utvidelse, lading</string>
     <string name="category_perf_memory_title">Ytelse og minne</string>
     <string name="ram_expansion_title">RAM-utvidelse</string>
     <string name="ram_expansion_summary">Flytt inaktive appdata til lagring for å frigjøre RAM</string>
@@ -220,4 +220,29 @@
     <string name="tile_dolby_app_note">Apper med egen modus fortsetter å bruke den mens de spiller av lyd.</string>
     <string name="tile_color_app_note">Apper med egne fargeinnstillinger fortsetter å bruke dem mens de er åpne.</string>
     <string name="tile_color_adaptive_unavailable">Skjermfarge er deaktivert</string>
+
+    <string name="category_perf_charging">Lading</string>
+    <string name="bypass_app_title">Bypass-lading</string>
+    <string name="bypass_app_summary">Når denne appen er i forgrunnen og laderen er tilkoblet, driver laderen nettbrettet direkte, og batteriet lades ikke. Slås av når batteriet faller til %1$d%%.</string>
+    <string name="bypass_notification_channel">Bypass-lading</string>
+    <string name="charging_warning_notification_channel">Ladevarsler</string>
+    <string name="bypass_on_toast">Bypass-lading er på</string>
+    <string name="bypass_on_title">Bypass-lading er på, slik det er angitt for %1$s</string>
+    <string name="bypass_on_text">Laderen driver nettbrettet direkte, og batteriet lades ikke. Ladingen fortsetter når batteriet faller til %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Lavt batteri, bypass-lading er slått av</string>
+    <string name="bypass_low_battery_title">Lavt batteri, bypass-lading er slått av</string>
+    <string name="bypass_low_battery_text">Batteriet falt til %1$d%%, så det lades igjen.</string>
+    <string name="heat_protection_title">Varmebeskyttelse ved lading</string>
+    <string name="heat_protection_summary">Sett batterilading på pause mens nettbrettet er varmt</string>
+    <string name="heat_protection_enabled_title">Bruk varmebeskyttelse ved lading</string>
+    <string name="heat_protection_description">Hvis batteriet under lading når terskeltemperaturen og er ladet til minst minimumsnivået, stopper batteriladingen, og laderen driver nettbrettet direkte, slik at batteriet ikke blir varmere. Ladingen fortsetter når temperaturen eller ladenivået faller under disse verdiene. Det byttes maks én gang hvert 5. minutt.</string>
+    <string name="category_heat_protection_title">Beskyttelsesinnstillinger</string>
+    <string name="heat_protection_min_level_title">Minste ladenivå</string>
+    <string name="heat_protection_min_level_summary">Bare ved %1$d%% eller mer</string>
+    <string name="heat_protection_threshold_title">Terskeltemperatur</string>
+    <string name="heat_protection_threshold_low">Lav (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Middels (41 °C)</string>
+    <string name="heat_protection_threshold_high">Høy (43 °C)</string>
+    <string name="heat_protection_notification_title">Nettbrettet er for varmt, lading satt på pause</string>
+    <string name="heat_protection_notification_text">Batteriet er på %1$s. Laderen driver nettbrettet direkte til det har kjølt seg ned, og deretter fortsetter ladingen.</string>
 </resources>

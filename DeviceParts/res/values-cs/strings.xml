@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Funkce zařízení</string>
     <string name="device_parts_title">Funkce zařízení</string>
-    <string name="device_parts_summary">Barva obrazovky, obraz videa, Dolby Atmos, výkon, příslušenství, obnovovací frekvence, dotyk a rozšíření RAM</string>
+    <string name="device_parts_summary">Barva obrazovky, obraz videa, Dolby Atmos, výkon, příslušenství, obnovovací frekvence, dotyk, rozšíření RAM a nabíjení</string>
     <string name="category_perf_memory_title">Výkon a paměť</string>
     <string name="ram_expansion_title">Rozšíření RAM</string>
     <string name="ram_expansion_summary">Přesun neaktivních dat aplikací do úložiště a uvolnění paměti RAM</string>
@@ -228,4 +228,29 @@
     <string name="tile_dolby_app_note">Aplikace s vlastním režimem ho při přehrávání zvuku dál používají.</string>
     <string name="tile_color_app_note">Aplikace s vlastním nastavením barev ho používají i po dobu, kdy jsou otevřené.</string>
     <string name="tile_color_adaptive_unavailable">Barva obrazovky je vypnutá</string>
+
+    <string name="category_perf_charging">Nabíjení</string>
+    <string name="bypass_app_title">Obejití nabíjení</string>
+    <string name="bypass_app_summary">Když je tato aplikace v popředí a je připojena nabíječka, nabíječka napájí tablet přímo a baterie se nenabíjí. Vypne se, když baterie klesne na %1$d%%.</string>
+    <string name="bypass_notification_channel">Obejití nabíjení</string>
+    <string name="charging_warning_notification_channel">Upozornění na nabíjení</string>
+    <string name="bypass_on_toast">Obejití nabíjení zapnuto</string>
+    <string name="bypass_on_title">Obejití nabíjení je zapnuto podle nastavení pro %1$s</string>
+    <string name="bypass_on_text">Nabíječka napájí tablet přímo a baterie se nenabíjí. Nabíjení se obnoví, když baterie klesne na %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Slabá baterie, obejití nabíjení vypnuto</string>
+    <string name="bypass_low_battery_title">Slabá baterie, obejití nabíjení vypnuto</string>
+    <string name="bypass_low_battery_text">Baterie klesla na %1$d%%, proto se znovu nabíjí.</string>
+    <string name="heat_protection_title">Ochrana před přehřátím při nabíjení</string>
+    <string name="heat_protection_summary">Pozastavit nabíjení baterie, když je tablet horký</string>
+    <string name="heat_protection_enabled_title">Používat ochranu před přehřátím při nabíjení</string>
+    <string name="heat_protection_description">Pokud během nabíjení baterie dosáhne prahové teploty a je nabitá alespoň na minimální úroveň, nabíjení baterie se zastaví a nabíječka napájí tablet přímo, aby se baterie dále nezahřívala. Nabíjení se obnoví, když teplota nebo nabití klesne pod tyto hodnoty. Přepnutí proběhne nejvýše jednou za 5 minut.</string>
+    <string name="category_heat_protection_title">Nastavení ochrany</string>
+    <string name="heat_protection_min_level_title">Minimální nabití</string>
+    <string name="heat_protection_min_level_summary">Pouze při %1$d%% nebo více</string>
+    <string name="heat_protection_threshold_title">Prahová teplota</string>
+    <string name="heat_protection_threshold_low">Nízká (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Střední (41 °C)</string>
+    <string name="heat_protection_threshold_high">Vysoká (43 °C)</string>
+    <string name="heat_protection_notification_title">Tablet je příliš horký, nabíjení pozastaveno</string>
+    <string name="heat_protection_notification_text">Teplota baterie je %1$s. Nabíječka bude tablet napájet přímo, dokud nevychladne, poté se nabíjení obnoví.</string>
 </resources>

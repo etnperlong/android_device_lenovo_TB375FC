@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Funkcje urządzenia</string>
     <string name="device_parts_title">Funkcje urządzenia</string>
-    <string name="device_parts_summary">Kolory ekranu, obraz wideo, Dolby Atmos, wydajność, akcesoria, częstotliwość odświeżania i dotyk, rozszerzenie pamięci RAM</string>
+    <string name="device_parts_summary">Kolory ekranu, obraz wideo, Dolby Atmos, wydajność, akcesoria, częstotliwość odświeżania i dotyk, rozszerzenie pamięci RAM, ładowanie</string>
     <string name="category_perf_memory_title">Wydajność i pamięć</string>
     <string name="ram_expansion_title">Rozszerzenie pamięci RAM</string>
     <string name="ram_expansion_summary">Przenieś nieaktywne dane aplikacji do pamięci, aby zwolnić RAM</string>
@@ -228,4 +228,29 @@
     <string name="tile_dolby_app_note">Aplikacje z własnym trybem nadal z niego korzystają podczas odtwarzania dźwięku.</string>
     <string name="tile_color_app_note">Aplikacje z własnymi ustawieniami kolorów nadal z nich korzystają, gdy są otwarte.</string>
     <string name="tile_color_adaptive_unavailable">Kolory ekranu są wyłączone</string>
+
+    <string name="category_perf_charging">Ładowanie</string>
+    <string name="bypass_app_title">Ładowanie pomijające baterię</string>
+    <string name="bypass_app_summary">Gdy ta aplikacja jest na pierwszym planie, a ładowarka jest podłączona, ładowarka zasila tablet bezpośrednio, a bateria nie jest ładowana. Wyłącza się, gdy poziom baterii spadnie do %1$d%%.</string>
+    <string name="bypass_notification_channel">Ładowanie pomijające baterię</string>
+    <string name="charging_warning_notification_channel">Ostrzeżenia dotyczące ładowania</string>
+    <string name="bypass_on_toast">Ładowanie pomijające baterię włączone</string>
+    <string name="bypass_on_title">Ładowanie pomijające baterię jest włączone zgodnie z ustawieniem dla aplikacji %1$s</string>
+    <string name="bypass_on_text">Ładowarka zasila tablet bezpośrednio, a bateria nie jest ładowana. Ładowanie zostanie wznowione, gdy poziom baterii spadnie do %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Niski poziom baterii, ładowanie pomijające baterię wyłączone</string>
+    <string name="bypass_low_battery_title">Niski poziom baterii, ładowanie pomijające baterię wyłączone</string>
+    <string name="bypass_low_battery_text">Poziom baterii spadł do %1$d%%, więc bateria jest znowu ładowana.</string>
+    <string name="heat_protection_title">Ochrona przed przegrzaniem podczas ładowania</string>
+    <string name="heat_protection_summary">Wstrzymuj ładowanie baterii, gdy tablet jest gorący</string>
+    <string name="heat_protection_enabled_title">Używaj ochrony przed przegrzaniem podczas ładowania</string>
+    <string name="heat_protection_description">Jeśli podczas ładowania bateria osiągnie temperaturę progową i będzie naładowana co najmniej do minimalnego poziomu, ładowanie baterii zostanie zatrzymane, a ładowarka będzie zasilać tablet bezpośrednio, aby bateria dalej się nie nagrzewała. Ładowanie zostanie wznowione, gdy temperatura lub poziom naładowania spadną poniżej tych wartości. Przełączenie następuje najwyżej raz na 5 minut.</string>
+    <string name="category_heat_protection_title">Ustawienia ochrony</string>
+    <string name="heat_protection_min_level_title">Minimalny poziom naładowania</string>
+    <string name="heat_protection_min_level_summary">Tylko przy %1$d%% lub więcej</string>
+    <string name="heat_protection_threshold_title">Temperatura progowa</string>
+    <string name="heat_protection_threshold_low">Niska (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Średnia (41 °C)</string>
+    <string name="heat_protection_threshold_high">Wysoka (43 °C)</string>
+    <string name="heat_protection_notification_title">Tablet jest za gorący, ładowanie wstrzymane</string>
+    <string name="heat_protection_notification_text">Temperatura baterii wynosi %1$s. Ładowarka zasila tablet bezpośrednio, dopóki nie ostygnie, a potem ładowanie zostanie wznowione.</string>
 </resources>

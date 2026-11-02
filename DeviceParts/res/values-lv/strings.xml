@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Ierīces funkcijas</string>
     <string name="device_parts_title">Ierīces funkcijas</string>
-    <string name="device_parts_summary">Ekrāna krāsas, video attēls, Dolby Atmos, veiktspēja, piederumi, atsvaidzes intensitāte, skāriens un RAM paplašināšana</string>
+    <string name="device_parts_summary">Ekrāna krāsas, video attēls, Dolby Atmos, veiktspēja, piederumi, atsvaidzes intensitāte, skāriens, RAM paplašināšana un uzlāde</string>
     <string name="category_perf_memory_title">Veiktspēja un atmiņa</string>
     <string name="ram_expansion_title">RAM paplašināšana</string>
     <string name="ram_expansion_summary">Pārvietojiet neaktīvo lietotņu datus uz krātuvi, lai atbrīvotu RAM</string>
@@ -228,4 +228,29 @@
     <string name="tile_dolby_app_note">Lietotnes, kurām režīmi iestatīti atsevišķi, atskaņošanas laikā turpinās izmantot savus režīmus.</string>
     <string name="tile_color_app_note">Lietotnes, kurām krāsas iestatītas atsevišķi, atverot turpinās izmantot savus iestatījumus.</string>
     <string name="tile_color_adaptive_unavailable">Ekrāna krāsas ir atspējotas</string>
+
+    <string name="category_perf_charging">Uzlāde</string>
+    <string name="bypass_app_title">Apvedceļa uzlāde</string>
+    <string name="bypass_app_summary">Kamēr šī lietotne ir priekšplānā un lādētājs ir pievienots, lādētājs tieši darbina planšetdatoru un akumulators netiek uzlādēts. Izslēdzas, kad akumulatora uzlādes līmenis nokrītas līdz %1$d%%.</string>
+    <string name="bypass_notification_channel">Apvedceļa uzlāde</string>
+    <string name="charging_warning_notification_channel">Uzlādes brīdinājumi</string>
+    <string name="bypass_on_toast">Apvedceļa uzlāde ieslēgta</string>
+    <string name="bypass_on_title">Apvedceļa uzlāde ir ieslēgta, kā iestatīts lietotnei %1$s</string>
+    <string name="bypass_on_text">Lādētājs tieši darbina planšetdatoru un akumulators netiek uzlādēts. Uzlāde atsāksies, kad akumulatora uzlādes līmenis nokritīsies līdz %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Zems akumulatora līmenis, apvedceļa uzlāde izslēgta</string>
+    <string name="bypass_low_battery_title">Zems akumulatora līmenis, apvedceļa uzlāde izslēgta</string>
+    <string name="bypass_low_battery_text">Akumulatora uzlādes līmenis nokritās līdz %1$d%%, tāpēc tas atkal tiek uzlādēts.</string>
+    <string name="heat_protection_title">Uzlādes aizsardzība pret karstumu</string>
+    <string name="heat_protection_summary">Pārtraukt akumulatora uzlādi, kamēr planšetdators ir karsts</string>
+    <string name="heat_protection_enabled_title">Izmantot uzlādes aizsardzību pret karstumu</string>
+    <string name="heat_protection_description">Uzlādes laikā, ja akumulators sasniedz sliekšņa temperatūru un ir uzlādēts vismaz līdz minimālajam uzlādes līmenim, akumulatora uzlāde tiek apturēta un lādētājs tieši darbina planšetdatoru, lai akumulators vairs nesakarstu. Uzlāde atsākas, kad temperatūra vai uzlādes līmenis nokrītas zem šīm vērtībām. Pārslēgšana notiek ne biežāk kā reizi 5 minūtēs.</string>
+    <string name="category_heat_protection_title">Aizsardzības iestatījumi</string>
+    <string name="heat_protection_min_level_title">Minimālais uzlādes līmenis</string>
+    <string name="heat_protection_min_level_summary">Tikai pie %1$d%% vai vairāk</string>
+    <string name="heat_protection_threshold_title">Sliekšņa temperatūra</string>
+    <string name="heat_protection_threshold_low">Zema (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Vidēja (41 °C)</string>
+    <string name="heat_protection_threshold_high">Augsta (43 °C)</string>
+    <string name="heat_protection_notification_title">Planšetdators pārāk karsts, uzlāde apturēta</string>
+    <string name="heat_protection_notification_text">Akumulatora temperatūra ir %1$s. Lādētājs tieši darbina planšetdatoru, līdz tas atdziest, pēc tam uzlāde atsāksies.</string>
 </resources>

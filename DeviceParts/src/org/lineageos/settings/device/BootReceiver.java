@@ -10,6 +10,7 @@ import android.content.Context;
 import android.content.Intent;
 
 import org.lineageos.settings.device.audio.SpeakerRotationService;
+import org.lineageos.settings.device.charging.ChargingService;
 import org.lineageos.settings.device.color.ScreenColorService;
 import org.lineageos.settings.device.cover.CoverService;
 import org.lineageos.settings.device.display.DisplayPolicyService;
@@ -38,6 +39,7 @@ public class BootReceiver extends BroadcastReceiver {
             context.startService(new Intent(context, PerformanceService.class));
             context.startService(new Intent(context, PenService.class));
             context.startService(new Intent(context, KeyboardService.class));
+            context.startService(new Intent(context, ChargingService.class));
             TouchSensitivity.restore(context);
             DolbyTile.hideVendorTile(context);
         }

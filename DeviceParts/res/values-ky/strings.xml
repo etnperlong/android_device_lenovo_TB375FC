@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Түзмөктүн мүмкүнчүлүктөрү</string>
     <string name="device_parts_title">Түзмөктүн мүмкүнчүлүктөрү</string>
-    <string name="device_parts_summary">Экрандын түсү, видео сүрөтү, Dolby Atmos, өндүрүмдүүлүк, аксессуарлар, жаңылануу жыштыгы, сенсор жана RAM кеңейтүү</string>
+    <string name="device_parts_summary">Экрандын түсү, видео сүрөтү, Dolby Atmos, өндүрүмдүүлүк, аксессуарлар, жаңылануу жыштыгы, сенсор, RAM кеңейтүү жана кубаттоо</string>
     <string name="category_perf_memory_title">Өндүрүмдүүлүк жана эс тутум</string>
     <string name="ram_expansion_title">RAM кеңейтүү</string>
     <string name="ram_expansion_summary">RAM бошотуу үчүн колдонулбаган колдонмолордун дайындарын сактагычка жылдыруу</string>
@@ -227,4 +227,29 @@
     <string name="tile_dolby_app_note">Режими өзүнчө коюлган колдонмолор аудио ойнотуп жатканда өз режимдерин колдоно берет.</string>
     <string name="tile_color_app_note">Түсү өзүнчө коюлган колдонмолор ачылганда өз жөндөөлөрүн колдоно берет.</string>
     <string name="tile_color_adaptive_unavailable">Экрандын түсү өчүрүлгөн</string>
+
+    <string name="category_perf_charging">Кубаттоо</string>
+    <string name="bypass_app_title">Айланма кубаттоо</string>
+    <string name="bypass_app_summary">Бул колдонмо ачык турганда жана кубаттагыч туташып турганда, кубаттагыч планшетти түздөн-түз кубаттайт, батарея кубатталбайт. Батарея %1$d%% чейин төмөндөгөндө өчөт.</string>
+    <string name="bypass_notification_channel">Айланма кубаттоо</string>
+    <string name="charging_warning_notification_channel">Кубаттоо эскертүүлөрү</string>
+    <string name="bypass_on_toast">Айланма кубаттоо күйгүзүлдү</string>
+    <string name="bypass_on_title">%1$s үчүн жөндөлгөндөй, айланма кубаттоо күйүк</string>
+    <string name="bypass_on_text">Кубаттагыч планшетти түздөн-түз кубаттайт, батарея кубатталбайт. Батарея %1$d%% чейин төмөндөгөндө кубаттоо улантылат.</string>
+    <string name="bypass_low_battery_toast">Батарея аз, айланма кубаттоо өчүрүлдү</string>
+    <string name="bypass_low_battery_title">Батарея аз, айланма кубаттоо өчүрүлдү</string>
+    <string name="bypass_low_battery_text">Батарея %1$d%% чейин төмөндөдү, ошондуктан кайра кубатталып жатат.</string>
+    <string name="heat_protection_title">Кубаттоодо ысуудан коргоо</string>
+    <string name="heat_protection_summary">Планшет ысык болгондо батареяны кубаттоону тындыруу</string>
+    <string name="heat_protection_enabled_title">Кубаттоодо ысуудан коргоону колдонуу</string>
+    <string name="heat_protection_description">Кубаттоо учурунда батарея босого температурасына жетип, жок дегенде минималдуу деңгээлге чейин кубатталган болсо, батарея кубатталбай калат жана кубаттагыч планшетти түздөн-түз кубаттайт, ошентип батарея андан ары ысыбайт. Температура же кубат деңгээли алардан төмөн түшкөндө кубаттоо улантылат. 5 мүнөттө эң көп бир жолу которулат.</string>
+    <string name="category_heat_protection_title">Коргоо параметрлери</string>
+    <string name="heat_protection_min_level_title">Минималдуу кубат</string>
+    <string name="heat_protection_min_level_summary">%1$d%% же андан көп болгондо гана</string>
+    <string name="heat_protection_threshold_title">Босого температурасы</string>
+    <string name="heat_protection_threshold_low">Төмөн (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Орточо (41 °C)</string>
+    <string name="heat_protection_threshold_high">Жогору (43 °C)</string>
+    <string name="heat_protection_notification_title">Планшет өтө ысып кетти, кубаттоо тындырылды</string>
+    <string name="heat_protection_notification_text">Батареянын температурасы: %1$s. Муздаганга чейин кубаттагыч планшетти түздөн-түз кубаттайт, андан кийин кубаттоо улантылат.</string>
 </resources>

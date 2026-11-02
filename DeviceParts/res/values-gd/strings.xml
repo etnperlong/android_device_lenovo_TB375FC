@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Feartan an uidheim</string>
     <string name="device_parts_title">Feartan an uidheim</string>
-    <string name="device_parts_summary">Dath na sgrìn, dealbh a’ bhidio, Dolby Atmos, coileanadh, goireasan, ìre ath-nuadhachaidh, suathadh agus leudachadh RAM</string>
+    <string name="device_parts_summary">Dath na sgrìn, dealbh a’ bhidio, Dolby Atmos, coileanadh, goireasan, ìre ath-nuadhachaidh, suathadh, leudachadh RAM agus teàirrdseadh</string>
     <string name="category_perf_memory_title">Coileanadh is cuimhne</string>
     <string name="ram_expansion_title">Leudachadh RAM</string>
     <string name="ram_expansion_summary">Gluais dàta aplacaidean tàmhach dhan stòras gus RAM a shaoradh</string>
@@ -224,4 +224,29 @@
     <string name="tile_dolby_app_note">Leanaidh aplacaidean aig a bheil am modh fhèin ga chleachdadh fhad ’s a tha iad a’ cluich fuaime.</string>
     <string name="tile_color_app_note">Leanaidh aplacaidean aig a bheil roghainn dhath fhèin ga cleachdadh fhad ’s a tha iad fosgailte.</string>
     <string name="tile_color_adaptive_unavailable">Tha dath na sgrìn à comas</string>
+
+    <string name="category_perf_charging">Teàirrdseadh</string>
+    <string name="bypass_app_title">Teàirrdseadh seachnaidh</string>
+    <string name="bypass_app_summary">Fhad a bhios an aplacaid seo air beulaibh agus an teàirrdsear ceangailte, bheir an teàirrdsear cumhachd dhan tablaid gu dìreach agus cha tèid am bataraidh a theàirrdseadh. Thèid a chur dheth nuair a thuiteas am bataraidh gu %1$d%%.</string>
+    <string name="bypass_notification_channel">Teàirrdseadh seachnaidh</string>
+    <string name="charging_warning_notification_channel">Rabhaidhean teàirrdsidh</string>
+    <string name="bypass_on_toast">Tha teàirrdseadh seachnaidh air</string>
+    <string name="bypass_on_title">Tha teàirrdseadh seachnaidh air, mar a chaidh a shuidheachadh airson %1$s</string>
+    <string name="bypass_on_text">Bheir an teàirrdsear cumhachd dhan tablaid gu dìreach agus cha tèid am bataraidh a theàirrdseadh. Tòisichidh an teàirrdseadh a-rithist nuair a thuiteas am bataraidh gu %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Bataraidh ìosal, chaidh teàirrdseadh seachnaidh a chur dheth</string>
+    <string name="bypass_low_battery_title">Bataraidh ìosal, chaidh teàirrdseadh seachnaidh a chur dheth</string>
+    <string name="bypass_low_battery_text">Thuit am bataraidh gu %1$d%%, mar sin tha e a’ teàirrdseadh a-rithist.</string>
+    <string name="heat_protection_title">Dìon teas an teàirrdsidh</string>
+    <string name="heat_protection_summary">Cuir teàirrdseadh a’ bhataraidh na stad fhad a tha an tablaid teth</string>
+    <string name="heat_protection_enabled_title">Cleachd dìon teas an teàirrdsidh</string>
+    <string name="heat_protection_description">Rè an teàirrdsidh, ma ruigeas am bataraidh teòthachd na stairsnich agus ma tha e air a theàirrdseadh gun teàirrdse as lugha air a char as lugha, sguiridh am bataraidh de theàirrdseadh agus bheir an teàirrdsear cumhachd dhan tablaid gu dìreach, gus nach fàs am bataraidh nas teotha. Tòisichidh an teàirrdseadh a-rithist nuair a thuiteas an teòthachd no an teàirrdse fòpa. Cha atharraich e ach aon turas gach 5 mionaidean air a char as motha.</string>
+    <string name="category_heat_protection_title">Roghainnean an dìona</string>
+    <string name="heat_protection_min_level_title">An teàirrdse as lugha</string>
+    <string name="heat_protection_min_level_summary">Dìreach aig %1$d%% no barrachd</string>
+    <string name="heat_protection_threshold_title">Teòthachd na stairsnich</string>
+    <string name="heat_protection_threshold_low">Ìosal (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Meadhanach (41 °C)</string>
+    <string name="heat_protection_threshold_high">Àrd (43 °C)</string>
+    <string name="heat_protection_notification_title">Tablaid ro theth, teàirrdseadh na stad</string>
+    <string name="heat_protection_notification_text">Tha am bataraidh aig %1$s. Bheir an teàirrdsear cumhachd dhan tablaid gu dìreach gus am fuaraich i, agus an uairsin tòisichidh an teàirrdseadh a-rithist.</string>
 </resources>

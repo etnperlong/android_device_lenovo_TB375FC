@@ -20,6 +20,7 @@ import androidx.preference.SwitchPreferenceCompat;
 import com.android.settingslib.widget.SettingsBasePreferenceFragment;
 
 import org.lineageos.settings.device.R;
+import org.lineageos.settings.device.charging.ChargingSettings;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,7 +30,8 @@ import java.util.TreeSet;
  * The profile of one app: follow the vendor rules, off, or custom. A custom profile uses one of
  * the vendor rule sets as preset, starting with the app's own if it has one; with advanced
  * parameters, the preset's CPU frequency limits are replaced by a linked range for each cluster
- * along the cpufreq table, and the refresh rate can be limited.
+ * along the cpufreq table, and the refresh rate can be limited. Below it, whether the app uses
+ * bypass charging (ChargingService), which does not depend on the profiles being on.
  */
 public class PerformanceAppFragment extends SettingsBasePreferenceFragment {
     private static final String KEY_MODE = "perf_mode";
@@ -39,6 +41,8 @@ public class PerformanceAppFragment extends SettingsBasePreferenceFragment {
     private static final String KEY_CPU = "perf_cpu";
     private static final String KEY_REFRESH_RATE = "perf_refresh_rate";
     private static final String KEY_RESET = "perf_reset";
+    private static final String KEY_CHARGING = "perf_charging";
+    private static final String KEY_BYPASS = "perf_bypass_charging";
 
     private ContentResolver mResolver;
     private VendorAppList mVendor;
@@ -56,6 +60,7 @@ public class PerformanceAppFragment extends SettingsBasePreferenceFragment {
     private CpuRangePreference[] mCpuRanges;
     private ListPreference mRefreshRate;
     private Preference mReset;
+    private SwitchPreferenceCompat mBypass;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
@@ -207,7 +212,31 @@ public class PerformanceAppFragment extends SettingsBasePreferenceFragment {
         });
         screen.addPreference(mReset);
 
+        final PreferenceCategory charging = new PreferenceCategory(context);
+        charging.setKey(KEY_CHARGING);
+        charging.setTitle(R.string.category_perf_charging);
+        screen.addPreference(charging);
+        mBypass = new SwitchPreferenceCompat(context);
+        mBypass.setKey(KEY_BYPASS);
+        mBypass.setPersistent(false);
+        mBypass.setTitle(R.string.bypass_app_title);
+        mBypass.setSummary(getString(R.string.bypass_app_summary,
+                ChargingSettings.BYPASS_MIN_LEVEL));
+        mBypass.setChecked(ChargingSettings.isBypassApp(mResolver, mPackage));
+        mBypass.setOnPreferenceChangeListener((preference, newValue) -> {
+            ChargingSettings.setBypassApp(mResolver, mPackage, (Boolean) newValue);
+            return true;
+        });
+        charging.addPreference(mBypass);
+
         setPreferenceScreen(screen);
+        updateUi();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        mBypass.setChecked(ChargingSettings.isBypassApp(mResolver, mPackage));
         updateUi();
     }
 
@@ -292,6 +321,12 @@ public class PerformanceAppFragment extends SettingsBasePreferenceFragment {
     private void updateUi() {
         final boolean custom = mProfile.mode == PerfProfile.MODE_CUSTOM;
         final boolean advanced = custom && mProfile.advanced;
+        // The profile applies only while the profiles are on; bypass charging regardless.
+        final boolean enabled = PerfSettings.isEnabled(mResolver);
+        for (Preference pref : new Preference[] {mMode, mPreset, mPresetDetails, mAdvanced,
+                mCpu, mRefreshRate, mReset}) {
+            pref.setEnabled(enabled);
+        }
         mMode.setValue(String.valueOf(mProfile.mode));
 
         mPreset.setVisible(custom);

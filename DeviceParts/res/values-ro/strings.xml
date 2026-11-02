@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Funcții ale dispozitivului</string>
     <string name="device_parts_title">Funcții ale dispozitivului</string>
-    <string name="device_parts_summary">Culoarea ecranului, imagine video, Dolby Atmos, performanță, accesorii, rata de actualizare și atingere, extindere RAM</string>
+    <string name="device_parts_summary">Culoarea ecranului, imagine video, Dolby Atmos, performanță, accesorii, rata de actualizare și atingere, extindere RAM, încărcare</string>
     <string name="category_perf_memory_title">Performanță și memorie</string>
     <string name="ram_expansion_title">Extindere RAM</string>
     <string name="ram_expansion_summary">Mută datele aplicațiilor inactive în spațiul de stocare pentru a elibera RAM</string>
@@ -223,4 +223,29 @@
     <string name="tile_dolby_app_note">Aplicațiile cu propriul mod îl folosesc în continuare în timp ce redau sunet.</string>
     <string name="tile_color_app_note">Aplicațiile cu propriile setări de culoare le folosesc în continuare cât timp sunt deschise.</string>
     <string name="tile_color_adaptive_unavailable">Culoarea ecranului este dezactivată</string>
+
+    <string name="category_perf_charging">Încărcare</string>
+    <string name="bypass_app_title">Încărcare bypass</string>
+    <string name="bypass_app_summary">Când această aplicație este în prim-plan și încărcătorul este conectat, încărcătorul alimentează direct tableta, iar bateria nu se încarcă. Se dezactivează când bateria scade la %1$d%%.</string>
+    <string name="bypass_notification_channel">Încărcare bypass</string>
+    <string name="charging_warning_notification_channel">Avertismente de încărcare</string>
+    <string name="bypass_on_toast">Încărcare bypass activată</string>
+    <string name="bypass_on_title">Încărcarea bypass este activată, conform setării pentru %1$s</string>
+    <string name="bypass_on_text">Încărcătorul alimentează direct tableta, iar bateria nu se încarcă. Încărcarea se reia când bateria scade la %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Baterie descărcată, încărcarea bypass a fost dezactivată</string>
+    <string name="bypass_low_battery_title">Baterie descărcată, încărcarea bypass a fost dezactivată</string>
+    <string name="bypass_low_battery_text">Bateria a scăzut la %1$d%%, așa că se încarcă din nou.</string>
+    <string name="heat_protection_title">Protecție la încălzire în timpul încărcării</string>
+    <string name="heat_protection_summary">Întrerupe încărcarea bateriei când tableta este fierbinte</string>
+    <string name="heat_protection_enabled_title">Folosește protecția la încălzire</string>
+    <string name="heat_protection_description">În timpul încărcării, dacă bateria atinge temperatura-prag și este încărcată cel puțin până la nivelul minim, bateria nu se mai încarcă, iar încărcătorul alimentează direct tableta, astfel încât bateria să nu se încălzească mai mult. Încărcarea se reia când temperatura sau nivelul de încărcare scade sub aceste valori. Comutarea are loc cel mult o dată la 5 minute.</string>
+    <string name="category_heat_protection_title">Setări de protecție</string>
+    <string name="heat_protection_min_level_title">Nivel minim de încărcare</string>
+    <string name="heat_protection_min_level_summary">Doar la %1$d%% sau mai mult</string>
+    <string name="heat_protection_threshold_title">Temperatură-prag</string>
+    <string name="heat_protection_threshold_low">Scăzută (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Medie (41 °C)</string>
+    <string name="heat_protection_threshold_high">Ridicată (43 °C)</string>
+    <string name="heat_protection_notification_title">Tableta e prea fierbinte, încărcarea a fost întreruptă</string>
+    <string name="heat_protection_notification_text">Bateria are %1$s. Încărcătorul alimentează direct tableta până când aceasta se răcește, apoi încărcarea se reia.</string>
 </resources>

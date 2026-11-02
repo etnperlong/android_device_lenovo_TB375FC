@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Enhetsfunktioner</string>
     <string name="device_parts_title">Enhetsfunktioner</string>
-    <string name="device_parts_summary">Skärmfärg, videobild, Dolby Atmos, prestanda, tillbehör, uppdateringsfrekvens och pekskärm, RAM-utökning</string>
+    <string name="device_parts_summary">Skärmfärg, videobild, Dolby Atmos, prestanda, tillbehör, uppdateringsfrekvens och pekskärm, RAM-utökning, laddning</string>
     <string name="category_perf_memory_title">Prestanda och minne</string>
     <string name="ram_expansion_title">RAM-utökning</string>
     <string name="ram_expansion_summary">Flytta inaktiva appdata till lagring för att frigöra RAM</string>
@@ -220,4 +220,29 @@
     <string name="tile_dolby_app_note">Appar med egna lägen använder dem fortfarande när de spelar upp ljud.</string>
     <string name="tile_color_app_note">Appar med egna färginställningar använder dem fortfarande när de är öppna.</string>
     <string name="tile_color_adaptive_unavailable">Skärmfärgen är inaktiverad</string>
+
+    <string name="category_perf_charging">Laddning</string>
+    <string name="bypass_app_title">Förbikopplad laddning</string>
+    <string name="bypass_app_summary">När den här appen är i förgrunden och laddaren är ansluten driver laddaren surfplattan direkt och batteriet laddas inte. Stängs av när batteriet sjunker till %1$d%%.</string>
+    <string name="bypass_notification_channel">Förbikopplad laddning</string>
+    <string name="charging_warning_notification_channel">Laddningsvarningar</string>
+    <string name="bypass_on_toast">Förbikopplad laddning på</string>
+    <string name="bypass_on_title">Förbikopplad laddning är på enligt inställningen för %1$s</string>
+    <string name="bypass_on_text">Laddaren driver surfplattan direkt och batteriet laddas inte. Laddningen återupptas när batteriet sjunker till %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Låg batterinivå, förbikopplad laddning avstängd</string>
+    <string name="bypass_low_battery_title">Låg batterinivå, förbikopplad laddning avstängd</string>
+    <string name="bypass_low_battery_text">Batteriet sjönk till %1$d%%, så det laddas igen.</string>
+    <string name="heat_protection_title">Värmeskydd vid laddning</string>
+    <string name="heat_protection_summary">Pausa batteriladdningen när surfplattan är varm</string>
+    <string name="heat_protection_enabled_title">Använd värmeskydd vid laddning</string>
+    <string name="heat_protection_description">Om batteriet under laddning når tröskeltemperaturen och är laddat till minst minimiladdningen slutar batteriet att laddas och laddaren driver surfplattan direkt, så att batteriet inte blir varmare. Laddningen återupptas när temperaturen eller laddningsnivån sjunker under dessa värden. Växlingen sker högst en gång var 5:e minut.</string>
+    <string name="category_heat_protection_title">Skyddsinställningar</string>
+    <string name="heat_protection_min_level_title">Minimiladdning</string>
+    <string name="heat_protection_min_level_summary">Endast vid %1$d%% eller mer</string>
+    <string name="heat_protection_threshold_title">Tröskeltemperatur</string>
+    <string name="heat_protection_threshold_low">Låg (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Medel (41 °C)</string>
+    <string name="heat_protection_threshold_high">Hög (43 °C)</string>
+    <string name="heat_protection_notification_title">Surfplattan är för varm, laddningen pausad</string>
+    <string name="heat_protection_notification_text">Batteriet är %1$s. Laddaren driver surfplattan direkt tills den har svalnat, sedan återupptas laddningen.</string>
 </resources>

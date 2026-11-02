@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">ميزات الجهاز</string>
     <string name="device_parts_title">ميزات الجهاز</string>
-    <string name="device_parts_summary">لون الشاشة، جودة الفيديو، Dolby Atmos، الأداء، الملحقات، معدل التحديث، اللمس وتوسيع ذاكرة RAM</string>
+    <string name="device_parts_summary">لون الشاشة، جودة الفيديو، Dolby Atmos، الأداء، الملحقات، معدل التحديث، اللمس، توسيع ذاكرة RAM والشحن</string>
     <string name="ram_expansion_title">توسيع ذاكرة RAM</string>
     <string name="ram_expansion_summary">نقل بيانات التطبيقات غير النشطة إلى مساحة التخزين لتحرير ذاكرة RAM</string>
     <string name="ram_expansion_description">انقل بيانات التطبيقات التي لم تُستخدم منذ مدة طويلة من الذاكرة المضغوطة إلى مساحة التخزين لتحرير ذاكرة RAM. سيُستخدم المقدار المحدد من مساحة التخزين. تسري التغييرات بعد إعادة التشغيل.</string>
@@ -232,4 +232,29 @@
     <string name="tile_dolby_app_note">تواصل التطبيقات التي لها وضع خاص بها في استخدامه أثناء تشغيل الصوت.</string>
     <string name="tile_color_app_note">تواصل التطبيقات التي لها إعداد لون خاص بها في استخدامه أثناء فتحها.</string>
     <string name="tile_color_adaptive_unavailable">لون الشاشة معطّل</string>
+
+    <string name="category_perf_charging">الشحن</string>
+    <string name="bypass_app_title">الشحن التجاوزي</string>
+    <string name="bypass_app_summary">أثناء ظهور هذا التطبيق في المقدمة واتصال الشاحن، يزوّد الشاحن الجهاز اللوحي بالطاقة مباشرةً ولا يتم شحن البطارية. يتوقف عند انخفاض البطارية إلى %1$d%%.</string>
+    <string name="bypass_notification_channel">الشحن التجاوزي</string>
+    <string name="charging_warning_notification_channel">تحذيرات الشحن</string>
+    <string name="bypass_on_toast">تم تفعيل الشحن التجاوزي</string>
+    <string name="bypass_on_title">الشحن التجاوزي مفعّل وفقًا لإعداد %1$s</string>
+    <string name="bypass_on_text">يزوّد الشاحن الجهاز اللوحي بالطاقة مباشرةً ولا يتم شحن البطارية. يُستأنف الشحن عند انخفاض البطارية إلى %1$d%%.</string>
+    <string name="bypass_low_battery_toast">البطارية منخفضة، تم إيقاف الشحن التجاوزي</string>
+    <string name="bypass_low_battery_title">البطارية منخفضة، تم إيقاف الشحن التجاوزي</string>
+    <string name="bypass_low_battery_text">انخفضت البطارية إلى %1$d%%، لذا يتم شحنها مجددًا.</string>
+    <string name="heat_protection_title">الحماية من الحرارة أثناء الشحن</string>
+    <string name="heat_protection_summary">إيقاف شحن البطارية مؤقتًا عندما يكون الجهاز اللوحي ساخنًا</string>
+    <string name="heat_protection_enabled_title">استخدام الحماية من الحرارة أثناء الشحن</string>
+    <string name="heat_protection_description">أثناء الشحن، إذا وصلت البطارية إلى درجة الحرارة الحدّية وكان شحنها لا يقل عن الحد الأدنى للشحن، يتوقف شحن البطارية ويزوّد الشاحن الجهاز اللوحي بالطاقة مباشرةً حتى لا تزداد حرارة البطارية. يُستأنف الشحن عند انخفاض درجة الحرارة أو مستوى الشحن عن هذين الحدّين. يتم التبديل مرة واحدة كل 5 دقائق كحد أقصى.</string>
+    <string name="category_heat_protection_title">إعدادات الحماية</string>
+    <string name="heat_protection_min_level_title">الحد الأدنى للشحن</string>
+    <string name="heat_protection_min_level_summary">فقط عند %1$d%% أو أكثر</string>
+    <string name="heat_protection_threshold_title">درجة الحرارة الحدّية</string>
+    <string name="heat_protection_threshold_low">منخفضة (39 °C)</string>
+    <string name="heat_protection_threshold_medium">متوسطة (41 °C)</string>
+    <string name="heat_protection_threshold_high">مرتفعة (43 °C)</string>
+    <string name="heat_protection_notification_title">الجهاز اللوحي ساخن جدًا، تم إيقاف الشحن مؤقتًا</string>
+    <string name="heat_protection_notification_text">درجة حرارة البطارية %1$s. يزوّد الشاحن الجهاز اللوحي بالطاقة مباشرةً حتى يبرد، ثم يُستأنف الشحن.</string>
 </resources>

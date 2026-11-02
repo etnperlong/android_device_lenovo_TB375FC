@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">デバイス機能</string>
     <string name="device_parts_title">デバイス機能</string>
-    <string name="device_parts_summary">画面の色、画質、ドルビーアトモス、パフォーマンス、アクセサリ、リフレッシュレート、タッチ操作、RAM 拡張</string>
+    <string name="device_parts_summary">画面の色、画質、ドルビーアトモス、パフォーマンス、アクセサリ、リフレッシュレート、タッチ操作、RAM 拡張、充電</string>
     <string name="category_perf_memory_title">パフォーマンスとメモリ</string>
     <string name="ram_expansion_title">RAM 拡張</string>
     <string name="ram_expansion_summary">非アクティブなアプリのデータをストレージに移動して RAM を解放します</string>
@@ -220,4 +220,29 @@
     <string name="tile_dolby_app_note">モードを個別に設定したアプリでは、再生中も個別のモードが使用されます。</string>
     <string name="tile_color_app_note">色を個別に設定したアプリでは、開いたときも個別の設定が使用されます。</string>
     <string name="tile_color_adaptive_unavailable">画面の色は無効です</string>
+
+    <string name="category_perf_charging">充電</string>
+    <string name="bypass_app_title">バイパス充電</string>
+    <string name="bypass_app_summary">このアプリが前面に表示され、充電器が接続されている間は、充電器からタブレットに直接給電し、バッテリーは充電されません。バッテリー残量が %1$d%% まで減るとオフになります。</string>
+    <string name="bypass_notification_channel">バイパス充電</string>
+    <string name="charging_warning_notification_channel">充電に関する警告</string>
+    <string name="bypass_on_toast">バイパス充電がオンになりました</string>
+    <string name="bypass_on_title">%1$s の設定によりバイパス充電がオンになっています</string>
+    <string name="bypass_on_text">充電器からタブレットに直接給電し、バッテリーは充電されません。バッテリー残量が %1$d%% まで減ると充電を再開します。</string>
+    <string name="bypass_low_battery_toast">バッテリー残量が少ないため、バイパス充電をオフにしました</string>
+    <string name="bypass_low_battery_title">バッテリー残量が少ないため、バイパス充電をオフにしました</string>
+    <string name="bypass_low_battery_text">バッテリー残量が %1$d%% まで減ったため、充電を再開しました。</string>
+    <string name="heat_protection_title">充電時の高温保護</string>
+    <string name="heat_protection_summary">タブレットが熱いときはバッテリーの充電を一時停止します</string>
+    <string name="heat_protection_enabled_title">充電時の高温保護を使用</string>
+    <string name="heat_protection_description">充電中にバッテリーがしきい値の温度に達し、かつ最低充電量以上まで充電されている場合、バッテリーの充電を停止して充電器からタブレットに直接給電し、バッテリーがそれ以上熱くならないようにします。温度または充電量が設定値を下回ると充電を再開します。切り替えは最大で 5 分に 1 回です。</string>
+    <string name="category_heat_protection_title">保護の設定</string>
+    <string name="heat_protection_min_level_title">最低充電量</string>
+    <string name="heat_protection_min_level_summary">%1$d%% 以上の場合のみ</string>
+    <string name="heat_protection_threshold_title">しきい値の温度</string>
+    <string name="heat_protection_threshold_low">低（39 °C）</string>
+    <string name="heat_protection_threshold_medium">中（41 °C）</string>
+    <string name="heat_protection_threshold_high">高（43 °C）</string>
+    <string name="heat_protection_notification_title">タブレットが高温のため充電を一時停止しました</string>
+    <string name="heat_protection_notification_text">バッテリーの温度は %1$s です。温度が下がるまで充電器からタブレットに直接給電し、その後充電を再開します。</string>
 </resources>

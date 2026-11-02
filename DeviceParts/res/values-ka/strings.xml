@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">მოწყობილობის ფუნქციები</string>
     <string name="device_parts_title">მოწყობილობის ფუნქციები</string>
-    <string name="device_parts_summary">ეკრანის ფერი, ვიდეოს გამოსახულება, Dolby Atmos, წარმადობა, აქსესუარები, განახლების სიხშირე, შეხება და RAM-ის გაფართოება</string>
+    <string name="device_parts_summary">ეკრანის ფერი, ვიდეოს გამოსახულება, Dolby Atmos, წარმადობა, აქსესუარები, განახლების სიხშირე, შეხება, RAM-ის გაფართოება და დატენვა</string>
     <string name="category_perf_memory_title">წარმადობა და მეხსიერება</string>
     <string name="ram_expansion_title">RAM-ის გაფართოება</string>
     <string name="ram_expansion_summary">არააქტიური აპების მონაცემების საცავში გადატანა RAM-ის გასათავისუფლებლად</string>
@@ -228,4 +228,29 @@
     <string name="tile_dolby_app_note">აპები, რომელთათვისაც რეჟიმები ცალ-ცალკეა დაყენებული, დაკვრისას კვლავ საკუთარ რეჟიმებს გამოიყენებენ.</string>
     <string name="tile_color_app_note">აპები, რომელთათვისაც ფერები ცალ-ცალკეა დაყენებული, გახსნისას კვლავ საკუთარ პარამეტრებს გამოიყენებენ.</string>
     <string name="tile_color_adaptive_unavailable">ეკრანის ფერი გამორთულია</string>
+
+    <string name="category_perf_charging">დატენვა</string>
+    <string name="bypass_app_title">შემოვლითი დატენვა</string>
+    <string name="bypass_app_summary">როცა ეს აპი წინა პლანზეა და დამტენი დაკავშირებულია, დამტენი პირდაპირ კვებავს ტაბლეტს და ბატარეა არ იტენება. გამოირთვება, როცა ბატარეა %1$d%%-მდე ჩამოვა.</string>
+    <string name="bypass_notification_channel">შემოვლითი დატენვა</string>
+    <string name="charging_warning_notification_channel">დატენვის გაფრთხილებები</string>
+    <string name="bypass_on_toast">შემოვლითი დატენვა ჩართულია</string>
+    <string name="bypass_on_title">შემოვლითი დატენვა ჩართულია, როგორც დაყენებულია %1$s-ისთვის</string>
+    <string name="bypass_on_text">დამტენი პირდაპირ კვებავს ტაბლეტს და ბატარეა არ იტენება. დატენვა განახლდება, როცა ბატარეა %1$d%%-მდე ჩამოვა.</string>
+    <string name="bypass_low_battery_toast">ბატარეა დაცლილია, შემოვლითი დატენვა გამოირთო</string>
+    <string name="bypass_low_battery_title">ბატარეა დაცლილია, შემოვლითი დატენვა გამოირთო</string>
+    <string name="bypass_low_battery_text">ბატარეა %1$d%%-მდე ჩამოვიდა, ამიტომ ისევ იტენება.</string>
+    <string name="heat_protection_title">დატენვისას გადახურებისგან დაცვა</string>
+    <string name="heat_protection_summary">ბატარეის დატენვის შეჩერება, როცა ტაბლეტი ცხელია</string>
+    <string name="heat_protection_enabled_title">დატენვისას გადახურებისგან დაცვის გამოყენება</string>
+    <string name="heat_protection_description">დატენვისას, თუ ბატარეა მიაღწევს ზღვრულ ტემპერატურას და დატენილია მინიმალურ დონეზე მეტად მაინც, ბატარეა წყვეტს დატენვას და დამტენი პირდაპირ კვებავს ტაბლეტს, რომ ბატარეა აღარ გაცხელდეს. დატენვა განახლდება, როცა ტემპერატურა ან დატენვის დონე მათზე დაბლა ჩამოვა. გადართვა ხდება მაქსიმუმ 5 წუთში ერთხელ.</string>
+    <string name="category_heat_protection_title">დაცვის პარამეტრები</string>
+    <string name="heat_protection_min_level_title">მინიმალური დატენვა</string>
+    <string name="heat_protection_min_level_summary">მხოლოდ %1$d%% ან მეტზე</string>
+    <string name="heat_protection_threshold_title">ზღვრული ტემპერატურა</string>
+    <string name="heat_protection_threshold_low">დაბალი (39 °C)</string>
+    <string name="heat_protection_threshold_medium">საშუალო (41 °C)</string>
+    <string name="heat_protection_threshold_high">მაღალი (43 °C)</string>
+    <string name="heat_protection_notification_title">ტაბლეტი ძალიან ცხელია, დატენვა შეჩერდა</string>
+    <string name="heat_protection_notification_text">ბატარეის ტემპერატურაა %1$s. დამტენი პირდაპირ კვებავს ტაბლეტს, სანამ არ გაგრილდება, შემდეგ დატენვა განახლდება.</string>
 </resources>

@@ -7,7 +7,7 @@
     <string name="app_name">设备功能</string>
 
     <string name="device_parts_title">设备功能</string>
-    <string name="device_parts_summary">屏幕色彩、视频画质、内存扩展、杜比全景声、性能、配件、刷新率与触控</string>
+    <string name="device_parts_summary">屏幕色彩、视频画质、内存扩展、杜比全景声、性能、配件、刷新率与触控、充电</string>
     <string name="category_perf_memory_title">性能与内存</string>
     <string name="ram_expansion_title">内存扩展</string>
     <string name="ram_expansion_summary">将不活跃应用的数据移至存储空间以释放 RAM</string>
@@ -230,4 +230,29 @@
     <string name="tile_dolby_app_note">单独设置了模式的应用，播放时仍使用各自的模式。</string>
     <string name="tile_color_app_note">单独设置了色彩的应用，打开时仍使用各自的设置。</string>
     <string name="tile_color_adaptive_unavailable">屏幕色彩已停用</string>
+
+    <string name="category_perf_charging">充电</string>
+    <string name="bypass_app_title">旁路供电</string>
+    <string name="bypass_app_summary">此应用在前台且已连接充电器时，由充电器直接为平板供电，电池暂停充电。电量降至 %1$d%% 时自动关闭。</string>
+    <string name="bypass_notification_channel">旁路供电</string>
+    <string name="charging_warning_notification_channel">充电警告</string>
+    <string name="bypass_on_toast">已开启旁路供电</string>
+    <string name="bypass_on_title">根据「%1$s」应用的配置，已开启旁路供电</string>
+    <string name="bypass_on_text">充电器直接为平板供电，电池暂停充电。电量降至 %1$d%% 时将恢复充电。</string>
+    <string name="bypass_low_battery_toast">电量过低，已自动关闭旁路供电</string>
+    <string name="bypass_low_battery_title">电量过低，旁路供电已自动关闭</string>
+    <string name="bypass_low_battery_text">电量已降至 %1$d%%，已恢复为电池充电。</string>
+    <string name="heat_protection_title">高温充电保护</string>
+    <string name="heat_protection_summary">机身过热时暂停为电池充电</string>
+    <string name="heat_protection_enabled_title">使用高温充电保护</string>
+    <string name="heat_protection_description">充电时，若电池温度达到阈值温度且电量不低于最低电量，将停止为电池充电，由充电器直接为平板供电，避免电池继续升温；温度或电量低于设定值后恢复充电。每 5 分钟最多切换一次。</string>
+    <string name="category_heat_protection_title">保护设置</string>
+    <string name="heat_protection_min_level_title">最低电量</string>
+    <string name="heat_protection_min_level_summary">电量不低于 %1$d%% 时生效</string>
+    <string name="heat_protection_threshold_title">阈值温度</string>
+    <string name="heat_protection_threshold_low">偏低（39 °C）</string>
+    <string name="heat_protection_threshold_medium">适中（41 °C）</string>
+    <string name="heat_protection_threshold_high">偏高（43 °C）</string>
+    <string name="heat_protection_notification_title">机身温度过高，已暂停充电</string>
+    <string name="heat_protection_notification_text">电池温度为 %1$s。将由充电器直接为平板供电，待机身冷却后自动恢复充电。</string>
 </resources>

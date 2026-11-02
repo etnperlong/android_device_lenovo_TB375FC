@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">آلہ کی خصوصیات</string>
     <string name="device_parts_title">آلہ کی خصوصیات</string>
-    <string name="device_parts_summary">اسکرین کا رنگ، ویڈیو تصویر کا معیار، Dolby Atmos، کارکردگی، لوازمات، ریفریش ریٹ اور ٹچ، RAM میں توسیع</string>
+    <string name="device_parts_summary">اسکرین کا رنگ، ویڈیو تصویر کا معیار، Dolby Atmos، کارکردگی، لوازمات، ریفریش ریٹ اور ٹچ، RAM میں توسیع، چارجنگ</string>
     <string name="ram_expansion_title">RAM میں توسیع</string>
     <string name="ram_expansion_summary">RAM خالی کرنے کے لیے غیر فعال ایپس کا ڈیٹا اسٹوریج میں منتقل کریں</string>
     <string name="ram_expansion_description">طویل عرصے سے استعمال نہ ہونے والی ایپس کا ڈیٹا کمپریسڈ میموری سے اسٹوریج میں منتقل کر کے RAM خالی کریں۔ منتخب کردہ اسٹوریج کی مقدار استعمال ہوگی۔ تبدیلیاں دوبارہ شروع کرنے کے بعد لاگو ہوں گی۔</string>
@@ -228,4 +228,29 @@
     <string name="tile_dolby_app_note">اپنے موڈ والی ایپس آڈیو چلاتے وقت بھی وہی موڈ استعمال کرتی ہیں۔</string>
     <string name="tile_color_app_note">اپنی رنگ کی ترتیب والی ایپس کھلی ہونے پر بھی وہی ترتیب استعمال کرتی ہیں۔</string>
     <string name="tile_color_adaptive_unavailable">اسکرین کا رنگ غیر فعال ہے</string>
+
+    <string name="category_perf_charging">چارجنگ</string>
+    <string name="bypass_app_title">بائی پاس چارجنگ</string>
+    <string name="bypass_app_summary">جب یہ ایپ سامنے ہو اور چارجر منسلک ہو تو چارجر براہ راست ٹیبلیٹ کو پاور فراہم کرتا ہے اور بیٹری چارج نہیں ہوتی۔ بیٹری %1$d%% تک گرنے پر آف ہو جاتا ہے۔</string>
+    <string name="bypass_notification_channel">بائی پاس چارجنگ</string>
+    <string name="charging_warning_notification_channel">چارجنگ کی وارننگز</string>
+    <string name="bypass_on_toast">بائی پاس چارجنگ آن ہے</string>
+    <string name="bypass_on_title">%1$s کی ترتیب کے مطابق بائی پاس چارجنگ آن ہے</string>
+    <string name="bypass_on_text">چارجر براہ راست ٹیبلیٹ کو پاور فراہم کرتا ہے اور بیٹری چارج نہیں ہوتی۔ بیٹری %1$d%% تک گرنے پر چارجنگ دوبارہ شروع ہو جاتی ہے۔</string>
+    <string name="bypass_low_battery_toast">بیٹری کم ہے، بائی پاس چارجنگ آف ہو گئی</string>
+    <string name="bypass_low_battery_title">بیٹری کم ہے، بائی پاس چارجنگ آف ہو گئی</string>
+    <string name="bypass_low_battery_text">بیٹری %1$d%% تک گر گئی، اس لیے یہ دوبارہ چارج ہو رہی ہے۔</string>
+    <string name="heat_protection_title">چارجنگ میں حرارت سے تحفظ</string>
+    <string name="heat_protection_summary">ٹیبلیٹ گرم ہونے پر بیٹری کی چارجنگ موقوف کریں</string>
+    <string name="heat_protection_enabled_title">چارجنگ میں حرارت سے تحفظ استعمال کریں</string>
+    <string name="heat_protection_description">چارجنگ کے دوران، اگر بیٹری حد درجہ حرارت تک پہنچ جائے اور کم از کم چارج تک چارج ہو چکی ہو تو بیٹری کی چارجنگ رک جاتی ہے اور چارجر براہ راست ٹیبلیٹ کو پاور فراہم کرتا ہے، تاکہ بیٹری مزید گرم نہ ہو۔ درجہ حرارت یا چارج ان سے نیچے آنے پر چارجنگ دوبارہ شروع ہو جاتی ہے۔ یہ ہر 5 منٹ میں زیادہ سے زیادہ ایک بار سوئچ کرتا ہے۔</string>
+    <string name="category_heat_protection_title">تحفظ کی ترتیبات</string>
+    <string name="heat_protection_min_level_title">کم از کم چارج</string>
+    <string name="heat_protection_min_level_summary">صرف %1$d%% یا اس سے زیادہ پر</string>
+    <string name="heat_protection_threshold_title">حد درجہ حرارت</string>
+    <string name="heat_protection_threshold_low">کم (39 °C)</string>
+    <string name="heat_protection_threshold_medium">درمیانہ (41 °C)</string>
+    <string name="heat_protection_threshold_high">زیادہ (43 °C)</string>
+    <string name="heat_protection_notification_title">ٹیبلیٹ بہت گرم ہے، چارجنگ موقوف ہو گئی</string>
+    <string name="heat_protection_notification_text">بیٹری کا درجہ حرارت %1$s ہے۔ ٹھنڈا ہونے تک چارجر براہ راست ٹیبلیٹ کو پاور فراہم کرے گا، پھر چارجنگ دوبارہ شروع ہو جائے گی۔</string>
 </resources>

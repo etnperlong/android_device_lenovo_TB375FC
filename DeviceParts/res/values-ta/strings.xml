@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">சாதன அம்சங்கள்</string>
     <string name="device_parts_title">சாதன அம்சங்கள்</string>
-    <string name="device_parts_summary">திரை வண்ணம், வீடியோ படத் தரம், Dolby Atmos, செயல்திறன், துணைக்கருவிகள், ரெஃப்ரெஷ் ரேட் மற்றும் தொடுதல், RAM விரிவாக்கம்</string>
+    <string name="device_parts_summary">திரை வண்ணம், வீடியோ படத் தரம், Dolby Atmos, செயல்திறன், துணைக்கருவிகள், ரெஃப்ரெஷ் ரேட் மற்றும் தொடுதல், RAM விரிவாக்கம், சார்ஜிங்</string>
     <string name="ram_expansion_title">RAM விரிவாக்கம்</string>
     <string name="ram_expansion_summary">RAM-ஐ விடுவிக்கச் செயலற்ற ஆப்ஸ் தரவைச் சேமிப்பகத்திற்கு நகர்த்தவும்</string>
     <string name="ram_expansion_description">நீண்ட காலமாகப் பயன்படுத்தப்படாத ஆப்ஸின் தரவைச் சுருக்கப்பட்ட நினைவகத்திலிருந்து சேமிப்பகத்திற்கு நகர்த்தி RAM-ஐ விடுவிக்கவும். தேர்ந்தெடுக்கப்பட்ட சேமிப்பக அளவு பயன்படுத்தப்படும். மறுதொடக்கம் செய்த பிறகு மாற்றங்கள் நடைமுறைக்கு வரும்.</string>
@@ -220,4 +220,29 @@
     <string name="tile_dolby_app_note">சொந்த பயன்முறை அமைக்கப்பட்டுள்ள ஆப்கள், ஆடியோ இயக்கும்போதும் அதைப் பயன்படுத்தும்.</string>
     <string name="tile_color_app_note">சொந்த வண்ண அமைப்பு கொண்ட ஆப்கள் திறந்திருக்கும் போதும் அதைப் பயன்படுத்தும்.</string>
     <string name="tile_color_adaptive_unavailable">திரை வண்ணம் முடக்கப்பட்டுள்ளது</string>
+
+    <string name="category_perf_charging">சார்ஜிங்</string>
+    <string name="bypass_app_title">பைபாஸ் சார்ஜிங்</string>
+    <string name="bypass_app_summary">இந்த ஆப் முன்புறத்தில் இருக்கும்போதும் சார்ஜர் இணைக்கப்பட்டிருக்கும்போதும், சார்ஜர் டேப்லெட்டுக்கு நேரடியாக மின்சாரம் வழங்கும், பேட்டரி சார்ஜ் செய்யப்படாது. பேட்டரி %1$d%% ஆகக் குறையும்போது இது முடக்கப்படும்.</string>
+    <string name="bypass_notification_channel">பைபாஸ் சார்ஜிங்</string>
+    <string name="charging_warning_notification_channel">சார்ஜிங் எச்சரிக்கைகள்</string>
+    <string name="bypass_on_toast">பைபாஸ் சார்ஜிங் இயக்கப்பட்டது</string>
+    <string name="bypass_on_title">%1$s ஆப்பிற்கான அமைப்பின்படி பைபாஸ் சார்ஜிங் இயக்கத்தில் உள்ளது</string>
+    <string name="bypass_on_text">சார்ஜர் டேப்லெட்டுக்கு நேரடியாக மின்சாரம் வழங்குகிறது, பேட்டரி சார்ஜ் செய்யப்படவில்லை. பேட்டரி %1$d%% ஆகக் குறையும்போது சார்ஜிங் மீண்டும் தொடங்கும்.</string>
+    <string name="bypass_low_battery_toast">பேட்டரி குறைவு, பைபாஸ் சார்ஜிங் முடக்கப்பட்டது</string>
+    <string name="bypass_low_battery_title">பேட்டரி குறைவு, பைபாஸ் சார்ஜிங் முடக்கப்பட்டது</string>
+    <string name="bypass_low_battery_text">பேட்டரி %1$d%% ஆகக் குறைந்ததால், மீண்டும் சார்ஜ் ஆகிறது.</string>
+    <string name="heat_protection_title">சார்ஜிங் வெப்பப் பாதுகாப்பு</string>
+    <string name="heat_protection_summary">டேப்லெட் சூடாக இருக்கும்போது பேட்டரி சார்ஜிங்கை இடைநிறுத்து</string>
+    <string name="heat_protection_enabled_title">சார்ஜிங் வெப்பப் பாதுகாப்பைப் பயன்படுத்து</string>
+    <string name="heat_protection_description">சார்ஜ் செய்யும்போது, பேட்டரி வரம்பு வெப்பநிலையை அடைந்து, குறைந்தபட்ச சார்ஜ் அளவுக்காவது சார்ஜ் ஆகியிருந்தால், பேட்டரி சார்ஜ் ஆவது நிறுத்தப்பட்டு சார்ஜர் டேப்லெட்டுக்கு நேரடியாக மின்சாரம் வழங்கும். இதனால் பேட்டரி மேலும் சூடாகாது. வெப்பநிலை அல்லது சார்ஜ் அவற்றைவிடக் குறையும்போது சார்ஜிங் மீண்டும் தொடங்கும். இது 5 நிமிடங்களுக்கு ஒருமுறைக்கு மேல் மாறாது.</string>
+    <string name="category_heat_protection_title">பாதுகாப்பு அமைப்புகள்</string>
+    <string name="heat_protection_min_level_title">குறைந்தபட்ச சார்ஜ்</string>
+    <string name="heat_protection_min_level_summary">%1$d%% அல்லது அதற்கு மேல் இருக்கும்போது மட்டும்</string>
+    <string name="heat_protection_threshold_title">வரம்பு வெப்பநிலை</string>
+    <string name="heat_protection_threshold_low">குறைவு (39 °C)</string>
+    <string name="heat_protection_threshold_medium">நடுத்தரம் (41 °C)</string>
+    <string name="heat_protection_threshold_high">அதிகம் (43 °C)</string>
+    <string name="heat_protection_notification_title">டேப்லெட் மிகவும் சூடாக உள்ளது, சார்ஜிங் இடைநிறுத்தப்பட்டது</string>
+    <string name="heat_protection_notification_text">பேட்டரி வெப்பநிலை %1$s. டேப்லெட் குளிரும் வரை சார்ஜர் அதற்கு நேரடியாக மின்சாரம் வழங்கும், பின்னர் சார்ஜிங் மீண்டும் தொடங்கும்.</string>
 </resources>

@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Tính năng thiết bị</string>
     <string name="device_parts_title">Tính năng thiết bị</string>
-    <string name="device_parts_summary">Màu màn hình, hình ảnh video, Dolby Atmos, hiệu năng, phụ kiện, tần số quét và cảm ứng, mở rộng RAM</string>
+    <string name="device_parts_summary">Màu màn hình, hình ảnh video, Dolby Atmos, hiệu năng, phụ kiện, tần số quét và cảm ứng, mở rộng RAM, sạc</string>
     <string name="category_perf_memory_title">Hiệu năng và bộ nhớ</string>
     <string name="ram_expansion_title">Mở rộng RAM</string>
     <string name="ram_expansion_summary">Chuyển dữ liệu ứng dụng không hoạt động sang bộ nhớ lưu trữ để giải phóng RAM</string>
@@ -219,4 +219,29 @@
     <string name="tile_dolby_app_note">Ứng dụng có chế độ riêng vẫn dùng chế độ đó khi phát âm thanh.</string>
     <string name="tile_color_app_note">Ứng dụng có cài đặt màu riêng vẫn dùng cài đặt đó khi đang mở.</string>
     <string name="tile_color_adaptive_unavailable">Màu màn hình đã tắt</string>
+
+    <string name="category_perf_charging">Sạc</string>
+    <string name="bypass_app_title">Sạc bỏ qua pin</string>
+    <string name="bypass_app_summary">Khi ứng dụng này ở nền trước và bộ sạc được kết nối, bộ sạc sẽ cấp điện trực tiếp cho máy tính bảng và pin không được sạc. Tự động tắt khi pin giảm xuống %1$d%%.</string>
+    <string name="bypass_notification_channel">Sạc bỏ qua pin</string>
+    <string name="charging_warning_notification_channel">Cảnh báo sạc</string>
+    <string name="bypass_on_toast">Đã bật sạc bỏ qua pin</string>
+    <string name="bypass_on_title">Đã bật sạc bỏ qua pin theo cài đặt cho %1$s</string>
+    <string name="bypass_on_text">Bộ sạc cấp điện trực tiếp cho máy tính bảng và pin không được sạc. Pin sẽ sạc lại khi giảm xuống %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Pin yếu, đã tắt sạc bỏ qua pin</string>
+    <string name="bypass_low_battery_title">Pin yếu, đã tắt sạc bỏ qua pin</string>
+    <string name="bypass_low_battery_text">Pin đã giảm xuống %1$d%% nên đang được sạc lại.</string>
+    <string name="heat_protection_title">Bảo vệ nhiệt khi sạc</string>
+    <string name="heat_protection_summary">Tạm dừng sạc pin khi máy tính bảng bị nóng</string>
+    <string name="heat_protection_enabled_title">Dùng bảo vệ nhiệt khi sạc</string>
+    <string name="heat_protection_description">Trong khi sạc, nếu pin đạt đến nhiệt độ ngưỡng và đã sạc ít nhất đến mức sạc tối thiểu, pin sẽ ngừng sạc và bộ sạc cấp điện trực tiếp cho máy tính bảng để pin không nóng thêm. Việc sạc sẽ tiếp tục khi nhiệt độ hoặc mức pin giảm xuống dưới các giá trị này. Chế độ chuyển đổi tối đa một lần mỗi 5 phút.</string>
+    <string name="category_heat_protection_title">Cài đặt bảo vệ</string>
+    <string name="heat_protection_min_level_title">Mức sạc tối thiểu</string>
+    <string name="heat_protection_min_level_summary">Chỉ khi pin từ %1$d%% trở lên</string>
+    <string name="heat_protection_threshold_title">Nhiệt độ ngưỡng</string>
+    <string name="heat_protection_threshold_low">Thấp (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Trung bình (41 °C)</string>
+    <string name="heat_protection_threshold_high">Cao (43 °C)</string>
+    <string name="heat_protection_notification_title">Máy tính bảng quá nóng, đã tạm dừng sạc</string>
+    <string name="heat_protection_notification_text">Nhiệt độ pin là %1$s. Bộ sạc sẽ cấp điện trực tiếp cho máy tính bảng cho đến khi máy nguội, sau đó tiếp tục sạc.</string>
 </resources>

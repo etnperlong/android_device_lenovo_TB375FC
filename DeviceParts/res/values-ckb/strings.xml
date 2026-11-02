@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">تایبەتمەندییەکانی ئامێر</string>
     <string name="device_parts_title">تایبەتمەندییەکانی ئامێر</string>
-    <string name="device_parts_summary">ڕەنگی شاشە، وێنەی ڤیدیۆ، Dolby Atmos، کارایی، پێوەکراوەکان، ڕێژەی نوێکردنەوە، دەستلێدان و فراوانکردنی RAM</string>
+    <string name="device_parts_summary">ڕەنگی شاشە، وێنەی ڤیدیۆ، Dolby Atmos، کارایی، پێوەکراوەکان، ڕێژەی نوێکردنەوە، دەستلێدان، فراوانکردنی RAM و بارگەکردن</string>
     <string name="category_perf_memory_title">کارایی و بیرگە</string>
     <string name="ram_expansion_title">فراوانکردنی RAM</string>
     <string name="ram_expansion_summary">داتای ئەپە ناچالاکەکان بگوازەرەوە بۆ بیرگە بۆ بەتاڵکردنی RAM</string>
@@ -228,4 +228,29 @@
     <string name="tile_dolby_app_note">ئەو ئەپانەی دۆخی تایبەتی خۆیان هەیە، لە کاتی پەخشکردنی دەنگدا بەردەوام دەبن لە بەکارهێنانی ئەو دۆخە.</string>
     <string name="tile_color_app_note">ئەو ئەپانەی ڕێکخستنی ڕەنگی تایبەتی خۆیان هەیە، تا کاتێک کراوەن بەردەوام دەبن لە بەکارهێنانی.</string>
     <string name="tile_color_adaptive_unavailable">ڕەنگی شاشە ناچالاکە</string>
+
+    <string name="category_perf_charging">بارگەکردن</string>
+    <string name="bypass_app_title">بارگەکردنی ڕاستەوخۆ</string>
+    <string name="bypass_app_summary">کاتێک ئەم ئەپە لە پێشەوەیە و بارگەکەر پەیوەستە، بارگەکەر ڕاستەوخۆ وزە دەداتە تابلێتەکە و پاتری بارگە ناکرێت. کاتێک پاتری دادەبەزێت بۆ %1$d%% دەکوژێتەوە.</string>
+    <string name="bypass_notification_channel">بارگەکردنی ڕاستەوخۆ</string>
+    <string name="charging_warning_notification_channel">ئاگادارکردنەوەکانی بارگەکردن</string>
+    <string name="bypass_on_toast">بارگەکردنی ڕاستەوخۆ چالاکە</string>
+    <string name="bypass_on_title">بارگەکردنی ڕاستەوخۆ چالاکە، وەک بۆ %1$s ڕێکخراوە</string>
+    <string name="bypass_on_text">بارگەکەر ڕاستەوخۆ وزە دەداتە تابلێتەکە و پاتری بارگە ناکرێت. کاتێک پاتری دادەبەزێت بۆ %1$d%% بارگەکردن دەستپێدەکاتەوە.</string>
+    <string name="bypass_low_battery_toast">پاتری کەمە، بارگەکردنی ڕاستەوخۆ کوژایەوە</string>
+    <string name="bypass_low_battery_title">پاتری کەمە، بارگەکردنی ڕاستەوخۆ کوژایەوە</string>
+    <string name="bypass_low_battery_text">پاتری دابەزی بۆ %1$d%%، بۆیە دووبارە بارگە دەکرێتەوە.</string>
+    <string name="heat_protection_title">پاراستنی گەرمی لە بارگەکردندا</string>
+    <string name="heat_protection_summary">ڕاگرتنی بارگەکردنی پاتری کاتێک تابلێتەکە گەرمە</string>
+    <string name="heat_protection_enabled_title">بەکارهێنانی پاراستنی گەرمی لە بارگەکردندا</string>
+    <string name="heat_protection_description">لە کاتی بارگەکردندا، ئەگەر پلەی گەرمی پاتری گەیشتە پلەی سنوور و لانیکەم تا کەمترین بارگە بارگە کرابوو، بارگەکردنی پاتری ڕادەگیرێت و بارگەکەر ڕاستەوخۆ وزە دەداتە تابلێتەکە، بۆ ئەوەی پاتری زیاتر گەرم نەبێت. کاتێک پلەی گەرمی یان بارگە لە خوارەوەیان دابەزی، بارگەکردن دەستپێدەکاتەوە. لە هەر 5 خولەکدا تەنها یەک جار دەگۆڕێت.</string>
+    <string name="category_heat_protection_title">ڕێکخستنەکانی پاراستن</string>
+    <string name="heat_protection_min_level_title">کەمترین بارگە</string>
+    <string name="heat_protection_min_level_summary">تەنها لە %1$d%% یان زیاتر</string>
+    <string name="heat_protection_threshold_title">پلەی گەرمی سنوور</string>
+    <string name="heat_protection_threshold_low">نزم (39 °C)</string>
+    <string name="heat_protection_threshold_medium">مامناوەند (41 °C)</string>
+    <string name="heat_protection_threshold_high">بەرز (43 °C)</string>
+    <string name="heat_protection_notification_title">تابلێت زۆر گەرمە، بارگەکردن ڕاگیرا</string>
+    <string name="heat_protection_notification_text">پلەی گەرمی پاتری %1$s ە. بارگەکەر ڕاستەوخۆ وزە دەداتە تابلێتەکە تا سارد دەبێتەوە، پاشان بارگەکردن دەستپێدەکاتەوە.</string>
 </resources>

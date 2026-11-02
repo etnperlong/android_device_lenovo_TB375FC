@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">పరికర ఫీచర్‌లు</string>
     <string name="device_parts_title">పరికర ఫీచర్‌లు</string>
-    <string name="device_parts_summary">స్క్రీన్ రంగు, వీడియో చిత్ర నాణ్యత, Dolby Atmos, పనితీరు, ఉపకరణాలు, రిఫ్రెష్ రేట్ మరియు టచ్, RAM విస్తరణ</string>
+    <string name="device_parts_summary">స్క్రీన్ రంగు, వీడియో చిత్ర నాణ్యత, Dolby Atmos, పనితీరు, ఉపకరణాలు, రిఫ్రెష్ రేట్ మరియు టచ్, RAM విస్తరణ, ఛార్జింగ్</string>
     <string name="ram_expansion_title">RAM విస్తరణ</string>
     <string name="ram_expansion_summary">RAM ఖాళీ చేయడానికి క్రియారహిత యాప్ డేటాను స్టోరేజ్‌కు తరలించండి</string>
     <string name="ram_expansion_description">చాలా కాలంగా ఉపయోగించని యాప్‌ల డేటాను కుదించిన మెమరీ నుంచి స్టోరేజ్‌కు తరలించి RAM ఖాళీ చేయండి. ఎంచుకున్న స్టోరేజ్ పరిమాణం ఉపయోగించబడుతుంది. రీస్టార్ట్ చేసిన తర్వాత మార్పులు అమల్లోకి వస్తాయి.</string>
@@ -220,4 +220,29 @@
     <string name="tile_dolby_app_note">సొంత మోడ్ ఉన్న యాప్‌లు ఆడియో ప్లే చేస్తున్నప్పుడు కూడా దాన్నే ఉపయోగిస్తాయి.</string>
     <string name="tile_color_app_note">సొంత రంగు సెట్టింగ్ ఉన్న యాప్‌లు తెరిచి ఉన్నప్పుడు కూడా దాన్నే ఉపయోగిస్తాయి.</string>
     <string name="tile_color_adaptive_unavailable">స్క్రీన్ రంగు డిజేబుల్ చేయబడింది</string>
+
+    <string name="category_perf_charging">ఛార్జింగ్</string>
+    <string name="bypass_app_title">బైపాస్ ఛార్జింగ్</string>
+    <string name="bypass_app_summary">ఈ యాప్ ముందు భాగంలో ఉండి, ఛార్జర్ కనెక్ట్ అయి ఉన్నప్పుడు, ఛార్జర్ నేరుగా టాబ్లెట్‌కు పవర్ అందిస్తుంది, బ్యాటరీ ఛార్జ్ కాదు. బ్యాటరీ %1$d%%కి తగ్గినప్పుడు ఆఫ్ అవుతుంది.</string>
+    <string name="bypass_notification_channel">బైపాస్ ఛార్జింగ్</string>
+    <string name="charging_warning_notification_channel">ఛార్జింగ్ హెచ్చరికలు</string>
+    <string name="bypass_on_toast">బైపాస్ ఛార్జింగ్ ఆన్ అయింది</string>
+    <string name="bypass_on_title">%1$s కోసం సెట్ చేసినట్లుగా బైపాస్ ఛార్జింగ్ ఆన్‌లో ఉంది</string>
+    <string name="bypass_on_text">ఛార్జర్ నేరుగా టాబ్లెట్‌కు పవర్ అందిస్తుంది, బ్యాటరీ ఛార్జ్ కాదు. బ్యాటరీ %1$d%%కి తగ్గినప్పుడు ఛార్జింగ్ మళ్లీ మొదలవుతుంది.</string>
+    <string name="bypass_low_battery_toast">బ్యాటరీ తక్కువగా ఉంది, బైపాస్ ఛార్జింగ్ ఆఫ్ చేయబడింది</string>
+    <string name="bypass_low_battery_title">బ్యాటరీ తక్కువగా ఉంది, బైపాస్ ఛార్జింగ్ ఆఫ్ చేయబడింది</string>
+    <string name="bypass_low_battery_text">బ్యాటరీ %1$d%%కి తగ్గింది, కాబట్టి మళ్లీ ఛార్జ్ అవుతోంది.</string>
+    <string name="heat_protection_title">ఛార్జింగ్ వేడి రక్షణ</string>
+    <string name="heat_protection_summary">టాబ్లెట్ వేడిగా ఉన్నప్పుడు బ్యాటరీ ఛార్జింగ్‌ను పాజ్ చేయండి</string>
+    <string name="heat_protection_enabled_title">ఛార్జింగ్ వేడి రక్షణను ఉపయోగించండి</string>
+    <string name="heat_protection_description">ఛార్జ్ అవుతున్నప్పుడు, బ్యాటరీ థ్రెషోల్డ్ ఉష్ణోగ్రతను చేరుకుని, కనీస ఛార్జ్ వరకైనా ఛార్జ్ అయి ఉంటే, బ్యాటరీ ఛార్జింగ్ ఆగిపోతుంది, ఛార్జర్ నేరుగా టాబ్లెట్‌కు పవర్ అందిస్తుంది, దీంతో బ్యాటరీ మరింత వేడెక్కదు. ఉష్ణోగ్రత లేదా ఛార్జ్ వాటి కంటే తగ్గినప్పుడు ఛార్జింగ్ మళ్లీ మొదలవుతుంది. ఇది గరిష్ఠంగా ప్రతి 5 నిమిషాలకు ఒకసారి మారుతుంది.</string>
+    <string name="category_heat_protection_title">రక్షణ సెట్టింగ్‌లు</string>
+    <string name="heat_protection_min_level_title">కనీస ఛార్జ్</string>
+    <string name="heat_protection_min_level_summary">%1$d%% లేదా అంతకంటే ఎక్కువ ఉన్నప్పుడు మాత్రమే</string>
+    <string name="heat_protection_threshold_title">థ్రెషోల్డ్ ఉష్ణోగ్రత</string>
+    <string name="heat_protection_threshold_low">తక్కువ (39 °C)</string>
+    <string name="heat_protection_threshold_medium">మధ్యస్థం (41 °C)</string>
+    <string name="heat_protection_threshold_high">ఎక్కువ (43 °C)</string>
+    <string name="heat_protection_notification_title">టాబ్లెట్ చాలా వేడిగా ఉంది, ఛార్జింగ్ పాజ్ చేయబడింది</string>
+    <string name="heat_protection_notification_text">బ్యాటరీ ఉష్ణోగ్రత %1$s. టాబ్లెట్ చల్లబడే వరకు ఛార్జర్ నేరుగా దానికి పవర్ అందిస్తుంది, ఆ తర్వాత ఛార్జింగ్ మళ్లీ మొదలవుతుంది.</string>
 </resources>

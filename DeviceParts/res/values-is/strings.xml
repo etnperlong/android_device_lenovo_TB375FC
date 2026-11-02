@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Eiginleikar tækis</string>
     <string name="device_parts_title">Eiginleikar tækis</string>
-    <string name="device_parts_summary">Skjálitur, myndgæði myndbanda, Dolby Atmos, afköst, aukabúnaður, endurnýjunartíðni, snerting og RAM-viðbót</string>
+    <string name="device_parts_summary">Skjálitur, myndgæði myndbanda, Dolby Atmos, afköst, aukabúnaður, endurnýjunartíðni, snerting, RAM-viðbót og hleðsla</string>
     <string name="category_perf_memory_title">Afköst og minni</string>
     <string name="ram_expansion_title">RAM-viðbót</string>
     <string name="ram_expansion_summary">Færa óvirk forritsgögn í geymslu til að losa um RAM</string>
@@ -220,4 +220,29 @@
     <string name="tile_dolby_app_note">Forrit með stillingum sem eru valdar sérstaklega halda áfram að nota þær þegar þau spila hljóð.</string>
     <string name="tile_color_app_note">Forrit með liti sem eru valdir sérstaklega halda áfram að nota sínar stillingar þegar þau eru opnuð.</string>
     <string name="tile_color_adaptive_unavailable">Skjálitur óvirkur</string>
+
+    <string name="category_perf_charging">Hleðsla</string>
+    <string name="bypass_app_title">Framhjáhleðsla</string>
+    <string name="bypass_app_summary">Þegar þetta forrit er í forgrunni og hleðslutækið er tengt knýr hleðslutækið spjaldtölvuna beint og rafhlaðan er ekki hlaðin. Slokknar þegar rafhlaðan fer niður í %1$d%%.</string>
+    <string name="bypass_notification_channel">Framhjáhleðsla</string>
+    <string name="charging_warning_notification_channel">Hleðsluviðvaranir</string>
+    <string name="bypass_on_toast">Kveikt á framhjáhleðslu</string>
+    <string name="bypass_on_title">Kveikt er á framhjáhleðslu samkvæmt stillingu fyrir %1$s</string>
+    <string name="bypass_on_text">Hleðslutækið knýr spjaldtölvuna beint og rafhlaðan er ekki hlaðin. Hleðsla hefst aftur þegar rafhlaðan fer niður í %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Lítil hleðsla, slökkt á framhjáhleðslu</string>
+    <string name="bypass_low_battery_title">Lítil hleðsla, slökkt á framhjáhleðslu</string>
+    <string name="bypass_low_battery_text">Rafhlaðan fór niður í %1$d%% og er því í hleðslu aftur.</string>
+    <string name="heat_protection_title">Hitavörn við hleðslu</string>
+    <string name="heat_protection_summary">Gera hlé á hleðslu rafhlöðunnar meðan spjaldtölvan er heit</string>
+    <string name="heat_protection_enabled_title">Nota hitavörn við hleðslu</string>
+    <string name="heat_protection_description">Ef rafhlaðan nær viðmiðunarhita meðan á hleðslu stendur og er hlaðin að minnsta kosti upp í lágmarkshleðslu hættir hún að hlaðast og hleðslutækið knýr spjaldtölvuna beint, svo rafhlaðan hitni ekki frekar. Hleðsla hefst aftur þegar hitinn eða hleðslan fer undir þessi gildi. Skipt er í mesta lagi einu sinni á 5 mínútna fresti.</string>
+    <string name="category_heat_protection_title">Stillingar varnar</string>
+    <string name="heat_protection_min_level_title">Lágmarkshleðsla</string>
+    <string name="heat_protection_min_level_summary">Aðeins við %1$d%% eða meira</string>
+    <string name="heat_protection_threshold_title">Viðmiðunarhiti</string>
+    <string name="heat_protection_threshold_low">Lágur (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Miðlungs (41 °C)</string>
+    <string name="heat_protection_threshold_high">Hár (43 °C)</string>
+    <string name="heat_protection_notification_title">Spjaldtölvan of heit, hlé gert á hleðslu</string>
+    <string name="heat_protection_notification_text">Rafhlaðan er %1$s. Hleðslutækið knýr spjaldtölvuna beint þar til hún kólnar og þá hefst hleðsla aftur.</string>
 </resources>

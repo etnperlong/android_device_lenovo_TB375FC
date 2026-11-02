@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Funciones del dispositivo</string>
     <string name="device_parts_title">Funciones del dispositivo</string>
-    <string name="device_parts_summary">Color de pantalla, calidad de video, Dolby Atmos, rendimiento, accesorios, frecuencia de actualización, pantalla táctil y expansión de RAM</string>
+    <string name="device_parts_summary">Color de pantalla, calidad de video, Dolby Atmos, rendimiento, accesorios, frecuencia de actualización, pantalla táctil, expansión de RAM y carga</string>
     <string name="category_perf_memory_title">Rendimiento y memoria</string>
     <string name="ram_expansion_title">Expansión de RAM</string>
     <string name="ram_expansion_summary">Mueve los datos de las apps inactivas al almacenamiento para liberar RAM</string>
@@ -222,4 +222,29 @@
     <string name="tile_dolby_app_note">Las apps que tienen su propio modo lo siguen usando mientras reproducen contenido.</string>
     <string name="tile_color_app_note">Las apps que tienen su propio ajuste de color lo siguen usando mientras están abiertas.</string>
     <string name="tile_color_adaptive_unavailable">El color de la pantalla está desactivado</string>
+
+    <string name="category_perf_charging">Carga</string>
+    <string name="bypass_app_title">Carga directa</string>
+    <string name="bypass_app_summary">Mientras esta app esté en primer plano y el cargador esté conectado, el cargador alimenta directamente la tablet y la batería no se carga. Se desactiva cuando la batería baja al %1$d%%.</string>
+    <string name="bypass_notification_channel">Carga directa</string>
+    <string name="charging_warning_notification_channel">Advertencias de carga</string>
+    <string name="bypass_on_toast">Carga directa activada</string>
+    <string name="bypass_on_title">La carga directa está activada, según la configuración de %1$s</string>
+    <string name="bypass_on_text">El cargador alimenta directamente la tablet y la batería no se carga. La carga se reanudará cuando la batería baje al %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Batería baja; se desactivó la carga directa</string>
+    <string name="bypass_low_battery_title">Batería baja; se desactivó la carga directa</string>
+    <string name="bypass_low_battery_text">La batería bajó al %1$d%%, por lo que se está cargando de nuevo.</string>
+    <string name="heat_protection_title">Protección contra calor al cargar</string>
+    <string name="heat_protection_summary">Pausar la carga de la batería mientras la tablet está caliente</string>
+    <string name="heat_protection_enabled_title">Usar protección contra calor al cargar</string>
+    <string name="heat_protection_description">Durante la carga, si la batería alcanza la temperatura límite y tiene al menos la carga mínima, la batería deja de cargarse y el cargador alimenta directamente la tablet para que la batería no se caliente más. La carga se reanuda cuando la temperatura o la carga bajan de esos valores. Cambia como máximo una vez cada 5 minutos.</string>
+    <string name="category_heat_protection_title">Configuración de protección</string>
+    <string name="heat_protection_min_level_title">Carga mínima</string>
+    <string name="heat_protection_min_level_summary">Solo con %1$d%% o más</string>
+    <string name="heat_protection_threshold_title">Temperatura límite</string>
+    <string name="heat_protection_threshold_low">Baja (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Media (41 °C)</string>
+    <string name="heat_protection_threshold_high">Alta (43 °C)</string>
+    <string name="heat_protection_notification_title">Tablet demasiado caliente; carga pausada</string>
+    <string name="heat_protection_notification_text">La batería está a %1$s. El cargador alimenta directamente la tablet hasta que se enfríe y luego se reanuda la carga.</string>
 </resources>

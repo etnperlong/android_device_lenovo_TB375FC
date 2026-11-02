@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Fonctionnalités de l’appareil</string>
     <string name="device_parts_title">Fonctionnalités de l’appareil</string>
-    <string name="device_parts_summary">Couleur de l’écran, qualité vidéo, Dolby Atmos, performances, accessoires, fréquence d’actualisation, tactile et extension de RAM</string>
+    <string name="device_parts_summary">Couleur de l’écran, qualité vidéo, Dolby Atmos, performances, accessoires, fréquence d’actualisation, tactile, extension de RAM et recharge</string>
     <string name="category_perf_memory_title">Performances et mémoire</string>
     <string name="ram_expansion_title">Extension de RAM</string>
     <string name="ram_expansion_summary">Déplacer les données des applications inactives vers le stockage pour libérer de la RAM</string>
@@ -227,4 +227,29 @@
     <string name="tile_dolby_app_note">Les applis qui ont leur propre mode continuent de l’utiliser pendant la lecture.</string>
     <string name="tile_color_app_note">Les applis qui ont leur propre réglage de couleur continuent de l’utiliser lorsqu’elles sont ouvertes.</string>
     <string name="tile_color_adaptive_unavailable">La couleur de l’écran est désactivée</string>
+
+    <string name="category_perf_charging">Recharge</string>
+    <string name="bypass_app_title">Alimentation directe</string>
+    <string name="bypass_app_summary">Lorsque cette appli est au premier plan et que le chargeur est branché, le chargeur alimente directement la tablette et la batterie n’est pas rechargée. Se désactive lorsque la batterie descend à %1$d %%.</string>
+    <string name="bypass_notification_channel">Alimentation directe</string>
+    <string name="charging_warning_notification_channel">Alertes de recharge</string>
+    <string name="bypass_on_toast">Alimentation directe activée</string>
+    <string name="bypass_on_title">Alimentation directe activée, comme défini pour %1$s</string>
+    <string name="bypass_on_text">Le chargeur alimente directement la tablette et la batterie n’est pas rechargée. La recharge reprend lorsque la batterie descend à %1$d %%.</string>
+    <string name="bypass_low_battery_toast">Batterie faible, alimentation directe désactivée</string>
+    <string name="bypass_low_battery_title">Batterie faible, alimentation directe désactivée</string>
+    <string name="bypass_low_battery_text">La batterie est descendue à %1$d %%, la recharge a donc repris.</string>
+    <string name="heat_protection_title">Protection thermique de recharge</string>
+    <string name="heat_protection_summary">Suspendre la recharge de la batterie lorsque la tablette chauffe</string>
+    <string name="heat_protection_enabled_title">Utiliser la protection thermique de recharge</string>
+    <string name="heat_protection_description">Pendant la recharge, si la batterie atteint la température seuil et est chargée au moins au niveau minimal, la recharge de la batterie s’arrête et le chargeur alimente directement la tablette, afin que la batterie ne chauffe pas davantage. La recharge reprend lorsque la température ou le niveau de charge repasse en dessous de ces valeurs. Le basculement a lieu au maximum une fois toutes les 5 minutes.</string>
+    <string name="category_heat_protection_title">Paramètres de protection</string>
+    <string name="heat_protection_min_level_title">Charge minimale</string>
+    <string name="heat_protection_min_level_summary">Uniquement à partir de %1$d %%</string>
+    <string name="heat_protection_threshold_title">Température seuil</string>
+    <string name="heat_protection_threshold_low">Basse (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Moyenne (41 °C)</string>
+    <string name="heat_protection_threshold_high">Élevée (43 °C)</string>
+    <string name="heat_protection_notification_title">Tablette trop chaude, recharge suspendue</string>
+    <string name="heat_protection_notification_text">La batterie est à %1$s. Le chargeur alimente directement la tablette jusqu’à ce qu’elle refroidisse, puis la recharge reprend.</string>
 </resources>

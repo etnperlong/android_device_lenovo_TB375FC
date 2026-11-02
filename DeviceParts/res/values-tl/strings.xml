@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Mga bahagi ng device</string>
     <string name="device_parts_title">Mga bahagi ng device</string>
-    <string name="device_parts_summary">Kulay ng screen, larawan ng video, Dolby Atmos, performance, mga accessory, refresh rate at touch, pagpapalawak ng RAM</string>
+    <string name="device_parts_summary">Kulay ng screen, larawan ng video, Dolby Atmos, performance, mga accessory, refresh rate at touch, pagpapalawak ng RAM, pag-charge</string>
     <string name="category_perf_memory_title">Performance at memory</string>
     <string name="ram_expansion_title">Pagpapalawak ng RAM</string>
     <string name="ram_expansion_summary">Ilipat ang data ng mga hindi aktibong app sa storage para magbakante ng RAM</string>
@@ -227,4 +227,29 @@
     <string name="tile_dolby_app_note">Patuloy na ginagamit ng mga app ang sarili nilang mode habang nagpapatugtog.</string>
     <string name="tile_color_app_note">Patuloy na ginagamit ng mga app ang sarili nilang setting ng kulay habang bukas ang mga ito.</string>
     <string name="tile_color_adaptive_unavailable">Naka-disable ang kulay ng screen</string>
+
+    <string name="category_perf_charging">Pag-charge</string>
+    <string name="bypass_app_title">Bypass charging</string>
+    <string name="bypass_app_summary">Habang nasa harap ang app na ito at nakakonekta ang charger, direktang pinapagana ng charger ang tablet at hindi nagcha-charge ang baterya. Mag-o-off kapag bumaba ang baterya sa %1$d%%.</string>
+    <string name="bypass_notification_channel">Bypass charging</string>
+    <string name="charging_warning_notification_channel">Mga babala sa pag-charge</string>
+    <string name="bypass_on_toast">Naka-on ang bypass charging</string>
+    <string name="bypass_on_title">Naka-on ang bypass charging, gaya ng itinakda para sa %1$s</string>
+    <string name="bypass_on_text">Direktang pinapagana ng charger ang tablet at hindi nagcha-charge ang baterya. Magpapatuloy ang pag-charge kapag bumaba ang baterya sa %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Mahina ang baterya, na-off ang bypass charging</string>
+    <string name="bypass_low_battery_title">Mahina ang baterya, na-off ang bypass charging</string>
+    <string name="bypass_low_battery_text">Bumaba ang baterya sa %1$d%%, kaya nagcha-charge na ito ulit.</string>
+    <string name="heat_protection_title">Proteksyon sa init habang nagcha-charge</string>
+    <string name="heat_protection_summary">I-pause ang pag-charge ng baterya habang mainit ang tablet</string>
+    <string name="heat_protection_enabled_title">Gamitin ang proteksyon sa init habang nagcha-charge</string>
+    <string name="heat_protection_description">Habang nagcha-charge, kung maabot ng baterya ang threshold na temperatura at naka-charge ito nang hindi bababa sa minimum na charge, hihinto ang pag-charge ng baterya at direktang papaganahin ng charger ang tablet, para hindi na lalong uminit ang baterya. Magpapatuloy ang pag-charge kapag bumaba ang temperatura o ang charge sa mga ito. Nagpapalit ito nang hanggang isang beses bawat 5 minuto.</string>
+    <string name="category_heat_protection_title">Mga setting ng proteksyon</string>
+    <string name="heat_protection_min_level_title">Minimum na charge</string>
+    <string name="heat_protection_min_level_summary">Sa %1$d%% o higit pa lang</string>
+    <string name="heat_protection_threshold_title">Threshold na temperatura</string>
+    <string name="heat_protection_threshold_low">Mababa (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Katamtaman (41 °C)</string>
+    <string name="heat_protection_threshold_high">Mataas (43 °C)</string>
+    <string name="heat_protection_notification_title">Masyadong mainit ang tablet, naka-pause ang pag-charge</string>
+    <string name="heat_protection_notification_text">Nasa %1$s ang baterya. Direktang pinapagana ng charger ang tablet hanggang sa lumamig ito, pagkatapos ay magpapatuloy ang pag-charge.</string>
 </resources>

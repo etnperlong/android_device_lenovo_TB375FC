@@ -1,0 +1,4 @@
+# DeviceParts (system_app) turns charging off and on through the LineageOS health HAL
+# (vendor.lineage.health-service.tb375fc) for bypass charging (charging/ChargingService), as
+# Lineage's own policy makes system_server a client for the charging control.
+hal_client_domain(system_app, hal_lineage_health)

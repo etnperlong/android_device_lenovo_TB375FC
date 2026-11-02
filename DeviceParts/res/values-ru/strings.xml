@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Функции устройства</string>
     <string name="device_parts_title">Функции устройства</string>
-    <string name="device_parts_summary">Цвет экрана, качество видео, Dolby Atmos, производительность, аксессуары, частота обновления и сенсорный экран, расширение оперативной памяти</string>
+    <string name="device_parts_summary">Цвет экрана, качество видео, Dolby Atmos, производительность, аксессуары, частота обновления и сенсорный экран, расширение оперативной памяти, зарядка</string>
     <string name="category_perf_memory_title">Производительность и память</string>
     <string name="ram_expansion_title">Расширение оперативной памяти</string>
     <string name="ram_expansion_summary">Перемещение неактивных данных приложений в хранилище для освобождения оперативной памяти</string>
@@ -229,4 +229,29 @@
     <string name="tile_dolby_app_note">Приложения со своими режимами продолжают использовать их во время воспроизведения звука.</string>
     <string name="tile_color_app_note">Приложения со своими настройками цвета продолжают использовать их, пока открыты.</string>
     <string name="tile_color_adaptive_unavailable">Цвет экрана отключен</string>
+
+    <string name="category_perf_charging">Зарядка</string>
+    <string name="bypass_app_title">Прямое питание</string>
+    <string name="bypass_app_summary">Пока это приложение открыто и зарядное устройство подключено, планшет питается напрямую от зарядного устройства, а батарея не заряжается. Отключается, когда заряд батареи падает до %1$d%%.</string>
+    <string name="bypass_notification_channel">Прямое питание</string>
+    <string name="charging_warning_notification_channel">Предупреждения о зарядке</string>
+    <string name="bypass_on_toast">Прямое питание включено</string>
+    <string name="bypass_on_title">Прямое питание включено согласно настройке для %1$s</string>
+    <string name="bypass_on_text">Планшет питается напрямую от зарядного устройства, а батарея не заряжается. Зарядка возобновится, когда заряд батареи упадёт до %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Низкий заряд батареи, прямое питание отключено</string>
+    <string name="bypass_low_battery_title">Низкий заряд батареи, прямое питание отключено</string>
+    <string name="bypass_low_battery_text">Заряд батареи упал до %1$d%%, поэтому зарядка возобновлена.</string>
+    <string name="heat_protection_title">Защита от перегрева при зарядке</string>
+    <string name="heat_protection_summary">Приостанавливать зарядку батареи, когда планшет нагрет</string>
+    <string name="heat_protection_enabled_title">Использовать защиту от перегрева при зарядке</string>
+    <string name="heat_protection_description">Если во время зарядки батарея достигает пороговой температуры и заряжена не меньше минимального уровня, зарядка батареи прекращается и планшет питается напрямую от зарядного устройства, чтобы батарея не нагревалась дальше. Зарядка возобновится, когда температура или заряд опустятся ниже этих значений. Переключение происходит не чаще одного раза в 5 минут.</string>
+    <string name="category_heat_protection_title">Параметры защиты</string>
+    <string name="heat_protection_min_level_title">Минимальный заряд</string>
+    <string name="heat_protection_min_level_summary">Только при заряде от %1$d%%</string>
+    <string name="heat_protection_threshold_title">Пороговая температура</string>
+    <string name="heat_protection_threshold_low">Низкая (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Средняя (41 °C)</string>
+    <string name="heat_protection_threshold_high">Высокая (43 °C)</string>
+    <string name="heat_protection_notification_title">Планшет перегрет, зарядка приостановлена</string>
+    <string name="heat_protection_notification_text">Температура батареи: %1$s. Планшет питается напрямую от зарядного устройства, пока не остынет, затем зарядка возобновится.</string>
 </resources>

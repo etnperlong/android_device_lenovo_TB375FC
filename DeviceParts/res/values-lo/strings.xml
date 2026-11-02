@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">ຄຸນສົມບັດອຸປະກອນ</string>
     <string name="device_parts_title">ຄຸນສົມບັດອຸປະກອນ</string>
-    <string name="device_parts_summary">ສີໜ້າຈໍ, ຄຸນນະພາບວິດີໂອ, Dolby Atmos, ປະສິດທິພາບ, ອຸປະກອນເສີມ, ອັດຕາການຣີເຟຣຊ, ການສຳຜັດ ແລະ ການຂະຫຍາຍ RAM</string>
+    <string name="device_parts_summary">ສີໜ້າຈໍ, ຄຸນນະພາບວິດີໂອ, Dolby Atmos, ປະສິດທິພາບ, ອຸປະກອນເສີມ, ອັດຕາການຣີເຟຣຊ, ການສຳຜັດ, ການຂະຫຍາຍ RAM ແລະ ການສາກໄຟ</string>
     <string name="category_perf_memory_title">ປະສິດທິພາບ ແລະ ໜ່ວຍຄວາມຈຳ</string>
     <string name="ram_expansion_title">ການຂະຫຍາຍ RAM</string>
     <string name="ram_expansion_summary">ຍ້າຍຂໍ້ມູນແອັບທີ່ບໍ່ໄດ້ໃຊ້ໄປຍັງບ່ອນເກັບຂໍ້ມູນເພື່ອເພີ່ມ RAM ທີ່ວ່າງ</string>
@@ -220,4 +220,29 @@
     <string name="tile_dolby_app_note">ແອັບທີ່ຕັ້ງໂໝດໄວ້ແຍກກັນ ຈະຍັງຄົງໃຊ້ໂໝດຂອງຕົນເອງເມື່ອຫຼິ້ນສຽງ.</string>
     <string name="tile_color_app_note">ແອັບທີ່ຕັ້ງສີໄວ້ແຍກກັນ ຈະຍັງຄົງໃຊ້ການຕັ້ງຄ່າຂອງຕົນເອງເມື່ອເປີດ.</string>
     <string name="tile_color_adaptive_unavailable">ສີໜ້າຈໍປິດໃຊ້ງານແລ້ວ</string>
+
+    <string name="category_perf_charging">ການສາກໄຟ</string>
+    <string name="bypass_app_title">ການສາກໄຟແບບບາຍພາສ</string>
+    <string name="bypass_app_summary">ໃນຂະນະທີ່ແອັບນີ້ຢູ່ດ້ານໜ້າ ແລະ ເຊື່ອມຕໍ່ສາຍສາກຢູ່, ສາຍສາກຈະຈ່າຍໄຟໃຫ້ແທັບເລັດໂດຍກົງ ແລະ ແບັດເຕີຣີຈະບໍ່ຖືກສາກ. ຈະປິດເມື່ອແບັດເຕີຣີຫຼຸດລົງເຖິງ %1$d%%.</string>
+    <string name="bypass_notification_channel">ການສາກໄຟແບບບາຍພາສ</string>
+    <string name="charging_warning_notification_channel">ຄຳເຕືອນການສາກໄຟ</string>
+    <string name="bypass_on_toast">ເປີດການສາກໄຟແບບບາຍພາສແລ້ວ</string>
+    <string name="bypass_on_title">ເປີດການສາກໄຟແບບບາຍພາສແລ້ວ ຕາມທີ່ຕັ້ງໄວ້ສຳລັບ %1$s</string>
+    <string name="bypass_on_text">ສາຍສາກຈ່າຍໄຟໃຫ້ແທັບເລັດໂດຍກົງ ແລະ ແບັດເຕີຣີບໍ່ຖືກສາກ. ການສາກຈະສືບຕໍ່ເມື່ອແບັດເຕີຣີຫຼຸດລົງເຖິງ %1$d%%.</string>
+    <string name="bypass_low_battery_toast">ແບັດເຕີຣີຕ່ຳ, ປິດການສາກໄຟແບບບາຍພາສແລ້ວ</string>
+    <string name="bypass_low_battery_title">ແບັດເຕີຣີຕ່ຳ, ປິດການສາກໄຟແບບບາຍພາສແລ້ວ</string>
+    <string name="bypass_low_battery_text">ແບັດເຕີຣີຫຼຸດລົງເຖິງ %1$d%%, ສະນັ້ນຈຶ່ງກັບມາສາກອີກຄັ້ງ.</string>
+    <string name="heat_protection_title">ການປ້ອງກັນຄວາມຮ້ອນຂະນະສາກ</string>
+    <string name="heat_protection_summary">ຢຸດການສາກແບັດເຕີຣີຊົ່ວຄາວໃນຂະນະທີ່ແທັບເລັດຮ້ອນ</string>
+    <string name="heat_protection_enabled_title">ໃຊ້ການປ້ອງກັນຄວາມຮ້ອນຂະນະສາກ</string>
+    <string name="heat_protection_description">ໃນຂະນະສາກ, ຖ້າແບັດເຕີຣີຮອດອຸນຫະພູມທີ່ກຳນົດ ແລະ ສາກໄດ້ຢ່າງໜ້ອຍເທົ່າກັບລະດັບສາກຕ່ຳສຸດ, ແບັດເຕີຣີຈະຢຸດສາກ ແລະ ສາຍສາກຈະຈ່າຍໄຟໃຫ້ແທັບເລັດໂດຍກົງ, ເພື່ອບໍ່ໃຫ້ແບັດເຕີຣີຮ້ອນຂຶ້ນອີກ. ການສາກຈະສືບຕໍ່ເມື່ອອຸນຫະພູມ ຫຼື ລະດັບສາກຫຼຸດລົງຕ່ຳກວ່າຄ່າທີ່ກຳນົດ. ຈະສະຫຼັບໄດ້ສູງສຸດໜຶ່ງຄັ້ງທຸກໆ 5 ນາທີ.</string>
+    <string name="category_heat_protection_title">ການຕັ້ງຄ່າການປ້ອງກັນ</string>
+    <string name="heat_protection_min_level_title">ລະດັບສາກຕ່ຳສຸດ</string>
+    <string name="heat_protection_min_level_summary">ສະເພາະເມື່ອຢູ່ທີ່ %1$d%% ຂຶ້ນໄປ</string>
+    <string name="heat_protection_threshold_title">ອຸນຫະພູມທີ່ກຳນົດ</string>
+    <string name="heat_protection_threshold_low">ຕ່ຳ (39 °C)</string>
+    <string name="heat_protection_threshold_medium">ປານກາງ (41 °C)</string>
+    <string name="heat_protection_threshold_high">ສູງ (43 °C)</string>
+    <string name="heat_protection_notification_title">ແທັບເລັດຮ້ອນເກີນໄປ, ຢຸດການສາກຊົ່ວຄາວ</string>
+    <string name="heat_protection_notification_text">ແບັດເຕີຣີຢູ່ທີ່ %1$s. ສາຍສາກຈະຈ່າຍໄຟໃຫ້ແທັບເລັດໂດຍກົງຈົນກວ່າຈະເຢັນລົງ, ຈາກນັ້ນການສາກຈະສືບຕໍ່.</string>
 </resources>

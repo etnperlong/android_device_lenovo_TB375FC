@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">ଡିଭାଇସ ବୈଶିଷ୍ଟ୍ୟ</string>
     <string name="device_parts_title">ଡିଭାଇସ ବୈଶିଷ୍ଟ୍ୟ</string>
-    <string name="device_parts_summary">ସ୍କ୍ରିନ ରଙ୍ଗ, ଭିଡିଓ ଚିତ୍ର ଗୁଣବତ୍ତା, Dolby Atmos, କାର୍ଯ୍ୟଦକ୍ଷତା, ଆକ୍ସେସରିଜ, ରିଫ୍ରେସ ରେଟ ଏବଂ ଟଚ, RAM ବିସ୍ତାର</string>
+    <string name="device_parts_summary">ସ୍କ୍ରିନ ରଙ୍ଗ, ଭିଡିଓ ଚିତ୍ର ଗୁଣବତ୍ତା, Dolby Atmos, କାର୍ଯ୍ୟଦକ୍ଷତା, ଆକ୍ସେସରିଜ, ରିଫ୍ରେସ ରେଟ ଏବଂ ଟଚ, RAM ବିସ୍ତାର, ଚାର୍ଜିଂ</string>
     <string name="ram_expansion_title">RAM ବିସ୍ତାର</string>
     <string name="ram_expansion_summary">RAM ଖାଲି କରିବାକୁ ନିଷ୍କ୍ରିୟ ଆପ୍ ଡାଟାକୁ ଷ୍ଟୋରେଜକୁ ଘୁଞ୍ଚାନ୍ତୁ</string>
     <string name="ram_expansion_description">ଦୀର୍ଘ ସମୟ ଧରି ବ୍ୟବହାର ହୋଇନଥିବା ଆପଗୁଡ଼ିକର ଡାଟାକୁ ସଙ୍କୁଚିତ ମେମୋରିରୁ ଷ୍ଟୋରେଜକୁ ଘୁଞ୍ଚାଇ RAM ଖାଲି କରନ୍ତୁ। ଚୟନିତ ଷ୍ଟୋରେଜ ପରିମାଣ ବ୍ୟବହାର ହେବ। ପୁନଃଆରମ୍ଭ ପରେ ପରିବର୍ତ୍ତନଗୁଡ଼ିକ କାର୍ଯ୍ୟକାରୀ ହେବ।</string>
@@ -220,4 +220,29 @@
     <string name="tile_dolby_app_note">ନିଜସ୍ୱ ମୋଡ ଥିବା ଆପଗୁଡ଼ିକ ଅଡିଓ ଚଲାଇବା ସମୟରେ ମଧ୍ୟ ଏହାକୁ ବ୍ୟବହାର କରନ୍ତି।</string>
     <string name="tile_color_app_note">ନିଜସ୍ୱ ରଙ୍ଗ ସେଟିଂ ଥିବା ଆପଗୁଡ଼ିକ ଖୋଲା ଥିବା ସମୟରେ ମଧ୍ୟ ଏହାକୁ ବ୍ୟବହାର କରନ୍ତି।</string>
     <string name="tile_color_adaptive_unavailable">ସ୍କ୍ରିନ ରଙ୍ଗ ଅକ୍ଷମ ଅଛି</string>
+
+    <string name="category_perf_charging">ଚାର୍ଜିଂ</string>
+    <string name="bypass_app_title">ବାଇପାସ ଚାର୍ଜିଂ</string>
+    <string name="bypass_app_summary">ଏହି ଆପ ସାମ୍ନାରେ ଥିବାବେଳେ ଏବଂ ଚାର୍ଜର ସଂଯୋଗ ହୋଇଥିବାବେଳେ, ଚାର୍ଜର ସିଧାସଳଖ ଟାବଲେଟକୁ ପାୱାର ଦିଏ ଏବଂ ବ୍ୟାଟେରୀ ଚାର୍ଜ ହୁଏ ନାହିଁ। ବ୍ୟାଟେରୀ %1$d%%କୁ ଖସିଲେ ଏହା ବନ୍ଦ ହୋଇଯାଏ।</string>
+    <string name="bypass_notification_channel">ବାଇପାସ ଚାର୍ଜିଂ</string>
+    <string name="charging_warning_notification_channel">ଚାର୍ଜିଂ ଚେତାବନୀ</string>
+    <string name="bypass_on_toast">ବାଇପାସ ଚାର୍ଜିଂ ଚାଲୁ ଅଛି</string>
+    <string name="bypass_on_title">%1$s ପାଇଁ ସେଟ କରାଯାଇଥିବା ଅନୁସାରେ ବାଇପାସ ଚାର୍ଜିଂ ଚାଲୁ ଅଛି</string>
+    <string name="bypass_on_text">ଚାର୍ଜର ସିଧାସଳଖ ଟାବଲେଟକୁ ପାୱାର ଦିଏ ଏବଂ ବ୍ୟାଟେରୀ ଚାର୍ଜ ହୁଏ ନାହିଁ। ବ୍ୟାଟେରୀ %1$d%%କୁ ଖସିଲେ ଚାର୍ଜିଂ ପୁଣି ଆରମ୍ଭ ହୁଏ।</string>
+    <string name="bypass_low_battery_toast">ବ୍ୟାଟେରୀ କମ, ବାଇପାସ ଚାର୍ଜିଂ ବନ୍ଦ ହେଲା</string>
+    <string name="bypass_low_battery_title">ବ୍ୟାଟେରୀ କମ, ବାଇପାସ ଚାର୍ଜିଂ ବନ୍ଦ ହେଲା</string>
+    <string name="bypass_low_battery_text">ବ୍ୟାଟେରୀ %1$d%%କୁ ଖସିଗଲା, ତେଣୁ ଏହା ପୁଣି ଚାର୍ଜ ହେଉଛି।</string>
+    <string name="heat_protection_title">ଚାର୍ଜିଂ ଉତ୍ତାପ ସୁରକ୍ଷା</string>
+    <string name="heat_protection_summary">ଟାବଲେଟ ଗରମ ଥିବାବେଳେ ବ୍ୟାଟେରୀ ଚାର୍ଜିଂ ବିରତ କରନ୍ତୁ</string>
+    <string name="heat_protection_enabled_title">ଚାର୍ଜିଂ ଉତ୍ତାପ ସୁରକ୍ଷା ବ୍ୟବହାର କରନ୍ତୁ</string>
+    <string name="heat_protection_description">ଚାର୍ଜିଂ ସମୟରେ, ଯଦି ବ୍ୟାଟେରୀ ସୀମା ତାପମାତ୍ରାରେ ପହଞ୍ଚେ ଏବଂ ଅତି କମରେ ସର୍ବନିମ୍ନ ଚାର୍ଜ ପର୍ଯ୍ୟନ୍ତ ଚାର୍ଜ ହୋଇଥାଏ, ତେବେ ବ୍ୟାଟେରୀ ଚାର୍ଜ ହେବା ବନ୍ଦ ହୁଏ ଏବଂ ଚାର୍ଜର ସିଧାସଳଖ ଟାବଲେଟକୁ ପାୱାର ଦିଏ, ଯାହାଫଳରେ ବ୍ୟାଟେରୀ ଆଉ ଅଧିକ ଗରମ ହୁଏ ନାହିଁ। ତାପମାତ୍ରା କିମ୍ବା ଚାର୍ଜ ସେଗୁଡ଼ିକ ତଳକୁ ଖସିଲେ ଚାର୍ଜିଂ ପୁଣି ଆରମ୍ଭ ହୁଏ। ଏହା ପ୍ରତି 5 ମିନିଟରେ ସର୍ବାଧିକ ଥରେ ବଦଳେ।</string>
+    <string name="category_heat_protection_title">ସୁରକ୍ଷା ସେଟିଂସ</string>
+    <string name="heat_protection_min_level_title">ସର୍ବନିମ୍ନ ଚାର୍ଜ</string>
+    <string name="heat_protection_min_level_summary">କେବଳ %1$d%% କିମ୍ବା ଅଧିକରେ</string>
+    <string name="heat_protection_threshold_title">ସୀମା ତାପମାତ୍ରା</string>
+    <string name="heat_protection_threshold_low">କମ (39 °C)</string>
+    <string name="heat_protection_threshold_medium">ମଧ୍ୟମ (41 °C)</string>
+    <string name="heat_protection_threshold_high">ଅଧିକ (43 °C)</string>
+    <string name="heat_protection_notification_title">ଟାବଲେଟ ବହୁତ ଗରମ, ଚାର୍ଜିଂ ବିରତ ହେଲା</string>
+    <string name="heat_protection_notification_text">ବ୍ୟାଟେରୀ %1$s ରେ ଅଛି। ଏହା ଥଣ୍ଡା ନହେବା ପର୍ଯ୍ୟନ୍ତ ଚାର୍ଜର ସିଧାସଳଖ ଟାବଲେଟକୁ ପାୱାର ଦିଏ, ତା\'ପରେ ଚାର୍ଜିଂ ପୁଣି ଆରମ୍ଭ ହୁଏ।</string>
 </resources>

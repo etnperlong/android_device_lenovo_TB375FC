@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Funcionalidades do dispositivo</string>
     <string name="device_parts_title">Funcionalidades do dispositivo</string>
-    <string name="device_parts_summary">Cor do ecrã, imagem de vídeo, Dolby Atmos, desempenho, acessórios, taxa de atualização e toque, expansão da RAM</string>
+    <string name="device_parts_summary">Cor do ecrã, imagem de vídeo, Dolby Atmos, desempenho, acessórios, taxa de atualização e toque, expansão da RAM, carregamento</string>
     <string name="category_perf_memory_title">Desempenho e memória</string>
     <string name="ram_expansion_title">Expansão da RAM</string>
     <string name="ram_expansion_summary">Mova dados de aplicações inativas para o armazenamento para libertar RAM</string>
@@ -222,4 +222,29 @@
     <string name="tile_dolby_app_note">As aplicações com modo próprio continuam a utilizá-lo enquanto reproduzem áudio.</string>
     <string name="tile_color_app_note">As aplicações com definição de cor própria continuam a utilizá-la enquanto estão abertas.</string>
     <string name="tile_color_adaptive_unavailable">A cor do ecrã está desativada</string>
+
+    <string name="category_perf_charging">Carregamento</string>
+    <string name="bypass_app_title">Carregamento bypass</string>
+    <string name="bypass_app_summary">Enquanto esta aplicação estiver em primeiro plano e o carregador estiver ligado, o carregador alimenta o tablet diretamente e a bateria não é carregada. Desativa-se quando a bateria descer para %1$d%%.</string>
+    <string name="bypass_notification_channel">Carregamento bypass</string>
+    <string name="charging_warning_notification_channel">Avisos de carregamento</string>
+    <string name="bypass_on_toast">Carregamento bypass ativado</string>
+    <string name="bypass_on_title">Carregamento bypass ativado, conforme definido para %1$s</string>
+    <string name="bypass_on_text">O carregador alimenta o tablet diretamente e a bateria não é carregada. O carregamento é retomado quando a bateria descer para %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Bateria fraca, carregamento bypass desativado</string>
+    <string name="bypass_low_battery_title">Bateria fraca, carregamento bypass desativado</string>
+    <string name="bypass_low_battery_text">A bateria desceu para %1$d%%, por isso está a carregar novamente.</string>
+    <string name="heat_protection_title">Proteção térmica do carregamento</string>
+    <string name="heat_protection_summary">Pausar o carregamento da bateria enquanto o tablet estiver quente</string>
+    <string name="heat_protection_enabled_title">Utilizar proteção térmica do carregamento</string>
+    <string name="heat_protection_description">Durante o carregamento, se a bateria atingir a temperatura limite e estiver carregada pelo menos até à carga mínima, a bateria deixa de carregar e o carregador alimenta o tablet diretamente, para que a bateria não aqueça mais. O carregamento é retomado quando a temperatura ou a carga descerem abaixo desses valores. Muda no máximo uma vez a cada 5 minutos.</string>
+    <string name="category_heat_protection_title">Definições de proteção</string>
+    <string name="heat_protection_min_level_title">Carga mínima</string>
+    <string name="heat_protection_min_level_summary">Apenas com %1$d%% ou mais</string>
+    <string name="heat_protection_threshold_title">Temperatura limite</string>
+    <string name="heat_protection_threshold_low">Baixa (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Média (41 °C)</string>
+    <string name="heat_protection_threshold_high">Alta (43 °C)</string>
+    <string name="heat_protection_notification_title">Tablet demasiado quente, carregamento em pausa</string>
+    <string name="heat_protection_notification_text">A bateria está a %1$s. O carregador alimenta o tablet diretamente até arrefecer e, depois, o carregamento é retomado.</string>
 </resources>

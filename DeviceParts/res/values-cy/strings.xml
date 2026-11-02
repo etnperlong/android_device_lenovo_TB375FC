@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Nodweddion y ddyfais</string>
     <string name="device_parts_title">Nodweddion y ddyfais</string>
-    <string name="device_parts_summary">Lliw sgrin, llun fideo, Dolby Atmos, perfformiad, ategolion, cyfradd adnewyddu, cyffwrdd ac ehangu RAM</string>
+    <string name="device_parts_summary">Lliw sgrin, llun fideo, Dolby Atmos, perfformiad, ategolion, cyfradd adnewyddu, cyffwrdd, ehangu RAM a gwefru</string>
     <string name="category_perf_memory_title">Perfformiad a chof</string>
     <string name="ram_expansion_title">Ehangu RAM</string>
     <string name="ram_expansion_summary">Symud data apiau segur i’r storfa i ryddhau RAM</string>
@@ -226,4 +226,29 @@
     <string name="tile_dolby_app_note">Mae apiau sydd â’u modd eu hunain yn parhau i’w ddefnyddio wrth chwarae sain.</string>
     <string name="tile_color_app_note">Mae apiau sydd â’u gosodiad lliw eu hunain yn parhau i’w ddefnyddio tra maent ar agor.</string>
     <string name="tile_color_adaptive_unavailable">Mae lliw sgrin wedi’i analluogi</string>
+
+    <string name="category_perf_charging">Gwefru</string>
+    <string name="bypass_app_title">Gwefru osgoi</string>
+    <string name="bypass_app_summary">Tra bydd yr ap hwn yn y blaen a\'r gwefrydd wedi cysylltu, mae\'r gwefrydd yn pweru\'r llechen yn uniongyrchol ac nid yw\'r batri\'n cael ei wefru. Yn diffodd pan fydd y batri\'n gostwng i %1$d%%.</string>
+    <string name="bypass_notification_channel">Gwefru osgoi</string>
+    <string name="charging_warning_notification_channel">Rhybuddion gwefru</string>
+    <string name="bypass_on_toast">Gwefru osgoi ymlaen</string>
+    <string name="bypass_on_title">Mae gwefru osgoi ymlaen, fel y\'i gosodwyd ar gyfer %1$s</string>
+    <string name="bypass_on_text">Mae\'r gwefrydd yn pweru\'r llechen yn uniongyrchol ac nid yw\'r batri\'n cael ei wefru. Bydd gwefru\'n ailddechrau pan fydd y batri\'n gostwng i %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Batri\'n isel, gwefru osgoi wedi diffodd</string>
+    <string name="bypass_low_battery_title">Batri\'n isel, gwefru osgoi wedi diffodd</string>
+    <string name="bypass_low_battery_text">Gostyngodd y batri i %1$d%%, felly mae\'n gwefru eto.</string>
+    <string name="heat_protection_title">Diogelu rhag gwres wrth wefru</string>
+    <string name="heat_protection_summary">Oedi gwefru\'r batri tra bo\'r llechen yn boeth</string>
+    <string name="heat_protection_enabled_title">Defnyddio diogelu rhag gwres wrth wefru</string>
+    <string name="heat_protection_description">Wrth wefru, os yw\'r batri\'n cyrraedd y tymheredd trothwy ac wedi\'i wefru i\'r gwefr isaf o leiaf, mae\'r batri\'n stopio gwefru ac mae\'r gwefrydd yn pweru\'r llechen yn uniongyrchol, fel nad yw\'r batri\'n poethi rhagor. Bydd gwefru\'n ailddechrau pan fydd y tymheredd neu\'r wefr yn gostwng islaw\'r rhain. Mae\'n newid unwaith bob 5 munud ar y mwyaf.</string>
+    <string name="category_heat_protection_title">Gosodiadau diogelu</string>
+    <string name="heat_protection_min_level_title">Gwefr isaf</string>
+    <string name="heat_protection_min_level_summary">Dim ond ar %1$d%% neu fwy</string>
+    <string name="heat_protection_threshold_title">Tymheredd trothwy</string>
+    <string name="heat_protection_threshold_low">Isel (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Canolig (41 °C)</string>
+    <string name="heat_protection_threshold_high">Uchel (43 °C)</string>
+    <string name="heat_protection_notification_title">Llechen yn rhy boeth, gwefru wedi oedi</string>
+    <string name="heat_protection_notification_text">Mae\'r batri ar %1$s. Mae\'r gwefrydd yn pweru\'r llechen yn uniongyrchol nes iddi oeri, yna bydd gwefru\'n ailddechrau.</string>
 </resources>

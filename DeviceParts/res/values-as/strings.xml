@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">ডিভাইচৰ সুবিধাসমূহ</string>
     <string name="device_parts_title">ডিভাইচৰ সুবিধাসমূহ</string>
-    <string name="device_parts_summary">স্ক্ৰীণৰ ৰং, ভিডিঅ’ৰ ছবিৰ মান, Dolby Atmos, কাৰ্যক্ষমতা, আনুষংগিক সামগ্ৰী, ৰিফ্ৰেছৰ হাৰ, স্পৰ্শ আৰু ৰেম সম্প্ৰসাৰণ</string>
+    <string name="device_parts_summary">স্ক্ৰীণৰ ৰং, ভিডিঅ’ৰ ছবিৰ মান, Dolby Atmos, কাৰ্যক্ষমতা, আনুষংগিক সামগ্ৰী, ৰিফ্ৰেছৰ হাৰ, স্পৰ্শ, ৰেম সম্প্ৰসাৰণ আৰু চাৰ্জিং</string>
     <string name="ram_expansion_title">ৰেম সম্প্ৰসাৰণ</string>
     <string name="ram_expansion_summary">ৰেম খালী কৰিবলৈ নিষ্ক্ৰিয় এপৰ ডেটা ষ্ট’ৰেজলৈ স্থানান্তৰ কৰক</string>
     <string name="ram_expansion_description">দীৰ্ঘদিন ব্যৱহাৰ নকৰা এপৰ ডেটা সংকুচিত মেমৰিৰ পৰা ষ্ট’ৰেজলৈ স্থানান্তৰ কৰি ৰেম খালী কৰক। নিৰ্বাচিত পৰিমাণৰ ষ্ট’ৰেজ ব্যৱহাৰ কৰা হ’ব। পুনৰাৰম্ভ কৰাৰ পিছত পৰিৱৰ্তনসমূহ কাৰ্যকৰী হ’ব।</string>
@@ -220,4 +220,29 @@
     <string name="tile_dolby_app_note">নিজা মোড থকা এপসমূহে অডিঅ’ চলাওঁতে সেই মোড ব্যৱহাৰ কৰি থাকে।</string>
     <string name="tile_color_app_note">নিজা ৰঙৰ ছেটিং থকা এপসমূহ খোলা থাকোঁতে সেই ছেটিং ব্যৱহাৰ কৰি থাকে।</string>
     <string name="tile_color_adaptive_unavailable">স্ক্ৰীণৰ ৰং অক্ষম</string>
+
+    <string name="category_perf_charging">চাৰ্জিং</string>
+    <string name="bypass_app_title">বাইপাছ চাৰ্জিং</string>
+    <string name="bypass_app_summary">এই এপটো সন্মুখত থাকোঁতে আৰু চাৰ্জাৰ সংযুক্ত হৈ থকা সময়ত, চাৰ্জাৰে টেবলেটটোক পোনপটীয়াকৈ পাৱাৰ যোগান ধৰে আৰু বেটাৰী চাৰ্জ নহয়। বেটাৰী %1$d%%লৈ নামিলে অফ হৈ যায়।</string>
+    <string name="bypass_notification_channel">বাইপাছ চাৰ্জিং</string>
+    <string name="charging_warning_notification_channel">চাৰ্জিঙৰ সতৰ্কবাণী</string>
+    <string name="bypass_on_toast">বাইপাছ চাৰ্জিং অন কৰা হৈছে</string>
+    <string name="bypass_on_title">%1$s-ৰ বাবে ছেট কৰা মতে বাইপাছ চাৰ্জিং অন আছে</string>
+    <string name="bypass_on_text">চাৰ্জাৰে টেবলেটটোক পোনপটীয়াকৈ পাৱাৰ যোগান ধৰে আৰু বেটাৰী চাৰ্জ নহয়। বেটাৰী %1$d%%লৈ নামিলে চাৰ্জিং পুনৰ আৰম্ভ হয়।</string>
+    <string name="bypass_low_battery_toast">বেটাৰী কম, বাইপাছ চাৰ্জিং অফ কৰা হ’ল</string>
+    <string name="bypass_low_battery_title">বেটাৰী কম, বাইপাছ চাৰ্জিং অফ কৰা হ’ল</string>
+    <string name="bypass_low_battery_text">বেটাৰী %1$d%%লৈ নামিছে, সেয়ে ই পুনৰ চাৰ্জ হৈছে।</string>
+    <string name="heat_protection_title">চাৰ্জিঙৰ তাপ সুৰক্ষা</string>
+    <string name="heat_protection_summary">টেবলেটটো গৰম হৈ থকা সময়ত বেটাৰী চাৰ্জ কৰা পজ কৰক</string>
+    <string name="heat_protection_enabled_title">চাৰ্জিঙৰ তাপ সুৰক্ষা ব্যৱহাৰ কৰক</string>
+    <string name="heat_protection_description">চাৰ্জ হৈ থকা সময়ত, যদি বেটাৰী থ্ৰেশ্বহ’ল্ড উষ্ণতাত উপনীত হয় আৰু অতি কমেও নিম্নতম চাৰ্জলৈ চাৰ্জ হয়, তেন্তে বেটাৰী চাৰ্জ হোৱা বন্ধ হয় আৰু চাৰ্জাৰে টেবলেটটোক পোনপটীয়াকৈ পাৱাৰ যোগান ধৰে, যাতে বেটাৰী আৰু গৰম নহয়। উষ্ণতা বা চাৰ্জ সেইবোৰতকৈ তললৈ নামিলে চাৰ্জিং পুনৰ আৰম্ভ হয়। ই প্ৰতি 5 মিনিটত সৰ্বাধিক এবাৰহে সলনি হয়।</string>
+    <string name="category_heat_protection_title">সুৰক্ষাৰ ছেটিং</string>
+    <string name="heat_protection_min_level_title">নিম্নতম চাৰ্জ</string>
+    <string name="heat_protection_min_level_summary">কেৱল %1$d%% বা তাতকৈ অধিক হ’লেহে</string>
+    <string name="heat_protection_threshold_title">থ্ৰেশ্বহ’ল্ড উষ্ণতা</string>
+    <string name="heat_protection_threshold_low">কম (39 °C)</string>
+    <string name="heat_protection_threshold_medium">মধ্যমীয়া (41 °C)</string>
+    <string name="heat_protection_threshold_high">উচ্চ (43 °C)</string>
+    <string name="heat_protection_notification_title">টেবলেট অতি গৰম, চাৰ্জিং পজ কৰা হৈছে</string>
+    <string name="heat_protection_notification_text">বেটাৰীৰ উষ্ণতা %1$s। চেঁচা নোহোৱালৈকে চাৰ্জাৰে টেবলেটটোক পোনপটীয়াকৈ পাৱাৰ যোগান ধৰে, তাৰ পিছত চাৰ্জিং পুনৰ আৰম্ভ হয়।</string>
 </resources>

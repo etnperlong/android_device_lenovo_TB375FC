@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Gnéithe an ghléis</string>
     <string name="device_parts_title">Gnéithe an ghléis</string>
-    <string name="device_parts_summary">Dath an scáileáin, íomhá físeáin, Dolby Atmos, feidhmíocht, oiriúintí, ráta athnuachana, tadhaill agus leathnú RAM</string>
+    <string name="device_parts_summary">Dath an scáileáin, íomhá físeáin, Dolby Atmos, feidhmíocht, oiriúintí, ráta athnuachana, tadhaill, leathnú RAM agus luchtú</string>
     <string name="category_perf_memory_title">Feidhmíocht agus cuimhne</string>
     <string name="ram_expansion_title">Leathnú RAM</string>
     <string name="ram_expansion_summary">Bog sonraí aipeanna neamhghníomhacha chuig an stóras chun RAM a shaoradh</string>
@@ -225,4 +225,29 @@
     <string name="tile_dolby_app_note">Leanann aipeanna a bhfuil a mód féin acu á úsáid agus iad ag seinm fuaime.</string>
     <string name="tile_color_app_note">Leanann aipeanna a bhfuil a socrú dathanna féin acu á úsáid agus iad oscailte.</string>
     <string name="tile_color_adaptive_unavailable">Tá dath an scáileáin díchumasaithe</string>
+
+    <string name="category_perf_charging">Luchtú</string>
+    <string name="bypass_app_title">Luchtú seachbhóthair</string>
+    <string name="bypass_app_summary">Fad atá an aip seo chun tosaigh agus an luchtaire nasctha, tugann an luchtaire cumhacht don táibléad go díreach agus ní luchtaítear an ceallra. Casfar as é nuair a thiteann an ceallra go %1$d%%.</string>
+    <string name="bypass_notification_channel">Luchtú seachbhóthair</string>
+    <string name="charging_warning_notification_channel">Rabhaidh luchtaithe</string>
+    <string name="bypass_on_toast">Luchtú seachbhóthair ar siúl</string>
+    <string name="bypass_on_title">Tá luchtú seachbhóthair ar siúl, mar atá socraithe do %1$s</string>
+    <string name="bypass_on_text">Tugann an luchtaire cumhacht don táibléad go díreach agus ní luchtaítear an ceallra. Atosóidh an luchtú nuair a thiteann an ceallra go %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Ceallra íseal, casadh as luchtú seachbhóthair</string>
+    <string name="bypass_low_battery_title">Ceallra íseal, casadh as luchtú seachbhóthair</string>
+    <string name="bypass_low_battery_text">Thit an ceallra go %1$d%%, mar sin tá sé á luchtú arís.</string>
+    <string name="heat_protection_title">Cosaint teasa luchtaithe</string>
+    <string name="heat_protection_summary">Cuir luchtú an cheallra ar sos fad atá an táibléad te</string>
+    <string name="heat_protection_enabled_title">Úsáid cosaint teasa luchtaithe</string>
+    <string name="heat_protection_description">Le linn luchtaithe, má shroicheann an ceallra an teocht tairsí agus má tá sé luchtaithe go dtí an lódáil íosta ar a laghad, stopann an ceallra ag luchtú agus tugann an luchtaire cumhacht don táibléad go díreach, ionas nach n-éiríonn an ceallra níos teo. Atosóidh an luchtú nuair a thiteann an teocht nó an lódáil faoina mbun. Athraíonn sé uair amháin gach 5 nóiméad ar a mhéad.</string>
+    <string name="category_heat_protection_title">Socruithe cosanta</string>
+    <string name="heat_protection_min_level_title">Lódáil íosta</string>
+    <string name="heat_protection_min_level_summary">Ag %1$d%% nó níos mó amháin</string>
+    <string name="heat_protection_threshold_title">Teocht tairsí</string>
+    <string name="heat_protection_threshold_low">Íseal (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Meánach (41 °C)</string>
+    <string name="heat_protection_threshold_high">Ard (43 °C)</string>
+    <string name="heat_protection_notification_title">Táibléad róthe, luchtú ar sos</string>
+    <string name="heat_protection_notification_text">Tá an ceallra ag %1$s. Tugann an luchtaire cumhacht don táibléad go díreach go dtí go bhfuarann sé, ansin atosóidh an luchtú.</string>
 </resources>

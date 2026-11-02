@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">የመሣሪያ ባህሪያት</string>
     <string name="device_parts_title">የመሣሪያ ባህሪያት</string>
-    <string name="device_parts_summary">የማያ ገጽ ቀለም፣ የቪዲዮ ምስል ጥራት፣ Dolby Atmos፣ አፈጻጸም፣ መለዋወጫዎች፣ የማደስ ፍጥነት፣ ንክኪ እና ራም ማስፋፊያ</string>
+    <string name="device_parts_summary">የማያ ገጽ ቀለም፣ የቪዲዮ ምስል ጥራት፣ Dolby Atmos፣ አፈጻጸም፣ መለዋወጫዎች፣ የማደስ ፍጥነት፣ ንክኪ፣ ራም ማስፋፊያ እና ኃይል መሙላት</string>
     <string name="ram_expansion_title">ራም ማስፋፊያ</string>
     <string name="ram_expansion_summary">ራም ለማስለቀቅ ንቁ ያልሆኑ የመተግበሪያ ውሂቦችን ወደ ማከማቻ ያዛውሩ</string>
     <string name="ram_expansion_description">ለረጅም ጊዜ ካልተጠቀሙባቸው መተግበሪያዎች ውሂብን ከተጨመቀ ማህደረ ትውስታ ወደ ማከማቻ በማዛወር ራም ያስለቅቁ። የተመረጠው የማከማቻ መጠን ይጠቀማል። ለውጦች ከዳግም ማስነሳት በኋላ ይተገበራሉ።</string>
@@ -227,4 +227,29 @@
     <string name="tile_dolby_app_note">የራሳቸው ሁነታ ያላቸው መተግበሪያዎች ድምጽ ሲያጫውቱ ያንኑ ይጠቀማሉ።</string>
     <string name="tile_color_app_note">የራሳቸው የቀለም ቅንብር ያላቸው መተግበሪያዎች ሲከፈቱ ያንኑ ይጠቀማሉ።</string>
     <string name="tile_color_adaptive_unavailable">የማያ ገጽ ቀለም ጠፍቷል</string>
+
+    <string name="category_perf_charging">ኃይል መሙላት</string>
+    <string name="bypass_app_title">የባይፓስ ኃይል መሙላት</string>
+    <string name="bypass_app_summary">ይህ መተግበሪያ ፊት ለፊት ሆኖ ቻርጀሩ ሲገናኝ፣ ቻርጀሩ ጡባዊውን በቀጥታ ኃይል ይሰጣል እና ባትሪው አይሞላም። ባትሪው ወደ %1$d%% ሲወርድ ይጠፋል።</string>
+    <string name="bypass_notification_channel">የባይፓስ ኃይል መሙላት</string>
+    <string name="charging_warning_notification_channel">የኃይል መሙላት ማስጠንቀቂያዎች</string>
+    <string name="bypass_on_toast">የባይፓስ ኃይል መሙላት በርቷል</string>
+    <string name="bypass_on_title">ለ%1$s በተቀናበረው መሠረት የባይፓስ ኃይል መሙላት በርቷል</string>
+    <string name="bypass_on_text">ቻርጀሩ ጡባዊውን በቀጥታ ኃይል ይሰጣል እና ባትሪው አይሞላም። ባትሪው ወደ %1$d%% ሲወርድ ኃይል መሙላት ይቀጥላል።</string>
+    <string name="bypass_low_battery_toast">ባትሪ ዝቅተኛ ነው፣ የባይፓስ ኃይል መሙላት ጠፍቷል</string>
+    <string name="bypass_low_battery_title">ባትሪ ዝቅተኛ ነው፣ የባይፓስ ኃይል መሙላት ጠፍቷል</string>
+    <string name="bypass_low_battery_text">ባትሪው ወደ %1$d%% ስለወረደ እንደገና እየሞላ ነው።</string>
+    <string name="heat_protection_title">የኃይል መሙላት የሙቀት ጥበቃ</string>
+    <string name="heat_protection_summary">ጡባዊው ሲሞቅ የባትሪ ኃይል መሙላትን ባለበት አቁም</string>
+    <string name="heat_protection_enabled_title">የኃይል መሙላት የሙቀት ጥበቃን ተጠቀም</string>
+    <string name="heat_protection_description">ኃይል በሚሞላበት ጊዜ ባትሪው የገደብ ሙቀቱ ላይ ከደረሰ እና ቢያንስ እስከ ዝቅተኛው ኃይል ከተሞላ፣ ባትሪው መሙላቱን ያቆማል እና ቻርጀሩ ጡባዊውን በቀጥታ ኃይል ይሰጣል፤ በዚህም ባትሪው ተጨማሪ አይሞቅም። ሙቀቱ ወይም ኃይሉ ከእነዚህ በታች ሲወርድ ኃይል መሙላት ይቀጥላል። ቢበዛ በየ5 ደቂቃው አንድ ጊዜ ይቀያየራል።</string>
+    <string name="category_heat_protection_title">የጥበቃ ቅንብሮች</string>
+    <string name="heat_protection_min_level_title">ዝቅተኛ ኃይል</string>
+    <string name="heat_protection_min_level_summary">%1$d%% ወይም ከዚያ በላይ ሲሆን ብቻ</string>
+    <string name="heat_protection_threshold_title">የገደብ ሙቀት</string>
+    <string name="heat_protection_threshold_low">ዝቅተኛ (39 °C)</string>
+    <string name="heat_protection_threshold_medium">መካከለኛ (41 °C)</string>
+    <string name="heat_protection_threshold_high">ከፍተኛ (43 °C)</string>
+    <string name="heat_protection_notification_title">ጡባዊው በጣም ሞቋል፣ ኃይል መሙላት ባለበት ቆሟል</string>
+    <string name="heat_protection_notification_text">ባትሪው %1$s ላይ ነው። እስኪቀዘቅዝ ድረስ ቻርጀሩ ጡባዊውን በቀጥታ ኃይል ይሰጣል፣ ከዚያ ኃይል መሙላት ይቀጥላል።</string>
 </resources>

@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">ฟีเจอร์อุปกรณ์</string>
     <string name="device_parts_title">ฟีเจอร์อุปกรณ์</string>
-    <string name="device_parts_summary">สีหน้าจอ, คุณภาพวิดีโอ, Dolby Atmos, ประสิทธิภาพ, อุปกรณ์เสริม, อัตราการรีเฟรชและระบบสัมผัส, การขยาย RAM</string>
+    <string name="device_parts_summary">สีหน้าจอ, คุณภาพวิดีโอ, Dolby Atmos, ประสิทธิภาพ, อุปกรณ์เสริม, อัตราการรีเฟรชและระบบสัมผัส, การขยาย RAM, การชาร์จ</string>
     <string name="category_perf_memory_title">ประสิทธิภาพและหน่วยความจำ</string>
     <string name="ram_expansion_title">การขยาย RAM</string>
     <string name="ram_expansion_summary">ย้ายข้อมูลแอปที่ไม่ได้ใช้งานไปยังพื้นที่เก็บข้อมูลเพื่อเพิ่ม RAM</string>
@@ -219,4 +219,29 @@
     <string name="tile_dolby_app_note">แอปที่กำหนดโหมดไว้เองจะยังคงใช้โหมดนั้นขณะเล่นเสียง</string>
     <string name="tile_color_app_note">แอปที่กำหนดการตั้งค่าสีไว้เองจะยังคงใช้การตั้งค่านั้นขณะเปิดแอป</string>
     <string name="tile_color_adaptive_unavailable">ปิดใช้สีหน้าจอแล้ว</string>
+
+    <string name="category_perf_charging">การชาร์จ</string>
+    <string name="bypass_app_title">การชาร์จแบบบายพาส</string>
+    <string name="bypass_app_summary">ขณะที่แอปนี้อยู่เบื้องหน้าและเชื่อมต่อที่ชาร์จอยู่ ที่ชาร์จจะจ่ายไฟให้แท็บเล็ตโดยตรงและจะไม่ชาร์จแบตเตอรี่ ปิดเมื่อแบตเตอรี่ลดลงเหลือ %1$d%%</string>
+    <string name="bypass_notification_channel">การชาร์จแบบบายพาส</string>
+    <string name="charging_warning_notification_channel">คำเตือนการชาร์จ</string>
+    <string name="bypass_on_toast">เปิดการชาร์จแบบบายพาสแล้ว</string>
+    <string name="bypass_on_title">เปิดการชาร์จแบบบายพาสตามที่ตั้งค่าไว้สำหรับ %1$s</string>
+    <string name="bypass_on_text">ที่ชาร์จจ่ายไฟให้แท็บเล็ตโดยตรงและจะไม่ชาร์จแบตเตอรี่ การชาร์จจะกลับมาทำงานเมื่อแบตเตอรี่ลดลงเหลือ %1$d%%</string>
+    <string name="bypass_low_battery_toast">แบตเตอรี่เหลือน้อย ปิดการชาร์จแบบบายพาสแล้ว</string>
+    <string name="bypass_low_battery_title">แบตเตอรี่เหลือน้อย ปิดการชาร์จแบบบายพาสแล้ว</string>
+    <string name="bypass_low_battery_text">แบตเตอรี่ลดลงเหลือ %1$d%% จึงกลับมาชาร์จอีกครั้ง</string>
+    <string name="heat_protection_title">การป้องกันความร้อนขณะชาร์จ</string>
+    <string name="heat_protection_summary">หยุดชาร์จแบตเตอรี่ชั่วคราวขณะที่แท็บเล็ตร้อน</string>
+    <string name="heat_protection_enabled_title">ใช้การป้องกันความร้อนขณะชาร์จ</string>
+    <string name="heat_protection_description">ขณะชาร์จ หากแบตเตอรี่มีอุณหภูมิถึงเกณฑ์และมีระดับการชาร์จอย่างน้อยเท่ากับระดับต่ำสุด แบตเตอรี่จะหยุดชาร์จและที่ชาร์จจะจ่ายไฟให้แท็บเล็ตโดยตรง เพื่อไม่ให้แบตเตอรี่ร้อนขึ้นอีก การชาร์จจะกลับมาทำงานเมื่ออุณหภูมิหรือระดับการชาร์จต่ำกว่าค่าที่กำหนด โดยจะสลับได้สูงสุดหนึ่งครั้งทุก 5 นาที</string>
+    <string name="category_heat_protection_title">การตั้งค่าการป้องกัน</string>
+    <string name="heat_protection_min_level_title">ระดับการชาร์จต่ำสุด</string>
+    <string name="heat_protection_min_level_summary">เฉพาะเมื่อมีระดับ %1$d%% ขึ้นไป</string>
+    <string name="heat_protection_threshold_title">อุณหภูมิเกณฑ์</string>
+    <string name="heat_protection_threshold_low">ต่ำ (39 °C)</string>
+    <string name="heat_protection_threshold_medium">ปานกลาง (41 °C)</string>
+    <string name="heat_protection_threshold_high">สูง (43 °C)</string>
+    <string name="heat_protection_notification_title">แท็บเล็ตร้อนเกินไป หยุดชาร์จชั่วคราว</string>
+    <string name="heat_protection_notification_text">แบตเตอรี่มีอุณหภูมิ %1$s ที่ชาร์จจะจ่ายไฟให้แท็บเล็ตโดยตรงจนกว่าจะเย็นลง จากนั้นการชาร์จจะกลับมาทำงาน</string>
 </resources>

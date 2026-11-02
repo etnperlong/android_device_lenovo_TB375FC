@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Funciones del preséu</string>
     <string name="device_parts_title">Funciones del preséu</string>
-    <string name="device_parts_summary">Color de pantalla, imaxe de vídeu, Dolby Atmos, rendimientu, accesorios, frecuencia d’anovamientu, pantalla táctil y espansión de RAM</string>
+    <string name="device_parts_summary">Color de pantalla, imaxe de vídeu, Dolby Atmos, rendimientu, accesorios, frecuencia d’anovamientu, pantalla táctil, espansión de RAM y carga</string>
     <string name="category_perf_memory_title">Rendimientu y memoria</string>
     <string name="ram_expansion_title">Espansión de RAM</string>
     <string name="ram_expansion_summary">Mover datos d’aplicaciones inactives al almacenamientu pa lliberar RAM</string>
@@ -221,4 +221,29 @@
     <string name="tile_dolby_app_note">Les aplicaciones col so propiu mou siguen usándolu mientres reproduzan audiu.</string>
     <string name="tile_color_app_note">Les aplicaciones cola so propia configuración de color siguen usándola mientres tán abiertes.</string>
     <string name="tile_color_adaptive_unavailable">El color de pantalla ta desactiváu</string>
+
+    <string name="category_perf_charging">Carga</string>
+    <string name="bypass_app_title">Alimentación direuta</string>
+    <string name="bypass_app_summary">Mientres esta aplicación tea en primer planu y el cargador tea conectáu, el cargador alimenta direutamente la tableta y la batería nun se carga. Desactívase cuando la batería baxa al %1$d%%.</string>
+    <string name="bypass_notification_channel">Alimentación direuta</string>
+    <string name="charging_warning_notification_channel">Alvertencies de carga</string>
+    <string name="bypass_on_toast">Alimentación direuta activada</string>
+    <string name="bypass_on_title">L\'alimentación direuta ta activada, como se configuró pa %1$s</string>
+    <string name="bypass_on_text">El cargador alimenta direutamente la tableta y la batería nun se carga. La carga reanúdase cuando la batería baxa al %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Batería baxa, alimentación direuta desactivada</string>
+    <string name="bypass_low_battery_title">Batería baxa, alimentación direuta desactivada</string>
+    <string name="bypass_low_battery_text">La batería baxó al %1$d%%, polo que ta cargándose de nuevo.</string>
+    <string name="heat_protection_title">Proteición térmica de la carga</string>
+    <string name="heat_protection_summary">Posar la carga de la batería mientres la tableta ta caliente</string>
+    <string name="heat_protection_enabled_title">Usar la proteición térmica de la carga</string>
+    <string name="heat_protection_description">Mientres se carga, si la batería algama la temperatura llímite y tien polo menos la carga mínima, la batería dexa de cargase y el cargador alimenta direutamente la tableta, pa que la batería nun se caliente más. La carga reanúdase cuando la temperatura o la carga baxen d\'eses valores. Camuda como muncho una vegada cada 5 minutos.</string>
+    <string name="category_heat_protection_title">Axustes de proteición</string>
+    <string name="heat_protection_min_level_title">Carga mínima</string>
+    <string name="heat_protection_min_level_summary">Namái al %1$d%% o más</string>
+    <string name="heat_protection_threshold_title">Temperatura llímite</string>
+    <string name="heat_protection_threshold_low">Baxa (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Media (41 °C)</string>
+    <string name="heat_protection_threshold_high">Alta (43 °C)</string>
+    <string name="heat_protection_notification_title">Tableta percaliente, carga posada</string>
+    <string name="heat_protection_notification_text">La batería ta a %1$s. El cargador alimenta direutamente la tableta hasta que se esfrieza y dempués reanúdase la carga.</string>
 </resources>

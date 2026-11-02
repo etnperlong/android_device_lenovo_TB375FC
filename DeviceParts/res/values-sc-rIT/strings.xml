@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Funtzionalidades de su dispositivu</string>
     <string name="device_parts_title">Funtzionalidades de su dispositivu</string>
-    <string name="device_parts_summary">Colore de su ischermu, immàgine de vìdeu, Dolby Atmos, prestatziones, accessòrios, frequèntzia de atualizatzione e tocu, espansione de RAM</string>
+    <string name="device_parts_summary">Colore de su ischermu, immàgine de vìdeu, Dolby Atmos, prestatziones, accessòrios, frequèntzia de atualizatzione e tocu, espansione de RAM, càrriga</string>
     <string name="category_perf_memory_title">Prestaziones e memòria</string>
     <string name="ram_expansion_title">Espansione de RAM</string>
     <string name="ram_expansion_summary">Tramuda sos datos de sas aplicatziones inativas a s\'archìviu pro liberare RAM</string>
@@ -222,4 +222,29 @@
     <string name="tile_dolby_app_note">Is aplicatziones cun modalidade sua sighint a impreare·la cando riprodùent àudio.</string>
     <string name="tile_color_app_note">Is aplicatziones cun impostatziones de colore suas sighint a impreare·las finas a cando sunt abertas.</string>
     <string name="tile_color_adaptive_unavailable">Su colore de s’ischermu est disativadu</string>
+
+    <string name="category_perf_charging">Càrriga</string>
+    <string name="bypass_app_title">Alimentatzione direta</string>
+    <string name="bypass_app_summary">Cando custa aplicatzione est in primu pranu e su carrigadore est connètidu, su carrigadore alimentat deretu su tablet e sa bateria no est carrigada. Si disativat cando sa bateria calat a su %1$d%%.</string>
+    <string name="bypass_notification_channel">Alimentatzione direta</string>
+    <string name="charging_warning_notification_channel">Avisos de càrriga</string>
+    <string name="bypass_on_toast">Alimentatzione direta ativa</string>
+    <string name="bypass_on_title">S’alimentatzione direta est ativa, comente impostadu pro %1$s</string>
+    <string name="bypass_on_text">Su carrigadore alimentat deretu su tablet e sa bateria no est carrigada. Sa càrriga torrat a cumintzare cando sa bateria calat a su %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Bateria bàscia, alimentatzione direta disativada</string>
+    <string name="bypass_low_battery_title">Bateria bàscia, alimentatzione direta disativada</string>
+    <string name="bypass_low_battery_text">Sa bateria est calada a su %1$d%%, duncas si est torrende a carrigare.</string>
+    <string name="heat_protection_title">Amparu dae su calore in càrriga</string>
+    <string name="heat_protection_summary">Pone in pàusa sa càrriga de sa bateria cando su tablet est caente</string>
+    <string name="heat_protection_enabled_title">Imprea s’amparu dae su calore in càrriga</string>
+    <string name="heat_protection_description">In càrriga, si sa bateria lompet a sa temperadura de lìmite e est carrigada a su nessi finas a sa càrriga mìnima, sa bateria si firmat de carrigare e su carrigadore alimentat deretu su tablet, gasi sa bateria no si caentat de prus. Sa càrriga torrat a cumintzare cando sa temperadura o sa càrriga calant suta de custos valores. Cambiat a su màssimu una borta ogni 5 minutos.</string>
+    <string name="category_heat_protection_title">Impostatziones de amparu</string>
+    <string name="heat_protection_min_level_title">Càrriga mìnima</string>
+    <string name="heat_protection_min_level_summary">Isceti a su %1$d%% o prus</string>
+    <string name="heat_protection_threshold_title">Temperadura de lìmite</string>
+    <string name="heat_protection_threshold_low">Bàscia (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Mèdia (41 °C)</string>
+    <string name="heat_protection_threshold_high">Arta (43 °C)</string>
+    <string name="heat_protection_notification_title">Tablet tropu caente, càrriga in pàusa</string>
+    <string name="heat_protection_notification_text">Sa bateria est a %1$s. Su carrigadore alimentat deretu su tablet finas a cando si nde friscat, a pustis sa càrriga torrat a cumintzare.</string>
 </resources>

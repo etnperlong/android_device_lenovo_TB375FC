@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Enhedsfunktioner</string>
     <string name="device_parts_title">Enhedsfunktioner</string>
-    <string name="device_parts_summary">Skærmfarve, videobillede, Dolby Atmos, ydelse, tilbehør, opdateringshastighed, berøring og RAM-udvidelse</string>
+    <string name="device_parts_summary">Skærmfarve, videobillede, Dolby Atmos, ydelse, tilbehør, opdateringshastighed, berøring, RAM-udvidelse og opladning</string>
     <string name="category_perf_memory_title">Ydelse og hukommelse</string>
     <string name="ram_expansion_title">RAM-udvidelse</string>
     <string name="ram_expansion_summary">Flyt inaktive appdata til lageret for at frigøre RAM</string>
@@ -220,4 +220,29 @@
     <string name="tile_dolby_app_note">Apps med deres egen tilstand fortsætter med at bruge den, mens de afspiller lyd.</string>
     <string name="tile_color_app_note">Apps med deres egen farveindstilling fortsætter med at bruge den, mens de er åbne.</string>
     <string name="tile_color_adaptive_unavailable">Skærmfarve er deaktiveret</string>
+
+    <string name="category_perf_charging">Opladning</string>
+    <string name="bypass_app_title">Bypass-opladning</string>
+    <string name="bypass_app_summary">Mens denne app er i forgrunden, og opladeren er tilsluttet, forsyner opladeren tabletten direkte med strøm, og batteriet oplades ikke. Slås fra, når batteriet falder til %1$d%%.</string>
+    <string name="bypass_notification_channel">Bypass-opladning</string>
+    <string name="charging_warning_notification_channel">Advarsler om opladning</string>
+    <string name="bypass_on_toast">Bypass-opladning er slået til</string>
+    <string name="bypass_on_title">Bypass-opladning er slået til som indstillet for %1$s</string>
+    <string name="bypass_on_text">Opladeren forsyner tabletten direkte med strøm, og batteriet oplades ikke. Opladningen genoptages, når batteriet falder til %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Lavt batteri, bypass-opladning er slået fra</string>
+    <string name="bypass_low_battery_title">Lavt batteri, bypass-opladning er slået fra</string>
+    <string name="bypass_low_battery_text">Batteriet faldt til %1$d%%, så det oplades igen.</string>
+    <string name="heat_protection_title">Varmebeskyttelse under opladning</string>
+    <string name="heat_protection_summary">Sæt opladning af batteriet på pause, mens tabletten er varm</string>
+    <string name="heat_protection_enabled_title">Brug varmebeskyttelse under opladning</string>
+    <string name="heat_protection_description">Hvis batteriet under opladning når grænsetemperaturen og er opladet til mindst minimumsniveauet, stopper opladningen af batteriet, og opladeren forsyner tabletten direkte med strøm, så batteriet ikke bliver varmere. Opladningen genoptages, når temperaturen eller batteriniveauet falder under disse værdier. Der skiftes højst én gang hvert 5. minut.</string>
+    <string name="category_heat_protection_title">Indstillinger for beskyttelse</string>
+    <string name="heat_protection_min_level_title">Minimumsniveau</string>
+    <string name="heat_protection_min_level_summary">Kun ved %1$d%% eller mere</string>
+    <string name="heat_protection_threshold_title">Grænsetemperatur</string>
+    <string name="heat_protection_threshold_low">Lav (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Middel (41 °C)</string>
+    <string name="heat_protection_threshold_high">Høj (43 °C)</string>
+    <string name="heat_protection_notification_title">Tabletten er for varm, opladning sat på pause</string>
+    <string name="heat_protection_notification_text">Batteriet er på %1$s. Opladeren forsyner tabletten direkte med strøm, indtil den er kølet af, hvorefter opladningen genoptages.</string>
 </resources>

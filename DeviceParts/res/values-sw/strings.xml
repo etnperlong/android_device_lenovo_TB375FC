@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Vipengele vya kifaa</string>
     <string name="device_parts_title">Vipengele vya kifaa</string>
-    <string name="device_parts_summary">Rangi ya skrini, picha ya video, Dolby Atmos, utendaji, vifuasi, kiwango cha kuonyesha upya na mguso, upanuzi wa RAM</string>
+    <string name="device_parts_summary">Rangi ya skrini, picha ya video, Dolby Atmos, utendaji, vifuasi, kiwango cha kuonyesha upya na mguso, upanuzi wa RAM, kuchaji</string>
     <string name="category_perf_memory_title">Utendaji na kumbukumbu</string>
     <string name="ram_expansion_title">Upanuzi wa RAM</string>
     <string name="ram_expansion_summary">Hamisha data za programu zisizotumika hadi kwenye hifadhi ili kufungua RAM</string>
@@ -227,4 +227,29 @@
     <string name="tile_dolby_app_note">Programu zilizo na hali zao zitaendelea kuzitumia zinapocheza sauti.</string>
     <string name="tile_color_app_note">Programu zilizo na mipangilio yake ya rangi zitaendelea kuitumia zikiwa wazi.</string>
     <string name="tile_color_adaptive_unavailable">Rangi ya skrini imezimwa</string>
+
+    <string name="category_perf_charging">Kuchaji</string>
+    <string name="bypass_app_title">Kuchaji kwa kukwepa betri</string>
+    <string name="bypass_app_summary">Programu hii ikiwa mbele na chaja ikiwa imeunganishwa, chaja huipa kompyuta kibao nishati moja kwa moja na betri haichajiwi. Huzimika betri inaposhuka hadi %1$d%%.</string>
+    <string name="bypass_notification_channel">Kuchaji kwa kukwepa betri</string>
+    <string name="charging_warning_notification_channel">Maonyo ya kuchaji</string>
+    <string name="bypass_on_toast">Kuchaji kwa kukwepa betri kumewashwa</string>
+    <string name="bypass_on_title">Kuchaji kwa kukwepa betri kumewashwa, kama ilivyowekwa kwa %1$s</string>
+    <string name="bypass_on_text">Chaja huipa kompyuta kibao nishati moja kwa moja na betri haichajiwi. Kuchaji kutaendelea betri itakaposhuka hadi %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Chaji ya betri iko chini, kuchaji kwa kukwepa betri kumezimwa</string>
+    <string name="bypass_low_battery_title">Chaji ya betri iko chini, kuchaji kwa kukwepa betri kumezimwa</string>
+    <string name="bypass_low_battery_text">Betri imeshuka hadi %1$d%%, kwa hivyo inachajiwa tena.</string>
+    <string name="heat_protection_title">Ulinzi dhidi ya joto wakati wa kuchaji</string>
+    <string name="heat_protection_summary">Sitisha kuchaji betri wakati kompyuta kibao ina joto</string>
+    <string name="heat_protection_enabled_title">Tumia ulinzi dhidi ya joto wakati wa kuchaji</string>
+    <string name="heat_protection_description">Wakati wa kuchaji, ikiwa betri itafikia kiwango cha joto kilichowekwa na ina angalau chaji ya chini kabisa, betri huacha kuchajiwa na chaja huipa kompyuta kibao nishati moja kwa moja, ili betri isiendelee kupata joto. Kuchaji huendelea joto au chaji inaposhuka chini ya viwango hivyo. Hubadilika mara moja tu kila baada ya dakika 5 kwa zaidi.</string>
+    <string name="category_heat_protection_title">Mipangilio ya ulinzi</string>
+    <string name="heat_protection_min_level_title">Chaji ya chini kabisa</string>
+    <string name="heat_protection_min_level_summary">Ikiwa tu ni %1$d%% au zaidi</string>
+    <string name="heat_protection_threshold_title">Kiwango cha joto</string>
+    <string name="heat_protection_threshold_low">Chini (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Wastani (41 °C)</string>
+    <string name="heat_protection_threshold_high">Juu (43 °C)</string>
+    <string name="heat_protection_notification_title">Kompyuta kibao ina joto jingi, kuchaji kumesitishwa</string>
+    <string name="heat_protection_notification_text">Joto la betri ni %1$s. Chaja huipa kompyuta kibao nishati moja kwa moja hadi ipoe, kisha kuchaji kuendelee.</string>
 </resources>

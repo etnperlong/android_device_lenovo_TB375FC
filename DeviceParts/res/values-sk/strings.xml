@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Funkcie zariadenia</string>
     <string name="device_parts_title">Funkcie zariadenia</string>
-    <string name="device_parts_summary">Farba obrazovky, obraz videa, Dolby Atmos, výkon, príslušenstvo, obnovovacia frekvencia a dotyk, rozšírenie RAM</string>
+    <string name="device_parts_summary">Farba obrazovky, obraz videa, Dolby Atmos, výkon, príslušenstvo, obnovovacia frekvencia a dotyk, rozšírenie RAM, nabíjanie</string>
     <string name="category_perf_memory_title">Výkon a pamäť</string>
     <string name="ram_expansion_title">Rozšírenie RAM</string>
     <string name="ram_expansion_summary">Presuňte neaktívne údaje aplikácií do úložiska, aby ste uvoľnili RAM</string>
@@ -228,4 +228,29 @@
     <string name="tile_dolby_app_note">Aplikácie s vlastným režimom ho používajú aj počas prehrávania.</string>
     <string name="tile_color_app_note">Aplikácie s vlastným nastavením farieb ho používajú aj počas otvorenia.</string>
     <string name="tile_color_adaptive_unavailable">Farba obrazovky je zakázaná</string>
+
+    <string name="category_perf_charging">Nabíjanie</string>
+    <string name="bypass_app_title">Obídenie nabíjania</string>
+    <string name="bypass_app_summary">Keď je táto aplikácia v popredí a nabíjačka je pripojená, nabíjačka napája tablet priamo a batéria sa nenabíja. Vypne sa, keď batéria klesne na %1$d%%.</string>
+    <string name="bypass_notification_channel">Obídenie nabíjania</string>
+    <string name="charging_warning_notification_channel">Upozornenia na nabíjanie</string>
+    <string name="bypass_on_toast">Obídenie nabíjania je zapnuté</string>
+    <string name="bypass_on_title">Obídenie nabíjania je zapnuté podľa nastavenia pre %1$s</string>
+    <string name="bypass_on_text">Nabíjačka napája tablet priamo a batéria sa nenabíja. Nabíjanie sa obnoví, keď batéria klesne na %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Slabá batéria, obídenie nabíjania vypnuté</string>
+    <string name="bypass_low_battery_title">Slabá batéria, obídenie nabíjania vypnuté</string>
+    <string name="bypass_low_battery_text">Batéria klesla na %1$d%%, preto sa znova nabíja.</string>
+    <string name="heat_protection_title">Ochrana pred prehriatím pri nabíjaní</string>
+    <string name="heat_protection_summary">Pozastaviť nabíjanie batérie, keď je tablet horúci</string>
+    <string name="heat_protection_enabled_title">Používať ochranu pred prehriatím pri nabíjaní</string>
+    <string name="heat_protection_description">Ak počas nabíjania batéria dosiahne prahovú teplotu a je nabitá aspoň na minimálnu úroveň, nabíjanie batérie sa zastaví a nabíjačka napája tablet priamo, aby sa batéria ďalej nezahrievala. Nabíjanie sa obnoví, keď teplota alebo úroveň nabitia klesne pod tieto hodnoty. Prepína sa najviac raz za 5 minút.</string>
+    <string name="category_heat_protection_title">Nastavenia ochrany</string>
+    <string name="heat_protection_min_level_title">Minimálne nabitie</string>
+    <string name="heat_protection_min_level_summary">Iba pri %1$d%% a viac</string>
+    <string name="heat_protection_threshold_title">Prahová teplota</string>
+    <string name="heat_protection_threshold_low">Nízka (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Stredná (41 °C)</string>
+    <string name="heat_protection_threshold_high">Vysoká (43 °C)</string>
+    <string name="heat_protection_notification_title">Tablet je príliš horúci, nabíjanie pozastavené</string>
+    <string name="heat_protection_notification_text">Teplota batérie je %1$s. Nabíjačka napája tablet priamo, kým nevychladne, potom sa nabíjanie obnoví.</string>
 </resources>

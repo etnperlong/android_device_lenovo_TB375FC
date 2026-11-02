@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Սարքի գործառույթներ</string>
     <string name="device_parts_title">Սարքի գործառույթներ</string>
-    <string name="device_parts_summary">Էկրանի գույն, տեսանյութի պատկեր, Dolby Atmos, արտադրողականություն, աքսեսուարներ, թարմացման հաճախականություն, հպում և RAM-ի ընդլայնում</string>
+    <string name="device_parts_summary">Էկրանի գույն, տեսանյութի պատկեր, Dolby Atmos, արտադրողականություն, աքսեսուարներ, թարմացման հաճախականություն, հպում, RAM-ի ընդլայնում և լիցքավորում</string>
     <string name="category_perf_memory_title">Կատարողականություն և հիշողություն</string>
     <string name="ram_expansion_title">RAM-ի ընդլայնում</string>
     <string name="ram_expansion_summary">RAM-ն ազատելու համար ոչ ակտիվ հավելվածների տվյալները տեղափոխեք պահեստ</string>
@@ -228,4 +228,29 @@
     <string name="tile_dolby_app_note">Առանձին ռեժիմներ սահմանված հավելվածները նվագարկելիս շարունակում են օգտագործել իրենց ռեժիմները։</string>
     <string name="tile_color_app_note">Առանձին գույներ սահմանված հավելվածները բացելիս շարունակում են օգտագործել իրենց կարգավորումները։</string>
     <string name="tile_color_adaptive_unavailable">Էկրանի գույնն անջատված է</string>
+
+    <string name="category_perf_charging">Լիցքավորում</string>
+    <string name="bypass_app_title">Շրջանցիկ լիցքավորում</string>
+    <string name="bypass_app_summary">Երբ այս հավելվածն առջևում է, և լիցքավորիչը միացված է, լիցքավորիչն ուղղակիորեն սնուցում է պլանշետը, և մարտկոցը չի լիցքավորվում։ Անջատվում է, երբ մարտկոցի լիցքը իջնում է մինչև %1$d%%։</string>
+    <string name="bypass_notification_channel">Շրջանցիկ լիցքավորում</string>
+    <string name="charging_warning_notification_channel">Լիցքավորման զգուշացումներ</string>
+    <string name="bypass_on_toast">Շրջանցիկ լիցքավորումը միացված է</string>
+    <string name="bypass_on_title">Շրջանցիկ լիցքավորումը միացված է՝ ըստ %1$s-ի կարգավորման</string>
+    <string name="bypass_on_text">Լիցքավորիչն ուղղակիորեն սնուցում է պլանշետը, և մարտկոցը չի լիցքավորվում։ Լիցքավորումը կվերսկսվի, երբ մարտկոցի լիցքը իջնի մինչև %1$d%%։</string>
+    <string name="bypass_low_battery_toast">Մարտկոցի լիցքը ցածր է, շրջանցիկ լիցքավորումն անջատվեց</string>
+    <string name="bypass_low_battery_title">Մարտկոցի լիցքը ցածր է, շրջանցիկ լիցքավորումն անջատվեց</string>
+    <string name="bypass_low_battery_text">Մարտկոցի լիցքն իջել է մինչև %1$d%%, ուստի այն նորից լիցքավորվում է։</string>
+    <string name="heat_protection_title">Լիցքավորման ժամանակ գերտաքացումից պաշտպանություն</string>
+    <string name="heat_protection_summary">Դադարեցնել մարտկոցի լիցքավորումը, երբ պլանշետը տաք է</string>
+    <string name="heat_protection_enabled_title">Օգտագործել գերտաքացումից պաշտպանությունը</string>
+    <string name="heat_protection_description">Լիցքավորման ժամանակ, եթե մարտկոցը հասնում է շեմային ջերմաստիճանին և լիցքավորված է առնվազն նվազագույն լիցքի չափով, մարտկոցի լիցքավորումը դադարում է, և լիցքավորիչն ուղղակիորեն սնուցում է պլանշետը, որպեսզի մարտկոցն ավելի չտաքանա։ Լիցքավորումը վերսկսվում է, երբ ջերմաստիճանը կամ լիցքն իջնում է դրանցից ցածր։ Փոխարկումը տեղի է ունենում առավելագույնը 5 րոպեն մեկ անգամ։</string>
+    <string name="category_heat_protection_title">Պաշտպանության կարգավորումներ</string>
+    <string name="heat_protection_min_level_title">Նվազագույն լիցք</string>
+    <string name="heat_protection_min_level_summary">Միայն %1$d%% և ավելի լիցքի դեպքում</string>
+    <string name="heat_protection_threshold_title">Շեմային ջերմաստիճան</string>
+    <string name="heat_protection_threshold_low">Ցածր (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Միջին (41 °C)</string>
+    <string name="heat_protection_threshold_high">Բարձր (43 °C)</string>
+    <string name="heat_protection_notification_title">Պլանշետը շատ տաք է, լիցքավորումը դադարեցված է</string>
+    <string name="heat_protection_notification_text">Մարտկոցի ջերմաստիճանը %1$s է։ Լիցքավորիչն ուղղակիորեն կսնուցի պլանշետը, մինչև այն սառչի, այնուհետև լիցքավորումը կվերսկսվի։</string>
 </resources>

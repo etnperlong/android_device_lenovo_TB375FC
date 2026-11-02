@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">ಸಾಧನ ವೈಶಿಷ್ಟ್ಯಗಳು</string>
     <string name="device_parts_title">ಸಾಧನ ವೈಶಿಷ್ಟ್ಯಗಳು</string>
-    <string name="device_parts_summary">ಪರದೆ ಬಣ್ಣ, ವೀಡಿಯೊ ಚಿತ್ರ ಗುಣಮಟ್ಟ, Dolby Atmos, ಕಾರ್ಯಕ್ಷಮತೆ, ಪರಿಕರಗಳು, ರಿಫ್ರೆಶ್ ರೇಟ್, ಸ್ಪರ್ಶ ಮತ್ತು RAM ವಿಸ್ತರಣೆ</string>
+    <string name="device_parts_summary">ಪರದೆ ಬಣ್ಣ, ವೀಡಿಯೊ ಚಿತ್ರ ಗುಣಮಟ್ಟ, Dolby Atmos, ಕಾರ್ಯಕ್ಷಮತೆ, ಪರಿಕರಗಳು, ರಿಫ್ರೆಶ್ ರೇಟ್, ಸ್ಪರ್ಶ, RAM ವಿಸ್ತರಣೆ ಮತ್ತು ಚಾರ್ಜಿಂಗ್</string>
     <string name="ram_expansion_title">RAM ವಿಸ್ತರಣೆ</string>
     <string name="ram_expansion_summary">RAM ಮುಕ್ತಗೊಳಿಸಲು ನಿಷ್ಕ್ರಿಯ ಆ್ಯಪ್‌ಗಳ ಡೇಟಾವನ್ನು ಸಂಗ್ರಹಣೆಗೆ ಸರಿಸಿ</string>
     <string name="ram_expansion_description">ಬಹಳ ಸಮಯದಿಂದ ಬಳಸದ ಆ್ಯಪ್‌ಗಳ ಡೇಟಾವನ್ನು ಸಂಕುಚಿತ ಮೆಮೊರಿಯಿಂದ ಸಂಗ್ರಹಣೆಗೆ ಸರಿಸಿ RAM ಮುಕ್ತಗೊಳಿಸಿ. ಆಯ್ಕೆಮಾಡಿದ ಸಂಗ್ರಹಣೆಯ ಪ್ರಮಾಣವನ್ನು ಬಳಸಲಾಗುತ್ತದೆ. ಮರುಪ್ರಾರಂಭಿಸಿದ ನಂತರ ಬದಲಾವಣೆಗಳು ಜಾರಿಗೆ ಬರುತ್ತವೆ.</string>
@@ -221,4 +221,29 @@
     <string name="tile_dolby_app_note">ಪ್ರತ್ಯೇಕವಾಗಿ ಮೋಡ್ ಹೊಂದಿಸಲಾದ ಆ್ಯಪ್‌ಗಳು ಪ್ಲೇ ಮಾಡುವಾಗ ತಮ್ಮದೇ ಮೋಡ್‌ಗಳನ್ನು ಬಳಸುವುದನ್ನು ಮುಂದುವರಿಸುತ್ತವೆ.</string>
     <string name="tile_color_app_note">ಪ್ರತ್ಯೇಕವಾಗಿ ಬಣ್ಣ ಹೊಂದಿಸಲಾದ ಆ್ಯಪ್‌ಗಳು ತೆರೆದಾಗ ತಮ್ಮದೇ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬಳಸುವುದನ್ನು ಮುಂದುವರಿಸುತ್ತವೆ.</string>
     <string name="tile_color_adaptive_unavailable">ಪರದೆ ಬಣ್ಣ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
+
+    <string name="category_perf_charging">ಚಾರ್ಜಿಂಗ್</string>
+    <string name="bypass_app_title">ಬೈಪಾಸ್ ಚಾರ್ಜಿಂಗ್</string>
+    <string name="bypass_app_summary">ಈ ಆ್ಯಪ್ ಮುಂಭಾಗದಲ್ಲಿರುವಾಗ ಮತ್ತು ಚಾರ್ಜರ್ ಕನೆಕ್ಟ್ ಆಗಿರುವಾಗ, ಚಾರ್ಜರ್ ನೇರವಾಗಿ ಟ್ಯಾಬ್ಲೆಟ್‌ಗೆ ಪವರ್ ನೀಡುತ್ತದೆ ಮತ್ತು ಬ್ಯಾಟರಿ ಚಾರ್ಜ್ ಆಗುವುದಿಲ್ಲ. ಬ್ಯಾಟರಿ %1$d%% ಗೆ ಇಳಿದಾಗ ಆಫ್ ಆಗುತ್ತದೆ.</string>
+    <string name="bypass_notification_channel">ಬೈಪಾಸ್ ಚಾರ್ಜಿಂಗ್</string>
+    <string name="charging_warning_notification_channel">ಚಾರ್ಜಿಂಗ್ ಎಚ್ಚರಿಕೆಗಳು</string>
+    <string name="bypass_on_toast">ಬೈಪಾಸ್ ಚಾರ್ಜಿಂಗ್ ಆನ್ ಆಗಿದೆ</string>
+    <string name="bypass_on_title">%1$s ಗಾಗಿ ಹೊಂದಿಸಿದಂತೆ ಬೈಪಾಸ್ ಚಾರ್ಜಿಂಗ್ ಆನ್ ಆಗಿದೆ</string>
+    <string name="bypass_on_text">ಚಾರ್ಜರ್ ನೇರವಾಗಿ ಟ್ಯಾಬ್ಲೆಟ್‌ಗೆ ಪವರ್ ನೀಡುತ್ತದೆ ಮತ್ತು ಬ್ಯಾಟರಿ ಚಾರ್ಜ್ ಆಗುವುದಿಲ್ಲ. ಬ್ಯಾಟರಿ %1$d%% ಗೆ ಇಳಿದಾಗ ಚಾರ್ಜಿಂಗ್ ಮುಂದುವರಿಯುತ್ತದೆ.</string>
+    <string name="bypass_low_battery_toast">ಬ್ಯಾಟರಿ ಕಡಿಮೆ, ಬೈಪಾಸ್ ಚಾರ್ಜಿಂಗ್ ಆಫ್ ಆಗಿದೆ</string>
+    <string name="bypass_low_battery_title">ಬ್ಯಾಟರಿ ಕಡಿಮೆ, ಬೈಪಾಸ್ ಚಾರ್ಜಿಂಗ್ ಆಫ್ ಆಗಿದೆ</string>
+    <string name="bypass_low_battery_text">ಬ್ಯಾಟರಿ %1$d%% ಗೆ ಇಳಿದಿದೆ, ಆದ್ದರಿಂದ ಮತ್ತೆ ಚಾರ್ಜ್ ಆಗುತ್ತಿದೆ.</string>
+    <string name="heat_protection_title">ಚಾರ್ಜಿಂಗ್ ಉಷ್ಣ ರಕ್ಷಣೆ</string>
+    <string name="heat_protection_summary">ಟ್ಯಾಬ್ಲೆಟ್ ಬಿಸಿಯಾಗಿರುವಾಗ ಬ್ಯಾಟರಿ ಚಾರ್ಜಿಂಗ್ ಅನ್ನು ವಿರಾಮಗೊಳಿಸಿ</string>
+    <string name="heat_protection_enabled_title">ಚಾರ್ಜಿಂಗ್ ಉಷ್ಣ ರಕ್ಷಣೆ ಬಳಸಿ</string>
+    <string name="heat_protection_description">ಚಾರ್ಜ್ ಮಾಡುವಾಗ, ಬ್ಯಾಟರಿ ಮಿತಿ ತಾಪಮಾನವನ್ನು ತಲುಪಿದರೆ ಮತ್ತು ಕನಿಷ್ಠ ಚಾರ್ಜ್‌ನಷ್ಟಾದರೂ ಚಾರ್ಜ್ ಆಗಿದ್ದರೆ, ಬ್ಯಾಟರಿ ಚಾರ್ಜ್ ಆಗುವುದು ನಿಲ್ಲುತ್ತದೆ ಮತ್ತು ಚಾರ್ಜರ್ ನೇರವಾಗಿ ಟ್ಯಾಬ್ಲೆಟ್‌ಗೆ ಪವರ್ ನೀಡುತ್ತದೆ, ಇದರಿಂದ ಬ್ಯಾಟರಿ ಇನ್ನಷ್ಟು ಬಿಸಿಯಾಗುವುದಿಲ್ಲ. ತಾಪಮಾನ ಅಥವಾ ಚಾರ್ಜ್ ಅವುಗಳಿಗಿಂತ ಕಡಿಮೆಯಾದಾಗ ಚಾರ್ಜಿಂಗ್ ಮುಂದುವರಿಯುತ್ತದೆ. ಇದು ಪ್ರತಿ 5 ನಿಮಿಷಗಳಿಗೆ ಗರಿಷ್ಠ ಒಮ್ಮೆ ಬದಲಾಗುತ್ತದೆ.</string>
+    <string name="category_heat_protection_title">ರಕ್ಷಣೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="heat_protection_min_level_title">ಕನಿಷ್ಠ ಚಾರ್ಜ್</string>
+    <string name="heat_protection_min_level_summary">%1$d%% ಅಥವಾ ಅದಕ್ಕಿಂತ ಹೆಚ್ಚಿದ್ದಾಗ ಮಾತ್ರ</string>
+    <string name="heat_protection_threshold_title">ಮಿತಿ ತಾಪಮಾನ</string>
+    <string name="heat_protection_threshold_low">ಕಡಿಮೆ (39 °C)</string>
+    <string name="heat_protection_threshold_medium">ಮಧ್ಯಮ (41 °C)</string>
+    <string name="heat_protection_threshold_high">ಹೆಚ್ಚು (43 °C)</string>
+    <string name="heat_protection_notification_title">ಟ್ಯಾಬ್ಲೆಟ್ ತುಂಬಾ ಬಿಸಿಯಾಗಿದೆ, ಚಾರ್ಜಿಂಗ್ ವಿರಾಮಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="heat_protection_notification_text">ಬ್ಯಾಟರಿ %1$s ನಲ್ಲಿದೆ. ಅದು ತಣ್ಣಗಾಗುವವರೆಗೆ ಚಾರ್ಜರ್ ನೇರವಾಗಿ ಟ್ಯಾಬ್ಲೆಟ್‌ಗೆ ಪವರ್ ನೀಡುತ್ತದೆ, ನಂತರ ಚಾರ್ಜಿಂಗ್ ಮುಂದುವರಿಯುತ್ತದೆ.</string>
 </resources>

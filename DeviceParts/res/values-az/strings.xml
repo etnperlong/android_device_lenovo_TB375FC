@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Cihaz xüsusiyyətləri</string>
     <string name="device_parts_title">Cihaz xüsusiyyətləri</string>
-    <string name="device_parts_summary">Ekran rəngi, video təsviri, Dolby Atmos, məhsuldarlıq, aksesuarlar, yeniləmə tezliyi, toxunma və RAM genişləndirilməsi</string>
+    <string name="device_parts_summary">Ekran rəngi, video təsviri, Dolby Atmos, məhsuldarlıq, aksesuarlar, yeniləmə tezliyi, toxunma, RAM genişləndirilməsi və şarj</string>
     <string name="category_perf_memory_title">Performans və yaddaş</string>
     <string name="ram_expansion_title">RAM genişləndirilməsi</string>
     <string name="ram_expansion_summary">RAM-i boşaltmaq üçün qeyri-aktiv tətbiq məlumatlarını yaddaş qurğusuna köçürün</string>
@@ -227,4 +227,29 @@
     <string name="tile_dolby_app_note">Öz rejimi olan tətbiqlər audio səsləndirərkən həmin rejimdən istifadə etməyə davam edir.</string>
     <string name="tile_color_app_note">Öz rəng ayarı olan tətbiqlər açıq olduqda həmin ayardan istifadə etməyə davam edir.</string>
     <string name="tile_color_adaptive_unavailable">Ekran rəngi söndürülüb</string>
+
+    <string name="category_perf_charging">Şarj</string>
+    <string name="bypass_app_title">Bypass şarj</string>
+    <string name="bypass_app_summary">Bu tətbiq ön planda olduqda və şarj cihazı qoşulu olduqda, şarj cihazı planşeti birbaşa qidalandırır və batareya şarj olunmur. Batareya %1$d%%-ə düşdükdə söndürülür.</string>
+    <string name="bypass_notification_channel">Bypass şarj</string>
+    <string name="charging_warning_notification_channel">Şarj xəbərdarlıqları</string>
+    <string name="bypass_on_toast">Bypass şarj aktivdir</string>
+    <string name="bypass_on_title">%1$s üçün ayarlandığı kimi bypass şarj aktivdir</string>
+    <string name="bypass_on_text">Şarj cihazı planşeti birbaşa qidalandırır və batareya şarj olunmur. Batareya %1$d%%-ə düşdükdə şarj bərpa olunur.</string>
+    <string name="bypass_low_battery_toast">Batareya azdır, bypass şarj söndürüldü</string>
+    <string name="bypass_low_battery_title">Batareya azdır, bypass şarj söndürüldü</string>
+    <string name="bypass_low_battery_text">Batareya %1$d%%-ə düşdü, buna görə yenidən şarj olunur.</string>
+    <string name="heat_protection_title">Şarj zamanı istilikdən qoruma</string>
+    <string name="heat_protection_summary">Planşet isti olduqda batareyanın şarjını dayandırın</string>
+    <string name="heat_protection_enabled_title">Şarj zamanı istilikdən qorumanı istifadə edin</string>
+    <string name="heat_protection_description">Şarj zamanı batareya hədd temperaturuna çatarsa və ən azı minimum şarj səviyyəsinə qədər şarj olunubsa, batareyanın şarjı dayanır və şarj cihazı planşeti birbaşa qidalandırır ki, batareya daha çox qızmasın. Temperatur və ya şarj səviyyəsi bu həddlərdən aşağı düşdükdə şarj bərpa olunur. Keçid ən çoxu 5 dəqiqədə bir dəfə baş verir.</string>
+    <string name="category_heat_protection_title">Qoruma ayarları</string>
+    <string name="heat_protection_min_level_title">Minimum şarj</string>
+    <string name="heat_protection_min_level_summary">Yalnız %1$d%% və ya daha çox olduqda</string>
+    <string name="heat_protection_threshold_title">Hədd temperaturu</string>
+    <string name="heat_protection_threshold_low">Aşağı (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Orta (41 °C)</string>
+    <string name="heat_protection_threshold_high">Yüksək (43 °C)</string>
+    <string name="heat_protection_notification_title">Planşet çox qızıb, şarj dayandırıldı</string>
+    <string name="heat_protection_notification_text">Batareyanın temperaturu %1$s-dir. Planşet soyuyana qədər şarj cihazı onu birbaşa qidalandırır, sonra şarj bərpa olunur.</string>
 </resources>

@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Veçoritë e pajisjes</string>
     <string name="device_parts_title">Veçoritë e pajisjes</string>
-    <string name="device_parts_summary">Ngjyra e ekranit, pamja e videos, Dolby Atmos, performanca, aksesorët, shpejtësia e rifreskimit dhe prekja, zgjerimi i RAM-it</string>
+    <string name="device_parts_summary">Ngjyra e ekranit, pamja e videos, Dolby Atmos, performanca, aksesorët, shpejtësia e rifreskimit dhe prekja, zgjerimi i RAM-it, karikimi</string>
     <string name="category_perf_memory_title">Performanca dhe memoria</string>
     <string name="ram_expansion_title">Zgjerimi i RAM-it</string>
     <string name="ram_expansion_summary">Zhvendos të dhënat e aplikacioneve joaktive në hapësirën ruajtëse për të liruar RAM-in</string>
@@ -227,4 +227,29 @@
     <string name="tile_dolby_app_note">Aplikacionet me mënyrën e tyre vazhdojnë ta përdorin gjatë luajtjes.</string>
     <string name="tile_color_app_note">Aplikacionet me cilësimin e tyre të ngjyrave vazhdojnë ta përdorin kur janë të hapura.</string>
     <string name="tile_color_adaptive_unavailable">Ngjyra e ekranit është joaktive</string>
+
+    <string name="category_perf_charging">Karikimi</string>
+    <string name="bypass_app_title">Karikimi anashkalues</string>
+    <string name="bypass_app_summary">Kur ky aplikacion është në plan të parë dhe karikuesi është i lidhur, karikuesi e furnizon tabletin drejtpërdrejt dhe bateria nuk karikohet. Çaktivizohet kur bateria bie në %1$d%%.</string>
+    <string name="bypass_notification_channel">Karikimi anashkalues</string>
+    <string name="charging_warning_notification_channel">Paralajmërimet e karikimit</string>
+    <string name="bypass_on_toast">Karikimi anashkalues u aktivizua</string>
+    <string name="bypass_on_title">Karikimi anashkalues është aktiv, sipas cilësimit për %1$s</string>
+    <string name="bypass_on_text">Karikuesi e furnizon tabletin drejtpërdrejt dhe bateria nuk karikohet. Karikimi rifillon kur bateria bie në %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Bateria e ulët, karikimi anashkalues u çaktivizua</string>
+    <string name="bypass_low_battery_title">Bateria e ulët, karikimi anashkalues u çaktivizua</string>
+    <string name="bypass_low_battery_text">Bateria ra në %1$d%%, prandaj po karikohet përsëri.</string>
+    <string name="heat_protection_title">Mbrojtja nga nxehtësia gjatë karikimit</string>
+    <string name="heat_protection_summary">Ndalo karikimin e baterisë kur tableti është i nxehtë</string>
+    <string name="heat_protection_enabled_title">Përdor mbrojtjen nga nxehtësia gjatë karikimit</string>
+    <string name="heat_protection_description">Gjatë karikimit, nëse bateria arrin temperaturën e pragut dhe është karikuar të paktën deri në karikimin minimal, bateria ndalon së karikuari dhe karikuesi e furnizon tabletin drejtpërdrejt, që bateria të mos nxehet më tej. Karikimi rifillon kur temperatura ose karikimi bien nën këto vlera. Ndërrimi ndodh më së shumti një herë në 5 minuta.</string>
+    <string name="category_heat_protection_title">Cilësimet e mbrojtjes</string>
+    <string name="heat_protection_min_level_title">Karikimi minimal</string>
+    <string name="heat_protection_min_level_summary">Vetëm në %1$d%% ose më shumë</string>
+    <string name="heat_protection_threshold_title">Temperatura e pragut</string>
+    <string name="heat_protection_threshold_low">E ulët (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Mesatare (41 °C)</string>
+    <string name="heat_protection_threshold_high">E lartë (43 °C)</string>
+    <string name="heat_protection_notification_title">Tableti shumë i nxehtë, karikimi u ndalua</string>
+    <string name="heat_protection_notification_text">Bateria është në %1$s. Karikuesi e furnizon tabletin drejtpërdrejt derisa të ftohet, pastaj karikimi rifillon.</string>
 </resources>

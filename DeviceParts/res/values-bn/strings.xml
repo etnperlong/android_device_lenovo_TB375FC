@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">ডিভাইসের ফিচার</string>
     <string name="device_parts_title">ডিভাইসের ফিচার</string>
-    <string name="device_parts_summary">স্ক্রিনের রঙ, ভিডিও ছবির মান, Dolby Atmos, পারফরম্যান্স, আনুষঙ্গিক সামগ্রী, রিফ্রেশ রেট, টাচ ও র‍্যাম এক্সপ্যানশন</string>
+    <string name="device_parts_summary">স্ক্রিনের রঙ, ভিডিও ছবির মান, Dolby Atmos, পারফরম্যান্স, আনুষঙ্গিক সামগ্রী, রিফ্রেশ রেট, টাচ, র‍্যাম এক্সপ্যানশন ও চার্জিং</string>
     <string name="ram_expansion_title">র‍্যাম এক্সপ্যানশন</string>
     <string name="ram_expansion_summary">র‍্যাম খালি করতে নিষ্ক্রিয় অ্যাপের ডেটা স্টোরেজে সরান</string>
     <string name="ram_expansion_description">দীর্ঘদিন ব্যবহার না করা অ্যাপের ডেটা সংকুচিত মেমরি থেকে স্টোরেজে সরিয়ে র‍্যাম খালি করুন। নির্বাচিত পরিমাণ স্টোরেজ ব্যবহার করা হবে। পুনরায় চালু করার পরে পরিবর্তন কার্যকর হবে।</string>
@@ -220,4 +220,29 @@
     <string name="tile_dolby_app_note">নিজস্ব মোড থাকা অ্যাপ অডিও চালানোর সময় সেটি ব্যবহার করতে থাকে।</string>
     <string name="tile_color_app_note">নিজস্ব রঙের সেটিং থাকা অ্যাপ খোলা থাকলে সেটি ব্যবহার করতে থাকে।</string>
     <string name="tile_color_adaptive_unavailable">স্ক্রিনের রং বন্ধ আছে</string>
+
+    <string name="category_perf_charging">চার্জিং</string>
+    <string name="bypass_app_title">বাইপাস চার্জিং</string>
+    <string name="bypass_app_summary">এই অ্যাপটি সামনে খোলা থাকলে এবং চার্জার সংযুক্ত থাকলে, চার্জার সরাসরি ট্যাবলেটে পাওয়ার দেয় এবং ব্যাটারি চার্জ হয় না। ব্যাটারি %1$d%%-এ নেমে গেলে এটি বন্ধ হয়ে যায়।</string>
+    <string name="bypass_notification_channel">বাইপাস চার্জিং</string>
+    <string name="charging_warning_notification_channel">চার্জিং সংক্রান্ত সতর্কতা</string>
+    <string name="bypass_on_toast">বাইপাস চার্জিং চালু হয়েছে</string>
+    <string name="bypass_on_title">%1$s-এর জন্য সেট করা অনুযায়ী বাইপাস চার্জিং চালু আছে</string>
+    <string name="bypass_on_text">চার্জার সরাসরি ট্যাবলেটে পাওয়ার দিচ্ছে এবং ব্যাটারি চার্জ হচ্ছে না। ব্যাটারি %1$d%%-এ নেমে গেলে আবার চার্জ হওয়া শুরু হবে।</string>
+    <string name="bypass_low_battery_toast">ব্যাটারি কম, বাইপাস চার্জিং বন্ধ করা হয়েছে</string>
+    <string name="bypass_low_battery_title">ব্যাটারি কম, বাইপাস চার্জিং বন্ধ করা হয়েছে</string>
+    <string name="bypass_low_battery_text">ব্যাটারি %1$d%%-এ নেমে গেছে, তাই আবার চার্জ হচ্ছে।</string>
+    <string name="heat_protection_title">চার্জিংয়ের সময় তাপ সুরক্ষা</string>
+    <string name="heat_protection_summary">ট্যাবলেট গরম থাকাকালীন ব্যাটারি চার্জ করা পজ করুন</string>
+    <string name="heat_protection_enabled_title">চার্জিংয়ের সময় তাপ সুরক্ষা ব্যবহার করুন</string>
+    <string name="heat_protection_description">চার্জ করার সময় ব্যাটারি থ্রেশহোল্ড তাপমাত্রায় পৌঁছালে এবং কমপক্ষে ন্যূনতম চার্জ পর্যন্ত চার্জ হয়ে থাকলে, ব্যাটারি চার্জ হওয়া বন্ধ হয়ে যায় এবং চার্জার সরাসরি ট্যাবলেটে পাওয়ার দেয়, যাতে ব্যাটারি আর গরম না হয়। তাপমাত্রা বা চার্জ এগুলোর নিচে নেমে গেলে আবার চার্জ হওয়া শুরু হয়। এটি প্রতি 5 মিনিটে সর্বাধিক একবার পরিবর্তিত হয়।</string>
+    <string name="category_heat_protection_title">সুরক্ষা সেটিংস</string>
+    <string name="heat_protection_min_level_title">ন্যূনতম চার্জ</string>
+    <string name="heat_protection_min_level_summary">শুধু %1$d%% বা তার বেশি হলে</string>
+    <string name="heat_protection_threshold_title">থ্রেশহোল্ড তাপমাত্রা</string>
+    <string name="heat_protection_threshold_low">কম (39 °C)</string>
+    <string name="heat_protection_threshold_medium">মাঝারি (41 °C)</string>
+    <string name="heat_protection_threshold_high">বেশি (43 °C)</string>
+    <string name="heat_protection_notification_title">ট্যাবলেট খুব গরম, চার্জিং পজ করা হয়েছে</string>
+    <string name="heat_protection_notification_text">ব্যাটারির তাপমাত্রা %1$s। ঠান্ডা না হওয়া পর্যন্ত চার্জার সরাসরি ট্যাবলেটে পাওয়ার দেবে, তারপর আবার চার্জ হওয়া শুরু হবে।</string>
 </resources>

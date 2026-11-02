@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">תכונות המכשיר</string>
     <string name="device_parts_title">תכונות המכשיר</string>
-    <string name="device_parts_summary">צבע המסך, תמונת וידאו, Dolby Atmos, ביצועים, אביזרים, קצב רענון, מגע והרחבת RAM</string>
+    <string name="device_parts_summary">צבע המסך, תמונת וידאו, Dolby Atmos, ביצועים, אביזרים, קצב רענון, מגע, הרחבת RAM וטעינה</string>
     <string name="category_perf_memory_title">ביצועים וזיכרון</string>
     <string name="ram_expansion_title">הרחבת RAM</string>
     <string name="ram_expansion_summary">העברת נתוני אפליקציות לא פעילות לאחסון כדי לפנות RAM</string>
@@ -229,4 +229,29 @@
     <string name="tile_dolby_app_note">אפליקציות עם מצבים שהוגדרו בנפרד ימשיכו להשתמש במצבים שלהן במהלך ההפעלה.</string>
     <string name="tile_color_app_note">אפליקציות עם צבעים שהוגדרו בנפרד ימשיכו להשתמש בהגדרות שלהן כשפותחים אותן.</string>
     <string name="tile_color_adaptive_unavailable">צבע המסך מושבת</string>
+
+    <string name="category_perf_charging">טעינה</string>
+    <string name="bypass_app_title">טעינה עוקפת</string>
+    <string name="bypass_app_summary">כשהאפליקציה הזו בחזית והמטען מחובר, המטען מספק חשמל לטאבלט ישירות והסוללה לא נטענת. התכונה תכבה כשהסוללה תרד ל-%1$d%%.</string>
+    <string name="bypass_notification_channel">טעינה עוקפת</string>
+    <string name="charging_warning_notification_channel">אזהרות טעינה</string>
+    <string name="bypass_on_toast">הטעינה העוקפת מופעלת</string>
+    <string name="bypass_on_title">הטעינה העוקפת מופעלת, בהתאם להגדרה עבור %1$s</string>
+    <string name="bypass_on_text">המטען מספק חשמל לטאבלט ישירות והסוללה לא נטענת. הטעינה תתחדש כשהסוללה תרד ל-%1$d%%.</string>
+    <string name="bypass_low_battery_toast">הסוללה חלשה, הטעינה העוקפת כובתה</string>
+    <string name="bypass_low_battery_title">הסוללה חלשה, הטעינה העוקפת כובתה</string>
+    <string name="bypass_low_battery_text">הסוללה ירדה ל-%1$d%%, ולכן היא נטענת שוב.</string>
+    <string name="heat_protection_title">הגנה מפני התחממות בטעינה</string>
+    <string name="heat_protection_summary">השהיית טעינת הסוללה כשהטאבלט חם</string>
+    <string name="heat_protection_enabled_title">שימוש בהגנה מפני התחממות בטעינה</string>
+    <string name="heat_protection_description">אם במהלך הטעינה הסוללה מגיעה לטמפרטורת הסף והיא טעונה לפחות לרמת הטעינה המינימלית, טעינת הסוללה תיפסק והמטען יספק חשמל לטאבלט ישירות, כדי שהסוללה לא תתחמם עוד. הטעינה תתחדש כשהטמפרטורה או רמת הטעינה יירדו מתחת לערכים האלה. המעבר מתבצע לכל היותר פעם אחת ב-5 דקות.</string>
+    <string name="category_heat_protection_title">הגדרות ההגנה</string>
+    <string name="heat_protection_min_level_title">רמת טעינה מינימלית</string>
+    <string name="heat_protection_min_level_summary">רק ב-%1$d%% ומעלה</string>
+    <string name="heat_protection_threshold_title">טמפרטורת סף</string>
+    <string name="heat_protection_threshold_low">נמוכה (39 °C)</string>
+    <string name="heat_protection_threshold_medium">בינונית (41 °C)</string>
+    <string name="heat_protection_threshold_high">גבוהה (43 °C)</string>
+    <string name="heat_protection_notification_title">הטאבלט חם מדי, הטעינה הושהתה</string>
+    <string name="heat_protection_notification_text">טמפרטורת הסוללה היא %1$s. המטען יספק חשמל לטאבלט ישירות עד שהוא יתקרר, ואז הטעינה תתחדש.</string>
 </resources>

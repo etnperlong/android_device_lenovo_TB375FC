@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Төхөөрөмжийн онцлогууд</string>
     <string name="device_parts_title">Төхөөрөмжийн онцлогууд</string>
-    <string name="device_parts_summary">Дэлгэцийн өнгө, видео дүрс, Dolby Atmos, гүйцэтгэл, дагалдах хэрэгсэл, сэргээх хурд ба хүрэлт, RAM өргөтгөл</string>
+    <string name="device_parts_summary">Дэлгэцийн өнгө, видео дүрс, Dolby Atmos, гүйцэтгэл, дагалдах хэрэгсэл, сэргээх хурд ба хүрэлт, RAM өргөтгөл, цэнэглэлт</string>
     <string name="category_perf_memory_title">Гүйцэтгэл ба санах ой</string>
     <string name="ram_expansion_title">RAM өргөтгөл</string>
     <string name="ram_expansion_summary">RAM суллахын тулд идэвхгүй аппын өгөгдлийг санах ой руу зөөнө</string>
@@ -227,4 +227,29 @@
     <string name="tile_dolby_app_note">Өөрийн горимтой аппууд аудио тоглуулах үедээ тухайн горимыг үргэлжлүүлэн ашиглана.</string>
     <string name="tile_color_app_note">Өөрийн өнгөний тохиргоотой аппууд нээлттэй байх үедээ үүнийг үргэлжлүүлэн ашиглана.</string>
     <string name="tile_color_adaptive_unavailable">Дэлгэцийн өнгө идэвхгүй байна</string>
+
+    <string name="category_perf_charging">Цэнэглэлт</string>
+    <string name="bypass_app_title">Тойруу цэнэглэлт</string>
+    <string name="bypass_app_summary">Энэ апп нүүрэнд байх ба цэнэглэгч холбогдсон үед цэнэглэгч таблетыг шууд тэжээж, батарей цэнэглэгдэхгүй. Батарей %1$d%% хүртэл буурахад унтарна.</string>
+    <string name="bypass_notification_channel">Тойруу цэнэглэлт</string>
+    <string name="charging_warning_notification_channel">Цэнэглэлтийн сэрэмжлүүлэг</string>
+    <string name="bypass_on_toast">Тойруу цэнэглэлт асаалттай</string>
+    <string name="bypass_on_title">%1$s-д тохируулсны дагуу тойруу цэнэглэлт асаалттай</string>
+    <string name="bypass_on_text">Цэнэглэгч таблетыг шууд тэжээж, батарей цэнэглэгдэхгүй байна. Батарей %1$d%% хүртэл буурахад цэнэглэлт сэргэнэ.</string>
+    <string name="bypass_low_battery_toast">Батарей бага, тойруу цэнэглэлт унтарлаа</string>
+    <string name="bypass_low_battery_title">Батарей бага, тойруу цэнэглэлт унтарлаа</string>
+    <string name="bypass_low_battery_text">Батарей %1$d%% хүртэл буурсан тул дахин цэнэглэж байна.</string>
+    <string name="heat_protection_title">Цэнэглэлтийн халалтаас хамгаалах</string>
+    <string name="heat_protection_summary">Таблет халуун үед батарейг цэнэглэхийг түр зогсоох</string>
+    <string name="heat_protection_enabled_title">Цэнэглэлтийн халалтаас хамгаалалт ашиглах</string>
+    <string name="heat_protection_description">Цэнэглэх үед батарей босго температурт хүрч, хамгийн бага цэнэгээс багагүй цэнэглэгдсэн бол батарейн цэнэглэлт зогсож, цэнэглэгч таблетыг шууд тэжээнэ. Ингэснээр батарей цааш халахгүй. Температур эсвэл цэнэг тохируулсан утгаас доош буурахад цэнэглэлт сэргэнэ. 5 минутад хамгийн ихдээ нэг удаа шилжинэ.</string>
+    <string name="category_heat_protection_title">Хамгаалалтын тохиргоо</string>
+    <string name="heat_protection_min_level_title">Хамгийн бага цэнэг</string>
+    <string name="heat_protection_min_level_summary">Зөвхөн %1$d%% ба түүнээс дээш үед</string>
+    <string name="heat_protection_threshold_title">Босго температур</string>
+    <string name="heat_protection_threshold_low">Бага (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Дунд (41 °C)</string>
+    <string name="heat_protection_threshold_high">Өндөр (43 °C)</string>
+    <string name="heat_protection_notification_title">Таблет хэт халсан тул цэнэглэлтийг түр зогсоолоо</string>
+    <string name="heat_protection_notification_text">Батарейн температур %1$s байна. Таблет хөртөл цэнэглэгч түүнийг шууд тэжээж, дараа нь цэнэглэлт сэргэнэ.</string>
 </resources>

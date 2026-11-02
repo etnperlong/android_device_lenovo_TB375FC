@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Bahagian peranti</string>
     <string name="device_parts_title">Bahagian peranti</string>
-    <string name="device_parts_summary">Warna skrin, gambar video, Dolby Atmos, prestasi, aksesori, kadar muat semula dan sentuhan, pengembangan RAM</string>
+    <string name="device_parts_summary">Warna skrin, gambar video, Dolby Atmos, prestasi, aksesori, kadar muat semula dan sentuhan, pengembangan RAM, pengecasan</string>
     <string name="category_perf_memory_title">Prestasi dan memori</string>
     <string name="ram_expansion_title">Pengembangan RAM</string>
     <string name="ram_expansion_summary">Alihkan data aplikasi tidak aktif ke storan untuk mengosongkan RAM</string>
@@ -226,4 +226,29 @@
     <string name="tile_dolby_app_note">Apl yang mempunyai mod sendiri akan terus menggunakannya semasa memainkan audio.</string>
     <string name="tile_color_app_note">Apl yang mempunyai tetapan warna sendiri akan terus menggunakannya semasa dibuka.</string>
     <string name="tile_color_adaptive_unavailable">Warna skrin dilumpuhkan</string>
+
+    <string name="category_perf_charging">Pengecasan</string>
+    <string name="bypass_app_title">Pengecasan pintas</string>
+    <string name="bypass_app_summary">Semasa apl ini berada di hadapan dan pengecas disambungkan, pengecas menjana kuasa tablet secara terus dan bateri tidak dicas. Dimatikan apabila bateri turun ke %1$d%%.</string>
+    <string name="bypass_notification_channel">Pengecasan pintas</string>
+    <string name="charging_warning_notification_channel">Amaran pengecasan</string>
+    <string name="bypass_on_toast">Pengecasan pintas dihidupkan</string>
+    <string name="bypass_on_title">Pengecasan pintas dihidupkan, seperti yang ditetapkan untuk %1$s</string>
+    <string name="bypass_on_text">Pengecas menjana kuasa tablet secara terus dan bateri tidak dicas. Pengecasan disambung semula apabila bateri turun ke %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Bateri lemah, pengecasan pintas dimatikan</string>
+    <string name="bypass_low_battery_title">Bateri lemah, pengecasan pintas dimatikan</string>
+    <string name="bypass_low_battery_text">Bateri telah turun ke %1$d%%, jadi bateri dicas semula.</string>
+    <string name="heat_protection_title">Perlindungan haba pengecasan</string>
+    <string name="heat_protection_summary">Jeda pengecasan bateri semasa tablet panas</string>
+    <string name="heat_protection_enabled_title">Gunakan perlindungan haba pengecasan</string>
+    <string name="heat_protection_description">Semasa pengecasan, jika bateri mencapai suhu ambang dan telah dicas sekurang-kurangnya pada cas minimum, bateri berhenti dicas dan pengecas menjana kuasa tablet secara terus, supaya bateri tidak menjadi lebih panas. Pengecasan disambung semula apabila suhu atau cas turun di bawah nilai tersebut. Penukaran berlaku paling banyak sekali setiap 5 minit.</string>
+    <string name="category_heat_protection_title">Tetapan perlindungan</string>
+    <string name="heat_protection_min_level_title">Cas minimum</string>
+    <string name="heat_protection_min_level_summary">Hanya pada %1$d%% atau lebih</string>
+    <string name="heat_protection_threshold_title">Suhu ambang</string>
+    <string name="heat_protection_threshold_low">Rendah (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Sederhana (41 °C)</string>
+    <string name="heat_protection_threshold_high">Tinggi (43 °C)</string>
+    <string name="heat_protection_notification_title">Tablet terlalu panas, pengecasan dijeda</string>
+    <string name="heat_protection_notification_text">Suhu bateri ialah %1$s. Pengecas menjana kuasa tablet secara terus sehingga tablet sejuk, kemudian pengecasan disambung semula.</string>
 </resources>

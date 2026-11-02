@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Λειτουργίες συσκευής</string>
     <string name="device_parts_title">Λειτουργίες συσκευής</string>
-    <string name="device_parts_summary">Χρώμα οθόνης, εικόνα βίντεο, Dolby Atmos, απόδοση, αξεσουάρ, ρυθμός ανανέωσης, αφή και επέκταση RAM</string>
+    <string name="device_parts_summary">Χρώμα οθόνης, εικόνα βίντεο, Dolby Atmos, απόδοση, αξεσουάρ, ρυθμός ανανέωσης, αφή, επέκταση RAM και φόρτιση</string>
     <string name="category_perf_memory_title">Απόδοση και μνήμη</string>
     <string name="ram_expansion_title">Επέκταση RAM</string>
     <string name="ram_expansion_summary">Μεταφορά δεδομένων ανενεργών εφαρμογών στον αποθηκευτικό χώρο για απελευθέρωση RAM</string>
@@ -227,4 +227,29 @@
     <string name="tile_dolby_app_note">Οι εφαρμογές με δική τους λειτουργία εξακολουθούν να τη χρησιμοποιούν κατά την αναπαραγωγή ήχου.</string>
     <string name="tile_color_app_note">Οι εφαρμογές με δική τους ρύθμιση χρώματος εξακολουθούν να τη χρησιμοποιούν όσο είναι ανοιχτές.</string>
     <string name="tile_color_adaptive_unavailable">Το χρώμα οθόνης είναι ανενεργό</string>
+
+    <string name="category_perf_charging">Φόρτιση</string>
+    <string name="bypass_app_title">Φόρτιση παράκαμψης</string>
+    <string name="bypass_app_summary">Όσο αυτή η εφαρμογή είναι σε πρώτο πλάνο και ο φορτιστής είναι συνδεδεμένος, ο φορτιστής τροφοδοτεί απευθείας το tablet και η μπαταρία δεν φορτίζεται. Απενεργοποιείται όταν η μπαταρία πέσει στο %1$d%%.</string>
+    <string name="bypass_notification_channel">Φόρτιση παράκαμψης</string>
+    <string name="charging_warning_notification_channel">Προειδοποιήσεις φόρτισης</string>
+    <string name="bypass_on_toast">Η φόρτιση παράκαμψης ενεργοποιήθηκε</string>
+    <string name="bypass_on_title">Η φόρτιση παράκαμψης είναι ενεργή, όπως ορίστηκε για την εφαρμογή %1$s</string>
+    <string name="bypass_on_text">Ο φορτιστής τροφοδοτεί απευθείας το tablet και η μπαταρία δεν φορτίζεται. Η φόρτιση συνεχίζεται όταν η μπαταρία πέσει στο %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Χαμηλή μπαταρία, η φόρτιση παράκαμψης απενεργοποιήθηκε</string>
+    <string name="bypass_low_battery_title">Χαμηλή μπαταρία, η φόρτιση παράκαμψης απενεργοποιήθηκε</string>
+    <string name="bypass_low_battery_text">Η μπαταρία έπεσε στο %1$d%%, οπότε φορτίζεται ξανά.</string>
+    <string name="heat_protection_title">Προστασία φόρτισης από θερμότητα</string>
+    <string name="heat_protection_summary">Παύση φόρτισης της μπαταρίας όταν το tablet είναι ζεστό</string>
+    <string name="heat_protection_enabled_title">Χρήση προστασίας φόρτισης από θερμότητα</string>
+    <string name="heat_protection_description">Κατά τη φόρτιση, αν η μπαταρία φτάσει τη θερμοκρασία ορίου και έχει φορτιστεί τουλάχιστον στην ελάχιστη φόρτιση, η μπαταρία σταματά να φορτίζεται και ο φορτιστής τροφοδοτεί απευθείας το tablet, ώστε η μπαταρία να μη ζεσταθεί περισσότερο. Η φόρτιση συνεχίζεται όταν η θερμοκρασία ή η φόρτιση πέσει κάτω από αυτές τις τιμές. Η εναλλαγή γίνεται το πολύ μία φορά κάθε 5 λεπτά.</string>
+    <string name="category_heat_protection_title">Ρυθμίσεις προστασίας</string>
+    <string name="heat_protection_min_level_title">Ελάχιστη φόρτιση</string>
+    <string name="heat_protection_min_level_summary">Μόνο στο %1$d%% ή περισσότερο</string>
+    <string name="heat_protection_threshold_title">Θερμοκρασία ορίου</string>
+    <string name="heat_protection_threshold_low">Χαμηλή (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Μεσαία (41 °C)</string>
+    <string name="heat_protection_threshold_high">Υψηλή (43 °C)</string>
+    <string name="heat_protection_notification_title">Το tablet είναι πολύ ζεστό, η φόρτιση τέθηκε σε παύση</string>
+    <string name="heat_protection_notification_text">Η μπαταρία είναι στους %1$s. Ο φορτιστής τροφοδοτεί απευθείας το tablet μέχρι να κρυώσει και, στη συνέχεια, η φόρτιση συνεχίζεται.</string>
 </resources>

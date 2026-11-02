@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Funzions dal dispositîf</string>
     <string name="device_parts_title">Funzions dal dispositîf</string>
-    <string name="device_parts_summary">Colôr dal schermi, imàgin video, Dolby Atmos, prestazions, acèsoris, frecuence di inzornament, toc e espansion de RAM</string>
+    <string name="device_parts_summary">Colôr dal schermi, imàgin video, Dolby Atmos, prestazions, acèsoris, frecuence di inzornament, toc, espansion de RAM e ricjarie</string>
     <string name="category_perf_memory_title">Prestazions e memorie</string>
     <string name="ram_expansion_title">Espansion de RAM</string>
     <string name="ram_expansion_summary">Sposte i dâts des aplicazions inativis tal archivi par liberâ RAM</string>
@@ -222,4 +222,29 @@
     <string name="tile_dolby_app_note">Lis apps cun la lôr modalitât a continuin a doprâle cuant che a riprodûsin.</string>
     <string name="tile_color_app_note">Lis apps cun la lôr impostazion di colôr a continuin a doprâle fintremai che a son vierte.</string>
     <string name="tile_color_adaptive_unavailable">Il colôr dal schermi al è disativât</string>
+
+    <string name="category_perf_charging">Ricjarie</string>
+    <string name="bypass_app_title">Ricjarie bypass</string>
+    <string name="bypass_app_summary">Cuant che cheste app e je in prin plan e il ricjaradôr al è conetût, il ricjaradôr al alimente dret il tablet e la batarie no ven ricjariade. Si distude cuant che la batarie e cole al %1$d%%.</string>
+    <string name="bypass_notification_channel">Ricjarie bypass</string>
+    <string name="charging_warning_notification_channel">Avertiments di ricjarie</string>
+    <string name="bypass_on_toast">Ricjarie bypass ative</string>
+    <string name="bypass_on_title">La ricjarie bypass e je ative, come configurât par %1$s</string>
+    <string name="bypass_on_text">Il ricjaradôr al alimente dret il tablet e la batarie no ven ricjariade. La ricjarie e torne a partî cuant che la batarie e cole al %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Batarie basse, ricjarie bypass distudade</string>
+    <string name="bypass_low_battery_title">Batarie basse, ricjarie bypass distudade</string>
+    <string name="bypass_low_battery_text">La batarie e je colade al %1$d%%, duncje e je daûr a ricjariâsi di gnûf.</string>
+    <string name="heat_protection_title">Protezion dal calôr in ricjarie</string>
+    <string name="heat_protection_summary">Met in pause la ricjarie de batarie cuant che il tablet al è cjalt</string>
+    <string name="heat_protection_enabled_title">Dopre la protezion dal calôr in ricjarie</string>
+    <string name="heat_protection_description">Dilunc la ricjarie, se la batarie e rive ae temperadure di soie e e je ricjariade almancul ae ricjarie minime, la batarie e smet di ricjariâsi e il ricjaradôr al alimente dret il tablet, cussì la batarie no si scjalde di plui. La ricjarie e torne a partî cuant che la temperadure o la ricjarie a colin sot di chescj valôrs. Al cambie al massim une volte ogni 5 minûts.</string>
+    <string name="category_heat_protection_title">Impostazions de protezion</string>
+    <string name="heat_protection_min_level_title">Ricjarie minime</string>
+    <string name="heat_protection_min_level_summary">Dome al %1$d%% o plui</string>
+    <string name="heat_protection_threshold_title">Temperadure di soie</string>
+    <string name="heat_protection_threshold_low">Basse (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Medie (41 °C)</string>
+    <string name="heat_protection_threshold_high">Alte (43 °C)</string>
+    <string name="heat_protection_notification_title">Tablet masse cjalt, ricjarie in pause</string>
+    <string name="heat_protection_notification_text">La batarie e je a %1$s. Il ricjaradôr al alimente dret il tablet fin che nol si disfredie, dopo la ricjarie e torne a partî.</string>
 </resources>

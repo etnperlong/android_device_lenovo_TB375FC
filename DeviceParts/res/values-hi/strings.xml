@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">डिवाइस सुविधाएँ</string>
     <string name="device_parts_title">डिवाइस सुविधाएँ</string>
-    <string name="device_parts_summary">स्क्रीन का रंग, वीडियो क्वालिटी, Dolby Atmos, परफ़ॉर्मेंस, ऐक्सेसरीज़, रीफ़्रेश रेट, टच और RAM विस्तार</string>
+    <string name="device_parts_summary">स्क्रीन का रंग, वीडियो क्वालिटी, Dolby Atmos, परफ़ॉर्मेंस, ऐक्सेसरीज़, रीफ़्रेश रेट, टच, RAM विस्तार और चार्जिंग</string>
     <string name="ram_expansion_title">RAM विस्तार</string>
     <string name="ram_expansion_summary">RAM खाली करने के लिए निष्क्रिय ऐप का डेटा स्टोरेज में ले जाएँ</string>
     <string name="ram_expansion_description">लंबे समय से इस्तेमाल नहीं किए गए ऐप का डेटा कंप्रेस की गई मेमोरी से स्टोरेज में ले जाकर RAM खाली करें। चुनी गई स्टोरेज की मात्रा का इस्तेमाल होगा। बदलाव रीस्टार्ट करने के बाद लागू होंगे।</string>
@@ -220,4 +220,29 @@
     <string name="tile_dolby_app_note">जिन ऐप्लिकेशन का अपना मोड है, वे ऑडियो चलाते समय भी उसी का इस्तेमाल करती हैं।</string>
     <string name="tile_color_app_note">जिन ऐप्लिकेशन की अपनी रंग सेटिंग है, वे खुले रहने पर भी उसी का इस्तेमाल करती हैं।</string>
     <string name="tile_color_adaptive_unavailable">स्क्रीन का रंग बंद है</string>
+
+    <string name="category_perf_charging">चार्जिंग</string>
+    <string name="bypass_app_title">बायपास चार्जिंग</string>
+    <string name="bypass_app_summary">जब यह ऐप सामने खुला हो और चार्जर कनेक्ट हो, तब चार्जर सीधे टैबलेट को पावर देता है और बैटरी चार्ज नहीं होती। बैटरी %1$d%% तक गिरने पर यह बंद हो जाता है।</string>
+    <string name="bypass_notification_channel">बायपास चार्जिंग</string>
+    <string name="charging_warning_notification_channel">चार्जिंग से जुड़ी चेतावनियां</string>
+    <string name="bypass_on_toast">बायपास चार्जिंग चालू है</string>
+    <string name="bypass_on_title">%1$s के लिए की गई सेटिंग के मुताबिक बायपास चार्जिंग चालू है</string>
+    <string name="bypass_on_text">चार्जर सीधे टैबलेट को पावर दे रहा है और बैटरी चार्ज नहीं हो रही। बैटरी %1$d%% तक गिरने पर चार्जिंग फिर से शुरू हो जाएगी।</string>
+    <string name="bypass_low_battery_toast">बैटरी कम है, बायपास चार्जिंग बंद कर दी गई</string>
+    <string name="bypass_low_battery_title">बैटरी कम है, बायपास चार्जिंग बंद कर दी गई</string>
+    <string name="bypass_low_battery_text">बैटरी %1$d%% तक गिर गई, इसलिए यह फिर से चार्ज हो रही है।</string>
+    <string name="heat_protection_title">चार्जिंग के दौरान गर्मी से सुरक्षा</string>
+    <string name="heat_protection_summary">टैबलेट गर्म होने पर बैटरी की चार्जिंग रोकें</string>
+    <string name="heat_protection_enabled_title">चार्जिंग के दौरान गर्मी से सुरक्षा इस्तेमाल करें</string>
+    <string name="heat_protection_description">चार्जिंग के दौरान, अगर बैटरी तय तापमान तक पहुंच जाती है और कम से कम न्यूनतम चार्ज तक चार्ज हो चुकी है, तो बैटरी की चार्जिंग रुक जाती है और चार्जर सीधे टैबलेट को पावर देता है, ताकि बैटरी और गर्म न हो। तापमान या चार्ज इनसे नीचे आने पर चार्जिंग फिर से शुरू हो जाती है। यह हर 5 मिनट में ज़्यादा से ज़्यादा एक बार बदलता है।</string>
+    <string name="category_heat_protection_title">सुरक्षा सेटिंग</string>
+    <string name="heat_protection_min_level_title">न्यूनतम चार्ज</string>
+    <string name="heat_protection_min_level_summary">सिर्फ़ %1$d%% या उससे ज़्यादा होने पर</string>
+    <string name="heat_protection_threshold_title">तय तापमान</string>
+    <string name="heat_protection_threshold_low">कम (39 °C)</string>
+    <string name="heat_protection_threshold_medium">मध्यम (41 °C)</string>
+    <string name="heat_protection_threshold_high">ज़्यादा (43 °C)</string>
+    <string name="heat_protection_notification_title">टैबलेट बहुत गर्म है, चार्जिंग रोकी गई</string>
+    <string name="heat_protection_notification_text">बैटरी का तापमान %1$s है। ठंडा होने तक चार्जर सीधे टैबलेट को पावर देगा, फिर चार्जिंग शुरू हो जाएगी।</string>
 </resources>

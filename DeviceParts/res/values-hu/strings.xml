@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Eszközfunkciók</string>
     <string name="device_parts_title">Eszközfunkciók</string>
-    <string name="device_parts_summary">Képernyőszín, videokép, Dolby Atmos, teljesítmény, kiegészítők, frissítési gyakoriság, érintés és RAM-bővítés</string>
+    <string name="device_parts_summary">Képernyőszín, videokép, Dolby Atmos, teljesítmény, kiegészítők, frissítési gyakoriság, érintés, RAM-bővítés és töltés</string>
     <string name="category_perf_memory_title">Teljesítmény és memória</string>
     <string name="ram_expansion_title">RAM-bővítés</string>
     <string name="ram_expansion_summary">A RAM felszabadításához helyezze át a nem aktív alkalmazások adatait a tárhelyre</string>
@@ -227,4 +227,29 @@
     <string name="tile_dolby_app_note">Az alkalmazásokhoz külön beállított módok lejátszás közben is érvényben maradnak.</string>
     <string name="tile_color_app_note">Az alkalmazásokhoz külön beállított színek megnyitáskor is érvényben maradnak.</string>
     <string name="tile_color_adaptive_unavailable">A képernyőszín letiltva</string>
+
+    <string name="category_perf_charging">Töltés</string>
+    <string name="bypass_app_title">Bypass töltés</string>
+    <string name="bypass_app_summary">Amíg ez az alkalmazás az előtérben van és a töltő csatlakoztatva van, a töltő közvetlenül táplálja a táblagépet, az akkumulátor pedig nem töltődik. Kikapcsol, amikor az akkumulátor töltöttsége %1$d%%-ra csökken.</string>
+    <string name="bypass_notification_channel">Bypass töltés</string>
+    <string name="charging_warning_notification_channel">Töltési figyelmeztetések</string>
+    <string name="bypass_on_toast">Bypass töltés bekapcsolva</string>
+    <string name="bypass_on_title">A bypass töltés be van kapcsolva a(z) %1$s beállítása szerint</string>
+    <string name="bypass_on_text">A töltő közvetlenül táplálja a táblagépet, az akkumulátor nem töltődik. A töltés folytatódik, amikor az akkumulátor töltöttsége %1$d%%-ra csökken.</string>
+    <string name="bypass_low_battery_toast">Alacsony töltöttség, a bypass töltés kikapcsolva</string>
+    <string name="bypass_low_battery_title">Alacsony töltöttség, a bypass töltés kikapcsolva</string>
+    <string name="bypass_low_battery_text">Az akkumulátor töltöttsége %1$d%%-ra csökkent, ezért újra töltődik.</string>
+    <string name="heat_protection_title">Töltési hővédelem</string>
+    <string name="heat_protection_summary">Az akkumulátor töltésének szüneteltetése, amíg a táblagép forró</string>
+    <string name="heat_protection_enabled_title">Töltési hővédelem használata</string>
+    <string name="heat_protection_description">Töltés közben, ha az akkumulátor eléri a küszöbhőmérsékletet, és töltöttsége legalább a minimális töltöttség, az akkumulátor töltése leáll, és a töltő közvetlenül táplálja a táblagépet, így az akkumulátor nem melegszik tovább. A töltés folytatódik, amikor a hőmérséklet vagy a töltöttség ezek alá csökken. Legfeljebb 5 percenként egyszer vált.</string>
+    <string name="category_heat_protection_title">Védelmi beállítások</string>
+    <string name="heat_protection_min_level_title">Minimális töltöttség</string>
+    <string name="heat_protection_min_level_summary">Csak %1$d%% vagy afölötti töltöttségnél</string>
+    <string name="heat_protection_threshold_title">Küszöbhőmérséklet</string>
+    <string name="heat_protection_threshold_low">Alacsony (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Közepes (41 °C)</string>
+    <string name="heat_protection_threshold_high">Magas (43 °C)</string>
+    <string name="heat_protection_notification_title">A táblagép túl forró, a töltés szünetel</string>
+    <string name="heat_protection_notification_text">Az akkumulátor hőmérséklete: %1$s. A töltő közvetlenül táplálja a táblagépet, amíg le nem hűl, majd a töltés folytatódik.</string>
 </resources>

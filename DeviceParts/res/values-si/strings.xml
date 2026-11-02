@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">උපාංග විශේෂාංග</string>
     <string name="device_parts_title">උපාංග විශේෂාංග</string>
-    <string name="device_parts_summary">තිරයේ වර්ණය, වීඩියෝ පින්තූර ගුණාත්මකභාවය, Dolby Atmos, කාර්යසාධනය, උපාංග, නැවුම් කිරීමේ අනුපාතය සහ ස්පර්ශය, RAM පුළුල් කිරීම</string>
+    <string name="device_parts_summary">තිරයේ වර්ණය, වීඩියෝ පින්තූර ගුණාත්මකභාවය, Dolby Atmos, කාර්යසාධනය, උපාංග, නැවුම් කිරීමේ අනුපාතය සහ ස්පර්ශය, RAM පුළුල් කිරීම, ආරෝපණය</string>
     <string name="category_perf_memory_title">කාර්යසාධනය සහ මතකය</string>
     <string name="ram_expansion_title">RAM පුළුල් කිරීම</string>
     <string name="ram_expansion_summary">RAM නිදහස් කර ගැනීමට අක්‍රිය යෙදුම් දත්ත ගබඩාවට ගෙන යන්න</string>
@@ -220,4 +220,29 @@
     <string name="tile_dolby_app_note">තමන්ගේම මාදිලියක් ඇති යෙදුම් ශ්‍රව්‍ය වාදනය කරන අතරතුර එය දිගටම භාවිත කරයි.</string>
     <string name="tile_color_app_note">තමන්ගේම වර්ණ සැකසුමක් ඇති යෙදුම් විවෘතව තිබෙන අතරතුර එය දිගටම භාවිත කරයි.</string>
     <string name="tile_color_adaptive_unavailable">තිරයේ වර්ණය අබල කර ඇත</string>
+
+    <string name="category_perf_charging">ආරෝපණය</string>
+    <string name="bypass_app_title">බයිපාස් ආරෝපණය</string>
+    <string name="bypass_app_summary">මෙම යෙදුම ඉදිරියෙන් ඇති අතර චාජරය සම්බන්ධ කර ඇති විට, චාජරය ටැබ්ලටයට සෘජුවම බලය සපයන අතර බැටරිය ආරෝපණය නොවේ. බැටරිය %1$d%% දක්වා අඩු වූ විට ක්‍රියාවිරහිත වේ.</string>
+    <string name="bypass_notification_channel">බයිපාස් ආරෝපණය</string>
+    <string name="charging_warning_notification_channel">ආරෝපණ අනතුරු ඇඟවීම්</string>
+    <string name="bypass_on_toast">බයිපාස් ආරෝපණය ක්‍රියාත්මකයි</string>
+    <string name="bypass_on_title">%1$s සඳහා සකසා ඇති පරිදි බයිපාස් ආරෝපණය ක්‍රියාත්මකයි</string>
+    <string name="bypass_on_text">චාජරය ටැබ්ලටයට සෘජුවම බලය සපයන අතර බැටරිය ආරෝපණය නොවේ. බැටරිය %1$d%% දක්වා අඩු වූ විට ආරෝපණය නැවත ආරම්භ වේ.</string>
+    <string name="bypass_low_battery_toast">බැටරිය අඩුයි, බයිපාස් ආරෝපණය ක්‍රියාවිරහිත කළා</string>
+    <string name="bypass_low_battery_title">බැටරිය අඩුයි, බයිපාස් ආරෝපණය ක්‍රියාවිරහිත කළා</string>
+    <string name="bypass_low_battery_text">බැටරිය %1$d%% දක්වා අඩු වූ නිසා, එය නැවත ආරෝපණය වේ.</string>
+    <string name="heat_protection_title">ආරෝපණ තාප ආරක්ෂාව</string>
+    <string name="heat_protection_summary">ටැබ්ලටය උණුසුම් වී ඇති අතරතුර බැටරිය ආරෝපණය කිරීම විරාම කරන්න</string>
+    <string name="heat_protection_enabled_title">ආරෝපණ තාප ආරක්ෂාව භාවිත කරන්න</string>
+    <string name="heat_protection_description">ආරෝපණය වන අතරතුර, බැටරිය සීමා උෂ්ණත්වයට ළඟා වී අවම ආරෝපණයට වත් ආරෝපණය වී ඇත්නම්, බැටරිය ආරෝපණය වීම නවතින අතර චාජරය ටැබ්ලටයට සෘජුවම බලය සපයයි, එබැවින් බැටරිය තවදුරටත් රත් නොවේ. උෂ්ණත්වය හෝ ආරෝපණය ඒවාට වඩා අඩු වූ විට ආරෝපණය නැවත ආරම්භ වේ. එය උපරිම වශයෙන් මිනිත්තු 5කට වරක් මාරු වේ.</string>
+    <string name="category_heat_protection_title">ආරක්ෂණ සැකසීම්</string>
+    <string name="heat_protection_min_level_title">අවම ආරෝපණය</string>
+    <string name="heat_protection_min_level_summary">%1$d%% හෝ ඊට වැඩි විට පමණි</string>
+    <string name="heat_protection_threshold_title">සීමා උෂ්ණත්වය</string>
+    <string name="heat_protection_threshold_low">අඩු (39 °C)</string>
+    <string name="heat_protection_threshold_medium">මධ්‍යම (41 °C)</string>
+    <string name="heat_protection_threshold_high">ඉහළ (43 °C)</string>
+    <string name="heat_protection_notification_title">ටැබ්ලටය ඉතා උණුසුම්, ආරෝපණය විරාම කළා</string>
+    <string name="heat_protection_notification_text">බැටරිය %1$s හි ඇත. ටැබ්ලටය සිසිල් වන තෙක් චාජරය එයට සෘජුවම බලය සපයයි, පසුව ආරෝපණය නැවත ආරම්භ වේ.</string>
 </resources>

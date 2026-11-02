@@ -407,7 +407,8 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/idc/Vendor_17ef_Product_61ba.idc:$(TARGET_COPY_OUT_SYSTEM_EXT)/usr/idc/Vendor_17ef_Product_61ba.idc
 
 # LineageOS health HAL on the stock charger driver (health/): Settings -> Battery ->
-# Charging control sets the driver's own charge limit.
+# Charging control sets the driver's own charge limit, and DeviceParts turns charging
+# off for bypass charging.
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.tb375fc
 

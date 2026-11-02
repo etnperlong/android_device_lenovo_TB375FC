@@ -54,4 +54,15 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+    <!-- Heat protection thresholds, in ChargingSettings.HEAT_THRESHOLDS_C order -->
+    <string-array name="heat_protection_threshold_entries" translatable="false">
+        <item>@string/heat_protection_threshold_low</item>
+        <item>@string/heat_protection_threshold_medium</item>
+        <item>@string/heat_protection_threshold_high</item>
+    </string-array>
+    <string-array name="heat_protection_threshold_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>

@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Cihaz özellikleri</string>
     <string name="device_parts_title">Cihaz özellikleri</string>
-    <string name="device_parts_summary">Ekran rengi, video görüntüsü, Dolby Atmos, performans, aksesuarlar, yenileme hızı ve dokunma, RAM genişletme</string>
+    <string name="device_parts_summary">Ekran rengi, video görüntüsü, Dolby Atmos, performans, aksesuarlar, yenileme hızı ve dokunma, RAM genişletme, şarj</string>
     <string name="category_perf_memory_title">Performans ve bellek</string>
     <string name="ram_expansion_title">RAM genişletme</string>
     <string name="ram_expansion_summary">RAM\'i boşaltmak için etkin olmayan uygulama verilerini depolamaya taşıyın</string>
@@ -227,4 +227,29 @@
     <string name="tile_dolby_app_note">Kendi modu olan uygulamalar, ses oynatırken bu modu kullanmaya devam eder.</string>
     <string name="tile_color_app_note">Kendi renk ayarı olan uygulamalar, açıkken bu ayarı kullanmaya devam eder.</string>
     <string name="tile_color_adaptive_unavailable">Ekran rengi devre dışı</string>
+
+    <string name="category_perf_charging">Şarj</string>
+    <string name="bypass_app_title">Baypas şarj</string>
+    <string name="bypass_app_summary">Bu uygulama ön plandayken ve şarj cihazı bağlıyken tablete doğrudan şarj cihazı güç verir ve pil şarj edilmez. Pil %%%1$d seviyesine düştüğünde kapanır.</string>
+    <string name="bypass_notification_channel">Baypas şarj</string>
+    <string name="charging_warning_notification_channel">Şarj uyarıları</string>
+    <string name="bypass_on_toast">Baypas şarj açık</string>
+    <string name="bypass_on_title">%1$s için ayarlandığı gibi baypas şarj açık</string>
+    <string name="bypass_on_text">Tablete doğrudan şarj cihazı güç veriyor ve pil şarj edilmiyor. Pil %%%1$d seviyesine düştüğünde şarj devam eder.</string>
+    <string name="bypass_low_battery_toast">Pil zayıf, baypas şarj kapatıldı</string>
+    <string name="bypass_low_battery_title">Pil zayıf, baypas şarj kapatıldı</string>
+    <string name="bypass_low_battery_text">Pil %%%1$d seviyesine düştüğü için yeniden şarj ediliyor.</string>
+    <string name="heat_protection_title">Şarj ısı koruması</string>
+    <string name="heat_protection_summary">Tablet ısındığında pilin şarjını duraklat</string>
+    <string name="heat_protection_enabled_title">Şarj ısı korumasını kullan</string>
+    <string name="heat_protection_description">Şarj sırasında pil eşik sıcaklığa ulaşırsa ve en az minimum şarj seviyesindeyse pilin şarjı durur ve tablete doğrudan şarj cihazı güç verir, böylece pil daha fazla ısınmaz. Sıcaklık veya şarj seviyesi bu değerlerin altına düştüğünde şarj devam eder. En fazla 5 dakikada bir geçiş yapılır.</string>
+    <string name="category_heat_protection_title">Koruma ayarları</string>
+    <string name="heat_protection_min_level_title">Minimum şarj</string>
+    <string name="heat_protection_min_level_summary">Yalnızca %%%1$d veya üzerinde</string>
+    <string name="heat_protection_threshold_title">Eşik sıcaklık</string>
+    <string name="heat_protection_threshold_low">Düşük (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Orta (41 °C)</string>
+    <string name="heat_protection_threshold_high">Yüksek (43 °C)</string>
+    <string name="heat_protection_notification_title">Tablet çok sıcak, şarj duraklatıldı</string>
+    <string name="heat_protection_notification_text">Pil sıcaklığı %1$s. Tablet soğuyana kadar ona doğrudan şarj cihazı güç verir, ardından şarj devam eder.</string>
 </resources>

@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">기기 기능</string>
     <string name="device_parts_title">기기 기능</string>
-    <string name="device_parts_summary">화면 색상, 동영상 화질, 돌비 애트모스, 성능, 액세서리, 화면 주사율, 터치 및 RAM 확장</string>
+    <string name="device_parts_summary">화면 색상, 동영상 화질, 돌비 애트모스, 성능, 액세서리, 화면 주사율, 터치, RAM 확장 및 충전</string>
     <string name="category_perf_memory_title">성능 및 메모리</string>
     <string name="ram_expansion_title">RAM 확장</string>
     <string name="ram_expansion_summary">비활성 앱 데이터를 저장소로 이동하여 RAM 확보</string>
@@ -220,4 +220,29 @@
     <string name="tile_dolby_app_note">모드를 개별 설정한 앱은 재생 중에도 각 앱의 모드를 계속 사용합니다.</string>
     <string name="tile_color_app_note">색상을 개별 설정한 앱은 열 때에도 각 앱의 설정을 계속 사용합니다.</string>
     <string name="tile_color_adaptive_unavailable">화면 색상 사용 안 함</string>
+
+    <string name="category_perf_charging">충전</string>
+    <string name="bypass_app_title">바이패스 충전</string>
+    <string name="bypass_app_summary">이 앱이 화면에 표시되고 충전기가 연결되어 있는 동안 충전기가 태블릿에 직접 전원을 공급하며 배터리는 충전되지 않습니다. 배터리가 %1$d%%까지 떨어지면 꺼집니다.</string>
+    <string name="bypass_notification_channel">바이패스 충전</string>
+    <string name="charging_warning_notification_channel">충전 경고</string>
+    <string name="bypass_on_toast">바이패스 충전 켜짐</string>
+    <string name="bypass_on_title">%1$s 설정에 따라 바이패스 충전이 켜짐</string>
+    <string name="bypass_on_text">충전기가 태블릿에 직접 전원을 공급하며 배터리는 충전되지 않습니다. 배터리가 %1$d%%까지 떨어지면 충전이 다시 시작됩니다.</string>
+    <string name="bypass_low_battery_toast">배터리 부족, 바이패스 충전 꺼짐</string>
+    <string name="bypass_low_battery_title">배터리 부족, 바이패스 충전 꺼짐</string>
+    <string name="bypass_low_battery_text">배터리가 %1$d%%까지 떨어져 다시 충전 중입니다.</string>
+    <string name="heat_protection_title">충전 발열 보호</string>
+    <string name="heat_protection_summary">태블릿이 뜨거운 동안 배터리 충전 일시중지</string>
+    <string name="heat_protection_enabled_title">충전 발열 보호 사용</string>
+    <string name="heat_protection_description">충전 중 배터리가 기준 온도에 도달하고 최소 충전량 이상 충전되어 있으면 배터리 충전이 중지되고 충전기가 태블릿에 직접 전원을 공급하여 배터리가 더 이상 뜨거워지지 않습니다. 온도나 충전량이 기준보다 낮아지면 충전이 다시 시작됩니다. 전환은 최대 5분에 한 번만 이루어집니다.</string>
+    <string name="category_heat_protection_title">보호 설정</string>
+    <string name="heat_protection_min_level_title">최소 충전량</string>
+    <string name="heat_protection_min_level_summary">%1$d%% 이상일 때만</string>
+    <string name="heat_protection_threshold_title">기준 온도</string>
+    <string name="heat_protection_threshold_low">낮음 (39 °C)</string>
+    <string name="heat_protection_threshold_medium">중간 (41 °C)</string>
+    <string name="heat_protection_threshold_high">높음 (43 °C)</string>
+    <string name="heat_protection_notification_title">태블릿 과열, 충전 일시중지됨</string>
+    <string name="heat_protection_notification_text">배터리 온도가 %1$s입니다. 태블릿이 식을 때까지 충전기가 직접 전원을 공급한 후 충전이 다시 시작됩니다.</string>
 </resources>

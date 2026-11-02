@@ -22,6 +22,7 @@ import androidx.preference.SwitchPreferenceCompat;
 import com.android.settingslib.widget.SettingsBasePreferenceFragment;
 
 import org.lineageos.settings.device.R;
+import org.lineageos.settings.device.charging.ChargingSettings;
 
 import java.text.Collator;
 import java.util.ArrayList;
@@ -32,7 +33,8 @@ import java.util.Set;
 
 /**
  * The switch for the performance profiles and the launchable apps, those with vendor rules or a
- * recommended preset first. Each app opens its own profile screen.
+ * recommended preset first. Each app opens its own profile screen, which also has its bypass
+ * charging switch; the apps stay listed while the profiles are off for that.
  */
 public class PerformanceFragment extends SettingsBasePreferenceFragment {
     private static final String KEY_ENABLED = "perf_enabled";
@@ -75,7 +77,6 @@ public class PerformanceFragment extends SettingsBasePreferenceFragment {
         mEnabled.setSummary(R.string.perf_enabled_summary);
         mEnabled.setOnPreferenceChangeListener((preference, newValue) -> {
             PerfSettings.setEnabled(mResolver, (Boolean) newValue);
-            updateEnabled((Boolean) newValue);
             return true;
         });
         screen.addPreference(mEnabled);
@@ -106,15 +107,8 @@ public class PerformanceFragment extends SettingsBasePreferenceFragment {
     @Override
     public void onResume() {
         super.onResume();
-        final boolean enabled = PerfSettings.isEnabled(mResolver);
-        mEnabled.setChecked(enabled);
-        updateEnabled(enabled);
+        mEnabled.setChecked(PerfSettings.isEnabled(mResolver));
         updateSummaries();
-    }
-
-    private void updateEnabled(boolean enabled) {
-        mKnownApps.setEnabled(enabled);
-        mOtherApps.setEnabled(enabled);
     }
 
     private static List<App> loadApps(Context context) {
@@ -157,12 +151,17 @@ public class PerformanceFragment extends SettingsBasePreferenceFragment {
 
     private void updateSummaries() {
         final Map<String, PerfProfile> profiles = PerfSettings.getAppProfiles(mResolver);
+        final Set<String> bypassApps = ChargingSettings.getBypassApps(mResolver);
         for (PreferenceCategory category : new PreferenceCategory[] {mKnownApps, mOtherApps}) {
             for (int i = 0; i < category.getPreferenceCount(); i++) {
                 final Preference pref = category.getPreference(i);
                 final PerfProfile profile = profiles.get(pref.getKey());
-                pref.setSummary(mLabels.profileSummary(pref.getKey(),
-                        profile != null ? profile : new PerfProfile()));
+                final String summary = mLabels.profileSummary(pref.getKey(),
+                        profile != null ? profile : new PerfProfile());
+                pref.setSummary(bypassApps.contains(pref.getKey())
+                        ? summary + getString(R.string.perf_list_separator)
+                                + getString(R.string.bypass_app_title)
+                        : summary);
             }
         }
     }

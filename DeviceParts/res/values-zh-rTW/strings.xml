@@ -7,7 +7,7 @@
     <string name="app_name">裝置功能</string>
 
     <string name="device_parts_title">裝置功能</string>
-    <string name="device_parts_summary">螢幕色彩、影片畫質、Dolby Atmos、效能、配件、刷新率與觸控、RAM 擴充</string>
+    <string name="device_parts_summary">螢幕色彩、影片畫質、Dolby Atmos、效能、配件、刷新率與觸控、RAM 擴充、充電</string>
     <string name="category_perf_memory_title">效能與記憶體</string>
     <string name="ram_expansion_title">RAM 擴充</string>
     <string name="ram_expansion_summary">將閒置應用程式資料移至儲存空間以釋放 RAM</string>
@@ -228,4 +228,29 @@
     <string name="tile_dolby_app_note">設有專屬模式的應用程式在播放音訊時仍會使用該模式。</string>
     <string name="tile_color_app_note">設有專屬色彩設定的應用程式在開啟時仍會使用該設定。</string>
     <string name="tile_color_adaptive_unavailable">螢幕色彩已停用</string>
+
+    <string name="category_perf_charging">充電</string>
+    <string name="bypass_app_title">旁路供電</string>
+    <string name="bypass_app_summary">這個應用程式在前景執行且已連接充電器時，會由充電器直接為平板電腦供電，電池不會充電。電量降至 %1$d%% 時自動關閉。</string>
+    <string name="bypass_notification_channel">旁路供電</string>
+    <string name="charging_warning_notification_channel">充電警告</string>
+    <string name="bypass_on_toast">已開啟旁路供電</string>
+    <string name="bypass_on_title">已依「%1$s」的設定開啟旁路供電</string>
+    <string name="bypass_on_text">充電器會直接為平板電腦供電，電池不會充電。電量降至 %1$d%% 時將恢復充電。</string>
+    <string name="bypass_low_battery_toast">電量不足，已關閉旁路供電</string>
+    <string name="bypass_low_battery_title">電量不足，已關閉旁路供電</string>
+    <string name="bypass_low_battery_text">電量已降至 %1$d%%，因此已恢復為電池充電。</string>
+    <string name="heat_protection_title">充電過熱保護</string>
+    <string name="heat_protection_summary">平板電腦溫度過高時暫停為電池充電</string>
+    <string name="heat_protection_enabled_title">使用充電過熱保護</string>
+    <string name="heat_protection_description">充電期間，如果電池溫度達到門檻溫度，且電量不低於最低電量，就會停止為電池充電，改由充電器直接為平板電腦供電，避免電池繼續升溫。溫度或電量低於設定值後會恢復充電。每 5 分鐘最多切換一次。</string>
+    <string name="category_heat_protection_title">保護設定</string>
+    <string name="heat_protection_min_level_title">最低電量</string>
+    <string name="heat_protection_min_level_summary">電量達 %1$d%% 以上時才會啟用</string>
+    <string name="heat_protection_threshold_title">門檻溫度</string>
+    <string name="heat_protection_threshold_low">低（39 °C）</string>
+    <string name="heat_protection_threshold_medium">中（41 °C）</string>
+    <string name="heat_protection_threshold_high">高（43 °C）</string>
+    <string name="heat_protection_notification_title">平板電腦溫度過高，已暫停充電</string>
+    <string name="heat_protection_notification_text">電池溫度為 %1$s。冷卻前會由充電器直接為平板電腦供電，冷卻後將恢復充電。</string>
 </resources>

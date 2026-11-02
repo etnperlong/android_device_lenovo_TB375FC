@@ -5,7 +5,7 @@
 -->
 <resources>
     <string name="dolby_geq_title">Equaliser</string>
-    <string name="device_parts_summary">Screen colour, video picture, Dolby Atmos, performance, accessories, refresh rate, touch and RAM expansion</string>
+    <string name="device_parts_summary">Screen colour, video picture, Dolby Atmos, performance, accessories, refresh rate, touch, RAM expansion and charging</string>
     <string name="ram_expansion_storage_summary">%1$s currently moved to storage</string>
     <string name="screen_color_title">Screen colour</string>
     <string name="screen_color_summary">Enhance how colours look on the screen</string>
@@ -24,4 +24,29 @@
     <string name="video_color_summary">Adjust video colours to what each scene shows, for richer colours</string>
     <string name="tile_color_app_note">Apps with their own colour setting keep using it while they are open.</string>
     <string name="tile_color_adaptive_unavailable">Screen colour is disabled</string>
+
+    <string name="category_perf_charging">Charging</string>
+    <string name="bypass_app_title">Bypass charging</string>
+    <string name="bypass_app_summary">While this app is in the foreground and the charger is connected, the charger powers the tablet directly and the battery is not charged. Turns off when the battery falls to %1$d%%.</string>
+    <string name="bypass_notification_channel">Bypass charging</string>
+    <string name="charging_warning_notification_channel">Charging warnings</string>
+    <string name="bypass_on_toast">Bypass charging on</string>
+    <string name="bypass_on_title">Bypass charging is on, as set for %1$s</string>
+    <string name="bypass_on_text">The charger powers the tablet directly and the battery is not charged. Charging resumes when the battery falls to %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Battery low, bypass charging turned off</string>
+    <string name="bypass_low_battery_title">Battery low, bypass charging turned off</string>
+    <string name="bypass_low_battery_text">The battery fell to %1$d%%, so it is charging again.</string>
+    <string name="heat_protection_title">Charging heat protection</string>
+    <string name="heat_protection_summary">Pause charging the battery while the tablet is hot</string>
+    <string name="heat_protection_enabled_title">Use charging heat protection</string>
+    <string name="heat_protection_description">While charging, if the battery reaches the threshold temperature and is charged to at least the minimum charge, the battery stops charging and the charger powers the tablet directly, so the battery does not heat up further. Charging resumes when the temperature or the charge falls below these values. It switches at most once every 5 minutes.</string>
+    <string name="category_heat_protection_title">Protection settings</string>
+    <string name="heat_protection_min_level_title">Minimum charge</string>
+    <string name="heat_protection_min_level_summary">Only at %1$d%% or more</string>
+    <string name="heat_protection_threshold_title">Threshold temperature</string>
+    <string name="heat_protection_threshold_low">Low (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Medium (41 °C)</string>
+    <string name="heat_protection_threshold_high">High (43 °C)</string>
+    <string name="heat_protection_notification_title">Tablet too hot, charging paused</string>
+    <string name="heat_protection_notification_text">The battery is at %1$s. The charger powers the tablet directly until it cools down, then charging resumes.</string>
 </resources>

@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Timahilin n yibenk</string>
     <string name="device_parts_title">Timahilin n yibenk</string>
-    <string name="device_parts_summary">Ini n ugdil, tugna n uvidyu, Dolby Atmos, tamellit, iseɣẓanen, amḍan n usnifel, anermis akked usnerni n RAM</string>
+    <string name="device_parts_summary">Ini n ugdil, tugna n uvidyu, Dolby Atmos, tamellit, iseɣẓanen, amḍan n usnifel, anermis, usnerni n RAM akked wassaɣ</string>
     <string name="category_perf_memory_title">Tamellit akked tkatut</string>
     <string name="ram_expansion_title">Asnerni n RAM</string>
     <string name="ram_expansion_summary">Smutti isefka n isnasen ur nermid ara ɣer uklad akken ad tesleɣeḍ RAM</string>
@@ -228,4 +228,29 @@
     <string name="tile_dolby_app_note">Isnasen yesɛan iskaren yettwasbadun iman-nsen ad qqimen seqdacen iskaren-nsen mi ara ttarin imesli.</string>
     <string name="tile_color_app_note">Isnasen yesɛan iniyen yettwasbadun iman-nsen ad qqimen seqdacen iɣewwaren-nsen mi ara ttwaldin.</string>
     <string name="tile_color_adaptive_unavailable">Ini n ugdil: Sexsi</string>
+
+    <string name="category_perf_charging">Assaɣ</string>
+    <string name="bypass_app_title">Assaɣ usrid</string>
+    <string name="bypass_app_summary">Mi ara yili usnas-a deg tama n zdat yerna amsaɣ yeqqen, amsaɣ ad d-yefk tazmert srid i tṭablit, ur tettwaɛemmar ara tzmamt. Ad yensu mi ara tadder tzmamt ɣer %1$d%%.</string>
+    <string name="bypass_notification_channel">Assaɣ usrid</string>
+    <string name="charging_warning_notification_channel">Ilɣa n wassaɣ</string>
+    <string name="bypass_on_toast">Assaɣ usrid yermed</string>
+    <string name="bypass_on_title">Assaɣ usrid yermed, akken yettwasbadu i %1$s</string>
+    <string name="bypass_on_text">Amsaɣ yettak-d tazmert srid i tṭablit, ur tettwaɛemmar ara tzmamt. Assaɣ ad yuɣal mi ara tadder tzmamt ɣer %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Tazmamt drus, assaɣ usrid yensa</string>
+    <string name="bypass_low_battery_title">Tazmamt drus, assaɣ usrid yensa</string>
+    <string name="bypass_low_battery_text">Tazmamt tadder ɣer %1$d%%, ihi tettwaɛemmar tikkelt nniḍen.</string>
+    <string name="heat_protection_title">Ammesten n wassaɣ seg tezɣelt</string>
+    <string name="heat_protection_summary">Seḥbes aɛemmer n tzmamt mi ara tḥmu tṭablit</string>
+    <string name="heat_protection_enabled_title">Seqdec ammesten n wassaɣ seg tezɣelt</string>
+    <string name="heat_protection_description">Deg wassaɣ, ma tewweḍ tzmamt ɣer tezɣelt n tlisa yerna tettwaɛemmar ɣer wassaɣ adday neɣ ugar, tazmamt ad teḥbes aɛemmer, amsaɣ ad d-yefk tazmert srid i tṭablit, akken ur tettḥmu ara tzmamt ugar. Assaɣ ad yuɣal mi ara tadder tezɣelt neɣ assaɣ ddaw-nsen. Ibeddel tikkelt ma yella ugar yal 5 n tesdidin.</string>
+    <string name="category_heat_protection_title">Iɣewwaren n ummesten</string>
+    <string name="heat_protection_min_level_title">Assaɣ adday</string>
+    <string name="heat_protection_min_level_summary">Ala seg %1$d%% d asawen</string>
+    <string name="heat_protection_threshold_title">Tazɣelt n tlisa</string>
+    <string name="heat_protection_threshold_low">Ddaw (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Alemmas (41 °C)</string>
+    <string name="heat_protection_threshold_high">Afellay (43 °C)</string>
+    <string name="heat_protection_notification_title">Taṭablit teḥma aṭas, assaɣ yeḥbes</string>
+    <string name="heat_protection_notification_text">Tazmamt tella ɣef %1$s. Amsaɣ yettak-d tazmert srid i tṭablit alamma tesmeḍ, sakin assaɣ ad yuɣal.</string>
 </resources>

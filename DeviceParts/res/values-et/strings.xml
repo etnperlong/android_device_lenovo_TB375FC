@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Seadme funktsioonid</string>
     <string name="device_parts_title">Seadme funktsioonid</string>
-    <string name="device_parts_summary">Ekraani värv, videopilt, Dolby Atmos, jõudlus, tarvikud, värskendussagedus, puutejuhtimine ja RAM-i laiendus</string>
+    <string name="device_parts_summary">Ekraani värv, videopilt, Dolby Atmos, jõudlus, tarvikud, värskendussagedus, puutejuhtimine, RAM-i laiendus ja laadimine</string>
     <string name="category_perf_memory_title">Jõudlus ja mälu</string>
     <string name="ram_expansion_title">RAM-i laiendus</string>
     <string name="ram_expansion_summary">Vabasta RAM-i, teisaldades jõudeolekus rakenduste andmed salvestusruumi</string>
@@ -227,4 +227,29 @@
     <string name="tile_dolby_app_note">Oma režiimiga rakendused kasutavad seda esitamise ajal edasi.</string>
     <string name="tile_color_app_note">Oma värviseadega rakendused kasutavad seda avatuna edasi.</string>
     <string name="tile_color_adaptive_unavailable">Ekraani värv on keelatud</string>
+
+    <string name="category_perf_charging">Laadimine</string>
+    <string name="bypass_app_title">Möödaviiklaadimine</string>
+    <string name="bypass_app_summary">Kui see rakendus on esiplaanil ja laadija on ühendatud, toidab laadija tahvelarvutit otse ja akut ei laeta. Lülitub välja, kui aku tase langeb %1$d%%-ni.</string>
+    <string name="bypass_notification_channel">Möödaviiklaadimine</string>
+    <string name="charging_warning_notification_channel">Laadimise hoiatused</string>
+    <string name="bypass_on_toast">Möödaviiklaadimine on sees</string>
+    <string name="bypass_on_title">Möödaviiklaadimine on sees, nagu on määratud rakendusele %1$s</string>
+    <string name="bypass_on_text">Laadija toidab tahvelarvutit otse ja akut ei laeta. Laadimine jätkub, kui aku tase langeb %1$d%%-ni.</string>
+    <string name="bypass_low_battery_toast">Aku tühjeneb, möödaviiklaadimine lülitati välja</string>
+    <string name="bypass_low_battery_title">Aku tühjeneb, möödaviiklaadimine lülitati välja</string>
+    <string name="bypass_low_battery_text">Aku tase langes %1$d%%-ni, seega akut laetakse uuesti.</string>
+    <string name="heat_protection_title">Laadimise kuumakaitse</string>
+    <string name="heat_protection_summary">Peata aku laadimine, kui tahvelarvuti on kuum</string>
+    <string name="heat_protection_enabled_title">Kasuta laadimise kuumakaitset</string>
+    <string name="heat_protection_description">Kui laadimise ajal jõuab aku lävetemperatuurini ja on laetud vähemalt minimaalse laetuseni, peatatakse aku laadimine ja laadija toidab tahvelarvutit otse, et aku ei kuumeneks rohkem. Laadimine jätkub, kui temperatuur või laetus langeb neist allapoole. Lülitumine toimub kõige rohkem kord 5 minuti jooksul.</string>
+    <string name="category_heat_protection_title">Kaitse seaded</string>
+    <string name="heat_protection_min_level_title">Minimaalne laetus</string>
+    <string name="heat_protection_min_level_summary">Ainult siis, kui laetus on vähemalt %1$d%%</string>
+    <string name="heat_protection_threshold_title">Lävetemperatuur</string>
+    <string name="heat_protection_threshold_low">Madal (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Keskmine (41 °C)</string>
+    <string name="heat_protection_threshold_high">Kõrge (43 °C)</string>
+    <string name="heat_protection_notification_title">Tahvelarvuti on liiga kuum, laadimine peatati</string>
+    <string name="heat_protection_notification_text">Aku temperatuur on %1$s. Laadija toidab tahvelarvutit otse, kuni see jahtub, seejärel laadimine jätkub.</string>
 </resources>

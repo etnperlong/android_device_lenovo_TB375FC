@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">ડિવાઇસની સુવિધાઓ</string>
     <string name="device_parts_title">ડિવાઇસની સુવિધાઓ</string>
-    <string name="device_parts_summary">સ્ક્રીનનો રંગ, વિડિયો ચિત્ર ગુણવત્તા, Dolby Atmos, પર્ફોર્મન્સ, એસેસરીઝ, રિફ્રેશ રેટ, ટચ અને RAM વિસ્તરણ</string>
+    <string name="device_parts_summary">સ્ક્રીનનો રંગ, વિડિયો ચિત્ર ગુણવત્તા, Dolby Atmos, પર્ફોર્મન્સ, એસેસરીઝ, રિફ્રેશ રેટ, ટચ, RAM વિસ્તરણ અને ચાર્જિંગ</string>
     <string name="ram_expansion_title">RAM વિસ્તરણ</string>
     <string name="ram_expansion_summary">RAM ખાલી કરવા માટે નિષ્ક્રિય ઍપનો ડેટા સ્ટોરેજમાં ખસેડો</string>
     <string name="ram_expansion_description">લાંબા સમયથી ઉપયોગમાં ન લેવાયેલી ઍપનો ડેટા સંકુચિત મેમરીમાંથી સ્ટોરેજમાં ખસેડીને RAM ખાલી કરો. પસંદ કરેલી માત્રામાં સ્ટોરેજ વપરાશે. ફરી શરૂ કર્યા પછી ફેરફારો લાગુ થશે.</string>
@@ -220,4 +220,29 @@
     <string name="tile_dolby_app_note">પોતાનો મોડ ધરાવતી ઍપ ઑડિયો ચલાવતી વખતે તેનો ઉપયોગ ચાલુ રાખે છે.</string>
     <string name="tile_color_app_note">પોતાનું રંગ સેટિંગ ધરાવતી ઍપ ખુલ્લી હોય ત્યારે તેનો ઉપયોગ ચાલુ રાખે છે.</string>
     <string name="tile_color_adaptive_unavailable">સ્ક્રીનનો રંગ અક્ષમ છે</string>
+
+    <string name="category_perf_charging">ચાર્જિંગ</string>
+    <string name="bypass_app_title">બાયપાસ ચાર્જિંગ</string>
+    <string name="bypass_app_summary">જ્યારે આ ઍપ આગળ હોય અને ચાર્જર કનેક્ટ હોય, ત્યારે ચાર્જર ટેબ્લેટને સીધો પાવર આપે છે અને બૅટરી ચાર્જ થતી નથી. બૅટરી %1$d%% સુધી ઘટે ત્યારે બંધ થાય છે.</string>
+    <string name="bypass_notification_channel">બાયપાસ ચાર્જિંગ</string>
+    <string name="charging_warning_notification_channel">ચાર્જિંગ ચેતવણીઓ</string>
+    <string name="bypass_on_toast">બાયપાસ ચાર્જિંગ ચાલુ</string>
+    <string name="bypass_on_title">%1$s માટે સેટ કર્યા મુજબ બાયપાસ ચાર્જિંગ ચાલુ છે</string>
+    <string name="bypass_on_text">ચાર્જર ટેબ્લેટને સીધો પાવર આપે છે અને બૅટરી ચાર્જ થતી નથી. બૅટરી %1$d%% સુધી ઘટે ત્યારે ચાર્જિંગ ફરી શરૂ થાય છે.</string>
+    <string name="bypass_low_battery_toast">બૅટરી ઓછી છે, બાયપાસ ચાર્જિંગ બંધ કર્યું</string>
+    <string name="bypass_low_battery_title">બૅટરી ઓછી છે, બાયપાસ ચાર્જિંગ બંધ કર્યું</string>
+    <string name="bypass_low_battery_text">બૅટરી %1$d%% સુધી ઘટી ગઈ, તેથી તે ફરીથી ચાર્જ થઈ રહી છે.</string>
+    <string name="heat_protection_title">ચાર્જિંગ ગરમી સુરક્ષા</string>
+    <string name="heat_protection_summary">ટેબ્લેટ ગરમ હોય ત્યારે બૅટરી ચાર્જ કરવાનું થોભાવો</string>
+    <string name="heat_protection_enabled_title">ચાર્જિંગ ગરમી સુરક્ષાનો ઉપયોગ કરો</string>
+    <string name="heat_protection_description">ચાર્જિંગ દરમિયાન, જો બૅટરી થ્રેશોલ્ડ તાપમાને પહોંચે અને ઓછામાં ઓછા ન્યૂનતમ ચાર્જ સુધી ચાર્જ થયેલી હોય, તો બૅટરી ચાર્જ થવાનું બંધ થાય છે અને ચાર્જર ટેબ્લેટને સીધો પાવર આપે છે, જેથી બૅટરી વધુ ગરમ ન થાય. તાપમાન અથવા ચાર્જ તેનાથી નીચે જાય ત્યારે ચાર્જિંગ ફરી શરૂ થાય છે. તે દર 5 મિનિટમાં વધુમાં વધુ એક વાર સ્વિચ થાય છે.</string>
+    <string name="category_heat_protection_title">સુરક્ષા સેટિંગ</string>
+    <string name="heat_protection_min_level_title">ન્યૂનતમ ચાર્જ</string>
+    <string name="heat_protection_min_level_summary">ફક્ત %1$d%% કે તેથી વધુ પર</string>
+    <string name="heat_protection_threshold_title">થ્રેશોલ્ડ તાપમાન</string>
+    <string name="heat_protection_threshold_low">ઓછું (39 °C)</string>
+    <string name="heat_protection_threshold_medium">મધ્યમ (41 °C)</string>
+    <string name="heat_protection_threshold_high">ઊંચું (43 °C)</string>
+    <string name="heat_protection_notification_title">ટેબ્લેટ ખૂબ ગરમ છે, ચાર્જિંગ થોભાવ્યું</string>
+    <string name="heat_protection_notification_text">બૅટરી %1$s પર છે. ટેબ્લેટ ઠંડું થાય ત્યાં સુધી ચાર્જર તેને સીધો પાવર આપે છે, પછી ચાર્જિંગ ફરી શરૂ થાય છે.</string>
 </resources>

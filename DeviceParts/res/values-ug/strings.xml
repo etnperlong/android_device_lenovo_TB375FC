@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">ئۈسكۈنە ئىقتىدارلىرى</string>
     <string name="device_parts_title">ئۈسكۈنە ئىقتىدارلىرى</string>
-    <string name="device_parts_summary">ئېكران رەڭگى، سىن سۈپىتى، Dolby Atmos، ئىقتىدار، قوشۇمچە زاپچاسلار، يېڭىلاش نىسبىتى ۋە چەكمە، RAM كېڭەيتىش</string>
+    <string name="device_parts_summary">ئېكران رەڭگى، سىن سۈپىتى، Dolby Atmos، ئىقتىدار، قوشۇمچە زاپچاسلار، يېڭىلاش نىسبىتى ۋە چەكمە، RAM كېڭەيتىش، توكلاش</string>
     <string name="category_perf_memory_title">ئىقتىدار ۋە ئىچكى ساقلىغۇچ</string>
     <string name="ram_expansion_title">RAM كېڭەيتىش</string>
     <string name="ram_expansion_summary">RAM نى بوشىتىش ئۈچۈن ئىشلىتىلمەيدىغان ئەپ سانلىق مەلۇماتلىرىنى ساقلىغۇچقا يۆتكەڭ</string>
@@ -228,4 +228,29 @@
     <string name="tile_dolby_app_note">ئۆزىگە خاس ھالەت تەڭشەلگەن ئەپلەر ئاۋاز قويۇۋاتقاندا شۇ ھالەتنى ئىشلىتىدۇ.</string>
     <string name="tile_color_app_note">ئۆزىگە خاس رەڭ تەڭشىكى بار ئەپلەر ئېچىلغاندا شۇ تەڭشەكنى ئىشلىتىدۇ.</string>
     <string name="tile_color_adaptive_unavailable">ئېكران رەڭگى چەكلەنگەن</string>
+
+    <string name="category_perf_charging">توكلاش</string>
+    <string name="bypass_app_title">ئايلانما توكلاش</string>
+    <string name="bypass_app_summary">بۇ ئەپ ئالدى سەھىپىدە بولۇپ، توكلىغۇچ ئۇلانغان ۋاقىتتا، توكلىغۇچ تاختا كومپيۇتېرغا بىۋاسىتە توك بېرىدۇ ۋە باتارېيە توكلانمايدۇ. باتارېيە %1$d%% گە چۈشكەندە تاقىلىدۇ.</string>
+    <string name="bypass_notification_channel">ئايلانما توكلاش</string>
+    <string name="charging_warning_notification_channel">توكلاش ئاگاھلاندۇرۇشلىرى</string>
+    <string name="bypass_on_toast">ئايلانما توكلاش ئېچىلدى</string>
+    <string name="bypass_on_title">%1$s ئۈچۈن تەڭشەلگەندەك، ئايلانما توكلاش ئېچىق</string>
+    <string name="bypass_on_text">توكلىغۇچ تاختا كومپيۇتېرغا بىۋاسىتە توك بېرىدۇ ۋە باتارېيە توكلانمايدۇ. باتارېيە %1$d%% گە چۈشكەندە توكلاش داۋاملىشىدۇ.</string>
+    <string name="bypass_low_battery_toast">باتارېيە تۆۋەن، ئايلانما توكلاش تاقالدى</string>
+    <string name="bypass_low_battery_title">باتارېيە تۆۋەن، ئايلانما توكلاش تاقالدى</string>
+    <string name="bypass_low_battery_text">باتارېيە %1$d%% گە چۈشتى، شۇڭا قايتا توكلىنىۋاتىدۇ.</string>
+    <string name="heat_protection_title">توكلاش ئىسسىقلىقىدىن قوغداش</string>
+    <string name="heat_protection_summary">تاختا كومپيۇتېر قىزىپ كەتكەندە باتارېيە توكلاشنى ۋاقتىنچە توختىتىش</string>
+    <string name="heat_protection_enabled_title">توكلاش ئىسسىقلىقىدىن قوغداشنى ئىشلىتىش</string>
+    <string name="heat_protection_description">توكلاۋاتقاندا، ئەگەر باتارېيە چەك تېمپېراتۇرىغا يەتسە ۋە ئەڭ تۆۋەن توك مىقدارىدىن كەم بولمىسا، باتارېيە توكلىنىشتىن توختايدۇ ۋە توكلىغۇچ تاختا كومپيۇتېرغا بىۋاسىتە توك بېرىدۇ، شۇنىڭ بىلەن باتارېيە تېخىمۇ قىزىپ كەتمەيدۇ. تېمپېراتۇرا ياكى توك مىقدارى بۇلاردىن تۆۋەنلىگەندە توكلاش داۋاملىشىدۇ. ئەڭ كۆپ بولغاندا ھەر 5 مىنۇتتا بىر قېتىم ئالماشتۇرىدۇ.</string>
+    <string name="category_heat_protection_title">قوغداش تەڭشىكى</string>
+    <string name="heat_protection_min_level_title">ئەڭ تۆۋەن توك مىقدارى</string>
+    <string name="heat_protection_min_level_summary">پەقەت %1$d%% ياكى ئۇنىڭدىن يۇقىرى بولغاندا</string>
+    <string name="heat_protection_threshold_title">چەك تېمپېراتۇرىسى</string>
+    <string name="heat_protection_threshold_low">تۆۋەن (39 °C)</string>
+    <string name="heat_protection_threshold_medium">ئوتتۇرا (41 °C)</string>
+    <string name="heat_protection_threshold_high">يۇقىرى (43 °C)</string>
+    <string name="heat_protection_notification_title">تاختا كومپيۇتېر بەك قىزىپ كەتتى، توكلاش توختىتىلدى</string>
+    <string name="heat_protection_notification_text">باتارېيە تېمپېراتۇرىسى %1$s. سوۋۇغۇچە توكلىغۇچ تاختا كومپيۇتېرغا بىۋاسىتە توك بېرىدۇ، ئاندىن توكلاش داۋاملىشىدۇ.</string>
 </resources>

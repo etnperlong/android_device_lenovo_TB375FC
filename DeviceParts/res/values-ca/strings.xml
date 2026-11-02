@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Funcions del dispositiu</string>
     <string name="device_parts_title">Funcions del dispositiu</string>
-    <string name="device_parts_summary">Color de la pantalla, imatge de vídeo, Dolby Atmos, rendiment, accessoris, freqüència d’actualització, pantalla tàctil i ampliació de RAM</string>
+    <string name="device_parts_summary">Color de la pantalla, imatge de vídeo, Dolby Atmos, rendiment, accessoris, freqüència d’actualització, pantalla tàctil, ampliació de RAM i càrrega</string>
     <string name="category_perf_memory_title">Rendiment i memòria</string>
     <string name="ram_expansion_title">Ampliació de RAM</string>
     <string name="ram_expansion_summary">Mou les dades de les aplicacions inactives a l’emmagatzematge per alliberar RAM</string>
@@ -222,4 +222,29 @@
     <string name="tile_dolby_app_note">Les aplicacions amb un mode propi continuen fent-lo servir mentre reprodueixen àudio.</string>
     <string name="tile_color_app_note">Les aplicacions amb una configuració de color pròpia continuen fent-la servir mentre estan obertes.</string>
     <string name="tile_color_adaptive_unavailable">El color de la pantalla està desactivat</string>
+
+    <string name="category_perf_charging">Càrrega</string>
+    <string name="bypass_app_title">Càrrega en bypass</string>
+    <string name="bypass_app_summary">Mentre aquesta aplicació és en primer pla i el carregador està connectat, el carregador alimenta directament la tauleta i la bateria no es carrega. Es desactiva quan la bateria baixa al %1$d%%.</string>
+    <string name="bypass_notification_channel">Càrrega en bypass</string>
+    <string name="charging_warning_notification_channel">Avisos de càrrega</string>
+    <string name="bypass_on_toast">Càrrega en bypass activada</string>
+    <string name="bypass_on_title">La càrrega en bypass està activada, tal com s\'ha configurat per a %1$s</string>
+    <string name="bypass_on_text">El carregador alimenta directament la tauleta i la bateria no es carrega. La càrrega es reprèn quan la bateria baixa al %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Bateria baixa, s\'ha desactivat la càrrega en bypass</string>
+    <string name="bypass_low_battery_title">Bateria baixa, s\'ha desactivat la càrrega en bypass</string>
+    <string name="bypass_low_battery_text">La bateria ha baixat al %1$d%%, així que torna a carregar-se.</string>
+    <string name="heat_protection_title">Protecció tèrmica de càrrega</string>
+    <string name="heat_protection_summary">Posa en pausa la càrrega de la bateria mentre la tauleta està calenta</string>
+    <string name="heat_protection_enabled_title">Utilitza la protecció tèrmica de càrrega</string>
+    <string name="heat_protection_description">Durant la càrrega, si la bateria arriba a la temperatura llindar i té com a mínim la càrrega mínima, la bateria deixa de carregar-se i el carregador alimenta directament la tauleta, de manera que la bateria no s\'escalfa més. La càrrega es reprèn quan la temperatura o la càrrega baixen per sota d\'aquests valors. Canvia com a màxim una vegada cada 5 minuts.</string>
+    <string name="category_heat_protection_title">Configuració de la protecció</string>
+    <string name="heat_protection_min_level_title">Càrrega mínima</string>
+    <string name="heat_protection_min_level_summary">Només a partir del %1$d%%</string>
+    <string name="heat_protection_threshold_title">Temperatura llindar</string>
+    <string name="heat_protection_threshold_low">Baixa (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Mitjana (41 °C)</string>
+    <string name="heat_protection_threshold_high">Alta (43 °C)</string>
+    <string name="heat_protection_notification_title">Tauleta massa calenta, càrrega en pausa</string>
+    <string name="heat_protection_notification_text">La bateria és a %1$s. El carregador alimenta directament la tauleta fins que es refredi i després es reprèn la càrrega.</string>
 </resources>

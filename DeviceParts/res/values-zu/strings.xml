@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Izici zedivayisi</string>
     <string name="device_parts_title">Izici zedivayisi</string>
-    <string name="device_parts_summary">Umbala wesikrini, isithombe sevidiyo, Dolby Atmos, ukusebenza, izesekeli, izinga lokuvuselela nokuthinta, ukunwetshwa kwe-RAM</string>
+    <string name="device_parts_summary">Umbala wesikrini, isithombe sevidiyo, Dolby Atmos, ukusebenza, izesekeli, izinga lokuvuselela nokuthinta, ukunwetshwa kwe-RAM, ukushaja</string>
     <string name="category_perf_memory_title">Ukusebenza nememori</string>
     <string name="ram_expansion_title">Ukunwetshwa kwe-RAM</string>
     <string name="ram_expansion_summary">Hambisa idatha yezinhlelo zokusebenza ezingasebenzi uye kwisitoreji ukuze ukhulule i-RAM</string>
@@ -222,4 +222,29 @@
     <string name="tile_dolby_app_note">Izinhlelo zokusebenza ezinezindlela zazo ziyaqhubeka nokuzisebenzisa lapho zidlala umsindo.</string>
     <string name="tile_color_app_note">Izinhlelo zokusebenza ezinezilungiselelo zazo zombala ziyaqhubeka nokuzisebenzisa lapho zivuliwe.</string>
     <string name="tile_color_adaptive_unavailable">Umbala wesikrini ukhutshaziwe</string>
+
+    <string name="category_perf_charging">Ukushaja</string>
+    <string name="bypass_app_title">Ukushaja okudlulayo</string>
+    <string name="bypass_app_summary">Ngenkathi lolu hlelo lokusebenza luphambili futhi ishaja ixhunyiwe, ishaja inika ithebulethi amandla ngqo futhi ibhethri alishajwa. Kuyavaleka lapho ibhethri lehlela ku-%1$d%%.</string>
+    <string name="bypass_notification_channel">Ukushaja okudlulayo</string>
+    <string name="charging_warning_notification_channel">Izexwayiso zokushaja</string>
+    <string name="bypass_on_toast">Ukushaja okudlulayo kuvuliwe</string>
+    <string name="bypass_on_title">Ukushaja okudlulayo kuvuliwe, njengoba kusethelwe u-%1$s</string>
+    <string name="bypass_on_text">Ishaja inika ithebulethi amandla ngqo futhi ibhethri alishajwa. Ukushaja kuyaqhubeka lapho ibhethri lehlela ku-%1$d%%.</string>
+    <string name="bypass_low_battery_toast">Ibhethri liphansi, ukushaja okudlulayo kuvaliwe</string>
+    <string name="bypass_low_battery_title">Ibhethri liphansi, ukushaja okudlulayo kuvaliwe</string>
+    <string name="bypass_low_battery_text">Ibhethri lehlele ku-%1$d%%, ngakho liyashaja futhi.</string>
+    <string name="heat_protection_title">Ukuvikelwa kokushisa ekushajeni</string>
+    <string name="heat_protection_summary">Misa okwesikhashana ukushaja ibhethri ngenkathi ithebulethi ishisa</string>
+    <string name="heat_protection_enabled_title">Sebenzisa ukuvikelwa kokushisa ekushajeni</string>
+    <string name="heat_protection_description">Ngesikhathi kushajwa, uma ibhethri lifinyelela izinga lokushisa lomkhawulo futhi lishajwe okungenani kufika ekushajeni okuncane, ibhethri liyayeka ukushaja futhi ishaja inika ithebulethi amandla ngqo, ukuze ibhethri lingaqhubeki lishisa. Ukushaja kuyaqhubeka lapho izinga lokushisa noma ukushaja kwehla ngaphansi kwalawo mazinga. Kushintsha kanye kuphela emizuzwini engu-5.</string>
+    <string name="category_heat_protection_title">Amasethingi okuvikela</string>
+    <string name="heat_protection_min_level_title">Ukushaja okuncane</string>
+    <string name="heat_protection_min_level_summary">Kuphela ku-%1$d%% noma ngaphezulu</string>
+    <string name="heat_protection_threshold_title">Izinga lokushisa lomkhawulo</string>
+    <string name="heat_protection_threshold_low">Okuphansi (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Okuphakathi (41 °C)</string>
+    <string name="heat_protection_threshold_high">Okuphezulu (43 °C)</string>
+    <string name="heat_protection_notification_title">Ithebulethi ishisa kakhulu, ukushaja kumisiwe</string>
+    <string name="heat_protection_notification_text">Ibhethri lisezingeni lokushisa elingu-%1$s. Ishaja inika ithebulethi amandla ngqo ize iphole, bese ukushaja kuyaqhubeka.</string>
 </resources>

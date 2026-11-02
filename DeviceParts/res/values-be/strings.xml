@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Функцыі прылады</string>
     <string name="device_parts_title">Функцыі прылады</string>
-    <string name="device_parts_summary">Колер экрана, якасць відэа, Dolby Atmos, прадукцыйнасць, аксесуары, частата абнаўлення, сэнсар і пашырэнне RAM</string>
+    <string name="device_parts_summary">Колер экрана, якасць відэа, Dolby Atmos, прадукцыйнасць, аксесуары, частата абнаўлення, сэнсар, пашырэнне RAM і зарадка</string>
     <string name="category_perf_memory_title">Прадукцыйнасць і памяць</string>
     <string name="ram_expansion_title">Пашырэнне RAM</string>
     <string name="ram_expansion_summary">Перамяшчайце даныя неактыўных праграм у сховішча, каб вызваліць RAM</string>
@@ -229,4 +229,29 @@
     <string name="tile_dolby_app_note">Праграмы з уласным рэжымам працягваюць выкарыстоўваць яго падчас прайгравання аўдыя.</string>
     <string name="tile_color_app_note">Праграмы з уласнымі наладамі колеру працягваюць выкарыстоўваць іх, пакуль адкрытыя.</string>
     <string name="tile_color_adaptive_unavailable">Колер экрана выключаны</string>
+
+    <string name="category_perf_charging">Зарадка</string>
+    <string name="bypass_app_title">Абыходная зарадка</string>
+    <string name="bypass_app_summary">Калі гэта праграма на пярэднім плане і зарадная прылада падключана, зарадная прылада сілкуе планшэт напрамую, а акумулятар не зараджаецца. Выключаецца, калі зарад акумулятара падае да %1$d%%.</string>
+    <string name="bypass_notification_channel">Абыходная зарадка</string>
+    <string name="charging_warning_notification_channel">Папярэджанні пра зарадку</string>
+    <string name="bypass_on_toast">Абыходная зарадка ўключана</string>
+    <string name="bypass_on_title">Абыходная зарадка ўключана паводле налад для %1$s</string>
+    <string name="bypass_on_text">Зарадная прылада сілкуе планшэт напрамую, а акумулятар не зараджаецца. Зарадка аднавіцца, калі зарад акумулятара падае да %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Нізкі зарад, абыходная зарадка выключана</string>
+    <string name="bypass_low_battery_title">Нізкі зарад, абыходная зарадка выключана</string>
+    <string name="bypass_low_battery_text">Зарад акумулятара ўпаў да %1$d%%, таму ён зноў зараджаецца.</string>
+    <string name="heat_protection_title">Ахова ад перагрэву пры зарадцы</string>
+    <string name="heat_protection_summary">Прыпыняць зарадку акумулятара, калі планшэт гарачы</string>
+    <string name="heat_protection_enabled_title">Выкарыстоўваць ахову ад перагрэву</string>
+    <string name="heat_protection_description">Калі падчас зарадкі акумулятар дасягае парогавай тэмпературы і зараджаны не менш чым да мінімальнага зараду, зарадка акумулятара спыняецца, а зарадная прылада сілкуе планшэт напрамую, каб акумулятар больш не награваўся. Зарадка аднаўляецца, калі тэмпература або зарад апускаюцца ніжэй за зададзеныя значэнні. Пераключэнне адбываецца не часцей за раз на 5 хвілін.</string>
+    <string name="category_heat_protection_title">Налады аховы</string>
+    <string name="heat_protection_min_level_title">Мінімальны зарад</string>
+    <string name="heat_protection_min_level_summary">Толькі пры %1$d%% і больш</string>
+    <string name="heat_protection_threshold_title">Парогавая тэмпература</string>
+    <string name="heat_protection_threshold_low">Нізкая (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Сярэдняя (41 °C)</string>
+    <string name="heat_protection_threshold_high">Высокая (43 °C)</string>
+    <string name="heat_protection_notification_title">Планшэт перагрэўся, зарадка прыпынена</string>
+    <string name="heat_protection_notification_text">Тэмпература акумулятара: %1$s. Зарадная прылада сілкуе планшэт напрамую, пакуль ён не астыне, потым зарадка аднавіцца.</string>
 </resources>

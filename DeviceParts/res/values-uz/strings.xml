@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Qurilma funksiyalari</string>
     <string name="device_parts_title">Qurilma funksiyalari</string>
-    <string name="device_parts_summary">Ekran rangi, video tasviri, Dolby Atmos, unumdorlik, aksessuarlar, yangilanish chastotasi va sensorli ekran, RAM kengaytmasi</string>
+    <string name="device_parts_summary">Ekran rangi, video tasviri, Dolby Atmos, unumdorlik, aksessuarlar, yangilanish chastotasi va sensorli ekran, RAM kengaytmasi, quvvatlash</string>
     <string name="category_perf_memory_title">Ishlash tezligi va xotira</string>
     <string name="ram_expansion_title">RAM kengaytmasi</string>
     <string name="ram_expansion_summary">RAMni bo‘shatish uchun faol bo‘lmagan ilova ma’lumotlarini xotiraga ko‘chiring</string>
@@ -227,4 +227,29 @@
     <string name="tile_dolby_app_note">O‘z rejimiga ega ilovalar audio ijro etayotganda ham shu rejimdan foydalanadi.</string>
     <string name="tile_color_app_note">O‘z rang sozlamasiga ega ilovalar ochiq turganda ham shu sozlamadan foydalanadi.</string>
     <string name="tile_color_adaptive_unavailable">Ekran rangi o‘chirilgan</string>
+
+    <string name="category_perf_charging">Quvvatlash</string>
+    <string name="bypass_app_title">Bevosita quvvatlash</string>
+    <string name="bypass_app_summary">Bu ilova ekranda ochiq va quvvatlagich ulangan paytda planshet bevosita quvvatlagichdan ishlaydi, batareya esa quvvatlanmaydi. Batareya %1$d%% gacha tushganda o‘chadi.</string>
+    <string name="bypass_notification_channel">Bevosita quvvatlash</string>
+    <string name="charging_warning_notification_channel">Quvvatlash ogohlantirishlari</string>
+    <string name="bypass_on_toast">Bevosita quvvatlash yoqildi</string>
+    <string name="bypass_on_title">%1$s uchun sozlanganidek, bevosita quvvatlash yoqildi</string>
+    <string name="bypass_on_text">Planshet bevosita quvvatlagichdan ishlaydi, batareya quvvatlanmaydi. Batareya %1$d%% gacha tushganda quvvatlash davom etadi.</string>
+    <string name="bypass_low_battery_toast">Batareya kam, bevosita quvvatlash o‘chirildi</string>
+    <string name="bypass_low_battery_title">Batareya kam, bevosita quvvatlash o‘chirildi</string>
+    <string name="bypass_low_battery_text">Batareya %1$d%% gacha tushdi, shuning uchun u yana quvvatlanmoqda.</string>
+    <string name="heat_protection_title">Quvvatlashda qizishdan himoya</string>
+    <string name="heat_protection_summary">Planshet qizib ketganda batareyani quvvatlashni pauza qilish</string>
+    <string name="heat_protection_enabled_title">Quvvatlashda qizishdan himoyadan foydalanish</string>
+    <string name="heat_protection_description">Quvvatlash vaqtida batareya chegaraviy haroratga yetsa va kamida minimal darajagacha quvvatlangan bo‘lsa, batareya quvvatlanishi to‘xtaydi va planshet bevosita quvvatlagichdan ishlaydi, shunda batareya boshqa qizimaydi. Harorat yoki quvvat darajasi ulardan pastga tushganda quvvatlash davom etadi. Rejim 5 daqiqada ko‘pi bilan bir marta almashadi.</string>
+    <string name="category_heat_protection_title">Himoya sozlamalari</string>
+    <string name="heat_protection_min_level_title">Minimal quvvat darajasi</string>
+    <string name="heat_protection_min_level_summary">Faqat %1$d%% yoki undan yuqori bo‘lganda</string>
+    <string name="heat_protection_threshold_title">Chegaraviy harorat</string>
+    <string name="heat_protection_threshold_low">Past (39 °C)</string>
+    <string name="heat_protection_threshold_medium">O‘rtacha (41 °C)</string>
+    <string name="heat_protection_threshold_high">Yuqori (43 °C)</string>
+    <string name="heat_protection_notification_title">Planshet juda qizib ketdi, quvvatlash pauza qilindi</string>
+    <string name="heat_protection_notification_text">Batareya harorati: %1$s. Planshet sovuguncha bevosita quvvatlagichdan ishlaydi, keyin quvvatlash davom etadi.</string>
 </resources>

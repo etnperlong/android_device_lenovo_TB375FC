@@ -6,7 +6,7 @@
 <resources>
     <string name="app_name">Funkcije uređaja</string>
     <string name="device_parts_title">Funkcije uređaja</string>
-    <string name="device_parts_summary">Boja ekrana, slika videozapisa, Dolby Atmos, performanse, postavke dodataka, učestalost osvježavanja, dodir i proširenje RAM memorije</string>
+    <string name="device_parts_summary">Boja ekrana, slika videozapisa, Dolby Atmos, performanse, postavke dodataka, učestalost osvježavanja, dodir, proširenje RAM memorije i punjenje</string>
     <string name="category_perf_memory_title">Performanse i memorija</string>
     <string name="ram_expansion_title">Proširenje RAM memorije</string>
     <string name="ram_expansion_summary">Premjestite podatke neaktivnih aplikacija u pohranu da biste oslobodili RAM</string>
@@ -227,4 +227,29 @@
     <string name="tile_dolby_app_note">Aplikacije s vlastitim načinom nastavljaju ga koristiti dok reproduciraju zvuk.</string>
     <string name="tile_color_app_note">Aplikacije s vlastitom postavkom boje nastavljaju je koristiti dok su otvorene.</string>
     <string name="tile_color_adaptive_unavailable">Boja ekrana je onemogućena</string>
+
+    <string name="category_perf_charging">Punjenje</string>
+    <string name="bypass_app_title">Zaobilazno punjenje</string>
+    <string name="bypass_app_summary">Dok je ova aplikacija u prvom planu i punjač je povezan, punjač direktno napaja tablet, a baterija se ne puni. Isključuje se kada baterija padne na %1$d%%.</string>
+    <string name="bypass_notification_channel">Zaobilazno punjenje</string>
+    <string name="charging_warning_notification_channel">Upozorenja o punjenju</string>
+    <string name="bypass_on_toast">Zaobilazno punjenje je uključeno</string>
+    <string name="bypass_on_title">Zaobilazno punjenje je uključeno, kako je postavljeno za aplikaciju %1$s</string>
+    <string name="bypass_on_text">Punjač direktno napaja tablet, a baterija se ne puni. Punjenje se nastavlja kada baterija padne na %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Baterija je slaba, zaobilazno punjenje je isključeno</string>
+    <string name="bypass_low_battery_title">Baterija je slaba, zaobilazno punjenje je isključeno</string>
+    <string name="bypass_low_battery_text">Baterija je pala na %1$d%%, pa se ponovo puni.</string>
+    <string name="heat_protection_title">Zaštita od pregrijavanja pri punjenju</string>
+    <string name="heat_protection_summary">Pauziraj punjenje baterije dok je tablet vruć</string>
+    <string name="heat_protection_enabled_title">Koristi zaštitu od pregrijavanja pri punjenju</string>
+    <string name="heat_protection_description">Ako tokom punjenja baterija dostigne graničnu temperaturu i napunjena je najmanje do minimalnog nivoa, baterija se prestaje puniti, a punjač direktno napaja tablet kako se baterija ne bi dodatno zagrijavala. Punjenje se nastavlja kada temperatura ili nivo napunjenosti padnu ispod tih vrijednosti. Prebacivanje se vrši najviše jednom svakih 5 minuta.</string>
+    <string name="category_heat_protection_title">Postavke zaštite</string>
+    <string name="heat_protection_min_level_title">Minimalni nivo napunjenosti</string>
+    <string name="heat_protection_min_level_summary">Samo pri %1$d%% ili više</string>
+    <string name="heat_protection_threshold_title">Granična temperatura</string>
+    <string name="heat_protection_threshold_low">Niska (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Srednja (41 °C)</string>
+    <string name="heat_protection_threshold_high">Visoka (43 °C)</string>
+    <string name="heat_protection_notification_title">Tablet je prevruć, punjenje je pauzirano</string>
+    <string name="heat_protection_notification_text">Temperatura baterije je %1$s. Punjač direktno napaja tablet dok se ne ohladi, a zatim se punjenje nastavlja.</string>
 </resources>

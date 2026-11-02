@@ -8,7 +8,7 @@
 
     <!-- Settings entry points -->
     <string name="device_parts_title">Device parts</string>
-    <string name="device_parts_summary">Screen color, video picture, RAM expansion, Dolby Atmos, performance, accessories, refresh rate and touch</string>
+    <string name="device_parts_summary">Screen color, video picture, RAM expansion, Dolby Atmos, performance, accessories, refresh rate, touch and charging</string>
     <string name="category_perf_memory_title">Performance and memory</string>
     <string name="ram_expansion_title">RAM expansion</string>
     <string name="ram_expansion_summary">Move inactive app data to storage to free RAM</string>
@@ -233,6 +233,33 @@
     <string name="perf_refresh_rate_none">Not locked</string>
     <string name="perf_refresh_rate_hz">%1$d Hz</string>
     <string name="perf_advanced_reset_title">Reset to preset</string>
+
+    <!-- Bypass charging and charging heat protection -->
+    <string name="category_perf_charging">Charging</string>
+    <string name="bypass_app_title">Bypass charging</string>
+    <string name="bypass_app_summary">While this app is in front and the charger is connected, the charger powers the tablet directly and the battery is not charged. Turns off when the battery falls to %1$d%%.</string>
+    <string name="bypass_notification_channel">Bypass charging</string>
+    <string name="charging_warning_notification_channel">Charging warnings</string>
+    <string name="bypass_on_toast">Bypass charging on</string>
+    <string name="bypass_on_title">Bypass charging is on, as set for %1$s</string>
+    <string name="bypass_on_text">The charger powers the tablet directly and the battery is not charged. Charging resumes when the battery falls to %1$d%%.</string>
+    <string name="bypass_low_battery_toast">Battery low, bypass charging turned off</string>
+    <string name="bypass_low_battery_title">Battery low, bypass charging turned off</string>
+    <string name="bypass_low_battery_text">The battery fell to %1$d%%, so it is charging again.</string>
+    <string name="heat_protection_title">Charging heat protection</string>
+    <string name="heat_protection_summary">Pause charging the battery while the tablet is hot</string>
+    <string name="heat_protection_enabled_title">Use charging heat protection</string>
+    <string name="heat_protection_description">While charging, if the battery reaches the threshold temperature and is charged to at least the minimum charge, the battery stops charging and the charger powers the tablet directly, so the battery does not heat up further. Charging resumes when the temperature or the charge falls below them. It switches at most once every 5 minutes.</string>
+    <string name="category_heat_protection_title">Protection settings</string>
+    <string name="heat_protection_min_level_title">Minimum charge</string>
+    <string name="heat_protection_min_level_summary">Only at %1$d%% or more</string>
+    <string name="heat_protection_threshold_title">Threshold temperature</string>
+    <string name="heat_protection_threshold_low">Low (39 °C)</string>
+    <string name="heat_protection_threshold_medium">Medium (41 °C)</string>
+    <string name="heat_protection_threshold_high">High (43 °C)</string>
+    <string name="heat_protection_notification_title">Tablet too hot, charging paused</string>
+    <string name="heat_protection_notification_text">The battery is at %1$s. The charger powers the tablet directly until it cools down, then charging resumes.</string>
+    <string name="heat_protection_temperature" translatable="false">%1$.1f °C</string>
 
     <!-- Trademark notices and disclaimers of the MiraVision and Dolby pages -->
     <string name="disclaimer_miravision_trademark">MediaTek and MiraVision are trademarks of MediaTek Inc.</string>
