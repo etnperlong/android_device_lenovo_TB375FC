@@ -247,4 +247,7 @@
     <string name="heat_protection_threshold_high">Cao (43 °C)</string>
     <string name="heat_protection_notification_title">Máy tính bảng quá nóng, đã tạm dừng sạc</string>
     <string name="heat_protection_notification_text">Nhiệt độ pin là %1$s. Bộ sạc sẽ cấp điện trực tiếp cho máy tính bảng cho đến khi máy nguội, sau đó tiếp tục sạc.</string>
+    <string name="bypass_gamespace_title">Sạc bỏ qua pin trong trò chơi GameSpace</string>
+    <string name="bypass_gamespace_summary">Khi một trò chơi đã thêm vào GameSpace đang chạy và bộ sạc được kết nối, bộ sạc sẽ cấp điện trực tiếp cho máy tính bảng và pin không được sạc. Tự động tắt khi pin giảm xuống %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Đã bật sạc bỏ qua pin cho trò chơi GameSpace %1$s</string>
 </resources>

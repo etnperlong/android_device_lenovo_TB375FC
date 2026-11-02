@@ -265,6 +265,9 @@
     <string name="heat_protection_notification_title">Tablet too hot, charging paused</string>
     <string name="heat_protection_notification_text">The battery is at %1$s. The charger powers the tablet directly until it cools down, then charging resumes.</string>
     <string name="heat_protection_temperature" translatable="false">%1$.1f °C</string>
+    <string name="bypass_gamespace_title">Bypass charging in GameSpace games</string>
+    <string name="bypass_gamespace_summary">While a game added to GameSpace is running and the charger is connected, the charger powers the tablet directly and the battery is not charged. Turns off when the battery falls to %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Bypass charging is on for the GameSpace game %1$s</string>
 
     <!-- Trademark notices and disclaimers of the MiraVision and Dolby pages -->
     <string name="disclaimer_miravision_trademark">MediaTek and MiraVision are trademarks of MediaTek Inc.</string>

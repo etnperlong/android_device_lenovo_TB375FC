@@ -256,4 +256,7 @@
     <string name="heat_protection_threshold_high">Afellay (43 °C)</string>
     <string name="heat_protection_notification_title">Taṭablit teḥma aṭas, assaɣ yeḥbes</string>
     <string name="heat_protection_notification_text">Tazmamt tella ɣef %1$s. Amsaɣ yettak-d tazmert srid i tṭablit alamma tesmeḍ, sakin assaɣ ad yuɣal.</string>
+    <string name="bypass_gamespace_title">Assaɣ usrid deg wuraren n GameSpace</string>
+    <string name="bypass_gamespace_summary">Mi ara iteddu wurar yettwarnan ɣer GameSpace yerna amsaɣ yeqqen, amsaɣ ad d-yefk tazmert srid i tṭablit, ur tettwaɛemmar ara tzmamt. Ad yensu mi ara tadder tzmamt ɣer %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Assaɣ usrid yermed i wurar n GameSpace %1$s</string>
 </resources>

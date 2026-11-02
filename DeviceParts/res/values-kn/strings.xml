@@ -249,4 +249,7 @@
     <string name="heat_protection_threshold_high">ಹೆಚ್ಚು (43 °C)</string>
     <string name="heat_protection_notification_title">ಟ್ಯಾಬ್ಲೆಟ್ ತುಂಬಾ ಬಿಸಿಯಾಗಿದೆ, ಚಾರ್ಜಿಂಗ್ ವಿರಾಮಗೊಳಿಸಲಾಗಿದೆ</string>
     <string name="heat_protection_notification_text">ಬ್ಯಾಟರಿ %1$s ನಲ್ಲಿದೆ. ಅದು ತಣ್ಣಗಾಗುವವರೆಗೆ ಚಾರ್ಜರ್ ನೇರವಾಗಿ ಟ್ಯಾಬ್ಲೆಟ್‌ಗೆ ಪವರ್ ನೀಡುತ್ತದೆ, ನಂತರ ಚಾರ್ಜಿಂಗ್ ಮುಂದುವರಿಯುತ್ತದೆ.</string>
+    <string name="bypass_gamespace_title">GameSpace ಗೇಮ್‌ಗಳಲ್ಲಿ ಬೈಪಾಸ್ ಚಾರ್ಜಿಂಗ್</string>
+    <string name="bypass_gamespace_summary">GameSpace ಗೆ ಸೇರಿಸಿದ ಗೇಮ್ ರನ್ ಆಗುತ್ತಿರುವಾಗ ಮತ್ತು ಚಾರ್ಜರ್ ಕನೆಕ್ಟ್ ಆಗಿರುವಾಗ, ಚಾರ್ಜರ್ ನೇರವಾಗಿ ಟ್ಯಾಬ್ಲೆಟ್‌ಗೆ ಪವರ್ ನೀಡುತ್ತದೆ ಮತ್ತು ಬ್ಯಾಟರಿ ಚಾರ್ಜ್ ಆಗುವುದಿಲ್ಲ. ಬ್ಯಾಟರಿ %1$d%% ಗೆ ಇಳಿದಾಗ ಆಫ್ ಆಗುತ್ತದೆ.</string>
+    <string name="bypass_gamespace_on_title">GameSpace ಗೇಮ್ %1$s ಗಾಗಿ ಬೈಪಾಸ್ ಚಾರ್ಜಿಂಗ್ ಆನ್ ಆಗಿದೆ</string>
 </resources>

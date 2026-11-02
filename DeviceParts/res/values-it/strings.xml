@@ -251,4 +251,7 @@
     <string name="heat_protection_threshold_high">Alta (43 °C)</string>
     <string name="heat_protection_notification_title">Tablet troppo caldo, ricarica sospesa</string>
     <string name="heat_protection_notification_text">La batteria è a %1$s. Il caricabatterie alimenta direttamente il tablet finché non si raffredda, poi la ricarica riprende.</string>
+    <string name="bypass_gamespace_title">Ricarica bypass nei giochi di GameSpace</string>
+    <string name="bypass_gamespace_summary">Quando è in esecuzione un gioco aggiunto a GameSpace e il caricabatterie è connesso, il caricabatterie alimenta direttamente il tablet e la batteria non viene caricata. Si disattiva quando la batteria scende al %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Ricarica bypass attiva per il gioco di GameSpace %1$s</string>
 </resources>

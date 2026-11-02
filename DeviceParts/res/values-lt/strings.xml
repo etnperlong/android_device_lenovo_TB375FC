@@ -257,4 +257,7 @@
     <string name="heat_protection_threshold_high">Aukšta (43 °C)</string>
     <string name="heat_protection_notification_title">Planšetinis kompiuteris per karštas, įkrovimas pristabdytas</string>
     <string name="heat_protection_notification_text">Akumuliatoriaus temperatūra: %1$s. Įkroviklis tiesiogiai maitina planšetinį kompiuterį, kol jis atvės, tada įkrovimas bus tęsiamas.</string>
+    <string name="bypass_gamespace_title">Apeinamasis įkrovimas GameSpace žaidimuose</string>
+    <string name="bypass_gamespace_summary">Kai veikia į GameSpace įtrauktas žaidimas ir prijungtas įkroviklis, įkroviklis tiesiogiai maitina planšetinį kompiuterį, o akumuliatorius nėra įkraunamas. Išsijungia, kai akumuliatoriaus įkrova nukrenta iki %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Apeinamasis įkrovimas įjungtas GameSpace žaidimui %1$s</string>
 </resources>

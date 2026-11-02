@@ -256,4 +256,7 @@
     <string name="heat_protection_threshold_high">يۇقىرى (43 °C)</string>
     <string name="heat_protection_notification_title">تاختا كومپيۇتېر بەك قىزىپ كەتتى، توكلاش توختىتىلدى</string>
     <string name="heat_protection_notification_text">باتارېيە تېمپېراتۇرىسى %1$s. سوۋۇغۇچە توكلىغۇچ تاختا كومپيۇتېرغا بىۋاسىتە توك بېرىدۇ، ئاندىن توكلاش داۋاملىشىدۇ.</string>
+    <string name="bypass_gamespace_title">GameSpace ئويۇنلىرىدا ئايلانما توكلاش</string>
+    <string name="bypass_gamespace_summary">GameSpace غا قوشۇلغان ئويۇن ئىجرا بولۇۋاتقان ۋە توكلىغۇچ ئۇلانغان ۋاقىتتا، توكلىغۇچ تاختا كومپيۇتېرغا بىۋاسىتە توك بېرىدۇ ۋە باتارېيە توكلانمايدۇ. باتارېيە %1$d%% گە چۈشكەندە تاقىلىدۇ.</string>
+    <string name="bypass_gamespace_on_title">GameSpace ئويۇنى %1$s ئۈچۈن ئايلانما توكلاش ئېچىق</string>
 </resources>

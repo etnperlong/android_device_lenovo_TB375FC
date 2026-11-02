@@ -256,4 +256,7 @@
     <string name="heat_protection_threshold_high">زیاد (43 °C)</string>
     <string name="heat_protection_notification_title">رایانه لوحی خیلی داغ است، شارژ متوقف شد</string>
     <string name="heat_protection_notification_text">دمای باتری %1$s است. شارژر تا خنک شدن رایانه لوحی مستقیماً آن را تغذیه می‌کند و سپس شارژ از سر گرفته می‌شود.</string>
+    <string name="bypass_gamespace_title">شارژ بای‌پس در بازی‌های GameSpace</string>
+    <string name="bypass_gamespace_summary">وقتی بازی‌ای که به GameSpace اضافه شده در حال اجراست و شارژر وصل است، شارژر مستقیماً رایانه لوحی را تغذیه می‌کند و باتری شارژ نمی‌شود. وقتی باتری به %1$d%% برسد خاموش می‌شود.</string>
+    <string name="bypass_gamespace_on_title">شارژ بای‌پس برای بازی %1$s در GameSpace روشن است</string>
 </resources>

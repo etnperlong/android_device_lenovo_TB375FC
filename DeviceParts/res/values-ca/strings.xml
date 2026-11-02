@@ -250,4 +250,7 @@
     <string name="heat_protection_threshold_high">Alta (43 °C)</string>
     <string name="heat_protection_notification_title">Tauleta massa calenta, càrrega en pausa</string>
     <string name="heat_protection_notification_text">La bateria és a %1$s. El carregador alimenta directament la tauleta fins que es refredi i després es reprèn la càrrega.</string>
+    <string name="bypass_gamespace_title">Càrrega en bypass als jocs de GameSpace</string>
+    <string name="bypass_gamespace_summary">Mentre s\'executa un joc afegit a GameSpace i el carregador està connectat, el carregador alimenta directament la tauleta i la bateria no es carrega. Es desactiva quan la bateria baixa al %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">La càrrega en bypass està activada per al joc de GameSpace %1$s</string>
 </resources>

@@ -255,4 +255,7 @@
     <string name="heat_protection_threshold_high">E lartë (43 °C)</string>
     <string name="heat_protection_notification_title">Tableti shumë i nxehtë, karikimi u ndalua</string>
     <string name="heat_protection_notification_text">Bateria është në %1$s. Karikuesi e furnizon tabletin drejtpërdrejt derisa të ftohet, pastaj karikimi rifillon.</string>
+    <string name="bypass_gamespace_title">Karikimi anashkalues në lojërat e GameSpace</string>
+    <string name="bypass_gamespace_summary">Kur një lojë e shtuar në GameSpace është në ekzekutim dhe karikuesi është i lidhur, karikuesi e furnizon tabletin drejtpërdrejt dhe bateria nuk karikohet. Çaktivizohet kur bateria bie në %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Karikimi anashkalues është aktiv për lojën e GameSpace %1$s</string>
 </resources>

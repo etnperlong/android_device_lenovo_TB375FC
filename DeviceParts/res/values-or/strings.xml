@@ -248,4 +248,7 @@
     <string name="heat_protection_threshold_high">ଅଧିକ (43 °C)</string>
     <string name="heat_protection_notification_title">ଟାବଲେଟ ବହୁତ ଗରମ, ଚାର୍ଜିଂ ବିରତ ହେଲା</string>
     <string name="heat_protection_notification_text">ବ୍ୟାଟେରୀ %1$s ରେ ଅଛି। ଏହା ଥଣ୍ଡା ନହେବା ପର୍ଯ୍ୟନ୍ତ ଚାର୍ଜର ସିଧାସଳଖ ଟାବଲେଟକୁ ପାୱାର ଦିଏ, ତା\'ପରେ ଚାର୍ଜିଂ ପୁଣି ଆରମ୍ଭ ହୁଏ।</string>
+    <string name="bypass_gamespace_title">GameSpace ଗେମଗୁଡ଼ିକରେ ବାଇପାସ ଚାର୍ଜିଂ</string>
+    <string name="bypass_gamespace_summary">GameSpaceରେ ଯୋଡ଼ାଯାଇଥିବା ଏକ ଗେମ ଚାଲୁଥିବାବେଳେ ଏବଂ ଚାର୍ଜର ସଂଯୋଗ ହୋଇଥିବାବେଳେ, ଚାର୍ଜର ସିଧାସଳଖ ଟାବଲେଟକୁ ପାୱାର ଦିଏ ଏବଂ ବ୍ୟାଟେରୀ ଚାର୍ଜ ହୁଏ ନାହିଁ। ବ୍ୟାଟେରୀ %1$d%%କୁ ଖସିଲେ ଏହା ବନ୍ଦ ହୋଇଯାଏ।</string>
+    <string name="bypass_gamespace_on_title">GameSpace ଗେମ %1$s ପାଇଁ ବାଇପାସ ଚାର୍ଜିଂ ଚାଲୁ ଅଛି</string>
 </resources>

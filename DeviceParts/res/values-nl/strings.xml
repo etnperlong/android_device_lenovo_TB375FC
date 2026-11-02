@@ -248,4 +248,7 @@
     <string name="heat_protection_threshold_high">Hoog (43 °C)</string>
     <string name="heat_protection_notification_title">Tablet te heet, opladen gepauzeerd</string>
     <string name="heat_protection_notification_text">De batterij is %1$s. De oplader voedt de tablet rechtstreeks totdat deze is afgekoeld. Daarna wordt het opladen hervat.</string>
+    <string name="bypass_gamespace_title">Bypass-opladen in GameSpace-games</string>
+    <string name="bypass_gamespace_summary">Als een aan GameSpace toegevoegde game actief is en de oplader is aangesloten, voedt de oplader de tablet rechtstreeks en wordt de batterij niet opgeladen. Wordt uitgeschakeld als de batterij daalt tot %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Bypass-opladen is aan voor de GameSpace-game %1$s</string>
 </resources>

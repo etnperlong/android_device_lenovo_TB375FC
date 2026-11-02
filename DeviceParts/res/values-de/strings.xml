@@ -248,4 +248,7 @@
     <string name="heat_protection_threshold_high">Hoch (43 °C)</string>
     <string name="heat_protection_notification_title">Tablet zu heiß, Laden pausiert</string>
     <string name="heat_protection_notification_text">Der Akku hat %1$s. Das Ladegerät versorgt das Tablet direkt, bis es abgekühlt ist. Danach wird das Laden fortgesetzt.</string>
+    <string name="bypass_gamespace_title">Bypass-Laden in GameSpace-Spielen</string>
+    <string name="bypass_gamespace_summary">Solange ein zu GameSpace hinzugefügtes Spiel läuft und das Ladegerät angeschlossen ist, versorgt das Ladegerät das Tablet direkt und der Akku wird nicht geladen. Wird deaktiviert, wenn der Akkustand auf %1$d%% fällt.</string>
+    <string name="bypass_gamespace_on_title">Bypass-Laden ist für das GameSpace-Spiel %1$s aktiviert</string>
 </resources>

@@ -255,4 +255,7 @@
     <string name="heat_protection_threshold_high">Magas (43 °C)</string>
     <string name="heat_protection_notification_title">A táblagép túl forró, a töltés szünetel</string>
     <string name="heat_protection_notification_text">Az akkumulátor hőmérséklete: %1$s. A töltő közvetlenül táplálja a táblagépet, amíg le nem hűl, majd a töltés folytatódik.</string>
+    <string name="bypass_gamespace_title">Bypass töltés a GameSpace játékaiban</string>
+    <string name="bypass_gamespace_summary">Amíg egy GameSpace-hez hozzáadott játék fut és a töltő csatlakoztatva van, a töltő közvetlenül táplálja a táblagépet, az akkumulátor pedig nem töltődik. Kikapcsol, amikor az akkumulátor töltöttsége %1$d%%-ra csökken.</string>
+    <string name="bypass_gamespace_on_title">A bypass töltés be van kapcsolva a(z) %1$s GameSpace-játékhoz</string>
 </resources>

@@ -255,4 +255,7 @@
     <string name="heat_protection_threshold_high">Өндөр (43 °C)</string>
     <string name="heat_protection_notification_title">Таблет хэт халсан тул цэнэглэлтийг түр зогсоолоо</string>
     <string name="heat_protection_notification_text">Батарейн температур %1$s байна. Таблет хөртөл цэнэглэгч түүнийг шууд тэжээж, дараа нь цэнэглэлт сэргэнэ.</string>
+    <string name="bypass_gamespace_title">GameSpace тоглоомд тойруу цэнэглэлт</string>
+    <string name="bypass_gamespace_summary">GameSpace-д нэмсэн тоглоом ажиллаж, цэнэглэгч холбогдсон үед цэнэглэгч таблетыг шууд тэжээж, батарей цэнэглэгдэхгүй. Батарей %1$d%% хүртэл буурахад унтарна.</string>
+    <string name="bypass_gamespace_on_title">GameSpace тоглоом %1$s-д тойруу цэнэглэлт асаалттай</string>
 </resources>

@@ -254,4 +254,7 @@
     <string name="heat_protection_threshold_high">Tinggi (43 °C)</string>
     <string name="heat_protection_notification_title">Tablet terlalu panas, pengisian daya dijeda</string>
     <string name="heat_protection_notification_text">Suhu baterai %1$s. Pengisi daya langsung memberi daya ke tablet hingga suhunya turun, lalu pengisian daya dilanjutkan.</string>
+    <string name="bypass_gamespace_title">Bypass pengisian daya di game GameSpace</string>
+    <string name="bypass_gamespace_summary">Saat game yang ditambahkan ke GameSpace sedang berjalan dan pengisi daya terhubung, pengisi daya langsung memberi daya ke tablet dan baterai tidak diisi. Nonaktif saat baterai turun ke %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Bypass pengisian daya aktif untuk game GameSpace %1$s</string>
 </resources>

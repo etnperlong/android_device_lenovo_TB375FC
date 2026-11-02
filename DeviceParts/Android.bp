@@ -32,8 +32,9 @@
 //  - perf: per-app performance profiles: the foreground app goes to the MediaTek power HAL
 //    (IMtkpower_applist, as stock system_server does) or a custom power HAL lock is held for it;
 //  - memory: RAM expansion choices for mmd's zram writeback and compression algorithm;
-//  - charging: bypass charging for chosen apps (stock: ZUI game assistant) and the charging
-//    heat protection, through the toggle of the LineageOS health HAL (health/).
+//  - charging: bypass charging for chosen apps and DerpFest GameSpace games (stock: ZUI game
+//    assistant) and the charging heat protection, through the toggle of the LineageOS health
+//    HAL (health/).
 // Its screens are listed on its Settings homepage entry and placed in the Display, Sound,
 // Battery, Connected devices and System pages of Settings.
 // Not privileged: uid 1000 already passes every permission check, and a priv-app would need

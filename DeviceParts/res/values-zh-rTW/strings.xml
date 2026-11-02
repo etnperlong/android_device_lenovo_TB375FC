@@ -256,4 +256,7 @@
     <string name="heat_protection_threshold_high">高（43 °C）</string>
     <string name="heat_protection_notification_title">平板電腦溫度過高，已暫停充電</string>
     <string name="heat_protection_notification_text">電池溫度為 %1$s。冷卻前會由充電器直接為平板電腦供電，冷卻後將恢復充電。</string>
+    <string name="bypass_gamespace_title">GameSpace 遊戲使用旁路供電</string>
+    <string name="bypass_gamespace_summary">已加入 GameSpace 的遊戲執行中且已連接充電器時，會由充電器直接為平板電腦供電，電池不會充電。電量降至 %1$d%% 時自動關閉。</string>
+    <string name="bypass_gamespace_on_title">已為 GameSpace 遊戲「%1$s」開啟旁路供電</string>
 </resources>

@@ -247,4 +247,7 @@
     <string name="heat_protection_threshold_high">ខ្ពស់ (43 °C)</string>
     <string name="heat_protection_notification_title">ថេប្លេតក្តៅពេក បានផ្អាកការសាកថ្ម</string>
     <string name="heat_protection_notification_text">ថ្មមានសីតុណ្ហភាព %1$s។ ឆ្នាំងសាកផ្គត់ផ្គង់ថាមពលដល់ថេប្លេតដោយផ្ទាល់រហូតដល់វាត្រជាក់ចុះ បន្ទាប់មកការសាកថ្មនឹងបន្តវិញ។</string>
+    <string name="bypass_gamespace_title">ការសាកថ្មរំលងក្នុងហ្គេម GameSpace</string>
+    <string name="bypass_gamespace_summary">នៅពេលហ្គេមដែលបានបញ្ចូលទៅក្នុង GameSpace កំពុងដំណើរការ ហើយឆ្នាំងសាកត្រូវបានភ្ជាប់ ឆ្នាំងសាកផ្គត់ផ្គង់ថាមពលដល់ថេប្លេតដោយផ្ទាល់ ហើយថ្មមិនត្រូវបានសាកទេ។ បិទនៅពេលថ្មធ្លាក់ដល់ %1$d%%។</string>
+    <string name="bypass_gamespace_on_title">ការសាកថ្មរំលងត្រូវបានបើកសម្រាប់ហ្គេម GameSpace %1$s</string>
 </resources>

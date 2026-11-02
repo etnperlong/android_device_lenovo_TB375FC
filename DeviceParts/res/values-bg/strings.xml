@@ -255,4 +255,7 @@
     <string name="heat_protection_threshold_high">Висока (43 °C)</string>
     <string name="heat_protection_notification_title">Таблетът е твърде горещ, зареждането е на пауза</string>
     <string name="heat_protection_notification_text">Температурата на батерията е %1$s. Зарядното устройство захранва таблета директно, докато той се охлади, след което зареждането се възобновява.</string>
+    <string name="bypass_gamespace_title">Директно захранване в игрите от GameSpace</string>
+    <string name="bypass_gamespace_summary">Докато се изпълнява игра, добавена в GameSpace, и зарядното устройство е свързано, то захранва таблета директно и батерията не се зарежда. Изключва се, когато батерията падне до %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Директното захранване е включено за играта от GameSpace %1$s</string>
 </resources>

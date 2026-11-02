@@ -260,4 +260,7 @@
     <string name="heat_protection_threshold_high">مرتفعة (43 °C)</string>
     <string name="heat_protection_notification_title">الجهاز اللوحي ساخن جدًا، تم إيقاف الشحن مؤقتًا</string>
     <string name="heat_protection_notification_text">درجة حرارة البطارية %1$s. يزوّد الشاحن الجهاز اللوحي بالطاقة مباشرةً حتى يبرد، ثم يُستأنف الشحن.</string>
+    <string name="bypass_gamespace_title">الشحن التجاوزي في ألعاب GameSpace</string>
+    <string name="bypass_gamespace_summary">أثناء تشغيل لعبة مضافة إلى GameSpace واتصال الشاحن، يزوّد الشاحن الجهاز اللوحي بالطاقة مباشرةً ولا يتم شحن البطارية. يتوقف عند انخفاض البطارية إلى %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">الشحن التجاوزي مفعّل للعبة GameSpace ‏%1$s</string>
 </resources>

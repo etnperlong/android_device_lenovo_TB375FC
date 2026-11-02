@@ -253,4 +253,7 @@
     <string name="heat_protection_threshold_high">Ard (43 °C)</string>
     <string name="heat_protection_notification_title">Táibléad róthe, luchtú ar sos</string>
     <string name="heat_protection_notification_text">Tá an ceallra ag %1$s. Tugann an luchtaire cumhacht don táibléad go díreach go dtí go bhfuarann sé, ansin atosóidh an luchtú.</string>
+    <string name="bypass_gamespace_title">Luchtú seachbhóthair i gcluichí GameSpace</string>
+    <string name="bypass_gamespace_summary">Fad atá cluiche a cuireadh le GameSpace ag rith agus an luchtaire nasctha, tugann an luchtaire cumhacht don táibléad go díreach agus ní luchtaítear an ceallra. Casfar as é nuair a thiteann an ceallra go %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Tá luchtú seachbhóthair ar siúl don chluiche GameSpace %1$s</string>
 </resources>

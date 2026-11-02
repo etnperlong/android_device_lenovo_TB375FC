@@ -250,4 +250,7 @@
     <string name="heat_protection_threshold_high">Alta (43 °C)</string>
     <string name="heat_protection_notification_title">Tablet demasiado caliente, carga en pausa</string>
     <string name="heat_protection_notification_text">La batería está a %1$s. El cargador alimentará directamente el tablet hasta que se enfríe y después se reanudará la carga.</string>
+    <string name="bypass_gamespace_title">Carga directa en juegos de GameSpace</string>
+    <string name="bypass_gamespace_summary">Mientras se ejecute un juego añadido a GameSpace y el cargador esté conectado, el cargador alimentará directamente el tablet y la batería no se cargará. Se desactiva cuando la batería baja al %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Carga directa activada para el juego de GameSpace %1$s</string>
 </resources>

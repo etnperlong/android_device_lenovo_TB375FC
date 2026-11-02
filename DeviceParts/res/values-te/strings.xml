@@ -248,4 +248,7 @@
     <string name="heat_protection_threshold_high">ఎక్కువ (43 °C)</string>
     <string name="heat_protection_notification_title">టాబ్లెట్ చాలా వేడిగా ఉంది, ఛార్జింగ్ పాజ్ చేయబడింది</string>
     <string name="heat_protection_notification_text">బ్యాటరీ ఉష్ణోగ్రత %1$s. టాబ్లెట్ చల్లబడే వరకు ఛార్జర్ నేరుగా దానికి పవర్ అందిస్తుంది, ఆ తర్వాత ఛార్జింగ్ మళ్లీ మొదలవుతుంది.</string>
+    <string name="bypass_gamespace_title">GameSpace గేమ్‌లలో బైపాస్ ఛార్జింగ్</string>
+    <string name="bypass_gamespace_summary">GameSpaceకు జోడించిన గేమ్ రన్ అవుతూ, ఛార్జర్ కనెక్ట్ అయి ఉన్నప్పుడు, ఛార్జర్ నేరుగా టాబ్లెట్‌కు పవర్ అందిస్తుంది, బ్యాటరీ ఛార్జ్ కాదు. బ్యాటరీ %1$d%%కి తగ్గినప్పుడు ఆఫ్ అవుతుంది.</string>
+    <string name="bypass_gamespace_on_title">GameSpace గేమ్ %1$s కోసం బైపాస్ ఛార్జింగ్ ఆన్‌లో ఉంది</string>
 </resources>

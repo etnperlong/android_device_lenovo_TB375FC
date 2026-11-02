@@ -248,4 +248,7 @@
     <string name="heat_protection_threshold_high">Hög (43 °C)</string>
     <string name="heat_protection_notification_title">Surfplattan är för varm, laddningen pausad</string>
     <string name="heat_protection_notification_text">Batteriet är %1$s. Laddaren driver surfplattan direkt tills den har svalnat, sedan återupptas laddningen.</string>
+    <string name="bypass_gamespace_title">Förbikopplad laddning i GameSpace-spel</string>
+    <string name="bypass_gamespace_summary">När ett spel som lagts till i GameSpace körs och laddaren är ansluten driver laddaren surfplattan direkt och batteriet laddas inte. Stängs av när batteriet sjunker till %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Förbikopplad laddning är på för GameSpace-spelet %1$s</string>
 </resources>

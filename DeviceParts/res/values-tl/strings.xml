@@ -255,4 +255,7 @@
     <string name="heat_protection_threshold_high">Mataas (43 °C)</string>
     <string name="heat_protection_notification_title">Masyadong mainit ang tablet, naka-pause ang pag-charge</string>
     <string name="heat_protection_notification_text">Nasa %1$s ang baterya. Direktang pinapagana ng charger ang tablet hanggang sa lumamig ito, pagkatapos ay magpapatuloy ang pag-charge.</string>
+    <string name="bypass_gamespace_title">Bypass charging sa mga laro sa GameSpace</string>
+    <string name="bypass_gamespace_summary">Habang tumatakbo ang isang larong idinagdag sa GameSpace at nakakonekta ang charger, direktang pinapagana ng charger ang tablet at hindi nagcha-charge ang baterya. Mag-o-off kapag bumaba ang baterya sa %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Naka-on ang bypass charging para sa larong %1$s sa GameSpace</string>
 </resources>

@@ -248,4 +248,7 @@
     <string name="heat_protection_threshold_high">ഉയർന്നത് (43 °C)</string>
     <string name="heat_protection_notification_title">ടാബ്‌ലെറ്റ് വളരെ ചൂടാണ്, ചാർജിംഗ് താൽക്കാലികമായി നിർത്തി</string>
     <string name="heat_protection_notification_text">ബാറ്ററി താപനില %1$s ആണ്. തണുക്കുന്നതുവരെ ചാർജർ ടാബ്‌ലെറ്റിന് നേരിട്ട് പവർ നൽകും, തുടർന്ന് ചാർജിംഗ് പുനരാരംഭിക്കും.</string>
+    <string name="bypass_gamespace_title">GameSpace ഗെയിമുകളിൽ ബൈപാസ് ചാർജിംഗ്</string>
+    <string name="bypass_gamespace_summary">GameSpace-ൽ ചേർത്ത ഒരു ഗെയിം പ്രവർത്തിക്കുകയും ചാർജർ കണക്റ്റ് ചെയ്തിരിക്കുകയും ചെയ്യുമ്പോൾ, ചാർജർ ടാബ്‌ലെറ്റിന് നേരിട്ട് പവർ നൽകുന്നു, ബാറ്ററി ചാർജ് ചെയ്യപ്പെടുന്നില്ല. ബാറ്ററി %1$d%% ആയി കുറയുമ്പോൾ ഓഫാകും.</string>
+    <string name="bypass_gamespace_on_title">GameSpace ഗെയിം %1$s എന്നതിനായി ബൈപാസ് ചാർജിംഗ് ഓണാണ്</string>
 </resources>

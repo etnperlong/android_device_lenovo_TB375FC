@@ -258,4 +258,7 @@
     <string name="heat_protection_threshold_high">偏高（43 °C）</string>
     <string name="heat_protection_notification_title">机身温度过高，已暂停充电</string>
     <string name="heat_protection_notification_text">电池温度为 %1$s。将由充电器直接为平板供电，待机身冷却后自动恢复充电。</string>
+    <string name="bypass_gamespace_title">游戏空间中的游戏使用旁路供电</string>
+    <string name="bypass_gamespace_summary">已添加到游戏空间的游戏运行且已连接充电器时，由充电器直接为平板供电，电池暂停充电。电量降至 %1$d%% 时自动关闭。</string>
+    <string name="bypass_gamespace_on_title">「%1$s」正在游戏空间中运行，已开启旁路供电</string>
 </resources>

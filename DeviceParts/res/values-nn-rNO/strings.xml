@@ -248,4 +248,7 @@
     <string name="heat_protection_threshold_high">Høg (43 °C)</string>
     <string name="heat_protection_notification_title">Nettbrettet er for varmt, ladinga er sett på pause</string>
     <string name="heat_protection_notification_text">Batteriet held %1$s. Ladaren gir straum direkte til nettbrettet til det har kjølt seg ned, og deretter held ladinga fram.</string>
+    <string name="bypass_gamespace_title">Bypass-lading i GameSpace-spel</string>
+    <string name="bypass_gamespace_summary">Medan eit spel som er lagt til i GameSpace køyrer og ladaren er tilkopla, gir ladaren straum direkte til nettbrettet, og batteriet vert ikkje lada. Slår seg av når batteriet fell til %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Bypass-lading er på for GameSpace-spelet %1$s</string>
 </resources>

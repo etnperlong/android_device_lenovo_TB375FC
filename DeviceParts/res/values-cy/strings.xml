@@ -254,4 +254,7 @@
     <string name="heat_protection_threshold_high">Uchel (43 °C)</string>
     <string name="heat_protection_notification_title">Llechen yn rhy boeth, gwefru wedi oedi</string>
     <string name="heat_protection_notification_text">Mae\'r batri ar %1$s. Mae\'r gwefrydd yn pweru\'r llechen yn uniongyrchol nes iddi oeri, yna bydd gwefru\'n ailddechrau.</string>
+    <string name="bypass_gamespace_title">Gwefru osgoi mewn gemau GameSpace</string>
+    <string name="bypass_gamespace_summary">Tra bydd gêm a ychwanegwyd at GameSpace yn rhedeg a\'r gwefrydd wedi cysylltu, mae\'r gwefrydd yn pweru\'r llechen yn uniongyrchol ac nid yw\'r batri\'n cael ei wefru. Yn diffodd pan fydd y batri\'n gostwng i %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Mae gwefru osgoi ymlaen ar gyfer y gêm GameSpace %1$s</string>
 </resources>

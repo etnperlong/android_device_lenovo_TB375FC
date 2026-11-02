@@ -250,4 +250,7 @@
     <string name="heat_protection_threshold_high">Arta (43 °C)</string>
     <string name="heat_protection_notification_title">Tablet tropu caente, càrriga in pàusa</string>
     <string name="heat_protection_notification_text">Sa bateria est a %1$s. Su carrigadore alimentat deretu su tablet finas a cando si nde friscat, a pustis sa càrriga torrat a cumintzare.</string>
+    <string name="bypass_gamespace_title">Alimentatzione direta in is giogos de GameSpace</string>
+    <string name="bypass_gamespace_summary">Cando unu giogu agiuntu a GameSpace est in esecutzione e su carrigadore est connètidu, su carrigadore alimentat deretu su tablet e sa bateria no est carrigada. Si disativat cando sa bateria calat a su %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">S’alimentatzione direta est ativa pro su giogu de GameSpace %1$s</string>
 </resources>

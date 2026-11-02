@@ -255,4 +255,7 @@
     <string name="heat_protection_threshold_high">Yüksək (43 °C)</string>
     <string name="heat_protection_notification_title">Planşet çox qızıb, şarj dayandırıldı</string>
     <string name="heat_protection_notification_text">Batareyanın temperaturu %1$s-dir. Planşet soyuyana qədər şarj cihazı onu birbaşa qidalandırır, sonra şarj bərpa olunur.</string>
+    <string name="bypass_gamespace_title">GameSpace oyunlarında bypass şarj</string>
+    <string name="bypass_gamespace_summary">GameSpace-ə əlavə edilmiş oyun işlədikdə və şarj cihazı qoşulu olduqda, şarj cihazı planşeti birbaşa qidalandırır və batareya şarj olunmur. Batareya %1$d%%-ə düşdükdə söndürülür.</string>
+    <string name="bypass_gamespace_on_title">GameSpace oyunu %1$s üçün bypass şarj aktivdir</string>
 </resources>

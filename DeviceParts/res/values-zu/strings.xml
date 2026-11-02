@@ -250,4 +250,7 @@
     <string name="heat_protection_threshold_high">Okuphezulu (43 °C)</string>
     <string name="heat_protection_notification_title">Ithebulethi ishisa kakhulu, ukushaja kumisiwe</string>
     <string name="heat_protection_notification_text">Ibhethri lisezingeni lokushisa elingu-%1$s. Ishaja inika ithebulethi amandla ngqo ize iphole, bese ukushaja kuyaqhubeka.</string>
+    <string name="bypass_gamespace_title">Ukushaja okudlulayo kumageyimu e-GameSpace</string>
+    <string name="bypass_gamespace_summary">Ngenkathi igeyimu engezwe ku-GameSpace isebenza futhi ishaja ixhunyiwe, ishaja inika ithebulethi amandla ngqo futhi ibhethri alishajwa. Kuyavaleka lapho ibhethri lehlela ku-%1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Ukushaja okudlulayo kuvuliwe kugeyimu ye-GameSpace ethi %1$s</string>
 </resources>

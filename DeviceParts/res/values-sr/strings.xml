@@ -256,4 +256,7 @@
     <string name="heat_protection_threshold_high">Висока (43 °C)</string>
     <string name="heat_protection_notification_title">Таблет је превише врућ, пуњење је паузирано</string>
     <string name="heat_protection_notification_text">Температура батерије је %1$s. Пуњач директно напаја таблет док се не охлади, а затим се пуњење наставља.</string>
+    <string name="bypass_gamespace_title">Заобилазно пуњење у GameSpace играма</string>
+    <string name="bypass_gamespace_summary">Док је покренута игра додата у GameSpace и пуњач је повезан, пуњач директно напаја таблет, а батерија се не пуни. Искључује се када батерија падне на %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Заобилазно пуњење је укључено за GameSpace игру %1$s</string>
 </resources>

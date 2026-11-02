@@ -255,4 +255,7 @@
     <string name="heat_protection_threshold_high">Korkea (43 °C)</string>
     <string name="heat_protection_notification_title">Tabletti liian kuuma, lataus keskeytetty</string>
     <string name="heat_protection_notification_text">Akun lämpötila on %1$s. Laturi antaa virtaa suoraan tabletille, kunnes se jäähtyy, minkä jälkeen lataus jatkuu.</string>
+    <string name="bypass_gamespace_title">Ohituslataus GameSpace-peleissä</string>
+    <string name="bypass_gamespace_summary">Kun GameSpaceen lisätty peli on käynnissä ja laturi on yhdistetty, laturi antaa virtaa suoraan tabletille eikä akkua ladata. Poistuu käytöstä, kun akun varaus laskee %1$d%%:iin.</string>
+    <string name="bypass_gamespace_on_title">Ohituslataus on päällä GameSpace-pelissä %1$s</string>
 </resources>

@@ -248,4 +248,7 @@
     <string name="heat_protection_threshold_high">높음 (43 °C)</string>
     <string name="heat_protection_notification_title">태블릿 과열, 충전 일시중지됨</string>
     <string name="heat_protection_notification_text">배터리 온도가 %1$s입니다. 태블릿이 식을 때까지 충전기가 직접 전원을 공급한 후 충전이 다시 시작됩니다.</string>
+    <string name="bypass_gamespace_title">GameSpace 게임에서 바이패스 충전</string>
+    <string name="bypass_gamespace_summary">GameSpace에 추가된 게임이 실행 중이고 충전기가 연결되어 있는 동안 충전기가 태블릿에 직접 전원을 공급하며 배터리는 충전되지 않습니다. 배터리가 %1$d%%까지 떨어지면 꺼집니다.</string>
+    <string name="bypass_gamespace_on_title">GameSpace 게임 %1$s에 바이패스 충전이 켜짐</string>
 </resources>

@@ -256,4 +256,7 @@
     <string name="heat_protection_threshold_high">Vysoká (43 °C)</string>
     <string name="heat_protection_notification_title">Tablet je príliš horúci, nabíjanie pozastavené</string>
     <string name="heat_protection_notification_text">Teplota batérie je %1$s. Nabíjačka napája tablet priamo, kým nevychladne, potom sa nabíjanie obnoví.</string>
+    <string name="bypass_gamespace_title">Obídenie nabíjania v hrách GameSpace</string>
+    <string name="bypass_gamespace_summary">Keď je spustená hra pridaná do GameSpace a nabíjačka je pripojená, nabíjačka napája tablet priamo a batéria sa nenabíja. Vypne sa, keď batéria klesne na %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Obídenie nabíjania je zapnuté pre hru GameSpace %1$s</string>
 </resources>

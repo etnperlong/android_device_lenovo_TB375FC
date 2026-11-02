@@ -257,4 +257,7 @@
     <string name="heat_protection_threshold_high">Висока (43 °C)</string>
     <string name="heat_protection_notification_title">Планшет перегрівся, заряджання призупинено</string>
     <string name="heat_protection_notification_text">Температура акумулятора: %1$s. Планшет живиться безпосередньо від зарядного пристрою, доки не охолоне, після чого заряджання відновиться.</string>
+    <string name="bypass_gamespace_title">Обхідне заряджання в іграх GameSpace</string>
+    <string name="bypass_gamespace_summary">Коли запущено гру, додану в GameSpace, і зарядний пристрій підключено, планшет живиться безпосередньо від зарядного пристрою, а акумулятор не заряджається. Вимикається, коли заряд акумулятора знижується до %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Обхідне заряджання ввімкнено для гри GameSpace %1$s</string>
 </resources>

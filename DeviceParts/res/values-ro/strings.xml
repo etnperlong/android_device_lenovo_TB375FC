@@ -251,4 +251,7 @@
     <string name="heat_protection_threshold_high">Ridicată (43 °C)</string>
     <string name="heat_protection_notification_title">Tableta e prea fierbinte, încărcarea a fost întreruptă</string>
     <string name="heat_protection_notification_text">Bateria are %1$s. Încărcătorul alimentează direct tableta până când aceasta se răcește, apoi încărcarea se reia.</string>
+    <string name="bypass_gamespace_title">Încărcare bypass în jocurile GameSpace</string>
+    <string name="bypass_gamespace_summary">Când rulează un joc adăugat în GameSpace și încărcătorul este conectat, încărcătorul alimentează direct tableta, iar bateria nu se încarcă. Se dezactivează când bateria scade la %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Încărcarea bypass este activată pentru jocul GameSpace %1$s</string>
 </resources>

@@ -255,4 +255,7 @@
     <string name="heat_protection_threshold_high">Kõrge (43 °C)</string>
     <string name="heat_protection_notification_title">Tahvelarvuti on liiga kuum, laadimine peatati</string>
     <string name="heat_protection_notification_text">Aku temperatuur on %1$s. Laadija toidab tahvelarvutit otse, kuni see jahtub, seejärel laadimine jätkub.</string>
+    <string name="bypass_gamespace_title">Möödaviiklaadimine GameSpace\'i mängudes</string>
+    <string name="bypass_gamespace_summary">Kui GameSpace\'i lisatud mäng töötab ja laadija on ühendatud, toidab laadija tahvelarvutit otse ja akut ei laeta. Lülitub välja, kui aku tase langeb %1$d%%-ni.</string>
+    <string name="bypass_gamespace_on_title">Möödaviiklaadimine on sees GameSpace\'i mängu %1$s jaoks</string>
 </resources>
