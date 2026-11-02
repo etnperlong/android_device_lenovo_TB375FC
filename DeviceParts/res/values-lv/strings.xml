@@ -256,4 +256,7 @@
     <string name="heat_protection_threshold_high">Augsta (43 °C)</string>
     <string name="heat_protection_notification_title">Planšetdators pārāk karsts, uzlāde apturēta</string>
     <string name="heat_protection_notification_text">Akumulatora temperatūra ir %1$s. Lādētājs tieši darbina planšetdatoru, līdz tas atdziest, pēc tam uzlāde atsāksies.</string>
+    <string name="bypass_gamespace_title">Apvedceļa uzlāde GameSpace spēlēs</string>
+    <string name="bypass_gamespace_summary">Kamēr darbojas GameSpace pievienota spēle un lādētājs ir pievienots, lādētājs tieši darbina planšetdatoru un akumulators netiek uzlādēts. Izslēdzas, kad akumulatora uzlādes līmenis nokrītas līdz %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Apvedceļa uzlāde ir ieslēgta GameSpace spēlei %1$s</string>
 </resources>

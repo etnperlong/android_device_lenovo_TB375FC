@@ -249,4 +249,7 @@
     <string name="heat_protection_threshold_high">Alta (43 °C)</string>
     <string name="heat_protection_notification_title">Tableta percaliente, carga posada</string>
     <string name="heat_protection_notification_text">La batería ta a %1$s. El cargador alimenta direutamente la tableta hasta que se esfrieza y dempués reanúdase la carga.</string>
+    <string name="bypass_gamespace_title">Alimentación direuta nos xuegos de GameSpace</string>
+    <string name="bypass_gamespace_summary">Mientres un xuegu amestáu a GameSpace tea en execución y el cargador tea conectáu, el cargador alimenta direutamente la tableta y la batería nun se carga. Desactívase cuando la batería baxa al %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">L\'alimentación direuta ta activada pal xuegu de GameSpace %1$s</string>
 </resources>

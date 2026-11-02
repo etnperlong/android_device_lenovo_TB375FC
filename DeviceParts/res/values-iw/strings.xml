@@ -257,4 +257,7 @@
     <string name="heat_protection_threshold_high">גבוהה (43 °C)</string>
     <string name="heat_protection_notification_title">הטאבלט חם מדי, הטעינה הושהתה</string>
     <string name="heat_protection_notification_text">טמפרטורת הסוללה היא %1$s. המטען יספק חשמל לטאבלט ישירות עד שהוא יתקרר, ואז הטעינה תתחדש.</string>
+    <string name="bypass_gamespace_title">טעינה עוקפת במשחקי GameSpace</string>
+    <string name="bypass_gamespace_summary">כשמשחק שנוסף ל-GameSpace פועל והמטען מחובר, המטען מספק חשמל לטאבלט ישירות והסוללה לא נטענת. התכונה תכבה כשהסוללה תרד ל-%1$d%%.</string>
+    <string name="bypass_gamespace_on_title">הטעינה העוקפת מופעלת עבור המשחק %1$s ב-GameSpace</string>
 </resources>

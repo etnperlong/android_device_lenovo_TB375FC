@@ -40,12 +40,14 @@ public class PerformanceFragment extends SettingsBasePreferenceFragment {
     private static final String KEY_ENABLED = "perf_enabled";
     private static final String KEY_KNOWN_APPS = "perf_known_apps";
     private static final String KEY_OTHER_APPS = "perf_other_apps";
+    private static final String KEY_BYPASS_GAMESPACE = "perf_bypass_gamespace";
 
     private ContentResolver mResolver;
     private VendorAppList mVendor;
     private RecommendedApps mRecommended;
     private PerfLabels mLabels;
     private SwitchPreferenceCompat mEnabled;
+    private SwitchPreferenceCompat mGameSpaceBypass;
     private PreferenceCategory mKnownApps;
     private PreferenceCategory mOtherApps;
 
@@ -81,6 +83,21 @@ public class PerformanceFragment extends SettingsBasePreferenceFragment {
         });
         screen.addPreference(mEnabled);
 
+        // DerpFest's GameSpace tells which game runs (GameSpaceReceiver); LineageOS lacks it.
+        if (isInstalled(context, ChargingSettings.GAMESPACE_PACKAGE)) {
+            mGameSpaceBypass = new SwitchPreferenceCompat(context);
+            mGameSpaceBypass.setKey(KEY_BYPASS_GAMESPACE);
+            mGameSpaceBypass.setPersistent(false);
+            mGameSpaceBypass.setTitle(R.string.bypass_gamespace_title);
+            mGameSpaceBypass.setSummary(getString(R.string.bypass_gamespace_summary,
+                    ChargingSettings.BYPASS_MIN_LEVEL));
+            mGameSpaceBypass.setOnPreferenceChangeListener((preference, newValue) -> {
+                ChargingSettings.setGameSpaceBypassEnabled(mResolver, (Boolean) newValue);
+                return true;
+            });
+            screen.addPreference(mGameSpaceBypass);
+        }
+
         mKnownApps = new PreferenceCategory(context);
         mKnownApps.setKey(KEY_KNOWN_APPS);
         mKnownApps.setTitle(R.string.category_perf_known_apps);
@@ -108,7 +125,19 @@ public class PerformanceFragment extends SettingsBasePreferenceFragment {
     public void onResume() {
         super.onResume();
         mEnabled.setChecked(PerfSettings.isEnabled(mResolver));
+        if (mGameSpaceBypass != null) {
+            mGameSpaceBypass.setChecked(ChargingSettings.isGameSpaceBypassEnabled(mResolver));
+        }
         updateSummaries();
+    }
+
+    private static boolean isInstalled(Context context, String pkg) {
+        try {
+            context.getPackageManager().getApplicationInfo(pkg, 0);
+            return true;
+        } catch (PackageManager.NameNotFoundException e) {
+            return false;
+        }
     }
 
     private static List<App> loadApps(Context context) {

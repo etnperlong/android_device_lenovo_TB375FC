@@ -255,4 +255,7 @@
     <string name="heat_protection_threshold_high">ከፍተኛ (43 °C)</string>
     <string name="heat_protection_notification_title">ጡባዊው በጣም ሞቋል፣ ኃይል መሙላት ባለበት ቆሟል</string>
     <string name="heat_protection_notification_text">ባትሪው %1$s ላይ ነው። እስኪቀዘቅዝ ድረስ ቻርጀሩ ጡባዊውን በቀጥታ ኃይል ይሰጣል፣ ከዚያ ኃይል መሙላት ይቀጥላል።</string>
+    <string name="bypass_gamespace_title">በGameSpace ጨዋታዎች ውስጥ የባይፓስ ኃይል መሙላት</string>
+    <string name="bypass_gamespace_summary">ወደ GameSpace የታከለ ጨዋታ እየሠራ ሆኖ ቻርጀሩ ሲገናኝ፣ ቻርጀሩ ጡባዊውን በቀጥታ ኃይል ይሰጣል እና ባትሪው አይሞላም። ባትሪው ወደ %1$d%% ሲወርድ ይጠፋል።</string>
+    <string name="bypass_gamespace_on_title">ለGameSpace ጨዋታ %1$s የባይፓስ ኃይል መሙላት በርቷል</string>
 </resources>

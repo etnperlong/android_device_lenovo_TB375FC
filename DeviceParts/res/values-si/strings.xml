@@ -248,4 +248,7 @@
     <string name="heat_protection_threshold_high">ඉහළ (43 °C)</string>
     <string name="heat_protection_notification_title">ටැබ්ලටය ඉතා උණුසුම්, ආරෝපණය විරාම කළා</string>
     <string name="heat_protection_notification_text">බැටරිය %1$s හි ඇත. ටැබ්ලටය සිසිල් වන තෙක් චාජරය එයට සෘජුවම බලය සපයයි, පසුව ආරෝපණය නැවත ආරම්භ වේ.</string>
+    <string name="bypass_gamespace_title">GameSpace ක්‍රීඩාවලදී බයිපාස් ආරෝපණය</string>
+    <string name="bypass_gamespace_summary">GameSpace වෙත එක් කළ ක්‍රීඩාවක් ක්‍රියාත්මක වන අතර චාජරය සම්බන්ධ කර ඇති විට, චාජරය ටැබ්ලටයට සෘජුවම බලය සපයන අතර බැටරිය ආරෝපණය නොවේ. බැටරිය %1$d%% දක්වා අඩු වූ විට ක්‍රියාවිරහිත වේ.</string>
+    <string name="bypass_gamespace_on_title">GameSpace ක්‍රීඩාව %1$s සඳහා බයිපාස් ආරෝපණය ක්‍රියාත්මකයි</string>
 </resources>

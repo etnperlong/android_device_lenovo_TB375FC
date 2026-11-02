@@ -255,4 +255,7 @@
     <string name="heat_protection_threshold_high">Yüksek (43 °C)</string>
     <string name="heat_protection_notification_title">Tablet çok sıcak, şarj duraklatıldı</string>
     <string name="heat_protection_notification_text">Pil sıcaklığı %1$s. Tablet soğuyana kadar ona doğrudan şarj cihazı güç verir, ardından şarj devam eder.</string>
+    <string name="bypass_gamespace_title">GameSpace oyunlarında baypas şarj</string>
+    <string name="bypass_gamespace_summary">GameSpace\'e eklenmiş bir oyun çalışırken ve şarj cihazı bağlıyken tablete doğrudan şarj cihazı güç verir ve pil şarj edilmez. Pil %%%1$d seviyesine düştüğünde kapanır.</string>
+    <string name="bypass_gamespace_on_title">GameSpace oyunu %1$s için baypas şarj açık</string>
 </resources>

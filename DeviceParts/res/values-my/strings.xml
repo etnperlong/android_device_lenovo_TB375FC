@@ -247,4 +247,7 @@
     <string name="heat_protection_threshold_high">မြင့် (43 °C)</string>
     <string name="heat_protection_notification_title">တက်ဘလက် အလွန်ပူနေသဖြင့် အားသွင်းခြင်း ခေတ္တရပ်ထားသည်</string>
     <string name="heat_protection_notification_text">ဘက်ထရီ အပူချိန် %1$s ရှိသည်။ အေးသွားသည်အထိ အားသွင်းကိရိယာက တက်ဘလက်ကို တိုက်ရိုက်ပါဝါပေးပြီးနောက် အားပြန်သွင်းမည်။</string>
+    <string name="bypass_gamespace_title">GameSpace ဂိမ်းများတွင် Bypass အားသွင်းခြင်း</string>
+    <string name="bypass_gamespace_summary">GameSpace သို့ ထည့်ထားသော ဂိမ်း ဖွင့်နေပြီး အားသွင်းကိရိယာ ချိတ်ဆက်ထားစဉ် အားသွင်းကိရိယာက တက်ဘလက်ကို တိုက်ရိုက်ပါဝါပေးပြီး ဘက်ထရီကို အားမသွင်းပါ။ ဘက်ထရီ %1$d%% သို့ ကျဆင်းသောအခါ ပိတ်သွားသည်။</string>
+    <string name="bypass_gamespace_on_title">GameSpace ဂိမ်း %1$s အတွက် Bypass အားသွင်းခြင်း ဖွင့်ထားသည်</string>
 </resources>

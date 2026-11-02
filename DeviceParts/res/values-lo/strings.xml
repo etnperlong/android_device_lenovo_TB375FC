@@ -248,4 +248,7 @@
     <string name="heat_protection_threshold_high">ສູງ (43 °C)</string>
     <string name="heat_protection_notification_title">ແທັບເລັດຮ້ອນເກີນໄປ, ຢຸດການສາກຊົ່ວຄາວ</string>
     <string name="heat_protection_notification_text">ແບັດເຕີຣີຢູ່ທີ່ %1$s. ສາຍສາກຈະຈ່າຍໄຟໃຫ້ແທັບເລັດໂດຍກົງຈົນກວ່າຈະເຢັນລົງ, ຈາກນັ້ນການສາກຈະສືບຕໍ່.</string>
+    <string name="bypass_gamespace_title">ການສາກໄຟແບບບາຍພາສໃນເກມ GameSpace</string>
+    <string name="bypass_gamespace_summary">ໃນຂະນະທີ່ເກມທີ່ເພີ່ມໃສ່ GameSpace ກຳລັງເຮັດວຽກ ແລະ ເຊື່ອມຕໍ່ສາຍສາກຢູ່, ສາຍສາກຈະຈ່າຍໄຟໃຫ້ແທັບເລັດໂດຍກົງ ແລະ ແບັດເຕີຣີຈະບໍ່ຖືກສາກ. ຈະປິດເມື່ອແບັດເຕີຣີຫຼຸດລົງເຖິງ %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">ເປີດການສາກໄຟແບບບາຍພາສແລ້ວສຳລັບເກມ GameSpace %1$s</string>
 </resources>

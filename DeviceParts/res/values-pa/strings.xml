@@ -248,4 +248,7 @@
     <string name="heat_protection_threshold_high">ਉੱਚਾ (43 °C)</string>
     <string name="heat_protection_notification_title">ਟੈਬਲੈੱਟ ਬਹੁਤ ਗਰਮ ਹੈ, ਚਾਰਜਿੰਗ ਰੋਕੀ ਗਈ</string>
     <string name="heat_protection_notification_text">ਬੈਟਰੀ ਦਾ ਤਾਪਮਾਨ %1$s ਹੈ। ਠੰਢਾ ਹੋਣ ਤੱਕ ਚਾਰਜਰ ਸਿੱਧਾ ਟੈਬਲੈੱਟ ਨੂੰ ਪਾਵਰ ਦਿੰਦਾ ਹੈ, ਫਿਰ ਚਾਰਜਿੰਗ ਮੁੜ ਸ਼ੁਰੂ ਹੋ ਜਾਂਦੀ ਹੈ।</string>
+    <string name="bypass_gamespace_title">GameSpace ਗੇਮਾਂ ਵਿੱਚ ਬਾਈਪਾਸ ਚਾਰਜਿੰਗ</string>
+    <string name="bypass_gamespace_summary">ਜਦੋਂ GameSpace ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤੀ ਗੇਮ ਚੱਲ ਰਹੀ ਹੋਵੇ ਅਤੇ ਚਾਰਜਰ ਕਨੈਕਟ ਹੋਵੇ, ਤਾਂ ਚਾਰਜਰ ਸਿੱਧਾ ਟੈਬਲੈੱਟ ਨੂੰ ਪਾਵਰ ਦਿੰਦਾ ਹੈ ਅਤੇ ਬੈਟਰੀ ਚਾਰਜ ਨਹੀਂ ਹੁੰਦੀ। ਬੈਟਰੀ %1$d%% ਤੱਕ ਘਟਣ \'ਤੇ ਬੰਦ ਹੋ ਜਾਂਦਾ ਹੈ।</string>
+    <string name="bypass_gamespace_on_title">GameSpace ਗੇਮ %1$s ਲਈ ਬਾਈਪਾਸ ਚਾਰਜਿੰਗ ਚਾਲੂ ਹੈ</string>
 </resources>

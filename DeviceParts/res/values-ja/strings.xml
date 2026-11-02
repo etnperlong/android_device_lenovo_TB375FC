@@ -248,4 +248,7 @@
     <string name="heat_protection_threshold_high">高（43 °C）</string>
     <string name="heat_protection_notification_title">タブレットが高温のため充電を一時停止しました</string>
     <string name="heat_protection_notification_text">バッテリーの温度は %1$s です。温度が下がるまで充電器からタブレットに直接給電し、その後充電を再開します。</string>
+    <string name="bypass_gamespace_title">GameSpace のゲームでバイパス充電</string>
+    <string name="bypass_gamespace_summary">GameSpace に追加したゲームの実行中に充電器が接続されている場合、充電器からタブレットに直接給電し、バッテリーは充電されません。バッテリー残量が %1$d%% まで減るとオフになります。</string>
+    <string name="bypass_gamespace_on_title">GameSpace のゲーム %1$s でバイパス充電がオンになっています</string>
 </resources>

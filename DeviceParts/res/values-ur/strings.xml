@@ -256,4 +256,7 @@
     <string name="heat_protection_threshold_high">زیادہ (43 °C)</string>
     <string name="heat_protection_notification_title">ٹیبلیٹ بہت گرم ہے، چارجنگ موقوف ہو گئی</string>
     <string name="heat_protection_notification_text">بیٹری کا درجہ حرارت %1$s ہے۔ ٹھنڈا ہونے تک چارجر براہ راست ٹیبلیٹ کو پاور فراہم کرے گا، پھر چارجنگ دوبارہ شروع ہو جائے گی۔</string>
+    <string name="bypass_gamespace_title">GameSpace گیمز میں بائی پاس چارجنگ</string>
+    <string name="bypass_gamespace_summary">جب GameSpace میں شامل کوئی گیم چل رہی ہو اور چارجر منسلک ہو تو چارجر براہ راست ٹیبلیٹ کو پاور فراہم کرتا ہے اور بیٹری چارج نہیں ہوتی۔ بیٹری %1$d%% تک گرنے پر آف ہو جاتا ہے۔</string>
+    <string name="bypass_gamespace_on_title">GameSpace گیم %1$s کے لیے بائی پاس چارجنگ آن ہے</string>
 </resources>

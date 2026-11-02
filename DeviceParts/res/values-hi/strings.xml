@@ -248,4 +248,7 @@
     <string name="heat_protection_threshold_high">ज़्यादा (43 °C)</string>
     <string name="heat_protection_notification_title">टैबलेट बहुत गर्म है, चार्जिंग रोकी गई</string>
     <string name="heat_protection_notification_text">बैटरी का तापमान %1$s है। ठंडा होने तक चार्जर सीधे टैबलेट को पावर देगा, फिर चार्जिंग शुरू हो जाएगी।</string>
+    <string name="bypass_gamespace_title">GameSpace गेम में बायपास चार्जिंग</string>
+    <string name="bypass_gamespace_summary">जब GameSpace में जोड़ा गया कोई गेम चल रहा हो और चार्जर कनेक्ट हो, तब चार्जर सीधे टैबलेट को पावर देता है और बैटरी चार्ज नहीं होती। बैटरी %1$d%% तक गिरने पर यह बंद हो जाता है।</string>
+    <string name="bypass_gamespace_on_title">GameSpace गेम %1$s के लिए बायपास चार्जिंग चालू है</string>
 </resources>

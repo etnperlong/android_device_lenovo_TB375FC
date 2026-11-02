@@ -255,4 +255,7 @@
     <string name="heat_protection_threshold_high">Жогору (43 °C)</string>
     <string name="heat_protection_notification_title">Планшет өтө ысып кетти, кубаттоо тындырылды</string>
     <string name="heat_protection_notification_text">Батареянын температурасы: %1$s. Муздаганга чейин кубаттагыч планшетти түздөн-түз кубаттайт, андан кийин кубаттоо улантылат.</string>
+    <string name="bypass_gamespace_title">GameSpace оюндарында айланма кубаттоо</string>
+    <string name="bypass_gamespace_summary">GameSpace\'ке кошулган оюн иштеп турганда жана кубаттагыч туташып турганда, кубаттагыч планшетти түздөн-түз кубаттайт, батарея кубатталбайт. Батарея %1$d%% чейин төмөндөгөндө өчөт.</string>
+    <string name="bypass_gamespace_on_title">GameSpace оюну %1$s үчүн айланма кубаттоо күйүк</string>
 </resources>

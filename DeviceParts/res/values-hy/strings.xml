@@ -256,4 +256,7 @@
     <string name="heat_protection_threshold_high">Բարձր (43 °C)</string>
     <string name="heat_protection_notification_title">Պլանշետը շատ տաք է, լիցքավորումը դադարեցված է</string>
     <string name="heat_protection_notification_text">Մարտկոցի ջերմաստիճանը %1$s է։ Լիցքավորիչն ուղղակիորեն կսնուցի պլանշետը, մինչև այն սառչի, այնուհետև լիցքավորումը կվերսկսվի։</string>
+    <string name="bypass_gamespace_title">Շրջանցիկ լիցքավորում GameSpace-ի խաղերում</string>
+    <string name="bypass_gamespace_summary">Երբ GameSpace-ում ավելացված խաղն աշխատում է, և լիցքավորիչը միացված է, լիցքավորիչն ուղղակիորեն սնուցում է պլանշետը, և մարտկոցը չի լիցքավորվում։ Անջատվում է, երբ մարտկոցի լիցքը իջնում է մինչև %1$d%%։</string>
+    <string name="bypass_gamespace_on_title">Շրջանցիկ լիցքավորումը միացված է GameSpace-ի %1$s խաղի համար</string>
 </resources>

@@ -255,4 +255,7 @@
     <string name="heat_protection_threshold_high">Yuqori (43 °C)</string>
     <string name="heat_protection_notification_title">Planshet juda qizib ketdi, quvvatlash pauza qilindi</string>
     <string name="heat_protection_notification_text">Batareya harorati: %1$s. Planshet sovuguncha bevosita quvvatlagichdan ishlaydi, keyin quvvatlash davom etadi.</string>
+    <string name="bypass_gamespace_title">GameSpace o‘yinlarida bevosita quvvatlash</string>
+    <string name="bypass_gamespace_summary">GameSpace’ga qo‘shilgan o‘yin ishlayotgan va quvvatlagich ulangan paytda planshet bevosita quvvatlagichdan ishlaydi, batareya esa quvvatlanmaydi. Batareya %1$d%% gacha tushganda o‘chadi.</string>
+    <string name="bypass_gamespace_on_title">GameSpace o‘yini %1$s uchun bevosita quvvatlash yoqildi</string>
 </resources>

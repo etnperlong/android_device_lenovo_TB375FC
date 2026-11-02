@@ -250,4 +250,7 @@
     <string name="heat_protection_threshold_high">Alte (43 °C)</string>
     <string name="heat_protection_notification_title">Tablet masse cjalt, ricjarie in pause</string>
     <string name="heat_protection_notification_text">La batarie e je a %1$s. Il ricjaradôr al alimente dret il tablet fin che nol si disfredie, dopo la ricjarie e torne a partî.</string>
+    <string name="bypass_gamespace_title">Ricjarie bypass tai zûcs di GameSpace</string>
+    <string name="bypass_gamespace_summary">Cuant che un zûc zontât a GameSpace al è in esecuzion e il ricjaradôr al è conetût, il ricjaradôr al alimente dret il tablet e la batarie no ven ricjariade. Si distude cuant che la batarie e cole al %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">La ricjarie bypass e je ative pal zûc di GameSpace %1$s</string>
 </resources>

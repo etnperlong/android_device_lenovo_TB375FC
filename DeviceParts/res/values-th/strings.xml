@@ -247,4 +247,7 @@
     <string name="heat_protection_threshold_high">สูง (43 °C)</string>
     <string name="heat_protection_notification_title">แท็บเล็ตร้อนเกินไป หยุดชาร์จชั่วคราว</string>
     <string name="heat_protection_notification_text">แบตเตอรี่มีอุณหภูมิ %1$s ที่ชาร์จจะจ่ายไฟให้แท็บเล็ตโดยตรงจนกว่าจะเย็นลง จากนั้นการชาร์จจะกลับมาทำงาน</string>
+    <string name="bypass_gamespace_title">การชาร์จแบบบายพาสในเกมของ GameSpace</string>
+    <string name="bypass_gamespace_summary">ขณะที่เกมที่เพิ่มไว้ใน GameSpace กำลังทำงานและเชื่อมต่อที่ชาร์จอยู่ ที่ชาร์จจะจ่ายไฟให้แท็บเล็ตโดยตรงและจะไม่ชาร์จแบตเตอรี่ ปิดเมื่อแบตเตอรี่ลดลงเหลือ %1$d%%</string>
+    <string name="bypass_gamespace_on_title">เปิดการชาร์จแบบบายพาสสำหรับเกม %1$s ใน GameSpace แล้ว</string>
 </resources>

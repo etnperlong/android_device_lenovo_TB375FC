@@ -248,4 +248,7 @@
     <string name="heat_protection_threshold_high">ઊંચું (43 °C)</string>
     <string name="heat_protection_notification_title">ટેબ્લેટ ખૂબ ગરમ છે, ચાર્જિંગ થોભાવ્યું</string>
     <string name="heat_protection_notification_text">બૅટરી %1$s પર છે. ટેબ્લેટ ઠંડું થાય ત્યાં સુધી ચાર્જર તેને સીધો પાવર આપે છે, પછી ચાર્જિંગ ફરી શરૂ થાય છે.</string>
+    <string name="bypass_gamespace_title">GameSpace ગેમમાં બાયપાસ ચાર્જિંગ</string>
+    <string name="bypass_gamespace_summary">GameSpaceમાં ઉમેરેલી ગેમ ચાલી રહી હોય અને ચાર્જર કનેક્ટ હોય, ત્યારે ચાર્જર ટેબ્લેટને સીધો પાવર આપે છે અને બૅટરી ચાર્જ થતી નથી. બૅટરી %1$d%% સુધી ઘટે ત્યારે બંધ થાય છે.</string>
+    <string name="bypass_gamespace_on_title">GameSpace ગેમ %1$s માટે બાયપાસ ચાર્જિંગ ચાલુ છે</string>
 </resources>

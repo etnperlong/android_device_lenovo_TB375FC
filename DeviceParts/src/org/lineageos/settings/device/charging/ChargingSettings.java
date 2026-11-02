@@ -16,6 +16,10 @@ import java.util.TreeSet;
 public final class ChargingSettings {
     /** Secure setting, comma-separated package names of the apps that use bypass charging. */
     public static final String KEY_BYPASS_APPS = "tb375fc_bypass_apps";
+    /** Secure setting, 1 = bypass charging for the game of a DerpFest GameSpace session. */
+    public static final String KEY_BYPASS_GAMESPACE = "tb375fc_bypass_gamespace";
+    /** DerpFest's GameSpace; LineageOS has no such app. */
+    public static final String GAMESPACE_PACKAGE = "io.chaldeaprjkt.gamespace";
 
     /** Secure setting, 1 = charging heat protection on. Default off, as on stock. */
     public static final String KEY_HEAT_PROTECTION = "tb375fc_heat_protection";
@@ -60,6 +64,14 @@ public final class ChargingSettings {
         if (bypass ? apps.add(pkg) : apps.remove(pkg)) {
             Settings.Secure.putString(cr, KEY_BYPASS_APPS, String.join(",", apps));
         }
+    }
+
+    public static boolean isGameSpaceBypassEnabled(ContentResolver cr) {
+        return Settings.Secure.getInt(cr, KEY_BYPASS_GAMESPACE, 0) != 0;
+    }
+
+    public static void setGameSpaceBypassEnabled(ContentResolver cr, boolean enabled) {
+        Settings.Secure.putInt(cr, KEY_BYPASS_GAMESPACE, enabled ? 1 : 0);
     }
 
     public static boolean isHeatProtectionEnabled(ContentResolver cr) {

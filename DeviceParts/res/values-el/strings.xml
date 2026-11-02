@@ -255,4 +255,7 @@
     <string name="heat_protection_threshold_high">Υψηλή (43 °C)</string>
     <string name="heat_protection_notification_title">Το tablet είναι πολύ ζεστό, η φόρτιση τέθηκε σε παύση</string>
     <string name="heat_protection_notification_text">Η μπαταρία είναι στους %1$s. Ο φορτιστής τροφοδοτεί απευθείας το tablet μέχρι να κρυώσει και, στη συνέχεια, η φόρτιση συνεχίζεται.</string>
+    <string name="bypass_gamespace_title">Φόρτιση παράκαμψης σε παιχνίδια του GameSpace</string>
+    <string name="bypass_gamespace_summary">Όσο εκτελείται ένα παιχνίδι που έχει προστεθεί στο GameSpace και ο φορτιστής είναι συνδεδεμένος, ο φορτιστής τροφοδοτεί απευθείας το tablet και η μπαταρία δεν φορτίζεται. Απενεργοποιείται όταν η μπαταρία πέσει στο %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Η φόρτιση παράκαμψης είναι ενεργή για το παιχνίδι %1$s του GameSpace</string>
 </resources>

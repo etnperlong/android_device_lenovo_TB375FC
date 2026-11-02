@@ -257,4 +257,7 @@
     <string name="heat_protection_threshold_high">Высокая (43 °C)</string>
     <string name="heat_protection_notification_title">Планшэт перагрэўся, зарадка прыпынена</string>
     <string name="heat_protection_notification_text">Тэмпература акумулятара: %1$s. Зарадная прылада сілкуе планшэт напрамую, пакуль ён не астыне, потым зарадка аднавіцца.</string>
+    <string name="bypass_gamespace_title">Абыходная зарадка ў гульнях GameSpace</string>
+    <string name="bypass_gamespace_summary">Калі запушчана гульня, дададзеная ў GameSpace, і зарадная прылада падключана, зарадная прылада сілкуе планшэт напрамую, а акумулятар не зараджаецца. Выключаецца, калі зарад акумулятара падае да %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Абыходная зарадка ўключана для гульні GameSpace %1$s</string>
 </resources>

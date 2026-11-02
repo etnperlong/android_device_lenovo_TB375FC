@@ -256,4 +256,7 @@
     <string name="heat_protection_threshold_high">მაღალი (43 °C)</string>
     <string name="heat_protection_notification_title">ტაბლეტი ძალიან ცხელია, დატენვა შეჩერდა</string>
     <string name="heat_protection_notification_text">ბატარეის ტემპერატურაა %1$s. დამტენი პირდაპირ კვებავს ტაბლეტს, სანამ არ გაგრილდება, შემდეგ დატენვა განახლდება.</string>
+    <string name="bypass_gamespace_title">შემოვლითი დატენვა GameSpace-ის თამაშებში</string>
+    <string name="bypass_gamespace_summary">როცა GameSpace-ში დამატებული თამაში გაშვებულია და დამტენი დაკავშირებულია, დამტენი პირდაპირ კვებავს ტაბლეტს და ბატარეა არ იტენება. გამოირთვება, როცა ბატარეა %1$d%%-მდე ჩამოვა.</string>
+    <string name="bypass_gamespace_on_title">შემოვლითი დატენვა ჩართულია GameSpace-ის თამაშისთვის %1$s</string>
 </resources>

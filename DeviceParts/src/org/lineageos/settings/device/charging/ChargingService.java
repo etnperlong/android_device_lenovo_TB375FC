@@ -47,7 +47,9 @@ import java.util.Set;
  *   unlocked, as for the profiles) and the charger is connected. Stock ZUI's game assistant
  *   offers this per game ("Bypass charging", manual mode). It stops when the battery falls to
  *   ChargingSettings.BYPASS_MIN_LEVEL, with a toast and a warning, and stays off for that app
- *   until it leaves the front or the charger is disconnected; stock has no such floor.
+ *   until it leaves the front or the charger is disconnected; stock has no such floor. The
+ *   same applies to the game of a DerpFest GameSpace session if that is turned on
+ *   (GameSpaceReceiver).
  * - Charging heat protection: while charging, at or above the minimum level and at or above the
  *   threshold temperature. Stock's game assistant does this for games only ("Smart bypass
  *   charging"): the same defaults (40%, 39/41/43 °C), the temperature sampled every 5 s, and a
@@ -87,6 +89,9 @@ public class ChargingService extends Service {
 
     // Handler thread only.
     private Set<String> mBypassApps;
+    private boolean mGameSpaceEnabled;
+    /** The game of the running GameSpace session, null if none. */
+    private String mGameSpaceGame;
     private boolean mHeatEnabled;
     private int mHeatMinLevel;
     private int mHeatThresholdC;
@@ -119,6 +124,13 @@ public class ChargingService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
+        final String action = intent != null ? intent.getAction() : null;
+        if (GameSpaceReceiver.ACTION_GAME_START.equals(action)) {
+            final String game = intent.getStringExtra(GameSpaceReceiver.EXTRA_PACKAGE_NAME);
+            mHandler.post(() -> onGameSpaceSession(game));
+        } else if (GameSpaceReceiver.ACTION_GAME_STOP.equals(action)) {
+            mHandler.post(() -> onGameSpaceSession(null));
+        }
         return START_STICKY;
     }
 
@@ -151,6 +163,7 @@ public class ChargingService extends Service {
             }
         };
         for (String key : new String[] {ChargingSettings.KEY_BYPASS_APPS,
+                ChargingSettings.KEY_BYPASS_GAMESPACE,
                 ChargingSettings.KEY_HEAT_PROTECTION, ChargingSettings.KEY_HEAT_MIN_LEVEL,
                 ChargingSettings.KEY_HEAT_THRESHOLD}) {
             cr.registerContentObserver(Settings.Secure.getUriFor(key), false, mSettingsObserver);
@@ -241,6 +254,7 @@ public class ChargingService extends Service {
     private void readSettings() {
         final ContentResolver cr = getContentResolver();
         mBypassApps = ChargingSettings.getBypassApps(cr);
+        mGameSpaceEnabled = ChargingSettings.isGameSpaceBypassEnabled(cr);
         mHeatEnabled = ChargingSettings.isHeatProtectionEnabled(cr);
         mHeatMinLevel = ChargingSettings.getHeatMinLevel(cr);
         mHeatThresholdC =
@@ -273,14 +287,23 @@ public class ChargingService extends Service {
         }
     }
 
+    private void onGameSpaceSession(String game) {
+        mGameSpaceGame = game;
+        scheduleUpdate();
+    }
+
+    /** Whether the app uses bypass charging: chosen for it, or the game of a GameSpace session. */
+    private boolean wantsBypass(String app) {
+        return mBypassApps.contains(app) || (mGameSpaceEnabled && app.equals(mGameSpaceGame));
+    }
+
     private void updateAppBypass() {
         final String app = mPlugged ? foregroundApp() : null;
         if (!Objects.equals(app, mLowBatteryApp)) {
             mLowBatteryApp = null;
         }
         String bypassApp = null;
-        if (app != null && mBypassApps.contains(app) && !app.equals(mLowBatteryApp)
-                && mLevel >= 0) {
+        if (app != null && wantsBypass(app) && !app.equals(mLowBatteryApp) && mLevel >= 0) {
             if (mLevel > ChargingSettings.BYPASS_MIN_LEVEL) {
                 bypassApp = app;
             } else if (app.equals(mBypassApp)) {
@@ -411,7 +434,9 @@ public class ChargingService extends Service {
         mNotificationManager.notify(NOTIFICATION_BYPASS,
                 new Notification.Builder(this, CHANNEL_BYPASS)
                         .setSmallIcon(R.drawable.ic_bypass_charging)
-                        .setContentTitle(getString(R.string.bypass_on_title, label))
+                        .setContentTitle(getString(mBypassApps.contains(pkg)
+                                ? R.string.bypass_on_title : R.string.bypass_gamespace_on_title,
+                                label))
                         .setContentText(getString(R.string.bypass_on_text,
                                 ChargingSettings.BYPASS_MIN_LEVEL))
                         .setCategory(Notification.CATEGORY_STATUS)

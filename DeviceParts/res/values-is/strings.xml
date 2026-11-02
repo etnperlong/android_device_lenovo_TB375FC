@@ -248,4 +248,7 @@
     <string name="heat_protection_threshold_high">Hár (43 °C)</string>
     <string name="heat_protection_notification_title">Spjaldtölvan of heit, hlé gert á hleðslu</string>
     <string name="heat_protection_notification_text">Rafhlaðan er %1$s. Hleðslutækið knýr spjaldtölvuna beint þar til hún kólnar og þá hefst hleðsla aftur.</string>
+    <string name="bypass_gamespace_title">Framhjáhleðsla í GameSpace-leikjum</string>
+    <string name="bypass_gamespace_summary">Þegar leikur sem bætt hefur verið við GameSpace er í gangi og hleðslutækið er tengt knýr hleðslutækið spjaldtölvuna beint og rafhlaðan er ekki hlaðin. Slokknar þegar rafhlaðan fer niður í %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Kveikt er á framhjáhleðslu fyrir GameSpace-leikinn %1$s</string>
 </resources>

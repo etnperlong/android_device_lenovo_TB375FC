@@ -256,4 +256,7 @@
     <string name="heat_protection_threshold_high">بەرز (43 °C)</string>
     <string name="heat_protection_notification_title">تابلێت زۆر گەرمە، بارگەکردن ڕاگیرا</string>
     <string name="heat_protection_notification_text">پلەی گەرمی پاتری %1$s ە. بارگەکەر ڕاستەوخۆ وزە دەداتە تابلێتەکە تا سارد دەبێتەوە، پاشان بارگەکردن دەستپێدەکاتەوە.</string>
+    <string name="bypass_gamespace_title">بارگەکردنی ڕاستەوخۆ لە یارییەکانی GameSpace</string>
+    <string name="bypass_gamespace_summary">کاتێک یارییەکی زیادکراو بۆ GameSpace کار دەکات و بارگەکەر پەیوەستە، بارگەکەر ڕاستەوخۆ وزە دەداتە تابلێتەکە و پاتری بارگە ناکرێت. کاتێک پاتری دادەبەزێت بۆ %1$d%% دەکوژێتەوە.</string>
+    <string name="bypass_gamespace_on_title">بارگەکردنی ڕاستەوخۆ چالاکە بۆ یاریی GameSpace ـی %1$s</string>
 </resources>

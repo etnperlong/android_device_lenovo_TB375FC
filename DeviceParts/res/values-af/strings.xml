@@ -248,4 +248,7 @@
     <string name="heat_protection_threshold_high">Hoog (43 °C)</string>
     <string name="heat_protection_notification_title">Tablet te warm, laai onderbreek</string>
     <string name="heat_protection_notification_text">Die battery is %1$s. Die laaier voed die tablet direk totdat dit afkoel, en dan hervat laai.</string>
+    <string name="bypass_gamespace_title">Omleidingslaai in GameSpace-speletjies</string>
+    <string name="bypass_gamespace_summary">Terwyl \'n speletjie wat by GameSpace gevoeg is, loop en die laaier gekoppel is, voed die laaier die tablet direk en word die battery nie gelaai nie. Skakel af wanneer die battery tot %1$d%% daal.</string>
+    <string name="bypass_gamespace_on_title">Omleidingslaai is aan vir die GameSpace-speletjie %1$s</string>
 </resources>

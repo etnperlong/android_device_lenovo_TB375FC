@@ -248,4 +248,7 @@
     <string name="heat_protection_threshold_high">उच्च (43 °C)</string>
     <string name="heat_protection_notification_title">ट्याब्लेट धेरै तातो छ, चार्जिङ रोकियो</string>
     <string name="heat_protection_notification_text">ब्याट्रीको तापक्रम %1$s छ। ट्याब्लेट चिसो नहुन्जेल चार्जरले यसलाई सिधै पावर दिन्छ, त्यसपछि चार्जिङ फेरि सुरु हुन्छ।</string>
+    <string name="bypass_gamespace_title">GameSpace का गेमहरूमा बाइपास चार्जिङ</string>
+    <string name="bypass_gamespace_summary">GameSpace मा थपिएको गेम चलिरहेको बेला र चार्जर जडान भएको बेला चार्जरले ट्याब्लेटलाई सिधै पावर दिन्छ र ब्याट्री चार्ज हुँदैन। ब्याट्री %1$d%% मा झरेपछि यो बन्द हुन्छ।</string>
+    <string name="bypass_gamespace_on_title">GameSpace गेम %1$s का लागि बाइपास चार्जिङ अन छ</string>
 </resources>

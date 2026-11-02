@@ -254,4 +254,7 @@
     <string name="heat_protection_threshold_high">Tinggi (43 °C)</string>
     <string name="heat_protection_notification_title">Tablet terlalu panas, pengecasan dijeda</string>
     <string name="heat_protection_notification_text">Suhu bateri ialah %1$s. Pengecas menjana kuasa tablet secara terus sehingga tablet sejuk, kemudian pengecasan disambung semula.</string>
+    <string name="bypass_gamespace_title">Pengecasan pintas dalam permainan GameSpace</string>
+    <string name="bypass_gamespace_summary">Semasa permainan yang ditambahkan pada GameSpace sedang berjalan dan pengecas disambungkan, pengecas menjana kuasa tablet secara terus dan bateri tidak dicas. Dimatikan apabila bateri turun ke %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Pengecasan pintas dihidupkan untuk permainan GameSpace %1$s</string>
 </resources>

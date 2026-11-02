@@ -248,4 +248,7 @@
     <string name="heat_protection_threshold_high">বেশি (43 °C)</string>
     <string name="heat_protection_notification_title">ট্যাবলেট খুব গরম, চার্জিং পজ করা হয়েছে</string>
     <string name="heat_protection_notification_text">ব্যাটারির তাপমাত্রা %1$s। ঠান্ডা না হওয়া পর্যন্ত চার্জার সরাসরি ট্যাবলেটে পাওয়ার দেবে, তারপর আবার চার্জ হওয়া শুরু হবে।</string>
+    <string name="bypass_gamespace_title">GameSpace-এর গেমে বাইপাস চার্জিং</string>
+    <string name="bypass_gamespace_summary">GameSpace-এ যোগ করা কোনো গেম চলাকালীন এবং চার্জার সংযুক্ত থাকলে, চার্জার সরাসরি ট্যাবলেটে পাওয়ার দেয় এবং ব্যাটারি চার্জ হয় না। ব্যাটারি %1$d%%-এ নেমে গেলে এটি বন্ধ হয়ে যায়।</string>
+    <string name="bypass_gamespace_on_title">GameSpace গেম %1$s-এর জন্য বাইপাস চার্জিং চালু আছে</string>
 </resources>

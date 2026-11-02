@@ -252,4 +252,7 @@
     <string name="heat_protection_threshold_high">Àrd (43 °C)</string>
     <string name="heat_protection_notification_title">Tablaid ro theth, teàirrdseadh na stad</string>
     <string name="heat_protection_notification_text">Tha am bataraidh aig %1$s. Bheir an teàirrdsear cumhachd dhan tablaid gu dìreach gus am fuaraich i, agus an uairsin tòisichidh an teàirrdseadh a-rithist.</string>
+    <string name="bypass_gamespace_title">Teàirrdseadh seachnaidh ann an geamannan GameSpace</string>
+    <string name="bypass_gamespace_summary">Fhad a bhios geama a chaidh a chur ri GameSpace a’ ruith agus an teàirrdsear ceangailte, bheir an teàirrdsear cumhachd dhan tablaid gu dìreach agus cha tèid am bataraidh a theàirrdseadh. Thèid a chur dheth nuair a thuiteas am bataraidh gu %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Tha teàirrdseadh seachnaidh air airson geama GameSpace %1$s</string>
 </resources>

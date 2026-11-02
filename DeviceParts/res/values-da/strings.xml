@@ -248,4 +248,7 @@
     <string name="heat_protection_threshold_high">Høj (43 °C)</string>
     <string name="heat_protection_notification_title">Tabletten er for varm, opladning sat på pause</string>
     <string name="heat_protection_notification_text">Batteriet er på %1$s. Opladeren forsyner tabletten direkte med strøm, indtil den er kølet af, hvorefter opladningen genoptages.</string>
+    <string name="bypass_gamespace_title">Bypass-opladning i GameSpace-spil</string>
+    <string name="bypass_gamespace_summary">Mens et spil, der er føjet til GameSpace, kører, og opladeren er tilsluttet, forsyner opladeren tabletten direkte med strøm, og batteriet oplades ikke. Slås fra, når batteriet falder til %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Bypass-opladning er slået til for GameSpace-spillet %1$s</string>
 </resources>

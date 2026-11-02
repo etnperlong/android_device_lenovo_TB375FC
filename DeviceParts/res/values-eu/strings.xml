@@ -250,4 +250,7 @@
     <string name="heat_protection_threshold_high">Altua (43 °C)</string>
     <string name="heat_protection_notification_title">Tableta beroegi dago; karga pausatu da</string>
     <string name="heat_protection_notification_text">Bateria %1$s-tan dago. Kargagailuak zuzenean elikatuko du tableta hoztu arte, eta gero berrekingo zaio kargatzeari.</string>
+    <string name="bypass_gamespace_title">Bypass karga GameSpace-ko jokoetan</string>
+    <string name="bypass_gamespace_summary">GameSpace-n gehitutako joko bat exekutatzen ari den eta kargagailua konektatuta dagoen bitartean, kargagailuak zuzenean elikatzen du tableta eta bateria ez da kargatzen. Bateria %%%1$d izatera jaisten denean desaktibatzen da.</string>
+    <string name="bypass_gamespace_on_title">Bypass karga aktibatuta dago GameSpace-ko %1$s jokorako</string>
 </resources>

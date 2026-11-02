@@ -256,4 +256,7 @@
     <string name="heat_protection_threshold_high">Visoka (43 °C)</string>
     <string name="heat_protection_notification_title">Tablični računalnik je prevroč, polnjenje je začasno ustavljeno</string>
     <string name="heat_protection_notification_text">Temperatura baterije je %1$s. Polnilnik neposredno napaja tablični računalnik, dokler se ne ohladi, nato se polnjenje nadaljuje.</string>
+    <string name="bypass_gamespace_title">Obvodno polnjenje v igrah GameSpace</string>
+    <string name="bypass_gamespace_summary">Ko se izvaja igra, dodana v GameSpace, in je polnilnik priključen, polnilnik neposredno napaja tablični računalnik, baterija pa se ne polni. Izklopi se, ko raven baterije pade na %1$d %%.</string>
+    <string name="bypass_gamespace_on_title">Obvodno polnjenje je vklopljeno za igro GameSpace %1$s</string>
 </resources>

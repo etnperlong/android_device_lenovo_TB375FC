@@ -248,4 +248,7 @@
     <string name="heat_protection_threshold_high">উচ্চ (43 °C)</string>
     <string name="heat_protection_notification_title">টেবলেট অতি গৰম, চাৰ্জিং পজ কৰা হৈছে</string>
     <string name="heat_protection_notification_text">বেটাৰীৰ উষ্ণতা %1$s। চেঁচা নোহোৱালৈকে চাৰ্জাৰে টেবলেটটোক পোনপটীয়াকৈ পাৱাৰ যোগান ধৰে, তাৰ পিছত চাৰ্জিং পুনৰ আৰম্ভ হয়।</string>
+    <string name="bypass_gamespace_title">GameSpace-ৰ গেমত বাইপাছ চাৰ্জিং</string>
+    <string name="bypass_gamespace_summary">GameSpace-ত যোগ কৰা কোনো গেম চলি থকা আৰু চাৰ্জাৰ সংযুক্ত হৈ থকা সময়ত, চাৰ্জাৰে টেবলেটটোক পোনপটীয়াকৈ পাৱাৰ যোগান ধৰে আৰু বেটাৰী চাৰ্জ নহয়। বেটাৰী %1$d%%লৈ নামিলে অফ হৈ যায়।</string>
+    <string name="bypass_gamespace_on_title">GameSpace গেম %1$s-ৰ বাবে বাইপাছ চাৰ্জিং অন আছে</string>
 </resources>

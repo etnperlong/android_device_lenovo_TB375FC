@@ -256,4 +256,7 @@
     <string name="heat_protection_threshold_high">Wysoka (43 °C)</string>
     <string name="heat_protection_notification_title">Tablet jest za gorący, ładowanie wstrzymane</string>
     <string name="heat_protection_notification_text">Temperatura baterii wynosi %1$s. Ładowarka zasila tablet bezpośrednio, dopóki nie ostygnie, a potem ładowanie zostanie wznowione.</string>
+    <string name="bypass_gamespace_title">Ładowanie pomijające baterię w grach GameSpace</string>
+    <string name="bypass_gamespace_summary">Gdy uruchomiona jest gra dodana do GameSpace, a ładowarka jest podłączona, ładowarka zasila tablet bezpośrednio, a bateria nie jest ładowana. Wyłącza się, gdy poziom baterii spadnie do %1$d%%.</string>
+    <string name="bypass_gamespace_on_title">Ładowanie pomijające baterię jest włączone dla gry GameSpace %1$s</string>
 </resources>

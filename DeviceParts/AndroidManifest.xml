@@ -19,6 +19,7 @@
     <uses-permission android:name="android.permission.MODIFY_AUDIO_ROUTING" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <uses-permission android:name="android.permission.MANAGE_ACTIVITY_TASKS" />
+    <uses-permission android:name="android.permission.MANAGE_GAME_MODE" />
     <uses-permission android:name="android.permission.MONITOR_INPUT" />
     <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
@@ -501,6 +502,18 @@
             <intent-filter>
                 <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- DerpFest's GameSpace passes game starts and stops on to every app that receives
+             them, sent with MANAGE_GAME_MODE. -->
+        <receiver
+            android:name=".charging.GameSpaceReceiver"
+            android:exported="true"
+            android:permission="android.permission.MANAGE_GAME_MODE">
+            <intent-filter>
+                <action android:name="io.chaldeaprjkt.gamespace.action.GAME_START" />
+                <action android:name="io.chaldeaprjkt.gamespace.action.GAME_STOP" />
             </intent-filter>
         </receiver>
     </application>
