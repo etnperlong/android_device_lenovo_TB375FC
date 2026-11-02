@@ -50,7 +50,7 @@
     <string name="category_cover_title">Jalada</string>
     <string name="category_misc_title">Nyinginezo</string>
     <string name="pen_refresh_cap_title">Weka kikomo cha Hz 120 unapotumia kalamu</string>
-    <string name="pen_refresh_cap_summary">Kalamu inayotumika inaripotiwa kufanya kazi hadi Hz 120 pekee. Kikomo huondolewa sekunde 10 baada ya kitendo cha mwisho cha kalamu.</string>
+    <string name="pen_refresh_cap_summary">Kalamu inayotumika hufanya kazi hadi Hz 120 pekee. Kikomo hiki hutumika wakati kalamu rasmi ya Lenovo imeunganishwa kupitia Bluetooth na kwa sekunde 10 baada ya ingizo la mwisho kwa kalamu.</string>
     <string name="reading_low_refresh_title">Hz 30 katika hali ya kusoma</string>
     <string name="reading_low_refresh_summary">Punguza kiwango cha kuonyesha upya hali ya kusoma ikiwa imewashwa</string>
     <string name="reading_low_refresh_unavailable">Hali ya kusoma haipatikani</string>

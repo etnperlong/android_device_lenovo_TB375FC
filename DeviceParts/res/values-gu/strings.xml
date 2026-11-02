@@ -50,7 +50,7 @@
     <string name="category_cover_title">કવર</string>
     <string name="category_misc_title">અન્ય</string>
     <string name="pen_refresh_cap_title">સ્ટાઇલસનો ઉપયોગ કરતી વખતે 120 Hz સુધી સીમિત કરો</string>
-    <string name="pen_refresh_cap_summary">ઍક્ટિવ સ્ટાઇલસ ફક્ત 120 Hz સુધી કામ કરે છે. સ્ટાઇલસ વડે છેલ્લો ઇનપુટ આપ્યાના 10 સેકન્ડ પછી સીમા દૂર થાય છે.</string>
+    <string name="pen_refresh_cap_summary">ઍક્ટિવ સ્ટાઇલસ ફક્ત 120 Hz સુધી કામ કરે છે. સત્તાવાર Lenovo સ્ટાઇલસ Bluetooth દ્વારા કનેક્ટ હોય ત્યારે અને સ્ટાઇલસના છેલ્લા ઇનપુટ પછી 10 સેકન્ડ સુધી આ મર્યાદા લાગુ પડે છે.</string>
     <string name="reading_low_refresh_title">રીડિંગ મોડમાં 30 Hz</string>
     <string name="reading_low_refresh_summary">રીડિંગ મોડ ચાલુ હોય ત્યારે રિફ્રેશ રેટ ઘટાડો</string>
     <string name="reading_low_refresh_unavailable">રીડિંગ મોડ ઉપલબ્ધ નથી</string>

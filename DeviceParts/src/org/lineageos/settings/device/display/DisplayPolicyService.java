@@ -36,7 +36,10 @@ import lineageos.hardware.LineageHardwareManager;
  *
  * - Stylus: stock MediaTek SurfaceFlinger runs a 10 s "PenTimer" fed by every stylus
  *   MotionEvent (hover included) and steers to 120 Hz while it runs. Here a gesture-monitor
- *   spy window observes the same events and caps the display at 120 Hz, unless the user turned
+ *   spy window observes the same events and caps the display at 120 Hz. At 144 Hz the NVT
+ *   controller does not track the pen, so those events never arrive to start the cap; it is
+ *   therefore also held while an official Lenovo pen is connected over Bluetooth
+ *   ({@link PenConnectionState}). Both are skipped if the user turned
  *   {@link #KEY_PEN_REFRESH_CAP} off.
  * - Reading mode: stock caps at max(min_refresh_rate, 30 Hz) while ZUI reading mode is active
  *   and the user enabled "low refresh". Here the reading mode is LineageOS LiveDisplay reading
@@ -78,6 +81,7 @@ public class DisplayPolicyService extends Service {
     private LineageHardwareManager mHardware;
     private boolean mReadingSupported;
     private boolean mPenCapEnabled = true;
+    private boolean mPenConnected;
     private boolean mReadingLowRefreshEnabled;
     private InputMonitor mInputMonitor;
     private PolicyInputReceiver mInputReceiver;
@@ -175,6 +179,11 @@ public class DisplayPolicyService extends Service {
             mArbiter.setAppCapHz(hz);
             applyCap();
         })));
+        mPenConnected = PenConnectionState.setListener(connected -> mHandler.post(() -> {
+            mPenConnected = connected;
+            mArbiter.setPenConnected(mPenCapEnabled && connected);
+            applyCap();
+        }));
         readSettings();
         updateReadingMode();
         applyCap();
@@ -182,6 +191,7 @@ public class DisplayPolicyService extends Service {
 
     private void stop() {
         AppRefreshRateLimit.setListener(null);
+        PenConnectionState.setListener(null);
         if (mInputReceiver != null) {
             mInputReceiver.dispose();
             mInputReceiver = null;
@@ -212,6 +222,7 @@ public class DisplayPolicyService extends Service {
             mHandler.removeCallbacks(mStylusTimeoutCheck);
             mArbiter.setStylusActive(false);
         }
+        mArbiter.setPenConnected(mPenCapEnabled && mPenConnected);
         mReadingLowRefreshEnabled = mReadingSupported
                 && Settings.Secure.getInt(cr, KEY_READING_LOW_REFRESH, 0) != 0;
     }

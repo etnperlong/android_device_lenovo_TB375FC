@@ -50,7 +50,7 @@
     <string name="category_cover_title">Funda</string>
     <string name="category_misc_title">Altres</string>
     <string name="pen_refresh_cap_title">Limita a 120 Hz quan facis servir el llapis</string>
-    <string name="pen_refresh_cap_summary">El llapis actiu només funciona fins a 120 Hz. El límit s’elimina 10 segons després de l’última interacció amb el llapis.</string>
+    <string name="pen_refresh_cap_summary">El llapis actiu només funciona fins a 120 Hz. El límit és vigent mentre un llapis oficial de Lenovo està connectat per Bluetooth i durant 10 segons després de la darrera entrada amb el llapis.</string>
     <string name="reading_low_refresh_title">30 Hz en mode lectura</string>
     <string name="reading_low_refresh_summary">Redueix la freqüència d’actualització mentre el mode lectura està activat</string>
     <string name="reading_low_refresh_unavailable">El mode lectura no està disponible</string>

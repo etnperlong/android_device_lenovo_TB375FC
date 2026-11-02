@@ -50,7 +50,7 @@
     <string name="category_cover_title">G‘ilof</string>
     <string name="category_misc_title">Boshqa</string>
     <string name="pen_refresh_cap_title">Stilusdan foydalanganda 120 Hz bilan cheklash</string>
-    <string name="pen_refresh_cap_summary">Faol stilus faqat 120 Hz gacha ishlashi aytilgan. Stilusdan oxirgi marta foydalanilgandan 10 soniya oʻtgach cheklov olib tashlanadi.</string>
+    <string name="pen_refresh_cap_summary">Faol stilus faqat 120 Hz gacha ishlaydi. Cheklov rasmiy Lenovo stilusi Bluetooth orqali ulangan paytda va stilus orqali oxirgi kiritishdan keyin 10 soniya davomida amal qiladi.</string>
     <string name="reading_low_refresh_title">Oʻqish rejimida 30 Hz</string>
     <string name="reading_low_refresh_summary">Oʻqish rejimi yoqilganda yangilanish chastotasini pasaytirish</string>
     <string name="reading_low_refresh_unavailable">Oʻqish rejimi mavjud emas</string>

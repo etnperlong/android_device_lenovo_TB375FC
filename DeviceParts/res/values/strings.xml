@@ -60,7 +60,7 @@
     <string name="category_misc_title">Other</string>
 
     <string name="pen_refresh_cap_title">Limit to 120 Hz while using the pen</string>
-    <string name="pen_refresh_cap_summary">The active pen is reported to work only up to 120 Hz. The limit lifts 10 seconds after the last pen input.</string>
+    <string name="pen_refresh_cap_summary">The active pen works only up to 120 Hz. The limit applies while an official Lenovo pen is connected over Bluetooth, and for 10 seconds after the last pen input.</string>
     <string name="reading_low_refresh_title">30 Hz in reading mode</string>
     <string name="reading_low_refresh_summary">Lower the refresh rate while reading mode is on</string>
     <string name="reading_low_refresh_unavailable">Reading mode is not available</string>

@@ -50,7 +50,7 @@
     <string name="category_cover_title">Cover</string>
     <string name="category_misc_title">Diverse</string>
     <string name="pen_refresh_cap_title">Begræns til 120 Hz ved brug af pennen</string>
-    <string name="pen_refresh_cap_summary">Den aktive pen understøtter efter sigende kun op til 120 Hz. Grænsen ophæves 10 sekunder efter det sidste input med pennen.</string>
+    <string name="pen_refresh_cap_summary">Den aktive pen fungerer kun op til 120 Hz. Grænsen gælder, mens en officiel Lenovo-pen er tilsluttet via Bluetooth, og i 10 sekunder efter det sidste input med pennen.</string>
     <string name="reading_low_refresh_title">30 Hz i læsetilstand</string>
     <string name="reading_low_refresh_summary">Sænk opdateringshastigheden, når læsetilstand er slået til</string>
     <string name="reading_low_refresh_unavailable">Læsetilstand er ikke tilgængelig</string>

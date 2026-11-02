@@ -50,7 +50,7 @@
     <string name="category_cover_title">መያዣ</string>
     <string name="category_misc_title">ሌሎች</string>
     <string name="pen_refresh_cap_title">ስታይለስ ሲጠቀሙ ወደ 120 ኸርዝ ገድብ</string>
-    <string name="pen_refresh_cap_summary">ንቁው ስታይለስ እስከ 120 ኸርዝ ብቻ እንደሚሠራ ተገልጿል። የመጨረሻው የስታይለስ ግቤት ከተደረገ ከ10 ሰከንድ በኋላ ገደቡ ይነሳል።</string>
+    <string name="pen_refresh_cap_summary">ንቁው ስታይለስ እስከ 120 ኸርዝ ብቻ ይሠራል። ይፋዊ የLenovo ስታይለስ በBluetooth ተገናኝቶ ሲሆን እና ከመጨረሻው የስታይለስ ግቤት በኋላ ለ10 ሰከንድ ገደቡ ይተገበራል።</string>
     <string name="reading_low_refresh_title">በንባብ ሁነታ 30 ኸርዝ</string>
     <string name="reading_low_refresh_summary">የንባብ ሁነታ ሲበራ የማደስ ፍጥነቱን ዝቅ አድርግ</string>
     <string name="reading_low_refresh_unavailable">የንባብ ሁነታ አይገኝም</string>

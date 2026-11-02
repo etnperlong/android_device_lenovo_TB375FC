@@ -50,7 +50,7 @@
     <string name="category_cover_title">Suojakuori</string>
     <string name="category_misc_title">Muut</string>
     <string name="pen_refresh_cap_title">Rajoita virkistystaajuus 120 Hz:iin näyttökynää käytettäessä</string>
-    <string name="pen_refresh_cap_summary">Aktiivisen näyttökynän ilmoitetaan toimivan vain enintään 120 Hz:n virkistystaajuudella. Rajoitus poistuu 10 sekuntia viimeisen kynän syötteen jälkeen.</string>
+    <string name="pen_refresh_cap_summary">Aktiivinen näyttökynä toimii vain enintään 120 Hz:n virkistystaajuudella. Rajoitus on voimassa, kun virallinen Lenovo-näyttökynä on yhdistetty Bluetooth-yhteydellä, sekä 10 sekuntia viimeisen kynän syötteen jälkeen.</string>
     <string name="reading_low_refresh_title">30 Hz lukutilassa</string>
     <string name="reading_low_refresh_summary">Pienennä virkistystaajuutta, kun lukutila on käytössä</string>
     <string name="reading_low_refresh_unavailable">Lukutila ei ole käytettävissä</string>

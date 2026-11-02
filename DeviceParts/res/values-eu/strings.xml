@@ -50,7 +50,7 @@
     <string name="category_cover_title">Estalkia</string>
     <string name="category_misc_title">Besterik</string>
     <string name="pen_refresh_cap_title">Mugatu 120 Hz-era arkatza erabiltzean</string>
-    <string name="pen_refresh_cap_summary">Arkatz aktiboak 120 Hz-era arte soilik funtzionatzen duela jakinarazi da. Muga azken arkatz-sarreratik 10 segundora kentzen da.</string>
+    <string name="pen_refresh_cap_summary">Arkatz aktiboak 120 Hz-era arte soilik funtzionatzen du. Muga Lenovo-ren arkatz ofizial bat Bluetooth bidez konektatuta dagoenean eta azken arkatz-sarreratik 10 segundoz aplikatzen da.</string>
     <string name="reading_low_refresh_title">30 Hz irakurketa-moduan</string>
     <string name="reading_low_refresh_summary">Murriztu freskatze-abiadura irakurketa-modua aktibatuta dagoenean</string>
     <string name="reading_low_refresh_unavailable">Irakurketa-modua ez dago erabilgarri</string>

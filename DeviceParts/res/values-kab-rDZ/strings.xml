@@ -50,7 +50,7 @@
     <string name="category_cover_title">Aɣlaf</string>
     <string name="category_misc_title">Wiyad</string>
     <string name="pen_refresh_cap_title">Sbed amḍan ar 120 Hz mi ara tesqedceḍ amaru</string>
-    <string name="pen_refresh_cap_summary">Aḍris n umaru ur yessawaḍ ara ɣer sdat n 120 Hz. Talast tettwakkes 10 n tesinin seld anekcum aneggaru s umaru.</string>
+    <string name="pen_refresh_cap_summary">Amaru amiran ixeddem kan ar 120 Hz. Talast tella mi ara yeqqen umaru unṣib n Lenovo s Bluetooth, u 10 n tesinin seld anekcum aneggaru s umaru.</string>
     <string name="reading_low_refresh_title">30 Hz deg uskar n tɣuri</string>
     <string name="reading_low_refresh_summary">Sider amḍan n usnifel mi ara yili uskar n tɣuri yermed</string>
     <string name="reading_low_refresh_unavailable">Askar n tɣuri ur yelli ara</string>

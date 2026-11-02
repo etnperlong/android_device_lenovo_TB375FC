@@ -50,7 +50,7 @@
     <string name="category_cover_title">Futrola</string>
     <string name="category_misc_title">Ostalo</string>
     <string name="pen_refresh_cap_title">Ograniči na 120 Hz tijekom korištenja olovke</string>
-    <string name="pen_refresh_cap_summary">Aktivna olovka navodno radi samo do 120 Hz. Ograničenje se ukida 10 sekundi nakon posljednjeg unosa olovkom.</string>
+    <string name="pen_refresh_cap_summary">Aktivna olovka radi samo do 120 Hz. Ograničenje se primjenjuje dok je službena Lenovo olovka povezana putem Bluetooth veze i 10 sekundi nakon posljednjeg unosa olovkom.</string>
     <string name="reading_low_refresh_title">30 Hz u načinu čitanja</string>
     <string name="reading_low_refresh_summary">Smanji učestalost osvježavanja dok je uključen način čitanja</string>
     <string name="reading_low_refresh_unavailable">Način čitanja nije dostupan</string>

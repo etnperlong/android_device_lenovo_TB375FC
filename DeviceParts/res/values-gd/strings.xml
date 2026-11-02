@@ -50,7 +50,7 @@
     <string name="category_cover_title">Còmhdach</string>
     <string name="category_misc_title">Eile</string>
     <string name="pen_refresh_cap_title">Cuir crìoch air aig 120 Hz nuair a thathar a’ cleachdadh a’ pheann</string>
-    <string name="pen_refresh_cap_summary">Chan obraich am peann gnìomhach ach suas ri 120 Hz. Thèid a’ chrìoch a thoirt air falbh 10 diogan an dèidh an in-chur peann mu dheireadh.</string>
+    <string name="pen_refresh_cap_summary">Chan obraich am peann gnìomhach ach suas ri 120 Hz. Tha an cuingealachadh an sàs rè na h-ùine a tha peann oifigeil Lenovo ceangailte tro Bluetooth agus airson 10 diogan às dèidh an in-chuir peann mu dheireadh.</string>
     <string name="reading_low_refresh_title">30 Hz sa mhodh leughaidh</string>
     <string name="reading_low_refresh_summary">Lùghdaich an ìre ath-nuadhachaidh nuair a bhios am modh leughaidh air</string>
     <string name="reading_low_refresh_unavailable">Chan eil am modh leughaidh ri fhaighinn</string>

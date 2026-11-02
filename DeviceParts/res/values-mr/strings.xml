@@ -50,7 +50,7 @@
     <string name="category_cover_title">कव्हर</string>
     <string name="category_misc_title">इतर</string>
     <string name="pen_refresh_cap_title">स्टायलस वापरताना 120 Hz पर्यंत मर्यादित करा</string>
-    <string name="pen_refresh_cap_summary">ॲक्टिव्ह स्टायलस फक्त 120 Hz पर्यंतच काम करतो. स्टायलसद्वारे शेवटचा इनपुट दिल्यानंतर 10 सेकंदांनी मर्यादा हटते.</string>
+    <string name="pen_refresh_cap_summary">ॲक्टिव्ह स्टायलस फक्त 120 Hz पर्यंत काम करतो. अधिकृत Lenovo स्टायलस Bluetooth द्वारे कनेक्ट असताना आणि स्टायलसद्वारे शेवटचा इनपुट दिल्यानंतर 10 सेकंदांपर्यंत मर्यादा लागू असते.</string>
     <string name="reading_low_refresh_title">रीडिंग मोडमध्ये 30 Hz</string>
     <string name="reading_low_refresh_summary">रीडिंग मोड सुरू असताना रिफ्रेश रेट कमी करा</string>
     <string name="reading_low_refresh_unavailable">रीडिंग मोड उपलब्ध नाही</string>

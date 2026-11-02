@@ -50,7 +50,7 @@
     <string name="category_cover_title">Κάλυμμα</string>
     <string name="category_misc_title">Άλλα</string>
     <string name="pen_refresh_cap_title">Περιορισμός στα 120 Hz κατά τη χρήση της γραφίδας</string>
-    <string name="pen_refresh_cap_summary">Η ενεργή γραφίδα αναφέρεται ότι λειτουργεί μόνο έως τα 120 Hz. Το όριο καταργείται 10 δευτερόλεπτα μετά την τελευταία είσοδο από τη γραφίδα.</string>
+    <string name="pen_refresh_cap_summary">Η ενεργή γραφίδα λειτουργεί μόνο έως τα 120 Hz. Το όριο ισχύει όσο είναι συνδεδεμένη μέσω Bluetooth μια επίσημη γραφίδα Lenovo και για 10 δευτερόλεπτα μετά την τελευταία είσοδο από τη γραφίδα.</string>
     <string name="reading_low_refresh_title">30 Hz στη λειτουργία ανάγνωσης</string>
     <string name="reading_low_refresh_summary">Μείωση του ρυθμού ανανέωσης όταν είναι ενεργή η λειτουργία ανάγνωσης</string>
     <string name="reading_low_refresh_unavailable">Η λειτουργία ανάγνωσης δεν είναι διαθέσιμη</string>

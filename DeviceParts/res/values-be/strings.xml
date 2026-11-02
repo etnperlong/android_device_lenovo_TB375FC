@@ -50,7 +50,7 @@
     <string name="category_cover_title">Чахол</string>
     <string name="category_misc_title">Рознае</string>
     <string name="pen_refresh_cap_title">Абмежаваць да 120 Гц пры выкарыстанні стылуса</string>
-    <string name="pen_refresh_cap_summary">Паводле звестак, актыўны стылус працуе толькі на частаце да 120 Гц. Абмежаванне здымаецца праз 10 секунд пасля апошняга ўводу стылусам.</string>
+    <string name="pen_refresh_cap_summary">Актыўны стылус працуе толькі з частатой да 120 Гц. Абмежаванне дзейнічае, пакуль афіцыйны стылус Lenovo падключаны праз Bluetooth, і на працягу 10 секунд пасля апошняга ўводу стылусам.</string>
     <string name="reading_low_refresh_title">30 Гц у рэжыме чытання</string>
     <string name="reading_low_refresh_summary">Зніжаць частату абнаўлення, калі ўключаны рэжым чытання</string>
     <string name="reading_low_refresh_unavailable">Рэжым чытання недаступны</string>

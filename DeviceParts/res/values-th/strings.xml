@@ -50,7 +50,7 @@
     <string name="category_cover_title">เคส</string>
     <string name="category_misc_title">อื่นๆ</string>
     <string name="pen_refresh_cap_title">จำกัดไว้ที่ 120 Hz ขณะใช้ปากกา</string>
-    <string name="pen_refresh_cap_summary">มีรายงานว่าปากกาสไตลัสแบบแอ็กทีฟทำงานได้สูงสุดที่ 120 Hz เท่านั้น โดยจะยกเลิกการจำกัด 10 วินาทีหลังจากใช้ปากกาครั้งล่าสุด</string>
+    <string name="pen_refresh_cap_summary">ปากกาสไตลัสแบบแอ็กทีฟทำงานได้สูงสุดที่ 120 Hz เท่านั้น ข้อจำกัดนี้มีผลขณะที่ปากกา Lenovo อย่างเป็นทางการเชื่อมต่อผ่าน Bluetooth และเป็นเวลา 10 วินาทีหลังจากป้อนข้อมูลด้วยปากกาครั้งล่าสุด</string>
     <string name="reading_low_refresh_title">30 Hz ในโหมดการอ่าน</string>
     <string name="reading_low_refresh_summary">ลดอัตราการรีเฟรชขณะเปิดโหมดการอ่าน</string>
     <string name="reading_low_refresh_unavailable">โหมดการอ่านไม่พร้อมใช้งาน</string>

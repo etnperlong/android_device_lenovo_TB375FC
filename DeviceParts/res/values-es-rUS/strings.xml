@@ -50,7 +50,7 @@
     <string name="category_cover_title">Funda</string>
     <string name="category_misc_title">Otros</string>
     <string name="pen_refresh_cap_title">Limitar a 120 Hz al usar la pluma stylus</string>
-    <string name="pen_refresh_cap_summary">Se informó que la pluma stylus activa funciona solo hasta 120 Hz. El límite se quita 10 segundos después de la última interacción con la pluma.</string>
+    <string name="pen_refresh_cap_summary">La pluma stylus activa solo funciona hasta 120 Hz. El límite se aplica mientras una pluma stylus oficial de Lenovo está conectada por Bluetooth y durante 10 segundos después de la última entrada con la pluma stylus.</string>
     <string name="reading_low_refresh_title">30 Hz en modo de lectura</string>
     <string name="reading_low_refresh_summary">Reducir la frecuencia de actualización mientras el modo de lectura está activado</string>
     <string name="reading_low_refresh_unavailable">El modo de lectura no está disponible</string>

@@ -50,7 +50,7 @@
     <string name="category_cover_title">Чохол</string>
     <string name="category_misc_title">Різне</string>
     <string name="pen_refresh_cap_title">Обмежити до 120 Гц під час використання стилуса</string>
-    <string name="pen_refresh_cap_summary">За наявними даними, активний стилус працює лише на частоті до 120 Гц. Обмеження знімається через 10 секунд після останнього введення стилусом.</string>
+    <string name="pen_refresh_cap_summary">Активний стилус працює лише на частоті до 120 Гц. Обмеження діє під час підключення офіційного стилуса Lenovo через Bluetooth і протягом 10 секунд після останнього введення стилусом.</string>
     <string name="reading_low_refresh_title">30 Гц у режимі читання</string>
     <string name="reading_low_refresh_summary">Знижувати частоту оновлення, коли ввімкнено режим читання</string>
     <string name="reading_low_refresh_unavailable">Режим читання недоступний</string>

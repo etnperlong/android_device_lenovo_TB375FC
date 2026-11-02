@@ -50,7 +50,7 @@
     <string name="category_cover_title">ເຄສ</string>
     <string name="category_misc_title">ອື່ນໆ</string>
     <string name="pen_refresh_cap_title">ຈຳກັດເປັນ 120 Hz ເມື່ອໃຊ້ປາກກາ</string>
-    <string name="pen_refresh_cap_summary">ລາຍງານວ່າປາກກາແອັກທິຟຮອງຮັບສູງສຸດພຽງ 120 Hz. ການຈຳກັດຈະຖືກຍົກເລີກ 10 ວິນາທີຫຼັງຈາກໃຊ້ປາກກາຄັ້ງສຸດທ້າຍ.</string>
+    <string name="pen_refresh_cap_summary">ປາກກາທີ່ໃຊ້ງານຢູ່ເຮັດວຽກໄດ້ສູງສຸດພຽງ 120 Hz. ຂໍ້ຈຳກັດຈະມີຜົນເມື່ອປາກກາ Lenovo ຢ່າງເປັນທາງການເຊື່ອມຕໍ່ຜ່ານ Bluetooth ແລະເປັນເວລາ 10 ວິນາທີຫຼັງຈາກປ້ອນຂໍ້ມູນດ້ວຍປາກກາຄັ້ງລ່າສຸດ.</string>
     <string name="reading_low_refresh_title">30 Hz ໃນໂໝດອ່ານ</string>
     <string name="reading_low_refresh_summary">ຫຼຸດອັດຕາການຣີເຟຣຊເມື່ອເປີດໂໝດອ່ານ</string>
     <string name="reading_low_refresh_unavailable">ໂໝດອ່ານບໍ່ພ້ອມໃຊ້</string>

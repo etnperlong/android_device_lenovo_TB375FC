@@ -22,6 +22,7 @@ final class RefreshRateArbiter {
 
     private boolean mScreenOn = true;
     private boolean mStylusActive;
+    private boolean mPenConnected;
     private boolean mReadingMode;
     private boolean mReadingLowRefresh;
     private float mUserMinHz;
@@ -43,6 +44,11 @@ final class RefreshRateArbiter {
 
     void setStylusActive(boolean active) {
         mStylusActive = active && mScreenOn;
+    }
+
+    /** A Lenovo pen is connected over Bluetooth; unlike stylus activity it survives sleep. */
+    void setPenConnected(boolean connected) {
+        mPenConnected = connected;
     }
 
     void setReadingMode(boolean readingMode, boolean lowRefreshEnabled) {
@@ -70,7 +76,7 @@ final class RefreshRateArbiter {
             return NO_LIMIT;
         }
         float cap = Float.POSITIVE_INFINITY;
-        if (mStylusActive) {
+        if (mStylusActive || mPenConnected) {
             cap = Math.min(cap, mStylusCapHz);
         }
         if (mReadingMode && mReadingLowRefresh) {

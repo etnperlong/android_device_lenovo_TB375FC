@@ -50,7 +50,7 @@
     <string name="category_cover_title">Պատյան</string>
     <string name="category_misc_title">Այլ</string>
     <string name="pen_refresh_cap_title">Ստիլուսն օգտագործելիս սահմանափակել մինչև 120 Հց</string>
-    <string name="pen_refresh_cap_summary">Ըստ տեղեկությունների՝ ակտիվ ստիլուսն աշխատում է առավելագույնը 120 Հց հաճախականությամբ։ Սահմանափակումը վերացվում է ստիլուսի վերջին մուտքագրումից 10 վայրկյան անց։</string>
+    <string name="pen_refresh_cap_summary">Ակտիվ ստիլուսն աշխատում է առավելագույնը 120 Հց հաճախականությամբ։ Սահմանափակումը գործում է, երբ պաշտոնական Lenovo ստիլուսը միացված է Bluetooth-ով, և վերջին մուտքագրումից հետո՝ 10 վայրկյան։</string>
     <string name="reading_low_refresh_title">30 Հց՝ ընթերցման ռեժիմում</string>
     <string name="reading_low_refresh_summary">Նվազեցնել թարմացման հաճախականությունը, երբ ընթերցման ռեժիմը միացված է</string>
     <string name="reading_low_refresh_unavailable">Ընթերցման ռեժիմը հասանելի չէ</string>

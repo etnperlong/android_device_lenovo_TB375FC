@@ -50,7 +50,7 @@
     <string name="category_cover_title">కవర్</string>
     <string name="category_misc_title">ఇతర</string>
     <string name="pen_refresh_cap_title">స్టయిలస్‌ను ఉపయోగిస్తున్నప్పుడు 120 Hzకు పరిమితం చేయండి</string>
-    <string name="pen_refresh_cap_summary">యాక్టివ్ స్టయిలస్ గరిష్ఠంగా 120 Hz వరకు మాత్రమే పనిచేస్తుందని నివేదించబడింది. స్టయిలస్‌తో చివరిసారి ఇన్‌పుట్ ఇచ్చిన 10 సెకన్ల తర్వాత పరిమితి తొలగుతుంది.</string>
+    <string name="pen_refresh_cap_summary">యాక్టివ్ స్టయిలస్ 120 Hz వరకు మాత్రమే పనిచేస్తుంది. అధికారిక Lenovo స్టయిలస్ Bluetooth ద్వారా కనెక్ట్ అయి ఉన్నప్పుడు, అలాగే స్టయిలస్‌తో చివరి ఇన్‌పుట్ తర్వాత 10 సెకన్ల వరకు ఈ పరిమితి వర్తిస్తుంది.</string>
     <string name="reading_low_refresh_title">రీడింగ్ మోడ్‌లో 30 Hz</string>
     <string name="reading_low_refresh_summary">రీడింగ్ మోడ్ ఆన్‌లో ఉన్నప్పుడు రిఫ్రెష్ రేట్‌ను తగ్గించండి</string>
     <string name="reading_low_refresh_unavailable">రీడింగ్ మోడ్ అందుబాటులో లేదు</string>

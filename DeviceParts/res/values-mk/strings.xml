@@ -50,7 +50,7 @@
     <string name="category_cover_title">Футрола</string>
     <string name="category_misc_title">Разно</string>
     <string name="pen_refresh_cap_title">Ограничи на 120 Гц при користење пенкало</string>
-    <string name="pen_refresh_cap_summary">Активното пенкало наводно работи само до 120 Гц. Ограничувањето се отстранува 10 секунди по последното внесување со пенкалото.</string>
+    <string name="pen_refresh_cap_summary">Активното пенкало работи само до 120 Гц. Ограничувањето важи додека официјалното пенкало Lenovo е поврзано преку Bluetooth и 10 секунди по последното внесување со пенкалото.</string>
     <string name="reading_low_refresh_title">30 Гц во режимот за читање</string>
     <string name="reading_low_refresh_summary">Намали ја стапката на освежување додека е вклучен режимот за читање</string>
     <string name="reading_low_refresh_unavailable">Режимот за читање не е достапен</string>

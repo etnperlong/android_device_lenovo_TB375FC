@@ -13,11 +13,12 @@
 
     <!--
         Panel exposes 144Hz / 120Hz / 60Hz / 30Hz (confirmed via dumpsys
-        display). The NVT active pen is reported to work only at <=120Hz;
-        stock keeps 144 available and steers to 120 while the pen is in use
-        (a 10 s pen timer inside MediaTek's SurfaceFlinger). Here that job is
-        done by DeviceParts, which requests a 120Hz max refresh rate
-        while stylus events arrive and drops it 10 s after the last one.
+        display). The NVT active pen works only at <=120Hz; stock keeps 144
+        available and steers to 120 while the pen is in use (a 10 s pen timer
+        inside MediaTek's SurfaceFlinger). Here that job is done by
+        DeviceParts, which requests a 120Hz max refresh rate while an official
+        Lenovo pen is connected over Bluetooth and for 10 s after the last
+        stylus event.
         config_defaultRefreshRate matches stock (144) so the default render
         vote does not hide 144; config_defaultPeakRefreshRate stays 120 so 144
         is only used after the user picks it in Settings. SurfaceFlinger

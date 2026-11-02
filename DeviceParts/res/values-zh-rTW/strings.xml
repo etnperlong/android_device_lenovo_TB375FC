@@ -53,7 +53,7 @@
     <string name="category_misc_title">其他</string>
 
     <string name="pen_refresh_cap_title">使用觸控筆時限制為 120 Hz</string>
-    <string name="pen_refresh_cap_summary">主動式觸控筆回報僅支援最高 120 Hz。最後一次觸控筆輸入後 10 秒即解除限制。</string>
+    <string name="pen_refresh_cap_summary">主動式觸控筆最高僅支援 120 Hz。聯想官方觸控筆透過藍牙連線期間，以及最後一次觸控筆輸入後 10 秒內，都會維持此限制。</string>
     <string name="reading_low_refresh_title">閱讀模式下使用 30 Hz</string>
     <string name="reading_low_refresh_summary">開啟閱讀模式時降低刷新率</string>
     <string name="reading_low_refresh_unavailable">閱讀模式無法使用</string>

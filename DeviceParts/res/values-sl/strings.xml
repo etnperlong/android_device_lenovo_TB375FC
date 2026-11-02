@@ -50,7 +50,7 @@
     <string name="category_cover_title">Ovitek</string>
     <string name="category_misc_title">Razno</string>
     <string name="pen_refresh_cap_title">Omeji na 120 Hz med uporabo pisala</string>
-    <string name="pen_refresh_cap_summary">Aktivno pisalo naj bi delovalo le do 120 Hz. Omejitev se odpravi 10 sekund po zadnjem vnosu s pisalom.</string>
+    <string name="pen_refresh_cap_summary">Aktivno pisalo deluje samo do 120 Hz. Omejitev velja, ko je uradno pisalo Lenovo povezano prek povezave Bluetooth, in še 10 sekund po zadnjem vnosu s pisalom.</string>
     <string name="reading_low_refresh_title">30 Hz v načinu za branje</string>
     <string name="reading_low_refresh_summary">Zmanjšaj hitrost osveževanja, ko je vklopljen način za branje</string>
     <string name="reading_low_refresh_unavailable">Način za branje ni na voljo</string>

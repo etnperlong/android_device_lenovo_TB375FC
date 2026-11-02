@@ -50,7 +50,7 @@
     <string name="category_cover_title">കവർ</string>
     <string name="category_misc_title">മറ്റുള്ളവ</string>
     <string name="pen_refresh_cap_title">സ്‌റ്റൈലസ് ഉപയോഗിക്കുമ്പോൾ 120 Hz-ലേക്ക് പരിമിതപ്പെടുത്തുക</string>
-    <string name="pen_refresh_cap_summary">സജീവ സ്‌റ്റൈലസ് പരമാവധി 120 Hz വരെ മാത്രമേ പിന്തുണയ്ക്കൂ എന്നാണ് റിപ്പോർട്ട്. സ്‌റ്റൈലസ് ഉപയോഗിച്ചുള്ള അവസാന ഇൻപുട്ടിന് 10 സെക്കൻഡിന് ശേഷം പരിധി നീങ്ങും.</string>
+    <string name="pen_refresh_cap_summary">സജീവ പേന പരമാവധി 120 Hz വരെ മാത്രമേ പ്രവർത്തിക്കൂ. ഔദ്യോഗിക Lenovo പേന Bluetooth വഴി കണക്റ്റ് ചെയ്തിരിക്കുമ്പോഴും അവസാന പേന ഇൻപുട്ടിന് ശേഷമുള്ള 10 സെക്കൻഡും പരിധി ബാധകമാണ്.</string>
     <string name="reading_low_refresh_title">വായനാ മോഡിൽ 30 Hz</string>
     <string name="reading_low_refresh_summary">വായനാ മോഡ് ഓണായിരിക്കുമ്പോൾ റീഫ്രഷ് നിരക്ക് കുറയ്ക്കുക</string>
     <string name="reading_low_refresh_unavailable">വായനാ മോഡ് ലഭ്യമല്ല</string>

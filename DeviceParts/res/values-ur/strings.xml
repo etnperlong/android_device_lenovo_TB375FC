@@ -50,7 +50,7 @@
     <string name="category_cover_title">کور</string>
     <string name="category_misc_title">متفرق</string>
     <string name="pen_refresh_cap_title">اسٹائلس استعمال کرتے وقت 120 Hz تک محدود کریں</string>
-    <string name="pen_refresh_cap_summary">فعال اسٹائلس کے بارے میں بتایا گیا ہے کہ یہ صرف 120 Hz تک کام کرتا ہے۔ آخری اسٹائلس اِن پٹ کے 10 سیکنڈ بعد حد ہٹا دی جاتی ہے۔</string>
+    <string name="pen_refresh_cap_summary">فعال قلم صرف 120 Hz تک کام کرتا ہے۔ یہ حد سرکاری Lenovo قلم کے Bluetooth کے ذریعے منسلک ہونے کے دوران اور قلم سے آخری اِن پٹ کے بعد 10 سیکنڈ تک لاگو ہوتی ہے۔</string>
     <string name="reading_low_refresh_title">مطالعہ موڈ میں 30 Hz</string>
     <string name="reading_low_refresh_summary">مطالعہ موڈ آن ہونے پر ریفریش ریٹ کم کریں</string>
     <string name="reading_low_refresh_unavailable">مطالعہ موڈ دستیاب نہیں ہے</string>

@@ -50,7 +50,7 @@
     <string name="category_cover_title">Capa</string>
     <string name="category_misc_title">Outro</string>
     <string name="pen_refresh_cap_title">Limitar a 120 Hz ao usar a stylus</string>
-    <string name="pen_refresh_cap_summary">A stylus ativa funciona somente até 120 Hz. O limite é removido 10 segundos após o último uso da stylus.</string>
+    <string name="pen_refresh_cap_summary">A stylus ativa funciona somente até 120 Hz. O limite se aplica enquanto uma stylus Lenovo oficial estiver conectada via Bluetooth e por 10 segundos após a última entrada da stylus.</string>
     <string name="reading_low_refresh_title">30 Hz no modo de leitura</string>
     <string name="reading_low_refresh_summary">Reduzir a taxa de atualização enquanto o modo de leitura estiver ativado</string>
     <string name="reading_low_refresh_unavailable">O modo de leitura não está disponível</string>

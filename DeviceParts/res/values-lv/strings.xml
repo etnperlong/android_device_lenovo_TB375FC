@@ -50,7 +50,7 @@
     <string name="category_cover_title">Vāciņš</string>
     <string name="category_misc_title">Cits</string>
     <string name="pen_refresh_cap_title">Ierobežot līdz 120 Hz, izmantojot skārienekrāna pildspalvu</string>
-    <string name="pen_refresh_cap_summary">Aktīvā skārienekrāna pildspalva, kā ziņots, darbojas tikai līdz 120 Hz. Ierobežojums tiek atcelts 10 sekundes pēc pēdējās ievades ar pildspalvu.</string>
+    <string name="pen_refresh_cap_summary">Aktīvais irbulis darbojas tikai līdz 120 Hz. Ierobežojums ir spēkā, kamēr oficiālais Lenovo irbulis ir savienots, izmantojot Bluetooth, un 10 sekundes pēc pēdējās ievades ar irbuli.</string>
     <string name="reading_low_refresh_title">30 Hz lasīšanas režīmā</string>
     <string name="reading_low_refresh_summary">Samazināt atsvaidzes intensitāti, kad ir ieslēgts lasīšanas režīms</string>
     <string name="reading_low_refresh_unavailable">Lasīšanas režīms nav pieejams</string>

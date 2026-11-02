@@ -50,7 +50,7 @@
     <string name="category_cover_title">قاپ</string>
     <string name="category_misc_title">باشقىلار</string>
     <string name="pen_refresh_cap_title">قەلەم ئىشلەتكەندە 120 Hz بىلەن چەكلەش</string>
-    <string name="pen_refresh_cap_summary">ئاكتىپ قەلەم پەقەت 120 Hz غىچە ئىشلەيدۇ. ئاخىرقى قەلەم كىرگۈزۈشىدىن 10 سېكۇنت كېيىن چەك ئېلىۋېتىلىدۇ.</string>
+    <string name="pen_refresh_cap_summary">ئاكتىپ قەلەم پەقەت 120 Hz غىچە ئىشلەيدۇ. بۇ چەك رەسمىي Lenovo قەلىمى Bluetooth ئارقىلىق ئۇلانغاندا ۋە قەلەم ئارقىلىق ئەڭ ئاخىرقى كىرگۈزۈشتىن كېيىنكى 10 سېكۇنت ئىچىدە قوللىنىلىدۇ.</string>
     <string name="reading_low_refresh_title">ئوقۇش ھالىتىدە 30 Hz</string>
     <string name="reading_low_refresh_summary">ئوقۇش ھالىتى ئېچىلغاندا يېڭىلاش نىسبىتىنى تۆۋەنلىتىدۇ</string>
     <string name="reading_low_refresh_unavailable">ئوقۇش ھالىتىنى ئىشلەتكىلى بولمايدۇ</string>

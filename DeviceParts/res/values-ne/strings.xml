@@ -50,7 +50,7 @@
     <string name="category_cover_title">कभर</string>
     <string name="category_misc_title">अन्य</string>
     <string name="pen_refresh_cap_title">स्टाइलस प्रयोग गर्दा 120 Hz मा सीमित गर्नुहोस्</string>
-    <string name="pen_refresh_cap_summary">सक्रिय स्टाइलसले 120 Hz सम्म मात्रै काम गर्छ। स्टाइलसबाट अन्तिम इनपुट दिएको 10 सेकेन्डपछि सीमा हट्छ।</string>
+    <string name="pen_refresh_cap_summary">सक्रिय स्टाइलसले 120 Hz सम्म मात्रै काम गर्छ। आधिकारिक Lenovo पेन Bluetooth मार्फत जडान भएको बेला र स्टाइलसबाट अन्तिम इनपुट दिएको 10 सेकेन्डसम्म सीमा लागू हुन्छ।</string>
     <string name="reading_low_refresh_title">रिडिङ मोडमा 30 Hz</string>
     <string name="reading_low_refresh_summary">रिडिङ मोड अन हुँदा रिफ्रेस रेट घटाउनुहोस्</string>
     <string name="reading_low_refresh_unavailable">रिडिङ मोड उपलब्ध छैन</string>

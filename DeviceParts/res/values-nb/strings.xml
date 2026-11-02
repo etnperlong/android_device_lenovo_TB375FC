@@ -50,7 +50,7 @@
     <string name="category_cover_title">Deksel</string>
     <string name="category_misc_title">Annet</string>
     <string name="pen_refresh_cap_title">Begrens til 120 Hz når pekepennen brukes</string>
-    <string name="pen_refresh_cap_summary">Det rapporteres at den aktive pekepennen bare fungerer opptil 120 Hz. Grensen oppheves 10 sekunder etter siste inndata med pekepennen.</string>
+    <string name="pen_refresh_cap_summary">Den aktive pekepennen fungerer bare opptil 120 Hz. Grensen gjelder mens en offisiell Lenovo-pekepenn er tilkoblet via Bluetooth, og i 10 sekunder etter siste inndata med pekepennen.</string>
     <string name="reading_low_refresh_title">30 Hz i lesemodus</string>
     <string name="reading_low_refresh_summary">Senk oppdateringsfrekvensen når lesemodus er på</string>
     <string name="reading_low_refresh_unavailable">Lesemodus er ikke tilgjengelig</string>

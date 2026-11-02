@@ -50,7 +50,7 @@
     <string name="category_cover_title">Cover</string>
     <string name="category_misc_title">Sonstiges</string>
     <string name="pen_refresh_cap_title">Bei Verwendung des Eingabestifts auf 120 Hz begrenzen</string>
-    <string name="pen_refresh_cap_summary">Laut Meldung unterstützt der aktive Eingabestift nur bis zu 120 Hz. 10 Sekunden nach der letzten Stifteingabe wird die Begrenzung aufgehoben.</string>
+    <string name="pen_refresh_cap_summary">Der aktive Eingabestift funktioniert nur bis zu 120 Hz. Die Begrenzung gilt, solange ein offizieller Lenovo-Eingabestift über Bluetooth verbunden ist, sowie 10 Sekunden lang nach der letzten Stifteingabe.</string>
     <string name="reading_low_refresh_title">30 Hz im Lesemodus</string>
     <string name="reading_low_refresh_summary">Aktualisierungsrate bei aktiviertem Lesemodus senken</string>
     <string name="reading_low_refresh_unavailable">Lesemodus ist nicht verfügbar</string>

@@ -50,7 +50,7 @@
     <string name="category_cover_title">כיסוי</string>
     <string name="category_misc_title">שונות</string>
     <string name="pen_refresh_cap_title">הגבלת קצב הרענון ל־120 Hz בזמן שימוש בסטיילוס</string>
-    <string name="pen_refresh_cap_summary">לפי הדיווחים, סטיילוס פעיל פועל בקצב של עד 120 Hz בלבד. ההגבלה מוסרת 10 שניות לאחר השימוש האחרון בסטיילוס.</string>
+    <string name="pen_refresh_cap_summary">סטיילוס פעיל פועל רק עד 120 Hz. ההגבלה חלה כשהסטיילוס הרשמי של Lenovo מחובר באמצעות Bluetooth, ולמשך 10 שניות לאחר הקלט האחרון בסטיילוס.</string>
     <string name="reading_low_refresh_title">30 Hz במצב קריאה</string>
     <string name="reading_low_refresh_summary">הפחתת קצב הרענון כשמצב הקריאה מופעל</string>
     <string name="reading_low_refresh_unavailable">מצב הקריאה לא זמין</string>

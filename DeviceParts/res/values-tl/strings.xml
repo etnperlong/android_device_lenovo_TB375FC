@@ -50,7 +50,7 @@
     <string name="category_cover_title">Cover</string>
     <string name="category_misc_title">Iba pa</string>
     <string name="pen_refresh_cap_title">Limitahan sa 120 Hz kapag gumagamit ng stylus</string>
-    <string name="pen_refresh_cap_summary">Iniulat na hanggang 120 Hz lang ang kayang suportahan ng aktibong stylus. Aalisin ang limitasyon 10 segundo pagkatapos ng huling input ng stylus.</string>
+    <string name="pen_refresh_cap_summary">Gumagana lang ang aktibong stylus hanggang 120 Hz. Nalalapat ang limitasyon habang nakakonekta sa pamamagitan ng Bluetooth ang isang opisyal na Lenovo stylus, at sa loob ng 10 segundo pagkatapos ng huling input sa stylus.</string>
     <string name="reading_low_refresh_title">30 Hz sa reading mode</string>
     <string name="reading_low_refresh_summary">Pababain ang refresh rate habang naka-on ang reading mode</string>
     <string name="reading_low_refresh_unavailable">Hindi available ang reading mode</string>

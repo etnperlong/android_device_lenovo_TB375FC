@@ -50,7 +50,7 @@
     <string name="category_cover_title">Etui</string>
     <string name="category_misc_title">Inne</string>
     <string name="pen_refresh_cap_title">Ogranicz do 120 Hz podczas korzystania z rysika</string>
-    <string name="pen_refresh_cap_summary">Aktywny rysik obsługuje częstotliwość do 120 Hz. Ograniczenie zostanie zniesione 10 sekund po ostatnim użyciu rysika.</string>
+    <string name="pen_refresh_cap_summary">Aktywny rysik działa tylko do 120 Hz. Ograniczenie obowiązuje podczas połączenia oficjalnego rysika Lenovo przez Bluetooth oraz przez 10 sekund po ostatnim wprowadzeniu danych rysikiem.</string>
     <string name="reading_low_refresh_title">30 Hz w trybie czytania</string>
     <string name="reading_low_refresh_summary">Zmniejsz częstotliwość odświeżania, gdy tryb czytania jest włączony</string>
     <string name="reading_low_refresh_unavailable">Tryb czytania jest niedostępny</string>

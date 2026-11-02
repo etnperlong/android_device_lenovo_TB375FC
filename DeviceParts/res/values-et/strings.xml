@@ -50,7 +50,7 @@
     <string name="category_cover_title">Ümbris</string>
     <string name="category_misc_title">Muu</string>
     <string name="pen_refresh_cap_title">Pliiatsi kasutamisel piira sagedus 120 Hz-ni</string>
-    <string name="pen_refresh_cap_summary">Aktiivne pliiats töötab teadaolevalt ainult kuni sageduseni 120 Hz. Piirang eemaldatakse 10 sekundit pärast viimast pliiatsisisestust.</string>
+    <string name="pen_refresh_cap_summary">Aktiivne pliiats töötab ainult kuni 120 Hz. Piirang kehtib, kui ametlik Lenovo pliiats on Bluetoothi kaudu ühendatud, ning 10 sekundit pärast viimast pliiatsisisestust.</string>
     <string name="reading_low_refresh_title">Lugemisrežiimis 30 Hz</string>
     <string name="reading_low_refresh_summary">Vähenda lugemisrežiimi sisselülitamisel värskendussagedust</string>
     <string name="reading_low_refresh_unavailable">Lugemisrežiim pole saadaval</string>

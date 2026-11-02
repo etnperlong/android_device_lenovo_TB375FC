@@ -50,7 +50,7 @@
     <string name="category_cover_title">Қаптама</string>
     <string name="category_misc_title">Басқа</string>
     <string name="pen_refresh_cap_title">Стилус пайдаланылғанда 120 Гц-пен шектеу</string>
-    <string name="pen_refresh_cap_summary">Белсенді стилус тек 120 Гц-ке дейін жұмыс істейтіні хабарланған. Соңғы стилус енгізуінен кейін 10 секундтан соң шектеу алынады.</string>
+    <string name="pen_refresh_cap_summary">Белсенді стилус тек 120 Гц-ке дейін жұмыс істейді. Ресми Lenovo стилусы Bluetooth арқылы қосылғанда және стилуспен соңғы енгізуден кейін 10 секунд бойы шектеу қолданылады.</string>
     <string name="reading_low_refresh_title">Оқу режимінде 30 Гц</string>
     <string name="reading_low_refresh_summary">Оқу режимі қосулы кезде жаңарту жиілігін төмендету</string>
     <string name="reading_low_refresh_unavailable">Оқу режимі қолжетімді емес</string>

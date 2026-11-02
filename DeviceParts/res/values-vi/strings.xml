@@ -50,7 +50,7 @@
     <string name="category_cover_title">Bao da</string>
     <string name="category_misc_title">Khác</string>
     <string name="pen_refresh_cap_title">Giới hạn ở 120 Hz khi dùng bút</string>
-    <string name="pen_refresh_cap_summary">Bút cảm ứng chủ động được cho là chỉ hoạt động ở tần số tối đa 120 Hz. Giới hạn sẽ được gỡ bỏ 10 giây sau lần dùng bút cuối cùng.</string>
+    <string name="pen_refresh_cap_summary">Bút cảm ứng chủ động chỉ hoạt động tối đa ở 120 Hz. Giới hạn áp dụng khi bút Lenovo chính hãng được kết nối qua Bluetooth và trong 10 giây sau lần nhập liệu cuối cùng bằng bút.</string>
     <string name="reading_low_refresh_title">30 Hz ở chế độ đọc</string>
     <string name="reading_low_refresh_summary">Giảm tần số quét khi bật chế độ đọc</string>
     <string name="reading_low_refresh_unavailable">Chế độ đọc không khả dụng</string>

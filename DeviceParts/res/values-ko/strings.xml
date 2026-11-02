@@ -50,7 +50,7 @@
     <string name="category_cover_title">커버</string>
     <string name="category_misc_title">기타</string>
     <string name="pen_refresh_cap_title">스타일러스 사용 시 120Hz로 제한</string>
-    <string name="pen_refresh_cap_summary">스타일러스는 최대 120Hz까지만 작동하는 것으로 알려져 있습니다. 마지막 스타일러스 입력 후 10초가 지나면 제한이 해제됩니다.</string>
+    <string name="pen_refresh_cap_summary">활성 스타일러스는 120Hz까지만 작동합니다. 공식 Lenovo 펜이 Bluetooth로 연결된 동안과 마지막 스타일러스 입력 후 10초 동안 제한이 적용됩니다.</string>
     <string name="reading_low_refresh_title">독서 모드에서 30Hz</string>
     <string name="reading_low_refresh_summary">독서 모드가 켜져 있을 때 화면 재생 빈도를 낮춥니다</string>
     <string name="reading_low_refresh_unavailable">독서 모드를 사용할 수 없습니다</string>

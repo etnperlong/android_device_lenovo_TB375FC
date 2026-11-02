@@ -50,7 +50,7 @@
     <string name="category_cover_title">Футрола</string>
     <string name="category_misc_title">Остало</string>
     <string name="pen_refresh_cap_title">Ограничи на 120 Гц при коришћењу оловке</string>
-    <string name="pen_refresh_cap_summary">Активна оловка, према наводима, ради само до 120 Гц. Ограничење се уклања 10 секунди после последњег уноса оловком.</string>
+    <string name="pen_refresh_cap_summary">Активна оловка ради само до 120 Гц. Ограничење важи док је званична Lenovo оловка повезана преко Bluetooth везе и још 10 секунди после последњег уноса оловком.</string>
     <string name="reading_low_refresh_title">30 Гц у режиму читања</string>
     <string name="reading_low_refresh_summary">Смањи брзину освежавања док је режим читања укључен</string>
     <string name="reading_low_refresh_unavailable">Режим читања није доступан</string>

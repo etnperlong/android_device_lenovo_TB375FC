@@ -50,7 +50,7 @@
     <string name="category_cover_title">ស្រោម</string>
     <string name="category_misc_title">ផ្សេងទៀត</string>
     <string name="pen_refresh_cap_title">កំណត់ត្រឹម 120 Hz នៅពេលប្រើប៊ិក</string>
-    <string name="pen_refresh_cap_summary">ប៊ិកសកម្មត្រូវបានរាយការណ៍ថាគាំទ្រត្រឹម 120 Hz ប៉ុណ្ណោះ។ កម្រិតកំណត់នឹងត្រូវដកចេញវិញ 10 វិនាទី បន្ទាប់ពីប្រើប៊ិកចុងក្រោយ។</string>
+    <string name="pen_refresh_cap_summary">ប៊ិកសកម្មដំណើរការត្រឹមតែ 120 Hz ប៉ុណ្ណោះ។ ការកំណត់មានប្រសិទ្ធភាពនៅពេលប៊ិក Lenovo ផ្លូវការត្រូវបានភ្ជាប់តាម Bluetooth និងរយៈពេល 10 វិនាទីបន្ទាប់ពីការបញ្ចូលចុងក្រោយដោយប្រើប៊ិក។</string>
     <string name="reading_low_refresh_title">30 Hz ក្នុងរបៀបអាន</string>
     <string name="reading_low_refresh_summary">បន្ថយអត្រាផ្ទុកឡើងវិញ នៅពេលបើករបៀបអាន</string>
     <string name="reading_low_refresh_unavailable">មិនមានរបៀបអានទេ</string>

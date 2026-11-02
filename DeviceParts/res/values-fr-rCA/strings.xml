@@ -50,7 +50,7 @@
     <string name="category_cover_title">Étui</string>
     <string name="category_misc_title">Autre</string>
     <string name="pen_refresh_cap_title">Limiter à 120 Hz lors de l’utilisation du stylet</string>
-    <string name="pen_refresh_cap_summary">Le stylet actif fonctionne seulement jusqu’à 120 Hz. La limite est levée 10 secondes après la dernière utilisation du stylet.</string>
+    <string name="pen_refresh_cap_summary">Le stylet actif fonctionne seulement jusqu’à 120 Hz. La limite s’applique lorsqu’un stylet officiel Lenovo est connecté par Bluetooth et pendant 10 secondes après la dernière saisie au stylet.</string>
     <string name="reading_low_refresh_title">30 Hz en mode Lecture</string>
     <string name="reading_low_refresh_summary">Réduire le taux de rafraîchissement lorsque le mode Lecture est activé</string>
     <string name="reading_low_refresh_unavailable">Le mode Lecture n’est pas disponible</string>

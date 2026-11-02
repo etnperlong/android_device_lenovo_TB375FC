@@ -50,7 +50,7 @@
     <string name="category_cover_title">கவர்</string>
     <string name="category_misc_title">மற்றவை</string>
     <string name="pen_refresh_cap_title">ஸ்டைலஸைப் பயன்படுத்தும்போது 120 Hz ஆக வரம்பிடு</string>
-    <string name="pen_refresh_cap_summary">செயலில் உள்ள ஸ்டைலஸ் 120 Hz வரை மட்டுமே செயல்படும் எனத் தெரிவிக்கப்பட்டுள்ளது. கடைசி ஸ்டைலஸ் உள்ளீட்டிற்கு 10 வினாடிகளுக்குப் பிறகு வரம்பு நீக்கப்படும்.</string>
+    <string name="pen_refresh_cap_summary">செயலில் உள்ள ஸ்டைலஸ் 120 Hz வரை மட்டுமே செயல்படும். அதிகாரப்பூர்வ Lenovo ஸ்டைலஸ் Bluetooth வழியாக இணைக்கப்பட்டிருக்கும்போதும், ஸ்டைலஸில் கடைசி உள்ளீடு கொடுத்த பிறகு 10 வினாடிகளுக்கும் இந்த வரம்பு பொருந்தும்.</string>
     <string name="reading_low_refresh_title">படித்தல் பயன்முறையில் 30 Hz</string>
     <string name="reading_low_refresh_summary">படித்தல் பயன்முறை இயக்கத்தில் இருக்கும்போது ரெஃப்ரெஷ் ரேட்டைக் குறைக்கும்</string>
     <string name="reading_low_refresh_unavailable">படித்தல் பயன்முறை கிடைக்கவில்லை</string>

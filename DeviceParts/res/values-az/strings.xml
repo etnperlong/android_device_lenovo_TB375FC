@@ -50,7 +50,7 @@
     <string name="category_cover_title">Üzlük</string>
     <string name="category_misc_title">Digər</string>
     <string name="pen_refresh_cap_title">Qələmdən istifadə zamanı 120 Hs ilə məhdudlaşdırın</string>
-    <string name="pen_refresh_cap_summary">Aktiv qələmin yalnız 120 Hs-ə qədər işlədiyi bildirilir. Son qələm girişindən 10 saniyə sonra məhdudiyyət götürülür.</string>
+    <string name="pen_refresh_cap_summary">Aktiv qələm yalnız 120 Hs-ə qədər işləyir. Məhdudiyyət rəsmi Lenovo qələmi Bluetooth vasitəsilə qoşulduğu müddətdə və qələmlə son girişdən sonra 10 saniyə ərzində tətbiq olunur.</string>
     <string name="reading_low_refresh_title">Oxuma rejimində 30 Hs</string>
     <string name="reading_low_refresh_summary">Oxuma rejimi aktiv olduqda yeniləmə tezliyini azaldın</string>
     <string name="reading_low_refresh_unavailable">Oxuma rejimi əlçatan deyil</string>

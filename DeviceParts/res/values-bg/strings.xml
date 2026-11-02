@@ -50,7 +50,7 @@
     <string name="category_cover_title">Калъф</string>
     <string name="category_misc_title">Разни</string>
     <string name="pen_refresh_cap_title">Ограничаване до 120 Гц при използване на стилуса</string>
-    <string name="pen_refresh_cap_summary">Според съобщенията активният стилус работи само до 120 Гц. Ограничението се премахва 10 секунди след последното въвеждане със стилуса.</string>
+    <string name="pen_refresh_cap_summary">Активният стилус работи само до 120 Гц. Ограничението важи, докато официален стилус Lenovo е свързан чрез Bluetooth, и за 10 секунди след последното въвеждане със стилуса.</string>
     <string name="reading_low_refresh_title">30 Гц в режим на четене</string>
     <string name="reading_low_refresh_summary">Намаляване на честотата на опресняване, когато режимът на четене е включен</string>
     <string name="reading_low_refresh_unavailable">Режимът на четене не е наличен</string>

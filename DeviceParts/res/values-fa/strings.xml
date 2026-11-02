@@ -50,7 +50,7 @@
     <string name="category_cover_title">قاب</string>
     <string name="category_misc_title">متفرقه</string>
     <string name="pen_refresh_cap_title">محدود کردن به ۱۲۰ هرتز هنگام استفاده از قلم</string>
-    <string name="pen_refresh_cap_summary">گزارش شده که قلم فعال فقط تا ۱۲۰ هرتز کار می‌کند. محدودیت ۱۰ ثانیه پس از آخرین ورودی قلم برداشته می‌شود.</string>
+    <string name="pen_refresh_cap_summary">قلم فعال فقط تا ۱۲۰ هرتز کار می‌کند. این محدودیت هنگام اتصال قلم رسمی Lenovo از طریق Bluetooth و تا ۱۰ ثانیه پس از آخرین ورودی قلم اعمال می‌شود.</string>
     <string name="reading_low_refresh_title">۳۰ هرتز در حالت مطالعه</string>
     <string name="reading_low_refresh_summary">هنگام روشن بودن حالت مطالعه، نرخ نوسازی را کاهش دهید</string>
     <string name="reading_low_refresh_unavailable">حالت مطالعه دردسترس نیست</string>

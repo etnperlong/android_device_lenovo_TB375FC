@@ -50,7 +50,7 @@
     <string name="category_cover_title">Kapak</string>
     <string name="category_misc_title">Diğer</string>
     <string name="pen_refresh_cap_title">Ekran kalemi kullanırken 120 Hz ile sınırla</string>
-    <string name="pen_refresh_cap_summary">Etkin ekran kaleminin yalnızca 120 Hz\'e kadar çalıştığı bildiriliyor. Son kalem girişinden 10 saniye sonra sınır kaldırılır.</string>
+    <string name="pen_refresh_cap_summary">Etkin ekran kalemi yalnızca 120 Hz\'e kadar çalışır. Sınır, resmi bir Lenovo ekran kalemi Bluetooth üzerinden bağlıyken ve son kalem girişinden sonra 10 saniye boyunca geçerlidir.</string>
     <string name="reading_low_refresh_title">Okuma modunda 30 Hz</string>
     <string name="reading_low_refresh_summary">Okuma modu açıkken yenileme hızını düşür</string>
     <string name="reading_low_refresh_unavailable">Okuma modu kullanılamıyor</string>

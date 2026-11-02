@@ -50,7 +50,7 @@
     <string name="category_cover_title">Tok</string>
     <string name="category_misc_title">Egyéb</string>
     <string name="pen_refresh_cap_title">120 Hz-re korlátozás érintőceruza használatakor</string>
-    <string name="pen_refresh_cap_summary">Az aktív érintőceruza a jelentések szerint legfeljebb 120 Hz-en működik. A korlátozás az utolsó ceruzás művelet után 10 másodperccel megszűnik.</string>
+    <string name="pen_refresh_cap_summary">Az aktív érintőceruza csak legfeljebb 120 Hz-en működik. A korlátozás akkor érvényes, amikor egy hivatalos Lenovo érintőceruza Bluetooth-kapcsolaton keresztül csatlakozik, valamint az utolsó ceruzás műveletet követő 10 másodpercig.</string>
     <string name="reading_low_refresh_title">30 Hz olvasómódban</string>
     <string name="reading_low_refresh_summary">Csökkentse a frissítési gyakoriságot, ha az olvasómód be van kapcsolva</string>
     <string name="reading_low_refresh_unavailable">Az olvasómód nem áll rendelkezésre</string>

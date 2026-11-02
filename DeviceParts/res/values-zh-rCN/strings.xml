@@ -53,7 +53,7 @@
     <string name="category_misc_title">杂项</string>
 
     <string name="pen_refresh_cap_title">使用手写笔时限制为 120 Hz</string>
-    <string name="pen_refresh_cap_summary">主动笔据称最高只支持 120 Hz。最后一次笔输入 10 秒后解除限制。</string>
+    <string name="pen_refresh_cap_summary">主动笔最高只支持 120 Hz。联想官方手写笔通过蓝牙连接期间，以及最后一次笔输入后 10 秒内，都会保持此限制。</string>
     <string name="reading_low_refresh_title">阅读模式下使用 30 Hz</string>
     <string name="reading_low_refresh_summary">开启阅读模式时降低刷新率</string>
     <string name="reading_low_refresh_unavailable">阅读模式不可用</string>

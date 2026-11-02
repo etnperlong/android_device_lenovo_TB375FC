@@ -50,7 +50,7 @@
     <string name="category_cover_title">Kapak</string>
     <string name="category_misc_title">Të tjera</string>
     <string name="pen_refresh_cap_title">Kufizoje në 120 Hz kur përdoret stilolapsi</string>
-    <string name="pen_refresh_cap_summary">Stilolapsi aktiv raportohet se funksionon vetëm deri në 120 Hz. Kufizimi hiqet 10 sekonda pas hyrjes së fundit me stilolaps.</string>
+    <string name="pen_refresh_cap_summary">Stilolapsi aktiv funksionon vetëm deri në 120 Hz. Kufizimi zbatohet kur një stilolaps zyrtar Lenovo është i lidhur përmes Bluetooth, si dhe për 10 sekonda pas hyrjes së fundit me stilolaps.</string>
     <string name="reading_low_refresh_title">30 Hz në mënyrën e leximit</string>
     <string name="reading_low_refresh_summary">Ule shpejtësinë e rifreskimit kur është aktive mënyra e leximit</string>
     <string name="reading_low_refresh_unavailable">Mënyra e leximit nuk ofrohet</string>

@@ -50,7 +50,7 @@
     <string name="category_cover_title">Pouzdro</string>
     <string name="category_misc_title">Různé</string>
     <string name="pen_refresh_cap_title">Omezit na 120 Hz při používání dotykového pera</string>
-    <string name="pen_refresh_cap_summary">Aktivní pero údajně podporuje maximálně 120 Hz. Omezení se zruší 10 sekund po posledním použití pera.</string>
+    <string name="pen_refresh_cap_summary">Aktivní pero funguje pouze do 120 Hz. Omezení platí, když je oficiální pero Lenovo připojeno přes Bluetooth, a po dobu 10 sekund od posledního vstupu perem.</string>
     <string name="reading_low_refresh_title">30 Hz v režimu čtení</string>
     <string name="reading_low_refresh_summary">Snížit obnovovací frekvenci, když je zapnutý režim čtení</string>
     <string name="reading_low_refresh_unavailable">Režim čtení není k dispozici</string>

@@ -50,7 +50,7 @@
     <string name="category_cover_title">କଭର</string>
     <string name="category_misc_title">ଅନ୍ୟାନ୍ୟ</string>
     <string name="pen_refresh_cap_title">ଷ୍ଟାଇଲସ ବ୍ୟବହାର କରିବାବେଳେ 120 Hzରେ ସୀମିତ କରନ୍ତୁ</string>
-    <string name="pen_refresh_cap_summary">ସକ୍ରିୟ ଷ୍ଟାଇଲସ କେବଳ 120 Hz ପର୍ଯ୍ୟନ୍ତ କାର୍ଯ୍ୟ କରେ। ଷ୍ଟାଇଲସରେ ଶେଷ ଇନପୁଟ ଦେବାର 10 ସେକେଣ୍ଡ ପରେ ସୀମା ହଟିଯାଏ।</string>
+    <string name="pen_refresh_cap_summary">ସକ୍ରିୟ ଷ୍ଟାଇଲସ କେବଳ 120 Hz ପର୍ଯ୍ୟନ୍ତ କାର୍ଯ୍ୟ କରେ। ଅଫିସିଆଲ୍ Lenovo ଷ୍ଟାଇଲସ Bluetooth ମାଧ୍ୟମରେ ସଂଯୋଗ ହୋଇଥିବାବେଳେ ଏବଂ ଷ୍ଟାଇଲସରେ ଶେଷ ଇନପୁଟ ଦେବା ପରେ 10 ସେକେଣ୍ଡ ପର୍ଯ୍ୟନ୍ତ ଏହି ସୀମା ଲାଗୁ ହୁଏ।</string>
     <string name="reading_low_refresh_title">ରିଡିଙ୍ଗ ମୋଡରେ 30 Hz</string>
     <string name="reading_low_refresh_summary">ରିଡିଙ୍ଗ ମୋଡ ଅନ ଥିବାବେଳେ ରିଫ୍ରେସ ରେଟ କମ କରନ୍ତୁ</string>
     <string name="reading_low_refresh_unavailable">ରିଡିଙ୍ଗ ମୋଡ ଉପଲବ୍ଧ ନାହିଁ</string>

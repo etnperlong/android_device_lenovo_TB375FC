@@ -50,7 +50,7 @@
     <string name="category_cover_title">ক’ভাৰ</string>
     <string name="category_misc_title">অন্যান্য</string>
     <string name="pen_refresh_cap_title">ষ্টাইলাছ ব্যৱহাৰ কৰাৰ সময়ত 120 Hz-লৈ সীমিত কৰক</string>
-    <string name="pen_refresh_cap_summary">সক্ৰিয় ষ্টাইলাছটোৱে কেৱল 120 Hz-লৈকেহে কাম কৰে। ষ্টাইলাছৰ জৰিয়তে শেষৰ ইনপুটৰ 10 ছেকেণ্ড পিছত সীমাটো আঁতৰোৱা হয়।</string>
+    <string name="pen_refresh_cap_summary">সক্ৰিয় ষ্টাইলাছটোৱে কেৱল 120 Hz-লৈকেহে কাম কৰে। চৰকাৰী Lenovo ষ্টাইলাছ Bluetooth-ৰ জৰিয়তে সংযুক্ত হৈ থকা সময়ত আৰু ষ্টাইলাছৰ জৰিয়তে শেষৰ ইনপুটৰ পিছত 10 ছেকেণ্ডলৈকে এই সীমা প্ৰযোজ্য হয়।</string>
     <string name="reading_low_refresh_title">ৰিডিং মোডত 30 Hz</string>
     <string name="reading_low_refresh_summary">ৰিডিং মোড অন থাকিলে ৰিফ্ৰেছৰ হাৰ কমাওক</string>
     <string name="reading_low_refresh_unavailable">ৰিডিং মোড উপলব্ধ নহয়</string>

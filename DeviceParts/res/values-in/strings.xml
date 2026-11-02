@@ -50,7 +50,7 @@
     <string name="category_cover_title">Penutup</string>
     <string name="category_misc_title">Lainnya</string>
     <string name="pen_refresh_cap_title">Batasi ke 120 Hz saat menggunakan stilus</string>
-    <string name="pen_refresh_cap_summary">Stilus aktif dilaporkan hanya mendukung hingga 120 Hz. Batas akan dilepas 10 detik setelah input stilus terakhir.</string>
+    <string name="pen_refresh_cap_summary">Stilus aktif hanya berfungsi hingga 120 Hz. Batas berlaku saat stilus resmi Lenovo terhubung melalui Bluetooth dan selama 10 detik setelah input stilus terakhir.</string>
     <string name="reading_low_refresh_title">30 Hz dalam modus membaca</string>
     <string name="reading_low_refresh_summary">Turunkan kecepatan refresh saat modus membaca aktif</string>
     <string name="reading_low_refresh_unavailable">Modus membaca tidak tersedia</string>

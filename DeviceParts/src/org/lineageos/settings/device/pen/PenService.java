@@ -28,6 +28,7 @@ import android.util.ArraySet;
 import android.util.Log;
 
 import org.lineageos.settings.device.R;
+import org.lineageos.settings.device.display.PenConnectionState;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -51,6 +52,9 @@ import java.util.Set;
  * the pen while its Bluetooth link is down (pen asleep, Bluetooth off); stock instead relies on
  * reconnecting the pen when the controller reports its address (UEVENT_TO=PEN_FRAMEWORK). The mode
  * is turned off (0) once no Lenovo pen is paired.
+ *
+ * The connection state also goes to DisplayPolicyService ({@link PenConnectionState}), which
+ * holds the 120 Hz cap while a pen is connected because the pen does not work at 144 Hz.
  */
 public class PenService extends Service {
     private static final String TAG = "PenService";
@@ -116,7 +120,12 @@ public class PenService extends Service {
 
                 @Override
                 public void onServiceDisconnected(int profile) {
-                    mHandler.post(() -> mHidHost = null);
+                    mHandler.post(() -> {
+                        // Bluetooth turned off: the HID host link to every pen is gone.
+                        mHidHost = null;
+                        mConnectedPens.clear();
+                        applyPenMode();
+                    });
                 }
             };
 
@@ -185,6 +194,8 @@ public class PenService extends Service {
         }
         mHidHost = null;
         mHandler.removeCallbacksAndMessages(null);
+        // Connections are no longer tracked; do not leave the refresh-rate cap held.
+        PenConnectionState.set(false);
     }
 
     private void onHidHostConnected(BluetoothProfile proxy) {
@@ -253,6 +264,7 @@ public class PenService extends Service {
     }
 
     private void applyPenMode() {
+        PenConnectionState.set(!mConnectedPens.isEmpty());
         final String[] mode = !mConnectedPens.isEmpty() ? MODE_CONNECTED
                 : !mPairedPens.isEmpty() ? MODE_PAIRED : MODE_OFF;
         if (mode == mAppliedMode) {

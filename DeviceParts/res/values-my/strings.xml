@@ -50,7 +50,7 @@
     <string name="category_cover_title">အဖုံး</string>
     <string name="category_misc_title">အခြား</string>
     <string name="pen_refresh_cap_title">စတိုင်လပ်စ်အသုံးပြုချိန် 120 Hz သို့ ကန့်သတ်ရန်</string>
-    <string name="pen_refresh_cap_summary">အသုံးပြုနေသော စတိုင်လပ်စ်သည် 120 Hz အထိသာ အလုပ်လုပ်နိုင်သည်ဟု ဖော်ပြထားသည်။ နောက်ဆုံး စတိုင်လပ်စ်ထည့်သွင်းမှုမှ 10 စက္ကန့်အကြာတွင် ကန့်သတ်ချက်ကို ဖယ်ရှားမည်။</string>
+    <string name="pen_refresh_cap_summary">အသုံးပြုနေသော စတိုင်လပ်စ်သည် 120 Hz အထိသာ အလုပ်လုပ်သည်။ တရားဝင် Lenovo စတိုင်လပ်စ်သည် Bluetooth မှတစ်ဆင့် ချိတ်ဆက်ထားစဉ်နှင့် နောက်ဆုံး စတိုင်လပ်စ်ထည့်သွင်းမှု ပြုလုပ်ပြီးနောက် 10 စက္ကန့်အထိ ကန့်သတ်ချက် သက်ရောက်သည်။</string>
     <string name="reading_low_refresh_title">စာဖတ်မုဒ်တွင် 30 Hz</string>
     <string name="reading_low_refresh_summary">စာဖတ်မုဒ်ဖွင့်ထားစဉ် ပြန်လည်စတင်နှုန်းကို လျှော့ချရန်</string>
     <string name="reading_low_refresh_unavailable">စာဖတ်မုဒ် မရရှိနိုင်ပါ</string>

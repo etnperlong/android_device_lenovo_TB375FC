@@ -50,7 +50,7 @@
     <string name="category_cover_title">Custodia</string>
     <string name="category_misc_title">Altro</string>
     <string name="pen_refresh_cap_title">Limita a 120 Hz quando usi la penna</string>
-    <string name="pen_refresh_cap_summary">La penna attiva funziona solo fino a 120 Hz. Il limite viene rimosso 10 secondi dopo l’ultimo input della penna.</string>
+    <string name="pen_refresh_cap_summary">La penna attiva funziona solo fino a 120 Hz. Il limite si applica quando una penna ufficiale Lenovo è connessa tramite Bluetooth e per 10 secondi dopo l\'ultimo input della penna.</string>
     <string name="reading_low_refresh_title">30 Hz in modalità lettura</string>
     <string name="reading_low_refresh_summary">Riduci la frequenza di aggiornamento mentre la modalità lettura è attiva</string>
     <string name="reading_low_refresh_unavailable">La modalità lettura non è disponibile</string>

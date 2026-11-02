@@ -50,7 +50,7 @@
     <string name="category_cover_title">Dėklas</string>
     <string name="category_misc_title">Kiti</string>
     <string name="pen_refresh_cap_title">Naudojant rašiklį apriboti iki 120 Hz</string>
-    <string name="pen_refresh_cap_summary">Aktyvusis rašiklis, kaip pranešama, veikia tik iki 120 Hz. Apribojimas panaikinamas praėjus 10 sekundžių nuo paskutinio įvesties rašikliu veiksmo.</string>
+    <string name="pen_refresh_cap_summary">Aktyvusis rašiklis veikia tik iki 120 Hz. Apribojimas taikomas, kol oficialus Lenovo rašiklis prijungtas per Bluetooth, ir 10 sekundžių po paskutinio įvesties rašikliu veiksmo.</string>
     <string name="reading_low_refresh_title">30 Hz skaitymo režimu</string>
     <string name="reading_low_refresh_summary">Sumažinti atnaujinimo dažnį, kai įjungtas skaitymo režimas</string>
     <string name="reading_low_refresh_unavailable">Skaitymo režimas nepasiekiamas</string>

@@ -53,7 +53,7 @@
     <string name="category_misc_title">其他</string>
 
     <string name="pen_refresh_cap_title">使用觸控筆時限制為 120 Hz</string>
-    <string name="pen_refresh_cap_summary">主動式觸控筆回報僅支援最高 120 Hz。最後一次觸控筆輸入後 10 秒即解除限制。</string>
+    <string name="pen_refresh_cap_summary">主動式觸控筆最高只能以 120 Hz 運作。當 Lenovo 官方觸控筆透過 Bluetooth 連線時，以及最後一次觸控筆輸入後 10 秒內，限制均會生效。</string>
     <string name="reading_low_refresh_title">閱讀模式下使用 30 Hz</string>
     <string name="reading_low_refresh_summary">開啟閱讀模式時降低更新率</string>
     <string name="reading_low_refresh_unavailable">閱讀模式無法使用</string>

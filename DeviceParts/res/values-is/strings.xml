@@ -50,7 +50,7 @@
     <string name="category_cover_title">Hlíf</string>
     <string name="category_misc_title">Annað</string>
     <string name="pen_refresh_cap_title">Takmarka við 120 Hz þegar penninn er notaður</string>
-    <string name="pen_refresh_cap_summary">Virkur penni virðist aðeins styðja allt að 120 Hz. Takmörkunin er afnumin 10 sekúndum eftir síðasta inntak með pennanum.</string>
+    <string name="pen_refresh_cap_summary">Virkur penni virkar aðeins allt að 120 Hz. Takmörkunin gildir þegar opinber Lenovo-penni er tengdur með Bluetooth og í 10 sekúndur eftir síðasta inntak með pennanum.</string>
     <string name="reading_low_refresh_title">30 Hz í lesham</string>
     <string name="reading_low_refresh_summary">Lækka endurnýjunartíðnina þegar kveikt er á lesham</string>
     <string name="reading_low_refresh_unavailable">Leshamur er ekki í boði</string>

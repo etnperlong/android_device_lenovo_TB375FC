@@ -50,7 +50,7 @@
     <string name="category_cover_title">Custòdia</string>
     <string name="category_misc_title">Àteru</string>
     <string name="pen_refresh_cap_title">Limita a 120 Hz cando s’impreada sa pinna</string>
-    <string name="pen_refresh_cap_summary">Sa pinna ativa funtzionat isceti finas a 120 Hz. Su limite est bogadu 10 segundos a pustis de s’ùrtimu impreu de sa pinna.</string>
+    <string name="pen_refresh_cap_summary">Sa pinna ativa funtzionat isceti finas a 120 Hz. Su limite est vàlidu cando una pinna ufitziale Lenovo est connètida cun Bluetooth e pro 10 segundos a pustis de s’ùrtimu input cun sa pinna.</string>
     <string name="reading_low_refresh_title">30 Hz in modalidade letura</string>
     <string name="reading_low_refresh_summary">Bassa sa frequèntzia de atualizatzione cando sa modalidade letura est ativa</string>
     <string name="reading_low_refresh_unavailable">Sa modalidade letura non est disponìbile</string>

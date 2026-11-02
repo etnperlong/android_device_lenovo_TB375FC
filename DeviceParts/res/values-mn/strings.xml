@@ -50,7 +50,7 @@
     <string name="category_cover_title">Гэр</string>
     <string name="category_misc_title">Бусад</string>
     <string name="pen_refresh_cap_title">Үзэг ашиглаж байх үед 120 Гц-ээр хязгаарлах</string>
-    <string name="pen_refresh_cap_summary">Идэвхтэй үзэг зөвхөн 120 Гц хүртэл ажилладаг гэж мэдээлсэн. Үзгээр хамгийн сүүлд оролт хийснээс 10 секундын дараа хязгаар арилна.</string>
+    <string name="pen_refresh_cap_summary">Идэвхтэй үзэг зөвхөн 120 Гц хүртэл ажиллана. Албан ёсны Lenovo үзэг Bluetooth-ээр холбогдсон үед болон үзгээр хамгийн сүүлд оролт хийснээс хойш 10 секундын турш хязгаар үйлчилнэ.</string>
     <string name="reading_low_refresh_title">Унших горимд 30 Гц</string>
     <string name="reading_low_refresh_summary">Унших горим асаалттай үед сэргээх хурдыг бууруулах</string>
     <string name="reading_low_refresh_unavailable">Унших горим боломжгүй</string>

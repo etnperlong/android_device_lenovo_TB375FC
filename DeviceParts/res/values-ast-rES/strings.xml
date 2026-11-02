@@ -50,7 +50,7 @@
     <string name="category_cover_title">Funda</string>
     <string name="category_misc_title">Otros</string>
     <string name="pen_refresh_cap_title">Llimitar a 120 Hz al usar el llápiz</string>
-    <string name="pen_refresh_cap_summary">El llápiz activu namái funciona hasta 120 Hz. El llímite quítase 10 segundos dempués del últimu usu del llápiz.</string>
+    <string name="pen_refresh_cap_summary">El llápiz activu namái funciona hasta 120 Hz. El llímite aplícase mientres ta conectáu per Bluetooth un llápiz oficial de Lenovo y durante 10 segundos dempués del últimu usu del llápiz.</string>
     <string name="reading_low_refresh_title">30 Hz en mou de llectura</string>
     <string name="reading_low_refresh_summary">Amenorgar la frecuencia d’anovamientu mientres ta activáu’l mou de llectura</string>
     <string name="reading_low_refresh_unavailable">El mou de llectura nun ta disponible</string>

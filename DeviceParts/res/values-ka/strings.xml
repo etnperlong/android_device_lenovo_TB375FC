@@ -50,7 +50,7 @@
     <string name="category_cover_title">ჩასადები</string>
     <string name="category_misc_title">სხვა</string>
     <string name="pen_refresh_cap_title">სტილუსის გამოყენებისას 120 ჰც-მდე შეზღუდვა</string>
-    <string name="pen_refresh_cap_summary">აქტიური სტილუსი, როგორც ცნობილია, მხოლოდ 120 ჰც-მდე მუშაობს. შეზღუდვა სტილუსით ბოლო შეყვანიდან 10 წამში მოიხსნება.</string>
+    <string name="pen_refresh_cap_summary">აქტიური სტილუსი მუშაობს მხოლოდ 120 ჰც-მდე. შეზღუდვა მოქმედებს, როცა ოფიციალური Lenovo-ს სტილუსი Bluetooth-ით არის დაკავშირებული, და ბოლო სტილუსის შეყვანიდან 10 წამის განმავლობაში.</string>
     <string name="reading_low_refresh_title">30 ჰც საკითხავ რეჟიმში</string>
     <string name="reading_low_refresh_summary">საკითხავი რეჟიმის ჩართვისას განახლების სიხშირის შემცირება</string>
     <string name="reading_low_refresh_unavailable">საკითხავი რეჟიმი მიუწვდომელია</string>
