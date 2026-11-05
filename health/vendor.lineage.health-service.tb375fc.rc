@@ -5,3 +5,6 @@ service vendor.lineage_health /vendor/bin/hw/vendor.lineage.health-service.tb375
     class hal
     user system
     group system
+    # The charging deadline's alarm timer wakes the tablet (WAKE_ALARM) and keeps it awake until
+    # the limit is lifted (BLOCK_SUSPEND, for EPOLLWAKEUP).
+    capabilities WAKE_ALARM BLOCK_SUSPEND

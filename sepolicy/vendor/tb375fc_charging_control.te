@@ -10,3 +10,8 @@
 
 allow hal_lineage_health_default sysfs_batteryinfo:dir search;
 allow hal_lineage_health_default { sysfs_batteryinfo sysfs_pump_express }:file rw_file_perms;
+
+# The charging deadline: an alarm timer (CLOCK_BOOTTIME_ALARM) that wakes the tablet when the
+# limit is lifted, watched by epoll with EPOLLWAKEUP so it does not suspend again before then, as
+# hal_health_server does for its periodic updates.
+allow hal_lineage_health_default self:global_capability2_class_set { wake_alarm block_suspend };

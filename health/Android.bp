@@ -3,10 +3,12 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 // LineageOS charging control (vendor.lineage.health IChargingControl) on the stock charger
-// driver: the charge limit goes to the driver's own limit (protection_setting_eu) and the
-// on/off toggle stops charging with the adapter still powering the tablet (charging_enabled).
-// The generic vendor.lineage.health-service.default takes a limit only as separate start and
-// stop nodes, which this driver does not have. No fast charge control: the driver has none.
+// driver: the charge limit goes to the driver's own limit (protection_setting_eu), the time-based
+// modes hold the battery at that limit until a fixed time before the deadline, and the on/off
+// toggle stops charging with the adapter still powering the tablet (charging_enabled). The
+// generic vendor.lineage.health-service.default takes a limit only as separate start and stop
+// nodes and a deadline only as a driver node, which this driver does not have. No fast charge
+// control: the driver has none.
 
 cc_binary {
     name: "vendor.lineage.health-service.tb375fc",
