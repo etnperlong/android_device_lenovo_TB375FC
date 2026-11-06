@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Stilus ulanishi</string>
     <string name="pen_connected_title">Stilus ulandi</string>
     <string name="pen_disconnected_title">Stilus uzildi</string>
+    <string name="pen_details_settings_title">Stilus sozlamalari</string>
+    <string name="pen_details_settings_summary">Stilus ulanishi haqida bildirishnomalar va 120 Hz cheklovi</string>
+    <string name="pen_details_firmware_title">Mikrodastur versiyasi</string>
     <string name="keyboard_notification_channel">Klaviatura ulanishi</string>
     <string name="keyboard_connected_title">Klaviatura ulandi</string>
     <string name="keyboard_disconnected_title">Klaviatura uzildi</string>

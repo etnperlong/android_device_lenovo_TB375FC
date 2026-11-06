@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Повезивање оловке</string>
     <string name="pen_connected_title">Оловка је повезана</string>
     <string name="pen_disconnected_title">Оловка је прекинула везу</string>
+    <string name="pen_details_settings_title">Подешавања оловке</string>
+    <string name="pen_details_settings_summary">Обавештења о повезивању оловке и ограничење од 120 Гц</string>
+    <string name="pen_details_firmware_title">Верзија фирмвера</string>
     <string name="keyboard_notification_channel">Повезивање тастатуре</string>
     <string name="keyboard_connected_title">Тастатура је повезана</string>
     <string name="keyboard_disconnected_title">Тастатура је прекинула везу</string>

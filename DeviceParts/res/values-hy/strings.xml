@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Ստիլուսի միացում</string>
     <string name="pen_connected_title">Ստիլուսը միացված է</string>
     <string name="pen_disconnected_title">Ստիլուսն անջատված է</string>
+    <string name="pen_details_settings_title">Ստիլուսի կարգավորումներ</string>
+    <string name="pen_details_settings_summary">Ստիլուսի միացման ծանուցումներ և 120 Հց սահմանափակում</string>
+    <string name="pen_details_firmware_title">Ներկառուցված ծրագրաշարի տարբերակ</string>
     <string name="keyboard_notification_channel">Ստեղնաշարի միացում</string>
     <string name="keyboard_connected_title">Ստեղնաշարը միացված է</string>
     <string name="keyboard_disconnected_title">Ստեղնաշարն անջատված է</string>

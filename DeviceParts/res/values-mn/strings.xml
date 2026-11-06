@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Үзгийн холболт</string>
     <string name="pen_connected_title">Үзэг холбогдлоо</string>
     <string name="pen_disconnected_title">Үзэг саллаа</string>
+    <string name="pen_details_settings_title">Үзэгний тохиргоо</string>
+    <string name="pen_details_settings_summary">Үзгийн холболтын мэдэгдэл ба 120 Гц хязгаарлалт</string>
+    <string name="pen_details_firmware_title">Програм хангамжийн хувилбар</string>
     <string name="keyboard_notification_channel">Гарын холболт</string>
     <string name="keyboard_connected_title">Гар холбогдлоо</string>
     <string name="keyboard_disconnected_title">Гар саллаа</string>

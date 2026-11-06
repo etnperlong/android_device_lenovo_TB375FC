@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Stilusverbinding</string>
     <string name="pen_connected_title">Stilus gekoppel</string>
     <string name="pen_disconnected_title">Stilus ontkoppel</string>
+    <string name="pen_details_settings_title">Stilusinstellings</string>
+    <string name="pen_details_settings_summary">Stilusverbindingskennisgewings en die 120 Hz-beperking</string>
+    <string name="pen_details_firmware_title">Fermware-weergawe</string>
     <string name="keyboard_notification_channel">Sleutelbordverbinding</string>
     <string name="keyboard_connected_title">Sleutelbord gekoppel</string>
     <string name="keyboard_disconnected_title">Sleutelbord ontkoppel</string>

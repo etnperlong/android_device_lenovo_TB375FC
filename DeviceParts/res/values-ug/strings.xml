@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">قەلەم ئۇلىنىشى</string>
     <string name="pen_connected_title">قەلەم ئۇلاندى</string>
     <string name="pen_disconnected_title">قەلەم ئۈزۈلدى</string>
+    <string name="pen_details_settings_title">قەلەم تەڭشەكلىرى</string>
+    <string name="pen_details_settings_summary">قەلەم ئۇلىنىش ئۇقتۇرۇشلىرى ۋە 120 Hz چەكلىمىسى</string>
+    <string name="pen_details_firmware_title">دېتال نەشرى</string>
     <string name="keyboard_notification_channel">ھەرپتاختا ئۇلىنىشى</string>
     <string name="keyboard_connected_title">ھەرپتاختا ئۇلاندى</string>
     <string name="keyboard_disconnected_title">ھەرپتاختا ئۈزۈلدى</string>

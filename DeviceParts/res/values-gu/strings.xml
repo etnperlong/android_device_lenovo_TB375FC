@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">સ્ટાઇલસ કનેક્શન</string>
     <string name="pen_connected_title">સ્ટાઇલસ કનેક્ટ થયું</string>
     <string name="pen_disconnected_title">સ્ટાઇલસ ડિસ્કનેક્ટ થયું</string>
+    <string name="pen_details_settings_title">સ્ટાઇલસ સેટિંગ્સ</string>
+    <string name="pen_details_settings_summary">સ્ટાઇલસ કનેક્શન સૂચનાઓ અને 120 Hz મર્યાદા</string>
+    <string name="pen_details_firmware_title">ફર્મવેર સંસ્કરણ</string>
     <string name="keyboard_notification_channel">કીબોર્ડ કનેક્શન</string>
     <string name="keyboard_connected_title">કીબોર્ડ કનેક્ટ થયું</string>
     <string name="keyboard_disconnected_title">કીબોર્ડ ડિસ્કનેક્ટ થયું</string>

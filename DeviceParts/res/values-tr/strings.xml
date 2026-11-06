@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Ekran kalemi bağlantısı</string>
     <string name="pen_connected_title">Ekran kalemi bağlandı</string>
     <string name="pen_disconnected_title">Ekran kaleminin bağlantısı kesildi</string>
+    <string name="pen_details_settings_title">Ekran kalemi ayarları</string>
+    <string name="pen_details_settings_summary">Ekran kalemi bağlantı bildirimleri ve 120 Hz sınırı</string>
+    <string name="pen_details_firmware_title">Yazılım sürümü</string>
     <string name="keyboard_notification_channel">Klavye bağlantısı</string>
     <string name="keyboard_connected_title">Klavye bağlandı</string>
     <string name="keyboard_disconnected_title">Klavye bağlantısı kesildi</string>

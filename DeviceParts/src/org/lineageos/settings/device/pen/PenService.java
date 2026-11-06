@@ -36,8 +36,9 @@ import java.nio.charset.StandardCharsets;
 import java.util.Set;
 
 /**
- * Turns on the pen mode of the Novatek touch controller for the Lenovo active pen, and tells the
- * user when the pen connects or disconnects.
+ * Turns on the pen mode of the Novatek touch controller for the Lenovo active pen, tells the
+ * user when the pen connects or disconnects, and describes the pen to Settings' Bluetooth device
+ * details page ({@link PenDetails}).
  *
  * The pen draws through the touch controller, not through Bluetooth (Bluetooth only carries the
  * buttons and the battery), but the controller only looks for the pen while its pen mode is on.
@@ -55,6 +56,10 @@ import java.util.Set;
  *
  * The connection state also goes to DisplayPolicyService ({@link PenConnectionState}), which
  * holds the 120 Hz cap while a pen is connected because the pen does not work at 144 Hz.
+ *
+ * When a Lenovo pen connects, its type, picture and settings provider are published as Bluetooth
+ * metadata, its firmware version is read ({@link PenFirmwareReader}), and its battery level is
+ * mirrored into METADATA_MAIN_BATTERY until it disconnects.
  */
 public class PenService extends Service {
     private static final String TAG = "PenService";
@@ -72,13 +77,6 @@ public class PenService extends Service {
     /** Pen connected: pen mode on, then Bluetooth linked (stock setPenMode(true), setPenBle(false)). */
     private static final String[] MODE_CONNECTED = {"1", "3"};
 
-    /** Bluetooth names stock CommonUtils.isZuiStylusPen() accepts ("Lenovo Tab Pen Pro 2" too). */
-    private static final String[] PEN_NAMES = {
-        "Lenovo Precision Pen 3",
-        "Lenovo Tab Pen Plus",
-        "Lenovo Tab Pen Pro",
-    };
-
     private static final String CHANNEL_ID = "pen_connection";
     private static final int NOTIFICATION_ID = 1;
     private static final long NOTIFICATION_TIMEOUT_MS = 10_000;
@@ -92,6 +90,7 @@ public class PenService extends Service {
     private BluetoothAdapter mAdapter;
     private BluetoothProfile mHidHost;
     private String[] mAppliedMode;
+    private PenFirmwareReader mFirmwareReader;
 
     private final BroadcastReceiver mReceiver = new BroadcastReceiver() {
         @Override
@@ -101,9 +100,16 @@ public class PenService extends Service {
             if (device == null) {
                 return;
             }
-            if (BluetoothHidHost.ACTION_CONNECTION_STATE_CHANGED.equals(intent.getAction())) {
+            final String action = intent.getAction();
+            if (BluetoothHidHost.ACTION_CONNECTION_STATE_CHANGED.equals(action)) {
                 onConnectionStateChanged(device, intent.getIntExtra(BluetoothProfile.EXTRA_STATE,
                         BluetoothProfile.STATE_DISCONNECTED));
+            } else if (BluetoothDevice.ACTION_BATTERY_LEVEL_CHANGED.equals(action)) {
+                if (mConnectedPens.contains(device.getAddress())) {
+                    PenDetails.setBatteryLevel(device, intent.getIntExtra(
+                            BluetoothDevice.EXTRA_BATTERY_LEVEL,
+                            BluetoothDevice.BATTERY_LEVEL_UNKNOWN));
+                }
             } else if (intent.getIntExtra(BluetoothDevice.EXTRA_BOND_STATE,
                     BluetoothDevice.BOND_NONE) == BluetoothDevice.BOND_NONE) {
                 onUnpaired(device);
@@ -124,6 +130,7 @@ public class PenService extends Service {
                         // Bluetooth turned off: the HID host link to every pen is gone.
                         mHidHost = null;
                         mConnectedPens.clear();
+                        mFirmwareReader.cancelAll();
                         applyPenMode();
                     });
                 }
@@ -176,9 +183,11 @@ public class PenService extends Service {
         // A paired pen must write before Bluetooth is up, as on stock.
         applyPenMode();
 
+        mFirmwareReader = new PenFirmwareReader(this, mHandler);
         final IntentFilter filter =
                 new IntentFilter(BluetoothHidHost.ACTION_CONNECTION_STATE_CHANGED);
         filter.addAction(BluetoothDevice.ACTION_BOND_STATE_CHANGED);
+        filter.addAction(BluetoothDevice.ACTION_BATTERY_LEVEL_CHANGED);
         registerReceiver(mReceiver, filter, null, mHandler, Context.RECEIVER_EXPORTED);
 
         // Pens already connected when this service (re)starts send no broadcast.
@@ -189,6 +198,7 @@ public class PenService extends Service {
 
     private void stop() {
         unregisterReceiver(mReceiver);
+        mFirmwareReader.cancelAll();
         if (mAdapter != null && mHidHost != null) {
             mAdapter.closeProfileProxy(BluetoothProfile.HID_HOST, mHidHost);
         }
@@ -202,9 +212,11 @@ public class PenService extends Service {
         mHidHost = proxy;
         boolean changed = false;
         for (BluetoothDevice device : proxy.getConnectedDevices()) {
-            if (isLenovoPen(device)) {
-                changed |= mConnectedPens.add(device.getAddress());
+            final PenModel model = PenModel.of(device);
+            if (model != null && mConnectedPens.add(device.getAddress())) {
                 rememberPen(device.getAddress());
+                describePen(device, model);
+                changed = true;
             }
         }
         if (changed) {
@@ -215,19 +227,28 @@ public class PenService extends Service {
     private void onConnectionStateChanged(BluetoothDevice device, int state) {
         final String address = device.getAddress();
         if (state == BluetoothProfile.STATE_CONNECTED) {
-            if (!isLenovoPen(device) || !mConnectedPens.add(address)) {
+            final PenModel model = PenModel.of(device);
+            if (model == null || !mConnectedPens.add(address)) {
                 return;
             }
             rememberPen(address);
             applyPenMode();
+            describePen(device, model);
             notifyConnection(device, true);
         } else if (state == BluetoothProfile.STATE_DISCONNECTED) {
             if (!mConnectedPens.remove(address)) {
                 return;
             }
             applyPenMode();
+            PenDetails.setBatteryLevel(device, BluetoothDevice.BATTERY_LEVEL_UNKNOWN);
             notifyConnection(device, false);
         }
+    }
+
+    private void describePen(BluetoothDevice device, PenModel model) {
+        PenDetails.publish(this, device, model);
+        PenDetails.setBatteryLevel(device, device.getBatteryLevel());
+        mFirmwareReader.read(device);
     }
 
     private void onUnpaired(BluetoothDevice device) {
@@ -248,19 +269,6 @@ public class PenService extends Service {
     private void savePairedPens() {
         Settings.Secure.putString(getContentResolver(), KEY_PEN_ADDRESSES,
                 mPairedPens.isEmpty() ? null : String.join(",", mPairedPens));
-    }
-
-    private static boolean isLenovoPen(BluetoothDevice device) {
-        final String name = device.getName();
-        if (name == null) {
-            return false;
-        }
-        for (String penName : PEN_NAMES) {
-            if (name.contains(penName)) {
-                return true;
-            }
-        }
-        return false;
     }
 
     private void applyPenMode() {

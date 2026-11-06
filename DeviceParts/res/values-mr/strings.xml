@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">स्टायलस कनेक्शन</string>
     <string name="pen_connected_title">स्टायलस कनेक्ट झाले</string>
     <string name="pen_disconnected_title">स्टायलस डिस्कनेक्ट झाले</string>
+    <string name="pen_details_settings_title">स्टायलस सेटिंग्ज</string>
+    <string name="pen_details_settings_summary">स्टायलस कनेक्शन सूचना आणि 120 Hz मर्यादा</string>
+    <string name="pen_details_firmware_title">फर्मवेअर आवृत्ती</string>
     <string name="keyboard_notification_channel">कीबोर्ड कनेक्शन</string>
     <string name="keyboard_connected_title">कीबोर्ड कनेक्ट झाला</string>
     <string name="keyboard_disconnected_title">कीबोर्ड डिस्कनेक्ट झाला</string>

@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Kết nối bút</string>
     <string name="pen_connected_title">Bút đã kết nối</string>
     <string name="pen_disconnected_title">Bút đã ngắt kết nối</string>
+    <string name="pen_details_settings_title">Cài đặt bút</string>
+    <string name="pen_details_settings_summary">Thông báo kết nối bút và giới hạn 120 Hz</string>
+    <string name="pen_details_firmware_title">Phiên bản phần sụn</string>
     <string name="keyboard_notification_channel">Kết nối bàn phím</string>
     <string name="keyboard_connected_title">Bàn phím đã kết nối</string>
     <string name="keyboard_disconnected_title">Bàn phím đã ngắt kết nối</string>

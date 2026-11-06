@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Anslutning av e-penna</string>
     <string name="pen_connected_title">E-penna ansluten</string>
     <string name="pen_disconnected_title">E-penna frånkopplad</string>
+    <string name="pen_details_settings_title">Penninställningar</string>
+    <string name="pen_details_settings_summary">Aviseringar om anslutning av e-penna och 120 Hz-begränsningen</string>
+    <string name="pen_details_firmware_title">Fastwareversion</string>
     <string name="keyboard_notification_channel">Tangentbordsanslutning</string>
     <string name="keyboard_connected_title">Tangentbord anslutet</string>
     <string name="keyboard_disconnected_title">Tangentbord frånkopplat</string>

@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">පන්හිඳ සම්බන්ධතාව</string>
     <string name="pen_connected_title">පන්හිඳ සම්බන්ධ විය</string>
     <string name="pen_disconnected_title">පන්හිඳ විසන්ධි විය</string>
+    <string name="pen_details_settings_title">පන්හිඳ සැකසීම්</string>
+    <string name="pen_details_settings_summary">පන්හිඳ සම්බන්ධතා දැනුම්දීම් සහ 120 Hz සීමාව</string>
+    <string name="pen_details_firmware_title">ස්ථිරාංග අනුවාදය</string>
     <string name="keyboard_notification_channel">යතුරුපුවරු සම්බන්ධතාව</string>
     <string name="keyboard_connected_title">යතුරුපුවරුව සම්බන්ධ විය</string>
     <string name="keyboard_disconnected_title">යතුරුපුවරුව විසන්ධි විය</string>

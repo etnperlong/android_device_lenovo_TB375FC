@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Rašiklio ryšys</string>
     <string name="pen_connected_title">Rašiklis prijungtas</string>
     <string name="pen_disconnected_title">Rašiklis atjungtas</string>
+    <string name="pen_details_settings_title">Rašiklio nustatymai</string>
+    <string name="pen_details_settings_summary">Rašiklio ryšio pranešimai ir 120 Hz apribojimas</string>
+    <string name="pen_details_firmware_title">Programinės aparatinės įrangos versija</string>
     <string name="keyboard_notification_channel">Klaviatūros ryšys</string>
     <string name="keyboard_connected_title">Klaviatūra prijungta</string>
     <string name="keyboard_disconnected_title">Klaviatūra atjungta</string>

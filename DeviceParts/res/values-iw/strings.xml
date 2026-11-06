@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">חיבור סטיילוס</string>
     <string name="pen_connected_title">הסטיילוס מחובר</string>
     <string name="pen_disconnected_title">הסטיילוס מנותק</string>
+    <string name="pen_details_settings_title">הגדרות סטיילוס</string>
+    <string name="pen_details_settings_summary">התראות על חיבור סטיילוס ומגבלת 120 Hz</string>
+    <string name="pen_details_firmware_title">גרסת קושחה</string>
     <string name="keyboard_notification_channel">חיבור מקלדת</string>
     <string name="keyboard_connected_title">המקלדת מחוברת</string>
     <string name="keyboard_disconnected_title">המקלדת מנותקת</string>

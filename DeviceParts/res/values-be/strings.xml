@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Падключэнне стылуса</string>
     <string name="pen_connected_title">Стылус падключаны</string>
     <string name="pen_disconnected_title">Стылус адключаны</string>
+    <string name="pen_details_settings_title">Налады стылуса</string>
+    <string name="pen_details_settings_summary">Апавяшчэнні аб падключэнні стылуса і абмежаванне 120 Гц</string>
+    <string name="pen_details_firmware_title">Версія прашыўкі</string>
     <string name="keyboard_notification_channel">Падключэнне клавіятуры</string>
     <string name="keyboard_connected_title">Клавіятура падключана</string>
     <string name="keyboard_disconnected_title">Клавіятура адключана</string>

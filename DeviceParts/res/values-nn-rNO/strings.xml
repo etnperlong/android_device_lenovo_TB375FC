@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Pennetilkobling</string>
     <string name="pen_connected_title">Peikepenn tilkopla</string>
     <string name="pen_disconnected_title">Peikepenn fråkopla</string>
+    <string name="pen_details_settings_title">Penninnstillingar</string>
+    <string name="pen_details_settings_summary">Varsel om pennetilkobling og 120 Hz-grensa</string>
+    <string name="pen_details_firmware_title">Fastvareversjon</string>
     <string name="keyboard_notification_channel">Tastaturtilkobling</string>
     <string name="keyboard_connected_title">Tastaturet er tilkopla</string>
     <string name="keyboard_disconnected_title">Tastaturet er fråkopla</string>

@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">የስታይለስ ግንኙነት</string>
     <string name="pen_connected_title">ስታይለስ ተገናኝቷል</string>
     <string name="pen_disconnected_title">ስታይለስ ተለይቷል</string>
+    <string name="pen_details_settings_title">የስታይለስ ቅንብሮች</string>
+    <string name="pen_details_settings_summary">የስታይለስ ግንኙነት ማሳወቂያዎች እና የ120 ኸርዝ ገደብ</string>
+    <string name="pen_details_firmware_title">የፈርምዌር ስሪት</string>
     <string name="keyboard_notification_channel">የቁልፍዳሌ ግንኙነት</string>
     <string name="keyboard_connected_title">ቁልፍዳሌ ተገናኝቷል</string>
     <string name="keyboard_disconnected_title">ቁልፍዳሌ ተለይቷል</string>

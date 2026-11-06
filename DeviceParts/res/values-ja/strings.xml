@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">タッチペンの接続</string>
     <string name="pen_connected_title">タッチペンが接続されました</string>
     <string name="pen_disconnected_title">タッチペンが切断されました</string>
+    <string name="pen_details_settings_title">ペンの設定</string>
+    <string name="pen_details_settings_summary">タッチペンの接続通知と 120 Hz の制限</string>
+    <string name="pen_details_firmware_title">ファームウェアのバージョン</string>
     <string name="keyboard_notification_channel">キーボードの接続</string>
     <string name="keyboard_connected_title">キーボードが接続されました</string>
     <string name="keyboard_disconnected_title">キーボードが切断されました</string>

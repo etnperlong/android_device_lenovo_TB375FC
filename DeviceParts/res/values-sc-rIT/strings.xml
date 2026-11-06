@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Connessione de sa pinna</string>
     <string name="pen_connected_title">Pinna connèctida</string>
     <string name="pen_disconnected_title">Pinna disconnèctida</string>
+    <string name="pen_details_settings_title">Impostatziones de sa pinna</string>
+    <string name="pen_details_settings_summary">Notìficas de connessione de sa pinna e su limite de 120 Hz</string>
+    <string name="pen_details_firmware_title">Versione de su firmware</string>
     <string name="keyboard_notification_channel">Connessione de su tecladu</string>
     <string name="keyboard_connected_title">Tecladu connèctidu</string>
     <string name="keyboard_disconnected_title">Tecladu disconnèctidu</string>

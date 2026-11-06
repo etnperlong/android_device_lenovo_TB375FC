@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Connexion du stylet</string>
     <string name="pen_connected_title">Stylet connecté</string>
     <string name="pen_disconnected_title">Stylet déconnecté</string>
+    <string name="pen_details_settings_title">Paramètres du stylet</string>
+    <string name="pen_details_settings_summary">Notifications de connexion du stylet et limite de 120 Hz</string>
+    <string name="pen_details_firmware_title">Version du micrologiciel</string>
     <string name="keyboard_notification_channel">Connexion du clavier</string>
     <string name="keyboard_connected_title">Clavier connecté</string>
     <string name="keyboard_disconnected_title">Clavier déconnecté</string>

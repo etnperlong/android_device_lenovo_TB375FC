@@ -74,6 +74,9 @@
     <string name="pen_notification_channel">手写笔连接</string>
     <string name="pen_connected_title">手写笔已连接</string>
     <string name="pen_disconnected_title">手写笔已断开</string>
+    <string name="pen_details_settings_title">手写笔设置</string>
+    <string name="pen_details_settings_summary">连接通知和 120 Hz 限制</string>
+    <string name="pen_details_firmware_title">固件版本</string>
 
     <string name="keyboard_notification_channel">键盘连接</string>
     <string name="keyboard_connected_title">键盘已连接</string>

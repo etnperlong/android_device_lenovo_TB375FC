@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Pripojenie dotykového pera</string>
     <string name="pen_connected_title">Dotykové pero pripojené</string>
     <string name="pen_disconnected_title">Dotykové pero odpojené</string>
+    <string name="pen_details_settings_title">Nastavenia dotykového pera</string>
+    <string name="pen_details_settings_summary">Upozornenia o pripojení dotykového pera a obmedzenie na 120 Hz</string>
+    <string name="pen_details_firmware_title">Verzia firmvéru</string>
     <string name="keyboard_notification_channel">Pripojenie klávesnice</string>
     <string name="keyboard_connected_title">Klávesnica pripojená</string>
     <string name="keyboard_disconnected_title">Klávesnica odpojená</string>

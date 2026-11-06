@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Conession de la pene</string>
     <string name="pen_connected_title">Pene conetude</string>
     <string name="pen_disconnected_title">Pene disconetude</string>
+    <string name="pen_details_settings_title">Impostazions de pene</string>
+    <string name="pen_details_settings_summary">Notificâts di conession de la pene e il limit di 120 Hz</string>
+    <string name="pen_details_firmware_title">Version dal firmware</string>
     <string name="keyboard_notification_channel">Conession de la tastiere</string>
     <string name="keyboard_connected_title">Tastiere conetude</string>
     <string name="keyboard_disconnected_title">Tastiere disconetude</string>

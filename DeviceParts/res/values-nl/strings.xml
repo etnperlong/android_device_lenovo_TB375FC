@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Stylusverbinding</string>
     <string name="pen_connected_title">Stylus verbonden</string>
     <string name="pen_disconnected_title">Stylus niet verbonden</string>
+    <string name="pen_details_settings_title">Peninstellingen</string>
+    <string name="pen_details_settings_summary">Meldingen over stylusverbinding en de 120 Hz-limiet</string>
+    <string name="pen_details_firmware_title">Firmwareversie</string>
     <string name="keyboard_notification_channel">Toetsenbordverbinding</string>
     <string name="keyboard_connected_title">Toetsenbord verbonden</string>
     <string name="keyboard_disconnected_title">Toetsenbord niet verbonden</string>

@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Povezivanje pisaljke</string>
     <string name="pen_connected_title">Pisaljka je povezana</string>
     <string name="pen_disconnected_title">Pisaljka je prekinula vezu</string>
+    <string name="pen_details_settings_title">Postavke pisaljke</string>
+    <string name="pen_details_settings_summary">Obavještenja o povezivanju pisaljke i ograničenje od 120 Hz</string>
+    <string name="pen_details_firmware_title">Verzija firmvera</string>
     <string name="keyboard_notification_channel">Povezivanje tastature</string>
     <string name="keyboard_connected_title">Tastatura je povezana</string>
     <string name="keyboard_disconnected_title">Tastatura je prekinula vezu</string>

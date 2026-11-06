@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Conexión do lapis</string>
     <string name="pen_connected_title">Lapis conectado</string>
     <string name="pen_disconnected_title">Lapis desconectado</string>
+    <string name="pen_details_settings_title">Axustes do lapis</string>
+    <string name="pen_details_settings_summary">Notificacións de conexión do lapis e o límite de 120 Hz</string>
+    <string name="pen_details_firmware_title">Versión de firmware</string>
     <string name="keyboard_notification_channel">Conexión do teclado</string>
     <string name="keyboard_connected_title">Teclado conectado</string>
     <string name="keyboard_disconnected_title">Teclado desconectado</string>

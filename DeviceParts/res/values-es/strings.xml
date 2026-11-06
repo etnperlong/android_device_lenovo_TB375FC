@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Conexión del lápiz óptico</string>
     <string name="pen_connected_title">Lápiz óptico conectado</string>
     <string name="pen_disconnected_title">Lápiz óptico desconectado</string>
+    <string name="pen_details_settings_title">Ajustes del lápiz óptico</string>
+    <string name="pen_details_settings_summary">Notificaciones de conexión del lápiz óptico y el límite de 120 Hz</string>
+    <string name="pen_details_firmware_title">Versión de firmware</string>
     <string name="keyboard_notification_channel">Conexión del teclado</string>
     <string name="keyboard_connected_title">Teclado conectado</string>
     <string name="keyboard_disconnected_title">Teclado desconectado</string>

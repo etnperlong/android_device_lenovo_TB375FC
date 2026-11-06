@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Połączenie rysika</string>
     <string name="pen_connected_title">Rysik połączony</string>
     <string name="pen_disconnected_title">Rysik rozłączony</string>
+    <string name="pen_details_settings_title">Ustawienia rysika</string>
+    <string name="pen_details_settings_summary">Powiadomienia o połączeniu rysika i limit 120 Hz</string>
+    <string name="pen_details_firmware_title">Wersja oprogramowania sprzętowego</string>
     <string name="keyboard_notification_channel">Połączenie klawiatury</string>
     <string name="keyboard_connected_title">Klawiatura połączona</string>
     <string name="keyboard_disconnected_title">Klawiatura rozłączona</string>

@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Muunganisho wa kalamu</string>
     <string name="pen_connected_title">Kalamu imeunganishwa</string>
     <string name="pen_disconnected_title">Kalamu imekatwa</string>
+    <string name="pen_details_settings_title">Mipangilio ya kalamu</string>
+    <string name="pen_details_settings_summary">Arifa za muunganisho wa kalamu na kikomo cha 120 Hz</string>
+    <string name="pen_details_firmware_title">Toleo la firmware</string>
     <string name="keyboard_notification_channel">Muunganisho wa kibodi</string>
     <string name="keyboard_connected_title">Kibodi imeunganishwa</string>
     <string name="keyboard_disconnected_title">Kibodi imekatwa</string>

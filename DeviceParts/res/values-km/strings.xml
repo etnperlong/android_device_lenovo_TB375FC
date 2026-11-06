@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">ការភ្ជាប់ប៊ិក</string>
     <string name="pen_connected_title">បានភ្ជាប់ប៊ិក</string>
     <string name="pen_disconnected_title">បានផ្ដាច់ប៊ិក</string>
+    <string name="pen_details_settings_title">ការកំណត់ប៊ិក</string>
+    <string name="pen_details_settings_summary">ការជូនដំណឹងអំពីការភ្ជាប់ប៊ិក និងដែនកំណត់ 120 Hz</string>
+    <string name="pen_details_firmware_title">កំណែកម្មវិធីបង្កប់</string>
     <string name="keyboard_notification_channel">ការភ្ជាប់ក្តារចុច</string>
     <string name="keyboard_connected_title">បានភ្ជាប់ក្តារចុច</string>
     <string name="keyboard_disconnected_title">បានផ្ដាច់ក្តារចុច</string>

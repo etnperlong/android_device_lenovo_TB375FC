@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Koneksi stilus</string>
     <string name="pen_connected_title">Stilus terhubung</string>
     <string name="pen_disconnected_title">Stilus terputus</string>
+    <string name="pen_details_settings_title">Setelan stilus</string>
+    <string name="pen_details_settings_summary">Notifikasi koneksi stilus dan batas 120 Hz</string>
+    <string name="pen_details_firmware_title">Versi firmware</string>
     <string name="keyboard_notification_channel">Koneksi keyboard</string>
     <string name="keyboard_connected_title">Keyboard terhubung</string>
     <string name="keyboard_disconnected_title">Keyboard terputus</string>

@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">സ്‌റ്റൈലസ് കണക്ഷൻ</string>
     <string name="pen_connected_title">സ്‌റ്റൈലസ് കണക്റ്റ് ചെയ്‌തു</string>
     <string name="pen_disconnected_title">സ്‌റ്റൈലസ് വിച്ഛേദിച്ചു</string>
+    <string name="pen_details_settings_title">സ്‌റ്റൈലസ് ക്രമീകരണങ്ങൾ</string>
+    <string name="pen_details_settings_summary">സ്‌റ്റൈലസ് കണക്ഷൻ അറിയിപ്പുകളും 120 Hz പരിധിയും</string>
+    <string name="pen_details_firmware_title">ഫേംവെയർ പതിപ്പ്</string>
     <string name="keyboard_notification_channel">കീബോർഡ് കണക്ഷൻ</string>
     <string name="keyboard_connected_title">കീബോർഡ് കണക്റ്റ് ചെയ്‌തു</string>
     <string name="keyboard_disconnected_title">കീബോർഡ് വിച്ഛേദിച്ചു</string>

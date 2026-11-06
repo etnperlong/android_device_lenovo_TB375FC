@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Näyttökynän yhteys</string>
     <string name="pen_connected_title">Näyttökynä yhdistetty</string>
     <string name="pen_disconnected_title">Näyttökynän yhteys katkaistu</string>
+    <string name="pen_details_settings_title">Näyttökynän asetukset</string>
+    <string name="pen_details_settings_summary">Näyttökynän yhteysilmoitukset ja 120 Hz:n rajoitus</string>
+    <string name="pen_details_firmware_title">Laiteohjelmistoversio</string>
     <string name="keyboard_notification_channel">Näppäimistön yhteys</string>
     <string name="keyboard_connected_title">Näppäimistö yhdistetty</string>
     <string name="keyboard_disconnected_title">Näppäimistön yhteys katkaistu</string>

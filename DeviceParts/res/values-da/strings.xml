@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Penforbindelse</string>
     <string name="pen_connected_title">Pen tilsluttet</string>
     <string name="pen_disconnected_title">Pen afbrudt</string>
+    <string name="pen_details_settings_title">Penindstillinger</string>
+    <string name="pen_details_settings_summary">Meddelelser om penforbindelse og 120 Hz-grænsen</string>
+    <string name="pen_details_firmware_title">Firmwareversion</string>
     <string name="keyboard_notification_channel">Tastaturforbindelse</string>
     <string name="keyboard_connected_title">Tastatur tilsluttet</string>
     <string name="keyboard_disconnected_title">Tastatur afbrudt</string>

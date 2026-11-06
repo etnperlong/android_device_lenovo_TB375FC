@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">స్టయిలస్ కనెక్షన్</string>
     <string name="pen_connected_title">స్టయిలస్ కనెక్ట్ అయింది</string>
     <string name="pen_disconnected_title">స్టయిలస్ డిస్‌కనెక్ట్ అయింది</string>
+    <string name="pen_details_settings_title">స్టయిలస్ సెట్టింగ్‌లు</string>
+    <string name="pen_details_settings_summary">స్టయిలస్ కనెక్షన్ నోటిఫికేషన్‌లు మరియు 120 Hz పరిమితి</string>
+    <string name="pen_details_firmware_title">ఫర్మ్‌వేర్ వెర్షన్</string>
     <string name="keyboard_notification_channel">కీబోర్డ్ కనెక్షన్</string>
     <string name="keyboard_connected_title">కీబోర్డ్ కనెక్ట్ అయింది</string>
     <string name="keyboard_disconnected_title">కీబోర్డ్ డిస్‌కనెక్ట్ అయింది</string>

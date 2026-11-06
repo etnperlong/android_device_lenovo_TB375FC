@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">စတိုင်လပ်စ်ချိတ်ဆက်မှု</string>
     <string name="pen_connected_title">စတိုင်လပ်စ် ချိတ်ဆက်ပြီးပါပြီ</string>
     <string name="pen_disconnected_title">စတိုင်လပ်စ် ချိတ်ဆက်မှုဖြုတ်ပြီးပါပြီ</string>
+    <string name="pen_details_settings_title">စတိုင်လပ်စ် ဆက်တင်များ</string>
+    <string name="pen_details_settings_summary">စတိုင်လပ်စ်ချိတ်ဆက်မှု အသိပေးချက်များနှင့် 120 Hz ကန့်သတ်ချက်</string>
+    <string name="pen_details_firmware_title">ဖာမ်ဝဲလ် ဗားရှင်း</string>
     <string name="keyboard_notification_channel">ကီးဘုတ်ချိတ်ဆက်မှု</string>
     <string name="keyboard_connected_title">ကီးဘုတ် ချိတ်ဆက်ပြီးပါပြီ</string>
     <string name="keyboard_disconnected_title">ကီးဘုတ် ချိတ်ဆက်မှုဖြုတ်ပြီးပါပြီ</string>

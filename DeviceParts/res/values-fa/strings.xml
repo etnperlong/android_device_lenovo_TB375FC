@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">اتصال قلم</string>
     <string name="pen_connected_title">قلم متصل شد</string>
     <string name="pen_disconnected_title">قلم قطع شد</string>
+    <string name="pen_details_settings_title">تنظیمات قلم</string>
+    <string name="pen_details_settings_summary">اعلان‌های اتصال قلم و محدودیت ۱۲۰ هرتز</string>
+    <string name="pen_details_firmware_title">نسخهٔ میان‌افزار</string>
     <string name="keyboard_notification_channel">اتصال صفحه‌کلید</string>
     <string name="keyboard_connected_title">صفحه‌کلید متصل شد</string>
     <string name="keyboard_disconnected_title">صفحه‌کلید قطع شد</string>

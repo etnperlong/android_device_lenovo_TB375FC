@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Koneksyon ng stylus</string>
     <string name="pen_connected_title">Nakakonekta ang stylus</string>
     <string name="pen_disconnected_title">Nadiskonekta ang stylus</string>
+    <string name="pen_details_settings_title">Mga setting ng stylus</string>
+    <string name="pen_details_settings_summary">Mga notification sa koneksyon ng stylus at ang limitasyong 120 Hz</string>
+    <string name="pen_details_firmware_title">Bersyon ng firmware</string>
     <string name="keyboard_notification_channel">Koneksyon ng keyboard</string>
     <string name="keyboard_connected_title">Nakakonekta ang keyboard</string>
     <string name="keyboard_disconnected_title">Nadiskonekta ang keyboard</string>

@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Свързване на стилус</string>
     <string name="pen_connected_title">Стилусът е свързан</string>
     <string name="pen_disconnected_title">Стилусът е изключен</string>
+    <string name="pen_details_settings_title">Настройки на стилуса</string>
+    <string name="pen_details_settings_summary">Известия за свързване на стилус и ограничението до 120 Гц</string>
+    <string name="pen_details_firmware_title">Версия на фърмуера</string>
     <string name="keyboard_notification_channel">Свързване на клавиатурата</string>
     <string name="keyboard_connected_title">Клавиатурата е свързана</string>
     <string name="keyboard_disconnected_title">Връзката с клавиатурата е прекъсната</string>

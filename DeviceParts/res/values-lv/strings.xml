@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Pildspalvas savienojums</string>
     <string name="pen_connected_title">Pildspalva pievienota</string>
     <string name="pen_disconnected_title">Pildspalva atvienota</string>
+    <string name="pen_details_settings_title">Pildspalvas iestatījumi</string>
+    <string name="pen_details_settings_summary">Pildspalvas savienojuma paziņojumi un 120 Hz ierobežojums</string>
+    <string name="pen_details_firmware_title">Aparātprogrammatūras versija</string>
     <string name="keyboard_notification_channel">Tastatūras savienojums</string>
     <string name="keyboard_connected_title">Tastatūra pievienota</string>
     <string name="keyboard_disconnected_title">Tastatūra atvienota</string>

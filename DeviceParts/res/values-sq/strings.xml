@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Lidhja e stilolapsit</string>
     <string name="pen_connected_title">Stilolapsi u lidh</string>
     <string name="pen_disconnected_title">Stilolapsi u shkëput</string>
+    <string name="pen_details_settings_title">Cilësimet e stilolapsit</string>
+    <string name="pen_details_settings_summary">Njoftime për lidhjen e stilolapsit dhe kufizimi në 120 Hz</string>
+    <string name="pen_details_firmware_title">Versioni i firmuerit</string>
     <string name="keyboard_notification_channel">Lidhja e tastierës</string>
     <string name="keyboard_connected_title">Tastiera u lidh</string>
     <string name="keyboard_disconnected_title">Tastiera u shkëput</string>

@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Стилустун туташуусу</string>
     <string name="pen_connected_title">Стилус туташты</string>
     <string name="pen_disconnected_title">Стилус ажыратылды</string>
+    <string name="pen_details_settings_title">Калем жөндөөлөрү</string>
+    <string name="pen_details_settings_summary">Стилустун туташуусу тууралуу эскертмелер жана 120 Гц чектөө</string>
+    <string name="pen_details_firmware_title">Микропрограмманын версиясы</string>
     <string name="keyboard_notification_channel">Баскычтоптун туташуусу</string>
     <string name="keyboard_connected_title">Баскычтоп туташты</string>
     <string name="keyboard_disconnected_title">Баскычтоп ажыратылды</string>

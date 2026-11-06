@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Стилус қосылымы</string>
     <string name="pen_connected_title">Стилус қосылды</string>
     <string name="pen_disconnected_title">Стилус ажыратылды</string>
+    <string name="pen_details_settings_title">Стилус параметрлері</string>
+    <string name="pen_details_settings_summary">Стилус қосылымы туралы хабарландырулар және 120 Гц шектеуі</string>
+    <string name="pen_details_firmware_title">Микробағдарлама нұсқасы</string>
     <string name="keyboard_notification_channel">Пернетақта қосылымы</string>
     <string name="keyboard_connected_title">Пернетақта қосылды</string>
     <string name="keyboard_disconnected_title">Пернетақта ажыратылды</string>

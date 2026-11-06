@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Tuqqna n umaru</string>
     <string name="pen_connected_title">Amaru yeqqen</string>
     <string name="pen_disconnected_title">Amaru yefser</string>
+    <string name="pen_details_settings_title">Iɣewwaren n umaru</string>
+    <string name="pen_details_settings_summary">Ilɣa n tuqqna n umaru d tilas n 120 Hz</string>
+    <string name="pen_details_firmware_title">Lqem n firmware</string>
     <string name="keyboard_notification_channel">Tuqqna n unasiw</string>
     <string name="keyboard_connected_title">Anasiw yeqqen</string>
     <string name="keyboard_disconnected_title">Anasiw yefser</string>

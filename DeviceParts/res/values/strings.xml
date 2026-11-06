@@ -84,6 +84,11 @@
     <string name="pen_connected_title">Pen connected</string>
     <string name="pen_disconnected_title">Pen disconnected</string>
 
+    <!-- Pen entries on Settings' Bluetooth device details page -->
+    <string name="pen_details_settings_title">Pen settings</string>
+    <string name="pen_details_settings_summary">Connection notifications and the 120 Hz limit</string>
+    <string name="pen_details_firmware_title">Firmware version</string>
+
     <!-- Keyboard notifications -->
     <string name="keyboard_notification_channel">Keyboard connection</string>
     <string name="keyboard_connected_title">Keyboard connected</string>

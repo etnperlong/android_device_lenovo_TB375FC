@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Connexió del llapis</string>
     <string name="pen_connected_title">Llapis connectat</string>
     <string name="pen_disconnected_title">Llapis desconnectat</string>
+    <string name="pen_details_settings_title">Configuració del llapis</string>
+    <string name="pen_details_settings_summary">Notificacions de connexió del llapis i el límit de 120 Hz</string>
+    <string name="pen_details_firmware_title">Versió del microprogramari</string>
     <string name="keyboard_notification_channel">Connexió del teclat</string>
     <string name="keyboard_connected_title">Teclat connectat</string>
     <string name="keyboard_disconnected_title">Teclat desconnectat</string>

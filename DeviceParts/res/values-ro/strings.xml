@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Conexiunea creionului</string>
     <string name="pen_connected_title">Creion conectat</string>
     <string name="pen_disconnected_title">Creion deconectat</string>
+    <string name="pen_details_settings_title">Setări creion</string>
+    <string name="pen_details_settings_summary">Notificări privind conexiunea creionului și limita de 120 Hz</string>
+    <string name="pen_details_firmware_title">Versiune firmware</string>
     <string name="keyboard_notification_channel">Conexiunea tastaturii</string>
     <string name="keyboard_connected_title">Tastatură conectată</string>
     <string name="keyboard_disconnected_title">Tastatură deconectată</string>

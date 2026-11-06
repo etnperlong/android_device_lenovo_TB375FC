@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Поврзување на пенкало</string>
     <string name="pen_connected_title">Пенкалото е поврзано</string>
     <string name="pen_disconnected_title">Пенкалото е исклучено</string>
+    <string name="pen_details_settings_title">Поставки за пенкало</string>
+    <string name="pen_details_settings_summary">Известувања за поврзување на пенкало и ограничување на 120 Гц</string>
+    <string name="pen_details_firmware_title">Верзија на фирмверот</string>
     <string name="keyboard_notification_channel">Поврзување на тастатура</string>
     <string name="keyboard_connected_title">Тастатурата е поврзана</string>
     <string name="keyboard_disconnected_title">Тастатурата е исклучена</string>

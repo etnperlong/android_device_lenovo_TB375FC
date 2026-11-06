@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Qələm bağlantısı</string>
     <string name="pen_connected_title">Qələm qoşuldu</string>
     <string name="pen_disconnected_title">Qələm ayrıldı</string>
+    <string name="pen_details_settings_title">Qələm ayarları</string>
+    <string name="pen_details_settings_summary">Qələm bağlantısı bildirişləri və 120 Hs məhdudiyyəti</string>
+    <string name="pen_details_firmware_title">Proqram təminatının versiyası</string>
     <string name="keyboard_notification_channel">Klaviatura bağlantısı</string>
     <string name="keyboard_connected_title">Klaviatura qoşuldu</string>
     <string name="keyboard_disconnected_title">Klaviatura ayrıldı</string>

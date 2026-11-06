@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">การเชื่อมต่อปากกา</string>
     <string name="pen_connected_title">เชื่อมต่อปากกาแล้ว</string>
     <string name="pen_disconnected_title">ยกเลิกการเชื่อมต่อปากกาแล้ว</string>
+    <string name="pen_details_settings_title">การตั้งค่าปากกา</string>
+    <string name="pen_details_settings_summary">การแจ้งเตือนการเชื่อมต่อปากกาและขีดจำกัด 120 Hz</string>
+    <string name="pen_details_firmware_title">เวอร์ชันเฟิร์มแวร์</string>
     <string name="keyboard_notification_channel">การเชื่อมต่อแป้นพิมพ์</string>
     <string name="keyboard_connected_title">เชื่อมต่อแป้นพิมพ์แล้ว</string>
     <string name="keyboard_disconnected_title">ยกเลิกการเชื่อมต่อแป้นพิมพ์แล้ว</string>

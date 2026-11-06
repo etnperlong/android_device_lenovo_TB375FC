@@ -49,4 +49,7 @@
     <string name="heat_protection_threshold_high">High (43 °C)</string>
     <string name="heat_protection_notification_title">Tablet too hot, charging paused</string>
     <string name="heat_protection_notification_text">The battery is at %1$s. The charger powers the tablet directly until it cools down, then charging resumes.</string>
+    <string name="pen_details_settings_title">Pen settings</string>
+    <string name="pen_details_settings_summary">Connection notifications and the 120 Hz limit</string>
+    <string name="pen_details_firmware_title">Firmware version</string>
 </resources>

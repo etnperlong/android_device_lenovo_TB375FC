@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Connessione della penna</string>
     <string name="pen_connected_title">Penna connessa</string>
     <string name="pen_disconnected_title">Penna disconnessa</string>
+    <string name="pen_details_settings_title">Impostazioni penna</string>
+    <string name="pen_details_settings_summary">Notifiche di connessione della penna e limite di 120 Hz</string>
+    <string name="pen_details_firmware_title">Versione firmware</string>
     <string name="keyboard_notification_channel">Connessione della tastiera</string>
     <string name="keyboard_connected_title">Tastiera connessa</string>
     <string name="keyboard_disconnected_title">Tastiera disconnessa</string>

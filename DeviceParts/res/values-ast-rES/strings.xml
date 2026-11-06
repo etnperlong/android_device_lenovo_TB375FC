@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Conexón del llápiz</string>
     <string name="pen_connected_title">Llápiz conectáu</string>
     <string name="pen_disconnected_title">Llápiz desconectáu</string>
+    <string name="pen_details_settings_title">Axustes del llápiz</string>
+    <string name="pen_details_settings_summary">Avisos de conexón del llápiz y el llímite de 120 Hz</string>
+    <string name="pen_details_firmware_title">Versión de firmware</string>
     <string name="keyboard_notification_channel">Conexón del tecláu</string>
     <string name="keyboard_connected_title">Tecláu conectáu</string>
     <string name="keyboard_disconnected_title">Tecláu desconectáu</string>

@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Arkatzaren konexioa</string>
     <string name="pen_connected_title">Arkatza konektatuta</string>
     <string name="pen_disconnected_title">Arkatza deskonektatuta</string>
+    <string name="pen_details_settings_title">Arkatzen ezarpenak</string>
+    <string name="pen_details_settings_summary">Arkatzaren konexio-jakinarazpenak eta 120 Hz-ko muga</string>
+    <string name="pen_details_firmware_title">Firmware bertsioa</string>
     <string name="keyboard_notification_channel">Teklatuaren konexioa</string>
     <string name="keyboard_connected_title">Teklatua konektatuta</string>
     <string name="keyboard_disconnected_title">Teklatua deskonektatuta</string>

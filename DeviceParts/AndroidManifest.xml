@@ -13,6 +13,7 @@
          (ActivityManager.checkComponentPermission), but declare them so the dependencies are
          explicit. -->
     <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
     <uses-permission android:name="android.permission.DEVICE_POWER" />
     <uses-permission android:name="android.permission.RESTRICT_DISPLAY_MODES" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_ROUTING" />
@@ -350,6 +351,25 @@
         <service
             android:name=".pen.PenService"
             android:exported="false" />
+
+        <!-- Pen entries on Settings' Bluetooth device details page; Settings binds it by the
+             action named in the pen's metadata (pen/PenDetails). -->
+        <service
+            android:name=".pen.PenDeviceSettingsService"
+            android:exported="true"
+            android:permission="android.permission.BLUETOOTH_PRIVILEGED">
+            <intent-filter>
+                <action android:name="org.lineageos.settings.device.pen.DEVICE_SETTINGS_CONFIG" />
+                <action android:name="org.lineageos.settings.device.pen.DEVICE_SETTINGS" />
+            </intent-filter>
+        </service>
+
+        <!-- Pen pictures for Settings and SystemUI, set as the pen's METADATA_MAIN_ICON. -->
+        <provider
+            android:name=".pen.PenImageProvider"
+            android:authorities="org.lineageos.settings.device.pen"
+            android:exported="true"
+            android:grantUriPermissions="true" />
 
         <service
             android:name=".keyboard.KeyboardService"

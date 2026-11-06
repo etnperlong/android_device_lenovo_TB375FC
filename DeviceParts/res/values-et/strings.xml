@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Pliiatsi ühendus</string>
     <string name="pen_connected_title">Pliiats ühendatud</string>
     <string name="pen_disconnected_title">Pliiats ühendus katkestatud</string>
+    <string name="pen_details_settings_title">Pliiatsi seaded</string>
+    <string name="pen_details_settings_summary">Pliiatsi ühenduse teavitused ja 120 Hz piirang</string>
+    <string name="pen_details_firmware_title">Püsivara versioon</string>
     <string name="keyboard_notification_channel">Klaviatuuri ühendus</string>
     <string name="keyboard_connected_title">Klaviatuur ühendatud</string>
     <string name="keyboard_disconnected_title">Klaviatuuri ühendus katkestatud</string>

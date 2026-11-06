@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">ການເຊື່ອມຕໍ່ປາກກາ</string>
     <string name="pen_connected_title">ເຊື່ອມຕໍ່ປາກກາແລ້ວ</string>
     <string name="pen_disconnected_title">ຕັດການເຊື່ອມຕໍ່ປາກກາແລ້ວ</string>
+    <string name="pen_details_settings_title">ການຕັ້ງຄ່າປາກກາ</string>
+    <string name="pen_details_settings_summary">ການແຈ້ງເຕືອນການເຊື່ອມຕໍ່ປາກກາ ແລະ ຂີດຈຳກັດ 120 Hz</string>
+    <string name="pen_details_firmware_title">ເວີຊັນເຟີມແວ</string>
     <string name="keyboard_notification_channel">ການເຊື່ອມຕໍ່ແປ້ນພິມ</string>
     <string name="keyboard_connected_title">ເຊື່ອມຕໍ່ແປ້ນພິມແລ້ວ</string>
     <string name="keyboard_disconnected_title">ຕັດການເຊື່ອມຕໍ່ແປ້ນພິມແລ້ວ</string>

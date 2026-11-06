@@ -15,8 +15,10 @@
 //    service (stock: ZUI ZuiDisplayService in services.jar), colors per app if chosen; sample
 //    pictures and hardware-decoded sample clips (MediaPlayer on a SurfaceView) to judge them by;
 //  - pen: turns on the Novatek touch controller's pen mode (/proc/support_pen) while a Lenovo
-//    pen is paired (stock: ZUI BluetoothPenConnectPolicy in services.jar) and notifies when the
-//    pen connects or disconnects;
+//    pen is paired (stock: ZUI BluetoothPenConnectPolicy in services.jar), notifies when the
+//    pen connects or disconnects, and gives the pen a picture, battery level, firmware version
+//    and a link to its settings on Settings' Bluetooth device details page (stock: ZUI PenService
+//    app), through SettingsLib's device settings API;
 //  - cover: applies the stock folio-cover policy (light sensor check, sleep, lock) to the lid
 //    switch reported by the patched hall.ko (docs/hall-ko-lid-switch.md);
 //  - keyboard: notifies when the folio keyboard connects or disconnects, and disables it and its
@@ -50,6 +52,9 @@ android_app {
     system_ext_specific: true,
 
     static_libs: [
+        // Its bluetooth/devicesettings classes are the device settings API Settings binds to;
+        // they have no library of their own, and a copy could drift from Settings' parcels.
+        "SettingsLib",
         "SettingsLibCollapsingToolbarBaseActivity",
         "SettingsLibMainSwitchPreference",
         "SettingsLibSettingsTheme",

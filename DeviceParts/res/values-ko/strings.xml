@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">스타일러스 연결</string>
     <string name="pen_connected_title">스타일러스 연결됨</string>
     <string name="pen_disconnected_title">스타일러스 연결 해제됨</string>
+    <string name="pen_details_settings_title">펜 설정</string>
+    <string name="pen_details_settings_summary">스타일러스 연결 알림 및 120Hz 제한</string>
+    <string name="pen_details_firmware_title">펌웨어 버전</string>
     <string name="keyboard_notification_channel">키보드 연결</string>
     <string name="keyboard_connected_title">키보드 연결됨</string>
     <string name="keyboard_disconnected_title">키보드 연결 해제됨</string>

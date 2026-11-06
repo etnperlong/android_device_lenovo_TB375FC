@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">اسٹائلس کنکشن</string>
     <string name="pen_connected_title">اسٹائلس کنیکٹ ہو گیا</string>
     <string name="pen_disconnected_title">اسٹائلس ڈسکنیکٹ ہو گیا</string>
+    <string name="pen_details_settings_title">اسٹائلس کی ترتیبات</string>
+    <string name="pen_details_settings_summary">اسٹائلس کنکشن کی اطلاعات اور 120 Hz کی حد</string>
+    <string name="pen_details_firmware_title">فرم ویئر ورژن</string>
     <string name="keyboard_notification_channel">کی بورڈ کنکشن</string>
     <string name="keyboard_connected_title">کی بورڈ کنیکٹ ہو گیا</string>
     <string name="keyboard_disconnected_title">کی بورڈ ڈسکنیکٹ ہو گیا</string>

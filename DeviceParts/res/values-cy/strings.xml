@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Cysylltiad ysgrifbin</string>
     <string name="pen_connected_title">Ysgrifbin wedi cysylltu</string>
     <string name="pen_disconnected_title">Ysgrifbin wedi datgysylltu</string>
+    <string name="pen_details_settings_title">Gosodiadau ysgrifbin</string>
+    <string name="pen_details_settings_summary">Hysbysiadau cysylltu ysgrifbin a\'r cyfyngiad ar 120 Hz</string>
+    <string name="pen_details_firmware_title">Fersiwn cadarnwedd</string>
     <string name="keyboard_notification_channel">Cysylltiad bysellfwrdd</string>
     <string name="keyboard_connected_title">Bysellfwrdd wedi cysylltu</string>
     <string name="keyboard_disconnected_title">Bysellfwrdd wedi datgysylltu</string>

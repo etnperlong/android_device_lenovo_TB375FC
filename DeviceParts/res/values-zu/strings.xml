@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Ukuxhumeka kwe-stylus</string>
     <string name="pen_connected_title">I-stylus ixhunyiwe</string>
     <string name="pen_disconnected_title">I-stylus inqanyuliwe</string>
+    <string name="pen_details_settings_title">Izilungiselelo ze-stylus</string>
+    <string name="pen_details_settings_summary">Izaziso zokuxhumeka kwe-stylus kanye nomkhawulo we-120 Hz</string>
+    <string name="pen_details_firmware_title">Inguqulo ye-firmware</string>
     <string name="keyboard_notification_channel">Ukuxhumeka kwekhibhodi</string>
     <string name="keyboard_connected_title">Ikhibhodi ixhunyiwe</string>
     <string name="keyboard_disconnected_title">Ikhibhodi inqanyuliwe</string>

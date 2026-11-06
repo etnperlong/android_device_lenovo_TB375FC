@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">ଷ୍ଟାଇଲସ ସଂଯୋଗ</string>
     <string name="pen_connected_title">ଷ୍ଟାଇଲସ ସଂଯୋଗ ହେଲା</string>
     <string name="pen_disconnected_title">ଷ୍ଟାଇଲସ ବିଚ୍ଛିନ୍ନ ହେଲା</string>
+    <string name="pen_details_settings_title">ଷ୍ଟାଇଲସ ସେଟିଂସ୍</string>
+    <string name="pen_details_settings_summary">ଷ୍ଟାଇଲସ ସଂଯୋଗ ବିଜ୍ଞପ୍ତି ଏବଂ 120 Hz ସୀମା</string>
+    <string name="pen_details_firmware_title">ଫାର୍ମୱେର ସଂସ୍କରଣ</string>
     <string name="keyboard_notification_channel">କିବୋର୍ଡ ସଂଯୋଗ</string>
     <string name="keyboard_connected_title">କିବୋର୍ଡ ସଂଯୋଗ ହେଲା</string>
     <string name="keyboard_disconnected_title">କିବୋର୍ଡ ବିଚ୍ଛିନ୍ନ ହେଲା</string>

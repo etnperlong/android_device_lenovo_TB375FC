@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Tenging penna</string>
     <string name="pen_connected_title">Penni tengdur</string>
     <string name="pen_disconnected_title">Penni aftengdur</string>
+    <string name="pen_details_settings_title">Stillingar pennans</string>
+    <string name="pen_details_settings_summary">Tilkynningar um tengingu penna og 120 Hz takmörkunin</string>
+    <string name="pen_details_firmware_title">Útgáfa fastbúnaðar</string>
     <string name="keyboard_notification_channel">Tenging lyklaborðs</string>
     <string name="keyboard_connected_title">Lyklaborð tengt</string>
     <string name="keyboard_disconnected_title">Lyklaborð aftengt</string>

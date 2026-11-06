@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">სტილუსის კავშირი</string>
     <string name="pen_connected_title">სტილუსი დაკავშირებულია</string>
     <string name="pen_disconnected_title">სტილუსი გათიშულია</string>
+    <string name="pen_details_settings_title">სტილუსის პარამეტრები</string>
+    <string name="pen_details_settings_summary">სტილუსის კავშირის შეტყობინებები და 120 ჰც-ის შეზღუდვა</string>
+    <string name="pen_details_firmware_title">მიკროპროგრამის ვერსია</string>
     <string name="keyboard_notification_channel">კლავიატურის კავშირი</string>
     <string name="keyboard_connected_title">კლავიატურა დაკავშირებულია</string>
     <string name="keyboard_disconnected_title">კლავიატურა გათიშულია</string>

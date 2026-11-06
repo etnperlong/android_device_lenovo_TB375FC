@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">اتصال القلم</string>
     <string name="pen_connected_title">القلم متصل</string>
     <string name="pen_disconnected_title">القلم غير متصل</string>
+    <string name="pen_details_settings_title">إعدادات القلم</string>
+    <string name="pen_details_settings_summary">إشعارات اتصال القلم وحد 120 هرتز</string>
+    <string name="pen_details_firmware_title">إصدار البرنامج الثابت</string>
     <string name="keyboard_notification_channel">اتصال لوحة المفاتيح</string>
     <string name="keyboard_connected_title">لوحة المفاتيح متصلة</string>
     <string name="keyboard_disconnected_title">لوحة المفاتيح غير متصلة</string>

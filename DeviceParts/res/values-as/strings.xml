@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">ষ্টাইলাছ সংযোগ</string>
     <string name="pen_connected_title">ষ্টাইলাছ সংযুক্ত</string>
     <string name="pen_disconnected_title">ষ্টাইলাছ বিচ্ছিন্ন</string>
+    <string name="pen_details_settings_title">ষ্টাইলাছৰ ছেটিংছ</string>
+    <string name="pen_details_settings_summary">ষ্টাইলাছ সংযোগৰ জাননী আৰু 120 Hz সীমা</string>
+    <string name="pen_details_firmware_title">ফাৰ্মৱেৰ সংস্কৰণ</string>
     <string name="keyboard_notification_channel">কিবৰ্ড সংযোগ</string>
     <string name="keyboard_connected_title">কিবৰ্ড সংযুক্ত</string>
     <string name="keyboard_disconnected_title">কিবৰ্ড বিচ্ছিন্ন</string>

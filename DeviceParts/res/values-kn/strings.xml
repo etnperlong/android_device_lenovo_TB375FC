@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">ಸ್ಟೈಲಸ್ ಸಂಪರ್ಕ</string>
     <string name="pen_connected_title">ಸ್ಟೈಲಸ್ ಕನೆಕ್ಟ್ ಆಗಿದೆ</string>
     <string name="pen_disconnected_title">ಸ್ಟೈಲಸ್ ಡಿಸ್‌ಕನೆಕ್ಟ್ ಆಗಿದೆ</string>
+    <string name="pen_details_settings_title">ಸ್ಟೈಲಸ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="pen_details_settings_summary">ಸ್ಟೈಲಸ್ ಸಂಪರ್ಕ ಅಧಿಸೂಚನೆಗಳು ಮತ್ತು 120 Hz ಮಿತಿ</string>
+    <string name="pen_details_firmware_title">ಫರ್ಮ್‌ವೇರ್ ಆವೃತ್ತಿ</string>
     <string name="keyboard_notification_channel">ಕೀಬೋರ್ಡ್ ಸಂಪರ್ಕ</string>
     <string name="keyboard_connected_title">ಕೀಬೋರ್ಡ್ ಕನೆಕ್ಟ್ ಆಗಿದೆ</string>
     <string name="keyboard_disconnected_title">ಕೀಬೋರ್ಡ್ ಡಿಸ್‌ಕನೆಕ್ಟ್ ಆಗಿದೆ</string>

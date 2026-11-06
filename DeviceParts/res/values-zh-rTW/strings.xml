@@ -74,6 +74,9 @@
     <string name="pen_notification_channel">觸控筆連線</string>
     <string name="pen_connected_title">觸控筆已連線</string>
     <string name="pen_disconnected_title">觸控筆已中斷連線</string>
+    <string name="pen_details_settings_title">觸控筆設定</string>
+    <string name="pen_details_settings_summary">連線通知和 120 Hz 限制</string>
+    <string name="pen_details_firmware_title">韌體版本</string>
     <string name="keyboard_notification_channel">鍵盤連線</string>
     <string name="keyboard_connected_title">鍵盤已連線</string>
     <string name="keyboard_disconnected_title">鍵盤已中斷連線</string>

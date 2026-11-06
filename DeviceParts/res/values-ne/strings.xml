@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">स्टाइलस जडान</string>
     <string name="pen_connected_title">स्टाइलस जडान भयो</string>
     <string name="pen_disconnected_title">स्टाइलस विच्छेद भयो</string>
+    <string name="pen_details_settings_title">स्टाइलस सेटिङहरू</string>
+    <string name="pen_details_settings_summary">स्टाइलस जडानका सूचनाहरू र 120 Hz सीमा</string>
+    <string name="pen_details_firmware_title">फर्मवेयर संस्करण</string>
     <string name="keyboard_notification_channel">किबोर्ड जडान</string>
     <string name="keyboard_connected_title">किबोर्ड जडान भयो</string>
     <string name="keyboard_disconnected_title">किबोर्ड विच्छेद भयो</string>

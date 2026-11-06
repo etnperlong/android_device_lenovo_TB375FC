@@ -71,6 +71,9 @@
     <string name="pen_notification_channel">Ligação da caneta stylus</string>
     <string name="pen_connected_title">Caneta stylus ligada</string>
     <string name="pen_disconnected_title">Caneta stylus desligada</string>
+    <string name="pen_details_settings_title">Definições da caneta</string>
+    <string name="pen_details_settings_summary">Notificações de ligação da caneta stylus e o limite de 120 Hz</string>
+    <string name="pen_details_firmware_title">Versão do firmware</string>
     <string name="keyboard_notification_channel">Ligação do teclado</string>
     <string name="keyboard_connected_title">Teclado ligado</string>
     <string name="keyboard_disconnected_title">Teclado desligado</string>
