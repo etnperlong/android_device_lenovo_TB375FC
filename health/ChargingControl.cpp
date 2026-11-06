@@ -112,19 +112,24 @@ ChargingControl::ChargingControl() {
         PLOG(ERROR) << "No wakeup alarm for the charging deadline";
         mTimerFd.reset(timerfd_create(CLOCK_BOOTTIME, TFD_NONBLOCK | TFD_CLOEXEC));
     }
-    PCHECK(mTimerFd >= 0) << "Failed to create the deadline timer";
+    if (mTimerFd < 0) {
+        PLOG(FATAL) << "Failed to create the deadline timer";
+    }
     std::thread(&ChargingControl::timerLoop, this).detach();
 }
 
 void ChargingControl::timerLoop() {
     android::base::unique_fd epollFd(epoll_create1(EPOLL_CLOEXEC));
-    PCHECK(epollFd >= 0) << "Failed to create the deadline epoll";
+    if (epollFd < 0) {
+        PLOG(FATAL) << "Failed to create the deadline epoll";
+    }
     // EPOLLWAKEUP (CAP_BLOCK_SUSPEND) keeps the tablet awake from the alarm until the limit has
     // been lifted and this waits again.
     epoll_event event = {};
     event.events = EPOLLIN | EPOLLWAKEUP;
-    PCHECK(epoll_ctl(epollFd, EPOLL_CTL_ADD, mTimerFd, &event) == 0)
-            << "Failed to watch the deadline timer";
+    if (epoll_ctl(epollFd, EPOLL_CTL_ADD, mTimerFd, &event) != 0) {
+        PLOG(FATAL) << "Failed to watch the deadline timer";
+    }
 
     while (true) {
         epoll_event ready;
