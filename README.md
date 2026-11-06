@@ -227,10 +227,24 @@ USB Ethernet adapters are driven by the GKI `system_dlkm` drivers (`r8152`, `r81
 ### Bluetooth classic profiles
 `tb375fc-stock-vendor-props.mk` explicitly enables A2DP source, both HFP roles,
 AVRCP controller/target, HID host, OPP, PBAP server and MAP server for the AOSP
-Bluetooth stack. HID device mode remains disabled, as do A2DP hardware offload
-and the existing disabled LE profiles. These gates enable the profile services;
-they are not a claim of verified headset playback or keyboard connectivity on
-every build.
+Bluetooth stack. HID device mode remains disabled, as does A2DP hardware
+offload. These gates enable the profile services; they are not a claim of
+verified headset playback or keyboard connectivity on every build.
+
+### Bluetooth LE Audio
+Stock leaves LE Audio off. Here the unicast client is on with CSIP, VCP, MCP
+and CCP (Settings reports LE Audio support only with all five), and so is the
+broadcast assistant, which lets LE Audio earbuds join an Auracast broadcast.
+The stack encodes LC3 itself; LE Audio hardware offload stays off. With A2DP
+offload disabled, audioserver loads
+`audio_policy_configuration_a2dp_offload_disabled.xml`, whose `bluetooth`
+module (`audio.bluetooth.default`) has the LE Audio ports, and stock's AIDL
+Bluetooth audio provider has a software LE Audio session
+(`MtkBTAudioProviderLeAudioSW`). The tablet cannot broadcast itself: that
+module has no BLE broadcast device. Dual-mode earbuds keep A2DP and HFP unless
+their model is on the LE Audio allowlist or "LE Audio" is turned on in the
+device's Bluetooth details. Whether the MediaTek controller and Bluetooth HAL
+carry LE Audio's isochronous channels still needs device validation.
 
 ### Speaker channels
 The four speakers are driven by Awinic amplifiers whose channel layout follows the screen rotation. The MediaTek audio HAL takes the rotation as the `gsensor_rotation` parameter (it ignores AOSP's `rotation`), which stock ZUI's AudioService sends on every rotation. `DeviceParts` does the same (display rotation 0/90/180/270 → 270/0/90/180, as on stock), also after an audioserver restart, so left and right stay on the correct side in every orientation.

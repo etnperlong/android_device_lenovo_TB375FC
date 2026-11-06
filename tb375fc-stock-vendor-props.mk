@@ -51,6 +51,14 @@
 # services.jar (BaseBluetoothPolicy.getBatteryLevel) reads the pen's GATT
 # Battery Level (0x2A19) itself, while on AOSP only the BAS client reports it
 # as BluetoothDevice.getBatteryLevel(), which Settings and Quick Settings show.
+# LE Audio is on although stock has it off: the unicast client with CSIP, VCP,
+# MCP and CCP (all five are needed for Settings' LE Audio support) and the
+# broadcast assistant. The stack encodes LC3 itself (LE Audio offload stays
+# off): with A2DP offload disabled, audioserver loads
+# audio_policy_configuration_a2dp_offload_disabled.xml, whose bluetooth module
+# (audio.bluetooth.default) has the LE Audio ports, and stock's AIDL Bluetooth
+# audio provider has a software LE Audio session (MtkBTAudioProviderLeAudioSW).
+# Broadcast source stays off: that module has no BLE broadcast device.
 
 PRODUCT_VENDOR_PROPERTIES += \
     aaudio.mmap_exclusive_policy=2 \
@@ -62,24 +70,24 @@ PRODUCT_VENDOR_PROPERTIES += \
     bluetooth.profile.a2dp.source.enabled=true \
     bluetooth.profile.avrcp.controller.enabled=true \
     bluetooth.profile.avrcp.target.enabled=true \
-    bluetooth.profile.bap.broadcast.assist.enabled=false \
+    bluetooth.profile.bap.broadcast.assist.enabled=true \
     bluetooth.profile.bap.broadcast.source.enabled=false \
-    bluetooth.profile.bap.unicast.client.enabled=false \
+    bluetooth.profile.bap.unicast.client.enabled=true \
     bluetooth.profile.bas.client.enabled=true \
     bluetooth.profile.bass.client.enabled=false \
-    bluetooth.profile.ccp.server.enabled=false \
-    bluetooth.profile.csip.set_coordinator.enabled=false \
+    bluetooth.profile.ccp.server.enabled=true \
+    bluetooth.profile.csip.set_coordinator.enabled=true \
     bluetooth.profile.hap.client.enabled=false \
     bluetooth.profile.hfp.ag.enabled=true \
     bluetooth.profile.hfp.hf.enabled=true \
     bluetooth.profile.hid.device.enabled=false \
     bluetooth.profile.hid.host.enabled=true \
     bluetooth.profile.map.server.enabled=true \
-    bluetooth.profile.mcp.server.enabled=false \
+    bluetooth.profile.mcp.server.enabled=true \
     bluetooth.profile.opp.enabled=true \
     bluetooth.profile.pbap.server.enabled=true \
     bluetooth.profile.sap.server.enabled=true \
-    bluetooth.profile.vcp.controller.enabled=false \
+    bluetooth.profile.vcp.controller.enabled=true \
     camera.disable_zsl_mode=1 \
     dalvik.vm.dex2oat64.enabled=true \
     dalvik.vm.finalizer-timeout-ms=40000 \
