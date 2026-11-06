@@ -12,4 +12,14 @@
         instead, as the Pixel Wi-Fi overlays do.
     -->
     <bool name="config_wifiUpdateCountryCodeFromScanResultGeneric">true</bool>
+
+    <!--
+        Bridged soft AP: one hotspot on 2.4 GHz and 5 GHz at once (ap0 and
+        ap1, ro.vendor.wifi.sap.interface / concurrent.iface). Stock's vendor
+        WifiResOverlay sets it; MediaTek's Wi-Fi HAL offers a "Dual AP
+        Concurrency" chip mode and the framework only bridges when the HAL's
+        interface combinations allow it. STA + bridged AP stays off, as on
+        stock: with Wi-Fi connected, the hotspot uses one band.
+    -->
+    <bool name="config_wifiBridgedSoftApSupported">true</bool>
 </resources>

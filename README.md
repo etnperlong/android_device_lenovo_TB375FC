@@ -218,6 +218,9 @@ MediaTek socket types outside AOSP's grant to init, so the device policy also
 allows `unlink` on them; without it, Wi-Fi could not be turned back on after
 being turned off until a reboot (`Failed to unlink old socket 'wpa_wlan0'`).
 
+### Wi-Fi hotspot
+The soft AP capabilities come from MediaTek's `hardware/mediatek` overlays, which `mssi.mk` installs for mt6897 with the same values as stock's vendor `WifiResOverlay`: WPA3-SAE, IEEE 802.11ac and 802.11ax, automatic channel selection and 6 GHz for the hotspot, and connected/P2P MAC randomization, 802.11r and background scan for the client (`MssiWifiOverlay`, `MssiWifiMultiStaOverlay`, `MssiWifi6gOverlay`). The stock `hostapd` and Wi-Fi driver support these (`sae_password`, `ieee80211ax`, `acs_*` options; the driver's 6 GHz and ACS paths). `WifiResDeviceOverlay` adds the bridged soft AP that stock also enables (`config_wifiBridgedSoftApSupported`): the hotspot runs on 2.4 GHz and 5 GHz at once (`ap0` and `ap1`), which MediaTek's Wi-Fi HAL offers as its "Dual AP Concurrency" mode. "Extend compatibility" then keeps both bands up; off, the framework shuts down a band no client uses. While Wi-Fi is connected the hotspot falls back to a single band, as on stock (`config_wifiStaWithBridgedSoftApConcurrencySupported` stays off). Hotspot operation still needs device validation.
+
 ### Bluetooth classic profiles
 `tb375fc-stock-vendor-props.mk` explicitly enables A2DP source, both HFP roles,
 AVRCP controller/target, HID host, OPP, PBAP server and MAP server for the AOSP
