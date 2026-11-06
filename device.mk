@@ -457,6 +457,13 @@ PRODUCT_PACKAGES += \
 #     SimAppDialog/CarrierDefaultApp/ImsServiceEntitlement.
 #   - proprietary-files.txt lists neither the stock CarrierConfig nor ImsService.
 
+# USB Ethernet adapters already work: system_dlkm ships r8152, r8153_ecm,
+# ax88179_178a, asix, cdc_ether and cdc_ncm, and ConnectivityService
+# starts the Ethernet service for any USB host. Declare the feature as well,
+# so apps that check for it see a wired network is possible. Stock does not.
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.ethernet.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.ethernet.xml
+
 # Display orientation: keep stock ORIENTATION_270. The Novatek NT36532 kernel
 # driver applies an internal rotation transform based on the DT-configured
 # panel mount orientation (270 deg), which only aligns with the display when
