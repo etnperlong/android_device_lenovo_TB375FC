@@ -47,6 +47,10 @@
 #
 # Explicit AOSP Bluetooth profile gates for classic audio, media control,
 # HID host and sharing. Keep HID device mode and A2DP hardware offload off.
+# The Battery Service client is on although stock has it off: stock's
+# services.jar (BaseBluetoothPolicy.getBatteryLevel) reads the pen's GATT
+# Battery Level (0x2A19) itself, while on AOSP only the BAS client reports it
+# as BluetoothDevice.getBatteryLevel(), which Settings and Quick Settings show.
 
 PRODUCT_VENDOR_PROPERTIES += \
     aaudio.mmap_exclusive_policy=2 \
@@ -61,7 +65,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     bluetooth.profile.bap.broadcast.assist.enabled=false \
     bluetooth.profile.bap.broadcast.source.enabled=false \
     bluetooth.profile.bap.unicast.client.enabled=false \
-    bluetooth.profile.bas.client.enabled=false \
+    bluetooth.profile.bas.client.enabled=true \
     bluetooth.profile.bass.client.enabled=false \
     bluetooth.profile.ccp.server.enabled=false \
     bluetooth.profile.csip.set_coordinator.enabled=false \
