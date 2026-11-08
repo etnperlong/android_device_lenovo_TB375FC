@@ -2470,31 +2470,26 @@ vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta
 vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta
 vendor/thh/ta/isee_model.json
 
-# Blobs whose basename matches an AOSP source module (ANGLE, RenderScript,
-# versioned protobuf, gpu_counter_producer). As generated cc_prebuilt modules
-# they would collide with the AOSP modules, so ship them as raw copies,
-# matching the stock image. libEGL_angle.so is loaded during the zygote GLES
-# preload; without it app_process hits a null EGL dispatch and the device
-# never leaves the boot animation.
+# Blobs whose basename matches an AOSP source module (ANGLE, versioned
+# protobuf, gpu_counter_producer). As generated cc_prebuilt modules they would
+# collide with the AOSP modules, so ship them as raw copies, matching the stock
+# image. libEGL_angle.so is loaded during the zygote GLES preload; without it
+# app_process hits a null EGL dispatch and the device never leaves the boot
+# animation.
+#
+# Do not add libRS_internal/libRSCpuRef/libRSDriver/libbcinfo/libblas/
+# libcompiler_rt to vendor: stock vendor ships only the RenderScript HAL impl.
+# The impl dlopen()s libRS_internal.so from the sphal namespace, which must
+# miss in /vendor/lib64 so the sphal->rs link loads it from the v34 VNDK APEX,
+# where libft2.so is reachable. A vendor copy is found first and aborts every
+# RenderScript.create() with "libft2.so not found ... in namespace sphal".
 vendor/bin/gpu_counter_producer;MAKE_COPY_RULE_ONLY
 vendor/lib/egl/libEGL_angle.so;MAKE_COPY_RULE_ONLY
 vendor/lib/egl/libGLESv1_CM_angle.so;MAKE_COPY_RULE_ONLY
 vendor/lib/egl/libGLESv2_angle.so;MAKE_COPY_RULE_ONLY
-vendor/lib/libRSCpuRef.so;MAKE_COPY_RULE_ONLY
-vendor/lib/libRSDriver.so;MAKE_COPY_RULE_ONLY
-vendor/lib/libRS_internal.so;MAKE_COPY_RULE_ONLY
-vendor/lib/libbcinfo.so;MAKE_COPY_RULE_ONLY
-vendor/lib/libblas.so;MAKE_COPY_RULE_ONLY
-vendor/lib/libcompiler_rt.so;MAKE_COPY_RULE_ONLY
 vendor/lib/libprotobuf-cpp-full-4.25.8.so;MAKE_COPY_RULE_ONLY
 vendor/lib/libprotobuf-cpp-lite-4.25.8.so;MAKE_COPY_RULE_ONLY
 vendor/lib64/egl/libEGL_angle.so;MAKE_COPY_RULE_ONLY
 vendor/lib64/egl/libGLESv1_CM_angle.so;MAKE_COPY_RULE_ONLY
 vendor/lib64/egl/libGLESv2_angle.so;MAKE_COPY_RULE_ONLY
-vendor/lib64/libRSCpuRef.so;MAKE_COPY_RULE_ONLY
-vendor/lib64/libRSDriver.so;MAKE_COPY_RULE_ONLY
-vendor/lib64/libRS_internal.so;MAKE_COPY_RULE_ONLY
-vendor/lib64/libbcinfo.so;MAKE_COPY_RULE_ONLY
-vendor/lib64/libblas.so;MAKE_COPY_RULE_ONLY
-vendor/lib64/libcompiler_rt.so;MAKE_COPY_RULE_ONLY
 vendor/lib64/libprotobuf-cpp-full-4.25.8.so;MAKE_COPY_RULE_ONLY
